@@ -1,4 +1,4 @@
-# Magic: A System for the practice of what can sometimes feel like magic
+# A System for the practice of what can sometimes feel like magic
 
 There should be a "people layer" to AI deployment. A layer developed by humanity as a shield between AI and humans. Where we decide in the form of a collectively developed shield spec what form of AI we want to expose ourselves to. For a start I propose magic.
 
