@@ -1,6 +1,6 @@
 # A system for the practice of what can sometimes feel like magic
 
-There should be a "people layer" to AI deployment. Developed by humanity as a protective layer between AI and the individual. Where everyone can decide on the form of a collectively developed shield spec what form of AI they want to expose themselves to. But it should not hamper the potential that AI can have on our lives even if this might be a bumpy ride. For a start I propose to model it after the practice of magic.
+Humanity must cultivate a shared culture for engaging with AI. This culture should be an ongoing exploration, a collective effort to discover and codify best practices. Its principles must serve two vital ends: to act as a **protective ward**, reducing harm to the individual, and as a **focusing lens**, enhancing human agency and effectiveness. While the path is one of discovery, the ultimate goal is to ensure these new technologies serve the broad benefit of humanity. We propose a starting point for this culture: a system modeled on the art of magic.
 
 ## The Vision: A New Kind of Magic
 
