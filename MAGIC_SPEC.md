@@ -20,7 +20,8 @@ This specification document serves as the **Law** of the system—the single sou
 
 | Metaphorical Term | Technical Equivalent | Description                                                                                             |
 | ----------------- | -------------------- | ------------------------------------------------------------------------------------------------------- |
-| **Magic**         | AI Framework         | The complete system for developing and running prompt-based AI applications.                            |
+| **magic**         | AI Framework         | The complete system for developing and running prompt-based AI applications.                            |
+| **MAGIC**         | Organization         | The **Mages' Alliance for Generally Intermittent Computation**; the collective that stewards the `magic` system. |
 | **Wizard**        | User / Developer     | The human operator of the system.                                                                       |
 | **Spirit**        | AI Agent             | The Large Language Model acting under the user's rules and prompts.                                     |
 | **Spell**         | Prompt / Command     | A specific instruction or set of instructions given to the Spirit.                                      |

@@ -28,6 +28,12 @@ To truly master this art, a Wizard must study its principles. The **Lore of Magi
 
 *To learn more, consult the **[Core Principles of Magic](system/lore/principles_of_magic.md)**.*
 
+## The Mages' Alliance (MAGIC)
+
+The `magic` system is stewarded by the **Mages' Alliance for Generally Intermittent Computation (MAGIC)**—a collective of practitioners dedicated to the collaborative study, practice, and advancement of this art. Our alliance is founded on the principles of individual autonomy, shared discovery, and a healthy sense of humor about the often-unpredictable nature of our craft.
+
+*To learn more about our philosophy, consult **[The Alliance Charter](system/lore/the_alliance.md)**.*
+
 ## The Wizard's Workshop
 
 Magic is practiced in a well-organized workshop. Here are the key areas:
