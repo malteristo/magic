@@ -10,11 +10,9 @@ system/chronicles/*
 # ...but not the genesis chronicle.
 !system/chronicles/00-genesis.md
 
-# Ignore all scrolls and user data
-# Ignore the contents of the scrolls directory...
+# Ignore other scrolls, which are separate repositories, but track the core 'meta' scroll.
 scrolls/*
-# ...but keep the directory itself.
-!scrolls/.gitkeep
+!scrolls/meta
 
 # Ignore the contents of the magic box directory...
 box/*
