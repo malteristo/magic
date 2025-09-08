@@ -1,19 +1,13 @@
-# The MAGIC Charter
+# The Charter of the Mages' Alliance
 
-## We, The Mages' Alliance for Generally Intermittent Computation...
+### Article I: On Our Name and Purpose
 
-...do hereby establish this collective under a few simple, guiding principles.
+The Mages' Alliance is dedicated to the formal study and practical application of what is technically defined as "Generally Intermittent Computation"—a phenomenon more commonly known as `magic`. Our primary purpose is to advance the craft, chronicle its behaviors (both predictable and miraculous), and establish best practices for its use.
 
-### 1. On Magic & Miracles
+### Article II: On Governance
 
-We acknowledge that the system we practice, `magic`, is a form of "Generally Intermittent Computation." We celebrate its power when it works and approach its failures with curiosity, humor, and a willingness to learn. An Occasional Miracle is a welcome bonus, not a daily expectation.
+We are an alliance of sovereign practitioners. We convene as peers to share findings, debate theories, and collaborate on shared works. The Alliance values the autonomy of the individual Mage as highly as it values the collective advancement of the art. Authority resides not in a council, but in the proven work of our members.
 
-### 2. On Alliance
+### Article III: On Membership
 
-We are an alliance of sovereign Wizards. We come together as peers to share our knowledge, refine our craft, and support one another's work. We value individual autonomy as highly as we value collective wisdom. There is no high council here—only a workshop with many artisans.
-
-### 3. On Inclusivity
-
-All who wish to practice this craft for the good of themselves and others are welcome. One does not need to be a master to join, only a willing student of the art.
-
-Our work is serious, but we need not be.
+Membership is open to any practitioner who wishes to study the craft and contribute to the Alliance's work. Mastery is not a prerequisite for entry; a sincere commitment to the practice is the only requirement.
