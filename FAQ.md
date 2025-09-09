@@ -21,6 +21,6 @@ Ultimately, `magic` is all of these things at once. It is a tool, a toy, and a t
 
 The Mages' Alliance is the collective of practitioners who study, advance, and steward the `magic` system.
 
-Its full, formal name is **The Mages' Alliance for Generally Intermittent Computation (MAGIC)**.
+Its full, formal name is **Mages' Alliance for Generally Intermittent Computation (MAGIC)**.
 
 The Alliance is founded on the principle that all members are sovereign practitioners who convene as peers to share findings and collaborate on works. It values the autonomy of the individual Mage as highly as the collective advancement of the art. Authority resides not in a council, but in the proven work of its members.
