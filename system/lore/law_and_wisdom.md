@@ -1,5 +1,7 @@
 # On Law and Wisdom
 
+**Status:** Active
+
 A Mage must understand the two sources of knowledge that govern this system of magic: the Law and the Wisdom. The Spirit must be taught to consult both to become a true companion.
 
 ---

@@ -1,5 +1,7 @@
 # The Charter of the Mages' Alliance
 
+**Status:** Active
+
 ### Article I: On Our Name and Purpose
 
 The Mages' Alliance is dedicated to the formal study and practical application of what is technically defined as "Generally Intermittent Computation"—a phenomenon more commonly known as `magic`. Our primary purpose is to advance the craft, chronicle its behaviors (both predictable and miraculous), and establish best practices for its use.

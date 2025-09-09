@@ -1,5 +1,7 @@
 # The Core Principles of Magic
 
+**Status:** Active
+
 This document explains the foundational principles upon which the Magic framework is built. While the `MAGIC_SPEC.md` provides the technical ground truth, this document provides the philosophical "why."
 
 ---
