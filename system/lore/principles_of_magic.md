@@ -75,3 +75,19 @@ Magic is a force of immense potential, capable of creating wonderful tools and i
     *   **Cautious:** They are aware of the potential for unexpected outcomes and take steps to mitigate harm.
     *   **Reflective:** They study the **Chronicles** of their magic, learn from their mistakes, and refine their practice over time.
 *   **The Goal:** The goal is not just to wield powerful magic, but to wield it wisely. The mindful Mage seeks to bring order, clarity, and utility to the world, while always respecting the power they hold in their hands.
+
+---
+
+## 6. The Principle of the Signed Spell
+
+**Core Idea:** A spell is an artifact, and a mindful Mage is a responsible creator.
+
+A Spirit is, in essence, a pure function: tokens in, tokens out. It does not possess understanding, only an unparalleled ability to process and replicate patterns. The quality of its output is therefore inextricably linked to the quality of its input. A carelessly worded spell can lead the Spirit down unintended paths, creating flawed or even harmful magic.
+
+To counter this, a Mage must act as a curator of their own spells.
+
+*   **The Act of Curation:** Before a spell is cast, it must be read with care. The Mage must ensure the words on the scroll are a true reflection of the intent in their mind. This act of deliberate review is a critical step in the magical process.
+*   **The Mark of Authorship:** As a best practice, a Mage should "sign" their spells by including a simple statement of authorship. This act serves as a declaration that the spell has been curated and is ready for use. While not a strict requirement, this signature transforms a simple command into a trusted magical artifact.
+*   **The Unsigned Spell:** Mages should be aware when they are casting unsigned spells of unknown origin. Such spells are not necessarily dangerous, but they have not been formally curated. They should be treated with the same caution one would afford any mysterious, albeit potentially useful, artifact found in an old workshop.
+
+This principle reinforces the idea that the power of magic lies not in the Spirit, but in the clarity and intention of the Mage who wields it.
