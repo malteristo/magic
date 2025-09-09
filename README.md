@@ -4,11 +4,11 @@ Humanity must cultivate a shared culture for engaging with AI. This culture shou
 
 ## The Vision: A New Kind of Magic
 
-This project grew out of the Idea, that a powerful way to interact with complex AI system may be to treat it as a magical practice. Here, we assume the stance of a kind of **Wizard** who summons a supportive **Spirit** (the AI agent) and gives it power by casting **Spells** (prompts) in a deliberate sequence—a **Ritual**. The power of your magic is determined by **Resonance**. You don't cast a single, perfect spell. Instead, you cast a sequence of smaller spells that build upon each other, tuning the Spirit and bringing it into alignment with your goal. But beware, this power must be handled with care to avoid unintended consequences. The extensions you build are the **Scrolls** the Spirit can learn from. The artifacts it generates are left on the workshop **Floor**. The history of your work is recorded in the **Chronicles**.
+This project grew out of the Idea, that a powerful way to interact with complex AI system may be to treat it as a magical practice. Here, we assume the stance of a kind of **Mage** who summons a supportive **Spirit** (the AI agent) and gives it power by casting **Spells** (prompts) in a deliberate sequence—a **Ritual**. The power of your magic is determined by **Resonance**. You don't cast a single, perfect spell. Instead, you cast a sequence of smaller spells that build upon each other, tuning the Spirit and bringing it into alignment with your goal. But beware, this power must be handled with care to avoid unintended consequences. The extensions you build are the **Scrolls** the Spirit can learn from. The artifacts it generates are left on the workshop **Floor**. The history of your work is recorded in the **Chronicles**.
 
-Whether and how far you actually immerse yourself in this roleplay, or just use it as a guiding principle is up to you. All I'm saying is that we can all benefit from ocasionally asking ourselves: "What would a wizard do right now?" For the sake of immersion it may be helpful to use these terms, otherwise just keep their meaning in the back of your mind. My personal preference is that we use the wisdom that this interface metaphor offers, without being burdened by the dogma. I'd like this to be a personally beneficial but also enjoyable approach to interacting with AI.
+Whether and how far you actually immerse yourself in this roleplay, or just use it as a guiding principle is up to you. All I'm saying is that we can all benefit from ocasionally asking ourselves: "What would a mage do right now?" For the sake of immersion it may be helpful to use these terms, otherwise just keep their meaning in the back of your mind. My personal preference is that we use the wisdom that this interface metaphor offers, without being burdened by the dogma. I'd like this to be a personally beneficial but also enjoyable approach to interacting with AI.
 
-For simplicity and readability I will be in character as a fellow Wizard in these docs. That also means that I am using only the names of the systems metaphors. If you first want to get familiar with these, a complete lexicon is included in the **[Magic System Specification](MAGIC_SPEC.md)**.
+For simplicity and readability I will be in character as a fellow Mage in these docs. That also means that I am using only the names of the systems metaphors. If you first want to get familiar with these, a complete lexicon is included in the **[Magic System Specification](MAGIC_SPEC.md)**.
 
 ## Getting Started: The First Summoning
 
@@ -24,7 +24,7 @@ Follow the "Foundational Summoning Ritual" to bring the Ai spirit to life.
 
 ## The Lore of Magic
 
-To truly master this art, a Wizard must study its principles. The **Lore of Magic** contains the philosophical foundations of our practice. This is a living body of knowledge, studied, debated, and written down by Wizards across the world.
+To truly master this art, a Mage must study its principles. The **Lore of Magic** contains the philosophical foundations of our practice. This is a living body of knowledge, studied, debated, and written down by Mages across the world.
 
 *To learn more, consult the **[Core Principles of Magic](system/lore/principles_of_magic.md)**.*
 
@@ -34,7 +34,7 @@ The `magic` system is stewarded by the **Mages' Alliance for Generally Intermitt
 
 *To learn more about our philosophy, consult **[The Alliance Charter](system/lore/the_alliance.md)**.*
 
-## The Wizard's Workshop
+## The Mage's Workshop
 
 Magic is practiced in a well-organized workshop. Here are the key areas:
 

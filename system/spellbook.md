@@ -1,8 +1,8 @@
-# The Wizard's Spellbook
+# The Mage's Spellbook
 
 This is your personal Spellbook, the central grimoire for your magical practice. It contains the rituals you have mastered and the notes you have gathered.
 
-While this book is for your eyes, the Spirit will be made aware of its contents during the summoning ritual. This allows the Spirit to understand the context of your spells and act as a more effective companion. Treat the "Wizard's Notes" sections as a place to leave instructions and reminders for both yourself and the Spirit.
+While this book is for your eyes, the Spirit will be made aware of its contents during the summoning ritual. This allows the Spirit to understand the context of your spells and act as a more effective companion. Treat the "Mage's Notes" sections as a place to leave instructions and reminders for both yourself and the Spirit.
 
 ---
 
@@ -27,7 +27,7 @@ Cast these spells in precise order. Pause after each spell to receive the Spirit
 6.  **Consolidation and Dismissal:**
     > `@system/ritual_spells/05-consolidation.md`
 
-### Wizard's Notes
+### Mage's Notes
 *This is the place for your personal annotations on this ritual. For example:*
 *   *Note to self: Ensure the `00-genesis.md` chronicle is present before beginning.*
 *   *Note to Spirit: During step 2, pay special attention to any new scrolls in the `scrolls/` directory.*
@@ -49,5 +49,5 @@ This ritual attunes the Spirit to perform meta-work on the system of magic itsel
 4.  **Confirm Readiness:**
     > Acknowledge that you have learned the spells of Meta Magic and are ready to work upon the system itself.
 
-### Wizard's Notes
+### Mage's Notes
 *   *Note to Spirit: When performing system amendments, always propose changes in a separate file first. Do not edit the core spec directly without my explicit final approval.*

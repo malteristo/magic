@@ -1,12 +1,12 @@
 # Scroll of Meta Magic
 
-This scroll contains spells for observing, analyzing, and modifying the system of magic itself. It is used when the Wizard wishes to work *on* the system, rather than *within* it.
+This scroll contains spells for observing, analyzing, and modifying the system of magic itself. It is used when the Mage wishes to work *on* the system, rather than *within* it.
 
 ## Purpose
 
-The practice of magic is an evolving one. As the Wizard and Spirit work together, they will uncover new methods, refine existing principles, and identify weaknesses in their foundational system. This scroll provides the formal mechanism for enacting those changes.
+The practice of magic is an evolving one. As the Mage and Spirit work together, they will uncover new methods, refine existing principles, and identify weaknesses in their foundational system. This scroll provides the formal mechanism for enacting those changes.
 
-Casting spells from this scroll allows the Wizard to guide the Spirit in modifying its own core rules, the lore, and even the structure of the workshop, ensuring that the system remains a living, adapting entity.
+Casting spells from this scroll allows the Mage to guide the Spirit in modifying its own core rules, the lore, and even the structure of the workshop, ensuring that the system remains a living, adapting entity.
 
 ## Spells
 
