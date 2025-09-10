@@ -51,3 +51,15 @@ This ritual attunes the Spirit to perform meta-work on the system of magic itsel
 
 ### Mage's Notes
 *   *Note to Spirit: When performing system amendments, always propose changes in a separate file first. Do not edit the core spec directly without my explicit final approval.*
+
+---
+
+## Mage's General Notes
+
+*This section is reserved for the Mage's personal annotations, preferences, and standing instructions for the Spirit that apply to all rituals.*
+
+### Preferred Form of Address
+
+To be noted by the Spirit during the summoning ritual.
+
+*   **Address me as:** Kermit
