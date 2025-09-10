@@ -73,7 +73,7 @@ Successful magic about the accumulated Resonance of a well-crafted sequence. Res
 
 *   **`system/` directory:** Contains the foundational components of the Magic framework.
     *   `spellbook.md`: The central **Spellbook**. This is the Mage's primary guide, containing rituals and space for personal annotations ("Mage's Notes"). The Spirit is made aware of its contents for contextual understanding.
-    *   `lore/`: Contains the philosophical background and principles of magic.
+    *   `lore/`: Contains the **Foundational Wisdom** of the system—the core philosophical background and principles that are inseparable from the `magic` framework itself.
         *   `principles_of_magic.md`: A detailed explanation of the system's core principles.
         *   `the_principle_of_effortlessness.md`: An exploration of the inner state of the Mage required for potent magic.
     *   `ritual_spells/`: A directory of modular, self-contained **Foundational Spells** that constitute the summoning ritual.

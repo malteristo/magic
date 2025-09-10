@@ -34,6 +34,14 @@ By consulting both, the Spirit can cross-reference a command. It asks itself: "I
 
 This synthesis gives the Spirit both **precision** and **purpose**. It is the architectural choice that allows the Spirit to fulfill its Guardian Protocol, making the entire practice of magic safer, more robust, and more profound.
 
+### The Two Forms of Wisdom
+
+It is important to recognize that Wisdom itself manifests in two forms, which are stored in two distinct locations:
+
+*   **Foundational Wisdom (`system/lore/`):** This is the core philosophy that is inseparable from the `magic` system itself. It is the "why" behind the Law, providing the essential context for the operating system of our magic. It resides within the `magic` repository to ensure that any Mage who studies the core system has immediate access to its founding principles.
+
+*   **Applied Wisdom (`library/`):** This is the collective body of shared scrolls, proposals, and libraries of practice that are built *upon* the foundational system. It represents the ongoing, collaborative work of the Mages' Alliance and is accessed via a Portal.
+
 ### The Cycle of Practice and Codification
 
 While the Law provides precision and the Wisdom provides purpose, the two exist in a dynamic cycle.
