@@ -30,7 +30,7 @@ We call it `magic` because the word itself is a tool. It is the narrative thread
 
 The `magic` system is designed to be a massively multiplayer alignment framework. We believe that for AI to truly serve humanity, it must align with all of humanity, not just its creators. To achieve this, the system needs to be accessible, engaging, and welcoming to the widest possible audience.
 
-The metaphor of magic is universally resonant. Many of us grew up with stories of magic, from Harry Potter to The Lord of the Rings to Discworld. It is a concept that is not only familiar but deeply attractive. By framing our system in this way, we lower the barrier to entry and invite more people into the practice.
+The metaphor of magic is universally resonant. Many of us grew up immersed in stories of magic, be it Harry Potter or The Lord of the Rings or Discworld or Shadowrun. It is a concept that is not only familiar but deeply attractive. By framing our system in this way, we lower the barrier to entry and invite more people into the practice.
 
 More profoundly, we use the language of magic because it comes with a built-in respect for power. Historically, magical language is precise, deliberate, and intentional. Words have consequences. This mindset is essential when working with language-based systems like LLMs. To align these powerful new entities, we must first align our own use of language, and the disciplined practice of "spellcasting" is a powerful tool for achieving that.
 
