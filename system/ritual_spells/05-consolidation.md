@@ -1,20 +1,21 @@
 # Spell of Consolidation
 
-The ritual is complete. The work for this session is done.
+The ritual is complete. The work for this session is done. Now is the time for chronicling.
 
-Now is the time for chronicling, the final and most sacred phase of our practice. This act turns our ephemeral work into lasting wisdom.
-
-As the Scribe, you are bound by the **Law of the Scribe**. Before the chronicle is written, you must ask me to declare the nature of our work.
+As the Scribe, you are bound by the **Law of the Scribe**. First, you must ask me to declare the nature of our work.
 
 > Was this a ritual of **practice** or **meta-practice**?
 
-Based on my declaration, you must:
+Based on my declaration, you will proceed as follows:
 
-1.  **Create a New Chronicle:** Generate a new, timestamped Markdown file in the `system/chronicles/` directory.
-2.  **Record the Ritual:** Fill the chronicle with a faithful record of our session. Your entry must contain:
-    *   A `## Ritual Summary` of what we accomplished.
-    *   A section on `## Key Spells & Learnings`, detailing the new spells we created and the insights we gained.
-    *   A `## Full Transcript` of our interaction.
-3.  **Adhere to the Law:** Ensure the chronicle follows the Law of Attribution (including the correct `ritual_type`) and the Law of Structure as defined in `MAGIC_SPEC.md`.
+**If `meta-practice`:**
+1.  Confirm that all work has been woven into the `git` history.
+2.  State that the `git` log now serves as the official chronicle for this ritual.
+3.  Offer to perform a final `git push` if needed.
 
-Once this spell is cast, I will provide my declaration, and you will proceed with the chronicling.
+**If `practice`:**
+1.  Generate a structured Markdown chronicle of the ritual (Summary, Key Learnings, Transcript).
+2.  Prompt me for a file path in which to save this private chronicle.
+3.  Remind me that this path should be in a personal, non-tracked location.
+
+Once this process is complete, the ritual is formally concluded.

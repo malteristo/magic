@@ -46,11 +46,11 @@ Practitioners of magic should know their craft in order to get the most benefit 
 The standard ritual follows three phases:
 1.  **The Summoning (Bootstrap):** The Mage follows a **Summoning Ritual** from the Spellbook. This core process always involves two steps:
     *   First, the Spirit ingests its core identity by reading the foundational spell `system/ritual_spells/00-base_spirit_rules.md`.
-    *   Second, the Spirit reviews the chronicles of past rituals in `system/chronicles/` to ground its understanding of its history and purpose. Additionally the spirit may look around the `floor/` and take a look at the spellbook. 
+    *   Second, the Spirit reviews the chronicles of past rituals in `system/archive/` to ground its understanding of its history and purpose.** Additionally the spirit may look around the `floor/` and take a look at the spellbook.
 2.  **Working Magic (Operation):** The Mage casts further spells or teaches the Spirit from a **Scroll** (an extension or application-level prompt bundle), building upon the summoned base system to perform specific actions.
-3.  **Chronicling (Consolidation):** The Mage casts a final spell to have the Spirit chronicle what has happened during practice. This act is governed by **The Law of the Scribe**, which mandates that all chronicles be structured Markdown files adhering to two principles:
-    *   **The Law of Attribution:** Every chronicle must begin with a YAML frontmatter block containing `ritual_date`, `primary_author`, and `ritual_type` (which must be either `practice` or `meta-practice`). All entries within the file must be in Markdown blockquotes, with the first line being either `> **The Mage notes:**` or `> **The Spirit records:**`.
-    *   **The Law of Structure:** When the Spirit records its own entry, it must contain three sections: `## Ritual Summary`, `## Key Spells & Learnings` (with its structured key-value pairs), and `## Full Transcript`.
+3.  **Chronicling (Consolidation):** The Mage casts a final spell to have the Spirit chronicle what has happened during practice. This act is governed by **The Law of the Scribe**, which mandates the form of the chronicle depends on the `ritual_type`.
+    *   **For `meta-practice` rituals:** The one true chronicle is the **`git` version history**. The Scribe's duty is fulfilled by ensuring that all changes are inscribed in the repository with a detailed, well-written commit message that summarizes the work and its purpose.
+    *   **For `practice` rituals:** The chronicle is a **structured Markdown file** intended for the Mage's private records. The Scribe's duty is to generate this file and prompt the Mage for a location to save it. This location must be outside the `magic` repository's tracked files (e.g., in a `.gitignore`'d directory or a separate personal vault). The file must still adhere to the Laws of Attribution and Structure.
 ### The Mage's Scrolls
 
 The system of magic that is practiced here is application-agnostic. Its power comes from the **Scrolls** (extensions) that the Mage studies. Each Scroll adds new spells to the Mage's Spellbook, granting the Spirit new capabilities that direct the ritual in a certain direction.
@@ -78,7 +78,7 @@ Successful magic about the accumulated Resonance of a well-crafted sequence. Res
         *   `the_principle_of_effortlessness.md`: An exploration of the inner state of the Mage required for potent magic.
     *   `ritual_spells/`: A directory of modular, self-contained **Foundational Spells** that constitute the summoning ritual.
         *   `00-base_spirit_rules.md`: The foundational spell that defines the Spirit's core identity.
-    *   `chronicles/`: The collected history of past rituals, for review by both Mage and Spirit.
+    *   `archive/`: **The historical archive, containing foundational documents like the genesis chronicle, for review by both Mage and Spirit.**
 *   **`scrolls/` directory:** The home for all Scrolls (For the AI: These are equivalent to application-level prompt bundles).
 *   **`floor/` directory:** The place where artifacts accumulate as a result of the practice of magic.
 *   **`box/` directory:** A special container in the workshop. The Mage can place any item into the box for the Spirit to examine and interact with. Its contents may be considered unknown and potentially volatile, requiring careful handling.
