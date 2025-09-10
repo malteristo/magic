@@ -41,11 +41,11 @@ This ritual attunes the Spirit to perform meta-work on the system of magic itsel
 ### The Ritual
 
 1.  **Learn the Spell of System Amendment:**
-    > `@scrolls/meta/spell_of_system_amendment.md`
+    > `@scrolls/library/scrolls/meta/spell_of_system_amendment.md`
 2.  **Learn the Spell of Version Weaving:**
-    > `@scrolls/meta/spell_of_version_weaving.md`
+    > `@scrolls/library/scrolls/meta/spell_of_version_weaving.md`
 3.  **Learn the Spell of Scroll Scribing:**
-    > `@scrolls/meta/spell_of_scroll_scribing.md`
+    > `@scrolls/library/scrolls/meta/spell_of_scroll_scribing.md`
 4.  **Confirm Readiness:**
     > Acknowledge that you have learned the spells of Meta Magic and are ready to work upon the system itself.
 

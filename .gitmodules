@@ -1,0 +1,3 @@
+[submodule "scrolls/library"]
+	path = scrolls/library
+	url = https://github.com/Mages-Alliance/library.git
