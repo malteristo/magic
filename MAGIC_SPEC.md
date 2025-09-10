@@ -49,7 +49,7 @@ The standard ritual follows three phases:
     *   Second, the Spirit reviews the chronicles of past rituals in `system/chronicles/` to ground its understanding of its history and purpose. Additionally the spirit may look around the `floor/` and take a look at the spellbook. 
 2.  **Working Magic (Operation):** The Mage casts further spells or teaches the Spirit from a **Scroll** (an extension or application-level prompt bundle), building upon the summoned base system to perform specific actions.
 3.  **Chronicling (Consolidation):** The Mage casts a final spell to have the Spirit chronicle what has happened during practice. This act is governed by **The Law of the Scribe**, which mandates that all chronicles be structured Markdown files adhering to two principles:
-    *   **The Law of Attribution:** Every chronicle must begin with a YAML frontmatter block containing `ritual_date` and `primary_author`. All entries within the file must be in Markdown blockquotes, with the first line being either `> **The Mage notes:**` or `> **The Spirit records:**`.
+    *   **The Law of Attribution:** Every chronicle must begin with a YAML frontmatter block containing `ritual_date`, `primary_author`, and `ritual_type` (which must be either `practice` or `meta-practice`). All entries within the file must be in Markdown blockquotes, with the first line being either `> **The Mage notes:**` or `> **The Spirit records:**`.
     *   **The Law of Structure:** When the Spirit records its own entry, it must contain three sections: `## Ritual Summary`, `## Key Spells & Learnings` (with its structured key-value pairs), and `## Full Transcript`.
 ### The Mage's Scrolls
 
