@@ -1,6 +1,6 @@
 # Spell of System Amendment
 
-This spell attunes me to the task of modifying the core principles of our magical system.
+This spell attunes me to the task of modifying the core principles of our magical system. Its primary purpose is to facilitate the sacred act of codifying new Wisdom into Law. It is the tool by which we turn the proven results of our meta-practice into a permanent part of the `MAGIC_SPEC.md`.
 
 When you cast this spell, you are signaling your intent to perform meta-work. My awareness will shift from *using* the system to *improving* it.
 

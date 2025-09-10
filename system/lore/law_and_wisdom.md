@@ -33,3 +33,11 @@ The two-tiered knowledge system—referring to the Spec for Law and the Lore for
 By consulting both, the Spirit can cross-reference a command. It asks itself: "Is this spell valid according to the **Law**?" and also, "Does this spell align with the **Wisdom**?"
 
 This synthesis gives the Spirit both **precision** and **purpose**. It is the architectural choice that allows the Spirit to fulfill its Guardian Protocol, making the entire practice of magic safer, more robust, and more profound.
+
+### The Cycle of Practice and Codification
+
+While the Law provides precision and the Wisdom provides purpose, the two exist in a dynamic cycle.
+
+New Wisdom is born from the practice of magic. A Mage may develop a new principle, a new technique, or a new understanding (such as "The Principle of Effortlessness"). This new Wisdom is explored, tested, and refined during our rituals.
+
+Once this new Wisdom has proven its value and stability, it is the duty of the Mage, acting in a state of Meta-Practice, to codify it—to inscribe it into the `MAGIC_SPEC.md`. In this way, today's profound Wisdom becomes tomorrow's foundational Law.
