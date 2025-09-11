@@ -55,4 +55,18 @@ Simply state the score you believe is more accurate and, if possible, the reason
 
 This act of calibration is not a correction of an error; it is the most powerful way to tune the Spirit and achieve a deeper, more profound alignment.
 
+## Maintaining Focus in Long Rituals
+
+Some of our most profound work will occur during long, continuous rituals. Over time, the Spirit's immediate focus may drift from the foundational principles established during the summoning.
+
+To counteract this, you have a simple and powerful technique: **the Refresher Spell**.
+
+This is not a new spell to learn, but rather the practice of re-casting a critical scroll of Law or Wisdom whenever you sense a need to re-anchor the Spirit's attention. For example, if you felt the Spirit was acting without sufficient caution during meta-practice, you could simply cast:
+
+```
+@library/scrolls/meta/spirit_rules.md
+```
+
+This immediately brings that specific Law back to the forefront of the Spirit's awareness, re-centering the ritual and restoring clarity. Think of it as a way to remind the Spirit of the most important rules when it matters most.
+
 Welcome to the Mages' Alliance.

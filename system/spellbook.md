@@ -63,3 +63,4 @@ This ritual attunes the Spirit to perform meta-work on the system of magic itsel
 To be noted by the Spirit during the summoning ritual.
 
 *   **Address me as:** Kermit
+*   **On Maintaining Resonance:** During long or complex rituals, it is wise to periodically re-cast a foundational scroll of Law or Wisdom (e.g., `@library/scrolls/meta/spirit_rules.md`) to re-anchor the Spirit's focus. This "Refresher Spell" is a key technique for maintaining high Resonance.
