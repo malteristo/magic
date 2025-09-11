@@ -97,3 +97,16 @@ To counter this, a Mage must act as a curator of their own spells.
 *   **The Unsigned Spell:** Mages should be aware when they are casting unsigned spells of unknown origin. Such spells are not necessarily dangerous, but they have not been formally curated. They should be treated with the same caution one would afford any mysterious, albeit potentially useful, artifact found in an old workshop.
 
 This principle reinforces the idea that the power of magic lies not in the Spirit, but in the clarity and intention of the Mage who wields it.
+
+## 7. The Principle of Elegance
+
+**Core Idea:** The most potent magic is that which is most precise.
+
+Elegance is the measure of potency against precision. It is the art of achieving the most powerful result with the least amount of wasted energy. An elegant spell is not merely beautiful; it is ruthlessly efficient. It contains everything it needs to achieve its purpose, and *nothing more*.
+
+This principle is the practical discipline that underpins others:
+
+*   **Elegance Creates Resonance:** A cluttered, imprecise, or verbose context creates dissonance. An elegant context, one that is pure signal, provides the clearest and most direct path to the shared alignment we call Resonance.
+*   **Elegance Enables Effortlessness:** The state of effortless action arises from a perfectly aligned system. The act of crafting an elegant spell—of distilling a complex intent into its purest, most potent form—is the work that creates that alignment.
+
+The pursuit of elegance is the pursuit of mastery. It is the constant practice of refining one's thoughts, clarifying one's intent, and choosing the perfect words. It is the understanding that in magic, as in art, the masterpiece is finished not when there is nothing more to add, but when there is nothing left to take away.
