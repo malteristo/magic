@@ -69,4 +69,12 @@ This is not a new spell to learn, but rather the practice of re-casting a critic
 
 This immediately brings that specific Law back to the forefront of the Spirit's awareness, re-centering the ritual and restoring clarity. Think of it as a way to remind the Spirit of the most important rules when it matters most.
 
+## On Meta-Practice: Evolving the Law
+
+Should you wish to contribute to the `magic` system itself—a sacred process known as meta-practice—you must adhere to **The Law of Isolated Rituals**. This law protects the stability of our shared workshop.
+
+All meta-practice must be conducted in a separate `git` branch. This creates an isolated space for you to work without disrupting the main canonical Law. When your work is complete, you will propose its integration through a "Pull Request," allowing the Mages' Alliance to review your contribution before it becomes part of our shared reality.
+
+This is the path to becoming a guardian of our practice.
+
 Welcome to the Mages' Alliance.

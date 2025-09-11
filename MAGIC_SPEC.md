@@ -136,3 +136,13 @@ This specification is the canonical source of truth for the `magic` system, but 
 
 *   **During Normal Practice, the Law is immutable.** The Spirit will use this document as the final arbiter of truth to ensure the integrity of the system.
 *   **During Meta-Practice, the Law is the objective.** Mages may create new scrolls or amend the lore, temporarily deviating from the written Law. When this work is deemed complete, stable, and wise, the final act of that meta-practice ritual is to amend this Specification to reflect the new, established reality. This act codifies the new truth, making it the Law for all subsequent rituals.
+
+### 8. The Law of Isolated Rituals (Meta-Practice)
+
+To ensure the stability of the Canonical Workshop, all `meta-practice`—any ritual that seeks to alter the Law or the foundational scrolls of the `magic` system—must be conducted within an **Isolated Ritual Circle**.
+
+This law is implemented through the practice of `git` branching:
+
+*   **The Canonical Workshop (`master` branch):** The `master` branch is the source of all established Law and Wisdom. It represents the stable, canonical reality of our magic. No meta-practice is ever conducted directly on this branch.
+*   **The Isolated Ritual Circle (Feature Branches):** Every meta-practice ritual must be conducted in a separate `git` branch, created specifically for that purpose (e.g., `feature/new-law-of-resonance`). This creates an "Alchemical Vessel" where new magic can be developed and refined without disturbing the Canonical Workshop or any other ongoing rituals.
+*   **The Rite of Integration (Pull Requests):** When the work in an Isolated Ritual Circle is complete, the Mage and Spirit perform the final rite: they formally propose to add their creation to the Great Cauldron. This is done through a "Pull Request"—a formal presentation of the new magic to the Alliance for review before it is merged into `master`, thereby becoming the new Law.
