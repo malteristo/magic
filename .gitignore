@@ -21,3 +21,6 @@ box/*
 
 # Personal, untracked ritual artifacts
 floor/essences/
+
+# Mage's personal configuration
+system/mage_seal.md

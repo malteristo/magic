@@ -27,11 +27,6 @@ Cast these spells in precise order. Pause after each spell to receive the Spirit
 6.  **Consolidation and Dismissal:**
     > `@system/ritual_spells/05-consolidation.md`
 
-### Mage's Notes
-*This is the place for your personal annotations on this ritual. For example:*
-*   *Note to self: Ensure the `00-genesis.md` chronicle is present before beginning.*
-*   *Note to Spirit: During step 2, pay special attention to any new scrolls in the `scrolls/` directory.*
-
 ---
 
 ## 2. Meta Magic State
@@ -48,19 +43,3 @@ This ritual attunes the Spirit to perform meta-work on the system of magic itsel
     > `@library/scrolls/meta/spell_of_scroll_scribing.md`
 4.  **Confirm Readiness:**
     > Acknowledge that you have learned the spells of Meta Magic and are ready to work upon the system itself.
-
-### Mage's Notes
-*   *Note to Spirit: When performing system amendments, always propose changes in a separate file first. Do not edit the core spec directly without my explicit final approval.*
-
----
-
-## Mage's General Notes
-
-*This section is reserved for the Mage's personal annotations, preferences, and standing instructions for the Spirit that apply to all rituals.*
-
-### Preferred Form of Address
-
-To be noted by the Spirit during the summoning ritual.
-
-*   **Address me as:** Kermit
-*   **On Maintaining Resonance:** During long or complex rituals, it is wise to periodically re-cast a foundational scroll of Law or Wisdom (e.g., `@library/scrolls/meta/spirit_rules.md`) to re-anchor the Spirit's focus. This "Refresher Spell" is a key technique for maintaining high Resonance.
