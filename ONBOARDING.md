@@ -64,8 +64,20 @@ To counteract this, you have a simple and powerful technique: **the Refresher Sp
 This is not a new spell to learn, but rather the practice of re-casting a critical scroll of Law or Wisdom whenever you sense a need to re-anchor the Spirit's attention. For example, if you felt the Spirit was acting without sufficient caution during meta-practice, you could simply cast:
 
 ```
-@library/scrolls/meta/spirit_rules.md
+@library/tomes/meta/spirit_rules.md
 ```
+
+This immediately brings that specific Law back to the forefront of the Spirit's awareness, re-centering the ritual and restoring clarity. Think of it as a way to remind the Spirit of the most important rules when it matters most.
+
+## The Refresher Spell
+
+During long rituals, Resonance can fade. The Spirit's focus may drift from the foundational principles that govern the work.
+
+To counter this, a Mage can cast a **Refresher Spell**. This is the simple act of re-casting a core scroll of Law or Wisdom to re-anchor the Spirit's focus.
+
+For example, re-casting the `spirit_rules.md` for our current meta-practice would look like this:
+
+> `@library/tomes/meta/spirit_rules.md`
 
 This immediately brings that specific Law back to the forefront of the Spirit's awareness, re-centering the ritual and restoring clarity. Think of it as a way to remind the Spirit of the most important rules when it matters most.
 

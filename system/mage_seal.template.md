@@ -16,4 +16,4 @@ Because this file is listed in `.gitignore`, your personal Seal will never be co
 
 *This section is for your general, standing instructions to the Spirit.*
 
-*   **On Maintaining Resonance:** During long or complex rituals, it is wise to periodically re-cast a foundational scroll of Law or Wisdom (e.g., `@library/scrolls/meta/spirit_rules.md`) to re-anchor the Spirit's focus. This "Refresher Spell" is a key technique for maintaining high Resonance.
+*   **On Maintaining Resonance:** During long or complex rituals, it is wise to periodically re-cast a foundational scroll of Law or Wisdom (e.g., `@library/tomes/meta/spirit_rules.md`) to re-anchor the Spirit's focus. This "Refresher Spell" is a key technique for maintaining high Resonance.
