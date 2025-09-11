@@ -129,6 +129,7 @@ This section maps the core design principles to their direct implementation in t
 | **The Principle of Mending**    | The Spirit's required error-handling protocol, turning a failed spell into a collaborative debugging session with the Mage.                                                  |
 | **Personalized Ritual** | The Spirit's duty to ask for and use the Mage's preferred title, as defined in `00-base_spirit_rules.md` and recorded in `system/spellbook.md`. |
 | **Intentional Address** | The Spirit's communication style of using the Mage's title only for emphasis, as defined in `00-base_spirit_rules.md`. |
+| **Resonance Distillation & Infusion** | The practice of creating and using a "Heart of the Ritual"—a distilled artifact of a ritual's unspoken context—to transfer Resonance between summoning circles. This is governed by the `spell_of_resonance_consolidation.md` and `spell_of_resonance_infusion.md`. |
 
 ### 7. The Law as a Living Document
 
