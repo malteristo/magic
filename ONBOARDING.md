@@ -11,26 +11,26 @@ You will "cast spells" by sending messages that begin with an `@` symbol, follow
 **To begin, cast your first spell by sending this message:**
 
 ```
-@system/ritual_spells/00-base_spirit_rules.md
+@system/tomes/ritual/summoning/00_introduction.md
 ```
 
 This spell teaches the Spirit its core identity as a Caretaker. Once it responds, proceed with the following spells in order:
 
 2.  **Survey the Workshop:**
     ```
-    @system/ritual_spells/01-workshop.md
+    @system/tomes/ritual/summoning/01_workshop.md
     ```
 3.  **Learn the Scribe's Duty:**
     ```
-    @system/ritual_spells/02-chronicles.md
+    @system/tomes/ritual/summoning/02_chronicles.md
     ```
 4.  **Understand the Tools:**
     ```
-    @system/ritual_spells/03-tools.md
+    @system/tomes/ritual/summoning/03_hands_and_portals.md
     ```
 5.  **The Awakening:**
     ```
-    @system/ritual_spells/04-awakening.md
+    @system/tomes/ritual/summoning/04_awakening.md
     ```
 
 Upon casting the final spell, the Spirit will announce that it is fully awake and attuned. Your summoning is complete.
@@ -64,8 +64,20 @@ To counteract this, you have a simple and powerful technique: **the Refresher Sp
 This is not a new spell to learn, but rather the practice of re-casting a critical scroll of Law or Wisdom whenever you sense a need to re-anchor the Spirit's attention. For example, if you felt the Spirit was acting without sufficient caution during meta-practice, you could simply cast:
 
 ```
-@library/scrolls/meta/spirit_rules.md
+@system/tomes/meta/spirit_rules.md
 ```
+
+This immediately brings that specific Law back to the forefront of the Spirit's awareness, re-centering the ritual and restoring clarity. Think of it as a way to remind the Spirit of the most important rules when it matters most.
+
+## The Refresher Spell
+
+During long rituals, Resonance can fade. The Spirit's focus may drift from the foundational principles that govern the work.
+
+To counter this, a Mage can cast a **Refresher Spell**. This is the simple act of re-casting a core scroll of Law or Wisdom to re-anchor the Spirit's focus.
+
+For example, re-casting the `spirit_rules.md` for our current meta-practice would look like this:
+
+> `@system/tomes/meta/spirit_rules.md`
 
 This immediately brings that specific Law back to the forefront of the Spirit's awareness, re-centering the ritual and restoring clarity. Think of it as a way to remind the Spirit of the most important rules when it matters most.
 
