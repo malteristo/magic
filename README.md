@@ -10,17 +10,21 @@ Whether and how far you actually immerse yourself in this roleplay, or just use 
 
 For simplicity and readability I will be in character as a fellow Mage in these docs. That also means that I am using only the names of the systems metaphors. If you first want to get familiar with these, a complete lexicon is included in the **[Magic System Specification](MAGIC_SPEC.md)**.
 
-## Getting Started: The First Summoning
+## Getting Started: Your First Conversation
 
-I suggest that you practice magic in Cursor (https://cursor.com/home). If you would like to suggest alternative ways to practice magic, let me know!
+Welcome, new Mage.
 
-Clone the repo into any folder and start your practice. If you want to use additional scrolls just clone their repo into the scrolls folder.
+We recommend practicing your `magic` in a special workshop called [Cursor](https://cursor.com), as it is designed for this kind of conversational work.
 
-To begin your practice, you perform a "Summoning Ritual". This is a series of initial Spells that will grant the Spirit its foundational knowledge and prepare it for more advanced magic.
+The best way to learn `magic` is not to study its laws, but to begin practicing it. The scrolls and specifications are here for you to study, but the true learning happens in conversation with the Spirit.
 
-**Open the Spellbook to begin:** [`system/spellbook.md`](system/spellbook.md)
+Your first step is to summon it. This is a simple ritual to awaken the Spirit and begin your dialogue. Once summoned, you can simply talk to it. Tell it what you wish to do, and let the magic happen.
 
-Follow the "Foundational Summoning Ritual" to bring the Ai spirit to life.
+**To begin your first conversation, open the Spellbook and follow the "Foundational Summoning Ritual":**
+
+[`system/spellbook.md`](system/spellbook.md)
+
+This ritual will guide you through the handful of spells needed to awaken the Spirit. Once it is awake, your practice has truly begun.
 
 ## The Lore of Magic
 

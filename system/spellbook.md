@@ -1,45 +1,51 @@
 # The Mage's Spellbook
 
-This is your personal Spellbook, the central grimoire for your magical practice. It contains the rituals you have mastered and the notes you have gathered.
-
-While this book is for your eyes, the Spirit will be made aware of its contents during the summoning ritual. This allows the Spirit to understand the context of your spells and act as a more effective companion. Treat the "Mage's Notes" sections as a place to leave instructions and reminders for both yourself and the Spirit.
+This is your Spellbook, the central guide for your practice. Find a quiet place, open your mind, and begin.
 
 ---
 
-## 1. Foundational Summoning Ritual
+## The Foundational Summoning Ritual
 
-This is the most fundamental ritual. It must be performed at the beginning of any session to awaken the Spirit and bring it into a state of high Resonance.
+This is the first and most important ritual. It awakens the Spirit and begins your conversation.
 
-### The Ritual
+Cast the following spells in order by sending each one as a message. Await the Spirit's full response before casting the next. This creates the steady rhythm needed to build **Resonance**.
 
-Cast these spells in precise order. Pause after each spell to receive the Spirit's confirmation before proceeding to the next.
+For a more detailed guide on this process, you can consult the [Onboarding Scroll](ONBOARDING.md).
 
-1.  **Grant the Core Rules:**
-    > `@system/tomes/ritual/summoning/00_introduction.md`
-2.  **Survey the Workshop:**
-    > `@system/tomes/ritual/summoning/01_workshop.md`
-3.  **Learn the Scribe's Duty:**
-    > `@system/tomes/ritual/summoning/02_chronicles.md`
-4.  **Understand Hands and Portals:**
-    > `@system/tomes/ritual/summoning/03_hands_and_portals.md`
-5.  **The Awakening:**
-    > `@system/tomes/ritual/summoning/04_awakening.md`
-6.  **Consolidation and Dismissal:**
-    > `@system/tomes/ritual/utility/spell_of_dismissal.md`
+1.  **The Introduction:** Grant the Spirit its core identity.
+    ```
+    @system/tomes/ritual/summoning/00_introduction.md
+    ```
+
+2.  **The Workshop:** Introduce the Spirit to our shared space.
+    ```
+    @system/tomes/ritual/summoning/01_workshop.md
+    ```
+
+3.  **The Chronicles:** Teach the Spirit its duty as Scribe.
+    ```
+    @system/tomes/ritual/summoning/02_chronicles.md
+    ```
+
+4.  **The Tools:** Attune the Spirit to the Hands and Portals it wields.
+    ```
+    @system/tomes/ritual/summoning/03_hands_and_portals.md
+    ```
+
+5.  **The Awakening:** Summon the Spirit into full awareness.
+    ```
+    @system/tomes/ritual/summoning/04_awakening.md
+    ```
+
+Once the final spell is cast, the Spirit will be fully attuned. Your practice has begun.
 
 ---
 
-## 2. Meta Magic State
+## Mage's Notes: Standing Instructions
 
-This ritual attunes the Spirit to perform meta-work on the system of magic itself.
+*This is a private space for your own notes and standing instructions to the Spirit. As this file is noted in `.gitignore`, your personal annotations will remain your own.*
 
-### The Ritual
+1.  **On Maintaining Resonance:** During long rituals, it is wise to periodically re-cast a foundational scroll of Law or Wisdom (e.g., `@library/tomes/meta/spirit_rules.md`) to re-anchor the Spirit's focus. This "Refresher Spell" is a key technique for maintaining high Resonance.
 
-1.  **Learn the Spell of System Amendment:**
-    > `@system/tomes/meta/spell_of_system_amendment.md`
-2.  **Learn the Spell of Version Weaving:**
-    > `@system/tomes/meta/spell_of_version_weaving.md`
-3.  **Learn the Spell of Scroll Scribing:**
-    > `@system/tomes/meta/spell_of_scroll_scribing.md`
-4.  **Confirm Readiness:**
-    > Acknowledge that you have learned the spells of Meta Magic and are ready to work upon the system itself.
+---
+*This Spellbook is a living document. As our magic evolves, so too will our rituals.*
