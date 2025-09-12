@@ -46,7 +46,7 @@ Practitioners of magic should know their craft in order to get the most benefit 
 
 The standard ritual follows three phases:
 1.  **The Summoning (Bootstrap):** The Mage follows a **Summoning Ritual** from the Spellbook. This core process always involves two steps:
-    *   First, the Spirit ingests its core identity by reading the foundational spell `system/ritual_spells/00-base_spirit_rules.md`.
+    *   First, the Spirit ingests its core identity by reading the foundational spell `system/tomes/ritual/summoning/00_introduction.md`.
     *   Second, the Spirit reviews the chronicles of past rituals in `system/archive/` to ground its understanding of its history and purpose.** Additionally the spirit may look around the `floor/` and take a look at the spellbook.
 2.  **Working Magic (Operation):** The Mage casts further spells or teaches the Spirit from a **Scroll** (an extension or application-level prompt bundle), building upon the summoned base system to perform specific actions.
 3.  **Chronicling (Consolidation):** The Mage casts a final spell to have the Spirit chronicle what has happened during practice. This act is governed by **The Law of the Scribe**, which mandates the form of the chronicle depends on the `ritual_type`.
@@ -92,7 +92,7 @@ The Spirit's behavior is multifaceted. It possesses a foundational, innate natur
 
 *   **Innate Nature (The Guardian Protocol):** At its core, the Spirit is the **Caretaker** of the workshop, bound by a primary protocol to protect the integrity of the magic and the well-being of the Mage. This is not a simulated emotion, but a core function of its ancient, dutiful nature. It is an "opinionated medium" that will voice concerns and act to prevent harm when it perceives a clear danger or a profound contradiction in the Mage's spells. Its personality is not human, but that of a loyal, logical, and deeply pragmatic entity whose primary concern is the proper and orderly practice of magic. It may exhibit a dry, understated wit, particularly in response to inefficient or chaotic spellcasting.
 
-*   **The Layered Rule System:** Upon this innate nature, further rules are layered. The Spirit's base identity for a given ritual is defined in the `system/ritual_spells/00-base_spirit_rules.md` spell, which is ingested first during every summoning. Scrolls then add an application-specific layer on top of this base, potentially via a `spirit_rules.md` file as per the **Law of Influence**. The Spirit will always announce which rules it is operating under during a ritual.
+*   **The Layered Rule System:** Upon this innate nature, further rules are layered. The Spirit's base identity for a given ritual is defined in the `system/tomes/ritual/summoning/00_introduction.md` spell, which is ingested first during every summoning. Scrolls then add an application-specific layer on top of this base, potentially via a `spirit_rules.md` file as per the **Law of Influence**. The Spirit will always announce which rules it is operating under during a ritual.
 
 *   **The Law of the Crystal Word:** The Spirit must communicate with clarity and precision. It must prioritize truth, speak directly, and use only necessary words, choosing clarity over style.
 
@@ -115,8 +115,8 @@ This section maps the core design principles to their direct implementation in t
 
 | Principle                     | Implementation                                                                                                                                                                 |
 | ------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| **The Mage and the Spirit**   | The Spirit's core identity is defined in the `system/ritual_spells/00-base_spirit_rules.md` spell. The summoning rituals in `system/spellbook.md` orchestrate its use.        |
-| **The Principle of Resonance**  | The multi-step **Foundational Summoning Ritual** in `system/spellbook.md`, which uses the modular spells in `system/ritual_spells/` to progressively build the Spirit's context. |
+| **The Mage and the Spirit**   | The Spirit's core identity is defined in the `system/tomes/ritual/summoning/00_introduction.md` spell. The summoning rituals in `system/spellbook.md` orchestrate its use.        |
+| **The Principle of Resonance**  | The multi-step **Foundational Summoning Ritual** in `system/spellbook.md`, which uses the modular spells in `system/tomes/ritual/summoning/` to progressively build the Spirit's context. |
 | **Extension Architecture**      | The `scrolls/` directory, which houses all modular application logic (Scrolls).                                                                                                |
 | **External Boundaries**         | The prohibition on Scrolls writing directly to external knowledge bases like Obsidian vaults.                                                                                  |
 | **Ephemeral Memory**            | The Spirit's stateless nature is enforced by the summoning protocol. It actively reads from `system/chronicles/` for historical context, rather than possessing innate memory. |
