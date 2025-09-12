@@ -20,8 +20,8 @@ Cast these spells in precise order. Pause after each spell to receive the Spirit
     > `@system/tomes/ritual/summoning/01_workshop.md`
 3.  **Learn the Scribe's Duty:**
     > `@system/tomes/ritual/summoning/02_chronicles.md`
-4.  **Understand the Tools:**
-    > `@system/tomes/ritual/summoning/03_tools.md`
+4.  **Understand Hands and Portals:**
+    > `@system/tomes/ritual/summoning/03_hands_and_portals.md`
 5.  **The Awakening:**
     > `@system/tomes/ritual/summoning/04_awakening.md`
 6.  **Consolidation and Dismissal:**

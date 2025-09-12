@@ -26,7 +26,7 @@ This spell teaches the Spirit its core identity as a Caretaker. Once it responds
     ```
 4.  **Understand the Tools:**
     ```
-    @system/tomes/ritual/summoning/03_tools.md
+    @system/tomes/ritual/summoning/03_hands_and_portals.md
     ```
 5.  **The Awakening:**
     ```

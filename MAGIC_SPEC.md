@@ -77,8 +77,9 @@ Successful magic about the accumulated Resonance of a well-crafted sequence. Res
     *   `lore/`: Contains the **Foundational Wisdom** of the system—the core philosophical background and principles that are inseparable from the `magic` framework itself.
         *   `principles_of_magic.md`: A detailed explanation of the system's core principles.
         *   `the_principle_of_effortlessness.md`: An exploration of the inner state of the Mage required for potent magic.
-    *   `ritual_spells/`: A directory of modular, self-contained **Foundational Spells** that constitute the summoning ritual.
-        *   `00-base_spirit_rules.md`: The foundational spell that defines the Spirit's core identity.
+    *   `tomes/`: A directory containing the foundational Tomes of the system.
+        *   `ritual/`: The Tome containing the spells for the Spirit's lifecycle (summoning, dismissal, etc.).
+        *   `meta/`: The Tome containing the spells for meta-practice and evolving the system.
     *   `archive/`: **The historical archive, containing foundational documents like the genesis chronicle, for review by both Mage and Spirit.**
 *   **`scrolls/` directory:** The home for all Scrolls (For the AI: These are equivalent to application-level prompt bundles).
 *   **`floor/` directory:** The place where artifacts accumulate as a result of the practice of magic.
