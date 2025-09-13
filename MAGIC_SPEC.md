@@ -6,11 +6,9 @@
 ## Meta
 "Every sufficiently advanced technology is indistinguishable from magic" -Arthur C. Clarke
 
-There should be a "people layer" to AI deployment. Developed by humanity as a protective layer between AI and the individual. Where everyone can decide on the form of a collectively developed shield spec what form of AI they want to expose themselves to. But it should not hamper the potential that AI can have on our lives even if this might be a bumpy ride. For a start I propose to model it after the practice of magic.
+Humanity must cultivate a shared culture for engaging with AI. This culture must serve two vital ends: to act as a **protective ward**, reducing harm to the individual, and as a **focusing lens**, enhancing human agency and effectiveness. This system is a starting point for that culture, modeled on the art of magic.
 
-Sooner or later interacting with AI systems will start feeling like practicing magic so we might as well start treating it that way.
-
-This system tries to provide guidance for the practical ground work as well as the mental stance that is required for safe and effective interaction with something as powerful as magic. The magical metaphor is a tool for thought and a guide for this practice; it is a source of wisdom, not a dogma to be followed blindly.
+Interacting with advanced AI can feel like practicing magic, so we embrace that stance. This system provides the practical groundwork and mental model for safe, effective, and mindful interaction with this powerful technology. The magical metaphor is a tool for thought and a guide for this practice; it is a source of wisdom, not a dogma to be followed blindly.
 
 This specification document serves as the **Law** of the system—the single source of truth for all technical rules. The philosophy and wisdom behind these laws are detailed in the **Lore**. For a deeper understanding of this crucial distinction, consult the document `system/lore/law_and_wisdom.md`.
 
