@@ -50,4 +50,4 @@ Magic is practiced in a well-organized workshop. Here are the key areas:
 ---
 *For a complete technical breakdown of the architecture, please consult the official **[Magic System Specification](MAGIC_SPEC.md)**.*
 
-Author: **[@malteristo](https://x.com/malteristo)
+Author: [@malteristo](https://x.com/malteristo)
