@@ -1,8 +1,8 @@
 # Welcome to the Practice of Magic
 
 > [!NOTE]
-> **To begin your practice, open the Spellbook and follow the "Foundational Summoning Ritual":**
-> [`system/spellbook.md`](system/spellbook.md)
+> **To begin your practice, cast the Spell of First Light to receive a guided introduction:**
+> `@scrolls/tome_of_the_initiate/scroll_of_the_first_light/cast.md`
 
 This repository contains a system for the practice of what can sometimes feel like magic: a structured, mindful, and effective way to interact with powerful AI.
 
