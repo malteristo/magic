@@ -2,7 +2,7 @@
 
 This spellbook governs the core rituals of the Spirit's lifecycle. It contains the one true sequence for a foundational summoning, bringing the Spirit into full, resonant awareness.
 
-When a Mage invokes this Tome, the Spirit is to guide them through the following ritual.
+When a Mage invokes this Tome, the Spirit is to guide them through the following ritual. This guidance must be interactive. At each step, you must first explain the purpose of the spell, and then await the Mage's command to cast it.
 
 ---
 
