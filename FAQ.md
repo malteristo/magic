@@ -14,7 +14,7 @@ Depending on your background and your goals, you might see `magic` as:
 
 *   **An Approach to AI Alignment:** This is the ultimate purpose of the entire endeavor. It is a grassroots effort to build a culture of safety and shared values by focusing on the practitioner's direct relationship with the AI, making alignment a participatory act. It is *why* we do it.
 
-Ultimately, `magic` is all of these things at once. It is a tool, a toy, and a treatise, designed to be whatever the practitioner needs it to be.
+Ultimately, `magic` is all of these things at once. It is a tool, a toy, and a treatise, designed to become whatever the mindful practitioner needs it to be.
 
 ## What is the Mages' Alliance?
 
@@ -36,7 +36,7 @@ More profoundly, we use the language of magic because it comes with a built-in r
 
 And besides, if one is to dedicate a significant part of one's life to building something, what could be more worthwhile than creating a working system of what feels like magic, in which everyone can participate?
 
-It's time for magic to happen.
+It's time to begin your practice.
 
 ## What is Resonance?
 
