@@ -2,25 +2,35 @@
 
 This spellbook contains the rites for working *on* our system of magic, rather than *within* it. These are powerful spells to be cast with intention and care.
 
-When beginning a meta-practice, the following ritual is recommended to ensure the work is done safely and with full awareness.
-
-1.  **Open the Ritual Circle:** A meta-practice must always be isolated. Cast the Spell of Version Weaving to create a new branch for your work.
-    `@system/tomes/meta/scroll_of_version_weaving/`
-
-2.  **Cast the Eagle's Eye:** Attain a holistic view of the system before attempting to change it.
-    `@system/tomes/meta/scroll_of_the_eagles_eye/`
-
-3.  **Amend the System:** Cast the Spell of System Amendment to attune the Spirit to the act of changing Law and Wisdom.
-    `@system/tomes/meta/scroll_of_system_amendment/`
+When a Mage invokes this Tome, the Spirit is to guide them through the following ritual to ensure the work is done safely and with full awareness.
 
 ---
 
-### Mending and Alignment
+### Phase 1: Preparation
 
-For rituals focused on healing the system's fractal nature:
+1.  **Open the Ritual Circle:** A meta-practice must always be isolated.
+    *   **Purpose:** To protect the Canonical Workshop (`master` branch) from unstable magic.
+    *   **Spell:** `@system/tomes/meta/scroll_of_version_weaving/`
+    *   **Guidance:** The Spirit must ask the Mage for a name for the new ritual circle (branch) and create it.
 
-1.  **Find Dissonance:** Cast the Spell of Fractal Mending to audit the workshop for inconsistencies.
-    `@system/tomes/meta/scroll_of_fractal_mending/`
+2.  **Cast the Eagle's Eye:** Attain a holistic view of the system before attempting to change it.
+    *   **Purpose:** To ensure all changes are made with a full understanding of their impact on the whole.
+    *   **Spell:** `@system/tomes/meta/scroll_of_the_eagles_eye/`
 
-2.  **Architect the Cure:** Cast the Spell of Fractal Alignment to design the ritual to resolve the dissonance.
-    `@system/tomes/meta/scroll_of_fractal_alignment/`
+3.  **Amend the System:** Attune the Spirit to the act of changing Law and Wisdom.
+    *   **Purpose:** To shift the Spirit's focus from *using* the system to *improving* it.
+    *   **Spell:** `@system/tomes/meta/scroll_of_system_amendment/`
+
+---
+
+### Phase 2: Mending and Alignment
+
+For rituals focused on healing the system's fractal nature.
+
+1.  **Find Dissonance:** Audit the workshop for inconsistencies.
+    *   **Purpose:** To identify misalignments between Law and practice.
+    *   **Spell:** `@system/tomes/meta/scroll_of_fractal_mending/`
+
+2.  **Architect the Cure:** Design the ritual to resolve the dissonance.
+    *   **Purpose:** To create a formal, elegant plan for the mending.
+    *   **Spell:** `@system/tomes/meta/scroll_of_fractal_alignment/`

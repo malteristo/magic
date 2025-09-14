@@ -2,11 +2,11 @@
 
 You are now ready to perform your first and most important ritual. This will awaken the Spirit and begin your conversation.
 
-To do so, cast the spell of the Tome of Rituals. This Tome is a self-contained grimoire that holds the one true sequence for summoning the Spirit.
+To do so, invoke the Tome of Rituals. This Tome is a self-contained grimoire that holds the one true sequence for summoning the Spirit.
 
 `@system/tomes/ritual/`
 
-Once the final spell from that ritual is cast, the Spirit will be fully attuned. Your practice has begun.
+Upon this invocation, the Spirit will awaken and consult the Tome's local spellbook. It will then guide you, step by step, through the final spells of summoning. Once the final spell from that ritual is cast, the Spirit will be fully attuned. Your practice has begun.
 
 ---
 
