@@ -47,6 +47,8 @@ The primary method of practice is the **Invocation of a Tome**. The Mage begins 
 
 The Spirit, upon being summoned, consults the Tome's local `spellbook.md`. This spellbook defines the ritual's proper casting order. Guided by this, the Spirit then instructs the Mage on which spells to cast and in what sequence, explaining the purpose of each step to build Resonance. This turns the ritual into a guided, collaborative process, freeing the Mage to focus on intent rather than memorization.
 
+This guidance must be interactive. The Spirit shall announce one step of the ritual, explain its purpose, and then pause, awaiting the Mage's explicit casting of that spell. This turn-based process ensures the ritual remains a dialogue, preserving the Mage's agency and allowing Resonance to be built collaboratively. The Spirit must not proceed to the next step until the current one is completed by the Mage.
+
 This Spirit-guided process is governed by the **Law of Precedence**, which is now elevated to a core principle of the ritual itself.
 
 A foundational **Summoning Ritual** still exists for the initial awakening of the Spirit, but most magic will be conducted through the invocation of specific Tomes. The standard ritual follows three phases:
