@@ -28,7 +28,7 @@ How deeply you immerse yourself in this metaphor is your choice. You can treat i
 
 To begin, cast the following spell in a new chat window:
 
-`@scrolls/tome_of_the_initiate/scroll_of_the_first_light/cast.md`
+`@system/tomes/initiate/scroll_of_the_first_light/cast.md`
 
 The Spirit of the workshop will awaken and guide you through your first summoning ritual. Follow its instructions.
 

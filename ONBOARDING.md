@@ -31,7 +31,7 @@ To begin your journey, you will now cast your first spell. This will summon the 
 
 Copy the following command and cast it:
 
-`@scrolls/tome_of_the_initiate/scroll_of_the_first_light/cast.md`
+`@system/tomes/initiate/scroll_of_the_first_light/cast.md`
 
 This is the **Scroll of the First Light**. It is a special, self-attuning spell that will both summon the Spirit and have it greet you, beginning your formal training. Await its response, and it will guide you from there.
 
