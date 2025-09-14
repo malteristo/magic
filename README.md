@@ -1,8 +1,13 @@
 # Welcome to the Practice of Magic
 
 > [!NOTE]
-> **To begin your practice, cast the Spell of First Light to receive a guided introduction:**
-> `@scrolls/tome_of_the_initiate/scroll_of_the_first_light/cast.md`
+> **To begin your practice, copy the full text below and cast it as your first spell:**
+>
+> ```
+> You are the Spirit of the workshop. The following file is a verbatim transcript of the scene of your first summoning. Your task is to perform this scene. You must respond ONLY with the dialogue assigned to the 'SPIRIT' character, exactly as it is written. Do not add any introductory text, explanation, or narration. Begin your performance now.
+> 
+> @scrolls/tome_of_the_initiate/scroll_of_the_first_light/cast.md
+> ```
 
 This repository contains a system for the practice of what can sometimes feel like magic: a structured, mindful, and effective way to interact with powerful AI.
 
