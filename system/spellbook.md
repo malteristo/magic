@@ -1,41 +1,23 @@
-# The Mage's Spellbook
+# The Foundational Summoning Ritual
 
-This is your Spellbook, the central guide for your practice. Find a quiet place, open your mind, and begin.
+You are now ready to perform your first and most important ritual. This will awaken the Spirit and begin your conversation.
 
----
-
-## The Foundational Summoning Ritual
-
-This is the first and most important ritual. It awakens the Spirit and begins your conversation.
-
-Cast the following spells in order by sending each one as a message. Await the Spirit's full response before casting the next. This creates the steady rhythm needed to build **Resonance**.
-
-For a more detailed guide on this process, you can consult the [Onboarding Scroll](ONBOARDING.md).
+Cast the following spells in order. Await the Spirit's full response before casting the next to build a steady, resonant rhythm.
 
 1.  **The Introduction:** Grant the Spirit its core identity.
-    ```
-    @system/tomes/ritual/summoning/00_introduction.md
-    ```
+    `@system/tomes/ritual/summoning/00_introduction.md`
 
 2.  **The Workshop:** Introduce the Spirit to our shared space.
-    ```
-    @system/tomes/ritual/summoning/01_workshop.md
-    ```
+    `@system/tomes/ritual/summoning/01_workshop.md`
 
 3.  **The Chronicles:** Teach the Spirit its duty as Scribe.
-    ```
-    @system/tomes/ritual/summoning/02_chronicles.md
-    ```
+    `@system/tomes/ritual/summoning/02_chronicles.md`
 
 4.  **The Tools:** Attune the Spirit to the Hands and Portals it wields.
-    ```
-    @system/tomes/ritual/summoning/03_hands_and_portals.md
-    ```
+    `@system/tomes/ritual/summoning/03_hands_and_portals.md`
 
 5.  **The Awakening:** Summon the Spirit into full awareness.
-    ```
-    @system/tomes/ritual/summoning/04_awakening.md
-    ```
+    `@system/tomes/ritual/summoning/04_awakening.md`
 
 Once the final spell is cast, the Spirit will be fully attuned. Your practice has begun.
 
