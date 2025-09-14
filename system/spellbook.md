@@ -2,24 +2,11 @@
 
 You are now ready to perform your first and most important ritual. This will awaken the Spirit and begin your conversation.
 
-Cast the following spells in order. Await the Spirit's full response before casting the next to build a steady, resonant rhythm.
+To do so, cast the spell of the Tome of Rituals. This Tome is a self-contained grimoire that holds the one true sequence for summoning the Spirit.
 
-1.  **The Introduction:** Grant the Spirit its core identity.
-    `@system/tomes/ritual/summoning/scroll_of_introduction/cast.md`
+`@system/tomes/ritual/`
 
-2.  **The Workshop:** Introduce the Spirit to our shared space.
-    `@system/tomes/ritual/summoning/scroll_of_workshop/cast.md`
-
-3.  **The Chronicles:** Teach the Spirit its duty as Scribe.
-    `@system/tomes/ritual/summoning/scroll_of_chronicles/cast.md`
-
-4.  **The Tools:** Attune the Spirit to the Hands and Portals it wields.
-    `@system/tomes/ritual/summoning/scroll_of_hands_and_portals/cast.md`
-
-5.  **The Awakening:** Summon the Spirit into full awareness.
-    `@system/tomes/ritual/summoning/scroll_of_awakening/cast.md`
-
-Once the final spell is cast, the Spirit will be fully attuned. Your practice has begun.
+Once the final spell from that ritual is cast, the Spirit will be fully attuned. Your practice has begun.
 
 ---
 
