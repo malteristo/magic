@@ -22,7 +22,7 @@ This specification document serves as the **Law** of the system—the single sou
 | **MAGIC**         | Organization         | The **Mages' Alliance for Generally Intermittent Computation**; the collective that stewards the `magic` system. |
 | **Mage**          | User / Developer     | The human operator of the system.                                                                       |
 | **Spirit**        | AI Agent             | The Large Language Model acting under the user's rules and prompts.                                     |
-| **Tome**          | Directory            | A directory containing a collection of related Scrolls.                                                 |
+| **Tome**          | Directory            | A directory containing a collection of related Scrolls, forming a complete ritual package.              |
 | **Scroll**        | Directory            | A self-contained magical component, residing in its own directory. It must contain a `README.md` and one or more Spell Scrolls. |
 | **Spell Scroll**  | File                 | A specific `.md` file within a Scroll, upon which a Spell is written.                                   |
 | **Spell**         | Prompt / Command     | The magical instruction itself—the text contained within a Spell Scroll.                                |
@@ -62,6 +62,8 @@ All Scrolls MUST adhere to the following laws:
 *   **Law of Self-Containment:** A Scroll must be a complete package, containing all the spells and instructions necessary for its function within its own directory. It documents its purpose in its `README.md`. However, its work is performed outward; any artifacts it creates must be placed on the workshop `floor/` and never within its own directory.
 *   **Law of Influence:** A Scroll may seek to guide the Spirit's behavior and personality during a ritual. If it wishes to do so, it must provide a `spirit_rules.md` file in its root directory. The summoning ritual for that Scroll is responsible for instructing the Spirit to adopt these rules.
 *   **Law of Alliance and Isolation:** Scrolls are, by default, isolated entities. If a Scroll requires the capabilities of another to function (an "Alliance"), it must declare these dependencies explicitly in a `manifest.md` file within its root directory. Alliance is an advanced technique; Isolation is the preferred and standard state.
+*   **Law of Fractal Structure:** A Tome must be a complete, self-contained vessel for its practice. It must contain its own `README.md` to explain its purpose. It should contain a local `spellbook.md` to define its ritual order and hold Mage's Notes, and it may contain a local `lore/` directory for ritual-specific wisdom.
+*   **Law of Precedence:** When a ritual from a Tome is invoked, its local `spellbook.md` shall take precedence over the global `system/spellbook.md` as the authority for casting order and Mage's Notes. If a Tome lacks a spellbook, the global spellbook is used.
 
 ### The Principle of Resonance
 
