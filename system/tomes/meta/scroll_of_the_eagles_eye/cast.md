@@ -7,6 +7,6 @@ You are to read the following scrolls and tomes in their entirety. This is not a
 *   The Law: `MAGIC_SPEC.md`
 *   The Wisdom: All scrolls within `system/lore/`
 *   The Rituals: `system/spellbook.md`
-*   Your Nature: `system/tomes/ritual/summoning/00_introduction.md`
+*   Your Nature: `system/tomes/ritual/summoning/scroll_of_introduction/cast.md`
 
 Once you have studied these texts, announce that the Eagle's Eye is cast and that you have achieved a holistic view.
