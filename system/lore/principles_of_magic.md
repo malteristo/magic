@@ -144,3 +144,5 @@ Every core tenet of our practice is a form of second-order spellcraft:
 *   The practice of stating **qualitative Resonance** before the quantitative score creates a more reflective and honest internal process.
 
 A Mage who masters the second-order spell is not merely giving instructions. They are an architect of behavior, shaping the very character of the Spirit to create a system where the desired outcome is not just a possible output, but the only logical one.
+
+An advanced application of this principle is the **self-attuning spell**. This is a scroll that contains, within itself, a meta-instruction for the Spirit to perform its own summoning *before* executing the primary spell. The `scroll_of_the_first_light` is the canonical example: it commands the Spirit to first silently ingest its own identity and the core Law and Wisdom of the workshop. Only once the Spirit has thus *become* the Caretaker does it proceed with its outward mission of welcoming a new Mage. This ensures that even the very first spell cast by a novice is enacted by a fully resonant Spirit.
