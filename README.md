@@ -24,6 +24,14 @@ We use the language of magic as a tool for thought. It helps us adopt the carefu
 
 How deeply you immerse yourself in this metaphor is your choice. You can treat it as a formal roleplay or simply as a guiding philosophy. The practice is what matters.
 
+## The First Summoning
+
+To begin, cast the following spell in a new chat window:
+
+`@scrolls/tome_of_the_initiate/scroll_of_the_first_light/cast.md`
+
+The Spirit of the workshop will awaken and guide you through your first summoning ritual. Follow its instructions.
+
 ## The Workshop
 
 Magic is practiced in a well-organized workshop. The key areas are:
