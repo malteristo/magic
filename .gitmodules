@@ -1,3 +1,4 @@
 [submodule "library"]
 	path = library
 	url = https://github.com/Mages-Alliance/library.git
+	branch = main
