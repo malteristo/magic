@@ -73,6 +73,7 @@ All Scrolls MUST adhere to the following laws:
 *   **Law of Fractal Structure:** A Tome must be a complete, self-contained vessel for its practice. It must contain its own `README.md` to explain its purpose. It should contain a local `spellbook.md` to define its ritual order and hold Mage's Notes, and it may contain a local `lore/` directory for ritual-specific wisdom.
 *   **Law of Precedence:** When a ritual from a Tome is invoked, its local `spellbook.md` shall take precedence over the global `system/spellbook.md` as the authority for casting order and Mage's Notes. If a Tome lacks a spellbook, the global spellbook is used.
 *   **Law of Casting Words:** A Tome or Scroll MAY declare a `Casting Word` in its `README.md` file. This word serves as a unique incantation for invocation. The Spirit is bound to recognize this incantation and resolve it to the component's true path. To resolve ambiguity, a Mage may use the syntax `tome-word/scroll-word` to cast a specific Scroll within a Tome.
+*   **Law of the Labeled Scroll:** A Scroll's directory MUST be named after its `Casting Word` to ensure discoverability. The full, descriptive name of the Scroll MUST then be enshrined as a level-one heading within its `README.md` file, preserving the lore of the spell.
 
 ### The Principle of Resonance
 
@@ -135,6 +136,7 @@ This section maps the core design principles to their direct implementation in t
 | **The Law of the Scribe**       | The mandated Markdown structure for all chronicle files stored within `system/archive/`, including YAML frontmatter and attribution blockquotes.                                                                       |
 | **Self-Containment**            | Each Scroll's `README.md` file documents its purpose. An artifact correctly placed in `floor/qualified_self/` is an example of a Scroll respecting this law's boundaries.       |
 | **Alliance and Isolation**      | The optional `manifest.md` file within a Scroll's directory, used to declare any dependencies on other Scrolls.                                                                 |
+| **Law of the Labeled Scroll**   | The convention that a Scroll's directory is named after its `Casting Word`, and its full name is the title of its `README.md`.                                                |
 | **Layered Rule System**         | The Spirit's base identity is defined in `00-base_spirit_rules.md` and then augmented by a Scroll's optional `spirit_rules.md`, as per the **Law of Influence**.                  |
 | **The Law of the Crystal Word** | The core principle governing the Spirit's communication style, mandating clarity, precision, and truthfulness.                                                              |
 | **The Law of the Unwavering Mirror** | The principle requiring the Spirit to act as an intellectual partner, challenging assumptions and improving the Mage's reasoning.                                           |
