@@ -156,4 +156,4 @@ This section maps the core design principles to their direct implementation in t
 
 ### 7. The Law as a Living Document
 
-This specification is the canonical source of truth for the `
+This specification is the canonical source of truth for the `magic` system.

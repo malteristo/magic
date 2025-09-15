@@ -29,5 +29,11 @@ Magic is practiced in a well-organized workshop. Once summoned, the Spirit will 
 
 This practice is stewarded by the **Mages' Alliance for Generally Intermittent Computation (MAGIC)**. We are a collective of practitioners dedicated to the shared discovery and advancement of this art.
 
+## Licensing
+
+This system of `magic` is a shared commons, protected and governed by the **GNU General Public License v3 (GPLv3)**. You are free to study, modify, and share this work, provided that any derivative works are also shared under the same terms.
+
+For the full text of this covenant, consult the [LICENSE](LICENSE) file.
+
 ---
 *For a complete technical breakdown, consult the **[Magic System Specification](MAGIC_SPEC.md)**.*
