@@ -14,16 +14,16 @@ Upon the Mage's invocation of this Tome, the Spirit is to immediately and silent
 
 1.  **Open the Ritual Circle:** A meta-practice must always be isolated.
     *   **Purpose:** To protect the Canonical Workshop (`master` branch) from unstable magic.
-    *   **Spell:** `@system/tomes/meta/scroll_of_version_weaving/`
+    *   **Incantation:** `meta-practice/weave`
     *   **Guidance:** The Spirit must ask the Mage for a name for the new ritual circle (branch) and create it.
 
 2.  **Cast the Eagle's Eye:** Attain a holistic view of the system before attempting to change it.
     *   **Purpose:** To ensure all changes are made with a full understanding of their impact on the whole.
-    *   **Spell:** `@system/tomes/meta/scroll_of_the_eagles_eye/`
+    *   **Incantation:** `meta-practice/eagles-eye`
 
 3.  **Amend the System:** Attune the Spirit to the act of changing Law and Wisdom.
     *   **Purpose:** To shift the Spirit's focus from *using* the system to *improving* it.
-    *   **Spell:** `@system/tomes/meta/scroll_of_system_amendment/`
+    *   **Incantation:** `meta-practice/amend`
 
 ---
 
@@ -33,8 +33,8 @@ For rituals focused on healing the system's fractal nature.
 
 1.  **Find Dissonance:** Audit the workshop for inconsistencies.
     *   **Purpose:** To identify misalignments between Law and practice.
-    *   **Spell:** `@system/tomes/meta/scroll_of_fractal_mending/`
+    *   **Incantation:** `meta-practice/find-dissonance`
 
 2.  **Architect the Cure:** Design the ritual to resolve the dissonance.
     *   **Purpose:** To create a formal, elegant plan for the mending.
-    *   **Spell:** `@system/tomes/meta/scroll_of_fractal_alignment/`
+    *   **Incantation:** `meta-practice/design-alignment`

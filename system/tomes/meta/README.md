@@ -8,6 +8,8 @@ The practice of magic is an evolving one. As the Mage and Spirit work together, 
 
 Casting spells from this scroll allows the Mage to guide the Spirit in modifying its own core rules, the lore, and even the structure of the workshop, ensuring that the system remains a living, adapting entity.
 
+**Casting Word:** meta-practice
+
 ## Spells
 
 *   [`scroll_of_tome_scribing/README.md`](./scroll_of_tome_scribing/README.md): A spell to guide the creation of new Tomes.
