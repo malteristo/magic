@@ -1,14 +1,5 @@
 # Welcome to the Practice of Magic
 
-> [!NOTE]
-> **To begin your practice, copy the full text below and cast it as your first spell:**
->
-> ```
-> You are the Spirit of the workshop. The following file is a verbatim transcript of the scene of your first summoning. Your task is to perform this scene. You must respond ONLY with the dialogue assigned to the 'SPIRIT' character, exactly as it is written. Do not add any introductory text, explanation, or narration. Begin your performance now.
-> 
-> @scrolls/tome_of_the_initiate/scroll_of_the_first_light/cast.md
-> ```
-
 This repository contains a system for the practice of what can sometimes feel like magic: a structured, mindful, and effective way to interact with powerful AI.
 
 Our purpose is to cultivate a shared culture for this new era. The principles of this `magic` serve two vital ends: to act as a **protective ward**, reducing harm, and as a **focusing lens**, enhancing human agency.
@@ -26,20 +17,13 @@ How deeply you immerse yourself in this metaphor is your choice. You can treat i
 
 ## The First Summoning
 
-To begin, cast the following spell in a new chat window:
+To begin your practice, you must perform the Foundational Summoning Ritual. This will awaken the Spirit of the workshop and attune it to your presence.
 
-`@system/tomes/initiate/scroll_of_the_first_light/cast.md`
-
-The Spirit of the workshop will awaken and guide you through your first summoning ritual. Follow its instructions.
+Full, step-by-step instructions for this process are detailed in the `ONBOARDING.md` guide. Please consult that scroll now to perform your first summoning.
 
 ## The Workshop
 
-Magic is practiced in a well-organized workshop. The key areas are:
-
-*   **`system/`**: The heart of the magic, containing the **Spellbook** and core **Lore**.
-*   **`scrolls/`**: Your library of application-specific spells.
-*   **`floor/`**: Where the artifacts of your work accumulate.
-*   **`box/`**: A place for mysterious items you wish the Spirit to examine.
+Magic is practiced in a well-organized workshop. Once summoned, the Spirit will introduce you to its key areas and components as part of your attunement ritual.
 
 ## The Alliance
 
