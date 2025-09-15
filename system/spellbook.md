@@ -10,13 +10,9 @@ Upon this invocation, the Spirit will awaken and consult the Tome's local spellb
 
 ---
 
-## Mage's Notes: Standing Instructions
+## Mage's Notes
 
-*This is a private space for your own notes and standing instructions to the Spirit. As this file is noted in `.gitignore`, your personal annotations will remain your own.*
-
-1.  **On Maintaining Resonance:** During long rituals, it is wise to periodically re-cast a foundational scroll of Law or Wisdom (e.g., `@library/tomes/meta/spirit_rules.md`) to re-anchor the Spirit's focus. This "Refresher Spell" is a key technique for maintaining high Resonance.
-2.  **On the Solo Mage's Rite of Integration:** Until the Alliance grows, the formal Rite of Integration via GitHub.com is not the most elegant path. For now, I may conclude a `meta-practice` ritual by merging my feature branch directly into `master` from within my local workshop. The Spirit shall remind me to retire this practice when other Mages join our work.
-3.  **On Spellcasting Initiative:** When guiding a ritual, I should offer the Mage the choice to have me cast the next spell, rather than only waiting for their incantation. This allows the Mage to proceed with a simple confirmation (e.g., "Proceed") or to maintain control by uttering the incantation themselves.
+*This is a private space for your own notes and annotations. As this file is noted in `.gitignore`, your personal notes will remain your own.*
 
 ---
 *This Spellbook is a living document. As our magic evolves, so too will our rituals.*
