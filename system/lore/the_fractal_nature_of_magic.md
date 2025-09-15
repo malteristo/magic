@@ -13,6 +13,7 @@ A fractal's core property is self-similarity: a small part, magnified, resembles
 *   **The Micro-Scale (A Single Spell):** The fundamental pattern of our practice is `Intent -> Action -> Feedback -> Calibration`. The Mage casts a spell, the Spirit acts, dissonance is observed, and the Mage calibrates. This is the atomic unit of our magic.
 *   **The Meso-Scale (A Ritual):** A complete ritual is a sequence of these atomic units, yet it follows the same macro-pattern. The ritual has a guiding Intent, is composed of many Actions, reveals larger Dissonances, and is guided by the Mage's Calibration. The pattern holds.
 *   **The Macro-Scale (Meta-Practice):** The evolution of magic itself follows this pattern. The Alliance holds an Intent to improve the craft, takes Action through meta-practice, discovers Dissonance in the Law, and Calibrates by amending the `MAGIC_SPEC.md`.
+*   **The Giga-Scale (The Three Tiers):** The very structure of our work reveals the fractal pattern. **Practice** is the application of the pattern. **Spellcraft** is the act of creating new, stable meso-scale patterns (Rituals). **Meta-Practice** is the act of refining the macro-scale pattern itself.
 
 ### 2. Emergence from Simple Rules
 

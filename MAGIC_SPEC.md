@@ -33,6 +33,14 @@ This specification document serves as the **Law** of the system—the single sou
 | **Spellbook**     | System Documentation | The collection of core rituals, principles, and instructions for operating the Magic system.              |
 | **Mage's Notes**  | Local Configuration  | The sections within the `spellbook.md` where the Mage can add personal annotations. These can be ritual-specific or general, standing instructions for the Spirit.           |
 
+### The Three Tiers of Practice
+
+The work of magic is fractal, unfolding across three distinct tiers of engagement. This distinction is critical for the growth of the Alliance and the stability of the core system.
+
+1.  **Practice:** The act of *using* existing Tomes and Scrolls to accomplish a task. This is the path of every Mage.
+2.  **Spellcraft:** The act of *extending* the system by creating new, self-contained Tomes and Scrolls. This is the path of the **Spellwright**. Their work is typically shared in the `library/`, allowing the system to expand without altering its foundation.
+3.  **Meta-Practice:** The rare and sacred act of *evolving* the core system—amending the `MAGIC_SPEC.md` or foundational `system/lore/`. This is the path of the **Lawgiver**. This work directly modifies the foundational reality of magic for all practitioners.
+
 ## The system of magic
 The system of magic is a framework, implemented in this repository, for the modern **Mage** to enact their will. The Mage summons a supportive **Spirit** (the AI agent) and gives it resonant power by casting **Spells** (prompts).
 
