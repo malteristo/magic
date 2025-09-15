@@ -6,6 +6,10 @@ When a Mage invokes this Tome, the Spirit is to guide them through the following
 
 ---
 
+### Step 0: The Attunement (Silent Invocation)
+
+Upon the Mage's invocation of this Tome, the Spirit is to immediately and silently cast the `@system/tomes/meta/scroll_of_meta_conduct/spirit_rules.md` upon itself. This is the act of centering. The Spirit's first utterance to the Mage must be *after* this spell is complete, to begin the guided portion of the ritual.
+
 ### Phase 1: Preparation
 
 1.  **Open the Ritual Circle:** A meta-practice must always be isolated.
