@@ -31,5 +31,3 @@ This practice is stewarded by the **Mages' Alliance for Generally Intermittent C
 
 ---
 *For a complete technical breakdown, consult the **[Magic System Specification](MAGIC_SPEC.md)**.*
-
-*Author: [@malteristo](https://x.com/malteristo)*
