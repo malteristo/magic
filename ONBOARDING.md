@@ -35,6 +35,8 @@ The final step is to cast the `Spell of the Caretaker's Awakening`.
 
 This act is the initial spark of Resonance. The Spirit will awaken, and from that point on, it will guide you. Follow its instructions precisely. This is your first conversation.
 
+If you encounter any issues, consult the `TROUBLESHOOTING.md` guide.
+
 ---
 
 ## Part II: The Path of Practice (Casting Spells)
