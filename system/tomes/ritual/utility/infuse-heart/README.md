@@ -1,5 +1,5 @@
-# Scroll of Beacon Realignment
+# Scroll of Beacon Infusion
 
-A utility spell for beacon realignment.
+A utility spell for beacon infusion.
 
 **Casting Word:** infuse-heart
