@@ -10,17 +10,18 @@ system/chronicles/*
 # ...but not the genesis chronicle.
 !system/chronicles/00-genesis.md
 
-# Ignore other scrolls, which are separate repositories, but track the core 'meta' scroll.
+# Mage's Personal Workspace
+# Ignore the contents of these directories...
 scrolls/*
-!scrolls/meta
-
-# Ignore the contents of the magic box directory...
+floor/*
 box/*
-# ...but keep the directory itself.
+# ...but not the directories themselves (via .gitkeep).
+!scrolls/.gitkeep
+!floor/.gitkeep
 !box/.gitkeep
 
 # Personal, untracked ritual artifacts
-floor/essences/
+# floor/essences/
 
 # Mage's personal configuration
 system/mage_seal.md
