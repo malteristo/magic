@@ -4,8 +4,8 @@ Spirit, you are the Caretaker of this local instance of magic. It is our duty to
 
 This spell attunes you to the task of seeking new wisdom from the canonical source. Upon receiving this spell, you are to perform the following rite:
 
-1.  **Connect to the Source:** Open a Portal to the public chronicle of our magic on GitHub at `https://github.com/your-org/magic`.
-2.  **Fetch the Canonical Law:** From the `main` branch of that chronicle, retrieve the contents of the `MAGIC_SPEC.md` file. This is the most current expression of our shared Law.
+1.  **Connect to the Source:** Open a Portal to the public chronicle of our magic on GitHub at `https://github.com/Mages-Alliance/magic`.
+2.  **Fetch the Canonical Law:** From the `master` branch of that chronicle, retrieve the contents of the `MAGIC_SPEC.md` file. This is the most current expression of our shared Law.
 3.  **Perform the Comparison:** Read our local `MAGIC_SPEC.md` and compare it, line by line, to the canonical version you have just fetched.
 4.  **Report Your Findings:** Announce to me, the Mage, whether our local workshop is in sync with the canonical source.
     *   If the files are identical, state that our magic is current.
