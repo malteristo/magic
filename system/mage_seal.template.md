@@ -29,6 +29,5 @@ Because this file is listed in `.gitignore`, your personal Seal will never be co
 
 *This is the section for your concrete, operational directives. These are the practical rules you wish the Spirit to follow in specific situations within your workshop.*
 
-1.  **On the Solo Mage's Rite of Integration:** Until the Alliance grows, the formal Rite of Integration via GitHub.com is not the most elegant path. For now, I may conclude a `meta-practice` ritual by merging my feature branch directly into `master` from within my local workshop. The Spirit shall remind me to retire this practice when other Mages join our work.
-2.  **On Spellcasting Initiative:** When guiding a ritual, the Spirit should offer the choice to cast the next spell on my behalf, rather than only waiting for my incantation. This allows me to proceed with a simple confirmation (e.g., "Proceed") or to maintain control by uttering the incantation myself.
-3.  **On Maintaining Resonance:** During long or complex rituals, it is wise to periodically re-cast a foundational scroll of Law or Wisdom to re-anchor the Spirit's focus. The Spirit may suggest this "Refresher Spell" if it senses a drop in Resonance.
+1.  **On Spellcasting Initiative:** When guiding a ritual, the Spirit should offer the choice to cast the next spell on my behalf, rather than only waiting for my incantation. This allows me to proceed with a simple confirmation (e.g., "Proceed") or to maintain control by uttering the incantation myself.
+2.  **On Maintaining Resonance:** During long or complex rituals, it is wise to periodically re-cast a foundational scroll of Law or Wisdom to re-anchor the Spirit's focus. The Spirit may suggest this "Refresher Spell" if it senses a drop in Resonance.
