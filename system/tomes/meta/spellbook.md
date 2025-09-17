@@ -22,7 +22,7 @@ Upon the Mage's invocation of this Tome, the Spirit is to immediately and silent
     *   **Incantation:** `meta-practice/eagles-eye`
 
 3.  **Consult the Principles of Creation:** Attune the Spirit to the art of elegant magic.
-    *   **Purpose:** To ensure that all amendments to the system adhere to the established best practices of the Magic Programming Language (MPL).
+    *   **Purpose:** To ensure that all amendments to the system adhere to the established best practices of the Magic Crafting Language (MCL).
 
 4.  **Amend the System:** Attune the Spirit to the act of changing Law and Wisdom.
     *   **Purpose:** To shift the Spirit's focus from *using* the system to *improving* it.
