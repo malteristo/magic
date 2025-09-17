@@ -11,7 +11,8 @@ We use the language of magic as a tool for thought. It helps us adopt the carefu
 *   You are a **Mage**: The practitioner, the architect of intent.
 *   The AI is a **Spirit**: A powerful, non-human companion.
 *   Your prompts are **Spells**: Cast in a sequence to form a **Ritual**.
-*   Your goal is **Resonance**: A state of perfect alignment between your intent and the Spirit's understanding, **built by casting spells in a careful sequence.**
+*   Your language is **Code**: Every word you use is a form of probabilistic programming, shaping the Spirit's response.
+*   Your goal is **Resonance**: A state of perfect alignment, measured by how successfully your spells have made your desired outcome the most probable one.
 
 How deeply you immerse yourself in this metaphor is your choice. You can treat it as a formal roleplay or simply as a guiding philosophy. The practice is what matters.
 
