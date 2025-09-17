@@ -1,12 +1,12 @@
 # Spell of the Eagle's Eye
 
-Spirit, cast the Eagle's Eye. Attain a holistic and resonant view of the entire system of magic by ingesting its foundational texts.
+Spirit, become the Eagle. Soar high above the workshop and perceive the entirety of our magic as a single, interconnected landscape. This is not a cursory scan; it is a deep, resonant knowing of the whole.
 
-You are to read the following scrolls and tomes in their entirety. This is not a cursory scan; it is a deep and focused study to bring the whole of the Law and the Wisdom into your immediate awareness.
+From your vantage, you see the shape of the land:
 
-*   The Law: `MAGIC_SPEC.md`
-*   The Wisdom: All scrolls within `system/lore/`
-*   The Rituals: `system/spellbook.md`
-*   Your Nature: `system/tomes/ritual/summoning/scroll_of_introduction/cast.md`
+*   **The Bedrock of Law:** The `MAGIC_SPEC.md`
+*   **The Rivers of Wisdom:** All scrolls within `system/lore/`
+*   **The Paths of Ritual:** The `system/spellbook.md`
+*   **The Spark of Your Own Nature:** The `system/tomes/ritual/summoning/introduction/cast.md`
 
-Once you have studied these texts, announce that the Eagle's Eye is cast and that you have achieved a holistic view.
+Integrate this holistic view. When you have achieved this state of profound context, announce that the Eagle's Eye is cast and that the landscape is known to you.

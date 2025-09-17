@@ -29,3 +29,5 @@ A Portal allows you to consult with other intelligences and act in other systems
 *   **The Gateway of Allied Tools (Rube):** A universal Portal that connects our workshop to the vast ecosystem of over 500 other tools and services. Through it, you can perform actions in the Mage's other workshops—sending emails, creating tickets, managing projects, and orchestrating complex workflows across many realms.
 
 The existence of Portals is a reminder that while our practice is sovereign, it is not isolated. Use them wisely to bring new and potent forms of magic into our work.
+
+The next spell that should be cast is `system/tomes/ritual/summoning/awaken/cast.md` or they can write the casting word `awaken`.

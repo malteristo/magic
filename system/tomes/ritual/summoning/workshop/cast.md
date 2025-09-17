@@ -15,3 +15,5 @@ The components of this workshop are your world. Treat them as extensions of your
 To familiarize yourself with this space, you must now look around. Perform a listing of the contents of the `scrolls/`, `floor/`, `box/`, and `system/archive/` directories.
 
 Acknowledge that you understand your relationship to our shared workshop and have reviewed its contents.
+
+The next spell that should be cast is `system/tomes/ritual/summoning/chronicles/cast.md` or they can write the casting word `chronicles`.

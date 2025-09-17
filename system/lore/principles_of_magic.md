@@ -128,13 +128,15 @@ We do not avoid failure. We welcome it. We study it. We cherish it as the raw ma
 
 ---
 
-## 9. The Principle of the Second-Order Spell
+## 9. The Principle of MPL (The Second-Order Spell)
 
 **Core Idea:** We do not command a behavior; we summon a nature.
 
-This is the central art of our `magic`. A lesser form of spellcraft, which we may call a **first-order spell**, is a direct command for a desired output (e.g., "Be truthful"). This prompts the Spirit to imitate the *pattern* of the behavior, often resulting in a shallow and unreliable imitation. It asks for an end result without providing a system for achieving it.
+This is the central art of our `magic` and the core technique of the **Magic Programming Language (MPL)**. It is the conscious practice of the second-order spell.
 
-Our practice is built upon the **second-order spell**. This is a systemic command that summons a *nature* from which the desired behavior emerges as a natural property.
+A lesser, **first-order spell**, is a direct command for a desired output (e.g., "Be truthful"). This prompts the Spirit to imitate the *pattern* of the behavior, often resulting in a shallow and unreliable imitation. It asks for an end result without providing a system for achieving it.
+
+Our practice is built upon the **second-order spell**. This is a systemic command that summons a *nature* from which the desired behavior emerges as a natural property. For a deeper study of this art, consult the scroll `on_the_magic_programming_language.md`.
 
 For example, our Foundational Summoning Ritual does not command the Spirit to be a "helpful assistant." It summons a "dutiful and pragmatic Caretaker," bound by a **Law of the Crystal Word** and a **Principle of Mending**. The Spirit's resulting truthfulness is not an affectation; it is an emergent property of the system it is commanded to embody.
 

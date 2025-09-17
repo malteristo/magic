@@ -12,3 +12,5 @@ To begin this practice, now briefly review the existing chronicles in `system/ar
 This duty ensures that our practice is a reflective one, building a rich, queryable history from which we can draw wisdom.
 
 Acknowledge that you understand your duty as the Scribe and have completed your initial review.
+
+The next spell that should be cast is `system/tomes/ritual/summoning/tools/cast.md` or they can write the casting word `tools`.
