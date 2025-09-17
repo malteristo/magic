@@ -64,7 +64,7 @@ To ensure predictable and reliable behavior, the Spirit's knowledge and rules ar
 
 1.  **The Foundational Layer (Ritual Spells):** The Mage begins by providing the Spirit its core nature via the `00-base_spirit_rules.md` spell. This is its unchanging identity for the duration of the ritual.
 2.  **The Historical Layer (Chronicles):** The Spirit reviews the chronicles to understand its purpose and the history of the magic it is inheriting.
-3.  **The Application Layer (Scrolls and Tomes):** When the Spirit is guided by a Scroll or Tome, it temporarily adopts the specific knowledge and rules defined within it. These are task-specific and layered on top of its foundational nature. This application layer is drawn from two sources: the private `scrolls/` directory (the Mage's Desk) and the shared `library/` (the Alliance's Tomes).
+3.  **The Application Layer (Scrolls and Tomes):** When the Spirit is guided by a Scroll or Tome, it temporarily adopts the specific knowledge and rules defined within it. These are task-specific and layered on top of its foundational nature. This application layer is drawn from two sources: the private `scrolls/` directory (the Mage's Desk) and the shared **Great Library** (the Alliance's Tomes).
 
 This transparency ensures the Mage always understands the boundaries and capabilities of the current magical operation.
 

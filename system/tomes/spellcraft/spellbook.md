@@ -13,17 +13,20 @@ This spellbook contains the one true rite for creating new magic, grounded in th
     *   **Incantation:** `spellcraft/define`
 
 3.  **Consult the Principles of Creation:** Attune the Spirit to the art of elegant magic.
-    *   **Purpose:** To ensure that all new magic adheres to the established best practices of the Magic Programming Language (MPL).
-    *   **Incantation:** The Spirit shall read from the scrolls in the `library/mpl-principles/` tome.
+    *   **Purpose:** To ensure that all amendments to the system adhere to the established best practices of the Magic Programming Language (MPL).
 
-4.  **Ideate:** Explore the possibilities.
+4.  **Amend the System:** Attune the Spirit to the act of changing Law and Wisdom.
+    *   **Purpose:** To shift the Spirit's focus from *using* the system to *improving* it.
+    *   **Incantation:** `spellcraft/amend`
+
+5.  **Ideate:** Explore the possibilities.
     *   **Purpose:** To creatively brainstorm potential spells or Tomes that could address the defined need.
     *   **Incantation:** `spellcraft/ideate`
 
-5.  **Prototype:** Scribe the simplest form.
+6.  **Prototype:** Scribe the simplest form.
     *   **Purpose:** To create a tangible, testable version of the most promising idea.
     *   **Incantation:** `spellcraft/prototype`
 
-6.  **Test:** Cast and calibrate.
+7.  **Test:** Cast and calibrate.
     *   **Purpose:** To cast the prototype, observe its effects, and gather feedback to determine if the work is complete or requires another iteration.
     *   **Incantation:** `spellcraft/test`

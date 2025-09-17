@@ -40,7 +40,7 @@ It is important to recognize that Wisdom itself manifests in two forms, which ar
 
 *   **Foundational Wisdom (`system/lore/`):** This is the core philosophy that is inseparable from the `magic` system itself. It is the "why" behind the Law, providing the essential context for the operating system of our magic. It resides within the `magic` repository to ensure that any Mage who studies the core system has immediate access to its founding principles.
 
-*   **Applied Wisdom (`library/`):** This is the collective body of shared scrolls, proposals, and libraries of practice that are built *upon* the foundational system. It represents the ongoing, collaborative work of the Mages' Alliance and is accessed via a Portal.
+*   **Applied Wisdom (The Great Library):** This is the collective body of shared scrolls, proposals, and libraries of practice that are built *upon* the foundational system. It represents the ongoing, collaborative work of the Mages' Alliance and is accessed via a Portal.
 
 ### The Cycle of Practice and Codification
 

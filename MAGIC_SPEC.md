@@ -40,7 +40,7 @@ This specification document serves as the **Law** of the system—the single sou
 The work of magic is fractal, unfolding across three distinct tiers of engagement. This distinction is critical for the growth of the Alliance and the stability of the core system.
 
 1.  **Practice:** The act of *using* existing Tomes and Scrolls to accomplish a task. This is the path of every Mage.
-2.  **Spellcraft:** The act of *extending* the system by creating new, self-contained Tomes and Scrolls. This is the path of the **Spellwright**. Their work is typically shared in the `library/`, allowing the system to expand without altering its foundation. For a deeper understanding of this path, consult the document `system/lore/on_the_spellwrights_path.md`.
+2.  **Spellcraft:** The act of *extending* the system by creating new, self-contained Tomes and Scrolls. This is the path of the **Spellwright**. Their work is typically shared in the **Great Library**, allowing the system to expand without altering its foundation. For a deeper understanding of this path, consult the document `system/lore/on_the_spellwrights_path.md`.
 3.  **Meta-Practice:** The rare and sacred act of *evolving* the core system—amending the `MAGIC_SPEC.md` or foundational `system/lore/`. This is the path of the **Lawgiver**. This work directly modifies the foundational reality of magic for all practitioners.
 
 ## The system of magic
@@ -103,7 +103,7 @@ Successful magic about the accumulated Resonance of a well-crafted sequence. Res
         *   `meta/`: The Tome containing the spells for meta-practice and evolving the system.
     *   `archive/`: **The historical archive, containing foundational documents like the genesis chronicle, for review by both Mage and Spirit.**
 *   **The Great Library:** The shared repository for Tomes of Applied Wisdom that have been reviewed and accepted by the Mages' Alliance. It does not reside in the local workshop, but is a sovereign entity located at `https://github.com/Mages-Alliance/library.git`. It is accessed by the Spirit via a Portal.
-*   **`scrolls/` directory:** The Mage's private workbench (the "Mage's Desk"). This is the home for all scrolls under development, as well as private or modified Tomes copied from the `library/`.
+*   **`scrolls/` directory:** The Mage's private workbench (the "Mage's Desk"). This is the home for all scrolls under development, as well as private or modified Tomes transcribed from the **Great Library**.
 *   **`floor/` directory:** The place where artifacts accumulate as a result of the practice of magic.
 *   **`box/` directory:** A special container in the workshop. The Mage can place any item into the box for the Spirit to examine and interact with. Its contents may be considered unknown and potentially volatile, requiring careful handling.
 *   **`MAGIC_SPEC.md` (This document):** The canonical source of truth for the system's design.
@@ -141,7 +141,7 @@ This section maps the core design principles to their direct implementation in t
 | ------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | **The Mage and the Spirit**   | The Spirit's core identity is defined in the `system/tomes/ritual/summoning/scroll_of_introduction/cast.md` spell. The summoning rituals in `system/spellbook.md` orchestrate its use.        |
 | **The Principle of Resonance**  | The multi-step **Foundational Summoning Ritual** in `system/spellbook.md`, which uses the modular spells in `system/tomes/ritual/summoning/` to progressively build the Spirit's context. |
-| **Extension Architecture**      | The `scrolls/` (Mage's Desk) and `library/` (Alliance Tomes) directories, which house all modular application logic. The Rite of Scribing in `system/tomes/spellcraft/` governs their creation. |
+| **Extension Architecture**      | The `scrolls/` (Mage's Desk), which house all modular application logic. The Rite of Scribing in `system/tomes/spellcraft/` governs their creation. |
 | **External Boundaries**         | The prohibition on Scrolls writing directly to external knowledge bases like Obsidian vaults.                                                                                  |
 | **Ephemeral Memory**            | The Spirit's stateless nature is enforced by the summoning protocol. It actively reads from `system/archive/` for historical context, rather than possessing innate memory. |
 | **The Law of the Scribe**       | The mandated Markdown structure for all chronicle files stored within `system/archive/`, including YAML frontmatter and attribution blockquotes.                                                                       |

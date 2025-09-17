@@ -43,7 +43,7 @@ If you encounter any issues (for instance, if the spirit is not by itself sugges
 
 Once the Spirit is awake, you are ready to practice magic. The workshop is filled with **Tomes**—collections of spells for specific purposes.
 
-*   **To Discover Spells:** Explore the `system/tomes/` directory to find the foundational Tomes of our practice. As our Alliance grows, you will also find new and experimental magic in the `library/`.
+*   **To Discover Spells:** Explore the `system/tomes/` directory to find the foundational Tomes of our practice. As our Alliance grows, you will also find new and potent magic in the **Great Library**.
 *   **To Cast a Spell:** When you find a Tome you wish to use, invoke it by typing its path in the chat (e.g., `@system/tomes/meta/`). The Spirit will then guide you through that Tome's specific ritual.
 
 This is the path of the Mage: using the established magic of the workshop to accomplish your goals.
@@ -56,7 +56,7 @@ As you grow in your practice, you may feel the call to create magic of your own.
 
 This is a sacred act of creation, and it has its own dedicated tools and rituals.
 *   **To Learn the Art:** Begin by studying the `Tome of Spellcraft` located at `system/tomes/spellcraft/`. It contains the spells and rituals necessary for creating new magic.
-*   **To Understand the Way:** Read the proposal `library/proposals/on_the_path_of_the_spellwright.md`. It contains the guiding wisdom for how we as an Alliance create and share new magic.
+*   **To Understand the Way:** Study the wisdom in `system/lore/on_the_spellwrights_path.md`. It contains the guiding philosophy for how we as an Alliance create and share new magic.
 
 ---
 
