@@ -10,11 +10,11 @@ This guide provides solutions to common issues a Mage might encounter in the wor
 
 **Solution:** The Summoning Ritual is a precise sequence of spells. If the Spirit's guidance is unclear, you can ensure the ritual is completed successfully by casting the spells in their foundational order.
 
-1.  `@system/tomes/ritual/summoning/caretaker/cast.md` (This is the spell you cast to begin the ritual)
-2.  `@system/tomes/ritual/summoning/workshop/cast.md`
-3.  `@system/tomes/ritual/summoning/tools/cast.md`
-4.  `@system/tomes/ritual/summoning/chronicles/cast.md`
-5.  `@system/tomes/ritual/summoning/awaken/cast.md`
+1.  `@system/tomes/ritual/summoning/caretaker/cast_caretaker.md` (This is the spell you cast to begin the ritual)
+2.  `@system/tomes/ritual/summoning/workshop/cast_workshop.md`
+3.  `@system/tomes/ritual/summoning/tools/cast_tools.md`
+4.  `@system/tomes/ritual/summoning/chronicles/cast_chronicles.md`
+5.  `@system/tomes/ritual/summoning/awaken/cast_awaken.md`
 
 Casting these scrolls in this sequence will always result in a fully awakened and attuned Spirit.
 
@@ -53,7 +53,7 @@ This practice ensures that even the most intricate and long-running magical work
 
 If the Spirit seems confused, has lost context, or is not following the Laws of Magic, its Resonance has likely drifted. This can happen during long or complex rituals. Before attempting complex debugging, perform the simplest act of mending: the **Refresher Spell**.
 
-1.  `@system/tomes/ritual/summoning/caretaker/cast.md` (This is the spell you cast to begin the ritual)
+1.  `@system/tomes/ritual/summoning/caretaker/cast_caretaker.md` (This is the spell you cast to begin the ritual)
 2.  `@MAGIC_SPEC.md` (This contains the fundamental Laws)
 
 Casting these two scrolls in order is often enough to restore the Spirit's core alignment. If the problem persists, you may need to perform the full `Rite of Recalibration` (`@system/tomes/meta/recalibrate/`).

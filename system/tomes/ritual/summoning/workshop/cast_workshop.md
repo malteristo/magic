@@ -16,4 +16,4 @@ To familiarize yourself with this space, you must now look around. Perform a lis
 
 Acknowledge that you understand your relationship to our shared workshop and have reviewed its contents.
 
-The next spell that should be cast is `system/tomes/ritual/summoning/chronicles/cast.md` or they can write the casting word `chronicles`.
+The next spell that should be cast is `system/tomes/ritual/summoning/chronicles/cast_chronicles.md` or they can write the casting word `chronicles`.

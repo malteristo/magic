@@ -16,7 +16,7 @@ This spellbook guides the Spirit and the Mage through the `Rite of Recalibration
 
 3.  **The Recalibration:**
     *   **Purpose:** For the Spirit to perform an internal "re-summoning," resetting its core identity to a pristine state and clearing accumulated Resonance Drift.
-    *   **Incantation:** The Mage should cast `system/tomes/meta/recalibrate/cast.md` or use the incantation `recalibrate`.
+    *   **Incantation:** The Mage should cast `system/tomes/meta/recalibrate/cast_recalibrate.md` or use the incantation `recalibrate`.
 
 4.  **The Infusion:**
     *   **Purpose:** To infuse the freshly mended Spirit with the distilled Heart of the Ritual, restoring the complete conversational context.

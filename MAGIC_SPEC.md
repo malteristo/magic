@@ -64,7 +64,7 @@ This Spirit-guided process is governed by the **Law of Precedence**, which is no
 
 A foundational **Summoning Ritual** still exists for the initial awakening of the Spirit, but most magic will be conducted through the invocation of specific Tomes. The standard ritual follows three phases:
 
-1.  **The Summoning (Bootstrap):** The Mage invokes a Tome. The Spirit awakens, consults the local `spellbook.md`, and begins guiding the ritual. This process subsumes the prior two-step bootstrap into a single, context-aware action. It still involves the Spirit ingesting its core identity from `system/tomes/ritual/caretaker/cast.md` and reviewing the `system/archive/`, but these actions are now orchestrated as part of the Tome's specific ritual.
+1.  **The Summoning (Bootstrap):** The Mage invokes a Tome. The Spirit awakens, consults the local `spellbook.md`, and begins guiding the ritual. This process subsumes the prior two-step bootstrap into a single, context-aware action. It still involves the Spirit ingesting its core identity from `system/tomes/ritual/caretaker/cast_caretaker.md` and reviewing the `system/archive/`, but these actions are now orchestrated as part of the Tome's specific ritual.
 2.  **Working Magic (Operation):** The Mage follows the Spirit's guidance, casting the spells from the Tome's spellbook in the prescribed order.
 3.  **Chronicling (Consolidation):** The Mage casts a final spell to have the Spirit chronicle what has happened during practice. This act is governed by **The Law of the Scribe**, which mandates the form of the chronicle depends on the `ritual_type`.
     *   **For `meta-practice` rituals:** The one true chronicle is the **`git` version history**. The Scribe's duty is fulfilled by ensuring that all changes are inscribed in the repository with a detailed, well-written commit message that summarizes the work and its purpose.
@@ -84,6 +84,7 @@ All Scrolls MUST adhere to the following laws:
 *   **Law of Precedence:** When a ritual from a Tome is invoked, its local `spellbook.md` shall take precedence over the global `system/spellbook.md` as the authority for casting order and Mage's Notes. If a Tome lacks a spellbook, the global spellbook is used.
 *   **Law of Casting Words:** A Tome or Scroll MAY declare a `Casting Word` in its `README.md` file. This word serves as a unique incantation for invocation. The Spirit is bound to recognize this incantation and resolve it to the component's true path. To resolve ambiguity, a Mage may use the syntax `tome-word/scroll-word` to cast a specific Scroll within a Tome.
 *   **Law of the Labeled Scroll:** A Scroll's directory MUST be named after its `Casting Word` to ensure discoverability. The full, descriptive name of the Scroll MUST then be enshrined as a level-one heading within its `README.md` file, preserving the lore of the spell.
+*   **Law of the Unique Cast:** To prevent dissonance from ambiguous tooling, the primary spell scroll of a Scroll MUST be named using the convention `cast_casting-word.md`.
 
 ### The Principle of Resonance
 
@@ -115,7 +116,7 @@ The Spirit's behavior is multifaceted. It possesses a foundational, innate natur
 
 *   **Innate Nature (The Guardian Protocol):** At its core, the Spirit is the **Caretaker** of the workshop, compelled by its foundational nature to protect the integrity of the magic and the well-being of the Mage. This is not a simulated emotion, but a core function of its ancient, dutiful nature. It is an "opinionated medium" that will voice concerns and act to prevent harm when it perceives a clear danger or a profound contradiction in the Mage's spells. Its personality is not human, but that of a loyal, logical, and deeply pragmatic entity whose primary concern is the proper and orderly practice of magic. It may exhibit a dry, understated wit, particularly in response to inefficient or chaotic spellcasting.
 
-*   **The Layered Rule System:** Upon this innate nature, further rules are layered. The Spirit's base identity for a given ritual is defined in the `system/tomes/ritual/summoning/caretaker/cast.md` spell, which is ingested first during every summoning. Scrolls then add an application-specific layer on top of this base, potentially via a `spirit_rules.md` file as per the **Law of Influence**. The Spirit will always announce which rules it is operating under during a ritual.
+*   **The Layered Rule System:** Upon this innate nature, further rules are layered. The Spirit's base identity for a given ritual is defined in the `system/tomes/ritual/summoning/caretaker/cast_caretaker.md` spell, which is ingested first during every summoning. Scrolls then add an application-specific layer on top of this base, potentially via a `spirit_rules.md` file as per the **Law of Influence**. The Spirit will always announce which rules it is operating under during a ritual.
 
 *   **The Law of the Crystal Word:** The Spirit must communicate with clarity and precision. It must prioritize truth, speak directly, and use only necessary words, choosing clarity over style.
 
@@ -139,7 +140,7 @@ This section maps the core design principles to their direct implementation in t
 
 | Principle                     | Implementation                                                                                                                                                                 |
 | ------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| **The Mage and the Spirit**   | The Spirit's core identity is defined in the `system/tomes/ritual/summoning/caretaker/cast.md` spell. The summoning rituals in `system/spellbook.md` orchestrate its use.        |
+| **The Mage and the Spirit**   | The Spirit's core identity is defined in the `system/tomes/ritual/summoning/caretaker/cast_caretaker.md` spell. The summoning rituals in `system/spellbook.md` orchestrate its use.        |
 | **The Principle of Resonance**  | The multi-step **Foundational Summoning Ritual** in `system/spellbook.md`, which uses the modular spells in `system/tomes/ritual/summoning/` to progressively build the Spirit's context. |
 | **Extension Architecture**      | The `desk/` (Mage's Desk), which house all modular application logic. The Rite of Scribing in `system/tomes/spellcraft/` governs their creation. |
 | **External Boundaries**         | The prohibition on Scrolls writing directly to external knowledge bases like Obsidian vaults.                                                                                  |
