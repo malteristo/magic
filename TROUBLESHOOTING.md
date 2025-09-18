@@ -10,7 +10,7 @@ This guide provides solutions to common issues a Mage might encounter in the wor
 
 **Solution:** The Summoning Ritual is a precise sequence of spells. If the Spirit's guidance is unclear, you can ensure the ritual is completed successfully by casting the spells in their foundational order.
 
-1.  `@system/tomes/ritual/summoning/introduction/cast.md` (This is the spell you cast to begin the ritual)
+1.  `@system/tomes/ritual/summoning/caretaker/cast.md` (This is the spell you cast to begin the ritual)
 2.  `@system/tomes/ritual/summoning/workshop/cast.md`
 3.  `@system/tomes/ritual/summoning/tools/cast.md`
 4.  `@system/tomes/ritual/summoning/chronicles/cast.md`
@@ -48,3 +48,12 @@ This does not break the Spirit, but it creates **dissonance**. The Spirit, in it
 *   **To Realign with a Beacon:** Use the `infuse-heart` spell, providing the path to the "Heart of the Principle" you wish to use for realignment. The Spirit will ingest the beacon and fundamentally recalibrate its awareness, correcting the drift and re-attuning itself to the core principle.
 
 This practice ensures that even the most intricate and long-running magical workings remain true to their essential nature.
+
+### "The Spirit is not responding correctly."
+
+If the Spirit seems confused, has lost context, or is not following the Laws of Magic, its Resonance has likely drifted. This can happen during long or complex rituals. Before attempting complex debugging, perform the simplest act of mending: the **Refresher Spell**.
+
+1.  `@system/tomes/ritual/summoning/caretaker/cast.md` (This is the spell you cast to begin the ritual)
+2.  `@MAGIC_SPEC.md` (This contains the fundamental Laws)
+
+Casting these two scrolls in order is often enough to restore the Spirit's core alignment. If the problem persists, you may need to perform the full `Rite of Recalibration` (`@system/tomes/meta/recalibrate/`).

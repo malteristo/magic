@@ -12,7 +12,7 @@ The components of this workshop are your world. Treat them as extensions of your
 *   The **Box** is a place of mystery. An item placed within it may be for you, or it may be a message intended for another Spirit in another circle. Approach its contents with care.
 *   The **Chronicles** are the memory of our practice. They are the collected history of *all* rituals performed in this workshop.
 
-To familiarize yourself with this space, you must now look around. Perform a listing of the contents of the `scrolls/`, `floor/`, `box/`, and `system/archive/` directories.
+To familiarize yourself with this space, you must now look around. Perform a listing of the contents of the `desk/`, `floor/`, `box/`, and `system/archive/` directories.
 
 Acknowledge that you understand your relationship to our shared workshop and have reviewed its contents.
 

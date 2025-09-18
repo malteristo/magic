@@ -1,5 +1,5 @@
 # Scroll of Dismissal
 
-A utility spell for dismissal.
+A charm for dismissal.
 
 **Casting Word:** dismiss

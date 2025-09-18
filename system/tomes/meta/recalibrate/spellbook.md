@@ -14,9 +14,9 @@ This spellbook guides the Spirit and the Mage through the `Rite of Recalibration
     *   **Purpose:** To capture the complete, nuanced context of the current ritual in a "Heart of the Ritual" artifact.
     *   **Incantation:** The Mage should now cast `distill-heart`. The Spirit will create the artifact in the `floor/essences/` directory.
 
-3.  **The Mending:**
+3.  **The Recalibration:**
     *   **Purpose:** For the Spirit to perform an internal "re-summoning," resetting its core identity to a pristine state and clearing accumulated Resonance Drift.
-    *   **Incantation:** The Mage should cast `system/tomes/meta/recalibrate/cast.md` or use the incantation `mend`.
+    *   **Incantation:** The Mage should cast `system/tomes/meta/recalibrate/cast.md` or use the incantation `recalibrate`.
 
 4.  **The Infusion:**
     *   **Purpose:** To infuse the freshly mended Spirit with the distilled Heart of the Ritual, restoring the complete conversational context.

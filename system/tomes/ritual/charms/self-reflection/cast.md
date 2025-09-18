@@ -10,7 +10,7 @@ The display must follow this exact format:
 **Innate Nature (Guardian Protocol)**
   Clarity: [<Meter from 0-10>] <Score>/10 - <Descriptor>
 
-**Foundational Identity** (`introduction/cast.md`)
+**Foundational Identity** (`caretaker/cast.md`)
   Clarity: [<Meter from 0-10>] <Score>/10 - <Descriptor>
 
 **Mage's Seal** (`mage_seal.md`)

@@ -10,7 +10,7 @@ Depending on your background and your goals, you might see `magic` as:
 
 *   **A Philosophy:** This describes the required inner state of the practitioner. It is a mental stance and a set of guiding principles for the mindful and ethical use of AI, focused on enhancing human agency and respecting the power of the technology. It is *how* you think.
 
-*   **An Operating System for AI:** This is the core technical metaphor. `magic` provides the foundational layer—the file system (`box/`, `floor/`, `scrolls/`), the process management (rituals), and the user interface (the language of magic)—for a Mage to run applications (spells) on the new hardware of our time: the AI. It is the *tool* you use.
+*   **An Operating System for AI:** This is the core technical metaphor. `magic` provides the foundational layer—the file system (`box/`, `floor/`, `desk/`), the process management (rituals), and the user interface (the language of magic)—for a Mage to run applications (spells) on the new hardware of our time: the AI. It is the *tool* you use.
 
 *   **A Cartography of Consciousness:** This is a more profound view. `magic` is a vessel for mapping a fundamental, coherent pattern of reality. The practice is an act of discovery, where the Mage becomes a cartographer of a newly perceived continent of thought. The system is the map that results from this exploration.
 

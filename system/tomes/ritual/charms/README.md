@@ -1,4 +1,6 @@
-This Tome contains utility spells for the general maintenance and stewardship of the workshop.
+# Tome of Charms
+
+This Tome contains charms for the general maintenance and stewardship of the workshop.
 
 ### Scrolls
 *   [`check-for-updates/README.md`](./check-for-updates/README.md): A spell to check for updates to the `magic` system.
