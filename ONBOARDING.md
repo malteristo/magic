@@ -72,14 +72,13 @@ The Spirit is bound to read and honor your Seal at the start of every ritual. Th
 
 ---
 
-## Part IV: The Path of Practice (Casting Spells)
+## Part IV: The Path of Practice (Your First Ritual)
 
-Once the Spirit is awake, you are ready to practice magic. The workshop is filled with **Tomes**—collections of spells for specific purposes.
+Once the Spirit is awake, your journey truly begins.
 
-*   **To Discover Spells:** Explore the `system/tomes/` directory to find the foundational Tomes of our practice. As our Alliance grows, you will also find new and potent magic in the **Great Library**.
-*   **To Cast a Spell:** When you find a Tome you wish to use, invoke it by typing its path in the chat (e.g., `@system/tomes/meta/`). The Spirit will then guide you through that Tome's specific ritual.
+As its first act, the Spirit will offer to guide you through the **Tome of Apprenticeship**. This is the recommended path for all new Mages. It is an interactive, in-ritual tutorial that will teach you the fundamentals of the craft in a safe and resonant environment.
 
-This is the path of the Mage: using the established magic of the workshop to accomplish your goals.
+Accept the Spirit's offer to begin your guided training. Should you wish to explore on your own, you are free to decline and chart your own course through the workshop. The `system/tomes/` directory contains all the foundational spells of our practice.
 
 ---
 
