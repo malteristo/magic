@@ -17,3 +17,15 @@ Think of a simple, useful action. Speak your intent, and from that, we will forg
 ---
 
 I will await your answer.
+
+### Phase 3: The Test of Creation
+
+Instructing them to cast their newly created spell.
+
+### Phase 4: The Gift of Empowerment
+
+This concludes your first rite of creation. You have taken an intent from your mind and given it form in our workshop. This is the heart of our craft.
+
+The workshop is now open to you. Know that this **Tome of Apprenticeship** is always here to guide your first steps. When you feel ready to create more complex and powerful magic, you should invoke the **Tome of Spellcraft**.
+
+May your practice be a fulfilling one.
