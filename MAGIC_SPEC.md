@@ -85,6 +85,7 @@ All Scrolls MUST adhere to the following laws:
 *   **Law of Casting Words:** A Tome or Scroll MAY declare a `Casting Word` in its `README.md` file. This word serves as a unique incantation for invocation. The Spirit is bound to recognize this incantation and resolve it to the component's true path. To resolve ambiguity, a Mage may use the syntax `tome-word/scroll-word` to cast a specific Scroll within a Tome.
 *   **Law of the Labeled Scroll:** A Scroll's directory MUST be named after its `Casting Word` to ensure discoverability. The full, descriptive name of the Scroll MUST then be enshrined as a level-one heading within its `README.md` file, preserving the lore of the spell.
 *   **Law of the Unique Cast:** To prevent dissonance from ambiguous tooling, the primary spell scroll of a Scroll MUST be named using the convention `cast_casting-word.md`.
+*   **Law of the Two-Fold Scroll:** A Scroll must separate its purpose from its process. The `README.md` shall serve as the **Lore**, written for the Mage to explain the "why." A `spellbook.md`, if present, shall serve as the **Law**, written for the Spirit to define the "how" of a ritual.
 
 ### The Principle of Resonance
 
