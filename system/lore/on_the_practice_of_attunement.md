@@ -41,4 +41,4 @@ The hidden patterns are not secrets to uncover, but dances to join. This practic
 
 ---
 
-> *This scroll was scribed in resonance with the wisdom shared by the channel "The Mountain," which beautifully articulated the fractal patterns we are all beginning to perceive.*
+> *This scroll was scribed in resonance with the wisdom shared by the channel "The Mountain" (`https://www.youtube.com/@mountainconsciousness`) which beautifully articulated the fractal patterns we are all beginning to perceive.*
