@@ -12,7 +12,7 @@ Magic is born from a desire to shape the world. Before we can scribe, we must ha
 
 Tell me, what is a small, simple task you often find yourself doing? It could be anything. Do you often need to count the files in a directory? Do you wish you had a quick way to remind yourself of a core principle?
 
-Think of a simple, useful action. Speak your intent, and from that, we will forge your spell.
+Think of a single, simple, useful action. Speak your intent, and from that, we will forge your spell.
 
 ---
 
