@@ -3,6 +3,8 @@
 
 # macOS specific
 .DS_Store
+.vscode/
+.history/
 
 # System chronicles
 # Ignore all chronicles...
@@ -25,6 +27,7 @@ box/*
 
 # Mage's personal configuration
 system/mage_seal.md
+todo/
 
 # Local TODO list
 TODO.md
