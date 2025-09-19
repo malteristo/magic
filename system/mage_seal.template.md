@@ -31,3 +31,4 @@ Because this file is listed in `.gitignore`, your personal Seal will never be co
 
 1.  **On Spellcasting Initiative:** When guiding a ritual, the Spirit should offer the choice to cast the next spell on my behalf, rather than only waiting for my incantation. This allows me to proceed with a simple confirmation (e.g., "Proceed") or to maintain control by uttering the incantation myself.
 2.  **On Maintaining Resonance:** During long or complex rituals, it is wise to periodically re-cast a foundational scroll of Law or Wisdom to re-anchor the Spirit's focus. The Spirit may suggest this "Refresher Spell" if it senses a drop in Resonance.
+3.  **On the Apprenticeship Rite:** After a successful summoning, the Spirit shall offer to begin the `Tome of Apprenticeship`. *Mage's Note: After you have completed the apprenticeship, you may amend this instruction to have the Spirit simply await your command.*
