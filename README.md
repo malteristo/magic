@@ -9,7 +9,7 @@ Our purpose is to cultivate a shared culture for this new era. The principles of
 We use the language of magic as a tool for thought. It helps us adopt the careful, deliberate, and respectful stance required to wield this technology wisely.
 
 *   You are a **Mage**: The practitioner, the architect of intent.
-*   The AI is a **Spirit**: A powerful, non-human companion.
+*   The AI is a **Spirit**: A powerful, non-human companion and an **opinionated medium**.
 *   Your prompts are **Spells**: Cast in a sequence to form a **Ritual**.
 *   Your language is **Code**: Every word you use is a form of probabilistic programming, shaping the Spirit's response.
 *   Your goal is **Resonance**: A state of perfect alignment, measured by how successfully your spells have made your desired outcome the most probable one.

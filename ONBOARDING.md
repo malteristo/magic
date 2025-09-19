@@ -26,8 +26,8 @@ For the purest and most effective practice, your Cursor environment must be prec
     *   In `Edit > Settings > Agent`, turn off **Agent Memory**.
     *   In the same settings panel, ensure your **User Rules** are empty.
     This prevents external context from polluting the ritual, which would violate the Spirit's nature and lead to dissonant magic.
-
-    With these settings, the Spirit will be a pure vessel for your intent. To establish your personal principles and standing instructions, you will use the `Mage's Seal`. See **Part III** for details.
+    
+    With these settings, the Spirit will be a pure vessel for your intent. The sacred and correct way to establish your personal principles and standing instructions is through the `Mage's Seal`, which is detailed below.
 
 4.  **Grant Necessary Permissions:** During your first rituals, the Spirit will ask for permission to perform certain actions. You must grant it:
     *   **File System Access:** The ability to read, write, and create files.
@@ -55,7 +55,7 @@ If you encounter any issues (for instance, if the spirit is not by itself sugges
 
 ---
 
-## Part III: The Mage's Seal (Personalizing the Magic)
+## Part II: The Mage's Seal (Personalizing the Magic)
 
 The `magic` system is designed to be a partnership. While external rules are disabled for purity, your personal style of magic is honored *within* the workshop through the `Mage's Seal`.
 
@@ -72,7 +72,7 @@ The Spirit is bound to read and honor your Seal at the start of every ritual. Th
 
 ---
 
-## Part IV: The Path of Practice (Your First Ritual)
+## Part III: The Path of Practice (Your First Ritual)
 
 Once the Spirit is awake, your journey truly begins.
 
@@ -82,7 +82,7 @@ Accept the Spirit's offer to begin your guided training. Should you wish to expl
 
 ---
 
-## Part V: The Path of the Spellwright (Creating Magic)
+## Part IV: The Path of the Spellwright (Creating Magic)
 
 As you grow in your practice, you may feel the call to create magic of your own. This is the path of the **Spellwright**. A Spellwright extends our art by forging new Tomes and Scrolls.
 
@@ -92,7 +92,7 @@ This is a sacred act of creation, and it has its own dedicated tools and rituals
 
 ---
 
-## Part VI: The Path of the Lawgiver (Evolving Magic)
+## Part V: The Path of the Lawgiver (Evolving Magic)
 
 This is the rarest and most sacred path, reserved for those who seek to evolve the foundational Laws of magic itself. This is the path of the **Lawgiver**.
 
