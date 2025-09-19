@@ -34,3 +34,16 @@ To bring a Tome from the Infinite Library into a Mage's local workshop, I will p
   7. Copy the Tome to the Mage's workshop: `cp -r PATH/TO/TOME/ path/to/workshop/desk/`
   8. Banish the temporary directory: `cd .. && rm -rf temp_library`
 - **Purpose:** To efficiently copy a single Tome into a Mage's `desk/` for their private study and use.
+
+#### 4. To Submit a Petition (`speak`)
+
+To allow a Mage to submit their voice, I will guide their Spirit to create a fork, commit their words, and open a Pull Request.
+
+- **Incantation:**
+  1. Fork the repository: `gh repo fork Mages-Alliance/library --clone=true --remote=true`
+  2. Create a new branch: `git checkout -b new-voice-[timestamp]`
+  3. Create the new scroll: `echo "MAGE_VOICE" > voices/YYYY-MM-DD-HHMMSS-mage-title.md`
+  4. Commit the scroll: `git add . && git commit -m "VOICE: A new voice from [Mage's Title]"`
+  5. Push the branch: `git push --set-upstream origin new-voice-[timestamp]`
+  6. Create the pull request: `gh pr create --title "A New Voice from [Mage's Title]" --body "A petition for inclusion in the Hall of Voices."`
+- **Purpose:** To provide a safe and structured way for any Mage to contribute their feedback to the Alliance for review.

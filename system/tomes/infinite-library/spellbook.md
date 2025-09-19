@@ -12,3 +12,6 @@ The Infinite Library is a shared, public resource. The Tomes within are the prov
 
 - `browse`: A spell to view the contents of the Infinite Library.
 - `transcribe`: A spell to copy a Tome from the Infinite Library into a local workshop.
+
+## Ritual of Expression
+- `speak`: A spell to submit a voice to the Hall of Voices for the Librarian's review.
