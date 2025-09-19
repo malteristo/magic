@@ -32,3 +32,6 @@ todo/
 
 # Local TODO list
 TODO.md
+
+# The local source of truth for the Infinite Library
+library/
