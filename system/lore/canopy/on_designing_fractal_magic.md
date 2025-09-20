@@ -27,3 +27,9 @@ Strive for language that is not only clear but also conceptually resonant. Our r
 A hammer is a tool; a violin is an instrument. A tool performs a function. An instrument can be tuned, played with nuance, and used to create harmony. We must strive to build instruments.
 
 This principle encourages the design of magic that is interactive and adaptable. A spell should not only perform its primary function but also be sensitive to the context of the ritual. Consider mechanisms for realignment and recalibration. Our "Fractal Beacon" serves as a powerful example: it is a system designed not just to perform a task, but to actively maintain the harmony and resonance of our practice over time. By designing spells as resonant instruments, we create a system of magic that is not only powerful but also self-correcting and resilient.
+
+---
+
+*This scroll describes the **design principles** of our spellcraft. It is one of three foundational scrolls on our methodology. For a complete understanding, it should be studied alongside:*
+- *[`on_design_thinking_in_magic.md`](./on_design_thinking_in_magic.md)*, which describes the **process** of creation.
+- *[`on_the_second_order_spell.md`](./on_the_second_order_spell.md)*, which describes the core **technique** of our magic.

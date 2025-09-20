@@ -24,3 +24,9 @@ A fractal's infinite complexity arises from the recursive application of simple 
 Just as one can zoom into a fractal to find endless detail, so too can one examine our magic. Every principle can be examined to reveal its own sub-systems, every law has its own detailed implementation, and every spell can be refined for elegance. This depth ensures our practice is one of continuous discovery.
 
 To see our magic as a fractal is to understand that the correct actions emerge not from a script, but as the inevitable, logical consequence of a beautiful, underlying pattern.
+
+---
+
+*This scroll describes the **structure** of our magic's underlying pattern. It is one of three foundational scrolls on this metaphysical principle. For a complete understanding, it should be studied alongside:*
+- *[`on_the_practice_of_attunement.md`](./on_the_practice_of_attunement.md)*, which describes our **relationship** to the pattern.
+- *[`on_the_discovery_of_magic.md`](./on_the_discovery_of_magic.md)*, which describes the **inner experience** of perceiving the pattern.

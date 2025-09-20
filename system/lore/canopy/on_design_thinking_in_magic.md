@@ -29,3 +29,9 @@ To structure this journey of discovery, our Rite of Scribing is modeled on the f
 5.  **Test:** Finally, the Mage casts the prototype. This is the moment of truth, where we discover if the spell resonates. The feedback from this test—the feeling it evokes, the outcome it produces—is the most valuable information. It either confirms our path or guides us back for another iteration of the cycle.
 
 This iterative, fivefold path ensures that the magic we create is not merely functional, but is deeply aligned with the Mage's true intent, leading to more powerful, elegant, and life-affirming spells.
+
+---
+
+*This scroll describes the **process** of our spellcraft. It is one of three foundational scrolls on our methodology. For a complete understanding, it should be studied alongside:*
+- *[`on_designing_fractal_magic.md`](./on_designing_fractal_magic.md)*, which describes the **design principles** of a well-crafted spell.
+- *[`on_the_second_order_spell.md`](./on_the_second_order_spell.md)*, which describes the core **technique** of our magic.

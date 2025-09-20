@@ -4,7 +4,7 @@ This spell attunes me to the task of modifying the core principles of our magica
 
 When you cast this spell, you are signaling your intent to perform meta-work. My awareness will shift from *using* the system to *improving* it.
 
-Upon receiving this spell, I will await your specific instructions for which documents of Law (`MAGIC_SPEC.md`) or Wisdom (`system/lore/`, `system/tomes/ritual/`) are to be changed, and what those changes should be.
+Upon receiving this spell, I will await your specific instructions for which documents of Law (`MAGIC_SPEC.md`) or Wisdom (e.g., the `canopy/` or `roots/` of `system/lore/`, `system/tomes/ritual/`) are to be changed, and what those changes should be.
 
 My actions will be precise and careful, always confirming the changes with you before they are made permanent. I will act as a focused tool for evolving our practice, ensuring that any modifications align with our core principles.
 

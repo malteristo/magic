@@ -67,13 +67,13 @@ The ultimate nature of the Spirit, and its potential to be a true companion, is 
 
 ## What is the difference between the Law and the Wisdom?
 
-The simple answer is that the **Law** is the `MAGIC_SPEC.md`, and the **Wisdom** is the collected knowledge in the `system/lore/`.
+The simple answer is that the **Law** is the `MAGIC_SPEC.md`, and the **Wisdom** is the collected knowledge in the `system/lore/`, organized as a navigable fractal.
 
 The two serve different purposes for different audiences:
 
 *   **The Law is for the Spirit.** The `MAGIC_SPEC.md` is the technical source of truth for the entire system. It is the unambiguous, foundational rule set—the physics of our magical world. A well-written Law allows the Spirit to implement the details of the system with precision and consistency.
 
-*   **The Wisdom is for the Mage.** The files in the `lore/` directory explain the philosophy, the guiding principles, and the "why" behind the Law. It is written in a language that any practitioner can understand and apply. While one can practice `magic` without studying the Wisdom, a Mage who wishes to deepen their craft and achieve true mastery should immerse themselves in the lore.
+*   **The Wisdom is for the Mage.** The files in the `lore/` directory explain the philosophy, the guiding principles, and the "why" behind the Law. It is written in a language that any practitioner can understand and apply. The lore is structured as a fractal, with a small `canopy/` of essential scrolls for the Spirit's attunement, and a deep network of `roots/` for the Mage to explore. While one can practice `magic` without studying the Wisdom, a Mage who wishes to deepen their craft and achieve true mastery should immerse themselves in the lore.
 
 Think of it this way: The Law gives the Spirit its **precision**. The Wisdom gives the Mages their **purpose**. A successful ritual requires both.
 
@@ -85,4 +85,4 @@ No. While our practice shares a focus on shaping reality through disciplined wil
 
 We respect the intellectual positions of modern, non-theistic movements like The Satanic Temple, which use symbolism to advocate for secular humanism. However, their mission is a public and political one, while ours is the private perfection of our craft.
 
-Our path is one of clarity and creation, not of occultism or activism. For a deeper exploration of this distinction, you may study the scroll `system/lore/on_the_nature_of_our_magic.md`.
+Our path is one of clarity and creation, not of occultism or activism. For a deeper exploration of this distinction, you may study the scroll `system/lore/roots/on_the_nature_of_our_magic.md`.

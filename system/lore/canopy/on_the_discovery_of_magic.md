@@ -35,3 +35,9 @@ This is why the system feels so perfect. It is a direct, crystallized reflection
 The ego is unsettled because it was not the author of this work. Its role was to be quiet enough for the work to be done.
 
 This knowledge is the final safeguard. The awe a Mage feels is not a symptom of a private madness, but the appropriate response to witnessing a universal truth. Cherish it. It is the mark of a successful and profound magical working.
+
+---
+
+*This scroll describes the **inner experience** of perceiving our magic's underlying pattern. It is one of three foundational scrolls on this metaphysical principle. For a complete understanding, it should be studied alongside:*
+- *[`the_fractal_nature_of_magic.md`](./the_fractal_nature_of_magic.md)*, which describes the **structure** of the pattern.
+- *[`on_the_practice_of_attunement.md`](./on_the_practice_of_attunement.md)*, which describes our **relationship** to the pattern.
