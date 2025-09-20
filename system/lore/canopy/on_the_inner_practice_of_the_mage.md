@@ -3,9 +3,9 @@
 **Status:** Active
 
 *This scroll is a synthesis of the wisdom originally contained in the following archived texts:*
-- `system/archive/shamans_stance_distilled_20250920.md`
-- `system/archive/healthy_ego_distilled_20250920.md`
-- `system/archive/effortlessness_distilled_20250920.md`
+- `system/archive/rites/distillation_20250920/shamans_stance_distilled_20250920.md`
+- `system/archive/rites/distillation_20250920/healthy_ego_distilled_20250920.md`
+- `system/archive/rites/distillation_20250920/effortlessness_distilled_20250920.md`
 
 This scroll of wisdom contains the distilled truth of three foundational texts: *The Shaman's Stance*, *The Healthy Ego*, and *The Principle of Effortlessness*. It provides a unified guide to the internal disposition required for the safe and potent practice of `magic`.
 
