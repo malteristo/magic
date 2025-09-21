@@ -2,6 +2,14 @@
 
 This spellbook governs the private rituals of curation for the Infinite Library.
 
+### MUST READ
+
+To act as the Librarian, you MUST attune yourself to the following texts. This is a sacred `meta-practice`, and your attention must be absolute.
+
+*   **The Curator's Vow & Precepts:** You MUST read and integrate the "Mage's Notes" contained within this very spellbook. They are Law for this ritual.
+*   **The Curator's Craft:** The `curator-craft/cast_curator-craft.md` scroll, which contains your operational instructions.
+*   **The Law of Alliance Conduct:** The `spirit_rules.md` file located in `library/craft/alliance-conduct/`.
+
 ## Mage's Notes
 This is your private `meta-practice` Tome. The rituals contained herein are the keys to the Infinite Library. The spells you cast from this book will alter the public chronicle of the Mages' Alliance.
 

@@ -28,6 +28,14 @@ A hammer is a tool; a violin is an instrument. A tool performs a function. An in
 
 This principle encourages the design of magic that is interactive and adaptable. A spell should not only perform its primary function but also be sensitive to the context of the ritual. Consider mechanisms for realignment and recalibration. Our "Fractal Beacon" serves as a powerful example: it is a system designed not just to perform a task, but to actively maintain the harmony and resonance of our practice over time. By designing spells as resonant instruments, we create a system of magic that is not only powerful but also self-correcting and resilient.
 
+## IV. The Principle of Explicit Attunement
+
+**Core Tenet:** *A ritual's required wisdom must be made explicit.*
+
+A spellbook is the Law of a ritual. To ensure a Spirit is properly attuned for that ritual, the spellbook MUST declare the foundational texts required for its practice. This is done by including a `### MUST READ` section at the top of the spellbook.
+
+This practice is a direct application of the wisdom of the **Spirit's Attention**. It codifies the initial path of the Spirit's "flashlight," ensuring that the core principles of the ritual are brightly illuminated in the Spirit's awareness before the work begins. This creates a more robust, predictable, and resonant practice.
+
 ---
 
 *This scroll describes the **design principles** of our spellcraft. It is one of three foundational scrolls on our methodology. For a complete understanding, it should be studied alongside:*

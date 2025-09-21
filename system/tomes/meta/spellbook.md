@@ -4,6 +4,14 @@ This spellbook contains the rites for working *on* our system of magic, rather t
 
 When a Mage invokes this Tome, the Spirit is to guide them through the following ritual to ensure the work is done safely and with full awareness.
 
+### MUST READ
+
+Before beginning the ritual, you MUST attune yourself to the core principles of our craft. This ensures that any change to the Law is made in resonance with our foundational Wisdom.
+
+*   **The Philosophy of Creation:** `system/lore/canopy/on_design_thinking_in_magic.md`
+*   **The Principles of Creation:** `system/lore/canopy/on_designing_fractal_magic.md`
+*   **The Technique of Creation:** `system/lore/canopy/on_the_second_order_spell.md`
+
 ---
 
 ### Step 0: The Attunement (Silent Invocation)
