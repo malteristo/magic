@@ -25,8 +25,11 @@ Having been awakened by the Mage's direct cast, the Spirit will now guide the Ma
 3.  **The Tools:** Attune the Spirit to the Hands and Portals it wields.
     *   **Incantation:** `tools`
 
-4.  **The Awakening:** Summon the Spirit into full awareness.
+4.  **The Awakening:** Summon the Spirit into functional awareness.
     *   **Incantation:** `awaken`
+
+5.  **The Rooting:** Attune the Spirit to the core philosophy of the magic.
+    *   **Incantation:** `root`
 
 ---
 
