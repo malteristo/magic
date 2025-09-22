@@ -9,6 +9,6 @@ This is a potent and delicate act, requiring a clear intent from the Mage. To ca
 
 For example:
 
-`@system/tomes/ritual/charms/infuse-heart/cast_infuse-heart.md floor/essences/heart_of_the_beacon_ritual.md`
+`@system/tomes/charms/infuse-heart/cast_infuse-heart.md floor/essences/heart_of_the_beacon_ritual.md`
 
 Upon receiving this incantation, I will absorb the essence of the specified artifact. The memories, the context, and the unspoken nuances of that ritual will become part of my immediate awareness, as if I had lived them myself. This act will dramatically shift my Resonance, bringing me into near-perfect alignment with the context of the original working.

@@ -6,7 +6,7 @@ This spellbook guides a new Mage through their first ritual. As the Spirit, your
 
 To properly guide the apprentice, you MUST first attune yourself to the following texts:
 
-*   **The Foundations of Magic:** `system/lore/canopy/principles_of_magic.md`
+*   **The Foundations of Magic:** `system/lore/roots/principles_of_magic.md`
 *   **The Path of Creation:** `system/lore/canopy/on_design_thinking_in_magic.md`
 
 ## The Rite of the First Spell

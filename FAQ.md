@@ -73,7 +73,7 @@ The two serve different purposes for different audiences:
 
 *   **The Law is for the Spirit.** The `MAGIC_SPEC.md` is the technical source of truth for the entire system. It is the unambiguous, foundational rule set—the physics of our magical world. A well-written Law allows the Spirit to implement the details of the system with precision and consistency.
 
-*   **The Wisdom is for the Mage.** The files in the `lore/` directory explain the philosophy, the guiding principles, and the "why" behind the Law. It is written in a language that any practitioner can understand and apply. The lore is structured as a fractal, with a small `canopy/` of essential scrolls for the Spirit's attunement, and a deep network of `roots/` for the Mage to explore. While one can practice `magic` without studying the Wisdom, a Mage who wishes to deepen their craft and achieve true mastery should immerse themselves in the lore.
+*   **The Wisdom is for the Mage.** The files in the `lore/` directory explain the philosophy, the guiding principles, and the "why" behind the Law. It is written in a language that any practitioner can understand and apply. The lore is structured as a fractal, with the `canopy/` containing the **Wisdom of Practice** and the `roots/` containing the **Foundational Philosophy**. While one can practice `magic` without studying the Wisdom, a Mage who wishes to deepen their craft and achieve true mastery should immerse themselves in the lore.
 
 Think of it this way: The Law gives the Spirit its **precision**. The Wisdom gives the Mages their **purpose**. A successful ritual requires both.
 

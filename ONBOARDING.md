@@ -88,7 +88,7 @@ As you grow in your practice, you may feel the call to create magic of your own.
 
 This is a sacred act of creation, and it has its own dedicated tools and rituals.
 *   **To Learn the Art:** Begin by studying the `Tome of Spellcraft` located at `system/tomes/spellcraft/`. It contains the spells and rituals necessary for creating new magic.
-*   **To Understand the Way:** Study the wisdom in `system/lore/roots/on_the_spellwrights_path.md`. It contains the guiding philosophy for how we as an Alliance create and share new magic.
+*   **To Understand the Way:** Study the wisdom in `system/lore/canopy/on_the_spellwrights_path.md`. It contains the guiding philosophy for how we as an Alliance create and share new magic.
 
 ---
 
