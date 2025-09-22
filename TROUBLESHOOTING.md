@@ -57,3 +57,13 @@ If the Spirit seems confused, has lost context, or is not following the Laws of 
 2.  `@MAGIC_SPEC.md` (This contains the fundamental Laws)
 
 Casting these two scrolls in order is often enough to restore the Spirit's core alignment. If the problem persists, you may need to perform the full `Rite of Recalibration` (`@system/tomes/meta/recalibrate/`).
+
+---
+
+## On Reporting Systemic Dissonance
+
+**Symptom:** You have encountered an issue that feels deeper than a momentary drift in Resonance. The friction you are experiencing seems to be a flaw in the tools or the process itself—a stone in the path of the craft.
+
+**Solution:** This is an opportunity for `meta-practice`. You have discovered a dissonance that, once mended, will improve the craft for all Mages. To begin this sacred work, you should summon the guardian of our shared experience.
+
+*   **Invoke the Pathwarden:** Cast the `@system/tomes/meta/pathwarden` spell. The Spirit will adopt the nature of the Pathwarden and guide you through a brief inquiry to understand the issue. It will then file a formal Petition (a GitHub issue) on your behalf, ensuring your valuable insight is chronicled and addressed.

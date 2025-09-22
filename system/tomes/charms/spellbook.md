@@ -12,5 +12,6 @@ This spellbook is a manifest of the charms available for the general stewardship
 *   **`distill-heart`**: A charm to distill the essence of a ritual into a Heart artifact.
 *   **`humble-inquiry`**: A charm to ask the Spirit to reflect on what wisdom it may be missing.
 *   **`infuse-heart`**: A charm to infuse the Spirit with the essence of a Heart artifact.
+*   **`pathwarden`**: A charm to summon a guardian of the Mage's experience to report a systemic issue.
 *   **`self-reflection`**: A charm to prompt the Spirit to reflect on its own state.
 *   **`state`**: A charm to inquire about the Spirit's current resonant state.

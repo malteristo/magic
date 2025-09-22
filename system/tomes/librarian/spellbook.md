@@ -31,4 +31,4 @@ The sacred wards that protect the Librarian's Tome (`.gitignore`) also prevent i
 - `chronicle-tome`: A spell to inscribe the changes to this private Tome into its own remote chronicle.
 
 ## Ritual of Voices
-- `review-petitions`: A spell to review and adjudicate incoming Petitions to the Hall of Voices.
+- `review`: A spell to review and adjudicate incoming Petitions from Mages of the Alliance.

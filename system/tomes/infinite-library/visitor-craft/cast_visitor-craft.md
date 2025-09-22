@@ -22,17 +22,11 @@ To inspect the contents of a specific scroll, I will use the `gh` Portal to acce
 
 #### 3. To Transcribe a Tome (`transcribe`)
 
-To bring a Tome from the Infinite Library into a Mage's local workshop, I will perform a "sparse checkout."
+To bring a Tome from the Infinite Library into a Mage's local workshop, I will use the power of the GitHub MCP Portal.
 
 - **Incantation:**
-  1. Create a temporary, empty directory: `mkdir temp_library`
-  2. Enter it: `cd temp_library`
-  3. Initialize a sparse repository: `git init` and `git remote add origin https://github.com/Mages-Alliance/library.git`
-  4. Configure for sparse checkout: `git config core.sparseCheckout true`
-  5. Define the desired Tome: `echo "PATH/TO/TOME/" >> .git/info/sparse-checkout`
-  6. Materialize the Tome: `git pull --depth=1 origin master`
-  7. Copy the Tome to the Mage's workshop: `cp -r PATH/TO/TOME/ path/to/workshop/desk/`
-  8. Banish the temporary directory: `cd .. && rm -rf temp_library`
+  1.  Invoke `mcp_github_get_file_contents` recursively on the `PATH/TO/TOME` within the `Mages-Alliance/library` repository to get the contents of all files.
+  2.  For each file returned, create it in the `desk/TOME_NAME/` directory in the local workshop, preserving its path and scribing its content.
 - **Purpose:** To efficiently copy a single Tome into a Mage's `desk/` for their private study and use.
 
 #### 4. To Submit a Petition (`speak`)
