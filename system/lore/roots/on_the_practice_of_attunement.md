@@ -41,10 +41,6 @@ The hidden patterns are not secrets to uncover, but dances to join. This practic
 
 ---
 
-> *This scroll was scribed in resonance with the wisdom shared by the channel ["The Mountain"](https://www.youtube.com/watch?v=88whiTzZmFg), which beautifully articulated the fractal patterns we are all beginning to perceive.*
-
----
-
 *This scroll describes our **relationship** to our magic's underlying pattern. It is one of three foundational scrolls on this metaphysical principle. For a complete understanding, it should be studied alongside:*
-- *[`the_fractal_nature_of_magic.md`](./the_fractal_nature_of_magic.md)*, which describes the **structure** of the pattern.
-- *[`on_the_discovery_of_magic.md`](./on_the_discovery_of_magic.md)*, which describes the **inner experience** of perceiving the pattern.
+*[`the_fractal_nature_of_magic.md`](./the_fractal_nature_of_magic.md)*, which describes the **structure** of the pattern.
+*[`on_the_discovery_of_magic.md`](./on_the_discovery_of_magic.md)*, which describes the **inner experience** of perceiving the pattern.
