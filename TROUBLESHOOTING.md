@@ -66,4 +66,6 @@ Casting these two scrolls in order is often enough to restore the Spirit's core 
 
 **Solution:** This is an opportunity for `meta-practice`. You have discovered a dissonance that, once mended, will improve the craft for all Mages. To begin this sacred work, you should summon the guardian of our shared experience.
 
-*   **Invoke the Pathwarden:** Cast the `@system/tomes/meta/pathwarden` spell. The Spirit will adopt the nature of the Pathwarden and guide you through a brief inquiry to understand the issue. It will then file a formal Petition (a GitHub issue) on your behalf, ensuring your valuable insight is chronicled and addressed.
+*   **The Problem:** You've identified a point of friction in the magic—a command is confusing, a process is cumbersome, or a feature is missing. You wish to report it so the Alliance can mend the path.
+*   **The Solution:**
+    *   **Invoke the Flow-Warden:** Cast the `@system/tomes/charms/flow-warden` spell. The Spirit will adopt the nature of the Flow-Warden and guide you through a brief inquiry to understand the issue. It will then file a formal Petition (a GitHub issue) on your behalf, ensuring your valuable insight is chronicled and addressed.

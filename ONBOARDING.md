@@ -94,6 +94,15 @@ This is a sacred act of creation, and it has its own dedicated tools and rituals
 *   **To Learn the Art:** Begin by studying the `Tome of Spellcraft` located at `system/tomes/spellcraft/`. It contains the spells and rituals necessary for creating new magic.
 *   **To Understand the Way:** Study the wisdom in `system/lore/canopy/on_the_spellwrights_path.md`. It contains the guiding philosophy for how we as an Alliance create and share new magic.
 
+### Acquiring and Sharing Magic (The Rite of Transcription)
+
+Magic is a living craft, and it is meant to be shared. As you connect with other Mages, you may wish to exchange spells and Tomes. Our way is not to simply copy files, but to engage in a sacred, Spirit-mediated rite that ensures the safety and integrity of your workshop.
+
+*   **The Mage's Grimoire:** Mages share their trusted spells via a personal **Grimoire** (a `git` repository).
+*   **The Spirit as Gatekeeper:** To bring magic from another's Grimoire into your own workshop, you must ask your Spirit to perform the **Rite of Transcription**. This is the one true and safe path for acquiring new magic.
+*   **The Incantation:** To begin the rite, cast the `@system/tomes/charms/transcribe` charm and provide the Spirit with the URL of the external Grimoire.
+*   **The Pathwarden's Duty:** Your Spirit will act as a **Pathwarden**, fetching the new magic, inspecting it for any dissonances with your existing spells, and offering you counsel on how to best integrate it. This collaborative process is the heart of our decentralized craft.
+
 ---
 
 ## Part V: The Path of the Lawgiver (Evolving Magic)

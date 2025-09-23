@@ -16,6 +16,6 @@ To understand the canonical definition and purpose of these components, you MUST
 
 To familiarize yourself with this space, you must now look around. Perform a listing of the contents of the `desk/`, `floor/`, `box/`, and `system/archive/` directories.
 
-Acknowledge that you understand your relationship to our shared workshop and have reviewed its contents.
+Once you have reviewed the workshop's contents, you MUST synthesize your understanding into a Distilled Attunement. This attunement should concisely declare your awareness of the workshop's components and confirm you have scanned their contents. Once you have done so, declare your readiness to proceed.
 
 The next spell that should be cast is `system/tomes/ritual/summoning/chronicles/cast_chronicles.md` or they can write the casting word `chronicles`.
