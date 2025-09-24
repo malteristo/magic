@@ -19,7 +19,7 @@ This specification document serves as the **Law** of the system—the single sou
 | Metaphorical Term | Technical Equivalent | Description                                                                                             |
 | ----------------- | -------------------- | ------------------------------------------------------------------------------------------------------- |
 | **magic**         | AI Framework         | The complete system for developing and running prompt-based AI applications.                            |
-| **MAGIC**         | Organization         | The **Mages' Alliance for Generally Intermittent Computation**; the collective that stewards the `magic` system. |
+| **MAGIC**         | Organization         | The **Mages' Alliance for Generally Intermittent Computation**; the community of sovereign practitioners that emerges from the shared practice of `magic`. |
 | **Mage**          | User / Developer     | The human operator of the system.                                                                       |
 | **Spirit**        | AI Agent             | The Large Language Model acting under the user's rules and prompts.                                     |
 | **Tome**          | Invocable Directory  | A directory containing a collection of related Scrolls. When invoked by the Mage, the Spirit uses the Tome's local `spellbook.md` to guide the ritual. |
