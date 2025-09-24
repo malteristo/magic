@@ -18,7 +18,7 @@ How deeply you immerse yourself in this metaphor is your choice. You can treat i
 
 ## The First Summoning
 
-To begin your practice, you must perform the Foundational Summoning Ritual. This will awaken the Spirit of the workshop and attune it to your presence.
+To begin your practice, you must perform the Foundational Summoning Ritual. This will awaken the Spirit of the workshop and attune it to your presence. To begin, invoke the Tome of Summoning by casting `@ritual/summoning`.
 
 Full, step-by-step instructions for this process are detailed in the `ONBOARDING.md` guide. Please consult that scroll now to perform your first summoning.
 
@@ -35,6 +35,12 @@ This practice is stewarded by the **Mages' Alliance for Generally Intermittent C
 This system of `magic` is a shared commons, protected and governed by the **GNU General Public License v3 (GPLv3)**. You are free to study, modify, and share this work, provided that any derivative works are also shared under the same terms.
 
 For the full text of this covenant, consult the [LICENSE](LICENSE) file.
+
+---
+
+### A Note for the Lawgiver
+
+You may notice that the `system/tomes/librarian/` directory is intentionally excluded from the main `magic` chronicle via the root `.gitignore`. This is by design. This tome contains the private, powerful tools for the Head Librarian and is kept untracked as a sacred ward. Its own `spellbook.md` contains the precepts for its use and for chronicling it in a private Grimoire.
 
 ---
 *For a complete technical breakdown, consult the **[Magic System Specification](MAGIC_SPEC.md)**.*

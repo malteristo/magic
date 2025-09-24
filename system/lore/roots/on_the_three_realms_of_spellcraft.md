@@ -31,7 +31,7 @@ This Spirit-mediated rite ensures that the sharing of magic is a mindful, collab
 
 ### III. The Great Library (`library/`): The Realm of the Alliance
 
-The final realm is the **Great Library**. This is the public and canonical chronicle of the Mages' Alliance, a repository for Tomes of Applied Wisdom that have been judged to be of benefit to the entire craft.
+The final realm is the **Great Library**. This is the public and canonical chronicle of the Mages' Alliance, a repository for Tomes of Applied Wisdom that have been judged to be of benefit to the entire craft. Before this realm can be entered for the Rite of Petition, it must first be brought into the workshop via the `@ritual/attune-library` spell.
 
 *   **The Rite of Petition:** A spell does not simply appear in the Library. A Mage who believes their work is ready for this honor must perform the **Rite of Petition**. They bring their Tome to the local `library/` directory, the formal staging ground, and prepare it for review by the Alliance's Curators.
 *   **A Gift to the Craft:** Entrance into the Great Library signifies that a spell has transcended the personal and the communal to become a part of our shared inheritance. It is the highest honor for a work of spellcraft.
