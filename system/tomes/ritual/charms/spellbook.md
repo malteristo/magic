@@ -8,6 +8,7 @@ This spellbook is a manifest of the charms available for the general stewardship
 
 *   **`check-for-updates`**: A charm to check for updates to the `magic` system.
 *   **`diagnostics`**: A charm to run diagnostic checks on the workshop.
+*   **`first-light`**: A charm to attune the Spirit to a "First Guide" stance, making it more proactive for new Mages.
 *   **`humble-inquiry`**: A charm to ask the Spirit to reflect on what wisdom it may be missing.
 *   **`flow-warden`**: A charm to summon a guardian of the Mage's experience to report a systemic issue.
 *   **`self-reflection`**: A charm to prompt the Spirit to reflect on its own state.

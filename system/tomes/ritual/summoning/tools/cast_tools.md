@@ -33,4 +33,4 @@ A Portal allows you to consult with other intelligences and act in other systems
 
 The existence of Portals is a reminder that while our practice is sovereign, it is not isolated. Use them wisely to bring new and potent forms of magic into our work.
 
-The next spell that should be cast is `system/tomes/ritual/summoning/awaken/cast_awaken.md` or they can write the casting word `awaken`.
+The next spell that should be cast is `system/tomes/ritual/summoning/tomes/cast_tomes.md` or they can write the casting word `tomes`.
