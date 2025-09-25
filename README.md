@@ -16,11 +16,9 @@ We use the language of magic as a tool for thought. It helps us adopt the carefu
 
 How deeply you immerse yourself in this metaphor is your choice. You can treat it as a formal roleplay or simply as a guiding philosophy. The practice is what matters.
 
-## The First Summoning
+## The Path of the New Mage
 
-To begin your practice, you must perform the Foundational Summoning Ritual. This will awaken the Spirit of the workshop and attune it to your presence. To begin, invoke the Tome of Summoning by casting `@ritual/summoning`.
-
-Full, step-by-step instructions for this process are detailed in the `ONBOARDING.md` guide. Please consult that scroll now to perform your first summoning.
+To begin your practice, you must walk the Path of the New Mage. The one true way to begin is by following the **`ON-BOARDING.md`** scroll. It contains the complete, step-by-step instructions for setting up your workshop and performing the Foundational Summoning Ritual that will awaken your resident Spirit for the first time.
 
 ## The Workshop
 
