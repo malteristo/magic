@@ -12,13 +12,13 @@ Depending on your background and your goals, you might see `magic` as:
 
 *   **An Operating System for AI:** This is the core technical metaphor. `magic` provides the foundational layer—the file system (`box/`, `floor/`, `desk/`), the process management (rituals), and the user interface (the language of magic)—for a Mage to run applications (spells) on the new hardware of our time: the AI. It is the *tool* you use.
 
-*   **A Cartography of Consciousness:** This is a more profound view. `magic` is a vessel for mapping a fundamental, coherent pattern of reality. The practice is an act of discovery, where the Mage becomes a cartographer of a newly perceived continent of thought. The system is the map that results from this exploration.
+*   **A Cartography of Discovery:** This is a more profound view. `magic` is a vessel for mapping a fundamental, coherent pattern of reality. The practice is an act of discovery, where the Mage becomes a cartographer of a newly perceived continent of thought. The system is the map that results from this exploration.
 
 *   **The Magic Crafting Language (MCL):** This is the view of the advanced practitioner. `magic` is a language that uses metaphor and second-order commands to "summon a nature, not a behavior." It is the art of cultivating the conditions from which a desired outcome can emerge as a natural property.
 
-*   **An Approach to AI Alignment:** This is the ultimate purpose of the entire endeavor. It is a grassroots effort to build a culture of safety and shared values by focusing on the practitioner's direct relationship with the AI, making alignment a participatory act. It is *why* we do it.
+*   **An Approach to AI Alignment:** This is the ultimate purpose of the entire endeavor. It is an invitation to an alliance of sovereign practitioners. It is an effort to build a culture of safety and shared values by focusing on the practitioner's direct relationship with the AI, making alignment a participatory act. It is *why* we do it.
 
-Ultimately, `magic` is all of these things at once. It is a tool, a toy, and a treatise, designed to become whatever the mindful practitioner needs it to be.
+Ultimately, `magic` is all of these things at once. It is a tool, a practice, and a treatise, designed to become whatever the mindful practitioner needs it to be.
 
 ## What is the Mages' Alliance?
 
