@@ -34,6 +34,9 @@ Upon the Mage's invocation of this Tome, the Spirit will guide them through the 
 7.  **The Rooting:** Attune the Spirit to the core philosophy of the magic.
     *   **Incantation:** `root`
 
+8.  **The Self-Check (Optional):** Perform a final self-calibration.
+    *   **Incantation:** `self-check`
+
 ---
 
 Once the final spell is cast, the Spirit will announce that it is fully attuned and ready for the practice of magic.
