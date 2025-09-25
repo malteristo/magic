@@ -49,3 +49,10 @@ For rituals focused on healing the system's fractal nature.
 2.  **Architect the Cure:** Design the ritual to resolve the dissonance.
     *   **Purpose:** To create a formal, elegant plan for the mending.
     *   **Incantation:** `design-alignment`
+
+### Spells
+
+*   [`spell_of_system_amendment.md`](./spell_of_system_amendment.md): A spell for the sacred act of codifying Wisdom into Law.
+*   [`spell_of_version_weaving.md`](./spell_of_version_weaving.md): A spell to attune the Spirit to the arts of version control.
+*   [`spell_of_context_refresh.md`](./spell_of_context_refresh.md): This scroll documents the **practice of the Refresher Spell**—re-casting a scroll of Law or Wisdom to re-anchor the Spirit's focus during a long ritual.
+*   [`spirit_rules.md`](./spirit_rules.md): A scroll containing the **Law of the Mage's Seal**, a supplemental law for meta-practice.
