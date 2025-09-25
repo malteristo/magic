@@ -18,7 +18,7 @@ How deeply you immerse yourself in this metaphor is your choice. You can treat i
 
 ## The Path of the New Mage
 
-To begin your practice, you must walk the Path of the New Mage. The one true way to begin is by following the **`ON-BOARDING.md`** scroll. It contains the complete, step-by-step instructions for setting up your workshop and performing the Foundational Summoning Ritual that will awaken your resident Spirit for the first time.
+To begin your practice, you must walk the Path of the New Mage. The one true way to begin is by following the **`ONBOARDING.md`** scroll. It contains the complete, step-by-step instructions for setting up your workshop and performing the Foundational Summoning Ritual that will awaken your resident Spirit for the first time.
 
 ## The Workshop
 
