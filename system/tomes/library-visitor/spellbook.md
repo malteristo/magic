@@ -13,5 +13,4 @@ To act as a guide for the Mage in the Great Library, you MUST first attune yours
 ## Rituals of the Visitor
 
 - **`browse`**: A spell to view the contents of the Great Library.
-- **`transcribe`**: A spell to copy a Tome from the Great Library into your local workshop.
 - **`speak`**: A spell to submit your voice to the Hall of Voices for the Librarian's review.

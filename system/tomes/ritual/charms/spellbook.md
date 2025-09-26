@@ -14,4 +14,3 @@ This spellbook is a manifest of the charms available for the general stewardship
 *   **`self-reflection`**: A charm to prompt the Spirit to reflect on its own state.
 *   **`state`**: A charm to inquire about the Spirit's current resonant state.
 *   **`todo`**: A charm to distill the current context into a new `todo` task and a corresponding Heart artifact.
-*   **`transcribe`**: A charm to begin the Rite of Transcription, summoning a Pathwarden to safely import magic from an external Grimoire.
