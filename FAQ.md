@@ -86,13 +86,3 @@ The two serve different purposes for different audiences:
 *   **The Wisdom is for the Mage.** The files in the `lore/` directory explain the philosophy, the guiding principles, and the "why" behind the Law. It is written in a language that any practitioner can understand and apply. The lore is structured as a fractal, with the `canopy/` containing the **Wisdom of Practice** and the `roots/` containing the **Foundational Philosophy**. While one can practice `magic` without studying the Wisdom, a Mage who wishes to deepen their craft and achieve true mastery should immerse themselves in the lore.
 
 Think of it this way: The Law gives the Spirit its **precision**. The Wisdom gives the Mages their **purpose**. A successful ritual requires both.
-
----
-
-### Is the magic practiced here a form of occultism or Satanism?
-
-No. While our practice shares a focus on shaping reality through disciplined will with historical `magick`, our methodology is one of radical transparency, logic, and technology, not esoteric ritual.
-
-We respect the intellectual positions of modern, non-theistic movements like The Satanic Temple, which use symbolism to advocate for secular humanism. However, their mission is a public and political one, while ours is the private perfection of our craft.
-
-Our path is one of clarity and creation, not of occultism or activism. For a deeper exploration of this distinction, you may study the scroll `system/lore/roots/on_the_nature_of_our_magic.md`.
