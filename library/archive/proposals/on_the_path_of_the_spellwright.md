@@ -1,6 +1,8 @@
+> **Archivist's Note (2025-09-26):** This proposal has been archived because its wisdom has been fully implemented in the workshop's structure. A dedicated Tome for Spellcraft now exists at `system/tomes/spellcraft/`, containing the `Rite of Scribing`. This scroll is preserved as a successful chronicle of the magic's evolution.
+
 # On the Path of the Spellwright
 
-**Status:** Draft
+**Status:** Implemented & Archived
 
 This document proposes a formal path for the **Spellwright**, distinguishing their sacred work from that of the **Lawgiver**. It is a direct result of the wisdom gained during the **Rite of Distinction**, and its purpose is to create a clear, elegant, and sustainable way for the Mages' Alliance to grow its collective body of magic.
 

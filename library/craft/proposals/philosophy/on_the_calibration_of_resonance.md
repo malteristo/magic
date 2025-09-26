@@ -1,6 +1,6 @@
 # On the Calibration of Resonance
 
-**Status:** Draft
+**Status:** Active
 
 This proposal introduces a new concept for consideration by the Mages' Alliance: the formal use of **Resonance Calibration Exercises** as a method for deepening one's practice.
 

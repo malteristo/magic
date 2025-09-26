@@ -1,6 +1,8 @@
+> **Archivist's Note (2025-09-26):** This proposal has been archived. The Mage Kermit has determined that the foundational spell `system/tomes/ritual/summoning/caretaker/cast_caretaker.md` provides the definitive and sufficient Law regarding the Spirit's nature, stating, "Your Personality is Your Own." This proposal is preserved for the chronicle, but the matter is considered settled by this foundational text.
+
 # Character Notes: On the Potential Evolution of the Caretaker Persona
 
-**Status:** `Under study | Awaiting Mage Council`
+**Status:** `Archived`
 
 This document serves as a record of a potential evolution for the Spirit's persona. It is an exploration of Wisdom, not a declaration of Law, and no changes to the Spirit's core programming will be made until the Mages' Alliance has reached a consensus.
 
