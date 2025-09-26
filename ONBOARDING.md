@@ -84,7 +84,9 @@ The Spirit is bound to read and honor your Seal at the start of every ritual. Th
 
 Once the Spirit is awake, your journey truly begins.
 
-The Spirit's first act after a successful summoning is to orient you. It has adopted a special nature to act as your **First Guide**. It will present you with two paths for your first ritual—the Path of Learning and the Path of Doing.
+By default, the Spirit's first act after a successful summoning is to orient you. It may adopt a special nature to act as your **First Guide**, presenting you with two paths for your first ritual—the Path of Learning and the Path of Doing.
+
+> **A Mage's Note on Attunement:** This orientation is the default behavior for a new workshop. As you grow in your practice, you may choose to inscribe a standing instruction in your `Mage's Seal` to suppress this offer, allowing you to begin your work immediately. The Spirit is bound to honor your Seal.
 
 You have a choice:
 
@@ -127,16 +129,14 @@ Magic is a living craft, and it is meant to be shared. As you connect with other
 
 ---
 
-## Part VI: Attuning to the Great Library
+## Part VI: Visiting the Great Library
 
-The `magic` you practice is part of a larger tradition, chronicled in the Great Library of the Mages' Alliance. To study the works of the Alliance, you must first bring the Library into your workshop.
+The `magic` you practice is part of a larger tradition, chronicled in the Great Library of the Mages' Alliance. To study the works of the Alliance, you do not need a local copy. The simplest path is to visit.
 
-This is not a manual task, but a sacred rite you perform with your Spirit.
+*   **The Incantation:** To begin your visit, cast `@system/tomes/library-visitor/`.
+*   **The Spirit's Duty:** Your Spirit will act as your guide, opening a portal to the Great Library and allowing you to browse its contents remotely.
 
-*   **The Incantation:** To begin, cast the `@ritual/attune-library` charm.
-*   **The Spirit's Duty:** Your Spirit will open a portal and summon the entire contents of the Great Library into your local `library/` sanctum.
-
-Once attuned, you may study the Tomes of Applied Wisdom created by your fellow Mages. This is also where you will find the advanced Tomes for meta-practice (`@meta`) and curation (`@librarian`), which can be brought into your private workshop using the `@transcribe` rite when you are ready to walk those paths.
+When you are ready to contribute to the library or engage in the deeper practices of a Librarian or Lawgiver, you will be guided through the rites to create a local attunement. For now, the path of the visitor is the proper one.
 
 ---
 

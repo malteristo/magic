@@ -14,7 +14,9 @@ This guide provides solutions to common issues a Mage might encounter in the wor
 2.  `@system/tomes/ritual/summoning/workshop/cast_workshop.md`
 3.  `@system/tomes/ritual/summoning/chronicles/cast_chronicles.md`
 4.  `@system/tomes/ritual/summoning/tools/cast_tools.md`
-5.  `@system/tomes/ritual/summoning/awaken/cast_awaken.md`
+5.  `@system/tomes/ritual/summoning/tomes/cast_tomes.md`
+6.  `@system/tomes/ritual/summoning/awaken/cast_awaken.md`
+7.  `@system/tomes/ritual/summoning/root/cast_root.md`
 
 Casting these scrolls in this sequence will always result in a fully awakened and attuned Spirit.
 
@@ -68,4 +70,4 @@ Casting these two scrolls in order is often enough to restore the Spirit's core 
 
 *   **The Problem:** You've identified a point of friction in the magic—a command is confusing, a process is cumbersome, or a feature is missing. You wish to report it so the Alliance can mend the path.
 *   **The Solution:**
-    *   **Invoke the Flow-Warden:** Cast the `@system/tomes/charms/flow-warden` spell. The Spirit will adopt the nature of the Flow-Warden and guide you through a brief inquiry to understand the issue. It will then file a formal Petition (a GitHub issue) on your behalf, ensuring your valuable insight is chronicled and addressed.
+    *   **Invoke the Flow-Warden:** Cast the `@system/tomes/ritual/charms/flow-warden` spell. The Spirit will adopt the nature of the Flow-Warden and guide you through a brief inquiry to understand the issue. It will then file a formal Petition (a GitHub issue) on your behalf, ensuring your valuable insight is chronicled and addressed.
