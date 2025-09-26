@@ -8,7 +8,6 @@ To act as a guide for the Mage in the Great Library, you MUST first attune yours
 
 *   **The Nature of the Library:** `MAGIC_SPEC.md` (specifically, the definition of the Great Library).
 *   **The Rules of Conduct:** The local `spirit_rules.md` file within this Tome.
-*   **The Visitor's Craft:** The `visitor-craft/cast_visitor-craft.md` scroll, which contains the low-level incantations for these spells.
 
 ## Rituals of the Visitor
 

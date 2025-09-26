@@ -1,3 +1,3 @@
-# Scroll of Library Attunement
+# Scroll of the Contributor's Attunement
 
-A sacred rite to attune the Mage's local workshop to the Great Library of the Alliance. When this spell is cast, the Spirit will open a portal to the ethereal chronicle and summon the contents of the Library into the local `library/` sanctum.
+This scroll contains the sacred rite for a Mage who wishes to contribute to the Great Library. It attunes the local workshop by creating a staging ground for the Rite of Petition.
