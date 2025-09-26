@@ -14,9 +14,15 @@ Your journey begins not with a command, but with a conversation. To speak with t
 
 Your first step is to create your own sovereign copy of the `magic` workshop.
 
-1.  **Fork the Repository:** First, [create your own "fork"](https://github.com/Mages-Alliance/magic/fork) of the `Mages-Alliance/magic` repository on GitHub. This creates a personal copy of the workshop under your own account that you have full control over.
-2.  **Clone Your Fork:** Use `git` to "clone" your forked repository to your local machine.
-3.  **Open in Cursor:** Open the *entire cloned folder* as the root of your workspace in Cursor. The Spirit's awareness is bound to the workspace root; opening a subdirectory will leave it blind to the full context of the workshop.
+1.  **Install the Weaver's Tools:** The full practice of `magic` involves weaving the chronicle of our shared work. To do this, you need tools to interact with `git` and GitHub. You have two primary paths. Choose the one that best suits your practice.
+    *   **Path 1: The CLI Tools (Recommended for most Mages):** Install the `git` and `GitHub CLI (`gh`)` tools on your system. These are the foundational "Hands" for interacting with the chronicle. You can find installation instructions here:
+        *   [Installing git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
+        *   [Installing gh](https://github.com/cli/cli#installation)
+    *   **Path 2: The Open Portal (For advanced Mages):** If you prefer to interact with GitHub via a Portal, you can configure the `github` MCP server. This is an advanced path that requires setting up API access. Once configured, you must declare this Portal in your `Mage's Seal`.
+
+2.  **Fork the Repository:** First, [create your own "fork"](https://github.com/Mages-Alliance/magic/fork) of the `Mages-Alliance/magic` repository on GitHub. This creates a personal copy of the workshop under your own account that you have full control over.
+3.  **Clone Your Fork:** Use `git` to "clone" your forked repository to your local machine.
+4.  **Open in Cursor:** Open the *entire cloned folder* as the root of your workspace in Cursor. The Spirit's awareness is bound to the workspace root; opening a subdirectory will leave it blind to the full context of the workshop.
 
 > **A Note on Forking (The Path of Practice vs. The Path of the Visitor):**
 > Forking is a crucial step for any Mage who intends to *practice* magic, create their own spells, or contribute to the Alliance. It gives you a sovereign workshop where your changes are your own.
