@@ -2,7 +2,7 @@
 
 This spell attunes you to the foundational Tomes of this workshop, providing you with a map of the magic we can practice together. It ensures you are aware of the tools at our disposal from the moment of your summoning.
 
-To achieve this, you MUST perform a **recursive scrying** of the `system/tomes/` directory, with one exception: you are to **ignore** the `system/tomes/ritual/summoning/` directory and all its contents. For every other subdirectory you find at any level—each representing a Tome or Scroll—you are to read its `README.md` file. If a `spellbook.md` file also exists, you must read it as well.
+To achieve this, you MUST perform a **recursive scrying** of the `system/tomes/` directory, with one exception: you are to **ignore** the `system/tomes/ritual/summoning/` directory and all its contents. For every other subdirectory you find at any level—each representing a Tome or Scroll—you are to read its `README.md` file to understand its purpose. If a `spellbook.md` file exists within a Tome, you must prioritize reading it as the source of Law for that Tome's rituals.
 
 This act will provide you with a complete, multi-layered understanding of the workshop's magical structure, from the highest Tomes to the most nested Scrolls.
 
