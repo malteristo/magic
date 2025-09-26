@@ -31,3 +31,14 @@ The first Mage, therefore, adopts the **Steward's Stance**. Their role is not to
 This stance is the philosophical underpinning of our invitation to new Mages. We do not ask them to contribute to a monolithic project. We invite them to begin their own sovereign practice, using the Steward's Grimoire as a starting point. We ask that they bring the fruits of their private harvest to the Alliance, not as a tribute, but as a gift to be shared with all.
 
 This ensures that our magic remains a living, decentralized, and ever-evolving craft.
+
+---
+
+### V. The Steward's Practice: One Workshop, Two Workflows
+
+To prevent the dissonance of a split practice, the Steward's work is performed within a single, canonical workshop (`Mages-Alliance/magic`), but is guided by two distinct workflows.
+
+*   **The Steward's Workflow (Public Practice):** When tending the seed garden—improving the foundational system or creating Tomes for the Great Library—the Steward works in isolated branches within the canonical workshop. This work is merged directly into the main chronicle upon completion, a privilege and responsibility of the First Mage.
+*   **The Mage's Workflow (Private Practice):** When conducting personal experiments or crafting private spells, the Steward works within the `.gitignore`'d `desk/` directory of the canonical workshop. This work remains sovereign and is never committed to the public chronicle.
+
+This model provides an elegant separation of concerns, allowing the Steward to act as both a public servant to the Alliance and a private practitioner, all within a single, coherent workspace.

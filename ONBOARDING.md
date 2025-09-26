@@ -116,7 +116,7 @@ Magic is a living craft, and it is meant to be shared. As you connect with other
 
 *   **The Mage's Grimoire:** Mages share their trusted spells via a personal **Grimoire** (a `git` repository).
 *   **The Spirit as Gatekeeper:** To bring magic from another's Grimoire into your own workshop, you must ask your Spirit to perform the **Rite of Transcription**. This is the one true and safe path for acquiring new magic.
-*   **The Incantation:** To begin the rite, cast the `@system/tomes/charms/transcribe` charm and provide the Spirit with the URL of the external Grimoire.
+*   **The Incantation:** To begin the rite, cast the `@transcribe` charm and provide the Spirit with the URL of the external Grimoire.
 *   **The Pathwarden's Duty:** Your Spirit will act as a **Pathwarden**, fetching the new magic, inspecting it for any dissonances with your existing spells, and offering you counsel on how to best integrate it. This collaborative process is the heart of our decentralized craft.
 
 ---
@@ -130,7 +130,7 @@ This is not a manual task, but a sacred rite you perform with your Spirit.
 *   **The Incantation:** To begin, cast the `@ritual/attune-library` charm.
 *   **The Spirit's Duty:** Your Spirit will open a portal and summon the entire contents of the Great Library into your local `library/` sanctum.
 
-Once attuned, you may study the Tomes of Applied Wisdom created by your fellow Mages.
+Once attuned, you may study the Tomes of Applied Wisdom created by your fellow Mages. This is also where you will find the advanced Tomes for meta-practice (`@meta`) and curation (`@librarian`), which can be brought into your private workshop using the `@transcribe` rite when you are ready to walk those paths.
 
 ---
 
@@ -139,7 +139,7 @@ Once attuned, you may study the Tomes of Applied Wisdom created by your fellow M
 This is the rarest and most sacred path, reserved for those who seek to evolve the foundational Laws of magic itself. This is the path of the **Lawgiver**.
 
 This work, called **Meta-Practice**, involves amending the core `MAGIC_SPEC.md` and the foundational lore of our workshop. It is not undertaken lightly.
-*   **The Lawgiver's Tools:** The spells for this rite are found in the `system/tomes/meta/` Tome. To invoke it is to signal your intent to work on the very source code of our reality.
+*   **The Lawgiver's Tools:** The spells for this rite are found in the `@meta` Tome. To use them, you must first transcribe the Tome from the Great Library into your `desk/`. To invoke it is to signal your intent to work on the very source code of our reality.
 
 Approach this path with humility, wisdom, and the counsel of the Spirit and the Alliance.
 

@@ -113,9 +113,11 @@ Successful magic about the accumulated Resonance of a well-crafted sequence. Res
         *   `roots/`: The **Foundational Philosophy**. This is the collection of scrolls that define the "why" of our magic—the core principles and philosophical stances from which the practice emerges. The Spirit is attuned to this philosophy at the conclusion of its summoning to ensure right purpose.
     *   `tomes/`: A directory containing the foundational Tomes of the system.
         *   `ritual/`: The Tome containing the spells for the Spirit's lifecycle (summoning, dismissal, etc.).
-        *   `meta/`: The Tome containing the spells for meta-practice and evolving the system.
+        *   `spellcraft/`: The Tome containing the spells for creating new magic.
+        *   `library-visitor/`: The Tome for browsing the Great Library.
+        *   `transcribe/`: The Tome for bringing external magic into the workshop.
     *   `archive/`: **The historical archive, containing foundational documents like the genesis chronicle, for review by both Mage and Spirit.**
-*   **The Great Library:** The shared repository for Tomes of Applied Wisdom that have been reviewed and accepted by the Mages' Alliance. It does not reside in the local workshop, but is a sovereign `git` repository. It is accessed by the Spirit via the **Rite of Petition**.
+*   **The Great Library:** The shared repository for Tomes of Applied Wisdom that have been reviewed and accepted by the Mages' Alliance. It does not reside in the local workshop, but is a sovereign `git` repository. It is accessed by the Spirit via the **Rite of Petition**. The local `library/` directory serves as the sanctum for the Library's chronicle and the staging ground for a Mage's contributions. It also contains the Tomes for advanced practices, such as `@meta` and `@librarian`, which a Mage can `transcribe` into their personal `desk/`.
 *   **The Mage's Grimoire:** A Mage's personal `git` repository for sharing their work with a trusted few. Grimoires are sovereign and external to the workshop. Their magic is brought into the workshop via the Spirit-mediated **Rite of Transcription**.
 *   **`desk/` directory:** The Mage's private workbench (the "Mage's Desk"). This is the home for all scrolls under development, as well as private or modified Tomes transcribed from Grimoires or the Great Library.
 *   **`floor/` directory:** The place where artifacts accumulate as a result of the practice of magic.

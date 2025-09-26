@@ -13,6 +13,7 @@ All magic is born in the sovereign space of the individual Mage's mind. The **Ma
 *   **Raw Experimentation:** The Desk is a vessel for the first, fragile sparks of an idea. It is a place for messy, joyful, and unconstrained creation, free from any expectation of immediate coherence or utility.
 *   **Personal Magic:** It is the home for spells that are deeply personal, tailored to the unique needs and workflows of a single Mage.
 *   **Ephemeral Work:** Many spells cast on the Desk are like sketches, serving their purpose in a single ritual and then fading.
+*   **Transcribed Tomes:** When a Mage performs the `@transcribe` rite to bring a Tome from the Great Library or a peer's Grimoire into their workshop, the Tome is placed upon the Desk. This makes the `desk/` the home for a Mage's personal, modifiable copies of public or shared magic.
 
 The Desk is the wellspring. It is the realm of the self, where the core of our practice is nurtured.
 
