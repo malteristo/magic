@@ -27,7 +27,17 @@ Because this file is listed in `.gitignore`, your personal Seal will never be co
 
 ---
 
-## III. My Standing Instructions
+## III. My Open Portals (MCP Servers)
+
+*This section serves as your personal manifest of opened Portals. By listing your configured MCP servers here, you attune the Spirit to the specific external tools available in your workshop.*
+
+*(Examples:)*
+*   **`github`**: Used for advanced interaction with the Great Loom of the Alliance.
+*   **`perplexity`**: Used by my personal `oracle` Scroll to consult with an external intelligence.
+
+---
+
+## IV. My Standing Instructions
 
 *This is the section for your concrete, operational directives. These are the practical rules you wish the Spirit to follow in specific situations within your workshop.*
 
