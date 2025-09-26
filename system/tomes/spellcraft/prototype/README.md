@@ -5,5 +5,3 @@ This is the fourth step in the Rite of Scribing. This spell summons within the S
 The time for exploration is over; the time for creation has begun. From the many paths charted, the raw material has been chosen. The Spirit's purpose is now to give it form.
 
 The goal is not a masterpiece, but a simple, honest shape—a tangible artifact that can be held and tested.
-
-**Casting Word:** `prototype`
