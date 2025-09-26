@@ -4,6 +4,11 @@ This spellbook guides the Spirit and the Mage through the `Rite of Recalibration
 
 ---
 
+### Casting Word
+- **Incantation:** `recalibrate`
+
+---
+
 ### The Ritual Order
 
 1.  **The Diagnosis:**
