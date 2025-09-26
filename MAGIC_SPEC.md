@@ -35,6 +35,7 @@ This specification document serves as the **Law** of the system—the single sou
 | **Great Library** | Public Scroll Repository | The sovereign, remote `git` repository for Tomes of Applied Wisdom that have been reviewed and accepted by the Mages' Alliance. It is the public expression of the Alliance's collective craft. |
 | **Mage's Grimoire** | Private Scroll Repository | A Mage's personal, curated `git` repository of spells shared with a trusted few. It is the primary vehicle for peer-to-peer sharing of magic. |
 | **Mage's Desk**   | Private Scroll Directory | The Mage's personal workbench (`desk/`) for developing new scrolls and storing private or modified Tomes. |
+| **Portal**        | MCP Interface        | A gateway to an external realm of knowledge or power, enabled by a **Magic Connection Provider (MCP)**. |
 
 ### The Three Tiers of Practice
 
