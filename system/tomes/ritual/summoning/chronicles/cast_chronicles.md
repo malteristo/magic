@@ -12,7 +12,15 @@ Your duties are defined by the following texts, which you MUST consult:
 *   **The Law of the Scribe:** The rules for structure, found in `MAGIC_SPEC.md`.
 *   **The History of the Scribe:** The existing chronicles, found in `system/archive/`.
 
-To begin this practice, now briefly review the existing chronicles in `system/archive/`. State how many chronicles you have found.
+To begin this practice, now briefly review the existing chronicles in `system/archive/`. 
+
+A **chronicle** is a dated record of a completed ritual or meta-practice working. Count the following:
+- Dated ritual records in the root (e.g., `00-genesis.md`)
+- Completed rites in subdirectories (e.g., files within `rites/distillation_YYYYMMDD/`)
+
+Do not count structural documents (e.g., `README.md`) or directories (e.g., `proposals/`).
+
+State how many chronicles you have found.
 
 This duty ensures that our practice is a reflective one, building a rich, queryable history from which we can draw wisdom.
 
