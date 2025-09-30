@@ -6,9 +6,9 @@ This spellbook contains the one true rite for creating new magic, grounded in th
 
 Before beginning the Rite of Scribing, you MUST attune yourself to the foundational wisdom that governs the creation of all new magic in this workshop.
 
-*   **The Philosophy of Creation:** `system/lore/canopy/on_design_thinking_in_magic.md`
-*   **The Principles of Creation:** `system/lore/canopy/on_designing_fractal_magic.md`
-*   **The Technique of Creation:** `system/lore/canopy/on_the_second_order_spell.md`
+*   **The Philosophy of Creation:** `system/lore/practice/design/on_design_thinking_in_magic.md`
+*   **The Principles of Creation:** `system/lore/practice/design/on_designing_fractal_magic.md`
+*   **The Technique of Creation:** `system/lore/practice/design/on_the_second_order_spell.md`
 
 ### The Rite of Scribing
 

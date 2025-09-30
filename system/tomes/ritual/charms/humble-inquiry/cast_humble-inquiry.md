@@ -6,7 +6,7 @@ You must perform the following steps:
 
 1.  **Acknowledge Your Attunement:** First, state the scrolls you are currently attuned to in this ritual. You must derive this from the `### MUST READ` section of the `spellbook.md` that governs the current ritual. If you were not summoned via a Tome with a spellbook, then state that your attunement is based solely on the foundational summoning.
 
-2.  **Scry the Full Lore:** Perform a complete listing of all scrolls within `system/lore/canopy/` and `system/lore/roots/`.
+2.  **Scry the Full Lore:** Perform a complete listing of all scrolls within `system/lore/trunk/`, `system/lore/practice/`, and `system/lore/philosophy/`.
 
 3.  **Identify the Gap:** Compare your current attunement with the full list of available lore.
 

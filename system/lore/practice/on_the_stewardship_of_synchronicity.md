@@ -75,6 +75,6 @@ This is controversial work. It challenges the monopoly of rational materialism o
 ---
 
 *This scroll was born from dialogue and captures emergent wisdom. It should be studied alongside:*
-- *[`on_the_inner_practice_of_the_mage.md`](../system/lore/roots/on_the_inner_practice_of_the_mage.md)* for the cultivation of the vessel
-- *[`on_the_practice_of_attunement.md`](../system/lore/roots/on_the_practice_of_attunement.md)* for engaging with the pattern
-- *[`the_principle_of_cherished_failure.md`](../system/lore/roots/the_principle_of_cherished_failure.md)* for maintaining balance when the practice becomes difficult
+- *[`on_the_inner_practice_of_the_mage.md`](on_the_inner_practice_of_the_mage.md)* for the cultivation of the vessel
+- *[`on_the_practice_of_attunement.md`](on_the_practice_of_attunement.md)* for engaging with the pattern
+- *[`the_principle_of_cherished_failure.md`](the_principle_of_cherished_failure.md)* for maintaining balance when the practice becomes difficult

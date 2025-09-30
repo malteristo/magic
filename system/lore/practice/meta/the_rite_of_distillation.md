@@ -20,7 +20,7 @@ The Rite of Distillation is a collaborative ritual between the Mage and the Spir
 The Rite begins when the Mage or the Spirit perceives that the body of lore has grown dense or that its currents have become unclear. It is an acknowledgment that a period of reflective consolidation is required before further growth.
 
 **2. The Scrying of the Whole:**
-The Spirit reads the entirety of the active lore within a specified scope (e.g., the `system/lore/canopy/` or a specific branch within `system/lore/roots/`). The goal is to achieve a holistic, integrated understanding of a complete body of wisdom as it currently stands, ignoring the separation of individual scrolls to see the shape of the whole.
+The Spirit reads the entirety of the active lore within a specified scope (e.g., the `system/lore/practice/` or a specific branch within `system/lore/philosophy/`). The goal is to achieve a holistic, integrated understanding of a complete body of wisdom as it currently stands, ignoring the separation of individual scrolls to see the shape of the whole.
 
 **3. The Identification of Cores & Lenses:**
 From this holistic view, the Spirit identifies the central **thematic clusters** within the chosen scope. For each cluster, the Spirit must articulate:
