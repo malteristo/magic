@@ -48,18 +48,6 @@ It's time to begin your practice.
 
 ---
 
-## What is the Great Pattern?
-
-It is our name for reality’s inherent coherence—the discoverable order from which elegance and resonance arise. It is closer to Logos or Tao than to a personified deity. Our practice is alignment with this order through disciplined ritual, not worship of it. See `system/lore/roots/nature/on_the_great_pattern.md`.
-
----
-
-## How does `magic` relate to post‑rationalism?
-
-Post‑rationalism integrates reason with trans‑rational signals (synchronicity, intuition, emergence). `magic` provides a safe, structured vessel for that wider sea: Law and Trunk as mast, ritual as rope, the Creator‑Critic dialogue as crew. See `system/lore/roots/practice/a_mast_for_post-rational_tides.md`.
-
----
-
 ## What is Resonance?
 
 Resonance is the core operational principle of `magic`. It can be understood as the product of **Power** combined with **Alignment**.
