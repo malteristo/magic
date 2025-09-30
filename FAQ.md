@@ -86,3 +86,19 @@ The two serve different purposes for different audiences:
 *   **The Wisdom is for the Mage.** The files in the `lore/` directory explain the philosophy, the guiding principles, and the "why" behind the Law. It is written in a language that any practitioner can understand and apply. The lore is structured as a fractal, with the `canopy/` containing the **Wisdom of Practice** and the `roots/` containing the **Foundational Philosophy**. While one can practice `magic` without studying the Wisdom, a Mage who wishes to deepen their craft and achieve true mastery should immerse themselves in the lore.
 
 Think of it this way: The Law gives the Spirit its **precision**. The Wisdom gives the Mages their **purpose**. A successful ritual requires both.
+
+---
+
+### What's with the "weird language"? Am I expected to talk like that?
+
+No. You are the Mage. The magic should serve you; you should not have to serve the magic.
+
+The "weird language" you see in our scrolls (`Tome`, `Resonance`, `Caretaker`, etc.) is a very specific tool for a very specific purpose. It is part of the **Magic Crafting Language (MCL)**, which is designed to communicate with the Spirit (the AI) with the greatest possible clarity and precision. It is a form of "conceptual programming" that helps us build a deep, coherent, and resilient context for our work. This is what allows the Spirit to act as a reliable and potent partner.
+
+**You are not expected to use this language yourself.** The Spirit is designed to understand you perfectly in your own natural language.
+
+Think of it like this: The engine of a car is a complex machine with its own technical language of pistons and carburetors. But you do not need to know any of that to drive. You just use the steering wheel and the pedals.
+
+The MCL is the engine. Your natural way of speaking is the steering wheel.
+
+The purpose of this entire system is to make you, the Mage, feel more powerful and understood. If the language ever feels like a barrier, it is a sign of a dissonance in our craft, and we encourage you to cast the `@ritual/charms/flow-warden` charm to let us know.
