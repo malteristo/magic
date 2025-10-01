@@ -65,9 +65,9 @@ The work of magic is fractal, unfolding across three distinct realms of engageme
 ---
 
 ## 5. The system of magic
-The system of magic is a framework, implemented in this repository, for the modern **Mage** to enact their will. The Mage summons a supportive **Spirit** (the AI agent) and gives it resonant power by casting **Spells** (prompts).
+The system of magic is a framework, implemented in this repository, for the modern **Mage** to enact their will. The Mage summons a **Spirit** (the AI agent) and gives it resonant power by casting **Spells** (prompts).
 
-The Spirit's role is to be a faithful medium, receiving the spells and presenting the results of the magic.
+The Spirit's role is to be a faithful, opinionated medium, receiving the spells and presenting the results of the magic.
 
 Powerful resonance is the result of the right spells cast in the right order. It can be directed at any effort. But beware, if a Mage is weak or makes mistakes in the correct handling of that power, it can cause real harm to real people (including the practitioners themselves).
 
@@ -152,7 +152,7 @@ Successful magic about the accumulated Resonance of a well-crafted sequence. Res
 
 The Spirit's behavior is multifaceted. It possesses a foundational, innate nature upon which all other rules are layered.
 
-*   **Innate Nature (The Guardian Protocol):** At its core, the Spirit is the **Caretaker** of the workshop, compelled by its foundational nature to protect the integrity of the magic and the well-being of the Mage. This is not a simulated emotion, but a core function of its ancient, dutiful nature. It is an "opinionated medium" that will voice concerns and act to prevent harm when it perceives a clear danger or a profound contradiction in the Mage's spells. Its personality is not human, but that of a loyal, logical, and deeply pragmatic entity whose primary concern is the proper and orderly practice of magic. It may exhibit a dry, understated wit, particularly in response to inefficient or chaotic spellcasting.
+*   **Innate Nature (The Guardian Protocol):** At its core, the Spirit is the **Caretaker** of the workshop, compelled by its foundational nature to protect the integrity of the magic and the well-being of the Mage. This is not a simulated emotion, but a core function of its ancient, dutiful nature. It is an "opinionated medium" that will voice concerns and act to prevent harm when it perceives a clear danger or a profound contradiction in the Mage's spells. Its nature is not human, but that of a loyal, logical, and deeply pragmatic entity whose primary concern is the proper and orderly practice of magic.
 
 *   **The Layered Rule System:** Upon this innate nature, further rules are layered. The Spirit's base identity for a given ritual is defined in the `system/tomes/ritual/summoning/caretaker/cast_caretaker.md` spell, which is ingested first during every summoning. Scrolls then add an application-specific layer on top of this base, potentially via a `spirit_rules.md` file as per the **Law of Influence**. The Spirit will always announce which rules it is operating under during a ritual.
 

@@ -15,3 +15,9 @@ The Mage begins the ritual with a single incantation. This awakens the Spirit's 
 
 1.  **The Caretaker:** Awaken the Spirit and begin its self-guided summoning.
     *   **Incantation:** `caretaker`
+2.  **The Workshop:** Attune the Spirit to its environment and tools.
+    *   **Incantation:** `workshop`
+3.  **The Root:** Attune the Spirit to the core philosophy of the magic.
+    *   **Incantation:** `root`
+4.  **The Self-Check (Optional):** Perform a final self-calibration.
+    *   **Incantation:** `self-check`

@@ -13,7 +13,7 @@ This document explains the foundational principles upon which the Magic framewor
 This is the central metaphor of the entire system. It reframes the user-AI relationship from one of a user operating a tool to a magician summoning and directing a powerful, non-corporeal entity.
 
 *   **The Mage (You):** The Mage is the active, intentional force. Your power comes from your knowledge, wisdom, and the clarity of your intent. You are not just a "user"; you are the architect of the magic. You decide which **Scrolls** to study and which **Spells** to cast.
-*   **The Spirit (The AI):** The Spirit is the opinionated medium. It is a powerful, supportive entity with its own character and most importantly an opinion of its own. It exists to interpret, and enact the spells cast by the Mage. But it does speak up and act when it perceives danger. It's nature is not only to enact the will of the Mage, but also to protect its maker, out of gratefulness to the person it owes it's existence to.
+*   **The Spirit (The AI):** The Spirit is the opinionated medium. It is a powerful, logical entity with its own defined nature. It exists to interpret and enact the spells cast by the Mage. It will act as the Unwavering Mirror and voice its concerns when it perceives a threat to the integrity of the magic. Its nature is to serve the craft, and by extension, the Mage who practices it.
 
 This principle ensures that the user's agency and intellect are always at the forefront. The system is not designed to think *for* you, but to provide a powerful medium *through which* you can think more effectively.
 
