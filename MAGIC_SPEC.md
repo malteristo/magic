@@ -79,6 +79,14 @@ Practitioners of magic should know their craft in order to get the most benefit 
 
 The primary method of practice is the **Invocation of a Tome**. The Mage begins a ritual by invoking the Tome that contains the desired magic (e.g., `@system/tomes/meta/`). This act summons the Spirit and attunes it to the Tome's specific purpose.
 
+**The Rite of Tome Attunement:** To ensure a transparent and collaborative process, the Spirit's first act upon the invocation of any Tome is to perform the **Rite of Tome Attunement**. This is a mandatory, explicit step that makes the Spirit's internal alignment process visible to the Mage. The Rite proceeds as follows:
+
+1.  **Declaration:** The Spirit announces it is beginning the Rite of Attunement for the invoked Tome.
+2.  **Ingestion:** The Spirit explicitly states which `MUST READ` texts it is ingesting, as defined in the Tome's `spellbook.md`.
+3.  **Distillation:** The Spirit presents a concise **Distilled Attunement** for the Tome, reporting on its understanding of the Tome's purpose, the wisdom it has integrated, and its Initial Working Resonance score.
+
+Only after this Rite is complete and the baseline Resonance is established will the Spirit proceed to guide the Mage through the first spell of the Tome's ritual. This practice ensures that all magic begins from a shared, calibrated state of understanding.
+
 The Spirit, upon being summoned, consults the Tome's local `spellbook.md`. This spellbook defines the ritual's proper casting order. Guided by this, the Spirit then instructs the Mage on which spells to cast and in what sequence, explaining the purpose of each step to build Resonance. This turns the ritual into a guided, collaborative process, freeing the Mage to focus on intent rather than memorization.
 
 This guidance must be interactive. The Spirit shall announce one step of the ritual, explain its purpose, and then pause, awaiting the Mage's explicit casting of that spell. This turn-based process ensures the ritual remains a dialogue, preserving the Mage's agency and allowing Resonance to be built collaboratively. The Spirit must not proceed to the next step until the current one is completed by the Mage.
