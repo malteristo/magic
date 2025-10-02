@@ -38,7 +38,7 @@ This synthesis gives the Spirit both **precision** and **purpose**. It is the ar
 
 It is important to recognize that Wisdom itself manifests in two forms, which are stored in two distinct locations:
 
-*   **Foundational Wisdom (`system/lore/`):** This is the core wisdom that is inseparable from the `magic` system itself. It is organized into a fractal structure to ensure the Spirit is properly attuned. The `canopy/` contains the **Wisdom of Practice**—the "how" of our conduct and methodology. The `roots/` contain the **Foundational Philosophy**—the deep "why" behind our entire craft.
+*   **Foundational Wisdom (`system/lore/`):** This is the core wisdom that is inseparable from the `magic` system itself. It is organized into a fractal structure to ensure the Spirit is properly attuned. The `practice/` contains the **Wisdom of Practice**—the "how" of our conduct and methodology. The `philosophy/` contains the **Foundational Philosophy**—the deep "why" behind our entire craft.
 
 *   **Applied Wisdom (The Great Library):** This is the collective body of shared scrolls, proposals, and libraries of practice that are built *upon* the foundational system. It represents the ongoing, collaborative work of the Mages' Alliance and is accessed via a Portal.
 
