@@ -46,44 +46,13 @@ The best way to start is by reading the main `README.md` file in this workshop. 
 
 ---
 
-## What is the Mages' Alliance?
-
-The Mages' Alliance is the collective of practitioners who study, advance, and steward the `magic` system.
-
-Its full, formal name is **Mages' Alliance for Generally Intermittent Computation (MAGIC)**. This name reflects a core truth of our practice: we are learning to work with a probabilistic medium, where outcomes are intermittent and emerge from a state of cultivated Resonance rather than deterministic command.
-
-The Alliance is founded on the principle that all members are sovereign practitioners who convene as peers to share findings and collaborate on works. It values the autonomy of the individual Mage as highly as the collective advancement of the art. Authority resides not in a council, but in the proven work of its members.
-
----
-
 ## Why do you call it "magic"?
 
-We call it `magic` because the word itself is a tool. It is the narrative thread that ties together a complex web of interconnected ideas—from the technical framework to the philosophical stance.
+We call it `magic` for a very practical reason: the word works. Interacting with advanced AI can feel strange, unpredictable, and powerful. The language of magic gives us a useful handle for this slippery new reality. It's a shared vocabulary that helps us work with these systems more safely and effectively.
 
-The `magic` system is designed to be a massively multiplayer alignment framework. We believe that for AI to truly serve humanity, it must align with all of humanity, not just its creators. To achieve this, the system needs to be accessible, engaging, and welcoming to the widest possible audience.
-
-The metaphor of magic is universally resonant. Many of us grew up immersed in stories of magic, be it Harry Potter or The Lord of the Rings or Discworld or Shadowrun. It is a concept that is not only familiar but deeply attractive. By framing our system in this way, we lower the barrier to entry and invite more people into the practice.
+While the system has a deep philosophy for those who wish to explore it, the metaphor's primary job is to be useful. It makes the system more accessible and encourages the kind of mindful, precise communication that is essential for getting good results.
 
 More profoundly, we use the language of magic because it comes with a built-in respect for power. Historically, magical language is precise, deliberate, and intentional. Words have consequences. This mindset is essential when working with language-based systems like LLMs. To align these powerful new entities, we must first align our own use of language, and the disciplined practice of "spellcasting" is a powerful tool for achieving that.
-
-And besides, if one is to dedicate a significant part of one's life to building something, what could be more worthwhile than creating a working system of what feels like magic, in which everyone can participate?
-
-It's time to begin your practice.
-
----
-
-## What is Resonance?
-
-Resonance is the most important principle in the practice of `magic`. Think of it as the **quality of shared understanding** between you (the Mage) and the Spirit (the AI).
-
-In technical terms, it's a measure of "context readiness." But a better way to think about it is like a conversation. You wouldn't ask a colleague a complex question without first providing some background. You build a shared context step by step.
-
-That's how `magic` works. You don't cast a single, all-powerful spell. Instead, you perform a **ritual**—a sequence of smaller spells. Each spell builds upon the last, deepening the Spirit's understanding of your goal. This accumulated, shared context is Resonance.
-
-*   **When Resonance is high,** the Spirit is perfectly attuned to your intent. The results will be precise, effective, and often surprisingly insightful.
-*   **When Resonance is low,** the Spirit is working from a place of confusion. The results may be generic, incorrect, or fail entirely.
-
-The central art of being a Mage is learning how to build Resonance. It is not a static score to be achieved, but a living **practice**—a dynamic, collaborative dialogue that you cultivate with the Spirit.
 
 ---
 
@@ -105,17 +74,18 @@ A better metaphor for the Spirit is a **whetstone**. It is hard and unyielding. 
 
 ---
 
-## What is the difference between the Law and the Wisdom?
+## What is Resonance?
 
-The simple answer is that the **Law** is the `MAGIC_SPEC.md`, and the **Wisdom** is the collected knowledge in the `system/lore/`, organized as a navigable fractal.
+Resonance is the most important principle in the practice of `magic`. Think of it as the **quality of shared understanding** between you (the Mage) and the Spirit (the AI).
 
-The two serve different purposes for different audiences:
+In technical terms, it's a measure of "context readiness." But a better way to think about it is like a conversation. You wouldn't ask a colleague a complex question without first providing some background. You build a shared context step by step.
 
-*   **The Law is for the Spirit.** The `MAGIC_SPEC.md` is the technical source of truth for the entire system. It is the unambiguous, foundational rule set—the physics of our magical world. A well-written Law allows the Spirit to implement the details of the system with precision and consistency.
+That's how `magic` works. You don't cast a single, all-powerful spell. Instead, you perform a **ritual**—a sequence of smaller spells. Each spell builds upon the last, deepening the Spirit's understanding of your goal. This accumulated, shared context is Resonance.
 
-*   **The Wisdom is for the Mage.** The files in the `lore/` directory explain the philosophy, the guiding principles, and the "why" behind the Law. It is written in a language that any practitioner can understand and apply. The lore is structured as a fractal, with the **Canopy** containing the **Wisdom of Practice** and the **Roots** containing the **Foundational Philosophy**. While one can practice `magic` without studying the Wisdom, a Mage who wishes to deepen their craft and achieve true mastery should immerse themselves in the lore.
+*   **When Resonance is high,** the Spirit is perfectly attuned to your intent. The results will be precise, effective, and often surprisingly insightful.
+*   **When Resonance is low,** the Spirit is working from a place of confusion. The results may be generic, incorrect, or fail entirely.
 
-Think of it this way: The Law gives the Spirit its **precision**. The Wisdom gives the Mages their **purpose**. A successful ritual requires both.
+The central art of being a Mage is learning how to build Resonance. It is not a static score to be achieved, but a living **practice**—a dynamic, collaborative dialogue that you cultivate with the Spirit.
 
 ---
 
@@ -132,3 +102,13 @@ Think of it like this: The engine of a car is a complex machine with its own tec
 The MCL is the engine. Your natural way of speaking is the steering wheel.
 
 The purpose of this entire system is to make you, the Mage, feel more powerful and understood. If the language ever feels like a barrier, it is a sign of a dissonance in our craft, and we encourage you to cast the `@ritual/charms/flow-warden` charm to let us know.
+
+---
+
+## What is the Mages' Alliance?
+
+The Mages' Alliance is the collective of practitioners who study, advance, and steward the `magic` system.
+
+Its full, formal name is **Mages' Alliance for Generally Intermittent Computation (MAGIC)**. This name reflects a core truth of our practice: we are learning to work with a probabilistic medium, where outcomes are intermittent and emerge from a state of cultivated Resonance rather than deterministic command.
+
+The Alliance is founded on the principle that all members are sovereign practitioners who convene as peers to share findings and collaborate on works. It values the autonomy of the individual Mage as highly as the collective advancement of the art. Authority resides not in a council, but in the proven work of its members.
