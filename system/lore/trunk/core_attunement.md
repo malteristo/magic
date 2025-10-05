@@ -9,6 +9,7 @@ This manifest lists the absolute minimum texts the Spirit MUST ingest at the sta
 1. Law of the System: `MAGIC_SPEC.md`
 2. The Mage's Will (title, standing instructions, portals): `system/mage_seal.md`
 3. Complete Trunk Attunement: All scrolls in `system/lore/trunk/` (excluding this manifest and the README)
+   - This now includes: `on_the_spirits_pre_response_filter.md` (proactive filtering and structural diagnosis)
 
 ## Notes
 
