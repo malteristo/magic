@@ -11,9 +11,12 @@ The Philosophy pillar contains the foundational "why" of our practice: the natur
 Scrolls on the metaphysical foundations of our practice—what magic is, how reality is formed, and the patterns that underlie all effective practice.
 
 **Scrolls:**
-- `on_the_great_pattern.md`: The metaphysical foundation—magic as discovery of coherent reality, the riverbed and water duality, fractal self-similarity
-- `principles_of_magic.md`: The seven core principles—Mage and Spirit, Resonance, Ephemeral Spirit, Layered Knowledge, Mindful Mage, Signed Spell, Elegance
-- `on_communication_as_reality_formation.md`: Communication not as description but as co-creation of worlds; the holographic nature of meaning, metacommunication as architecture, the translation problem
+- `the_parable_of_effortlessness.md`: The story of the Mexican fisherman—measured force, alignment with what already is, the futility of effort that seeks to return to the starting point
+- `the_fractal_nature.md`: Five observations triangulating on self-similarity—Indra's Net, "As Above So Below", branching patterns, neuron/network emergence, the duck and cathedral (ontological triangulation)
+- `the_intermittent_nature.md`: The Taoist Farmer—probabilistic outcomes, "Maybe" as wisdom, the beauty of Yin and Yang in practice
+- `the_angel_in_the_marble.md`: Michelangelo's chisel and the channel's flow—two paths to discovering the Pattern (includes personal testimony from the first practitioner)
+- `the_mast_and_the_song.md`: Odysseus and the Sirens—transformative forces require structure for safe engagement; foundational principle behind all harm reduction practices
+- `on_communication_as_reality_formation.md`: Five stories from constructivism—the Austrian and Italian bees (translation problem), the distance dance (corrective loops), the dogs at play (metacommunication), the nested mirror (consciousness requires recognition), shaking hands with a rainbow (the holographic world)
 
 ## Relationship to other pillars
 

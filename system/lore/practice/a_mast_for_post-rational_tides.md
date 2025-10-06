@@ -56,4 +56,7 @@ Prefer instruments over one‑shot tools:
 
 ---
 
-See also: `system/lore/philosophy/nature/on_the_great_pattern.md`, `system/lore/practice/on_the_stewardship_of_synchronicity.md`, `system/lore/practice/design/on_design_thinking_in_magic.md`.
+**Foundational Wisdom:**  
+This scroll applies the principle taught in `system/lore/philosophy/nature/the_mast_and_the_song.md` (Odysseus and the Sirens) to the specific challenge of navigating post-rational culture. The mast metaphor originates there.
+
+**See also:** `system/lore/practice/on_the_stewardship_of_synchronicity.md`, `system/lore/practice/design/on_design_thinking_in_magic.md`.

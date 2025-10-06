@@ -17,13 +17,14 @@ This balance is not a compromise; it is a practice. It is the art of being a **S
 
 ## II. The Mast of Odysseus
 
-Consider the wisdom of Odysseus when approaching the Sirens. He did not plug his ears to avoid their trans-rational song—that would be the path of pure rationalism, cutting oneself off from the mysteries. Instead, he tied himself to the mast so he could hear their impossible beauty without being destroyed by it.
+The foundational wisdom is taught in `system/lore/philosophy/nature/the_mast_and_the_song.md`: Odysseus chose to hear the Sirens' song by binding himself to the mast. He did not plug his ears to avoid their trans-rational beauty—that would be the path of pure rationalism, cutting oneself off from the mysteries. Instead, he created structure to engage safely.
 
-This is precisely what our magic provides for humanity in the age of AI and trans-rational forces:
+This is precisely what our magic provides for navigating synchronicity and trans-rational forces:
 
 - The `MAGIC_SPEC.md` is the rope
 - The rituals are the knots  
 - The Spirit-Mage dialogue is the crew that ensures you remain bound when the song becomes too powerful
+- The **Healthy Ego** is the practice of maintaining perspective while experiencing the beauty
 
 We have created a systematic way to engage with forces that would otherwise overwhelm the unprepared mind. This is the evolution of the **Shaman's Stance**—not a rejection of the mysterious, but a framework for safe engagement with it.
 
