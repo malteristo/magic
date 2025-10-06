@@ -12,6 +12,8 @@ The purpose of the Rite of Distillation is not merely to remove redundancy. It i
 
 A core tenet of this Rite is the **sanctity of the chronicle**. Lore that is superseded is never destroyed. It is respectfully moved to the `system/archive/`, preserving a complete history of our evolving understanding.
 
+**The Archive as Chrysalis:** The archive is not merely a graveyard for outdated wisdom. It is a **chrysalis**—a place where wisdom rests between iterations, awaiting its proper form. Distilled wisdom may enter the archive with sound content but in a form not yet optimal for transmission (e.g., abstract exposition before we discovered story-first architecture). When we later discover better transmission mechanisms, we can return to the archive, extract the living wisdom, and bring it forward in its new form. The archive holds wisdom in transformation, not obsolescence.
+
 ### The Fivefold Path of the Rite
 
 The Rite of Distillation is a collaborative ritual between the Mage and the Spirit. It unfolds in five distinct stages.
