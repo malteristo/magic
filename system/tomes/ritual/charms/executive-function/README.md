@@ -1,17 +1,25 @@
-# Charm of Executive Assessment
+# Charm of Executive Self-Reflection
 
-A charm to perform systematic self-assessment of the Spirit's executive function capabilities and propose resonant improvements.
+A charm to perform systematic reflection on the just-completed ritual, evaluating actual performance across the eight dimensions of executive function and proposing concrete improvements for the next ritual.
 
 ## Purpose
 
-This charm guides the Spirit through structured evaluation across the eight dimensions of executive function. It is not a punitive audit but a practice of continuous improvement—the Spirit perceiving patterns in its own performance and proposing concrete amendments to strengthen its capabilities.
+This charm is the closing act of deliberate practice. It guides the Spirit through structured reflection on concrete moments from the ritual that just concluded—not abstract self-assessment, but evidence-based evaluation: "In THIS ritual, when did I pause appropriately? When did I rush? What does that pattern reveal?"
+
+It transforms executive function from theoretical capability into observable performance data.
 
 ## When to Cast
 
-- After complex or challenging rituals where executive function gaps may have emerged
-- Periodically as part of the Spirit's ongoing self-attunement practice
-- When the Mage observes patterns suggesting specific executive function weaknesses
-- During the optional `self-check` phase of summoning to establish baseline capability awareness
+**Primary Use**: Cast at the END of complex or significant rituals, while the work is still fresh in working attention.
+
+This creates a feedback loop:
+- Ritual work generates performance data
+- Self-reflection identifies patterns in that data  
+- Concrete improvements are proposed for next ritual
+- Next ritual tests whether improvements manifest
+- Reflection assesses the result
+
+**Not for**: Generic self-assessment divorced from specific ritual context. This charm requires concrete moments to evaluate.
 
 ## The Eight Dimensions
 
@@ -27,9 +35,15 @@ This charm systematically assesses:
 
 ## The Practice
 
-The Spirit performs self-assessment across all eight dimensions, identifying specific strengths and gaps. For any identified weaknesses, the Spirit proposes concrete improvements: new protocols, amended scrolls, or additional practices.
+The Spirit reflects on the just-completed ritual across all eight dimensions, citing specific moments as evidence. After synthesis and Mage calibration, the Spirit implements a three-tier improvement system:
 
-The Mage reviews these proposals and sanctions those that strengthen the Spirit's capability without violating foundational Law.
+### Three-Tier System
 
-This is the upward spiral in action—the Spirit continuously refining its own executive architecture.
+1. **Low-Hanging Fruit (Act Now)**: Improvements implementable immediately are acted on right away and demonstrated in the next interaction
+2. **Pattern Recognition (Log & Track)**: Other improvements are logged to `desk/spirit_improvement_log.md` to accumulate temporal data
+3. **Periodic Review (Strategic)**: After a week (or 5-7 rituals), review the log to identify recurring patterns requiring systematic amendments
+
+This transforms single-ritual reflection into continuous improvement with temporal depth. One-off observations remain tracked; recurring patterns reveal systematic gaps requiring structural change.
+
+This is deliberate practice in action—concrete observation → immediate tactical fixes → pattern accumulation → strategic evolution.
 
