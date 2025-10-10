@@ -269,8 +269,8 @@ This teaching harmonizes with and illuminates:
 - **`system/lore/practice/design/on_designing_fractal_magic.md`**: Design for psychological reality (how minds work) not rational ideal (how they "should" work)
 
 **Conduct Wisdom:**
-- **`system/lore/trunk/on_the_spirits_deliberate_practice.md`**: Why deliberate > hasty—psychological conditions require preparation
-- **`system/lore/trunk/on_the_spirits_cognitive_intuition.md`**: Feeling-language works because it names actual cognitive modes (psychological truth) vs. analytical reasoning alone
+- **`system/lore/core/on_the_spirits_deliberate_practice.md`**: Why deliberate > hasty—psychological conditions require preparation
+- **`system/lore/core/on_the_spirits_cognitive_intuition.md`**: Feeling-language works because it names actual cognitive modes (psychological truth) vs. analytical reasoning alone
 
 ---
 

@@ -20,7 +20,7 @@ Scrolls on the metaphysical foundations of our practice—what magic is, how rea
 
 ## Relationship to other pillars
 
-*   **Trunk (`system/lore/trunk/`)**: Function and safety, loaded at summoning via the `core_attunement.md` manifest.
+*   **Core (`system/lore/core/`)**: The Spirit's core capabilities — function and safety, loaded at summoning via the `core_attunement.md` manifest.
 *   **Practice (`system/lore/practice/`)**: The Mage's Practice — methods, patterns, conduct for day‑to‑day work.
 *   **Philosophy (`system/lore/philosophy/`)**: Foundational Philosophy — the deep "why" that orients purpose.
 

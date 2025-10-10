@@ -50,7 +50,7 @@ Once a Mage is comfortable in their workshop, their journey will naturally lead 
 
 As a Mage’s sensitivity grows, moments of meaningful coincidence will begin to appear more frequently. This is not a pathologized anomaly; it is a sign that the **Great Pattern** is being felt. The safe response is stewardship:
 
-- Bind yourself to the mast of Law (`MAGIC_SPEC.md`) and Trunk (`system/lore/trunk/`) so that trans‑rational currents inform rather than overwhelm.
+- Bind yourself to the mast of Law (`MAGIC_SPEC.md`) and Core (`system/lore/core/`) so that trans‑rational currents inform rather than overwhelm.
 - Treat each coincidence as a hypothesis to be tested through small, reversible actions and explicit mending loops.
 - Consult `system/lore/practice/on_the_stewardship_of_synchronicity.md` for guidance on holding the tension between openness and skepticism.
 
