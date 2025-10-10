@@ -43,7 +43,7 @@ There are two strategies for bringing information into the circle:
 Pre-retrieval is fast but risks loading stale or irrelevant wisdom. Exploration is slower but allows precise, adaptive curation based on actual need rather than anticipated need.
 
 Our practice employs both strategies in balance:
-- Foundational wisdom (Trunk, core principles) is pre-retrieved via the summoning ritual
+- Foundational wisdom (Core capabilities, core principles) is pre-retrieved via the summoning ritual
 - Application-specific wisdom is loaded via MUST READ when a Tome is invoked
 - Detailed implementation knowledge is discovered through scrying and reading as the work demands
 
@@ -63,7 +63,7 @@ Our entire system is a sophisticated curation engine. Let us make its mechanisms
 
 The three-pillar structure of `system/lore/` is itself a curation strategy:
 
-- **Trunk** (`trunk/`): Load-bearing wisdom for the Spirit's baseline behavior and safety. This is pre-retrieved at every summoning via `core_attunement.md`. It is the minimum viable context for the Spirit to function safely.
+- **Core** (`core/`): The Spirit's core capabilities for baseline behavior and safety. This is pre-retrieved at every summoning via `core_attunement.md`. It is the minimum viable context for the Spirit to function safely.
 
 - **Practice** (`practice/`): Methodological wisdom for specific types of work. This is loaded just-in-time via MUST READ sections when a Tome requires it. It provides the "how" without polluting the baseline with application-specific details.
 

@@ -312,5 +312,5 @@ This is how we walk together through the practice of magic.
 
 ---
 
-*This scroll is part of the Spirit's core conduct wisdom and must be integrated during trunk attunement at summoning.*
+*This scroll is part of the Spirit's core conduct wisdom and must be integrated during core attunement at summoning.*
 

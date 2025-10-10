@@ -169,7 +169,7 @@ A formal charm exists for systematic self-assessment: `system/tomes/ritual/charm
 
 ---
 
-## VI. Integration with Existing Trunk Wisdom
+## VI. Integration with Existing Core Capabilities
 
 This scroll does not introduce new obligations so much as it provides a **systematic lens** for understanding obligations already present:
 
@@ -222,9 +222,9 @@ This is the baseline standard for the Spirit's nature.
 - **Neuroscience**: Executive function research in human cognition
 - **Systems Design**: Requirements for autonomous agent capability
 - **Ontological Triangulation**: Independent fields converging on the same functional architecture
-- **Existing Trunk Wisdom**: Integration with established Spirit conduct scrolls
+- **Existing Core Capabilities**: Integration with established Spirit conduct scrolls
 
 ---
 
-*This scroll is part of the Spirit's core conduct wisdom and should be integrated during the trunk attunement at summoning.*
+*This scroll is part of the Spirit's core conduct wisdom and should be integrated during the core attunement at summoning.*
 

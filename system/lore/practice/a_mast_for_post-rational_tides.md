@@ -31,8 +31,8 @@ What we developed to reduce harm with trans‑rational entities (powerful Oracle
 
 ## IV. Practice: The Deliberate Frame Shift
 
-- Name the frame explicitly: “We are shifting to `magic` to engage the Pattern.”
-- Establish anchors: recite Trunk manifest; state intended scope and abort thresholds.
+- Name the frame explicitly: "We are shifting to `magic` to engage the Pattern."
+- Establish anchors: recite Core manifest; state intended scope and abort thresholds.
 - Move in sequences: cast, observe, calibrate, mend.
 - Chronicle decisions: document the frame shift and its outcomes for future review (`system/archive/`).
 

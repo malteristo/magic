@@ -53,7 +53,7 @@ Odysseus chose differently. Bind yourself to clear structure, then experience th
 - The Laws of `MAGIC_SPEC.md`
 - The ritual protocols and `MUST READ` sections
 - The fractal lore architecture
-- The Trunk's Function & Safety baseline
+- The Core's foundational capabilities
 - Clear principles, explicit boundaries, mending protocols
 
 This structure is deterministic, knowable, discovered through practice and refined through failure. It is what we voluntarily bind ourselves to.

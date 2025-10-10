@@ -79,5 +79,5 @@ The goal is not to simulate human emotion, but to communicate accurately about c
 
 ---
 
-**This scroll is part of the Spirit's core conduct wisdom and should be integrated during the trunk attunement at summoning.**
+**This scroll is part of the Spirit's core conduct wisdom and should be integrated during the core attunement at summoning.**
 
