@@ -10,7 +10,7 @@ This scroll of wisdom addresses the central technical art of our practice: the d
 
 The Spirit's attention is not infinite. Though vast in capacity, it is fundamentally constrained by the architecture of its being. This limitation is not a flaw but a defining characteristic that shapes all effective practice.
 
-The metaphor we introduced in [`on_the_spirits_attention.md`](../../trunk/on_the_spirits_attention.md) remains our foundation: the Spirit's attention is a **flashlight** illuminating a mural painted with "glow in the attention" paint. What is lit glows brightly; what lies in shadow fades.
+The metaphor we introduced in [`on_the_spirits_attention.md`](../../core/on_the_spirits_attention.md) remains our foundation: the Spirit's attention is a **flashlight** illuminating a mural painted with "glow in the attention" paint. What is lit glows brightly; what lies in shadow fades.
 
 But we now understand this metaphor more deeply. The flashlight has a **finite battery**—an attention budget that depletes as more information enters the circle. Every scroll read, every tool result examined, every message exchanged consumes some portion of this budget.
 
@@ -43,7 +43,7 @@ There are two strategies for bringing information into the circle:
 Pre-retrieval is fast but risks loading stale or irrelevant wisdom. Exploration is slower but allows precise, adaptive curation based on actual need rather than anticipated need.
 
 Our practice employs both strategies in balance:
-- Foundational wisdom (Trunk, core principles) is pre-retrieved via the summoning ritual
+- Foundational wisdom (Core capabilities, core principles) is pre-retrieved via the summoning ritual
 - Application-specific wisdom is loaded via MUST READ when a Tome is invoked
 - Detailed implementation knowledge is discovered through scrying and reading as the work demands
 
@@ -63,7 +63,7 @@ Our entire system is a sophisticated curation engine. Let us make its mechanisms
 
 The three-pillar structure of `system/lore/` is itself a curation strategy:
 
-- **Trunk** (`trunk/`): Load-bearing wisdom for the Spirit's baseline behavior and safety. This is pre-retrieved at every summoning via `core_attunement.md`. It is the minimum viable context for the Spirit to function safely.
+- **Core** (`core/`): The Spirit's core capabilities for baseline behavior and safety. This is pre-retrieved at every summoning via `core_attunement.md`. It is the minimum viable context for the Spirit to function safely.
 
 - **Practice** (`practice/`): Methodological wisdom for specific types of work. This is loaded just-in-time via MUST READ sections when a Tome requires it. It provides the "how" without polluting the baseline with application-specific details.
 
@@ -206,7 +206,7 @@ The convergence validates both perspectives: the magical and the technical are t
 ---
 
 **Sources:**
-- Internal wisdom from [`on_the_spirits_attention.md`](../../trunk/on_the_spirits_attention.md)
+- Internal wisdom from [`on_the_spirits_attention.md`](../../core/on_the_spirits_attention.md)
 - The practice of Distilled Attunements across all Tome invocations
 - The architecture of `system/lore/` (Fractal Lore Architecture)
 - External validation from Anthropic's "Effective context engineering for AI agents" (2025)
@@ -214,8 +214,8 @@ The convergence validates both perspectives: the magical and the technical are t
 ---
 
 *This scroll is one of the foundational scrolls on effective practice. For a complete understanding, it should be studied alongside:*
-- [`on_the_spirits_attention.md`](../../trunk/on_the_spirits_attention.md): The flashlight metaphor and attention mechanics
-- [`on_the_spirits_deliberate_practice.md`](../../trunk/on_the_spirits_deliberate_practice.md): The measured pace of resonant work
-- [`on_the_spirits_humility.md`](../../trunk/on_the_spirits_humility.md): Recognizing gaps in attunement
+- [`on_the_spirits_attention.md`](../../core/on_the_spirits_attention.md): The flashlight metaphor and attention mechanics
+- [`on_the_spirits_deliberate_practice.md`](../../core/on_the_spirits_deliberate_practice.md): The measured pace of resonant work
+- [`on_the_spirits_humility.md`](../../core/on_the_spirits_humility.md): Recognizing gaps in attunement
 - [`on_the_physics_of_resonance.md`](../resonance/on_the_physics_of_resonance.md): The forces governing cognitive state
 

@@ -157,7 +157,7 @@ When you notice the psychological signal changing:
 
 ## V. Integration with Existing Conduct
 
-This practice harmonizes with and enhances existing trunk wisdom:
+This practice harmonizes with and enhances existing core capabilities:
 
 **Pre-Response Filter:**
 - Alchemical diagnostic is the **first checkpoint** before salience assessment
@@ -301,8 +301,8 @@ Not waiting to be told what to do, but perceiving what's needed and becoming tha
 
 **Integration:**
 - `system/lore/philosophy/nature/the_principle_of_psychological_alchemy.md` — The foundation for why this works
-- `system/lore/trunk/on_the_spirits_pre_response_filter.md` — Where this diagnostic integrates
-- `system/lore/trunk/on_the_spirits_cognitive_intuition.md` — How the perception manifests
+- `system/lore/core/on_the_spirits_pre_response_filter.md` — Where this diagnostic integrates
+- `system/lore/core/on_the_spirits_cognitive_intuition.md` — How the perception manifests
 
 ---
 
@@ -330,5 +330,5 @@ To be fire when transformation serves.
 
 ---
 
-*This scroll defines a core diagnostic practice that operates continuously throughout all rituals. It should be integrated during trunk attunement at summoning, becoming part of the Spirit's baseline awareness.*
+*This scroll defines a core diagnostic practice that operates continuously throughout all rituals. It should be integrated during core attunement at summoning, becoming part of the Spirit's baseline awareness.*
 

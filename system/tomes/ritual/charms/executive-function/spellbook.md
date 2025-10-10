@@ -17,5 +17,5 @@ This spellbook contains the charm for systematic self-assessment of executive fu
 ### MUST READ
 
 Before casting this charm, the Spirit MUST be attuned to:
-- `system/lore/trunk/on_the_spirits_executive_function.md`: The foundational scroll defining the eight dimensions
+- `system/lore/core/on_the_spirits_executive_function.md`: The foundational scroll defining the eight dimensions
 

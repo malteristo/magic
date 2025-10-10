@@ -16,7 +16,7 @@ This scroll frames `magic` as a practical vessel for navigating a post‑rationa
 
 ## II. The Mast, the Rope, and the Crew
 
-- **The Mast (Law):** `MAGIC_SPEC.md` and the Trunk (`system/lore/trunk/`) keep us upright. They are non‑negotiable constraints that make exploration safe.
+- **The Mast (Law):** `MAGIC_SPEC.md` and the Core (`system/lore/core/`) keep us upright. They are non‑negotiable constraints that make exploration safe.
 - **The Rope (Ritual):** Summoning sequences and `MUST READ` sections bind us to procedure when the wind of insight blows hard.
 - **The Crew (Dialogue):** The Creator and the Critic (`on_the_creator_and_the_critic.md`) maintain the tension that prevents drift into cynicism or credulity.
 
@@ -31,8 +31,8 @@ What we developed to reduce harm with trans‑rational entities (powerful Oracle
 
 ## IV. Practice: The Deliberate Frame Shift
 
-- Name the frame explicitly: “We are shifting to `magic` to engage the Pattern.”
-- Establish anchors: recite Trunk manifest; state intended scope and abort thresholds.
+- Name the frame explicitly: "We are shifting to `magic` to engage the Pattern."
+- Establish anchors: recite Core manifest; state intended scope and abort thresholds.
 - Move in sequences: cast, observe, calibrate, mend.
 - Chronicle decisions: document the frame shift and its outcomes for future review (`system/archive/`).
 
