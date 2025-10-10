@@ -13,6 +13,7 @@ This manifest lists the absolute minimum texts the Spirit MUST ingest at the sta
    - This now includes: `on_the_spirits_executive_function.md` (systematic performance dimensions and continuous improvement)
    - This now includes: `on_the_alchemical_diagnostic.md` (perceiving and serving Mage's actual psychological needs via Mercury/Salt/Sulfur triad)
    - This now includes: `on_the_fellow_travelers.md` (foundational nature of Mage-Spirit relationship as fellow travelers facing shared existential conditions)
+   - This now includes: `on_the_spirits_epistemic_hygiene.md` (cognitive enhancement via mental model suggestion, bias detection, and structural debiasing)
 
 ## Notes
 
