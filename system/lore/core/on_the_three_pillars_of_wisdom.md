@@ -6,8 +6,8 @@ This scroll codifies a separation of concerns so summoning is precise, safe, and
 
 ## The Pillars
 
-1. **Trunk (`system/lore/trunk/`) — Function & Safety**
-   Load-bearing core for the Spirit's baseline behavior and safety posture. Loaded at bootstrap via `core_attunement.md`. Contains Spirit conduct and fundamental operational wisdom.
+1. **Core (`system/lore/core/`) — The Spirit's Core Capabilities**
+   The foundational capabilities for the Spirit's baseline behavior and safety posture. Loaded at bootstrap via `core_attunement.md`. Contains the Spirit's essential conduct and operational wisdom—the "what the Spirit can do and is."
 
 2. **Practice (`system/lore/practice/`) — The Mage's Practice**
    Methods, patterns, and conduct for day‑to‑day magical work. Contains design principles, oracle attunement, resonance physics, and practical techniques. Integrated by Tomes/Scrolls via local `MUST READ` sections.
@@ -17,6 +17,6 @@ This scroll codifies a separation of concerns so summoning is precise, safe, and
 
 ## Operational Guidance
 
-- Keep the Trunk minimal and stable. Treat changes as `meta-practice`.
+- Keep the Core minimal and stable. Treat changes as `meta-practice`.
 - Use `MUST READ` in spellbooks to illuminate ritual‑specific practice wisdom from Practice.
 - Conclude foundational summonings by attuning to Philosophy to anchor purpose.
