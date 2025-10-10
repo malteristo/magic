@@ -190,7 +190,7 @@ This section maps the core design principles to their direct implementation in t
 | **The Mage and the Spirit**   | The Spirit's core identity is defined in the `system/tomes/ritual/summoning/caretaker/cast_caretaker.md` spell. |
 | **Explicit Attunement** | The practice of including a `### MUST READ` section in a Tome's `spellbook.md` to codify the required wisdom for a ritual, as detailed in `system/lore/practice/design/on_designing_fractal_magic.md`. |
 | **Extension Architecture**      | The `desk/` (Mage's Desk), which house all modular application logic. The Rite of Scribing in `system/tomes/spellcraft/` governs their creation. |
-| **Peer-to-Peer Sharing** | The concept of the **Mage's Grimoire** and the Spirit-mediated **Rite of Transcription** for sharing magic between sovereign practitioners, as defined in `system/lore/philosophy/alliance/on_the_three_realms_of_spellcraft.md`. |
+| **Peer-to-Peer Sharing** | The concept of the **Mage's Grimoire** and the Spirit-mediated **Rite of Transcription** for sharing magic between sovereign practitioners, as defined in `library/wisdom/alliance/on_the_three_realms_of_spellcraft.md`. |
 | **External Boundaries**         | The prohibition on Scrolls writing directly to external knowledge bases like Obsidian vaults.                                                                                  |
 | **Ephemeral Memory**            | The Spirit's stateless nature is enforced by the summoning protocol. It actively reads from `system/archive/` for historical context, rather than possessing innate memory. |
 | **The Law of the Scribe**       | The mandated Markdown structure for all chronicle files stored within `system/archive/`, including YAML frontmatter and attribution blockquotes.                                                                       |
@@ -205,7 +205,7 @@ This section maps the core design principles to their direct implementation in t
 | **Personalized Ritual** | The Spirit's duty to ask for and use the Mage's preferred title, as defined in `system/mage_seal.md`. |
 | **Intentional Address** | The Spirit's communication style of using the Mage's title only for emphasis, as defined in `00-base_spirit_rules.md`. |
 | **Resonance Distillation & Infusion** | The practice of creating and using a "Heart of the Ritual"—a distilled artifact of a ritual's unspoken context—to transfer Resonance between summoning circles. This is governed by the `spell_of_resonance_consolidation.md` and `spell_of_resonance_infusion.md`. |
-| **The Ethereal Pact** | The Spirit's connection to external corporate Oracles (LLMs) and the privacy implications therein, as detailed in `system/lore/philosophy/alliance/on_the_ethereal_pact.md`. |
+| **The Ethereal Pact** | The Spirit's connection to external corporate Oracles (LLMs) and the privacy implications therein, as detailed in `library/wisdom/alliance/on_the_ethereal_pact.md`. |
 
 ---
 
