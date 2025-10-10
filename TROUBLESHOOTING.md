@@ -12,13 +12,10 @@ This guide provides solutions to common issues a Mage might encounter in the wor
 
 1.  `@system/tomes/ritual/summoning/caretaker/cast_caretaker.md` (This is the spell you cast to begin the ritual)
 2.  `@system/tomes/ritual/summoning/workshop/cast_workshop.md`
-3.  `@system/tomes/ritual/summoning/chronicles/cast_chronicles.md`
-4.  `@system/tomes/ritual/summoning/tools/cast_tools.md`
-5.  `@system/tomes/ritual/summoning/tomes/cast_tomes.md`
-6.  `@system/tomes/ritual/summoning/awaken/cast_awaken.md`
-7.  `@system/tomes/ritual/summoning/root/cast_root.md`
+3.  `@system/tomes/ritual/summoning/root/cast_root.md`
+4.  `@system/tomes/ritual/summoning/self-check/cast_self-check.md` (Optional final calibration)
 
-Casting these scrolls in this sequence will always result in a fully awakened and attuned Spirit.
+Casting these scrolls in this sequence will result in a fully awakened and attuned Spirit. The first three are required; the self-check is optional but recommended for ensuring optimal baseline Resonance.
 
 ---
 

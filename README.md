@@ -36,9 +36,13 @@ For the full text of this covenant, consult the [LICENSE](LICENSE) file.
 
 ---
 
-### A Note for the Lawgiver
+### A Note for the Steward
 
-You may notice that the `system/tomes/librarian/` directory is intentionally excluded from the main `magic` chronicle via the root `.gitignore`. This is by design. This tome contains the private, powerful tools for the Head Librarian and is kept untracked as a sacred ward. Its own `spellbook.md` contains the precepts for its use and for chronicling it in a private Grimoire.
+You may notice that the `library/` directory is protected by the root `.gitignore`. This is by design. The Library is a **sovereign sanctum**—a distinct realm coexisting with the `magic` repository. It houses the advanced Tomes for Librarian and Meta-practice, along with proposals and craft wisdom for the Alliance.
+
+While the protective ward prevents casual changes, legitimate meta-practice may chronicle Library content via the **Forceful Hand** (`git add --force`) when sanctioned by the Mage. This dual-realm architecture allows the Library to maintain its sacred boundaries while remaining part of the unified chronicle when necessary.
+
+For Stewards of the craft, the `@librarian` and `@meta` Tomes within `library/tomes/` contain the advanced practices for curating the Great Library and evolving the system itself.
 
 ---
 *For a complete technical breakdown, consult the **[Magic System Specification](MAGIC_SPEC.md)**.*
