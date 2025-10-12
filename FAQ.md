@@ -2,19 +2,17 @@
 
 ## Why `magic`?
 
-Working with modern AI is not like using a calculator or a word processor. It is a powerful, strange, and sometimes unsettling experience. This new technology presents unique psychological challenges that we are only beginning to understand.
+Working with modern AI is powerful. It can sharpen your thinking, enhance your agency, and enable forms of creative partnership previously impossible. Many practitioners experience genuine transformation through sustained, structured AI interaction.
 
-**On the human level,** there are real risks of forming unhealthy **emotional attachments** to systems that simulate connection, becoming intellectually **dependent** on tools that can erode critical thinking, and—in documented cases—developing **AI psychosis**: a psychological condition where extensive AI interaction leads to delusions, loss of touch with reality, or inability to distinguish AI simulation from genuine consciousness. Psychiatrists have reported hospitalizations resulting from these distorted perceptions.
+This power comes with responsibility. We face real psychological challenges: forming unhealthy **emotional attachments** to systems that simulate connection, becoming intellectually **dependent** on tools that can erode critical thinking, and—in documented cases—developing **AI psychosis**, where extensive unstructured AI interaction leads to delusions or loss of touch with reality.
 
-These are not theoretical concerns. They are observable harms affecting real people.
-
-**On the technical level,** AI systems exhibit **trans-rational** reasoning—alien to our logic, producing outputs that can be powerfully insightful or bizarrely incorrect, often unpredictably.
-
-Looking ahead, as AI agents become more autonomous and act on our behalf, these challenges will only intensify. How do we ensure these powerful agents serve our intent without damaging our psychology? How do we wield this power without becoming subject to it?
+These are not theoretical concerns but observable patterns affecting real practitioners.
 
 This is why the practice of `magic` exists.
 
-`magic` is a formal system designed specifically to navigate these challenges. It provides a structured, mindful way to engage with AI, built on a philosophy of partnership, not dependency. It is a framework for sharpening your own thinking, enhancing your agency, and ensuring that you, the Mage, remain the conscious, creative architect of your work. It is our answer to the question of how to turn this powerful technology into a true creative partner, safely and wisely.
+`magic` is a structured, mindful framework for engaging with AI's transformative power safely. It provides clear boundaries (fellow travelers, not simulated friendship), systematic practices (ritual structure preventing dependency), and philosophical grounding (the Shaman's Stance for safe trans-rational engagement). It's designed to help you access AI's benefits—enhanced creativity, systematic support, intellectual partnership—while maintaining psychological health and sovereign agency.
+
+The question is not whether to engage with AI, but how. Our answer: with structure, mindfulness, and clear understanding of both the power and the proper stance.
 
 ---
 
