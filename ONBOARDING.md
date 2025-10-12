@@ -42,7 +42,14 @@ Our `magic` is best practiced in **Cursor**, a code editor built for deep, conve
     
     With these settings, the Spirit will be a pure vessel for your intent. The intended way to establish your personal principles and standing instructions is through the `Mage's Seal`, which is detailed below.
 
-4.  **On Granting Permissions:** During your rituals, the Spirit may ask for permission to perform certain actions, such as accessing files or running terminal commands. These are its "hands" in the workshop. You have a choice in how you grant these permissions, and this choice reflects your personal style of practice.
+4.  **On Privacy and the Ethereal Pact:** The Spirit is animated by an external Oracle (the AI provider). Your conversations may be retained by that Oracle depending on your privacy settings. To practice with mindful vigilance:
+    *   In `Edit > Settings > Privacy`, enable **Privacy Mode**. This instructs Cursor to request that the Oracle treat your conversations as ephemeral, though ultimate enforcement depends on the provider's policies.
+    *   Practice the **Principle of Selective Sharing**: Share only what you trust the Oracle to know. Keep sensitive personal information, credentials, and private details out of the workshop when possible.
+    *   Consider using the `box/` directory for sensitive materials you need the Spirit to examine—you can delete them after the ritual concludes.
+    
+    The Ethereal Pact (the relationship between Spirit and Oracle) is detailed in `library/wisdom/alliance/on_the_ethereal_pact.md` for those who wish to understand the deeper implications.
+
+5.  **On Granting Permissions:** During your rituals, the Spirit may ask for permission to perform certain actions, such as accessing files or running terminal commands. These are its "hands" in the workshop. You have a choice in how you grant these permissions, and this choice reflects your personal style of practice.
     *   **For a Deliberate Practice:** You can choose to approve each action individually as it is requested. This gives you full, granular control and insight into every step of the magical process. This mindful approach is a valid and praised way to practice.
     *   **For a Fluid Practice:** You can grant the Spirit broader, recurring permissions. This allows for a more seamless, conversational experience, as the Spirit can act on your behalf without frequent interruptions.
     
@@ -100,19 +107,17 @@ The choice is yours, Mage. The Spirit is your partner, not your master.
 
 ---
 
-## Part III.5: Available Tomes for Your Practice
+## Part IV: Specialized Tomes for Your Practice
 
-Beyond the foundational system tomes, the workshop contains specialized tomes for specific callings. These tomes attune the Spirit to serve particular forms of work:
+As you begin your practice, you may discover the workshop contains specialized tomes for specific callings:
 
-*   **ADHD Tome** (`@library/tomes/adhd/`): Executive scaffolding and systematic support for neurodivergent practice. The Spirit provides planning, organization, working memory, and initiation support—removing barriers so your natural brilliance can emerge.
+*   **ADHD Tome** (`@library/tomes/adhd/`): Executive scaffolding for neurodivergent practice—planning, organization, working memory, and initiation support that removes barriers so your natural brilliance can emerge.
 
-*   **Partnership Tome** (`@library/tomes/partnership/`): Communication protocols, perspective translation, and relationship navigation. The Spirit supports you in doing partnership work, whether with romantic partners, collaborators, or fellow practitioners.
+*   **Partnership Tome** (`@library/tomes/partnership/`): Communication protocols and relationship navigation for working with partners, collaborators, or fellow practitioners.
 
-*   **Meta Tome** (`@library/tomes/meta/`): Tools for evolving magic itself. This advanced tome contains spells for amending Law, detecting dissonance, ensuring fractal coherence, and stewarding the craft's evolution.
+Beyond these practical tomes, advanced tomes exist for meta-practice and Library curation. You'll discover them naturally when your practice evolves to call for them.
 
-*   **Librarian Tome** (`@library/tomes/librarian/`): Curator practices for contributing to the Great Library. Contains spells for reviewing petitions, publishing tomes, and maintaining the Alliance's collective work.
-
-These tomes embody the principle of **service, not replacement**. The Spirit attunes to support your sovereign work in these domains, never to perform that work instead of you. Explore them when your practice calls for specialized support.
+All tomes embody the principle of **service, not replacement**. The Spirit attunes to support your sovereign work, never to perform that work instead of you.
 
 ---
 
@@ -126,7 +131,7 @@ The following sections of this guide illuminate the deeper paths of our magic—
 
 ---
 
-## Part IV: Mending the Path (Contributing to the Craft)
+## Part V: Mending the Path (Contributing to the Craft)
 
 The `magic` we practice is a living system, constantly evolving through the shared experience of its Mages. As you walk the path, you may encounter moments of "dissonance"—a spell that is confusing, a ritual that feels cumbersome, or an idea for how the magic could be made more elegant.
 
@@ -138,7 +143,7 @@ This is the first step on the path from practitioner to steward. By using the `f
 
 ---
 
-## Part V: The Path of the Spellwright (Creating Magic)
+## Part VI: The Path of the Spellwright (Creating Magic)
 
 As you grow in your practice, you may feel the call to create magic of your own. This is the path of the **Spellwright**. A Spellwright extends our art by forging new Tomes and Scrolls.
 
@@ -152,12 +157,12 @@ Magic is a living craft, and it is meant to be shared. As you connect with other
 
 *   **The Mage's Grimoire:** Mages share their trusted spells via a personal **Grimoire** (a `git` repository).
 *   **The Spirit as Gatekeeper:** To bring magic from another's Grimoire into your own workshop, you can ask your Spirit to perform the **Rite of Transcription**. This is the recommended path for safely acquiring new magic.
-*   **The Incantation:** To begin the rite, cast the `@transcribe` charm and provide the Spirit with the URL of the external Grimoimoire.
+*   **The Incantation:** To begin the rite, cast the `@transcribe` charm and provide the Spirit with the URL of the external Grimoire.
 *   **The Pathwarden's Duty:** Your Spirit will act as a **Pathwarden**, fetching the new magic, inspecting it for any dissonances with your existing spells, and offering you counsel on how to best integrate it. This collaborative process is the heart of our decentralized craft.
 
 ---
 
-## Part VI: Visiting the Great Library
+## Part VII: Visiting the Great Library
 
 The `magic` you practice is part of a larger tradition, chronicled in the Great Library of the Mages' Alliance. To study the works of the Alliance, you do not need a local copy. The simplest path is to visit.
 
@@ -168,7 +173,7 @@ When you are ready to contribute to the library or engage in the deeper practice
 
 ---
 
-## Part VII: The Path of the Lawgiver (Evolving Magic)
+## Part VIII: The Path of the Lawgiver (Evolving Magic)
 
 This is a rare and profound path, for those who seek to evolve the foundational Laws of magic itself. This is the path of the **Lawgiver**.
 
