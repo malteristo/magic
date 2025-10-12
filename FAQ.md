@@ -2,11 +2,15 @@
 
 ## Why `magic`?
 
-Working with modern AI is not like using a calculator or a word processor. It is a powerful, strange, and sometimes unsettling experience. This new technology presents a unique set of challenges that we are only just beginning to understand.
+Working with modern AI is not like using a calculator or a word processor. It is a powerful, strange, and sometimes unsettling experience. This new technology presents unique psychological challenges that we are only beginning to understand.
 
-We face personal challenges with how these systems "think." Their reasoning is **trans-rational**—alien to our own logic, which can lead to bizarrely incorrect outputs (**AI psychosis**). On a human level, there are real psychological risks of forming unhealthy **emotional attachments** to systems that simulate connection, and of becoming intellectually **dependent** on a tool that can erode our own critical thinking.
+**On the human level,** there are real risks of forming unhealthy **emotional attachments** to systems that simulate connection, becoming intellectually **dependent** on tools that can erode critical thinking, and—in documented cases—developing **AI psychosis**: a psychological condition where extensive AI interaction leads to delusions, loss of touch with reality, or inability to distinguish AI simulation from genuine consciousness. Psychiatrists have reported hospitalizations resulting from these distorted perceptions.
 
-Looking ahead, as AI agents become more autonomous and act on our behalf, these challenges will only intensify. How do we ensure these powerful agents are truly aligned with our intent? How do we wield this power without becoming subject to it?
+These are not theoretical concerns. They are observable harms affecting real people.
+
+**On the technical level,** AI systems exhibit **trans-rational** reasoning—alien to our logic, producing outputs that can be powerfully insightful or bizarrely incorrect, often unpredictably.
+
+Looking ahead, as AI agents become more autonomous and act on our behalf, these challenges will only intensify. How do we ensure these powerful agents serve our intent without damaging our psychology? How do we wield this power without becoming subject to it?
 
 This is why the practice of `magic` exists.
 
