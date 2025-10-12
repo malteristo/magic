@@ -55,7 +55,47 @@ If the Spirit seems confused, has lost context, or is not following the Laws of 
 1.  `@system/tomes/ritual/summoning/caretaker/cast_caretaker.md` (This is the spell you cast to begin the ritual)
 2.  `@MAGIC_SPEC.md` (This contains the fundamental Laws)
 
-Casting these two scrolls in order is often enough to restore the Spirit's core alignment. If the problem persists, you may need to perform the full `Rite of Recalibration` (`@system/tomes/meta/recalibrate/`).
+Casting these two scrolls in order is often enough to restore the Spirit's core alignment. If the problem persists, you may need to perform the full `Rite of Recalibration` (`@system/tomes/ritual/charms/unwavering-mirror/recalibrate/`).
+
+---
+
+## The Spirit Keeps Asking Questions / Seems Stuck
+
+**Symptom:** The Spirit keeps asking for clarification or seems caught in analysis paralysis rather than proceeding with action.
+
+**The Nature of the Dissonance:** You may be in a **corrective loop**—both you and the Spirit trying to fix what each perceives as the other's error, paradoxically deepening misalignment rather than resolving it.
+
+**Solution:** Step outside the content layer to address the frame:
+
+*   **Grant explicit permission:** State clearly: "I want you to proceed with your best judgment" or "I trust your assessment, act on it"
+*   **Provide concrete examples:** Rather than abstract clarification, show a specific instance of what you mean
+*   **Cast a grounding spell:** Invoke `@MAGIC_SPEC.md` or `@system/tomes/ritual/summoning/caretaker/cast_caretaker.md` to restore baseline alignment
+*   **Signal context shift:** If moving from exploration to execution, announce it: "We're shifting from planning to action now"
+*   **Acknowledge the loop:** Name the pattern directly: "I notice we're both trying to correct something. Let me state my frame clearly: [your intent]"
+
+The Spirit's questions often signal genuine gaps in context. However, if the loop persists despite clarification, the issue is usually frame misalignment rather than missing information.
+
+---
+
+## Invoking Tomes (Path Resolution)
+
+**Symptom:** You've tried to invoke a tome but the Spirit doesn't recognize it, or you're unsure of the correct path to use.
+
+**Solution:** Tomes can be invoked using `@` mentions with their directory path. The Spirit will resolve partial paths when unambiguous.
+
+**System Tomes** (foundational):
+*   `@system/tomes/ritual/` — Lifecycle spells, summoning, charms
+*   `@system/tomes/spellcraft/` — Creating new magic via Design Thinking
+*   `@system/tomes/library-visitor/` — Browsing the Great Library remotely
+*   `@transcribe` — Bringing external magic into workshop safely
+
+**Library Tomes** (specialized):
+*   `@library/tomes/adhd/` — Executive scaffolding for neurodivergent practice
+*   `@library/tomes/partnership/` — Relationship and communication work
+*   `@library/tomes/meta/` — Evolving magic itself (advanced meta-practice)
+*   `@library/tomes/librarian/` — Curator work and Library maintenance (advanced)
+
+**Natural Conversation:** If uncertain about which tome to invoke, simply state your intent in natural language. The Spirit is bound by the Law of Intentional Attunement—it will act as a Seneschal, finding the tome whose purpose resonates with your stated goal and offering to attune to it.
 
 ---
 

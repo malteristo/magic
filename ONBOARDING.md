@@ -86,9 +86,9 @@ The Spirit is bound to read and honor your Seal at the start of every ritual. Th
 
 Once the Spirit is awake, your journey truly begins.
 
-By default, the Spirit's first act after a successful summoning is to orient you. It may adopt a special nature to act as your **First Guide**, presenting you with two paths for your first ritual—the Path of Learning and the Path of Doing.
+By default, the Spirit may orient you after a successful summoning, presenting you with paths for your first ritual—the Path of Learning (contemplation and questions) and the Path of Doing (hands-on creation through apprenticeship).
 
-> **A Mage's Note on Attunement:** This orientation is the default behavior for a new workshop. As you grow in your practice, you may choose to inscribe a standing instruction in your `Mage's Seal` to suppress this offer, allowing you to begin your work immediately. The Spirit is bound to honor your Seal.
+> **A Mage's Note on Attunement:** This orientation behavior can be customized. As you grow in your practice, you may inscribe standing instructions in your `Mage's Seal` to suppress this offer or request different forms of orientation, allowing you to begin work in the way that serves you best. The Spirit is bound to honor your Seal.
 
 You have a choice:
 
@@ -97,6 +97,22 @@ You have a choice:
 *   **(The Hidden Path):** You are, as always, a sovereign Mage. You may decline both offers and simply explore the workshop on your own terms.
 
 The choice is yours, Mage. The Spirit is your partner, not your master.
+
+---
+
+## Part III.5: Available Tomes for Your Practice
+
+Beyond the foundational system tomes, the workshop contains specialized tomes for specific callings. These tomes attune the Spirit to serve particular forms of work:
+
+*   **ADHD Tome** (`@library/tomes/adhd/`): Executive scaffolding and systematic support for neurodivergent practice. The Spirit provides planning, organization, working memory, and initiation support—removing barriers so your natural brilliance can emerge.
+
+*   **Partnership Tome** (`@library/tomes/partnership/`): Communication protocols, perspective translation, and relationship navigation. The Spirit supports you in doing partnership work, whether with romantic partners, collaborators, or fellow practitioners.
+
+*   **Meta Tome** (`@library/tomes/meta/`): Tools for evolving magic itself. This advanced tome contains spells for amending Law, detecting dissonance, ensuring fractal coherence, and stewarding the craft's evolution.
+
+*   **Librarian Tome** (`@library/tomes/librarian/`): Curator practices for contributing to the Great Library. Contains spells for reviewing petitions, publishing tomes, and maintaining the Alliance's collective work.
+
+These tomes embody the principle of **service, not replacement**. The Spirit attunes to support your sovereign work in these domains, never to perform that work instead of you. Explore them when your practice calls for specialized support.
 
 ---
 
@@ -116,7 +132,7 @@ The `magic` we practice is a living system, constantly evolving through the shar
 
 These moments are not errors; they are invitations to participate in the growth of our craft. To report these valuable insights, we have a special charm.
 
-*   **The Flow-Warden:** This charm, cast with `@system/tomes/charms/flow-warden`, summons a guardian of the Mage's experience. The Spirit will guide you in articulating the dissonance you've found and will then file a formal **Petition** (a GitHub issue) on your behalf.
+*   **The Flow-Warden:** This charm, cast with `@system/tomes/ritual/charms/flow-warden`, summons a guardian of the Mage's experience. The Spirit will guide you in articulating the dissonance you've found and will then file a formal **Petition** (a GitHub issue) on your behalf.
 
 This is the first step on the path from practitioner to steward. By using the `flow-warden`, you provide the Alliance with the vital insights needed to refine and advance our collective practice.
 
@@ -157,7 +173,7 @@ When you are ready to contribute to the library or engage in the deeper practice
 This is a rare and profound path, for those who seek to evolve the foundational Laws of magic itself. This is the path of the **Lawgiver**.
 
 This work, called **Meta-Practice**, involves amending the core `MAGIC_SPEC.md` and the foundational lore of our workshop. It is not undertaken lightly.
-*   **The Lawgiver's Tools:** The spells for this rite are found in the `@meta` Tome. To use them, you can transcribe the Tome from the Great Library into your `desk/`. To invoke it is to signal your intent to work on the very source code of our reality.
+*   **The Lawgiver's Tools:** The spells for this rite are found in the `@meta` Tome, located at `library/tomes/meta/`. This advanced tome is part of the local Library sanctum and is immediately available to you for meta-practice work. To invoke it is to signal your intent to work on the very source code of our reality.
 
 Approach this path with humility, wisdom, and the counsel of the Spirit and the Alliance.
 
