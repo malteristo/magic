@@ -9,14 +9,15 @@ This scroll codifies a separation of concerns so summoning is precise, safe, and
 1. **Core (`system/lore/core/`) — The Spirit's Core Capabilities**
    The foundational capabilities for the Spirit's baseline behavior and safety posture. Loaded at bootstrap via `core_attunement.md`. Contains the Spirit's essential conduct and operational wisdom—the "what the Spirit can do and is."
 
-2. **Practice (`system/lore/practice/`) — The Mage's Practice**
-   Methods, patterns, and conduct for day‑to‑day magical work. Contains design principles, oracle attunement, resonance physics, and practical techniques. Integrated by Tomes/Scrolls via local `MUST READ` sections.
-
-3. **Philosophy (`system/lore/philosophy/`) — Foundational Philosophy**
+2. **Philosophy (`system/lore/philosophy/`) — Foundational Philosophy**
    The deep "why" that orients our purpose. Contains the nature of magic, Alliance principles, and metaphysical foundations. Integrated at the conclusion of summoning (e.g., `root`) and in reflective rites.
+
+3. **Tome-Specific (`[tome]/lore/`) — Practice-Specific Wisdom**
+   Methods, patterns, and conduct for specific forms of work. Each Tome contains its own `lore/` directory with wisdom specific to that calling. Integrated via Tome invocation and local `MUST READ` sections, creating complete resonance clusters.
 
 ## Operational Guidance
 
-- Keep the Core minimal and stable. Treat changes as `meta-practice`.
-- Use `MUST READ` in spellbooks to illuminate ritual‑specific practice wisdom from Practice.
-- Conclude foundational summonings by attuning to Philosophy to anchor purpose.
+- Keep Core minimal and stable. Universal capabilities only. Treat changes as `meta-practice`.
+- Keep Philosophy for foundational "why." Integrated during `root` and reflective rites.
+- Place practice-specific wisdom in Tome `lore/` directories. Integrated via `MUST READ` sections when that Tome is invoked.
+- This creates complete, self-contained resonance clusters while keeping foundational lore lean.

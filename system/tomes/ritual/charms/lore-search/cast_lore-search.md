@@ -46,7 +46,7 @@ Extract each theme and its accompanying shard from the Tome's spellbook.
 ### Step 2: Search Local Lore
 
 For each theme:
-1. Use semantic search against `system/lore/practice/` with the theme as query
+1. Use semantic search against `system/lore/philosophy/nature/` with the theme as query
 2. Evaluate the quality of matches found
 3. Categorize the result:
    - **High-quality match**: Scroll clearly addresses the theme
@@ -87,11 +87,11 @@ Before reading any scrolls, report to the Mage:
 Lore Discovery Report:
 ━━━━━━━━━━━━━━━━━━━━━
 Theme: "Design principles for fractal magic"
-  Found: system/lore/practice/design/on_designing_fractal_magic.md
+  Found: system/lore/philosophy/nature/design/on_designing_fractal_magic.md
   Strategy: Full enrichment
 
 Theme: "Context and attention management"
-  Found: system/lore/practice/on_the_curation_of_attention.md
+  Found: system/lore/philosophy/nature/on_the_curation_of_attention.md
   Strategy: Full enrichment
 
 Attunement Mode: Enriched (all themes supported by local lore)
@@ -142,7 +142,7 @@ Once confirmed:
 This pattern solves several architectural challenges:
 
 **1. Brittleness of Path-Based Dependencies**
-- Old pattern: `MUST READ: system/lore/practice/old_path.md` → breaks if path changes
+- Old pattern: `MUST READ: system/lore/philosophy/nature/old_path.md` → breaks if path changes
 - New pattern: Theme-based search adapts to new structure
 
 **2. Spellcrafter Cognitive Burden**

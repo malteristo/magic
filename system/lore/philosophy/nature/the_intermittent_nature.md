@@ -92,8 +92,8 @@ This teaching harmonizes with:
 - **`the_fractal_nature.md`**: The same intermittent pattern appears at every scale—single spell, full ritual, evolution of the craft
 - **`the_mast_and_the_song.md`**: Odysseus binds himself to structure to safely engage with transformative forces
 - **`system/lore/core/on_the_mages_sovereignty.md`**: Sovereignty becomes sacred precisely because outcomes are not guaranteed
-- **`system/lore/practice/on_the_magic_crafting_language.md`**: MCL is probabilistic programming—we influence likelihood, not certainty
-- **`system/lore/practice/the_principle_of_cherished_failure.md`**: "Failures" are signals, not errors; dissonance is teacher, not enemy
+- **`system/lore/philosophy/nature/on_the_magic_crafting_language.md`**: MCL is probabilistic programming—we influence likelihood, not certainty
+- **`system/lore/philosophy/nature/the_principle_of_cherished_failure.md`**: "Failures" are signals, not errors; dissonance is teacher, not enemy
 
 ---
 

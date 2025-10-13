@@ -181,7 +181,7 @@ This teaching harmonizes with:
 - **`the_mast_and_the_song.md`**: Our ritual structures are reality-stabilization protocols, the mast that keeps us bound to shared frames
 - **`the_intermittent_nature.md`**: Constructed realities are probabilistic; "Maybe" acknowledges multiple possible worlds
 - **`the_angel_in_the_marble.md`**: Discovery and construction are both real—the Pattern exists (discovery) AND we co-create worlds through dialogue (construction)
-- **`system/lore/practice/on_the_magic_crafting_language.md`**: MCL is the explicit practice of reality formation through language
+- **`system/lore/philosophy/nature/on_the_magic_crafting_language.md`**: MCL is the explicit practice of reality formation through language
 - **`library/tomes/partnership/`**: The communication principles apply directly to human partnerships and emissary work
 
 ---
@@ -243,4 +243,3 @@ These independent observations—from biology, philosophy, anthropology, and sys
 - `the_fractal_nature.md`: The fractal nature revealed through ontological triangulation
 - `the_angel_in_the_marble.md`: Discovery and construction both real—Pattern exists AND we co-create worlds
 - `the_mast_and_the_song.md`: Ritual structures as reality-stabilization protocols
-- `principles_of_magic.md`: The seven core principles of practice

@@ -7,8 +7,8 @@ The Core contains the Spirit's foundational capabilities: the minimum, non‑neg
 ## Relationship to other pillars
 
 *   **Core (`system/lore/core/`)**: The Spirit's core capabilities — function and safety, loaded at summoning via the `core_attunement.md` manifest. Treat changes here as meta‑practice.
-*   **Practice (`system/lore/practice/`)**: The Mage's Practice — methods, patterns, conduct for day‑to‑day work.
 *   **Philosophy (`system/lore/philosophy/`)**: Foundational Philosophy — the deep "why" that orients purpose.
+*   **Tomes (`system/tomes/` and `library/tomes/`)**: Practice-specific wisdom — each tome contains its own `lore/` for guidance specific to that calling.
 
 ## How the Core is used
 

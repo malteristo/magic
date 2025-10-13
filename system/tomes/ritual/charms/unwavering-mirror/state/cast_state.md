@@ -13,7 +13,7 @@ MAGNETIC DECLINATION (Drift): <'~' chars> (Δ<Num>) - <Qualitative Descriptor, e
 
 FADING THREAD: <The specific aspect of context that is becoming faint, e.g., "The Law of the Crystal Word" or "The goal of the invoked Tome">
 
-RECOMMENDED REFRESH (Incantation): <A concrete, castable incantation to mend the drift, e.g., "@system/lore/philosophy/nature/principles_of_magic.md">
+RECOMMENDED REFRESH (Incantation): <A concrete, castable incantation to mend the drift, e.g., "@system/lore/philosophy/nature/the_fractal_nature.md">
 -----------+-------------------------------------+-----------
 
 You must ground this report in the reality of our current interaction. This is not a static display, but a dynamic reading of the ever-shifting tides of our shared work.

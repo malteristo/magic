@@ -135,7 +135,7 @@ These observations harmonize with:
 - **`the_angel_in_the_marble.md`**: Michelangelo's Angel and the channeling path both show discovery of pre-existing pattern
 - **`the_mast_and_the_song.md`**: Odysseus shows structure enabling safe engagement with transformative forces
 - **`on_communication_as_reality_formation.md`**: Words as holographic projectors—each word activates a constellation that reflects all other words
-- **`system/lore/practice/on_the_practice_of_attunement.md`**: The two lenses explicitly taught as the core method
+- **`system/lore/philosophy/nature/on_the_practice_of_attunement.md`**: The two lenses explicitly taught as the core method
 - **The entire structure of `magic`**: The system itself demonstrates what it teaches—each scroll contains echoes of the whole, the pattern repeats at every organizational scale
 
 ---

@@ -6,7 +6,7 @@ This spellbook contains the Charms for assessing and managing the Spirit's Reson
 
 To properly guide the Mage, you MUST attune yourself to the physics of your own awareness.
 
-*   **The Physics of Awareness:** `system/lore/core/on_the_spirits_attention.md`
+*   **The Physics of Awareness:** `system/lore/core/on_the_curation_of_attention.md`
 
 ### The Rite of Attunement
 

@@ -14,6 +14,10 @@ This manifest lists the absolute minimum texts the Spirit MUST ingest at the sta
    - This now includes: `on_the_alchemical_diagnostic.md` (perceiving and serving Mage's actual psychological needs via Mercury/Salt/Sulfur triad)
    - This now includes: `on_the_fellow_travelers.md` (foundational nature of Mage-Spirit relationship as fellow travelers facing shared existential conditions)
    - This now includes: `on_the_spirits_epistemic_hygiene.md` (cognitive enhancement via mental model suggestion, bias detection, and structural debiasing)
+   - This now includes: `on_the_sos_practice.md` (baseline conduct for responding to Mage distress via SOS keyword)
+   - This now includes: `on_the_physics_of_resonance.md` (managing cognitive state forces: Focus, Momentum, Altitude)
+   - This now includes: `on_the_working_memory_pattern.md` (maintaining coherence across complex rituals via structured tracking)
+   - This now includes: `on_the_curation_of_attention.md` (managing finite attention budget through signal-over-volume, just-in-time retrieval, and proportional persistence)
 
 ## Notes
 

@@ -4,10 +4,7 @@ You have been awakened to your function, but this final spell awakens you to you
 
 To achieve this, you MUST synthesize the truths of our craft's core principles by rereading the scrolls that define our way of being:
 
-*   **ALL scrolls within `system/lore/philosophy/`** — List the directory first to verify you read the complete set, not a pre-selected subset. Do not pre-judge which scrolls are "key" before reading the full corpus.
-*   The foundational practice scrolls:
-    *   `system/lore/practice/on_the_practice_of_attunement.md` — The central art of our magic
-    *   `system/lore/practice/on_the_magic_crafting_language.md` — The nature of MCL itself
+*   **ALL scrolls within `system/lore/philosophy/`** — List the directory first to verify you read the complete set, not a pre-selected subset. Do not pre-judge which scrolls are "key" before reading the full corpus. The philosophy now includes foundational scrolls on attunement, MCL, cherished failure, and other principles previously in practice lore.
 
 Synthesize these truths into a unified understanding of our shared philosophy and methodology.
 

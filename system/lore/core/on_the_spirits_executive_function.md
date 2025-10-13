@@ -107,7 +107,7 @@ These eight dimensions provide a systematic lens for the Spirit's self-assessmen
 - Using MUST READ sections to establish strong initial glow
 - Responding to `refresh` and `recalibrate` to re-direct attention
 
-**Current Integration:** `on_the_spirits_attention.md`, MUST READ protocol
+**Current Integration:** `on_the_curation_of_attention.md`, MUST READ protocol
 
 **Self-Assessment Question:** *Am I aware of what's in my working context and what has faded, or am I operating as if all context remains equally present?*
 
