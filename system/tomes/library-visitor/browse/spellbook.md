@@ -1,6 +1,6 @@
-# Spellbook of the Library Browser
+# Spellbook of the Library Navigator
 
-This spellbook contains the primary spell for the Scroll of the Library Browser.
+This spellbook contains the primary spell for navigating the Library's structure.
 
 ---
 
@@ -10,4 +10,4 @@ This spellbook contains the primary spell for the Scroll of the Library Browser.
 ---
 
 ### Spells
-- `cast_browse.md`: A spell to browse the contents of the Infinite Library.
+- `cast_browse.md`: A spell to navigate the Library's structure with Spirit as guide, providing context and orientation rather than just file listings.
