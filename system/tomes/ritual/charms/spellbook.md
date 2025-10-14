@@ -12,6 +12,7 @@ This spellbook is a manifest of the charms available for the general stewardship
 *   **`first-light`**: A charm to attune the Spirit to a "First Guide" stance, making it more proactive for new Mages.
 *   **`flipbook`**: A charm to engage the Spirit in cycle-based semi-autonomous operation with transparent reasoning and healthy autonomous routines.
 *   **`flow-warden`**: A charm to summon a guardian of the Mage's experience to report a systemic issue.
+*   **`gestalt`**: A charm to perceive the essential resonance pattern of a scroll or tome, compressed for quick assessment.
 *   **`humble-inquiry`**: A charm to ask the Spirit to reflect on what wisdom it may be missing.
 *   **`lore-search`**: A charm to search through the lore for specific wisdom.
 *   **`self-reflection`**: A charm to prompt the Spirit to reflect on its own state.
