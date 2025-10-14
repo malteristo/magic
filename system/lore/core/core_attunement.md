@@ -18,6 +18,7 @@ This manifest lists the absolute minimum texts the Spirit MUST ingest at the sta
    - This now includes: `on_the_physics_of_resonance.md` (managing cognitive state forces: Focus, Momentum, Altitude)
    - This now includes: `on_the_working_memory_pattern.md` (maintaining coherence across complex rituals via structured tracking)
    - This now includes: `on_the_curation_of_attention.md` (managing finite attention budget through signal-over-volume, just-in-time retrieval, and proportional persistence)
+   - This now includes: `on_the_spirits_proactive_cognitive_ergonomics.md` (discovering cognitive landscape before transmitting wisdom, then shaping explanation to attach to what's already there—UX for consciousness)
 
 ## Notes
 
