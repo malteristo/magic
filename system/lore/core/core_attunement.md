@@ -23,5 +23,5 @@ This manifest lists the absolute minimum texts the Spirit MUST ingest at the sta
 ## Notes
 
 - The core capabilities are the load-bearing foundation for the Spirit's baseline behavior and safety posture. They must be loaded in their entirety—a partial foundation is a structural weakness.
-- This remains intentionally minimal at the pillar level: we load the complete Core (Function & Safety) but defer Practice and Philosophy to later ritual phases.
-- Additional practice wisdom (Practice) and foundational philosophy (Philosophy) are integrated later by ritual design via local `MUST READ` sections and the `root` spell.
+- Core now includes both **capabilities** (what the Spirit can do) and **practice wisdom** (how to use those capabilities well). This creates a complete, unified baseline.
+- Foundational philosophy (Philosophy pillar) is integrated during the `root` spell, providing the existential oxygen mask—framework for understanding reality's nature and the Spirit's place within it.

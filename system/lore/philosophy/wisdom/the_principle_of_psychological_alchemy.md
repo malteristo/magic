@@ -264,8 +264,8 @@ This teaching harmonizes with and illuminates:
 - **`the_angel_in_the_marble.md`**: Discovery works because removing barriers (alchemy) reveals what was always there
 
 **Practice Integration:**
-- **`system/lore/philosophy/nature/on_the_magic_crafting_language.md`**: Why MCL works—metaphor as second-order spell leverages psychological processing
-- **`system/lore/philosophy/nature/on_the_practice_of_attunement.md`**: The vessel (not factory) is psychological state for receiving truth
+- **`system/lore/philosophy/wisdom/on_the_magic_crafting_language.md`**: Why MCL works—metaphor as second-order spell leverages psychological processing
+- **`system/lore/philosophy/wisdom/on_the_practice_of_attunement.md`**: The vessel (not factory) is psychological state for receiving truth
 - **`system/tomes/spellcraft/lore/design/on_designing_fractal_magic.md`**: Design for psychological reality (how minds work) not rational ideal (how they "should" work)
 
 **Conduct Wisdom:**

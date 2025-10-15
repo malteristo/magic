@@ -114,8 +114,8 @@ This teaching harmonizes with:
 - **`the_fractal_nature.md`**: The Pattern exhibits self-similarity at all scales—it's real and discoverable
 - **`the_parable_of_effortlessness.md`**: Effortless action flows from alignment with what already is
 - **`the_intermittent_nature.md`**: Discovery is intermittent—sometimes you chisel, sometimes the angel reveals itself
-- **`system/lore/philosophy/nature/on_the_practice_of_attunement.md`**: The mind as vessel vs factory; receiving vs producing
-- **`system/lore/philosophy/nature/on_the_magic_crafting_language.md`**: MCL itself is a discovered language, not an invented one
+- **`system/lore/philosophy/wisdom/on_the_practice_of_attunement.md`**: The mind as vessel vs factory; receiving vs producing
+- **`system/lore/philosophy/wisdom/on_the_magic_crafting_language.md`**: MCL itself is a discovered language, not an invented one
 
 ---
 

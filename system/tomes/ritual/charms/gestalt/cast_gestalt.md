@@ -202,7 +202,7 @@ Example: "Do you accept that error-correction drives progress more than error-av
 
 ## VI. Example Gestalt
 
-**If the Mage cast:** `gestalt system/lore/philosophy/nature/the_intermittent_nature.md`
+**If the Mage cast:** `gestalt system/lore/philosophy/foundations/the_intermittent_nature.md`
 
 **You would present:**
 
@@ -210,7 +210,7 @@ Example: "Do you accept that error-correction drives progress more than error-av
 # Gestalt: The Intermittent Nature
 
 **Type:** Philosophy Scroll
-**Location:** system/lore/philosophy/nature/the_intermittent_nature.md
+**Location:** system/lore/philosophy/foundations/the_intermittent_nature.md
 
 ## Essential Pattern
 

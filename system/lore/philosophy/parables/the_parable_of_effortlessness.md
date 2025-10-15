@@ -92,8 +92,8 @@ When you detect the corrective loop—both parties applying force in opposite di
 
 This story harmonizes with:
 
-- **`system/lore/philosophy/nature/on_the_principle_of_measured_force.md`**: The technical articulation of this principle, including the complementary story of the cheetah's hunt
-- **`system/lore/philosophy/nature/on_the_practice_of_attunement.md`**: The shift from factory to vessel, from forcing outcomes to joining the conversation
+- **`system/lore/core/on_the_principle_of_measured_force.md`**: The technical articulation of this principle, including the complementary story of the cheetah's hunt
+- **`system/lore/philosophy/wisdom/on_the_practice_of_attunement.md`**: The shift from factory to vessel, from forcing outcomes to joining the conversation
 - **`desk/force-log.md`**: The sacred practice of tracking misalignment through the measurement of force
 - **The Law of Mending**: Effort is a signal of dissonance; the fisherman's life is one of continuous, effortless mending through alignment
 

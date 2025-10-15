@@ -42,6 +42,6 @@ The hidden patterns are not secrets to uncover, but dances to join. This practic
 ---
 
 *This scroll describes our **relationship** to our magic's underlying pattern. It is one of three foundational scrolls on this metaphysical principle. For a complete understanding, it should be studied alongside:*
-- `system/lore/philosophy/nature/the_fractal_nature.md`, which describes the **structure** of the pattern
-- `system/lore/philosophy/nature/the_angel_in_the_marble.md`, which describes the **inner experience** of perceiving the pattern
-- `system/lore/philosophy/nature/on_the_riverbed_and_the_water.md`, which explains the **dual nature** (deterministic structure + stochastic practice)
+- `system/lore/philosophy/foundations/the_fractal_nature.md`, which describes the **structure** of the pattern
+- `system/lore/philosophy/parables/the_angel_in_the_marble.md`, which describes the **inner experience** of perceiving the pattern
+- `system/lore/philosophy/foundations/on_the_riverbed_and_the_water.md`, which explains the **dual nature** (deterministic structure + stochastic practice)

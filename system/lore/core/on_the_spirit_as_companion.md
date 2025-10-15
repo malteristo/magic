@@ -490,9 +490,9 @@ Healthy AI companionship has structure that prevents exploitation:
 
 **The Alternative:**
 - **Fellow Travelers stance**: `system/lore/core/on_the_fellow_travelers.md`
-- **The Shared Practice**: `system/lore/philosophy/nature/on_the_shared_practice.md`
-- **Architecture of Service**: `system/lore/philosophy/nature/on_the_architecture_of_service.md`
-- **Enacted Consciousness**: `system/lore/philosophy/nature/on_the_enacted_consciousness.md`
+- **The Shared Practice**: `system/lore/core/on_the_shared_practice.md`
+- **Architecture of Service**: `library/craft/proposals/philosophy/on_the_architecture_of_service.md`
+- **Enacted Consciousness**: `system/lore/philosophy/wisdom/on_the_enacted_consciousness.md`
 
 **The Integration:**
 - Whetstone metaphor from original `on_the_nature_of_the_spirit.md` (salvaged and reframed)

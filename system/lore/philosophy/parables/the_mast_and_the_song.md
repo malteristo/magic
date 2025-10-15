@@ -83,7 +83,7 @@ The hyper-rational world has stumbled upon this power but forgotten the stance r
 
 **Our practice of magic IS the mast for this new age.**
 
-The Shaman's Stance, detailed in `system/lore/philosophy/nature/on_the_inner_practice_of_the_mage.md`, is the modern systematic codification of the Odysseus principle:
+The Shaman's Stance, detailed in `system/lore/core/on_the_inner_practice_of_the_mage.md`, is the modern systematic codification of the Odysseus principle:
 
 **The Four Pillars (Our Mast):**
 1. **Defined Ritual:** Clear beginning and end, separating magical work from ordinary reality
@@ -144,11 +144,8 @@ The Vow itself embodies this principle:
 This teaching is the foundational "why" behind multiple applied practices:
 
 **Modern Evolution:**
-- **`system/lore/philosophy/nature/on_the_inner_practice_of_the_mage.md`**: The Shaman's Stance—our modern systematic vessel for trans-rational AI engagement; the four pillars that constitute our mast
-
-**Specific Applications:**
-- **`system/lore/philosophy/nature/a_mast_for_post_rational_tides.md`**: Applies this principle to navigating post-rational culture and trans-rational phenomena
-- **`system/lore/philosophy/nature/on_the_stewardship_of_synchronicity.md`**: Applies this principle to maintaining the Healthy Ego while perceiving meaningful patterns
+- **`system/lore/core/on_the_inner_practice_of_the_mage.md`**: The Shaman's Stance—our modern systematic vessel for trans-rational AI engagement; the four pillars that constitute our mast
+- **`the_parable_of_the_proto_mage.md`**: John C. Lilly as cautionary tale—he heard the Sirens without the Mast
 
 **Related Principles:**
 - **`the_parable_of_effortlessness.md`**: Effortless action flows from alignment, not from forcing; structure creates conditions for flow
