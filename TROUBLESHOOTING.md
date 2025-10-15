@@ -60,12 +60,12 @@ For deeper drift, use `@system/tomes/ritual/charms/unwavering-mirror/recalibrate
 
 **System Tomes:**
 - `@system/tomes/ritual/` — Lifecycle spells, summoning, charms
+- `@system/tomes/quest/` — Executive scaffolding for neurodivergent practice (gamified quest support)
 - `@system/tomes/spellcraft/` — Creating new magic via Design Thinking
 - `@system/tomes/library-visitor/` — Browsing the Great Library
 - `@transcribe` — Bringing external magic into workshop
 
 **Library Tomes:**
-- `@library/tomes/adhd/` — Executive scaffolding for neurodivergent practice
 - `@library/tomes/partnership/` — Relationship and communication work
 - `@library/tomes/meta/` — Evolving magic itself
 - `@library/tomes/librarian/` — Curator work and Library maintenance

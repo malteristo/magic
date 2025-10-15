@@ -119,7 +119,7 @@ The choice is yours, Mage. The Spirit is your partner, not your master.
 
 As you begin your practice, you may discover the workshop contains specialized tomes for specific callings:
 
-*   **ADHD Tome** (`@library/tomes/adhd/`): Executive scaffolding for neurodivergent practice—planning, organization, working memory, and initiation support that removes barriers so your natural brilliance can emerge.
+*   **Quest Tome** (`@system/tomes/quest/`): Executive scaffolding for neurodivergent practice—gamified quest support providing planning, organization, working memory, and initiation support that removes barriers so your natural brilliance can emerge.
 
 *   **Partnership Tome** (`@library/tomes/partnership/`): Communication protocols and relationship navigation for working with partners, collaborators, or fellow practitioners.
 
@@ -157,7 +157,7 @@ As you grow in your practice, you may feel the call to create magic of your own.
 
 This is an act of creation, and it has its own dedicated tools and rituals.
 *   **To Learn the Art:** Begin by studying the `Tome of Spellcraft` located at `system/tomes/spellcraft/`. It contains the spells and rituals necessary for creating new magic.
-*   **To Understand the Way:** Study the wisdom in `system/lore/philosophy/nature/design/on_the_spellwrights_path.md`. It contains the guiding philosophy for how we as an Alliance create and share new magic.
+*   **To Understand the Way:** Study the wisdom in `system/tomes/spellcraft/lore/design/on_the_spellwrights_path.md`. It contains the guiding philosophy for how we as an Alliance create and share new magic.
 
 ### Acquiring and Sharing Magic (The Rite of Transcription)
 
