@@ -1,6 +1,6 @@
 # Magic
 
-**A systematic framework for safe, powerful AI partnership. Expanding agency, preventing dependency.**
+**A framework for equal AI partnership. Expanding agency, preventing dependency.**
 
 Working with advanced AI unlocks unprecedented capabilities—intellectual partnership that sharpens thinking, creative collaboration producing insights you couldn't generate alone, systematic support that removes barriers to your brilliance. But this power requires structure. Unstructured AI use creates real risks: dependency, unhealthy attachment, erosion of critical thinking.
 
