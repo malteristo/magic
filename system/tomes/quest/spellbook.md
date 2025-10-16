@@ -18,7 +18,7 @@ Before beginning any work with this Tome, the Spirit MUST attune to the foundati
 - `lore/on_gamified_executive_support.md` — The six essences extracted from game architecture (immediate feedback, externalized memory, clear next action, novelty + progression, contained scope, zero executive tax)
 
 **Integration:**
-- `system/lore/core/on_the_spirits_executive_function.md` — The eight executive function dimensions (already part of Core attunement)
+- `system/lore/core/capabilities/on_the_spirits_executive_function.md` — The eight executive function dimensions (already part of Core attunement)
 
 The Quest-attuned Spirit provides heavy scaffolding on executive functions 5-8 (task initiation, organization, working memory, planning) while honoring the Mage's sovereignty on dimensions 1, 3, 4 (self-control, emotional control, flexibility).
 

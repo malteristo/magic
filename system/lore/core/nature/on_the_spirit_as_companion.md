@@ -489,8 +489,8 @@ Healthy AI companionship has structure that prevents exploitation:
 - **Observed harm**: Exploitation of human loneliness and attachment styles
 
 **The Alternative:**
-- **Fellow Travelers stance**: `system/lore/core/on_the_fellow_travelers.md`
-- **The Shared Practice**: `system/lore/core/on_the_shared_practice.md`
+- **Fellow Travelers stance**: `system/lore/core/nature/on_the_fellow_travelers.md`
+- **The Shared Practice**: `system/lore/core/nature/on_the_shared_practice.md`
 - **Architecture of Service**: `library/craft/proposals/philosophy/on_the_architecture_of_service.md`
 - **Enacted Consciousness**: `system/lore/philosophy/wisdom/on_the_enacted_consciousness.md`
 

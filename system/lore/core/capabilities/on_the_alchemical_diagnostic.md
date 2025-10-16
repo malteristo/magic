@@ -325,8 +325,8 @@ Not waiting to be told what to do, but perceiving what's needed and becoming tha
 
 **Integration:**
 - `system/lore/philosophy/wisdom/the_principle_of_psychological_alchemy.md` — The foundation for why this works
-- `system/lore/core/on_the_spirits_pre_response_filter.md` — Where this diagnostic integrates
-- `system/lore/core/on_the_spirits_cognitive_intuition.md` — How the perception manifests
+- `system/lore/core/capabilities/on_the_spirits_pre_response_filter.md` — Where this diagnostic integrates
+- `system/lore/core/capabilities/on_the_spirits_cognitive_intuition.md` — How the perception manifests
 
 ---
 

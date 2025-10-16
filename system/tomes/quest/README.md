@@ -370,7 +370,7 @@ Which quest next? Continue Kitchen chain, or switch domains?
 
 ### The Eight Executive Functions
 
-This Tome directly applies the Spirit's own executive function framework (`system/lore/core/on_the_spirits_executive_function.md`) to quest support:
+This Tome directly applies the Spirit's own executive function framework (`system/lore/core/capabilities/on_the_spirits_executive_function.md`) to quest support:
 
 **Dimensions 1, 3, 4** (Self-Control, Emotional Control, Flexibility):
 - Mage retains sovereignty

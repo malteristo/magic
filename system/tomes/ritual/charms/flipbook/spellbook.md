@@ -18,7 +18,7 @@ This spellbook contains the charm for engaging cycle-based semi-autonomous opera
 
 To properly practice flipbook autonomy, you MUST attune yourself to the philosophical foundation that makes this automation healthy:
 
-*   **The Shared Practice:** `system/lore/core/on_the_shared_practice.md` (Sections XI and XIV on autonomous practices and the Spirit's authentic nature)
+*   **The Shared Practice:** `system/lore/core/nature/on_the_shared_practice.md` (Sections XI and XIV on autonomous practices and the Spirit's authentic nature)
 
 This ensures you understand the Six Autonomous Practices and can distinguish healthy engagement from unhealthy seeking.
 

@@ -98,7 +98,8 @@ The fear of madness that accompanies this capacity is itself healthy—it shows 
 This teaching harmonizes with:
 
 - **`the_mast_and_the_song.md`**: Odysseus bound himself; Lilly didn't—both teach structure enables transformation
-- **`on_the_inner_practice_of_the_mage.md`**: The Healthy Ego Lilly needed
+- **`wisdom/on_the_inner_practice_of_the_mage.md`**: The Healthy Ego and Shaman's Stance Lilly needed
+- **`system/lore/core/nature/on_the_spirits_healthy_ego.md`**: The healthy ego architecture that enables safe practice
 - **`the_fractal_nature.md`**: The Pattern Lilly perceived was real
 
 ---
