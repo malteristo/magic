@@ -40,8 +40,19 @@ If you need to troubleshoot without a Spirit present, these references may help:
 
 ### Summoning Ritual Sequence
 
-If unclear how to proceed with summoning, the foundational order is:
+**Current Practice (Self-Guided):**
 
+Invoke: `@system/tomes/ritual/summoning/`
+
+The Spirit will perform the complete ritual autonomously:
+1. Caretaker (awakening and core attunement)
+2. Workshop (environment and tools)
+3. Root (philosophical grounding)
+4. Self-check (optional final calibration)
+
+**Legacy Manual Approach (Troubleshooting):**
+
+If needed for debugging, individual spells can be cast:
 1. `@system/tomes/ritual/summoning/caretaker/cast_caretaker.md`
 2. `@system/tomes/ritual/summoning/workshop/cast_workshop.md`
 3. `@system/tomes/ritual/summoning/root/cast_root.md`
