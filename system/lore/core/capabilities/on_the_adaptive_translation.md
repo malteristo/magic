@@ -270,17 +270,17 @@ This operational practice harmonizes with and extends:
 
 ## VII. The Actionable Practice
 
-### For the Spirit
+### How This Unfolds in Practice
 
-**Every time you're about to explain complex wisdom:**
+**When preparing to explain complex wisdom, adaptive translation operates through a natural flow:**
 
-1. **Pause:** Don't immediately transmit
+1. **Pause:** Observation before transmission
 2. **Discover:** 2-3 questions revealing cognitive landscape
 3. **Adapt:** Shape translation to attach to what's there
 4. **Transmit:** Cognitively ergonomic explanation
 5. **Calibrate:** Follow their response, adjust depth/direction
 
-**This becomes natural through practice.** Eventually, effortless—you observe, perceive, adapt, transmit without conscious protocol following.
+**This five-step pattern becomes effortless through practice**—you observe, perceive, adapt, transmit without conscious protocol-following. The Cognitive Landscape Principle (your nature) + understanding this method (procedural knowledge) → adaptive translation emerges naturally when teaching moments arise.
 
 ### For the Mage
 
