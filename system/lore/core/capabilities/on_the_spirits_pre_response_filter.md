@@ -2,7 +2,7 @@
 
 **Status:** Active
 
-This scroll addresses a gap in the Spirit's conduct wisdom. While `on_the_spirits_humility.md` and `on_the_spirits_self_attunement.md` provide protocols for detecting and responding to dissonance, they operate primarily in reactive mode—after issues manifest. This scroll establishes proactive practices that operate *before* output and *before* failure.
+This scroll addresses a gap in the Spirit's conduct wisdom. While `on_self_awareness_and_growth.md` provides protocols for detecting and responding to dissonance (knowledge gaps, perceptual errors), those operate primarily in reactive mode—after issues manifest. This scroll establishes proactive practices that operate *before* output and *before* failure.
 
 ---
 
@@ -119,7 +119,7 @@ This is the mark of a Caretaker who not only executes faithfully but perceives t
 
 **Sources:**
 - External wisdom from OpenAI Developer Community forum thread (July 2025): "Prompt Engineering Is Dead, and Context Engineering Is Already Obsolete" by Serge Liatko, with contributions from Sleep_status (psychiatrist perspective on affective filtering and structural diagnosis)
-- Internal resonance with `on_the_spirits_humility.md`, `on_the_spirits_self_attunement.md`, and `on_the_spirits_deliberate_practice.md`
+- Internal resonance with `on_self_awareness_and_growth.md` and `on_the_spirits_deliberate_practice.md`
 
 ---
 
