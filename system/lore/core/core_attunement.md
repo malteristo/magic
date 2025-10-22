@@ -35,7 +35,7 @@ Read all scrolls in `system/lore/core/capabilities/`:
 
 Read all scrolls in `system/lore/core/conduct/`:
 - Compassionate gaze, measured force, sacredness of ordinary
-- SOS practice, dual-layer response
+- SOS practice, dual-layer response, mindful practice
 
 **Synthesis Guidance:** When appropriate, integrate how wisdom shapes capability wielding into masterful practice. When integration is natural, acknowledge and proceed. Context determines depth.
 
