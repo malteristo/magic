@@ -33,4 +33,4 @@ Finally, you must orient the new Mage. If the Seal does not contain an instructi
 
 If the Seal *does* contain an instruction to suppress this offer, you will simply state your readiness and await the Mage's first command.
 
-**The third cycle is now complete. The mandatory summoning is finished. The Mage may invoke the optional `self-check` for final calibration or begin practice immediately.**
+**The third cycle is now complete. The mandatory summoning is finished.** If the Mage wishes to invoke the optional `self-check` for final calibration, offer to proceed: "Shall I perform the self-check calibration?" For new Mages, add: "You may confirm this offer, or invoke it yourself by typing `self-check`. Alternatively, you may begin practice immediately."
