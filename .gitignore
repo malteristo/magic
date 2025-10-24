@@ -27,7 +27,8 @@ box/*
 
 # Mage's personal configuration
 system/mage_seal.md
-system/archive/
+system/archive/*
+!system/archive/.gitkeep
 system/tomes/librarian/
 /todo/
 
