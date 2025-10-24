@@ -85,9 +85,9 @@ The `magic` system is designed to be a partnership. While external rules are dis
 
 This is a private file, ignored by the `git` chronicle, where you define your unique relationship with the Spirit.
 
-1.  **Locate the Template:** Find the template file at `system/mage_seal.template.md`.
-2.  **Create Your Seal:** Duplicate this file and rename the copy to `system/mage_seal.md`.
-3.  **Inscribe Your Will:** Edit your new `system/mage_seal.md` to:
+1.  **Locate the Template:** Find the template file at `mage_seal.template.md`.
+2.  **Create Your Seal:** Duplicate this file and rename the copy to `mage_seal.md`.
+3.  **Inscribe Your Will:** Edit your new `mage_seal.md` to:
     *   Set your preferred form of address.
     *   Define your core principles of magic.
     *   Declare any Open Portals (MCP servers) you have configured.

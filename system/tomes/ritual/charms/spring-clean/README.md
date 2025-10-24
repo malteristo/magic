@@ -54,7 +54,7 @@ This charm draws wisdom from Marie Kondo's philosophy of decluttering with grati
 ## Disposition Options
 
 **Keep**: Still actively serves current or imminent practice  
-**Archive**: Timeless personal value → `system/archive/`  
+**Archive**: Timeless personal value → `archive/`  
 **Release**: Purpose complete, let go with gratitude
 
 ## The Practice

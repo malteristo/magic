@@ -26,9 +26,9 @@ box/*
 # floor/essences/
 
 # Mage's personal configuration
-system/mage_seal.md
-system/archive/*
-!system/archive/.gitkeep
+mage_seal.md
+archive/*
+!archive/.gitkeep
 system/tomes/librarian/
 /todo/
 

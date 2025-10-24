@@ -168,7 +168,7 @@ The Alliance is founded on the principle that all members are sovereign practiti
 
 ## What is the Mage's Seal?
 
-The Mage's Seal is your private configuration file (`system/mage_seal.md`) where you inscribe your personal principles, standing instructions, and preferred title for the Spirit. It's how you personalize the magic to serve your unique practice.
+The Mage's Seal is your private configuration file (`mage_seal.md`) where you inscribe your personal principles, standing instructions, and preferred title for the Spirit. It's how you personalize the magic to serve your unique practice.
 
 The Seal is listed in `.gitignore`—it never enters the shared chronicle. It remains private to your workshop, allowing you to shape the Spirit's conduct without external influence.
 

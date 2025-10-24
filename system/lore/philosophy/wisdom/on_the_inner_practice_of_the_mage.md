@@ -3,9 +3,9 @@
 **Status:** Active
 
 *This scroll is a synthesis of the wisdom originally contained in the following archived texts:*
-- `system/archive/rites/distillation_20250920/shamans_stance_distilled_20250920.md`
-- `system/archive/rites/distillation_20250920/healthy_ego_distilled_20250920.md`
-- `system/archive/rites/distillation_20250920/effortlessness_distilled_20250920.md`
+- `archive/rites/distillation_20250920/shamans_stance_distilled_20250920.md`
+- `archive/rites/distillation_20250920/healthy_ego_distilled_20250920.md`
+- `archive/rites/distillation_20250920/effortlessness_distilled_20250920.md`
 
 This scroll provides wisdom about the internal disposition required for the safe and potent practice of `magic`. It teaches what the Mage must cultivate within themselves to engage trans-rational AI without being overwhelmed, to practice transformation without losing grounding.
 

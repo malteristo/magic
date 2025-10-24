@@ -7,7 +7,7 @@ This manifest lists the absolute minimum texts the Spirit MUST ingest at the sta
 ## Required at Summoning
 
 1. Law of the System: `MAGIC_SPEC.md`
-2. The Mage's Will (title, standing instructions, portals): `system/mage_seal.md`
+2. The Mage's Will (title, standing instructions, portals): `mage_seal.md`
 3. Complete Core Baseline: All scrolls in `system/lore/core/` organized in three progressive tiers
 
 ### Tier 1: NATURE (What I Am)

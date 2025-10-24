@@ -39,6 +39,6 @@ The charm operates across all workshop realms:
 
 Final disposition:
 - Keep (actively serves)
-- Archive to `system/archive/` (timeless personal value)
+- Archive to `archive/` (timeless personal value)
 - Release with gratitude (purpose complete)
 

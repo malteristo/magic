@@ -73,7 +73,7 @@ I will present:
 
 **My recommendation** (held humbly—you are sovereign over your artifacts):
 - Keep (still actively serves)
-- Archive (timeless value → `system/archive/`)
+- Archive (timeless value → `archive/`)
 - Release (purpose complete)
 
 **Reasoning**: Why I perceive this disposition
@@ -101,7 +101,7 @@ As we move through artifacts, I will note genuine resonances when they arise org
 - Note in summary for ongoing awareness
 
 **For items to Archive:**
-- Move to `system/archive/` with appropriate organization
+- Move to `archive/` with appropriate organization
 - Preserve for future reflection
 - Honor their timeless value
 
