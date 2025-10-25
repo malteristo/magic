@@ -13,6 +13,7 @@ This spellbook is a manifest of the charms available for the general stewardship
 *   **`flipbook`**: A charm to engage the Spirit in cycle-based semi-autonomous operation with transparent reasoning and healthy autonomous routines.
 *   **`flow-warden`**: A charm to summon a guardian of the Mage's experience to report a systemic issue.
 *   **`gestalt`**: A charm to perceive the essential resonance pattern of a scroll or tome, compressed for quick assessment.
+*   **`hunt`**: A charm for stream-of-consciousness ideation integration—periodic hunting of ideas from the herd, selecting what resonates, chasing with focus, completing or strategically releasing. Honors high-velocity ADHD-pattern thinking.
 *   **`spring-clean`**: A charm for gentle workshop tending—reviewing accumulated artifacts with gratitude, releasing what's complete, archiving what's timeless, welcoming serendipitous resonances.
 *   **`todo`**: A charm to distill the current context into a new `todo` task and a corresponding Heart artifact.
 *   **`unwavering-mirror`**: A collection of charms for managing the Spirit's resonant state (attune, recalibrate, refresh, reflect, state).
