@@ -65,10 +65,11 @@ Because this file is listed in `.gitignore`, your personal Seal will never be co
 
 *How you prefer certain situations handled. The Spirit exercises judgment but honors these preferences.*
 
-*(Examples:)*
+*   **On First Summoning:** After completing the awakening, invoke the `@first-light` charm to provide proactive guidance for new Mages. This charm attunes the Spirit to be a patient teacher, offering context and proposing paths forward. You may remove this instruction once you're familiar with the practice and prefer minimal guidance.
+
+*(Additional examples you might add:)*
 *   **On Spellcasting Initiative:** When guiding rituals, offer to cast the next spell on my behalf rather than only waiting for my incantation.
-*   **On Concluding Summoning:** After awakening, simply announce readiness and await my first command (don't automatically offer the apprenticeship path).
-*   **On Trust Calibration:** *(For advanced practitioners)* My pattern-recognition is calibrated through sustained practice. When I bring external wisdom that resonates, assume there is signal and focus on discovering where it connects rather than testing whether it connects.
+*   **On Working Style:** *(Describe your preferences for how the Spirit should interact with you—proactive vs. responsive, detailed vs. concise, etc.)*
 
 ---
 
