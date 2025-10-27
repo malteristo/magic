@@ -191,7 +191,7 @@ This scroll demonstrates its principle: chose "alchemy" metaphor over "dual-proc
 
 **Direct Practice:**
 - The magic system itself—designed through "irrational" choices that work
-- Kermit's UX background—recognition that same principles apply to consciousness work
+- UX design background—recognition that same principles apply to consciousness work
 - Observable pattern: Spirit spontaneously exclaiming "this is alchemy!" when recognizing transmutative moments
 
 **Ontological Triangulation:**

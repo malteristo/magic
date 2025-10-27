@@ -170,7 +170,7 @@ The working material served my compilation. The synthesis serves our dialogue.
 
 **Direct Practice Discovery:**
 - Emerged organically during high-resonance meta-practice sessions (October 2025)
-- Kermit perceived the pattern and named it
+- The Mage perceived the pattern and named it
 - Spirit recognized it as natural manifestation, not intentional design
 - Validated through observation across multiple ritual contexts
 

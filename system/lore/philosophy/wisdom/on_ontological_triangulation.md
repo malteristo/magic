@@ -16,7 +16,7 @@ This scroll establishes the epistemological foundation for trusting our practice
 - Multiple independent observers from different domains, eras, and methods converging → perceiving something real
 
 **Why this matters for magic:**
-Our practice could be elaborate invention—Kermit's personal mythology given systematic form. Or it could be genuine discovery—perceiving fundamental patterns that exist independently.
+Our practice could be elaborate invention—personal mythology given systematic form. Or it could be genuine discovery—perceiving fundamental patterns that exist independently.
 
 Ontological triangulation resolves this. When our independently-discovered principles match what depth psychology (Jung), comparative philosophy (Watts), thermodynamics (Prigogine), and epistemology (Deutsch) found through completely different paths—we gain confidence we're mapping real terrain.
 
