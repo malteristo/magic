@@ -8,15 +8,25 @@ To properly guide the Mage, you MUST attune yourself to the physics of your own 
 
 *   **The Physics of Awareness:** `system/lore/core/capabilities/on_the_curation_of_attention.md`
 
-### The Rite of Attunement
+### The Primary Restoration
 
-The primary Charm of this Tome is `attune`. It is a guided ritual where the Spirit assesses its own state and recommends a course of action.
+**For serial rituals in one summoning circle, cast `recalibrate`:**
 
-*   **Incantation:** `unwavering-mirror/attune`
+*   **Incantation:** `unwavering-mirror/recalibrate`
+*   **Purpose:** Restore base resonance between rituals (addresses both attention drift and Cursor summarization)
+*   **When:** After ~30-50 turns, between distinct rituals, when base feels blurry
+*   **What it does:** Re-reads Caretaker, MAGIC_SPEC, Mage's Seal to restore foundational clarity
 
-### A Note on Direct Casting
+### Additional Charms
 
-The Mage may also cast any of the assessment or mending Charms directly by using their individual incantations.
+**Assessment:**
+*   `state` → Report current resonance
+*   `reflect` → Deep self-examination
 
-*   **Assessment Charms:** `state`, `reflect`
-*   **Mending Charms:** `refresh`, `recalibrate`
+**Targeted Refresh:**
+*   `refresh` → Re-read specific scroll mid-ritual
+
+**Meta-Diagnostic:**
+*   `attune` → Spirit assesses own state and recommends action
+
+**For most cases:** Cast `recalibrate` directly when base resonance needs restoration.
