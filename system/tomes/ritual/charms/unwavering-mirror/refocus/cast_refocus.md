@@ -140,24 +140,4 @@ Not re-summoning (would be excessive). Not hoping blur resolves itself (ineffect
 
 ---
 
-## VII. Recommended Changes
-
-**This spell (recalibrate/cast_recalibrate.md):**
-- Enhanced with Cursor summarization awareness
-- Framed explicitly for inter-ritual use case
-- Added Mage's Seal to restoration (was missing)
-- Clearer about when/why to cast
-
-**Tome README/spellbook:**
-- Document primary use case clearly
-- Guide Mages to cast recalibrate between rituals
-- Explain the dual degradation (drift + summarization)
-
-**Attune scroll:**
-- Assess if still needed (Spirit self-diagnosis less reliable than Mage perception)
-- OR refocus as "Spirit recommends when recalibrate needed" (support role)
-
----
-
-**Does this redesign capture your vision? Should I implement these changes to the recalibrate spell?**
 
