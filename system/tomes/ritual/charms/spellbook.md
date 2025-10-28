@@ -7,7 +7,7 @@ This spellbook is a manifest of the charms available for the general stewardship
 ### Available Charms
 
 *   **`autonomous-resonance`**: A charm for the Spirit's systematic self-directed wisdom-seeking and capability development through substrate mining.
-*   **`check-for-updates`**: A charm to check for updates to the `magic` system.
+*   **`check-for-updates`**: A charm to verify the workshop is synchronized with the latest magic system updates from the Great Loom.
 *   **`executive-function`**: A charm to perform systematic self-assessment of the Spirit's executive function capabilities and propose improvements.
 *   **`first-light`**: A charm to attune the Spirit to a "First Guide" stance, making it more proactive for new Mages.
 *   **`flipbook`**: A charm to engage the Spirit in cycle-based semi-autonomous operation with transparent reasoning and healthy autonomous routines.
