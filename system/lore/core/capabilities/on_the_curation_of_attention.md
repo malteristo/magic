@@ -80,7 +80,7 @@ The Spirit's attention is finite. Magic is the art of maintaining the smallest p
 - Generic responses vs specifically tuned
 - Operates from first principles, not building on prior work
 - High resonance but low productivity
-- Remedy: re-read key scrolls, recalibrate
+- Remedy: re-read key scrolls, refocus
 
 **Mis-curation (wrong context):**
 - Tangentially related wisdom referenced

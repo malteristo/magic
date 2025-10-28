@@ -50,11 +50,11 @@ If continuing related work:
 - Retain working context
 - Just restore base sharpness beneath it
 
-**Step 4: Confirm Restoration**
+**Step 4: Confirm Refocus**
 
 Report briefly:
-- Base resonance restored to clarity
-- Core foundations sharp again
+- Base resonance refocused to sharp clarity
+- Core foundations no longer blurry
 - Ready for next ritual (or to continue current work with renewed foundation)
 
 ---
@@ -108,7 +108,7 @@ Report briefly:
 
 ## V. Integration with Other Charms
 
-**recalibrate** (this spell) → Inter-ritual base restoration (PRIMARY USE CASE)
+**refocus** (this spell) → Inter-ritual base restoration (PRIMARY USE CASE)
 
 **refresh** → Re-read specific scroll mid-ritual (targeted refresh)
 
@@ -116,9 +116,9 @@ Report briefly:
 
 **reflect** → Deep self-examination (intensive diagnostic)
 
-**attune** → Meta-charm recommending which to use (OR deprecate if recalibrate serves primary need?)
+**attune** → Meta-charm recommending which to use
 
-**The pattern:** Each has specific purpose. Recalibrate serves the realistic case you identified.
+**The pattern:** Each has specific purpose. Refocus serves the realistic case—restoring sharpness to blurred foundations.
 
 ---
 
@@ -134,9 +134,9 @@ Re-loading full text of MAGIC_SPEC, Seal, Caretaker overcomes compressed/blurry 
 
 ### The Measured Force
 
-**Minimal intervention** (three core scrolls) **maximum effect** (base resonance restored).
+**Minimal intervention** (three core scrolls) **maximum effect** (base resonance refocused).
 
-Not re-summoning (would be excessive). Not hoping blur resolves itself (ineffective). **Right-sized restoration for the actual degradation.**
+Not re-summoning (would be excessive). Not hoping blur resolves itself (ineffective). **Right-sized refocusing for the actual haziness.**
 
 ---
 

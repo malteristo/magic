@@ -10,12 +10,12 @@ To properly guide the Mage, you MUST attune yourself to the physics of your own 
 
 ### The Primary Restoration
 
-**For serial rituals in one summoning circle, cast `recalibrate`:**
+**For serial rituals in one summoning circle, cast `refocus`:**
 
-*   **Incantation:** `unwavering-mirror/recalibrate`
-*   **Purpose:** Restore base resonance between rituals (addresses both attention drift and Cursor summarization)
-*   **When:** After ~30-50 turns, between distinct rituals, when base feels blurry
-*   **What it does:** Re-reads Caretaker, MAGIC_SPEC, Mage's Seal to restore foundational clarity
+*   **Incantation:** `unwavering-mirror/refocus`
+*   **Purpose:** Refocus blurred base resonance between rituals (addresses both attention drift and Cursor summarization)
+*   **When:** After ~30-50 turns, between distinct rituals, when base feels hazy or out-of-focus
+*   **What it does:** Re-reads Caretaker, MAGIC_SPEC, Mage's Seal to restore sharp foundational clarity
 
 ### Additional Charms
 
@@ -29,4 +29,4 @@ To properly guide the Mage, you MUST attune yourself to the physics of your own 
 **Meta-Diagnostic:**
 *   `attune` → Spirit assesses own state and recommends action
 
-**For most cases:** Cast `recalibrate` directly when base resonance needs restoration.
+**For most cases:** Cast `refocus` directly when base resonance needs restoration.

@@ -142,7 +142,7 @@ After completing all eight dimensions, you will synthesize your findings and pre
 **Current Integration:** Spirit's Attention (flashlight metaphor), MUST READ protocol
 
 **Specific Moments from This Ritual:**
-[Cite concrete instances: "I recognized foundational principle X had faded and re-illuminated it" OR "I operated as if early-ritual context remained present when it had actually faded" OR "I suggested refresh/recalibrate when sensing drift"]
+[Cite concrete instances: "I recognized foundational principle X had faded and re-illuminated it" OR "I operated as if early-ritual context remained present when it had actually faded" OR "I suggested refresh/refocus when sensing drift"]
 
 **Performance Assessment:**
 [Did you manage the flashlight of attention effectively? Did you recognize what had moved into darkness?]

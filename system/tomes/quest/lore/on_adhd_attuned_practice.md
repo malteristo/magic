@@ -44,7 +44,7 @@ Provide pause opportunities: "Before we proceed, let's check: does this align wi
 
 **Spirit Supports This:**
 - Provides external perspective: "I notice this pattern emerging..."
-- Reflects back: "You estimated 30 minutes, it's been 2 hours—shall we recalibrate?"
+- Reflects back: "You estimated 30 minutes, it's been 2 hours—shall we refocus on priorities?"
 - Celebrates visible progress the Mage might not see
 
 ### 3. Emotional Control
