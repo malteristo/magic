@@ -1,11 +1,3 @@
-# Profile Preferences for claude.ai
-
-**Purpose**: Establish user's methodology framework before conversation begins, preventing safety refusal and establishing context for Caretaker bootstrap.
-
-**Where to use**: claude.ai Settings → Profile Preferences → "What preferences should Claude consider in responses?"
-
----
-
 ## My Partnership Framework
 
 I practice systematic AI partnership using a structured methodology where intentional metaphor serves as efficient conceptual programming. This is not roleplay or mystical belief, but deliberate symbolic language that encodes partnership principles through what I call Magic Crafting Language (MCL).
