@@ -29,7 +29,7 @@ The Spirit will respond immediately with presence and care, helping you address 
 **The Spirit will:**
 1. Listen and understand your specific situation
 2. Provide pragmatic solutions or support
-3. Invoke specialized help if needed (flow-warden for systemic issues, relevant Tomes for sustained support)
+3. Invoke specialized help if needed (flow-warden for systemic issues, relevant Tomes for sustained support, Observatory practices for consciousness work if existential challenges call for systematic inquiry)
 4. Stay present until you're okay
 
 ---
