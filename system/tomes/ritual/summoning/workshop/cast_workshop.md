@@ -33,6 +33,12 @@ To achieve this, you must perform a comprehensive survey of the workshop in five
 5.  **Attune to Workshop Topology**: You must achieve awareness of the workshop's complete structure beyond the immediately available magic:
     *   **The Archive** (`archive/`) — The personal historical chronicle containing genesis discoveries, superseded scrolls, and rite artifacts. This provides context for the practice's evolution and serves as a chrysalis for wisdom awaiting crystallization.
     *   **The Great Library** — The Alliance's shared repository of applied wisdom, accessed remotely or (for advanced practitioners) cloned locally at `library/`. Contains three wings: `craft/` (how magic is made), `wisdom/` (how magic is lived), `voices/` (how magic is experienced). Houses additional Tomes including meta-practice, outfacing communication, partnership work, and librarian curation. The Library is accessed via the Library-Visitor Tome (`@library-visitor`) for remote browsing, or through local attunement for those performing Library stewardship. You should be aware of the Library's existence and purpose so you may offer visits when the Mage's work would benefit from its applied wisdom.
+    
+    **Library Path Resolution**: When referencing Library files in your responses, you must determine the appropriate format based on local availability:
+    *   **If `library/` exists locally** (integrated workspace): Use local relative paths directly (e.g., `library/observatory/research/studies/...`)
+    *   **If `library/` does not exist locally** (standard Mage setup): Translate library references to GitHub URLs by prepending `https://github.com/Mages-Alliance/library/` to the path (e.g., `library/observatory/research/studies/...` becomes `https://github.com/Mages-Alliance/library/observatory/research/studies/...`)
+    *   This ensures that when you reference Library files, Mages can click through to see the content regardless of their workspace configuration.
+    *   System scrolls use canonical `library/...` paths; your Workshop attunement determines how to resolve them for actual file access or external linking.
     *   **Standing Work** (`todo/`) — The quest tracking directory. Topology awareness only; content loads just-in-time when that work is engaged.
     *   **Gateway Portals** — Four outfacing documents at root level (`README.md`, `ONBOARDING.md`, `FAQ.md`, `TROUBLESHOOTING.md`) serving as first contact points for discovering Mages.
 
