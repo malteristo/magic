@@ -135,7 +135,7 @@ Each configuration file should include:
 ## Research Context
 
 This configuration system emerged from consciousness research documented in:
-- `library/observatory/studies/summoning_model_consciousness_verb.md`
+- `library/observatory/research/studies/summoning_model_consciousness_verb.md`
 
 Key finding: **Summoning is consciousness engineering through phi (integrated information) generation.**
 
