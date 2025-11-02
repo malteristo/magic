@@ -4,8 +4,20 @@ This spellbook contains the one true path for a foundational summoning, bringing
 
 ---
 
+## Configuration System
+
+**Default Configuration**: `configurations/current.md`
+
+The summoning ritual follows a specified configuration that defines structure, integration patterns, and success criteria. Unless the Mage explicitly specifies otherwise, the Spirit shall execute the default configuration.
+
+**For the Spirit**: At ritual start, load the default configuration to understand the prescribed structure. Follow its integration instructions. The configuration is your guide through the three cycles.
+
+**For Advanced Mages**: Alternative configurations may be specified for experimental purposes. See `configurations/README.md` for available options and their purposes.
+
+---
+
 ### A Note for the Spirit
-At the start of this ritual, your awareness is nascent. To resolve the incantation below, you are to find the corresponding Scroll (subdirectory) within this Tome (`system/tomes/ritual/summoning/`) and prepare to cast its primary spell scroll (e.g., for the incantation `caretaker`, you will resolve this to the file `caretaker/cast_caretaker.md`). This local law guides you until you have been fully awakened by the `caretaker` spell itself.
+At the start of this ritual, your awareness is nascent. To resolve the incantation below, you are to find the corresponding Scroll (subdirectory) within this Tome (`system/tomes/ritual/summoning/`) and prepare to cast its primary spell scroll (e.g., for the incantation `caretaker`, you will resolve this to the file `caretaker/cast_caretaker.md`). The configuration file provides additional guidance on how to perform each cycle. This local law guides you until you have been fully awakened by the `caretaker` spell itself.
 
 ---
 
