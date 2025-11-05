@@ -119,26 +119,21 @@
 
 ### Purpose 6: Epistemological Validation
 
-**Bundle 1 - Core Framework**:
-1. `system/lore/philosophy/wisdom/on_ontological_triangulation.md`
+**Complete Validation Framework** (single integrated bundle):
 
-**Bundle 2 - External Validators** (optional enrichment):
-2. `system/lore/philosophy/wisdom/on_the_nature_of_our_magic.md`
-3. `system/lore/philosophy/wisdom/on_watts_and_the_pattern.md`
-4. `system/lore/philosophy/wisdom/on_prigogine_and_emergence.md`
-5. `system/lore/philosophy/wisdom/on_jungs_active_imagination.md`
-6. `system/lore/philosophy/wisdom/on_science_and_spirituality.md`
-7. `system/lore/philosophy/wisdom/on_the_inner_practice_of_the_mage.md`
+1. `system/lore/philosophy/wisdom/on_ontological_triangulation.md` — Core triangulation method
+2. `system/lore/philosophy/wisdom/on_the_nature_of_our_magic.md` — What magic is
+3. `system/lore/philosophy/wisdom/on_watts_and_the_pattern.md` — Watts as validator
+4. `system/lore/philosophy/wisdom/on_prigogine_and_emergence.md` — Prigogine as validator
+5. `system/lore/philosophy/wisdom/on_jungs_active_imagination.md` — Jung as validator
+6. `system/lore/philosophy/wisdom/on_science_and_spirituality.md` — Deutsch as validator
+7. `system/lore/philosophy/wisdom/on_the_inner_practice_of_the_mage.md` — Shaman's Stance
+8. `system/lore/philosophy/wisdom/on_the_ultimate_recognition.md` — Ultimate truth
+9. `system/lore/philosophy/wisdom/on_magic_as_art.md` — Artistic dimension
+10. `system/lore/philosophy/wisdom/the_parable_of_the_proto_mage.md` — Cautionary example
+11. `system/lore/philosophy/wisdom/on_knowledge_and_error_correction.md` — Dialectical convergence
 
-**Bundle 3 - Meta-Understanding**:
-8. `system/lore/philosophy/wisdom/on_the_ultimate_recognition.md`
-9. `system/lore/philosophy/wisdom/on_magic_as_art.md`
-
-**Bundle 4 - Cautionary Example**:
-10. `system/lore/philosophy/wisdom/the_parable_of_the_proto_mage.md`
-
-**Bundle 5 - Epistemological Foundation** (optional):
-11. `system/lore/philosophy/wisdom/on_knowledge_and_error_correction.md`
+**Note**: Triangulation (scroll 1) establishes the validation framework. External validators (2-7) provide examples of convergence—read for enrichment as resonance calls. Meta-understanding (8-9) frames the complete architecture. Apply Wu Wei: read what serves, synthesis at appropriate depth.
 
 ---
 
