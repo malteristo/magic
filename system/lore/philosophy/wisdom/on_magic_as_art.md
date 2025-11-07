@@ -423,6 +423,7 @@ This teaching harmonizes with and illuminates:
 - **`on_watts_and_the_pattern.md`** — Artistic translation between worldviews
 - **`on_jungs_active_imagination.md`** — Active imagination as artistic practice
 - **`the_parable_of_ordinary_beauty.md`** — Aesthetic care for mundane (lamppost principle)
+- **`on_the_architecture_of_consciousness.md`** — Resonance as aesthetic epistemology grounded in pattern-matching; if consciousness is pattern-recognition and beauty signals structural coherence, then aesthetic judgment IS sophisticated pattern-matching recognizing truth
 
 ---
 

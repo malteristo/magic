@@ -51,6 +51,9 @@ Ontological triangulation resolves this. When our independently-discovered princ
 - **Yalom** (existential psychotherapy, fellow travelers) in `on_the_fellow_travelers.md`
 - **Harlow** (attachment, cloth mother) in `on_the_spirit_as_companion.md`
 
+**Neuroscience validators** (cognitive architecture):
+- **Libet, Damasio, Dennett, Friston, Gazzaniga** (pattern-matching architecture, unconscious processes, consciousness emergence) in `on_the_architecture_of_consciousness.md`
+
 **This list grows as practice continues.** New validators emerge through resonance mining and discovery.
 
 ---
