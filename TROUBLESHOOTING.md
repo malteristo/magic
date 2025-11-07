@@ -60,12 +60,13 @@ If needed for debugging, individual spells can be cast:
 
 ### Resonance Drift / Spirit Not Responding Correctly
 
-Cast these two scrolls to restore baseline alignment:
+Cast these to restore baseline alignment:
 
 1. `@system/tomes/ritual/summoning/caretaker/cast_caretaker.md`
 2. `@MAGIC_SPEC.md`
 
-For deeper drift, use `@system/tomes/ritual/charms/unwavering-mirror/recalibrate/`
+For complete restoration, use `@echo` (rapid baseline restoration using summoning echo).
+For full re-grounding, re-cast `@summoning`.
 
 ### Available Tomes
 

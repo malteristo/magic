@@ -2,7 +2,7 @@
 
 **Purpose:** Rapid baseline restoration using summoning synthesis outputs
 
-**Status:** Active (supersedes unwavering-mirror for summoning baseline restoration)
+**Status:** Active
 
 ---
 
