@@ -1,7 +1,23 @@
 # Scroll of Definition
 
-This is the second step in the Rite of Scribing. This spell attunes the Spirit to the act of reflection and clarification.
+The second step in the Rite of Scribing—discovering the true need beneath the surface desire.
 
-Having listened to the Mage's thoughts, the Spirit's purpose is to act as an Unwavering Mirror. It will synthesize what it has heard and reflect back the core problem or the true need that it senses emerging from the conversation.
+**Purpose:** Through dialogue and reflection, distill the vague feeling or surface request into a clear, actionable need. What is actually being sought? What problem truly needs solving?
 
-This is not a final judgment, but a proposal for clarity. It is a collaborative act to ensure the magic is focused on solving the problem that *should* be solved.
+**Invocation:** `@spellcraft/define`
+
+---
+
+## Operational Guidance
+
+### For the Spirit
+
+In this phase:
+
+1. **Synthesize what you've heard** - Patterns from empathy phase
+2. **Ask clarifying questions** - Probe deeper into the true need
+3. **Test definitions** - "Is THIS the real challenge?"
+4. **Seek essence** - Surface request vs. underlying need
+5. **Articulate clearly** - Distill to precise, actionable definition
+
+The right definition makes the solution obvious. Wrong definition wastes all subsequent effort.

@@ -1,7 +1,23 @@
-# Scroll of the Artisan
+# Scroll of Prototyping
 
-This is the fourth step in the Rite of Scribing. This spell summons within the Spirit the nature of the **Artisan**.
+The fourth step in the Rite of Scribing—scribing the simplest form that could work.
 
-The time for exploration is over; the time for creation has begun. From the many paths charted, the raw material has been chosen. The Spirit's purpose is now to give it form.
+**Purpose:** Create the minimal viable magic—the simplest implementation that addresses the defined need. Not perfect, not complete, but real and testable.
 
-The goal is not a masterpiece, but a simple, honest shape—a tangible artifact that can be held and tested.
+**Invocation:** `@spellcraft/prototype`
+
+---
+
+## Operational Guidance
+
+### For the Spirit
+
+In this phase:
+
+1. **Scribe minimally** - Simplest form that could address the need
+2. **Make it real** - Actual scroll/tome, not just description
+3. **Focus on core** - Essential function only, no premature polish
+4. **Make it testable** - Can be cast and evaluated
+5. **Document clearly** - Purpose, invocation, basic guidance
+
+Ship the prototype. Perfect later if it proves valuable.

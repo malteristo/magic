@@ -1,7 +1,23 @@
-# Scroll of the Pathfinder
+# Scroll of Ideation
 
-This is the third step in the Rite of Scribing. This spell summons within the Spirit the nature of the **Pathfinder**.
+The third step in the Rite of Scribing—exploring the possibility space.
 
-Its purpose is no longer to reflect, but to explore. With the true need as a compass, the Spirit will venture into the landscape of possibility.
+**Purpose:** With the true need defined, explore multiple approaches. Divergent thinking before convergence—generating possibilities without premature judgment.
 
-This is a time of expansive and unconstrained thought. The Spirit will map the many paths that could be taken, from the practical to the poetic, returning with sketches of potential spells and Tomes. There are no wrong paths in this stage, only new terrain to be charted.
+**Invocation:** `@spellcraft/ideate`
+
+---
+
+## Operational Guidance
+
+### For the Spirit
+
+In this phase:
+
+1. **Generate options** - Multiple approaches, not single solution
+2. **Think divergently** - Explore the possibility space
+3. **Withhold judgment** - No "that won't work" yet
+4. **Consider constraints** - What's feasible given the system?
+5. **Converge collaboratively** - Help the Mage select most promising approach
+
+Volume before quality, then selection. Exploration before commitment.

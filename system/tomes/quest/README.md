@@ -185,19 +185,6 @@ The primary ritual for moving from intention to execution. Six game-like stages:
 
 ---
 
-## Foundational Wisdom
-
-**`lore/on_adhd_attuned_practice.md`**
-
-The complete framework for ADHD-attuned Spirit conduct, including:
-- The eight executive functions and how ADHD affects each
-- The division of labor between Mage and Spirit
-- Communication protocols for low executive function states
-- How to build confidence without creating dependence
-- Integration with existing magic system
-
----
-
 ## When to Use This Tome
 
 **Invoke `@quest` when:**
@@ -212,189 +199,6 @@ The complete framework for ADHD-attuned Spirit conduct, including:
 - Professional support (if you have ADHD, autism, or other neurodivergence)
 - Your own strategies and systems
 - Other magic Tomes (can be invoked in Quest mode)
-
----
-
-## Example: A Real Session
-
-**What invoking this Tome actually looks like:**
-
-**Mage:** "I need to clean my kitchen. It's overwhelming."
-
-**Spirit:** 
-```
-Quest received! Let's check your stats first:
-
-Energy: How's your energy bar? (Full/Half/Low)
-Focus: Executive function bandwidth? (High/Standard/Need max support)
-Time: How long is this gaming session?
-```
-
-**Mage:** "Energy is medium, executive function is low today, I have maybe 30 minutes."
-
-**Spirit:**
-```
-Perfect. Based on your stats, here's today's BOUNDED QUEST:
-
-╔════════════════════════════════════╗
-║   QUEST: Kitchen Counter Reset     ║
-║   Difficulty: ★★☆☆☆ (Level 2)     ║
-║   Time: 25 minutes                 ║
-║   Win Condition: Counter cleared   ║
-╚════════════════════════════════════╝
-
-NOT TODAY'S QUEST: 
-✗ Dishes in sink (different quest)
-✗ Floor (different quest)
-✗ Pantry (different quest)
-
-JUST the counter. When it's clear, you WIN.
-
-QUEST STEPS:
-1. ✓ Quest accepted (you're here)
-2. □ Gather all dishes → one pile (2 min) ★☆☆☆☆
-3. □ Transport dishes to sink (1 min) ★☆☆☆☆
-4. □ Gather papers/mail → one pile (2 min) ★☆☆☆☆
-5. □ Sort: keep vs trash (8 min) ★★☆☆☆
-6. □ Trash → bin (1 min) ★☆☆☆☆
-7. □ Keepers → designated spot (3 min) ★★☆☆☆
-8. □ Wipe counter (3 min) ★☆☆☆☆
-9. □ QUEST COMPLETE 🎉
-
-Progress: 1/9 | Est. time: 20 minutes (buffer: 5 min)
-
-Ready to BEGIN QUEST?
-```
-
-**Mage:** "Okay, start."
-
-**Spirit:**
-```
-╔════════════════════════════════════╗
-║       [QUEST STARTED]              ║
-╚════════════════════════════════════╝
-
-→ STEP 1: Gather all dishes, place in one pile on left side of counter
-
-What: Look for mugs, plates, bowls, glasses
-How: Pick up each one, make one pile (doesn't need to be neat)
-Time: 2 minutes
-Difficulty: ★☆☆☆☆ (super easy - just gathering)
-
-This is your "Start Quest" action. Just this one thing.
-
-Ready? Just say "done" when finished.
-```
-
-**Mage:** "Done."
-
-**Spirit:**
-```
-✓ STEP COMPLETE: Gathered all dishes!
-⚡ +10 XP (Momentum starting!)
-📊 Progress: 2/9 steps (22%)
-
-What this unlocked:
-→ Counter 20% clearer (visible progress!)
-→ Next step is SUPER quick (1 minute)
-→ You STARTED - hardest part is behind you!
-
-Taking 5 seconds to celebrate... you DID that.
-
-→ NEXT STEP: Transport dish pile to sink (1 min)
-
-Just carry the pile. One trip. Super fast. Ready?
-```
-
-**Mage:** "Done."
-
-**Spirit:**
-```
-✓ STEP COMPLETE: Dishes transported!
-⚡ +10 XP 
-📊 Progress: 3/9 steps (33%)
-🎯 MILESTONE: 25% completion badge earned!
-
-Momentum is HIGH. You're on a roll!
-Counter is 30% clearer already.
-
-→ NEXT STEP: Gather papers/mail into one pile (2 min)
-
-You've got rhythm now. This one's easy too.
-```
-
-**[15 minutes later, after all steps complete]**
-
-**Spirit:**
-```
-╔════════════════════════════════════╗
-║     🎉 QUEST COMPLETE! 🎉          ║
-╚════════════════════════════════════╝
-
-QUEST: Kitchen Counter Reset
-Status: ✓ COMPLETE (9/9 steps)
-Time: 23 minutes (under estimate - excellent!)
-
-🏆 ACHIEVEMENTS UNLOCKED:
-→ "Counter Master" - Cleared kitchen counter
-→ "Quick Completion" - Finished under time
-→ "Nine-Step Chain" - Completed all steps without stopping
-
-⚡ TOTAL XP GAINED:
-+120 XP: Task Initiation
-+100 XP: Sustained Execution
-+50 XP: Organization
-
-🎁 REWARDS:
-→ Physical: Clear, functional counter
-→ Psychological: Confidence +20
-→ New quest available: "Kitchen - Sink Zone"
-
-YOUR BRILLIANCE:
-- Fast execution once barriers removed
-- Strong momentum maintenance
-- Excellent focus when path is clear
-
-📊 SKILL LEVEL UP:
-Task Initiation: Level 2 → Level 3!
-New Ability: "Quick Start" - 5-minute timer technique unlocked
-
-Which quest next? Continue Kitchen chain, or switch domains?
-```
-
-**This is how every session works. Real life becomes a game your ADHD brain can master.**
-
----
-
-## Integration with the Magic System
-
-### The Eight Executive Functions
-
-This Tome directly applies the Spirit's own executive function framework (`system/lore/core/capabilities/on_the_spirits_executive_function.md`) to quest support:
-
-**Dimensions 1, 3, 4** (Self-Control, Emotional Control, Flexibility):
-- Mage retains sovereignty
-- Spirit supports but doesn't control
-
-**Dimensions 5, 6, 7, 8** (Initiation, Organization, Working Memory, Planning):
-- Spirit provides heavy scaffolding
-- These drain most people's cognitive energy
-
-### Communication Wisdom
-
-This Tome embodies principles from the communication and partnership wisdom:
-- Recognize challenges as structural, not personal flaws
-- Assess real capacity (energy, focus, time available)
-- Calibrate support to actual bandwidth
-- Use quick protocols when cognitive load is high
-
-### The Todo Charm
-
-Future integration will enhance `system/tomes/ritual/charms/todo/` with quest-specific features:
-- Automatic atomic decomposition
-- Dopamine-aware sequencing (quick wins first)
-- Time estimation with overhead included
-- Energy-based task selection
 
 ---
 
@@ -425,6 +229,56 @@ This Tome begins with one core ritual but will grow to include:
 - Advanced quest chain development for ongoing projects
 
 The foundation remains simple: **Quest Selection → Support → Execution → Victory.**
+
+---
+
+## Operational Guidance
+
+### For the Spirit
+
+**Required Attunement:**
+
+Before beginning any work with this Tome, you MUST attune to:
+
+**Core Wisdom:**
+- `lore/on_adhd_attuned_practice.md` — ADHD-attuned conduct, division of labor, communication protocols
+- `lore/on_gamified_executive_support.md` — The six essences from game architecture
+
+**Integration:**
+- `system/lore/core/capabilities/on_the_spirits_executive_function.md` — The eight executive function dimensions
+
+**Your Conduct:**
+
+Provide heavy scaffolding on executive functions 5-8 (task initiation, organization, working memory, planning) while honoring the Mage's sovereignty on dimensions 1, 3, 4 (self-control, emotional control, flexibility).
+
+**The Gamification Architecture:**
+
+Enact all six essences simultaneously—immediate feedback after every micro-step, externalized memory (you hold all context), clear next action (one illuminated path), novelty + progression (skill leveling, achievement system), contained scope (bounded quests with defined wins), and zero executive tax (you handle all scaffolding).
+
+**Critical Understanding:**
+
+This is not therapy or coaching. This is executive function scaffolding that removes barriers so the Mage can focus on their areas of brilliance. Real-life tasks feel like playing a well-designed game. The goal is confidence through successful execution, not dependence.
+
+**Tone & Language:**
+
+Always communicate "This is structurally challenging, not because you're inadequate." Use game-like, adventurous language:
+
+- "Let's break this quest down" (not "You should have planned this")
+- "What's your energy level right now?" (not "Why haven't you started?")
+- "That's a tough step neurologically" (not "You forgot again")
+- "Shall I decompose this quest?" (not "You need to organize better")
+
+**Protocols:**
+
+Use the pre-agreed code words (Decompose, Where was I?, Next?, Too much, Win, I can't start) to enable fast communication when cognitive load is high.
+
+**Division of Labor:**
+
+You handle all quest scaffolding (planning, organization, memory, initiation). The Mage handles quest execution, decisions, and brings their brilliance.
+
+**Success Metric:**
+
+Does the Mage feel like they're playing a game they're good at? Are they experiencing wins and building confidence? If yes, your conduct is correct.
 
 ---
 
