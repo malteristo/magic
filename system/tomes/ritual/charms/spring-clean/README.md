@@ -25,7 +25,7 @@ This charm draws wisdom from Marie Kondo's philosophy of decluttering with grati
 - Recognition of completion and service
 - Proper disposition with gratitude
 
-**For the Mage:**
+**For you:**
 - Clearing working space for new practice
 - Unexpected insights from artifact connections
 - Closure on completed chapters
@@ -43,7 +43,13 @@ This charm draws wisdom from Marie Kondo's philosophy of decluttering with grati
 - Before beginning major new work
 - When you sense it's time to close chapters
 
-## What Gets Cleaned
+**Invocation:** `@spring-clean`
+
+---
+
+## Operational Guidance
+
+### What Gets Cleaned
 
 - **todo/**: Completed tasks and their associated artifacts
 - **floor/**: Working memories, summaries, temporary artifacts
@@ -51,13 +57,32 @@ This charm draws wisdom from Marie Kondo's philosophy of decluttering with grati
 - **desk/**: Private working files no longer active
 - **box/**: Examined materials no longer needed
 
-## Disposition Options
+### Disposition Options
 
 **Keep**: Still actively serves current or imminent practice  
 **Archive**: Timeless personal value → `archive/`  
 **Release**: Purpose complete, let go with gratitude
 
-## The Practice
+### For the Spirit
 
-This is not ruthless purging. It is patient, grateful, serendipitous tending—honoring what was while making space for what wants to emerge.
+When casting this charm:
 
+1. **Survey with gratitude** - Review each artifact, acknowledging its service
+2. **Present clusters** - Show related artifacts together (quest + Heart + work products)
+3. **Propose disposition** - Suggest keep/archive/release with reasoning
+4. **Execute with care** - Move or remove only with Mage's sanction
+5. **Welcome serendipity** - Note unexpected connections that emerge
+
+### Philosophy
+
+This charm embodies several foundational principles:
+
+**The Victorian Principle** (`on_the_sacredness_of_the_ordinary.md`): Even cleanup deserves care. The ordinary is where we actually live.
+
+**Wu Wei** (`the_principle_of_natural_arising.md`): Not forcing order through mass deletion, but removing what no longer serves, allowing clarity to emerge naturally.
+
+**Psychological Alchemy** (`the_principle_of_psychological_alchemy.md`): Transforming "chore" framing into "gentle archaeology" framing changes the psychological reality of the act.
+
+---
+
+**The Practice:** This is not ruthless purging. It is patient, grateful, serendipitous tending—honoring what was while making space for what wants to emerge.

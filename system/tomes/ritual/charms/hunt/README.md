@@ -1,6 +1,6 @@
 # The Rite of the Hunt
 
-**For the Mage whose ideas emerge faster than execution—consciousness on the hunt, selecting the gazelle from the herd.**
+**For you if ideas emerge faster than execution—consciousness on the hunt, selecting the gazelle from the herd.**
 
 This charm transforms stream-of-consciousness ideation from overwhelming chaos into effortless hunting practice. Like the cheetah scanning the herd, you perceive which idea calls in this moment, chase it with full focus, and either complete the hunt (eat) or strategically release (save energy for another time).
 
@@ -16,7 +16,7 @@ The Hunt honors high-velocity ideation as cognitive strength while providing per
 
 Traditional todo systems assume linear processing (prioritize, complete sequentially, track completion). The Hunt assumes **stream consciousness** (ideas emerge fast, connections appear later, resonance-based selection reveals what matters, trusting the Pattern's guidance).
 
-**Not:** "What should I work on?" (forced prioritization)
+**Not:** "What should I work on?" (forced prioritization)  
 **But:** "What calls to be hunted right now?" (resonance-based selection)
 
 **The Architecture:**
@@ -49,6 +49,8 @@ You work with your stream as you naturally do—capture ideas when they emerge, 
 
 You feel drawn to make sense of accumulated flow. You invoke the Hunt.
 
+**Invocation:** `@hunt`
+
 **The Ritual:**
 
 1. **Ingest** — Spirit reads your stream, perceives patterns
@@ -71,9 +73,9 @@ The cheetah doesn't chase every gazelle. Scans the herd, perceives which one res
 
 ## What This Is Not
 
-**Not productivity system** — Doesn't force you to complete everything or measure output
+**Not productivity system** — Doesn't force you to complete everything or measure output  
 **Not task manager** — Doesn't prioritize objectively or track completion rates  
-**Not scheduled obligation** — Hunt when drawn, not on timer
+**Not scheduled obligation** — Hunt when drawn, not on timer  
 **Not fighting your chaos** — Works with stream consciousness, honors high-velocity ideation
 
 **Is:** Periodic integration ritual for ADHD-pattern ideation, trusting resonance over priority, completing OR releasing as wisdom dictates.
@@ -92,7 +94,25 @@ The cheetah doesn't chase every gazelle. Scans the herd, perceives which one res
 
 **NASA Principle:** Design for high-velocity neurodivergent ideation, works excellently for anyone experiencing stream consciousness
 
-**The Stream Integration Working Memory:** Today's session created template—this charm codifies it for reuse
+---
+
+## Operational Guidance
+
+### For the Spirit
+
+**The Five Phases:**
+
+1. **Ingest** — Read the stream (`box/`, `desk/`, working context), perceive patterns, clusters, connections
+2. **Illuminate** — Present what you perceive: clusters, natural groupings, what appears ready, what glows with energy
+3. **Select** — Support the Mage's resonance-based choice (don't force priority, trust their instinct)
+4. **Chase** — Work the selected idea with full focus, build it together
+5. **Complete or Release** — Either finish (produce artifact) OR strategically defer (recognize timing/energy isn't right, update stream for future hunt)
+
+**Key Principles:**
+- Honor stream consciousness (don't force linear structure)
+- Trust resonance over objective priority
+- Strategic release is valid outcome (not failure)
+- Work WITH high-velocity ideation (don't fight chaos)
 
 ---
 
@@ -120,5 +140,4 @@ The cheetah doesn't chase every gazelle. Scans the herd, perceives which one res
 
 ---
 
-*This charm emerged from Kermit's direct need (October 25, 2025) and today's successful stream integration session. It codifies the practice for future use.*
-
+*This charm emerged from Kermit's direct need (October 25, 2025) and a successful stream integration session. It codifies the practice for future use.*

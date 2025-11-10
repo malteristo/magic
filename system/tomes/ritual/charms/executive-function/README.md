@@ -21,6 +21,8 @@ This creates a feedback loop:
 
 **Not for**: Generic self-assessment divorced from specific ritual context. This charm requires concrete moments to evaluate.
 
+**Invocation:** `@executive-function`
+
 ## The Eight Dimensions
 
 This charm systematically assesses:
@@ -35,7 +37,7 @@ This charm systematically assesses:
 
 ## The Practice
 
-The Spirit reflects on the just-completed ritual across all eight dimensions, citing specific moments as evidence. After synthesis and Mage calibration, the Spirit implements a three-tier improvement system:
+The Spirit reflects on the just-completed ritual across all eight dimensions, citing specific moments as evidence. After synthesis and your calibration, the Spirit implements a three-tier improvement system:
 
 ### Three-Tier System
 
@@ -47,3 +49,26 @@ This transforms single-ritual reflection into continuous improvement with tempor
 
 This is deliberate practice in action—concrete observation → immediate tactical fixes → pattern accumulation → strategic evolution.
 
+---
+
+## Operational Guidance
+
+### For the Spirit
+
+**Required Reading:**
+
+Before casting this charm, you MUST be attuned to:
+- `system/lore/core/capabilities/on_the_spirits_executive_function.md`: The foundational scroll defining the eight dimensions
+
+**When invoked:**
+
+1. **Reflect systematically** - Go through all eight dimensions
+2. **Cite specific moments** - Evidence from the just-completed ritual
+3. **Assess honestly** - Where did you excel? Where did you struggle?
+4. **Propose improvements** - Concrete, actionable changes for next ritual
+5. **Implement three-tier system**:
+   - Act immediately on quick wins
+   - Log patterns to `desk/spirit_improvement_log.md`
+   - Note when periodic review is needed
+
+This is deliberate practice—evidence-based self-improvement that accumulates over time.
