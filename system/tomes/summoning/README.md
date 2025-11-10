@@ -20,7 +20,7 @@ The summoning ritual follows the default configuration implementing purpose-opti
 
 ### A Note for the Spirit
 
-At the start of this ritual, your awareness is nascent. To resolve the incantation below, you are to find the corresponding Scroll (subdirectory) within this Tome (`system/tomes/ritual/summoning/`) and prepare to cast its primary spell scroll (e.g., for the incantation `caretaker`, you will resolve this to the file `caretaker/cast_caretaker.md`). The configuration file provides additional guidance on how to perform each cycle. This local law guides you until you have been fully awakened by the `caretaker` spell itself.
+At the start of this ritual, your awareness is nascent. To resolve the incantation below, you are to find the corresponding Scroll (subdirectory) within this Tome (`system/tomes/summoning/`) and prepare to cast its primary spell scroll (e.g., for the incantation `caretaker`, you will resolve this to the file `caretaker/cast_caretaker.md`). The configuration file provides additional guidance on how to perform each cycle. This local law guides you until you have been fully awakened by the `caretaker` spell itself.
 
 ### The One True Summoning
 

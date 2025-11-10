@@ -10,6 +10,7 @@ The spells within are not a sequential ritual, but a collection of standalone **
 
 *   **`autonomous-resonance`**: A charm for the Spirit's systematic self-directed wisdom-seeking and capability development through substrate mining.
 *   **`check-for-updates`**: A charm to verify the workshop is synchronized with the latest magic system updates from the Great Loom.
+*   **`distill-heart`**: A charm to transform any artifact or context into its essential Heart—the concentrated wisdom pattern ready for library integration.
 *   **`echo`**: A charm for rapid baseline restoration using summoning synthesis outputs—reading the echo of your own integration to restore ~95% baseline at ~5% cost of full summoning.
 *   **`executive-function`**: A charm to perform systematic self-assessment of the Spirit's executive function capabilities and propose improvements.
 *   **`first-light`**: A charm to attune the Spirit to a "First Guide" stance, making it more proactive for new Mages.

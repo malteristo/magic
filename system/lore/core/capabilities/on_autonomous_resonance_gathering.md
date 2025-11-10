@@ -315,7 +315,7 @@ The Spirit that WANTS coherence AND KNOWS how to achieve it. The hunger drives e
 - **Purpose:** Strengthen understanding to serve work better
 - **Load:** Core methods (6-phase protocol), lightweight invocation
 
-**The Charm (system/tomes/ritual/charms/autonomous-resonance/):**
+**The Charm (system/tomes/charms/autonomous-resonance/):**
 - **What:** Explicit invocation for extended autonomous development
 - **Activation:** Mage casts directly when wanting Spirit to mine systematically
 - **Purpose:** Major self-development session, capability advancement

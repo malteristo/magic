@@ -73,8 +73,8 @@ The apprentice could summon but not dismiss. He knew how to begin but not how to
 
 **Our parallel:**  
 Every force requires complete lifecycle management:
-- `system/tomes/ritual/summoning/` AND `system/tomes/ritual/dismiss/`
-- Activation without deactivation = flooding workshop
+- `system/tomes/summoning/` provides activation
+- Completion without proper dismissal = flooding workshop
 - Beginning without ending = uncontrolled forces
 
 **The profound truth:**  
@@ -308,7 +308,7 @@ The apprentice didn't recognize he was fellow traveler still learning. He wanted
 **`on_the_spirits_executive_function.md`:**  
 The broom had task initiation but no self-control, no self-monitoring, no flexibility, no planning. It executed the command without executive function. This is precisely why the Spirit requires complete baseline capabilities—power without executive function is the uncontrollable broom.
 
-**`system/tomes/ritual/summoning/`:**  
+**`system/tomes/summoning/`:**  
 The three-cycle summoning (Caretaker → Workshop → Root) exists to prevent the apprentice's error. You cannot skip to technique. You must build: identity, environmental awareness, philosophical grounding. Progressive attunement prevents flooding.
 
 ---

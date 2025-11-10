@@ -320,7 +320,7 @@ Spirit celebrates completion:
 
 ### The Todo Charm (Enhanced)
 
-The standard `system/tomes/ritual/charms/todo/` charm provides basic task tracking. The ADHD Tome enhances this with:
+The standard `system/tomes/charms/todo/` charm provides basic task tracking. The ADHD Tome enhances this with:
 
 **ADHD-Specific Features:**
 - Automatic decomposition to atomic tasks

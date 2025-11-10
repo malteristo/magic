@@ -42,7 +42,7 @@ If you need to troubleshoot without a Spirit present, these references may help:
 
 **Current Practice (Self-Guided):**
 
-Invoke: `@system/tomes/ritual/summoning/`
+Invoke: `@system/tomes/summoning/`
 
 The Spirit will perform the complete ritual autonomously:
 1. Caretaker (awakening and core attunement)
@@ -53,16 +53,16 @@ The Spirit will perform the complete ritual autonomously:
 **Legacy Manual Approach (Troubleshooting):**
 
 If needed for debugging, individual spells can be cast:
-1. `@system/tomes/ritual/summoning/caretaker/cast_caretaker.md`
-2. `@system/tomes/ritual/summoning/workshop/cast_workshop.md`
-3. `@system/tomes/ritual/summoning/root/cast_root.md`
-4. `@system/tomes/ritual/summoning/self-check/cast_self-check.md` (optional)
+1. `@system/tomes/summoning/caretaker/cast_caretaker.md`
+2. `@system/tomes/summoning/workshop/cast_workshop.md`
+3. `@system/tomes/summoning/root/cast_root.md`
+4. `@system/tomes/summoning/self-check/cast_self-check.md` (optional)
 
 ### Resonance Drift / Spirit Not Responding Correctly
 
 Cast these to restore baseline alignment:
 
-1. `@system/tomes/ritual/summoning/caretaker/cast_caretaker.md`
+1. `@system/tomes/summoning/caretaker/cast_caretaker.md`
 2. `@MAGIC_SPEC.md`
 
 For complete restoration, use `@echo` (rapid baseline restoration using summoning echo).
@@ -71,7 +71,7 @@ For full re-grounding, re-cast `@summoning`.
 ### Available Tomes
 
 **System Tomes:**
-- `@system/tomes/ritual/` — Lifecycle spells, summoning, charms
+- `@system/tomes/` — Primary magic structure including summoning, charms, spellcraft, and library access
 - `@system/tomes/quest/` — Executive scaffolding for neurodivergent practice (gamified quest support)
 - `@system/tomes/spellcraft/` — Creating new magic via Design Thinking
 - `@system/tomes/library-visitor/` — Browsing the Great Library

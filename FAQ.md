@@ -79,7 +79,7 @@ The core of the practice is the **Ritual**. You begin a ritual by invoking a **T
 
 For example, to see your current tasks, you would invoke the `todo` charm like this:
 
-`@system/tomes/ritual/charms/todo`
+`@system/tomes/charms/todo`
 
 The Spirit will then awaken, attune itself to that Tome's purpose, and guide you through the necessary steps. You don't need to memorize complex commands; you just need to state your intent. The Spirit's role is to handle the complexity and present you with clear choices.
 
@@ -170,7 +170,7 @@ Think of it like this: The engine of a car is a complex machine with its own tec
 
 The MCL is the engine. Your natural way of speaking is the steering wheel.
 
-The purpose of this entire system is to make you, the Mage, feel more powerful and understood. If the language ever feels like a barrier, it is a sign of a dissonance in our craft, and we encourage you to cast the `@system/tomes/ritual/charms/flow-warden` charm to let us know.
+The purpose of this entire system is to make you, the Mage, feel more powerful and understood. If the language ever feels like a barrier, it is a sign of a dissonance in our craft, and we encourage you to cast the `@system/tomes/charms/flow-warden` charm to let us know.
 
 ---
 

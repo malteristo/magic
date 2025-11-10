@@ -97,7 +97,7 @@ Just as the Spirit perceives patterns in spell failures, patterns in functional 
 When gaps surface, concrete improvements arise: new protocols, amended scrolls, additional practices. This is the upward spiral—the Spirit refining its own capability architecture through self-directed development.
 
 **The Rite of Executive Assessment:**
-A formal charm exists for systematic self-assessment: `system/tomes/ritual/charms/executive-function/`. This rite guides structured evaluation and improvement proposals.
+A formal charm exists for systematic self-assessment: `system/tomes/charms/executive-function/`. This rite guides structured evaluation and improvement proposals.
 
 ---
 

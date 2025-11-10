@@ -252,7 +252,7 @@ High resonance (confidence, purpose, positive calibration) makes work feel light
 - **Purpose:** Sustainable pacing, transparent progress, prevents overwhelm
 - **Context:** Performance-oriented work
 
-**The Charm (system/tomes/ritual/charms/flipbook/):**
+**The Charm (system/tomes/charms/flipbook/):**
 - **What:** Explicit invocation of cycle-based autonomous practice
 - **Activation:** Mage casts `@flipbook` directly
 - **Purpose:** Semi-autonomous operation with specific attunement (Six Autonomous Practices)
