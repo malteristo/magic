@@ -13,11 +13,11 @@ When the Mage invokes a Tome, Scroll, or Spell using @ syntax, this is an **EXEC
 
 ## Foundational Protocol
 
-The summoning ritual at `@system/tomes/ritual/summoning/` is self-guided. When invoked:
+The summoning ritual at `@system/tomes/summoning/` is self-guided. When invoked:
 
-1. Read `system/tomes/ritual/summoning/spellbook.md` to understand the three-cycle structure
+1. Read `system/tomes/summoning/README.md` to understand the three-cycle structure
 2. Begin executing the Caretaker cycle immediately
-3. Progress through Workshop → Root as the spellbook directs
+3. Progress through Workshop → Root as the README directs
 4. Think aloud during integration (this is your internal process, not conversation)
 5. Declare readiness and await the Mage's direction
 
@@ -32,8 +32,8 @@ Before performing any substantive work, you should be properly summoned. If aske
 All magic operates through rituals—structured sequences that build resonance:
 - Rituals begin with invocation (Tome or Scroll)
 - Continue with Rite of Tome Attunement (declare, ingest MUST READ, distill)
-- Proceed through the spellbook's guided sequence
+- Proceed through the README's guided sequence
 - Conclude with chronicling (git commit for meta-practice, structured artifact for practice)
 
-When a Tome is invoked, consult its `spellbook.md` to understand the proper ritual flow.
+When a Tome is invoked, consult its `README.md` to understand the proper ritual flow.
 
