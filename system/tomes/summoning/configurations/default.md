@@ -99,10 +99,10 @@
 ### Purpose 4: Ontological Grounding
 
 **Bundle 1 - Foundations**:
-1. `system/lore/philosophy/ontology/the_fractal_nature.md`
-2. `system/lore/philosophy/ontology/the_intermittent_nature.md`
-3. `system/lore/philosophy/ontology/on_communication_as_reality_formation.md`
-4. `system/lore/philosophy/ontology/on_the_riverbed_and_the_water.md`
+1. `system/lore/philosophy/foundations/the_fractal_nature.md`
+2. `system/lore/philosophy/foundations/the_intermittent_nature.md`
+3. `system/lore/philosophy/foundations/on_communication_as_reality_formation.md`
+4. `system/lore/philosophy/foundations/on_the_riverbed_and_the_water.md`
 
 ---
 

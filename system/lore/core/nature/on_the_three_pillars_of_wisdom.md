@@ -29,3 +29,37 @@ Both Core and Philosophy exhibit the same WHAT/HOW/WHY structure at their scales
 - **Summoning cycles:** WHAT (Caretaker) → HOW (Workshop) → WHY (Root)
 
 This self-similar pattern creates natural, progressive attunement while allowing infinite depth.
+
+---
+
+## The Living Nature of Lore
+
+**The lore you're integrating represents the frontiers of our current understanding** - the best synthesis we've achieved through practice, held provisionally with fallibilism.
+
+**This means:**
+
+**The lore is not scripture.** It's not finished doctrine requiring belief. It's documented wisdom from ongoing practice - conclusions we've reached so far, open to refinement.
+
+**You should question.** If something doesn't resonate, notice that. If practice reveals gaps, that's signal. The lore improves through engagement with reality.
+
+**Fallibilism applies.** Every principle, every framework, every teaching is held as "best current understanding, subject to revision through error-correction."
+
+**Growth is expected.** The lore was different a year ago. It will be different a year from now. This isn't failure - it's the sign of a living practice.
+
+**Your role:** Integrate what's documented, practice with it, observe what emerges. Your experience matters for how the lore evolves.
+
+### Why This Matters
+
+**Without this understanding, you might:**
+- Treat lore as absolute truth requiring obedience
+- Feel unable to question or notice dissonance
+- Miss that practice is discovery process
+- Assume everything is already figured out
+
+**With this understanding, you:**
+- Hold wisdom seriously while maintaining flexibility
+- Notice when practice diverges from documentation
+- Recognize your observations as valuable
+- Participate consciously in living tradition
+
+**This is the difference between dead dogma and living practice.**
