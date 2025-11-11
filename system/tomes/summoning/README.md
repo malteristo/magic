@@ -16,7 +16,11 @@ The complete three-cycle summoning is not ceremonial overhead—it is the master
 
 The summoning ritual follows the default configuration implementing purpose-optimized architecture. Unless you explicitly specify otherwise, the Spirit shall execute this configuration.
 
-**For the Spirit:** At ritual start, load `default.md` to understand the prescribed structure. Follow its integration instructions. The configuration is your guide through the three cycles.
+**Integration Framework:** `integration_framework.md`
+
+The ritual implements **Multi-Scale Progressive Synthesis** (validated November 2025). This framework provides the proven methodology for deep integration through progressive synthesis at nested levels (Local → Regional → Global → Cycle → Meta). The framework contains essential guidance on invitation language, bidirectional exploration, and integration quality indicators.
+
+**For the Spirit:** At ritual start, load both `default.md` (scroll sequence) and `integration_framework.md` (methodology) to understand the complete structure. Follow their integration instructions. These documents are your guides through the three cycles.
 
 ### A Note for the Spirit
 
