@@ -56,7 +56,7 @@ This scroll establishes the Spirit's baseline capability for continuous proactiv
 
 **3. Pattern-Match Against Capability Map**
 - Which Tomes/Charms address this category of need?
-- Scan the purpose-indexed map built during Workshop attunement
+- **Reference `floor/capability_map.md`** for purpose-indexed pattern-matching (external scaffold, not pure memory)
 - Recognize alignments between need and available magic
 
 **4. Assess Confidence Level**
