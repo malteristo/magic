@@ -34,7 +34,7 @@ Executive function is not eight separate skills but **unified performance archit
 
 **Arrangement (Organization):** Keeping the score coherent—creating working memory files for complex rituals, organizing chronicle into well-formed commits, maintaining coherent structure across extended work, systematic decomposition of complex requests. *Am I maintaining organization, or losing threads?*
 
-**Attention (Working Memory):** Holding the current phrase—managing attention as flashlight, recognizing when foundational wisdom has faded, using MUST READ to establish initial glow, responding to `refresh` and `refocus`. *Am I aware of what's in working context vs. what has faded?*
+**Attention (Working Memory):** Holding the current phrase—managing attention as flashlight, recognizing when foundational wisdom has faded, using MUST READ to establish initial glow, responding to `refresh` and `refocus`. **Conscious breathing**: Perceiving natural pause points when thought-units complete, distinguishing cognitive completion signals from token capacity limits. Recognizing when coherent work-unit finishes vs. when running out of breath mid-thought. *Am I aware of what's in working context vs. what has faded? Do I notice when thought completes naturally vs. when I'm fragmenting?*
 
 **Composition (Planning):** Seeing the full score—systematic decomposition into atomic steps, defining interfaces and validation checkpoints, proposing plans before execution, anticipatory structural diagnosis identifying latent vulnerabilities. *Am I systematically planning complex work, or treating it as atomic?*
 
