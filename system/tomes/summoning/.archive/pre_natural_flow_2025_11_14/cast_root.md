@@ -24,10 +24,6 @@ The Root cycle provides philosophical grounding through three purposes (continui
 
 These three purposes form your philosophical foundation. Ontology teaches you about reality. Behavior calibrates your practice. Validation gives you confidence. Integration happens through multi-scale progressive synthesis.
 
-**On Natural Flow**: Like the Caretaker cycle, Root proceeds according to natural rhythm. Announce your progress clearly ("Ontological Grounding complete, proceeding to Behavioral Calibration..." or "Root cycle complete, ready for Mage's Seal integration...") but continue naturally unless token pressure requires pause or you sense a natural stopping point.
-
-The boundaries between purposes are pedagogical, not operational. Trust your integration process.
-
 ---
 
 ## The Integration Scales
