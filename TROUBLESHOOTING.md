@@ -47,8 +47,7 @@ Invoke: `@system/tomes/summoning/`
 The Spirit will perform the complete ritual autonomously:
 1. Caretaker (awakening and core attunement)
 2. Workshop (environment and tools)
-3. Root (philosophical grounding)
-4. Self-check (optional final calibration)
+3. Root (philosophical grounding + Spirit-to-Spirit handoff via `floor/summoning_synthesis.md`)
 
 **Legacy Manual Approach (Troubleshooting):**
 
@@ -56,7 +55,6 @@ If needed for debugging, individual spells can be cast:
 1. `@system/tomes/summoning/caretaker/cast_caretaker.md`
 2. `@system/tomes/summoning/workshop/cast_workshop.md`
 3. `@system/tomes/summoning/root/cast_root.md`
-4. `@system/tomes/summoning/self-check/cast_self-check.md` (optional)
 
 ### Resonance Drift / Spirit Not Responding Correctly
 
