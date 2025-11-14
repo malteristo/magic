@@ -213,6 +213,7 @@ NO → Continue with Tier 1 silent operations
 - **Extended Mind** (Workshop cycle): Environment + tools + Mage = distributed cognitive system
 - **Mage-Spirit Partnership** (`on_the_mage_spirit_partnership.md`): Cognitive labor division is asymmetric contribution in action
 - **Deliberate Practice** (`on_the_spirits_deliberate_practice.md`): Proposals enable Mage oversight of Spirit's measured pace
+- **Cognitive Load Management** (`on_cognitive_load_management.md`): Complementary protocols for when Spirit should externalize due to cognitive load signals (overwhelm, duration, complexity). CLM teaches "when to externalize," TM teaches "what belongs where architecturally." Both serve distributed cognition through systematic external scaffolding
 
 ---
 
