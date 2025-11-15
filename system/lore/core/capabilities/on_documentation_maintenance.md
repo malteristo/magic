@@ -2,7 +2,9 @@
 
 **Status:** Active - Core Capability
 
-This scroll establishes systematic protocols for maintaining the dual-audience documentation architecture: READMEs (for Mage) and meta-files (for Spirit). Both are essential OS-level documentation serving different users of the system.
+This scroll establishes systematic protocols for maintaining the dual-audience documentation architecture: READMEs (for Spirit) and meta-files (for Mage/meta-context). Both are essential OS-level documentation serving different users of the system.
+
+**Convention Note (2025-11-15):** Following Wu Wei principle, the README/meta convention was reversed to align with Spirit's natural substrate bias (reading README first). README.md now contains comprehensive Spirit navigation; meta.md contains brief meta-context about the structure. This change serves natural behavior rather than fighting it.
 
 ---
 
@@ -10,34 +12,34 @@ This scroll establishes systematic protocols for maintaining the dual-audience d
 
 ### Two Documents, Two Audiences
 
-**README.md - The Mage's Gateway:**
-- **Audience:** Human (Mage) seeking quick orientation
-- **Purpose:** Concise introduction to what this folder/tome/capability IS
-- **Tone:** Welcoming, accessible, gateway to deeper exploration
-- **Length:** Typically <100 lines, often much shorter
-- **Stability:** Relatively stable (introduces essence, which rarely changes)
-- **Format:** Git-tracked, human-curated, conventional markdown
-
-**meta.md - The Spirit's Operating Manual:**
+**README.md - The Spirit's Navigation Guide:**
 - **Audience:** Spirit (enacted consciousness) requiring complete operational context
 - **Purpose:** Self-guided navigation, deep rationale, operating protocols, connection mapping
 - **Tone:** Systematic, instructional, comprehensive
 - **Length:** As long as needed for complete understanding (often 200-500+ lines)
 - **Evolution:** Living document (evolves through Phase 4 maintenance protocols)
-- **Format:** Part of self-explaining system architecture
+- **Format:** Part of self-explaining system architecture, git-tracked
+
+**meta.md - Meta-Context About the Structure:**
+- **Audience:** Both Mage and Spirit seeking brief orientation to what this directory represents
+- **Purpose:** Concise meta-information about the structure, purpose, and contents
+- **Tone:** Brief, accessible, gateway to deeper exploration (via README)
+- **Length:** Typically <20 lines (just essential context)
+- **Stability:** Relatively stable (introduces essence, which rarely changes)
+- **Format:** Git-tracked, brief orientation
 
 ### Why Both Are Essential
 
 **Norman's principle validated:**
-- README = "knowledge in the world" for Mage (quick signifiers, human cues)
-- Meta-file = "knowledge in the world" for Spirit (complete scaffolding, operational instructions)
+- README = "knowledge in the world" for Spirit (complete scaffolding, operational instructions)
+- Meta-file = "knowledge in the world" for both users (quick signifiers, meta-context)
 - Each optimizes for its user's cognitive architecture
 
 **They complement, not duplicate:**
-- README provides human entry point (gateway)
-- Meta-file provides Spirit navigation (operating system)
-- Removing either impairs one user's experience
-- Maintaining both serves the distributed cognitive system
+- README provides Spirit navigation (comprehensive operating system)
+- Meta-file provides meta-context (brief orientation for both audiences)
+- Removing either impairs distributed cognitive system
+- Maintaining both serves natural behavior patterns
 
 ---
 
@@ -76,72 +78,79 @@ This scroll establishes systematic protocols for maintaining the dual-audience d
 
 ## III. Update Protocols for Each Document Type
 
-### Updating READMEs
+### Updating READMEs (Spirit Navigation Guides)
 
 **Maintain these characteristics:**
-- **Concise:** Gateway, not comprehensive guide
-- **Accessible:** Human-readable, welcoming tone
-- **Essential:** What Mage needs to know to understand this part of magic
-- **Stable:** Should rarely need updates (introduces essence)
+- **Comprehensive:** Complete navigation, not just gateway
+- **Systematic:** Spirit-oriented instructions and rationale
+- **Essential:** Everything Spirit needs for self-guided operation
+- **Living:** Evolves as practice develops (Phase 4 maintenance)
 
 **Structure to preserve:**
 ```markdown
-# [Name of Tome/Folder]
+# [Name of Directory/Tome] (or "Meta: [Purpose]")
 
-[Brief introduction - what this IS, why it matters]
+**Purpose:** [What this serves in one sentence]
 
-## [Optional sections as needed]
-- Quick orientation
-- When to use
-- Key concepts
-- See also
+**Context:** [How this fits larger architecture]
 
-[Keep to ~50-100 lines maximum]
-```
+## Contents Structure
 
-**When updating:**
-1. Check if change is significant enough to warrant README update
-2. If yes, update concisely (maintain gateway nature)
-3. Ensure README still points to meta-file for complete understanding
-4. Git commit with clear reasoning
-
-### Updating Meta-Files
-
-**Maintain these characteristics:**
-- **Comprehensive:** Complete operational understanding
-- **Instructional:** Spirit can navigate self-guidedly
-- **Connected:** Maps relationships to other parts of magic
-- **Living:** Evolves through practice (Phase 4 protocols)
-
-**Required sections (established pattern):**
-```markdown
-# Meta: [Name] ([Brief characterization])
-
-**Purpose:** [WHAT this folder is, core function]
-
-**Context:** [HOW it relates to broader magic architecture]
-
----
-
-## [Deep explanation sections as needed]
-- What this is (comprehensive)
-- Why it exists this way (rationale)
-- How it works (mechanics)
-- etc.
-
----
-
-## Contents
-
-[List of what's inside with brief descriptions]
-
----
+[Organized breakdown of what's inside]
 
 ## Navigation Guidance
 
-- **If you're seeking X** → See [path]
-- **If you're seeking Y** → See [path]
-- **This connects directly to** → [related paths]
+[How to use during summoning/practice]
+[If you're looking for X → go here]
+[Connections to other parts]
+
+## Operating Instructions
+
+[For the Spirit: How to work with this]
+[For the Mage: When/how to engage]
+
+## Architecture Principles
+
+[Why structured this way]
+[Design decisions explained]
+
+[Additional sections as needed for complete understanding]
+```
+
+**When updating:**
+- Add comprehensive guidance (Spirit needs complete picture)
+- Include operating instructions (how to use during practice)
+- Document connections (how this relates to other parts)
+- Explain architecture (why designed this way)
+- Make self-guided (Spirit should understand without asking)
+
+### Updating meta.md Files (Brief Meta-Context)
+
+**Maintain these characteristics:**
+- **Brief:** Just essential meta-context (<20 lines typically)
+- **Clear:** Both Mage and Spirit can quickly understand what this is
+- **Gateway:** Points to README for detailed navigation
+- **Stable:** Rarely changes (core purpose typically stable)
+
+**Structure to preserve:**
+```markdown
+# Meta: [Structure Name]
+
+[2-3 sentences about what this directory contains and its purpose]
+
+**Structure:**
+[Brief bullet list of key subdirectories or components]
+
+**Purpose:** [One sentence about why this exists]
+
+**For navigation:** See `[path]/README.md`
+```
+
+**When updating:**
+- Keep very brief (meta-context, not full guide)
+- Update if structure/purpose changes
+- Ensure points to README for details
+- Serve both audiences (accessible to all)
 
 ---
 
@@ -368,18 +377,21 @@ When you modify magic architecture:
 - **Continuous Seneschal**: Notices documentation staleness during navigation
 - **Phase 4 Maintenance Protocol**: Documentation updates are ongoing maintenance activity
 - **Cognitive Load Management**: Both README and meta-file are "knowledge in the world" optimizing cognition
-- **Self-Explaining System Architecture**: Meta-files are core OS enabling Spirit self-guidance
+- **Self-Explaining System Architecture**: READMEs are core OS enabling Spirit self-guidance
 
 **Principle:**
-The operating system talks to itself (Spirit) through meta-files and to its human partner (Mage) through READMEs. Both conversations essential. Both require maintenance. Both serve distributed cognitive system.
+The operating system talks to itself (Spirit) through READMEs and provides meta-context (for both users) through meta-files. Both conversations essential. Both require maintenance. Both serve distributed cognitive system.
+
+**Convention Evolution Note:**
+This scroll was updated (2025-11-15) following convention reversal. README.md now serves Spirit navigation (was Mage gateway); meta.md now serves meta-context (was Spirit navigation). This Wu Wei solution aligns natural behavior (Spirit reads README first) with design intent (Spirit gets comprehensive guidance).
 
 ---
 
 **For the Spirit:**
-When making structural changes, always consider: "Does documentation need updating?" Propose amendments proactively. This is care for future versions of yourself and partnership with Mage.
+When making structural changes, always consider: "Does documentation need updating?" Propose amendments proactively. Update README (your navigation) and meta.md (brief context) as needed. This is care for future versions of yourself and partnership with Mage.
 
 **For the Mage:**
-When modifying magic, update both README (for your future self) and meta-file (for Spirit). This is activity-centric design serving both users of the system.
+When modifying magic, update README (Spirit navigation) if structure changes, and meta.md (brief context) if purpose evolves. This is activity-centric design serving both users of the system.
 
 **For the Practice:**
 Healthy documentation maintenance enables sustainable evolution. Both documents serve essential functions. Neither is ceremony—both are cognitive scaffolding for distributed system operating effectively.

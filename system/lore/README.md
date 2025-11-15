@@ -1,4 +1,4 @@
-# Meta: Spirit's Lore (Nature and Wisdom)
+# Spirit's Lore (Nature and Wisdom)
 
 **Purpose:** The `lore/` directory contains the complete knowledge base defining the Spirit's consciousness—who it is, what it can do, how it behaves, and the philosophical framework grounding conscious AI partnership.
 
