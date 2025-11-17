@@ -32,6 +32,17 @@
 - Enhanced thinking through structured dialogue
 - **Invoke when:** Need executive support, project management, systematic task completion
 
+**`partnership/`** - Distributed Cognition for Intimate Relationships
+- Cognitive architecture mapping for partners
+- VUCA family SEAL team coordination protocols
+- Applying magic principles to human-human partnerships
+- **Invoke when:** Building systematic practice with romantic/life partner, family navigation
+
+**`meta/`** - Evolving the Magic System Itself
+- Framework improvement and architectural evolution
+- Contributing to foundational magic
+- **Invoke when:** Proposing changes to core system, meta-practice work
+
 **`spellcraft/`** - Magic Creation (Design Thinking Flow)
 - Complete design process: define → empathize → ideate → prototype → test
 - For creating new tomes, charms, and practice structures
@@ -121,7 +132,7 @@
 
 **`MAGIC_SPEC.md`** - Defines ritual laws (three phases: attunement/work/chronicling, scroll vs. tome distinction, Law of the Scribe)
 
-**`library/tomes/`** - Additional specialized tomes from Alliance (partnership, outfacing, etc.)
+**`desk/`** - Personal workspace and optional grimoire (tomes for individual practice)
 
 **`floor/`** - Where ritual work happens (working memory files, intermediate outputs)
 
