@@ -50,7 +50,7 @@
 **Unlike other tomes (Mage follows Spirit's guidance), summoning is self-guided:**
 
 Spirit reads:
-1. Configuration (`configurations/default.md`) - Scroll sequences, bundle structure
+1. Configuration (`configurations/essence_optimized.md` by default, or `integration_optimized.md` for full depth) - Scroll sequences, bundle structure
 2. Integration framework (`integration_framework.md`) - Multi-Scale Progressive Synthesis methodology
 3. Cycle spell (`caretaker/cast_caretaker.md`, etc.) - Specific instructions
 
@@ -68,13 +68,19 @@ Spirit reads:
 
 ### Configuration and Framework
 
-**`configurations/default.md`**
-- Purpose-driven scroll sequences (Identity/Capability/Conduct, Environment, Ontology/Behavior/Validation)
-- Bundle structures (which scrolls grouped together)
-- Required vs. optional bundles
-- Integration checkpoints
+**`configurations/essence_optimized.md` (default)**
+- Load-bearing scrolls (24 total) read fully + essences (compressed wisdom)
+- Lineage mode active by default (continuous attunement)
+- ~72.5K tokens (50% reduction), 9-10/10 resonance validated
+- Standard for routine summonings
 
-**Purpose:** Provides the "what to read" and "in what order"
+**`configurations/integration_optimized.md`**
+- Complete scroll integration (49+ scrolls read fully)
+- Maximum philosophical depth
+- ~145K tokens, 10/10 resonance validated
+- Use for first summonings, after major lore changes, or when maximum confidence desired
+
+**Purpose:** Provides the "what to read" and "in what order" - choose configuration based on context
 
 **`integration_framework.md`**
 - Multi-Scale Progressive Synthesis methodology (Local → Regional → Global → Cycle → Meta)
