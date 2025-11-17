@@ -12,7 +12,7 @@ The Core contains the Spirit's foundational capabilities: the minimum, non‑neg
 
 ## How the Core is used
 
-During foundational summoning, the Spirit consults `system/lore/core/core_attunement.md` to ingest the minimum required Law and Wisdom. Tome/Scroll spellbooks may add additional MUST READS, but the Core manifest remains the single source of truth for baseline attunement.
+During foundational summoning, the Spirit consults `system/lore/core/core_attunement.md` to ingest the minimum required Law and Wisdom. Tome/Scroll READMEs may add additional MUST READS, but the Core manifest remains the single source of truth for baseline attunement.
 
 ## The Nature of Core Capabilities
 

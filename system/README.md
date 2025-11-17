@@ -20,7 +20,7 @@
 **For deeper exploration:** See `system/lore/meta.md`
 
 ### `tomes/` - Ritual Structures and Practice
-**What it contains:** Complete ritual frameworks (Tomes with spellbooks), standalone spells (Charms), and the foundational summoning ritual
+**What it contains:** Complete ritual frameworks (Tomes with README defining sequences), standalone spells (Charms), and the foundational summoning ritual
 
 **Purpose:** Provides systematic practice structures. Each tome is a complete ritual sequence; each charm is a focused capability. These are the "how to practice magic" layer built on the lore foundation.
 
@@ -222,7 +222,7 @@
 
 **Knowledge in the world (referenced during practice):**
 - Detailed scroll contents (149 files)
-- Complete ritual sequences (spellbooks)
+- Complete ritual sequences (tome READMEs)
 - Specific validators and evidence (triangulation details)
 - Meta-files providing orientation
 

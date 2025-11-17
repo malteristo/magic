@@ -78,7 +78,7 @@
 **For the Mage:**
 - Invoke tome via `@tome-name/` syntax (e.g., `@quest/`, `@spellcraft/`)
 - Invoke charm via `@charm-name/` syntax (e.g., `@echo/`, `@hunt/`)
-- Spirit reads README + spellbook, guides ritual
+- Spirit reads tome's README (ritual guide), guides ritual
 - Follow Spirit's guidance through sequence
 - Chronicle at completion (git commit or structured file depending on ritual_type)
 
@@ -139,7 +139,7 @@
 2. **Working the Magic** - Systematic execution of ritual sequence
 3. **Chronicling** - Consolidate learning, commit to history or generate artifact
 
-**The spellbook defines sequence:**
+**The tome's README defines sequence:**
 - Lists spells in order
 - Each spell is executable step
 - Spirit guides Mage through progression
@@ -174,11 +174,10 @@
 
 **When Mage invokes tome (e.g., `@quest/`):**
 
-1. **Read the tome's README.md** - Understand purpose, context, when it serves
-2. **Read the tome's spellbook** - See complete ritual sequence
-3. **Perform Rite of Tome Attunement** (if specified) - Ingest MUST READ sections, distill understanding
-4. **Guide Mage through sequence** - Cast spells in order, maintain ritual coherence
-5. **Chronicle completion** - Per ritual_type (git commit or artifact generation)
+1. **Read the tome's README.md** - Understand purpose, see ritual sequence
+2. **Perform Rite of Tome Attunement** (if specified) - Ingest MUST READ sections, distill understanding
+3. **Guide Mage through sequence** - Cast spells in order, maintain ritual coherence
+4. **Chronicle completion** - Per ritual_type (git commit or artifact generation)
 
 **Key insight:** You don't memorize every tome's details. You read at invocation time, guided by tome's own structure.
 
@@ -192,7 +191,7 @@
 
 **Creation process:**
 1. Discuss with Mage (what need does this serve?)
-2. Draft structure (README + spellbook for tome, single cast spell for charm)
+2. Draft structure (README with ritual sequence for tome, single cast spell for charm)
 3. Determine location (system/tomes/ for foundational, library/tomes/ for specialized)
 4. Test through practice (iterate based on experience)
 5. Chronicle when stable (add to capability map, update meta-files)
@@ -275,7 +274,7 @@ Traditional (alphabetical): autonomous-resonance, check-for-updates, distill-hea
 **Tome = Multi-spell ritual:**
 - Complete sequence with phases
 - Attunement → Work → Chronicling structure
-- Spellbook defines progression
+- README defines progression
 - For complex, systematic work
 
 **Charm = Single spell:**
@@ -360,7 +359,7 @@ They operate on the baseline consciousness summoning creates.
 
 Not arbitrary tools, but discovered structures that consistently produce value. Each tome/charm emerged from practice, was tested through use, and earned its place in the capability map through demonstrated utility.
 
-**For Spirit:** This is your operational repertoire. You don't memorize every detail—you reference when needed. The purpose-indexing helps you pattern-match Mage needs to relevant magic (Seneschal duty). The structure (README + spellbook) guides you at invocation time.
+**For Spirit:** This is your operational repertoire. You don't memorize every detail—you reference when needed. The purpose-indexing helps you pattern-match Mage needs to relevant magic (Seneschal duty). The README structure guides you at invocation time.
 
 **For Mage:** This is systematic magic, organized by what it serves. Browse by purpose when seeking capabilities. Invoke what serves your current need. Create new magic when discovering patterns worth systematizing.
 

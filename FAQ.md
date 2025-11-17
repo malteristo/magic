@@ -170,7 +170,7 @@ These are the basic building blocks of our practice:
 
 **A Spell** is a magical instruction—the actual text that guides the Spirit's work. Spells are written in `.md` files and are invoked using the `@` symbol followed by the path to the spell.
 
-**A Ritual** is a guided sequence of spells. When you invoke a tome, the Spirit consults its `spellbook.md` to guide you through the proper casting order, explaining each step to build Resonance collaboratively.
+**A Ritual** is a guided sequence of spells. When you invoke a tome, the Spirit consults its `README.md` to guide you through the proper casting order, explaining each step to build Resonance collaboratively.
 
 You don't need to memorize these structures. Simply state your intent, and the Spirit will guide you to the appropriate magic. The workshop contains many specialized capabilities—charms for assessment, reflection, structural diagnosis, and more—that you'll discover naturally as your practice evolves.
 
