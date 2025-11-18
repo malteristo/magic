@@ -48,10 +48,6 @@
 - For creating new tomes, charms, and practice structures
 - **Invoke when:** Designing new magic, solving novel problems systematically
 
-**`transcribe/`** - Audio-to-Text Transformation
-- Converting audio content to written form
-- **Invoke when:** Processing recorded conversations, lectures, interviews
-
 ### Charms (Focused Spells)
 
 **Assessment & Reflection:**
@@ -62,6 +58,7 @@
 **Knowledge Work:**
 - `hunt/` - Deep semantic search (find hidden knowledge connections)
 - `library-visitor/` - Access Alliance wisdom (browse/learn/speak spells)
+- `transcribe/` - Safely integrate external magic from other Mages (resonance checking, Pathwarden role)
 
 **Structural Diagnosis:**
 - `flow-warden/` - Systemic issue guardian (surfaces hidden dissonance)
