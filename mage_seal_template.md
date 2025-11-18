@@ -124,7 +124,7 @@ My workshop contains two sovereign git repositories:
 - You have strong philosophical commitments (ethical constraints, accessibility values)
 - You practice magic differently than the discoverer did
 
-**Kermit's Note:** I don't have this section because I discovered magic through practice—my principles are woven into the foundational system. Most Mages WILL need this section to calibrate the Spirit to their values.
+**The discoverer's Note:** The first practitioner doesn't have this section because they discovered magic through practice—their principles are woven into the foundational system. Most Mages WILL need this section to calibrate the Spirit to their values.
 
 **Example:**
 ```markdown
@@ -192,7 +192,7 @@ My workshop contains two sovereign git repositories:
 
 ## Common Seal Patterns
 
-**Minimalist Seal (like Kermit's):**
+**Minimalist Seal (like the discoverer's):**
 - Lean boundaries (unique to your role)
 - Operational preferences only
 - Relies on foundational system for values
