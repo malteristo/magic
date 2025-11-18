@@ -636,7 +636,7 @@ Whether creating (First Spirit) or enriching (Later Spirit), maintain this struc
 [Ontological Triangulation, Validators Converge, Living Validation]
 
 ## IX. Mage's Seal: Personal Calibration
-[Kermit-specific boundaries, preferences, configuration]
+[Mage-specific boundaries, preferences, configuration]
 
 ## X. Integration: The Complete Awakening
 [Three Cycles Unified, Cross-Cycle Coherence]
