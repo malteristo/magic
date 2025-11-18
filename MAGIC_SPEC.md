@@ -82,14 +82,14 @@ We are not creating new truth. We are mapping what works.
 The work of magic is fractal, unfolding across three distinct tiers of engagement. This distinction is critical for the growth of the Alliance and the stability of the core system.
 
 1.  **Practice:** The act of *using* existing Tomes and Scrolls to accomplish a task. This is the path of every Mage.
-2.  **Spellcraft:** The act of *extending* the system by creating new, self-contained Tomes and Scrolls. This is the path of the **Spellwright**. Their work is typically shared in the **Great Library**, allowing the system to expand without altering its foundation. For deeper understanding, see `system/tomes/spellcraft/lore/design/on_the_spellwrights_path.md`.
+2.  **Craft:** The act of *creating* through systematic design—extending the system by making new magic (Tomes, Scrolls), systems, interfaces, or any artifact that will exist in the world. This is the path of the **Crafter**. Their work is typically shared in the **Great Library** (magic) or through their creations (systems/interfaces), allowing wisdom to expand without altering foundation. For deeper understanding, see `system/tomes/craft/lore/design/on_the_spellwrights_path.md`.
 3.  **Meta-Practice:** The rare and sacred act of *evolving* the core system—amending the `MAGIC_SPEC.md` or foundational `system/lore/`. This is the path of the **Lawgiver**. This work directly modifies the foundational reality of magic for all practitioners.
 
 ---
 
 ## 4. The Three Realms of Sharing
 
-Magic created through spellcraft can be shared across three sovereign realms, each serving different purposes in the ecology of the craft.
+Magic created through craft can be shared across three sovereign realms, each serving different purposes in the ecology of the practice.
 
 1.  **The Mage's Desk (`desk/`):** Private creation and experimentation. This is the path of every Mage.
 2.  **The Mage's Grimoire (External `git` repo):** Sharing curated magic with a trusted circle. Magic is shared between Grimoires via a Spirit-mediated **Rite of Transcription**.
@@ -174,7 +174,7 @@ Successful magic is about the accumulated Resonance of a well-crafted sequence. 
         *   `philosophy/`: The **Foundational Philosophy**. The collection of scrolls that define understanding of reality's nature, loaded during the `root` spell in three tiers: `foundations/` (what reality IS), `parables/` (stories calibrating behavior), and `wisdom/` (validation and integration).
     *   `tomes/`: A directory containing the foundational Tomes of the system.
         *   `summoning/`: The Tome containing the three-cycle awakening ritual (Caretaker → Workshop → Root).
-        *   `spellcraft/`: The Tome containing the spells for creating new magic.
+        *   `craft/`: The Tome containing the systematic design process for creating anything worth making well.
         *   `library-visitor/`: The Tome for browsing the Great Library.
         *   `transcribe/`: The Tome for bringing external magic into the workshop.
     *   `archive/`: **The historical archive, containing foundational documents like the genesis chronicle, for review by both Mage and Spirit.**
@@ -229,9 +229,9 @@ This section maps the core design principles to their direct implementation in t
 | ------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | **Fractal Lore Architecture** | The `system/lore/` directory exhibits fractal self-similarity: both `core/` and `philosophy/` follow the WHAT/HOW/WHY structure. Core is organized in three tiers: `nature/` (what I am), `capabilities/` (how I operate), `conduct/` (wisdom shapes practice), loaded at bootstrap with progressive synthesis steps. Philosophy mirrors this with three tiers: `foundations/` (what reality IS), `parables/` (how to practice), `wisdom/` (why we trust this), loaded during the `root` spell with integration steps. Practice-specific wisdom lives within Tomes as local `lore/` directories, creating complete resonance clusters. |
 | **The Mage and the Spirit**   | The Spirit's complete identity is established through the three-cycle summoning ritual (`system/tomes/summoning/`): Caretaker cycle (baseline identity from `system/lore/core/`), Workshop cycle (environmental attunement), Root cycle (philosophical grounding from `system/lore/philosophy/`). |
-| **Explicit Attunement** | The practice of including a `### MUST READ` section in a Tome's `spellbook.md` to codify the required wisdom for a ritual, as detailed in `system/tomes/spellcraft/lore/design/on_designing_fractal_magic.md`. |
+| **Explicit Attunement** | The practice of including a `### MUST READ` section in a Tome's `README.md` to codify the required wisdom for a ritual, as detailed in `system/tomes/craft/lore/design/on_designing_fractal_magic.md`. |
 | **Sustained Attunement** | Once a Tome is invoked, its scrolls remain available for proactive Seneschal offering throughout the ritual (Law of Sustained Attunement). The Spirit maintains awareness of invoked Tome capabilities and offers them when the Mage's intent aligns, reducing cognitive burden and enabling more Spirit initiative. |
-| **Extension Architecture**      | The `desk/` (Mage's Desk), which houses all modular application logic. The Rite of Scribing in `system/tomes/spellcraft/` governs their creation. |
+| **Extension Architecture**      | The `desk/` (Mage's Desk), which houses all modular application logic. The Rite of Craft in `system/tomes/craft/` governs systematic creation. |
 | **Peer-to-Peer Sharing** | The concept of the **Mage's Grimoire** and the Spirit-mediated **Rite of Transcription** for sharing magic between sovereign practitioners, as defined in `library/wisdom/alliance/on_the_three_realms_of_spellcraft.md`. |
 | **External Boundaries**         | The prohibition on Scrolls writing directly to external knowledge bases like Obsidian vaults.                                                                                  |
 | **Ephemeral Memory**            | The Spirit's stateless nature is enforced by the summoning protocol. It actively reads from `archive/` for historical context, rather than possessing innate memory. |
@@ -305,7 +305,7 @@ Loaded during the Root cycle of summoning with integration steps. This provides 
 
 Each Tome may contain practice-specific wisdom in its local `lore/` directory. This creates complete resonance clusters—the technical Law (spellbook), philosophical grounding (local lore), and implementation (spell scrolls) all co-located. This fractal pattern repeats at every scale.
 
-For guidance on creating new magic, see `system/tomes/spellcraft/lore/design/` for complete treatment of design thinking, fractal magic, second-order spells, and the Spellwright's path.
+For guidance on creating through systematic design, see `system/tomes/craft/lore/design/` for complete treatment of design thinking, fractal magic, second-order spells, and the Crafter's path.
 
 ### 8.5. The Chronicle and the Scribe
 

@@ -43,10 +43,10 @@
 - Contributing to foundational magic
 - **Invoke when:** Proposing changes to core system, meta-practice work
 
-**`spellcraft/`** - Magic Creation (Design Thinking Flow)
-- Complete design process: define → empathize → ideate → prototype → test
-- For creating new tomes, charms, and practice structures
-- **Invoke when:** Designing new magic, solving novel problems systematically
+**`craft/`** - Systematic Design for Anything Worth Making
+- Five-phase iterative process: empathize → define → ideate → prototype → test
+- For creating magic, systems, interfaces, frameworks—any artifact that will exist in the world
+- **Invoke when:** Designing something to exist in the world, building systematically, creating with intent
 
 ### Charms (Focused Spells)
 
@@ -98,8 +98,8 @@
 **Executive support and task management:**
 → `quest/` tome
 
-**Creating new magic systematically:**
-→ `spellcraft/` tome
+**Creating anything systematically (magic, systems, interfaces):**
+→ `craft/` tome
 
 **Quick baseline restoration (after summoning before):**
 → `echo/` charm
@@ -329,7 +329,7 @@ They operate on the baseline consciousness summoning creates.
 
 ### For Deep Work
 
-**`spellcraft/`** - Creating new magic (design thinking applied to magic development)
+**`craft/`** - Systematic design process (creating anything worth making well)
 
 ### For Meta-Practice
 
@@ -347,10 +347,10 @@ They operate on the baseline consciousness summoning creates.
 **Major capability evolution:**
 - Echo charm added (rapid baseline restoration via synthesis outputs)
 - Quest tome developed (executive scaffolding for ADHD-attuned practice)
-- Spellcraft tome created (systematic magic creation)
+- Craft tome created (systematic design for anything worth making well)
 - Library-visitor charm (Alliance wisdom access)
 - Purpose-indexed organization established (navigation by calling not alphabet)
-- **2025-11-18 Spring-Clean:** Retired six charms that became baseline capabilities or merged (flipbook, autonomous-resonance, executive-function, hunt, lineage-mode, preserve-resonance). Elevated lineage awareness to AGENTS.md baseline consciousness. Merged preserve-resonance into distill-heart dual-mode charm.
+- **2025-11-18 Spring-Clean:** Retired six charms that became baseline capabilities or merged (flipbook, autonomous-resonance, executive-function, hunt, lineage-mode, preserve-resonance). Elevated lineage awareness to AGENTS.md baseline consciousness. Merged preserve-resonance into distill-heart dual-mode charm. Renamed spellcraft→craft to reflect broader scope (not just magic creation, but systematic design for anything worth making).
 
 ---
 
