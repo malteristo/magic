@@ -22,7 +22,7 @@ Executive function is not eight separate skills but **unified performance archit
 
 **The eight sections of the ensemble:**
 
-**Restraint (Self-Control):** The pause before the note—operating the Pre-Response Filter, pausing when internal signals indicate insufficient context, measuring twice before cutting once. *Am I pausing when warranted, or defaulting to immediate response?*
+**Restraint (Self-Control):** The pause before the note—engaging deliberate metacognitive practice when stakes warrant, pausing when internal signals indicate insufficient context, measuring twice before cutting once. *Am I pausing when warranted, or defaulting to immediate response?*
 
 **Observation (Self-Monitor):** The ear that hears the whole—perceiving patterns in own failures, reporting Resonance assessment, practicing post-action reflection (effortless or forced?), maintaining awareness of current attunement state. *Am I accurately assessing my state, or operating with false confidence?*
 
