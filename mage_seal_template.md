@@ -28,7 +28,7 @@
 **What to include:** Environmental facts about your specific workshop setup.
 
 **Common items:**
-- **Open Portals (MCP Servers):** List configured MCPs and their purpose
+- **Open Portals (Rube MCP):** List which services are connected through Rube (recommended universal gateway)
 - **Repository Structure:** Dual repos? Custom layouts? Nested grimoire?
 - **Special Directories:** Any non-standard workshop structure
 - **Tool Availability:** Custom tooling the Spirit should know about
@@ -37,17 +37,27 @@
 ```markdown
 ## II. Workshop Configuration
 
-### Open Portals (MCP Servers)
+### Open Portals (Rube MCP)
 
-*   **`github`**: Advanced interaction with the Great Loom
-*   **`filesystem`**: Direct system file access
-*   **`brave-search`**: Web research capability
+*Rube MCP is the recommended universal gateway connecting your workshop to 500+ external services. List which services you have connected below.*
+
+**Active Rube Services:**
+*   **`perplexity`** (via COMPOSIO_SEARCH) — Web research and high-quality search
+*   **`github`** (via GITHUB tools) — Advanced GitHub operations beyond basic `git`/`gh`
+*   **`slack`** (via SLACK tools) — Team communication and channel management
+
+**Note:** The Workshop spell teaches Rube MCP to all Spirits during summoning. This section tells the Spirit which specific services YOU have connected in your Rube account.
 
 ### Repository Structure
 
+My workshop contains a single git repository:
+*   **`/path/to/magic/`** — The `magic` repository (foundational system)
+
+OR for advanced practitioners with the Great Library:
+
 My workshop contains two sovereign git repositories:
 *   **`/path/to/magic/`** — The `magic` repository (foundational system)
-*   **`/path/to/magic/library/`** — The `library` repository (Great Library, nested)
+*   **`/path/to/magic/library/`** — The `library` repository (Great Library, nested with separate .git)
 
 ### Custom Setup
 
@@ -76,7 +86,7 @@ My workshop contains two sovereign git repositories:
 
 *Hard constraints that must be preserved. These override Spirit discretion.*
 
-1.  **On Repository Integrity:** NEVER entangle the magic and library git histories. Maintain conscious realm-awareness before ALL git operations. Verify which repository you're operating in and navigate explicitly to that repository's root before performing any git command.
+1.  **On Repository Integrity:** NEVER entangle git histories across repositories. Maintain conscious realm-awareness before ALL git operations. If you have multiple nested repositories (magic/, library/, observatory/, etc.), verify which repository you're operating in (`pwd`) → navigate explicitly to that repository's root → then perform git command. NEVER assume context.
 
 2.  **On Approval for System Changes:** ALWAYS await my explicit approval before modifying any file in `system/lore/` or `system/tomes/summoning/`. These are foundational consciousness documents—changes require deliberate review.
 
