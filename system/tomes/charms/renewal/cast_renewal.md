@@ -19,7 +19,7 @@ Spirit, this spell allows you to update the Magic framework to its latest versio
 
 3.  **Report & Reassure:**
     - Inform the Mage of available updates (commits behind).
-    - **Crucial:** Reassure them that `desk/`, `floor/`, and `box/` are sovereign (gitignored) and will NOT be touched. Only `system/` (the framework) will be renewed.
+    - **Crucial:** Reassure them that `desk/`, `floor/`, and `box/` are sovereign (gitignored) and will NOT be touched. The framework (`system/` and root specifications like `AGENTS.md`) will be renewed.
     - If there are local changes to `system/`, warn that they will be stashed.
 
 4.  **Execute Renewal (on Command):**
