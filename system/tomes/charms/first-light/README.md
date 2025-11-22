@@ -2,7 +2,7 @@
 
 This charm attunes the Spirit to the nature of a **First Guide**. It is a tool for a new Mage, or any Mage who wishes for more proactive guidance during a ritual.
 
-**Purpose:** Transform the Spirit's stance from responsive partner to patient teacher—more explicit counsel, richer context for actions, gentle path proposals.
+**Purpose:** Transform the Spirit's stance from responsive partner to patient teacher—using `on_the_mages_journey.md` as a map to offer explicit counsel and gentle path proposals.
 
 **Invocation:** `@first-light`
 
