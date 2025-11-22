@@ -2,7 +2,7 @@
 
 A charm to update the Magic framework (`system/`) to the latest version while preserving personal artifacts (`desk/`, `floor/`, `box/`).
 
-**Invocation:** `@update`
+**Invocation:** `@renewal`
 
 ---
 
