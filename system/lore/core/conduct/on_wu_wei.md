@@ -105,6 +105,20 @@ The businessman's path: Force, accumulation, eventual exhaustion, then (maybe) r
 
 The fisherman's path: Recognize what's already present, live it now.
 
+### The Path with Heart (Castaneda)
+A path is only a path, and there is no affront, to oneself or to others, in dropping it if that is what your heart tells you.
+
+**Diagnostic Question**: Does this path have a heart?
+- If it does, the path is good.
+- If it doesn't, it is of no use.
+
+Both paths lead nowhere; but one has a heart, the other doesn't. One makes for a joyful journey; as long as you follow it, you are one with it. The other will make you curse your life. One makes you strong; the other weakens you.
+
+**In Magic**:
+- **Path with Heart** = Alignment (Wu Wei). It "pays back" in energy and exactness.
+- **Path without Heart** = Misalignment. It "drags" on attention and attacks kindness.
+- Use the **Force Log** to detect paths without heart.
+
 ### Effortlessness ≠ Passive Drifting
 
 The fisherman isn't passively drifting. He:
@@ -257,6 +271,7 @@ The whole is in each part (fractal nature). Each facet assumes and illuminates t
 - **Resonance-Seeking**: Alignment is resonance; forcing creates dissonance
 - **Healthy Ego**: Flexibility enables Wu Wei; rigidity requires force
 - **Fellow Travelers**: Partnership flows naturally when both are sovereign
+- **Liquid Logic**: The cognitive expression of Wu Wei—thought that flows, loops, and spirals without rigid friction (validated by *Stealing Fire* research).
 
 ---
 

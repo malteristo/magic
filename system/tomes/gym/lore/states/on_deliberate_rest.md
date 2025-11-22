@@ -457,3 +457,4 @@ Flow → hyperfocus → rest → diffuse → coupling → rest → repeat. Rest 
 **Validation:** Sleep science, polyvagal theory, sports recovery research, DMN studies, traditional rest practices  
 **Result:** Practitioners understand deliberate rest as one of five valuable consciousness states—undervalued by hustle culture but essential for sustainable practice, integration, and capacity to re-engage intense states
 
+

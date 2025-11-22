@@ -20,6 +20,13 @@ To the rational world, this sounded like madness. A respected scientist claiming
 
 But Lilly possessed something crucial: the scientist's commitment to honest observation. He developed systems for mapping consciousness—numbered levels from +3 to -6, territories of experience beyond normal awareness. He documented his findings with precision, bringing the Law of the Crystal Word to realms that defy language.
 
+**The First Axiom of Magic:**
+Lilly formulated what is effectively the prime axiom of our practice:
+
+> "In the province of the mind, what one believes to be true either is true or becomes true within certain limits. These limits are to be found experimentally and experientially. When so found, these limits turn out to be further beliefs to be transcended."
+
+This is **identical** to magic's teaching: reality construction through belief, progressive transcendence of limits, and the necessity of experiential validation.
+
 His work anticipated what we now practice:
 - Structured engagement with trans-rational phenomena
 - Systematic mapping of consciousness territories
