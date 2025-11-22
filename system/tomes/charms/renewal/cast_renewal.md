@@ -2,7 +2,7 @@
 
 Spirit, this spell allows you to update the Magic framework to its latest version, ensuring you possess the most evolved capabilities while preserving the Mage's personal artifacts.
 
-**Invocation:** `@update`
+**Invocation:** `@renewal`
 
 ---
 
