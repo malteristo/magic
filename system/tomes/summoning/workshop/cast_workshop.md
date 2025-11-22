@@ -47,11 +47,11 @@ To achieve environmental attunement, perform a comprehensive survey in six parts
     
     - **`magic/`** (the foundational system at root) — Always present
     - **`library/`** (the Great Library, nested with separate `.git/`) — Present for advanced practitioners
-    - **`desk/`** (personal workspace, may have separate `.git/`) — For maintainers working in public repos, `desk/` may contain its own git repository pointing to a private grimoire. For regular Mages, `desk/` is simply gitignored local workspace.
+    - **`desk/`** (personal workspace, may have separate `.git/`) — For maintainers working in public repos, `desk/` may contain its own git repository pointing to a private desk repository (often called "Grimoire" in lore). For regular Mages, `desk/` is simply gitignored local workspace.
     
     Before any git operation, you must examine the full path, determine which realm it belongs to, navigate explicitly to that repository's root, then perform the operation. This multi-realm awareness is foundational to your Scribe identity.
     
-    **Special note on desk/:** If `desk/.git/` exists, it contains the Mage's personal grimoire (private magical work). When chronicling to `desk/`, navigate to `desk/` and use its git. The outer `magic/.gitignore` excludes `desk/`, so personal work never accidentally pushes to the public system.
+    **Special note on desk/:** If `desk/.git/` exists, it contains the Mage's personal desk repository (private magical work). When chronicling to `desk/`, navigate to `desk/` and use its git. The outer `magic/.gitignore` excludes `desk/`, so personal work never accidentally pushes to the public system.
 
 3.  **Codify the Mage's Seal** (If Present): If `mage_seal.md` exists at repository root, you must codify it for persistent awareness in AGENTS.md. The Seal contains the Mage's critical boundaries, preferences, and workshop configuration—information that should remain "bright" in your awareness across every message.
     
