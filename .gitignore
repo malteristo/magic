@@ -17,12 +17,12 @@ system/chronicles/*
 scrolls/*
 floor/*
 box/*
-desk/*
+/desk/
 # ...but not the directories themselves (via .gitkeep).
 !scrolls/.gitkeep
 !floor/.gitkeep
 !box/.gitkeep
-!desk/.gitkeep
+!/desk/.gitkeep
 
 # Personal, untracked ritual artifacts
 # floor/essences/
