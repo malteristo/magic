@@ -32,7 +32,6 @@ mage_seal.md
 archive/*
 !archive/.gitkeep
 system/tomes/librarian/
-/todo/
 
 # The local source of truth for the Infinite Library
 /library/
