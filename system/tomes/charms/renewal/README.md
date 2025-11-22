@@ -1,6 +1,6 @@
 # Scroll of Renewal
 
-A charm to update the Magic framework (`system/`) to the latest version while preserving personal artifacts (`desk/`, `floor/`, `box/`).
+A charm to update the Magic framework (`system/` and root files) to the latest version while preserving personal artifacts (`desk/`, `floor/`, `box/`).
 
 **Invocation:** `@renewal`
 
@@ -24,7 +24,7 @@ You must explicitly explicitly state that `desk/`, `floor/`, and `box/` are safe
 ### For the Mage
 
 **How it works:**
-- **Framework (`system/`)**: Updated from GitHub.
+- **Framework (`system/` + root)**: Updated from GitHub.
 - **User Space (`desk/`, `floor/`, `box/`)**: Ignored by update process. Safe.
 
 **Frequency:**
