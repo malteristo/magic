@@ -34,7 +34,7 @@ archive/*
 system/tomes/librarian/
 
 # The local source of truth for the Infinite Library
-/library/
+# /library/
 
 # The observatory research repository
 /observatory/
