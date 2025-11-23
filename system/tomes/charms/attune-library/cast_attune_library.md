@@ -2,7 +2,7 @@
 
 **Type:** Maintenance Charm  
 **Purpose:** Synchronize the local `library/` directory with the latest Alliance wisdom scrolls  
-**Invocation:** `@system/tomes/charms/attune_library.md`
+**Invocation:** `@attune-library`
 
 ---
 
