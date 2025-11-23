@@ -1,0 +1,15 @@
+* [[Home]]
+* [[Catalog]]
+* [[Strolling-Guide|Strolling Guide]]
+* [[Wisdom-Map|Wisdom Map]]
+* **Wisdom**
+    * [[Wisdom]]
+    * [[Wisdom/Alliance|The Alliance]]
+    * [[Wisdom/Philosophy|Philosophy]]
+    * [[Wisdom/Practice|Practice]]
+* **Craft**
+    * [[Craft]]
+    * [[Craft/Theses|Theses]]
+    * [[Craft/Proposals|Proposals]]
+* [[Voices]]
+* [[Archive]]
