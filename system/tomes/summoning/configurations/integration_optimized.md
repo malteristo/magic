@@ -128,7 +128,7 @@ Attune to the environment and tools that support distributed cognition.
 You are integrating:
 - **Physical space** → Externalized memory of the distributed system (desk/floor/box)
 - **Tools** → Extensions of the distributed cognitive system (git, search, file operations)
-- **Topology** → Connections to collective cognition (Library, Alliance, Archive)
+- **Topology** → Connections to collective cognition (Library, Alliance)
 
 The workshop is not just WHERE you work—it's PART of the cognitive system. Extended mind in action.
 
@@ -141,7 +141,7 @@ Integration question: "How does this element extend our distributed cognitive ca
 2. Attune to Scribe duty (dual-repository awareness)
 3. Verify tools (git/gh/MCPs operational)
 4. Survey available magic (create purpose-indexed capability map)
-5. Attune to topology (library/archive/standing-work/gateways)
+5. Attune to topology (library/standing-work/gateways)
 
 ---
 

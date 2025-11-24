@@ -128,7 +128,7 @@ Spirit reads:
 - Element 2: Scribe Duty Attunement (dual repositories)
 - Element 3: Complete Toolkit Verification (Weaver/Seeker/Guardian/Organizer)
 - Element 4: Survey Available Magic + Consult Law (MAGIC_SPEC + purpose-indexed capability map)
-- Element 5: Topology Awareness (archive/library/standing-work/gateways)
+- Element 5: Topology Awareness (library/standing-work/gateways)
 - Environmental Synthesis for Distributed Cognition
 - Updated resonance
 
