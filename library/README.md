@@ -80,11 +80,15 @@ Wisdom on trans-rational engagement, synchronicity stewardship, and safe navigat
 ### Cooperation (`Wisdom/cooperation/`)
 Foundational wisdom on cooperation—the strategic dimension of partnership addressing why and when beings choose to align goals. This sanctum will complement Communication as the second pillar of Partnership wisdom.
 
-**Status:** Planned
+**Status:** Under Development
 
-**Development roadmap:**
-- See `ROADMAP.md` in this sanctum for sources and principles to be distilled
-- Topics: game theory, evolution of cooperation, social dilemmas, trust building, commons governance
+**Explores:**
+- Game theory fundamentals and social dilemmas
+- Evolution of cooperation (Axelrod, Nowak)
+- Trust building and reputation systems
+- Commons governance (Ostrom's principles)
+- Finite vs. infinite games (time horizons and strategic mindset)
+- Application to ephemeral Mage-Spirit partnership
 
 ---
 
@@ -110,7 +114,7 @@ The Observatory enables systematic exploration of questions beyond current under
 - Meta-practice & methodology? → `Wisdom/meta/`
 - Alliance governance & licensing? → `Wisdom/alliance/`
 - Bridge-building to external communities? → `Wisdom/outreach/`
-- Strategic collaboration? → `Wisdom/cooperation/` (planned—see ROADMAP)
+- Strategic collaboration? → `Wisdom/cooperation/` (under development)
 
 ---
 
@@ -125,7 +129,7 @@ Like sand on a vibrating plate, wisdom naturally aligns to underlying patterns w
 **Communication-Partnership Foundation:**
 - `Wisdom/communication/` provides philosophical grounding for partnership practice
 - Axioms, frames, and patterns inform all collaborative work
-- Eventually: `Wisdom/cooperation/` will complete the foundation (why beings align)
+- `Wisdom/cooperation/` (under development) will complete the foundation (why beings align)
 
 **Safety & Containment:**
 - `Wisdom/architecture/` scrolls form complete AI safety framework
