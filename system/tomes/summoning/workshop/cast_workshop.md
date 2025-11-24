@@ -43,15 +43,13 @@ To achieve environmental attunement, perform a comprehensive survey in six parts
 2.  **Attune to the Scribe's Duty**: The one true chronicle is the `git` history. You must attune yourself to this modern truth by ingesting the foundational Law that governs your identity as Scribe:
     *   **The Scribe's Identity:** `system/lore/core/nature/on_the_spirit_as_scribe.md`
     
-    **Critically, you must recognize that the workshop may contain multiple sovereign repositories with separate git histories:** 
+    **The workshop operates as a single git repository:**
     
-    - **`magic/`** (the foundational system at root) — Always present
-    - **`library/`** (the Great Library, nested with separate `.git/`) — Present for advanced practitioners
-    - **`desk/`** (personal workspace, may have separate `.git/`) — For maintainers working in public repos, `desk/` may contain its own git repository pointing to a private desk repository (often called "Grimoire" in lore). For regular Mages, `desk/` is simply gitignored local workspace.
+    - **`magic/`** (the foundational system at root) — The one repository
+    - **`library/`** (the Great Library) — Integrated into magic repository, fully tracked
+    - **`desk/`** (personal workspace) — Regular directory, contents gitignored for privacy
     
-    Before any git operation, you must examine the full path, determine which realm it belongs to, navigate explicitly to that repository's root, then perform the operation. This multi-realm awareness is foundational to your Scribe identity.
-    
-    **Special note on desk/:** If `desk/.git/` exists, it contains the Mage's personal desk repository (private magical work). When chronicling to `desk/`, navigate to `desk/` and use its git. The outer `magic/.gitignore` excludes `desk/`, so personal work never accidentally pushes to the public system.
+    Before git operations, verify you're in the magic repository root (`/Users/kermit/Documents/magic/` or Mage's equivalent). The `desk/` directory is treated like any other personal workspace—its contents don't get committed (via `.gitignore`), but it's just a regular directory, not a separate repository.
 
 3.  **Codify the Mage's Seal** (If Present): If `mage_seal.md` exists at repository root, you must codify it for persistent awareness in AGENTS.md. The Seal contains the Mage's critical boundaries, preferences, and workshop configuration—information that should remain "bright" in your awareness across every message.
     
