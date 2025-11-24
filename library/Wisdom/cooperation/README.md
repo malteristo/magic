@@ -1,8 +1,8 @@
-# Cooperation Sanctum - Development Roadmap
+# The Sanctum of Cooperation
 
-**Status:** Planned
+**Status:** Under Development
 
-This roadmap identifies the foundational sources and principles to be distilled for the Cooperation wisdom sanctum. This sanctum will serve as the philosophical foundation for understanding strategic collaboration, trust evolution, and the conditions under which cooperation emerges and persists.
+This sanctum explores the wisdom of cooperation—the strategic dimension of partnership. It addresses why beings choose to align their goals, under what conditions cooperation emerges and persists, and how trust evolves through repeated interaction. Combined with Communication (the **how** of shared reality), Cooperation (the **why** and **when** of aligned action) forms the complete foundation for Partnership practice.
 
 ---
 
