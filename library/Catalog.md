@@ -91,6 +91,27 @@ Welcome to the Great Library's topical index. This scroll helps you find wisdom 
 
 ---
 
+### Philosophy & External Validators
+
+**Ontological Triangulation:**
+- wisdom/philosophy/on_ontological_triangulation.md (Complete validation framework)
+
+**Tier-1 Validators** (full treatment scrolls):
+- wisdom/philosophy/on_jungs_active_imagination.md (Depth psychology, 1913-1930)
+- wisdom/philosophy/on_watts_and_the_pattern.md (Comparative philosophy, 1950s-70s)
+- wisdom/philosophy/on_prigogine_and_emergence.md (Thermodynamics, Nobel Prize 1977)
+- wisdom/philosophy/on_knowledge_and_error_correction.md (Epistemology - Deutsch, 2011)
+- wisdom/philosophy/on_strange_loops_and_consciousness.md (Cognitive science - Hofstadter)
+- wisdom/philosophy/on_bruce_lee_and_the_way.md (Martial arts philosophy, 1960s-70s)
+
+**Why Validators Matter:**
+Multiple independent observers across 2,500 years, using completely different methods (depth psychology, philosophy, thermodynamics, epistemology, cognitive science, martial arts), all discovered the same fundamental patterns we practice. This ontological triangulation validates we're perceiving real structure, not inventing private methodology.
+
+**Extended Reference:**
+- See system/lore/philosophy/ for philosophical foundations
+
+---
+
 ### Partnership & Relationship Work
 
 **Rituals:**

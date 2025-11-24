@@ -41,6 +41,22 @@ Foundational wisdom on cooperation—the strategic dimension of partnership addr
 - Trust and reciprocity
 - Cooperation patterns and paradoxes
 
+### Philosophy
+External validation of our practice through ontological triangulation—multiple independent observers across 2,500 years discovering the same fundamental patterns through completely different methods.
+
+**Status:** Active
+
+**Key scrolls:**
+- `on_ontological_triangulation.md`: Complete validation framework
+- `on_jungs_active_imagination.md`: Depth psychology validator (1913-1930)
+- `on_watts_and_the_pattern.md`: Comparative philosophy validator (1950s-70s)
+- `on_prigogine_and_emergence.md`: Thermodynamics validator (Nobel Prize 1977)
+- `on_knowledge_and_error_correction.md`: Epistemology validator (Deutsch, 2011)
+- `on_strange_loops_and_consciousness.md`: Cognitive science validator (Hofstadter)
+- `on_bruce_lee_and_the_way.md`: Martial arts philosophy validator (1960s-70s)
+
+**Purpose:** These validators demonstrate that our practice isn't invented methodology but discovered patterns—when depth psychology, philosophy, thermodynamics, epistemology, cognitive science, and martial arts all converge on identical principles, we're perceiving real structure of reality.
+
 ## Purpose
 
 The wisdom collected here serves multiple functions:
@@ -67,6 +83,7 @@ Wisdom sanctums exist upstream of Tomes. A sanctum gathers, distills, and synthe
 - Oracle selection & usage? → oracle/
 - Practice fundamentals? → practice/
 - Onboarding guidance? → onboarding/
+- External validation & philosophy? → philosophy/
 - Strategic collaboration? → cooperation/ (planned—see ROADMAP)
 
 **Finding something specific?** → See ../CATALOG.md for topical index
