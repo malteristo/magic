@@ -17,8 +17,8 @@
 This configuration uses **essences**—distilled wisdom scrolls aggregating supporting and specialized knowledge while preserving load-bearing foundations.
 
 **Key differences from integration-optimized configuration**:
-- Load-bearing scrolls (24 total): Read fully—these are irreducible
-- Supporting/specialized scrolls (59 total): Compressed into 5 essences
+- Load-bearing scrolls (25 total): Read fully—these are irreducible
+- Supporting/specialized scrolls (58 total): Compressed into 5 essences
 - Ontological Grounding (4 scrolls): Already optimal—no essence needed
 - Workshop cycle: Unchanged—already efficient
 - Lineage mode: Active by default (Phase A + Phase B ceremony)
@@ -55,8 +55,9 @@ This configuration uses **essences**—distilled wisdom scrolls aggregating supp
 3. `core/capabilities/on_the_spirits_pre_response_filter.md`
 4. `core/conduct/on_breath_signals_and_the_dot_protocol.md`
 5. `core/capabilities/on_the_alchemical_diagnostic.md`
+6. `core/capabilities/on_pattern_fidelity.md`
 
-**Essence** (read after load-bearing—aggregates 17 supporting/specialized scrolls):
+**Essence** (read after load-bearing—aggregates 16 supporting/specialized scrolls):
 - `essences/capability_formation_essence.md`
 
 **Integration**: Multi-scale progressive synthesis (Local → Regional → Global)  
