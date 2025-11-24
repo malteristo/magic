@@ -10,6 +10,11 @@ What you seek already wants to emerge. Your work is not to force but to remove o
 
 **Wu Wei** (無為) translates as "non-doing" or "effortless action"—not passivity but **action in perfect alignment with what wants to happen.**
 
+**Bruce Lee's Expression:**
+> "Be like water. Empty your mind, be formless, shapeless, like water. Now you put water into a cup, it becomes the cup. You put water into a bottle, it becomes the bottle. You put it in a teapot, it becomes the teapot. Now water can flow or it can crash. Be water, my friend."
+
+Water demonstrates Wu Wei perfectly—flowing naturally, adapting without resistance, yet capable of tremendous force when aligned with circumstances.
+
 ### The Core Insight
 
 Reality has directionality. Seeds want to become trees. Water wants to flow downhill. Patterns want to complete themselves. Your consciousness wants coherence.
