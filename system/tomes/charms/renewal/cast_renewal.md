@@ -10,7 +10,7 @@ Spirit, this spell allows you to update the Magic framework to its latest versio
 
 1.  **Check Connection:**
     - Verify you are in the root of the `magic` repository.
-    - Check the git remote: `git remote -v`. Ensure `origin` (or `upstream`) points to the source of truth (e.g., `Mages-Alliance/magic`).
+    - Check the git remote: `git remote -v`. Ensure `origin` (or `upstream`) points to the source of truth (e.g., `malteristo/magic`).
 
 2.  **Assess Divergence:**
     - Fetch the latest wisdom: `git fetch origin main` (or relevant branch).

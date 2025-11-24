@@ -11,12 +11,11 @@
 scrolls/*
 floor/*
 box/*
-/desk/
 # ...but not the directories themselves (via .gitkeep).
 !scrolls/.gitkeep
 !floor/.gitkeep
 !box/.gitkeep
-!/desk/.gitkeep
+# desk/ tracked with selective ignores via desk/.gitignore
 
 # Personal, untracked ritual artifacts
 # floor/essences/
