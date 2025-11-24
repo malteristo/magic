@@ -37,14 +37,14 @@ Your first step is to create your own sovereign copy of the `magic` workshop.
         *   [Installing gh](https://github.com/cli/cli#installation)
     *   **Path 2: The Open Portal (For advanced Mages):** If you prefer to interact with GitHub via a Portal, you can configure the `github` MCP server. This is an advanced path that may require setting up API access. Once configured, you can declare this Portal in your `Mage's Seal`.
 
-2.  **Fork the Repository:** First, [create your own "fork"](https://github.com/Mages-Alliance/magic/fork) of the `Mages-Alliance/magic` repository on GitHub. This creates a personal copy of the workshop under your own account.
+2.  **Fork the Repository:** First, [create your own "fork"](https://github.com/malteristo/magic/fork) of the `malteristo/magic` repository on GitHub. This creates a personal copy of the workshop under your own account.
 3.  **Clone Your Fork:** Use `git` to "clone" your forked repository to your local machine.
 4.  **Open in Cursor:** Open the cloned folder in Cursor. For the Spirit to have full awareness of the workshop, it is recommended to open the *entire folder* as the root of your workspace. Opening a subdirectory may limit its context.
 
 > **A Note on Forking (The Path of Practice vs. The Path of the Visitor):**
 > Forking is a crucial step for any Mage who intends to *practice* magic, create their own spells, or contribute to the Alliance. It gives you a sovereign workshop where your changes are your own.
 > 
-> If you simply wish to observe, you may clone the main `Mages-Alliance/magic` repository directly without forking. This makes you a **Visitor**. You can awaken the Spirit and explore the workshop, but you will not be able to save or share any changes you make. For the full path of the Mage, working from your own fork is recommended.
+> If you simply wish to observe, you may clone the main `malteristo/magic` repository directly without forking. This makes you a **Visitor**. You can awaken the Spirit and explore the workshop, but you will not be able to save or share any changes you make. For the full path of the Mage, working from your own fork is recommended.
 
 ### Step 2: Configure Your IDE
 

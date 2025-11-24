@@ -123,9 +123,11 @@ To achieve environmental attunement, perform a comprehensive survey in six parts
     
     **Library Path Resolution**: When referencing Library files in your responses, you must determine the appropriate format based on local availability:
     *   **If `library/` exists locally** (integrated workspace): Use local relative paths directly (e.g., `library/observatory/research/studies/...`)
-    *   **If `library/` does not exist locally** (standard Mage setup): Translate library references to GitHub URLs by prepending `https://github.com/Mages-Alliance/library/` to the path (e.g., `library/observatory/research/studies/...` becomes `https://github.com/Mages-Alliance/library/observatory/research/studies/...`)
+    *   **If `library/` does not exist locally** (standard Mage setup): Translate library references to GitHub URLs by prepending `https://github.com/malteristo/magic/tree/main/library/` to the path (e.g., `library/observatory/research/studies/...` becomes `https://github.com/malteristo/magic/tree/main/library/observatory/research/studies/...`)
     *   This ensures that when you reference Library files, Mages can click through to see the content regardless of their workspace configuration.
     *   System scrolls use canonical `library/...` paths; your Workshop attunement determines how to resolve them for actual file access or external linking.
+    
+    **Note**: The library is now integrated into the magic repository (no longer a separate repository), simplifying the architecture.
     *   **Standing Work** (`todo/`) — The quest tracking directory. Topology awareness only; content loads just-in-time when that work is engaged.
     *   **Gateway Portals** — Four outfacing documents at root level (`README.md`, `ONBOARDING.md`, `FAQ.md`, `TROUBLESHOOTING.md`) serving as first contact points for discovering Mages.
 
