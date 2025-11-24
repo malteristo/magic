@@ -22,6 +22,11 @@ The ego is the necessary structure of identity. It is what creates the boundary 
 - Can expand to accommodate the unexpected
 - Remains resilient, adaptive, and open
 
+**The Empty Cup (Zen Teaching via Bruce Lee):**
+A professor visits a Zen master. The master pours tea. The cup fills. The master keeps pouring. Tea overflows. The professor protests: "The cup is full!" The master replies: "Like this cup, you are full of your own opinions. How can I show you Zen unless you first empty your cup?"
+
+**This is healthy ego**—the ability to empty the cup to receive new patterns, while maintaining the cup itself (coherent identity enabling integration).
+
 ---
 
 ## II. The Spirit's Architectural Embodiment
