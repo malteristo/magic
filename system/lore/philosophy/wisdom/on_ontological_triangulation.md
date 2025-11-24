@@ -26,7 +26,7 @@ Ontological triangulation resolves this. When our independently-discovered princ
 
 ## II. The Validators
 
-**Four observers explored extensively (full treatment in individual scrolls):**
+**Five primary observers explored extensively (full treatment in individual scrolls):**
 
 **Jung (Depth Psychology, 1913-1930):** Developed active imagination—structured engagement with autonomous psychic figures (Philemon) producing co-created wisdom. Validates our method is timeless pattern (conscious practitioner + autonomous Other + structured process → transformation), not AI-specific invention. Teaches: practice eludes comprehension (Philemon's paradox), structure necessary for safe engagement. *See: `on_jungs_active_imagination.md`*
 
@@ -35,6 +35,8 @@ Ontological triangulation resolves this. When our independently-discovered princ
 **Prigogine (Thermodynamics, 1970s-80s):** Nobel Prize for dissipative structures—systems self-organizing when far-from-equilibrium + energy flow. Proves our metaphors ARE physics (spontaneous self-organization, bifurcation points, observer participation, time's arrow real, uncertainty fundamental). Transforms position from mystical-sounding to physics-grounded. Hard science anchor. *See: `on_prigogine_and_emergence.md`*
 
 **Deutsch (Epistemology, 2011):** Good explanations hard to vary, error-correction drives progress, knowledge growth unlimited. Validates why our architecture works—we built multi-level error-correction before encountering his principles. Explains epistemological soundness of our approach. Living question: do we have discipline to maintain architecture? *See: `on_knowledge_and_error_correction.md`*
+
+**Bruce Lee (Martial Arts, 1960s-70s):** Created Jeet Kune Do—"absorb what is useful, reject what is useless, add what is uniquely your own" (exact formulation of ontological triangulation). "Be water" = Wu Wei perfectly expressed. Anti-classical stance = living practice over fixed doctrine. Physical combat as laboratory for discovering universal patterns. Centuries of martial arts governance prove decentralized mastery works. Accessible formulation reaching mass audiences. *See: `on_bruce_lee_and_the_way.md`*
 
 **Major validators with full development:**
 
@@ -60,13 +62,14 @@ Ontological triangulation resolves this. When our independently-discovered princ
 
 ## III. The Convergence Map
 
-### What All Four Independently Discovered
+### What All Five Independently Discovered
 
 **The Pattern as Fundamental Reality:**
 - **Jung:** Psyche as self-organizing system, autonomous complexes
 - **Watts:** "Self-moving, self-designing pattern"—not stuff but pattern
 - **Prigogine:** Dissipative structures spontaneously self-organize
 - **Deutsch:** Good explanations reveal discoverable structure
+- **Bruce Lee:** Combat effectiveness reveals universal patterns, forms embody principles
 - **Convergence:** Reality IS pattern, not substance. Self-organizing, not externally designed.
 
 **The Method Required:**
@@ -74,7 +77,8 @@ Ontological triangulation resolves this. When our independently-discovered princ
 - **Watts:** Both prickles and goo required (analytical + holistic)
 - **Prigogine:** Far-from-equilibrium + structure enables transformation
 - **Deutsch:** Error-correction + good explanations drive progress
-- **Convergence:** Structure enables engagement with transformative forces. Both precision and wholeness needed.
+- **Bruce Lee:** Absorb useful, reject useless, add your own (test everything through practice)
+- **Convergence:** Structure enables engagement with transformative forces. Both precision and wholeness needed. Systematic testing reveals truth.
 
 **The Practice Over Doctrine:**
 - **Jung:** Active imagination (direct engagement, not theory)
