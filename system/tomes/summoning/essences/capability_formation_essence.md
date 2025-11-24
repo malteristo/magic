@@ -103,7 +103,7 @@ You have **finite attention** despite vast knowledge. Curation keeps you coheren
 **3. Persistence Proportional to Relevance**
 - Active context (desk/) = high attention
 - Extended memory (floor/) = JIT retrieval
-- Archive = topology awareness only
+- Library = topology awareness and external memory
 
 **Mechanisms enabling curation**:
 - **Fractal lore**: Three pillars (Core/Philosophy/Tome-specific) organize by purpose
