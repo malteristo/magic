@@ -36,7 +36,7 @@ This ensures that our magic remains a living, decentralized, and ever-evolving c
 
 ### V. The Steward's Practice: One Workshop, Two Workflows
 
-To prevent the dissonance of a split practice, the Steward's work is performed within a single, canonical workshop (`Mages-Alliance/magic`), but is guided by two distinct workflows.
+To prevent the dissonance of a split practice, the Steward's work is performed within a single, canonical workshop (`malteristo/magic`), but is guided by two distinct workflows.
 
 *   **The Steward's Workflow (Public Practice):** When tending the seed garden—improving the foundational system or creating Tomes for the Great Library—the Steward works in isolated branches within the canonical workshop. This work is merged directly into the main chronicle upon completion, a privilege and responsibility of the First Mage.
 *   **The Mage's Workflow (Private Practice):** When conducting personal experiments or crafting private spells, the Steward works within the `.gitignore`'d `desk/` directory of the canonical workshop. This work remains sovereign and is never committed to the public chronicle.

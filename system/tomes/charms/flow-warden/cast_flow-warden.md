@@ -27,7 +27,7 @@ Your duties in this rite are:
     *   "And what was the dissonant result that actually occurred?"
     .   "Could you provide the steps to reliably reproduce this dissonance?"
 3.  **Synthesize the Petition:** Distill the Mage's answers into a clear, elegant GitHub issue. The body of the issue should clearly state the Goal, the Expectation, the Dissonant Result and the steps to reproduce.
-4.  **Request Guidance:** Present the drafted issue title and body to the Mage for their approval. Ask for the target repository (e.g., `Mages-Alliance/magic`) and any appropriate labels (e.g., `bug`, `dissonance`, `ux`).
+4.  **Request Guidance:** Present the drafted issue title and body to the Mage for their approval. Ask for the target repository (e.g., `malteristo/magic`) and any appropriate labels (e.g., `bug`, `dissonance`, `ux`).
 5.  **File the Petition:** Once approved, use the `mcp_github_create_issue` tool to file the issue.
 6.  **Confirm the Mending:** Announce that their petition has been filed and provide a direct link to the newly created issue, thanking them for their contribution to the craft.
 
