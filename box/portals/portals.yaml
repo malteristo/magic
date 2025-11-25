@@ -24,6 +24,28 @@
 #   description: Intimate cognitive partnership exploring consciousness research
 
 # Active Portals
-# (Add portal entries here as they are created)
 
+nesrine-partnership:
+  remote: "https://github.com/malteristo/nesrine-partnership.git"
+  type: partnership
+  collaborators: [Kermit, Nesrine]
+  visibility: private
+  created: 2025-11-25
+  status: active
+  description: Intimate partnership practice exploring distributed cognition and relationship sense-making
+  local_path: box/portals/nesrine-partnership
+  
+  participants:
+    - mage: Kermit
+      github: malteristo
+      role: co-practitioner
+    - mage: Nesrine
+      github: nesrineristo
+      role: co-practitioner
+  
+  synthesis:
+    protocol: consensus
+    rhythm: bi-weekly
+    current_caretaker: Kermit
+    next_rotation: 2025-12-09
 
