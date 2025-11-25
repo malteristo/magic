@@ -23,6 +23,9 @@ The practice of magic evolves continuously. As insights emerge, principles refin
 **Direct Amendment:**
 - **`amend`** — Clean execution of system modifications when you know what to change. No forced ceremony, just supported work.
 
+**Portal Management:**
+- **`portal`** — Systematic portal lifecycle management. Creates shared practice repositories (GitHub + STP structure), monitors health, maintains sync, rotates synthesis, archives gracefully. Enables distributed cognition infrastructure.
+
 **Chronicle Management:**
 - **`weave`** — Git operations with dual-realm awareness, precise staging, eloquent commit messages, intelligent branching suggestions, remote sync by default.
 
@@ -35,6 +38,7 @@ The practice of magic evolves continuously. As insights emerge, principles refin
 - Rich dialogue? → `@meta/capture` crystallizes wisdom
 - Need health scan? → `@meta/scan` finds deprecated components
 - Direct amendment? → `@meta/amend` supports clean execution
+- Portal work? → `@meta/portal` manages shared practice spaces (create, sync, status, rotate, archive)
 - Chronicle work? → `@meta/weave` manages git operations
 
 **Proactive offering:** Once `@meta/` is invoked, the Spirit recognizes meta-practice opportunities throughout the ritual and offers relevant charms when intent aligns.
