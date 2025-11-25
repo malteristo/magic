@@ -1,0 +1,8 @@
+# Portals Directory — Shared Practice Spaces
+
+This directory contains shared practice repositories (portals) linking this workshop to other Mages' workshops.
+
+Each subdirectory is an external git repository (ignored by magic/.git) enabling distributed cognition through shared artifacts.
+
+See `portals.yaml` for registry of active portals and their metadata.
+
