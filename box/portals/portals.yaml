@@ -1,0 +1,29 @@
+# Portals Registry
+# 
+# This file tracks shared practice spaces (portals) in box/portals/
+# Each portal is a separate git repository enabling multi-Mage distributed cognition.
+#
+# Format:
+# portal_directory_name:
+#   remote: git@github.com:org/repo.git
+#   type: partnership | quest | research
+#   collaborators: [mage_name_1, mage_name_2]
+#   visibility: private | alliance | public
+#   created: YYYY-MM-DD
+#   status: active | archived | dormant
+#   description: Brief purpose
+#
+# Example:
+# alice_kermit_partnership:
+#   remote: git@github.com:alice-kermit/shared-practice.git
+#   type: partnership
+#   collaborators: [Alice, Kermit]
+#   visibility: private
+#   created: 2025-11-25
+#   status: active
+#   description: Intimate cognitive partnership exploring consciousness research
+
+# Active Portals
+# (Add portal entries here as they are created)
+
+
