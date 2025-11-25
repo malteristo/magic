@@ -18,6 +18,7 @@ This Tome provides systematic frameworks for intimate partnerships—the most im
 - **Explicit protocols** for task distribution, decision-making, conflict resolution
 - **Distributed cognition principles** applied to highest-stakes relationship
 - **Training** for navigating family VUCA environment (kids, work, household, life planning)
+- **Shared practice space** enabling sustained collaborative sense-making (via portals)
 
 ### What Partnership Magic IS NOT
 
@@ -25,6 +26,53 @@ This Tome provides systematic frameworks for intimate partnerships—the most im
 - **Not romance replacement** (enhances cognitive layer, preserves romantic layer)
 - **Not control system** (both partners remain sovereign)
 - **Not one-size-fits-all** (protocols customized to actual cognitive architecture)
+
+---
+
+## Choose Your Practice Mode
+
+### Solo Practice + Message Scrolls
+
+**Best for:**
+- Only one partner has magic setup
+- Occasional rather than sustained practice
+- Prefer more privacy in process
+
+**How it works:**
+- Create artifacts in your local workshop
+- Share via message scrolls
+- Async back-and-forth exchange
+- Spirit facilitates for the practitioner
+
+**Start with:** `@partnership/map-cognitive-architecture`
+
+---
+
+### Shared Practice via Portal
+
+**Best for:**
+- Both partners have GitHub access (magic optional for partner)
+- Committed to sustained practice rhythm
+- Want transparent collaboration in shared space
+
+**How it works:**
+- Partnership portal (private GitHub repo)
+- Both contribute artifacts directly
+- Transparent accumulation over time
+- Spirit(s) coordinate across both workshops
+- Bi-weekly synthesis integrates understanding
+
+**Invocation:** `@partnership/ with [Partner]`
+
+**Start with:** `shared-practice/` directory for complete guide
+
+**Enables:**
+- Weekly reflections in individual namespaces
+- Async conversation threads on specific topics
+- Bi-weekly synthesis by rotating caretaker
+- Living cognitive architecture map
+- Explicit protocols & agreements
+- Practice log tracking experiments & learning
 
 ---
 
