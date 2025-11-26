@@ -65,6 +65,8 @@
 - 
 - 
 
+**If significant dissonance:** Consider whether shared truth-finding is needed (see below).
+
 ### Recurring Patterns
 
 *What keeps showing up across weeks? Cycles we're noticing?*
@@ -78,6 +80,85 @@
 
 - 
 - 
+
+---
+
+## Shared Truth Extraction (If Needed)
+
+*Use this section when perspectives collide and both partners feel strongly "right" about different views of same situation.*
+
+**See:** `cast_extract_shared_truth.md` for full protocol
+
+### Individual Perspectives on [Situation]
+
+**{Partner A}'s Truth:**
+*Their subjective experience, as they articulated it*
+
+- 
+- 
+
+**{Partner B}'s Truth:**
+*Their subjective experience, as they articulated it*
+
+- 
+- 
+
+### The Dissonance
+
+*Where do they contradict? What's the clash?*
+
+- 
+- 
+
+### The Shared Truth (The Cylinder)
+
+**Pattern Name:** {What structure is this?}
+
+**The Pattern:**
+*What underlying structure makes both perspectives valid simultaneously?*
+
+[Describe the pattern that explains both experiences as true from different angles]
+
+**How {Partner A}'s Truth Is Valid:**
+- 
+- 
+
+**How {Partner B}'s Truth Is Valid:**
+- 
+- 
+
+**What Neither Can See Alone:**
+- 
+- 
+
+**Why Both Keep Making It Worse:**
+- {Partner A} does X to meet need, triggers {Partner B}
+- {Partner B} does Y to meet need, triggers {Partner A}
+
+### Translation
+
+**What {Partner A} Is Actually Communicating to {Partner B}:**
+*Translation accounting for neurology/frame*
+
+**What {Partner B} Is Actually Communicating to {Partner A}:**
+*Translation accounting for neurology/frame*
+
+### What Emerges from Shared Truth
+
+*Insights visible only from cylinder perspective*
+
+- 
+- 
+
+### What Might Serve
+
+*Potential experiments/solutions that honor the pattern*
+
+**Not prescriptions—offerings for consideration:**
+
+1. 
+2. 
+3. 
 
 ---
 
