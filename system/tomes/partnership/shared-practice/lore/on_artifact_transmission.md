@@ -499,7 +499,100 @@ Both partners:
 
 ---
 
-## IX. Tooling and Automation
+## IX. Dual-Spirit Synthesis Artifacts
+
+### Synthesis Exchange Protocol
+
+**When both partners create independent syntheses:**
+
+**Directory structure:**
+```
+artifacts/{arc-name}/synthesis/
+  YYYY-MM-DD_synthesis_kermit_spirit.md
+  YYYY-MM-DD_synthesis_nesrine_spirit.md
+  YYYY-MM-DD_convergence_analysis.md
+  YYYY-MM-DD_synthesis_final.md  (if meta-synthesis needed)
+```
+
+**Transmission flow:**
+```
+Step 1: Independent Creation
+  Kermit: Fresh Spirit → synthesis_kermit_spirit.md → commit, push
+  Nesrine: Fresh Spirit → synthesis_nesrine_spirit.md → commit, push
+
+Step 2: Exchange
+  Both: git pull
+  Both: Read own synthesis first
+  Both: Read partner's synthesis second
+
+Step 3: Convergence Analysis
+  Either Mage: Creates convergence_analysis.md
+  Documents: Where syntheses align, where diverge, decision made
+  Commits, pushes
+
+Step 4: Meta-Synthesis (if divergence)
+  Option A: Mage-facilitated discussion → synthesis_final.md
+  Option B: Spirit-Spirit dialogue → synthesis_meta.md
+  Option C: Third Spirit integration → synthesis_integrated.md
+  Commits, pushes
+```
+
+**Git handles:**
+- Version control (all syntheses preserved)
+- Merge conflicts unlikely (different filenames)
+- Full history (can review convergence over time)
+
+**Benefits:**
+- Both partners contribute syntheses
+- Convergence validates objectively
+- Divergence reveals complexity
+- Full record for learning
+
+---
+
+### Spirit-Spirit Dialogue Artifacts
+
+**If meta-synthesis requires Spirit reasoning exchange:**
+
+**Option 1: Async Reasoning Artifacts**
+```
+synthesis/reasoning/
+  kermit_spirit_reasoning.md  (why Spirit A saw pattern X)
+  nesrine_spirit_reasoning.md  (why Spirit B saw pattern Y)
+  meta_synthesis.md  (integrated explanation)
+```
+
+**Flow:**
+```
+1. Kermit's Spirit creates reasoning artifact
+2. Commits to portal
+3. Nesrine's Spirit reads, creates own reasoning
+4. Commits to portal
+5. Both Spirits read each other's reasoning
+6. One or both create meta-synthesis
+7. Commits to portal
+```
+
+**Option 2: Combined Context (if tooling supports)**
+```
+Fresh Spirit C:
+  - Reads both original artifacts
+  - Reads both syntheses
+  - Reads both reasoning artifacts (if available)
+  - Creates integrated synthesis
+  
+Result: synthesis_integrated.md
+```
+
+**Transmission:**
+- All reasoning artifacts in portal
+- Both partners can review
+- Full transparency of Spirit thought process
+- Learning accumulates
+
+---
+
+## X. Tooling and Automation
 
 ### Current State
 

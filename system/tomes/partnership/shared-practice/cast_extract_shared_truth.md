@@ -26,6 +26,36 @@
 
 ## The Ritual Structure
 
+### Phase 0: Dual-Spirit Protocol (Recommended)
+
+**For maximum objectivity and validation:**
+
+This spell can be cast by a single Spirit OR by two independent Spirits (one for each partner) following the dual-Spirit synthesis protocol.
+
+**Dual-Spirit synthesis (recommended):**
+- Both partners summon FRESH Spirits (new workspace, no prior context)
+- Both Spirits follow this protocol independently
+- Both create syntheses without knowing what the other found
+- Partners compare syntheses to validate convergence
+
+**Why this serves:**
+- Two independent observers validate pattern is real (not biased)
+- Convergence proves shared truth is objective
+- Divergence reveals complexity or magic practice differences
+- Partners trust synthesis (own Spirit confirmed it)
+
+**See:** `lore/on_dual_spirit_synthesis.md` for full protocol
+
+**Single-Spirit synthesis (acceptable):**
+- One Spirit extracts cylinder
+- Faster, simpler
+- But no validation mechanism
+- Partner might doubt neutrality
+
+**For this spell:** Instructions assume single Spirit. For dual-Spirit, each Spirit follows same phases independently, then results are compared (see Phase 7b).
+
+---
+
 ### Phase 1: Gather Artifacts (Preparation)
 
 **Collect:**
@@ -236,7 +266,9 @@
 
 **Create synthesis artifact in portal:**
 
-**Location:** `box/portals/{portal-name}/artifacts/synthesis/{date}_{arc-name}_synthesis.md`
+**Location (single-Spirit):** `box/portals/{portal-name}/artifacts/{arc-name}/synthesis/{date}_synthesis.md`
+
+**Location (dual-Spirit):** `box/portals/{portal-name}/artifacts/{arc-name}/synthesis/{date}_synthesis_{mage-name}_spirit.md`
 
 **Structure:**
 ```markdown
@@ -322,7 +354,9 @@
 
 ---
 
-### Phase 7: Facilitate Engagement (Follow-Up)
+### Phase 7a: Facilitate Engagement (Single-Spirit)
+
+**If single Spirit created synthesis:**
 
 **When both have read:**
 
@@ -346,6 +380,175 @@
 - Pattern makes sense to both
 - Solutions start emerging naturally
 - Coupling quality improves
+
+---
+
+### Phase 7b: Cross-Comparison (Dual-Spirit)
+
+**If both partners created independent syntheses:**
+
+**Step 1: Individual Review**
+
+Each Mage reads own Spirit's synthesis first:
+- Does this honor my experience?
+- Do I feel seen in this pattern?
+- Does this make my partner's experience comprehensible?
+- What emerges for me from this view?
+
+**If synthesis doesn't resonate:**
+- Engage with your Spirit
+- Refine cylinder based on what's missing
+- Iterate until it lands
+
+---
+
+**Step 2: Exchange Syntheses**
+
+Both Mages exchange and read partner's Spirit's synthesis:
+```
+Kermit reads: synthesis_nesrine_spirit.md
+Nesrine reads: synthesis_kermit_spirit.md
+```
+
+**Comparison questions:**
+- Do both Spirits see the same core pattern?
+- Are cylinders describing the same structure?
+- Where do they converge?
+- Where do they diverge?
+
+---
+
+**Step 3a: If Convergence (Validation Achieved)**
+
+**When both Spirits found same cylinder:**
+
+**Document convergence:**
+```markdown
+# Convergence Analysis
+
+**Independent Syntheses:**
+- Spirit A (via {Mage A}): {Pattern name}
+- Spirit B (via {Mage B}): {Pattern name}
+
+**Convergence:** {High/Moderate/Partial}
+
+**Core Pattern Agreement:**
+{What both Spirits saw identically}
+
+**Minor Variations:**
+{Where emphasis differed but pattern same}
+
+**Validation:**
+Two independent observers following same protocol found
+same underlying structure. High confidence in shared truth.
+
+**Proceeding with:** {synthesis_A / synthesis_B / merged version}
+```
+
+**Actions:**
+1. Celebrate convergence (two Spirits, same truth = robust pattern)
+2. Choose synthesis to use (either, or merge both)
+3. Mark in arc: "Dual-Spirit synthesis validated"
+4. Proceed to engagement (experiments, protocols, etc.)
+
+---
+
+**Step 3b: If Divergence (Deeper Exploration Required)**
+
+**When Spirits found different cylinders:**
+
+**Document divergence:**
+```markdown
+# Convergence Analysis
+
+**Independent Syntheses:**
+- Spirit A (via {Mage A}): {Pattern X}
+- Spirit B (via {Mage B}): {Pattern Y}
+
+**Convergence:** {Low/None}
+
+**Divergence Points:**
+1. {Where patterns differ}
+2. {Different emphasis or different structure?}
+3. {What each Spirit saw that other missed}
+
+**Possible Causes:**
+- Pattern complexity (multiple layers)
+- Different depth (one saw meta-pattern)
+- Different emphasis (neurology vs. history)
+- Magic practice differences
+- Actual multi-pattern situation
+
+**Next Steps:**
+{Meta-synthesis protocol selected below}
+```
+
+**Meta-Synthesis Options:**
+
+**Option 1: Mage-Facilitated Discussion**
+```
+Both Mages discuss (human level):
+- "My Spirit saw X because..."
+- "My Spirit saw Y because..."
+- "What overlaps? What's complementary?"
+- "Which serves us? Or do we need both?"
+
+Decision: Use synthesis A, B, or create merged version
+Document decision rationale
+```
+
+**Option 2: Spirit-Spirit Dialogue (Async)**
+```
+Spirit A creates: "synthesis_reasoning_A.md" (why this pattern)
+Spirit B creates: "synthesis_reasoning_B.md" (why this pattern)
+
+Both Spirits read other's reasoning
+Both refine toward shared explanation
+
+Result: synthesis_meta.md (integrates both perspectives)
+Document what divergence revealed
+```
+
+**Option 3: Third Spirit Integration**
+```
+Fresh Spirit C summoned by either Mage (or neutral third party)
+
+Provided:
+- Both original artifacts
+- synthesis_A.md
+- synthesis_B.md
+
+Task: "Two Spirits found different patterns. Extract the pattern
+that integrates both OR explain why both are needed."
+
+Result: synthesis_integrated.md
+Document integration methodology
+```
+
+**Select option based on:**
+- Mage preference
+- Severity of divergence
+- Time/energy available
+- Whether divergence seems resolvable
+
+---
+
+**Step 4: Chronicle Outcome**
+
+**In arc directory:**
+```
+synthesis/
+  {date}_synthesis_kermit_spirit.md  (independent)
+  {date}_synthesis_nesrine_spirit.md  (independent)
+  {date}_convergence_analysis.md  (comparison)
+  {date}_synthesis_final.md  (if meta-synthesis created)
+```
+
+**Update arc status:**
+- Note convergence or divergence
+- Document resolution if divergence
+- Reference final synthesis artifact
+- Capture learning about process
 
 ---
 
