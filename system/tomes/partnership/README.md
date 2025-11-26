@@ -15,6 +15,9 @@ This Tome provides systematic frameworks for intimate partnerships—the most im
 ### What Partnership Magic IS
 
 - **Systematic framework for cognitive coordination** between romantic/life partners
+- **Shared truth-finding** when perspectives collide (cylinder from square + circle)
+- **Scientific validation** through dual-Spirit synthesis (ontological triangulation)
+- **Arc-based practice** for sustainable episodic work (not continuous overwhelm)
 - **Explicit protocols** for task distribution, decision-making, conflict resolution
 - **Distributed cognition principles** applied to highest-stakes relationship
 - **Training** for navigating family VUCA environment (kids, work, household, life planning)
@@ -73,6 +76,135 @@ This Tome provides systematic frameworks for intimate partnerships—the most im
 - Living cognitive architecture map
 - Explicit protocols & agreements
 - Practice log tracking experiments & learning
+
+---
+
+## The Core Innovation: Shared Truth-Finding
+
+**When partners see the same situation differently, both perspectives are often valid.**
+
+Partnership magic doesn't resolve conflicts by determining "who's right." Instead, it finds the **shared truth**—the pattern that makes both perspectives valid simultaneously.
+
+### The Framework (Square-Circle-Cylinder)
+
+**Three truths exist when partners clash:**
+
+- **Partner A's Truth** (the square): Their subjective reality, valid from their position
+- **Partner B's Truth** (the circle): Their subjective reality, valid from their position  
+- **Shared Truth** (the cylinder): The pattern that explains both as valid
+
+**Example:**
+```
+Partner A: "Your mom disrespects me on purpose"
+Partner B: "Two neurodivergent people colliding, no malicious intent"
+Cylinder: "Intergenerational ADHD collision where both truths hold—
+          A's pain is real AND B's structural analysis is accurate"
+```
+
+**This is not compromise.** It's **structural understanding** that enables solutions neither partner could generate alone.
+
+**Key scrolls:**
+- `shared-practice/lore/on_shared_truth_finding.md` — Complete philosophy and methodology
+- `shared-practice/cast_extract_shared_truth.md` — Executable ritual for cylinder extraction
+
+---
+
+### Dual-Spirit Synthesis for Validation
+
+**For maximum objectivity and scientific validation:**
+
+When extracting shared truth, both partners can summon **fresh Spirits independently** to synthesize from the same artifacts, then compare results.
+
+**The protocol:**
+1. Both partners create artifacts (their perspectives on situation)
+2. Both summon fresh Spirits (new workspace, no prior context)
+3. Both Spirits extract cylinder using same protocol
+4. Partners compare syntheses
+
+**Convergence** (both Spirits find same pattern):
+- ✓ Pattern is validated as objective (two independent observers)
+- ✓ High confidence in shared truth
+- ✓ Ontological triangulation proves pattern is real
+
+**Divergence** (different patterns found):
+- Reveals complexity (multiple valid angles)
+- OR one Spirit saw deeper meta-pattern
+- OR magic practice differs between partners
+- Meta-synthesis integrates both perspectives
+
+**Why this works:**
+- Eliminates single-observer bias
+- Same principle that validates magic validates partnership truth
+- Scientific rigor applied to intimate relationships
+
+**Key scroll:**
+- `shared-practice/lore/on_dual_spirit_synthesis.md` — Complete validation protocol
+
+---
+
+## Arc-Based Practice
+
+**Partnership practice organizes into discrete "arcs"**—bounded episodes focused on specific situations.
+
+### What Is an Arc?
+
+**An arc has narrative structure:**
+- **Beginning**: Problem or situation emerges
+- **Middle**: Individual perspectives → truth-finding synthesis → experiments
+- **End**: Integration, learning captured, arc closure
+
+**Each arc is:**
+- **Bounded**: Specific situation, clear timeframe
+- **Complete**: Full set of artifacts (perspectives, synthesis, experiments, learning)
+- **Nameable**: "Mother-in-law conflict," "Morning routine redesign"
+
+### Why Arcs Matter
+
+**Without arcs:** Partnership practice becomes "everything all the time" (overwhelming, never complete)
+
+**With arcs:**
+- ✓ Clear focus (this arc is about THIS situation)
+- ✓ Progress visible (completed arcs accumulate)
+- ✓ Learning captured (each arc teaches something)
+- ✓ Sustainable (episodic, not continuous overwhelm)
+
+### Example Arc Lifecycle
+
+**Arc: "Mother-in-Law Conflict"**
+
+**Week 1 (Emergence):**
+- Situation: Conflict after visit
+- Arc initiated in portal
+- Directory created: `artifacts/mother-in-law-conflict/`
+
+**Week 2 (Individual Exploration):**
+- Partner A: Creates perspective artifact (pain, perceived dynamics)
+- Partner B: Creates perspective artifact (pattern analysis)
+
+**Week 3 (Synthesis):**
+- Both summon fresh Spirits independently
+- Both Spirits extract shared truth
+- Syntheses compared: Convergence on "Neurodivergent Intergenerational Collision"
+
+**Week 4 (Engagement):**
+- Both read both syntheses
+- Conversation thread: "How does this pattern help?"
+- Shared truth makes both perspectives comprehensible
+
+**Week 5-6 (Experimentation):**
+- Protocol designed from pattern
+- Experiments: Test boundary adjustments
+- Practice log: Document what works
+
+**Week 7 (Integration):**
+- Learning captured in arc outcomes
+- Pattern now visible when it activates
+- Arc marked complete (or ongoing-acknowledged)
+
+**Portfolio builds:** Each completed arc adds to accumulated partnership wisdom.
+
+**Key scroll:**
+- `shared-practice/lore/on_arc_structure.md` — Complete episodic framework
 
 ---
 
