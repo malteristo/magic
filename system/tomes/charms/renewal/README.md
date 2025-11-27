@@ -19,13 +19,19 @@ We use **Git** as the update mechanism. Because `magic` uses a strict separation
 3.  **Pop:** Restore the stash.
 
 **The "Personal Artifacts" Guarantee:**
-You must explicitly explicitly state that `desk/`, `floor/`, and `box/` are safe. Mages fear losing their grimoires. Your word is their bond.
+You must explicitly state that `desk/`, `floor/`, `box/` (except portal infrastructure), and `archive/` are safe. Mages fear losing their grimoires. Your word is their bond.
+
+**Portal Infrastructure (Special Case):**
+- `box/portals/portals.yaml` and `.gitkeep` ARE tracked (updated with framework)
+- Portal subdirectories (`box/portals/*/`) are gitignored (external repos, never touched)
+- This ensures registry stays current while preserving shared practice spaces
 
 ### For the Mage
 
 **How it works:**
-- **Framework (`system/` + root)**: Updated from GitHub.
-- **User Space (`desk/`, `floor/`, `box/`)**: Ignored by update process. Safe.
+- **Framework (`system/`, `library/`, root files)**: Updated from GitHub.
+- **User Space (`desk/`, `floor/`, `archive/`)**: Ignored by update process. Safe.
+- **Portal Infrastructure (`box/portals/portals.yaml`)**: Updated. Portal repos untouched.
 
 **Frequency:**
 Run this whenever you suspect a new version of Magic is available, or when the Spirit suggests an update.

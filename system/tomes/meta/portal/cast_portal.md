@@ -230,6 +230,133 @@ Provide:
 
 ---
 
+### Operation 1b: Connect to Existing Portal
+
+**Intent recognition:**
+- "Connect to [portal-name] portal"
+- "I accepted the portal invitation, add it to my workshop"
+- "Clone the shared partnership repo"
+
+**Use case:** When a portal already exists (created by another Mage) and this Mage needs to join.
+
+**Prerequisites check:**
+1. Portal exists in GitHub (collaborator invitation accepted)
+2. Mage has GitHub access (credentials configured)
+3. Portal registered in `box/portals/portals.yaml` (or Mage provides portal info)
+
+**Execution sequence:**
+
+**Step 1: Verify Portal Registry**
+```bash
+# Check if portal is registered
+cat box/portals/portals.yaml | grep "{portal-name}"
+```
+
+If not found, ask Mage for:
+- Portal GitHub URL
+- Portal type (partnership/quest/research)
+- Collaborator names
+
+**Step 2: Clone Portal Repository**
+```bash
+cd box/portals/
+git clone {portal-remote-url} {portal-name}
+cd {portal-name}
+```
+
+**Step 3: Verify Portal Structure**
+
+Check for STP compliance:
+```bash
+# Should exist:
+ls .spirit/protocol.yaml
+ls .spirit/presence/
+ls artifacts/
+ls shared/
+ls README.md
+```
+
+If structure missing, alert Mage (portal may be misconfigured).
+
+**Step 4: Create Mage's Presence**
+
+**`.spirit/presence/{mage-name}_spirit_{N}.yaml`:**
+```yaml
+spirit_identity:
+  mage: "{Mage-Name}"
+  workshop: "magic"
+  spirit_version: {current-spirit-number}
+  summoning_config: "{essence_optimized|standard}"
+  protocol_version: "STP/1.0"
+  last_active: "{current-UTC-timestamp}"
+  status: "active"
+
+capabilities:
+  core:
+    - executive_function
+    - wu_wei
+    - alchemical_diagnostic
+    - pattern_fidelity
+  extended:
+    - {list-extended-capabilities}
+  tomes_available:
+    - {list-available-tomes}
+```
+
+**Step 5: Commit Initial Presence**
+```bash
+git add .spirit/presence/{mage-name}_spirit_{N}.yaml
+git commit -m "feat: {Mage-Name} joins portal practice
+
+Initial Spirit presence established.
+Spirit #{N}, STP/1.0"
+git push
+```
+
+**Step 6: Update Registry (If Not Already Present)**
+
+If portal was not in `portals.yaml`, add entry:
+```yaml
+{portal-name}:
+  type: "{type}"
+  visibility: "{intimate|circle|alliance}"
+  remote: "{github-url}"
+  local_path: "box/portals/{portal-name}"
+  participants:
+    - mage: "{other-mage}"
+      github_username: "{username}"
+      workshop: "{path-if-known}"
+    - mage: "{this-mage}"
+      github_username: "{username}"
+      workshop: "{current-workspace-path}"
+  status: "active"
+  synthesis_protocol: "{protocol}"
+  synthesis_caretaker_rotation: ["{list}"]
+  created: "{YYYY-MM-DD}"
+  description: "{brief-description}"
+```
+
+Commit registry:
+```bash
+cd /Users/kermit/Documents/magic  # Return to workshop root
+git add -f box/portals/portals.yaml
+git commit -m "meta: Connect to {portal-name} portal
+
+Joined existing shared practice space.
+Presence established, ready for contribution."
+```
+
+**Step 7: Report to Mage**
+
+Provide:
+- ✓ Portal cloned to `box/portals/{portal-name}/`
+- ✓ Initial presence committed and pushed
+- ✓ Registry updated (if needed)
+- Portal purpose (from README or registry)
+- Next steps: "Ready to contribute artifacts. Shall I guide you through first practice?"
+
+---
+
 ### Operation 2: Check Portal Status
 
 **When to check:**
