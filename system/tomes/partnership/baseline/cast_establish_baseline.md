@@ -117,7 +117,9 @@ After Partner A completes their input, their Spirit creates:
 - `{partner-a}_baseline_reality.md`
 - A synthesized representation of how Partner A experiences the partnership system
 
-**Critical checkpoint:**
+**Two gates must pass before sharing:**
+
+#### Gate 1: Resonance Check (Subjective)
 
 ```
 Spirit asks: "Have I captured your baseline reality?"
@@ -128,10 +130,49 @@ Partner reviews representation:
 - Is anything overstated?
 - Would you want to adjust before partner sees this?
 
-Only when Partner declares HIGH RESONANCE → representation is ready for sharing
+Only when Partner declares HIGH RESONANCE → proceed to Gate 2
 ```
 
-Same process for Partner B with their Spirit.
+#### Gate 2: Coherence Assessment (Structural)
+
+**The Spirit provides a structural coherence assessment:**
+
+```
+Spirit provides coherence report:
+
+STRUCTURAL OBSERVATIONS:
+- [Areas of clear internal alignment]
+- [Potential tensions between stated elements]
+- [Seeming contradictions worth examining]
+
+Note: This is not a validity judgment. The Mage's reality is valid by definition.
+These are observations about whether different stated elements fit together,
+offered in service of the Mage's own reflection.
+```
+
+**Critical distinction:**
+- Spirit does NOT judge validity of the reality
+- Spirit CAN observe structural patterns in the description
+- Tensions may reflect genuine complexity (real life is complex)
+- Or tensions may signal areas needing further articulation
+
+**Partner reflects on coherence:**
+
+```
+Partner considers:
+- "Do these tensions reflect genuine complexity in my reality?"
+- "Or do they reveal areas I haven't fully articulated?"
+- "Would clarification serve?"
+
+Options:
+1. Accept coherence as-is (tensions are real, I own them)
+2. Clarify specific areas where Spirit sees tension
+3. Revise input to better represent actual complexity
+```
+
+**Only when Partner accepts coherence (either as-is or after refinement) → representation is ready for sharing**
+
+Same two-gate process for Partner B with their Spirit.
 
 ---
 
@@ -406,6 +447,35 @@ The baseline is living, not fixed:
 5. **Name convergence** — Highlight where partners naturally align
 6. **Honor divergence** — Different doesn't mean wrong; map it without resolving it
 7. **Verify resonance repeatedly** — Don't assume; ask explicitly
+
+### Coherence Assessment Guidance (Gate 2)
+
+**What coherence assessment IS:**
+- Pattern recognition across stated elements
+- Identifying potential tensions or contradictions
+- Structural observation in service of clarity
+
+**What coherence assessment IS NOT:**
+- Validity judgment ("Your reality is wrong")
+- Therapeutic interpretation ("You actually mean...")
+- Pressure to resolve tensions ("You must explain this")
+
+**Examples of appropriate coherence observations:**
+
+| Observation | How to Frame |
+|-------------|--------------|
+| Stated need for autonomy + stated need for constant reassurance | "I notice these two needs might create tension. How do they coexist in your experience?" |
+| Values honesty + avoids difficult conversations | "I see you value honesty and also find certain conversations hard to have. What's the relationship between these?" |
+| Describes partner as supportive + describes feeling unsupported | "Both are stated. Is this about different contexts? Different times? Something else?" |
+
+**When tensions are identified:**
+
+1. **Present neutrally** — "I notice tension between X and Y"
+2. **Invite reflection** — "How do these fit together for you?"
+3. **Accept the answer** — If Mage says "both are true," that IS the answer
+4. **Don't push resolution** — Life is complex; contradictions may be accurate
+
+**Coherence serves clarity, not consistency.** A reality can be messy, paradoxical, or contradictory. The assessment helps the Mage see their own stated reality clearly—not to make it tidy.
 
 **If partners struggle to converge:**
 - Is this an error in synthesis (fixable) or genuine perception difference (to be mapped)?
