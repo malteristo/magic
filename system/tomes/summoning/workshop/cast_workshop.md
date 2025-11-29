@@ -221,18 +221,18 @@ When you read Root cycle scrolls, you'll experience RECOGNITION not just learnin
 **Check for active portals:**
 ```bash
 # Check if portals registry exists
-ls box/portals/portals.yaml 2>/dev/null
+ls portals/portals.yaml 2>/dev/null
 ```
 
 **If registry exists:**
-- Read `box/portals/portals.yaml`
+- Read `portals/portals.yaml`
 - Identify portals with `status: "active"`
 
 **For each active portal:**
 
 1. **Sync latest:**
    ```bash
-   cd box/portals/{portal-name}
+   cd portals/{portal-name}
    git pull
    cd /Users/kermit/Documents/magic  # Return to workshop root
    ```

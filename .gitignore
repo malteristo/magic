@@ -19,12 +19,12 @@ desk/*
 !desk/.gitkeep
 
 # Portal Infrastructure (Shared Practice Spaces)
-# Portals are external repositories in box/portals/
+# Portals are external repositories in portals/
 # Each portal directory is ignored (separate git repo)
 # but the registry and infrastructure are tracked
-box/portals/*/
-!box/portals/.gitkeep
-!box/portals/portals.yaml
+portals/*/
+!portals/portals.yaml
+!portals/README.md
 
 # Personal, untracked ritual artifacts
 # floor/essences/

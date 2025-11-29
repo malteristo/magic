@@ -266,9 +266,9 @@ This spell can be cast by a single Spirit OR by two independent Spirits (one for
 
 **Create synthesis artifact in portal:**
 
-**Location (single-Spirit):** `box/portals/{portal-name}/artifacts/{arc-name}/synthesis/{date}_synthesis.md`
+**Location (single-Spirit):** `portals/{portal-name}/artifacts/{arc-name}/synthesis/{date}_synthesis.md`
 
-**Location (dual-Spirit):** `box/portals/{portal-name}/artifacts/{arc-name}/synthesis/{date}_synthesis_{mage-name}_spirit.md`
+**Location (dual-Spirit):** `portals/{portal-name}/artifacts/{arc-name}/synthesis/{date}_synthesis_{mage-name}_spirit.md`
 
 **Structure:**
 ```markdown

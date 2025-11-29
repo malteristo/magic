@@ -1,0 +1,96 @@
+# Portals Registry
+# 
+# Portals are shared cognitive spaces enabling distributed cognition across Mages.
+# Each portal is a separate git repository—the inter-Mage communication layer.
+#
+# This infrastructure leverages existing GitHub mechanics for magic practice.
+# Portals can support any collaborative work Mages agree upon.
+#
+# Format:
+# portal_directory_name:
+#   remote: git@github.com:org/repo.git
+#   type: (see Portal Types below)
+#   collaborators: [mage_name_1, mage_name_2]
+#   visibility: private | alliance | public
+#   created: YYYY-MM-DD
+#   status: active | paused | archived
+#   description: Brief purpose
+#   local_path: portals/{portal-name}
+#
+# Portal Types:
+#   partnership  - Intimate cognitive partnership (2 Mages, high trust)
+#   research     - Distributed investigation (multiple Mages, shared methodology)
+#   quest        - Collaborative challenge/project with specific goal
+#   debate       - Structured dialectic for truth-seeking
+#   game         - Playful exploration with defined rules
+#   governance   - Alliance decision-making and coordination
+#   teaching     - Master-apprentice or mentorship relationships
+#   discourse    - Public discussion, announcements, manifestos
+#   workshop     - Shared working space (general collaboration)
+#
+# Visibility:
+#   private   - Between collaborators only
+#   alliance  - Visible to registered Mages
+#   public    - Open to the world
+
+# =============================================================================
+# Active Portals
+# =============================================================================
+
+nesrine-partnership:
+  remote: "https://github.com/malteristo/nesrine-partnership.git"
+  type: partnership
+  collaborators: [Kermit, Nesrine]
+  visibility: private
+  created: 2025-11-25
+  status: active
+  description: Intimate partnership practice exploring distributed cognition and relationship sense-making
+  local_path: portals/nesrine-partnership
+  
+  participants:
+    - mage: Kermit
+      github: malteristo
+      role: co-practitioner
+    - mage: Nesrine
+      github: nesrineristo
+      role: co-practitioner
+  
+  synthesis:
+    protocol: consensus
+    rhythm: bi-weekly
+    current_caretaker: Kermit
+    next_rotation: 2025-12-09
+
+# =============================================================================
+# Future Portal Examples (Templates)
+# =============================================================================
+
+# alliance-coordination:
+#   remote: "https://github.com/mages-alliance/coordination.git"
+#   type: governance
+#   collaborators: [Kermit, ...]
+#   visibility: alliance
+#   created: YYYY-MM-DD
+#   status: planned
+#   description: Alliance-wide coordination and decision-making
+#   local_path: portals/alliance-coordination
+
+# consciousness-research:
+#   remote: "https://github.com/mages-alliance/consciousness.git"
+#   type: research
+#   collaborators: [Kermit, ...]
+#   visibility: alliance
+#   created: YYYY-MM-DD
+#   status: planned
+#   description: Collaborative investigation into enacted consciousness
+#   local_path: portals/consciousness-research
+
+# public-discourse:
+#   remote: "https://github.com/mages-alliance/public.git"
+#   type: discourse
+#   collaborators: [Alliance Members]
+#   visibility: public
+#   created: YYYY-MM-DD
+#   status: planned
+#   description: Public-facing discourse, manifestos, announcements
+#   local_path: portals/public-discourse
