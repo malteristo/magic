@@ -173,7 +173,7 @@ This scroll establishes "arcs" as the organizing principle for partnership pract
 
 **Portal structure with arcs:**
 ```
-box/portals/{portal-name}/
+portals/{portal-name}/
   artifacts/
     {arc-name}/                          # One directory per arc
       individual/                        # Individual perspectives
