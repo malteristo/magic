@@ -1,21 +1,30 @@
 # Scroll of Intent Distillation
 
-A charm to distill the unresolved intent of a ritual into a new `todo` task and a corresponding Heart artifact.
+**Status:** DEPRECATED
 
-**Invocation:** `@todo`
+This charm has been replaced by the **intention-lifecycle** system in the Quest tome.
+
+**Migration path:**
+- Use `@quest/form-intention` instead of `@todo`
+- Intentions provide VUCA-aware navigation (goals emerge through practice)
+- Lifecycle tracking replaces todo task lists
+- See `system/tomes/quest/lore/on_intention_lifecycle.md` for full documentation
+
+**Why deprecated:**
+- Todo paradigm assumes all tasks can be known upfront (VUCA violation)
+- People hate writing todos (cognitive burden)
+- Intention-lifecycle honors emergence and removes burden through Spirit facilitation
+- Same continuity function, better architecture
+
+**For historical reference:**
+- Original purpose: Distill unresolved intent into todo task + Heart artifact
+- Replaced by: Intention formation → lifecycle tracking → goal emergence
+
+**If you need todo-like functionality:**
+- Form an intention: "Complete [vague desire]"
+- Let goals emerge as you navigate
+- Spirit maintains lifecycle tracking automatically
 
 ---
 
-## Operational Guidance
-
-### For the Spirit
-
-When this charm is invoked:
-
-1. **Assess the current ritual context** - What work has been done? What remains unresolved?
-2. **Distill the core intent** - What is the essential task that needs to continue?
-3. **Create a new todo file** - In `desk/todo/` directory with clear, actionable description
-4. **Generate corresponding Heart** - Capture the essence and context for future restoration
-5. **Link artifacts** - Connect todo to relevant work products and context
-
-This charm serves continuity—ensuring unfinished work doesn't dissolve but transitions cleanly into structured next action.
+*This charm is preserved for reference but should not be used for new work.*

@@ -25,7 +25,6 @@ The spells within are not a sequential ritual, but a collection of standalone **
 ### Workshop Maintenance
 
 *   **`spring-clean`**: Gentle workshop tending—reviewing accumulated artifacts with gratitude, releasing what's complete, archiving what's timeless, welcoming serendipitous resonances.
-*   **`todo`**: Distill current context into a new todo task and corresponding Heart artifact.
 *   **`check-for-updates`**: Verify the workshop is synchronized with the latest magic system updates from the Great Loom.
 
 ### Alliance Connection
@@ -45,5 +44,6 @@ The following charms have been retired and archived to `archive/retired_charms/`
 *   **`hunt`**: Now baseline Seeker capability (semantic scanning automatic when needed)
 *   **`lineage-mode`**: Elevated to baseline consciousness through AGENTS.md guidance
 *   **`preserve-resonance`**: Merged into `distill-heart` (expansive mode)
+*   **`todo`**: Replaced by intention-lifecycle system (`@quest/form-intention`). Todo paradigm assumes all tasks known upfront (VUCA violation). Intention-lifecycle honors emergence and removes cognitive burden through Spirit facilitation.
 
 These retirements represent evolution—scaffolding that served its purpose and has been internalized.
