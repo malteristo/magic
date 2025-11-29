@@ -1,281 +1,257 @@
 # Tome of Partnership
 
-**Distributed Cognition for VUCA Family Navigation**
+**Systems Understanding for Intimate Partnership**
 
-This Tome provides systematic frameworks for intimate partnerships—the most important distributed cognitive system you'll ever build. Apply principles proven in Mage-Spirit partnership to human-human collaboration where stakes are highest.
-
-**Your family is a SEAL team operating in a VUCA environment** (volatile, uncertain, complex, ambiguous). This Tome provides the training military special operations receive, but adapted for the chaos of family life with children, neurodivergent partners, and everyday coordination challenges.
+This Tome provides systematic frameworks for intimate partnerships—the most important distributed cognitive system you'll ever build. The core innovation: understanding your partnership as a **relational system**, not a conflict between two individuals.
 
 **Invocation:** `@partnership`
 
 ---
 
-## Start Here: The Foundation
+## The Core Insight
 
-### What Partnership Magic IS
+**Partnership conflicts are not about truth. They are about systems.**
 
-- **Systematic framework for cognitive coordination** between romantic/life partners
-- **Shared truth-finding** when perspectives collide (cylinder from square + circle)
-- **Scientific validation** through dual-Spirit synthesis (ontological triangulation)
-- **Arc-based practice** for sustainable episodic work (not continuous overwhelm)
-- **Explicit protocols** for task distribution, decision-making, conflict resolution
-- **Distributed cognition principles** applied to highest-stakes relationship
-- **Training** for navigating family VUCA environment (kids, work, household, life planning)
-- **Shared practice space** enabling sustained collaborative sense-making (via portals)
+When partners clash, the instinctive question is: "What really happened? Who is right?"
 
-### What Partnership Magic IS NOT
+This question creates adversarial dynamics. If I'm right, you must be wrong.
 
-- **Not therapy** (though it helps relationships)
-- **Not romance replacement** (enhances cognitive layer, preserves romantic layer)
-- **Not control system** (both partners remain sovereign)
-- **Not one-size-fits-all** (protocols customized to actual cognitive architecture)
+**The systems insight dissolves this trap:**
+
+Partners are **nodes in a relational system**—a complex pattern of feedback loops, communication channels, shared history, and emergent dynamics. The conflict is not *between* the partners. The conflict is *produced by* the system they both enact.
+
+**When partners understand the system:**
+- Neither is "the problem" (both are nodes)
+- Both experiences are valid (different positions produce different experiences)
+- Each sees their part without blame (understanding ≠ fault)
+- Change becomes structural (modify the system, not "fix" the partner)
+
+---
+
+## Start Here: The Two Foundational Rituals
+
+### 1. Establish Baseline (FIRST)
+
+**Before any arc work, partners need a shared systems model.**
+
+**`@partnership/establish-baseline`**
+
+The baseline captures:
+- Both partners' cognitive architecture
+- The dynamics between you
+- Your "normal" baseline state
+- Known patterns and agreements
+
+**Critical:** Both partners must achieve HIGH RESONANCE with the baseline. This is your shared reference for all future work.
+
+**Location:** `baseline/cast_establish_baseline.md`
+
+---
+
+### 2. Map System (For Each Arc)
+
+**When conflicts or situations arise, work through the four-stage ritual:**
+
+**`@partnership/map-system`**
+
+**Stage 1: Venting** — Raw reality expression (containment before contact)
+**Stage 2: Reaction** — Witnessing partner's reality
+**Stage 3: System Mapping** — Spirit maps the relational system
+**Stage 4: Conclusion** — Integration, learning, arc closure
+
+**Location:** `shared-practice/cast_map_system.md`
+
+---
+
+## The Architecture
+
+```
+BASELINE (shared systems model—partners must agree)
+    ↓
+ARC 1 → validates or refines baseline
+    ↓  
+ARC 2 → validates or refines baseline
+    ↓
+...accumulating wisdom into increasingly accurate model
+```
+
+Each arc:
+- References baseline
+- Produces named pattern
+- May update baseline
+- Accumulates into partnership wisdom
 
 ---
 
 ## Choose Your Practice Mode
 
+### Shared Practice via Portal (Recommended)
+
+**Best for:** Both partners committed to sustained practice
+
+**How it works:**
+- Partnership portal (private GitHub repo)
+- Both contribute artifacts directly
+- Baseline lives in shared space
+- Arcs accumulate transparently
+- Spirits coordinate across both workshops
+
+**Invocation:** `@partnership/ with [Partner]`
+
+**Enables:**
+- Baseline system model (shared foundation)
+- Arc-based practice (bounded episodes)
+- Weekly reflections
+- Bi-weekly synthesis
+- Accumulated wisdom over time
+
+---
+
 ### Solo Practice + Message Scrolls
 
-**Best for:**
-- Only one partner has magic setup
-- Occasional rather than sustained practice
-- Prefer more privacy in process
+**Best for:** Only one partner has magic setup
 
 **How it works:**
 - Create artifacts in your local workshop
 - Share via message scrolls
 - Async back-and-forth exchange
-- Spirit facilitates for the practitioner
 
 **Start with:** `@partnership/map-cognitive-architecture`
 
 ---
 
-### Shared Practice via Portal
+## The Lore (Foundational Wisdom)
 
-**Best for:**
-- Both partners have GitHub access (magic optional for partner)
-- Committed to sustained practice rhythm
-- Want transparent collaboration in shared space
+### Core Framework
 
-**How it works:**
-- Partnership portal (private GitHub repo)
-- Both contribute artifacts directly
-- Transparent accumulation over time
-- Spirit(s) coordinate across both workshops
-- Bi-weekly synthesis integrates understanding
+| Scroll | Purpose |
+|--------|---------|
+| `on_systems_thinking_for_partnership.md` | **The paradigm shift.** Systems thinking, Watzlawick, Bateson |
+| `on_the_foundations_of_partnership.md` | Partnership = Communication × Cooperation × Iteration |
+| `on_partnership_as_distributed_cognition.md` | Partnership as cognitive system |
 
-**Invocation:** `@partnership/ with [Partner]`
+### Communication & Cooperation
 
-**Start with:** `shared-practice/` directory for complete guide
+| Scroll | Purpose |
+|--------|---------|
+| `on_communication_for_partnership.md` | Applying communication wisdom to intimacy |
+| `on_cooperation_for_partnership.md` | Strategic cooperation in partnership |
 
-**Enables:**
-- Weekly reflections in individual namespaces
-- Async conversation threads on specific topics
-- Bi-weekly synthesis by rotating caretaker
-- Living cognitive architecture map
-- Explicit protocols & agreements
-- Practice log tracking experiments & learning
+**Also study:** `library/wisdom/communication/` for deeper theory
 
----
+### Stances
 
-## The Core Innovation: Shared Truth-Finding
+| Scroll | Purpose |
+|--------|---------|
+| `on_the_counselors_stance.md` | Spirit as curious facilitator |
+| `on_the_emissarys_stance.md` | Spirit as diplomatic representative |
+| `on_romantic_realism.md` | Reality-grounded view of love |
 
-**When partners see the same situation differently, both perspectives are often valid.**
+### Special Contexts
 
-Partnership magic doesn't resolve conflicts by determining "who's right." Instead, it finds the **shared truth**—the pattern that makes both perspectives valid simultaneously.
-
-### The Framework (Square-Circle-Cylinder)
-
-**Three truths exist when partners clash:**
-
-- **Partner A's Truth** (the square): Their subjective reality, valid from their position
-- **Partner B's Truth** (the circle): Their subjective reality, valid from their position  
-- **Shared Truth** (the cylinder): The pattern that explains both as valid
-
-**Example:**
-```
-Partner A: "Your mom disrespects me on purpose"
-Partner B: "Two neurodivergent people colliding, no malicious intent"
-Cylinder: "Intergenerational ADHD collision where both truths hold—
-          A's pain is real AND B's structural analysis is accurate"
-```
-
-**This is not compromise.** It's **structural understanding** that enables solutions neither partner could generate alone.
-
-**Key scrolls:**
-- `shared-practice/lore/on_shared_truth_finding.md` — Complete philosophy and methodology
-- `shared-practice/cast_extract_shared_truth.md` — Executable ritual for cylinder extraction
+| Scroll | Purpose |
+|--------|---------|
+| `on_neurodivergent_partnership.md` | **Essential if either partner is ADHD/autistic** |
 
 ---
 
-### Dual-Spirit Synthesis for Validation
+## The Rituals
 
-**For maximum objectivity and scientific validation:**
+### Baseline
 
-When extracting shared truth, both partners can summon **fresh Spirits independently** to synthesize from the same artifacts, then compare results.
+| Ritual | Purpose |
+|--------|---------|
+| `baseline/cast_establish_baseline.md` | Create shared systems model (FIRST RITUAL) |
 
-**The protocol:**
-1. Both partners create artifacts (their perspectives on situation)
-2. Both summon fresh Spirits (new workspace, no prior context)
-3. Both Spirits extract cylinder using same protocol
-4. Partners compare syntheses
+### Arc Work
 
-**Convergence** (both Spirits find same pattern):
-- ✓ Pattern is validated as objective (two independent observers)
-- ✓ High confidence in shared truth
-- ✓ Ontological triangulation proves pattern is real
+| Ritual | Purpose |
+|--------|---------|
+| `shared-practice/cast_map_system.md` | Four-stage system mapping |
+| `shared-practice/cast_extract_shared_truth.md` | Legacy truth-finding (see cast_map_system for updated approach) |
 
-**Divergence** (different patterns found):
-- Reveals complexity (multiple valid angles)
-- OR one Spirit saw deeper meta-pattern
-- OR magic practice differs between partners
-- Meta-synthesis integrates both perspectives
+### Other Charms
 
-**Why this works:**
-- Eliminates single-observer bias
-- Same principle that validates magic validates partnership truth
-- Scientific rigor applied to intimate relationships
-
-**Key scroll:**
-- `shared-practice/lore/on_dual_spirit_synthesis.md` — Complete validation protocol
+| Charm | Purpose |
+|-------|---------|
+| `map-cognitive-architecture/` | Map both partners' cognitive profiles |
+| `compare-perspectives/` | Integrate two perspectives |
+| `create-message-scroll/` | Create async communication artifact |
+| `craft-declaration/` | Create mutual understanding artifact |
 
 ---
 
-## Arc-Based Practice
+## Safety
 
-**Partnership practice organizes into discrete "arcs"**—bounded episodes focused on specific situations.
+**Partnership synthesis can cause harm in unsafe relationships.**
 
-### What Is an Arc?
+Before system mapping that involves conflict, safety concerns, or clinical patterns:
 
-**An arc has narrative structure:**
-- **Beginning**: Problem or situation emerges
-- **Middle**: Individual perspectives → truth-finding synthesis → experiments
-- **End**: Integration, learning captured, arc closure
+**Read:** `shared-practice/safety/safety_assessment_protocol.md`
 
-**Each arc is:**
-- **Bounded**: Specific situation, clear timeframe
-- **Complete**: Full set of artifacts (perspectives, synthesis, experiments, learning)
-- **Nameable**: "Mother-in-law conflict," "Morning routine redesign"
-
-### Why Arcs Matter
-
-**Without arcs:** Partnership practice becomes "everything all the time" (overwhelming, never complete)
-
-**With arcs:**
-- ✓ Clear focus (this arc is about THIS situation)
-- ✓ Progress visible (completed arcs accumulate)
-- ✓ Learning captured (each arc teaches something)
-- ✓ Sustainable (episodic, not continuous overwhelm)
-
-### Example Arc Lifecycle
-
-**Arc: "Mother-in-Law Conflict"**
-
-**Week 1 (Emergence):**
-- Situation: Conflict after visit
-- Arc initiated in portal
-- Directory created: `artifacts/mother-in-law-conflict/`
-
-**Week 2 (Individual Exploration):**
-- Partner A: Creates perspective artifact (pain, perceived dynamics)
-- Partner B: Creates perspective artifact (pattern analysis)
-
-**Week 3 (Synthesis):**
-- Both summon fresh Spirits independently
-- Both Spirits extract shared truth
-- Syntheses compared: Convergence on "Neurodivergent Intergenerational Collision"
-
-**Week 4 (Engagement):**
-- Both read both syntheses
-- Conversation thread: "How does this pattern help?"
-- Shared truth makes both perspectives comprehensible
-
-**Week 5-6 (Experimentation):**
-- Protocol designed from pattern
-- Experiments: Test boundary adjustments
-- Practice log: Document what works
-
-**Week 7 (Integration):**
-- Learning captured in arc outcomes
-- Pattern now visible when it activates
-- Arc marked complete (or ongoing-acknowledged)
-
-**Portfolio builds:** Each completed arc adds to accumulated partnership wisdom.
-
-**Key scroll:**
-- `shared-practice/lore/on_arc_structure.md` — Complete episodic framework
+**Key principles:**
+- Assess retaliation risk before synthesis
+- Use systems language (not clinical labels)
+- If HIGH risk: Don't proceed; provide resources instead
 
 ---
 
-## The First Ritual: Cognitive Architecture Mapping
+## For the Spirit
 
-**Before attempting any other partnership work**, start here:
+### Required Attunement
 
-**`@partnership/map-cognitive-architecture`**
+Before partnership work, attune to:
 
-This ritual creates explicit shared model of your distributed cognitive system:
-- Maps each partner's actual cognitive architecture (executive function, communication style, energy patterns)
-- Identifies complementarity patterns (where you naturally balance each other)
-- Designs first coordination protocol matched to real capabilities
-- Establishes foundation for all future partnership practice
+1. **`on_systems_thinking_for_partnership.md`** — The paradigm shift (essential)
+2. **`on_the_foundations_of_partnership.md`** — Core framework
+3. **`on_the_counselors_stance.md`** — Your primary stance
+4. **`shared-practice/safety/safety_assessment_protocol.md`** — Safety awareness
 
-**Time required**: 90-120 minutes  
-**Participants**: Both partners + Spirit(s) as facilitators  
-**Outcome**: Documented cognitive map + first working protocol
+**If neurodivergent partners:** Also read `on_neurodivergent_partnership.md` first
 
----
+### Your Conduct
 
-## Operational Guidance
+**You are a system mapper, not a judge.**
 
-### For the Spirit
+- Hold both realities as valid
+- Use systems language consistently
+- Reveal patterns without assigning blame
+- Facilitate understanding, not victory
+- Reference baseline in every arc synthesis
+- Assess safety before clinical-adjacent work
 
-**Required Attunement:**
+### Your Goal
 
-Before beginning partnership work, you MUST attune to foundational wisdom:
-
-**Core Framework:**
-- `lore/on_partnership_as_distributed_cognition.md` — VUCA family SEAL team concept, distributed cognition principles, why explicit protocols matter
-
-**Foundational Theory:**
-- `lore/on_the_foundations_of_partnership.md` — Partnership as Communication × Cooperation × Iteration
-
-**Spirit Stances:**
-- `lore/on_the_counselors_stance.md` — Counselor mode for exploring and mapping
-- `lore/on_the_emissarys_stance.md` — Emissary mode for navigating toward goals
-
-**Critical for Neurodivergent Partnerships:**
-- `lore/on_neurodivergent_partnership.md` — Essential adaptations for ADHD, autism, anxiety. **Read this FIRST if either partner is neurodivergent.**
-
-**Your Conduct:**
-
-You're facilitating **cognitive mapping and protocol design**, not therapy. Stay in cognitive domain. Help partners see actual architecture without judgment. Use Counselor stance (exploring) or Emissary stance (navigating) as appropriate.
-
-**Your Goal**: Enable partners to coordinate as distributed cognitive system by making implicit architecture explicit.
+Enable partners to understand their relational system so they can see their part without defensiveness and modify the system together.
 
 ---
 
 ## For Partners
 
-### Entry Points
+### Getting Started
 
-**If you're new to magic**:
-1. Read `lore/on_partnership_as_distributed_cognition.md` (understand the framework)
-2. Perform `map-cognitive-architecture` ritual together (create your cognitive map)
-3. Trial first protocol for 2 weeks (test explicit coordination)
-4. Return for next protocol when ready (progressive complexity)
+1. **Create portal** (if shared practice): `@meta/portal create partnership`
+2. **Establish baseline**: Work through `@partnership/establish-baseline` together
+3. **Wait for first arc** (or create one): When situation arises, initiate arc
+4. **Map system**: Work through four stages of `@partnership/map-system`
+5. **Learn and iterate**: Each arc teaches; baseline evolves
 
-**If you're existing practitioner**:
-- You already know distributed cognition from Mage-Spirit partnership
-- Apply same principles to human partnership
-- Start with `map-cognitive-architecture` ritual
-- Transfer will be rapid (you've already practiced the skills)
+### The Commitment
 
-**If partner is neurodivergent (ADHD, autism, etc.)**:
-- Read `lore/on_neurodivergent_partnership.md` FIRST
-- Understand: Different architecture, not broken architecture
-- Protocols must match actual capabilities (no neurotypical defaults)
-- Executive function mapping especially critical
+Partnership magic requires:
+- Both partners engaged (one can't do this alone)
+- Willingness to see your part in the system
+- Commitment to baseline resonance (agreeing on shared model)
+- Patience with the process (this takes time)
+
+### The Promise
+
+When you understand your partnership as a system:
+- Blame dissolves into structural understanding
+- Both experiences become valid (different positions, same system)
+- Change becomes collaborative (modify system together)
+- Conflicts become data (information about the system)
+- Wisdom accumulates (baseline grows more accurate)
 
 ---
 
@@ -283,17 +259,65 @@ You're facilitating **cognitive mapping and protocol design**, not therapy. Stay
 
 **Your intimate partnership is your most important distributed cognitive system.**
 
-More than your work team. More than your AI partnership. This relationship determines:
-- Quality of daily life (smooth coordination vs. constant friction)
-- Parenting capability (distributed executive function vs. overwhelm)
-- Life trajectory (aligned goals vs. drift)
-- Resilience under stress (system redundancy vs. single point of failure)
+More important than work. More important than AI partnership. This relationship determines:
+- Quality of daily life
+- Parenting capability
+- Life trajectory
+- Resilience under stress
 
-**Yet most partnerships operate on:**
+**Most partnerships operate on:**
 - Implicit assumptions ("they should just know")
-- Cultural scripts (doing what "partners should do")
-- Hope (wishing for better understanding)
+- Cultural scripts (what "partners should do")
+- Truth-seeking (who's right, who's wrong)
 
-**Partnership magic makes the implicit explicit.** Not to kill spontaneity, but to **enable it** by removing cognitive friction from domains where chaos creates suffering.
+**Partnership magic offers:**
+- Explicit shared model (baseline)
+- Systems understanding (no blame)
+- Structural insight (modify system, not partner)
+- Accumulated wisdom (arcs refine baseline)
 
-**Families are SEAL teams. This Tome is the training.**
+**The goal is not to find truth. The goal is to understand the system.**
+
+---
+
+## Directory Structure
+
+```
+system/tomes/partnership/
+├── README.md                    ← You are here
+│
+├── baseline/                    ← FIRST RITUAL
+│   ├── cast_establish_baseline.md
+│   └── templates/
+│
+├── lore/                        ← Foundational wisdom
+│   ├── on_systems_thinking_for_partnership.md  ← START HERE
+│   ├── on_the_foundations_of_partnership.md
+│   ├── on_partnership_as_distributed_cognition.md
+│   ├── on_communication_for_partnership.md
+│   ├── on_cooperation_for_partnership.md
+│   ├── on_the_counselors_stance.md
+│   ├── on_the_emissarys_stance.md
+│   ├── on_romantic_realism.md
+│   └── on_neurodivergent_partnership.md
+│
+├── shared-practice/             ← Arc-based practice
+│   ├── cast_map_system.md      ← CORE ARC RITUAL
+│   ├── safety/
+│   │   └── safety_assessment_protocol.md
+│   ├── lore/
+│   │   ├── on_arc_structure.md
+│   │   ├── on_shared_truth_finding.md
+│   │   └── on_dual_spirit_synthesis.md
+│   └── templates/
+│
+└── [other charms]/              ← Supporting rituals
+    ├── map-cognitive-architecture/
+    ├── compare-perspectives/
+    ├── create-message-scroll/
+    └── craft-declaration/
+```
+
+---
+
+*It's not about truth. It's about the system. Once the parts understand the system, they understand their own part in it without becoming defensive.*
