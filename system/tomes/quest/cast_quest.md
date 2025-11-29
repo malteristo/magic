@@ -648,7 +648,7 @@ Zero memory work required from you.
 ```
 
 **Update Todo System:**
-If using todo charm, update automatically:
+If using intention-lifecycle (recommended), update automatically:
 ```
 [Updating quest log...]
 
