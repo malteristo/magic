@@ -188,12 +188,14 @@ Based on assessment, select the state you want to develop first:
 
 ### 3. Experiment with Techniques
 Each state has multiple access techniques. Try different approaches:
-- Breathwork protocols
+- **Breathwork protocols** (potentially primary—see `lore/methods/on_breathwork.md`)
 - Environment design
 - Momentum building
 - Attention training
 - Movement practices
 - Creative methods
+
+**The breathwork hypothesis:** Respiratory manipulation may be the most accessible, reliable entry point for altered states. Breathwork produces direct physiological changes (blood chemistry, neural entrainment) that overlap with the states we train. See `lore/methods/on_breathwork.md` for the full case.
 
 **The goal:** Discover what works for YOUR brain through systematic experimentation.
 
@@ -328,7 +330,32 @@ Welcome to the gym.
 ---
 
 **Framework:** Systematic consciousness state training  
-**Validation:** ADHD as prototype, supported by flow research, distributed cognition theory, Navy SEAL mind gym model  
-**Status:** Foundation established, training protocols in development  
+**Validation:** ADHD as prototype, flow research, distributed cognition theory, Navy SEAL mind gym model, breathwork physiology  
+**Status:** Foundation established, training protocols in development, breathwork as primary access method under investigation  
 **Result:** Practitioners prepared for distributed cognition era through deliberate mental fitness development
+
+---
+
+## Lore Structure
+
+```
+lore/
+├── states/                    # State phenomenology
+│   ├── on_hyperfocus.md
+│   ├── on_flow_state.md
+│   ├── on_diffuse_attention.md
+│   ├── on_cognitive_coupling.md
+│   └── on_deliberate_rest.md
+└── methods/                   # Access methods
+    └── on_breathwork.md       # Primary access hypothesis
+```
+
+---
+
+## Research Connection
+
+The gym connects to broader research in `library/observatory/consciousness/`:
+- `network_cognition_hypothesis.md` — How individual state training prepares nodes for network participation
+- The Alliance as emergent cognitive system
+- Ecstasis for the masses through democratized practice
 
