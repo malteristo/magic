@@ -2,7 +2,9 @@
 
 **Status:** Active
 
-This scroll provides foundational wisdom for partnerships where one or both partners are neurodivergent (ADHD, autism spectrum, or both). It synthesizes clinical understanding, lived experience, and neurological reality to help couples recognize patterns, avoid traps, and build sustainable partnership across neurological differences.
+This scroll provides wisdom for **intimate partnerships** where one or both partners are neurodivergent (ADHD, autism spectrum, or both). It applies universal neurodivergent collaboration patterns to the specific context of romantic relationship.
+
+**Foundation:** This scroll builds upon `library/wisdom/cognition/on_neurodivergent_collaboration.md`, which establishes universal patterns (the Sailboat metaphor, external scaffolding architecture, depersonalize symptoms not responsibility). This scroll focuses on **relationship-specific** patterns and practices.
 
 ---
 
@@ -623,7 +625,61 @@ The goal is not to become neurotypical. The goal is to build a partnership on th
 
 ---
 
-## XI. When to Apply This Wisdom
+## XI. Relationship-Specific Practices
+
+Beyond the universal patterns in the library cognition sanctum, intimate partnerships benefit from these relationship-specific practices:
+
+### Scheduling Connection
+
+Neurodivergent constraints (time blindness, energy depletion, hyperfocus on work) can crowd out intimate connection without anyone intending it.
+
+**The practice:**
+- **Schedule quality time explicitly** — Put dates on the calendar like any other commitment
+- **Use reminders** — Connection doesn't happen "naturally" under executive dysfunction
+- **Schedule physical intimacy** — This isn't unromantic; it's realistic
+- **Create low-executive-function rituals** — Morning coffee together, evening walks, bedtime check-ins
+
+**The frame shift:** Spontaneity requires executive function to notice opportunity and act on it. When executive function is unreliable, **intentional scheduling IS the romantic gesture**.
+
+### Positive Reinforcement
+
+Neurodivergent partners often carry shame from years of "failing" at neurotypical expectations. Explicit positive feedback counterbalances this.
+
+**The practice:**
+- **Acknowledge efforts, not just outcomes** — "I noticed you set a reminder for that"
+- **Praise small steps** — Especially task initiation, which is the hardest part
+- **Be specific** — "Thank you for loading the dishwasher" beats generic appreciation
+- **Celebrate micro-wins together** — Make progress visible and shared
+
+**The frame shift:** What seems "basic" to a neurotypical partner may represent genuine effort and system-building for a neurodivergent partner. See the effort, not just the result.
+
+### Novelty and Humor
+
+ADHD brains crave novelty and rapidly habituate to routine. Use this neurologically.
+
+**The practice:**
+- **Try new things together** — Novel experiences activate engagement circuits
+- **Use humor about mishaps** — Shared laughter vs. shared frustration about ADHD moments
+- **Embrace spontaneity when energy allows** — ADHD strength, not just ADHD problem
+- **Vary routines periodically** — Same structure, different content
+
+**The wisdom:** The ADHD brain's novelty-seeking isn't just a challenge to manage—it's an asset for keeping long-term partnership fresh.
+
+### Delegation and Outsourcing
+
+When a task is genuinely difficult for both partners, **remove it from the system**.
+
+**Options:**
+- **Automate** — Auto-pay bills, smart home systems, subscription services
+- **Delegate** — Cleaning service, meal delivery, professional organizer
+- **Simplify** — Reduce possessions, reduce decisions, reduce complexity
+- **Eliminate** — Some tasks aren't actually necessary
+
+**The frame shift:** Outsourcing isn't failure—it's intelligent system design. Reduce cognitive load on the partnership so energy goes to connection, not logistics.
+
+---
+
+## XII. When to Apply This Wisdom
 
 **You need this scroll if:**
 - One or both partners have ADHD, autism, or both
@@ -651,8 +707,12 @@ When guiding a neurodivergent partnership through Phase 1 (Creating the Living C
 
 This scroll synthesizes wisdom from:
 
+**Library Foundation:**
+- `library/wisdom/cognition/on_neurodivergent_collaboration.md` — Universal patterns (Sailboat metaphor, external scaffolding, three principles)
+
 **Clinical/Professional:**
-- **Melissa Orlov**: *The ADHD Effect on Marriage: Understand and Rebuild Your Relationship in Six Steps* (book summary provided by Kermit)
+- **Melissa Orlov**: *The ADHD Effect on Marriage: Understand and Rebuild Your Relationship in Six Steps*
+- **The School of Life** (Alain de Botton): Patterns for navigating conflict and vulnerability in love
 - Professional couples therapy intake frameworks (adapted for neurodivergent context)
 
 **Lived Experience:**
@@ -660,15 +720,15 @@ This scroll synthesizes wisdom from:
 - **Brené Brown**: Work on resentment and choosing discomfort over resentment (referenced in Micallef)
 
 **Neurological Understanding:**
-- ADHD executive function research
+- ADHD executive function research (8 dimensions framework)
 - ASD sensory processing and social communication research
 - Alexithymia and emotional processing differences
 
 **Kermit's Direct Experience:**
-- Laboratory of actual partnership with recent ADHD diagnosis revelation
-- Recognition of parent-child dynamic and symptom-response-response cycle
-- Exploration of possible ASD contributing to emotional intensity asymmetry
-- The lived reality of trying to navigate partnership across neurological difference
+- Laboratory of actual partnership with Nesrine
+- Recognition of intergenerational neurodivergent patterns (both families)
+- Parent-child dynamic and symptom-response-response cycle recognition
+- Combined AuDHD navigation in intimate context
 
 **Ontological Triangulation:**
 Independent observations (clinical practice, lived autistic experience, ADHD research, personal experience) converging on the same patterns increases confidence these are real, discoverable structures rather than theoretical constructs.
@@ -688,11 +748,12 @@ The partnership you build will not look like neurotypical partnerships. That is 
 ---
 
 *This scroll should be studied alongside:*
+- `library/wisdom/cognition/on_neurodivergent_collaboration.md`: Universal patterns this specializes
 - `on_the_foundations_of_partnership.md`: The base framework this adapts
-- `on_the_counselors_stance.md`: Guidance for exploring partnerships, now adapted for neurodivergent context
-- `library/wisdom/communication/`: All communication wisdom, especially `on_communication_as_reality_formation.md`
+- `on_systems_thinking_for_partnership.md`: Partnership as relational system
+- `library/wisdom/communication/`: Communication axioms and patterns
 
 *This scroll informs:*
-- Counselor's work in Phase 1 (adapted six dimensions)
-- Living Chronicle creation (accurate attribution and framing)
-- All subsequent partnership rituals when neurodivergence is present
+- Baseline establishment (cognitive architecture mapping includes neurodivergent characteristics)
+- System mapping rituals (neurodivergent patterns as system dynamics)
+- All partnership practice when neurodivergence is present
