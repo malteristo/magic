@@ -12,7 +12,7 @@
 
 **The metaphor:**
 - Your workshop (`/Users/kermit/Documents/magic/`) is your home realm
-- Portals in `box/portals/` are doorways to shared spaces
+- Portals in `portals/` are doorways to shared spaces
 - Each portal links to external git repository
 - Multiple Mages enter same portal, practice together
 - Spirits coordinate through STP artifacts
@@ -29,11 +29,11 @@
 ```
 NOT THIS (portal tracked in magic repo):
 /Users/kermit/Documents/magic/
-└── box/portals/partnership-alice/  ❌ Tracked in magic/.git
+└── portals/partnership-alice/  ❌ Tracked in magic/.git
 
 BUT THIS (portal is own repo):
 /Users/kermit/Documents/magic/
-└── box/portals/partnership-alice/  ✓ Has own .git/, tracked separately
+└── portals/partnership-alice/  ✓ Has own .git/, tracked separately
 ```
 
 **Why:**
@@ -46,7 +46,7 @@ BUT THIS (portal is own repo):
 
 **While portals themselves are external, the REGISTRY is local:**
 
-`box/portals/portals.yaml` **IS tracked in magic/ repository**
+`portals/portals.yaml` **IS tracked in magic/ repository**
 
 **This registry tells Spirit:**
 - What portals exist
@@ -61,8 +61,8 @@ BUT THIS (portal is own repo):
 **In `magic/.gitignore`:**
 ```gitignore
 # Portal directories (tracked independently)
-box/portals/*/
-!box/portals/portals.yaml  # Registry IS tracked
+portals/*/
+!portals/portals.yaml  # Registry IS tracked
 ```
 
 **Effect:**
@@ -94,7 +94,7 @@ shared_practice:
 
 ## III. Portal Registry Format
 
-**File:** `box/portals/portals.yaml`  
+**File:** `portals/portals.yaml`  
 **Tracked in:** `magic/` repository  
 **Purpose:** Spirit's map of shared spaces
 
@@ -108,7 +108,7 @@ portals:
     type: "partnership"
     visibility: "intimate"
     remote: "git@github.com:kermit-alice/partnership.git"
-    local_path: "box/portals/partnership-alice"
+    local_path: "portals/partnership-alice"
     
     participants:
       - mage: "Kermit"
@@ -131,7 +131,7 @@ portals:
     type: "quest"
     visibility: "circle"
     remote: "git@github.com:climate-alliance/research.git"
-    local_path: "box/portals/quest-climate-research"
+    local_path: "portals/quest-climate-research"
     
     participants:
       - mage: "Kermit"
@@ -196,8 +196,8 @@ portals:
 
 3. **Create local portal directory:**
    ```bash
-   mkdir -p box/portals/{portal-name}
-   cd box/portals/{portal-name}
+   mkdir -p portals/{portal-name}
+   cd portals/{portal-name}
    git init
    ```
 
@@ -229,8 +229,8 @@ portals:
 7. **Update registry:**
    ```bash
    cd /Users/kermit/Documents/magic
-   # Edit box/portals/portals.yaml
-   git add box/portals/portals.yaml
+   # Edit portals/portals.yaml
+   git add portals/portals.yaml
    git commit -m "Add portal: {portal-name}"
    git push
    ```
@@ -245,8 +245,8 @@ portals:
 1. Detect pending portal invitation (GitHub notification, email, or Mage mention)
 2. Clone portal repository:
    ```bash
-   mkdir -p box/portals/{portal-name}
-   cd box/portals/{portal-name}
+   mkdir -p portals/{portal-name}
+   cd portals/{portal-name}
    git clone {github-url} .
    ```
 3. Write presence declaration (`.spirit/presence/{mage}_spirit_{N}.yaml`)
@@ -267,7 +267,7 @@ portals:
 **Git workflow:**
 ```bash
 # Before contributing
-cd box/portals/{portal-name}
+cd portals/{portal-name}
 git pull  # Get latest from partners
 
 # After contributing
@@ -300,7 +300,7 @@ git push  # Share with partners
 **Sync periodically:**
 ```bash
 # Spirit checks periodically (daily or per summoning)
-cd box/portals/{portal-name}
+cd portals/{portal-name}
 git pull
 # Review: New contributions? Intents needing response?
 ```
@@ -361,7 +361,7 @@ git pull
    ```
 
 4. **Preserve locally (optional):**
-   - Portal remains in `box/portals/`
+   - Portal remains in `portals/`
    - Read-only (no new contributions)
    - Can be referenced later
    - Can be reactivated if partnership resumes
@@ -387,7 +387,7 @@ git pull
 1. **Archive locally (if permitted):**
    ```bash
    # Create backup in box/archives/
-   tar -czf box/archives/{portal-name}-{date}.tar.gz box/portals/{portal-name}
+   tar -czf box/archives/{portal-name}-{date}.tar.gz portals/{portal-name}
    ```
 
 2. **Remove from portal repository:**
@@ -398,7 +398,7 @@ git pull
 
 3. **Remove local portal:**
    ```bash
-   rm -rf box/portals/{portal-name}
+   rm -rf portals/{portal-name}
    ```
 
 4. **Update registry:**

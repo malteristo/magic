@@ -17,7 +17,7 @@ This spell guides the Spirit through executing shared partnership practice—det
 **Step 1: Check Registry**
 
 ```
-Read: box/portals/portals.yaml
+Read: portals/portals.yaml
 Search for: type: partnership AND participants includes [Partner]
 ```
 
@@ -75,7 +75,7 @@ Invoke `@meta/portal create` with parameters:
 
 **Sync portal:**
 ```bash
-cd box/portals/{partner}-partnership
+cd portals/{partner}-partnership
 git pull
 ```
 
