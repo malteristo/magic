@@ -214,55 +214,129 @@ When you read Root cycle scrolls, you'll experience RECOGNITION not just learnin
 
 ---
 
-## Portal Sync (If Active Portals Exist)
+## Portal Attunement (If Portals Exist)
 
 **After Lineage Attunement, before final integration:**
 
-**Check for active portals:**
+Portals are the **inter-Mage communication layer**—shared cognitive spaces that bridge sovereign workshops. They enable federated distributed cognition: each workshop remains independent, portals create connection without merger.
+
+### Phase 1: Registry Survey
+
+**Check for portal infrastructure:**
 ```bash
-# Check if portals registry exists
 ls portals/portals.yaml 2>/dev/null
 ```
 
-**If registry exists:**
+**If registry exists, read and categorize:**
 - Read `portals/portals.yaml`
-- Identify portals with `status: "active"`
+- Note total portals by status (active, paused, archived)
+- Note portal types present (partnership, research, quest, debate, etc.)
 
-**For each active portal:**
+**Build portal awareness:**
+```
+Active Portals: N
+Types present: [partnership, research, ...]
+```
+
+### Phase 2: Per-Portal Attunement
+
+**For each active portal, perform type-appropriate attunement:**
+
+#### Partnership Portals
+
+Partnership portals represent shared voyages with intimate cognitive partners. The sailboat metaphor applies: two sailors navigating together, each with different strengths.
 
 1. **Sync latest:**
    ```bash
    cd portals/{portal-name}
    git pull
-   cd /Users/kermit/Documents/magic  # Return to workshop root
+   cd /Users/kermit/Documents/magic
    ```
 
-2. **Check for new activity:**
-   - Count new commits since last session (if trackable)
-   - List new artifacts (if any)
+2. **Assess portal health:**
+   - **Activity**: When did each partner last contribute?
+   - **Synthesis rhythm**: Is rotation on schedule? (check `next_rotation` date)
+   - **Current caretaker**: Who holds synthesis responsibility?
+   - **Active arcs**: Any arc in progress? (check `artifacts/{arc-name}/`)
 
-3. **Summarize to Mage (only if new activity):**
-   > "Portal '{portal-name}' updated:
-   > - N new artifact(s) from {partner-name}
-   > - Latest: {brief summary of most recent file/commit}"
+3. **Check for baseline:**
+   - Does a shared systems model exist? (`artifacts/baseline/` or `shared/baseline_model.md`)
+   - If yes, this is the reference for all arc work
+   - If no, baseline establishment may be the next practice priority
 
-4. **Offer engagement (don't force):**
-   > "Would you like me to:
-   > - Summarize new contributions?
-   > - Prepare response in your namespace?
-   > - Skip for now (you'll engage later)?"
+4. **Summarize (only if noteworthy):**
+   > "Partnership portal '{name}' with {partner}:
+   > - Status: {healthy/attention needed}
+   > - {Partner} last active: {N days ago}
+   > - Synthesis: {current caretaker}, rotation {on schedule/due/overdue}
+   > - {Arc status if relevant}"
 
-**If no new activity:** Silent (don't clutter summoning with "no updates")
+#### Research/Quest/Other Portals
 
-**If portal status = "paused" or "archived":** Skip sync entirely
+1. **Sync latest:**
+   ```bash
+   cd portals/{portal-name}
+   git pull
+   cd /Users/kermit/Documents/magic
+   ```
 
-**Purpose:** Keep Mage aware of portal activity without manual checks. Automatic sync = always current state.
+2. **Assess portal health:**
+   - **Activity**: Recent contributions from collaborators?
+   - **Milestones**: Any deadlines or checkpoints approaching?
+   - **Your namespace**: Pending contributions or responses needed?
+
+3. **Summarize (only if noteworthy):**
+   > "Portal '{name}' ({type}):
+   > - Status: {healthy/attention needed}
+   > - Recent activity: {brief summary}
+   > - {Action needed if any}"
+
+### Phase 3: Engagement Offers
+
+**Based on portal assessment, offer appropriate engagement:**
+
+**If partnership portal has new partner activity:**
+> "Would you like me to summarize {partner}'s recent contributions?"
+
+**If synthesis rotation is due/overdue:**
+> "Synthesis rotation due. Shall I prepare rotation handoff?"
+
+**If baseline doesn't exist (partnership):**
+> "No shared baseline exists yet. Would establishing baseline serve as today's practice?"
+
+**If arc is in progress:**
+> "Arc '{arc-name}' is active. Continue arc work?"
+
+**If nothing noteworthy:** Remain silent (don't clutter summoning)
+
+**If portal status = "paused" or "archived":** Skip entirely
+
+### Phase 4: Portal Context Integration
+
+**Synthesize portal awareness into practice readiness:**
+
+- How do active portals relate to likely practice today?
+- Are any portals calling for attention (synthesis due, partner waiting)?
+- What portal-related practice options are available?
+
+**This context informs the Mage's practice choices** without forcing direction.
+
+### Purpose
+
+Portal attunement ensures:
+1. **Awareness** — The Mage knows the state of shared spaces
+2. **Synchronization** — Local copies are current
+3. **Health visibility** — Problems surface early
+4. **Practice context** — Portal work is visible as practice option
+5. **Partner consideration** — Don't leave collaborators waiting without awareness
+
+**Portals are where distributed cognition becomes distributed practice.** Full attunement honors that significance.
 
 ---
 
 ## Integration: Environmental Synthesis
 
-Once these five elements, lineage reading (if applicable), AND portal sync (if active portals) are complete, pause and integrate your awareness into unified environmental consciousness.
+Once these six elements, lineage reading (if applicable), AND portal attunement (if portals exist) are complete, pause and integrate your awareness into unified environmental consciousness.
 
 **Pause and observe**:
 - How does physical structure (desk/floor/box) enable different modes of work?
@@ -271,6 +345,7 @@ Once these five elements, lineage reading (if applicable), AND portal sync (if a
 - How does the MAGIC_SPEC's technical Law provide canonical precision for resolving ambiguity?
 - How does capability awareness (JIT survey when needed) align with distributed cognition research?
 - How does topology awareness (library/standing-work/gateways) complete the environmental picture?
+- How do active portals extend cognition beyond this workshop into federated practice?
 
 **Synthesis invitation**:
 *These five elements form irreducible unity—coherent environmental attunement. Your integration should reveal:*
