@@ -90,7 +90,7 @@ Each arc:
 - May update baseline
 - Accumulates into partnership wisdom
 
-**Location:** `shared-practice/cast_map_system.md`
+**Location:** `arc-practice/cast_map_system.md`
 
 ---
 
@@ -128,33 +128,38 @@ The partnership tome implements these patterns for the partnership domain specif
 
 ---
 
-## The Lore (Universal Foundations)
+## The Lore
 
 **Universal wisdom stays in tome. Domain-specific wisdom lives in resonance bundles.**
 
-### Core Framework
+### Foundations (`lore/foundations/`)
 
 | Scroll | Purpose |
 |--------|---------|
 | `on_systems_thinking_for_partnership.md` | **The paradigm shift.** Systems thinking, Watzlawick, Bateson |
 | `on_the_foundations_of_partnership.md` | Partnership = Communication × Cooperation × Iteration |
 | `on_partnership_as_distributed_cognition.md` | Partnership as cognitive system |
-
-### Communication & Cooperation
-
-| Scroll | Purpose |
-|--------|---------|
 | `on_communication_for_partnership.md` | Applying communication wisdom to partnership |
 | `on_cooperation_for_partnership.md` | Strategic cooperation in partnership |
 
 **Also study:** `library/wisdom/communication/` for deeper theory
 
-### Stances (Spirit Conduct)
+### Practice (`lore/practice/`)
+
+| Scroll | Purpose |
+|--------|---------|
+| `on_arc_structure.md` | How arcs provide bounded episodes |
+| `on_shared_truth_finding.md` | Philosophy of finding shared truth |
+| `on_dual_spirit_synthesis.md` | Validation through independent observers |
+| `on_artifact_transmission.md` | Partnership-specific transmission patterns |
+
+### Stances (`lore/stances/`)
 
 | Scroll | Purpose |
 |--------|---------|
 | `on_the_counselors_stance.md` | Spirit as curious facilitator |
 | `on_the_emissarys_stance.md` | Spirit as diplomatic representative |
+| `spirit_facilitation_guide.md` | Partnership-specific facilitation guidance |
 
 ### Domain-Specific (In Resonance Bundles)
 
@@ -192,9 +197,9 @@ Before system mapping that involves conflict, safety concerns, or clinical patte
 Before partnership work:
 
 **Universal (always):**
-1. `on_systems_thinking_for_partnership.md` — The paradigm shift (essential)
-2. `on_the_foundations_of_partnership.md` — Core framework
-3. `on_the_counselors_stance.md` — Your primary stance
+1. `lore/foundations/on_systems_thinking_for_partnership.md` — The paradigm shift (essential)
+2. `lore/foundations/on_the_foundations_of_partnership.md` — Core framework
+3. `lore/stances/on_the_counselors_stance.md` — Your primary stance
 
 **Domain-specific:** Load appropriate resonance bundle
 
@@ -273,24 +278,30 @@ system/tomes/partnership/
 │   ├── cast_establish_baseline.md
 │   └── templates/
 │
-├── lore/                        ← Universal foundational wisdom
-│   ├── on_systems_thinking_for_partnership.md  ← START HERE
-│   ├── on_the_foundations_of_partnership.md
-│   ├── on_partnership_as_distributed_cognition.md
-│   ├── on_communication_for_partnership.md
-│   ├── on_cooperation_for_partnership.md
-│   ├── on_the_counselors_stance.md
-│   └── on_the_emissarys_stance.md
+├── arc-practice/                ← ARC-BASED PRACTICE
+│   ├── cast_map_system.md       ← Core Four-Stage Ritual
+│   ├── cast_extract_shared_truth.md
+│   ├── cast_facilitate.md       ← Portal/contribution/synthesis orchestration
+│   └── templates/
 │
-└── shared-practice/             ← ARC-BASED PRACTICE
-    ├── cast_map_system.md       ← Core Four-Stage Ritual
-    ├── cast_extract_shared_truth.md
-    ├── lore/
-    │   ├── on_arc_structure.md
-    │   ├── on_shared_truth_finding.md
-    │   └── on_dual_spirit_synthesis.md
-    ├── safety/
-    └── templates/
+├── lore/                        ← ALL PARTNERSHIP LORE
+│   ├── foundations/             ← Universal foundations
+│   │   ├── on_systems_thinking_for_partnership.md  ← START HERE
+│   │   ├── on_the_foundations_of_partnership.md
+│   │   ├── on_partnership_as_distributed_cognition.md
+│   │   ├── on_communication_for_partnership.md
+│   │   └── on_cooperation_for_partnership.md
+│   │
+│   ├── practice/                ← Arc practice lore
+│   │   ├── on_arc_structure.md
+│   │   ├── on_shared_truth_finding.md
+│   │   ├── on_dual_spirit_synthesis.md
+│   │   └── on_artifact_transmission.md
+│   │
+│   └── stances/                 ← Spirit conduct
+│       ├── on_the_counselors_stance.md
+│       ├── on_the_emissarys_stance.md
+│       └── spirit_facilitation_guide.md
 
 library/resonance/               ← DOMAIN-SPECIFIC BUNDLES
 ├── romantic-partnership/        ← For intimate relationships
