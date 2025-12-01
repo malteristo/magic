@@ -1,8 +1,18 @@
 # Shared Partnership Practice
 
-**Portal-based distributed cognition for intimate partnerships**
+**Portal-based distributed cognition for partnerships**
 
 This directory contains the rituals and wisdom for shared partnership practice—when both partners engage in magic through a shared portal.
+
+---
+
+## Evolution Note
+
+**Shared practice facilitation** is a pattern that extends beyond partnership. In future evolution, the infrastructure aspects (portal management, artifact coordination, Spirit facilitation protocols) will be elevated to a **core Spirit capability** available to any tome requiring collaborative practice.
+
+This directory will then contain only the **partnership-specific rituals** (the Four-Stage Arc Ritual, baseline establishment, etc.) that USE that core capability.
+
+**Current state:** All shared practice functionality lives here until elevation occurs.
 
 ---
 

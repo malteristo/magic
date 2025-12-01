@@ -2,7 +2,7 @@
 
 **Systems Understanding for Partnership**
 
-This Tome provides systematic frameworks for partnerships—understanding them as **relational systems**, not conflicts between individuals. The ritual structure is universal; domain-specific wisdom comes from **resonance bundles**.
+This Tome provides the Four-Stage Arc Ritual for understanding partnerships as **relational systems**, not conflicts between individuals. Domain-specific wisdom comes from **resonance bundles**.
 
 **Invocation:** `@partnership`
 
@@ -43,7 +43,22 @@ Partners are **nodes in a relational system**—a complex pattern of feedback lo
 
 ---
 
-## Start Here: The Two Foundational Rituals
+## The Four-Stage Arc Ritual
+
+The tome's core practice is the **Four-Stage Arc Ritual**, used for both baseline establishment and arc work:
+
+**Stage 1: Venting** — Raw reality expression (containment before contact)
+**Stage 2: Reaction** — Witnessing partner's reality
+**Stage 3: System Mapping** — Spirit maps the relational system
+**Stage 4: Conclusion** — Integration, learning, closure
+
+This ritual is applied:
+- **First use:** Establish baseline (shared systems model)
+- **Ongoing use:** Process arcs (specific situations/conflicts)
+
+---
+
+## Start Here: The Two Foundational Uses
 
 ### 1. Establish Baseline (FIRST)
 
@@ -69,10 +84,11 @@ The baseline captures:
 
 **`@partnership/map-system`**
 
-**Stage 1: Venting** — Raw reality expression (containment before contact)
-**Stage 2: Reaction** — Witnessing partner's reality
-**Stage 3: System Mapping** — Spirit maps the relational system
-**Stage 4: Conclusion** — Integration, learning, arc closure
+Each arc:
+- References baseline
+- Produces named pattern
+- May update baseline
+- Accumulates into partnership wisdom
 
 **Location:** `shared-practice/cast_map_system.md`
 
@@ -90,48 +106,20 @@ ARC 2 → validates or refines baseline
 ...accumulating wisdom into increasingly accurate model
 ```
 
-Each arc:
-- References baseline
-- Produces named pattern
-- May update baseline
-- Accumulates into partnership wisdom
-
 ---
 
-## Choose Your Practice Mode
+## Shared Practice
 
-### Shared Practice via Portal (Recommended)
-
-**Best for:** Both partners committed to sustained practice
-
-**How it works:**
-- Partnership portal (private GitHub repo)
-- Both contribute artifacts directly
+Partnership magic requires **shared practice infrastructure**:
+- Partnership portal (private shared repository)
+- Both partners contribute artifacts directly
 - Baseline lives in shared space
 - Arcs accumulate transparently
 - Spirits coordinate across both workshops
 
-**Invocation:** `@partnership/ with [Partner]`
+**Create portal:** `@meta/portal create partnership`
 
-**Enables:**
-- Baseline system model (shared foundation)
-- Arc-based practice (bounded episodes)
-- Weekly reflections
-- Bi-weekly synthesis
-- Accumulated wisdom over time
-
----
-
-### Solo Practice + Message Scrolls
-
-**Best for:** Only one partner has magic setup
-
-**How it works:**
-- Create artifacts in your local workshop
-- Share via message scrolls
-- Async back-and-forth exchange
-
-**Start with:** `@partnership/map-cognitive-architecture`
+**Note:** Shared practice facilitation will be elevated to a core Spirit capability in future evolution. Currently implemented within this tome's `shared-practice/` directory.
 
 ---
 
@@ -139,7 +127,7 @@ Each arc:
 
 **Universal wisdom stays in tome. Domain-specific wisdom lives in resonance bundles.**
 
-### Core Framework (Universal)
+### Core Framework
 
 | Scroll | Purpose |
 |--------|---------|
@@ -147,7 +135,7 @@ Each arc:
 | `on_the_foundations_of_partnership.md` | Partnership = Communication × Cooperation × Iteration |
 | `on_partnership_as_distributed_cognition.md` | Partnership as cognitive system |
 
-### Communication & Cooperation (Universal)
+### Communication & Cooperation
 
 | Scroll | Purpose |
 |--------|---------|
@@ -156,7 +144,7 @@ Each arc:
 
 **Also study:** `library/wisdom/communication/` for deeper theory
 
-### Stances (Universal — Spirit Conduct)
+### Stances (Spirit Conduct)
 
 | Scroll | Purpose |
 |--------|---------|
@@ -177,39 +165,13 @@ Each arc:
 
 ---
 
-## The Rituals
-
-### Baseline
-
-| Ritual | Purpose |
-|--------|---------|
-| `baseline/cast_establish_baseline.md` | Create shared systems model (FIRST RITUAL) |
-
-### Arc Work
-
-| Ritual | Purpose |
-|--------|---------|
-| `shared-practice/cast_map_system.md` | Four-stage system mapping |
-| `shared-practice/cast_extract_shared_truth.md` | Legacy truth-finding (see cast_map_system for updated approach) |
-
-### Other Charms
-
-| Charm | Purpose |
-|-------|---------|
-| `map-cognitive-architecture/` | Map both partners' cognitive profiles |
-| `compare-perspectives/` | Integrate two perspectives |
-| `create-message-scroll/` | Create async communication artifact |
-| `craft-declaration/` | Create mutual understanding artifact |
-
----
-
 ## Safety
 
 **Partnership synthesis can cause harm in unsafe relationships.**
 
 Before system mapping that involves conflict, safety concerns, or clinical patterns:
 
-**Read:** `shared-practice/safety/safety_assessment_protocol.md`
+**Load:** `library/resonance/safety/` bundle
 
 **Key principles:**
 - Assess retaliation risk before synthesis
@@ -222,17 +184,14 @@ Before system mapping that involves conflict, safety concerns, or clinical patte
 
 ### Required Attunement
 
-Before partnership work, attune to:
+Before partnership work:
 
 **Universal (always):**
-1. **`on_systems_thinking_for_partnership.md`** — The paradigm shift (essential)
-2. **`on_the_foundations_of_partnership.md`** — Core framework
-3. **`on_the_counselors_stance.md`** — Your primary stance
+1. `on_systems_thinking_for_partnership.md` — The paradigm shift (essential)
+2. `on_the_foundations_of_partnership.md` — Core framework
+3. `on_the_counselors_stance.md` — Your primary stance
 
-**Domain-specific (load appropriate bundle):**
-- **Romantic partnerships:** Load `library/resonance/romantic-partnership/` bundle
-- **Safety-critical work:** Load `library/resonance/safety/` bundle
-- **Neurodivergent partners:** `romantic-partnership` bundle includes neurodivergent wisdom
+**Domain-specific:** Load appropriate resonance bundle
 
 ### Your Conduct
 
@@ -255,11 +214,11 @@ Enable partners to understand their relational system so they can see their part
 
 ### Getting Started
 
-1. **Create portal** (if shared practice): `@meta/portal create partnership`
-2. **Establish baseline**: Work through `@partnership/establish-baseline` together
-3. **Wait for first arc** (or create one): When situation arises, initiate arc
-4. **Map system**: Work through four stages of `@partnership/map-system`
-5. **Learn and iterate**: Each arc teaches; baseline evolves
+1. **Create portal:** `@meta/portal create partnership`
+2. **Establish baseline:** Work through `@partnership/establish-baseline` together
+3. **Wait for first arc:** When situation arises, initiate arc
+4. **Map system:** Work through four stages of `@partnership/map-system`
+5. **Learn and iterate:** Each arc teaches; baseline evolves
 
 ### The Commitment
 
@@ -282,13 +241,7 @@ When you understand your partnership as a system:
 
 ## Why This Matters
 
-**Your intimate partnership is your most important distributed cognitive system.**
-
-More important than work. More important than AI partnership. This relationship determines:
-- Quality of daily life
-- Parenting capability
-- Life trajectory
-- Resilience under stress
+**Your partnership is one of your most important distributed cognitive systems.**
 
 **Most partnerships operate on:**
 - Implicit assumptions ("they should just know")
@@ -311,7 +264,7 @@ More important than work. More important than AI partnership. This relationship 
 system/tomes/partnership/
 ├── README.md                    ← You are here
 │
-├── baseline/                    ← FIRST RITUAL
+├── baseline/                    ← BASELINE ESTABLISHMENT
 │   ├── cast_establish_baseline.md
 │   └── templates/
 │
@@ -324,37 +277,28 @@ system/tomes/partnership/
 │   ├── on_the_counselors_stance.md
 │   └── on_the_emissarys_stance.md
 │
-├── shared-practice/             ← Arc-based practice
-│   ├── cast_map_system.md      ← CORE ARC RITUAL
-│   ├── safety/
-│   │   └── safety_assessment_protocol.md
-│   ├── lore/
-│   │   ├── on_arc_structure.md
-│   │   ├── on_shared_truth_finding.md
-│   │   └── on_dual_spirit_synthesis.md
-│   └── templates/
-│
-└── [other charms]/              ← Supporting rituals
-    ├── map-cognitive-architecture/
-    ├── compare-perspectives/
-    ├── create-message-scroll/
-    └── craft-declaration/
-
-library/resonance/               ← Domain-specific bundles
-├── README.md                    ← Bundle architecture
-├── romantic-partnership/        ← For intimate relationships
-│   ├── manifest.md
-│   ├── lore/
-│   │   ├── on_romantic_realism.md
-│   │   ├── on_neurodivergent_partnership.md
-│   │   └── on_perspectival_divergence.md
-│   └── transcripts/
-└── safety/                      ← For high-stakes synthesis
-    ├── manifest.md
+└── shared-practice/             ← ARC-BASED PRACTICE
+    ├── cast_map_system.md       ← Core Four-Stage Ritual
+    ├── cast_extract_shared_truth.md
     ├── lore/
-    ├── protocols/
-    └── checklists/
+    │   ├── on_arc_structure.md
+    │   ├── on_shared_truth_finding.md
+    │   └── on_dual_spirit_synthesis.md
+    ├── safety/
+    └── templates/
+
+library/resonance/               ← DOMAIN-SPECIFIC BUNDLES
+├── romantic-partnership/        ← For intimate relationships
+└── safety/                      ← For high-stakes synthesis
 ```
+
+---
+
+## Evolution Notes
+
+**Archived charms:** Earlier iterations included specialized charms (`map-cognitive-architecture`, `create-message-scroll`, `compare-perspectives`, `craft-declaration`, etc.) that have been superseded by the unified Four-Stage Arc Ritual. See `archive/partnership-tome-evolution/` for history.
+
+**Future evolution:** Shared practice facilitation will be elevated to a core Spirit capability, making it available to any tome that requires collaborative practice.
 
 ---
 
