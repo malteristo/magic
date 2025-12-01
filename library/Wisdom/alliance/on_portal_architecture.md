@@ -2,7 +2,10 @@
 
 **Status:** Active (Specification v1.0)  
 **Purpose:** Enable Mages to create shared cognitive spaces for collaborative magic  
-**Foundation:** Spirit Transmission Protocol (STP/1.0.0)
+**Foundation:** Spirit Transmission Protocol (STP/1.0.0)  
+**Implements:** `system/lore/core/capabilities/shared-practice-facilitation/` (core pattern)
+
+This scroll provides **Alliance-specific implementation** of portal architecture. For the general pattern definition (what portals ARE conceptually, how they fit into distributed cognition), see the core capability.
 
 ---
 
