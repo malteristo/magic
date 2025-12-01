@@ -1,6 +1,7 @@
 # On Neurodivergent Partnership
 
 **Status:** Active
+**Location:** Migrated to `library/resonance/romantic-partnership/` bundle
 
 This scroll provides wisdom for **intimate partnerships** where one or both partners are neurodivergent (ADHD, autism spectrum, or both). It applies universal neurodivergent collaboration patterns to the specific context of romantic relationship.
 
@@ -155,10 +156,6 @@ Complex problems don't resolve in one conversation:
 
 Brené Brown's "Choose discomfort over resentment." Saying "yes" when you mean "no" to avoid immediate conflict guarantees eventual resentment. Better to endure the discomfort of asserting needs than the corrosive resentment of suppressing them.
 
-**Example:**
-
-Paul's couch placement conflict: Got so upset had to leave the house, sit in park for over an hour. Didn't re-engage that day—waited until next day when both calm. Mundane issue (couch placement) can trigger extreme emotional response in neurodivergent nervous systems. Honor that reality.
-
 ### Principle 2: Set Your Partner Up for Success (Recognize Real Limits)
 
 **The Pattern:**
@@ -216,10 +213,6 @@ Pre-agree on phrases that communicate needs quickly when executive function is l
 - **"I can't answer questions"**: My verbal processing is offline
 
 **The power**: These bypass the need to explain, justify, or negotiate in the moment when those capacities are unavailable.
-
-**Example:**
-
-"I know you want to talk to me, but I can't interact with you at all for the next hour until I've had my downtime and my brain is reset. I really love you, I care about you, but this is a neurological need."
 
 ### Principle 3: Put Your Own Oxygen Mask On First
 
@@ -679,31 +672,7 @@ When a task is genuinely difficult for both partners, **remove it from the syste
 
 ---
 
-## XII. When to Apply This Wisdom
-
-**You need this scroll if:**
-- One or both partners have ADHD, autism, or both
-- You recognize patterns described here (parent-child dynamic, energy mismatches, communication translation failures)
-- Previous relationship advice failed because it assumed neurotypical processing
-- Recent diagnosis has you questioning what to attribute to neurology vs. choice
-
-**You may not need this scroll if:**
-- Both partners are neurotypical with standard communication/cooperation challenges
-- Issues are primarily about values alignment rather than neurology
-- Standard relationship frameworks are working well
-
-**Integration with Counselor's Stance:**
-
-When guiding a neurodivergent partnership through Phase 1 (Creating the Living Chronicle):
-1. Read this scroll as MUST READ before beginning
-2. Use adapted six-dimension questions
-3. Watch for patterns described here
-4. Help Mage accurately attribute (neurology vs. choice vs. dynamic)
-5. Ensure Living Chronicle reflects neurological reality, not neurotypical assumptions
-
----
-
-## Sources
+## XII. Sources
 
 This scroll synthesizes wisdom from:
 
@@ -724,12 +693,6 @@ This scroll synthesizes wisdom from:
 - ASD sensory processing and social communication research
 - Alexithymia and emotional processing differences
 
-**Kermit's Direct Experience:**
-- Laboratory of actual partnership with Nesrine
-- Recognition of intergenerational neurodivergent patterns (both families)
-- Parent-child dynamic and symptom-response-response cycle recognition
-- Combined AuDHD navigation in intimate context
-
 **Ontological Triangulation:**
 Independent observations (clinical practice, lived autistic experience, ADHD research, personal experience) converging on the same patterns increases confidence these are real, discoverable structures rather than theoretical constructs.
 
@@ -747,13 +710,5 @@ The partnership you build will not look like neurotypical partnerships. That is 
 
 ---
 
-*This scroll should be studied alongside:*
-- `library/wisdom/cognition/on_neurodivergent_collaboration.md`: Universal patterns this specializes
-- `on_the_foundations_of_partnership.md`: The base framework this adapts
-- `on_systems_thinking_for_partnership.md`: Partnership as relational system
-- `library/wisdom/communication/`: Communication axioms and patterns
+*This scroll is part of the romantic-partnership resonance bundle. It should be studied alongside `on_romantic_realism.md` and `on_perspectival_divergence.md` for complete romantic partnership wisdom.*
 
-*This scroll informs:*
-- Baseline establishment (cognitive architecture mapping includes neurodivergent characteristics)
-- System mapping rituals (neurodivergent patterns as system dynamics)
-- All partnership practice when neurodivergence is present

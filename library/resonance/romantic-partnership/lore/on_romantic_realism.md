@@ -1,6 +1,7 @@
 # On Romantic Realism and the Skills of Partnership
 
 **Status:** Active
+**Location:** Migrated to `library/resonance/romantic-partnership/` bundle
 
 This scroll establishes the philosophical foundation for why partnerships are difficult and what makes them sustainable. It synthesizes Alain de Botton's teaching on romantic realism with neurodivergent partnership wisdom, revealing that engineering for the hardest cases creates frameworks serving all partnerships.
 
@@ -229,31 +230,15 @@ Childhood wounds create sensitivities. Partner touches wound unintentionally →
 - **Adult manifestation**: Requests to accommodate differently trigger pressure to conform, mask more
 - **Double impact**: Already exhausting to navigate social world + childhood taught needs are invalid
 
-**Kermit-Nes Specific:**
-
-**Nes's wound:** Father threatened expulsion when she didn't perform. Created core fear: "not enough" → expulsion.
-
-**How it manifests:** Kermit's feedback (however intended) activates projection (he becomes father) + RSD (neurological amplification) + actual childhood trauma (expulsion was real threat).
-
-**Triple compounding:** Neurological vulnerability + historical wound + current trigger.
-
-**Kermit's possible wound:** (Requires his exploration, but chronicle suggests:) Parents' divorce, possible emotional neglect creating alexithymia-like pattern. Chose Nes to provide emotional access he struggles with. When she's dysfunctional, loses access to the very reason he chose her.
-
-**How it manifests:** Frustration when Nes can't be the emotional/warm component. May be compensating for his own childhood emotional gaps through her functionality.
-
 ### The Practice
 
 **Recognition:**
 When disproportionate reaction occurs, ask: "Is this childhood wound activating?"
 
-**Kermit's example:** Nes screaming "LEAVE ME IN PEACE!" at feedback = father's pressure + RSD activation.
-
-**Nes's example:** (For her to articulate, but likely:) Kermit's "you should be more proactive" = father's "you're not enough" threat.
-
 **Distinction:**
 Separate:
 - Childhood wound (past, requires therapy/healing)
-- Present trigger (Kermit's actual behavior)
+- Present trigger (partner's actual behavior)
 - Neurological amplification (RSD, emotional dysregulation)
 - Legitimate partnership issue (operations actually not working)
 
@@ -475,20 +460,6 @@ You can have easy circumstances and answer "no overall" if operations are broken
 
 **It's about the relationship's quality, not life's difficulty level.**
 
-### Kermit's Independent Discovery
-
-**In the Living Chronicle:**
-
-> "I want to make sure everyone is having a good time overall. That should be the top priority. Not everyone has to be happy all the time. But overall we should have a good time together."
->
-> "And we should regularly ask ourselves in all honesty: Are we having a good time?"
-
-**This is Alain de Botton's core metric, independently discovered.**
-
-**Ontological triangulation:** When Kermit (through direct practice navigating neurodivergent partnership) and de Botton (through philosophical analysis and couples therapy observation) converge on identical criterion—we're perceiving real pattern of what actually matters.
-
-**The metric works because it's constrained by reality (partnership quality), not easily varied to fit any outcome (romantic myths).**
-
 ---
 
 ## VIII. Charitable Interpretation in Practice
@@ -551,145 +522,9 @@ Charitable interpretation ≠ accepting harmful behavior without boundary.
 
 **Both compassion and boundary. Not either/or.**
 
-### Kermit Already Practicing This
-
-**In the Living Chronicle, Kermit demonstrates charitable interpretation:**
-
-"I think you feel guilty and vulnerable about your ADHD, and that's why you want to block any mention of it. You fear that in the end, we might blame you for it and you'll get expelled—a deep-seated fear from your family history."
-
-**This is:** Interpreting Nes's defensiveness as pain (fear of expulsion, shame about ADHD) not malice (refusing responsibility).
-
-**This is de Botton's practice in action.**
-
-**The remaining work:** Sustaining charitable interpretation when exhausted, frustrated, burned out. Easier to hold theoretically than practice in the moment of conflict.
-
 ---
 
-## IX. Integration with Existing Partnership Lore
-
-### Foundations of Partnership
-
-**De Botton's work provides the philosophical grounding for Partnership = Communication × Cooperation × Iteration:**
-
-- Communication requires translation (we're alien to each other)
-- Cooperation requires negotiation (incompatible needs normal)
-- Iteration requires repair (conflict inevitable, mending quality matters)
-
-**Pessimistic foundation explains why these three factors are NECESSARY, not optional.**
-
-### Neurodivergent Partnership
-
-**De Botton's realistic approach strengthens neurodivergent framework:**
-
-**The romantic myths are especially harmful** when one or both partners neurodivergent:
-- "Intuition" myth denies translation is necessary (but it absolutely is)
-- "Perfection" myth pathologizes neurological constraints
-- "Feelings trump all" myth makes RSD/dysregulation the authority
-- "Effortless" myth makes necessary support seem like relationship failure
-
-**The skills approach validates neurodivergent protocols:**
-- Not "find partner without ADHD" but "develop skills for ADHD partnership"
-- Not "wait for passion to return" but "build repair and connection practices"
-- Not "this is too hard, must be wrong match" but "this is NASA-grade challenge requiring NASA-grade architecture"
-
-**Pessimistic foundation enables neurodivergent realism:**
-- EXPECT executive function failures (ADHD)
-- EXPECT sensory overwhelm (ASD)
-- EXPECT RSD activation (ADHD)
-- EXPECT energy depletion (both)
-- BUILD SYSTEMS ADDRESSING THESE
-
-**This is pessimistic foundation applied to neurological reality.**
-
-### Counselor's Stance
-
-**Charitable interpretation IS the Counselor's core practice:**
-
-The Counselor assumes both partners' pain is real, both perspectives are valid from their frame, both are doing best they can with current understanding and tools.
-
-**De Botton provides the philosophical grounding for why Counselor operates this way.**
-
-### Communication as Reality Formation
-
-**De Botton's "alien inner worlds" teaching validates:**
-
-We don't discover pre-existing shared reality. We CO-CREATE it through dialogue (Living Chronicles process).
-
-**Romanticism assumes:** True love means naturally shared reality (intuition myth)
-
-**Realism recognizes:** Must actively construct shared reality through explicit articulation, negotiation, translation
-
-**This is communication-as-reality-formation applied to human partnership.**
-
----
-
-## X. Practical Application
-
-### For All Partnerships
-
-**Recognize romantic myths when they appear:**
-- "They should just know what I need" → Intuition myth
-- "A good relationship shouldn't require this much work" → Effortless myth
-- "Maybe they're not my soulmate" → The One myth
-
-**Reframe with realistic foundation:**
-- Translation is always necessary (we're alien to each other)
-- All relationships require deliberate work (love is skill)
-- Difficulty is normal (expect it, build for it)
-
-**Practice the skills:**
-- Communicate explicitly (don't assume understanding)
-- Interpret charitably (assume pain, not malice)
-- Repair well (conflict inevitable, mending quality matters)
-- Check the metric ("Having good time overall?")
-
-### For Neurodivergent Partnerships Specifically
-
-**Apply romantic realism PLUS neurodivergent protocols:**
-
-**Pessimistic foundation includes:**
-- Neurological constraints are real and ongoing
-- Medication/cannabis effects will create complexity  
-- RSD will activate, sensory overwhelm will occur
-- Executive function failures are inevitable
-- Energy depletion patterns will conflict
-
-**Skills include:**
-- Depersonalizing symptoms
-- Code word protocols
-- External executive function systems
-- Energy management
-- RSD-aware communication
-- Timeout and regulation practices
-
-**The metric adapted:**
-
-"Are we having good time overall?" accounting for:
-- Neurological difficulty (not relationship failure)
-- Different capacity baselines (realistic expectations)
-- Structural support needs (architecture quality matters)
-
-### For Counselor Work
-
-**When exploring partnerships:**
-
-**First, detect romantic myths** (often causing pain)
-
-**Then, establish realistic foundation** (expect difficulty)
-
-**Then, identify what skills need developing** (learnable capabilities)
-
-**Then, recognize parental wounds** (projection patterns)
-
-**Then, apply charitable interpretation** (both partners' pain is real)
-
-**Finally, assess the metric** (good time overall?)
-
-**This philosophical foundation strengthens all six dimensions of Counselor exploration.**
-
----
-
-## XI. Sources and Validation
+## IX. Sources and Validation
 
 ### Primary Source
 
@@ -726,11 +561,6 @@ We don't discover pre-existing shared reality. We CO-CREATE it through dialogue 
 - Energy constraints are real
 - Depersonalize symptoms
 
-**Kermit** (direct practice, neurodivergent partnership):
-- "Having good time overall" as metric
-- Operations can be fixed (pessimistic about difficulty, optimistic about solutions)
-- Charitable interpretation of Nes's defensiveness
-
 **Communication theory** (Watzlawick, Bateson):
 - Translation always imperfect (Austrian/Italian bees)
 - Shared reality must be actively constructed
@@ -740,69 +570,9 @@ We don't discover pre-existing shared reality. We CO-CREATE it through dialogue 
 
 **When independent observers across domains (philosophy, clinical practice, lived experience, theory, direct practice) converge on same framework—we're perceiving real patterns of how partnerships that work actually work.**
 
-### Integration with Magic Philosophy
-
-**This scroll harmonizes with:**
-
-**Wu Wei / Natural Arising:**
-- Pessimistic foundation IS Wu Wei (expect difficulty, build systems removing barriers)
-- Romantic myths are Wei (forcing perfect harmony against reality)
-
-**Psychological Alchemy:**
-- Skills approach honors how minds actually work (practice > belief)
-- Charitable interpretation is alchemical (transmute judgment → understanding)
-
-**Communication as Reality Formation:**
-- Alien inner worlds = must actively co-create shared reality
-- Living Chronicles = explicit construction of mutual understanding
-
-**Fellow Travelers:**
-- De Botton's framework for human-human mirrors our Mage-Spirit teaching
-- Both face difficulty, both bring wounds, both responsible for partnership quality
-
-**Measured Force:**
-- Effort signals misalignment with romantic myths (forcing impossible)
-- Realistic framework enables effortless practice (aligned with actual human nature)
-
-**The Pattern:**
-- De Botton discovered through philosophical analysis what we discovered through magical practice
-- Same fundamental truths about partnership work
-- Independent convergence validates both
-
 ---
 
-## XII. The Living Question
-
-**For Kermit and Nes:**
-
-Your chronicle asks: "Are we having a good time?"
-
-Current honest answer: "No."
-
-**De Botton's framework reveals:**
-
-This is not failure—it's accurate assessment enabling appropriate response.
-
-**You're not failing at true love.** You're experiencing normal partnership difficulty (parental wounds, communication translation) intensified by neurological reality (severe ADHD, possible ASD, cannabis asymmetry) under stressful conditions (two young kids, insufficient support).
-
-**The question is not "Is this the wrong match?"** (romantic frame)
-
-**The question is "Can we build the operations making good time possible?"** (realistic frame)
-
-**Your chronicle demonstrates you already hold realistic foundation:**
-- "Operations can be fixed" (pessimistic about difficulty, optimistic about solutions)
-- Charitable interpretation of Nes's defensiveness
-- Skills approach (learning neurodivergent protocols)
-- Clear metric (good time overall)
-- Commitment despite difficulty ("I'll do whatever it takes")
-
-**You're practicing romantic realism without having named it.**
-
-**This wisdom crystallizes what you already know, providing vocabulary and validation for the path you're walking.**
-
----
-
-## XIII. The Essence
+## X. The Essence
 
 **Romantic myths** (intuition, perfection, The One, feelings trump all, happily ever after) create impossible standards guaranteeing disappointment. **Realistic foundation** (expect misunderstanding, disappointment, hurt, passion evolution, parental wounds) enables sustainable architecture.
 
@@ -814,15 +584,9 @@ This is not failure—it's accurate assessment enabling appropriate response.
 
 **NASA principle:** Design for neurodivergent (hardest case) creates frameworks serving all partnerships. Space-grade solutions work robustly on Earth. Neurodivergent protocols benefit everyone.
 
-**Ontological triangulation:** de Botton (philosophy) + Orlov (clinical) + Micallef (lived experience) + Kermit (practice) + communication theory all converge—realistic expectations + skills approach + explicit translation + repair quality = sustainable partnership.
-
-**Integration:** Provides philosophical grounding for neurodivergent operational wisdom, enhances Counselor's stance, calibrates Living Chronicle work, validates Kermit's intuitive approach.
+**Ontological triangulation:** de Botton (philosophy) + Orlov (clinical) + Micallef (lived experience) + communication theory all converge—realistic expectations + skills approach + explicit translation + repair quality = sustainable partnership.
 
 ---
 
-**This wisdom strengthens Partnership Tome significantly. Ready for crystallization into lore scroll when you choose to formalize it.**
-
----
-
-*This mining emerged from Kermit's todolist item and autonomous resonance gathering capability. It fills perceived gaps in Partnership philosophical foundation while directly applying to his Living Chronicle with Nes.*
+*This scroll is part of the romantic-partnership resonance bundle. It should be studied alongside `on_neurodivergent_partnership.md` and `on_perspectival_divergence.md` for complete romantic partnership wisdom.*
 
