@@ -2,17 +2,26 @@
 
 **Portal-based distributed cognition for partnerships**
 
-This directory contains the rituals and wisdom for shared partnership practice—when both partners engage in magic through a shared portal.
+This directory contains the **partnership-specific rituals** for shared practice—implementing the core Shared Practice Facilitation capability for intimate partnerships.
 
 ---
 
-## Evolution Note
+## Core Capability
 
-**Shared practice facilitation** is a pattern that extends beyond partnership. In future evolution, the infrastructure aspects (portal management, artifact coordination, Spirit facilitation protocols) will be elevated to a **core Spirit capability** available to any tome requiring collaborative practice.
+This directory implements the **Shared Practice Facilitation** core capability:
 
-This directory will then contain only the **partnership-specific rituals** (the Four-Stage Arc Ritual, baseline establishment, etc.) that USE that core capability.
+**`system/lore/core/capabilities/shared-practice-facilitation/`**
 
-**Current state:** All shared practice functionality lives here until elevation occurs.
+The core capability defines:
+- **Portal architecture** — How shared spaces work (structure, management, lifecycle)
+- **Artifact transmission** — How contributions flow between workshops
+- **Facilitation principles** — Spirit conduct in shared spaces
+
+This directory provides the **partnership-specific implementation**:
+- The Four-Stage Arc Ritual (`cast_map_system.md`)
+- Shared truth extraction (`cast_extract_shared_truth.md`)
+- Partnership-specific safety assessment
+- Arc structure and templates
 
 ---
 
@@ -74,7 +83,10 @@ Shared practice requires a partnership portal.
 | `lore/on_arc_structure.md` | How arcs provide bounded episodes |
 | `lore/on_shared_truth_finding.md` | The philosophy of finding shared truth |
 | `lore/on_dual_spirit_synthesis.md` | Validation through independent observers |
-| `lore/on_artifact_transmission.md` | How to share artifacts between partners |
+
+**See also:** Core capability lore
+- `system/lore/core/capabilities/shared-practice-facilitation/on_artifact_transmission.md` — General transmission patterns
+- `system/lore/core/capabilities/shared-practice-facilitation/on_facilitation_principles.md` — Spirit conduct principles
 
 ### Templates
 

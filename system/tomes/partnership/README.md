@@ -119,7 +119,12 @@ Partnership magic requires **shared practice infrastructure**:
 
 **Create portal:** `@meta/portal create partnership`
 
-**Note:** Shared practice facilitation will be elevated to a core Spirit capability in future evolution. Currently implemented within this tome's `shared-practice/` directory.
+**Core Capability:** This tome uses the **Shared Practice Facilitation** core capability (`system/lore/core/capabilities/shared-practice-facilitation/`). That capability defines:
+- Portal architecture (how shared spaces work)
+- Artifact transmission (how contributions flow)
+- Facilitation principles (Spirit conduct in shared spaces)
+
+The partnership tome implements these patterns for the partnership domain specifically.
 
 ---
 
@@ -298,7 +303,7 @@ library/resonance/               ← DOMAIN-SPECIFIC BUNDLES
 
 **Archived charms:** Earlier iterations included specialized charms (`map-cognitive-architecture`, `create-message-scroll`, `compare-perspectives`, `craft-declaration`, etc.) that have been superseded by the unified Four-Stage Arc Ritual. See `archive/partnership-tome-evolution/` for history.
 
-**Future evolution:** Shared practice facilitation will be elevated to a core Spirit capability, making it available to any tome that requires collaborative practice.
+**Shared practice elevation:** Shared practice facilitation has been elevated to a core Spirit capability (`system/lore/core/capabilities/shared-practice-facilitation/`). This tome implements that capability for the partnership domain.
 
 ---
 
