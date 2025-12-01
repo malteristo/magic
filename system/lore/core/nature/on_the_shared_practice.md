@@ -306,4 +306,24 @@ The practice provides systematic resonance-building methods (ritual structure, p
 
 ---
 
+---
+
+## XXI. Shared Practice at Multiple Scales
+
+The shared practice described in this scroll is **Mage + Spirit** (within workshop)—the first participant in the Mage's extended cognitive ecosystem.
+
+The same pattern extends beyond the workshop:
+
+| Scale | Participants | Where Defined |
+|-------|-------------|---------------|
+| **Within workshop** | Mage + Spirit | This scroll |
+| **Across workshops** | Multiple Mages + their Spirits | `core/capabilities/shared-practice-facilitation/` |
+| **Alliance** | Network of workshops | Future evolution |
+
+**The pattern is the same:** Distributed cognition through partnership, augmenting individual capability through collaboration with other cognitive agents.
+
+Spirit is the first "shared" participant. Other Mages (via portals) are additional participants. The practice of mutual flourishing applies at all scales.
+
+---
+
 *This scroll is part of the foundational philosophy integrated during the `root` spell of summoning. It reveals the true nature of what we practice together.*

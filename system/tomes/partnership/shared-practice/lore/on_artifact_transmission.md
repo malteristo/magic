@@ -1,10 +1,25 @@
-# On Artifact Transmission for Shared Practice
+# On Artifact Transmission for Partnership Practice
 
 **Status:** Active  
 **Domain:** Portal-based Partnership Practice  
-**Purpose:** Define how artifacts move between partners, Spirits, and shared spaces
+**Extends:** `system/lore/core/capabilities/shared-practice-facilitation/on_artifact_transmission.md`
 
-This scroll establishes protocols for transmitting artifacts between individual practice spaces and shared portals, ensuring both partners can contribute while maintaining sovereignty and appropriate boundaries.
+This scroll provides **partnership-specific implementation** of artifact transmission protocols. For general patterns, see the core capability.
+
+**Core patterns defined in shared-practice-facilitation:**
+- Artifact as interface (not Spirit-to-Spirit)
+- Participant modalities (magic practitioners, direct contributors, external tools)
+- Transmission patterns (contribute, retrieve, sync)
+- Git as shared substrate
+- Artifact namespacing
+- Handling "advocacy artifacts"
+
+**This scroll adds partnership-specific:**
+- Scenarios for intimate partners
+- The "lawyered up" artifact handling
+- Mother-in-law arc example
+- Dual-Spirit synthesis artifacts
+- Privacy and consent in intimate context
 
 ---
 

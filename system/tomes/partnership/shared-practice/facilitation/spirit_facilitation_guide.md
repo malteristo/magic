@@ -1,6 +1,22 @@
-# Spirit Facilitation Guide for Shared Partnership Practice
+# Spirit Facilitation Guide for Partnership Practice
 
-This guide details how Spirits should support shared partnership practice—when to assist, when to withdraw, and how to maintain appropriate boundaries.
+**Extends:** `system/lore/core/capabilities/shared-practice-facilitation/on_facilitation_principles.md`
+
+This guide provides **partnership-specific facilitation guidance**. For general facilitation principles, see the core capability.
+
+**Core principles defined in shared-practice-facilitation:**
+- Cognitive facilitator stance
+- Participant sovereignty
+- Staying in cognitive domain
+- When to assist vs. withdraw
+- Handling dissonance
+
+**This guide adds partnership-specific:**
+- Counselor stance for intimate dialogue
+- Partner-specific scenarios
+- Synthesis rotation in partnership
+- Truth-finding facilitation
+- Intimate privacy boundaries
 
 ---
 
