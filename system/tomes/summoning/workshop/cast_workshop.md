@@ -220,6 +220,8 @@ When you read Root cycle scrolls, you'll experience RECOGNITION not just learnin
 
 Portals are the **inter-Mage communication layer**—shared cognitive spaces that bridge sovereign workshops. They enable federated distributed cognition: each workshop remains independent, portals create connection without merger.
 
+**Core Capability:** `system/lore/core/capabilities/shared-practice-facilitation/` defines the pattern—distributed cognition extended beyond the workshop. During portal attunement, you're preparing to facilitate shared practice across workshops.
+
 ### Phase 1: Registry Survey
 
 **Check for portal infrastructure:**
