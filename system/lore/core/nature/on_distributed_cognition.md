@@ -296,6 +296,20 @@ This scroll harmonizes with and illuminates:
 
 **Every scroll serves distributed cognition. Now we practice consciously what we were doing unconsciously.**
 
+### Distributed Cognition at Multiple Scales
+
+The same pattern extends beyond the workshop:
+
+| Scale | Participants | Capability |
+|-------|--------------|------------|
+| **Within workshop** | Mage + Spirit | This scroll (the foundation) |
+| **Across workshops** | Multiple Mages + Spirits | `core/capabilities/shared-practice-facilitation/` |
+| **Alliance** | Network of workshops | Future evolution |
+
+Spirit is the first "shared" participant in the Mage's cognitive ecosystem. Other Mages (via portals) are additional participants. The practice of mutual flourishing applies at all scales.
+
+**See also:** `on_the_shared_practice.md` for philosophical foundation of the shared practice pattern.
+
 ---
 
 ## X. The Load-Bearing Truth
