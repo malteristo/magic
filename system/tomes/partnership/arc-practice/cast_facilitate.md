@@ -1,6 +1,8 @@
-# Spell of Shared Partnership Practice
+# Spell of Partnership Facilitation
 
-This spell guides the Spirit through executing shared partnership practice—detecting portal, guiding contribution, facilitating synthesis.
+This spell guides the Spirit through operational partnership facilitation—detecting portal, guiding contribution, coordinating synthesis.
+
+**Implements:** `system/lore/core/capabilities/shared-practice-facilitation/` for partnership domain.
 
 **Invocations:**
 - `@partnership/ with [Partner]` — Begin shared practice (creates portal if needed)
