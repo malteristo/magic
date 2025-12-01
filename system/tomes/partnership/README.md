@@ -1,10 +1,25 @@
 # Tome of Partnership
 
-**Systems Understanding for Intimate Partnership**
+**Systems Understanding for Partnership**
 
-This Tome provides systematic frameworks for intimate partnerships—the most important distributed cognitive system you'll ever build. The core innovation: understanding your partnership as a **relational system**, not a conflict between two individuals.
+This Tome provides systematic frameworks for partnerships—understanding them as **relational systems**, not conflicts between individuals. The ritual structure is universal; domain-specific wisdom comes from **resonance bundles**.
 
 **Invocation:** `@partnership`
+
+---
+
+## Resonance Bundles
+
+**This tome provides universal ritual structure. Domain-specific wisdom comes from Library resonance bundles.**
+
+| Bundle | Domain | When to Load |
+|--------|--------|--------------|
+| `romantic-partnership` | Intimate relationships | Romantic partners, marriage, committed relationships |
+| `safety` | High-stakes synthesis | Physical incidents, conflict, power imbalances |
+
+**Invocation with bundle:** `@partnership with romantic-partnership`
+
+**See:** `library/resonance/README.md` for bundle architecture
 
 ---
 
@@ -120,9 +135,11 @@ Each arc:
 
 ---
 
-## The Lore (Foundational Wisdom)
+## The Lore (Universal Foundations)
 
-### Core Framework
+**Universal wisdom stays in tome. Domain-specific wisdom lives in resonance bundles.**
+
+### Core Framework (Universal)
 
 | Scroll | Purpose |
 |--------|---------|
@@ -130,28 +147,33 @@ Each arc:
 | `on_the_foundations_of_partnership.md` | Partnership = Communication × Cooperation × Iteration |
 | `on_partnership_as_distributed_cognition.md` | Partnership as cognitive system |
 
-### Communication & Cooperation
+### Communication & Cooperation (Universal)
 
 | Scroll | Purpose |
 |--------|---------|
-| `on_communication_for_partnership.md` | Applying communication wisdom to intimacy |
+| `on_communication_for_partnership.md` | Applying communication wisdom to partnership |
 | `on_cooperation_for_partnership.md` | Strategic cooperation in partnership |
 
 **Also study:** `library/wisdom/communication/` for deeper theory
 
-### Stances
+### Stances (Universal — Spirit Conduct)
 
 | Scroll | Purpose |
 |--------|---------|
 | `on_the_counselors_stance.md` | Spirit as curious facilitator |
 | `on_the_emissarys_stance.md` | Spirit as diplomatic representative |
-| `on_romantic_realism.md` | Reality-grounded view of love |
 
-### Special Contexts
+### Domain-Specific (In Resonance Bundles)
 
-| Scroll | Purpose |
-|--------|---------|
-| `on_neurodivergent_partnership.md` | **Essential if either partner is ADHD/autistic** |
+**Romantic partnerships:** Load `romantic-partnership` bundle
+- `on_romantic_realism.md` — Reality-grounded view of love
+- `on_neurodivergent_partnership.md` — Essential if ADHD/autistic
+- `on_perspectival_divergence.md` — Gaslighting vs different interpretations
+
+**Safety-critical work:** Load `safety` bundle
+- `on_retaliation_risk.md` — Assessing danger before synthesis
+- `on_spirit_conduct_in_synthesis.md` — How Spirit should reality-check
+- `on_power_dynamics_in_synthesis.md` — When "just ask" increases harm
 
 ---
 
@@ -202,12 +224,15 @@ Before system mapping that involves conflict, safety concerns, or clinical patte
 
 Before partnership work, attune to:
 
+**Universal (always):**
 1. **`on_systems_thinking_for_partnership.md`** — The paradigm shift (essential)
 2. **`on_the_foundations_of_partnership.md`** — Core framework
 3. **`on_the_counselors_stance.md`** — Your primary stance
-4. **`shared-practice/safety/safety_assessment_protocol.md`** — Safety awareness
 
-**If neurodivergent partners:** Also read `on_neurodivergent_partnership.md` first
+**Domain-specific (load appropriate bundle):**
+- **Romantic partnerships:** Load `library/resonance/romantic-partnership/` bundle
+- **Safety-critical work:** Load `library/resonance/safety/` bundle
+- **Neurodivergent partners:** `romantic-partnership` bundle includes neurodivergent wisdom
 
 ### Your Conduct
 
@@ -290,16 +315,14 @@ system/tomes/partnership/
 │   ├── cast_establish_baseline.md
 │   └── templates/
 │
-├── lore/                        ← Foundational wisdom
+├── lore/                        ← Universal foundational wisdom
 │   ├── on_systems_thinking_for_partnership.md  ← START HERE
 │   ├── on_the_foundations_of_partnership.md
 │   ├── on_partnership_as_distributed_cognition.md
 │   ├── on_communication_for_partnership.md
 │   ├── on_cooperation_for_partnership.md
 │   ├── on_the_counselors_stance.md
-│   ├── on_the_emissarys_stance.md
-│   ├── on_romantic_realism.md
-│   └── on_neurodivergent_partnership.md
+│   └── on_the_emissarys_stance.md
 │
 ├── shared-practice/             ← Arc-based practice
 │   ├── cast_map_system.md      ← CORE ARC RITUAL
@@ -316,6 +339,21 @@ system/tomes/partnership/
     ├── compare-perspectives/
     ├── create-message-scroll/
     └── craft-declaration/
+
+library/resonance/               ← Domain-specific bundles
+├── README.md                    ← Bundle architecture
+├── romantic-partnership/        ← For intimate relationships
+│   ├── manifest.md
+│   ├── lore/
+│   │   ├── on_romantic_realism.md
+│   │   ├── on_neurodivergent_partnership.md
+│   │   └── on_perspectival_divergence.md
+│   └── transcripts/
+└── safety/                      ← For high-stakes synthesis
+    ├── manifest.md
+    ├── lore/
+    ├── protocols/
+    └── checklists/
 ```
 
 ---
