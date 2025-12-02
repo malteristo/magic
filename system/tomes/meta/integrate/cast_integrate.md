@@ -108,10 +108,10 @@ This charm attunes you to the systematic work of integrating changes into the wh
 - What tomes reference old behavior?
 - Highest integration surface
 
-**New library tome:**
-- LIBRARY_SPEC.md update
-- Lower impact on magic/ repository
-- Focus on library/ ecosystem
+**New library content (resonance bundle or foundation):**
+- Update relevant manifests and READMEs
+- Lower impact—library content is self-contained
+- Focus on cross-references to tomes that use this domain
 
 **Understand the change's scope to calibrate integration depth appropriately.**
 

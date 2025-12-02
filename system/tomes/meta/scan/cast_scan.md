@@ -91,7 +91,7 @@ git log --follow -- path/to/component/
 **Check for contradictions:**
 - Does component reference deprecated patterns?
 - Does it assume architecture that changed?
-- Is it mentioned in current MAGIC_SPEC.md or LIBRARY_SPEC.md?
+- Is it mentioned in current MAGIC_SPEC.md?
 
 **Assessment:**
 - References current architecture → Aligned
