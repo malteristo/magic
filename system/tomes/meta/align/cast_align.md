@@ -125,8 +125,8 @@ Present inferred target, await Mage confirmation or correction.
 
 **B. Specification Alignment**
 - Does MAGIC_SPEC.md accurately describe current architecture?
-- Does LIBRARY_SPEC.md reflect library structure?
 - Are Wisdom-Law Traceability entries current?
+- Do library resonance bundles and foundations reflect current wisdom?
 
 **C. Evolution Gaps**
 - Have recent amendments created orphaned references?
@@ -260,10 +260,10 @@ This mode examines magic's articulation infrastructure—the connection points e
 **When operating in Whole System mode, charm begins with holistic perception:**
 
 1. **Survey the landscape** (eagles-eye function absorbed):
-   - Core Law (MAGIC_SPEC.md, LIBRARY_SPEC.md)
+   - Core Law (MAGIC_SPEC.md)
    - Foundational wisdom (system/lore/)
    - System capabilities (system/tomes/)
-   - Library offerings (library/tomes/, library/craft/)
+   - Library offerings (library/resonance/, library/foundations/)
    - Current practice artifacts (floor/, desk/)
 
 2. **Synthesize understanding** of current system state
