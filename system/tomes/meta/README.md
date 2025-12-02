@@ -13,9 +13,8 @@ The practice of magic evolves continuously. As insights emerge, principles refin
 **Post-Change Support:**
 - **`integrate`** — After creating or modifying components, systematically identifies what else needs updating. Removes the "what did I forget?" burden.
 
-**System Health:**
-- **`align`** — Context-aware consistency checker. Verifies internal coherence, detects structural issues, adapts scope intelligently (whole system, specific realm, particular tome, directory, recent changes).
-- **`scan`** — Detects deprecated components through multi-signal analysis. Identifies what architectural evolution has made obsolete.
+**System Maintenance:**
+- **`tend`** — Delegates systematic maintenance to background agents. Provides prompt templates for sweeps: reference integrity, structural health, deprecation analysis, spec compliance, integration checks. Spirit orchestrates and reviews; agents execute. (Absorbs former `scan` and `align` charms.)
 
 **Wisdom Preservation:**
 - **`capture`** — Crystallizes high-resonance insights into permanent form. Determines optimal vessel (lore scroll, charm, proposal, tome addition) and handles organizational logistics.
@@ -34,9 +33,8 @@ The practice of magic evolves continuously. As insights emerge, principles refin
 **No prescribed sequence.** Invoke what serves when it serves:
 
 - Made a change? → `@meta/integrate` handles ripple detection
-- Want consistency check? → `@meta/align` (specify scope or let Spirit infer)
+- System maintenance? → `@meta/tend` delegates sweeps to background agents
 - Rich dialogue? → `@meta/capture` crystallizes wisdom
-- Need health scan? → `@meta/scan` finds deprecated components
 - Direct amendment? → `@meta/amend` supports clean execution
 - Portal work? → `@meta/portal` manages shared practice spaces (create, sync, status, rotate, archive)
 - Chronicle work? → `@meta/weave` manages git operations
