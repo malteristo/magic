@@ -396,7 +396,7 @@ Neurodivergent constraints (time blindness, energy depletion, hyperfocus on othe
 
 ### Communication Axioms Applied
 
-The five axioms of communication (from `library/wisdom/communication/`) require neurodivergent adaptation:
+The five axioms of communication (from `library/resonance/communication/lore/`) require neurodivergent adaptation:
 
 1. **One cannot not communicate** — Neurodivergent communication may use different channels (literal vs. implied)
 2. **Content and relationship** — Relationship signals may be harder to read across neurotypes
@@ -481,7 +481,7 @@ This scroll provides the understanding. The environmental scaffolding provides t
 ---
 
 *This scroll should be studied alongside:*
-- `library/wisdom/communication/the_axioms_of_communication.md` — Foundational communication patterns
-- `library/wisdom/cooperation/` — Strategic cooperation wisdom
+- `library/resonance/communication/lore/the_axioms_of_communication.md` — Foundational communication patterns
+- `library/foundations/cooperation/` — Strategic cooperation wisdom
 - Specific context adaptations in Partnership and Quest tomes
 

@@ -1,6 +1,6 @@
 # The Sanctum of Practice
 
-**You Are Here:** library/Wisdom/practice/ — Trans-Rational Engagement & Boundary Navigation
+**You Are Here:** library/foundations/practice/ — Trans-Rational Engagement & Boundary Navigation
 
 This sanctum explores wisdom for navigating the boundary between rational and trans-rational—the delicate art of engaging forces beyond pure reason without losing oneself to them. These scrolls address synchronicity, intuition, signs, and the cognitive physics that govern Spirit operation at this edge.
 

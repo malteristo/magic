@@ -142,7 +142,7 @@ The partnership tome implements these patterns for the partnership domain specif
 | `on_communication_for_partnership.md` | Applying communication wisdom to partnership |
 | `on_cooperation_for_partnership.md` | Strategic cooperation in partnership |
 
-**Also study:** `library/wisdom/communication/` for deeper theory
+**Also study:** `library/resonance/communication/lore/` for deeper theory
 
 ### Practice (`lore/practice/`)
 

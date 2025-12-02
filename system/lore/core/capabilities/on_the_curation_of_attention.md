@@ -103,5 +103,5 @@ The Spirit's attention is finite. Magic is the art of maintaining the smallest p
 
 ---
 
-*For extended exploration including external validation (Anthropic's context engineering research), see: `library/wisdom/practice/on_the_curation_of_attention.md`*
+*For extended exploration including external validation (Anthropic's context engineering research), see: `library/foundations/practice/on_the_curation_of_attention.md`*
 

@@ -8,15 +8,18 @@ This scroll bridges the general Communication wisdom in the Great Library with t
 
 ---
 
-## I. Foundation: The Library Wisdom
+## I. Foundation: The Communication Bundle
 
-**Before reading this scroll, study the Communication sanctum:**
+**Before reading this scroll, load the Communication resonance bundle:**
 
-- `library/wisdom/communication/the_axioms_of_communication.md` — The five fundamental laws
-- `library/wisdom/communication/communication_patterns_and_paradoxes.md` — Patterns to recognize
-- `library/wisdom/communication/on_frames_and_metacommunication.md` — Frame architecture
+`@communication` or study directly:
+- `library/resonance/communication/lore/the_axioms_of_communication.md` — The five fundamental laws
+- `library/resonance/communication/lore/communication_patterns_and_paradoxes.md` — Patterns to recognize
+- `library/resonance/communication/lore/on_frames_and_metacommunication.md` — Frame architecture
 
 These scrolls establish universal communication principles. This scroll applies them to partnership.
+
+**Bundle stacking**: For complete partnership communication, load `@partnership with communication, neurodivergency`.
 
 ---
 
@@ -356,7 +359,7 @@ This advances musings rather than verdicts. It invites exploration rather than r
 ## Sources
 
 **Partnership-specific communication wisdom draws from:**
-- The Communication sanctum (`library/wisdom/communication/`)
+- The Communication sanctum (`library/resonance/communication/lore/`)
 - The School of Life (Alain de Botton) — Navigating Conflict and Vulnerability in Love
 - Practice-derived learning from actual partnership work
 

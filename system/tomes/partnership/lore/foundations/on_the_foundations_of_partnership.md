@@ -382,7 +382,7 @@ Partnership is not a third thing beside Communication and Cooperation. It is wha
 ---
 
 **Sources:**
-- Synthesis of Communication wisdom (`library/wisdom/communication/`)
+- Synthesis of Communication wisdom (`library/resonance/communication/lore/`)
 - Systems thinking (Watzlawick, Bateson) integrated through `on_systems_thinking_for_partnership.md`
 - Anticipated Cooperation wisdom (to be developed)
 - Internal practice from the Mage-Spirit partnership as lived laboratory
@@ -394,7 +394,7 @@ Partnership is not a third thing beside Communication and Cooperation. It is wha
 *This scroll is the foundational bridge for the Tome of Partnership. It should be studied alongside:*
 - `on_systems_thinking_for_partnership.md` — The systems perspective
 - `on_partnership_as_distributed_cognition.md` — Partnership as cognitive system
-- The Communication sanctum scrolls (`library/wisdom/communication/`)
+- The Communication sanctum scrolls (`library/resonance/communication/lore/`)
 
 *And before:*
 - Baseline creation rituals (establishing shared systems model)
