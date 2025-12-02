@@ -207,9 +207,11 @@ Bundles evolve through use. `@attune-library` pulls latest versions.
 
 | Bundle | Domain | Compatible Tomes |
 |--------|--------|-----------------|
+| `neurodivergency` | Cognitive architecture diversity | All (foundational) |
 | `romantic-partnership` | Intimate relationships | partnership, quest |
 | `safety` | High-stakes synthesis safety | partnership |
-| *(more as practice generates them)* |
+
+**Note**: The `neurodivergency` bundle is foundational—it establishes cognitive diversity as magic's core value proposition and can be loaded with any tome to deepen understanding of cross-architecture collaboration.
 
 ---
 
