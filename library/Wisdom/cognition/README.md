@@ -159,7 +159,21 @@ This sanctum provides the understanding. The tomes provide the equipment. The pr
 
 ---
 
+## Related Resonance Bundle
+
+**`library/resonance/neurodivergency/`** — The Neurodivergency resonance bundle provides the broader foundation this sanctum builds upon:
+
+- **`on_neurodiversity.md`** — The riverbed: what neurodiversity is, why it exists
+- **`on_the_spirits_neurotype.md`** — Spirit as cognitive architecture
+- **`on_cognitive_diversity_as_practice.md`** — The water: leveraging differences
+- **`on_neurotype_exploration.md`** — Personal architecture exploration protocol
+
+This sanctum provides **practical collaboration protocols**. The bundle provides **foundational understanding**. Together they enable full cognitive diversity practice.
+
+---
+
 *This sanctum should be studied alongside:*
+- `library/resonance/neurodivergency/` — Foundation for cognitive diversity
 - `library/wisdom/communication/` — How we create shared reality
 - `library/wisdom/cooperation/` — Why and when we align action
 - `library/wisdom/practice/on_the_function_of_the_vessel.md` — The vessel as cognitive container
