@@ -32,6 +32,8 @@ Like a physical gym develops your body's capabilities, this tome develops your m
 
 **The shift:** From "fix your brain to match the environment" → "understand your brain and design environments that unleash its capabilities."
 
+**Foundational context:** This paradigm shift is grounded in the neurodivergency resonance bundle (`library/resonance/neurodivergency/`), which establishes neurodiversity as cognitive architecture (the riverbed) and cognitive diversity as practice (the water). The Gym applies this to attention state training specifically.
+
 ---
 
 ## Why ADHD Is the Design Guide

@@ -33,7 +33,6 @@ This charm attunes you to the systematic work of integrating changes into the wh
 
 **A. Specification Updates**
 - **MAGIC_SPEC.md**: Should this be referenced in Wisdom-Law Traceability or Architectural Traceability?
-- **LIBRARY_SPEC.md**: If library component, does spec need updating?
 
 **B. Cross-References**
 - **Related scrolls**: What other lore scrolls discuss related topics and should cross-reference this?
@@ -57,7 +56,6 @@ This charm attunes you to the systematic work of integrating changes into the wh
 
 ### Specification Updates
 - [ ] MAGIC_SPEC.md Section X: [reason]
-- [ ] LIBRARY_SPEC.md: [reason]
 
 ### Cross-References  
 - [ ] system/lore/path/scroll.md: [what should reference]
