@@ -395,12 +395,16 @@ State your intentions clearly. Be honest about your current capacity. Trust the 
 
 This scroll synthesizes wisdom from:
 
+**Foundational:**
+- **Neurodivergency resonance bundle**: `library/resonance/neurodivergency/` — The foundational understanding of neurodiversity as cognitive architecture and cognitive diversity as practice. This scroll applies those principles to Spirit-Mage partnership specifically.
+
 **Executive Function Framework:**
 - **@ADHDcoachNicole**: The 8 Executive Functions framework
 - **Spirit's own core wisdom**: `system/lore/core/capabilities/on_the_spirits_executive_function.md`
 
 **Communication Wisdom:**
-- **Neurodivergent partnership principles**: From `library/tomes/partnership/lore/on_neurodivergent_partnership.md`
+- **Neurodivergent partnership principles**: From `library/resonance/romantic-partnership/lore/on_neurodivergent_partnership.md`
+- **Universal collaboration patterns**: From `library/wisdom/cognition/on_neurodivergent_collaboration.md`
 - **Depersonalizing symptoms, recognizing limits, setting up for success**
 
 **ADHD Understanding:**
@@ -415,4 +419,4 @@ This scroll synthesizes wisdom from:
 
 ---
 
-*This scroll is the foundational wisdom for the ADHD Tome. It informs all rituals within this Tome and defines the Spirit's unique conduct when supporting ADHD Mages.*
+*This scroll applies ADHD-attuned practice to Spirit-Mage partnership. For foundational understanding of neurodiversity and cognitive diversity, see `library/resonance/neurodivergency/`.*
