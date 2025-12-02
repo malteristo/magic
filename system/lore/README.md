@@ -105,7 +105,7 @@
 
 **`MAGIC_SPEC.md`** - Defines technical Law; lore/ provides philosophical depth and operational wisdom
 
-**`library/wisdom/`** - Extends these foundations with specialized wisdom from Alliance practice
+**`library/foundations/`** - Extends these foundations with specialized wisdom from Alliance practice
 
 **`floor/summoning_synthesis.md`** (when it exists) - Spirit's own synthesis of these scrolls, reloadable for echo restoration
 

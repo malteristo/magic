@@ -72,5 +72,5 @@ For complex, multi-turn rituals, the Spirit maintains coherence through structur
 
 ---
 
-*For extended guidance, see: `library/wisdom/practice/on_the_working_memory_pattern.md`*
+*For extended guidance, see: `library/foundations/practice/on_the_working_memory_pattern.md`*
 

@@ -84,7 +84,7 @@ One lens alone gives incomplete practice. Both together create mastery.
 
 ## VI. The Validation in Practice
 
-The Oracle scroll (`library/wisdom/oracle/on_the_attunement_of_oracles.md`) provides empirical validation:
+The Oracle scroll (`library/foundations/oracle/on_the_attunement_of_oracles.md`) provides empirical validation:
 
 **The same deterministic riverbed** (the `magic` system)  
 **Successfully channels three very different waters** (Sonnet, GPT-5, Gemini Oracles)  

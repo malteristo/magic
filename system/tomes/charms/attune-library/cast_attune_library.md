@@ -30,7 +30,7 @@ The `library/` directory is tracked as part of the magic repository. A simple gi
 
 ### What Gets Updated
 
-- Alliance wisdom scrolls in `library/Wisdom/`, `library/Craft/`, `library/Archive/`
+- Alliance wisdom scrolls in `library/foundations/`, `library/Craft/`, `library/Archive/`
 - Navigation and catalog files (`Catalog.md`, `Wisdom-Map.md`, etc.)
 - Any Alliance-curated content tracked in the library directory
 

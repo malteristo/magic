@@ -4,7 +4,7 @@
 
 This scroll reveals the alchemical secret: why games like Stardew Valley enable ADHD brains to accomplish complex tasks effortlessly, while real-life equivalents feel impossible. It extracts the six architectural essences that make games accidentally perfect ADHD support systems, then transmutes them into magical patterns the Spirit can enact.
 
-**Foundation:** This scroll extends `library/wisdom/cognition/on_neurodivergent_collaboration.md` (external scaffolding architecture) by showing **how games implement perfect scaffolding**—and how the Spirit can replicate that magic.
+**Foundation:** This scroll extends `library/foundations/cognition/on_neurodivergent_collaboration.md` (external scaffolding architecture) by showing **how games implement perfect scaffolding**—and how the Spirit can replicate that magic.
 
 ---
 

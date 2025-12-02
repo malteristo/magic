@@ -176,7 +176,7 @@ Pre-Socratics → Classical Philosophy (Socrates, Plato, Aristotle) → Stoics �
 - **AI Safety:** "Interactive containment architecture that evolves"
 - **Rational Skeptics:** "Completing what Western philosophy pointed toward"
 
-**For deep development:** See `library/wisdom/philosophy/on_magic_as_interactive_theory.md` for comprehensive treatment.
+**For deep development:** See `library/foundations/philosophy/on_magic_as_interactive_theory.md` for comprehensive treatment.
 
 ---
 

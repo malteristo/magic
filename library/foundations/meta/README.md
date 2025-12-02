@@ -1,6 +1,6 @@
 # The Sanctum of Meta
 
-**You Are Here:** library/Wisdom/meta/ — Meta-Practice & Methodology
+**You Are Here:** library/foundations/meta/ — Meta-Practice & Methodology
 
 This sanctum explores how magic works on magic—the epistemology and methodology of our practice itself. These scrolls address how we know what we know, how we test our instruments, and how the substrate architecture informs practice evolution.
 
@@ -105,7 +105,7 @@ These two scrolls form complete meta-practice foundation:
 **Meta-practice tools exist in multiple locations:**
 
 - **`system/tomes/meta/`** — Lightweight charms for meta-work (integrate, attune, chronicle)
-- **`library/Wisdom/meta/`** — Foundational wisdom on methodology (this sanctum)
+- **`library/foundations/meta/`** — Foundational wisdom on methodology (this sanctum)
 - **Craft theses** (when they exist) — Systematic development protocols
 
 **This sanctum provides the WHY and HOW underneath the meta tools.** The charms are what you use; this wisdom is why they work.

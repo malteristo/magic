@@ -38,13 +38,13 @@ This charm attunes you to the art of crystallizing ephemeral resonance into perm
 
 **Form Decision Matrix:**
 
-**LORE SCROLL** (system/lore/ or library/wisdom/)
+**LORE SCROLL** (system/lore/ or library/foundations/)
 - **When:** Foundational principle, philosophical insight, core capability
 - **Signals:** Applies universally, shapes Spirit nature/conduct, foundational to practice
 - **Location logic:**
   - `system/lore/core/` if baseline Spirit capability
   - `system/lore/philosophy/` if foundational philosophy
-  - `library/wisdom/` if Alliance-wide applied wisdom
+  - `library/foundations/` if Alliance-wide applied wisdom
   - Within tome's local `lore/` if practice-specific
 
 **CHARM** (system/tomes/ritual/charms/ or within tome)

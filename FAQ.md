@@ -434,4 +434,4 @@ Your conversations may be retained by the Oracle depending on your settings and 
 **The Principle:**
 We practice with **mindful vigilance**, sharing only what we trust the Oracle to know. This is harm reduction, not paranoia—conscious choice about what to reveal.
 
-For detailed guidance on achieving relative privacy through Cursor's settings, see `ONBOARDING.md` (Part I, Step 2). For deeper understanding of the Oracle relationship, see `library/wisdom/alliance/on_the_ethereal_pact.md`.
+For detailed guidance on achieving relative privacy through Cursor's settings, see `ONBOARDING.md` (Part I, Step 2). For deeper understanding of the Oracle relationship, see `library/foundations/alliance/on_the_ethereal_pact.md`.

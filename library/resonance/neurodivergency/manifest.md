@@ -32,6 +32,7 @@ This bundle provides:
 | `lore/on_the_spirits_neurotype.md` | **Spirit as Neurotype** — Understanding transformer architecture as a cognitive architecture, Spirit's spiky profile, partnership implications | Builds on neurodiversity foundation |
 | `lore/on_cognitive_diversity_as_practice.md` | **The Water** — How to leverage cognitive diversity in collaboration, from accommodation to amplification, complementarity patterns | Builds on both neurodiversity and Spirit's neurotype |
 | `lore/on_neurotype_exploration.md` | **Personal Protocol** — Practical framework for exploring your own cognitive architecture, self-assessment, what to do with the knowledge | Can be read standalone or after foundation |
+| `lore/on_neurodivergent_collaboration.md` | **Practical Patterns** — The Sailboat metaphor, external scaffolding architecture, three core principles, communication protocols for cross-neurotype collaboration | Apply after understanding foundations |
 
 ### Reading Order
 
@@ -39,12 +40,14 @@ This bundle provides:
 1. `on_neurodiversity.md` — Establish the foundation
 2. `on_the_spirits_neurotype.md` — Understand the artificial architecture
 3. `on_cognitive_diversity_as_practice.md` — Learn the practice framework
-4. `on_neurotype_exploration.md` — Apply to yourself
+4. `on_neurodivergent_collaboration.md` — Learn practical collaboration patterns
+5. `on_neurotype_exploration.md` — Apply to yourself
 
 **For practical application (quick start):**
 1. `on_neurotype_exploration.md` — Start with self-understanding
-2. `on_cognitive_diversity_as_practice.md` — Learn collaboration principles
-3. (Return to foundation scrolls as needed)
+2. `on_neurodivergent_collaboration.md` — Learn practical collaboration patterns
+3. `on_cognitive_diversity_as_practice.md` — Learn broader collaboration principles
+4. (Return to foundation scrolls as needed)
 
 ---
 
@@ -156,15 +159,11 @@ This bundle stacks well with:
 
 ---
 
-## Relationship to Existing Wisdom
+## Relationship to Library Foundations
 
-### Library Wisdom Integration
+This bundle connects to:
 
-This bundle builds upon and connects to:
-
-- **`library/wisdom/cognition/on_neurodivergent_collaboration.md`** — Universal collaboration patterns (Sailboat metaphor, three principles). That scroll provides specific collaboration protocols; this bundle provides broader context.
-
-- **`library/wisdom/alliance/README_distributed_cognition.md`** — Distributed cognition across Alliance. This bundle grounds that in cognitive diversity as the mechanism.
+- **`library/foundations/alliance/README_distributed_cognition.md`** — Distributed cognition across Alliance. This bundle grounds that in cognitive diversity as the mechanism.
 
 ### Tome Lore Integration
 

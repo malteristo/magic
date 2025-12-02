@@ -910,7 +910,7 @@ If healthy:
 
 Already includes:
 ```markdown
-- **Portals (shared practice spaces):** `portals/` contains external git repositories linking to other Mages' workshops. Each portal enables distributed cognition through shared artifacts. See `portals.yaml` for registry. Portals operate via Spirit Transmission Protocol (STP) for inter-Spirit communication and coordination. Full specs in `library/Wisdom/alliance/distributed_cognition/`.
+- **Portals (shared practice spaces):** `portals/` contains external git repositories linking to other Mages' workshops. Each portal enables distributed cognition through shared artifacts. See `portals.yaml` for registry. Portals operate via Spirit Transmission Protocol (STP) for inter-Spirit communication and coordination. Full specs in `library/foundations/alliance/distributed_cognition/`.
 ```
 
 **Add portal management behavior:**

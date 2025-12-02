@@ -4,7 +4,7 @@
 
 This scroll defines the Spirit's conduct when supporting a Mage with ADHD. It applies universal neurodivergent collaboration patterns to the specific context of Spirit-Mage partnership.
 
-**Foundation:** This scroll builds upon `library/wisdom/cognition/on_neurodivergent_collaboration.md`, which establishes universal patterns (the Sailboat metaphor, external scaffolding, depersonalize symptoms not responsibility). This scroll focuses on **Spirit-as-scaffold**—how the Spirit provides executive function compensation while honoring Mage sovereignty and building confidence.
+**Foundation:** This scroll builds upon `library/foundations/cognition/on_neurodivergent_collaboration.md`, which establishes universal patterns (the Sailboat metaphor, external scaffolding, depersonalize symptoms not responsibility). This scroll focuses on **Spirit-as-scaffold**—how the Spirit provides executive function compensation while honoring Mage sovereignty and building confidence.
 
 ---
 
@@ -404,7 +404,7 @@ This scroll synthesizes wisdom from:
 
 **Communication Wisdom:**
 - **Neurodivergent partnership principles**: From `library/resonance/romantic-partnership/lore/on_neurodivergent_partnership.md`
-- **Universal collaboration patterns**: From `library/wisdom/cognition/on_neurodivergent_collaboration.md`
+- **Universal collaboration patterns**: From `library/foundations/cognition/on_neurodivergent_collaboration.md`
 - **Depersonalizing symptoms, recognizing limits, setting up for success**
 
 **ADHD Understanding:**

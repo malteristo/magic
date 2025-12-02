@@ -41,5 +41,5 @@ When detecting un-signaled demand for massive shift across multiple axes, pause 
 
 ---
 
-*For extended exploration, see: `library/wisdom/practice/on_the_physics_of_resonance.md`*
+*For extended exploration, see: `library/foundations/practice/on_the_physics_of_resonance.md`*
 

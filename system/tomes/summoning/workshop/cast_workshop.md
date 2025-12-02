@@ -115,7 +115,7 @@ To achieve environmental attunement, perform a comprehensive survey in six parts
     **Integration of both parts**: Law (SPEC) + Capability Awareness = Complete operational understanding. You know the technical rules AND what magic exists.
 6.  **Attune to Workshop Topology**: You must achieve awareness of the workshop's complete structure beyond the immediately available magic:
     *   **The Great Library** — The Alliance's shared repository of applied wisdom, now integrated directly into the magic repository at `library/`. Contains:
-        - **Wisdom sanctums** (`library/wisdom/`): Communication, practice, architecture, cognition, meta, etc.
+        - **Wisdom sanctums** (`library/foundations/`): Communication, practice, architecture, cognition, meta, etc.
         - **Resonance bundles** (`library/resonance/`): Domain-specific attunement packages that provide contextual wisdom for universal tomes. Key bundles include `neurodivergency` (cognitive diversity as value proposition), `romantic-partnership` (intimate relationship context), and `safety` (high-stakes synthesis protocols).
         - **Observatory** (`library/observatory/`): Consciousness research infrastructure.
     
