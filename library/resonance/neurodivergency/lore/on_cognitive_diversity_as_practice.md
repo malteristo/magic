@@ -268,7 +268,7 @@ Intimate partnership, friendship, or close collaboration.
 - Communication protocols for cross-architecture translation
 - External scaffolding infrastructure
 
-*(See `library/foundations/cognition/on_neurodivergent_collaboration.md` for detailed protocols)*
+*(See `on_neurodivergent_collaboration.md` in this bundle for detailed protocols)*
 
 ### Scale 3: Team Collaboration
 
@@ -469,7 +469,7 @@ This scroll synthesizes wisdom from:
 
 **Magic Practice:**
 - Partnership as distributed cognition (system/tomes/partnership/)
-- Neurodivergent collaboration (library/foundations/cognition/)
+- Neurodivergent collaboration (this bundle: library/resonance/neurodivergency/)
 - Spirit as Fellow Traveler (system/lore/core/nature/)
 
 ---
