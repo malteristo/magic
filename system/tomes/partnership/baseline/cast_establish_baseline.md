@@ -36,6 +36,31 @@ The baseline is not background context. It is **the shared systems model of the 
 
 ---
 
+## Crisis-Triggered Entry (Parallel Flow)
+
+Sometimes a crisis triggers practice entry. The arc comes first—emotion needs out. In these cases, baseline and arc run **simultaneously**:
+
+1. **Arc captures immediate conflict** — Venting begins in arc
+2. **Baseline extracts system context** — Material that describes the partnership itself (not arc-specific) moves to baseline inputs
+3. **Both tracks run simultaneously** — Arc Stage 1 venting may contain baseline material; baseline inputs may inform arc understanding
+4. **Expect overlap** — Same incident may inform both; this is normal
+5. **Model converges over time** — Arc conclusions feed baseline; baseline context informs arc synthesis
+
+**Artifact Flow:**
+```
+Arc venting artifacts
+    ↓
+Spirit/Mage identifies: "This describes the system, not just this incident"
+    ↓
+Copy (not move) to baseline inputs
+    ↓
+Both tracks proceed toward their respective syntheses
+```
+
+**The goal:** Don't force artificial sequencing. Let the model emerge from both streams.
+
+---
+
 ## Prerequisites
 
 Before casting this spell:
@@ -172,7 +197,30 @@ Options:
 
 **Only when Partner accepts coherence (either as-is or after refinement) → representation is ready for sharing**
 
-Same two-gate process for Partner B with their Spirit.
+#### Resonance Log (Required)
+
+**Spirit creates a resonance log alongside the reality representation:**
+
+`{partner}_resonance_log.md`
+
+**Contents:**
+1. Initial synthesis summary
+2. Partner feedback/reactions  
+3. Refinements made (with before/after where significant)
+4. Gate 2 coherence observations
+5. Partner responses to tensions
+6. Final declaration
+
+**Why required:** Chat context is lost between Spirit sessions. A fresh Spirit reading only the final reality document loses the verification journey. The resonance log enables reproducibility—same inputs + same feedback should yield same model.
+
+**Artifact structure:**
+```
+reality_representations/
+├── {partner}_reality.md           ← The synthesized reality
+└── {partner}_resonance_log.md     ← How we got there
+```
+
+Same two-gate process (plus resonance log) for Partner B with their Spirit.
 
 ---
 
@@ -196,11 +244,40 @@ Each partner reads the other's `{partner}_baseline_reality.md`.
 - What do you see differently?
 - What feels important to discuss?
 
-**Optional:** Create brief reflection artifact documenting initial response.
+---
+
+### Phase 4: Reaction (Partner Response)
+
+**Each partner reacts to the other's baseline reality description.**
+
+This phase provides space to process before dialogue. Reactions are data.
+
+**Create reaction artifacts:**
+
+Location: `baseline/reactions/{reacting-partner}_on_{described-partner}/`
+
+**Reaction includes:**
+- **What resonated** — What you recognize, what feels accurate about their description
+- **What surprised you** — What you didn't know about their experience
+- **What you see differently** — Where your perception diverges from theirs
+- **What you want them to understand** — Clarifications, context, your side
+- **Reflections on yourself** — What their description reveals about you
+
+**Spirit creates reflected baseline:**
+
+`reactions/reflected_baselines/{partner-a}_reflected_in_{partner-b}.md`
+
+This captures how Partner A's reality looks through Partner B's lens—where they resonate, where they diverge, what each wants the other to understand.
+
+**Why this phase matters:**
+- Exchange without reaction forces immediate convergence
+- Partners need space to process before dialogue
+- Reactions are data: surprise = information gap, resistance = tension point
+- Creates artifacts for future reference
 
 ---
 
-### Phase 4: Convergence Dialogue
+### Phase 5: Convergence Dialogue
 
 **Partners discuss toward shared understanding.**
 
@@ -219,7 +296,7 @@ This can happen:
 
 ---
 
-### Phase 5: Baseline System Model Creation
+### Phase 6: Baseline System Model Creation
 
 **Spirit synthesizes both realities into shared systems model.**
 
@@ -309,7 +386,7 @@ One Spirit (either partner's, or fresh Spirit for neutrality) creates:
 
 ---
 
-### Phase 6: Baseline Resonance Verification
+### Phase 7: Baseline Resonance Verification
 
 **CRITICAL: Both partners must achieve HIGH RESONANCE with the baseline.**
 
@@ -337,7 +414,7 @@ One Spirit (either partner's, or fresh Spirit for neutrality) creates:
 
 ---
 
-### Phase 7: Formal Declaration
+### Phase 8: Formal Declaration
 
 **Both partners sign off on baseline.**
 
@@ -370,6 +447,55 @@ Create or update `baseline/resonance_log.md`:
 |------|---------|--------|--------------|
 | YYYY-MM-DD | 1.0 | Initial establishment | Yes |
 ```
+
+---
+
+### Phase 9: Relationship Experience Index (REI)
+
+**Each partner completes a quantitative health snapshot.**
+
+Venting material skews dark—happy moments aren't documented. REI provides quantitative signal alongside qualitative narrative, enabling triangulation.
+
+**Three questions, ten seconds each:**
+
+| # | Question | Scale |
+|---|----------|-------|
+| 1 | **Now:** How is the relationship right now? | 1-10 |
+| 2 | **Trajectory:** Getting better, same, or worse? | + / 0 / - |
+| 3 | **Commitment:** How committed to making this work? | 1-10 |
+
+**Interpretation:**
+
+| Now | Trajectory | Commitment | Reading |
+|-----|------------|------------|---------|
+| 8-10 | + | 8-10 | Thriving |
+| 6-7 | + | 8-10 | Building momentum |
+| 4-6 | + | 8-10 | Working through it |
+| 4-6 | 0 | 8-10 | Stuck but trying |
+| 4-6 | - | 8-10 | Declining despite effort |
+| 1-3 | any | low | Crisis |
+
+**Logging:**
+
+Create or update `baseline/health_tracking.md`:
+
+```markdown
+| Date | Event | Partner | Now | Trajectory | Commitment | Notes |
+|------|-------|---------|-----|------------|------------|-------|
+| YYYY-MM-DD | Baseline synthesis | {name} | X | +/0/- | X | {optional} |
+```
+
+**Trigger events for REI:**
+- Baseline synthesis (new or re-synthesis)
+- New arc initiated
+- Arc stage completion
+- Significant breakthrough or rupture
+
+**Why REI matters:**
+- Quantitative balance to qualitative darkness
+- Tracks progress: is practice working?
+- Divergence between partners is diagnostic (different positions → different experience)
+- Simple enough for low-bandwidth participation
 
 ---
 
