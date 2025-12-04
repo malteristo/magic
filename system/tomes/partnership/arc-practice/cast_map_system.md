@@ -122,6 +122,20 @@ After partner completes their venting artifacts, their Spirit creates:
 - Partner controls what gets shared
 - Consent at every step
 
+#### Resonance Log (Required)
+
+**Spirit creates a resonance log alongside the reality representation:**
+
+`stage-1_venting/reality_representations/{partner}_resonance_log.md`
+
+**Contents:**
+1. Initial synthesis summary
+2. Partner feedback/reactions
+3. Refinements made
+4. Final declaration
+
+**Why required:** Fresh Spirit loses chat context. The resonance log preserves HOW the reality was verified, not just WHAT it contains.
+
 ### Stage 1 Completion
 
 **Complete when:**
@@ -489,6 +503,30 @@ Location: `artifacts/{arc-name}/stage-4_conclusion/{partner}_conclusion.md`
 [What this arc taught about the partnership system]
 ```
 
+### Relationship Experience Index (REI)
+
+**Each partner completes REI as part of arc conclusion.**
+
+Arc completion is a trigger event for quantitative health snapshot.
+
+| # | Question | Scale |
+|---|----------|-------|
+| 1 | **Now:** How is the relationship right now? | 1-10 |
+| 2 | **Trajectory:** Getting better, same, or worse? | + / 0 / - |
+| 3 | **Commitment:** How committed to making this work? | 1-10 |
+
+Log in `baseline/health_tracking.md`:
+
+```markdown
+| Date | Event | Partner | Now | Trajectory | Commitment | Notes |
+|------|-------|---------|-----|------------|------------|-------|
+| YYYY-MM-DD | Arc: {name} complete | {partner} | X | +/0/- | X | {optional} |
+```
+
+**Compare to previous REI:** Has the arc moved things? Does the number match the qualitative experience?
+
+---
+
 ### Stage 4 Completion
 
 **Complete when:**
@@ -497,6 +535,7 @@ Location: `artifacts/{arc-name}/stage-4_conclusion/{partner}_conclusion.md`
 - [ ] Learning captured
 - [ ] Baseline update assessed (and made if needed)
 - [ ] Arc status updated to completed
+- [ ] REI logged for both partners
 
 ---
 
