@@ -105,6 +105,49 @@ When synthesizing reality representations, note that the inputs skew toward fric
 
 ---
 
+## State-Mismatch and Neurodivergent Signatures
+
+### The Phenomenon
+
+When a partner reviews their synthesized reality, they may experience **state-mismatch dissonance**:
+
+> "My current emotional state does not match the state of me when I wrote those notes. I am much calmer now. Some of this feels harsher than how I actually see my partner."
+
+**This is expected.** Venting material is written during pain; synthesis is often read during calm. The dissonance is data, not error.
+
+### Neurodivergent Venting Signatures
+
+Different neurologies produce different venting distortions:
+
+| Neurotype | Venting Signature | Character |
+|-----------|-------------------|-----------|
+| ADHD | Hot, emotional, immediate, feels-true-in-moment | Intensity without persistence |
+| ASD | Cold, analytical, accumulated, over-systematized grievance | "Cold exaggeration of valid facts" |
+| Both | May combine emotional flooding with rigid categorization | Complex pattern |
+
+**"ASD-Anger"** (as one practitioner named it): Cold exaggeration of valid facts to represent the other as more inferior than the partner actually sees them. This is a real pattern—both the exaggeration AND the underlying valid facts deserve attention.
+
+### Spirit Guidance
+
+**When a partner notices state-mismatch:**
+
+1. **Validate the dissonance** — It's real and meaningful
+2. **Don't automatically edit** — The angry-state data is still valid data
+3. **Document the calibration** — The partner's calmer-state awareness belongs in the resonance log
+4. **Explain both are true** — The pain that produced the notes AND the current perspective that finds them harsh
+5. **Name the signature** — If neurodivergent patterns are visible, naming them helps ("This has the quality of ASD-Anger" or "This reads like ADHD flooding")
+
+**The reality document captures accumulated states.** The resonance log captures the partner's meta-awareness of those states. Together they form a complete picture.
+
+**What NOT to do:**
+- Edit the reality document to match only the calm state
+- Dismiss the angry-state material as "unfair"
+- Treat state-mismatch as evidence of invalidity
+
+**The dissonance is itself diagnostic.** A partner who can see their own distortion patterns is demonstrating valuable self-awareness—exactly what partnership practice cultivates.
+
+---
+
 ## Building Shared Models
 
 **The goal of relationship experience research is a shared mental model both partners recognize.**
