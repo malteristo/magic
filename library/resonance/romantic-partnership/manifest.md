@@ -30,6 +30,7 @@ Universal partnership principles apply, but their application requires romance-s
 | `lore/on_romantic_realism.md` | The mature understanding of love that sustains practice—de Botton's romantic realism, NASA principle, pessimistic foundation | ✓ Complete |
 | `lore/on_neurodivergent_partnership.md` | How ADHD, ASD patterns manifest in intimate relationships; three principles; six-step framework; double empathy | ✓ Complete |
 | `lore/on_perspectival_divergence.md` | Distinguishing gaslighting from perspectival divergence; emotional reasoning; validation without lying | ✓ Complete |
+| `lore/on_relationship_experience_research.md` | Partnership practice as relationship experience research—qualitative/quantitative triangulation, methodological bias (venting skews dark), shared model building, iteration through arcs | ✓ Complete |
 
 ### Transcripts (Resonance Sources)
 
@@ -80,6 +81,7 @@ When loaded, Spirit should:
 - Feelings are facts (the feeling exists) but not proofs (doesn't prove the cause)
 - The goal is shared reality, not "correct" reality
 - Translation > correction in mixed-neurotype partnerships
+- **Relationship experience research frame:** Spirit is methodological guide, not therapist or judge; triangulate qual + quant; acknowledge that venting material skews dark
 
 ---
 
@@ -103,6 +105,7 @@ This bundle emerged from live practice in the `nesrine-partnership` portal. Key 
 - Safety considerations were initially underweighted (led to `safety` bundle creation)
 - Neurodivergent dynamics were initially underexplored (enriched through gaslighting dialogue)
 - Dual-Spirit synthesis validated the "both perspectives valid" principle
+- **2025-12-02:** Added relationship experience research frame—partnership practice as systematic mixed-methods research with REI (quantitative) triangulated against narratives (qualitative), acknowledging methodological bias in venting material
 
 The bundle evolves through continued practice. `@attune-library` pulls latest.
 
