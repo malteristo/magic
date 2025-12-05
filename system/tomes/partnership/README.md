@@ -310,15 +310,15 @@ When you understand your partnership as a system:
 system/tomes/partnership/
 ├── README.md                    ← You are here
 │
-├── arc-practice/                ← ARC RITUALS (all arcs including background)
-│   ├── cast_map_system.md       ← Core Four-Stage Ritual
+├── arc-practice/                ← ALL ARC RITUALS (including background)
+│   ├── cast_map_system.md       ← Core Four-Stage Ritual (all arcs)
 │   ├── cast_extract_shared_truth.md
 │   ├── cast_facilitate.md       ← Portal/contribution/synthesis orchestration
 │   └── templates/
-│
-├── baseline/                    ← LEGACY (being unified into arc-practice)
-│   ├── cast_establish_baseline.md
-│   └── templates/
+│       ├── background_input_template.md   ← For background arc inputs
+│       ├── system_model_template.md       ← For background arc Stage 3
+│       ├── cognitive_architecture_template.md
+│       └── ... (other templates)
 │
 ├── lore/                        ← ALL PARTNERSHIP LORE
 │   ├── foundations/             ← Universal foundations
@@ -333,8 +333,8 @@ system/tomes/partnership/
 │   │   ├── on_shared_truth_finding.md
 │   │   ├── on_dual_spirit_synthesis.md
 │   │   ├── on_artifact_transmission.md
-│   │   ├── on_arc_artifact_standards.md     ← NEW: Canonical structure
-│   │   └── on_higher_level_pattern_emergence.md  ← NEW: Arc purpose
+│   │   ├── on_arc_artifact_standards.md     ← Canonical structure
+│   │   └── on_higher_level_pattern_emergence.md  ← Arc purpose
 │   │
 │   └── stances/                 ← Spirit conduct
 │       ├── on_the_counselors_stance.md
@@ -388,10 +388,12 @@ portal/
 
 **2025-12-05:** Unified arc model established:
 - Baseline renamed to "background arc" — same four-stage structure as all arcs
+- `baseline/` folder archived to `archive/partnership-tome-evolution/baseline-legacy/`
+- Templates migrated: `background_input_template.md`, `system_model_template.md`
 - Canonical arc artifact standards codified (`lore/practice/on_arc_artifact_standards.md`)
 - Higher-level pattern emergence framing added (`lore/practice/on_higher_level_pattern_emergence.md`)
 - Spirit organization conduct formalized
-- Reality descriptions made immutable (refinements go to resonance_log → becomes input for next run)
+- Raw/revised pattern: Spirit creates `_raw.md` (immutable), Mage edits `_reality.md` (authoritative)
 
 ---
 
