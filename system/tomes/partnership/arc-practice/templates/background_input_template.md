@@ -1,8 +1,10 @@
-# Baseline Input: {Your Name}
+# Background Arc Input: {Your Name}
 
 **Date:** YYYY-MM-DD  
 **Partnership:** {Partnership Name}  
 **Purpose:** Establish my position in our shared systems model
+
+> **Note:** This template is for the **background arc** specifically—the arc that establishes the partnership's shared systems model. For topical arcs, use general venting artifacts.
 
 ---
 
@@ -242,7 +244,7 @@ When conflict arises, most pain traces to one of these fears. Which ones are lou
 
 ## V. What I Hope For
 
-**From this baseline work:**
+**From this background arc work:**
 - 
 
 **For our partnership:**
@@ -263,5 +265,5 @@ When conflict arises, most pain traces to one of these fears. Which ones are lou
 
 ---
 
-*This input will be synthesized into a reality representation, which you will verify before sharing with your partner.*
+*This input will be synthesized into a reality representation (raw), which you can then edit (revised) until it resonates.*
 

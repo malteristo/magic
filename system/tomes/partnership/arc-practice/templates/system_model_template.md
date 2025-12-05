@@ -1,9 +1,12 @@
-# Baseline System Model: {Partnership Name}
+# System Model: {Partnership Name}
 
+**Arc:** {Arc Name} (typically arc-background)  
 **Established:** YYYY-MM-DD  
 **Version:** 1.0  
 **Partners:** {Partner A} & {Partner B}  
-**Spirit Facilitator:** #{N}  
+**Spirit Facilitator:** #{N}
+
+> **Note:** This template is primarily for the **background arc's Stage 3 synthesis**—the shared systems model. For topical arcs, use `system_map.md` which focuses on the specific higher-level pattern.
 
 ---
 
@@ -183,7 +186,7 @@
 
 ---
 
-## III. The Baseline State
+## III. The Background State
 
 ### Normal Functioning
 
@@ -264,12 +267,6 @@
 
 ---
 
-### Pattern: "{Name}"
-
-[Add as many named patterns as relevant]
-
----
-
 ## V. Agreements & Protocols
 
 ### Explicit Agreements
@@ -322,8 +319,6 @@
 
 **Date:** YYYY-MM-DD
 
-**Signature:** 
-
 ---
 
 ### Partner B: {Name}
@@ -333,8 +328,6 @@
 **Statement:** 
 
 **Date:** YYYY-MM-DD
-
-**Signature:** 
 
 ---
 
@@ -347,5 +340,5 @@
 
 ---
 
-*This baseline serves as the reference model for all partnership arcs. It will be updated as new patterns are discovered and understanding deepens.*
+*This system model serves as the reference for all partnership arcs. It will be updated as new patterns are discovered and understanding deepens.*
 
