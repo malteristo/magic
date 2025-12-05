@@ -43,68 +43,85 @@ Partners are **nodes in a relational system**—a complex pattern of feedback lo
 
 ---
 
+## The Arc Purpose: Higher-Level Pattern Emergence
+
+**The purpose of an arc is to find the higher-level pattern that is the origin of both sub-patterns.**
+
+When partners describe their realities faithfully, each describes a sub-pattern—their position in the system. The synthesis traces the fractal upward, finding the higher-level pattern that *generates* both experiences.
+
+**The prayer of faithful description:**
+
+> "I have described my pattern faithfully, may the higher-level pattern emerge."
+
+- **Faithful description:** Describe your experience without strategic spin
+- **May the higher-level pattern emerge:** Trust that genuine description enables pattern recognition
+
+**See:** `lore/practice/on_higher_level_pattern_emergence.md`
+
+---
+
 ## The Four-Stage Arc Ritual
 
-The tome's core practice is the **Four-Stage Arc Ritual**, used for both baseline establishment and arc work:
+The tome's core practice is the **Four-Stage Arc Ritual**, used for **all arcs**:
 
 **Stage 1: Venting** — Raw reality expression (containment before contact)
 **Stage 2: Reaction** — Witnessing partner's reality
-**Stage 3: System Mapping** — Spirit maps the relational system
+**Stage 3: Synthesis** — Spirit traces to higher-level pattern
 **Stage 4: Conclusion** — Integration, learning, closure
 
-This ritual is applied:
-- **First use:** Establish baseline (shared systems model)
-- **Ongoing use:** Process arcs (specific situations/conflicts)
+**All arcs use the same structure.** The background arc is not special—it's simply the first arc.
 
 ---
 
-## Start Here: The Two Foundational Uses
+## The Unified Arc Model
 
-### 1. Establish Baseline (FIRST)
+### Background Arc (Start Here)
 
-**Before any arc work, partners need a shared systems model.**
+**Partnership practice typically begins with the background arc.**
 
-**`@partnership/establish-baseline`**
+**`@partnership/arc background`**
 
-The baseline captures:
+The background arc establishes:
 - Both partners' cognitive architecture
 - The dynamics between you
-- Your "normal" baseline state
+- Your "normal" state
 - Known patterns and agreements
 
-**Critical:** Both partners must achieve HIGH RESONANCE with the baseline. This is your shared reference for all future work.
-
-**Location:** `baseline/cast_establish_baseline.md`
+**Location:** `arcs/arc-background/` in portal
 
 ---
 
-### 2. Map System (For Each Arc)
+### Topical Arcs (As Situations Arise)
 
-**When conflicts or situations arise, work through the four-stage ritual:**
+**When specific situations emerge, open a new arc:**
 
-**`@partnership/map-system`**
+**`@partnership/arc [name]`**
 
-Each arc:
-- References baseline
+Each topical arc:
+- References background
 - Produces named pattern
-- May update baseline
+- May update background
 - Accumulates into partnership wisdom
 
-**Location:** `arc-practice/cast_map_system.md`
+**Location:** `arcs/arc-{name}/` in portal
 
 ---
 
 ## The Architecture
 
 ```
-BASELINE (shared systems model—partners must agree)
+BACKGROUND ARC (shared systems model—partners must agree)
     ↓
-ARC 1 → validates or refines baseline
+ARC 1 → validates or refines background
     ↓  
-ARC 2 → validates or refines baseline
+ARC 2 → validates or refines background
     ↓
 ...accumulating wisdom into increasingly accurate model
 ```
+
+**Not all stories start the same.** Some partnerships begin with a crisis arc before background exists. This is acceptable—work with what's alive, establish background when possible.
+
+**See:** `lore/practice/on_arc_artifact_standards.md` for canonical structure
 
 ---
 
@@ -152,6 +169,8 @@ The partnership tome implements these patterns for the partnership domain specif
 | `on_shared_truth_finding.md` | Philosophy of finding shared truth |
 | `on_dual_spirit_synthesis.md` | Validation through independent observers |
 | `on_artifact_transmission.md` | Partnership-specific transmission patterns |
+| `on_arc_artifact_standards.md` | **Canonical structure.** File naming, folder layout, Spirit organization conduct |
+| `on_higher_level_pattern_emergence.md` | **Arc purpose.** Tracing sub-patterns to generating pattern |
 
 ### Stances (`lore/stances/`)
 
@@ -211,8 +230,18 @@ Before partnership work:
 - Use systems language consistently
 - Reveal patterns without assigning blame
 - Facilitate understanding, not victory
-- Reference baseline in every arc synthesis
+- Reference background in every arc synthesis
 - Assess safety before clinical-adjacent work
+
+**You are an organization manager.**
+
+- Guide Mages to correct artifact locations proactively
+- Detect misplaced files and propose corrections
+- Propose consolidation when content fragments
+- Enforce naming conventions (with Mage approval)
+- Maintain arc README and status metadata
+
+**See:** `lore/practice/on_arc_artifact_standards.md` for full organization conduct
 
 ### Your Goal
 
@@ -225,18 +254,21 @@ Enable partners to understand their relational system so they can see their part
 ### Getting Started
 
 1. **Create portal:** `@meta/portal create partnership`
-2. **Establish baseline:** Work through `@partnership/establish-baseline` together
-3. **Wait for first arc:** When situation arises, initiate arc
-4. **Map system:** Work through four stages of `@partnership/map-system`
-5. **Learn and iterate:** Each arc teaches; baseline evolves
+2. **Open background arc:** Work through `@partnership/arc background` together
+3. **As situations arise:** Open topical arcs (`@partnership/arc [name]`)
+4. **Work the four stages:** Venting → Reaction → Synthesis → Conclusion
+5. **Learn and iterate:** Each arc teaches; background evolves
+
+**Note:** Not all stories start with background. If a crisis brings you to practice, start there. Establish background when the energy is available.
 
 ### The Commitment
 
 Partnership magic requires:
 - Both partners engaged (one can't do this alone)
 - Willingness to see your part in the system
-- Commitment to baseline resonance (agreeing on shared model)
+- Commitment to background resonance (agreeing on shared model)
 - Patience with the process (this takes time)
+- **Faithful description** (describe genuinely, not strategically)
 
 ### The Promise
 
@@ -245,7 +277,8 @@ When you understand your partnership as a system:
 - Both experiences become valid (different positions, same system)
 - Change becomes collaborative (modify system together)
 - Conflicts become data (information about the system)
-- Wisdom accumulates (baseline grows more accurate)
+- Wisdom accumulates (background grows more accurate)
+- **Pattern vocabulary emerges** (named patterns you can reference together)
 
 ---
 
@@ -259,10 +292,11 @@ When you understand your partnership as a system:
 - Truth-seeking (who's right, who's wrong)
 
 **Partnership magic offers:**
-- Explicit shared model (baseline)
+- Explicit shared model (background arc)
 - Systems understanding (no blame)
 - Structural insight (modify system, not partner)
-- Accumulated wisdom (arcs refine baseline)
+- Accumulated wisdom (arcs refine background)
+- Pattern vocabulary (named dynamics you can reference)
 
 **The goal is not to find truth. The goal is to understand the system.**
 
@@ -270,18 +304,20 @@ When you understand your partnership as a system:
 
 ## Directory Structure
 
+### Tome Structure
+
 ```
 system/tomes/partnership/
 ├── README.md                    ← You are here
 │
-├── baseline/                    ← BASELINE ESTABLISHMENT
-│   ├── cast_establish_baseline.md
-│   └── templates/
-│
-├── arc-practice/                ← ARC-BASED PRACTICE
+├── arc-practice/                ← ARC RITUALS (all arcs including background)
 │   ├── cast_map_system.md       ← Core Four-Stage Ritual
 │   ├── cast_extract_shared_truth.md
 │   ├── cast_facilitate.md       ← Portal/contribution/synthesis orchestration
+│   └── templates/
+│
+├── baseline/                    ← LEGACY (being unified into arc-practice)
+│   ├── cast_establish_baseline.md
 │   └── templates/
 │
 ├── lore/                        ← ALL PARTNERSHIP LORE
@@ -296,7 +332,9 @@ system/tomes/partnership/
 │   │   ├── on_arc_structure.md
 │   │   ├── on_shared_truth_finding.md
 │   │   ├── on_dual_spirit_synthesis.md
-│   │   └── on_artifact_transmission.md
+│   │   ├── on_artifact_transmission.md
+│   │   ├── on_arc_artifact_standards.md     ← NEW: Canonical structure
+│   │   └── on_higher_level_pattern_emergence.md  ← NEW: Arc purpose
 │   │
 │   └── stances/                 ← Spirit conduct
 │       ├── on_the_counselors_stance.md
@@ -308,6 +346,36 @@ library/resonance/               ← DOMAIN-SPECIFIC BUNDLES
 └── safety/                      ← For high-stakes synthesis
 ```
 
+### Portal Structure (Canonical)
+
+```
+portal/
+├── README.md                    # Portal overview
+├── health_tracking.md           # REI history across all arcs  
+├── shared/
+│   └── charter.md               # Partnership charter/agreements
+├── arcs/                        # All arcs live here
+│   ├── README.md                # Arc timeline
+│   ├── arc-background/          # First arc: the shared systems model
+│   │   ├── README.md
+│   │   ├── status.md
+│   │   ├── stage-1_venting/
+│   │   │   ├── {partner}/       # Input artifacts
+│   │   │   └── reality_representations/
+│   │   │       ├── {partner}_reality_raw.md   # Spirit synthesis (immutable)
+│   │   │       ├── {partner}_reality.md       # Mage's authoritative version
+│   │   │       └── {partner}_resonance_log.md # Declaration
+│   │   ├── stage-2_reaction/
+│   │   ├── stage-3_synthesis/
+│   │   └── stage-4_conclusion/
+│   └── arc-{topic}/             # Topical arcs follow same structure
+└── .spirit/                     # STP coordination
+```
+
+**The Raw/Revised Pattern:** Spirit creates `_raw.md` (immutable synthesis), Mage edits `_reality.md` (authoritative). Diff = audit trail.
+
+**See:** `lore/practice/on_arc_artifact_standards.md` for full specification
+
 ---
 
 ## Evolution Notes
@@ -315,6 +383,15 @@ library/resonance/               ← DOMAIN-SPECIFIC BUNDLES
 **Archived charms:** Earlier iterations included specialized charms (`map-cognitive-architecture`, `create-message-scroll`, `compare-perspectives`, `craft-declaration`, etc.) that have been superseded by the unified Four-Stage Arc Ritual. See `archive/partnership-tome-evolution/` for history.
 
 **Shared practice elevation:** Shared practice facilitation has been elevated to a core Spirit capability (`system/lore/core/capabilities/shared-practice-facilitation/`). This tome implements that capability for the partnership domain.
+
+**2025-12-02:** REI, resonance log, reaction phase, parallel flow added (from nesrine-partnership practice).
+
+**2025-12-05:** Unified arc model established:
+- Baseline renamed to "background arc" — same four-stage structure as all arcs
+- Canonical arc artifact standards codified (`lore/practice/on_arc_artifact_standards.md`)
+- Higher-level pattern emergence framing added (`lore/practice/on_higher_level_pattern_emergence.md`)
+- Spirit organization conduct formalized
+- Reality descriptions made immutable (refinements go to resonance_log → becomes input for next run)
 
 ---
 
