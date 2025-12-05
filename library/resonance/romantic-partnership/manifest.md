@@ -38,19 +38,6 @@ Universal partnership principles apply, but their application requires romance-s
 |------------|-------------|
 | `transcripts/gaslighting_dialogue.txt` | Conversation exploring gaslighting concept creep, perspectival divergence, emotional reasoning, and neurodivergent communication dynamics—source material for `on_perspectival_divergence.md` |
 
-### Protocols (Operational Procedures)
-
-| Protocol | Description |
-|----------|-------------|
-| `protocols/validation_sandwich.md` | How to validate emotional impact without accepting false premises—the "Systemizer's" bridge to the "Feeler" |
-| `protocols/translation_manual.md` | Building partner-specific understanding of triggers and translations |
-
-### Checklists
-
-| Checklist | Description |
-|-----------|-------------|
-| `checklists/pre_difficult_conversation.md` | Preparation before high-stakes conversations |
-
 ---
 
 ## How to Use This Bundle

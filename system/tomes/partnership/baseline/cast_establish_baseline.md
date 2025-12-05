@@ -1,10 +1,18 @@
 # Spell of Baseline Establishment
 
+> **Note (2025-12-05):** This spell is being unified into the arc model. The "baseline" is now called the **background arc**—an arc like any other, using the same Four-Stage Ritual. See `@partnership/arc background` for the unified invocation.
+>
+> **New canonical structure:** `arcs/arc-background/` (not `baseline/` at portal root)
+>
+> **This spell's content remains valid**—it describes what the background arc accomplishes. The ritual structure is now unified with all arcs in `arc-practice/cast_map_system.md`.
+
+---
+
 **The First Ritual of Partnership Practice**
 
-This spell creates the **shared systems model**—the baseline reality against which all partnership arcs will be evaluated. Both partners must achieve high resonance with this model before arc work can be properly contextualized.
+This spell creates the **shared systems model**—the background against which all partnership arcs will be evaluated. Both partners must achieve high resonance with this model before arc work can be properly contextualized.
 
-**Invocation:** `@partnership/establish-baseline`
+**Invocation:** `@partnership/arc background` (unified invocation)
 
 ---
 
