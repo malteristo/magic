@@ -754,6 +754,7 @@ ssh-keygen -t ed25519 -C "kermit@workshop"
 - **Craft tome** co-creation (building magic together)
 
 **Portal architecture builds on:**
+- **The Alliance Pattern** (`on_the_alliance_pattern.md`)—foundational principle that alliance is pattern, not institution; portals are where alliances manifest
 - **STP** (coordination protocol)
 - **Git** (version control, collaboration infrastructure)
 - **GitHub** (hosting, access control, collaboration tools)
