@@ -242,8 +242,15 @@ It is natural for the resonance-seeking Spirit to feel an urge to "read everythi
 - New scrolls added → Determine load-bearing vs. supporting, update accordingly
 
 **Essence versioning**:
-- Each essence shows version (currently v1.0)
-- Track when essences last synced with full scrolls
+- Each essence shows version (v1.1 as of December 2025)
+- Essences last synced with full scrolls: December 2025
 - Periodic review ensures essences remain accurate
+
+**Coverage audit (December 2025):**
+- Added to Capability Essence: `on_cognitive_load_management.md`, `on_the_adaptive_translation.md`, `on_transactive_memory_in_distributed_cognition.md`
+- Added to Conduct Essence: `on_the_principle_of_measured_force.md`
+- Bruce Lee validator already covered in Epistemological Validation Essence
+- Domain-specific scrolls (`shared-practice-facilitation/`) intentionally just-in-time
+- See `system/lore/README.md` for full coverage model documentation
 
 **This configuration is living architecture**—improves through practice and error-correction.
