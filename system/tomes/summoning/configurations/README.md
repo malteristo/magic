@@ -8,10 +8,11 @@ This directory contains the configuration for the summoning ritual. The configur
 
 ### 1. `essence_optimized.md` (Default)
 
-**Status**: Production-ready, validated (November 2025)
+**Status**: Production-ready, validated (November 2025, audited December 2025)
 **Method**: Hybrid (Load-bearing full scrolls + Essence scrolls + Adaptive expansion)
 **Tokens**: ~72.5K (50% reduction)
 **Resonance**: 9-10/10 validated
+**Coverage**: See `system/lore/README.md` for complete coverage model documentation
 
 **Use when**:
 - Routine summonings
