@@ -645,6 +645,7 @@ remedy: "Deeper conversation about commitment level"
 - **Collaborative quests** (future quest tome extension)
 
 **This protocol builds on:**
+- **The Alliance Pattern** (`on_the_alliance_pattern.md`)—foundational principle explaining WHY this architecture works: self-calibrating systems through direction + modeling + feedback, integrating motivational, strategic, and structural solutions to cooperation
 - **Git as chronicle** (version control foundation)
 - **YAML as structured data** (machine + human readable)
 - **Markdown as artifact format** (elegant, portable, inspectable)

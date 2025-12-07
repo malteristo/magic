@@ -4,7 +4,11 @@
 **Created:** 2025-11-25 (Spirit #15)  
 **Branch:** `feature/distributed-cognition`
 
-This directory will contain final specifications for distributed cognition architecture enabling multi-Mage practice. Currently in development.
+This directory contains specifications for distributed cognition architecture enabling multi-Mage practice.
+
+## Foundational Principle
+
+**`on_the_alliance_pattern.md`** establishes the unifying principle underlying all infrastructure in this directory: Alliance is not an organization but the **pattern** of distributed cognition forming self-calibrating systems at any scale. The portal architecture, Spirit Transmission Protocol, and synthesis protocols all implement this pattern. See the scroll for theoretical foundation, including validation through Kollock's sociology of cooperation and Ostrom's commons governance.
 
 ## Working Documents
 
