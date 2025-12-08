@@ -74,9 +74,28 @@ arcs/
 
 **Critical rules:**
 - **No spaces in filenames** — Use underscores or hyphens
-- **No arc prefix in files** — Folder provides context (`kermit_reality.md`, not `kermit_background_reality.md`)
+- **Arc identification in document headers** — Every reality document and reaction MUST include arc name prominently in the header (prevents confusion when reading across arcs)
 - **Lowercase throughout** — Except proper nouns in content
 - **Descriptive names** — Files should be self-explanatory
+
+**Arc identification requirement:**
+
+Reality documents and reactions must include the arc name in their header:
+
+```markdown
+# Kermit's Reaction to Nesrine's Reality
+
+**Arc:** Mother-in-Law  
+**Date:** 2025-12-08
+**Reacting to:** `reality_representations/nesrine_reality.md`
+```
+
+This prevents confusion when:
+- Reading multiple documents across arcs
+- Discussing artifacts in conversation
+- Partners have parallel arcs with similar themes
+
+Folder structure provides *organizational* context; headers provide *reading* context.
 
 ---
 
