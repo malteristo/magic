@@ -2,7 +2,8 @@
 
 **Purpose:** Bridge between Reaction and Synthesis  
 **When:** After both partners have reacted to each other's reality representations  
-**What:** Explicit acknowledgment of where partners see differently, without requiring resolution
+**What:** Explicit acknowledgment of where partners see differently, without requiring resolution  
+**Scope:** Partnership level (one per partnership, not per arc)
 
 ---
 
@@ -29,17 +30,17 @@ The Reaction phase surfaces divergence. Partners read each other's realities and
 ### Header
 
 ```markdown
-# Divergence Map: {Arc Name}
+# Partnership Divergence Map
 
-**Arc:** {Arc Name}  
+**Partnership:** {Partner A} & {Partner B}  
 **Created:** YYYY-MM-DD  
 **Status:** Awaiting mutual acknowledgment  
-**Purpose:** Hold both realities before synthesis
+**Purpose:** Hold both realities as foundation for shared understanding
 
 ---
 ```
 
-**Note:** The arc name appears twice (in title and metadata) for clarity when documents are read outside their folder context.
+**Note:** This is a PARTNERSHIP-level document, not arc-specific. The same core divergences manifest across all arcs. One divergence map serves the entire partnership.
 
 ### Section 1: The Core Divergences
 
