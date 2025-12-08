@@ -125,6 +125,34 @@ Hold your frame AND receive theirs. Both realities stay intact. Neither is expla
 6. **Experimentation** → Trying things based on shared understanding
 7. **Integration** → Learning captured, arc closed
 
+### One Divergence Map Per Partnership
+
+**Key insight:** The divergences that surface in one arc are typically the SAME divergences that surface in other arcs. They're the partnership's core patterns manifesting in different contexts.
+
+**Therefore:**
+- ONE unified Divergence Map lives at the partnership level (`shared/divergence_map.md`)
+- All arcs reference this shared map
+- Arc-specific incidents are EVIDENCE for the core divergences, not separate divergences
+- Bridging statements are about the partnership, not individual arcs
+
+**Why unified:**
+- Prevents fragmentation of understanding
+- Consolidates learning across arcs
+- Creates single foundation for relationship model
+- Partners rebuild around ONE shared document, not many
+
+**Location:**
+```
+portal/
+  shared/
+    divergence_map.md              ← The ONE divergence map
+    bridging_statements/
+      partner_a_to_partner_b.md    ← Partnership-level acknowledgment
+      partner_b_to_partner_a.md
+  arcs/
+    arc-{name}/                    ← References shared divergence map
+```
+
 ### When to Use
 
 **Required when:**
@@ -155,10 +183,19 @@ Divergence Mapping makes this explicit. It says: "We see different nails. Both n
 
 **Template:** `arc-practice/templates/divergence_map_template.md`
 
+**Canonical location in portal:**
+```
+shared/
+  divergence_map.md              ← Partnership divergence map
+  bridging_statements/
+    {partner}_to_{partner}.md    ← Individual bridging statements
+```
+
 **This scroll informs:**
 - Arc lifecycle design
 - Spirit facilitation during reaction phase
 - Cylinder extraction methodology
+- Portal structure (shared/ directory purpose)
 
 **This scroll builds on:**
 - `on_arc_structure.md` (overall arc lifecycle)
