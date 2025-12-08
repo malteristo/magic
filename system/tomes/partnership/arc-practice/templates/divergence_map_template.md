@@ -31,12 +31,15 @@ The Reaction phase surfaces divergence. Partners read each other's realities and
 ```markdown
 # Divergence Map: {Arc Name}
 
+**Arc:** {Arc Name}  
 **Created:** YYYY-MM-DD  
 **Status:** Awaiting mutual acknowledgment  
 **Purpose:** Hold both realities before synthesis
 
 ---
 ```
+
+**Note:** The arc name appears twice (in title and metadata) for clarity when documents are read outside their folder context.
 
 ### Section 1: The Core Divergences
 
