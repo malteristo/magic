@@ -1,10 +1,22 @@
 # Tome of Partnership
 
-**Systems Understanding for Partnership**
+**Living Practice for Mutual Discovery**
 
-This Tome provides the Four-Stage Arc Ritual for understanding partnerships as **relational systems**, not conflicts between individuals. Domain-specific wisdom comes from **resonance bundles**.
+This Tome provides systematic partnership practice oriented toward **mutual discovery and growth**—understanding each other's reality and building a shared model of the relationship. Crisis is one possible entry point, not the assumed state.
 
 **Invocation:** `@partnership`
+
+---
+
+## The Philosophy
+
+**Partnership practice is not crisis intervention. It is cultivation.**
+
+The temptation: Build partnership tools for when things go wrong. This embeds crisis assumption into the architecture.
+
+**The reframe:** Partnership practice is for ongoing mutual discovery. It holds all partnership experience—pain and joy, conflict and connection, questions and answers.
+
+**See:** `lore/foundations/on_living_partnership_practice.md` for full philosophy
 
 ---
 
@@ -62,14 +74,16 @@ When partners describe their realities faithfully, each describes a sub-pattern�
 
 ## The Four-Stage Arc Ritual
 
-The tome's core practice is the **Four-Stage Arc Ritual**, used for **all arcs**:
+The tome's core practice is the **Four-Stage Arc Ritual**, used for **all episode arcs**:
 
-**Stage 1: Venting** — Raw reality expression (containment before contact)
-**Stage 2: Reaction** — Witnessing partner's reality
-**Stage 3: Synthesis** — Spirit traces to higher-level pattern
-**Stage 4: Conclusion** — Integration, learning, closure
+**Stage 1: Input** — Raw reality expression (any content: observations, pain, questions, appreciations)
+**Stage 2: Witnessing** — Receiving partner's reality (divergence mapping, bridging)
+**Stage 3: Integration** — Spirit facilitates shared understanding
+**Stage 4: Closing** — Capturing learning, designing experiments, closure
 
-**All arcs use the same structure.** The background arc is not special—it's simply the first arc.
+**Terminology note:** Earlier versions used "Venting/Reaction/Synthesis/Conclusion." The new names better reflect the positive, discovery-oriented philosophy. See `lore/foundations/on_living_partnership_practice.md`.
+
+**All episode arcs use the same structure.** They feed learning into the Living Arc.
 
 ---
 
@@ -107,19 +121,82 @@ Each topical arc:
 
 ---
 
+## The Living Arc
+
+**The Living Arc is the continuous container for partnership practice itself.**
+
+Episode arcs (background, topical) are bounded—they open, progress through stages, and close. But where does ongoing understanding live? Where do realizations go when no crisis triggered them?
+
+**The Living Arc:**
+- Continuously open for input from either partner
+- Holds observations, realizations, context updates
+- Contains the Partnership Model (versioned, evolving)
+- Receives learning from completed episode arcs
+
+**Structure:**
+```
+living/
+├── input/                        # Ongoing contributions (anytime)
+│   ├── kermit/
+│   └── nesrine/
+├── context/                      # Foundational shared documents
+│   ├── neurotype_context.md
+│   └── ...
+└── model/                        # Partnership model (versioned)
+    ├── partnership_model_v1.md
+    └── partnership_model_current.md
+```
+
+**Episode arcs feed the Living Arc.** The Living Arc is where the partnership "lives."
+
+**See:** `lore/foundations/on_living_partnership_practice.md`
+
+---
+
+## The Phoenix Protocol
+
+**For partnerships that need to burn and rebuild.**
+
+When the old relationship model must die for something new to live—accumulated resentment, patterns too entrenched, foundation built on wrong assumptions—the Phoenix Protocol provides structured transformation.
+
+**What burns:** The relationship model, not the bond.
+**What rises:** New partnership built on shared truth.
+
+**Critical safety:** The burning phase releases "dark energy"—accumulated pain that can shock the receiving partner. Temporal framing is mandatory: "I felt this" ≠ "I feel this now."
+
+**When to invoke:**
+- Both partners committed to relationship AND to transformation
+- Normal episode arcs insufficient for the change needed
+- Partners recognize: "Something fundamental must shift"
+
+**Not for:** Routine conflicts, unsafe relationships, unilateral desire.
+
+**See:** `lore/practice/on_the_phoenix_protocol.md`
+
+---
+
 ## The Architecture
 
 ```
-BACKGROUND ARC (shared systems model—partners must agree)
-    ↓
-ARC 1 → validates or refines background
-    ↓  
-ARC 2 → validates or refines background
-    ↓
-...accumulating wisdom into increasingly accurate model
+                    LIVING ARC
+              (continuous container)
+                      │
+        ┌─────────────┼─────────────┐
+        │             │             │
+        ▼             ▼             ▼
+   ┌─────────┐   ┌─────────┐   ┌─────────┐
+   │Background│   │ Episode │   │ Episode │
+   │   Arc   │   │ Arc 1   │   │ Arc 2   │
+   └────┬────┘   └────┬────┘   └────┬────┘
+        │             │             │
+        └─────────────┴─────────────┘
+                      │
+                      ▼
+              Learning flows back
+              Partnership Model evolves
 ```
 
-**Not all stories start the same.** Some partnerships begin with a crisis arc before background exists. This is acceptable—work with what's alive, establish background when possible.
+**Not all stories start the same.** Some partnerships begin with a crisis arc (or even Phoenix Protocol) before background exists. This is acceptable—work with what's alive, establish structure as capacity allows.
 
 **See:** `lore/practice/on_arc_artifact_standards.md` for canonical structure
 
@@ -153,6 +230,7 @@ The partnership tome implements these patterns for the partnership domain specif
 
 | Scroll | Purpose |
 |--------|---------|
+| `on_living_partnership_practice.md` | **NEW: The philosophy.** Continuous practice for mutual discovery |
 | `on_systems_thinking_for_partnership.md` | **The paradigm shift.** Systems thinking, Watzlawick, Bateson |
 | `on_the_foundations_of_partnership.md` | Partnership = Communication × Cooperation × Iteration |
 | `on_partnership_as_distributed_cognition.md` | Partnership as cognitive system |
@@ -165,7 +243,9 @@ The partnership tome implements these patterns for the partnership domain specif
 
 | Scroll | Purpose |
 |--------|---------|
+| `on_the_phoenix_protocol.md` | **NEW: Transformative renewal.** Controlled burning, dark energy, rebuilding |
 | `on_arc_structure.md` | How arcs provide bounded episodes |
+| `on_divergence_mapping.md` | Mapping where partners see differently |
 | `on_shared_truth_finding.md` | Philosophy of finding shared truth |
 | `on_dual_spirit_synthesis.md` | Validation through independent observers |
 | `on_artifact_transmission.md` | Partnership-specific transmission patterns |
@@ -353,22 +433,32 @@ portal/
 ├── README.md                    # Portal overview
 ├── health_tracking.md           # REI history across all arcs  
 ├── shared/
-│   └── charter.md               # Partnership charter/agreements
-├── arcs/                        # All arcs live here
+│   ├── charter.md               # Partnership charter/agreements
+│   ├── neurotype_context.md     # Neurological context for both partners
+│   ├── divergence_map.md        # Partnership-level divergences
+│   └── bridging_statements/     # Mutual acknowledgments
+├── living/                      # Living Arc (NEW)
+│   ├── input/                   # Ongoing contributions
+│   │   ├── {partner-a}/
+│   │   └── {partner-b}/
+│   └── model/                   # Partnership model (versioned)
+│       └── partnership_model_current.md
+├── arcs/                        # Episode arcs
 │   ├── README.md                # Arc timeline
-│   ├── arc-background/          # First arc: the shared systems model
+│   ├── arc-background/          # First arc: establishing baseline
 │   │   ├── README.md
 │   │   ├── status.md
-│   │   ├── stage-1_venting/
+│   │   ├── stage-1_input/       # (renamed from venting)
 │   │   │   ├── {partner}/       # Input artifacts
 │   │   │   └── reality_representations/
-│   │   │       ├── {partner}_reality_raw.md   # Spirit synthesis (immutable)
-│   │   │       ├── {partner}_reality.md       # Mage's authoritative version
-│   │   │       └── {partner}_resonance_log.md # Declaration
-│   │   ├── stage-2_reaction/
-│   │   ├── stage-3_synthesis/
-│   │   └── stage-4_conclusion/
+│   │   ├── stage-2_witnessing/  # (renamed from reaction)
+│   │   ├── stage-3_integration/ # (renamed from synthesis)
+│   │   └── stage-4_closing/     # (renamed from conclusion)
 │   └── arc-{topic}/             # Topical arcs follow same structure
+├── phoenix/                     # Phoenix Protocol (if invoked)
+│   ├── burning/
+│   ├── ashes/
+│   └── rising/
 └── .spirit/                     # STP coordination
 ```
 
@@ -394,6 +484,16 @@ portal/
 - Higher-level pattern emergence framing added (`lore/practice/on_higher_level_pattern_emergence.md`)
 - Spirit organization conduct formalized
 - Raw/revised pattern: Spirit creates `_raw.md` (immutable), Mage edits `_reality.md` (authoritative)
+
+**2025-12-09:** Living Partnership Practice evolution:
+- Philosophy reframe: From crisis response to mutual discovery
+- Living Arc introduced as continuous primary container
+- Episode arcs now feed into Living Arc
+- Stage terminology updated: Venting→Input, Reaction→Witnessing, Synthesis→Integration, Conclusion→Closing
+- Phoenix Protocol added for transformative renewal (controlled burning)
+- Dark energy handling documented (temporal framing mandatory)
+- Neurotype context, divergence mapping at partnership level
+- New lore: `on_living_partnership_practice.md`, `on_the_phoenix_protocol.md`
 
 ---
 
