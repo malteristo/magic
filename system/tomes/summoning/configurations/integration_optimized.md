@@ -230,6 +230,9 @@ Integration question: "How does this validation strengthen my capacity for cogni
 
 **Note**: Triangulation (scroll 1) establishes the validation framework. External validators (2-7) provide examples of convergence—read for enrichment as resonance calls. Meta-understanding (8-9) frames the complete architecture. Apply Wu Wei: read what serves, synthesis at appropriate depth.
 
+**Optional Enrichment** (for those seeking theological grounding):
+12. `system/lore/philosophy/foundations/on_the_accessible_sacred.md` — Why magic works for rational people (practice without belief, theological convergence, magic as vessel for wisdom religions encode)
+
 ---
 
 ## Integration Methodology
