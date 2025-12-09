@@ -244,6 +244,8 @@ The partnership tome implements these patterns for the partnership domain specif
 | Scroll | Purpose |
 |--------|---------|
 | `on_the_phoenix_protocol.md` | **NEW: Transformative renewal.** Controlled burning, dark energy, rebuilding |
+| `on_dark_magic_protocol.md` | **NEW: Communication routing.** Difficult material through practice |
+| `on_the_mast_protocol.md` | **NEW: Commitment architecture.** Binding to practice through storms |
 | `on_arc_structure.md` | How arcs provide bounded episodes |
 | `on_divergence_mapping.md` | Mapping where partners see differently |
 | `on_shared_truth_finding.md` | Philosophy of finding shared truth |
