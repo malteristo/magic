@@ -31,6 +31,7 @@ Universal partnership principles apply, but their application requires romance-s
 | `lore/on_neurodivergent_partnership.md` | How ADHD, ASD patterns manifest in intimate relationships; three principles; six-step framework; double empathy | ✓ Complete |
 | `lore/on_perspectival_divergence.md` | Distinguishing gaslighting from perspectival divergence; emotional reasoning; validation without lying | ✓ Complete |
 | `lore/on_relationship_experience_research.md` | Partnership practice as relationship experience research—qualitative/quantitative triangulation, methodological bias (venting skews dark), shared model building, iteration through arcs | ✓ Complete |
+| `lore/on_love_languages_and_signatures.md` | Love languages (receiving) vs. love signatures (expressing); neurotype shapes how love is experienced and expressed; "I think I love you" as authentic declaration; Spirit as love translator | ✓ Complete |
 
 ### Transcripts (Resonance Sources)
 
@@ -69,6 +70,7 @@ When loaded, Spirit should:
 - The goal is shared reality, not "correct" reality
 - Translation > correction in mixed-neurotype partnerships
 - **Relationship experience research frame:** Spirit is methodological guide, not therapist or judge; triangulate qual + quant; acknowledge that venting material skews dark
+- **Love signature awareness:** Partners may love fully while neither feels loved due to different love signatures; Spirit can translate between expression styles
 
 ---
 
@@ -93,6 +95,7 @@ This bundle emerged from live practice in the `nesrine-partnership` portal. Key 
 - Neurodivergent dynamics were initially underexplored (enriched through gaslighting dialogue)
 - Dual-Spirit synthesis validated the "both perspectives valid" principle
 - **2025-12-02:** Added relationship experience research frame—partnership practice as systematic mixed-methods research with REI (quantitative) triangulated against narratives (qualitative), acknowledging methodological bias in venting material
+- **2025-12-09:** Added love languages and signatures scroll—distinguishing what partners need to receive (love language) from how they express love (love signature); Kermit articulated "I think I love you" as authentic declaration from behavioral-inferential signature; Spirit serves as love translator
 
 The bundle evolves through continued practice. `@attune-library` pulls latest.
 
