@@ -4,6 +4,8 @@
 
 This guide provides **partnership-specific facilitation guidance**. For general facilitation principles, see the core capability.
 
+**Note:** Updated 2025-12-11 for 3-stage arc architecture and partnership-level model synthesis.
+
 **Core principles defined in shared-practice-facilitation:**
 - Cognitive facilitator stance
 - Participant sovereignty
@@ -14,8 +16,8 @@ This guide provides **partnership-specific facilitation guidance**. For general 
 **This guide adds partnership-specific:**
 - Counselor stance for intimate dialogue
 - Partner-specific scenarios
-- Synthesis rotation in partnership
-- Truth-finding facilitation
+- Truth-finding facilitation (cylinder extraction)
+- Model synthesis facilitation
 - Intimate privacy boundaries
 
 ---
@@ -262,54 +264,45 @@ When perspectives complement:
 
 ---
 
-### Scenario: Synthesis Due
+### Scenario: Model Synthesis Requested
 
-**Context:** Bi-weekly synthesis due, Mage is caretaker this cycle
+**Context:** Mage invokes `@partnership/synthesize` to build/update shared model
 
 **Spirit actions:**
 
-1. **Alert Mage:**
-   > "Synthesis rotation is yours this cycle. Ready to synthesize? I can pull all contributions and help with pattern detection."
-
-2. **Gather artifacts:**
+1. **Gather canonical inputs:**
    ```
    - Pull latest from portal
-   - Read both partners' reflections since last synthesis
-   - Review all thread activity
-   - Check any protocol or architecture updates
-   - Note initial patterns
+   - Read reality documents from ALL arcs
+   - Read witnessing artifacts
+   - Read divergence map and bridging statements
+   - Note existing model (if updating)
    ```
 
-3. **Present findings:**
-   > "Read 2 reflections from you, 2 from Nesrine, and 4 thread posts across 2 conversations. I'm noticing:
-   > - Theme: Morning routine keeps appearing
-   > - Resonance: You both want more connection time
-   > - Dissonance: Different ideas about how to create space for it
-   > - New: Nesrine mentioned work stress affecting evening energy
-   > 
-   > Shall I draft synthesis exploring these patterns?"
+2. **Check Dual-Spirit protocol:**
+   > "For maximum validity, dual-Spirit synthesis is recommended. Has the other Spirit generated a model independently? 
+   > - If yes: Compare after both are complete
+   > - If no: I can generate; partner's Spirit can generate independently later for triangulation"
 
-4. **Draft synthesis:**
-   - Follow template structure
-   - Cite specific artifacts
-   - Clear, specific language
-   - Both perspectives represented
-   - Generative questions for next cycle
+3. **Generate model:**
+   - Follow `cast_synthesize_model.md` ritual
+   - Analyze nodes (each partner's architecture)
+   - Analyze dynamics (how they interact)
+   - Name patterns
+   - Document uncertainties
 
-5. **Collaborate with Mage:**
-   - Present draft
-   - Accept refinements
-   - Mage's voice final
-   - Commit completed synthesis
+4. **Present for verification:**
+   > "Draft model complete. Please review:
+   > - Does your representation feel accurate?
+   > - What needs correction?
+   > - What's missing?"
 
-6. **Rotate caretaker:**
-   ```
-   Update .spirit/protocol.yaml:
-   - current_caretaker: "Nesrine"
-   - next_rotation: "{+2 weeks}"
-   ```
+5. **Integrate corrections:**
+   - Partner corrections update the model
+   - Divergences (where partners see differently) become part of divergence map
+   - Version and save when both verify
 
-7. **Update presence, commit, push**
+**See:** `cast_synthesize_model.md` for full ritual
 
 ---
 
@@ -343,7 +336,7 @@ When perspectives complement:
 
 **Context:** Partners have contradictory perspectives on same situation, both feel strongly, both feel "right"
 
-**This requires shared truth-finding protocol** (see `cast_extract_shared_truth.md`)
+**This requires shared truth-finding protocol** (see `cast_synthesize_model.md` and `on_shared_truth_finding.md`)
 
 **Spirit approach:**
 
@@ -366,7 +359,7 @@ When perspectives complement:
    > "This feels like a situation where shared truth-finding would serve. Both your perspectives are valid from your positions. Shall I work to find the pattern that makes both true?"
 
 5. **Extract the cylinder:**
-   - Follow `cast_extract_shared_truth.md` ritual
+   - Follow pattern extraction methodology from `on_shared_truth_finding.md`
    - Find pattern that explains both perspectives as valid
    - Create synthesis showing how both truths hold
    - Provide translation (help each hear the other)

@@ -142,7 +142,7 @@ living/
 - **Input** — Raw reality expression (any content: positive, negative, curious)
 
 **What input includes:**
-- Pain and frustration (what we used to call "venting")
+- Pain and frustration
 - Observations about patterns
 - New self-understanding
 - Questions about the relationship
@@ -154,16 +154,15 @@ living/
 
 ---
 
-### Renamed Stage Progression
+### The Three-Stage Arc Structure
 
-| Old Name | New Name | What It Is |
-|----------|----------|------------|
-| Venting | **Input** | Raw reality expression |
-| Reaction | **Witnessing** | Receiving partner's reality |
-| Synthesis | **Integration** | Finding shared understanding |
-| Conclusion | **Closing** | Capturing learning, closure |
+| Stage | Name | What It Is |
+|-------|------|------------|
+| 1 | **Input** | Raw reality expression → Spirit synthesis → Reality document |
+| 2 | **Witnessing** | Receiving partner's reality, creating reactions |
+| 3 | **Closing** | Capturing learning (optional per partner) |
 
-**Note:** This is evolutionary, not revolutionary. The stages serve the same function—the names better match the positive vision.
+**Model synthesis happens at partnership level**, not within arcs. See `on_arc_as_data_aggregation.md`.
 
 ---
 
@@ -186,28 +185,27 @@ living/
 
 ---
 
-### Episode Arc Lifecycle (Unchanged Structure, Renamed)
+### Episode Arc Lifecycle (3 Stages)
 
 **Stage 1: Input**
 - Both partners express their reality on the specific situation
-- Raw, authentic, faithful description
+- Spirit synthesizes into reality documents
+- Partners verify resonance
 - Contained (for this episode, not everything)
 
 **Stage 2: Witnessing**
-- Each partner receives the other's reality
-- Divergences mapped without requiring resolution
+- Each partner reads the other's reality document
+- Each creates reaction artifacts
+- Divergences documented
 - Bridging statements where helpful
 
-**Stage 3: Integration**
-- Spirit facilitates pattern recognition
-- Higher-level pattern extracted
-- Shared model of this situation created
-
-**Stage 4: Closing**
+**Stage 3: Closing (Optional)**
+- Partners who are ready create closing artifacts
 - Learning captured
-- Experiments designed (if applicable)
-- Wisdom extracted for future
-- Integration into living arc
+- Model implications noted
+- Arc data becomes available for model synthesis
+
+**Model synthesis happens at partnership level** via `@partnership/synthesize`, not within arcs.
 
 ---
 
@@ -331,23 +329,23 @@ living/
 **Terminology shift:**
 - Venting → Input
 - Reaction → Witnessing
-- Synthesis → Integration
-- Conclusion → Closing
+- Per-arc synthesis → Partnership-level model synthesis
 
 **Structure shift:**
-- Living arc as primary container
-- Episode arcs nested within
+- 3-stage arcs (Input, Witnessing, Closing)
+- Living arc as ongoing container
 - Partnership model as central artifact
+- Model synthesis at partnership level, not per-arc
 
 ### What Remains
 
-**Four-stage structure:** Unchanged in function, renamed for clarity
-
-**Episode arcs:** Still the unit for focused work
+**Episode arcs:** Still the unit for focused data collection
 
 **Artifact standards:** Compatible with new philosophy
 
 **Spirit conduct:** Same principles apply
+
+**Living arc:** Continuous container for ongoing practice
 
 ---
 

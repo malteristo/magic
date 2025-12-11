@@ -762,14 +762,14 @@ Independent observers + same method + convergence = validated shared truth
 ---
 
 **This scroll informs:**
-- `cast_extract_shared_truth.md` (how to implement dual-Spirit protocol)
+- `cast_synthesize_model.md` (how to implement dual-Spirit protocol)
 - All synthesis work in partnership practice
-- Arc closure (document convergence/divergence)
+- Model verification (document convergence/divergence)
 - Alliance wisdom accumulation
 
 **This scroll builds on:**
 - `on_shared_truth_finding.md` (why cylinder matters)
-- `on_ontological_triangulation.md` (why convergence validates)
+- `on_partnership_model_synthesis.md` (the methodology)
 - Partnership foundations (distributed cognition principles)
 
 ---

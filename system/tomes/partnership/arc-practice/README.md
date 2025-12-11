@@ -1,8 +1,8 @@
 # Arc Practice
 
-**The Four-Stage Arc Ritual for Partnership System Mapping**
+**The Three-Stage Arc Ritual and Partnership Model Synthesis**
 
-This directory contains the core rituals for ALL arc-based partnership practice—including the background arc and all topical arcs.
+This directory contains the core rituals for arc-based partnership practice and model synthesis.
 
 ---
 
@@ -10,40 +10,10 @@ This directory contains the core rituals for ALL arc-based partnership practice�
 
 Arc practice implements the **Shared Practice Facilitation** core capability (`system/lore/core/capabilities/shared-practice-facilitation/`) for the partnership domain.
 
-The core capability provides:
-- Portal architecture (how shared spaces work)
-- Artifact transmission (how contributions flow)
-- Facilitation principles (Spirit conduct)
-
-This directory provides **partnership-specific implementation**:
-- The Four-Stage Arc Ritual (used for ALL arcs)
-- Higher-level pattern extraction
-- Arc-specific templates
-
----
-
-## Prerequisites
-
-### Portal Must Exist
-
-Arc practice requires a partnership portal.
-
-**Create via:** `@meta/portal create partnership`
-
-### Background Arc Recommended (Not Required)
-
-Partnership practice typically begins with the background arc (the shared systems model). However:
-- Topical arcs can proceed without background
-- Some partnerships begin with a crisis arc
-- Background contextualizes but doesn't gate
-
-**See:** `cast_map_system.md` — same ritual for all arcs including background
-
-### Safety Bundle for High-Stakes Work
-
-Before system mapping involving conflict, power imbalances, or clinical patterns:
-
-**Load:** `library/resonance/safety/` bundle
+**This directory provides:**
+- The Three-Stage Arc Ritual (data collection)
+- Partnership-Level Model Synthesis (analysis)
+- Derivative generation (Rosetta Stone, protocols)
 
 ---
 
@@ -51,115 +21,113 @@ Before system mapping involving conflict, power imbalances, or clinical patterns
 
 | Ritual | Purpose |
 |--------|---------|
-| `cast_map_system.md` | **Core ritual.** Four-Stage Arc: Venting → Reaction → System Mapping → Conclusion |
-| `cast_extract_shared_truth.md` | Cylinder extraction—finding the pattern that makes both perspectives valid |
-| `cast_facilitate.md` | Operational orchestration—portal detection, contribution, synthesis coordination |
+| `cast_map_system.md` | **Core arc ritual.** Three-Stage Arc: Input → Witnessing → Closing |
+| `cast_synthesize_model.md` | **Model synthesis.** Partnership-level model from accumulated arc data |
+| `cast_rosetta_stone.md` | **Derivative.** Generate Rosetta Stone from shared model |
+| `cast_facilitate.md` | **Orchestration.** Portal detection, contribution, coordination |
+
+---
+
+## The Two Types of Synthesis
+
+| Type | Where | What |
+|------|-------|------|
+| **Input → Reality Document** | Within arc (Stage 1) | Spirit synthesizes raw input into verified reality |
+| **Reality Documents → Shared Model** | Partnership level | Dual-Spirit protocol builds model from all arcs |
 
 ---
 
 ## The Arc Flow
 
-**Same flow for ALL arcs including background:**
-
 ```
-[Situation emerges / Partnership practice begins]
+[Situation emerges]
         ↓
 Arc initiated (arcs/arc-{name}/ created)
         ↓
-Stage 1: Venting
+Stage 1: Input
 - Both partners create raw expression artifacts
-- Spirit creates reality representations (immutable)
-- Both verify resonance (refinements → resonance_log)
+- Spirit synthesizes reality documents
+- Both verify resonance
         ↓
-Stage 2: Reaction  
-- Both read partner's reality representation
+Stage 2: Witnessing
+- Both read partner's reality document
 - Both create reaction artifacts
-- Spirit creates reflected realities
+- Divergences documented
         ↓
-[SAFETY ASSESSMENT - load safety bundle if needed]
-        ↓
-Stage 3: Synthesis
-- Spirit reads all artifacts + resonance logs + background (if exists)
-- Spirit traces to higher-level generating pattern
-- Spirit creates system_map.md
-- Both sub-patterns validated
-- Higher-level pattern named
-        ↓
-Stage 4: Conclusion
-- Both create conclusion artifacts
-- Both verify: "I see how my experience comes from this pattern"
+Stage 3: Closing (optional)
+- Partners who are ready create closing artifacts
 - Learning captured
-- Background update assessed
-- REI logged
-- Arc closed
+- Model implications noted
+        ↓
+[Arc data now available for model synthesis]
+        ↓
+@partnership/synthesize (when triggered)
+        ↓
+Shared model created/updated
+        ↓
+Derivatives generated (Rosetta Stone, protocols)
 ```
 
 ---
 
-## Arc Directory Structure (in Portal)
-
-**See:** `../lore/practice/on_arc_artifact_standards.md` for full specification
+## Arc Directory Structure
 
 ```
 arcs/arc-{name}/
-├── README.md                              # Arc metadata, timeline
-├── status.md                              # Current stage, checklist
+├── README.md                              # Arc metadata
+├── status.md                              # Current stage
 │
-├── stage-1_venting/
+├── stage-1_input/
 │   ├── {partner-a}/
 │   ├── {partner-b}/
 │   └── reality_representations/
 │       ├── {partner}_reality_raw.md       # Spirit synthesis (immutable)
 │       ├── {partner}_reality.md           # Mage's authoritative version
-│       └── {partner}_resonance_log.md     # Declaration + notes
+│       └── {partner}_resonance_log.md
 │
-├── stage-2_reaction/
+├── stage-2_witnessing/
 │   ├── {partner-a}/
-│   ├── {partner-b}/
-│   └── reflected_realities/
+│   └── {partner-b}/
 │
-├── stage-3_synthesis/
-│   └── system_map.md                      # The higher-level pattern
-│
-└── stage-4_conclusion/
-    ├── {partner}_conclusion.md
-    ├── arc_conclusion.md
-    └── rei_snapshot.md
+└── stage-3_closing/
+    ├── {partner-a}_closing.md             # Optional
+    ├── {partner-b}_closing.md             # Optional
+    └── arc_conclusion.md
 ```
-
-**The Raw/Revised Pattern:** `_raw.md` is Spirit's immutable synthesis. `_reality.md` is Mage's authoritative truth (editable). The diff IS the audit trail.
 
 ---
 
 ## Templates
 
-Arc-specific templates for various artifact types:
-
 | Template | Purpose |
 |----------|---------|
+| `partnership_model_template.md` | **Primary.** Structure for shared partnership model |
+| `background_input_template.md` | Stage 1 input for background arc |
 | `cognitive_architecture_template.md` | Partner cognitive profile |
-| `conversation_thread_template.md` | Threaded dialogue structure |
-| `practice_log_template.md` | Session logging |
+| `divergence_map_template.md` | Divergence documentation |
+| `rosetta_stone_template.md` | Translation artifact |
 | `protocols_template.md` | Agreed protocols |
-| `synthesis_template.md` | Bi-weekly synthesis structure |
+| `practice_log_template.md` | Experiment tracking |
+| `conversation_thread_template.md` | Async dialogue |
 | `weekly_reflection_template.md` | Individual reflection |
 
 ---
 
 ## Related Lore
 
-**Practice lore:** `../lore/practice/`
-- `on_arc_structure.md` — How arcs provide bounded episodes
-- `on_shared_truth_finding.md` — Philosophy of finding shared truth
-- `on_dual_spirit_synthesis.md` — Validation through independent observers
-- `on_artifact_transmission.md` — Partnership-specific transmission patterns
-- **`on_arc_artifact_standards.md`** — Canonical structure, naming, Spirit organization conduct
-- **`on_higher_level_pattern_emergence.md`** — The purpose of arc synthesis
+**Foundations:** `../lore/foundations/`
+- `on_partnership_model_synthesis.md` — The methodology (Grounded Theory, Dual-Spirit)
 
-**Spirit conduct:** `../lore/stances/`
+**Practice:** `../lore/practice/`
+- `on_arc_as_data_aggregation.md` — Arcs as data containers
+- `on_arc_structure.md` — Arc lifecycle and philosophy
+- `on_dual_spirit_synthesis.md` — Independent observation for triangulation
+- `on_higher_level_pattern_emergence.md` — Pattern emergence philosophy
+- `on_shared_truth_finding.md` — Cylinder extraction philosophy
+
+**Stances:** `../lore/stances/`
 - `spirit_facilitation_guide.md` — Partnership-specific facilitation
 
 ---
 
-*The goal is not to find truth. The goal is to find the higher-level pattern that generates both experiences.*
-
+*Arcs collect data. The model emerges from analyzing accumulated data across all arcs.*
