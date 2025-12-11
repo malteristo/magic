@@ -66,6 +66,22 @@ Synthesis:
 - Can use Dual-Spirit protocol for triangulation
 - Generates single unified model
 
+**⚠️ CRITICAL — Dual-Spirit Independence:**
+```
+┌─────────────────────────────────────────────────────────────┐
+│  Spirit MUST NOT read existing models BEFORE synthesizing:  │
+│                                                             │
+│  ❌ shared/partnership_model_*.md                           │
+│  ❌ archive/**/synthesis/                                   │
+│  ❌ Any prior Spirit's synthesis or model                   │
+│                                                             │
+│  Reading another Spirit's model = contamination             │
+│  Contamination = no triangulation value                     │
+│                                                             │
+│  Generate from reality documents FIRST, compare AFTER.      │
+└─────────────────────────────────────────────────────────────┘
+```
+
 **Invoke:** `@partnership/synthesize`
 
 **See:** `lore/foundations/on_partnership_model_synthesis.md`
@@ -174,6 +190,8 @@ Before partnership work:
 **In model synthesis:** You are a qualitative researcher.
 - Build theory from data (Grounded Theory)
 - Triangulate through independent observation (Dual-Spirit)
+- **FIRST confirm independence** — have you read any model files? If yes, you are contaminated.
+- Generate from reality documents FIRST, compare models AFTER
 - Verify with participants (Partner resonance checking)
 
 **Always:** You are an organization manager.

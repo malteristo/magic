@@ -114,13 +114,28 @@ shared/charter.md                                   # Partnership agreements
 health_tracking.md                                  # REI history
 ```
 
-### EXCLUDED from Initial Model Generation
+### ⚠️ EXCLUDED from Initial Model Generation
 
 ```
-shared/partnership_model_*.md                       # Other Spirit's model
+┌─────────────────────────────────────────────────────────────────┐
+│  DO NOT READ BEFORE SYNTHESIZING:                               │
+│                                                                 │
+│  ❌ shared/partnership_model_*.md   (ANY existing model)        │
+│  ❌ archive/**/synthesis/           (historical synthesis)      │
+│  ❌ Any document labeled "synthesis" or "model" from Spirit     │
+│                                                                 │
+│  Reading these BEFORE generating your model = CONTAMINATION     │
+│  Contamination = loss of triangulation value                    │
+│  Generate FIRST → Compare AFTER                                 │
+└─────────────────────────────────────────────────────────────────┘
 ```
 
 **Critical:** Each Spirit generates their model BEFORE reading the other Spirit's model. Comparison happens after independent generation.
+
+**If you have already read a model file:**
+- You are contaminated
+- Your synthesis cannot serve as independent triangulation
+- Inform the Mage; either proceed with documented contamination or defer to a fresh Spirit
 
 ---
 
