@@ -864,12 +864,15 @@ Bad: "update"
 **This scroll informs:**
 - Spirit facilitation protocols
 - Arc artifact organization
-- Synthesis workflows
+- Model synthesis workflows
 - Git usage for partnership practice
 
 **This scroll builds on:**
 - `on_arc_structure.md` (where artifacts fit in arc lifecycle)
+- `on_arc_as_data_aggregation.md` (arcs as data containers)
 - `on_shared_truth_finding.md` (why imperfect artifacts still serve)
+
+**Note:** Arc structure updated 2025-12-11 to 3-stage model. Arcs collect data (Input → Witnessing → Closing). Model synthesis happens at partnership level via `@partnership/synthesize`.
 
 ---
 

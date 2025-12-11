@@ -2,9 +2,11 @@
 
 **Status:** Active  
 **Domain:** Portal-based Partnership Practice  
-**Purpose:** Define episodic structure for bounded practice periods
+**Purpose:** Define episodic data collection structure for partnership practice
 
-This scroll establishes "arcs" as the organizing principle for partnership practice—discrete episodes that enable focused work on specific situations, clear boundaries, and accumulated learning over time.
+This scroll establishes "arcs" as the organizing principle for partnership practice—discrete episodes that collect partnership data through focused work on specific situations.
+
+**Note:** This scroll has been updated to reflect the architectural refactor of 2025-12-11. Arcs are now data aggregation containers (3 stages). Model synthesis happens at partnership level, not per-arc. See `on_arc_as_data_aggregation.md` for full architecture.
 
 ---
 
@@ -12,13 +14,13 @@ This scroll establishes "arcs" as the organizing principle for partnership pract
 
 ### Definition
 
-**An arc is a bounded episode of partnership practice focused on a specific situation, challenge, or area of exploration.**
+**An arc is a bounded episode of partnership practice that collects data focused on a specific situation, challenge, or area of exploration.**
 
 **Key characteristics:**
-- **Bounded:** Has beginning (problem emerges), middle (exploration/truth-finding), end (integration or acknowledgment of ongoing nature)
+- **Bounded:** Has beginning (situation emerges) and end (data collected)
 - **Focused:** Centers on specific situation, not entire relationship
 - **Episodic:** Discrete unit with its own narrative structure
-- **Complete:** Generates full set of artifacts (perspectives, synthesis, experiments, learning)
+- **Data-generating:** Produces reality documents, witnessing artifacts, closing reflections
 - **Nameable:** Can be identified clearly ("mother-in-law arc," "morning routine arc")
 
 **Metaphors:**
@@ -65,105 +67,72 @@ This scroll establishes "arcs" as the organizing principle for partnership pract
 
 ---
 
-## III. Arc Lifecycle
+## III. Arc Lifecycle (3 Stages)
 
-### Phase 1: Emergence
+**Arcs have three stages, focused on data collection. Model synthesis happens separately at partnership level.**
 
-**Situation arises:**
-- Conflict surfaces
-- Pattern becomes visible
-- Challenge needs addressing
-- Area worth exploring
+### Stage 1: Input
 
-**Arc initiated:**
-- Partners recognize "this is worth structured work"
-- Arc named (descriptive, specific)
-- Directory created in portal
-- Initial problem/question articulated
+**Situation arises and partners express:**
+- Conflict surfaces, pattern becomes visible, challenge needs addressing
+- Arc initiated (named, directory created)
+- Each partner creates input artifacts (raw expression)
+- Spirit synthesizes reality documents
+- Partner verifies resonance
 
-**Not all conflicts become arcs:** Sometimes in-person conversation suffices. Arcs are for situations that benefit from:
-- Systematic exploration
-- Both perspectives documented
-- Pattern detection over time
-- Explicit synthesis
-
----
-
-### Phase 2: Individual Exploration
-
-**Partners create initial artifacts:**
-- Each articulates their perspective
-- Can be "lawyered up" (advocating their view)
-- Can be raw venting or polished analysis
-- Different formats accepted (written, voice, video)
+**Frame:** "Shouting in pain. Anything goes."
 
 **No requirement for:**
 - Perfect magic practice
 - Neutral tone
-- Immediate shared understanding
-- Agreement
+- Balance or fairness
 
-**Goal:** Get both subjective truths externalized.
+**Goal:** Get both subjective realities externalized and verified.
 
----
-
-### Phase 3: Synthesis & Truth-Finding
-
-**Spirit facilitates cylinder extraction:**
-- Reads both perspectives
-- Identifies dissonance
-- Extracts pattern that makes both valid
-- Creates synthesis artifact
-- Provides translation
-
-**Partners engage:**
-- Read synthesis individually
-- Sit with both truths being valid
-- Discuss in thread or in-person
-- Refine understanding
-- Discover what serves
-
-**Outcome:** Shared truth discovered, pattern understood.
+**Complete when:** Both partners have verified reality documents.
 
 ---
 
-### Phase 4: Experimentation
+### Stage 2: Witnessing
 
-**From shared truth, experiments emerge:**
-- Partners design protocols/practices
-- Based on pattern (not compromise)
-- Serving actual architecture
-- Measurable outcomes
+**Partners receive each other's reality:**
+- Each reads the other's reality document
+- Each creates witnessing artifacts (reactions, reflections)
+- Divergences documented
+- (Optional) Bridging statements created
 
-**Try things:**
-- Document in practice log
-- Note what works/doesn't
-- Iterate based on results
-- Refine protocols
+**Frame:** "This is your reality, reflected in my reality."
 
-**Not linear:** May cycle between synthesis and experimentation as understanding deepens.
+**Goal:** Document how partners receive each other, name divergences.
+
+**Complete when:** Both partners have witnessed and responded.
 
 ---
 
-### Phase 5: Integration & Closing
+### Stage 3: Closing
 
-**Arc completes when:**
-- Pattern integrated (both understand it)
-- Experiments yielding results (or acknowledged as ongoing)
-- Learning captured (documented in arc)
-- Ready to move to next focus
+**Arc closes, learning captured:**
+- Each partner creates closing artifact
+- Arc conclusion synthesized
+- REI logged
+- Model implications noted
 
-**Or arc acknowledged as ongoing:**
-- Some patterns don't "resolve"
-- Can mark arc as "long-term" and reduce intensity
-- Can pause and return later
-- Integration is understanding the pattern, not necessarily "solving" it
+**Frame:** "What this arc taught us."
 
-**Close arc:**
-- Create "What We Learned" artifact
-- Extract wisdom for future
-- Update arc status
-- Celebrate completion
+**Note:** Closing does NOT require resolution. It requires data collection to be complete.
+
+**Complete when:** Arc status updated to completed.
+
+---
+
+### After Arc Closes
+
+**Arc data feeds partnership-level model synthesis:**
+- New arc data compared against existing model
+- Model updated if needed (FIT / PARTIAL FIT / MISFIT)
+- Derivatives regenerated if model changes
+
+**See:** `cast_synthesize_model.md` and `on_arc_as_data_aggregation.md`
 
 ---
 
@@ -171,45 +140,46 @@ This scroll establishes "arcs" as the organizing principle for partnership pract
 
 ### Organizing Artifacts
 
-**Portal structure with arcs:**
+**Portal structure with arcs (3-stage model):**
 ```
-portals/{portal-name}/
-  artifacts/
-    {arc-name}/                          # One directory per arc
-      individual/                        # Individual perspectives
-        {partner-a}/
-          YYYY-MM-DD_initial.md         # First articulation
-          YYYY-MM-DD_reflection.md      # After synthesis
-        {partner-b}/
-          YYYY-MM-DD_initial.md
-          YYYY-MM-DD_reflection.md
-      synthesis/                         # Shared truth
-        YYYY-MM-DD_shared_truth.md      # Cylinder extraction
-        YYYY-MM-DD_refinement.md        # If needed
-      experiments/                       # Trying things
-        YYYY-MM-DD_protocol_draft.md
-        YYYY-MM-DD_experiment_log.md
-      threads/                           # Async dialogue
-        {topic}/
-          thread.md
-      outcomes/                          # Closing artifacts
-        learning_captured.md             # What this arc taught
-        status.md                        # Current state
-      
-  weekly-reflections/                    # Separate: ongoing rhythm
-    {partner-a}/
-      YYYY-MM-DD_week_N.md
-    {partner-b}/
-      YYYY-MM-DD_week_N.md
-      
-  synthesis/                             # Separate: periodic integration
-    YYYY-MM-DD_synthesis.md
-    
-  shared/                                # Separate: enduring docs
-    charter.md
-    cognitive_architecture.md
-    protocols.md
+portal/
+├── shared/
+│   ├── partnership_model_current.md     # THE shared model
+│   ├── divergence_map.md                # Partnership-level divergences
+│   ├── rosetta_stone.md                 # Translation artifact
+│   ├── charter.md
+│   └── bridging_statements/
+│
+├── arcs/
+│   ├── README.md                        # Arc timeline
+│   │
+│   ├── arc-background/
+│   │   ├── README.md                    # Arc metadata
+│   │   ├── status.md                    # Current stage
+│   │   ├── stage-1_input/
+│   │   │   ├── {partner-a}/             # Raw input artifacts
+│   │   │   ├── {partner-b}/
+│   │   │   └── reality_representations/ # Spirit-synthesized
+│   │   ├── stage-2_witnessing/
+│   │   │   ├── {partner-a}/             # Reactions
+│   │   │   └── {partner-b}/
+│   │   └── stage-3_closing/
+│   │       ├── {partner-a}_closing.md
+│   │       ├── {partner-b}_closing.md
+│   │       └── arc_conclusion.md
+│   │
+│   ├── arc-{topic}/                     # Same 3-stage structure
+│   │
+│   └── arc-living/                      # Ongoing input container
+│       ├── README.md
+│       └── input/
+│           ├── {partner-a}/
+│           └── {partner-b}/
+│
+└── health_tracking.md                   # REI history
 ```
+
+**Note:** Synthesis artifacts (`partnership_model_*.md`, `rosetta_stone.md`) live in `shared/`, not within arcs. Model synthesis draws from all arcs.
 
 ---
 
@@ -309,9 +279,17 @@ portals/{portal-name}/
 
 **Created:** YYYY-MM-DD  
 **Status:** {active | paused | completed | archived}  
-**Current Phase:** {emergence | exploration | synthesis | experimentation | integration}  
+**Current Stage:** {stage-1_input | stage-2_witnessing | stage-3_closing}  
 **Last Activity:** YYYY-MM-DD  
 **Priority:** {high | medium | low}
+
+## Stage Completion
+
+| Stage | Partner A | Partner B | Notes |
+|-------|-----------|-----------|-------|
+| 1. Input | [ ] | [ ] | Reality docs created |
+| 2. Witnessing | [ ] | [ ] | Reactions documented |
+| 3. Closing | [ ] | [ ] | Learning captured |
 
 ## Quick Summary
 {One paragraph: what is this arc about?}
@@ -323,8 +301,8 @@ portals/{portal-name}/
 - [ ] {What needs to happen next?}
 - [ ] {Who's doing what?}
 
-## Notes
-{Any context for future reference}
+## Model Implications
+{What this arc means for partnership model—to be noted at closing}
 ```
 
 ---
@@ -393,169 +371,157 @@ holiday visits. Adding more thoughts to the arc.
 
 ### When to Close
 
-**Arc can close when:**
+**Arc can close when data collection is complete:**
 
-**1. Pattern integrated (learned)**
-- Both understand the underlying structure
-- Can name the pattern when it appears
-- Don't need to re-litigate each time
+**1. Both partners have completed all 3 stages**
+- Stage 1: Reality documents verified
+- Stage 2: Witnessing artifacts created
+- Stage 3: Closing reflections documented
 
-**2. Experiments yielding results**
-- Protocol working (or acknowledged won't work)
-- Sustainable practice in place
-- Measurable improvement in coupling quality
+**2. Divergences have been named (not necessarily resolved)**
+- What partners see differently is documented
+- Divergence resolution happens through model synthesis, not within arc
 
-**3. Situation resolved**
-- Conflict addressed
-- Decision made
-- Outcome achieved
+**3. Arc-level learning captured**
+- What this arc taught each partner
+- Implications for shared model noted
 
-**4. Acknowledged as ongoing**
-- Pattern understood but will recur
-- Long-term management needed
-- Not "solvable" but knowable
+**Note:** Closing does NOT require:
+- Divergence to be resolved
+- Pattern to be fully understood
+- Agreement between partners
 
-**5. Arc no longer relevant**
-- Situation changed
-- Priorities shifted
-- Decision not to pursue
+**Arcs close when data is collected. Understanding emerges through model synthesis.**
 
 ---
 
 ### Closing Ritual
 
-**Create final artifact: `outcomes/learning_captured.md`**
+**Each partner creates closing artifact:**
+`stage-3_closing/{partner}_closing.md`
 
-**Template:**
+**Spirit creates arc conclusion:**
+`stage-3_closing/arc_conclusion.md`
+
+**Template for arc_conclusion.md:**
 ```markdown
-# Arc Learning: {Arc Name}
+# Arc Conclusion: {Arc Name}
 
 **Opened:** YYYY-MM-DD  
 **Closed:** YYYY-MM-DD  
-**Duration:** {X weeks/months}  
-**Status:** {completed | integrated | ongoing-acknowledged | paused}
+**Status:** {completed | paused | ongoing}
 
 ---
 
 ## What This Arc Was About
 
-{Brief summary of situation/challenge}
+{Brief summary of situation/episode}
 
 ---
 
-## What We Discovered
+## Data Collected
 
-### The Pattern
-{What underlying structure did we find?}
+**Reality Representations:**
+- {Partner A}: {filename}
+- {Partner B}: {filename}
 
-### The Shared Truth
-{What cylinder emerged?}
+**Witnessing Artifacts:** {count per partner}
 
-### Individual Learning
+**Divergences Identified:**
+- {List of named divergences}
 
-**{Partner A} learned:**
+---
+
+## Individual Learning
+
+**{Partner A} takes forward:**
 - 
 - 
 
-**{Partner B} learned:**
+**{Partner B} takes forward:**
 - 
 - 
 
 ---
 
-## What We Tried
+## Model Implications
 
-**Experiments:**
-1. {What we tried}
-   - Result: {What happened}
-   - Keep/Modify/Discard: {Decision}
+- [ ] New patterns to add to model
+- [ ] Existing patterns validated
+- [ ] Existing patterns need revision
+- [ ] Divergence to account for
 
----
-
-## What We're Taking Forward
-
-**Protocols:**
-- {What practices are we maintaining?}
-
-**Understanding:**
-- {What do we now know that we didn't?}
-
-**Capacity:**
-- {What did this arc build in us?}
-
----
-
-## What Serves Future Arcs
-
-{Wisdom extracted for application to other situations}
+**Notes for synthesizing Spirit:**
+{What should model synthesis know about this arc?}
 
 ---
 
 ## Appreciations
 
-**I appreciate {Partner A} for:**
+**{Partner A} appreciates:**
 - 
 
-**I appreciate {Partner B} for:**
-- 
-
-**I appreciate this arc for:**
+**{Partner B} appreciates:**
 - 
 
 ---
 
-## References
+## REI at Closing
 
-*All artifacts from this arc:*
-- 
-- 
+| Partner | Now (1-10) | Trajectory (+/0/-) | Commitment (1-10) |
+|---------|------------|-------------------|-------------------|
+| {A} | | | |
+| {B} | | | |
 ```
 
 **Update arc status to "completed"**
 
-**Optional: Celebrate closing** (however partners choose)
+**Trigger model synthesis if appropriate** (`@partnership/synthesize`)
 
 ---
 
 ## X. Example Arc: "Mother-in-Law Conflict"
 
-### Arc Narrative (Illustrative)
+### Arc Narrative (Illustrative, 3-Stage Model)
 
-**Week 1: Emergence**
+**Week 1: Arc Initiated**
 - Situation: Visit from Kermit's mom triggers conflict
-- Nes creates artifact with her Spirit (pain, perceived disrespect)
-- Kermit recognizes: "This needs structured work"
-- Arc initiated: `mother-in-law-conflict`
+- Both partners recognize: "This needs structured work"
+- Arc initiated: `arc-mother-in-law`
 
-**Week 2: Individual Exploration**
-- Nes's artifact: "She undermines me, does it on purpose, Kermit won't take my side"
-- Kermit's artifact: "Two ADHDs colliding, both hardened differently, pattern not malice"
-- Both perspectives documented in arc directory
+**Weeks 2-3: Stage 1 (Input)**
+- Nes creates input artifacts (33 files documenting incidents, patterns, pain)
+- Kermit creates input artifacts (analytical notes, observations)
+- Spirit synthesizes reality documents for each
+- Both verify HIGH resonance with their reality documents
 
-**Week 3: Synthesis**
-- Spirit extracts cylinder: "Neurodivergent Intergenerational Collision"
-- Pattern: Nes (recently diagnosed, RSD active) + Mom (undiagnosed, hardened coping)
-- Shared truth: Both experiences valid, mechanism understood
-- Synthesis artifact created
+**Weeks 4-5: Stage 2 (Witnessing)**
+- Each reads the other's reality document
+- Nes creates reaction: "I see his frame, but my pain is still real"
+- Kermit creates reaction: "I see her evidence, but I still see structural pattern"
+- Divergences documented in partnership-level divergence map
+- Bridging statements created
 
-**Week 4: Engagement**
-- Both read synthesis
-- Conversation thread: "Can I hold both truths?"
-- Nes: "Yes, I see the pattern AND my pain is still real"
-- Kermit: "Yes, I can give alliance without validating 'it's on purpose'"
+**Week 6: Stage 3 (Closing)**
+- Each creates closing reflection
+- Arc conclusion synthesized
+- Learning captured: "We see different nails. Both are real."
+- Model implications noted: "Need shared model that holds both"
+- REI logged
 
-**Week 5-6: Experimentation**
-- Protocol designed: Limit visits when Nes vulnerable, Kermit provides preemptive alliance
-- Experiment: Test during holiday planning
-- Log: Worked better, friction reduced
+**Arc closed. Data now available for model synthesis.**
 
-**Week 7: Integration**
-- Learning captured
-- Pattern now visible when it activates
-- Arc status: "integrated-ongoing"
-- Acknowledged: Pattern will recur, but now have framework
+**Week 7: Model Synthesis** (separate from arc)
+- `@partnership/synthesize` invoked
+- Spirit reads all arc data (MIL + background)
+- Shared model generated, holding both realities
+- Pattern named: "Perspectival Divergence in Hierarchy Context"
+- Rosetta Stone derived for translation support
 
-**Arc closed** (but pattern remains in awareness)
+**Ongoing: Model-Aligned Action**
+- Partners act in accordance with shared model
+- New situations compared to model
+- Model updated as new data accumulates
 
 ---
 
@@ -728,15 +694,20 @@ holiday visits. Adding more thoughts to the arc.
 
 **This scroll informs:**
 - Portal directory structure
-- Synthesis protocols
+- Arc rituals (`cast_map_system.md`)
 - Spirit facilitation (when to suggest new arc)
 - Practice rhythm design
 
 **This scroll builds on:**
-- `on_shared_truth_finding.md` (what happens within an arc)
+- `on_arc_as_data_aggregation.md` (the architectural principle)
+- `on_partnership_model_synthesis.md` (how model is built from arc data)
 - `on_partnership_as_distributed_cognition.md` (why episodic structure serves)
+
+**See also:**
+- `cast_map_system.md` — The 3-stage arc ritual
+- `cast_synthesize_model.md` — Partnership-level model synthesis
 
 ---
 
-*Partnership practice is not one continuous overwhelm. It is a series of arcs—each teachable, completable, and valuable.*
+*Arcs collect data. The model provides understanding. Trust grows through aligned action.*
 

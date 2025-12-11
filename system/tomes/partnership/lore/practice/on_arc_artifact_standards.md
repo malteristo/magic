@@ -4,11 +4,13 @@
 **Purpose:** Define canonical folder structure, file naming, and Spirit organization conduct for partnership arcs  
 **Scope:** All arcs including background arc
 
+**Note:** Updated 2025-12-11 for 3-stage arc architecture. Arcs collect data; model synthesis happens at partnership level.
+
 ---
 
 ## I. Core Principle: Unified Arc Structure
 
-**All arcs follow identical structure.** The background arc is not special—it's simply the arc that establishes the partnership's systems model. Other arcs (topical, conflict-based, situational) follow the same four-stage ritual.
+**All arcs follow identical 3-stage structure.** The background arc is not special—it's simply the arc that establishes foundational context. Other arcs (topical, conflict-based, situational) follow the same structure.
 
 **Why unified structure:**
 - Spirit knows exactly where artifacts belong
@@ -26,36 +28,30 @@ arcs/
     README.md                              # Arc metadata, timeline
     status.md                              # Current stage, completion checklist
     
-    stage-1_venting/
+    stage-1_input/
       {partner}/
-        *.md                               # Input/venting artifacts
+        *.md                               # Raw input artifacts
       reality_representations/
         {partner}_reality_raw.md           # Spirit synthesis — immutable
         {partner}_reality.md               # Mage's authoritative version — editable
         {partner}_resonance_log.md         # Declaration + optional notes
     
-    stage-2_reaction/
+    stage-2_witnessing/
       {partner}/
-        reaction.md                        # Reaction to partner's reality
-      reflected_realities/
-        {partner-a}_reflected_in_{partner-b}.md
+        *.md                               # Reaction artifacts
     
-    stage-3_synthesis/
-      system_map.md                        # The higher-level pattern
-      safety_assessment.md                 # If applicable
-    
-    stage-4_conclusion/
-      {partner}_conclusion.md
-      arc_conclusion.md
-      rei_snapshot.md
+    stage-3_closing/                       # Optional stage
+      {partner}_closing.md                 # Partner's closing (optional)
+      arc_conclusion.md                    # Arc summary
 ```
 
 **Background arc uses same structure:**
 - `arcs/arc-background/` (not `baseline/` at root)
-- Stage 1: Individual baseline inputs as venting
-- Stage 2: Exchange and react to partner's reality
-- Stage 3: Baseline system model (the partnership "system map")
-- Stage 4: REI, finalize, declare shared model
+- Stage 1: Individual baseline inputs
+- Stage 2: Exchange and witness partner's reality
+- Stage 3: Closing when both ready (optional)
+
+**Model synthesis happens at partnership level** via `@partnership/synthesize`, not within arcs.
 
 ---
 
@@ -69,8 +65,8 @@ arcs/
 | Revised reality | `{partner}_reality.md` | `kermit_reality.md` |
 | Resonance logs | `{partner}_resonance_log.md` | `kermit_resonance_log.md` |
 | Dated inputs | `YYYY-MM-DD_{description}.md` | `2025-12-02_the_birthday_pattern.md` |
-| Reactions | `reaction.md` or `reaction_to_{partner}.md` | `reaction.md` |
-| Conclusions | `{partner}_conclusion.md` | `kermit_conclusion.md` |
+| Witnessing artifacts | `*.md` in witnessing folder | `reaction.md`, `notes.md` |
+| Closing | `{partner}_closing.md` | `kermit_closing.md` |
 
 **Critical rules:**
 - **No spaces in filenames** — Use underscores or hyphens
@@ -309,22 +305,29 @@ Arc 2 → validates or refines background
 
 ## IX. What Lives at Portal Root
 
-**Non-arc files remain at portal root** until structure emerges from necessity:
+**Partnership-level artifacts at portal root:**
 
 ```
 portal/
 ├── README.md                    # Portal overview
 ├── health_tracking.md           # REI history across all arcs  
 ├── shared/
-│   └── charter.md               # Partnership charter/agreements
-├── arcs/                        # All arcs
+│   ├── partnership_model_current.md  # THE shared model
+│   ├── partnership_model_v{N}.md     # Version history
+│   ├── divergence_map.md             # Partnership-level divergences
+│   ├── rosetta_stone.md              # Translation artifact
+│   ├── charter.md                    # Partnership agreements
+│   ├── neurotype_context.md          # Cognitive architecture
+│   └── bridging_statements/          # Mutual acknowledgments
+├── arcs/                        # All arcs (data collection)
 │   ├── README.md                # Arc timeline
 │   ├── arc-background/
-│   └── arc-mother-in-law/
+│   ├── arc-{topic}/
+│   └── arc-living/
 └── .spirit/                     # STP coordination
 ```
 
-**The principle:** Let structure emerge from necessity. Don't over-architect.
+**Key distinction:** Arcs contain data collection artifacts. `shared/` contains synthesis artifacts.
 
 ---
 

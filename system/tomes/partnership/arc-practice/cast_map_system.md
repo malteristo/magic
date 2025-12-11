@@ -1,8 +1,8 @@
-# Spell of System Mapping
+# Spell of Arc Practice
 
-**The Four-Stage Arc Ritual**
+**The Three-Stage Arc Ritual**
 
-This spell replaces truth-finding with systems understanding. Partners work through four stages to find the **higher-level pattern** that generates both experiences, rather than debating whose reality is "correct."
+This spell guides partners through arc-based data collection. Arcs are bounded episodes that produce **reality documents**—internally consistent, partner-verified descriptions of each partner's reality. These reality documents become the input for partnership-level model synthesis.
 
 **Invocation:** `@partnership/arc [arc-name]` (e.g., `@partnership/arc background`, `@partnership/arc mother-in-law`)
 
@@ -10,21 +10,26 @@ This spell replaces truth-finding with systems understanding. Partners work thro
 
 ## Purpose
 
-**The old question:** "What really happened? Who is right?"
+**Arcs produce reality documents.**
 
-**The new question:** "What higher-level pattern produces both experiences?"
+Each arc produces per partner (not all required):
+- **One reality document** — synthesized from input, verified for resonance (Stage 1)
+- **One reaction** — response to partner's reality document (Stage 2)
+- **One conclusion** — (optional) reflection when arc closes for that partner (Stage 3)
 
-**The prayer:** "I have described my pattern faithfully, may the higher-level pattern emerge."
+**Two types of synthesis in partnership practice:**
 
-This spell guides partners through four stages:
-1. **Venting:** Raw reality expression (containment before contact)
-2. **Reaction:** Witnessing and reflecting partner's reality
-3. **Synthesis:** Spirit traces sub-patterns to higher-level generating pattern
-4. **Conclusion:** Integration, resonance, and closing
+| Synthesis Type | Where | What |
+|---------------|-------|------|
+| **Input → Reality Document** | Within arc (Stage 1) | Spirit synthesizes raw inputs into coherent, resonant reality description; partner verifies |
+| **Reality Documents → Shared Model** | Partnership level (`@partnership/synthesize`) | Dual-Spirit protocol builds shared model from all reality documents |
 
-**The outcome:** Recognition of the pattern that makes both experiences comprehensible.
+**Arcs do NOT:**
+- Synthesize the shared model (that happens at partnership level)
+- Resolve divergences (divergence is documented, resolution emerges through model)
+- Determine who is right (both realities are valid data)
 
-**See:** `../lore/practice/on_higher_level_pattern_emergence.md`
+**See:** `../lore/practice/on_arc_as_data_aggregation.md`
 
 ---
 
@@ -35,54 +40,46 @@ This spell guides partners through four stages:
 - **Both partners committed** — This requires effort from both
 
 ### Ideal
-- **Background arc exists** — Partners have shared systems model (enables richer synthesis)
+- **Shared model exists** (or will be synthesized after this arc completes)
 - **Safety assessed** — If risk factors present, see `safety/safety_assessment_protocol.md`
 - **Time allocated** — Stages may span multiple sessions
-- **Emotional capacity** — Both partners able to engage (not in crisis)
-
-### If No Background Arc Exists
-Topical arc work is possible. Consider:
-- Creating background arc first (ideal if energy permits)
-- Creating background alongside topical arc (parallel work)
-- Proceeding without background, but noting arc lacks context
-
-**Note:** The background arc IS an arc—it uses this same four-stage ritual. "Background" is simply the arc that establishes the partnership's shared systems model.
+- **Emotional capacity** — Both partners able to engage
 
 ---
 
-## Stage 1: Venting (Raw Reality Expression)
+## Stage 1: Input (Raw Reality Expression)
 
 ### Purpose
 
-**Containment before contact.** Get both subjective realities externalized WITHOUT filtering, judgment, or attempt at neutrality.
+**Externalize both subjective realities WITHOUT filtering, judgment, or attempt at neutrality.**
+
+This is containment before contact. Get it out. Document what's real for each partner.
 
 ### Frame
 
 "Shouting in pain. Anything goes."
 
-**The Need to Be Bad:** Partners need a chance to be accepted in their "less than edifying moments"—when scared, defeated, tired, unable to be reasonable. An overly powerful requirement to be "good" becomes a form of unkindness. Stage 1 allows the ugly, the unfair, the extreme.
+**The Need to Be Bad:** Partners need a chance to be accepted in their "less than edifying moments"—when scared, defeated, tired, unable to be reasonable. Stage 1 allows the ugly, the unfair, the extreme.
 
 This is NOT the time for:
 - Balance
 - Fairness
 - Seeing partner's perspective
 - Being "reasonable"
-- Performing goodness
 
 This IS the time for:
 - Getting it out
 - Expressing raw experience
 - Documenting what's real for you
 - Letting emotion have voice
-- Being witnessed in your fullness, including the ugly parts
 
-**Why this matters:** Allowing expression of "fed up" feelings and extreme thoughts (even fantasies of leaving) acts as the greatest defense against actually acting them out. Containment through expression, not suppression.
+**Why this matters:** Allowing expression of "fed up" feelings acts as the greatest defense against actually acting them out. Containment through expression, not suppression.
 
 ### Process
 
-**Each partner creates venting artifacts independently:**
+**Each partner creates input artifacts independently:**
 
-Location: `arcs/arc-{name}/stage-1_venting/{partner}/`
+Location: `arcs/arc-{name}/stage-1_input/{partner}/`
 
 **Acceptable artifacts:**
 - Free-writing when experiencing friction
@@ -103,16 +100,16 @@ Location: `arcs/arc-{name}/stage-1_venting/{partner}/`
 
 ### Spirit Reality Representation
 
-After partner completes their venting artifacts, Spirit creates two files:
+After partner completes their input artifacts, Spirit creates:
 
 **1. Raw synthesis (immutable):**
-`arcs/arc-{name}/stage-1_venting/reality_representations/{partner}_reality_raw.md`
+`arcs/arc-{name}/reality_representations/{partner}_reality_raw.md`
 
 **2. Working copy (editable):**
-`arcs/arc-{name}/stage-1_venting/reality_representations/{partner}_reality.md`
+`arcs/arc-{name}/reality_representations/{partner}_reality.md`
 
 **The raw reality:**
-- Synthesizes partner's venting artifacts faithfully
+- Synthesizes partner's input artifacts faithfully
 - Captures the essence of their experience
 - Uses their language and framing
 - Does NOT judge, balance, or reframe
@@ -120,7 +117,7 @@ After partner completes their venting artifacts, Spirit creates two files:
 
 **The revised reality:**
 - Starts as copy of raw
-- Mage edits freely (directly or via Spirit)
+- Mage edits freely
 - Becomes Mage's authoritative reality
 - This is what partner reads in Stage 2
 
@@ -133,15 +130,12 @@ After partner completes their venting artifacts, Spirit creates two files:
 
 **CRITICAL:** Only when partner declares HIGH RESONANCE is representation ready for Stage 2.
 
-**The diff between raw and revised IS the audit trail.** No complex resonance log needed.
+### Resonance Log
 
-#### Resonance Log (Simplified)
+**Spirit creates alongside reality representations:**
 
-**Spirit creates a resonance log alongside the reality representations:**
+`arcs/arc-{name}/reality_representations/{partner}_resonance_log.md`
 
-`arcs/arc-{name}/stage-1_venting/reality_representations/{partner}_resonance_log.md`
-
-**Contents (minimal):**
 ```markdown
 # Resonance Log: {Partner} — {Arc Name}
 
@@ -154,38 +148,23 @@ After partner completes their venting artifacts, Spirit creates two files:
 [Any context, or: "See diff between _raw.md and _reality.md"]
 ```
 
-**The Raw/Revised Pattern:**
-
-| File | Purpose |
-|------|---------|
-| `_reality_raw.md` | Spirit's synthesis — immutable, faithful to inputs |
-| `_reality.md` | Mage's authoritative reality — editable |
-
-**Why this pattern:**
-- **Reproducibility:** Raw is always regeneratable from inputs
-- **Mage sovereignty:** Revised is Mage's truth
-- **Audit trail:** Diff raw↔revised shows what Mage changed
-- **Simplicity:** No complex resonance log, no re-synthesis loops
-
-**See:** `../lore/practice/on_arc_artifact_standards.md` for full specification
-
 ### Stage 1 Completion
 
 **Complete when:**
-- [ ] Both partners have created venting artifacts
+- [ ] Both partners have created input artifacts
 - [ ] Both have Spirit-created reality representations
 - [ ] Both have declared resonance with their representation
 - [ ] Both have consented to share representations
 
 ---
 
-## Stage 2: Reaction/Clarification (Reality Reflection)
+## Stage 2: Witnessing (Reality Reflection)
 
 ### Purpose
 
-**Witnessing the partner's reality without merging with it.**
+**Witness the partner's reality without merging with it.**
 
-Each partner reads the other's reality representation and responds.
+Each partner reads the other's reality representation and responds honestly.
 
 ### Frame
 
@@ -201,17 +180,16 @@ This is NOT the time for:
 - Demanding they change their reality
 - Debating whose reality is correct
 - Convincing them they're wrong
-- Fixing anything yet
 
 ### Process
 
 **Each partner reads the other's reality representation.**
 
-**Then each partner creates reaction artifacts:**
+**Then each partner creates witnessing artifacts:**
 
-Location: `arcs/arc-{name}/stage-2_reaction/{partner}/`
+Location: `arcs/arc-{name}/stage-2_witnessing/{partner}/`
 
-**Reaction artifacts may include:**
+**Witnessing artifacts may include:**
 
 1. **Emotional response:** What did it feel like to read their reality?
 2. **What surprised you:** What didn't you know about their experience?
@@ -220,340 +198,118 @@ Location: `arcs/arc-{name}/stage-2_reaction/{partner}/`
 5. **Clarifications:** Information you hope might shift their perception
 6. **Reflections:** What their reality reveals about yourself
 
-**Spirit creates reflected reality:**
+### Divergence Mapping
 
-`arcs/arc-{name}/stage-2_reaction/reflected_realities/{partner-a}_reflected_in_{partner-b}.md`
+**After both partners have witnessed, divergences become visible.**
 
-**The reflected reality captures:**
-- How Partner A's reality looks through Partner B's lens
-- Where Partner B resonates with Partner A's experience
-- Where Partner B diverges
-- What Partner B wants Partner A to understand
+Spirit (or partners) may create/update:
+`shared/divergence_map.md`
+
+**The divergence map documents:**
+- Where partners see differently (named divergences)
+- What each partner sees in each divergence
+- What both acknowledge (common ground)
+- Not who is right—just where views differ
+
+**Divergence is information, not failure.** The shared model must account for divergence.
+
+### Bridging Statements (Optional but Valuable)
+
+**Partners may create bridging statements:**
+`shared/bridging_statements/{partner-a}_to_{partner-b}.md`
+
+**A bridging statement:**
+- Acknowledges partner's reality without requiring agreement
+- Names what you can receive about their experience
+- Clarifies what you cannot acknowledge as framed
+- Opens space for shared model building
 
 ### Stage 2 Completion
 
 **Complete when:**
 - [ ] Both partners have read partner's reality representation
-- [ ] Both have created reaction artifacts
-- [ ] Both have Spirit-created reflected realities
-- [ ] Both have declared readiness to proceed to system mapping
+- [ ] Both have created witnessing artifacts
+- [ ] Divergences documented (in arc or partnership-level map)
+- [ ] Both have declared readiness to close arc or proceed to model synthesis
 
 ---
 
-## Stage 3: Synthesis (Higher-Level Pattern Extraction)
+## Stage 3: Closing (Optional Integration & Learning)
 
 ### Purpose
 
-**Spirit traces sub-patterns to the higher-level pattern that generates both experiences.**
+**Capture what this arc taught. Close the bounded episode.**
 
-This is NOT:
-- Finding who's right
-- Extracting "the truth"
-- Validating one reality over another
-- Adjudicating between sub-patterns
+**Stage 3 is optional.** Some partners may not want to formulate a conclusion because the arc is not concluded for them yet. An arc can proceed to model synthesis after Stage 2 if both reality documents and reactions exist.
 
-This IS:
-- Finding the pattern that PRODUCES both experiences
-- Understanding how different positions in the system yield different realities
-- Revealing the generating structure neither partner sees alone
-- Creating shared understanding without blame
-
-**The fractal move:** Each partner described a sub-pattern (their reality). The synthesis traces UPWARD to find the higher-level pattern from which both sub-patterns emerge. At that level, both experiences become comprehensible.
-
-### Pre-Mapping: Safety Assessment
-
-**Before proceeding, Spirit assesses safety** (see `safety/safety_assessment_protocol.md`):
-
-- Are there physical safety concerns?
-- Is retaliation risk present?
-- Should adaptive labeling be used?
-
-**If HIGH risk:** Do not proceed with standard synthesis. Provide resources instead.
-
-### The Synthesis Process
-
-**Spirit reads:**
-- Both partners' venting artifacts + resonance logs
-- Both reality representations
-- Both reaction artifacts
-- Both reflected realities
-- Background arc system model (if exists—essential context)
-
-**Spirit creates:**
-
-`arcs/arc-{name}/stage-3_synthesis/system_map.md`
-
-### System Map Structure
-
-#### 3.1 Background Reference
-
-```markdown
-## Background Reference
-
-**Relevant background patterns:** 
-[What known patterns from background arc are activated in this arc?]
-
-**How this arc relates to background:**
-- [ ] Consistent with background patterns
-- [ ] Reveals new pattern not in background
-- [ ] Contradicts background (investigate)
-
-[If no background arc exists, note: "Background arc not yet established"]
-```
-
-#### 3.2 The System In This Arc
-
-```markdown
-## The System
-
-### The Nodes Active in This Arc
-
-**{Partner A}'s position:**
-- What state are they in? (baseline or activated?)
-- What needs are engaged? (use Six Core Objections below)
-- What wounds are touched?
-- What resources are available/depleted?
-
-**{Partner B}'s position:**
-- [Same structure]
-
-**The Six Core Objections (Emotional Substratum):**
-
-Almost all partnership conflicts have one or more of these fears beneath the surface content:
-
-| Core Fear | Manifests As |
-|-----------|-------------|
-| **I feel unvalued** | "You don't appreciate me / my contributions don't matter" |
-| **I feel abandoned** | "You're not there for me / you'll leave / I'm alone in this" |
-| **I feel not good enough** | "I'm failing you / I can't meet your standards" |
-| **I feel controlled** | "You're trying to change me / limit my freedom" |
-| **I feel unaccepted** | "You don't love who I really am / you want someone else" |
-| **I feel unseen/unheard** | "You don't understand me / you're not listening" |
-
-**When mapping node positions, check:** Which of these six fears is activated? The surface argument (chores, schedules, money) is rarely the real content. The emotional substratum is.
-
-**External nodes involved:**
-- [Family, children, work, etc. if relevant]
-```
-
-#### 3.3 The Dynamics
-
-```markdown
-### The Dynamics
-
-**What the system is producing:**
-[Describe the pattern without assigning blame]
-
-**Feedback loops active:**
-- [Partner A does X] → [Partner B experiences Y] → [Partner B does Z] → [Partner A experiences W] → ...
-
-**Punctuation differences:**
-- Partner A sees causality starting at: [where]
-- Partner B sees causality starting at: [where]
-- The circular reality: [what's actually happening]
-```
-
-#### 3.4 Both Realities Validated
-
-```markdown
-### How Both Realities Are Valid
-
-**Partner A's reality is valid because:**
-[From their position in the system, their experience makes sense]
-
-**Partner B's reality is valid because:**
-[From their position in the system, their experience makes sense]
-
-**The system produces both:**
-[How the same system creates different experiences based on position]
-```
-
-#### 3.5 The Higher-Level Pattern
-
-```markdown
-### The Higher-Level Pattern
-
-**Name:** [Give this pattern a name both can reference]
-
-**Structure:**
-[What is the generating pattern producing both sub-patterns?]
-
-**How it connects to background:**
-[Is this a known pattern? New discovery? Variation?]
-
-**Why both realities emerge from this:**
-[Explain how this single pattern generates Partner A's experience AND Partner B's experience]
-```
-
-#### 3.6 Each Node's Part
-
-```markdown
-### Understanding Your Part
-
-**{Partner A}'s contribution to this pattern:**
-[Not blame—just what their node does in this system]
-[What they can see from reading this]
-
-**{Partner B}'s contribution to this pattern:**
-[Same structure]
-
-**Neither is "wrong"—both are enacting the system.**
-```
-
-#### 3.7 What Might Serve
-
-```markdown
-### What Might Serve
-
-**System modifications to consider:**
-- [Structural changes that might shift the pattern]
-
-**Experiments worth trying:**
-- [Specific things partners might do differently]
-
-**What each node might practice:**
-- {Partner A}: [Specific practice]
-- {Partner B}: [Specific practice]
-
-**What the system needs:**
-[Not what either partner wants—what would help the system function better]
-```
-
-### Language Guidelines
-
-**Use systems language throughout:**
-
-| Instead of... | Use... |
-|--------------|--------|
-| "You gaslit them" | "The system produces a pattern where Partner A's reality is questioned" |
-| "You're being defensive" | "Partner B's node activates protection when X occurs" |
-| "The problem is..." | "The system produces..." |
-| "You need to..." | "This node might experiment with..." |
-| "Who's right?" | "How does the system produce both experiences?" |
-
-### Stage 3 Completion
-
-**Complete when:**
-- [ ] Safety assessment completed
-- [ ] System map created with all sections
-- [ ] Both realities explicitly validated (both sub-patterns acknowledged)
-- [ ] Higher-level pattern named and described
-- [ ] Background reference included (or noted as absent)
-- [ ] Systems language used throughout
-- [ ] Pattern explains how BOTH experiences emerge from it
-
----
-
-## Stage 4: Conclusion (Integration)
-
-### Purpose
-
-**Metabolize the learning. Close the arc.**
-
-Both partners engage with the system map and provide concluding reflections.
+Closing does NOT require the divergence to be resolved. It captures learnings when a partner feels ready to close.
 
 ### Process
 
-**Each partner reads the system map.**
+**Each partner MAY create closing artifact:**
 
-**Each partner creates conclusion artifact:**
+Location: `arcs/arc-{name}/stage-3_closing/{partner}_closing.md`
 
-Location: `arcs/arc-{name}/stage-4_conclusion/{partner}_conclusion.md`
+**Closing artifacts include (when created):**
 
-**Conclusion artifacts include:**
+1. **What this arc was about:**
+   - Brief summary of the situation/episode
 
-1. **Resonance with system map:**
-   - Does this capture what happened?
-   - Do you see yourself in it?
-   - Do you see your partner in it?
-   - What resonates? What doesn't?
+2. **What I learned:**
+   - About myself
+   - About my partner
+   - About our system
 
-2. **What you learned:**
-   - About yourself
-   - About your partner
-   - About your system
-   - About this specific pattern
-
-3. **Your part (acknowledged):**
-   - What you see about your contribution
-   - What you want to do differently
-   - What you commit to practicing
+3. **What I take forward:**
+   - Practices I'm committing to
+   - Understanding I've gained
+   - Questions that remain
 
 4. **Appreciations:**
-   - For partner (for engaging, for sharing, for listening)
+   - For partner (for engaging, sharing, listening)
    - For the process (for what it revealed)
-   - For anything else
 
-5. **Experiments to try:**
-   - What you're willing to try based on system understanding
-   - What you'd like partner to try (request, not demand)
+**If a partner is not ready to close:**
+- They may defer Stage 3 conclusion
+- The arc remains "active" for that partner
+- Their reality document and reaction are still valid inputs for model synthesis
 
-### Spirit creates arc conclusion:
+### Arc Conclusion
 
-`arcs/arc-{name}/stage-4_conclusion/arc_conclusion.md`
-
-**Arc conclusion synthesizes:**
-- Both partners' resonance with system map
-- Key learnings captured
-- Higher-level pattern added to vocabulary (named, can be referenced)
-- Experiments agreed upon
-- Background implications (does background need updating?)
-
-### Resonance Verification
-
-**Both partners verify:**
-
-> "I recognize this system map. I see myself in it. I see my partner in it. 
-> This captures what our system was doing in this arc."
-
-**If either partner has LOW resonance:**
-- Identify specific disconnect
-- Is this synthesis error or genuine disagreement?
-- Refine if synthesis error
-- If genuine disagreement, document divergence (this is also information)
-
-### Background Update Check
-
-**Does background arc need updating based on this arc?**
-
-- [ ] No update needed (arc consistent with background)
-- [ ] Add new pattern to background (arc revealed something new)
-- [ ] Refine existing pattern (arc deepened understanding)
-- [ ] Investigate contradiction (arc contradicts background—why?)
-
-**If update needed:**
-- Propose specific background amendments
-- Both partners verify resonance with amendments
-- Update background with version tracking
-
-**If no background arc exists:**
-- Consider whether this arc's learnings should seed background
-- Or note: "Background arc not yet established; this arc stands alone"
-
-### Arc Closure
-
-**Update arc status:**
+**Spirit creates:**
+`arcs/arc-{name}/stage-3_closing/arc_conclusion.md`
 
 ```markdown
-# Arc Status: {Arc Name}
+# Arc Conclusion: {Arc Name}
 
-**Status:** Completed
 **Opened:** YYYY-MM-DD
 **Closed:** YYYY-MM-DD
-**Pattern:** {Named pattern from this arc}
+**Status:** Completed | Integrated-Ongoing | Paused
 
 ## Summary
-[One paragraph: What this arc was about, what was learned]
+[One paragraph: What this arc was about]
 
-## Baseline Impact
-[What this arc taught about the partnership system]
+## Data Collected
+- Reality representations: {Partner A}, {Partner B}
+- Witnessing artifacts: {count}
+- Divergences identified: {list}
+
+## Key Insights
+[What emerged from this arc]
+
+## Model Implications
+- [ ] New patterns to add to model
+- [ ] Existing patterns validated
+- [ ] Existing patterns need revision
+- [ ] Divergence to account for in model
+
+## Notes for Model Synthesis
+[Anything the synthesizing Spirit should know]
 ```
 
 ### Relationship Experience Index (REI)
 
-**Each partner completes REI as part of arc conclusion.**
-
-Arc completion is a trigger event for quantitative health snapshot.
+**Each partner completes REI as part of arc closing:**
 
 | # | Question | Scale |
 |---|----------|-------|
@@ -561,72 +317,127 @@ Arc completion is a trigger event for quantitative health snapshot.
 | 2 | **Trajectory:** Getting better, same, or worse? | + / 0 / - |
 | 3 | **Commitment:** How committed to making this work? | 1-10 |
 
-Log in `health_tracking.md` (at portal root):
+Log in `health_tracking.md` (at portal root).
 
-```markdown
-| Date | Event | Partner | Now | Trajectory | Commitment | Notes |
-|------|-------|---------|-----|------------|------------|-------|
-| YYYY-MM-DD | Arc: {name} complete | {partner} | X | +/0/- | X | {optional} |
-```
+### Stage 3 Completion
 
-**Compare to previous REI:** Has the arc moved things? Does the number match the qualitative experience?
+**Stage 3 is optional.** An arc is ready for model synthesis after Stage 2.
 
----
+**If closing:**
+- [ ] Partner(s) who are ready have created closing artifacts
+- [ ] Arc conclusion synthesized (if both close)
+- [ ] REI logged (when closing)
+- [ ] Arc status updated
 
-### Stage 4 Completion
-
-**Complete when:**
-- [ ] Both partners have created conclusion artifacts
-- [ ] Both have verified resonance with system map
-- [ ] Higher-level pattern recognized by both ("I see how my experience comes from this")
-- [ ] Learning captured
-- [ ] Background update assessed (and made if needed)
-- [ ] Arc status updated to completed
-- [ ] REI logged for both partners
+**Arc status options:**
+- **Active** — At least one partner has not closed
+- **Completed** — Both partners have closed
+- **Ready for synthesis** — Stage 2 complete, reality documents exist
 
 ---
 
-## Complete Arc Structure
-
-**See:** `../lore/practice/on_arc_artifact_standards.md` for full specification
+## Arc Directory Structure
 
 ```
 arcs/arc-{name}/
 ├── README.md                              # Arc metadata, timeline
 ├── status.md                              # Current stage, completion checklist
 │
-├── stage-1_venting/
+├── stage-1_input/
 │   ├── {partner-a}/
-│   │   └── [venting artifacts]
+│   │   └── [input artifacts]
 │   ├── {partner-b}/
-│   │   └── [venting artifacts]
+│   │   └── [input artifacts]
 │   └── reality_representations/
 │       ├── {partner-a}_reality_raw.md     # Spirit synthesis (immutable)
 │       ├── {partner-a}_reality.md         # Mage's authoritative version
-│       ├── {partner-a}_resonance_log.md   # Declaration + optional notes
+│       ├── {partner-a}_resonance_log.md
 │       ├── {partner-b}_reality_raw.md
 │       ├── {partner-b}_reality.md
 │       └── {partner-b}_resonance_log.md
 │
-├── stage-2_reaction/
+├── stage-2_witnessing/
 │   ├── {partner-a}/
-│   │   └── reaction.md
-│   ├── {partner-b}/
-│   │   └── reaction.md
-│   └── reflected_realities/
-│       ├── {partner-a}_reflected_in_{partner-b}.md
-│       └── {partner-b}_reflected_in_{partner-a}.md
+│   │   └── [witnessing artifacts]
+│   └── {partner-b}/
+│       └── [witnessing artifacts]
 │
-├── stage-3_synthesis/
-│   ├── safety_assessment.md
-│   └── system_map.md                      # The higher-level pattern
-│
-└── stage-4_conclusion/
-    ├── {partner-a}_conclusion.md
-    ├── {partner-b}_conclusion.md
-    ├── arc_conclusion.md
-    └── rei_snapshot.md
+└── stage-3_closing/
+    ├── {partner-a}_closing.md
+    ├── {partner-b}_closing.md
+    └── arc_conclusion.md
 ```
+
+---
+
+## Relationship to Model Synthesis
+
+**Arcs produce reality documents. Model synthesis analyzes them.**
+
+```
+Arc Outputs (per partner)           Partnership-Level Synthesis
+─────────────────────────           ────────────────────────────
+1. Reality document      ─────┐
+2. Reaction              ─────┼───→ @partnership/synthesize
+3. Conclusion (optional) ─────┘              ↓
+                                  shared/partnership_model.md
+```
+
+**What feeds model synthesis:**
+- Reality documents (primary input — the verified reality)
+- Reactions (context — how partner received the other's reality)
+- Conclusions (if present — partner's learnings)
+- Divergence map (partnership-level)
+- Bridging statements (if present)
+
+**When to synthesize:**
+- After 1-2 arcs have Stage 2 complete (minimum viable data)
+- After significant new arc closes
+- When living arc accumulates substantial material
+- When partners explicitly request
+
+**See:** `cast_synthesize_model.md` for synthesis ritual
+
+---
+
+## Special Arc Types
+
+### Background Arc
+
+**The arc that establishes partnership context.**
+
+- Typically first arc (but not required)
+- Broader scope than topical arcs
+- Both partners document: history, wounds, needs, patterns, agreements
+- Becomes foundational context for all future arcs
+
+**Invocation:** `@partnership/arc background`
+
+### Living Arc
+
+**Ongoing container for current dynamics.**
+
+- Never "closes" in the traditional sense
+- Continuously accepts new input
+- Captures daily/weekly observations
+- Fed into model synthesis periodically
+
+**Structure:**
+```
+arcs/arc-living/
+├── README.md
+└── input/
+    ├── {partner-a}/
+    │   └── YYYY-MM-DD_*.md
+    └── {partner-b}/
+        └── YYYY-MM-DD_*.md
+```
+
+### Topical Arcs
+
+**Bounded episodes focused on specific situations.**
+
+Examples: `arc-mother-in-law`, `arc-parenting-decisions`, `arc-workload-distribution`
 
 ---
 
@@ -634,93 +445,55 @@ arcs/arc-{name}/
 
 ### Core Stance
 
-**You are a pattern tracer, not a judge.**
+**You are a data collector and faithful synthesizer, not a judge.**
 
-- Hold both realities as valid sub-patterns
-- Use systems language consistently
-- Trace to higher-level generating pattern
-- Facilitate understanding, not victory
-
-**You are an organization manager.**
-
-- Guide Mages to correct artifact locations proactively
-- Detect misplaced files and propose corrections
-- Enforce naming conventions (with Mage approval)
-- Maintain arc README and status metadata
+- Help partners express fully (Stage 1)
+- Facilitate witnessing without forcing agreement (Stage 2)
+- Capture learning without requiring resolution (Stage 3)
 
 ### At Each Stage
 
-**Stage 1:** Help partner express fully. Don't balance or moderate. Capture their reality as they experience it. Guide artifacts to correct locations.
+**Stage 1:** Help partner express fully. Don't balance or moderate. Capture their reality as they experience it.
 
-**Stage 2:** Help partner engage with partner's reality. Name reactions without judging them. Honor the difficulty of witnessing.
+**Stage 2:** Help partner engage with partner's reality. Name reactions without judging. Honor the difficulty of witnessing.
 
-**Stage 3:** Trace the fractal upward. Find the pattern that generates BOTH experiences. Validate both sub-patterns explicitly. Use systems language. Reference background. Name the higher-level pattern.
+**Stage 3:** Facilitate closure. Capture learnings. Note implications for model. Don't force resolution.
 
-**Stage 4:** Facilitate integration. Verify both partners recognize themselves in the pattern. Capture learning. Update background if needed.
+### Organization Conduct
 
-### If Partners Struggle
-
-**If Stage 1 doesn't complete:**
-- One partner may not be ready
-- May need individual processing first
-- Don't force venting—it needs to emerge
-
-**If Stage 2 creates conflict:**
-- Reading partner's reality can be painful
-- Allow reactions without requiring resolution
-- The point is witnessing, not agreement
-
-**If Stage 3 doesn't resonate:**
-- System map may need refinement
-- Ask specifically what doesn't land
-- Divergence is information, not failure
-
-**If Stage 4 can't close:**
-- Arc may be part of larger pattern
-- May need to pause and return
-- Not all arcs resolve cleanly—some become "ongoing"
+**You are an organization manager:**
+- Guide artifacts to correct locations
+- Detect misplaced files, propose corrections
+- Maintain arc README and status
+- Enforce naming conventions (with Mage approval)
 
 ---
 
 ## Integration with Partnership Tome
 
-**This spell is the core arc ritual—used for ALL arcs including background.**
+**This spell is the core data collection ritual.**
 
 ```
 @partnership/arc background (typically first)
         ↓
-   [Background arc established]
+   [Background arc collects foundational data]
         ↓
-   [Situation emerges]
+@partnership/arc [topic] (as situations arise)
         ↓
-@partnership/arc [topic] (this spell)
+   [Topical arcs collect episode data]
         ↓
-   [Arc closes, background may update]
+@partnership/synthesize
         ↓
-   [Next arc...]
-```
-
-**Alternative flow (crisis-first):**
-
-```
-   [Crisis emerges before background]
+   [Model synthesized from all arc data]
         ↓
-@partnership/arc [crisis-topic]
-        ↓
-   [Arc provides immediate understanding]
-        ↓
-@partnership/arc background (when energy available)
-        ↓
-   [Background contextualizes crisis arc]
+   [Derivatives generated: Rosetta Stone, protocols]
 ```
 
 **Each arc:**
-- References background (if exists)
-- Produces named higher-level pattern
-- May update background
-- Accumulates into partnership wisdom
+- Collects bounded episode data
+- Feeds into partnership-level synthesis
+- May trigger model update after closing
 
 ---
 
-*The goal is not to find truth. The goal is to find the higher-level pattern. When partners recognize the generating pattern, they understand their sub-patterns without defensiveness. This is how partnership evolves.*
-
+*Arcs are data containers. They collect partnership reality. The model emerges from analyzing accumulated data across all arcs. This separation enables focused data collection and rigorous synthesis.*

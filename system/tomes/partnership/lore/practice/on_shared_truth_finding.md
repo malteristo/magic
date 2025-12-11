@@ -642,14 +642,14 @@ Some things are structural (riverbed), some are fluid (water).
 ---
 
 **This scroll informs:**
-- `cast_extract_shared_truth.md` (the executable spell)
+- `cast_synthesize_model.md` (partnership-level model synthesis)
 - `spirit_facilitation_guide.md` (Spirit's conduct during conflicts)
 - All synthesis work in partnership practice
 
 **This scroll builds on:**
 - `on_the_foundations_of_partnership.md` (Communication and Cooperation wisdom)
 - `on_partnership_as_distributed_cognition.md` (Partnership as one cognitive system)
-- `on_neurodivergent_partnership.md` (Neurology-specific applications)
+- `on_partnership_model_synthesis.md` (The methodology)
 
 ---
 

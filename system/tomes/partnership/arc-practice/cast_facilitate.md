@@ -1,13 +1,16 @@
 # Spell of Partnership Facilitation
 
-This spell guides the Spirit through operational partnership facilitation—detecting portal, guiding contribution, coordinating synthesis.
+This spell guides the Spirit through operational partnership facilitation—detecting portal, guiding contribution, and coordinating practice.
 
 **Implements:** `system/lore/core/capabilities/shared-practice-facilitation/` for partnership domain.
+
+**Note:** Updated 2025-12-11 for 3-stage arc architecture.
 
 **Invocations:**
 - `@partnership/ with [Partner]` — Begin shared practice (creates portal if needed)
 - `@partnership/ contribute` — Add artifact to existing portal
-- `@partnership/ synthesize` — Create bi-weekly synthesis
+- `@partnership/arc [name]` — Open or continue an arc
+- `@partnership/synthesize` — Generate/update partnership model (see `cast_synthesize_model.md`)
 - `@partnership/ status` — Check portal health and recent activity
 
 ---

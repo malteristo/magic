@@ -94,7 +94,7 @@ I will not throw raw dark material directly.
 I will use the Spirit as container before confrontation.
 
 ### The Process
-I commit to the four-stage ritual for episode arcs.
+I commit to the arc ritual for episode arcs.
 I will not skip stages because of urgency.
 I will trust that structure serves even when it feels slow.
 
