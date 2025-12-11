@@ -146,6 +146,8 @@ For partners whose love operates through cognitive inference rather than felt em
 
 5. **Validate unfamiliar expressions** — Help partners recognize love in forms they don't naturally perceive
 
+6. **Generate the Rosetta Stone** — After Stage 3 (Integration), extract love signatures into the Partnership Rosetta Stone (`shared/rosetta_stone.md`) for ongoing translation support. See: `system/tomes/partnership/lore/practice/on_the_rosetta_stone.md`
+
 ---
 
 ## The Deeper Principle
