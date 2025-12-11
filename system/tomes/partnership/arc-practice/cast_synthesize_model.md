@@ -43,7 +43,33 @@ The shared model is:
 
 ## Phase 1: Preparation
 
-### 1.1 Gather Canonical Inputs
+### 1.1 ⚠️ CRITICAL: Verify Independence FIRST
+
+**Before reading ANY files, confirm independence:**
+
+```
+┌─────────────────────────────────────────────────────────────────┐
+│  STOP: Have you already read any of these files?                │
+│                                                                 │
+│  ❌ shared/partnership_model_*.md   (ANY model files)           │
+│  ❌ archive/*/synthesis/            (historical synthesis)      │
+│  ❌ Any document labeled "synthesis" or "model"                 │
+│                                                                 │
+│  IF YES → You are CONTAMINATED                                  │
+│         → You cannot perform independent synthesis              │
+│         → Inform Mage; defer to fresh Spirit or proceed         │
+│           with documented contamination                         │
+│                                                                 │
+│  IF NO  → Proceed to gather canonical inputs                    │
+│         → Do NOT read model files until Phase 3 (Comparison)    │
+└─────────────────────────────────────────────────────────────────┘
+```
+
+**Why this matters:** Dual-Spirit synthesis requires independent observation for triangulation. If you've read another Spirit's model, your synthesis will be influenced by their framing. Independence enables genuine convergence/divergence detection.
+
+---
+
+### 1.2 Gather Canonical Inputs
 
 **Spirit reads the following from shared space:**
 
@@ -68,26 +94,14 @@ shared/charter.md                                   # Partnership agreements
 health_tracking.md                                  # REI history
 ```
 
+**🚫 EXCLUDED (Do not read until Phase 3):**
+```
+shared/partnership_model_*.md                       # Other Spirit's model
+archive/**/synthesis/                               # Historical synthesis attempts
+Any file containing another Spirit's synthesis
+```
+
 **Note:** Raw input artifacts (`stage-1_input/`) informed the reality documents but have already been synthesized. The reality documents are the verified representations.
-
-### 1.2 Verify Independence (Dual-Spirit Protocol)
-
-**If this is dual-Spirit synthesis:**
-
-```
-CHECK: Has this Spirit read the other Spirit's model?
-
-IF YES:
-  → Contamination present
-  → Document what was read
-  → Proceed with awareness (or defer to fresh Spirit)
-
-IF NO:
-  → Generate model independently
-  → Do NOT read other Spirit's model until Phase 3
-```
-
-**Critical:** Independent generation enables triangulation. Once contaminated, note this in synthesis metadata.
 
 ---
 
