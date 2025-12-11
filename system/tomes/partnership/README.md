@@ -194,7 +194,29 @@ When the old relationship model must die for something new to live—accumulated
                       ▼
               Learning flows back
               Partnership Model evolves
+                      │
+                      ▼
+              ┌──────────────┐
+              │ Rosetta Stone│ (derived)
+              │ (translation)│
+              └──────────────┘
 ```
+
+### The Rosetta Stone
+
+**After Stage 3 (Integration)**, when the shared partnership model exists, a **Rosetta Stone** can be derived—a translation artifact that enables communication across cognitive styles.
+
+**What it contains:**
+- Each partner's processing style (top-down vs. bottom-up)
+- Each partner's communication signature and needs
+- Love signatures (how love is experienced and expressed)
+- Collision patterns (where communication fails)
+- Translation protocols (how to bridge each direction)
+
+**Why it matters:** Partners can love fully while neither feels understood. The gap isn't honesty—it's calibration. The Stone provides that calibration.
+
+**See:** `lore/practice/on_the_rosetta_stone.md`  
+**Generate:** `arc-practice/cast_rosetta_stone.md`
 
 **Not all stories start the same.** Some partnerships begin with a crisis arc (or even Phoenix Protocol) before background exists. This is acceptable—work with what's alive, establish structure as capacity allows.
 
@@ -246,6 +268,7 @@ The partnership tome implements these patterns for the partnership domain specif
 | `on_the_phoenix_protocol.md` | **NEW: Transformative renewal.** Controlled burning, dark energy, rebuilding |
 | `on_dark_magic_protocol.md` | **NEW: Communication routing.** Difficult material through practice |
 | `on_the_mast_protocol.md` | **NEW: Commitment architecture.** Binding to practice through storms |
+| `on_the_rosetta_stone.md` | **NEW: Translation artifact.** Cognitive style bridging, derived from shared model |
 | `on_arc_structure.md` | How arcs provide bounded episodes |
 | `on_divergence_mapping.md` | Mapping where partners see differently |
 | `on_shared_truth_finding.md` | Philosophy of finding shared truth |
@@ -438,6 +461,7 @@ portal/
 │   ├── charter.md               # Partnership charter/agreements
 │   ├── neurotype_context.md     # Neurological context for both partners
 │   ├── divergence_map.md        # Partnership-level divergences
+│   ├── rosetta_stone.md         # Translation artifact (derived from model)
 │   └── bridging_statements/     # Mutual acknowledgments
 ├── living/                      # Living Arc (NEW)
 │   ├── input/                   # Ongoing contributions
@@ -496,6 +520,11 @@ portal/
 - Dark energy handling documented (temporal framing mandatory)
 - Neurotype context, divergence mapping at partnership level
 - New lore: `on_living_partnership_practice.md`, `on_the_phoenix_protocol.md`
+- **Rosetta Stone pattern added:** Translation artifact derived from shared model after Stage 3
+- New lore: `on_the_rosetta_stone.md`
+- New spell: `cast_rosetta_stone.md`
+- New template: `rosetta_stone_template.md`
+- Integrates with love languages/signatures from romantic-partnership bundle
 
 ---
 
