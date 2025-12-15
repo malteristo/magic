@@ -21,9 +21,10 @@ desk/*
 # Portal Infrastructure (Shared Practice Spaces)
 # Portals are external repositories in portals/
 # Each portal directory is ignored (separate git repo)
-# but the registry and infrastructure are tracked
+# but the template and infrastructure are tracked
 portals/*/
-!portals/portals.yaml
+portals/portals.yaml
+!portals/portals.yaml.template
 !portals/README.md
 
 # Personal, untracked ritual artifacts
