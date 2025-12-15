@@ -12,11 +12,14 @@ scrolls/*
 floor/*
 box/*
 desk/*
-# ...but not the directories themselves (via .gitkeep).
+# ...but not the directories themselves (via .gitkeep) and README files.
 !scrolls/.gitkeep
 !floor/.gitkeep
+!floor/README.md
 !box/.gitkeep
+!box/README.md
 !desk/.gitkeep
+!desk/README.md
 
 # Portal Infrastructure (Shared Practice Spaces)
 # Portals are external repositories in portals/
