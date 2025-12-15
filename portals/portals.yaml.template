@@ -37,8 +37,11 @@
 # Active Portals
 # =============================================================================
 
-# Example: Partnership Portal
-# ---------------------------
+# Example: Partnership Portal (Single Remote - Shared Repository)
+# ---------------------------------------------------------------
+# Both partners push/pull from the same repository.
+# Simpler, but less privacy separation.
+#
 # my-partnership:
 #   remote: "https://github.com/your-org/partnership-name.git"
 #   type: partnership
@@ -56,6 +59,49 @@
 #     - mage: PartnerName
 #       github: partner-github-username
 #       role: co-practitioner
+#   
+#   synthesis:
+#     protocol: consensus
+#     rhythm: bi-weekly
+#     current_caretaker: YourName
+#     rotation_enabled: false
+
+# Example: Partnership Portal (Federated Forks - Maximum Autonomy)
+# -----------------------------------------------------------------
+# Each partner has their own fork. More complex but better autonomy.
+# Partner forks the original repo, both push to own forks, pull from partner.
+#
+# my-partnership-federated:
+#   # Multiple remotes for federated architecture
+#   remotes:
+#     origin: "https://github.com/your-username/partnership-name.git"    # Your fork
+#     partner: "https://github.com/partner-username/partnership-name.git" # Partner's fork
+#   
+#   type: partnership
+#   collaborators: [YourName, PartnerName]
+#   visibility: private
+#   created: YYYY-MM-DD
+#   status: active
+#   description: Federated partnership practice with [Partner]
+#   local_path: portals/my-partnership
+#   
+#   participants:
+#     - mage: YourName
+#       github: your-github-username
+#       fork: "your-username/partnership-name"
+#       role: co-practitioner
+#     - mage: PartnerName
+#       github: partner-github-username
+#       fork: "partner-username/partnership-name"
+#       role: co-practitioner
+#   
+#   # Sync protocol: each pushes to own fork, pulls from partner's
+#   sync:
+#     you_push_to: origin
+#     you_pull_from: partner
+#     # To add partner's fork as a remote:
+#     # git remote add partner https://github.com/partner-username/partnership-name.git
+#     # To sync: git fetch partner && git merge partner/main
 #   
 #   synthesis:
 #     protocol: consensus
