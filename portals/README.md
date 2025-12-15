@@ -134,6 +134,43 @@ Portal Y ←→ Portal Z ←→ Workshop C
 
 ---
 
+## Federated Fork Architecture (Advanced)
+
+For maximum autonomy, partners can each maintain their own fork of the portal:
+
+```
+Partner A's Fork                      Partner B's Fork
+(github.com/A/portal)                (github.com/B/portal)
+        ↓ push                              ↓ push
+        ↑ pull from B                       ↑ pull from A (upstream)
+```
+
+**Setup (after partner forks your portal):**
+```bash
+# Add partner's fork as a remote
+cd portals/{portal-name}
+git remote add partner https://github.com/partner-username/portal-name.git
+
+# Fetch their changes
+git fetch partner
+
+# Merge their contributions
+git merge partner/main
+```
+
+**Benefits:**
+- Each partner has sovereign control over their fork
+- Interface artifacts travel through git sync, not shared write access
+- Clear boundary between "my contributions" and "received contributions"
+- Aligns with federated partnership principles
+
+**Sync rhythm:**
+- Before contributing: `git fetch partner && git merge partner/main`
+- After contributing: `git push origin main`
+- Partner does the reverse (they pull from upstream/you, push to origin/their fork)
+
+---
+
 ## Getting Started
 
 **To create a new portal:**
