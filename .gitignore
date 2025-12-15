@@ -35,6 +35,7 @@ portals/portals.yaml
 
 # Mage's personal configuration
 mage_seal.md
+AGENTS.md
 archive/*
 !archive/.gitkeep
 system/tomes/librarian/
