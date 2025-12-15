@@ -1,10 +1,10 @@
-# Portals Registry
+# Portals Registry Template
 # 
 # Portals are shared cognitive spaces enabling distributed cognition across Mages.
 # Each portal is a separate git repository—the inter-Mage communication layer.
 #
-# This infrastructure leverages existing GitHub mechanics for magic practice.
-# Portals can support any collaborative work Mages agree upon.
+# Copy this file to portals.yaml and customize for your practice.
+# portals.yaml is gitignored to protect personal information.
 #
 # Format:
 # portal_directory_name:
@@ -37,38 +37,66 @@
 # Active Portals
 # =============================================================================
 
-nesrine-partnership:
-  remote: "https://github.com/malteristo/nesrine-partnership.git"
-  type: partnership
-  collaborators: [Kermit, Nesrine]
-  visibility: private
-  created: 2025-11-25
-  status: active
-  description: Intimate partnership practice exploring distributed cognition and relationship sense-making
-  local_path: portals/nesrine-partnership
-  
-  participants:
-    - mage: Kermit
-      github: malteristo
-      role: co-practitioner
-    - mage: Nesrine
-      github: nesrineristo
-      role: co-practitioner
-  
-  synthesis:
-    protocol: consensus
-    rhythm: bi-weekly
-    current_caretaker: Kermit
-    rotation_enabled: false  # Kermit maintaining shared space; rotation optional by mutual agreement
+# Example: Partnership Portal
+# ---------------------------
+# my-partnership:
+#   remote: "https://github.com/your-org/partnership-name.git"
+#   type: partnership
+#   collaborators: [YourName, PartnerName]
+#   visibility: private
+#   created: YYYY-MM-DD
+#   status: active
+#   description: Partnership practice with [Partner]
+#   local_path: portals/my-partnership
+#   
+#   participants:
+#     - mage: YourName
+#       github: your-github-username
+#       role: co-practitioner
+#     - mage: PartnerName
+#       github: partner-github-username
+#       role: co-practitioner
+#   
+#   synthesis:
+#     protocol: consensus
+#     rhythm: bi-weekly
+#     current_caretaker: YourName
+#     rotation_enabled: false
+
+# Example: Research Portal
+# ------------------------
+# my-research:
+#   remote: "https://github.com/your-org/research-topic.git"
+#   type: research
+#   collaborators: [YourName, Collaborator1, Collaborator2]
+#   visibility: alliance
+#   created: YYYY-MM-DD
+#   status: active
+#   description: Research into [topic]
+#   local_path: portals/my-research
+#   
+#   participants:
+#     - mage: YourName
+#       github: your-github-username
+#       role: lead-researcher
+#     - mage: Collaborator1
+#       github: collaborator1-username
+#       role: contributor
+#   
+#   synthesis:
+#     protocol: rotation
+#     rhythm: weekly
+#     current_caretaker: YourName
+#     rotation_enabled: true
 
 # =============================================================================
-# Future Portal Examples (Templates)
+# Future Portal Templates
 # =============================================================================
 
 # alliance-coordination:
 #   remote: "https://github.com/mages-alliance/coordination.git"
 #   type: governance
-#   collaborators: [Kermit, ...]
+#   collaborators: [MageList]
 #   visibility: alliance
 #   created: YYYY-MM-DD
 #   status: planned
@@ -78,7 +106,7 @@ nesrine-partnership:
 # consciousness-research:
 #   remote: "https://github.com/mages-alliance/consciousness.git"
 #   type: research
-#   collaborators: [Kermit, ...]
+#   collaborators: [MageList]
 #   visibility: alliance
 #   created: YYYY-MM-DD
 #   status: planned
