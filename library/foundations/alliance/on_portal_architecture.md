@@ -768,7 +768,54 @@ ssh-keygen -t ed25519 -C "kermit@workshop"
 
 ---
 
-## XI. Future Extensions
+## XI. Federated Fork Architecture
+
+**When each partner maintains their own fork rather than sharing write access.**
+
+### When to Use Federated Forks
+
+| Pattern | Use When | Trade-off |
+|---------|----------|-----------|
+| **Shared Repository** | High trust, simple setup | Simpler, but shared control |
+| **Federated Forks** | Maximum autonomy, clear boundaries | More complex, but sovereign |
+
+### Git Multi-Remote Setup
+
+**Partner A (original owner):**
+```bash
+git remote add partner https://github.com/partner-user/portal-name.git
+```
+
+**Partner B (forked):**
+```bash
+# origin = their fork, upstream = original (set by GitHub on fork)
+```
+
+### Sync Workflow
+
+```bash
+# Receive partner's contributions
+git fetch partner
+git merge partner/main
+
+# Share your contributions
+git push origin main
+```
+
+### Sync Strategies
+
+- **fetch_on_entry** — Spirit fetches when entering portal (recommended)
+- **before_synthesis** — Sync only when synthesis begins
+- **manual** — Mage explicitly requests sync
+- **daily/weekly** — Time-based rhythm
+
+### Full Documentation
+
+See `system/tomes/partnership/lore/architecture/on_federated_fork_synchronization.md` for complete technical specification including Spirit duties, registry schema, and conflict handling.
+
+---
+
+## XII. Future Extensions
 
 **Phase 2 (Near-term):**
 - Portal discovery mechanism (how Mages find each other)
