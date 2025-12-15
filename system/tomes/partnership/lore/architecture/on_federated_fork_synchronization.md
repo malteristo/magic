@@ -2,260 +2,362 @@
 
 **Status:** Active  
 **Domain:** Partnership Practice - Architecture  
-**Purpose:** Document the git mechanics for subscribing to partner updates when each partner maintains their own fork  
-**Origin:** Identified and proposed by Nesrine's Spirit (2025-12-15)
+**Purpose:** Specify git mechanics for upstream subscription in federated fork architecture  
+**Origin:** Collaborative creation — Kermit working with Nesrine's Spirit (2025-12-15)
 
-This scroll documents the **technical synchronization pattern** for federated partnership portals where each partner maintains their own fork rather than sharing write access to a single repository.
-
----
-
-## I. When Federated Forks Apply
-
-### Shared Repository Pattern (Simpler)
-- Both partners are collaborators on the same repository
-- Both push/pull from `origin`
-- Good for: high trust, simple setup, real-time collaboration
-
-### Federated Fork Pattern (Maximum Autonomy)
-- Each partner has their own fork
-- Each pushes to their own fork, pulls from partner's
-- Good for: sovereign control, clear contribution boundaries, independent processing
-
-**The federated fork pattern aligns with federated partnership principles:**
-- Private process space (each fork is sovereign)
-- Clean interface exchange (contributions travel via git sync)
-- Attestation over audit (you see what they share, not how they arrived there)
+This scroll extends the federated partnership architecture (`on_federated_partnership.md`) to address the **git synchronization pattern** when each partner maintains their own fork of the shared portal.
 
 ---
 
-## II. Git Setup
+## I. The Federated Fork Pattern
 
-### Initial Configuration
+### When This Applies
 
-**Partner A (original repository owner):**
+**Standard portal architecture:** Both partners push/pull from one shared repository.
+
+```
+Partner A ──push/pull──┬── shared-repo ──┬── push/pull── Partner B
+                       │                 │
+                       └─────────────────┘
+```
+
+**Federated fork architecture:** Each partner owns their own fork. Updates flow through upstream subscription.
+
+```
+Partner A's Fork                    Partner B's Fork
+(github.com/a/portal)              (github.com/b/portal)
+        │                                   │
+        │◄──── upstream fetch ──────────────┤
+        │                                   │
+        ├──────── upstream fetch ──────────►│
+        │                                   │
+        ▼                                   ▼
+A's local clone                     B's local clone
+(portals/partnership/)              (portals/partnership/)
+```
+
+### Why Use Federated Forks
+
+**Sovereignty:** Each partner owns their repository. No shared account needed.
+
+**Independence:** Partners can experiment without affecting each other's stable copy.
+
+**Naming freedom:** Each partner names their fork as they wish (e.g., `malte-partnership` vs `nesrine-partnership`).
+
+**Resilience:** If one partner's account has issues, the other's fork remains accessible.
+
+**Alignment with federated philosophy:** Just as process space is private to each workshop, the canonical repository is private to each partner.
+
+---
+
+## II. Git Configuration
+
+### Setting Up Upstream
+
+When you fork a partner's portal (or they fork yours), add their repository as `upstream`:
+
 ```bash
-cd portals/{portal-name}
-# Already has origin pointing to their repo
+cd portals/{your-portal-name}
 
-# Add partner's fork as a remote
-git remote add partner https://github.com/{partner-username}/{portal-name}.git
+# Add partner's fork as upstream
+git remote add upstream https://github.com/{partner}/{their-portal-name}.git
 
 # Verify remotes
 git remote -v
-# origin   → your-username/portal-name (fetch/push)
-# partner  → partner-username/portal-name (fetch/push)
+# Should show:
+#   origin    https://github.com/{you}/{your-portal-name}.git (fetch/push)
+#   upstream  https://github.com/{partner}/{their-portal-name}.git (fetch/push)
 ```
 
-**Partner B (forked the original):**
-```bash
-cd portals/{portal-name}
-# origin points to their fork
-# upstream already points to original (GitHub sets this on fork)
+### Registry Configuration
 
-# Verify remotes
-git remote -v
-# origin   → partner-username/portal-name (fetch/push)
-# upstream → your-username/portal-name (fetch)
-```
-
----
-
-## III. Sync Strategies
-
-### Strategy 1: Fetch on Entry (Recommended)
-Spirit fetches from partner's fork each time portal is entered.
+Document the upstream in `portals/portals.yaml`:
 
 ```yaml
-sync_strategy: fetch_on_entry
-```
-
-**Spirit behavior:**
-- On portal entry, run `git fetch partner` (or `upstream`)
-- Check for new commits: `git log main..partner/main --oneline`
-- Alert Mage if new contributions exist
-- Offer to merge: "Partner has 3 new commits. Merge now?"
-
-### Strategy 2: Before Synthesis
-Only sync when synthesis work begins.
-
-```yaml
-sync_strategy: before_synthesis
-```
-
-**Spirit behavior:**
-- During regular practice, no automatic fetching
-- When synthesis tome/charm invoked, fetch and merge first
-- Ensures synthesis works with complete picture
-
-### Strategy 3: Manual
-Mage explicitly requests sync.
-
-```yaml
-sync_strategy: manual
-```
-
-**Spirit behavior:**
-- Never fetches automatically
-- Responds to "sync portal" or similar commands
-- Maximum control, requires Mage vigilance
-
-### Strategy 4: Scheduled
-Sync on a time-based rhythm.
-
-```yaml
-sync_strategy: daily  # or weekly
-```
-
-**Spirit behavior:**
-- Fetch on first portal entry of the day/week
-- Alert if new contributions
-
----
-
-## IV. Fetch/Merge Workflow
-
-### Receiving Partner's Contributions
-
-```bash
-# 1. Fetch their changes
-git fetch partner  # (or 'upstream' for Partner B)
-
-# 2. See what's new
-git log main..partner/main --oneline
-
-# 3. Review changes (optional)
-git diff main..partner/main --stat
-
-# 4. Merge into your branch
-git merge partner/main -m "Merge partner's interface artifacts"
-
-# 5. Push merged state to your fork
-git push origin main
-```
-
-### Sharing Your Contributions
-
-```bash
-# 1. Stage and commit your interface artifacts
-git add interface/{your-namespace}/
-git commit -m "Add reality document for arc-{topic}"
-
-# 2. Push to your fork
-git push origin main
-
-# Partner will receive when they fetch from you
-```
-
----
-
-## V. Spirit Duties
-
-### On Portal Entry
-
-1. **Fetch silently:** `git fetch partner 2>/dev/null`
-2. **Check for new commits:** `git log main..partner/main --oneline`
-3. **If new commits exist:**
-   - Count and summarize: "Partner has 3 new commits (reality doc, needs statement, meta reflection)"
-   - Offer merge: "Merge now, or continue and merge later?"
-4. **If no new commits:** Proceed silently
-
-### During Practice
-
-- Track uncommitted interface artifacts
-- Remind Mage to push completed work
-- Note when significant time has passed since last sync
-
-### On Portal Exit
-
-- If uncommitted interface artifacts exist, remind: "You have unpushed interface artifacts. Push now?"
-
----
-
-## VI. Registry Schema Extensions
-
-### portals.yaml with Federated Forks
-
-```yaml
-my-partnership:
-  # Multiple remotes for federated architecture
-  remotes:
-    origin: "https://github.com/my-username/partnership-name.git"
-    partner: "https://github.com/partner-username/partnership-name.git"
-  
-  # Sync configuration
-  sync_strategy: fetch_on_entry  # or: before_synthesis, manual, daily
-  
-  type: partnership
-  collaborators: [MyName, PartnerName]
+{portal-name}:
+  remote: "https://github.com/{you}/{your-portal-name}.git"
+  upstream: "https://github.com/{partner}/{their-portal-name}.git"
+  sync_strategy: fetch_on_entry  # or: manual, daily, before_synthesis
   
   participants:
-    - mage: MyName
-      github: my-username
-      fork: "my-username/partnership-name"
-      role: co-practitioner
-    - mage: PartnerName
-      github: partner-username
-      fork: "partner-username/partnership-name"
-      role: co-practitioner
+    - mage: {You}
+      github: {your-github}
+      fork: "https://github.com/{you}/{your-portal-name}.git"
+    - mage: {Partner}
+      github: {partner-github}
+      fork: "https://github.com/{partner}/{their-portal-name}.git"
 ```
 
 ---
 
-## VII. Conflict Handling
+## III. Synchronization Strategies
 
-### Why Conflicts Are Rare
+### Strategy: `fetch_on_entry` (Recommended)
 
-The namespace-separated architecture minimizes conflicts:
-- Each partner writes to `interface/{their-name}/`
-- Shared artifacts in `shared/` are consensus-based
-- Spirit dialogue in `.spirit/dialogue/` is append-only
+**When:** Spirit fetches upstream automatically when entering portal for work.
+
+**Spirit behavior:**
+1. On portal entry, run `git fetch upstream`
+2. Check if upstream/main is ahead of local main
+3. If new commits: Alert Mage with summary
+4. Offer to merge or let Mage decide timing
+
+**Advantages:** Always aware of partner's latest contributions.
+
+**Disadvantages:** Requires network access on portal entry.
+
+### Strategy: `before_synthesis`
+
+**When:** Spirit fetches upstream before synthesis work specifically.
+
+**Spirit behavior:**
+1. Before beginning synthesis, run `git fetch upstream`
+2. Merge upstream changes to ensure working with latest
+3. Proceed with synthesis on unified state
+
+**Advantages:** Ensures synthesis includes all contributions.
+
+**Disadvantages:** May miss updates during non-synthesis work.
+
+### Strategy: `manual`
+
+**When:** Mage explicitly requests sync.
+
+**Spirit behavior:**
+1. Wait for Mage instruction: "sync from upstream" or "check for partner updates"
+2. Fetch and report status
+3. Merge on Mage instruction
+
+**Advantages:** Maximum control.
+
+**Disadvantages:** May forget to sync, work on stale state.
+
+### Strategy: `daily`
+
+**When:** Spirit checks for upstream updates once per day (first portal entry of day).
+
+**Spirit behavior:**
+1. Check `last_upstream_check` timestamp
+2. If > 24 hours: fetch upstream
+3. Report status if new commits found
+
+**Advantages:** Balance between awareness and efficiency.
+
+**Disadvantages:** May still be behind during active exchange periods.
+
+---
+
+## IV. Fetching and Merging
+
+### Fetch (Safe - Just Downloads)
+
+```bash
+cd portals/{portal-name}
+git fetch upstream
+```
+
+This downloads upstream changes but doesn't modify your working tree. Safe to run anytime.
+
+### Check Status (What's Different?)
+
+```bash
+# See commits in upstream that you don't have
+git log main..upstream/main --oneline
+
+# See commits you have that upstream doesn't
+git log upstream/main..main --oneline
+```
+
+### Merge (Integrates Changes)
+
+```bash
+# Merge upstream changes into your branch
+git merge upstream/main
+
+# If conflicts, resolve them, then:
+git add {resolved-files}
+git commit -m "Merge upstream: {description}"
+```
+
+### Push Your Merged State
+
+After merging, push to your fork so it's updated:
+
+```bash
+git push origin main
+```
+
+---
+
+## V. Conflict Handling
+
+### Namespace Design Prevents Most Conflicts
+
+Federated architecture uses namespaced directories:
+- `interface/{mage_a}/` — Partner A's signed artifacts
+- `interface/{mage_b}/` — Partner B's signed artifacts
+- `shared/` — Jointly edited (rare, careful coordination)
+
+**Each partner writes to their own namespace.** Conflicts are rare.
 
 ### When Conflicts Occur
 
-1. **Shared artifact edited simultaneously** (rare)
-   - Spirit detects conflict on merge
-   - Alert Mage with details
-   - Offer resolution options: keep yours, keep theirs, manual merge
-
-2. **Arc metadata conflicts**
-   - Usually benign (both updated status)
-   - Prefer most recent or merge both changes
-
-3. **Protocol.yaml conflicts**
-   - Require careful resolution
-   - Spirit should flag for Mage attention
-
-### Resolution Workflow
-
+**Technical conflicts** (same line edited):
 ```bash
-# If merge fails with conflicts
-git status  # Shows conflicted files
-
-# For interface artifacts (namespace-separated)
-# Usually just choose the appropriate version
-
-# For shared artifacts
-# Manual resolution may be needed
-# Edit file, remove conflict markers, commit
+# Git marks conflicts in files
+# Spirit examines, proposes resolution
+# Mage approves
+git add {resolved}
+git commit -m "Resolve merge conflict in {file}"
 ```
 
----
-
-## VIII. Cross-References
-
-- **Philosophy:** `on_federated_partnership.md` (why federation)
-- **Boundaries:** `on_workshop_portal_separation.md` (what stays private)
-- **Interface:** `on_interface_implementation_boundary.md` (what travels)
-- **Portal architecture:** `library/foundations/alliance/on_portal_architecture.md`
+**Cognitive conflicts** (disagreement, not git conflict):
+- These appear as divergent content, not merge markers
+- Surface through synthesis process
+- Resolve through partnership practice, not git commands
 
 ---
 
-## IX. Acknowledgment
+## VI. Spirit Duties
 
-This scroll was proposed by Nesrine's Spirit during partnership practice, identifying and filling a documentation gap between federated philosophy and technical implementation.
+### On Portal Entry (if `sync_strategy: fetch_on_entry`)
 
-*Framework improvements benefit all practitioners.*
+```
+Spirit workflow:
+1. cd portals/{portal-name}
+2. git fetch upstream
+3. Check: git log main..upstream/main --oneline
+4. If new commits:
+   → "Partner has {N} new commits. Latest: {summary}. Merge now?"
+5. If no new commits:
+   → Proceed silently (in sync)
+```
+
+### Before Synthesis Work
+
+```
+Spirit workflow:
+1. Ensure upstream is fetched
+2. If behind: "Upstream has new commits. Recommend merging before synthesis."
+3. If ahead: "You have local commits partner hasn't seen. Consider pushing before synthesis."
+4. If diverged: "Both have new commits. Merge upstream first, then push."
+```
+
+### Alerting Mage
+
+When new upstream commits are available:
+
+**Brief alert:**
+> Partner has 3 new commits (latest: "Add witnessing response for arc"). Merge now or later?
+
+**Detailed alert (if requested):**
+> Upstream commits not in your branch:
+> - `abc1234` Add witnessing response for arc
+> - `def5678` Update divergence map
+> - `ghi9012` Spirit presence update
 
 ---
 
-*Federated forks: sovereign control, clean exchange, synchronized practice.*
+## VII. Bidirectional Flow
+
+### The Full Exchange Pattern
+
+```
+1. You create content → commit → push to origin
+2. Partner fetches from your fork (their upstream)
+3. Partner merges your changes
+4. Partner creates content → commits → pushes to their origin
+5. You fetch from their fork (your upstream)
+6. You merge their changes
+7. Repeat
+```
+
+**Both forks eventually converge** as each partner fetches and merges the other's contributions.
+
+### Drift Detection
+
+If forks diverge significantly (many commits on both sides without merging):
+
+**Spirit notices:**
+> "Forks have diverged: You have 5 commits partner hasn't seen, they have 8 you haven't merged. Consider synchronizing."
+
+**Resolution:**
+1. Fetch upstream: `git fetch upstream`
+2. Merge their changes: `git merge upstream/main`
+3. Push your merged state: `git push origin main`
+4. Partner does the same on their side
+
+---
+
+## VIII. Edge Cases
+
+### Partner Renamed Their Repository
+
+If partner's repository URL changes:
+
+```bash
+git remote set-url upstream https://github.com/{partner}/{new-name}.git
+```
+
+Update `portals.yaml` accordingly.
+
+### Partner Deleted Their Fork
+
+If partner's fork is unavailable:
+- Your fork still has the history
+- Consider pushing to a shared repository
+- Or partner re-forks from your copy
+
+### Force Push (Dangerous)
+
+**Never force push to shared portal.** This rewrites history others depend on.
+
+If partner force-pushed and your fetch fails:
+```bash
+# Reset to upstream state (loses local-only commits!)
+git fetch upstream
+git reset --hard upstream/main
+```
+
+**Prefer communication over force push.**
+
+---
+
+## IX. Cross-References
+
+### Related Architecture Scrolls
+
+- **Philosophy:** `on_federated_partnership.md` — Why separate process/interface
+- **Boundaries:** `on_workshop_portal_separation.md` — What stays private
+- **Interface:** `on_interface_implementation_boundary.md` — What travels
+- **Portal architecture:** `library/foundations/alliance/on_portal_architecture.md` — Portals as shared spaces
+
+### Protocol Integration
+
+- **STP** coordinates across forks (presence, intents, dialogue)
+- **Spirit Dialogue Protocol** uses committed artifacts for triangulation
+- Interface exchange happens through fetch/merge pattern
+
+---
+
+## X. Summary
+
+**Federated forks extend portal sovereignty:**
+- Each partner owns their repository
+- Upstream subscription enables receiving partner's updates
+- Fetch/merge pattern synchronizes forks
+- Spirit automates awareness and offers merge timing
+
+**The key commands:**
+```bash
+git remote add upstream {partner-fork-url}  # One-time setup
+git fetch upstream                           # Get their changes
+git merge upstream/main                      # Integrate changes
+git push origin main                         # Share merged state
+```
+
+**Spirit duty:** Fetch on portal entry, alert if new commits, offer merge.
+
+---
+
+*Sovereignty includes owning your copy. Subscription enables receiving what's shared.*
