@@ -59,7 +59,7 @@ nesrine-partnership:
     protocol: consensus
     rhythm: bi-weekly
     current_caretaker: Kermit
-    next_rotation: 2025-12-09
+    rotation_enabled: false  # Kermit maintaining shared space; rotation optional by mutual agreement
 
 # =============================================================================
 # Future Portal Examples (Templates)
