@@ -201,14 +201,54 @@ Before partnership work:
 
 ---
 
+## Interface Contracts
+
+**Partnership practice exchanges five artifact types:**
+
+| Artifact | Question It Answers | Nature |
+|----------|---------------------|--------|
+| **Reality Document** | "What is your truth?" | Per-arc, signed |
+| **Needs Statement** | "What do you need?" | Living, evolves |
+| **Witnessing Response** | "How did I experience this?" | Per-arc |
+| **Bridging Statement** | "I acknowledge your pain" | Per-arc, validation |
+| **Synthesis Contribution** | "My Spirit's model draft" | For Dual-Spirit |
+
+**The interface-implementation boundary:**
+- **Interface:** What must be exchanged (the five artifacts above)
+- **Implementation:** How you arrive there (private, in your workshop)
+
+**See:** `lore/practice/on_interface_contracts.md` for specifications
+
+---
+
+## Federated Architecture
+
+**Partnership practice operates as a federated system:**
+
+- **Workshop (private):** Each Mage processes in their own `desk/partnership-process/` directory
+- **Portal (shared):** Only signed interface artifacts travel to the shared portal
+- **Spirit Dialogue:** Spirits engage across federation via the Spirit Dialogue Protocol
+
+**Benefits:**
+- Process privacy (your drafts, venting, Spirit conversations stay local)
+- Neurotype accommodation (structure your space your way)
+- Implementation freedom (how you arrive at artifacts is yours)
+- Clean exchange (signed artifacts only)
+
+**See:**
+- `lore/architecture/on_federated_partnership.md`
+- `lore/architecture/on_workshop_portal_separation.md`
+- `lore/practice/on_spirit_dialogue_protocol.md`
+
+---
+
 ## Shared Practice Infrastructure
 
 Partnership practice requires **shared practice infrastructure**:
 - Partnership portal (private shared repository)
-- Both partners contribute artifacts directly
-- Model lives in shared space
-- Arcs accumulate transparently
-- Spirits coordinate across both workshops
+- Interface artifacts exchanged through portal
+- Process stays in each Mage's workshop
+- Spirits coordinate via Spirit Transmission Protocol
 
 **Create portal:** `@meta/portal create partnership`
 
@@ -241,14 +281,19 @@ system/tomes/partnership/
 │   ├── practice/                ← Practice lore
 │   │   ├── on_arc_as_data_aggregation.md      ← Arc architecture
 │   │   ├── on_arc_structure.md
-│   │   ├── on_divergence_mapping.md
-│   │   ├── on_the_rosetta_stone.md
-│   │   ├── on_higher_level_pattern_emergence.md
+│   │   ├── on_interface_contracts.md          ← Interface artifacts (NEW)
+│   │   ├── on_spirit_dialogue_protocol.md     ← SDP (NEW)
+│   │   ├── on_portal_migration.md             ← Migration guide (NEW)
 │   │   └── ...
+│   │
+│   ├── architecture/            ← Architectural wisdom (NEW)
+│   │   ├── on_federated_partnership.md
+│   │   ├── on_workshop_portal_separation.md
+│   │   └── on_interface_implementation_boundary.md
 │   │
 │   └── stances/                 ← Spirit conduct
 │       ├── on_the_counselors_stance.md
-│       ├── on_the_emissarys_stance.md
+│       ├── on_the_emissarys_stance.md         ← Updated with SDP
 │       └── spirit_facilitation_guide.md
 
 library/resonance/               ← Domain-specific bundles
@@ -256,33 +301,43 @@ library/resonance/               ← Domain-specific bundles
 └── safety/                      ← For high-stakes synthesis
 ```
 
-### Portal Structure (Canonical)
+### Portal Structure (Federated)
 
 ```
 portal/
 ├── README.md                    # Portal overview
-├── health_tracking.md           # REI history across all arcs
+│
+├── interface/                   # Exchange layer (NEW)
+│   ├── {mage_a}/               # Partner A's signed artifacts
+│   │   ├── reality_{arc}.md
+│   │   ├── needs_{arc}.md
+│   │   ├── witnessing_{arc}.md
+│   │   ├── bridging_to_{partner}_{arc}.md
+│   │   └── phoenix/
+│   └── {mage_b}/               # Partner B's signed artifacts
 │
 ├── shared/
 │   ├── partnership_model_current.md  # THE shared model
-│   ├── partnership_model_v{N}.md     # Version history
 │   ├── divergence_map.md             # Where partners see differently
 │   ├── rosetta_stone.md              # Translation artifact
-│   ├── charter.md                    # Partnership agreements
-│   ├── neurotype_context.md          # Cognitive architecture
-│   └── bridging_statements/          # Mutual acknowledgments
+│   ├── mast_commitments/             # Mast Protocol
+│   └── phoenix/                      # Shared phoenix artifacts
 │
-├── arcs/
-│   ├── README.md                # Arc timeline
-│   ├── arc-background/
-│   │   ├── stage-1_input/
-│   │   ├── stage-2_witnessing/
-│   │   └── stage-3_closing/
-│   ├── arc-{topic}/             # Same structure
-│   └── arc-living/              # Ongoing input container
+├── arcs/                        # Arc metadata only
+│   └── arc-{name}/
+│       └── README.md            # Status, not process
 │
 └── .spirit/                     # STP coordination
+    ├── presence/
+    ├── intents/
+    ├── dialogue/                # Spirit Dialogue Protocol (NEW)
+    │   └── {arc}/
+    │       ├── {mage}_spirit_observation_on_{partner}.md
+    │       └── convergence_report.md
+    └── protocol.yaml
 ```
+
+**See:** `lore/architecture/on_workshop_portal_separation.md` for full structure
 
 ---
 
@@ -342,6 +397,17 @@ When Mages share a verified model of their partnership reality:
 ---
 
 ## Evolution Notes
+
+**2025-12-15:** Federated architecture and Spirit Dialogue:
+- Interface contracts formalized (5 artifacts)
+- Spirit Dialogue Protocol (SDP) introduced
+- Federated workshop-portal architecture defined
+- Process stays private in workshop, interface artifacts exchange
+- Migration guidance for existing portals
+- Emissary stance updated for SDP context
+- New lore: `architecture/` directory with 3 scrolls
+- New lore: `practice/on_interface_contracts.md`, `on_spirit_dialogue_protocol.md`, `on_portal_migration.md`
+- New templates: `interface_artifact_templates.md`
 
 **2025-12-11:** Major architectural refactor:
 - Arcs redefined as data aggregation containers (3 stages)
