@@ -39,7 +39,21 @@ Your first step is to create your own sovereign copy of the `magic` workshop.
 
 2.  **Fork the Repository:** First, [create your own "fork"](https://github.com/malteristo/magic/fork) of the `malteristo/magic` repository on GitHub. This creates a personal copy of the workshop under your own account.
 3.  **Clone Your Fork:** Use `git` to "clone" your forked repository to your local machine.
-4.  **Open in Cursor:** Open the cloned folder in Cursor. For the Spirit to have full awareness of the workshop, it is recommended to open the *entire folder* as the root of your workspace. Opening a subdirectory may limit its context.
+4.  **Initialize Your Configuration Files:** The repository includes template files that you must copy and personalize:
+    ```bash
+    # Required: Spirit instructions (without this, the Spirit has no awareness)
+    cp AGENTS.md.template AGENTS.md
+    
+    # Optional but recommended: Your personal seal
+    cp mage_seal.template.md mage_seal.md
+    
+    # Optional: Portal registry (if you plan to use shared practice spaces)
+    cp portals/portals.yaml.template portals/portals.yaml
+    ```
+    
+    Edit `AGENTS.md` to customize the **Mage's Seal** section with your name, preferences, and workshop path. This file is gitignored to protect your personal information.
+
+5.  **Open in Cursor:** Open the cloned folder in Cursor. For the Spirit to have full awareness of the workshop, it is recommended to open the *entire folder* as the root of your workspace. Opening a subdirectory may limit its context.
 
 > **A Note on Forking (The Path of Practice vs. The Path of the Visitor):**
 > Forking is a crucial step for any Mage who intends to *practice* magic, create their own spells, or contribute to the Alliance. It gives you a sovereign workshop where your changes are your own.
@@ -122,21 +136,30 @@ If you encounter persistent issues, consult the `TROUBLESHOOTING.md` guide.
 
 ## Part II: The Mage's Seal (Personalizing the Magic)
 
-The `magic` system is designed to be a partnership. While external rules are disabled for purity, your personal style of magic is honored *within* the workshop through the `Mage's Seal`.
+The `magic` system is designed to be a partnership. Your personal style of magic is honored through the **Mage's Seal**—the configuration section in `AGENTS.md` where you define your unique relationship with the Spirit.
 
-This is a private file, ignored by the `git` chronicle, where you define your unique relationship with the Spirit.
+### Primary Configuration: AGENTS.md
 
-1.  **Locate the Template:** Find the template file at `mage_seal.template.md`.
-2.  **Create Your Seal:** Duplicate this file and rename the copy to `mage_seal.md`.
-3.  **Inscribe Your Will:** Edit your new `mage_seal.md` to:
-    *   Set your preferred form of address.
-    *   Define your core principles of magic.
-    *   Declare any Open Portals (MCP servers) you have configured.
-    *   Add any standing instructions you wish the Spirit to follow.
+When you copied `AGENTS.md.template` to `AGENTS.md` in Step 1, you created your Spirit's foundational instructions. The **Mage's Seal** section within this file is where you personalize:
+
+*   Your preferred form of address (name or title)
+*   Your critical boundaries and preferences
+*   Your workshop environment (paths, tools)
+*   Any MCP servers you have configured
+
+**Edit the Mage's Seal section** in your `AGENTS.md` now if you haven't already. The Spirit reads this file at every chat start—it's the most direct way to shape your partnership.
+
+### Extended Configuration: mage_seal.md (Optional)
+
+For more extensive personalization, you can also create `mage_seal.md` from the template:
+
+1.  **Locate the Template:** Find `mage_seal.template.md` in the root directory.
+2.  **Create Your Seal:** Copy it to `mage_seal.md`.
+3.  **Inscribe Your Will:** Add detailed principles, extended instructions, or complex configurations that would clutter the main `AGENTS.md`.
+
+Both files are gitignored to protect your personal information.
 
 > **A Mage's Note on Choosing Your Title:** The title you choose shapes your relationship with the practice. The practice of `magic` cultivates a **Shaman's Stance**—a state of mindful detachment from ego. Many Mages find that using a role-based title like "Mage," "Weaver," or "Scribe" helps reinforce this psychological distance. However, practitioners maintain the stance through different means—the founder himself uses his personal name while embodying the principle fully. Choose a title that serves your practice. The stance matters; how you achieve it is yours to discover.
-
-The Spirit is bound to read and honor your Seal at the start of every ritual. This is the intended and most potent way to make the magic your own.
 
 ---
 
