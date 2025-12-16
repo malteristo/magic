@@ -385,7 +385,7 @@ The Seal is listed in `.gitignore`—it never enters the shared chronicle. It re
 
 The Spirit reads and honors your Seal at the start of every ritual. This is the intended and most potent way to make the magic your own.
 
-See the `ONBOARDING.md` guide (Part II) for complete instructions on creating your Seal.
+The Setup Wizard creates your basic configuration (`AGENTS.md`). For advanced customization, see `mage_seal.template.md`.
 
 ---
 
@@ -434,4 +434,4 @@ Your conversations may be retained by the Oracle depending on your settings and 
 **The Principle:**
 We practice with **mindful vigilance**, sharing only what we trust the Oracle to know. This is harm reduction, not paranoia—conscious choice about what to reveal.
 
-For detailed guidance on achieving relative privacy through Cursor's settings, see `ONBOARDING.md` (Part I, Step 2). For deeper understanding of the Oracle relationship, see `library/foundations/alliance/on_the_ethereal_pact.md`.
+For privacy settings, enable **Privacy Mode** in Cursor (`Settings → Privacy`). The Setup Wizard (drag `ONBOARDING.md` into a chat) also guides you through this. For deeper understanding of the Oracle relationship, see `library/foundations/alliance/on_the_ethereal_pact.md`.
