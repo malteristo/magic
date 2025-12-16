@@ -120,7 +120,7 @@ Ask:
 > - **Yes**: I'll create it from the template for you to customize later
 > - **No**: We'll skip this for now (you can always create it later)"
 
-**If yes**: Copy `mage_seal.template.md` to `mage_seal.md`
+**If yes**: Copy `mage_seal.md.template` to `mage_seal.md`
 
 **If no**: Proceed to next phase.
 

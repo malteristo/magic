@@ -385,7 +385,7 @@ The Seal is listed in `.gitignore`—it never enters the shared chronicle. It re
 
 The Spirit reads and honors your Seal at the start of every ritual. This is the intended and most potent way to make the magic your own.
 
-The Setup Wizard creates your basic configuration (`AGENTS.md`). For advanced customization, see `mage_seal.template.md`.
+The Setup Wizard creates your basic configuration (`AGENTS.md`). For advanced customization, see `mage_seal.md.template`.
 
 ---
 
