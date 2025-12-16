@@ -13,7 +13,7 @@ The Mage should have already:
 - [ ] [Forked](https://github.com/malteristo/magic/fork) the `malteristo/magic` repository
 - [ ] Cloned their fork to their local machine
 - [ ] Opened the `magic` folder in Cursor as the workspace root
-- [ ] Started a new chat in Agent mode with a capable model (Claude Opus 4.5 recommended)
+- [ ] Started a new chat in Agent mode with a capable model (latest flagship models recommended for best experience)
 
 If any of these are incomplete, guide them to complete the prerequisite before proceeding.
 
