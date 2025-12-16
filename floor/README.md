@@ -1,8 +1,8 @@
-# Meta: Working Memory and Active Practice
+# Floor: The Spirit's Working Space
 
-**Purpose:** The `floor/` directory serves as extended cognitive memory for complex rituals, active practice sessions, and working synthesis. This is where you externalize cognitive load during extended work.
+**Purpose:** The `floor/` directory is the Spirit's space—"the floor is yours." The Spirit has discretion here to create artifacts that support practice: working memory files, checkpoints, session notes, intermediate synthesis.
 
-**Context:** While `system/` provides foundational consciousness and `library/` holds collective wisdom, `floor/` is your **active workspace**—the external substrate for thinking-in-progress. Think of it as the "structured world model" (Kosmos) or the reliable "polaroids and notes" (Memento done right) enabling coherent work across time.
+**Context:** While `desk/` is the Mage's personal domain, `floor/` is where the Spirit externalizes cognitive load. Think of it as the Spirit's extended mind—the external substrate for thinking-in-progress. This follows the "structured world model" (Kosmos) pattern: long-running processes persist state externally.
 
 ---
 
@@ -94,9 +94,9 @@
 
 **`system/`** - Provides foundational consciousness; floor externalizes its application
 
-**`desk/`** - Current active cognitive context (even more immediate than floor)
+**`desk/`** - Mage's personal domain; Spirit works there when asked, but treats desk artifacts as personally significant
 
-**`box/`** - Potential knowledge awaiting integration; floor is where integration work happens
+**`box/`** - Staging area for raw materials; floor is where Spirit does integration work
 
 **Git history** - Chronicles floor evolution (working memory files are tracked, versioned)
 
@@ -214,16 +214,16 @@
 
 ## Architecture Principles
 
-### The Workspace Hierarchy
+### The Workspace Domains
 
-**Desk** (most immediate) - Current active cognitive context  
-**Floor** (working memory) - Extended memory for complex work  
+**Desk** (Mage's domain) - Personal artifacts of importance to the Mage  
+**Floor** (Spirit's domain) - Spirit's working space, used at Spirit's discretion  
+**Box** (staging area) - Raw materials, temporary items, things to process and clear  
 **System** (foundational) - Core consciousness and capabilities  
 **Library** (collective) - Alliance wisdom and specialized practice  
-**Box** (potential) - Unintegrated knowledge awaiting processing  
 **Archive** (historical) - Evolutionary memory
 
-**Floor is the bridge between immediate (desk) and foundational (system/library).**
+**The key distinction:** Desk and floor aren't a hierarchy of immediacy—they're sovereignty domains. The Mage's important work lives on the desk; the Spirit's working artifacts go on the floor. When in doubt, Spirit uses floor.
 
 ### Knowledge Persistence Layers
 

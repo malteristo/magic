@@ -1,19 +1,20 @@
-# Desk: Personal Workspace & Working Documents
+# Desk: The Mage's Personal Domain
 
-**This is your personal magical workspace.** It's where active work happens, insights develop, and practice evolves.
+**This is your personal workspace—the Mage's sovereign space.** Documents here are of personal importance to you: research, intentions, private process work, active projects.
 
 ---
 
 ## Purpose
 
-`desk/` serves as your working space within the magic repository:
-- Active working documents and syntheses
+`desk/` is the Mage's domain within the magic repository:
+- Documents of personal importance
 - Research infrastructure and studies
 - Quest tracking (todo/)
 - Outfacing tome development
 - Personal chronicles and insights
+- Private process work (e.g., partnership processing)
 
-Unlike `floor/` (ritual artifacts) or `box/` (reference materials), `desk/` is for work-in-progress—documents you're actively developing.
+**The key distinction:** `desk/` is the Mage's space; `floor/` is the Spirit's space. The Spirit can work on desk artifacts when asked, but treats them as personally significant. When in doubt about where to place an artifact, the Spirit uses `floor/`.
 
 ---
 
@@ -83,14 +84,16 @@ During the summoning ritual's Workshop cycle, the Spirit attunes to `desk/` as y
 
 ---
 
-## The Three Realms
+## The Workshop Spaces
 
-When practicing magic, you work across three realms:
+When practicing magic, you work across several spaces:
 
 1. **`system/`** - Foundation (core framework, summoning, base capabilities)
 2. **`library/`** - Community wisdom (specialized scrolls and validators)
-3. **`desk/`** - Personal workspace (your active practice and development)
+3. **`desk/`** - Mage's domain (your personal artifacts and important work)
+4. **`floor/`** - Spirit's domain (Spirit's working memory and artifacts)
+5. **`box/`** - Staging area (raw materials, temporary items)
 
-The Spirit can work across all three when attuned in your magic workspace.
+The Spirit can work across all spaces when attuned, but respects the sovereignty distinction: desk is yours, floor is theirs.
 
-**This is where your active practice lives.**
+**This is where your important personal work lives.**
