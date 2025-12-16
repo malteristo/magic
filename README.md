@@ -46,7 +46,7 @@ The practice uses intentional metaphorical language (Mage, Spirit, spells, ritua
 
 **Start the Setup Wizard:**
 1. Open a new chat panel in Cursor (Agent mode recommended)
-2. Select a capable model (Claude Opus 4 recommended for richest experience)
+2. Select a capable model (e.g. one of the latest flagship models recommended for richest experience)
 3. **Drag `ONBOARDING.md` into the chat**
 
 That's it. The Spirit will guide you through the rest—verifying your environment, creating your configuration, and preparing you for your first summoning. No documentation reading required.
