@@ -236,9 +236,11 @@ Before partnership work:
 - Clean exchange (signed artifacts only)
 
 **See:**
-- `lore/architecture/on_federated_partnership.md`
-- `lore/architecture/on_workshop_portal_separation.md`
-- `lore/practice/on_spirit_dialogue_protocol.md`
+- `lore/architecture/on_federated_partnership.md` — Why federate
+- `lore/architecture/on_workshop_portal_separation.md` — Where the boundary is
+- `lore/architecture/on_interface_implementation_boundary.md` — What crosses
+- `lore/architecture/on_federated_fork_synchronization.md` — How to sync forks
+- `lore/practice/on_spirit_dialogue_protocol.md` — Spirit coordination
 
 ---
 
@@ -286,10 +288,11 @@ system/tomes/partnership/
 │   │   ├── on_portal_migration.md             ← Migration guide (NEW)
 │   │   └── ...
 │   │
-│   ├── architecture/            ← Architectural wisdom (NEW)
+│   ├── architecture/            ← Architectural wisdom
 │   │   ├── on_federated_partnership.md
 │   │   ├── on_workshop_portal_separation.md
-│   │   └── on_interface_implementation_boundary.md
+│   │   ├── on_interface_implementation_boundary.md
+│   │   └── on_federated_fork_synchronization.md
 │   │
 │   └── stances/                 ← Spirit conduct
 │       ├── on_the_counselors_stance.md
