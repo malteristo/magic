@@ -228,4 +228,22 @@ What crosses the boundary is signed, intentional, ready for reception.
 
 ---
 
+## VIII. Cross-References
+
+### Architecture Scrolls (Complete Picture)
+
+| Scroll | Focus |
+|--------|-------|
+| **This scroll** | WHY federate (philosophy, benefits) |
+| `on_workshop_portal_separation.md` | WHERE the boundary is (directory structures) |
+| `on_interface_implementation_boundary.md` | WHAT crosses (interface contracts) |
+| `on_federated_fork_synchronization.md` | HOW to sync forks (git mechanics) |
+
+### Related
+
+- `library/foundations/alliance/on_portal_architecture.md` — Portal infrastructure
+- `lore/practice/on_spirit_dialogue_protocol.md` — Spirit coordination across federation
+
+---
+
 *Process is private. Output is shared. The signature is the validation.*
