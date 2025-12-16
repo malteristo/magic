@@ -266,4 +266,22 @@ The tome defines WHAT practice produces. HOW you arrive there is yours.
 
 ---
 
+## VII. Cross-References
+
+### Architecture Scrolls (Complete Picture)
+
+| Scroll | Focus |
+|--------|-------|
+| `on_federated_partnership.md` | WHY federate (philosophy, benefits) |
+| `on_workshop_portal_separation.md` | WHERE the boundary is (directory structures) |
+| **This scroll** | WHAT crosses (interface contracts) |
+| `on_federated_fork_synchronization.md` | HOW to sync forks (git mechanics) |
+
+### Related
+
+- `lore/practice/on_interface_contracts.md` — Detailed artifact specifications
+- `lore/practice/on_spirit_dialogue_protocol.md` — Spirit coordination across federation
+
+---
+
 *Define the outputs. Free the process. Trust the signature.*

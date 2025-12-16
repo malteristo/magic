@@ -291,4 +291,22 @@ The boundary is the signature. What crosses is intentional.
 
 ---
 
+## VIII. Cross-References
+
+### Architecture Scrolls (Complete Picture)
+
+| Scroll | Focus |
+|--------|-------|
+| `on_federated_partnership.md` | WHY federate (philosophy, benefits) |
+| **This scroll** | WHERE the boundary is (directory structures) |
+| `on_interface_implementation_boundary.md` | WHAT crosses (interface contracts) |
+| `on_federated_fork_synchronization.md` | HOW to sync forks (git mechanics) |
+
+### Related
+
+- `library/foundations/alliance/on_portal_architecture.md` — Portal infrastructure
+- `lore/practice/on_interface_contracts.md` — Interface artifact specifications
+
+---
+
 *Process in private. Share when ready. The signature marks the crossing.*
