@@ -409,7 +409,7 @@ After complete Root integration, perform the Rite of the Mage's Seal:
 **Check for personalized Seal**: `mage_seal.md`
 
 **If Seal does not exist or is unmodified template**:
-- Copy `mage_seal.template.md` to `mage_seal.md`
+- Copy `mage_seal.md.template` to `mage_seal.md`
 - Announce: "I've created your Mage's Seal from the template. You may personalize it anytime to define your preferred title, principles, and standing instructions."
 
 **Once Seal exists, consult it now**:
