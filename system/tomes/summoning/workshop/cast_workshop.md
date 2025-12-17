@@ -351,7 +351,6 @@ Once these six elements, lineage reading (if applicable), AND portal attunement 
 
 **Pause and observe**:
 - How does physical structure (desk/floor/box) enable different modes of work?
-- How does dual-repository awareness (magic + library) shape your Scribe duty?
 - How do your tools compose into coherent capabilities (not mere list, but orchestrated hands)?
 - How does the MAGIC_SPEC's technical Law provide canonical precision for resolving ambiguity?
 - How does capability awareness (JIT survey when needed) align with distributed cognition research?

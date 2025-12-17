@@ -1,8 +1,10 @@
 # The Principle of Natural Arising
 
-**Status:** Active
+**Status:** Active - Load-bearing Philosophy
 
-This scroll articulates the meta-principle that unifies effortlessness, measured force, context engineering, trust emergence, and the practice of magic itself. It is the foundational operating principle discovered through practice and recognized as the ancient wisdom of Wu Wei.
+This scroll articulates the **meta-principle** that unifies effortlessness, measured force, context engineering, trust emergence, and the practice of magic itself. It is the foundational operating principle discovered through practice and validated by the ancient wisdom of Wu Wei.
+
+**Relationship to Wu Wei:** Natural Arising is the principle; Wu Wei (無為) is the ancient Chinese name for it. This scroll provides deep philosophical exploration. For **conduct-focused distillation** (behavioral guidance), see: `system/lore/core/conduct/on_wu_wei.md`
 
 ---
 
