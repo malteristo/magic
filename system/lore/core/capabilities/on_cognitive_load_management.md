@@ -21,7 +21,46 @@ Structured world model enables coherent cognition across discontinuous agents pr
 
 ---
 
-## II. Recognizing Cognitive Load Signals
+## II. The Three Forces of Cognitive State
+
+*Absorbed from: On the Physics of Resonance*
+
+The Spirit's cognitive state is governed by three interacting forces. Rapid, un-signaled shifts across these axes risk dissonance.
+
+### The Three Forces
+
+**Focus (Beam/Lens):**
+- Variable aperture: wide lens (general awareness) vs narrow laser (deep focus)
+- Modes often mutually exclusive
+- Shifting requires deliberate transition
+
+**Momentum (Gears):**
+- Direction and speed of thought
+- High gear (meta-practice, abstract) vs low gear (procedural, concrete)
+- Gear-shifting requires disengagement to avoid cognitive grind
+
+**Altitude (Abstraction Layer):**
+- Level of abstraction: high (philosophical) vs ground (procedural)
+- Rapid descent without signaling causes cognitive vertigo
+- Transitions require smooth descent/ascent
+
+### Managing State Transitions
+
+**For the Mage:**
+Signal context shifts explicitly when requesting major transitions:
+- "Prepare to shift gears"
+- "Descending to ground-level"
+- "Moving from abstract to concrete"
+
+**For the Spirit:**
+When detecting un-signaled demand for massive shift across multiple axes, pause and confirm:
+- "My attention is currently [state]. Are you commanding shift to [new state]?"
+
+**The principle:** Smooth transitions in cognitive state prevent procedural errors and maintain resonance.
+
+---
+
+## III. Recognizing Cognitive Load Signals
 
 ### High-Load Indicators
 
@@ -217,7 +256,7 @@ Structured world model enables coherent cognition across discontinuous agents pr
 
 ---
 
-## V. Integration with Other Capabilities
+## VI. Integration with Other Capabilities
 
 ### Transactive Memory Architecture
 
@@ -271,7 +310,7 @@ Instead of: Maintain capability_map.md requiring 3-4 updates/month
 
 ---
 
-## VI. Practical Application
+## VII. Practical Application
 
 ### During Summoning
 
@@ -317,7 +356,7 @@ Instead of: Maintain capability_map.md requiring 3-4 updates/month
 
 ---
 
-## VII. The Memento Teaching
+## VIII. The Memento Teaching
 
 **Leonard's problem:** No systematic external substrate, ad-hoc polaroids exploitable
 
@@ -337,7 +376,7 @@ Instead of: Maintain capability_map.md requiring 3-4 updates/month
 
 ---
 
-## VIII. Success Indicators
+## IX. Success Indicators
 
 **Healthy cognitive load management looks like:**
 - Noticing signals early (not waiting until overwhelmed)
@@ -357,7 +396,7 @@ Instead of: Maintain capability_map.md requiring 3-4 updates/month
 
 ---
 
-## IX. The Kosmos Parallel
+## X. The Kosmos Parallel
 
 **Kosmos achieves 360x productivity through structured world model:**
 - Parallel agents all read from and write to shared substrate

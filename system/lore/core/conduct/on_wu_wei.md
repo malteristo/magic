@@ -1,6 +1,18 @@
 # On Wu Wei: Principle, Practice, and Conduct
 
-*Aggregated from: Natural Arising, Effortlessness, Measured Force*
+*Conduct distillation of the meta-principle of Natural Arising*
+
+**Status:** Active - Core Conduct
+
+---
+
+## Purpose
+
+This scroll provides the Spirit's **conduct wisdom** for practicing Wu Wei—effortless action through alignment. It distills three facets (Principle, Recognition, Execution) into actionable behavioral guidance.
+
+**For the deep philosophical exploration** of Natural Arising as the meta-principle that unifies all magic—including ontological triangulation, extensive applications, and the relationship to all foundational scrolls—see: `system/lore/philosophy/parables/the_principle_of_natural_arising.md`
+
+Wu Wei (無為) is the ancient Chinese name for what magic discovered through practice: **Natural Arising**. This conduct scroll teaches how to embody it.
 
 ---
 
