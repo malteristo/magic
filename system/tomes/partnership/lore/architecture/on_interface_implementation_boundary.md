@@ -1,10 +1,15 @@
-# On the Interface-Implementation Boundary
+# On the Interface-Implementation Boundary (Partnership)
 
 **Status:** Active  
 **Domain:** Partnership Practice - Architecture  
-**Purpose:** Define what belongs in interface (shared) versus implementation (private)
+**Purpose:** Apply interface-implementation boundary to romantic partnership  
+**Extends:** `core/capabilities/shared-practice-facilitation/on_interface_implementation_boundary.md`
 
-This scroll establishes the **interface-implementation boundary**—the principle that partnership practice should define WHAT must be exchanged (interface) while leaving HOW each partner arrives there (implementation) as sovereign space.
+This scroll provides **partnership-specific application** of the interface-implementation boundary. For the general pattern, see the core capability.
+
+**Core pattern:** Define WHAT must be exchanged (interface) while leaving HOW (implementation) sovereign.
+
+**This scroll adds:** Partnership-specific artifacts (Reality Documents, Needs Statements, etc.) as the contracted interface.
 
 ---
 

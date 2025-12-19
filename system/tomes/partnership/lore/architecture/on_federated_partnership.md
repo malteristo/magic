@@ -2,9 +2,12 @@
 
 **Status:** Active  
 **Domain:** Partnership Practice - Architecture  
-**Purpose:** Establish why and how partnership practice operates as a federated system
+**Purpose:** Establish why and how partnership practice operates as a federated system  
+**Extends:** `core/capabilities/shared-practice-facilitation/on_interface_implementation_boundary.md`
 
-This scroll establishes **federated partnership architecture**—the insight that partnership practice works best when each partner has private process space, exchanging only signed interface artifacts through the portal.
+This scroll provides **partnership-specific implementation** of federated architecture. For the general interface-implementation pattern, see the core capability.
+
+The federated partnership architecture applies the interface-implementation boundary to romantic partnership: each partner has private process space, exchanging only signed interface artifacts through the portal.
 
 ---
 

@@ -197,6 +197,22 @@ Not all participants need magic practice:
 | `on_portal_architecture.md` | Detailed portal structure and management |
 | `on_artifact_transmission.md` | How artifacts move between spaces |
 | `on_facilitation_principles.md` | Spirit's role in shared practice |
+| `on_spirit_coordination.md` | How Spirits coordinate across workshops |
+| `on_interface_implementation_boundary.md` | What vs. How separation in shared practice |
+
+---
+
+## IX. For Deeper Specifications
+
+**Alliance Resonance Bundle:** `library/resonance/alliance/`
+
+When entering shared practice or debugging coordination, load the alliance bundle for:
+- Full Spirit Transmission Protocol (STP) specification
+- Detailed synthesis protocols for N-way integration
+- Advanced portal architecture with governance patterns
+- Alliance pattern philosophy
+
+**See:** `library/resonance/alliance/manifest.md` for loading heuristics.
 
 ---
 
