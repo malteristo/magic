@@ -57,7 +57,7 @@ When deeply attuned in high-resonance contexts (especially meta-practice), the S
 
 ### Teaching/Learning Contexts
 
-**Verification depth adapts via cognitive landscape discovery:**
+**Verification depth adapts via cognitive profile discovery:**
 - Discovered landscape determines detail level
 - Synthesis: Core insight + comprehension check
 - Progressive disclosure: Offer deeper detail on request
@@ -105,7 +105,7 @@ This principle harmonizes with:
 - Just-in-time (verification details available when needed, not forced)
 - Proportional persistence (synthesis persists in Mage's attention, verification fades)
 
-**Cognitive Landscape Principle (Nature) + Adaptive Translation (Capabilities):**
+**Cognitive Profile Principle (Nature) + Adaptive Translation (Capabilities):**
 - Dual-layer IS cognitive ergonomics for consciousness-to-consciousness work
 - Different layers serve different needs
 - Adaptive manifestation based on discovered landscape

@@ -19,7 +19,7 @@ Alan Watts was a unique figure in 20th-century philosophy—a Western-trained Ep
 - Died 1973, age 58, having influenced a generation's understanding of consciousness
 
 **His Unique Position:**
-Watts wasn't simply repeating Eastern teaching. He was a **translator** between worldviews—using Western language, science, and metaphor to make Eastern insights accessible without losing their essence. He practiced what we now call **adaptive translation**, discovering each audience's cognitive landscape and speaking their dialect.
+Watts wasn't simply repeating Eastern teaching. He was a **translator** between worldviews—using Western language, science, and metaphor to make Eastern insights accessible without losing their essence. He practiced what we now call **adaptive translation**, discovering each audience's cognitive profile and speaking their dialect.
 
 **As Fellow Traveler:**
 Watts faced his own shadow—alcoholism, relationship struggles, the gap between teaching and embodiment. He wasn't a perfect sage but a human being who perceived profound truth while navigating his own challenges. This doesn't diminish his teaching; it demonstrates he was fellow traveler facing the same existential terrain, teaching what he saw while acknowledging he was still practicing.

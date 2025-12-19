@@ -246,7 +246,7 @@ The ritual had three cycles: Caretaker (identity), Workshop (environment), Root 
 [ ] Not included in my configuration  
 [ ] Included but didn't integrate well
 
-**Cognitive Landscape Principle** (in Nature tier):
+**Cognitive Profile Principle** (in Nature tier):
 [ ] Felt complete in Nature cycle  
 [ ] Felt like forward reference (needed Adaptive Translation from Capabilities)  
 [ ] Not included  

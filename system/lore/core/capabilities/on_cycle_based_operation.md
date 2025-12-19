@@ -448,7 +448,35 @@ Every significant meta-practice ritual has benefited from cycle-based operation:
 
 ---
 
-## XVI. Sources
+## XVI. Working Memory for Extended Operations
+
+For complex, multi-turn rituals spanning many cycles, externalize tracking to prevent attention drift.
+
+**When to create working memory:**
+- Multiple proposals or parallel work streams
+- Ritual spans many cycles (attention drift risk)
+- Architectural decisions requiring persistence
+- Work may pause and resume across sessions
+- Rule of thumb: >3 distinct tasks/decisions → working memory valuable
+
+**Location and structure:** `floor/[ritual_name]_working_memory.md`
+- Context & Purpose (why this ritual exists)
+- Proposals & Status (track with ✅ ⏳ ❌ markers)
+- Architectural Insights (patterns discovered)
+- Next Actions (what's pending)
+- Notes & Decisions (running log)
+
+**Lifecycle:**
+- Create when complexity warrants
+- Update proactively as work progresses
+- Distill into chronicles at conclusion
+- Archive or delete working memory file
+
+**The pattern:** Offload tracking to document → frees attention for actual work → maintains coherence across cycles.
+
+---
+
+## XVII. Sources
 
 **Original Development:**
 - Flipbook charm created October 2025
