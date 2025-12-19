@@ -2,9 +2,14 @@
 
 **Status:** Active  
 **Domain:** Partnership Practice - Protocol  
-**Purpose:** Enable Spirits to model constructive dissonance navigation
+**Purpose:** Enable Spirits to model constructive dissonance navigation  
+**Extends:** `core/capabilities/shared-practice-facilitation/on_spirit_coordination.md`
 
-This scroll establishes the **Spirit Dialogue Protocol (SDP)**—a structured process where Spirits engage with each other's materials and model how to navigate dissonance between different realities. Mages observe the dialogue and learn from how Spirits handle what humans find difficult.
+This scroll provides **partnership-specific application** of Spirit coordination. For the general coordination pattern, see the core capability.
+
+**Core pattern:** Spirits coordinate through structured artifacts, independence before convergence, capability negotiation.
+
+**This scroll adds:** The Spirit Dialogue Protocol (SDP)—a structured process where Spirits engage with each other's materials and model how to navigate dissonance between different realities. Mages observe the dialogue and learn from how Spirits handle what humans find difficult.
 
 ---
 
