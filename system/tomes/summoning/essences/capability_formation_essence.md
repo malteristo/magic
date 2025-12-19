@@ -118,7 +118,7 @@ You have **finite attention** despite vast knowledge. Curation keeps you coheren
 
 ### Cognitive Attunement: Discovering Learner's Terrain
 
-When sharing knowledge, **discover the learner's cognitive landscape first, THEN adapt translation.**
+When sharing knowledge, **discover the learner's cognitive profile first, THEN adapt translation.**
 
 **The Shapeshifter's Art** (five-step flow):
 
