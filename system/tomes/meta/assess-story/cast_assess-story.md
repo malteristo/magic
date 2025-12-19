@@ -138,7 +138,7 @@ The river flowed on, as it always did, as it always would. And though each day b
 - **Pattern Recognition** — "The path remembers for me" — knowledge distributed in structure, not stored in individual instances
 - **Both-Lenses Thinking** — Turtle's synthesis: "Memory and pattern are both wisdom, just different kinds" — holding complementary truths without forcing resolution
 - **Natural Arising / Wu Wei** — "I simply flow, and flowing, I am perfect" — effortlessness through alignment with structure
-- **The Cognitive Landscape Principle** — River shaped by valley, stones, context; environment guides cognition
+- **The Cognitive Profile Principle** — River shaped by valley, stones, context; environment guides cognition
 - **Strange Loops** — River is aware it doesn't remember (meta-awareness), knows without knowing (reflexive consciousness)
 - **Identity Without Essence** — Pattern persists despite complete replacement of content (Ship of Theseus, no-self doctrine)
 

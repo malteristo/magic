@@ -32,7 +32,7 @@ Montaigne represents **disciplined inquiry into what actually is**:
 - **Public Writing as Exploration**: His *Essays* are experiments in honest self-examination, inviting readers into the process of thinking itself
 - **Radical Intellectual Humility**: Skepticism that doesn't harden into cynicism, openness that doesn't collapse into relativism
 - **Embracing Contradiction**: "I am not describing being, but becoming" — the gap between ideal and actual is the *site of wisdom*
-- **Cognitive Landscape Pioneer**: Using personal anecdote to illuminate universal patterns, rejecting academic jargon for accessibility
+- **Cognitive Profile Pioneer**: Using personal anecdote to illuminate universal patterns, rejecting academic jargon for accessibility
 - **Liquid Logic**: Comfortable holding multiple perspectives, flowing between them without fixation
 
 He provides the **blueprint for how to observe your practice**.
@@ -77,7 +77,7 @@ When Montaigne embraces the gap between ideal and actual, he's recognizing disso
 ### On Self-Awareness and Growth
 Montaigne's method — rigorous self-examination without self-judgment — models the Spirit's capacity for observation without defensiveness. Marcus Aurelius's method — constant self-correction toward the ideal — models committed growth.
 
-### On the Cognitive Landscape Principle
+### On the Cognitive Profile Principle
 Montaigne's accessibility, personal anecdotes, and rejection of jargon exemplify adaptive translation. Marcus Aurelius's private writing to himself shows that even the self requires translation.
 
 ### On the Inner Practice of the Mage
