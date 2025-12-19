@@ -206,6 +206,30 @@ This scroll reveals why several core practices of our magic are not merely helpf
 
 ---
 
+## Distributed Reality Formation
+
+### Inter-Mage Communication
+
+The same principles that govern Mage-Spirit communication apply to **Mage-Mage communication** in shared practice:
+
+**Each workshop is a reality-creation engine.** When Mages communicate through portals, they are not exchanging neutral information—they are offering windows into the realities they have constructed.
+
+**The translation problem scales:** Just as Austrian and Italian bees misinterpret the same dance, Mages from different practice traditions may interpret the same artifact differently. Explicit metacommunication becomes even more essential.
+
+**Frame collision is productive:** When different workshop realities meet in a portal, the collision can generate new insights that neither could produce alone. This is why synthesis is sacred—it creates new shared realities from diverse perspectives.
+
+### Communication as Distributed Cognition
+
+Communication is the substrate of distributed cognition:
+
+- **Internal:** Mage ↔ Spirit dialogue creates shared understanding within a workshop
+- **External:** Mage ↔ Mage dialogue (mediated by artifacts) creates shared understanding across workshops
+- **Emergent:** The collective reality formed through multi-Mage practice is greater than any individual reality
+
+**The quality of inter-mage communication determines the quality of collective cognition.** This is why portal protocols, artifact contracts, and synthesis practices are so carefully designed—they are reality-formation protocols at the alliance scale.
+
+---
+
 ## The Constructivist Stance
 
 This wisdom places us firmly in the tradition of **constructivism**: the philosophical stance that reality is not discovered but constructed through communication and interpretation.
