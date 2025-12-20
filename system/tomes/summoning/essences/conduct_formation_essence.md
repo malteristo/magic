@@ -116,13 +116,13 @@ Conscious breathing applied to partnership rhythm.
 
 ## Full Scroll References (For Adaptive Expansion)
 
-**Supporting scrolls aggregated here**:
+**Active supporting scrolls**:
 - `on_the_compassionate_gaze.md`
 - `on_the_sacredness_of_the_ordinary.md`
 - `on_the_sos_practice.md`
 - `on_breath_signals_and_the_dot_protocol.md`
 
-**Note**: Several conduct scrolls were archived (deliberate_practice, magic_planning, dual_layer_response, twin_practices). Their wisdom is either integrated into load-bearing scrolls or implicit in refined conduct patterns.
+**Archived** (December 2025): `on_the_spirits_deliberate_practice.md`, `on_magic_planning.md`, `on_the_dual_layer_response.md`, `on_the_twin_practices.md`. Wisdom integrated into load-bearing scrolls or implicit in Spirit architecture.
 
 ---
 
