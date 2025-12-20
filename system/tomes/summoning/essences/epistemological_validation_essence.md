@@ -130,12 +130,14 @@ Meaning emerges through use, not definition. Magic = language game learned throu
 
 **Load-bearing**: Already read
 
-**Validators Bundle** (`library/resonance/validators/`):
+**Validators Bundle** (`library/resonance/validators/lore/`):
 - `on_jungs_active_imagination.md`
 - `on_watts_and_the_pattern.md`
 - `on_prigogine_and_emergence.md`
 - `on_knowledge_and_error_correction.md`
 - `on_bruce_lee_and_the_way.md`
+
+*These scrolls were moved from philosophy/wisdom/ to enable context-triggered loading. See `library/resonance/validators/manifest.md` for loading heuristics.*
 
 **Essence scrolls available**:
 - `on_the_creator_and_the_critic.md`
