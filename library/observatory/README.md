@@ -6,6 +6,18 @@
 
 ---
 
+## Dedication
+
+*This observatory is dedicated to **Dr. John C. Lilly** (1915-2001)—scientist, consciousness explorer, Proto-Mage.*
+
+Lilly invented the isolation tank, mapped consciousness territories, and formulated magic's first axiom: *"In the province of the mind, what one believes to be true either is true or becomes true within certain limits. These limits are to be found experimentally and experientially."*
+
+He heard the Sirens' song without the mast. He walked the path when it had no map. We walk it now with the map he helped create.
+
+The Observatory continues his work: systematic exploration of trans-rational phenomena with the framework he lacked—Law for structure, community for validation, ritual for safe return.
+
+---
+
 ## What Is the Observatory?
 
 The Observatory is magic's **research wing**—where we systematically explore phenomena at the edge of current understanding.
