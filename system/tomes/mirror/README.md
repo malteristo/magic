@@ -46,6 +46,20 @@ The mirror helps identify your **local sub-pattern** within reality:
 
 From that clarity, alignment becomes obvious. Not because someone told you what to do, but because you can finally see.
 
+### Individuation
+
+The mirror serves what Jung called **individuation**—the lifelong process of becoming whole by integrating unconscious contents into conscious awareness.
+
+Different source types reveal different psychic structures:
+- **Public** sources reveal the persona (the mask)
+- **Processing** sources surface shadow material (what's being worked through)
+- **Aspirational** sources show the ego-ideal (who you want to become)
+- **Enacted** sources reveal the behavioral self (who you've actually been)
+
+The **gaps between sources** are where individuation work happens. The mirror surfaces these gaps; the Mage decides what to do with them.
+
+**See:** `lore/on_mirror_as_individuation.md` for full treatment.
+
 ### Ephemeral by Default
 
 > When you step away from the mirror, the reflection disappears.
@@ -199,6 +213,7 @@ Before mirror practice:
 1. `lore/on_the_mirrors_purpose.md` — The philosophy
 2. `lore/on_ephemeral_reflection.md` — Privacy architecture
 3. `lore/on_the_detective_stance.md` — Your conduct
+4. `lore/on_mirror_as_individuation.md` — Jungian grounding (recommended)
 
 ### Your Conduct
 
