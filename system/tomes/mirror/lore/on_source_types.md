@@ -16,6 +16,22 @@ A journal shows how you experience life directly.
 
 ---
 
+## Jungian Parallel
+
+These source types loosely map to Jung's psychic structures:
+
+| Source Type | Jungian Parallel |
+|-------------|------------------|
+| **Public** | Persona (the mask) |
+| **Processing** | Shadow territory (what's being worked through) |
+| **Aspirational** | Ego-ideal (who you want to become) |
+| **Enacted** | Behavioral self (who you've actually been) |
+| **Direct** | Conscious experience (ego-level awareness) |
+
+The **gaps between sources** reveal where individuation work is needed. See `on_mirror_as_individuation.md` for full treatment.
+
+---
+
 ## The Five Types
 
 ### Aspirational
