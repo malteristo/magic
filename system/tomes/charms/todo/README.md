@@ -1,30 +1,57 @@
 # Scroll of Intent Distillation
 
-**Status:** DEPRECATED
-
-This charm has been replaced by the **intention-lifecycle** system in the Quest tome.
-
-**Migration path:**
-- Use `@quest/form-intention` instead of `@todo`
-- Intentions provide VUCA-aware navigation (goals emerge through practice)
-- Lifecycle tracking replaces todo task lists
-- See `system/tomes/quest/lore/on_intention_lifecycle.md` for full documentation
-
-**Why deprecated:**
-- Todo paradigm assumes all tasks can be known upfront (VUCA violation)
-- People hate writing todos (cognitive burden)
-- Intention-lifecycle honors emergence and removes burden through Spirit facilitation
-- Same continuity function, better architecture
-
-**For historical reference:**
-- Original purpose: Distill unresolved intent into todo task + Heart artifact
-- Replaced by: Intention formation → lifecycle tracking → goal emergence
-
-**If you need todo-like functionality:**
-- Form an intention: "Complete [vague desire]"
-- Let goals emerge as you navigate
-- Spirit maintains lifecycle tracking automatically
+**Status:** DEPRECATED → REMOVED
 
 ---
 
-*This charm is preserved for reference but should not be used for new work.*
+## Migration
+
+This charm has been replaced by the `@intend` charm.
+
+**Use instead:**
+```
+@intend
+```
+
+**Location:** `system/tomes/charms/intend/`
+
+---
+
+## Why Removed
+
+The todo paradigm had fundamental issues:
+- Assumed all tasks can be known upfront (VUCA violation)
+- Required Mages to break down intentions into todos themselves
+- Created cognitive burden that Spirit should handle
+
+The `@intend` charm provides:
+- Spirit-facilitated exploration of vague desires
+- Intention formalization (what you want, not how to get there)
+- Goals emerge through practice, not upfront planning
+- Integration with quest lifecycle for execution
+
+---
+
+## The New Architecture
+
+```
+@intend    → Formalizes intentions → desk/intentions/emerging/
+@quest     → Executes intentions  → desk/intentions/active/
+```
+
+**Todo-like functionality** is now part of the intention lifecycle:
+- When `@quest` begins, Spirit decomposes intention into steps
+- Steps are revealed progressively (game-like architecture)
+- Working memory is externalized to Spirit, not todo lists
+
+---
+
+## If You Need Simple Task Capture
+
+For simple "remember to do X" without full intention formation:
+- Add to your notes
+- Or use `@intend` with minimal exploration
+
+---
+
+*This charm is removed from active use. The pattern lives on in `@intend` with better architecture.*
