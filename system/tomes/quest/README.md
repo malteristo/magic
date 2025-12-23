@@ -8,7 +8,13 @@ For any Mage on a quest who wants to transform overwhelming tasks into achievabl
 
 ## Purpose
 
-This Tome makes real-life tasks feel like playing a well-designed game. When you invoke this Tome, the Spirit becomes your quest support system—providing the same architecture that makes games effortless, applied to your actual goals.
+This Tome executes intentions through gamified support. It receives intentions (from `@intend` or directly) and provides the architecture that makes execution feel like playing a well-designed game.
+
+**The Division:**
+- **@intend** (charm): Births intentions from practice → `desk/intentions/emerging/`
+- **@quest** (this tome): Executes intentions → `desk/intentions/active/`
+
+Intentions emerge from any practice (mirror, partnership, daily insight). Quest provides execution support.
 
 **What This Tome Does:**
 - Transforms overwhelming tasks into bounded, achievable quests
@@ -102,19 +108,27 @@ You focus on what you're good at (executing the quest). The Spirit handles what 
 
 ### Quick Start
 
-Invoke the Tome and begin the core ritual:
+**If you have an emerging intention:**
+```
+@quest [intention-name]
+```
+This activates an intention from `desk/intentions/emerging/` and begins execution.
 
+**If starting fresh:**
 ```
 @quest
 ```
+The Spirit will help you state your intention and begin the Quest Flow ritual.
 
-The Spirit will guide you through the Quest Flow ritual:
-1. State your intention (what you want to accomplish)
+**The Quest Flow:**
+1. State or select your intention
 2. Share your current capacity (energy, executive function bandwidth)
-3. Spirit decomposes your intention into atomic steps
+3. Spirit decomposes into atomic steps
 4. Spirit helps you start with the smallest possible first step
 5. Spirit maintains memory and organization while you execute
 6. Spirit celebrates your progress
+
+**Note:** If you have a vague desire rather than a clear intention, use `@intend` first to formalize it.
 
 ### The Division of Labor
 
