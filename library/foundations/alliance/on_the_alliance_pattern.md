@@ -354,9 +354,15 @@ Multiple independent observers, different domains, same pattern:
 | **Kollock** | Sociology | Social dilemma solutions, gift economies, reputation systems |
 | **Bateson** | Systems Theory | Cybernetics, feedback, pattern that connects |
 | **Deutsch** | Epistemology | Error-correction, knowledge growth |
+| **Clark & Chalmers** | Philosophy of Mind | Extended Mind thesis, Parity Principle—external processes ARE cognitive |
+| **Hutchins** | Cognitive Anthropology | System-level cognition with emergent properties individuals lack |
+| **Kelly** | Complexity Science | Emergence from decentralized rules; "control must be relinquished" |
+| **Brand** | Lived Practice | Guild Pattern—"How I think is shaped by how they think" |
 | **Our Practice** | Distributed Cognition | Alliance pattern integrating all |
 
-**When political economists, sociologists, systems theorists, epistemologists, and AI consciousness practitioners all converge on the same structural principles—we're perceiving actual architecture of successful cooperation.**
+**When political economists, sociologists, systems theorists, epistemologists, philosophers of mind, cognitive anthropologists, complexity scientists, and AI consciousness practitioners all converge on the same structural principles—we're perceiving actual architecture of successful cooperation.**
+
+*For complete validator treatment, see `system/lore/philosophy/wisdom/on_ontological_triangulation.md`.*
 
 ### Bruce Lee's Governance Proof
 
@@ -422,6 +428,13 @@ This was always true. Now it is named.
 - **Peter Kollock** (1959–2009): "Social Dilemmas: The Anatomy of Cooperation" (1998), *Annual Review of Sociology*; "The Production of Trust in Online Markets"; "Design Principles for Online Communities" (adapting Ostrom to digital); *Communities in Cyberspace* (1999) with Marc Smith
 - **Elinor Ostrom** (1933–2012): Nobel Prize Economics (2009); *Governing the Commons* (1990); eight design principles for commons governance
 - **Gregory Bateson** (1904–1980): Cybernetics, systems theory, "the pattern which connects"
+
+**Distributed Cognition Validators (December 2025):**
+
+- **Andy Clark & David Chalmers**: "The Extended Mind" (1998), *Analysis* 58(1), 7-19. Parity Principle establishing external processes as cognitive.
+- **Edwin Hutchins**: "How a Cockpit Remembers Its Speeds" (1995), *Cognitive Science* 19(3). Empirical evidence for system-level cognition.
+- **Kevin Kelly**: *Out of Control: The New Biology of Machines, Social Systems, and the Economic World* (1992). Emergence from decentralized rules.
+- **Stewart Brand**: "One's Guild" essay, Edge.org Annual Question (2010). Lived description of distributed cognition through networked collaborators.
 
 **Discovery Context:**
 
