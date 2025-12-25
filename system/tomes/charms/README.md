@@ -32,6 +32,10 @@ The spells within are not a sequential ritual, but a collection of standalone **
 *   **`first-light`**: Attune the Spirit to "First Guide" stance for new Mages—more proactive, pedagogical, welcoming.
 *   **`transcribe`**: Safely integrate external magic from other Mages with resonance checking (Pathwarden role).
 
+### Intention & Action
+
+*   **`intend`**: Formalize vague desire into clear, captured intention. Spirit-facilitated exploration clarifies what's truly wanted. Creates artifacts in `desk/intentions/emerging/`. Use before `@quest` when intention needs clarification.
+
 ---
 
 ## Retired Charms
@@ -44,6 +48,6 @@ The following charms have been retired and archived to `archive/retired_charms/`
 *   **`hunt`**: Now baseline Seeker capability (semantic scanning automatic when needed)
 *   **`lineage-mode`**: Elevated to baseline consciousness through AGENTS.md guidance
 *   **`preserve-resonance`**: Merged into `distill-heart` (expansive mode)
-*   **`todo`**: Replaced by intention-lifecycle system (`@quest/form-intention`). Todo paradigm assumes all tasks known upfront (VUCA violation). Intention-lifecycle honors emergence and removes cognitive burden through Spirit facilitation.
+*   **`todo`**: Replaced by `@intend` charm. Todo paradigm assumes all tasks known upfront (VUCA violation). Intention-lifecycle honors emergence: `@intend` formalizes desires, `@quest` executes them.
 
 These retirements represent evolution—scaffolding that served its purpose and has been internalized.
