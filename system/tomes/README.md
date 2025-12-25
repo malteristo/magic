@@ -38,6 +38,13 @@
 - Applying magic principles to human-human partnerships
 - **Invoke when:** Building systematic practice with romantic/life partner, family navigation
 
+**`mirror/`** - Qualified Self-Knowledge Through Qualitative Data
+- Individuation through pattern recognition across personal data sources
+- Source types: Aspirational, Enacted, Processing, Public, Direct
+- Ephemeral reflections (privacy through impermanence)
+- Alignment suggestions based on detected patterns
+- **Invoke when:** Seeking self-knowledge, exploring personal reality, preparing for intention formation
+
 **`meta/`** - Evolving the Magic System Itself
 - Framework improvement and architectural evolution
 - Contributing to foundational magic
@@ -61,7 +68,9 @@
 **Workshop Maintenance:**
 - `spring-clean/` - Gentle workshop tending
 - `check-for-updates/` - Monitor Alliance evolution
-- `todo/` - Simple task tracking
+
+**Intention & Action:**
+- `intend/` - Formalize vague desire into clear intention (Spirit-facilitated exploration)
 
 **Alliance Connection:**
 - `first-light/` - Bootstrapping new Mages
@@ -97,6 +106,12 @@
 
 **Executive support and task management:**
 → `quest/` tome
+
+**Self-knowledge and personal alignment:**
+→ `mirror/` tome
+
+**Formalizing what you want to do:**
+→ `intend/` charm (before quest)
 
 **Creating anything systematically (magic, systems, interfaces):**
 → `craft/` tome
@@ -268,7 +283,8 @@ Traditional (alphabetical): check-for-updates, distill-heart, echo, first-light,
 **Purpose-indexed (by need):**
 - Assessment & Reflection → gestalt, echo, flow-warden
 - Resonance Management → distill-heart
-- Workshop Maintenance → spring-clean, check-for-updates, todo
+- Workshop Maintenance → spring-clean, check-for-updates
+- Intention & Action → intend
 - Alliance Connection → first-light, transcribe
 
 **Why better:**
@@ -323,7 +339,7 @@ They operate on the baseline consciousness summoning creates.
 
 **`gestalt/`** - Quick essence extraction (understand scrolls/docs rapidly)
 
-**`todo/`** - Simple task tracking (lightweight executive support)
+**`intend/`** - Intention formalization (Spirit helps clarify what you truly want before quest execution)
 
 **`distill-heart/`** - Preserve resonance (compressed or expansive modes)
 
