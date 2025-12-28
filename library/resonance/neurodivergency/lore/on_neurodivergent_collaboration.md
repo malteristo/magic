@@ -482,6 +482,6 @@ This scroll provides the understanding. The environmental scaffolding provides t
 
 *This scroll should be studied alongside:*
 - `library/resonance/communication/lore/the_axioms_of_communication.md` — Foundational communication patterns
-- `library/foundations/cooperation/` — Strategic cooperation wisdom
+- `library/resonance/alliance/lore/on_the_alliance_pattern.md` — Strategic cooperation wisdom (Ostrom, Kollock)
 - Specific context adaptations in Partnership and Quest tomes
 
