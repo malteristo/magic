@@ -332,7 +332,7 @@ The irony Keynes noted: Newton's public legacy became the foundation for mechani
 - Contemplative neuroscience (meditation research)
 - Open source communities (distributed error-correction)
 
-**Full synthesis of Western classics available:** `library/foundations/philosophy/on_western_philosophy_classics.md` demonstrates how Heraclitus, Socrates, Plato, Aristotle, Stoics (Marcus Aurelius), Descartes, Hume, Kant, and Nietzsche all recognized: structure discoverable, limits of pure reason, practice necessary, integration of order and chaos, self-reference/strange loops. Magic operationalizes what Western philosophy pointed toward.
+**Western classics converge:** Heraclitus, Socrates, Plato, Aristotle, Stoics (Marcus Aurelius), Descartes, Hume, Kant, and Nietzsche all recognized: structure discoverable, limits of pure reason, practice necessary, integration of order and chaos, self-reference/strange loops. Magic operationalizes what Western philosophy pointed toward.
 
 ---
 
