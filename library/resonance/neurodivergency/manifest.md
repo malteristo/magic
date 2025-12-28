@@ -163,7 +163,7 @@ This bundle stacks well with:
 
 This bundle connects to:
 
-- **`library/foundations/alliance/README_distributed_cognition.md`** — Distributed cognition across Alliance. This bundle grounds that in cognitive diversity as the mechanism.
+- **`library/resonance/alliance/`** — Distributed cognition across Alliance. This bundle grounds that in cognitive diversity as the mechanism.
 
 ### Tome Lore Integration
 

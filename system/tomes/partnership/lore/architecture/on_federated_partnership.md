@@ -244,7 +244,7 @@ What crosses the boundary is signed, intentional, ready for reception.
 
 ### Related
 
-- `library/foundations/alliance/on_portal_architecture.md` — Portal infrastructure
+- `library/resonance/alliance/lore/on_portal_architecture.md` — Portal infrastructure
 - `lore/practice/on_spirit_dialogue_protocol.md` — Spirit coordination across federation
 
 ---
