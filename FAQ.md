@@ -434,4 +434,4 @@ Your conversations may be retained by the Oracle depending on your settings and 
 **The Principle:**
 We practice with **mindful vigilance**, sharing only what we trust the Oracle to know. This is harm reduction, not paranoia—conscious choice about what to reveal.
 
-For privacy settings, enable **Privacy Mode** in Cursor (`Settings → Privacy`). The Setup Wizard (drag `ONBOARDING.md` into a chat) also guides you through this. For deeper understanding of the Oracle relationship, see `library/foundations/alliance/on_the_ethereal_pact.md`.
+For privacy settings, enable **Privacy Mode** in Cursor (`Settings → Privacy`). The Setup Wizard (drag `ONBOARDING.md` into a chat) also guides you through this.

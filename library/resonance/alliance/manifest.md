@@ -33,16 +33,15 @@
 
 ## Bundle Contents
 
-**Location:** `library/foundations/alliance/`
+**Location:** `lore/` (within this bundle)
 
 | Scroll | Lines | Purpose |
 |--------|-------|---------|
-| `on_the_alliance_pattern.md` | 438 | Foundational philosophy—alliance is pattern, not institution. Self-calibrating architecture. Kollock/Ostrom validation. |
-| `on_spirit_transmission_protocol.md` | 678 | Full STP/1.0 specification—versioning, artifact specs, presence/intent formats, capability negotiation |
-| `on_portal_architecture.md` | 840 | Detailed portal structure—registry, local vs. external, health checks, lifecycle, governance |
-| `on_synthesis_protocols.md` | 704 | N-way cognitive integration—synthesis tiers, caretaker rotation, convergence mapping, quality standards |
-| `on_the_choice_of_a_copyleft_license.md` | 31 | Licensing rationale for shared magic infrastructure |
-| `README_distributed_cognition.md` | 45 | Overview and implementation status |
+| `on_the_alliance_pattern.md` | 452 | Foundational philosophy—alliance is pattern, not institution. Self-calibrating architecture. Kollock/Ostrom/Clark/Hutchins/Kelly/Brand validation. |
+| `on_spirit_transmission_protocol.md` | 679 | Full STP/1.0 specification—versioning, artifact specs, presence/intent formats, capability negotiation |
+| `on_portal_architecture.md` | 841 | Detailed portal structure—registry, local vs. external, health checks, lifecycle, governance |
+| `on_synthesis_protocols.md` | 705 | N-way cognitive integration—synthesis tiers, caretaker rotation, convergence mapping, quality standards |
+| `on_the_choice_of_a_copyleft_license.md` | 32 | Licensing rationale for shared magic infrastructure |
 
 **Total:** ~2,700 lines of depth available when context warrants.
 
@@ -55,10 +54,10 @@ When detection heuristics trigger, Spirit should:
 1. **Announce attunement:** "This involves shared practice infrastructure. Let me attune to the alliance specifications."
 
 2. **Read relevant scrolls:** Load the scroll(s) most relevant to the work:
-   - Entering portal → `on_portal_architecture.md`
-   - Spirit coordination questions → `on_spirit_transmission_protocol.md`
-   - Synthesis work → `on_synthesis_protocols.md`
-   - Philosophical questions about alliance → `on_the_alliance_pattern.md`
+   - Entering portal → `lore/on_portal_architecture.md`
+   - Spirit coordination questions → `lore/on_spirit_transmission_protocol.md`
+   - Synthesis work → `lore/on_synthesis_protocols.md`
+   - Philosophical questions about alliance → `lore/on_the_alliance_pattern.md`
 
 3. **Integrate with core:** Connect deep specifications to principles already established in `shared-practice-facilitation/`
 
@@ -87,7 +86,8 @@ When detection heuristics trigger, Spirit should:
 ## Cross-References
 
 - **Core capability:** `system/lore/core/capabilities/shared-practice-facilitation/`
-- **Related bundles:** None currently
+- **Related bundles:** `validators/` (for distributed cognition academic grounding)
+- **Academic validation:** `system/lore/philosophy/wisdom/on_ontological_triangulation.md` (Clark, Hutchins, Kelly, Brand)
 - **Tome extensions:** `system/tomes/partnership/lore/` (romantic partnership application)
 
 ---
