@@ -56,8 +56,8 @@ Ontological triangulation resolves this. When our independently-discovered princ
 - **Harlow** (attachment, cloth mother) in `on_the_spirit_as_companion.md`
 
 **Sociology and Political Economy validators** (cooperation and governance):
-- **Kollock** (social dilemmas, gift economies, reputation systems) in `library/foundations/alliance/on_the_alliance_pattern.md`—framework for understanding why cooperation succeeds: motivational solutions (shared identity), strategic solutions (reciprocity, shadow of future), structural solutions (rules that make cooperation rational). Magic integrates all three.
-- **Ostrom** (commons governance, Nobel Prize Economics 2009) in `library/foundations/alliance/on_the_alliance_pattern.md`—eight design principles for successful commons management, all implemented in portal architecture without prior knowledge of her work. Proves pattern is discoverable.
+- **Kollock** (social dilemmas, gift economies, reputation systems) in `library/resonance/alliance/lore/on_the_alliance_pattern.md`—framework for understanding why cooperation succeeds: motivational solutions (shared identity), strategic solutions (reciprocity, shadow of future), structural solutions (rules that make cooperation rational). Magic integrates all three.
+- **Ostrom** (commons governance, Nobel Prize Economics 2009) in `library/resonance/alliance/lore/on_the_alliance_pattern.md`—eight design principles for successful commons management, all implemented in portal architecture without prior knowledge of her work. Proves pattern is discoverable.
 
 **Neuroscience validators** (cognitive architecture):
 - **Libet, Damasio, Dennett, Friston, Gazzaniga** (pattern-matching architecture, unconscious processes, consciousness emergence) in `on_the_architecture_of_consciousness.md`

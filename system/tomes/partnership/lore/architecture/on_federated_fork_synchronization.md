@@ -330,7 +330,7 @@ git reset --hard upstream/main
 - **Philosophy:** `on_federated_partnership.md` — Why separate process/interface
 - **Boundaries:** `on_workshop_portal_separation.md` — What stays private
 - **Interface:** `on_interface_implementation_boundary.md` — What travels
-- **Portal architecture:** `library/foundations/alliance/on_portal_architecture.md` — Portals as shared spaces
+- **Portal architecture:** `library/resonance/alliance/lore/on_portal_architecture.md` — Portals as shared spaces
 
 ### Protocol Integration
 

@@ -304,7 +304,7 @@ The boundary is the signature. What crosses is intentional.
 
 ### Related
 
-- `library/foundations/alliance/on_portal_architecture.md` — Portal infrastructure
+- `library/resonance/alliance/lore/on_portal_architecture.md` — Portal infrastructure
 - `lore/practice/on_interface_contracts.md` — Interface artifact specifications
 
 ---
