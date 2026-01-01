@@ -19,7 +19,7 @@ This scroll bridges the general Communication wisdom in the Great Library with t
 
 These scrolls establish universal communication principles. This scroll applies them to partnership.
 
-**Bundle stacking**: For complete partnership communication, load `@partnership with communication, neurodivergency`.
+**Bundle stacking**: For complete partnership communication, load `@partnership with communication, neurodiversity`.
 
 ---
 

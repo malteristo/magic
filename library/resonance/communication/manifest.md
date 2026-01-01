@@ -118,7 +118,7 @@ Different neurotypes have different communication defaults:
 - ADHD working memory affects message retention
 - Cross-neurotype partnerships need explicit translation protocols
 
-**Communication bundle + neurodivergency bundle** = Complete cross-architecture communication framework
+**Communication bundle + neurodiversity bundle** = Complete cross-architecture communication framework
 
 ### With Romantic-Partnership Bundle
 
@@ -144,7 +144,7 @@ This bundle stacks with almost everything:
 
 | Bundle | Why Stack |
 |--------|-----------|
-| `neurodivergency` | Cross-architecture communication |
+| `neurodiversity` | Cross-architecture communication |
 | `romantic-partnership` | Intimate relationship communication |
 | `safety` | High-stakes communication |
 

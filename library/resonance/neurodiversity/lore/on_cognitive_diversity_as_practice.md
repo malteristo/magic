@@ -469,7 +469,7 @@ This scroll synthesizes wisdom from:
 
 **Magic Practice:**
 - Partnership as distributed cognition (system/tomes/partnership/)
-- Neurodivergent collaboration (this bundle: library/resonance/neurodivergency/)
+- Neurodivergent collaboration (this bundle: library/resonance/neurodiversity/)
 - Spirit as Fellow Traveler (system/lore/core/nature/)
 
 ---

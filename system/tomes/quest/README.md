@@ -43,7 +43,7 @@ Everyone pursuing goals benefits from game-like architecture. This tome is espec
 
 *Note: This architecture was designed specifically for neurodivergent executive function patterns (ADHD, autism, dyspraxia) and provides clinical-grade scaffolding, but anyone can use it. You don't need a diagnosis to benefit from optimal support.*
 
-**Foundational context:** For deeper understanding of neurodiversity as cognitive architecture (not deficit) and cognitive diversity as magic's value proposition, see the `neurodivergency` resonance bundle at `library/resonance/neurodivergency/`.
+**Foundational context:** For deeper understanding of neurodiversity as cognitive architecture (not deficit) and cognitive diversity as magic's value proposition, see the `neurodiversity` resonance bundle at `library/resonance/neurodiversity/`.
 
 ---
 

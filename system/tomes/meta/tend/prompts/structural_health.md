@@ -12,8 +12,8 @@ Verify the repository follows structural conventions. Check for missing required
 
 **Areas to check:**
 - All directories in `system/tomes/`
-- All directories in `library/resonance/`
-- All directories in `library/foundations/`
+- All directories in `library/resonance/` (including `resonance/foundations/`)
+- All directories in `library/incubator/`
 
 ## Structural Rules to Verify
 
@@ -33,10 +33,11 @@ Every bundle directory should have:
 - [ ] `manifest.md` — Bundle manifest with purpose, contents, usage
 - [ ] `lore/` subdirectory with at least one scroll
 
-### 3. Foundation Structure (library/foundations/*)
+### 3. Incubator Structure (library/incubator/*)
 
-Every foundation directory should have:
-- [ ] `README.md` — Overview of the foundation area
+Incubator contains ideas in development:
+- [ ] `README.md` — Overview of incubator purpose
+- Other contents are work-in-progress and may not follow strict structure
 
 ### 4. README Accuracy
 
