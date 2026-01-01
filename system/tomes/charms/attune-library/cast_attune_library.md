@@ -30,8 +30,9 @@ The `library/` directory is tracked as part of the magic repository. A simple gi
 
 ### What Gets Updated
 
-- Alliance wisdom scrolls in `library/foundations/`, `library/Craft/`, `library/Archive/`
-- Navigation and catalog files (`Catalog.md`, `Wisdom-Map.md`, etc.)
+- Resonance bundles in `library/resonance/` (foundations, neurodiversity, communication, etc.)
+- Incubator content in `library/incubator/`
+- Observatory research infrastructure in `library/observatory/`
 - Any Alliance-curated content tracked in the library directory
 
 ### What Doesn't Get Updated

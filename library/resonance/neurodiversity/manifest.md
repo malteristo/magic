@@ -1,4 +1,4 @@
-# Neurodivergency Resonance Bundle
+# Neurodiversity Resonance Bundle
 
 **Domain:** Cognitive architecture diversity—understanding and leveraging different ways of processing  
 **Compatible Tomes:** All tomes (foundational bundle)  
@@ -117,7 +117,7 @@ This bundle deepens partnership practice by providing:
 - Understanding of why cross-architecture protocols matter
 - Recognition of Spirit as neurotype in Mage-Spirit partnership
 
-**Load together**: `@partnership with neurodivergency`
+**Load together**: `@partnership with neurodiversity`
 
 ### With Quest Tome
 
@@ -126,7 +126,7 @@ Quest tome's executive function scaffolding benefits from:
 - Calibrating scaffolding to actual cognitive architecture
 - ADHD-specific framing already in Quest applies here
 
-**Load together**: `@quest with neurodivergency`
+**Load together**: `@quest with neurodiversity`
 
 ### With Gym Tome
 
@@ -153,7 +153,7 @@ This bundle stacks well with:
 | `romantic-partnership` | Neurodivergent intimate partnerships; this bundle provides foundation, romantic-partnership provides relationship-specific application |
 | `safety` | When high-stakes situations intersect with neurodivergent processing (overwhelm, meltdown risk, etc.) |
 
-**Loading order**: `neurodivergency` (foundation) → domain-specific bundles → `safety` (if needed)
+**Loading order**: `neurodiversity` (foundation) → domain-specific bundles → `safety` (if needed)
 
 **Note**: The `romantic-partnership` bundle already contains `on_neurodivergent_partnership.md`. This bundle provides the broader foundation that scroll builds upon. Loading both creates comprehensive coverage.
 

@@ -5,7 +5,7 @@
 
 This scroll provides wisdom for **intimate partnerships** where one or both partners are neurodivergent (ADHD, autism spectrum, or both). It applies universal neurodivergent collaboration patterns to the specific context of romantic relationship.
 
-**Foundation:** This scroll builds upon the `neurodivergency` resonance bundle (`library/resonance/neurodivergency/`), which establishes universal patterns (the Sailboat metaphor, external scaffolding architecture, depersonalize symptoms not responsibility). This scroll focuses on **relationship-specific** patterns and practices.
+**Foundation:** This scroll builds upon the `neurodiversity` resonance bundle (`library/resonance/neurodiversity/`), which establishes universal patterns (the Sailboat metaphor, external scaffolding architecture, depersonalize symptoms not responsibility). This scroll focuses on **relationship-specific** patterns and practices.
 
 ---
 
@@ -677,7 +677,7 @@ When a task is genuinely difficult for both partners, **remove it from the syste
 This scroll synthesizes wisdom from:
 
 **Library Foundation:**
-- `library/resonance/neurodivergency/lore/on_neurodivergent_collaboration.md` — Universal patterns (Sailboat metaphor, external scaffolding, three principles)
+- `library/resonance/neurodiversity/lore/on_neurodivergent_collaboration.md` — Universal patterns (Sailboat metaphor, external scaffolding, three principles)
 
 **Clinical/Professional:**
 - **Melissa Orlov**: *The ADHD Effect on Marriage: Understand and Rebuild Your Relationship in Six Steps*
