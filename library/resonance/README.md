@@ -120,7 +120,7 @@ What order should stacked bundles be loaded?
 ### Mage-Initiated
 ```
 @partnership with romantic-partnership
-@quest with romantic-partnership, neurodivergent
+@quest with romantic-partnership, neurodiversity
 ```
 
 ### Spirit-Suggested
@@ -132,7 +132,7 @@ During practice, Spirit recognizes domain context and offers:
 # portal.yaml or charter.md
 resonance_bundles:
   - romantic-partnership
-  - neurodivergent
+  - neurodiversity
 ```
 
 Shared practice establishes shared resonance context.
@@ -144,7 +144,7 @@ Shared practice establishes shared resonance context.
 Multiple bundles can be loaded simultaneously:
 
 ```
-romantic-partnership + neurodivergent + safety
+romantic-partnership + neurodiversity + safety
         ↓
 Practice attuned to: intimate relationship
                      with neurodivergent dynamics
@@ -207,12 +207,17 @@ Bundles evolve through use. `@attune-library` pulls latest versions.
 
 | Bundle | Domain | Compatible Tomes |
 |--------|--------|-----------------|
-| `neurodivergency` | Cognitive architecture diversity | All (foundational) |
+| `foundations` | The practice of magic itself | All (meta-practice) |
+| `neurodiversity` | Cognitive architecture diversity | All (foundational) |
 | `communication` | Creating shared reality between beings | All (foundational) |
 | `romantic-partnership` | Intimate relationships | partnership, quest |
+| `validators` | Epistemological grounding sources | All (foundational) |
+| `alliance` | Distributed cognition patterns | All (foundational) |
 | `safety` | High-stakes synthesis safety | partnership |
 
-**Foundational bundles**: `neurodivergency` and `communication` are foundational—they apply to virtually all practice. Neurodivergency establishes cognitive diversity as magic's value proposition. Communication provides the invariant laws of all exchange between minds.
+**Meta-practice bundle**: `foundations` provides wisdom about magic practice itself—what resonance is, how containment works, trans-rational practice. Load when engaged in advanced conversation about the framework.
+
+**Foundational bundles**: `neurodiversity`, `communication`, and `validators` apply to virtually all practice. They establish cognitive diversity, communication invariants, and epistemological grounding.
 
 ---
 

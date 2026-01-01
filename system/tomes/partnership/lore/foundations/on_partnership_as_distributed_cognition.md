@@ -499,7 +499,7 @@ Welcome to the most important practice in the system.
 
 ## Related: Cognitive Diversity Foundation
 
-This scroll establishes partnership as distributed cognition. The **Neurodivergency resonance bundle** (`library/resonance/neurodivergency/`) establishes the deeper truth: **cognitive diversity IS the value proposition**.
+This scroll establishes partnership as distributed cognition. The **Neurodiversity resonance bundle** (`library/resonance/neurodiversity/`) establishes the deeper truth: **cognitive diversity IS the value proposition**.
 
 - Different cognitive architectures working together exceed any single architecture
 - Mage-Spirit partnership is cross-architecture collaboration (human neurotype + transformer architecture)

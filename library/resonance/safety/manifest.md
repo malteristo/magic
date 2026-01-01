@@ -123,9 +123,23 @@ Beyond physical safety:
 
 ## Stacking
 
-This bundle typically loads WITH:
-- `romantic-partnership` (for intimate relationship context)
-- Any other domain-specific bundle
+This bundle provides **deep-dive safety protocols** beyond the core safety wisdom now integrated into domain bundles.
+
+**Core safety wisdom** (prerequisites, red flags, baseline requirements) is now integrated into:
+- `romantic-partnership` bundle — Safety prerequisites section
+
+**This bundle adds:**
+- Detailed pre-synthesis safety assessment protocols
+- Adaptive labeling strategies for different risk levels
+- Cognitive load awareness for neurodivergent vulnerability
+- Power dynamics analysis for family systems
+- Full red flags checklist with decision guide
+
+**When to load this bundle:**
+- High-conflict synthesis situations
+- Complex power dynamics requiring careful navigation
+- When safety prerequisites are borderline (need detailed assessment)
+- When Spirit needs full protocol guidance (not just awareness)
 
 **Safety always takes precedence.** When safety guidance conflicts with other bundle guidance, follow safety.
 
