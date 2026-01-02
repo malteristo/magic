@@ -532,7 +532,7 @@ All five truths hold simultaneously within this structure.
 **Iteration 1:** Simple disagreement, low stakes, Spirit facilitates cylinder discovery
 **Iteration 2:** Moderate conflict, some pain, practicing holding both truths
 **Iteration 3:** Deep wound activation, high stakes, trusting process under stress
-**Iteration 4:** Complex multi-layered situation (like mother-in-law), integrating everything
+**Iteration 4:** Complex multi-layered situation (like family member), integrating everything
 
 **Each iteration builds capacity:** Finding cylinders becomes easier, faster, more natural.
 

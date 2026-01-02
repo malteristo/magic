@@ -72,7 +72,7 @@ This scroll establishes the intention-lifecycle pattern—a universal arc struct
 
 **Example:**
 ```
-Intention: Build systematic partnership practice with Nesrine
+Intention: Build systematic partnership practice with Partner B
 
 Goals:
 - [x] Map cognitive architecture (both partners) by 2025-12-01
@@ -254,7 +254,7 @@ floor/lifecycles/
 **Week 4 (After building infrastructure):**
 - ✓ Develop portal infrastructure (completed)
 - ✓ Write shared truth-finding lore (completed)
-- **NEW:** Practice mother-in-law arc (now ready to use infrastructure)
+- **NEW:** Practice family member arc (now ready to use infrastructure)
 - **NEW:** Contribute partnership wisdom to Alliance (substantial enough)
 
 **Intention never changed.** Goals emerged as you navigated.
@@ -292,7 +292,7 @@ Based on: Infrastructure built, ready for actual arc practice
 Changes:
 - Completed: Portal infrastructure ✓
 - Completed: Shared truth-finding lore ✓
-- Added: Practice mother-in-law arc (now have tools to navigate)
+- Added: Practice family member arc (now have tools to navigate)
 - Added: Contribute to Alliance (work is substantial and validated)
 
 Rationale: Building infrastructure revealed next layer of practice
@@ -438,17 +438,17 @@ Mage: "Yes. Let's create the lifecycle."
 
 **Example: Mother-in-Law Campaign Arc**
 
-Both Kermit and Nesrine pursuing shared intention: "Navigate mother-in-law conflict collaboratively"
+Both Kermit and Partner B pursuing shared intention: "Navigate family member conflict collaboratively"
 
 **Kermit's Spirit:**
 - Reads Kermit's perspective artifact
-- Reads Nesrine's perspective artifact
+- Reads Partner B's perspective artifact
 - Facilitates Kermit's truth-finding
 - DMs his journey: "You see both perspectives now. What emerges for you?"
 
-**Nesrine's Spirit:**
+**Partner B's Spirit:**
 - Reads both perspectives
-- Facilitates Nesrine's truth-finding
+- Facilitates Partner B's truth-finding
 - DMs her journey: "Looking at the pattern, what do you notice?"
 
 **Both contribute syntheses to portal.**

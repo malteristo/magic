@@ -49,7 +49,7 @@ This created problems:
 Arcs (Data Collection)          Model Synthesis (Analysis)
 ─────────────────────           ──────────────────────────
 arc-background/          ─┐
-arc-mother-in-law/       ─┼─→  @partnership/synthesize  ─→  shared/partnership_model.md
+arc-family member/       ─┼─→  @partnership/synthesize  ─→  shared/partnership_model.md
 arc-living/              ─┤
 arc-parenting/           ─┘
 ```
@@ -186,7 +186,7 @@ Per partner (not all required):
 **Bounded episodes focused on specific situations.**
 
 Examples:
-- `arc-mother-in-law` — Dynamics with extended family
+- `arc-family member` — Dynamics with extended family
 - `arc-parenting-decisions` — Child-rearing divergences
 - `arc-workload-distribution` — Task allocation friction
 

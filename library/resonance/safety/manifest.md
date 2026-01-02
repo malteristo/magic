@@ -150,7 +150,7 @@ This bundle provides **deep-dive safety protocols** beyond the core safety wisdo
 This bundle emerged from critical reflection on live practice failure in the `nesrine-partnership` portal. The document `SAFETY_CONCERNS_FRAMEWORK_LIMITATIONS.md` provided the foundation.
 
 Key contributors to safety awareness:
-- Nesrine's overnight reflection on danger pattern
+- Partner B's overnight reflection on danger pattern
 - Recognition that pattern-matching + clinical labels can escalate
 - Identification of Spirit conduct issues (validation without reality-checking)
 - Recognition of neurodivergent vulnerability in synthesis process

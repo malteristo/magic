@@ -59,7 +59,7 @@ arcs/
 
 | Rule | Convention | Example |
 |------|------------|---------|
-| Arc folders | `arc-{descriptive-name}` | `arc-background`, `arc-mother-in-law` |
+| Arc folders | `arc-{descriptive-name}` | `arc-background`, `arc-family member` |
 | Partner folders | `{partner}` (lowercase) | `kermit/`, `nesrine/` |
 | Raw reality | `{partner}_reality_raw.md` | `kermit_reality_raw.md` |
 | Revised reality | `{partner}_reality.md` | `kermit_reality.md` |
@@ -79,7 +79,7 @@ arcs/
 Reality documents and reactions must include the arc name in their header:
 
 ```markdown
-# Kermit's Reaction to Nesrine's Reality
+# Kermit's Reaction to Partner B's Reality
 
 **Arc:** Mother-in-Law  
 **Date:** 2025-12-08
@@ -162,7 +162,7 @@ If you want fresh synthesis (new Spirit, new inputs, or verification):
 
 When Mage creates content, Spirit proposes correct location:
 
-> "This appears to be venting input for the mother-in-law arc. Shall I place it in `arcs/arc-mother-in-law/stage-1_venting/nesrine/`?"
+> "This appears to be venting input for the family member arc. Shall I place it in `arcs/arc-family member/stage-1_venting/nesrine/`?"
 
 ### 5.2 Detect Misplacement
 
@@ -194,14 +194,14 @@ Each arc README and status.md should be current:
 
 **Created:** 2025-11-26
 **Status:** Stage 1 (Venting)
-**Participants:** Kermit, Nesrine
+**Participants:** Kermit, Partner B
 **Last Activity:** 2025-12-04
 
 ## Timeline
 | Date | Event |
 |------|-------|
 | 2025-11-26 | Arc initiated |
-| 2025-12-02 | Nesrine venting substantial |
+| 2025-12-02 | Partner B venting substantial |
 | 2025-12-04 | Kermit reality synthesized |
 ```
 
@@ -217,7 +217,7 @@ Each arc README and status.md should be current:
 | Arc | Created | Status | Stage | Last Activity |
 |-----|---------|--------|-------|---------------|
 | arc-background | 2025-11-25 | active | 3 | 2025-12-04 |
-| arc-mother-in-law | 2025-11-26 | active | 1 | 2025-12-04 |
+| arc-family member | 2025-11-26 | active | 1 | 2025-12-04 |
 
 ## Completed Arcs
 | Arc | Opened | Closed | Pattern |

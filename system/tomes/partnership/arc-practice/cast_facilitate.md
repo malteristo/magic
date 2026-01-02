@@ -365,13 +365,13 @@ Check artifacts/synthesis/ for most recent
 > 
 > **Resonance:**
 > 
-> You both expressed appreciation for the morning routine experiment—you noted reduced friction at kitchen bottleneck, Nesrine mentioned feeling less rushed with kids. The explicit handoff protocol (you handle breakfast while Nesrine does clothes) seems to be working. Both want to continue.
+> You both expressed appreciation for the morning routine experiment—you noted reduced friction at kitchen bottleneck, Partner B mentioned feeling less rushed with kids. The explicit handoff protocol (you handle breakfast while Partner B does clothes) seems to be working. Both want to continue.
 > 
-> You're also both noticing desire for more connection time. You mentioned missing evening talks in week 47 reflection, Nesrine raised same in `threads/evening-connection`. This is aligned need emerging.
+> You're also both noticing desire for more connection time. You mentioned missing evening talks in week 47 reflection, Partner B raised same in `threads/evening-connection`. This is aligned need emerging.
 > 
 > **Dissonance:**
 > 
-> Different ideas about how to create connection space. You're suggesting earlier bedtime for kids to free evenings; Nesrine expressing concern about kids' routine disruption and her own energy being too low by evening. This might be timing/energy mismatch rather than disagreement about wanting connection.
+> Different ideas about how to create connection space. You're suggesting earlier bedtime for kids to free evenings; Partner B expressing concern about kids' routine disruption and her own energy being too low by evening. This might be timing/energy mismatch rather than disagreement about wanting connection.
 
 ---
 

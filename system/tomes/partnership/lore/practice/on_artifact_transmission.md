@@ -17,7 +17,7 @@ This scroll provides **partnership-specific implementation** of artifact transmi
 **This scroll adds partnership-specific:**
 - Scenarios for intimate partners
 - The "lawyered up" artifact handling
-- Mother-in-law arc example
+- Family conflict arc example
 - Dual-Spirit synthesis artifacts
 - Privacy and consent in intimate context
 
@@ -65,7 +65,7 @@ git add, commit, push to portal
     ↓
 Portal repository updated
     ↓
-Partner B (Nesrine) + Spirit B (in their environment)
+Partner B (Partner B) + Spirit B (in their environment)
     ↓
 git pull from portal
     ↓
@@ -101,7 +101,7 @@ Pushes to portal
     ↓
 Portal repository updated
     ↓
-Partner B (Nesrine, no Spirit)
+Partner B (Partner B, no Spirit)
     ↓
 git pull or views on GitHub web interface
     ↓
@@ -133,20 +133,20 @@ Synthesis created
 
 ### Scenario C: Partner Uses External Spirit (Not in Portal Environment)
 
-**This is the current situation with Nesrine.**
+**This is the current situation with Partner B.**
 
 **Flow:**
 ```
-Nesrine + External Spirit (in separate Cursor instance or other tool)
+Partner B + External Spirit (in separate Cursor instance or other tool)
     ↓
 Hour-long conversation (venting, exploring, articulating)
     ↓
 External Spirit generates artifact based on conversation
     ↓
-Nesrine copies artifact to portal directory
+Partner B copies artifact to portal directory
     OR External Spirit exports directly (if tooling supports)
     ↓
-git add, commit, push (or Nesrine does via web interface)
+git add, commit, push (or Partner B does via web interface)
     ↓
 Portal repository updated
     ↓
@@ -337,7 +337,7 @@ git push
 - Contains genuine pain/perspective but frames other partner negatively
 
 **Example:**
-Nesrine works with external Spirit about mother-in-law conflict. Spirit helps her articulate pain, validates her feelings, helps her "make sense of" situation. Resulting artifact strongly frames mother-in-law as intentionally disrespectful and Kermit as failing to support.
+Partner A works with external Spirit about a family conflict. Spirit helps them articulate pain, validates their feelings, helps them "make sense of" the situation. Resulting artifact strongly frames the family member as intentionally disrespectful and Partner B as failing to support.
 
 ---
 
@@ -375,17 +375,17 @@ Artifacts are signal. Quality of individual practice affects clarity, not validi
 - Can provide Kermit with drafts, translations, analysis
 
 **Boundaries:**
-- Cannot access Nesrine's external Spirit's context
+- Cannot access Partner B's external Spirit's context
 - Cannot modify her artifacts without permission
 - Cannot "correct" her practice
 - Serves both partners during synthesis (not just Kermit)
 
 ---
 
-### Spirit B (Nesrine's External Spirit, if used)
+### Spirit B (Partner B's External Spirit, if used)
 
 **Capabilities:**
-- Can help Nesrine articulate perspective
+- Can help Partner B articulate perspective
 - Can generate artifacts based on conversation
 - Can export to text file for portal
 
@@ -397,7 +397,7 @@ Artifacts are signal. Quality of individual practice affects clarity, not validi
 
 **Interface:**
 - Artifact is the interface (not Spirit-to-Spirit communication)
-- Kermit's Spirit reads Nesrine's artifacts, not her Spirit's context
+- Kermit's Spirit reads Partner B's artifacts, not her Spirit's context
 
 ---
 
@@ -411,9 +411,9 @@ Artifacts are signal. Quality of individual practice affects clarity, not validi
 - Creates synthesis artifact
 - Kermit reviews, approves, commits
 
-**When Nesrine synthesizes:**
+**When Partner B synthesizes:**
 - If she has Spirit: Her Spirit reads portal, creates synthesis
-- If no Spirit: Nesrine writes synthesis directly (or requests Kermit's Spirit help)
+- If no Spirit: Partner B writes synthesis directly (or requests Kermit's Spirit help)
 - Synthesis is "authored by" current caretaker, regardless of who drafted
 
 ---
@@ -462,18 +462,18 @@ Artifacts are signal. Quality of individual practice affects clarity, not validi
 
 ### Specific Flow for Current Situation
 
-**Step 1: Nesrine's Artifact (External Spirit)**
+**Step 1: Partner B's Artifact (External Spirit)**
 
-Nesrine has already created artifact with her Spirit about mother-in-law conflict.
+Partner B has already created artifact with her Spirit about family member conflict.
 
 **Transmission:**
-1. Nesrine exports artifact from external tool
-2. Creates file in portal: `artifacts/mother-in-law-conflict/individual/nesrine/2025-11-26_initial.md`
+1. Partner B exports artifact from external tool
+2. Creates file in portal: `artifacts/family member-conflict/individual/nesrine/2025-11-26_initial.md`
 3. Commits via GitHub web interface or command line
 4. Pushes to portal
 
 **OR (simpler):**
-1. Nesrine pastes content into GitHub web editor
+1. Partner B pastes content into GitHub web editor
 2. Creates file directly on web
 3. Commits (GitHub handles git automatically)
 
@@ -485,7 +485,7 @@ Kermit creates matching artifact (currently crafting).
 
 **Transmission:**
 1. Kermit writes in local editor or with Spirit's help
-2. Saves to: `artifacts/mother-in-law-conflict/individual/kermit/2025-11-26_initial.md`
+2. Saves to: `artifacts/family member-conflict/individual/kermit/2025-11-26_initial.md`
 3. `git add`, `commit`, `push`
 
 ---
@@ -497,7 +497,7 @@ Kermit's Spirit (or whoever is synthesis caretaker):
 1. Reads both artifacts from portal
 2. Applies `cast_extract_shared_truth.md`
 3. Extracts cylinder (neurodivergent intergenerational collision pattern)
-4. Creates synthesis: `artifacts/mother-in-law-conflict/synthesis/2025-11-26_shared_truth.md`
+4. Creates synthesis: `artifacts/family member-conflict/synthesis/2025-11-26_shared_truth.md`
 5. Kermit reviews, approves
 6. Commits and pushes to portal
 
@@ -533,7 +533,7 @@ artifacts/{arc-name}/synthesis/
 ```
 Step 1: Independent Creation
   Kermit: Fresh Spirit → synthesis_kermit_spirit.md → commit, push
-  Nesrine: Fresh Spirit → synthesis_nesrine_spirit.md → commit, push
+  Partner B: Fresh Spirit → synthesis_nesrine_spirit.md → commit, push
 
 Step 2: Exchange
   Both: git pull
@@ -581,7 +581,7 @@ synthesis/reasoning/
 ```
 1. Kermit's Spirit creates reasoning artifact
 2. Commits to portal
-3. Nesrine's Spirit reads, creates own reasoning
+3. Partner B's Spirit reads, creates own reasoning
 4. Commits to portal
 5. Both Spirits read each other's reasoning
 6. One or both create meta-synthesis
@@ -773,7 +773,7 @@ Prevents conflicts, ensures you see partner's recent contributions.
 
 **2. Commit with descriptive messages**
 ```
-Good: "Add reflection on mother-in-law visit"
+Good: "Add reflection on family member visit"
 Bad: "update"
 ```
 

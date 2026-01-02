@@ -118,15 +118,15 @@ Sometimes less precise language serves better than accurate labels that inflame.
 ## Example Translations
 
 ### Original (Clinical):
-> "Kermit demonstrated a clear DARVO pattern: when confronted with his gaslighting behavior, he denied it, attacked Nesrine's stability, and reversed victim and offender by claiming she was the one being unreasonable."
+> "Partner B demonstrated a clear DARVO pattern: when confronted with his gaslighting behavior, he denied it, attacked Partner A's stability, and reversed victim and offender by claiming she was the one being unreasonable."
 
 ### Moderate Risk Version:
-> "When Nesrine raised concerns, Kermit responded defensively—denying the impact, questioning her interpretation, and expressing that he felt unfairly accused. This defensive pattern, while understandable as a response to feeling attacked, left Nesrine feeling unheard and invalidated."
+> "When Partner A raised concerns, Partner B responded defensively—denying the impact, questioning her interpretation, and expressing that he felt unfairly accused. This defensive pattern, while understandable as a response to feeling attacked, left Partner A feeling unheard and invalidated."
 
 ### Why It's Better:
 - Same pattern described
 - Less inflammatory language
-- Acknowledges Kermit's experience too
+- Acknowledges Partner B's experience too
 - Partner can read without feeling labeled/attacked
 - Opens door for discussion rather than defense
 

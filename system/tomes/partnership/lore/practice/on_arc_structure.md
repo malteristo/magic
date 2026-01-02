@@ -21,7 +21,7 @@ This scroll establishes "arcs" as the organizing principle for partnership pract
 - **Focused:** Centers on specific situation, not entire relationship
 - **Episodic:** Discrete unit with its own narrative structure
 - **Data-generating:** Produces reality documents, witnessing artifacts, closing reflections
-- **Nameable:** Can be identified clearly ("mother-in-law arc," "morning routine arc")
+- **Nameable:** Can be identified clearly ("family member arc," "morning routine arc")
 
 **Metaphors:**
 - Like a "season" or "episode" in a TV series
@@ -60,7 +60,7 @@ This scroll establishes "arcs" as the organizing principle for partnership pract
 - Portfolio of mastery (completed arcs show growth)
 
 **Partners experience:**
-- Clarity (we're working on mother-in-law dynamic right now)
+- Clarity (we're working on family member dynamic right now)
 - Progress (we're in synthesis phase of this arc)
 - Completion (this arc taught us X, now we close it)
 - Momentum (each arc builds capacity for next)
@@ -216,7 +216,7 @@ portal/
 ### Good Arc Names
 
 **Specific and descriptive:**
-- ✓ `mother-in-law-conflict`
+- ✓ `family member-conflict`
 - ✓ `morning-routine-redesign`
 - ✓ `cannabis-decision-2025`
 - ✓ `parenting-alignment-noah`
@@ -332,11 +332,11 @@ portal/
 # Weekly Reflection
 
 ## What's Alive
-The mother-in-law situation came up again this week when planning 
+The family member situation came up again this week when planning 
 holiday visits. Adding more thoughts to the arc.
 
 ## Arc Contributions
-- Added reflection to `mother-in-law-conflict/individual/kermit/`
+- Added reflection to `family member-conflict/individual/kermit/`
 ```
 
 **But weekly reflection isn't replaced by arc:**
@@ -352,7 +352,7 @@ holiday visits. Adding more thoughts to the arc.
 ```markdown
 ## Active Arcs Update
 
-### mother-in-law-conflict
+### family member-conflict
 - Status: Synthesis phase
 - Both perspectives documented
 - Shared truth extraction in progress
@@ -487,7 +487,7 @@ holiday visits. Adding more thoughts to the arc.
 **Week 1: Arc Initiated**
 - Situation: Visit from Kermit's mom triggers conflict
 - Both partners recognize: "This needs structured work"
-- Arc initiated: `arc-mother-in-law`
+- Arc initiated: `arc-family member`
 
 **Weeks 2-3: Stage 1 (Input)**
 - Nes creates input artifacts (33 files documenting incidents, patterns, pain)
@@ -556,7 +556,7 @@ holiday visits. Adding more thoughts to the arc.
 **Conflict arcs:**
 - Situation where partners clash
 - Need shared truth to resolve
-- Example: mother-in-law, parenting disagreement
+- Example: family member, parenting disagreement
 
 **Design arcs:**
 - Building something new together

@@ -4,7 +4,7 @@
 
 This spell guides partners through arc-based data collection. Arcs are bounded episodes that produce **reality documents**—internally consistent, partner-verified descriptions of each partner's reality. These reality documents become the input for partnership-level model synthesis.
 
-**Invocation:** `@partnership/arc [arc-name]` (e.g., `@partnership/arc background`, `@partnership/arc mother-in-law`)
+**Invocation:** `@partnership/arc [arc-name]` (e.g., `@partnership/arc background`, `@partnership/arc family member`)
 
 ---
 
@@ -437,7 +437,7 @@ arcs/arc-living/
 
 **Bounded episodes focused on specific situations.**
 
-Examples: `arc-mother-in-law`, `arc-parenting-decisions`, `arc-workload-distribution`
+Examples: `arc-family member`, `arc-parenting-decisions`, `arc-workload-distribution`
 
 ---
 
