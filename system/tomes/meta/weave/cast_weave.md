@@ -6,9 +6,9 @@ This spell attunes you to the art of chronicle-weaving—managing version contro
 
 ## I. The Dual Realms
 
-**Critical awareness:** This workshop contains two sovereign repositories:
-- `/Users/kermit/Documents/magic/` — The magic repository (foundational system)
-- `/Users/kermit/Documents/magic/library/` — The library repository (nested but separate .git)
+**Critical awareness:** This workshop may contain nested repositories:
+- `magic/` — The magic repository (foundational system)
+- `magic/library/` — The library repository (if nested, has separate .git)
 
 **Before any git operation:**
 1. Verify which realm the work belongs to

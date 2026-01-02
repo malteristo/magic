@@ -209,7 +209,7 @@ Add to `portals/portals.yaml`:
 
 Commit registry update:
 ```bash
-cd /Users/kermit/Documents/magic
+# From workshop root:
 git add -f portals/portals.yaml
 git commit -m "Register {portal-name} portal in registry
 
@@ -338,7 +338,7 @@ If portal was not in `portals.yaml`, add entry:
 
 Commit registry:
 ```bash
-cd /Users/kermit/Documents/magic  # Return to workshop root
+# From workshop root:
 git add -f portals/portals.yaml
 git commit -m "meta: Connect to {portal-name} portal
 
@@ -520,9 +520,9 @@ Summarize:
 Read `.spirit/protocol.yaml`:
 ```yaml
 synthesis_protocol:
-  rotation_schedule: ["Kermit", "Nesrine"]
-  current_caretaker: "Kermit"
-  next_rotation: "2025-12-09"
+  rotation_schedule: ["{Mage1}", "{Mage2}"]
+  current_caretaker: "{CurrentMage}"
+  next_rotation: "{YYYY-MM-DD}"
 ```
 
 **Step 2: Calculate Next Caretaker**
