@@ -1,7 +1,7 @@
 # Proposal: Partnership Tome Elevation
 
 **Date:** 2025-12-02  
-**Origin:** Kermit-[redacted-name] Partnership Practice ([redacted-name]-partnership portal)  
+**Origin:** Kermit-Partner B Partnership Practice ([redacted-name]-partnership portal)  
 **Status:** IMPLEMENTED ✓ (Sanctioned 2025-12-02)  
 **Scope:** Partnership Tome + Romantic-Partnership Resonance Bundle
 
@@ -9,7 +9,7 @@
 
 ## Summary
 
-Through active practice, the Kermit-[redacted-name] partnership has developed scaffolding that proved necessary but is absent from the canonical Partnership Tome. This proposal requests elevation of these innovations to the tome and resonance bundle.
+Through active practice, the Kermit-Partner B partnership has developed scaffolding that proved necessary but is absent from the canonical Partnership Tome. This proposal requests elevation of these innovations to the tome and resonance bundle.
 
 **Principle:** Build the plane while flying it, then codify what works.
 
@@ -225,7 +225,7 @@ When a crisis triggers practice entry:
   - Updated evolution notes
 
 ### Phase 4: Validation
-- [ ] Continue Kermit-[redacted-name] practice with elevated scaffolding
+- [ ] Continue Kermit-Partner B practice with elevated scaffolding
 - [ ] Document what works, what needs refinement
 - [ ] Iterate
 

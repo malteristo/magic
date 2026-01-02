@@ -85,7 +85,7 @@ Not the bond—the bond remains. But the relationship model, the accumulated pat
 - Catharsis mistaken for attack
 - The burning itself damages the bond it's trying to transform
 
-**This is what Kermit experienced:** [redacted-name] reading his reality documents, shocked, wondering if he meant it all "like that."
+**This is what Kermit experienced:** Partner B reading his reality documents, shocked, wondering if he meant it all "like that."
 
 ---
 

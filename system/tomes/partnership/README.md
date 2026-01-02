@@ -140,7 +140,7 @@ Synthesis:
 
 **Bounded episodes focused on specific situations.**
 
-Examples: `arc-mother-in-law`, `arc-parenting-decisions`, `arc-workload-distribution`
+Examples: `arc-family member`, `arc-parenting-decisions`, `arc-workload-distribution`
 
 ### Living Arc
 

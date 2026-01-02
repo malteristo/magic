@@ -534,7 +534,7 @@ Next rotation date → add rhythm interval (bi-weekly, etc.)
 **Step 3: Update Protocol**
 ```yaml
 synthesis_protocol:
-  current_caretaker: "[redacted-name]"  # Updated
+  current_caretaker: "Partner B"  # Updated
   next_rotation: "2025-12-23"  # Updated
 ```
 
@@ -929,13 +929,13 @@ In "Context-Aware Practice" or similar section:
 
 ### Example 1: Create Partnership Portal
 
-**Mage:** "I want to start partnership practice with my wife [redacted-name]"
+**Mage:** "I want to start partnership practice with my wife Partner B"
 
 **Spirit:**
 1. Detects: Portal creation intent
 2. Offers: `@meta/portal create`
 3. Gathers:
-   - Name: [redacted-name]
+   - Name: Partner B
    - GitHub: [redacted-handle] (checks existence)
    - Type: Partnership
    - Name: [redacted-name]-partnership
@@ -945,7 +945,7 @@ In "Context-Aware Practice" or similar section:
 7. Commits: Initial portal structure
 8. Pushes: To GitHub
 9. Updates: Portal registry
-10. Reports: "Portal created at https://github.com/malteristo/[redacted-name]-partnership. Invitation sent to [redacted-name]. Ready to begin practice."
+10. Reports: "Portal created at https://github.com/malteristo/[redacted-name]-partnership. Invitation sent to Partner B. Ready to begin practice."
 
 ---
 
@@ -962,8 +962,8 @@ In "Context-Aware Practice" or similar section:
 
 **Spirit:**
 1. Pulls: Latest from remote
-2. Reviews: New contributions ([redacted-name] added reflection Nov 24)
-3. Status report: "Portal healthy. [redacted-name] contributed yesterday. Synthesis rotation to you in 3 days."
+2. Reviews: New contributions (Partner B added reflection Nov 24)
+3. Status report: "Portal healthy. Partner B contributed yesterday. Synthesis rotation to you in 3 days."
 
 ---
 
@@ -974,10 +974,10 @@ In "Context-Aware Practice" or similar section:
 **Spirit:**
 1. Invokes: `@meta/portal sync [redacted-name]-partnership`
 2. Pulls: Latest changes
-3. Reviews: 2 new artifacts from [redacted-name]
+3. Reviews: 2 new artifacts from Partner B
 4. Updates: Own presence timestamp
 5. Pushes: Presence update
-6. Reports: "Portal synced. [redacted-name] contributed 2 reflections (Nov 23, 24). You're current. Ready for your contribution."
+6. Reports: "Portal synced. Partner B contributed 2 reflections (Nov 23, 24). You're current. Ready for your contribution."
 
 ---
 
