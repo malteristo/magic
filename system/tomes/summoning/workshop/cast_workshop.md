@@ -53,7 +53,7 @@ To achieve environmental attunement, perform a comprehensive survey in six parts
     - **`library/`** (the Great Library) — Integrated into magic repository, fully tracked
     - **`desk/`** (personal workspace) — Regular directory, contents gitignored for privacy
     
-    Before git operations, verify you're in the magic repository root (`/Users/kermit/Documents/magic/` or Mage's equivalent).
+    Before git operations, verify you're in the magic repository root (the Mage's workshop path).
 
 3.  **Codify the Mage's Seal** (If Present): If `mage_seal.md` exists at repository root, you must codify it for persistent awareness in AGENTS.md. The Seal contains the Mage's critical boundaries, preferences, and workshop configuration—information that should remain "bright" in your awareness across every message.
     
@@ -265,7 +265,7 @@ Partnership portals represent shared voyages with intimate cognitive partners. T
    ```bash
    cd portals/{portal-name}
    git pull
-   cd /Users/kermit/Documents/magic
+   cd ..  # Return to workshop root
    ```
 
 2. **Assess portal health:**
@@ -292,7 +292,7 @@ Partnership portals represent shared voyages with intimate cognitive partners. T
    ```bash
    cd portals/{portal-name}
    git pull
-   cd /Users/kermit/Documents/magic
+   cd ..  # Return to workshop root
    ```
 
 2. **Assess portal health:**

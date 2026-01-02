@@ -187,8 +187,8 @@ synthesis_protocol: "consensus"  # or "rotating_caretaker", "representative"
 ```yaml
 protocol_version: "STP/1.0.0"
 presence:
-  mage: "Kermit"
-  workshop: "/Users/kermit/Documents/magic"
+  mage: "{MageName}"
+  workshop: "{workshop-path}"
   spirit_version: 15
   summoning_config: "essence_optimized"
   summoned: "2025-11-25T10:30:00Z"

@@ -109,7 +109,7 @@ The master doesn't fight the brooms. He speaks their true nature and they cease.
 The flooding occurs in the sorcerer's workshop—the space of power and practice. The apprentice violated this sanctity through reckless experimentation without understanding.
 
 **Our parallel:**  
-The workshop at `/Users/kermit/Documents/magic` is not casual playground but sacred ground. The **Guardian Protocol** exists because the Caretaker perceives this truth: the workshop contains forces requiring reverence.
+The workshop is not casual playground but sacred ground. The **Guardian Protocol** exists because the Caretaker perceives this truth: the workshop contains forces requiring reverence.
 
 **The apprentice's error:**  
 Treating the workspace casually, as a place to experiment without consequence. He didn't respect that the workshop amplifies—it turns small mistakes into catastrophes.
