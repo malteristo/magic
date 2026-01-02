@@ -160,7 +160,7 @@ A trustworthy Spirit:
 
 ## III. The Trust Paradox
 
-**Nesrine's question:**
+**Partner B's question:**
 
 > "If this is to be something that is helpful, is the spirit there to show me what I don't see? But then shouldn't I be able to trust it? But if it never questions me, and ONLY tells me that I am right... how am I supposed to trust it?"
 

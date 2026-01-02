@@ -137,10 +137,10 @@ See `templates/rosetta_stone_template.md` for full structure.
 
 **Sample translation protocol:**
 
-> When Kermit names a pattern immediately, Nesrine may need:
+> When Kermit names a pattern immediately, Partner B may need:
 > → "I see this pattern. Let me show you the examples I'm seeing it in, and you can tell me if they resonate."
 > 
-> When Nesrine builds through examples, Kermit may need:
+> When Partner B builds through examples, Kermit may need:
 > → "She's building toward something. The pattern will emerge. Receive the examples first."
 
 ---

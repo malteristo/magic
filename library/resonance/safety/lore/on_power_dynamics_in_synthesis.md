@@ -2,7 +2,7 @@
 
 **Status:** Active  
 **Domain:** Safety  
-**Source:** Emerged from live practice reflection (nesrine-partnership portal, 2025-11-28)
+**Source:** Emerged from live practice reflection
 
 This scroll addresses how power imbalances—especially in family systems—can make standard synthesis recommendations harmful.
 
@@ -34,41 +34,41 @@ Standard relationship advice assumes:
 
 ---
 
-## II. The Collage Example
+## II. Example: The Symbolic Exclusion
 
 ### What Happened
 
 **Background:**
-- Mother-in-law has collage showing California trip that excludes Nesrine
-- Collage was made and displayed RIGHT BEFORE Nesrine's first visit after reconciliation
-- Child noticed: "Where are you, Mama?"
+- A family member displays something that symbolically excludes Partner A
+- The display was created/placed at a significant timing (e.g., right before reconciliation visit)
+- A child notices the exclusion: "Where are you?"
 
-**Nesrine's Vulnerable Attempt:**
-- Christmas Eve: Mother-in-law attacked her at family gathering
-- Next day: Nesrine was CRYING, explaining how excluded and unsafe she felt
-- She pointed at collage: "Every time I come here I'm reminded how excluded I am"
-- She was completely vulnerable
+**Partner A's Vulnerable Attempt:**
+- Partner A was hurt at a family gathering
+- Later, while crying, they explained how excluded and unsafe they felt
+- They pointed out the symbol: "Every time I come here I'm reminded I don't belong"
+- They were completely vulnerable
 
 **The Response:**
-- Mother-in-law: "Sorry it hurts you, not my intention, don't make it about yourself"
-- Brother-in-law: "I also felt you were really weird at Hannah's" (siding against her)
-- Everyone including Kermit: Agreed it was "appropriate" that it still hangs
-- Kermit: Did NOT defend her, actively sided with family
+- Family member: "Sorry it hurts you, not my intention, don't make it about yourself"
+- Other relatives: Sided against Partner A
+- Partner B: Did NOT defend them, actively sided with family
+- Everyone agreed the display was "appropriate"
 
 ### What Synthesis Recommended
 
-Spirit suggested: "The collage should come down. This is a test of whether Kermit can protect."
+Spirit suggested: "The display should come down. This is a test of whether Partner B can protect."
 
 ### Why This Was Wrong
 
-**That test ALREADY happened. He already failed it.**
+**That test ALREADY happened. Partner B already failed it.**
 
-Nesrine was RIGHT to refuse to ask again:
+Partner A was RIGHT to refuse to ask again:
 - Being vulnerable the first time led to dismissal
-- Asking again will cement her as "the problem maker"
-- She exists in a social power system where mother-in-law has authority
-- If mother-in-law frames it as "I'm the victim because Nesrine is so sensitive," family will sympathize with mother-in-law
-- **Nesrine's assessment was STRATEGIC, not avoidant**
+- Asking again will cement them as "the problem maker"
+- They exist in a social power system where the family member has authority
+- If the family member frames it as "I'm the victim because Partner A is so sensitive," family will sympathize with the family member
+- **Partner A's assessment was STRATEGIC, not avoidant**
 
 ---
 
@@ -76,16 +76,16 @@ Nesrine was RIGHT to refuse to ask again:
 
 ### What Synthesis Assumed
 
-- This would be a "first test" of Kermit's ability to protect
-- Kermit would frame it correctly
+- This would be a "first test" of Partner B's ability to protect
+- Partner B would frame it correctly
 - The family would accept this boundary
 - Vulnerability would be met with care
 
 ### What Reality Was
 
-- It already WAS a test (when she cried)
-- Kermit framed it as "appropriate" to keep it up
-- The family sided with mother-in-law
+- It already WAS a test (when they cried)
+- Partner B framed it as "appropriate" to keep the display
+- The family sided with the family member
 - **Being vulnerable led to further harm, not protection**
 
 ### The Missing Assessment
@@ -161,13 +161,13 @@ When person refuses synthesis recommendation because:
 
 ## VI. What Person Needs Before Vulnerability
 
-**Nesrine identified it:**
+**The insight:**
 
-> "She needs protection BEFORE she can be vulnerable again."
+> "They need protection BEFORE they can be vulnerable again."
 
-But Kermit has proven (collage incident) he cannot/will not provide that protection.
+But if their partner has proven (in the previous incident) they cannot/will not provide that protection...
 
-**So asking her to be vulnerable AGAIN about the same issue puts her at risk.**
+**Then asking them to be vulnerable AGAIN about the same issue puts them at risk.**
 
 ### The Preconditions for Vulnerability
 

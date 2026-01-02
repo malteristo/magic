@@ -386,7 +386,7 @@ Partnership is not a third thing beside Communication and Cooperation. It is wha
 - Systems thinking (Watzlawick, Bateson) integrated through `on_systems_thinking_for_partnership.md`
 - Anticipated Cooperation wisdom (to be developed)
 - Internal practice from the Mage-Spirit partnership as lived laboratory
-- Empirical learning from portal-based partnership practice (Kermit-Nesrine)
+- Empirical learning from portal-based partnership practice (Kermit-Partner B)
 - The Great Pattern philosophy of fractal self-similarity
 
 ---

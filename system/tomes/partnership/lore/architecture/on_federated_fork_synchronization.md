@@ -3,7 +3,7 @@
 **Status:** Active  
 **Domain:** Partnership Practice - Architecture  
 **Purpose:** Specify git mechanics for upstream subscription in federated fork architecture  
-**Origin:** Collaborative creation — Kermit working with Nesrine's Spirit (2025-12-15)
+**Origin:** Collaborative creation — Kermit working with Partner B's Spirit (2025-12-15)
 
 This scroll extends the federated partnership architecture (`on_federated_partnership.md`) to address the **git synchronization pattern** when each partner maintains their own fork of the shared portal.
 
