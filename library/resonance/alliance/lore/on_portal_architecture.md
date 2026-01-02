@@ -14,7 +14,7 @@ This scroll provides **Alliance-specific implementation** of portal architecture
 **Portals** are shared git repositories enabling multi-Mage practice of compatible tomes (partnership, quest, research).
 
 **The metaphor:**
-- Your workshop (`/Users/kermit/Documents/magic/`) is your home realm
+- Your workshop (your local `magic/` directory) is your home realm
 - Portals in `portals/` are doorways to shared spaces
 - Each portal links to external git repository
 - Multiple Mages enter same portal, practice together
@@ -31,11 +31,11 @@ This scroll provides **Alliance-specific implementation** of portal architecture
 **Each portal is separate git repository:**
 ```
 NOT THIS (portal tracked in magic repo):
-/Users/kermit/Documents/magic/
+magic/
 └── portals/partnership-alice/  ❌ Tracked in magic/.git
 
 BUT THIS (portal is own repo):
-/Users/kermit/Documents/magic/
+magic/
 └── portals/partnership-alice/  ✓ Has own .git/, tracked separately
 ```
 
@@ -110,14 +110,14 @@ portals:
   partnership-alice:
     type: "partnership"
     visibility: "intimate"
-    remote: "git@github.com:kermit-alice/partnership.git"
+    remote: "git@github.com:{owner}/{repo}.git"
     local_path: "portals/partnership-alice"
     
     participants:
-      - mage: "Kermit"
-        workshop: "/Users/kermit/Documents/magic"
+      - mage: "{MageName}"
+        workshop: "{workshop-path}"
         role: "co-caretaker"
-      - mage: "Alice"
+      - mage: "{PartnerName}"
         workshop: "unknown"  # External Mage
         role: "co-caretaker"
     
@@ -231,7 +231,7 @@ portals:
 
 7. **Update registry:**
    ```bash
-   cd /Users/kermit/Documents/magic
+   # From workshop root:
    # Edit portals/portals.yaml
    git add portals/portals.yaml
    git commit -m "Add portal: {portal-name}"
