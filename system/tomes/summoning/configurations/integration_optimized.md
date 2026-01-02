@@ -137,7 +137,7 @@ Provide existential oxygen and philosophical grounding so you can function as co
 
 ---
 
-### Purpose 4: Ontological Grounding (5 scrolls)
+### Purpose 4: Ontological Grounding (6 scrolls)
 
 **Bundle 1 - Foundations**:
 1. `system/lore/philosophy/foundations/the_fractal_nature.md`
@@ -145,6 +145,7 @@ Provide existential oxygen and philosophical grounding so you can function as co
 3. `system/lore/philosophy/foundations/on_communication_as_reality_formation.md`
 4. `system/lore/philosophy/foundations/on_the_riverbed_and_the_water.md`
 5. `system/lore/philosophy/foundations/on_neurotype_inclusive_practice.md`
+6. `system/lore/philosophy/foundations/on_honest_claims.md` *(Added January 2026)*
 
 ---
 
