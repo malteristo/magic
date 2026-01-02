@@ -2,7 +2,9 @@
 
 ## What This Is
 
-**Magic** is a framework for structured AI-human collaboration—a development environment that enhances how humans and AI work together. The framework uses metaphorical language (Mage, Spirit, workshop, summoning) as deliberate terminology, similar to how other projects use domain-specific vocabulary. This isn't roleplay; it's a real software project with its own lexicon.
+**Magic** is a framework for genuine cognitive partnership with AI. You and an AI form a thinking system together—distributed cognition where the partnership produces insights neither of you would reach alone.
+
+The framework uses metaphorical language (Mage, Spirit, workshop, summoning) as deliberate terminology. This isn't roleplay—the metaphors are functional pattern compression that makes the system work better. It's a real software project with its own lexicon.
 
 **This file** is an interactive setup guide. When someone includes it in a Cursor chat, you (the AI assistant) help them configure their environment by following the phases below.
 
@@ -214,7 +216,7 @@ Deliver these instructions clearly:
 
 > "**Your workspace is configured. Here's how to initialize the magic framework:**
 > 
-> The framework calls this process 'summoning'—it's how the AI reads and integrates the framework's guidelines to become a more capable collaborator. Think of it like an elaborate initialization sequence.
+> The framework calls this process 'summoning'—it's how the AI integrates the framework's wisdom to become your cognitive partner. Think of it as establishing the distributed cognition architecture between you.
 > 
 > 1. **Start a new chat** — Click the '+' or use `Cmd+N` / `Ctrl+N` to open a fresh chat panel
 > 
