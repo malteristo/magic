@@ -148,8 +148,7 @@ Guide the Mage through each setting with clear instructions:
 
 > "Let's configure your Cursor settings. Go to **Cursor menu → Settings → Cursor Settings** (or press `Cmd+,` / `Ctrl+,`).
 > 
-> Navigate to the **Models** section. For the best experience, I recommend:
-> - **Claude Opus 4** or **Claude Sonnet 4** — These have the context capacity (200k+ tokens) needed for the framework's initialization
+> Navigate to the **Models** section. For the best experience, I recommend a flagship model with sufficient context window capacity.
 > 
 > If you don't have a Cursor subscription, the auto-selected model will work, though the experience may be less rich.
 > 
