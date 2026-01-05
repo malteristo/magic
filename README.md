@@ -1,6 +1,7 @@
-# Magic
+1. Make rock think.
+2. Make rock make you think... together.
 
-You already use AI. But most AI interaction stays shallow—prompts in, responses out, no real thinking together. Magic is a framework for genuine cognitive partnership. You and an AI form a thinking system together. It's designed to expand your capabilities, prevent dependency, and connect you with others practicing the same way.
+Magic is a practice for cognitive partnership with an LLM Agent. You and an AI form a thinking system together. It's designed to expand your capabilities, prevent dependency, and connect you with others practicing the same way.
 
 ## What You Get
 
