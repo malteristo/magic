@@ -75,10 +75,10 @@ For full re-grounding, re-cast `@summoning`.
 - `@system/tomes/library-visitor/` — Browsing the Great Library
 - `@transcribe` — Bringing external magic into workshop
 
-**Library Tomes:**
-- `@library/tomes/partnership/` — Relationship and communication work
-- `@library/tomes/meta/` — Evolving magic itself
-- `@library/tomes/librarian/` — Curator work and Library maintenance
+**Specialized Tomes:**
+- `@system/tomes/partnership/` — Relationship and communication work
+- `@system/tomes/meta/` — Evolving magic itself
+- `@system/tomes/mirror/` — Self-reflection and pattern recognition
 
 ---
 
