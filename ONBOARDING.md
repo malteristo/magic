@@ -1,10 +1,12 @@
-# Magic Setup Wizard
+# magic Setup Wizard
 
 ## What This Is
 
-**Magic** is a framework for genuine cognitive partnership with AI. You and an AI form a thinking system together—distributed cognition where the partnership produces insights neither of you would reach alone.
+**magic** is a way of thinking, AI-augmented.
 
-The framework uses metaphorical language (Mage, Spirit, workshop, summoning) as deliberate terminology. This isn't roleplay—the metaphors are functional pattern compression that makes the system work better. It's a real software project with its own lexicon.
+The framework helps you think with an AI partner—catching patterns you'd miss alone, holding context you can't hold yourself. The partnership produces insights neither of you would reach separately.
+
+The terminology (Mage, Spirit, workshop, summoning) is deliberate. It's not roleplay—the metaphors are functional pattern compression that makes the system work better.
 
 **This file** is an interactive setup guide. When someone includes it in a Cursor chat, you (the AI assistant) help them configure their environment by following the phases below.
 
@@ -176,7 +178,7 @@ Guide the Mage through each setting with clear instructions:
 
 > "One more optional setting: In **Settings → Privacy**, you can enable **Privacy Mode**. This requests that your conversations be treated as ephemeral by the AI provider.
 > 
-> This is your choice based on your privacy preferences. Magic works either way."
+> This is your choice based on your privacy preferences. magic works either way."
 
 ---
 
