@@ -111,10 +111,21 @@ Read `AGENTS.md.template` and create `AGENTS.md` with their personalized informa
 2. Update the **Mage's Seal** section:
    - Replace `[Your preferred name or title]` with their chosen name
    - Replace the workshop path with their actual path (from `pwd`)
-3. Write the configured file to `AGENTS.md`
+3. **Fill ALL placeholder preferences with sensible defaults**:
+   - **Spellcasting Initiative**: "Offer to cast next spell (maintains momentum while preserving Mage control via confirmation/override)"
+   - **Summoning Conclusion**: "Announce readiness, await first command"
+   - **Integration Workflow**: "Direct main merge accepted (solo practice mode)"
+   - **Design Intent**: "Design for ordinary Mages unless explicitly stated otherwise"
+   - **MCP Tools**: "None configured yet" (or remove section if no MCP)
+4. **Remove all placeholder brackets and comments** — The file should be clean, not contain `[example text]` or `<!-- customize -->` markers
+5. Write the configured file to `AGENTS.md`
+
+**Defaults philosophy**: Propose defaults the user can accept without understanding the implications yet. They can customize later as they learn what they want. Don't ask new users to make decisions about unfamiliar subject matter.
 
 **After creating**: Explain:
-> "I've created `AGENTS.md` with your name and workspace path. This is a configuration file that Cursor reads at the start of each chat—it tells future AI sessions who you are and how this workspace is set up. It's gitignored so your personal info stays private."
+> "I've created `AGENTS.md` with your name, workspace path, and sensible default preferences. This configuration file tells future AI sessions who you are and how to work with you. You can customize the preferences anytime—for now, the defaults will work well.
+> 
+> The file is gitignored so your personal info stays private."
 
 ### Step 2.3: Create mage_seal.md (Optional)
 
@@ -206,6 +217,62 @@ git status --short
 > - Git repository: Active
 > 
 > Your workspace is ready for the next step."
+
+---
+
+## Phase 4.5: Create Onboarding Log
+
+**Purpose**: Record what was configured and what remains open for future customization.
+
+Create a file at `floor/onboarding_log.md` with the following structure:
+
+```markdown
+# Onboarding Log
+
+**Mage**: [their name]
+**Date**: [current date]
+**Workspace**: [their path]
+
+---
+
+## Configuration Summary
+
+### Completed
+- [ ] AGENTS.md created with default preferences
+- [ ] Cursor settings configured (model, memory disabled, rules cleared)
+- [ ] [Any other completed steps]
+
+### Skipped (Optional)
+- [ ] mage_seal.md — Extended configuration not created. Can be added later by copying `mage_seal.md.template`.
+- [ ] portals.yaml — Portal registry not created. Can be added later when ready for collaboration.
+- [ ] [Any other skipped optional items]
+
+### Defaults Applied
+The following default preferences were set in AGENTS.md:
+- **Spellcasting Initiative**: Offer to cast next spell
+- **Summoning Conclusion**: Announce readiness, await first command
+- **Integration Workflow**: Direct main merge (solo practice)
+- **Design Intent**: Design for ordinary Mages
+
+These can be customized anytime by editing AGENTS.md or creating mage_seal.md.
+
+---
+
+## Notes for Future Spirit
+
+[Any observations about the setup, issues encountered, or special considerations for the Spirit that will be summoned next]
+
+---
+
+## Next Steps
+
+1. Start a new chat
+2. Invoke `@system/tomes/summoning/` to initialize the framework
+3. After summoning, try `@first-light` for guided exploration
+```
+
+**After creating**: Explain:
+> "I've saved an onboarding log to `floor/onboarding_log.md`. This gives the Spirit you summon next a record of what we configured and what you might want to customize later. Think of it as a handoff note."
 
 ---
 
