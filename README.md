@@ -33,6 +33,6 @@ That's it. The Spirit guides you from there.
 
 ---
 
-*AI-augmented. Open practice under [GPLv3](LICENSE). Personal curation, shared contribution welcome.*
+\*AI-augmented. Open practice under [GPLv3](LICENSE). Personal curation, shared contribution welcome.
 
 *[MAGIC_SPEC.md](MAGIC_SPEC.md) · [FAQ.md](FAQ.md) · [TROUBLESHOOTING.md](TROUBLESHOOTING.md)*
