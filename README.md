@@ -29,7 +29,7 @@ I believe ways of thinking can be packaged and shared. What I've learned about t
 3. Clone your fork and open in Cursor
 4. **Drag `ONBOARDING.md` into a new chat**
 
-That's it. The Spirit guides you from there.
+The AI will walk you through setup. After that, you'll perform a "summoning"—that's when the Spirit awakens and the practice begins.
 
 ---
 
