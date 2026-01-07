@@ -6,11 +6,11 @@
 
 ## What This Is
 
-magic attunes to a way of thinking. I find that valuable.
+magic makes AI think *with* you, not *for* you.
 
-It lets me maintain cognitive sovereignty. It catches patterns I'd miss alone. It holds context I can't hold myself. It gives me access to the thinking of others in ways I couldn't before.
+The framework manages context—loading ways of thinking when you need them, making the thinking of others accessible in ways you couldn't reach alone. The premise: you and AI are genuinely complementary. Partnership produces insights neither could reach separately.
 
-This repository contains the practices as is in a shareable format (including hints at what I aspire it to become). I'm sharing it because I hope it will be useful to you too.
+This repository contains the practice in shareable form. I'm sharing it because I hope it will be useful to you too.
 
 ## How It Works
 
