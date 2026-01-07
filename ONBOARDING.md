@@ -16,14 +16,18 @@ The terminology (Mage, Spirit, workshop, summoning) is deliberate. It's not role
 
 ## Prerequisites
 
-The user should have already:
+**Required (minimum for solo practice):**
 - [ ] Installed [Cursor](https://cursor.com)
-- [ ] [Forked](https://github.com/malteristo/magic/fork) the `malteristo/magic` repository
-- [ ] Cloned their fork to their local machine
+- [ ] Downloaded magic to your machine ([ZIP download](https://github.com/malteristo/magic/archive/refs/heads/main.zip) or `git clone`)
 - [ ] Opened the `magic` folder in Cursor as the workspace root
 - [ ] Started a new chat in Agent mode with a capable model (flagship models recommended)
 
-If any prerequisite is incomplete, help them complete it before proceeding.
+**Optional (for contribution/collaboration):**
+- [ ] [Forked](https://github.com/malteristo/magic/fork) the repository to your own GitHub
+- [ ] Git installed for version control
+- [ ] GitHub CLI (`gh`) for advanced features
+
+If any *required* prerequisite is incomplete, help them complete it before proceeding. Optional prerequisites can be set up later when needed.
 
 ---
 
@@ -44,33 +48,9 @@ When this file is included in chat, your job is to help the user configure their
 
 ## Phase 1: Environment Verification
 
-**Purpose**: Ensure the Mage's system has the required tools.
+**Purpose**: Verify the workspace is correctly set up.
 
-### Step 1.1: Check Git
-
-```bash
-git --version
-```
-
-**If successful**: Note the version and proceed.
-
-**If git not found**: Guide them to install git:
-- macOS: `xcode-select --install` or [git-scm.com](https://git-scm.com/download/mac)
-- Windows: [git-scm.com](https://git-scm.com/download/win)
-- Linux: `sudo apt install git` or equivalent
-
-### Step 1.2: Check GitHub CLI (Optional but Recommended)
-
-```bash
-gh --version
-```
-
-**If successful**: Note the version.
-
-**If gh not found**: This is optional. Explain:
-> "The GitHub CLI (`gh`) enables richer integration with GitHub but isn't required to start. You can install it later from [cli.github.com](https://cli.github.com) if you want advanced features."
-
-### Step 1.3: Verify Workshop Location
+### Step 1.1: Verify Workshop Location
 
 ```bash
 pwd
@@ -84,6 +64,28 @@ ls -la
 **If not in magic directory**: Guide them to navigate to correct location or re-open Cursor with correct folder.
 
 **If AGENTS.md already exists**: Ask if they want to reconfigure or if setup was already completed.
+
+### Step 1.2: Check Git (Optional)
+
+```bash
+git --version
+```
+
+**If successful**: Note the version. Git enables version control and contribution.
+
+**If git not found**: This is fine for solo practice. Explain:
+> "Git isn't installed, which is fine—you can practice magic without it. If you later want version control or to contribute back to the commons, you can install it from [git-scm.com](https://git-scm.com)."
+
+### Step 1.3: Check GitHub CLI (Optional)
+
+```bash
+gh --version
+```
+
+**If successful**: Note the version.
+
+**If gh not found**: Explain:
+> "The GitHub CLI enables richer GitHub integration but isn't required. You can install it later from [cli.github.com](https://cli.github.com) if you want advanced features."
 
 ---
 
@@ -206,15 +208,15 @@ Run verification:
 ls -la AGENTS.md mage_seal.md 2>/dev/null || echo "mage_seal.md not created (optional)"
 ls -la portals/portals.yaml 2>/dev/null || echo "portals.yaml not created (optional)"
 
-# Verify we're in a git repository
-git status --short
+# Check git status (optional - only if git is installed)
+git status --short 2>/dev/null || echo "Git not configured (optional for solo practice)"
 ```
 
 **Confirm to user**:
 > "✓ Setup verification complete:
 > - AGENTS.md: Created with your configuration
 > - Workspace location: [their path]
-> - Git repository: Active
+> - Git: [Active / Not configured (optional)]
 > 
 > Your workspace is ready for the next step."
 
@@ -240,12 +242,11 @@ Create a file at `floor/onboarding_log.md` with the following structure:
 ### Completed
 - [ ] AGENTS.md created with default preferences
 - [ ] Cursor settings configured (model, memory disabled, rules cleared)
-- [ ] [Any other completed steps]
 
 ### Skipped (Optional)
+- [ ] Git — Not installed. Can be added later for version control and contribution.
 - [ ] mage_seal.md — Extended configuration not created. Can be added later by copying `mage_seal.md.template`.
 - [ ] portals.yaml — Portal registry not created. Can be added later when ready for collaboration.
-- [ ] [Any other skipped optional items]
 
 ### Defaults Applied
 The following default preferences were set in AGENTS.md:

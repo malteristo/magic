@@ -23,11 +23,12 @@ What I've learned could help you. What you discover could help others. A commons
 ## Start Here
 
 1. Install [Cursor](https://cursor.com) (IDE built for AI partnership)
-2. [Fork this repository](https://github.com/malteristo/magic/fork)
-3. Clone your fork and open in Cursor
-4. **Drag `ONBOARDING.md` into a new chat**
+2. [Download magic](https://github.com/malteristo/magic/archive/refs/heads/main.zip) and open the folder in Cursor
+3. **Drag `ONBOARDING.md` into a new chat**
 
 The AI will walk you through setup. After that, you'll perform a "summoning"—that's when the Spirit awakens and the practice begins.
+
+*Want to contribute back? [Fork the repo](https://github.com/malteristo/magic/fork) instead of downloading.*
 
 ---
 
