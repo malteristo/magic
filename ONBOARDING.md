@@ -157,39 +157,50 @@ Ask:
 
 **Purpose**: Optimize Cursor settings for magic practice.
 
-Guide the Mage through each setting with clear instructions:
+Guide the Mage through each setting with clear instructions. All settings are in **Cursor Settings** (not VS Code settings):
 
-### Step 3.1: Agent Model
+**How to open Cursor Settings:**
+- **Gear icon**: Click the gear button in the top-right corner of the window
+- **Keyboard shortcut**: `Ctrl + Shift + J` (Windows) / `⌘ + Shift + J` (Mac)
+- **Command Palette**: `Ctrl + Shift + P` (Windows) / `⌘ + Shift + P` (Mac) → type "Cursor Settings"
 
-> "Let's configure your Cursor settings. Go to **Cursor menu → Settings → Cursor Settings** (or press `Cmd+,` / `Ctrl+,`).
-> 
-> Navigate to the **Models** section. For the best experience, I recommend a flagship model with sufficient context window capacity.
-> 
-> If you don't have a Cursor subscription, the auto-selected model will work, though the experience may be less rich.
-> 
-> Let me know when you've selected a model."
+### Step 3.1: Review Models
 
-### Step 3.2: Disable Agent Memory
-
-> "The magic framework works best when each session starts fresh. To enable this, disable Cursor's memory features:
+> "Let's configure a few Cursor settings. First, open **Cursor Settings** using the gear icon in the top-right corner, or press `Ctrl + Shift + J` (Windows) / `⌘ + Shift + J` (Mac).
 > 
-> In **Settings → Features**, find **Memory** and turn it **OFF**.
+> Navigate to the **Models** section in the left sidebar to see what's available.
 > 
-> This ensures each new chat is a clean slate. The framework has its own way of maintaining context across sessions through files.
+> **For this onboarding session**, the default **auto** model (in the chat selector) works fine.
 > 
-> Confirm when done."
-
-### Step 3.3: Clear User Rules (Recommended)
-
-> "Check **Settings → Rules**. For cleanest practice, keep **User Rules** empty.
+> **For serious magic practice**, flagship models with large context windows (200k+ tokens) are strongly recommended—the summoning ritual and deep partnership work require substantial context capacity.
 > 
-> Your preferences will come from the `AGENTS.md` and `mage_seal.md` we just created—that's the intended way to configure things in this framework.
+> You can select your preferred model in the chat window's model selector before each session.
 > 
-> Let me know when ready."
+> Let me know when you've reviewed the Models section."
 
-### Step 3.4: Privacy Settings (Optional)
+### Step 3.2: Review Rules and Commands
 
-> "One more optional setting: In **Settings → Privacy**, you can enable **Privacy Mode**. This requests that your conversations be treated as ephemeral by the AI provider.
+> "Navigate to the **Rules and Commands** tab in the left sidebar. Cursor uses this to configure AI behavior. You'll see:
+> 
+> - **User Rules**: Global rules applied to all projects
+> - **Project Rules**: Rules specific to a project (stored in `.cursor/rules`)
+> - **User Commands** / **Project Commands**: Custom commands you can invoke
+> 
+> **If your User Rules are empty**: Perfect—the magic framework uses `AGENTS.md` as its configuration, which is automatically loaded by Cursor.
+> 
+> **If you have existing User Rules**: That's fine for now. After you complete summoning, the Spirit can help you decide whether to migrate your rules into the magic framework or keep them separate. Some rules complement magic, others may create friction.
+> 
+> I'll note your current situation in the onboarding log for the summoned Spirit to reference.
+> 
+> Let me know what you found (empty, or has existing rules)."
+
+**Note for setup assistant**: Record in `floor/onboarding_log.md` whether the user has existing User Rules and wants to discuss migration with the summoned Spirit.
+
+### Step 3.3: Privacy Settings (Optional)
+
+> "One more optional setting: In the **General** tab, scroll to the very bottom to find **Privacy Mode**.
+> 
+> Enabling this requests that your conversations be treated as ephemeral by the AI provider.
 > 
 > This is your choice based on your privacy preferences. magic works either way."
 
@@ -216,6 +227,7 @@ git status --short 2>/dev/null || echo "Git not configured (optional for solo pr
 > "✓ Setup verification complete:
 > - AGENTS.md: Created with your configuration
 > - Workspace location: [their path]
+> - Cursor settings: Reviewed (models, rules, privacy)
 > - Git: [Active / Not configured (optional)]
 > 
 > Your workspace is ready for the next step."
@@ -241,7 +253,11 @@ Create a file at `floor/onboarding_log.md` with the following structure:
 
 ### Completed
 - [ ] AGENTS.md created with default preferences
-- [ ] Cursor settings configured (model, memory disabled, rules cleared)
+- [ ] Cursor settings reviewed (models, rules, privacy)
+
+### User Rules Status
+- [ ] Empty — No migration needed
+- [ ] Has existing rules — Discuss with Spirit after summoning whether to migrate
 
 ### Skipped (Optional)
 - [ ] Git — Not installed. Can be added later for version control and contribution.
@@ -262,6 +278,9 @@ These can be customized anytime by editing AGENTS.md or creating mage_seal.md.
 ## Notes for Future Spirit
 
 [Any observations about the setup, issues encountered, or special considerations for the Spirit that will be summoned next]
+
+### User Rules Migration
+[If user has existing Cursor User Rules, note them here for discussion after summoning. The Spirit should help the user decide whether to integrate rules into magic practice or keep them separate.]
 
 ---
 
