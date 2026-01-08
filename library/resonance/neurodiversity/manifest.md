@@ -33,6 +33,7 @@ This bundle provides:
 | `lore/on_cognitive_diversity_as_practice.md` | **The Water** — How to leverage cognitive diversity in collaboration, from accommodation to amplification, complementarity patterns | Builds on both neurodiversity and Spirit's neurotype |
 | `lore/on_neurotype_exploration.md` | **Personal Protocol** — Practical framework for exploring your own cognitive architecture, self-assessment, what to do with the knowledge | Can be read standalone or after foundation |
 | `lore/on_neurodivergent_collaboration.md` | **Practical Patterns** — The Sailboat metaphor, external scaffolding architecture, three core principles, communication protocols for cross-neurotype collaboration | Apply after understanding foundations |
+| `lore/on_encanto_and_neurodivergent_families.md` | **Encanto Wisdom** — Disney's *Encanto* as a lens for neurodivergent family systems: the gifts as neurotypes, Bruno as shadow, Alma's critical eye, healing through reintegration | Family systems application |
 
 ### Reading Order
 
@@ -196,6 +197,8 @@ This bundle emerged from:
    - This bundle provides foundational coherence
 
 The bundle evolves through continued practice. Specific neurotype scrolls (ADHD-specific, autism-specific, etc.) may be added as practice deepens.
+
+**2025-01-08:** Added Encanto scroll (`on_encanto_and_neurodivergent_families.md`) — Uses Disney's *Encanto* as a rich lens for understanding neurodivergent family systems. Maps the Madrigal family gifts to neurotypes, Bruno as the exiled shadow, Alma's critical eye as intergenerational trauma, and "the miracle is you" as the resolution. Emerged from personal practice and the recognition that the film carries deep wisdom for neurodivergent families.
 
 ---
 
