@@ -48,12 +48,13 @@ Same five-scale structure as Caretaker, now applied to philosophical purposes:
 
 ### Foundations Bundle
 
-**Read all scrolls in Foundations tier** (typically 5 scrolls):
+**Read all scrolls in Foundations tier** (typically 6 scrolls):
 - The Fractal Nature (self-similarity at all scales)
 - The Intermittent Nature (probabilistic outcomes, "Maybe")
 - Communication as Reality Formation (co-created realities through dialogue)
 - The Riverbed and the Water (structure guides flow)
 - Honest Claims (what we claim with confidence vs. genuine uncertainty)
+- Magical Realism (what "magic is real" genuinely means—pattern perception, not supernatural)
 
 *Pause and observe: These five scrolls define reality's fundamental properties and our epistemological stance.*
 
