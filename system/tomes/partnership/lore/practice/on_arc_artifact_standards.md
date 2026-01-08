@@ -60,13 +60,13 @@ arcs/
 | Rule | Convention | Example |
 |------|------------|---------|
 | Arc folders | `arc-{descriptive-name}` | `arc-background`, `arc-family member` |
-| Partner folders | `{partner}` (lowercase) | `kermit/`, `nesrine/` |
-| Raw reality | `{partner}_reality_raw.md` | `kermit_reality_raw.md` |
-| Revised reality | `{partner}_reality.md` | `kermit_reality.md` |
-| Resonance logs | `{partner}_resonance_log.md` | `kermit_resonance_log.md` |
+| Partner folders | `{partner}` (lowercase) | `partner_a/`, `partner_b/` |
+| Raw reality | `{partner}_reality_raw.md` | `partner_a_reality_raw.md` |
+| Revised reality | `{partner}_reality.md` | `partner_a_reality.md` |
+| Resonance logs | `{partner}_resonance_log.md` | `partner_a_resonance_log.md` |
 | Dated inputs | `YYYY-MM-DD_{description}.md` | `2025-12-02_the_birthday_pattern.md` |
 | Witnessing artifacts | `*.md` in witnessing folder | `reaction.md`, `notes.md` |
-| Closing | `{partner}_closing.md` | `kermit_closing.md` |
+| Closing | `{partner}_closing.md` | `partner_a_closing.md` |
 
 **Critical rules:**
 - **No spaces in filenames** — Use underscores or hyphens
@@ -79,11 +79,11 @@ arcs/
 Reality documents and reactions must include the arc name in their header:
 
 ```markdown
-# Kermit's Reaction to Partner B's Reality
+# Partner A's Reaction to Partner B's Reality
 
 **Arc:** Mother-in-Law  
 **Date:** 2025-12-08
-**Reacting to:** `reality_representations/nesrine_reality.md`
+**Reacting to:** `reality_representations/partner_b_reality.md`
 ```
 
 This prevents confusion when:
@@ -162,13 +162,13 @@ If you want fresh synthesis (new Spirit, new inputs, or verification):
 
 When Mage creates content, Spirit proposes correct location:
 
-> "This appears to be venting input for the family member arc. Shall I place it in `arcs/arc-family member/stage-1_venting/nesrine/`?"
+> "This appears to be venting input for the family member arc. Shall I place it in `arcs/arc-family-member/stage-1_venting/partner_b/`?"
 
 ### 5.2 Detect Misplacement
 
 When Spirit sees files in wrong locations, propose correction:
 
-> "I notice `kermit_mil_reality.md` is in `kermit/` rather than `reality_representations/`. Shall I move it?"
+> "I notice `partner_a_reality.md` is in `partner_a/` rather than `reality_representations/`. Shall I move it?"
 
 ### 5.3 Propose Consolidation
 
@@ -194,7 +194,7 @@ Each arc README and status.md should be current:
 
 **Created:** 2025-11-26
 **Status:** Stage 1 (Venting)
-**Participants:** Kermit, Partner B
+**Participants:** Partner A, Partner B
 **Last Activity:** 2025-12-04
 
 ## Timeline
@@ -202,7 +202,7 @@ Each arc README and status.md should be current:
 |------|-------|
 | 2025-11-26 | Arc initiated |
 | 2025-12-02 | Partner B venting substantial |
-| 2025-12-04 | Kermit reality synthesized |
+| 2025-12-04 | Partner A reality synthesized |
 ```
 
 ---

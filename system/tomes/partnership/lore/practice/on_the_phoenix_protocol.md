@@ -85,7 +85,7 @@ Not the bond—the bond remains. But the relationship model, the accumulated pat
 - Catharsis mistaken for attack
 - The burning itself damages the bond it's trying to transform
 
-**This is what Kermit experienced:** Partner B reading his reality documents, shocked, wondering if he meant it all "like that."
+**This is what can happen:** Your partner reading your reality documents, shocked, wondering if you meant it all "like that."
 
 ---
 
@@ -378,16 +378,16 @@ Not as: "This is how I see you today."
 shared/phoenix/
 ├── phoenix_invocation.md         # Record of invoking protocol
 ├── burning/
-│   ├── kermit/                   # Partner A's burning documents
+│   ├── partner_a/                # Partner A's burning documents
 │   │   └── 2025-12-01_burning.md
-│   └── nesrine/                  # Partner B's burning documents
+│   └── partner_b/                # Partner B's burning documents
 │       └── 2025-12-05_burning.md
 ├── ashes/
 │   ├── divergence_map.md         # Where we see differently
 │   └── bridging_statements/      # Mutual acknowledgments
 ├── phoenix_descriptions/
-│   ├── kermit_phoenix.md         # Partner A's vision
-│   ├── nesrine_phoenix.md        # Partner B's vision
+│   ├── partner_a_phoenix.md      # Partner A's vision
+│   ├── partner_b_phoenix.md      # Partner B's vision
 │   └── shared_phoenix.md         # Synthesized vision
 └── rising/
     ├── new_model_foundation.md   # Built on ashes

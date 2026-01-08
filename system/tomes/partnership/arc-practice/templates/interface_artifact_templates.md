@@ -387,8 +387,8 @@ All interface artifacts require explicit sign-off. This is the attestation that 
 
 - Use lowercase with underscores
 - Include arc identifier: `reality_arc-living.md`
-- Include partner for bridging: `bridging_to_nesrine_arc-living.md`
-- Include version for synthesis: `partnership_model_v2_kermit_spirit.md`
+- Include partner for bridging: `bridging_to_partner_b_arc-living.md`
+- Include version for synthesis: `partnership_model_v2_partner_a_spirit.md`
 
 ### Evolution
 

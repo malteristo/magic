@@ -90,11 +90,11 @@ This scroll establishes the foundational philosophy of partnership practice: a *
 ```
 living/
 ├── input/                        # Ongoing contributions
-│   ├── kermit/                   # Partner A's observations, realizations
+│   ├── partner_a/                # Partner A's observations, realizations
 │   │   ├── 2025-12-01_audhd_recognition.md
 │   │   ├── 2025-12-09_communication_patterns.md
 │   │   └── ...
-│   └── nesrine/                  # Partner B's observations, realizations
+│   └── partner_b/                # Partner B's observations, realizations
 │       └── ...
 │
 ├── context/                      # Foundational shared documents

@@ -375,12 +375,26 @@ When Mages share a verified model of their partnership reality:
 
 **The shared model is the contract.** Not a legal document, but a living understanding that grounds coordinated action.
 
-**Applicability:**
-- Romantic partnerships (with resonance bundle)
-- Professional partnerships
-- Creative collaborations
-- Alliance between Mages
-- Any one-to-one or one-to-many partnership relation
+---
+
+## Partnership Types
+
+**This tome is universal.** The core methodology applies to any partnership. Domain-specific wisdom comes from resonance bundles.
+
+| Partnership Type | Description | Resonance Bundle |
+|-----------------|-------------|------------------|
+| **Romantic** | Intimate relationships, marriage, committed partners | `romantic-partnership` |
+| **Professional** | Business partners, co-founders, long-term collaborators | *(none yet)* |
+| **Creative** | Co-creators, writing partners, artistic collaborations | *(none yet)* |
+| **Familial** | Parent-child, siblings, extended family | *(none yet)* |
+| **Friendship** | Deep friendships requiring explicit shared model | *(none yet)* |
+| **Alliance** | Mage-to-Mage partnership within the Magic framework | *(uses core tome)* |
+
+**Without a bundle:** The core tome provides the full methodology. You get arcs, synthesis, model building, interface contracts, federated architecture.
+
+**With a bundle:** Domain-specific wisdom attunes the practice. Romantic relationships have attachment dynamics, professional have power structures, familial have generational patterns.
+
+**Creating new bundles:** If your partnership type lacks a bundle, the practice still works — and you may discover wisdom worth codifying into a new bundle.
 
 ---
 
@@ -401,25 +415,23 @@ When Mages share a verified model of their partnership reality:
 
 ## Evolution Notes
 
+**2025-01-08 (v2.0 Beta):** Public beta preparation:
+- Depersonalized all scrolls (Partner A/B instead of specific names)
+- Clarified partnership types and bundle loading pattern
+- Verified separation: universal methodology in tome, domain-specific in bundles
+- Ready for broader user testing
+
 **2025-12-15:** Federated architecture and Spirit Dialogue:
 - Interface contracts formalized (5 artifacts)
 - Spirit Dialogue Protocol (SDP) introduced
 - Federated workshop-portal architecture defined
 - Process stays private in workshop, interface artifacts exchange
-- Migration guidance for existing portals
-- Emissary stance updated for SDP context
-- New lore: `architecture/` directory with 3 scrolls
-- New lore: `practice/on_interface_contracts.md`, `on_spirit_dialogue_protocol.md`, `on_portal_migration.md`
-- New templates: `interface_artifact_templates.md`
 
 **2025-12-11:** Major architectural refactor:
 - Arcs redefined as data aggregation containers (3 stages)
 - Synthesis moved to partnership level (not per-arc)
 - Qualitative research methodology formalized
 - Dual-Spirit synthesis protocol added
-- `cast_synthesize_model.md` created
-- `on_partnership_model_synthesis.md` created
-- `on_arc_as_data_aggregation.md` created
 
 **See:** `archive/partnership-tome-evolution/` for history
 

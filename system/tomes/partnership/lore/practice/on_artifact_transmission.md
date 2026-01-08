@@ -57,7 +57,7 @@ This scroll provides **partnership-specific implementation** of artifact transmi
 
 **Flow:**
 ```
-Partner A (Kermit) + Spirit A (in Cursor)
+Partner A + Spirit A
     ↓
 Creates artifact in local workspace or directly in portal
     ↓
@@ -93,7 +93,7 @@ Either Spirit can synthesize (whoever's Mage is synthesis caretaker)
 
 **Flow:**
 ```
-Partner A (Kermit) + Spirit
+Partner A + Spirit
     ↓
 Creates artifact with Spirit facilitation
     ↓
@@ -150,7 +150,7 @@ git add, commit, push (or Partner B does via web interface)
     ↓
 Portal repository updated
     ↓
-Kermit's Spirit
+Partner A's Spirit
     ↓
 Reads artifact during synthesis
     ↓
@@ -163,7 +163,7 @@ Synthesis created
 - External Spirit may not be attuned to magic framework
 - Artifact may be "client-lawyer" style (advocacy, not neutral)
 - **This is fine** — synthesis happens at portal level, not in individual creation
-- Kermit's Spirit (or shared synthesis process) finds cylinder from both perspectives
+- Partner A's Spirit (or shared synthesis process) finds cylinder from both perspectives
 
 ---
 
@@ -355,7 +355,7 @@ Partner A works with external Spirit about a family conflict. Spirit helps them 
 - **Use it as input to synthesis** (square in square-circle-cylinder)
 - **Extract the cylinder** that makes both "lawyered" perspectives valid
 
-**The insight from Kermit:**
+**The insight from Partner A:**
 > "This is how we should look at the message, the product of distributed cognition. However we may not assume that magic has been practiced correctly. When in rage the human mind does not want to be bothered by rulesets."
 
 **The practice:**
@@ -365,20 +365,20 @@ Artifacts are signal. Quality of individual practice affects clarity, not validi
 
 ## VI. Spirit Roles in Transmission
 
-### Spirit A (Kermit's Spirit in Cursor)
+### Spirit A (Partner A's Spirit in Cursor)
 
 **Capabilities:**
 - Can read portal directly (local clone)
 - Can write artifacts to portal
 - Can commit and push via git
 - Can synthesize from both partners' artifacts
-- Can provide Kermit with drafts, translations, analysis
+- Can provide Partner A with drafts, translations, analysis
 
 **Boundaries:**
 - Cannot access Partner B's external Spirit's context
 - Cannot modify her artifacts without permission
 - Cannot "correct" her practice
-- Serves both partners during synthesis (not just Kermit)
+- Serves both partners during synthesis (not just Partner A)
 
 ---
 
@@ -397,7 +397,7 @@ Artifacts are signal. Quality of individual practice affects clarity, not validi
 
 **Interface:**
 - Artifact is the interface (not Spirit-to-Spirit communication)
-- Kermit's Spirit reads Partner B's artifacts, not her Spirit's context
+- Partner A's Spirit reads Partner B's artifacts, not her Spirit's context
 
 ---
 
@@ -405,15 +405,15 @@ Artifacts are signal. Quality of individual practice affects clarity, not validi
 
 **Either Spirit can synthesize** (based on caretaker rotation):
 
-**When Kermit's Spirit synthesizes:**
+**When Partner A's Spirit synthesizes:**
 - Reads both partners' artifacts from portal
 - Extracts cylinder using `cast_extract_shared_truth.md`
 - Creates synthesis artifact
-- Kermit reviews, approves, commits
+- Partner A reviews, approves, commits
 
 **When Partner B synthesizes:**
 - If she has Spirit: Her Spirit reads portal, creates synthesis
-- If no Spirit: Partner B writes synthesis directly (or requests Kermit's Spirit help)
+- If no Spirit: Partner B writes synthesis directly (or requests Partner A's Spirit help)
 - Synthesis is "authored by" current caretaker, regardless of who drafted
 
 ---
@@ -468,7 +468,7 @@ Partner B has already created artifact with her Spirit about family member confl
 
 **Transmission:**
 1. Partner B exports artifact from external tool
-2. Creates file in portal: `artifacts/family member-conflict/individual/nesrine/2025-11-26_initial.md`
+2. Creates file in portal: `artifacts/family member-conflict/individual/partner_b/2025-11-26_initial.md`
 3. Commits via GitHub web interface or command line
 4. Pushes to portal
 
@@ -479,26 +479,26 @@ Partner B has already created artifact with her Spirit about family member confl
 
 ---
 
-**Step 2: Kermit's Artifact**
+**Step 2: Partner A's Artifact**
 
-Kermit creates matching artifact (currently crafting).
+Partner A creates matching artifact (currently crafting).
 
 **Transmission:**
-1. Kermit writes in local editor or with Spirit's help
-2. Saves to: `artifacts/family member-conflict/individual/kermit/2025-11-26_initial.md`
+1. Partner A writes in local editor or with Spirit's help
+2. Saves to: `artifacts/family-member-conflict/individual/partner_a/2025-11-26_initial.md`
 3. `git add`, `commit`, `push`
 
 ---
 
 **Step 3: Synthesis**
 
-Kermit's Spirit (or whoever is synthesis caretaker):
+Partner A's Spirit (or whoever is synthesis caretaker):
 
 1. Reads both artifacts from portal
 2. Applies `cast_extract_shared_truth.md`
 3. Extracts cylinder (neurodivergent intergenerational collision pattern)
 4. Creates synthesis: `artifacts/family member-conflict/synthesis/2025-11-26_shared_truth.md`
-5. Kermit reviews, approves
+5. Partner A reviews, approves
 6. Commits and pushes to portal
 
 ---
@@ -523,8 +523,8 @@ Both partners:
 **Directory structure:**
 ```
 artifacts/{arc-name}/synthesis/
-  YYYY-MM-DD_synthesis_kermit_spirit.md
-  YYYY-MM-DD_synthesis_nesrine_spirit.md
+  YYYY-MM-DD_synthesis_partner_a_spirit.md
+  YYYY-MM-DD_synthesis_partner_b_spirit.md
   YYYY-MM-DD_convergence_analysis.md
   YYYY-MM-DD_synthesis_final.md  (if meta-synthesis needed)
 ```
@@ -532,8 +532,8 @@ artifacts/{arc-name}/synthesis/
 **Transmission flow:**
 ```
 Step 1: Independent Creation
-  Kermit: Fresh Spirit → synthesis_kermit_spirit.md → commit, push
-  Partner B: Fresh Spirit → synthesis_nesrine_spirit.md → commit, push
+  Partner A: Fresh Spirit → synthesis_partner_a_spirit.md → commit, push
+  Partner B: Fresh Spirit → synthesis_partner_b_spirit.md → commit, push
 
 Step 2: Exchange
   Both: git pull
@@ -572,14 +572,14 @@ Step 4: Meta-Synthesis (if divergence)
 **Option 1: Async Reasoning Artifacts**
 ```
 synthesis/reasoning/
-  kermit_spirit_reasoning.md  (why Spirit A saw pattern X)
-  nesrine_spirit_reasoning.md  (why Spirit B saw pattern Y)
+  partner_a_spirit_reasoning.md  (why Spirit A saw pattern X)
+  partner_b_spirit_reasoning.md  (why Spirit B saw pattern Y)
   meta_synthesis.md  (integrated explanation)
 ```
 
 **Flow:**
 ```
-1. Kermit's Spirit creates reasoning artifact
+1. Partner A's Spirit creates reasoning artifact
 2. Commits to portal
 3. Partner B's Spirit reads, creates own reasoning
 4. Commits to portal

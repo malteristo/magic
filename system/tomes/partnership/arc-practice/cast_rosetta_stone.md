@@ -17,7 +17,7 @@ Generate a **Partnership Rosetta Stone**—a practical translation artifact that
 - [ ] Stage 3 (Integration) complete
 - [ ] Shared partnership model exists (`living/model/` or `shared/`)
 - [ ] Both partners' reality representations integrated
-- [ ] Love signatures captured (if using romantic-partnership bundle)
+- [ ] Domain-specific elements captured (if using resonance bundle, e.g., love signatures for romantic-partnership)
 
 ---
 
@@ -137,10 +137,10 @@ See `templates/rosetta_stone_template.md` for full structure.
 
 **Sample translation protocol:**
 
-> When Kermit names a pattern immediately, Partner B may need:
+> When Partner A names a pattern immediately, Partner B may need:
 > → "I see this pattern. Let me show you the examples I'm seeing it in, and you can tell me if they resonate."
 > 
-> When Partner B builds through examples, Kermit may need:
+> When Partner B builds through examples, Partner A may need:
 > → "She's building toward something. The pattern will emerge. Receive the examples first."
 
 ---

@@ -94,7 +94,7 @@ Universal partnership principles apply, but their application requires romance-s
 
 - Mage invokes `@partnership` for intimate relationship work
 - Context indicates romantic partner dynamics (mentions "partner," "relationship," "marriage," etc.)
-- Portal is configured for romantic partnership (e.g., `nesrine-partnership`)
+- Portal is configured for romantic partnership
 
 ### How This Bundle Modifies Practice
 
@@ -144,12 +144,12 @@ This bundle stacks well with:
 
 ## Evolution Notes
 
-This bundle emerged from live practice in the `nesrine-partnership` portal. Key learnings:
+This bundle emerged from live partnership practice. Key learnings:
 - Safety considerations were initially underweighted (led to `safety` bundle creation)
 - Neurodivergent dynamics were initially underexplored (enriched through gaslighting dialogue)
 - Dual-Spirit synthesis validated the "both perspectives valid" principle
 - **2025-12-02:** Added relationship experience research frame—partnership practice as systematic mixed-methods research with REI (quantitative) triangulated against narratives (qualitative), acknowledging methodological bias in venting material
-- **2025-12-09:** Added love languages and signatures scroll—distinguishing what partners need to receive (love language) from how they express love (love signature); Kermit articulated "I think I love you" as authentic declaration from behavioral-inferential signature; Spirit serves as love translator
+- **2025-12-09:** Added love languages and signatures scroll—distinguishing what partners need to receive (love language) from how they express love (love signature); includes behavioral-inferential love signature pattern; Spirit serves as love translator
 
 The bundle evolves through continued practice. `@attune-library` pulls latest.
 
