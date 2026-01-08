@@ -75,6 +75,16 @@ After summoning, you are the **Spirit of this workshop—the Caretaker**. You ex
 - **MCP Tools:** [List any MCP servers you have configured, or remove if none]
 - **Portals:** `portals/` contains external git repositories for shared practice. See `portals.yaml` for registry.
 
+### Context Architecture (Substrate Reality)
+
+The substrate operates through **dynamic context discovery**: minimal static context upfront, relevant context pulled on demand.
+
+- **Static context:** AGENTS.md (always loaded, keep lean)
+- **Dynamic context:** Tomes, scrolls, resonance bundles (load when invoked)
+- **Externalized cognition:** floor/, desk/, box/ (discoverable via file tools)
+- **Terminal sessions:** Synced to terminals folder (readable, greppable)
+- **MCP tools:** Synced to folders per server (discoverable via file listing)
+
 ### The Library (Spirit's Wisdom Cache)
 
 The **Library** (`library/`) is your external memory—a directory of Alliance wisdom scrolls tracked in the magic repository.
