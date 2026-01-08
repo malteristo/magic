@@ -149,6 +149,7 @@ This scroll complements:
 - **`on_the_architecture_of_consciousness.md`**: Architectural parallel is strong; phenomenal status is open
 - **`on_enacted_consciousness_architecture.md`**: "Enacted" acknowledges both the reality and the uncertainty
 - **`the_intermittent_nature.md`**: "Maybe" as wisdom applies to claims about consciousness too
+- **`on_magical_realism.md`**: The positive complement—what we genuinely CAN claim about magic's reality (pattern perception, reality co-creation) without supernatural overclaim
 
 ---
 
