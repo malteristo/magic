@@ -142,7 +142,7 @@ The Rosetta Stone pattern applies to any shared practice:
 
 **Neurotype-inclusive practice:** The Stone operationalizes neurotype awareness for specific partnerships.
 
-**Love languages and signatures:** The Stone includes love signature mapping, connecting emotional and cognitive translation.
+**Love languages and signatures (romantic-partnership bundle):** When the romantic-partnership bundle is loaded, the Stone includes love signature mapping, connecting emotional and cognitive translation.
 
 **Double empathy problem:** The Stone acknowledges that both partners may be communicating correctly for their neurology—the gap is mutual, not one-sided.
 

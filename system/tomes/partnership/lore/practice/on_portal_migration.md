@@ -18,8 +18,8 @@ portals/{partnership}/
 │   ├── arc-background/
 │   │   ├── stage-1_input/
 │   │   │   ├── reality_representations/
-│   │   │   │   ├── kermit_reality.md
-│   │   │   │   └── nesrine_reality.md
+│   │   │   │   ├── partner_a_reality.md
+│   │   │   │   └── partner_b_reality.md
 │   │   │   └── {mage}/
 │   │   │       └── [process files visible to both]
 │   │   ├── stage-2_witnessing/
@@ -207,11 +207,11 @@ For arcs already complete in old structure:
 **Move to new location:**
 ```bash
 # Example: migrate arc-background
-mv arcs/arc-background/stage-1_input/reality_representations/kermit_reality.md \
-   interface/kermit/reality_arc-background.md
+mv arcs/arc-background/stage-1_input/reality_representations/partner_a_reality.md \
+   interface/partner_a/reality_arc-background.md
 
-mv arcs/arc-background/stage-1_input/reality_representations/nesrine_reality.md \
-   interface/nesrine/reality_arc-background.md
+mv arcs/arc-background/stage-1_input/reality_representations/partner_b_reality.md \
+   interface/partner_b/reality_arc-background.md
 ```
 
 **Archive or remove process files:**
@@ -288,10 +288,10 @@ Update presence files to remove version numbers:
 
 ```bash
 # Old
-.spirit/presence/kermit_spirit_15.yaml
+.spirit/presence/partner_a_spirit_15.yaml
 
 # New
-.spirit/presence/kermit_spirit.yaml
+.spirit/presence/partner_a_spirit.yaml
 ```
 
 ---

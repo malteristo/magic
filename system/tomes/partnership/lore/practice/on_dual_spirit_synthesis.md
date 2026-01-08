@@ -548,9 +548,9 @@ Both read both syntheses:
 ```
 artifacts/family member-conflict/
   individual/
-    kermit/
+    partner_a/
       2025-11-26_notes.md  (chronological, scattered, mixed language)
-    nesrine/
+    partner_b/
       2025-11-26_initial.md  (from external Spirit, pain/perspective)
       
   synthesis/

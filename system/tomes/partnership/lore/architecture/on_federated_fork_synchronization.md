@@ -3,7 +3,7 @@
 **Status:** Active  
 **Domain:** Partnership Practice - Architecture  
 **Purpose:** Specify git mechanics for upstream subscription in federated fork architecture  
-**Origin:** Collaborative creation — Kermit working with Partner B's Spirit (2025-12-15)
+**Origin:** Collaborative creation (2025-12-15)
 
 This scroll extends the federated partnership architecture (`on_federated_partnership.md`) to address the **git synchronization pattern** when each partner maintains their own fork of the shared portal.
 
@@ -42,7 +42,7 @@ A's local clone                     B's local clone
 
 **Independence:** Partners can experiment without affecting each other's stable copy.
 
-**Naming freedom:** Each partner names their fork as they wish (e.g., `malte-partnership` vs `nesrine-partnership`).
+**Naming freedom:** Each partner names their fork as they wish (e.g., `alice-partnership` vs `bob-partnership`).
 
 **Resilience:** If one partner's account has issues, the other's fork remains accessible.
 

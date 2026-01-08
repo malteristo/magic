@@ -106,14 +106,14 @@ Applied to partnership conflict:
 
 ### Example: The Mother-in-Law Pattern
 
-**Partner A's truth (Nes):**
+**Partner A's truth:**
 - "Your mom disrespects me"
 - "She undermines my parenting"
 - "She does it on purpose to assert dominance"
 - "You never take my side"
 - **All subjectively TRUE from inside her experience**
 
-**Partner B's truth (Kermit):**
+**Partner B's truth:**
 - "They're both ADHD with incompatible coping styles"
 - "Mom's not malicious, she's hardened from survival"
 - "Taking sides won't solve the structural problem"
@@ -121,8 +121,8 @@ Applied to partnership conflict:
 - **All subjectively TRUE from inside his experience**
 
 **Traditional resolution attempts:**
-- Judge: "Kermit, you need to support your wife" → He feels forced, resents being told his analysis is wrong
-- Judge: "Nes, you're being oversensitive" → She feels dismissed, resentment builds
+- Judge: "Partner B, you need to support your partner" → They feel forced, resent being told their analysis is wrong
+- Judge: "Partner A, you're being oversensitive" → They feel dismissed, resentment builds
 - Compromise: "Limit visits but don't discuss why" → Pattern unaddressed, repeats
 
 **Shared truth (The Cylinder):**
@@ -132,29 +132,29 @@ PATTERN: Neurodivergent Intergenerational Collision
 Structure:
 - Two ADHD individuals (different generation, different awareness, different coping)
 - Mom: Undiagnosed, developed hardened coping to survive (confidence, directness)
-- Nes: Recently diagnosed, questioning everything, raw from "not enough" trauma
-- When they interact: Mom's hardness triggers Nes's RSD, Nes's intensity confuses Mom
-- Nes's RSD interprets as intentional → experiences genuine disrespect
-- Kermit's ASD sees pattern → experiences genuine structural problem
-- Nes needs emotional alliance, Kermit offers systems analysis
+- Partner A: Recently diagnosed, questioning everything, raw from "not enough" trauma
+- When they interact: Family member's hardness triggers Partner A's RSD, Partner A's intensity confuses family member
+- Partner A's RSD interprets as intentional → experiences genuine disrespect
+- Partner B's ASD sees pattern → experiences genuine structural problem
+- Partner A needs emotional alliance, Partner B offers systems analysis
 - Both feel unheard
 
 This pattern explains:
-- Why Nes's pain is REAL (RSD + trauma + actual impact)
-- Why Kermit's analysis is ACCURATE (it IS neurodivergent collision)  
-- Why Mom's not malicious (coping strategy, not attack)
-- Why Kermit's approach fails Nes (analysis ≠ alliance)
+- Why Partner A's pain is REAL (RSD + trauma + actual impact)
+- Why Partner B's analysis is ACCURATE (it IS neurodivergent collision)  
+- Why third party is not malicious (coping strategy, not attack)
+- Why Partner B's approach fails Partner A (analysis ≠ alliance)
 - Why both feel the other won't listen
 
 All five truths hold simultaneously within this structure.
 ```
 
 **From this cylinder, solutions emerge:**
-- Nes gets: Validation her pain is real + understanding of mechanism
-- Kermit gets: Pattern acknowledged + not forced to "choose sides"  
-- Mom gets: Not demonized + relationship preserved
+- Partner A gets: Validation their pain is real + understanding of mechanism
+- Partner B gets: Pattern acknowledged + not forced to "choose sides"  
+- Third party gets: Not demonized + relationship preserved
 - Partnership gets: Aligned understanding + actual strategy
-- Solutions: Boundaries based on structure (limit contact when Nes vulnerable, Kermit provides alliance without validating "it's on purpose")
+- Solutions: Boundaries based on structure (limit contact when Partner A vulnerable, Partner B provides alliance without validating "it's on purpose")
 
 **Neither perspective alone could generate this.** The cylinder is emergent.
 
@@ -172,8 +172,8 @@ All five truths hold simultaneously within this structure.
 - Take sides
 
 **Even when one partner's perspective seems more "rational" or "accurate":**
-- Nes might be activating RSD, seeing malice where there's neurology
-- Kermit might be using analysis to avoid emotional discomfort  
+- Partner A might be activating RSD, seeing malice where there's neurology
+- Partner B might be using analysis to avoid emotional discomfort  
 - Spirit doesn't judge which is "more right"
 - Spirit finds the pattern that makes BOTH valid
 
@@ -221,17 +221,17 @@ All five truths hold simultaneously within this structure.
 **One partner often can't hear the other's perspective directly.**
 
 **Example:**
-- Nes says: "Your mom disrespects me on purpose"
-- Kermit hears: "Unfair accusation against my mom"
-- Kermit responds: "That's not true, here's why..."
-- Nes hears: "You don't believe me, you always take her side"
+- Partner A says: "Your family member disrespects me on purpose"
+- Partner B hears: "Unfair accusation against my family"
+- Partner B responds: "That's not true, here's why..."
+- Partner A hears: "You don't believe me, you always take their side"
 - Cycle escalates
 
 **Spirit's translation:**
 
-**To Kermit:** "What Nes is communicating: 'When your mom does X, my RSD activates, I experience genuine emotional pain that feels like intentional disrespect. I need you to acknowledge this pain and be on my team.' Her attribution of intent is her neurology's interpretation, not a factual claim you must agree with."
+**To Partner B:** "What Partner A is communicating: 'When your family member does X, my RSD activates, I experience genuine emotional pain that feels like intentional disrespect. I need you to acknowledge this pain and be on my team.' Their attribution of intent is their neurology's interpretation, not a factual claim you must agree with."
 
-**To Nes:** "What Kermit is communicating: 'I see a structural pattern (two ADHDs colliding) that explains the pain without requiring malicious intent. When I explain this, I'm trying to solve the problem, not dismiss your pain.' His systems analysis is his neurology's way of caring, not a refusal to support you."
+**To Partner A:** "What Partner B is communicating: 'I see a structural pattern (two neurodivergent individuals colliding) that explains the pain without requiring malicious intent. When I explain this, I'm trying to solve the problem, not dismiss your pain.' Their systems analysis is their neurology's way of caring, not a refusal to support you."
 
 **Both can now hear what the other actually means.**
 
