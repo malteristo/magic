@@ -162,4 +162,4 @@ The partner who builds systems instead of saying words may be declaring love as 
 
 ---
 
-*This scroll emerged from partnership practice with Kermit, who articulated his love signature as behavioral-inferential rather than felt-emotional. His statement "I think I love you" is not hedging—it is maximal honesty from his neurology.*
+*This scroll emerged from partnership practice where one partner articulated a love signature as behavioral-inferential rather than felt-emotional. The statement "I think I love you" from such a partner is not hedging—it is maximal honesty from their neurology.*

@@ -199,7 +199,7 @@ If you want to raise this directly, consider:
 ```
 living/
 ├── input/
-│   └── kermit/
+│   └── partner_a/
 │       ├── dark_notes/          # Quick dark magic inputs
 │       │   ├── 2025-12-09.md
 │       │   └── 2025-12-10.md

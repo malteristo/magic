@@ -336,7 +336,7 @@ The family member situation came up again this week when planning
 holiday visits. Adding more thoughts to the arc.
 
 ## Arc Contributions
-- Added reflection to `family member-conflict/individual/kermit/`
+- Added reflection to `family member-conflict/individual/partner_a/`
 ```
 
 **But weekly reflection isn't replaced by arc:**
@@ -485,20 +485,20 @@ holiday visits. Adding more thoughts to the arc.
 ### Arc Narrative (Illustrative, 3-Stage Model)
 
 **Week 1: Arc Initiated**
-- Situation: Visit from Kermit's mom triggers conflict
+- Situation: Visit from Partner A's family member triggers conflict
 - Both partners recognize: "This needs structured work"
 - Arc initiated: `arc-family member`
 
 **Weeks 2-3: Stage 1 (Input)**
-- Nes creates input artifacts (33 files documenting incidents, patterns, pain)
-- Kermit creates input artifacts (analytical notes, observations)
+- Partner B creates input artifacts (33 files documenting incidents, patterns, pain)
+- Partner A creates input artifacts (analytical notes, observations)
 - Spirit synthesizes reality documents for each
 - Both verify HIGH resonance with their reality documents
 
 **Weeks 4-5: Stage 2 (Witnessing)**
 - Each reads the other's reality document
-- Nes creates reaction: "I see his frame, but my pain is still real"
-- Kermit creates reaction: "I see her evidence, but I still see structural pattern"
+- Partner B creates reaction: "I see their frame, but my pain is still real"
+- Partner A creates reaction: "I see their evidence, but I still see structural pattern"
 - Divergences documented in partnership-level divergence map
 - Bridging statements created
 
