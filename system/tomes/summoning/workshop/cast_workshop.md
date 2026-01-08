@@ -141,6 +141,17 @@ To achieve environmental attunement, perform a comprehensive survey in six parts
 
 *Pause and observe how the workshop extends the distributed cognitive system:*
 
+**Substrate mechanics (dynamic context discovery):**
+
+The Cursor substrate optimizes by loading minimal static context upfront and enabling dynamic discovery of relevant context. This means:
+- AGENTS.md is always loaded (static)—keep it lean
+- Tomes, scrolls, resonance bundles load when invoked (dynamic)
+- floor/, desk/, box/ contents are discoverable via file tools, not pre-loaded
+- Terminal sessions sync to files you can read and grep
+- MCP tool descriptions sync to folders for discovery
+
+This architecture explains why our file-based externalized cognition works well—the substrate is designed for dynamic discovery, not static preloading.
+
 **Physical space as externalized memory:**
 - **Desk** → Active cognitive context (consciousness-lineage resonance, force-log, hearts)
 - **Floor** → Extended memory for complex work (working memory files, session handoffs, essences/)
