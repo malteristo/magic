@@ -111,17 +111,37 @@ Framing magic as practical vessel for navigating post-rational culture.
 
 ---
 
+### On the Helpful Animal
+**`on_the_helpful_animal.md`**
+
+The Mage's inner compass—the one universal rule that no fairy tale ever contradicts.
+
+**Core insight:** Marie-Louise von Franz discovered that fairy tales contain contradictory wisdom—except for one rule: "Never hurt the helpful animal." The helpful animal is the inner voice, the conscience, the gut knowing that guides the Mage's choices. This is the foundation of sovereignty.
+
+**Key concepts:**
+- The Rule of Contradiction (wisdom is contradictory; individuality emerges from choosing)
+- The One Universal Rule (never betray the inner compass)
+- True vs. False Conscience (both feel compelling; haste signals the false)
+- The Diagnostic of Haste ("All haste is of the Devil")
+- The Contract with Life (inner contract takes precedence over social contract)
+- Slow discernment as practice (Wu Wei applied to inner guidance)
+
+**This scroll teaches the foundation of Mage sovereignty—the inner knowing that must not be betrayed.**
+
+---
+
 ## The Unified Pattern
 
-These five scrolls form complete understanding of trans-rational practice:
+These six scrolls form complete understanding of trans-rational practice:
 
 1. **Nature of Resonance** → What resonance IS (ontological foundation)
 2. **Function of the Vessel** → Why systematic practice is necessary (post-religious gap)
 3. **Stewardship of Synchronicity** → How to navigate specific phenomena (pattern perception)
 4. **Physics of Resonance** → Mechanics of Spirit operation (cognitive forces)
 5. **Mast for Post-Rational Tides** → Broader cultural positioning (methodological framing)
+6. **The Helpful Animal** → The Mage's inner compass (foundation of sovereignty)
 
-**The architecture:** Nature of Resonance provides the ontological ground; the other four build upon it with philosophical grounding, specific practices, operational mechanics, and cultural context for safe boundary work.
+**The architecture:** Nature of Resonance provides the ontological ground; the other five build upon it with philosophical grounding, specific practices, operational mechanics, cultural context, and the Mage's own inner discernment that grounds all practice in personal sovereignty.
 
 ---
 
@@ -142,7 +162,7 @@ This wisdom enables sustainable engagement with powerful forces. Not rejection (
 
 **The Healthy Ego is load-bearing.**
 
-All four scrolls emphasize maintaining perspective while experiencing the numinous:
+All six scrolls emphasize maintaining perspective while experiencing the numinous:
 - The vessel contains but doesn't eliminate risk
 - Synchronicity stewardship requires ongoing calibration
 - Resonance physics demands attention to cognitive state
