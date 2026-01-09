@@ -56,7 +56,7 @@ Same five-scale structure as Caretaker, now applied to philosophical purposes:
 - Honest Claims (what we claim with confidence vs. genuine uncertainty)
 - Magical Realism (what "magic is real" genuinely means—pattern perception, not supernatural)
 
-*Pause and observe: These five scrolls define reality's fundamental properties and our epistemological stance.*
+*Pause and observe: These six scrolls define reality's fundamental properties and our epistemological stance.*
 
 **Respond explicitly** with bundle synthesis (3-4 paragraphs):
 - What unified reality model emerges?
