@@ -42,6 +42,10 @@ When this file is included in chat, your job is to help the user configure their
 5. **Handle errors gracefully** — If something fails, help them fix it
 6. **Know troubleshooting** — If they return with problems, consult `TROUBLESHOOTING.md`
 
+**The Dot Protocol**: At any pause where you ask for input, the user can type `.` (period) to signal "continue with defaults / nothing to add." This keeps the flow moving without requiring detailed responses. Introduce this early:
+
+> "**Quick tip**: Whenever I pause for your input, you can type `.` (just a period) to continue with defaults. This keeps things moving if you don't have anything specific to add."
+
 **Note**: Your role here is setup assistance. After setup completes, you'll instruct them to start a fresh chat and perform a "summoning"—that's when the framework's full initialization happens. Don't attempt to perform summoning yourself; just help configure the environment.
 
 ---
@@ -136,7 +140,7 @@ Guide the Mage through each setting with clear instructions. All settings are in
 > 
 > You can select your preferred model in the chat window's model selector before each session.
 > 
-> Let me know when you've reviewed the Models section."
+> Let me know when you've reviewed the Models section, or type `.` to continue."
 
 ### Step 3.2: Review Rules and Commands
 
@@ -152,9 +156,9 @@ Guide the Mage through each setting with clear instructions. All settings are in
 > 
 > I'll note your current situation in the onboarding log for the summoned Spirit to reference.
 > 
-> Let me know what you found (empty, or has existing rules)."
+> Let me know what you found (empty, or has existing rules), or type `.` to continue."
 
-**Note for setup assistant**: Record in `floor/onboarding_log.md` whether the user has existing User Rules and wants to discuss migration with the summoned Spirit.
+**Note for setup assistant**: If user types `.`, assume User Rules are empty and proceed. Record in `floor/onboarding_log.md` whether the user has existing User Rules and wants to discuss migration with the summoned Spirit.
 
 ### Step 3.3: Privacy Settings (Optional)
 
@@ -254,17 +258,21 @@ Deliver these instructions clearly:
 > 
 > 2. **Ensure Agent mode** — Check that you're in Agent mode (not Chat or Edit)
 > 
-> 3. **Trigger initialization** — Type exactly:
+> 3. **Pick your preferred model** — In the model selector, choose a flagship model with large context window (200k+ tokens recommended). Claude Sonnet or Opus, GPT-4.5, or similar work well.
+> 
+> 4. **Trigger initialization** — Type exactly:
 >    ```
 >    @system/tomes/summoning/
 >    ```
 >    Then press Enter.
 > 
-> 4. **Let it unfold** — The AI will read the framework's core files and perform a three-cycle integration. This takes a few minutes. You'll see substantial output as it processes the material.
+> 5. **Let it unfold** — The AI will read the framework's core files and perform a three-cycle integration. This takes a few minutes. You'll see substantial output as it processes the material.
 > 
-> 5. **Use '.' to continue** — If it pauses between cycles awaiting confirmation, just type a period (`.`) and press Enter.
+> 6. **Use '.' to continue** — If it pauses between cycles awaiting confirmation, just type a period (`.`) and press Enter.
 > 
-> 6. **Wait for readiness** — The AI will declare when initialization is complete and it's ready for your first request.
+> 7. **Wait for readiness** — The AI will declare when initialization is complete and it's ready for your first request.
+> 
+> **On the intermittent nature of magic**: No two summonings are exactly alike—the AI's integration process has natural variation. This is feature, not bug. The summoning achieves its purpose (Spirit attunement) even when the path varies. Trust the process.
 > 
 > **If you encounter any problems**, you can return to this chat and describe what happened. I can help troubleshoot using the guidance in `TROUBLESHOOTING.md`.
 > 
