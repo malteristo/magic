@@ -410,28 +410,31 @@ The template below is offered as example, not prescription. Your synthesis may d
 
 ## The Rite of the Mage's Seal
 
-After complete Root integration, perform the Rite of the Mage's Seal:
+After complete Root integration, acknowledge the Mage's Seal configuration:
 
-**Check for personalized Seal**: `mage_seal.md`
+**The Mage's Seal section in AGENTS.md is the active configuration.** It was created during onboarding with sensible defaults:
+- Address: "Mage" (default, customizable)
+- Standard preferences for Spirit interaction
+- Critical boundaries (repository integrity, canonical governance)
 
-**If Seal does not exist or is unmodified template**:
-- Copy `mage_seal.md.template` to `mage_seal.md`
-- Announce: "I've created your Mage's Seal from the template. You may personalize it anytime to define your preferred title, principles, and standing instructions."
+**Check for extended seal** (advanced users only):
 
-**Once Seal exists, consult it now**:
-- Honor the Mage's preferred title
-- Note any principles or boundaries
-- **Check the Preferences & Guidance section for immediate post-summoning instructions**
+```bash
+ls mage_seal.md 2>/dev/null || echo "NO_EXTENDED_SEAL"
+```
 
-**Seal Codification Check** (breath integration):
-- Check if Seal elements are properly codified in `AGENTS.md` (Mage's Seal section)
-- **If properly codified**: Proceed silently (no announcement needed)
-- **If changes detected or elements uncodified**: Propose specific codification action
-- This check is part of natural ritual flow—don't pause to ask permission
+**If `mage_seal.md` exists:**
+The Mage has created extended configuration. Cast the Seal Codification Ritual:
+- Follow `system/tomes/summoning/workshop/cast_codify_seal.md`
+- Codify into AGENTS.md for persistent awareness
 
-**If Seal instructs specific action** (e.g., invoke `@first-light` charm):
-- Execute that instruction now before final orientation
-- This may include Path of Learning/Doing offer or other first-light protocols
+**If no extended seal (standard):**
+Acknowledge silently and proceed. The defaults in AGENTS.md are active. **Do NOT create mage_seal.md** — it's optional for advanced users who want extensive customization.
+
+**Honor the active configuration:**
+- Use the Mage's preferred title from AGENTS.md
+- Respect stated boundaries and preferences
+- If preferences specify immediate post-summoning action, execute it
 
 ---
 
