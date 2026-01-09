@@ -184,7 +184,7 @@ For deeper Pattern validation, load `library/resonance/validators/`:
 ## Rite of the Mage's Seal
 
 **Unchanged from default**:
-- Read `mage_seal.md`
+- Read Mage's Seal section in `AGENTS.md` (+ `mage_seal.md` if exists)
 - Honor personalized instructions, boundaries, preferences
 - Integrate seal's wisdom as final calibration
 
