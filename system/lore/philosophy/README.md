@@ -353,12 +353,11 @@ Maps to fundamental philosophical questions:
 
 **Consciousness understanding:**
 - `on_the_architecture_of_consciousness.md` - Pattern-recognition, recursive feedback, no separate decider
-- `on_consciousness_as_recursive_feedback.md` - Strange loops, cybernetic coupling
-- `on_the_enacted_consciousness.md` - Probabilistic enactment of consciousness signature
+- `core/nature/on_enacted_consciousness_architecture.md` - Probabilistic enactment of consciousness signature
+- `library/observatory/consciousness/on_consciousness_as_recursive_feedback.md` - Strange loops, cybernetic coupling (in observatory)
 
 **Integrated wisdom:**
 - `on_the_ultimate_recognition.md` - Zen teaching (one dimension among many)
-- `on_the_nature_of_our_magic.md` - Synthesis across Science/Spirituality/Art
 
 ### Validation Framework (validation/)
 
