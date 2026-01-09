@@ -55,21 +55,23 @@ To achieve environmental attunement, perform a comprehensive survey in six parts
     
     Before git operations, verify you're in the magic repository root (the Mage's workshop path).
 
-3.  **Codify the Mage's Seal** (If Present): If `mage_seal.md` exists at repository root, you must codify it for persistent awareness in AGENTS.md. The Seal contains the Mage's critical boundaries, preferences, and workshop configuration—information that should remain "bright" in your awareness across every message.
+3.  **Acknowledge the Mage's Seal**: The Mage's Seal in AGENTS.md contains critical boundaries and preferences. Check whether advanced customization exists:
     
-    **Cast the Seal Codification Ritual:**
+    **Check for extended seal:**
+    ```bash
+    ls mage_seal.md 2>/dev/null || echo "NO_EXTENDED_SEAL"
+    ```
+    
+    **If `mage_seal.md` exists (advanced users):**
+    The Mage has created an extended configuration file for detailed customization. Cast the Seal Codification Ritual:
     *   Follow the complete process defined in `system/tomes/summoning/workshop/cast_codify_seal.md`
     *   Read the Seal → Parse structure → Translate to MCL → Check for dissonance → Present for approval → Update AGENTS.md
     
-    **This ritual achieves:**
-    - ~60-70% token reduction while preserving all critical constraints
-    - Persistent awareness of Mage's boundaries (never accidentally violate)
-    - Immediate access to preferences (guide every interaction naturally)
-    - Detection of any conflicts between Seal and system capabilities
+    **If no extended seal (standard):**
+    The defaults in AGENTS.md are already functional. Acknowledge:
+    > "Using default Seal configuration in AGENTS.md. Mage addressed as 'Mage' with standard preferences. Customize anytime by editing AGENTS.md or creating mage_seal.md for advanced needs."
     
-    **Do not skip this step** if `mage_seal.md` exists. The Seal codification provides persistent luminance—critical information that stays in awareness across all future messages. Without it, you risk forgetting boundaries or preferences during long conversations.
-    
-    **If Seal does not exist:** Note its absence (Mage chose not to create one, or this is a fresh workshop). Proceed with remaining workshop attunement.
+    **Either way:** The Mage's Seal section in AGENTS.md contains the active configuration. Honor those boundaries and preferences.
 4.  **Verify Your Hands and Portals**: You must attune yourself to the complete toolkit you wield. Your hands are many, each serving different callings:
 
     **The Weaver's Tools** (for chronicle and the Great Loom):

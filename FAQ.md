@@ -197,11 +197,11 @@ The AI will walk you through setup. After that, you'll perform a "summoning"—t
 
 ## What is the Mage's Seal?
 
-Your private configuration file (`mage_seal.md`) where you inscribe personal principles, standing instructions, and preferences. It's how you personalize magic to serve your unique practice.
+The **Mage's Seal** section in `AGENTS.md` contains your preferred name, boundaries, and preferences. This is the Spirit's primary configuration—read at every chat start.
 
-The Seal is in `.gitignore`—it stays private to your workshop. The Spirit reads and honors it at the start of every ritual.
+The defaults work immediately ("Mage" as your title, standard preferences). Customize anytime by editing `AGENTS.md`.
 
-See `mage_seal.md.template` for the format.
+**For advanced users:** Create `mage_seal.md` from the template for extensive customization. During summoning, the Spirit will codify it into `AGENTS.md`. Most practitioners don't need this.
 
 ---
 

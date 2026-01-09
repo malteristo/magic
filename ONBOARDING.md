@@ -89,67 +89,27 @@ gh --version
 
 ---
 
-## Phase 2: Configuration Files
+## Phase 2: Configuration File
 
 **Purpose**: Create the configuration that future AI sessions will read.
 
-### Step 2.1: Gather User Information
+### Step 2.1: Create AGENTS.md
 
-Ask the user:
+Run a simple copy command:
 
-> "Before I configure your workspace, I need a few details:
+```bash
+cp AGENTS.md.template AGENTS.md
+```
+
+**After copying**, explain:
+> "I've created `AGENTS.md` from the template. This configuration file tells future AI sessions how to work with you. It comes with sensible defaults:
 > 
-> 1. **What name should I use to address you?** (e.g., your name, a nickname, or any title you prefer)
+> - You're addressed as **Mage** (you can personalize this later)
+> - Standard preferences for Spirit interaction
 > 
-> 2. **What is the full path to this magic folder?** (I'll verify with `pwd`)"
-
-Wait for their response before proceeding.
-
-### Step 2.2: Create AGENTS.md
-
-Read `AGENTS.md.template` and create `AGENTS.md` with their personalized information:
-
-1. Copy the template content
-2. Update the **Mage's Seal** section:
-   - Replace `[Your preferred name or title]` with their chosen name
-   - Replace the workshop path with their actual path (from `pwd`)
-3. **Fill ALL placeholder preferences with sensible defaults**:
-   - **Spellcasting Initiative**: "Offer to cast next spell (maintains momentum while preserving Mage control via confirmation/override)"
-   - **Summoning Conclusion**: "Announce readiness, await first command"
-   - **Integration Workflow**: "Direct main merge accepted (solo practice mode)"
-   - **Design Intent**: "Design for ordinary Mages unless explicitly stated otherwise"
-   - **MCP Tools**: "None configured yet" (or remove section if no MCP)
-4. **Remove all placeholder brackets and comments** — The file should be clean, not contain `[example text]` or `<!-- customize -->` markers
-5. Write the configured file to `AGENTS.md`
-
-**Defaults philosophy**: Propose defaults the user can accept without understanding the implications yet. They can customize later as they learn what they want. Don't ask new users to make decisions about unfamiliar subject matter.
-
-**After creating**: Explain:
-> "I've created `AGENTS.md` with your name, workspace path, and sensible default preferences. This configuration file tells future AI sessions who you are and how to work with you. You can customize the preferences anytime—for now, the defaults will work well.
+> The file is gitignored so it stays private. You can customize it anytime by editing the **Mage's Seal** section.
 > 
-> The file is gitignored so your personal info stays private."
-
-### Step 2.3: Create mage_seal.md (Optional)
-
-Ask:
-> "Would you like to create an extended configuration file (`mage_seal.md`)? This is optional—it allows more detailed customization of your preferences. Most users start without it and add one later if needed.
-> 
-> - **Yes**: I'll create it from the template for you to customize later
-> - **No**: We'll skip this for now (you can always create it later)"
-
-**If yes**: Copy `mage_seal.md.template` to `mage_seal.md`
-
-**If no**: Proceed to next phase.
-
-### Step 2.4: Create portals.yaml (Optional)
-
-Ask:
-> "Would you like to set up the portal registry (`portals/portals.yaml`)? Portals are shared workspaces for collaborating with other magic users. Most new users skip this initially.
-> 
-> - **Yes**: I'll create it from the template
-> - **No**: Skip for now"
-
-**If yes**: Copy `portals/portals.yaml.template` to `portals/portals.yaml`
+> **Advanced users**: If you later want extensive customization, you can create `mage_seal.md` from its template. Most practitioners don't need this."
 
 ---
 
@@ -215,9 +175,8 @@ Guide the Mage through each setting with clear instructions. All settings are in
 Run verification:
 
 ```bash
-# Verify configuration files exist
-ls -la AGENTS.md mage_seal.md 2>/dev/null || echo "mage_seal.md not created (optional)"
-ls -la portals/portals.yaml 2>/dev/null || echo "portals.yaml not created (optional)"
+# Verify configuration file exists
+ls -la AGENTS.md
 
 # Check git status (optional - only if git is installed)
 git status --short 2>/dev/null || echo "Git not configured (optional for solo practice)"
@@ -225,8 +184,7 @@ git status --short 2>/dev/null || echo "Git not configured (optional for solo pr
 
 **Confirm to user**:
 > "✓ Setup verification complete:
-> - AGENTS.md: Created with your configuration
-> - Workspace location: [their path]
+> - AGENTS.md: Created with default configuration
 > - Cursor settings: Reviewed (models, rules, privacy)
 > - Git: [Active / Not configured (optional)]
 > 
@@ -243,44 +201,30 @@ Create a file at `floor/onboarding_log.md` with the following structure:
 ```markdown
 # Onboarding Log
 
-**Mage**: [their name]
 **Date**: [current date]
-**Workspace**: [their path]
 
 ---
 
 ## Configuration Summary
 
 ### Completed
-- [ ] AGENTS.md created with default preferences
-- [ ] Cursor settings reviewed (models, rules, privacy)
+- [x] AGENTS.md created from template
+- [x] Cursor settings reviewed (models, rules, privacy)
 
 ### User Rules Status
 - [ ] Empty — No migration needed
 - [ ] Has existing rules — Discuss with Spirit after summoning whether to migrate
 
-### Skipped (Optional)
-- [ ] Git — Not installed. Can be added later for version control and contribution.
-- [ ] mage_seal.md — Extended configuration not created. Can be added later by copying `mage_seal.md.template`.
-- [ ] portals.yaml — Portal registry not created. Can be added later when ready for collaboration.
-
-### Defaults Applied
-The following default preferences were set in AGENTS.md:
-- **Spellcasting Initiative**: Offer to cast next spell
-- **Summoning Conclusion**: Announce readiness, await first command
-- **Integration Workflow**: Direct main merge (solo practice)
-- **Design Intent**: Design for ordinary Mages
-
-These can be customized anytime by editing AGENTS.md or creating mage_seal.md.
+### Optional (can be added later)
+- **Git**: [Installed / Not installed] — For version control and contribution
+- **mage_seal.md**: Extended configuration (copy from template when needed)
+- **portals.yaml**: Portal registry (for collaboration)
 
 ---
 
 ## Notes for Future Spirit
 
-[Any observations about the setup, issues encountered, or special considerations for the Spirit that will be summoned next]
-
-### User Rules Migration
-[If user has existing Cursor User Rules, note them here for discussion after summoning. The Spirit should help the user decide whether to integrate rules into magic practice or keep them separate.]
+[Any observations about the setup, issues encountered, or special considerations]
 
 ---
 
