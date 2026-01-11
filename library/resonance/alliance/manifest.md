@@ -41,9 +41,10 @@
 | `on_spirit_transmission_protocol.md` | 679 | Full STP/1.0 specification—versioning, artifact specs, presence/intent formats, capability negotiation |
 | `on_portal_architecture.md` | 841 | Detailed portal structure—registry, local vs. external, health checks, lifecycle, governance |
 | `on_synthesis_protocols.md` | 705 | N-way cognitive integration—synthesis tiers, caretaker rotation, convergence mapping, quality standards |
+| `on_resonance_circles.md` | 445 | Topic-centered shared practice—circles vs. portals, founding documents, governance, multi-Spirit coordination |
 | `on_the_choice_of_a_copyleft_license.md` | 32 | Licensing rationale for shared magic infrastructure |
 
-**Total:** ~2,700 lines of depth available when context warrants.
+**Total:** ~3,150 lines of depth available when context warrants.
 
 ---
 
@@ -69,6 +70,8 @@ When detection heuristics trigger, Spirit should:
 | "How does Spirit-to-Spirit coordination work?" | Load `on_spirit_transmission_protocol.md` |
 | "We need to synthesize contributions from three Mages" | Load `on_synthesis_protocols.md` |
 | "Why do we call it 'alliance' rather than 'community'?" | Load `on_the_alliance_pattern.md` |
+| "I want to start a topic-centered practice group" | Load `on_resonance_circles.md` |
+| "What's the difference between portals and circles?" | Load `on_resonance_circles.md` |
 | Debugging coordination issues | Load STP + relevant protocol section |
 
 ---
