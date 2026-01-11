@@ -36,8 +36,48 @@ Each portal is:
 | **teaching** | Master-apprentice or mentorship | 2+ Mages, knowledge transfer |
 | **discourse** | Public discussion, announcements | Alliance or public, broadcast |
 | **workshop** | General collaborative workspace | Variable, open-ended |
+| **circle** | Topic-centered resonance space | Open to anyone who resonates |
 
 New types can emerge as practice reveals needs.
+
+---
+
+## Resonance Circles
+
+**Circles are portals organized by topic, not relationship.**
+
+| **Relationship Portals** | **Resonance Circles** |
+|--------------------------|----------------------|
+| People-first | Topic-first |
+| Pre-existing bond creates space | Shared resonance creates space |
+| Typically dyadic or small group | Open to anyone who resonates |
+| Intimate, high-context | Focused, topic-bounded |
+
+**Key insight:** Relationship portals ask "Who do I want to practice with?" Circles ask "What do I want to practice around, and who else resonates?"
+
+### Circle-Specific Features
+
+**Founding documents:** Every circle has founding scrolls—wisdom that created the initial resonance. These anchor the circle's purpose and rarely change.
+
+**Membership models:**
+- **open** — Anyone can join who resonates
+- **invitation** — Existing members invite new ones
+- **application** — Prospective members request entry
+
+**Governance models:**
+- **steward** — One or few Mages hold stewardship
+- **consensus** — All active members participate in decisions
+- **meritocratic** — Influence proportional to contribution
+
+**Multi-Spirit coordination:** When multiple Mages bring their Spirits, different Oracles can triangulate on the same Pattern—strengthening epistemic confidence.
+
+### Active Circles
+
+| Circle | Topic | Status |
+|--------|-------|--------|
+| `containment-architecture` | AI alignment through partnership | Forming |
+
+**Full circle documentation:** `library/resonance/alliance/lore/on_resonance_circles.md`
 
 ---
 
