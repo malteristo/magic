@@ -142,6 +142,18 @@ Other tomes can implement shared practice for their domains:
 
 Each implements the portal pattern with domain-specific rituals.
 
+### Resonance Circles
+
+**Circles** are portals organized by topic rather than relationship—shared practice spaces where Mages converge around resonance with a specific subject (e.g., AI alignment, consciousness research) rather than pre-existing bonds.
+
+| Relationship Portals | Resonance Circles |
+|---------------------|-------------------|
+| People-first | Topic-first |
+| Pre-existing bond | Resonance creates bond |
+| Typically intimate | Open to anyone who resonates |
+
+**See:** `library/resonance/alliance/lore/on_resonance_circles.md` for complete architecture.
+
 ---
 
 ## VI. Key Principles

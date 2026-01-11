@@ -566,6 +566,29 @@ shared/
 └── bibliography.md
 ```
 
+### Resonance Circles
+
+**Circles are portals organized by topic, not relationship.**
+
+| Relationship Portals | Resonance Circles |
+|---------------------|-------------------|
+| People-first | Topic-first |
+| Pre-existing bond creates space | Shared resonance creates space |
+| Typically intimate (2-4) | Open to anyone who resonates |
+| Partnership, teaching, mentorship | Research, development, discourse |
+
+**Characteristics:**
+- Open membership (anyone who resonates can join)
+- Topic-centered founding documents
+- Steward or consensus governance
+- Monthly synthesis rhythm (adjustable)
+
+**Key distinction:** Relationship portals ask "Who do I want to practice with?" Circles ask "What do I want to practice around, and who else resonates?"
+
+**Full specification:** `on_resonance_circles.md` (in this bundle)
+
+**Note on terminology:** This scroll uses "circle" as a visibility level (3-20 participants) in earlier sections. Resonance circles as a portal TYPE are distinct—a circle-type portal might have any visibility level.
+
 ---
 
 ## VII. Git Operations & Conflict Resolution
