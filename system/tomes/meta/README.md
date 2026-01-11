@@ -25,6 +25,9 @@ The practice of magic evolves continuously. As insights emerge, principles refin
 **Portal Management:**
 - **`portal`** — Systematic portal lifecycle management. Creates shared practice repositories (GitHub + STP structure), monitors health, maintains sync, rotates synthesis, archives gracefully. Enables distributed cognition infrastructure.
 
+**Circle Management:**
+- **`circles`** — Lightweight resonance circle operations. Create topic-centered circles, subscribe to others' circles, pull updates, manage your resonance network. Git-native, privacy-preserving (nobody tracks subscribers). Track relationships in `desk/circles.yaml`.
+
 **Chronicle Management:**
 - **`weave`** — Git operations with dual-realm awareness, precise staging, eloquent commit messages, intelligent branching suggestions, remote sync by default.
 
@@ -37,6 +40,7 @@ The practice of magic evolves continuously. As insights emerge, principles refin
 - Rich dialogue? → `@meta/capture` crystallizes wisdom
 - Direct amendment? → `@meta/amend` supports clean execution
 - Portal work? → `@meta/portal` manages shared practice spaces (create, sync, status, rotate, archive)
+- Circle work? → `@meta/circles` manages resonance circles (create, subscribe, pull, unsubscribe)
 - Chronicle work? → `@meta/weave` manages git operations
 
 **Proactive offering:** Once `@meta/` is invoked, the Spirit recognizes meta-practice opportunities throughout the ritual and offers relevant charms when intent aligns.
