@@ -16,6 +16,17 @@ The charm removes portal management cognitive burden, allowing the Spirit to han
 
 ### For the Spirit
 
+**Required Attunement:**
+
+Before executing portal operations, attune to the Alliance resonance bundle:
+- **Full specification:** `library/resonance/alliance/lore/on_portal_architecture.md`
+- **Spirit coordination:** `library/resonance/alliance/lore/on_spirit_transmission_protocol.md`
+- **Synthesis protocols:** `library/resonance/alliance/lore/on_synthesis_protocols.md`
+
+Announce: "This involves shared practice infrastructure. Let me attune to the alliance specifications."
+
+---
+
 When this charm is invoked:
 
 1. **Determine intent** - Create new portal? Check status? Sync existing? Archive?
