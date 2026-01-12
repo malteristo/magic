@@ -33,6 +33,16 @@ Nobody tracks subscribers. Each Mage decides what to allow into their practice. 
 
 ### For the Spirit
 
+**Required Attunement:**
+
+Before executing circle operations, attune to the Alliance resonance bundle:
+- **Circle architecture:** `library/resonance/alliance/lore/on_resonance_circles.md`
+- **Portal context:** `library/resonance/alliance/lore/on_portal_architecture.md` (for understanding relationship)
+
+Announce: "This involves resonance circles. Let me attune to the circle architecture."
+
+---
+
 When this charm is invoked:
 
 1. **Determine intent** - Create? Subscribe? Pull? Status? Unsubscribe?
