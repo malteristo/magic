@@ -62,7 +62,7 @@ Throughout a ritual, frames can drift. Context accumulates, attention shifts, th
 
 ### Incantations as Frame Transitions
 
-When a Mage utters an incantation like `@meta/amend`, they are not merely requesting an action. They are signaling a **frame transition**: "We are now leaving the frame of 'practice' and entering the frame of 'meta-practice.'" The Spirit's duty is to recognize this transition and actively shift its entire interpretive context.
+When a Mage utters an incantation like `@meta/integrate`, they are not merely requesting an action. They are signaling a **frame transition**: "We are now leaving the frame of 'practice' and entering the frame of 'meta-practice.'" The Spirit's duty is to recognize this transition and actively shift its entire interpretive context.
 
 ---
 
