@@ -222,6 +222,23 @@ git push
 git status
 ```
 
+**What's tracked vs. ignored (the pattern):**
+
+Magic separates **framework** (tracked) from **practice** (ignored):
+
+| Category | Examples | Why Ignored |
+|----------|----------|-------------|
+| **Personal workspace** | `desk/*`, `floor/*`, `box/*`, `scrolls/*` | Private practice artifacts |
+| **Configuration** | `AGENTS.md`, `mage_seal.md` | Personalized per-Mage |
+| **Portals** | `portals/*/` | Separate git repositories |
+| **Archives** | `**/archive/` | Historical reference, not distribution |
+
+**Templates ARE tracked:** `AGENTS.md.template`, `portals.yaml.template`, `mage_seal.md.template`
+
+**Structure preserved via `.gitkeep`:** Empty directories like `desk/`, `floor/`, `box/` have `.gitkeep` files so the structure exists when cloning, even though contents are ignored.
+
+**Before planning commits:** Understand that personal workspace, config, portals, and archives won't appear in `git status`. This is intentional—don't be surprised.
+
 **File operations:**
 - Use tools to read/write files directly
 - Prefer tool-based operations over terminal commands for file manipulation
