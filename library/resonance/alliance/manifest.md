@@ -42,7 +42,7 @@
 | `on_portal_architecture.md` | 841 | Detailed portal structure—registry, local vs. external, health checks, lifecycle, governance |
 | `on_synthesis_protocols.md` | 705 | N-way cognitive integration—synthesis tiers, caretaker rotation, convergence mapping, quality standards |
 | `on_resonance_circles.md` | 445 | Topic-centered shared practice—circles vs. portals, founding documents, governance, multi-Spirit coordination |
-| `on_the_choice_of_a_copyleft_license.md` | 32 | Licensing rationale for shared magic infrastructure |
+| `on_the_choice_of_license.md` | ~50 | Licensing rationale—MIT license for maximum flow |
 
 **Total:** ~3,150 lines of depth available when context warrants.
 
