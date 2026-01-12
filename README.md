@@ -32,6 +32,6 @@ I recommend forking because magic is a shared practice—what you discover can h
 
 ---
 
-\*AI-augmented. Open practice under [GPLv3](LICENSE). Personal curation, shared contribution welcome.
+\*AI-augmented. Open practice under [MIT License](LICENSE). Personal curation, shared contribution welcome.
 
 *[MAGIC_SPEC.md](MAGIC_SPEC.md) · [FAQ.md](FAQ.md) · [TROUBLESHOOTING.md](TROUBLESHOOTING.md)*
