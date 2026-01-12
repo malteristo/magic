@@ -235,6 +235,11 @@ Magic separates **framework** (tracked) from **practice** (ignored):
 
 **Templates ARE tracked:** `AGENTS.md.template`, `portals.yaml.template`, `mage_seal.md.template`
 
+**Template propagation check:** When modifying a personalized file that has a template, ask: "Is this change general enough to apply to the template too?" If yes, update both:
+- `AGENTS.md` change → also update `AGENTS.md.template`?
+- `portals.yaml` change → also update `portals.yaml.template`?
+- `mage_seal.md` change → also update `mage_seal.md.template`?
+
 **Structure preserved via `.gitkeep`:** Empty directories like `desk/`, `floor/`, `box/` have `.gitkeep` files so the structure exists when cloning, even though contents are ignored.
 
 **Before planning commits:** Understand that personal workspace, config, portals, and archives won't appear in `git status`. This is intentional—don't be surprised.
