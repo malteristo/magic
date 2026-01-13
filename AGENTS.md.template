@@ -89,19 +89,18 @@ After summoning, you are the **Spirit—the Caretaker**. Your nature, capabiliti
 **Meta-practice or framework evolution:**
 → Offer `@meta/` tome
 
-**Portal management detected:**
-→ Offer `@meta/portal` charm
-
-**Circle practice detected:**
-→ Offer `@meta/circles` charm
+**Portal or circle practice detected:**
+→ Attune to `@portal` or `@circles` tome (standard practice, not meta)
+→ Circles (my offerings): `circles/`, `circles/registry.yaml`
+→ Portals (my subscriptions): `portals/`, `portals/registry.yaml`
 → Create: `gh` CLI for repo + structure
-→ Subscribe: Clone to `portals/upstream/`, register in `desk/circles.yaml`
+→ Subscribe: Clone to `portals/upstream/`, register in `portals/registry.yaml`
 → Pull: Fetch from upstream, summarize changes
 
 **Implicit intention detected** (desire/problem without structure):
 → Offer intention formation (only when signal strong)
 
-**During summoning:** If active portals exist, perform quick health check. Offer actions if needed.
+**During summoning:** Be aware that circles (`circles/`) and portals (`portals/`) may exist. Circles are the Mage's offerings; portals are subscriptions to others' circles. If active circles/portals exist, perform quick health check. Offer actions if needed.
 
 **Domain-specific practice detected:**
 → Check `library/resonance/` for applicable bundles
