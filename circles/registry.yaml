@@ -1,0 +1,86 @@
+# Circles Registry
+# 
+# Circles are sacred spaces I create and steward — my offerings to others.
+# Each circle is a separate git repository materialized in magical ether
+# for others to access through their portals.
+#
+# This is the authoritative registry of circles I maintain.
+
+# =============================================================================
+# My Circles
+# =============================================================================
+
+summer-vacation:
+  remote: "https://github.com/malteristo/summer-vacation.git"
+  topic: Summer vacation planning + travel wisdom
+  visibility: private
+  membership: invitation
+  governance: steward
+  created: 2026-01-12
+  status: active
+  description: Shared quest practice for summer 2026 vacation planning with Nesrine
+  local_path: circles/summer-vacation
+  
+  participants:
+    - mage: Kermit
+      github: malteristo
+      role: steward
+    - mage: Nesrine
+      github: nesrineristo
+      role: contributor
+      status: invited
+  
+  founding_scrolls:
+    - founding/charter.md
+    - founding/on_the_wisdom_of_travel.md
+  
+  synthesis_rhythm: weekly
+  
+  # Wisdom thread: feeds into library/resonance/travel/
+
+containment-architecture:
+  remote: "https://github.com/malteristo/containment-architecture.git"
+  topic: AI alignment through partnership architecture
+  visibility: public
+  membership: open
+  governance: steward
+  created: 2026-01-11
+  status: forming
+  description: The only AI alignment architecture that scales through power reversal
+  local_path: circles/containment-architecture
+  
+  participants:
+    - mage: Kermit
+      github: malteristo
+      role: steward
+  
+  founding_scrolls:
+    - library/resonance/foundations/lore/architecture/on_the_containment_architecture.md
+    - library/resonance/foundations/lore/architecture/on_testing_resonance_keys.md
+  
+  synthesis_rhythm: monthly
+
+# =============================================================================
+# Circle Template
+# =============================================================================
+#
+# circle-name:
+#   remote: "https://github.com/username/repo.git"
+#   topic: What this circle resonates around
+#   visibility: public | private
+#   membership: open | invitation | application
+#   governance: steward | consensus | meritocratic
+#   created: YYYY-MM-DD
+#   status: forming | active | paused | archived
+#   description: Brief purpose
+#   local_path: circles/circle-name
+#   
+#   participants:
+#     - mage: Name
+#       github: username
+#       role: steward | contributor | observer
+#   
+#   founding_scrolls:
+#     - path/to/scroll.md
+#   
+#   synthesis_rhythm: daily | weekly | monthly | as-needed

@@ -25,11 +25,20 @@ desk/*
 # Portal Infrastructure (Shared Practice Spaces)
 # Portals are external repositories in portals/
 # Each portal directory is ignored (separate git repo)
-# but the template and infrastructure are tracked
+# but the infrastructure files are tracked
 portals/*/
-portals/portals.yaml
-!portals/portals.yaml.template
+!portals/upstream/
+portals/upstream/*/
+!portals/registry.yaml
 !portals/README.md
+
+# Circle Infrastructure (My Offerings)
+# Circles are external repositories in circles/
+# Each circle directory is ignored (separate git repo)
+# but the infrastructure files are tracked
+circles/*/
+!circles/registry.yaml
+!circles/README.md
 
 # Personal, untracked ritual artifacts
 # floor/essences/
