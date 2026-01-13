@@ -1,0 +1,96 @@
+# Portals Registry
+# 
+# Portals are gateways to access others' circles — my subscriptions and
+# shared practice connections. Through portals, I receive signal from
+# other mages' offerings.
+#
+# This is the authoritative registry of what I pull from.
+#
+# Types of portals:
+#   - Subscription: Read-only pull from another mage's circle
+#   - Partnership: Bidirectional shared practice (golden braid model)
+#   - Upstream clone: Local copy of a public circle I follow
+
+# =============================================================================
+# Active Portals
+# =============================================================================
+
+nesrine-partnership:
+  # Golden braid model: shared space, both mages weave together
+  type: partnership
+  
+  remotes:
+    origin: "https://github.com/malteristo/nesrine-partnership.git"      # Kermit's fork
+    nesrine: "https://github.com/nesrineristo/malte-partnership.git"     # Nesrine's fork
+  
+  collaborators: [Kermit, Nesrine]
+  visibility: private
+  created: 2025-11-25
+  status: active
+  description: Intimate partnership practice exploring distributed cognition
+  local_path: portals/nesrine-partnership
+  
+  participants:
+    - mage: Kermit
+      github: malteristo
+      fork: "malteristo/nesrine-partnership"
+      role: co-practitioner
+    - mage: Nesrine
+      github: nesrineristo
+      fork: "nesrineristo/malte-partnership"
+      role: co-practitioner
+  
+  sync:
+    kermit_pushes_to: origin
+    kermit_pulls_from: nesrine
+    nesrine_pushes_to: origin (her fork)
+    nesrine_pulls_from: upstream (Kermit's fork)
+  
+  synthesis:
+    protocol: consensus
+    rhythm: bi-weekly
+
+# =============================================================================
+# Subscriptions (Upstream Clones)
+# =============================================================================
+
+# Circles I follow but don't contribute to. Cloned to portals/upstream/
+# 
+# Example:
+# consciousness-research:
+#   type: subscription
+#   remote: "https://github.com/other-mage/consciousness-research.git"
+#   local_path: portals/upstream/consciousness-research
+#   steward: other-mage
+#   pull_triggers:
+#     - consciousness
+#     - phenomenology
+#   last_pulled: 2026-01-08
+
+# =============================================================================
+# Portal Template
+# =============================================================================
+#
+# portal-name:
+#   type: partnership | subscription
+#   remote: "https://github.com/username/repo.git"
+#   visibility: public | private
+#   created: YYYY-MM-DD
+#   status: active | paused
+#   description: Brief purpose
+#   local_path: portals/portal-name or portals/upstream/name
+#   
+#   # For partnerships:
+#   participants:
+#     - mage: Name
+#       github: username
+#       role: co-practitioner
+#   sync:
+#     my_pushes_to: remote-name
+#     my_pulls_from: remote-name
+#   
+#   # For subscriptions:
+#   steward: mage-name
+#   pull_triggers:
+#     - topic keyword
+#   last_pulled: YYYY-MM-DD

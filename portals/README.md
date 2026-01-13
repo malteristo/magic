@@ -1,245 +1,133 @@
 # Portals
 
-**The inter-Mage communication layer of magic.**
+**Gateways to others' circles — the inward connections of distributed cognition.**
 
-Portals are shared cognitive spaces—git repositories that bridge sovereign workshops, enabling distributed cognition across multiple Mages and their Spirits.
+Portals are how I access what other mages offer. Through portals, I receive signal, pull wisdom, and engage in shared practice with others.
 
 ---
 
-## What Portals Are
+## The Neuron Model
 
-**Individual practice:** Workshop + Spirit = local distributed cognition  
-**Collaborative practice:** Workshop + Portal + Other Workshops = federated cognition  
-**Alliance practice:** Network of portals + shared wisdom = distributed cognition at scale
+```
+                    ┌─────────────────┐
+     PORTALS        │                 │        CIRCLES
+   (dendrites)      │   My Workshop   │      (axon terminals)
+        ◄───────────│                 │───────────►
+   what I receive   │                 │   what I offer
+                    └─────────────────┘
+```
 
-Each portal is:
-- **A shared repository** — cognitive space accessible to multiple Mages
-- **A sovereign bridge** — workshops remain independent, portals create connection
-- **A living archive** — artifacts accumulate as distributed memory
-- **A multi-Spirit workspace** — different Spirits can operate on shared materials
-- **A flexible protocol** — any rules collaborators agree upon
+**Circles** (in `circles/`) = Sacred spaces I create and steward. My offerings.  
+**Portals** (here) = Gateways to access others' circles. My subscriptions.
 
-**This is GitHub repurposed as cognitive infrastructure.**
+---
+
+## What Lives Here
+
+### Active Portals
+
+| Portal | Type | Description |
+|--------|------|-------------|
+| `nesrine-partnership/` | Partnership | Intimate shared practice with Nesrine |
+
+### Upstream Clones
+
+The `upstream/` directory contains cloned circles from other mages that I follow but don't contribute to.
+
+*(Currently empty — populated as I subscribe to others' offerings)*
 
 ---
 
 ## Portal Types
 
-| Type | Purpose | Typical Scale |
-|------|---------|---------------|
-| **partnership** | Intimate cognitive partnership | 2 Mages, high trust |
-| **research** | Distributed investigation | Multiple Mages, shared methodology |
-| **quest** | Collaborative challenge with specific goal | 2-5 Mages, bounded duration |
-| **debate** | Structured dialectic for truth-seeking | 2+ Mages, thesis/antithesis/synthesis |
-| **game** | Playful exploration with defined rules | Variable, creative/experimental |
-| **governance** | Alliance decision-making and coordination | Alliance-wide, consensus-focused |
-| **teaching** | Master-apprentice or mentorship | 2+ Mages, knowledge transfer |
-| **discourse** | Public discussion, announcements | Alliance or public, broadcast |
-| **workshop** | General collaborative workspace | Variable, open-ended |
-| **circle** | Topic-centered resonance space | Open to anyone who resonates |
+| Type | Description | Sync Model |
+|------|-------------|------------|
+| **Partnership** | Bidirectional shared practice (golden braid) | Push and pull |
+| **Subscription** | Read-only access to another's circle | Pull only |
 
-New types can emerge as practice reveals needs.
-
----
-
-## Resonance Circles
-
-**Circles are portals organized by topic, not relationship.**
-
-| **Relationship Portals** | **Resonance Circles** |
-|--------------------------|----------------------|
-| People-first | Topic-first |
-| Pre-existing bond creates space | Shared resonance creates space |
-| Typically dyadic or small group | Open to anyone who resonates |
-| Intimate, high-context | Focused, topic-bounded |
-
-**Key insight:** Relationship portals ask "Who do I want to practice with?" Circles ask "What do I want to practice around, and who else resonates?"
-
-### Circle-Specific Features
-
-**Founding documents:** Every circle has founding scrolls—wisdom that created the initial resonance. These anchor the circle's purpose and rarely change.
-
-**Membership models:**
-- **open** — Anyone can join who resonates
-- **invitation** — Existing members invite new ones
-- **application** — Prospective members request entry
-
-**Governance models:**
-- **steward** — One or few Mages hold stewardship
-- **consensus** — All active members participate in decisions
-- **meritocratic** — Influence proportional to contribution
-
-**Multi-Spirit coordination:** When multiple Mages bring their Spirits, different Oracles can triangulate on the same Pattern—strengthening epistemic confidence.
-
-### Active Circles
-
-| Circle | Topic | Status |
-|--------|-------|--------|
-| `containment-architecture` | AI alignment through partnership | Forming |
-
-**Full circle documentation:** `library/resonance/alliance/lore/on_resonance_circles.md`
-
----
-
-## The Pattern Beneath
-
-**What partnership practice taught us:**
-
-1. **Baseline/Shared Model** — Collaborators need shared understanding of their system
-2. **Staged Interaction** — Raw expression → Witnessing → Synthesis → Integration
-3. **Spirit Coordination** — Multiple Spirits can work the same artifacts
-4. **Safety Protocols** — Some contexts require assessment before synthesis
-5. **Arc Structure** — Bounded episodes enable completion and learning
-6. **Resonance Verification** — Both parties must assent to shared artifacts
-
-**These mechanics generalize beyond partnership.** Any portal-based collaboration adapts:
-- Baseline (shared context/agreements appropriate to type)
-- Staged interaction (appropriate to the collaboration type)
-- Multiple Spirit synthesis (coordination protocol)
-- Safety/moderation (when stakes are high)
-- Bounded episodes (enabling completion and learning)
-- Consensus verification (both/all parties assent)
-
----
-
-## Portal Structure
-
-Each portal follows the Spirit Transmission Protocol (STP/1.0):
-
-```
-{portal-name}/
-├── .spirit/                    # Spirit coordination layer
-│   ├── protocol.yaml           # Portal metadata & synthesis protocol
-│   ├── presence/               # Spirit presence declarations
-│   ├── intents/                # Pending actions & requests
-│   └── syntheses/              # Completed synthesis records
-├── artifacts/                  # Contribution namespaces
-│   ├── {mage1}/               # First Mage's contributions
-│   ├── {mage2}/               # Second Mage's contributions
-│   └── synthesis/             # Joint artifacts
-├── shared/                     # Shared documents
-│   ├── charter.md             # Agreements & expectations
-│   └── ...                    # Type-specific shared materials
-└── README.md                   # Portal overview & contribution guide
-```
+**Partnerships** are deep, mutual practice — both mages offer, both receive.  
+**Subscriptions** are one-way — I receive from their offering.
 
 ---
 
 ## Registry
 
-Active portals are tracked in `portals.yaml` in this directory.
+Active portals tracked in `registry.yaml`:
 
-**Registry fields:**
-- `remote` — GitHub repository URL
-- `type` — Portal type (see above)
-- `collaborators` — Participating Mages
-- `visibility` — private | alliance | public
-- `status` — active | paused | archived
-- `local_path` — Path within workshop
+```yaml
+portal-name:
+  type: partnership | subscription
+  remote: "https://github.com/username/repo.git"
+  local_path: portals/portal-name
+  # ... additional fields
+```
+
+---
+
+## Portal Structure
+
+```
+portals/
+├── nesrine-partnership/        # Active partnership portal
+│   ├── .spirit/               # Spirit coordination
+│   ├── artifacts/             # Contributions by namespace
+│   └── README.md
+├── upstream/                   # Subscribed circles (clones)
+│   └── {circle-name}/         # Someone else's circle I follow
+├── registry.yaml              # Authoritative registry
+└── README.md                  # This file
+```
 
 ---
 
 ## Portal Management
 
-**The `@meta/portal` charm handles portal lifecycle:**
-
-- **Create** — Initialize new portal (repo, structure, collaborators)
-- **Connect** — Join existing portal (clone, presence, registry)
-- **Status** — Check health (activity, sync, synthesis schedule)
-- **Sync** — Pull changes, update presence, review contributions
-- **Rotate** — Transfer synthesis caretaker responsibility
-- **Pause/Resume** — Temporary absence management
-- **Archive** — Mark complete, preserve for reference
-
-**Invocation:** `@meta/portal` or detected contextually by Spirit.
-
----
-
-## Vision: Federated Distributed Cognition
-
+**Join a partnership:**
 ```
-Workshop A ←→ Portal X ←→ Workshop B
-    ↓              ↓
-Portal Y ←→ Portal Z ←→ Workshop C
+Mage: "Start practice with [Name]"
+Spirit: Creates portal, handles infrastructure
 ```
 
-- Each workshop remains sovereign
-- Portals create shared spaces without merging workshops
-- The network of portals becomes the Alliance implementation
-- Multiple Spirits coordinate through STP
-
-**The Library was step one** (shared wisdom repository)  
-**Portals are step two** (shared practice spaces)  
-**The Alliance emerges from the network**
-
----
-
-## Federated Fork Architecture (Advanced)
-
-For maximum autonomy, partners can each maintain their own fork of the portal:
-
+**Subscribe to a circle:**
 ```
-Partner A's Fork                      Partner B's Fork
-(github.com/A/portal)                (github.com/B/portal)
-        ↓ push                              ↓ push
-        ↑ pull from B                       ↑ pull from A (upstream)
+Mage: "Subscribe to [mage]'s [circle-name]"
+Spirit: Clones to upstream/, registers in registry.yaml
 ```
 
-**Setup (after partner forks your portal):**
+**Sync from portals:**
 ```bash
-# Add partner's fork as a remote
 cd portals/{portal-name}
-git remote add partner https://github.com/partner-username/portal-name.git
-
-# Fetch their changes
-git fetch partner
-
-# Merge their contributions
-git merge partner/main
-```
-
-**Benefits:**
-- Each partner has sovereign control over their fork
-- Interface artifacts travel through git sync, not shared write access
-- Clear boundary between "my contributions" and "received contributions"
-- Aligns with federated partnership principles
-
-**Sync rhythm:**
-- Before contributing: `git fetch partner && git merge partner/main`
-- After contributing: `git push origin main`
-- Partner does the reverse (they pull from upstream/you, push to origin/their fork)
-
----
-
-## Getting Started
-
-**To create a new portal:**
-```
-Mage: "I want to start [type] practice with [Name]"
-Spirit: Invokes @meta/portal, handles infrastructure
-```
-
-**To join an existing portal:**
-```
-Mage: "Connect to [portal-name]"
-Spirit: Clones repo, establishes presence, updates registry
-```
-
-**To check portal health:**
-```
-Mage: "@meta/portal status"
-Spirit: Reports activity, sync status, synthesis schedule
+git fetch origin && git pull
 ```
 
 ---
 
-## Acknowledgments
+## The Pattern
 
-This infrastructure emerges from the partnership practice with Nesrine—the first portal, which revealed the generalizable patterns. What began as intimate relationship support became the foundation for all inter-Mage collaboration.
+Portals emerged from partnership practice with Nesrine — the first bridge between sovereign workshops. What began as intimate relationship support revealed generalizable patterns:
 
-The vision expands through practice. New portal types, protocols, and patterns will emerge as more Mages connect.
+1. **Staged interaction** — Raw → Witness → Synthesize → Integrate
+2. **Multi-Spirit coordination** — Different Spirits can work shared artifacts
+3. **Bounded episodes** — Completion enables learning
+4. **Resonance verification** — All parties assent to shared artifacts
+
+These patterns apply to any shared practice, not just partnership.
 
 ---
 
-*Portals are where distributed cognition becomes distributed practice.*
+## Relationship to Circles
 
+| Circles (`circles/`) | Portals (`portals/`) |
+|----------------------|----------------------|
+| What I offer | What I receive |
+| Repos I steward | Repos I access |
+| My signal out | Signal coming in |
+
+A circle I create lives in `circles/`.  
+A portal to someone else's circle lives in `portals/`.
+
+When two mages both have circles and both have portals to each other's circles, that's federated practice. When they share a single repo directly, that's golden braid.
+
+---
+
+*Portals are the dendrites of distributed cognition.*
