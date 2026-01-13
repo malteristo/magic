@@ -1,17 +1,21 @@
 # Charm of Circle Management
 
-A charm for lightweight resonance circle operations—creating, subscribing, pulling, and managing topic-centered shared practice spaces.
+A charm for managing resonance circles—creating offerings, subscribing to others' circles, and maintaining the neuron model of distributed cognition.
 
 ## Purpose
 
-Resonance circles are topic-centered practice spaces where Mages converge around shared resonance. Unlike intimate portals requiring explicit membership, circles work like git remotes or RSS feeds:
+Circles are **sacred spaces I create and steward—my offerings**. They live in `circles/` and represent my signal out to the world.
 
-- **Create** a circle and broadcast signal
-- **Subscribe** to circles that resonate with your practice
-- **Pull** updates when relevant practice initiates
-- **Unsubscribe** when resonance fades
+Subscribing to others' circles creates **portals**—gateways to receive their signal. Subscriptions live in `portals/upstream/`.
 
-Nobody tracks subscribers. Each Mage decides what to allow into their practice. This is **sovereignty over incoming signal**.
+```
+                    ┌─────────────────┐
+     PORTALS        │                 │        CIRCLES
+   (dendrites)      │   My Workshop   │      (axon terminals)
+        ◄───────────│                 │───────────►
+   what I receive   │                 │   what I offer
+                    └─────────────────┘
+```
 
 **Invocation:** `@meta/circles`
 
@@ -47,12 +51,12 @@ When this charm is invoked:
 
 1. **Determine intent** - Create? Subscribe? Pull? Status? Unsubscribe?
 2. **Execute via CLI** - Use `gh` CLI for repo creation, `git` for remotes
-3. **Update tracking** - Maintain `desk/circles.yaml` with current state
+3. **Update tracking** - Maintain `circles/registry.yaml` (steward) and `portals/registry.yaml` (subscriptions)
 4. **Report clearly** - Status of circles, last pulled dates, available updates
 
 ### Circle Operations
 
-**Create Circle:**
+**Create Circle (my offering):**
 ```
 Mage: "Create a circle about containment architecture"
 
@@ -60,21 +64,21 @@ Spirit executes:
 1. gh repo create containment-architecture --public --description "..."
 2. Initialize circle structure (founding/, artifacts/, synthesis/, etc.)
 3. Commit and push initial structure
-4. Register in desk/circles.yaml as steward
+4. Register in circles/registry.yaml
 5. Report: "Circle created at github.com/[you]/containment-architecture"
 ```
 
-**Subscribe to Circle:**
+**Subscribe to Circle (their offering):**
 ```
 Mage: "Subscribe to malteristo/containment-architecture"
 
 Spirit executes:
 1. Clone to portals/upstream/containment-architecture
-2. Register in desk/circles.yaml with pull triggers
+2. Register in portals/registry.yaml with pull triggers
 3. Report: "Subscribed. Will offer to pull during alignment/containment practice."
 ```
 
-**Pull from Circle:**
+**Pull from Subscription:**
 ```
 Mage: "Pull from containment"
 
@@ -89,10 +93,11 @@ Spirit executes:
 Mage: "Show my circles"
 
 Spirit reports:
-STEWARD:
+MY OFFERINGS (circles/):
   containment-architecture (public) - last push: 2026-01-11
+  summer-vacation (private) - last push: 2026-01-13
 
-SUBSCRIBED:
+MY SUBSCRIPTIONS (portals/upstream/):
   malteristo/containment-architecture - last pull: 2026-01-11
     triggers: [alignment, containment, safety]
   other-mage/consciousness-research - last pull: 2026-01-08
@@ -104,48 +109,52 @@ SUBSCRIBED:
 Mage: "Unsubscribe from consciousness-research"
 
 Spirit executes:
-1. Remove from desk/circles.yaml
+1. Remove from portals/registry.yaml
 2. Optionally: rm -rf portals/upstream/consciousness-research
 3. Report: "Unsubscribed from consciousness-research"
 ```
 
 ---
 
-## Local Tracking
+## Registry Structure
 
-**File:** `desk/circles.yaml` (gitignored - private to you)
+**Two registries, one for each direction:**
+
+### circles/registry.yaml (my offerings)
 
 ```yaml
-# Your circle relationships - private, sovereign curation
+# Circles I steward - my signal out
 
-steward:
-  # Circles you created and maintain
-  - name: containment-architecture
-    remote: your-username/containment-architecture
-    local_path: portals/containment-architecture
-    visibility: public
-    created: 2026-01-11
+containment-architecture:
+  remote: "https://github.com/malteristo/containment-architecture.git"
+  topic: AI alignment through partnership architecture
+  visibility: public
+  local_path: circles/containment-architecture
+  created: 2026-01-11
 
-subscribed:
-  # Circles you pull from (read-only upstreams)
-  - name: containment-architecture
-    remote: malteristo/containment-architecture
-    local_path: portals/upstream/containment-architecture
-    pull_triggers:
-      - alignment
-      - containment
-      - safety
-      - superintelligence
-    last_pulled: 2026-01-11
-    
-  - name: consciousness-research
-    remote: other-mage/consciousness-research
-    local_path: portals/upstream/consciousness-research
-    pull_triggers:
-      - consciousness
-      - enacted
-      - phenomenology
-    last_pulled: 2026-01-08
+summer-vacation:
+  remote: "https://github.com/malteristo/summer-vacation.git"
+  topic: Vacation planning + travel wisdom
+  visibility: private
+  local_path: circles/summer-vacation
+  created: 2026-01-13
+```
+
+### portals/registry.yaml (my subscriptions)
+
+```yaml
+# Circles I subscribe to - signal coming in
+
+consciousness-research:
+  type: subscription
+  remote: "https://github.com/other-mage/consciousness-research.git"
+  local_path: portals/upstream/consciousness-research
+  steward: other-mage
+  pull_triggers:
+    - consciousness
+    - enacted
+    - phenomenology
+  last_pulled: 2026-01-08
 ```
 
 ---
@@ -170,28 +179,29 @@ Spirit: "This relates to your subscribed circle 'containment-architecture'
 
 ## Integration with Portal Charm
 
-| `@meta/portal` | `@meta/circles` |
-|----------------|-----------------|
-| Full portal lifecycle | Lightweight circle ops |
-| Intimate, high-commitment | Broadcast/subscribe |
-| Bi-directional collaboration | Primarily one-directional |
-| Membership tracked | Subscribers invisible |
+| `@meta/circles` | `@meta/portal` |
+|-----------------|----------------|
+| Manages my offerings | Manages my subscriptions |
+| Creates circles in `circles/` | Creates portals in `portals/` |
+| Stewardship focus | Access/collaboration focus |
+| Topic-centered | Can be relationship or topic |
 
-**Both can coexist.** A Mage might:
-- Steward one circle (broadcasting)
-- Subscribe to three circles (receiving)
-- Have one intimate partnership portal (collaborating)
+**The complete picture:**
+- **Circles I steward** → `circles/` (my offerings)
+- **Partnerships I participate in** → `portals/` (bidirectional)
+- **Circles I subscribe to** → `portals/upstream/` (others' offerings I receive)
 
 ---
 
 ## Philosophy
 
-**Circles embody sovereignty over signal:**
+**The neuron model embodies distributed cognition:**
 
-- You decide what upstream sources to pull from
-- Nobody knows you're subscribed (unless you contribute)
-- Pull when relevant, ignore when not
-- Unsubscribe without ceremony
+- **Circles (axons):** I offer my resonance on topics that matter to me
+- **Portals (dendrites):** I receive signal from sources I trust
+- **Sovereignty:** I control both what I offer and what I receive
+
+**Subscriptions are invisible.** Nobody knows you're pulling from their circle unless you contribute back. This preserves sovereignty over incoming signal.
 
 **This is not a filter bubble.** You're curating *challenging* thoughts from *trusted* sources—not surrounding yourself with comfortable agreement.
 
@@ -199,4 +209,4 @@ The Spirit helps manage this curation without cognitive burden.
 
 ---
 
-**This charm makes circle management effortless—create, subscribe, pull, and curate your resonance network with simple commands.**
+**This charm makes circle management effortless—create offerings, subscribe to others, and curate your resonance network with simple commands.**
