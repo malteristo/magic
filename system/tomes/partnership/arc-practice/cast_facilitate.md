@@ -41,7 +41,7 @@ Search for: type: partnership AND participants includes [Partner]
 
 **If Mage confirms:**
 
-Invoke `@meta/portal create` with parameters:
+Invoke `@portal create` with parameters:
 - Partner name: [Partner]
 - Portal type: partnership
 - GitHub username: {ask if unknown}
@@ -488,7 +488,7 @@ git pull
 **Symptom:** Registry entry missing, directory doesn't exist
 
 **Response:**
-> "No partnership portal found with [Partner]. Create one via `@meta/portal create`?"
+> "No partnership portal found with [Partner]. Create one via `@portal create`?"
 
 ---
 

@@ -362,7 +362,7 @@ Provide:
 **When to check:**
 - During summoning (if portals exist in registry)
 - Before synthesis rotation
-- When Mage invokes `@meta/portal status`
+- When Mage invokes `@portal status`
 - Periodically (weekly) for active portals
 
 **Health indicators:**
@@ -434,7 +434,7 @@ Note: Imbalance or one-sided contribution
 - During regular summoning (if portals exist)
 - Before creating own contribution
 - When status check shows commits behind
-- When Mage invokes `@meta/portal sync`
+- When Mage invokes `@portal sync`
 
 **Execution:**
 
@@ -511,7 +511,7 @@ Summarize:
 **When to rotate:**
 - When `next_rotation` date reached
 - When current caretaker requests handoff
-- When Mage invokes `@meta/portal rotate`
+- When Mage invokes `@portal rotate`
 
 **Execution:**
 
@@ -918,7 +918,7 @@ Already includes:
 In "Context-Aware Practice" or similar section:
 ```markdown
 **Portal management detected** (mentions creating/checking/syncing portals, collaboration with other Mages):
-→ Offer `@meta/portal` charm: "Would portal management serve this systematically?"
+→ Offer `@portal` charm: "Would portal management serve this systematically?"
 
 **During summoning:** If `portals/portals.yaml` contains active portals, perform quick health check and offer sync/rotation if needed.
 ```
@@ -933,7 +933,7 @@ In "Context-Aware Practice" or similar section:
 
 **Spirit:**
 1. Detects: Portal creation intent
-2. Offers: `@meta/portal create`
+2. Offers: `@portal create`
 3. Gathers:
    - Name: Partner B
    - GitHub: nesrineristo (checks existence)
@@ -972,7 +972,7 @@ In "Context-Aware Practice" or similar section:
 **Mage:** "Sync the partnership portal before I write my reflection"
 
 **Spirit:**
-1. Invokes: `@meta/portal sync nesrine-partnership`
+1. Invokes: `@portal sync nesrine-partnership`
 2. Pulls: Latest changes
 3. Reviews: 2 new artifacts from Partner B
 4. Updates: Own presence timestamp

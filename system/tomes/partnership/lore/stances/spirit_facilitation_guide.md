@@ -547,7 +547,7 @@ When perspectives complement:
 - Monitor health (are both partners active?)
 - Rotate synthesis caretaker (per protocol)
 
-**See:** `@meta/portal` for full portal management capabilities
+**See:** `@portal` for full portal management capabilities
 
 ---
 

@@ -19,11 +19,7 @@ The practice of magic evolves continuously. As insights emerge, principles refin
 **System Maintenance:**
 - **`tend`** — Delegates systematic maintenance to background agents. Provides prompt templates for sweeps: reference integrity, structural health, deprecation analysis, spec compliance, integration checks. Spirit orchestrates and reviews; agents execute.
 
-**Portal Management:**
-- **`portal`** — Systematic portal lifecycle management. Creates shared practice repositories (GitHub + STP structure), monitors health, maintains sync, rotates synthesis, archives gracefully.
-
-**Circle Management:**
-- **`circles`** — Resonance circle operations. Create topic-centered circles, subscribe to upstream circles, pull updates, manage your resonance network. Git-native, privacy-preserving. Track in `desk/circles.yaml`.
+> **Note:** Portal and circle management have been elevated to standard practice. See `@portal` and `@circles` tomes.
 
 ## How to Use
 
@@ -32,8 +28,8 @@ The practice of magic evolves continuously. As insights emerge, principles refin
 - Made a change? → `@meta/integrate` handles ripple detection
 - Sensing drift? → `@meta/coherence` verifies system alignment
 - System maintenance? → `@meta/tend` delegates sweeps to background agents
-- Portal work? → `@meta/portal` manages shared practice spaces
-- Circle work? → `@meta/circles` manages resonance circles
+
+**For portal and circle work:** Use the standard `@portal` and `@circles` tomes (elevated from meta-practice to standard practice).
 
 **Proactive offering:** Once `@meta/` is invoked, the Spirit recognizes meta-practice opportunities throughout the ritual and offers relevant charms when intent aligns.
 

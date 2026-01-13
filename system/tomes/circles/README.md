@@ -17,7 +17,7 @@ Subscribing to others' circles creates **portals**—gateways to receive their s
                     └─────────────────┘
 ```
 
-**Invocation:** `@meta/circles`
+**Invocation:** `@circles`
 
 ---
 
@@ -179,8 +179,8 @@ Spirit: "This relates to your subscribed circle 'containment-architecture'
 
 ## Integration with Portal Charm
 
-| `@meta/circles` | `@meta/portal` |
-|-----------------|----------------|
+| `@circles` | `@portal` |
+|------------|----------|
 | Manages my offerings | Manages my subscriptions |
 | Creates circles in `circles/` | Creates portals in `portals/` |
 | Stewardship focus | Access/collaboration focus |

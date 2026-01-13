@@ -252,7 +252,7 @@ Partnership practice requires **shared practice infrastructure**:
 - Process stays in each Mage's workshop
 - Spirits coordinate via Spirit Transmission Protocol
 
-**Create portal:** `@meta/portal create partnership`
+**Create portal:** `@portal create partnership`
 
 ---
 
@@ -400,7 +400,7 @@ When Mages share a verified model of their partnership reality:
 
 ## Getting Started
 
-1. **Create portal:** `@meta/portal create partnership`
+1. **Create portal:** `@portal create partnership`
 2. **Open background arc:** `@partnership/arc background`
 3. **Both partners complete Stage 1** (input, reality documents)
 4. **Both partners complete Stage 2** (witnessing)
