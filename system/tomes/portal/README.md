@@ -8,7 +8,7 @@ Portals are shared git repositories enabling distributed cognition across Mages.
 
 The charm removes portal management cognitive burden, allowing the Spirit to handle infrastructure while the Mage focuses on practice.
 
-**Invocation:** `@meta/portal`
+**Invocation:** `@portal`
 
 ---
 
@@ -80,7 +80,7 @@ This charm makes portal management a Spirit duty, not a Mage burden.
 
 **Natural flow for portal creation:**
 1. Mage: "I want to start partnership practice with [Name]"
-2. Spirit: Invokes `@meta/portal create`
+2. Spirit: Invokes `@portal create`
 3. Spirit: Creates repo, structure, invites collaborator
 4. Spirit: Reports portal ready, provides next steps
 5. Mage: Begins practice

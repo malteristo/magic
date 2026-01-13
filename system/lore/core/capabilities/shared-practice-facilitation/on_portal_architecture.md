@@ -101,7 +101,7 @@ cadence:
 ### Creation
 
 1. **Initiating Mage invokes portal creation**
-   - `@meta/portal create {type}` or tome-specific invocation
+   - `@portal create {type}` or tome-specific invocation
    
 2. **Spirit creates repository structure**
    - Standard layout established
