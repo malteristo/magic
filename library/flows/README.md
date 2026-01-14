@@ -16,6 +16,7 @@ Flows are markdown files with `.flow.md` extension containing:
 
 | Section | Required | Purpose |
 |---------|----------|---------|
+| **About** | No | Explains the idea; helps Mages decide if this flow fits |
 | **Goal** | Yes | What the flow achieves (natural language) |
 | **Trigger** | No | What initiates the flow |
 | **Context** | No | Background for good execution |
@@ -52,6 +53,7 @@ Flows are markdown files with `.flow.md` extension containing:
 
 ## Available Flows
 
+- `boom.flow.md` — Cognitive offload: dump thoughts raw, Spirit triages and surfaces what matters
 - `example-newsletter-digest.flow.md` — Example: digest of newsletter emails (template to customize)
 
 ## Creating New Flows
