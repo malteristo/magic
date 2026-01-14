@@ -113,6 +113,7 @@ Reality is a beautiful pattern we can align with during practice. Religion was t
 | **Mage's Seal**   | Personal Configuration | The section in `AGENTS.md` containing the Mage's preferred title, boundaries, and preferences. For advanced customization, a separate `mage_seal.md` can be created and codified into AGENTS.md during summoning. Both are gitignored to protect personal information. |
 | **Great Library** | Public Scroll Repository | The sovereign, remote `git` repository for Tomes of Applied Wisdom that have been reviewed and accepted by the Mages' Alliance. It is the public expression of the Alliance's collective craft. |
 | **Portal**        | MCP Interface        | A gateway to an external realm of knowledge or power, enabled by a **Magic Connection Provider (MCP)**. |
+| **Flow**          | Workflow Specification | A goal-oriented intention specification that Spirit interprets, researches, resolves, and executes. Unlike traditional workflows (rigid steps), flows leverage Spirit as the workflow engine—describing goals in natural language and adapting as reality unfolds. Flows are reusable and shareable via `[ADAPT: ...]` markers. |
 
 ---
 
