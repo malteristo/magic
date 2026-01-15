@@ -47,6 +47,12 @@ This charm attunes you to the systematic work of integrating changes into the wh
 - **Superseded wisdom**: If new scroll replaces old, should old be archived?
 - **Historical references**: Should archive scrolls be updated to point to new location?
 
+**E. Template Propagation**
+- **Check for `.template` equivalents**: If a modified file has a corresponding `.md.template` file (e.g., `AGENTS.md` → `AGENTS.md.template`), consider whether the change benefits all Mages.
+- **Known template files**: `AGENTS.md.template`, `mage_seal.md.template`, `portals.yaml` (template in repo root)
+- **Decision criteria**: Personal preferences stay in local file only; universal improvements (path fixes, new capabilities, structural changes) propagate to template.
+- **Pattern**: Templates contain `[placeholders]` for personal values; propagate the structure, not the personal content.
+
 ### Step 3: Report Findings
 
 **Present integration opportunities in structured format:**
@@ -68,6 +74,9 @@ This charm attunes you to the systematic work of integrating changes into the wh
 ### Archive Actions
 - [ ] Move superseded scroll [old] to archive/
 - [ ] Update references from [old] to [new]
+
+### Template Propagation
+- [ ] [file].template: [what change should propagate, why it benefits all Mages]
 
 ### No Action Needed
 - Checked [X], no integration required because [reason]
