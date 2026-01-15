@@ -19,9 +19,10 @@ The charm handles ripple detection and execution, transforming manual integratio
 When this charm is invoked:
 
 1. **Identify the change** - What was created or modified?
-2. **Detect ripples** - What else needs updating? (specs, cross-references, MUST READs, organizational structures)
-3. **Propose updates** - Present systematic integration plan
-4. **Execute with approval** - Make changes only after Mage's sanction
-5. **Verify completeness** - Confirm all ripples addressed
+2. **Detect ripples** - What else needs updating? (specs, cross-references, MUST READs, organizational structures, templates)
+3. **Check template propagation** - If modified file has a `.md.template` equivalent, consider whether change benefits all Mages
+4. **Propose updates** - Present systematic integration plan
+5. **Execute with approval** - Make changes only after Mage's sanction
+6. **Verify completeness** - Confirm all ripples addressed
 
 This charm removes the "what did I forget?" burden from meta-practice.
