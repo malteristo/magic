@@ -27,12 +27,13 @@ These source types loosely map to Jung's psychic structures:
 | **Aspirational** | Ego-ideal (who you want to become) |
 | **Enacted** | Behavioral self (who you've actually been) |
 | **Direct** | Conscious experience (ego-level awareness) |
+| **Excavated** | Active shadow work (deliberately surfaced unconscious material) |
 
 The **gaps between sources** reveal where individuation work is needed. See `on_mirror_as_individuation.md` for full treatment.
 
 ---
 
-## The Five Types
+## The Six Types
 
 ### Aspirational
 
@@ -138,6 +139,33 @@ The **gaps between sources** reveal where individuation work is needed. See `on_
 - Highest authenticity (less filtering)
 - Shows emotional texture
 - Reveals real-time experience vs. retrospective narrative
+
+### Excavated
+
+**What it reveals:** What structured inquiry has surfaced
+
+**Examples:**
+- Anti-vision statements
+- Revealed preferences audits
+- Identity traces
+- Lifestyle audits
+- Dissonance surfaces
+- One-day reset artifacts
+
+**Interpretation caution:**
+- Generated through active inquiry, not passive capture
+- Depends on honesty during excavation
+- Point-in-time excavation may evolve with repeated practice
+
+**Pattern value:**
+- Surfaces what other sources miss (gaps, contradictions, hidden goals)
+- Designed to reveal revealed preferences (behavior vs. stated intent)
+- Creates explicit statements that can be tracked over time
+- Connects directly to action (goal swaps, commitment actions)
+
+**Jungian parallel:** Excavation is active shadow work — deliberately surfacing what's been unconscious. Unlike processing data (which surfaces organically), excavated data is intentionally mined through structured confrontation.
+
+**See:** `excavation/README.md` for the full instrument suite.
 
 ---
 
@@ -246,6 +274,7 @@ Always:
 | **Processing** | What you're working through | Messy, incomplete |
 | **Public** | What you say out loud | Curated, audience-aware |
 | **Direct** | How you experience now | Subjective, mood-dependent |
+| **Excavated** | What structured inquiry surfaced | Point-in-time, depends on honesty |
 
 ---
 

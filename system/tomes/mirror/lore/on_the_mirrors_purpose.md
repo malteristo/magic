@@ -60,6 +60,25 @@ From that map, navigation becomes clearer.
 
 ---
 
+## Reflection and Excavation
+
+The mirror operates in two complementary modes:
+
+**Reflection** (receptive): Synthesizing patterns from existing qualitative data — notes, reading lists, journals, posts. The Spirit examines what the Mage has already captured and surfaces patterns.
+
+**Excavation** (generative): Creating new qualified self data through structured inquiry — anti-visions, revealed preferences, identity traces. The Spirit guides the Mage through instruments designed to surface what doesn't yet exist in artifacts.
+
+| Mode | Direction | Core Question |
+|------|-----------|---------------|
+| Reflection | Sources → Synthesis | "What patterns exist in my artifacts?" |
+| Excavation | Inquiry → New sources | "What can I surface through active digging?" |
+
+Both serve clear seeing. Reflection shows patterns in what you've captured. Excavation surfaces what you've been avoiding.
+
+**See:** `excavation/README.md` for the instrument suite.
+
+---
+
 ## Solo Partnership
 
 The mirror is **introspective distributed cognition**:

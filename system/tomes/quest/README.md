@@ -16,6 +16,8 @@ This Tome executes intentions through gamified support. It receives intentions (
 
 Intentions emerge from any practice (mirror, partnership, daily insight). Quest provides execution support.
 
+**Pre-Quest Clarity:** If you're unsure what you actually want, consider `@mirror/excavate` before beginning a quest. Excavation surfaces revealed preferences, anti-visions, and direction — clarifying what you're actually optimizing for before you build execution architecture around it.
+
 **What This Tome Does:**
 - Transforms overwhelming tasks into bounded, achievable quests
 - Provides immediate feedback after every micro-step (dopamine flow)

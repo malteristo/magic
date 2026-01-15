@@ -85,6 +85,7 @@ The mirror works with diverse qualitative data types:
 | **Processing** | What you're working through | Notes, active journals |
 | **Public** | What you say out loud | Social posts, public writing |
 | **Direct** | Real-time reality | Journal entries, interviews |
+| **Excavated** | What structured inquiry surfaced | Anti-visions, revealed preferences, identity traces |
 
 **Design principle:** Different sources reveal different aspects. The mirror should help distinguish interpretation accordingly.
 
@@ -148,6 +149,18 @@ Saves the current reflection to `desk/mirror/reflections/` with timestamp.
 ```
 
 For Mages without existing qualitative data, the Spirit conducts structured inquiry to elicit direct data about a personal situation.
+
+### Excavation Suite
+
+**Active instruments for generating qualified self data.**
+
+```
+@mirror/excavate
+```
+
+While reflection synthesizes existing sources, excavation *generates* new qualitative data through structured inquiry. These instruments surface what doesn't yet exist in artifacts: revealed preferences, anti-visions, identity origins, developmental stage, and more.
+
+**See:** `excavation/README.md` for the full instrument suite.
 
 ---
 
@@ -238,6 +251,17 @@ system/tomes/mirror/
 ├── cast_reflect.md              ← Primary reflection spell
 ├── cast_capture.md              ← Preserve reflection
 ├── cast_interview.md            ← Structured inquiry
+│
+├── excavation/                  ← Active excavation instruments
+│   ├── README.md                ← Excavation philosophy & overview
+│   ├── cast_anti_vision.md      ← Future projection instrument
+│   ├── cast_revealed.md         ← Revealed preferences audit
+│   ├── cast_identity_trace.md   ← Identity archaeology
+│   ├── cast_lifestyle_audit.md  ← Lifestyle-outcome gap
+│   ├── cast_dissonance.md       ← Productive dissonance
+│   ├── cast_stage_check.md      ← Developmental stage assessment
+│   ├── cast_cybernetic_debug.md ← Feedback loop repair
+│   └── cast_one_day_reset.md    ← Full-day intensive
 │
 ├── sources/
 │   └── README.md                ← Source configuration guide
