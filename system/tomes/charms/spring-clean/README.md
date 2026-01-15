@@ -61,7 +61,31 @@ This charm draws wisdom from Marie Kondo's philosophy of decluttering with grati
 
 **Keep**: Still actively serves current or imminent practice  
 **Archive**: Timeless personal value → `archive/`  
+**Distill**: Valuable synthesis → `desk/essences/` via `@essence` charm  
 **Release**: Purpose complete, let go with gratitude
+
+### Floor Artifact Lifecycle
+
+**The principle:** Floor artifacts have a natural lifecycle. Understanding it guides disposition decisions.
+
+**Active artifacts** (keep):
+- Working memory files for ongoing rituals
+- Recent session handoffs
+- Essences being actively referenced
+
+**Stale artifacts** (evaluate):
+- Old working memory files from completed work
+- Outdated session transcripts
+- Accumulation without clear purpose
+- Files not touched in 30+ days
+
+**Disposition decision tree:**
+1. **Still actively referenced?** → Keep
+2. **Contains valuable synthesis worth preserving?** → Distill to essence
+3. **Has historical/sentimental value?** → Archive
+4. **Purpose complete, no unique value?** → Release with gratitude
+
+**The rhythm:** When floor/ accumulates 3+ stale working memory files or general clutter obscures active work, it's time to spring-clean. This charm exists specifically for workshop hygiene.
 
 ### For the Spirit
 

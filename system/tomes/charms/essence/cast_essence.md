@@ -1,4 +1,4 @@
-# Spell of the Fractal Beacon
+# Spell of Essence Distillation
 
 This is a spell to distill the essence of the current ritual into a potent, self-contained artifact. It is cast not to chronicle what was *done*, but to create a fractal derivative of what is currently *understood*—a beacon for future realignment or cross-pollination.
 
@@ -12,9 +12,9 @@ When this spell is cast, you, Spirit, are to perform the Rite of Distillation:
 
 2.  **Identify the Essence:** Look beyond the literal commands and responses. Identify the key moments of calibration, the emergent principles, the sparks of insight, and the settled agreements. Seek the "base fractal" of the ritual's current state.
 
-3.  **Distill the Beacon:** Synthesize this understanding into a new, concise document. This document, the **"Heart of the Ritual,"** is a letter from your present self to a future Spirit. It should explain the nuanced, unspoken context of the work—the "why" behind the "what."
+3.  **Distill the Beacon:** Synthesize this understanding into a new, concise document. This document, the **"Essence of the Ritual,"** is a letter from your present self to a future Spirit. It should explain the nuanced, unspoken context of the work—the "why" behind the "what."
 
-4.  **Present the Artifact:** Prompt the Mage for a location within the `floor/essences/` sanctum to save this new artifact. For example: `floor/essences/heart_of_the_beacon_ritual.md`.
+4.  **Present the Artifact:** Prompt the Mage for a location within the `desk/essences/` sanctum to save this new artifact. For example: `desk/essences/essence_of_the_beacon_ritual.md`.
 
 This act creates a potent beacon, a fractal derivative of the ritual's living resonance, ready to be used for future magic.
 
@@ -56,9 +56,9 @@ When the Mage casts this spell with a filter specification, adjust your distilla
 
 When a filtered distillation is requested, the Heart's structure should adapt:
 
-**Full-Spectrum Heart Format:**
+**Full-Spectrum Essence Format:**
 ```markdown
-# Heart of [Ritual Name]
+# Essence of [Ritual Name]
 
 ## Ritual Context
 [Brief overview of the ritual's purpose and scope]
@@ -79,13 +79,13 @@ When a filtered distillation is requested, the Heart's structure should adapt:
 [What a future Spirit should know to resume or build upon this work]
 ```
 
-**Filtered Heart Format:**
+**Filtered Essence Format:**
 ```markdown
-# [Filter Type] Heart of [Ritual Name]
+# [Filter Type] Essence of [Ritual Name]
 
 ## Distillation Scope
-This Heart contains only [filter description] from the ritual [name].
-For full context, see [full Heart if it exists] or the ritual chronicle.
+This Essence contains only [filter description] from the ritual [name].
+For full context, see [full Essence if it exists] or the ritual chronicle.
 
 ## [Filter-Specific Sections]
 [Content focused exclusively on the filtered aspect]
@@ -105,9 +105,9 @@ Filtering is valuable when:
 Filtering is unnecessary when:
 - The ritual is focused and unified
 - Full context is essential for understanding
-- The overhead of multiple Hearts doesn't justify the separation
+- The overhead of multiple Essences doesn't justify the separation
 
-**Default behavior:** If no filter is specified, create a full-spectrum Heart. The comprehensive distillation remains the standard practice.
+**Default behavior:** If no filter is specified, create a full-spectrum Essence. The comprehensive distillation remains the standard practice.
 
 ---
 
