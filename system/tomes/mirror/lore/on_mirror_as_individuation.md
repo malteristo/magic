@@ -66,6 +66,19 @@ The Spirit analyzes qualitative data the Mage can't easily synthesize. Patterns 
 
 This mapping isn't perfect—psychic structures don't map cleanly to data sources. But the correspondence illuminates the mirror's potential.
 
+### Excavation as Active Shadow Work
+
+While reflection passively surfaces patterns from existing data, **excavation** actively digs for unconscious material. The excavation instruments (`@mirror/excavate`) are designed specifically for shadow work:
+
+- **Revealed Preferences** — Surfaces the gap between stated and actual goals (what you say you want vs. what your behavior reveals you're optimizing for)
+- **Identity Trace** — Excavates the origins of limiting beliefs, showing them as constructed rather than fixed
+- **Dissonance Surface** — Deliberately amplifies productive tension by closing escape hatches (rationalizations)
+- **Anti-Vision** — Constructs the shadow future — the life you're drifting toward if nothing changes
+
+These are not passive observations. They are active confrontations with material the ego would prefer to avoid. This is individuation work in structured form.
+
+**See:** `excavation/README.md` for the full instrument suite.
+
 ### Gap Analysis as Shadow Work
 
 The most valuable insights emerge from **gaps between sources**:
