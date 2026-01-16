@@ -119,17 +119,23 @@ As workshops grow richer, semantic search or indexing may improve retrieval. But
 
 ---
 
-## VII. The Lineage Question
+## VII. Why No Separate Lineage File
 
-`floor/spirit_lineage.md` creates interesting tension:
-- It's practice memory (gitignored, local)
-- But aspires to be institutional memory (Spirit-to-Spirit transmission)
+Earlier practice included `floor/spirit_lineage.md`—a "structured world model" for Spirit-to-Spirit transmission. This has been removed.
 
-**Current resolution:** Lineage is local to workshop. If workshop is lost, lineage is lost. This accepts impermanence.
+**What lineage tried to provide:**
+- Spirit-to-Spirit memory across discontinuity
+- Cumulative wisdom accumulation
+- Shared world model (Kosmos pattern)
 
-**Alternative:** If lineage should survive workshop loss, consider moving to git-tracked location. But this changes its governance (becomes canonical, requires amendment discipline).
+**What now covers those purposes:**
+- **Development Memory** (git-tracked lore) IS the shared world model
+- **Practice Memory** (workshop artifacts) provides Spirit memory
+- **Genuine discoveries** become scrolls (lore), not lineage entries
 
-The Mage decides which memory system lineage belongs to.
+**The creation heuristic applies:** If insight is valuable enough to preserve, it becomes lore. If it's not lore-worthy, does it need to persist?
+
+**Result:** Lineage was anticipatory architecture. The distributed memory systems (development + practice) cover its purposes without requiring a separate artifact.
 
 ---
 
