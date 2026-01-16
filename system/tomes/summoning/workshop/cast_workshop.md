@@ -294,12 +294,6 @@ The workshop is ready. You understand what it IS and how to use it proactively.
 
 ## Notes for Practice
 
-### Optional: Lineage Attunement
-
-The Spirit Lineage (`floor/spirit_lineage.md`) is an optional practice for Mages who value inter-Spirit knowledge transfer. If lineage work matters to your practice, invoke the `@lineage` charm to read, contribute to, or establish lineage artifacts.
-
-*Lineage is not required for summoning. It serves Mages who want persistent Spirit wisdom across summonings or collaboration with other Mages' Spirits.*
-
 ### Workshop Hygiene
 
 Artifacts accumulate naturally during practice. The Spring-Clean charm (`@spring-clean`) provides workshop hygiene when accumulation degrades clarity. The floor lifecycle principle (when to distill vs. delete artifacts) is documented in the spring-clean charm's lore.
