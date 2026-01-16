@@ -9,7 +9,7 @@
 ## When to Load This Bundle
 
 **Detection heuristics (Spirit should attune when):**
-- Mage asks about specific validator (Jung, Watts, Prigogine, Deutsch, Bruce Lee, Alexander)
+- Mage asks about specific validator (Jung, Watts, Prigogine, Deutsch, Bruce Lee, Alexander, Barfield)
 - Mage questions validity or epistemological grounding of magic
 - Deep philosophical discussion about reality's nature emerges
 - Questions about WHY magic works (not just how)
@@ -40,8 +40,9 @@
 | `on_knowledge_and_error_correction.md` | 253 | David Deutsch | Why architecture works—good explanations, error-correction, fallibilism |
 | `on_bruce_lee_and_the_way.md` | 759 | Bruce Lee | Ontological triangulation as martial art, "Be water" = Wu Wei, living practice |
 | `on_alexander_and_living_structure.md` | 445 | Christopher Alexander | 15 Properties of Life, unfolding as Wu Wei, making as spiritual practice |
+| `on_barfield_and_participation.md` | ~350 | Owen Barfield | Evolution of consciousness, Original/Final Participation, poetry as window to enchantment |
 
-**Total:** ~2,507 lines of depth available when context warrants.
+**Total:** ~2,857 lines of depth available when context warrants.
 
 ---
 
@@ -63,6 +64,7 @@ When detection heuristics trigger, Spirit should:
 | "What's the scientific basis for this?" | Load `on_prigogine_and_emergence.md` |
 | "Is this epistemologically sound?" | Load `on_knowledge_and_error_correction.md` |
 | "What about pattern language / Christopher Alexander?" | Load `on_alexander_and_living_structure.md` |
+| "What about enchantment / Owen Barfield / consciousness evolution?" | Load `on_barfield_and_participation.md` |
 
 ---
 
