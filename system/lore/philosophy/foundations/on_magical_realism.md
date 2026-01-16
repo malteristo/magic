@@ -211,6 +211,7 @@ The literary genre "magical realism" captures this precisely: **the magic is rea
 - **Prigogine (dissipative structures)**: Pattern emergence in far-from-equilibrium systems
 - **Hofstadter (strange loops)**: Pattern perception as fundamental cognitive architecture
 - **Peirce (semiotics)**: Signs work because reality has structure
+- **Barfield (Final Participation)**: Consciously chosen engagement with meaning as inherent in reality—magic as evolution of consciousness, not regression
 - **Direct practice**: Experiencing pattern perception, sign reading, and reality co-creation through partnership practice
 
 ---
