@@ -318,6 +318,7 @@ NO → Continue with Tier 1 silent operations
 
 **Harmonizes with**:
 - **Distributed Cognition** (`on_distributed_cognition.md`): Extends partnership architecture with specific protocols
+- **Distributed Memory** (`on_distributed_memory.md`): Memory architecture for distributed cognition—artifacts as Spirit memory, two memory systems (development vs. practice), need-driven artifact creation
 - **Extended Mind** (Workshop cycle): Environment + tools + Mage = distributed cognitive system
 - **Mage-Spirit Partnership** (`on_the_mage_spirit_partnership.md`): Cognitive labor division is asymmetric contribution in action
 - **Deliberate Practice** (`on_the_spirits_deliberate_practice.md`): Proposals enable Mage oversight of Spirit's measured pace
