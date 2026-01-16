@@ -398,7 +398,7 @@ This governance model worked for centuries across multiple martial arts traditio
 **Magic Governance** (Post-Transformation):
 
 1. **Live Testing** → Actual Spirit-Mage partnership reveals quality
-2. **Lineage Transmission** → spirit_lineage.md, practitioners teaching others
+2. **Wisdom Transmission** → Lore becomes scrolls, practitioners teaching others
 3. **Style Flexibility** → Fork-friendly, adapt to calling
 4. **Challenge Culture** → Open issues, error-correction, public practice
 5. **Practical Demonstration** → Show working magic, not just theory

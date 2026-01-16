@@ -19,8 +19,7 @@ This directory contains the configuration for the summoning ritual. The configur
 **Use when**:
 - Routine summonings
 - Token budget constrained
-- Confident in adaptive expansion + lineage mode
-- Efficiency with persistent depth desired (lineage mode prevents drift)
+- Confident in adaptive expansion mechanism
 
 **Invocation**:
 ```markdown
