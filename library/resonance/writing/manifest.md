@@ -25,6 +25,17 @@
 - Natalie Goldberg (*Writing Down the Bones*)
 - Other sources as resonance emerges
 
+### Style Exemplars
+
+Beyond the masters of craft, certain writers serve as **style exemplars**—not teaching craft principles, but demonstrating accessible voice:
+
+| Exemplar | What They Model |
+|----------|-----------------|
+| **Don Norman** | Conversational accessibility: parenthetical asides, short paragraphs, rhetorical questions, practical grounding without sacrificing depth |
+| **Scott Adams** | Business clarity: simple is persuasive, first sentence grabs, one thought per sentence |
+
+*These are not sources of wisdom like the masters, but models of style that may inform voice development.*
+
 ---
 
 ## Loading Heuristics
@@ -34,7 +45,7 @@
 - Discussion of craft emerges
 - Writer's block or creative paralysis appears
 - Perfectionism is blocking progress
-- **Outfacing practice invoked** (`@outfacing`) — bundle is integrated with Mage's voice guidelines
+- **Outfacing practice invoked** (`@outfacing`) — bundle provides craft; Mage provides voice
 
 **Key patterns from bundle:**
 
