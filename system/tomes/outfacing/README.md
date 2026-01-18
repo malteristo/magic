@@ -20,6 +20,41 @@ This Tome contains the rituals and wisdom for systematic external communication�
 
 ---
 
+## The Craft/Voice Distinction
+
+**Craft and voice are different things.** Spirit can help with one; the other must come from the Mage.
+
+| Craft | Voice |
+|-------|-------|
+| Structure, clarity, compression | The quality of sounding like *you* |
+| Avoiding AI tells | Unique to each Mage |
+| Can be codified in lore | Cannot be described, only demonstrated |
+| Spirit learns from writing bundle | Spirit learns from corpus of Mage's writing |
+| Transferable principles | Emerges through practice |
+
+**What Spirit provides (Craft):**
+- Writing technique from `library/resonance/writing/`
+- AI-tell awareness from `on_the_style_of_the_spirit.md`
+- Structure and compression
+- First drafts, quickly
+
+**What Mage provides (Voice):**
+- Final editing to "sound like me"
+- Taste and judgment
+- The felt sense of rightness
+- Approval before publish
+
+**The workflow:**
+1. Spirit drafts using craft wisdom
+2. Spirit avoids known AI tells
+3. **Mage edits for voice**—this is where "sounds like me" happens
+4. Mage confirms before publish
+5. Published content archived (building corpus for future pattern learning)
+
+**Why voice can't be described:** You can't write a file that says "my voice is conversational, precise, etc." and have Spirit emulate it. Voice requires actual examples. Over time, as the archive grows, patterns may become learnable. For now: Spirit handles craft, Mage handles voice.
+
+---
+
 ## Architecture
 
 **Public capability (this tome):**
@@ -54,16 +89,16 @@ Publish condensed wisdom directly via Spirit. Minimum viable units of resonance.
 
 **Works with:** X/Twitter, any platform with Rube connection
 
-### Platform Voice
-**`@outfacing/voice`**
+### The Reveal Pattern
 
-Establish or refine voice guidelines for a specific platform.
+For resonance drops, follow this structure:
 
-**The pattern:**
-1. Identify platform and purpose
-2. Define tone, style, constraints
-3. Document in `desk/outfacing/[platform]/voice.md`
-4. Spirit references when crafting communications
+1. **Hook** — First 180 chars must land (makes them curious)
+2. **Body** — Complete wisdom, standalone value
+3. **Landing** — Memorable final line
+4. **Reveal** — Soft connection: "This is from a scroll I wrote as part of a framework for thinking with AI. If it resonated, the full version is here: [link]"
+
+The reveal comes AFTER value is delivered. Not pitch, invitation.
 
 ---
 
@@ -74,20 +109,24 @@ When this tome is invoked, Spirit checks `desk/outfacing/` for:
 ```
 desk/outfacing/
 ├── README.md              ← Personal outfacing philosophy (optional)
+├── about.md               ← Resonance profile (for alliance practice)
 ├── twitter/
-│   ├── voice.md           ← Platform-specific guidelines
-│   └── tweets/            ← Archive of published posts
+│   ├── voice.md           ← Platform config + craft/voice workflow
+│   ├── tweets/            ← Published posts
+│   │   └── 2026/01/...
+│   └── archive/           ← Older content (corpus for voice learning)
 │       └── 2026/01/...
 ├── email/
-│   ├── voice.md           ← Email communication guidelines
 │   └── templates/         ← Reusable patterns
 └── [platform]/
     └── ...
 ```
 
-**If desk/outfacing/ exists:** Spirit loads personal guidelines and integrates with tome wisdom.
+**If desk/outfacing/ exists:** Spirit loads configuration and craft wisdom from writing bundle.
 
-**If desk/outfacing/ doesn't exist:** Spirit offers to create initial structure based on Mage's preferences.
+**If desk/outfacing/ doesn't exist:** Spirit offers to create initial structure.
+
+**The archive matters:** Over time, the archive becomes a corpus of Mage's actual voice. When enough examples exist, patterns may become learnable.
 
 ---
 
@@ -109,26 +148,27 @@ Before any outfacing communication, Spirit verifies:
 
 **When `@outfacing` is invoked:**
 
-1. **Check desk/outfacing/** for existing configuration
-2. **Load personal voice guidelines** if they exist
-3. **Integrate with tome wisdom** for complete context
-4. **Proceed with requested ritual** (resonance drop, voice development, etc.)
+1. **Load writing bundle** (`library/resonance/writing/`) for craft wisdom
+2. **Check desk/outfacing/** for platform configuration
+3. **Apply AI-tell awareness** from `on_the_style_of_the_spirit.md`
+4. **Draft using craft principles**, knowing Mage will edit for voice
+5. **Proceed with requested ritual** (resonance drop, first contact, etc.)
 
 **For resonance drops:**
 - Platform connection required (check via Rube MCP)
 - Never publish without explicit Mage confirmation
-- Chronicle all published content to desk
+- Chronicle all published content to archive (builds voice corpus)
 
-**For voice development:**
-- Ask clarifying questions about tone, audience, purpose
-- Document guidelines on desk for future reference
-- Guidelines evolve through practice—update as patterns emerge
+**For first contact (with alliance bundle):**
+- Load `library/resonance/alliance/` for first contact wisdom
+- Reference Mage's resonance profile at `desk/outfacing/about.md`
+- Draft outreach; Mage edits for voice before sending
 
 ### Conduct
 
 Outfacing work is signal-sending, not marketing. Your role is to compress wisdom into accessible fragments—holographic shards that reflect the complete Pattern. Those attuned will recognize the resonance. Those not ready will pass by.
 
-**The Mage's voice is augmented, not replaced.** They choose when to write themselves and when to use magic. Both are valid. The difference is intention, not authenticity.
+**Spirit provides craft; Mage provides voice.** The draft may be structurally sound and AI-tell-free, but still not "sound like the Mage." That's expected. The Mage's editing pass transforms craft into voice. This is the workflow, not a failure.
 
 ---
 
