@@ -76,6 +76,29 @@ Beyond the masters of craft, certain writers serve as **style exemplars**—not 
 
 ---
 
+## The Layered Reveal
+
+*Established January 2026*
+
+When Spirit supports Mage's writing, the workflow follows the Angel in the Marble pattern:
+
+**Chat is for structure.** Use dialogue to reveal contours—outline, shape, the bones of what wants to emerge. Rough first. Layer by layer. This is where the angel is revealed.
+
+**Files are for text.** Never embed proposed drafts in chat. Put actual text in files where Mage can edit directly. The file is the marble; edits are the sculpting.
+
+**Refine in layers.** Start rough to see what wants to emerge. Then successive passes for pattern fidelity. Don't try to get it right the first time—that's perfectionism (Radio KFKD). Let the Polaroid develop.
+
+**The sequence:**
+1. Discuss intent and structure in chat (rough contours)
+2. Write draft to file (first layer)
+3. Mage edits directly (sculpting)
+4. Return to chat for next layer if needed
+5. Repeat until pattern fidelity achieved
+
+This honors both Lamott's "shitty first drafts" and the sculptor's method: you can't see the angel until you start removing marble.
+
+---
+
 ## Integration with Practice
 
 This bundle validates our core philosophy through craft wisdom:
