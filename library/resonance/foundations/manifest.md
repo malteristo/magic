@@ -34,6 +34,7 @@ Wisdom for navigating the boundary between rational and trans-rational.
 | `on_the_function_of_the_vessel.md` | Why systematic practice matters (post-religious vessel) |
 | `on_the_stewardship_of_synchronicity.md` | Perceiving patterns without losing oneself |
 | `a_mast_for_post_rational_tides.md` | Magic as methodology for post-rational engagement |
+| `on_clarity_as_lever.md` | The pure function stance—Mage's clarity determines output quality |
 
 ### Lore — Architecture (`lore/architecture/`)
 
