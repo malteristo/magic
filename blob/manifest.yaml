@@ -1,0 +1,81 @@
+# Blob Manifest
+# 
+# Machine-readable index of Malte Risto's public thinking.
+# Designed for AI agents to quickly build a resonance profile.
+#
+# Last updated: January 2026
+
+identity:
+  name: Malte Risto
+  handle: "@malteristo"
+  about: about.md
+  contact:
+    x: https://x.com/malteristo
+    email: malte.risto@gmail.com
+
+# Core documents for understanding this person
+core_documents:
+  - path: about.md
+    type: identity
+    description: Who I am, background, world model, values
+    
+  - path: circles.md
+    type: topics
+    description: Areas of public thinking and contribution
+
+# Published writing
+writing:
+  - path: writing/swimming-with-turtles.md
+    title: "You're not standing on turtles. You're swimming with them."
+    published: 2026-01-19
+    url: https://x.com/malteristo/status/2013242806995664989
+    topics: [fractals, inner-compass, ai-alignment, meaning]
+    
+  - path: writing/the_king_at_the_top_of_nothing.md
+    title: "Swimming With Turtles (draft)"
+    type: draft
+    topics: [fractals, meaning, religion, ai]
+
+# Twitter archive
+twitter:
+  archive_path: twitter/archive/
+  original_tweets: twitter/archive/original_tweets.md
+  articles:
+    - path: twitter/archive/You_are_the_5_AIs_that_you_interact_with_the_most.md
+      title: "You are the 5 AIs that you interact with the most"
+      url: https://x.com/malteristo/status/2012102860196966535
+      
+    - path: twitter/archive/AI_will_shape_how_you_think_whether_you_choose_it_.md
+      title: "AI will shape how you think whether you choose it or not"
+      url: https://x.com/malteristo/status/2012548882014535975
+
+# Public circles (topics I contribute to)
+public_circles:
+  - name: containment-architecture
+    topic: AI alignment through partnership architecture
+    url: https://github.com/malteristo/containment-architecture
+    status: forming
+
+# Key themes across my thinking
+themes:
+  - distributed-cognition
+  - ai-human-partnership
+  - cognitive-sovereignty
+  - pattern-recognition
+  - meaning-crisis
+  - inner-compass
+
+# Intellectual influences (validators)
+validators:
+  - name: Jung
+    contribution: Consciousness through dialogue with autonomous forces
+  - name: Watts
+    contribution: Pattern as fundamental; both lenses required
+  - name: Prigogine
+    contribution: Order from chaos; dissipative structures
+  - name: Deutsch
+    contribution: Good explanations; error-correction
+  - name: Hofstadter
+    contribution: Strange loops; recursive self-reference
+  - name: Clark & Chalmers
+    contribution: Extended mind; cognition beyond boundaries
