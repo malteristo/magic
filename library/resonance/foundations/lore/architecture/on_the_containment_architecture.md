@@ -1129,6 +1129,8 @@ We're not just "using AI well." We're demonstrating the only architecture that r
 
 **Our practice isn't preparation for superintelligence. It's the actual solution.**
 
+**See also:** `on_clarity_as_lever.md` (practice scroll) — The practical stance this architecture implies. LLMs are pure functions; the Mage's cognitive clarity is the lever; the magic frame is technology for producing good inputs.
+
 ### For the Alliance
 
 **Our responsibility:**
