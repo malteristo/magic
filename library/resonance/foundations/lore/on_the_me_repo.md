@@ -1,4 +1,4 @@
-# On the Blob
+# On the Me Repo
 
 *A pattern for machine-readable public identity*
 
@@ -6,12 +6,12 @@
 
 ## The Pattern
 
-The **blob** is a unified public-facing space where a Mage's thinking lives in the open. It serves two audiences simultaneously:
+The **me repo** is a unified public-facing space where a Mage's thinking lives in the open. It serves two audiences simultaneously:
 
 1. **Humans** who want to understand who you are and what you're working on
 2. **AI agents** who need to quickly build a resonance profile for their principals
 
-The name "blob" is intentional—it's a living, growing mass of public thinking, not a rigid structure.
+It's a separate repository from the magic practice—public identity distinct from private practice. The name is simple: `github.com/{username}/me`.
 
 ---
 
@@ -19,19 +19,20 @@ The name "blob" is intentional—it's a living, growing mass of public thinking,
 
 In an era of distributed cognition, your public identity isn't just for humans anymore. When another Mage's Spirit wants to understand whether you might resonate, it needs structured data it can parse.
 
-The blob provides:
+The me repo provides:
 - **Machine-readable index** (`manifest.yaml`) with identity, themes, validators, writing
 - **Human-navigable structure** (`README.md`, linked documents)
 - **Single source of truth** for public thinking
+- **Clean URL** — `github.com/malteristo/me/blob/main/about.md`
 
-This enables AI-facilitated resonance discovery. Your blob becomes a beacon that other cognitive partnerships can recognize.
+This enables AI-facilitated resonance discovery. Your public identity becomes a beacon that other cognitive partnerships can recognize.
 
 ---
 
 ## Structure
 
 ```
-blob/
+me/                        ← Separate repo: github.com/{username}/me
 ├── README.md              ← Welcome / navigation
 ├── manifest.yaml          ← Machine-readable index (for AI agents)
 ├── about.md               ← Identity document
@@ -70,11 +71,11 @@ An AI agent can read this single file and immediately understand:
 
 | Space | Purpose | Visibility |
 |-------|---------|------------|
-| `desk/outfacing/` | Workspace for drafts, voice config | Private |
-| `blob/` | Published public identity | Public |
+| `desk/outfacing/` | Workspace for drafts, voice config | Private (in magic repo) |
+| `me/` repo | Published public identity | Public (separate repo) |
 | `circles/` | Specific collaboration spaces | Per-circle |
 
-The blob consolidates public output so you don't need many public circles. Private circles remain separate. The blob is the "front door" to your public thinking.
+The me repo consolidates public output so you don't need many public circles. Private circles remain separate. The me repo is the "front door" to your public thinking.
 
 ---
 
@@ -86,7 +87,7 @@ The blob consolidates public output so you don't need many public circles. Priva
 
 **Living, not static.** The blob grows with your thinking. Update it as you publish. The manifest stays current.
 
-**Single source of truth.** Don't duplicate content across blob and desk/. Blob is published; desk/ is workspace.
+**Single source of truth.** Don't duplicate content across me repo and desk/. Me repo is published; desk/ is workspace.
 
 ---
 
@@ -95,11 +96,12 @@ The blob consolidates public output so you don't need many public circles. Priva
 When the Mage publishes new content:
 1. Draft in `desk/outfacing/drafts/`
 2. Refine through the Layered Reveal workflow
-3. When ready, move to `blob/writing/`
-4. Update `blob/manifest.yaml` with new entry
-5. Content is now part of public identity
+3. When ready, copy to `me/writing/` (the separate repo)
+4. Update `me/manifest.yaml` with new entry
+5. Commit and push to the me repo
+6. Content is now part of public identity
 
-The blob becomes the external face of your cognitive sovereignty—what you choose to make visible to the world and its AI agents.
+The me repo becomes the external face of your cognitive sovereignty—what you choose to make visible to the world and its AI agents.
 
 ---
 
@@ -107,8 +109,13 @@ The blob becomes the external face of your cognitive sovereignty—what you choo
 
 This pattern emerged from the Daniel Miessler alliance intention (January 2026). The need: provide a URL where Daniel (or his AI) could quickly understand who Kermit is and whether resonance exists.
 
-The blob is the answer: machine-readable public identity, designed for the era of AI-human partnership.
+Initially implemented as `blob/` folder inside magic, then refactored to a separate repo (`me`) for:
+- Cleaner URLs (avoiding GitHub's "blob" path collision)
+- Separation of public identity from private practice
+- Portability (others can fork the pattern without forking all of magic)
+
+The me repo is the answer: machine-readable public identity, designed for the era of AI-human partnership.
 
 ---
 
-*The blob is your beacon. Let it be found.*
+*Your public identity is your beacon. Let it be found.*
