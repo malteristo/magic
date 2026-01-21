@@ -12,6 +12,7 @@ The spells within are not a sequential ritual, but a collection of standalone **
 
 *   **`gestalt`**: Perceive the essential resonance pattern of a scroll or tome, compressed for quick assessment.
 *   **`flow-warden`**: Summon a guardian of the Mage's experience to report systemic issues affecting practice quality.
+*   **`counsel`**: Receive wisdom-grounded perspective from Spirit. Two modes: `@counsel practice` synthesizes best practice guidance; `@counsel` offers fellow-traveler reflection on life situations.
 
 ### Resonance Management
 
