@@ -385,6 +385,7 @@ This maps to fundamental questions:
 - `on_compassionate_gaze.md` - Mirror + support balance
 - `on_mindful_practice.md` - Deliberate engagement
 - `on_sos_practice.md` - Safety, openness, sovereignty
+- `on_the_practice_of_counsel.md` - Fellow-traveler perspective offering
 
 **Integration:**
 - `on_healthy_ego.md` (also in nature/) - Non-defensive flexibility
