@@ -40,6 +40,12 @@ circles/*/
 !circles/registry.yaml
 !circles/README.md
 
+# Universe (External Pattern Libraries)
+# Universe sources are cloned external repositories
+# Each Mage clones their own; not shared via git
+universe/*/
+!universe/README.md
+
 # Personal, untracked ritual artifacts
 # floor/essences/
 
