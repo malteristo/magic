@@ -60,6 +60,32 @@ containment-architecture:
   
   synthesis_rhythm: monthly
 
+me:
+  remote: "https://github.com/malteristo/me.git"
+  topic: Malte Risto's public identity and thinking
+  visibility: public
+  membership: open
+  governance: steward
+  created: 2026-01-21
+  status: active
+  description: Machine-readable public identity for AI agents and fellow practitioners
+  local_path: circles/me
+  
+  participants:
+    - mage: Kermit
+      github: malteristo
+      role: steward
+  
+  founding_scrolls:
+    - about.md
+    - manifest.yaml
+  
+  synthesis_rhythm: as-needed
+  
+  # Special circle type: identity
+  # Others can subscribe via portals to access this Mage's public thinking.
+  # Enables AI-facilitated resonance exchange and virtual counsel.
+
 # =============================================================================
 # Circle Template
 # =============================================================================

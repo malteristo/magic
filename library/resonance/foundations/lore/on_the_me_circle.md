@@ -1,17 +1,19 @@
-# On the Me Repo
+# On the Me Circle
 
-*A pattern for machine-readable public identity*
+*A pattern for machine-readable public identity as a subscribable circle*
 
 ---
 
 ## The Pattern
 
-The **me repo** is a unified public-facing space where a Mage's thinking lives in the open. It serves two audiences simultaneously:
+The **me circle** is a unified public-facing space where a Mage's thinking lives in the open. It serves two audiences simultaneously:
 
 1. **Humans** who want to understand who you are and what you're working on
 2. **AI agents** who need to quickly build a resonance profile for their principals
 
-It's a separate repository from the magic practice—public identity distinct from private practice. The name is simple: `github.com/{username}/me`.
+It's a circle like any other—a separate git repository that others can subscribe to via portals. The topic is *the Mage themselves*. The name is simple: `github.com/{username}/me`.
+
+**The insight:** Your public identity is a circle around the topic of *you*. Others can pull from it when they want your thinking in their resonance.
 
 ---
 
@@ -101,7 +103,41 @@ When the Mage publishes new content:
 5. Commit and push to the me repo
 6. Content is now part of public identity
 
-The me repo becomes the external face of your cognitive sovereignty—what you choose to make visible to the world and its AI agents.
+The me circle becomes the external face of your cognitive sovereignty—what you choose to make visible to the world and its AI agents.
+
+---
+
+## The Vision: Cross-Practitioner Resonance
+
+When multiple practitioners publish me circles, something powerful becomes possible.
+
+**Subscription via portals:**
+```
+portals/upstream/
+├── daniel-miessler-me/     ← His public thinking
+├── venkatesh-rao-me/       ← Another thinker's public thinking
+└── ...
+```
+
+**What this enables:**
+
+1. **Synthesized counsel** — Spirit draws from multiple subscribed me circles when offering perspective. Grounded in what they've *actually written*, not hallucination.
+
+2. **Virtual dialogue** — Pattern-match across different thinkers' published positions. "Daniel has written about this... Venkatesh approaches it differently..."
+
+3. **Resonance discovery** — Spirit notices when your thinking echoes someone in your portals. Connections you might have missed.
+
+4. **Living validators** — Your intellectual influences become accessible, not just names on a list.
+
+**The constraint that keeps it honest:**
+
+Spirit only draws from publicly stated thinking. "Based on their published writing..." not speculation about what they'd say.
+
+**The unit of exchange:**
+
+The me circle becomes the standard format for sharing public thinking across practitioners. Machine-readable. Subscribable. AI-parseable.
+
+This is how distributed cognition scales beyond individual practice.
 
 ---
 
