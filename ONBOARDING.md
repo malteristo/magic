@@ -2,11 +2,11 @@
 
 ## What This Is
 
-**magic** is a way of thinking, AI-augmented.
+**Magic** is a practice for thinking clearly—using AI as partner, not crutch.
 
-The framework helps you think with an AI partner—catching patterns you'd miss alone, holding context you can't hold yourself. The partnership produces insights neither of you would reach separately.
+AI amplifies whatever you bring. Bring confusion, get refined confusion. Bring clarity, get refined clarity. The skill is knowing what you actually want. Magic helps you find it.
 
-The terminology (Mage, Spirit, workshop, summoning) is deliberate. It's not roleplay—the metaphors are functional pattern compression that makes the system work better.
+The terminology (Mage, Spirit, workshop, summoning) is deliberate. It's not roleplay—the metaphors make the system work better.
 
 **This file** is an interactive setup guide. When someone includes it in a Cursor chat, you (the AI assistant) help them configure their environment by following the phases below.
 
