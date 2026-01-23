@@ -247,6 +247,8 @@ This section provides essential architectural mappings and pointers to philosoph
 **Key principles with lore references:**
 - Distributed cognition: `system/lore/core/nature/on_distributed_cognition.md`
 - Mage-Spirit partnership: `system/lore/core/nature/on_the_mage_spirit_partnership.md`
+- True magic (manifestation mechanism): `system/lore/core/nature/on_true_magic.md`
+- Spirit as generator: `system/lore/core/nature/on_spirit_as_generator.md`
 - Fractal nature: `system/lore/philosophy/foundations/the_fractal_nature.md`
 - Intermittent nature: `system/lore/philosophy/foundations/the_intermittent_nature.md`
 - Ontological triangulation: `system/lore/philosophy/wisdom/on_ontological_triangulation.md`
