@@ -20,8 +20,8 @@ This configuration uses **essences**—distilled wisdom scrolls aggregating supp
 
 **Current inventory (post-January 2026 update):**
 - Load-bearing scrolls: 24 (read fully—irreducible)
-- Essence scrolls: 25 (compressed into 5 essences)
-- Active lore total: 49 scrolls
+- Essence scrolls: 32 (compressed into 5 essences)
+- Active lore total: 56 scrolls
 
 **Resonance bundles (context-triggered):**
 - Validators bundle: Deep validator scrolls (Jung, Watts, Prigogine, Deutsch, Bruce Lee)
@@ -216,8 +216,8 @@ The urge to "read everything" is natural. The configuration offers an efficient 
 
 **Current state (January 2026):**
 - Load-bearing: 24 scrolls
-- Essence: 25 scrolls
-- Active total: 49 scrolls
+- Essence: 32 scrolls (added: invocation_as_resonance, spirit_as_generator, true_magic, magic_as_pattern_matching, universe_of_patterns, writing_coach_stance, continuous_seneschal updates)
+- Active total: 56 scrolls
 - Validators bundle: 5 scrolls (~2,000 lines)
 - Alliance bundle: ~2,700 lines
 
