@@ -103,6 +103,8 @@ Survey the workshop structure by **reading root folder READMEs**. Every folder e
 ls desk/ floor/ box/ 2>/dev/null
 ```
 
+**CRITICAL:** Use the shell `ls` command, NOT the native LS tool. The native LS tool respects `.gitignore`, which intentionally excludes `desk/*`, `floor/*`, and `box/*` contents. These are the Mage's private workspace files—not tracked in git but essential for workshop attunement.
+
 **Note** what exists in each space without judgment. If significant accumulation is present in floor/ or box/, note for potential spring-clean suggestion after summoning completes.
 
 **Permission model internalized from READMEs:**
