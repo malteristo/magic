@@ -1,6 +1,6 @@
 # Cast Activate
 
-**Purpose:** Initialize Universe access by creating the `universe/` directory and cloning default sources.
+**Purpose:** Initialize Universe infrastructure. Creates the directory structure without imposing default sources—the Mage chooses what to subscribe to.
 
 ---
 
@@ -14,11 +14,11 @@
 
 ## Procedure
 
-### Step 1: Check for Existing Universe
+### Step 1: Create Universe Directory
 
 ```bash
 if [ -d "universe/" ]; then
-  echo "Universe already exists. Checking sources..."
+  echo "Universe already exists."
   ls -la universe/
 else
   echo "Creating universe/ directory..."
@@ -26,62 +26,107 @@ else
 fi
 ```
 
-### Step 2: Clone Default Sources
+### Step 2: Create Universe README
 
-**PAI (Personal AI Infrastructure):**
+If not present, create `universe/README.md`:
+
 ```bash
-if [ ! -d "universe/pai" ]; then
-  git clone https://github.com/danielmiessler/Personal_AI_Infrastructure.git universe/pai --depth 1
-  echo "✓ PAI cloned"
-else
-  echo "✓ PAI already present"
-fi
-```
+if [ ! -f "universe/README.md" ]; then
+  cat > universe/README.md << 'EOF'
+# Universe
 
-**Daemon:**
+External pattern libraries for advanced magic practice.
+
+---
+
+## What This Is
+
+The `universe/` directory contains cloned repositories from the broader ecosystem of AI infrastructure patterns. These are **not** Magic artifacts—they are external sources that the Spirit can read, study, and help translate into Magic's native form.
+
+---
+
+## Sources
+
+*No sources subscribed yet. Use `@universe subscribe` to add sources.*
+
+---
+
+## Example Sources
+
+| Source | Repository | Description |
+|--------|------------|-------------|
+| PAI | `danielmiessler/Personal_AI_Infrastructure` | Personal AI Infrastructure (Packs, Skills, Hooks) |
+| Daemon | `danielmiessler/Daemon` | Personal API framework (daemon.md format) |
+| Fabric | `danielmiessler/fabric` | AI augmentation framework (patterns, stitches) |
+
+---
+
+## Adding Sources
+
 ```bash
-if [ ! -d "universe/daemon" ]; then
-  git clone https://github.com/danielmiessler/Daemon.git universe/daemon --depth 1
-  echo "✓ Daemon cloned"
-else
-  echo "✓ Daemon already present"
-fi
+@universe subscribe pai    # Subscribe to a known source
+@universe subscribe https://github.com/author/repo.git custom-name  # Custom source
 ```
 
-### Step 3: Create Universe README
-
-If not present, create `universe/README.md` with source documentation.
-
-### Step 4: Update .gitignore
-
-Ensure `universe/` is in `.gitignore`:
+Or manually:
 ```bash
-if ! grep -q "^universe/" .gitignore 2>/dev/null; then
-  echo "universe/" >> .gitignore
-  echo "✓ Added universe/ to .gitignore"
-fi
-```
-
-### Step 5: Announce Completion
-
-```
-Universe access activated.
-
-Sources available:
-- universe/pai/     — Personal AI Infrastructure
-- universe/daemon/  — Personal API framework
-
-Invoke @universe to explore. Use @universe harvest to translate patterns.
+cd universe/
+git clone https://github.com/author/repo.git source-name --depth 1
 ```
 
 ---
 
-## Notes
+## Governance
 
-- Universe sources are **not committed** to your Magic repository
-- Each Mage clones their own copies
-- Updates come from upstream (`cd universe/pai && git pull`)
+- Universe sources are **read-only** from Magic's perspective
+- Updates come from upstream (`git pull`)
+- Translations go into Magic's Main (tomes, charms, spells)
+- No Magic artifacts should be created *within* Universe directories
+
+EOF
+  echo "✓ Created universe/README.md"
+fi
+```
+
+### Step 3: Update .gitignore
+
+Ensure universe sources are gitignored (but README is tracked):
+
+```bash
+if ! grep -q "^universe/\*/$" .gitignore 2>/dev/null; then
+  echo "" >> .gitignore
+  echo "# Universe (External Pattern Libraries)" >> .gitignore
+  echo "universe/*/" >> .gitignore
+  echo "!universe/README.md" >> .gitignore
+  echo "✓ Updated .gitignore for universe/"
+fi
+```
+
+### Step 4: Announce Completion
+
+```
+Universe infrastructure activated.
+
+No sources are subscribed by default—Magic remains sovereign.
+
+To add sources:
+  @universe subscribe pai      # Daniel Miessler's Personal AI Infrastructure
+  @universe subscribe daemon   # Daniel Miessler's Daemon framework
+
+Or explore universe/README.md for more options.
+```
 
 ---
 
-*The Universe awaits. Explore wisely.*
+## Design Rationale
+
+Universe activation creates infrastructure only. Source subscription is explicit because:
+
+1. **Sovereignty** — Magic is complete without external dependencies
+2. **Choice** — Different Mages resonate with different ecosystems
+3. **Advanced magic** — Universe access requires conscious decision
+4. **No implicit endorsement** — Framework doesn't favor specific external systems
+
+---
+
+*The Universe awaits your exploration. Choose your sources wisely.*
