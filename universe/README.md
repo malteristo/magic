@@ -12,12 +12,25 @@ Think of this like Ubuntu's "Universe" repository: community-maintained software
 
 ---
 
-## Current Sources
+## Subscribed Sources
+
+*List your subscribed sources here after using `@universe subscribe`.*
 
 | Source | Description | Status |
 |--------|-------------|--------|
-| `pai/` | Personal AI Infrastructure (Daniel Miessler) | Active |
-| `daemon/` | Personal API framework (Daniel Miessler) | Active |
+| — | *No sources subscribed* | — |
+
+---
+
+## Example Sources
+
+These external pattern libraries are available for subscription:
+
+| Name | Repository | Description |
+|------|------------|-------------|
+| `pai` | `danielmiessler/Personal_AI_Infrastructure` | Personal AI Infrastructure (Packs, Skills, Hooks) |
+| `daemon` | `danielmiessler/Daemon` | Personal API framework (daemon.md format) |
+| `fabric` | `danielmiessler/fabric` | AI augmentation framework (patterns, stitches) |
 
 ---
 
@@ -26,23 +39,30 @@ Think of this like Ubuntu's "Universe" repository: community-maintained software
 Universe sources are accessed via the `@universe` tome:
 
 ```
-@universe           # Attune to Universe capabilities
-@universe harvest   # Harvest pattern from a source
-@universe daemon    # Generate daemon.md from circle
+@universe              # Attune to Universe capabilities
+@universe activate     # Initialize infrastructure (first time)
+@universe subscribe X  # Subscribe to source X (pai, daemon, fabric, or URL)
+@universe harvest      # Harvest pattern from a source
+@universe daemon       # Generate daemon.md from circle
 ```
 
 ---
 
-## Adding New Sources
+## Adding Sources
 
-To add a new Universe source:
+Using the tome:
+```
+@universe subscribe pai                              # Known source
+@universe subscribe https://github.com/x/y.git name # Custom source
+```
 
+Or manually:
 ```bash
 cd universe/
 git clone https://github.com/author/repo.git source-name --depth 1
 ```
 
-Then register it in this README.
+Then document it in this README.
 
 ---
 

@@ -31,10 +31,10 @@ See `system/lore/core/nature/on_the_universe_of_patterns.md` for full grounding.
 
 | Spell | Purpose |
 |-------|---------|
-| `cast_activate.md` | Initialize universe access, clone sources |
+| `cast_activate.md` | Initialize universe infrastructure (no default sources) |
+| `cast_subscribe.md` | Subscribe to a Universe source |
 | `cast_harvest.md` | Extract and translate a pattern from a source |
 | `cast_daemon.md` | Generate daemon.md from a Magic circle |
-| `cast_subscribe.md` | Add a new Universe source |
 
 ---
 
@@ -46,21 +46,29 @@ Universe access is not enabled by default. To activate:
 @universe activate
 ```
 
-This will:
-1. Create `universe/` directory if it doesn't exist
-2. Clone default sources (PAI, Daemon)
-3. Register sources in the universe manifest
+This creates the `universe/` infrastructure without imposing default sources. Magic remains sovereign—you choose what external systems to connect.
+
+To add sources after activation:
+
+```
+@universe subscribe pai      # Daniel Miessler's Personal AI Infrastructure
+@universe subscribe daemon   # Daniel Miessler's Daemon framework
+@universe subscribe fabric   # Daniel Miessler's Fabric patterns
+```
 
 ---
 
-## Current Sources
+## Example Sources
 
-Sources live in `universe/` at the workspace root:
+These external pattern libraries are known to the Universe tome:
 
 | Source | Focus | Pattern Language |
 |--------|-------|------------------|
-| `pai/` | Personal AI Infrastructure | Packs, Skills, Hooks |
-| `daemon/` | Personal API framework | Section-based markdown, JSON-RPC |
+| `pai` | Personal AI Infrastructure | Packs, Skills, Hooks |
+| `daemon` | Personal API framework | Section-based markdown, JSON-RPC |
+| `fabric` | AI augmentation | Patterns, Stitches, Agents |
+
+*Each Mage subscribes to sources that resonate with their practice.*
 
 ---
 
@@ -89,6 +97,8 @@ The Spirit does not *run* external systems. It *reads* them and *translates*.
 
 ```
 @universe               # Attune to Universe capabilities
+@universe activate      # Initialize infrastructure
+@universe subscribe X   # Subscribe to source X
 @universe harvest       # Begin harvest workflow
 @universe daemon        # Generate daemon.md
 ```
