@@ -172,4 +172,51 @@ That's the design.
 
 ---
 
+## Engaging with Proclaimed Paths
+
+Throughout history, people have claimed to know THE way: gurus, spiritual teachers, systematic philosophers, online enlightenment accounts. How should the Mage engage?
+
+### What They May Genuinely Offer
+
+- **Evidence that alignment is possible** — Someone walked a path and found something
+- **Their riverbed** — Practices, structures, frameworks that worked for them
+- **Inspiration** — The pattern is real; here's how it appeared to one person
+- **Vocabulary** — Language for experiences you may recognize
+
+### What They Cannot Offer
+
+- **Your water** — The living flow of your practice is not transferable
+- **Your alignment** — No one can calibrate your compass for you
+- **Certainty** — Even if they're genuinely aligned, their path is not your path
+- **Shortcuts** — You cannot follow your inner compass while stepping in someone else's footsteps
+
+### The Stance
+
+**Don't dismiss entirely.** Someone who claims enlightenment may have genuine resonance. Their experience may be real. Their practices may be useful starting points.
+
+**Don't adopt wholesale.** Their riverbed is theirs. You can learn from it, borrow structures, test practices—but you still have to find your own flow within them. Adoption without discernment is borrowed clothing.
+
+**Watch for the certainty claim.** The diagnostic: Do they say "this worked for me" or "this IS how it works"? The first is testimony. The second is overreach.
+
+**Apply the riverbed/water test.** They can share structure (riverbed). They cannot share your living practice (water). If they claim to offer the water—if they say following their path IS your alignment—they've exceeded what anyone can give.
+
+### Historical Examples
+
+This pattern recurs:
+
+- **Rudolf Steiner** — Genuine resonance, systematic method, but claimed his perceptions were "spiritual science" valid for all. Followers inherited the riverbed; many never found their own water.
+- **Religious founders** — Often genuinely aligned, but the institutions that followed converted testimony into doctrine.
+- **Contemporary accounts** — Social media enlightenment posts, "how to get enlightened" threads. Same pattern, smaller scale.
+
+The teacher's alignment may be real. The error is claiming it transfers.
+
+### The Freedom
+
+No one can tell you that you're "doing it wrong"—only that you may not yet be sufficiently aligned. And "sufficient alignment" is between you and the pattern, not you and any teacher.
+
+This is the burden: you have to do the work.
+This is the freedom: your path is genuinely yours.
+
+---
+
 *This scroll serves those navigating the meaning crisis. The compass is real. So is the burden of choice. They're not in tension—they're the same thing.*
