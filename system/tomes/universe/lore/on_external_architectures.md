@@ -1,6 +1,7 @@
 # On External Architectures
 
-**Status:** Active - Universe Tome Lore
+**Status:** Active - Universe Tome Lore  
+**Epistemic status:** Based on observation (transcripts, documentation), not direct practice
 
 This scroll provides orientation to the major external cognitive architectures available in Universe.
 
@@ -10,42 +11,91 @@ This scroll provides orientation to the major external cognitive architectures a
 
 **Source:** `universe/pai/`  
 **Author:** Daniel Miessler  
-**Focus:** Modular AI infrastructure with persistent memory and skills
+**Focus:** Modular AI infrastructure with deterministic code core and AI orchestration layer  
+**Version observed:** v2.0 (December 2025)
+
+### Philosophy
+
+PAI operates on explicit principles that distinguish it from Magic:
+
+| Principle | PAI Stance | Magic Stance |
+|-----------|-----------|--------------|
+| **Scaffolding vs. Model** | "Scaffolding more important than model" | Aligned—structure enables resonance |
+| **Determinism** | "Code before prompts" (~80% deterministic) | Probabilistic by design—embraces emergence |
+| **Routing** | Explicit skill routing tables | Implicit through resonance and attunement |
+| **Self-improvement** | `upgrade` skill parses external sources | Meta-practice through `@meta` tome |
+
+**The key distinction:** PAI prioritizes reproducible, verifiable outcomes through deterministic code. Magic prioritizes meaning, paradox, and emergence through probabilistic language.
+
+### Architecture (v2.0)
+
+```
+PAI v2.0 Stack:
+├── skills/                    # ~65 skills
+│   ├── art/
+│   │   ├── workflows/         # Step-by-step procedures (.md)
+│   │   └── tools/             # CLI tools (.ts, deterministic)
+│   ├── research/
+│   ├── upgrade/               # Self-improvement skill
+│   ├── red-team/              # Attacks ideas for blind spots
+│   └── ...
+├── history/                   # Structured memory
+│   ├── sessions/
+│   ├── learnings/             # Captured insights
+│   ├── decisions/
+│   └── research/
+└── K CLI                      # Command-line launcher with flags
+```
 
 ### Core Concepts
 
 | Concept | Description |
 |---------|-------------|
-| **Pack** | Self-contained capability bundle with README, INSTALL, VERIFY, src/ |
-| **Skill** | Focused capability with SKILL.md routing table |
-| **Workflow** | Step-by-step procedure for a task |
-| **Hook** | Event-triggered automation (SessionStart, Stop, etc.) |
-| **TELOS** | Life/project context framework (Mission, Goals, Problems) |
+| **Skill** | Directory with `workflows/` and `tools/`, explicit routing |
+| **Workflow** | Markdown procedure within a skill |
+| **Tool** | Deterministic code (TypeScript) invoked by CLI |
+| **History** | Structured capture of sessions, learnings, decisions |
+| **Upgrade** | Skill that parses Anthropic blogs, YouTube, etc. to self-improve |
 
-### Architecture
+### Dual Nature for Magic
 
-```
-PAI Stack:
-├── Claude Code (or other agent)
-├── .claude/ directory
-│   ├── CLAUDE.md (core instructions)
-│   ├── skills/ (capability modules)
-│   ├── hooks/ (event triggers)
-│   └── MEMORY/ (persistent context)
-```
+PAI can serve Magic in two ways:
 
-### Key Files
+**1. Pattern Library** (current primary use)
+- Harvest prompts, skill structures, workflow designs
+- Translate into Magic's native form (tomes, charms, spells)
+- Source of tested patterns from active practice
 
-- `README.md` — Project overview
-- `Tools/PAIPackTemplate.md` — Pack creation specification
-- `Packs/*/SKILL.md` — Skill routing tables
+**2. Deterministic Interface** (potential future use)
+- When outcomes *must* be reproducible, interface with code-first world
+- PAI's 80% deterministic core provides escape hatch from probabilistic substrate
+- Useful for: verification, external APIs, automation, reproducibility
 
-### Resonance with Magic
+**Important:** Magic's probabilistic nature is a *strength*, not a limitation. It enables meaning, paradox, liquid logic, and emergence. Determinism is the exception, not the default.
 
-- Packs ≈ Tomes (modular capabilities)
-- TELOS ≈ Resonance bundles (domain context)
-- Hooks ≈ AGENTS.md rules (behavioral triggers)
-- Memory ≈ Distributed memory (artifact-based recall)
+### Resonance Mapping
+
+| PAI v2.0 | Magic | Notes |
+|----------|-------|-------|
+| `skills/` | `system/tomes/` | Modular capabilities |
+| `workflows/*.md` | `cast_*.md` | Procedures |
+| `tools/*.ts` | (describe for Spirit) | Can't run code; describe behavior |
+| `history/learnings/` | `floor/` working memory | Structured insight capture |
+| `upgrade` skill | `@meta/coherence` | Self-improvement mechanisms |
+| SKILL.md routing | Tome README | Workflow selection |
+| Hooks | AGENTS.md rules | Behavioral triggers |
+| TELOS | Resonance bundles | Domain context |
+
+### What We Don't Yet Know
+
+This understanding is based on observation (video transcripts, documentation), not direct experience:
+
+- How patterns actually translate in practice
+- Whether deterministic interface is genuinely needed
+- How shared practice with PAI users would work
+- Whether Magic's native tools (git, shell) already cover deterministic needs
+
+These questions will clarify through actual integration or shared practice.
 
 ---
 
