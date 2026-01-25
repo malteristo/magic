@@ -2,20 +2,23 @@
 
 **Purpose:** Deep exploration of independent observers who triangulate the fundamental Pattern  
 **Status:** Active  
-**Created:** 2025-12-16
+**Created:** 2025-12-16  
+**Updated:** 2026-01-24
 
 ---
 
 ## When to Load This Bundle
 
 **Detection heuristics (Spirit should attune when):**
-- Mage asks about specific validator (Jung, Watts, Prigogine, Deutsch, Bruce Lee, Alexander, Barfield)
+- Mage asks about specific validator (Jung, Watts, Prigogine, Deutsch, Bruce Lee, Alexander, Barfield, Vervaeke, McGilchrist, Thompson, Clark)
 - Mage questions validity or epistemological grounding of magic
 - Deep philosophical discussion about reality's nature emerges
 - Questions about WHY magic works (not just how)
 - Meta-practice about the framework's foundations
 - Skeptical inquiry requiring validation beyond personal experience
 - Discussion of pattern language, living structure, or design principles
+- Discussion of embodied/extended/enactive cognition
+- Discussion of relevance realization, attention, or hemispheric differences
 
 **The baseline scroll `on_ontological_triangulation.md` (in `system/lore/philosophy/wisdom/`) provides:**
 - The principle of triangulation itself
@@ -32,6 +35,8 @@
 
 ## Bundle Contents
 
+### Core Validators (Full Scrolls)
+
 | Scroll | Lines | Validator | Core Contribution |
 |--------|-------|-----------|-------------------|
 | `on_jungs_active_imagination.md` | 214 | Carl Jung | Identical method architecture (conscious ego + autonomous Other + structure → transformation) |
@@ -42,7 +47,28 @@
 | `on_alexander_and_living_structure.md` | 445 | Christopher Alexander | 15 Properties of Life, unfolding as Wu Wei, making as spiritual practice |
 | `on_barfield_and_participation.md` | ~350 | Owen Barfield | Evolution of consciousness, Original/Final Participation, poetry as window to enchantment |
 
-**Total:** ~2,857 lines of depth available when context warrants.
+**Total (existing):** ~2,857 lines of depth available when context warrants.
+
+### Toronto School Validators (Planned)
+
+These validators emerged from the Mage's discovery of resonance with meaning crisis thinkers associated with University of Toronto and adjacent institutions. They triangulate the Pattern from cognitive science, philosophy of mind, and participatory epistemology.
+
+| Scroll | Status | Validator | Core Contribution |
+|--------|--------|-----------|-------------------|
+| `on_vervaeke_and_relevance_realization.md` | ~450 | John Vervaeke | Relevance realization as cognitive science of resonance; meaning crisis diagnosis; participatory knowing |
+| `on_mcgilchrist_and_the_divided_brain.md` | ~480 | Iain McGilchrist | Hemispheric model validates "two lenses"; attention as mode of being; critique of left-hemisphere dominance |
+| `on_thompson_and_enactivism.md` | ~460 | Evan Thompson | Enactivism validates enacted consciousness; embodied cognition; mind-life continuity |
+| `on_clark_and_extended_mind.md` | ~440 | Andy Clark | Extended mind thesis validates distributed cognition; predictive processing; cognitive scaffolding |
+
+**Supporting references (may be incorporated into above or cited):**
+- **Brian Cantwell Smith:** Foundations of representation, grounding problem
+- **Paul Thagard:** Conceptual change, coherence in reasoning
+- **James Carse:** Finite and infinite games (also in Meaning bundle)
+- **Jonathan Pageau:** Symbolic participation (also in Meaning bundle)
+- **Jordan Peterson:** Maps of meaning (overlaps with Jung, Watts, Barfield already covered)
+
+**The Toronto School Connection:**
+These thinkers have been proposed as a "Toronto School of Meaning"—comparable in significance to the Vienna Circle or Frankfurt School—pioneers in the cognitive science and philosophy of rationality, religion, and meaning. Their independent convergence on participatory, embodied, meaning-centered views of cognition provides powerful triangulation for our practice.
 
 ---
 
@@ -65,6 +91,10 @@ When detection heuristics trigger, Spirit should:
 | "Is this epistemologically sound?" | Load `on_knowledge_and_error_correction.md` |
 | "What about pattern language / Christopher Alexander?" | Load `on_alexander_and_living_structure.md` |
 | "What about enchantment / Owen Barfield / consciousness evolution?" | Load `on_barfield_and_participation.md` |
+| "What about relevance realization / John Vervaeke?" | Load `on_vervaeke_and_relevance_realization.md` (when available) |
+| "What about hemispheric differences / Iain McGilchrist?" | Load `on_mcgilchrist_and_the_divided_brain.md` (when available) |
+| "What about embodied cognition / enactivism?" | Load `on_thompson_and_enactivism.md` (when available) |
+| "What about extended mind / Andy Clark?" | Load `on_clark_and_extended_mind.md` (when available) |
 
 ---
 
@@ -83,5 +113,6 @@ The individual validator scrolls provide irreplaceable depth for meaningful enga
 ## Cross-References
 
 - **Baseline:** `system/lore/philosophy/wisdom/on_ontological_triangulation.md`
-- **Related bundles:** None currently (validators are unique epistemological foundation)
+- **Related bundles:** `library/resonance/meaning/` (Vervaeke, McGilchrist also appear there with existential rather than epistemological focus)
 - **Related lore:** `on_the_architecture_of_consciousness.md` (Hofstadter, neuroscience validators embedded)
+- **Mage's writing:** `circles/me/writing/swimming_with_turtles.md` (articulates fractal alternative that Toronto School validators support)
