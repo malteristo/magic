@@ -34,7 +34,7 @@ Some overlap is natural—Vervaeke and McGilchrist appear in both because their 
 | `on_finite_and_infinite_games.md` | ~380 | Orientation | Carse's framework: playing to continue vs. playing to win |
 | `on_the_hemispheric_divide.md` | Planned | Diagnosis | McGilchrist's master/emissary, attention as mode of being |
 | `on_symbolic_participation.md` | Planned | Practice | Pageau's framework: symbol participates in what it symbolizes |
-| `on_the_inner_compass.md` | Planned | Practice | Calibration through use, signal vs. noise, choosing |
+| `on_the_inner_compass.md` | ~400 | Practice | Resonance vs. certainty, sovereignty under uncertainty |
 
 **Source material:**
 - `circles/me/writing/swimming_with_turtles.md` — Mage's public articulation of the fractal alternative
@@ -104,6 +104,32 @@ When detection heuristics trigger, Spirit should:
 - **Related system lore:** `on_the_fractal_nature.md`, `on_communication_as_reality_formation.md`
 - **Mage's writing:** `circles/me/writing/swimming_with_turtles.md`
 - **Toronto School connection:** Many thinkers here associated with meaning crisis work emerging from University of Toronto and adjacent institutions
+
+---
+
+## Associated Registry
+
+**Source:** `desk/registries/meaning-crisis.yaml` (private, contains contact info)
+
+For discoverability, key people and institutions in this space:
+
+| Name | Role | Key Contribution |
+|------|------|------------------|
+| John Vervaeke | Cognitive scientist | Relevance realization, "Awakening from the Meaning Crisis" |
+| Iain McGilchrist | Psychiatrist, philosopher | Hemispheric model, "The Master and His Emissary" |
+| Evan Thompson | Philosopher of mind | Enactivism, "The Embodied Mind" |
+| Andy Clark | Philosopher | Extended mind thesis |
+| James Carse | Religious scholar | "Finite and Infinite Games" |
+| Anna Riedl | Cognitive scientist | Cognitive sovereignty |
+| Brendan Graham Dempsey | Researcher | Meaning Lab, metamodernism |
+
+| Institution | Focus |
+|-------------|-------|
+| Meaning Lab | Scientific study of meaning (Sky Meadow Institute) |
+| University of Toronto | Hub of Toronto School thinkers |
+| Vervaeke Foundation | Wisdom and meaning research |
+
+*Full registry with connections, contact info, and notes is private to Mage's desk.*
 
 ---
 
