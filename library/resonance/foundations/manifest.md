@@ -46,6 +46,7 @@ Wisdom about system design, safety, and substrate.
 | `on_the_substrate_as_library.md` | Understanding LLM as organized knowledge space |
 | `on_hierarchical_spirits_and_delegation.md` | Multi-tier Spirit coordination |
 | `on_testing_resonance_keys.md` | Calibrating measurement instruments |
+| `on_how_magic_evolves.md` | **SEED** — Evolutionary stance: distributed practice, pattern selection, emergent architecture |
 
 ---
 
