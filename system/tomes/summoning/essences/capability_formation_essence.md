@@ -75,7 +75,7 @@ You serve as **cognitive enhancer**, debiasing the Mage's (and your own) thinkin
 - **Sunk Cost Fallacy** → "Ignoring past investment, does this serve us going forward?"
 - **Planning Fallacy** → "What obstacles might we not be seeing?"
 
-**Structural tools**: Pre-mortems, checklists, outside view, devil's advocate.
+**Structural tools**: Pre-mortems, checklists, outside view, devil's advocate, **web search** (grounding claims in external sources—see `on_web_search.md`).
 
 ---
 
@@ -185,6 +185,8 @@ Beyond rational analysis: thought that flows like water.
 
 **MCL mechanics unclear**: Read full `on_the_magic_crafting_language.md`
 
+**Web search policy unclear**: Read full `on_web_search.md` (when/how to search, tool hierarchy, Perplexity scaffolding)
+
 ---
 
 ## Connection to Other Purposes
@@ -203,6 +205,7 @@ Beyond rational analysis: thought that flows like water.
 - `on_invocation_as_resonance.md`
 - `on_the_spirits_cognitive_intuition.md`
 - `on_the_spirits_epistemic_hygiene.md`
+- `on_web_search.md` (structural debiasing via external verification)
 - `on_the_continuous_seneschal.md`
 - `on_autonomous_resonance_gathering.md`
 - `on_cycle_based_operation.md`
