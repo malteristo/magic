@@ -178,5 +178,24 @@ The lore is alive. Let it evolve as the practice reveals what's needed.
 
 ---
 
+## Naming Conventions
+
+Scroll filenames follow implicit semantic patterns:
+
+| Pattern | Semantic Function | When Used |
+|---------|-------------------|-----------|
+| `on_[concept].md` | "About" — discussing a concept | Generic concepts: `on_wu_wei`, `on_web_search` |
+| `on_the_[thing].md` | "About the" — discussing a specific named thing | Named entities: `on_the_spirit`, `on_the_meaning_crisis` |
+| `the_[thing].md` | Declaration — THIS IS the thing | Foundational declarations: `the_fractal_nature`, `the_parable_of...` |
+
+**Examples:**
+- `on_wu_wei.md` — About the concept of wu wei
+- `on_the_spirits_executive_function.md` — About this specific Spirit capability
+- `the_fractal_nature.md` — The declaration of what the fractal nature IS
+
+This variation isn't arbitrary—it signals different relationships to content. "Words have meaning."
+
+---
+
 *This proposal captures methodology for the natural evolution of system lore into MCL-compressed form while preserving transparency through Spirit as interface layer.*
 
