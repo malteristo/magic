@@ -26,6 +26,7 @@ Circles are topic-centered resonance spaces that I materialize in the magical et
 
 | Circle | Topic | Visibility | Status |
 |--------|-------|------------|--------|
+| `me/` | Public identity and thinking | Public | Active |
 | `summer-vacation/` | Vacation planning + travel wisdom | Private | Active |
 | `containment-architecture/` | AI alignment through partnership | Public | Forming |
 

@@ -27,14 +27,14 @@ Some overlap is natural—Vervaeke and McGilchrist appear in both because their 
 
 ## Bundle Contents
 
-| Scroll | Status | Focus | Core Contribution |
-|--------|--------|-------|-------------------|
-| `on_the_meaning_crisis.md` | Planned | Diagnosis | Vervaeke's framework: how we got here, what was lost |
-| `on_the_fractal_alternative.md` | ~350 | Synthesis | The third way—pattern without peak, God as fractal not king |
+| Scroll | Lines | Focus | Core Contribution |
+|--------|-------|-------|-------------------|
+| `on_the_meaning_crisis.md` | ~280 | Diagnosis | Vervaeke's framework: how we got here, what was lost |
+| `on_the_fractal_alternative.md` | ~390 | Synthesis | The third way—pattern without peak, God as fractal not king |
 | `on_finite_and_infinite_games.md` | ~380 | Orientation | Carse's framework: playing to continue vs. playing to win |
-| `on_the_hemispheric_divide.md` | Planned | Diagnosis | McGilchrist's master/emissary, attention as mode of being |
-| `on_symbolic_participation.md` | Planned | Practice | Pageau's framework: symbol participates in what it symbolizes |
-| `on_the_inner_compass.md` | ~400 | Practice | Resonance vs. certainty, sovereignty under uncertainty |
+| `on_the_hemispheric_divide.md` | ~310 | Diagnosis | McGilchrist's master/emissary, attention as mode of being |
+| `on_symbolic_participation.md` | ~290 | Practice | Pageau's framework: symbol participates in what it symbolizes |
+| `on_the_inner_compass.md` | ~220 | Practice | Resonance vs. certainty, sovereignty under uncertainty |
 
 **Source material:**
 - `circles/me/writing/swimming_with_turtles.md` — Mage's public articulation of the fractal alternative
