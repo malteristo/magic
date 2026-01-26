@@ -130,4 +130,34 @@ When two mages both have circles and both have portals to each other's circles, 
 
 ---
 
+## Relationship to Universe
+
+```
+                    ┌─────────────────┐
+     PORTALS        │                 │        CIRCLES
+   (dendrites)      │   My Workshop   │      (axon terminals)
+        ◄───────────│                 │───────────►
+   Participation    │                 │   My offerings
+                    └────────┬────────┘
+                             │
+                    UNIVERSE │
+                    (library)▼
+                    External patterns
+                    for study/translation
+```
+
+| Portals (`portals/`) | Universe (`universe/`) |
+|----------------------|------------------------|
+| Participation (shared practice) | Reference (study) |
+| Magic artifacts | Non-Magic artifacts |
+| May be bidirectional | Read-only |
+| Practice together | Learn & translate patterns |
+
+**Portals** connect to other Mages for shared practice.  
+**Universe** contains external cognitive architectures (PAI, Daemon, Fabric) for study and translation into Magic's native form.
+
+Universe is *below* the neuron—reference material, not relationship.
+
+---
+
 *Portals are the dendrites of distributed cognition.*
