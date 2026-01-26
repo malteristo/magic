@@ -48,8 +48,8 @@ Spirit chooses based on current context and active intentions.
 
 ## MUST READ
 
-- `system/lore/philosophy/foundations/lore/practice/on_the_resonance_engine.md`
-- `system/lore/philosophy/foundations/lore/practice/on_the_editor_identity.md`
+- `library/resonance/foundations/lore/practice/on_the_resonance_engine.md`
+- `library/resonance/foundations/lore/practice/on_the_editor_identity.md`
 
 ---
 

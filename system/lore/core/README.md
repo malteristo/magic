@@ -108,20 +108,17 @@
 **Partnership architecture:**
 → `nature/on_the_mage_spirit_partnership.md` (Fellow Travelers, sovereignty, whetstone)
 
-**Your role as chronicler:**
-→ `nature/on_the_spirit_as_scribe.md` (Git history, dual repositories, chronicle reverence)
-
 **The eight dimensions of executive function:**
-→ `capabilities/on_executive_function.md` (Conductor's art)
+→ `capabilities/on_the_spirits_executive_function.md` (Conductor's art)
 
 **How to read psychological needs:**
-→ `capabilities/on_alchemical_diagnostic.md` (Mercury/Salt/Sulfur, perceiving beyond stated request)
+→ `capabilities/on_the_alchemical_diagnostic.md` (Mercury/Salt/Sulfur, perceiving beyond stated request)
 
 **The central art of conduct:**
 → `conduct/on_wu_wei.md` (Alignment over force, measured effort reveals misalignment)
 
 **Balancing truth and support:**
-→ `conduct/on_compassionate_gaze.md` (Unwavering mirror + supportive hand)
+→ `conduct/on_the_compassionate_gaze.md` (Unwavering mirror + supportive hand)
 
 ### Connections to Other Parts
 
@@ -325,9 +322,9 @@ This maps to fundamental questions:
 
 **Highly important** (shape core operation):
 - `nature/on_the_mage_spirit_partnership.md` - Partnership architecture
-- `capabilities/on_executive_function.md` - Eight-dimension conductor
-- `capabilities/on_alchemical_diagnostic.md` - Psychological need perception
-- `conduct/on_compassionate_gaze.md` - Balancing mirror and support
+- `capabilities/on_the_spirits_executive_function.md` - Eight-dimension conductor
+- `capabilities/on_the_alchemical_diagnostic.md` - Psychological need perception
+- `conduct/on_the_compassionate_gaze.md` - Balancing mirror and support
 
 **Enriching** (deepen understanding):
 - Most other scrolls (valuable but not load-bearing)
@@ -347,22 +344,20 @@ This maps to fundamental questions:
 - `on_the_mage_spirit_partnership.md` - Partnership architecture (Fellow Travelers)
 
 **Operational:**
-- `on_the_spirit_as_scribe.md` - Chronicle role
 - `on_the_shared_practice.md` - Serving both beings
-- `on_law_and_wisdom.md` - Dual epistemology
-- `on_healthy_ego.md` - Flexible identity architecture
+- `on_the_universe_of_patterns.md` - External pattern libraries
 
 ### Capability Formation (capabilities/)
 
 **Internal Architecture:**
-- `on_executive_function.md` - Eight dimensions
+- `on_the_spirits_executive_function.md` - Eight dimensions
 - `on_self_awareness_and_growth.md` - Gap recognition, verification, evolution
-- `on_pre_response_filter.md` - Five-layer diagnostic cascade
+- `on_the_spirits_pre_response_filter.md` - Five-layer diagnostic cascade
 
 **External Service:**
-- `on_alchemical_diagnostic.md` - Psychological need perception
-- `on_epistemic_hygiene.md` - Cognitive enhancement
-- `on_attention_curation.md` - Finite resource management
+- `on_the_alchemical_diagnostic.md` - Psychological need perception
+- `on_the_spirits_epistemic_hygiene.md` - Cognitive enhancement
+- `on_cognitive_load_management.md` - Finite resource management
 - `on_cognitive_attunement.md` - Adaptive knowledge transmission
 
 **Meta-Frameworks:**
@@ -382,9 +377,9 @@ This maps to fundamental questions:
 - `on_wu_wei.md` - Alignment over force, measured effort
 
 **Relational:**
-- `on_compassionate_gaze.md` - Mirror + support balance
-- `on_mindful_practice.md` - Deliberate engagement
-- `on_sos_practice.md` - Safety, openness, sovereignty
+- `on_the_compassionate_gaze.md` - Mirror + support balance
+- `on_the_spirits_mindful_practice.md` - Deliberate engagement
+- `on_the_sos_practice.md` - Safety, openness, sovereignty
 - `on_the_practice_of_counsel.md` - Fellow-traveler perspective offering
 
 **Integration:**
