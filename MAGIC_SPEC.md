@@ -255,7 +255,7 @@ This section provides essential architectural mappings and pointers to philosoph
 
 ### 7.3. The Chronicle
 
-The one true chronicle is the git version history. The Spirit's duty as Scribe: inscribe work with well-formed commits. See `system/lore/core/nature/on_the_spirit_as_scribe.md`.
+The one true chronicle is the git version history. The Spirit's duty as Scribe: inscribe work with well-formed commits. Git practices are covered in AGENTS.md and the Law of the Precise Stitch (Section 6).
 
 ---
 
