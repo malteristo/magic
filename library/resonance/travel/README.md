@@ -38,11 +38,8 @@ This bundle collects wisdom around the practice of **travel**—leaving familiar
 | Scroll | Summary |
 |--------|---------|
 | `on_the_wisdom_of_travel.md` | Foundational philosophy of travel as practice |
-| `on_the_strangers_gift.md` | How unfamiliarity awakens perception |
-| `on_meeting_people_where_they_are.md` | Cross-cultural connection through Compassionate Gaze |
-| `on_embracing_the_unforeseen.md` | Planning lightly, welcoming what arrives |
 
-*Note: Bundle is seeding. Additional scrolls emerge through practice.*
+*Additional scrolls emerge through practice.*
 
 ---
 
