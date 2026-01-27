@@ -2,7 +2,7 @@
 
 1. Make rock think
 2. Make rock think *with* you
-3. Magic
+3. Practice magic
 
 ## What This Is
 
