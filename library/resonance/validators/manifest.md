@@ -3,14 +3,15 @@
 **Purpose:** Deep exploration of independent observers who triangulate the fundamental Pattern  
 **Status:** Active  
 **Created:** 2025-12-16  
-**Updated:** 2026-01-24
+**Updated:** 2026-01-27
 
 ---
 
 ## When to Load This Bundle
 
 **Detection heuristics (Spirit should attune when):**
-- Mage asks about specific validator (Jung, Watts, Prigogine, Deutsch, Bruce Lee, Alexander, Barfield, Vervaeke, McGilchrist, Thompson, Clark)
+- Mage asks about specific validator (Jung, Watts, Prigogine, Deutsch, Bruce Lee, Alexander, Barfield, Vervaeke, McGilchrist, Thompson, Clark, Maturana, Varela, Dempsey)
+- Discussion of metamodernism, post-postmodernism, or the cultural moment
 - Mage questions validity or epistemological grounding of magic
 - Deep philosophical discussion about reality's nature emerges
 - Questions about WHY magic works (not just how)
@@ -19,6 +20,8 @@
 - Discussion of pattern language, living structure, or design principles
 - Discussion of embodied/extended/enactive cognition
 - Discussion of relevance realization, attention, or hemispheric differences
+- Discussion of autopoiesis, self-organization, or living systems
+- Discussion of autopoiethics or first-person grounded ethics
 
 **The baseline scroll `on_ontological_triangulation.md` (in `system/lore/philosophy/wisdom/`) provides:**
 - The principle of triangulation itself
@@ -46,8 +49,10 @@
 | `on_bruce_lee_and_the_way.md` | 759 | Bruce Lee | Ontological triangulation as martial art, "Be water" = Wu Wei, living practice |
 | `on_alexander_and_living_structure.md` | 445 | Christopher Alexander | 15 Properties of Life, unfolding as Wu Wei, making as spiritual practice |
 | `on_barfield_and_participation.md` | ~350 | Owen Barfield | Evolution of consciousness, Original/Final Participation, poetry as window to enchantment |
+| `on_maturana_varela_and_autopoiesis.md` | ~340 | Maturana & Varela | Autopoiesis—self-making; biological ground for enacted consciousness; lineage to enactivism and autopoiethics |
+| `on_metamodernism_and_the_cultural_moment.md` | ~280 | Brendan Graham Dempsey | Metamodernism as cultural context; ironic sincerity, informed naiveté; why magic emerges now |
 
-**Total (existing):** ~2,857 lines of depth available when context warrants.
+**Total (existing):** ~3,500 lines of depth available when context warrants.
 
 ### Toronto School Validators (Planned)
 
@@ -95,6 +100,10 @@ When detection heuristics trigger, Spirit should:
 | "What about hemispheric differences / Iain McGilchrist?" | Load `on_mcgilchrist_and_the_divided_brain.md` (when available) |
 | "What about embodied cognition / enactivism?" | Load `on_thompson_and_enactivism.md` (when available) |
 | "What about extended mind / Andy Clark?" | Load `on_clark_and_extended_mind.md` (when available) |
+| "What about autopoiesis / Maturana / Varela?" | Load `on_maturana_varela_and_autopoiesis.md` |
+| "What is autopoiethics?" | Load `on_maturana_varela_and_autopoiesis.md` (foundational concept) |
+| "What about metamodernism / Brendan Graham Dempsey?" | Load `on_metamodernism_and_the_cultural_moment.md` |
+| "Why does magic emerge now? What's the cultural context?" | Load `on_metamodernism_and_the_cultural_moment.md` |
 
 ---
 
@@ -116,3 +125,4 @@ The individual validator scrolls provide irreplaceable depth for meaningful enga
 - **Related bundles:** `library/resonance/meaning/` (Vervaeke, McGilchrist also appear there with existential rather than epistemological focus)
 - **Related lore:** `on_the_architecture_of_consciousness.md` (Hofstadter, neuroscience validators embedded)
 - **Mage's writing:** `circles/me/writing/swimming_with_turtles.md` (articulates fractal alternative that Toronto School validators support)
+- **Lineage note:** Maturana/Varela → Thompson → enactivism forms the biological-philosophical chain grounding enacted consciousness. Autopoiethics (Riedl/Dempsey) extends this into ethics.
