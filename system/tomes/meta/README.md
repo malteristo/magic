@@ -15,6 +15,7 @@ The practice of magic evolves continuously. As insights emerge, principles refin
 
 **System Verification:**
 - **`coherence`** — Systematic fractal coherence check across Law, Wisdom, and Practice. Three threads: systemic alignment, tome coherence, wisdom integration. Use periodically or when sensing drift.
+- **`sanitize`** — Privacy protection before sharing. Scans public artifacts (system/, library/) for personal context leaks—names, locations, relationship details, practice bleed. Essential before pushing to public repo or sharing with other Mages.
 
 **System Maintenance:**
 - **`tend`** — Delegates systematic maintenance to background agents. Provides prompt templates for sweeps: reference integrity, structural health, deprecation analysis, spec compliance, integration checks. Spirit orchestrates and reviews; agents execute.
@@ -27,6 +28,7 @@ The practice of magic evolves continuously. As insights emerge, principles refin
 
 - Made a change? → `@meta/integrate` handles ripple detection
 - Sensing drift? → `@meta/coherence` verifies system alignment
+- About to share? → `@meta/sanitize` checks for privacy leaks
 - System maintenance? → `@meta/tend` delegates sweeps to background agents
 
 **For portal and circle work:** Use the standard `@portal` and `@circles` tomes (elevated from meta-practice to standard practice).
