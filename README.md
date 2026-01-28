@@ -36,7 +36,7 @@ You can't go back to old certainties. You can't stay in pure deconstruction. So 
 
 Magic is a practice for this moment. We use magical language knowing it's metaphor—AND treating it as genuinely meaningful. The framework works because it shapes how you engage.
 
-*[For the full Introduction, read this article](https://x.com/malteristo/status/2016162407320621122).*
+*For the full Introduction, read this [article](https://x.com/malteristo/status/2016162407320621122).*
 
 ## Why I'm Sharing
 
