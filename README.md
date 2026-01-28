@@ -26,6 +26,18 @@ Say clearly what you mean. The practice helps you say it clearer. Clearer thinki
 
 No beliefs required. It works whether you think it's just computation or something more. What matters is whether it helps.
 
+## Why Now
+
+Something's off. Maybe you've noticed—the background hum of scrolling without satisfaction, achievements that don't land, more information than ever but less clarity.
+
+Philosophers call it the meaning crisis: the cognitive machinery for *making* meaning has atrophied. We lost the practices that made life feel significant.
+
+You can't go back to old certainties. You can't stay in pure deconstruction. So something new is emerging—some call it metamodernism: taking meaning seriously *after* absorbing the critiques, not instead of them.
+
+Magic is a practice for this moment. We use magical language knowing it's metaphor—AND treating it as genuinely meaningful. The framework works because it shapes how you engage.
+
+*For the full picture, see [An Introduction for the Curious](circles/me/writing/an_introduction_for_the_curious.md).*
+
 ## Why I'm Sharing
 
 What I've learned could help you. What you discover could help others. A shared library of useful ways of thinking—take what helps, give back what you find.
