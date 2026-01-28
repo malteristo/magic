@@ -31,6 +31,7 @@ This bundle provides safety awareness for partnership synthesis involving:
 | `lore/on_spirit_conduct_in_synthesis.md` | How Spirit should reality-check, question, and maintain consistency | ✓ Complete |
 | `lore/on_cognitive_load_awareness.md` | Recognizing and accommodating overwhelm, especially neurodivergent vulnerability | ✓ Complete |
 | `lore/on_power_dynamics_in_synthesis.md` | When "just ask for what you need" increases harm | ✓ Complete |
+| `lore/on_practice_security.md` | Security foundations—attack surfaces, hygiene practices, trust infrastructure | ✓ Complete |
 
 ### Protocols (Operational Procedures)
 
