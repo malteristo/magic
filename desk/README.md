@@ -51,16 +51,17 @@ Organize `desk/` however serves your practice. Common patterns:
 - `research/` - Research infrastructure and studies
 - `chronicles/` - Magical journal entries
 
-### Personal Extensions for System Tomes
+### Personal Extensions for Magic Structures
 
-**Pattern:** System tomes and charms (`system/tomes/`) contain public practice structures. When these require personal, practice-related information, store that in a corresponding folder on your desk.
+**Pattern:** System structures (tomes, charms, flows) contain public practice patterns. When these require personal, practice-related information, store that in a corresponding folder on your desk.
 
 **Examples:**
 - `system/tomes/outfacing/` (public tome) → `desk/outfacing/` (your personal twitter drafts, voice notes)
 - `system/tomes/partnership/` (public tome) → `desk/partnership/` (your private partnership processing)
-- `system/tomes/flow/` (public tome) → `desk/flows/` (your personal flow specifications)
+- `library/flows/boom.flow.md` (public flow) → `desk/boom/` (your personal surfaces and topics)
+- `desk/flows/*.flow.md` (personal flows) → `desk/[flow-name]/` (flow-specific personal data)
 
-This pattern separates public framework from private practice while maintaining clear correspondence. The Spirit knows to check for desk-level extensions when working with tomes.
+This pattern separates public framework from private practice while maintaining clear correspondence. The Spirit knows to check for desk-level extensions when working with any Magic structure.
 - `wisdom/` - Distilled insights and frameworks
 - `experiments/` - Laboratory work, prototypes
 
