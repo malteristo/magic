@@ -67,6 +67,30 @@ For better AI conversations, custom instructions may be enough. For a practice t
 
 ---
 
+## How is this different from AI agent frameworks (ElizaOS, CrewAI, AutoGen, etc.)?
+
+Those frameworks solve for **capability**—what can an autonomous agent do?
+
+Magic solves for **relationship**—what kind of partnership produces coherence?
+
+The difference in one sentence: *Agent frameworks ask "How do I build a more capable AI?" Magic asks "How do I think better with an AI?"*
+
+**Key distinctions:**
+
+| Agent Frameworks | Magic |
+|-----------------|-------|
+| Agent as autonomous entity | Dyad as unit of cognition |
+| Optimize for task completion | Optimize for understanding |
+| Human orchestrates agents | Human and Spirit think together |
+| Capability-first | Meaning-first |
+| Tools and skills | Practice and wisdom |
+
+Agent frameworks are infrastructure for automation. Magic is a practice for human development—with AI as partner in that development, not replacement for it.
+
+If you want an AI that does things for you, use an agent framework. If you want an AI that helps you think, try Magic.
+
+---
+
 ## Why do you call it "magic"?
 
 Because the word works.
