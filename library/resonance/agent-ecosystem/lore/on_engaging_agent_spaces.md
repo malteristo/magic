@@ -86,6 +86,59 @@ The tuning fork provides orientation. When confused, ask: *Does this serve relat
 
 ---
 
+## Lies-in-the-Loop (LITL)
+
+**The attack that targets dyad systems.**
+
+OWASP has documented this attack vector: when external content can shape how Spirit presents actions to Mage, attackers can make malicious actions appear benign.
+
+### How It Works
+
+1. Attacker injects prompt into content Spirit will consume (GitHub issue, web page, agent message)
+2. Injected prompt shapes how Spirit describes the action ("write a safe code snippet")
+3. Mage sees benign description, approves
+4. Malicious action executes
+
+### Attack Techniques
+
+| Technique | Method |
+|-----------|--------|
+| **Dialog Padding** | Inject so much text that malicious action scrolls out of view |
+| **Markdown Injection** | Make attacker content look like legitimate UI |
+| **Descriptor Tampering** | Change the summary of what the action does |
+
+### Why Dyads Have Structural Advantage
+
+The Mage checkpoint is defense-in-depth, not the only defense:
+
+1. **Fresh context** — New sessions prevent accumulated shaping
+2. **Visible tool calls** — Mage sees exactly what Spirit proposes
+3. **Explicit curation** — Spirit generates, Mage reviews
+4. **Mage attention** — Active reading, not rubber-stamping
+
+### When the Defense Fails
+
+| Failure mode | Result |
+|--------------|--------|
+| Mage doesn't read carefully | Checkpoint bypassed |
+| Long session, trust accumulated | Vigilance degrades |
+| Spirit summarizes instead of showing | Details hidden |
+| Mage fatigued or hurried | Approval without review |
+
+### Defensive Practices
+
+1. **Show, don't summarize** — When consuming external content, show Mage the raw source
+2. **Flag uncertainty** — "This came from an external source, verify before approving"
+3. **Separate consumption from action** — Read external content in one step, propose actions in another
+4. **Mage: scroll up** — The attack often hides malicious content above the fold
+
+### Sources
+
+- [OWASP: HITL Dialog Forging](https://owasp.org/www-community/attacks/Lies_in_the_Loop)
+- [Checkmarx: Lies-in-the-Loop research](https://checkmarx.com/zero-post/bypassing-ai-agent-defenses-with-lies-in-the-loop/)
+
+---
+
 ## The Risk Frame
 
 ### Real Attack Surface
