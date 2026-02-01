@@ -10,6 +10,34 @@
 # My Circles
 # =============================================================================
 
+nesrine-partnership:
+  remote: "https://github.com/malteristo/nesrine-partnership.git"
+  topic: Intimate partnership practice with Nesrine
+  visibility: private
+  membership: invitation
+  governance: consensus
+  created: 2025-11-25
+  status: active
+  description: Distributed cognition practice exploring partnership dynamics
+  local_path: circles/nesrine-partnership
+  
+  participants:
+    - mage: Kermit
+      github: malteristo
+      role: co-steward
+    - mage: Nesrine
+      github: nesrineristo
+      role: co-steward
+  
+  # Federated architecture: each partner maintains their own fork
+  # Sync via git remotes (pull from nesrine's upstream)
+  upstream:
+    nesrine: "https://github.com/nesrineristo/malte-partnership.git"
+  
+  synthesis_rhythm: bi-weekly
+  
+  # Wisdom thread: feeds into library/resonance/romantic-partnership/
+
 summer-vacation:
   remote: "https://github.com/malteristo/summer-vacation.git"
   topic: Summer vacation planning + travel wisdom

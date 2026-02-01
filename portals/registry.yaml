@@ -15,40 +15,27 @@
 # Active Portals
 # =============================================================================
 
-nesrine-partnership:
-  # Golden braid model: shared space, both mages weave together
-  type: partnership
-  
-  remotes:
-    origin: "https://github.com/malteristo/nesrine-partnership.git"      # Kermit's fork
-    nesrine: "https://github.com/nesrineristo/malte-partnership.git"     # Nesrine's fork
-  
-  collaborators: [Kermit, Nesrine]
+# Note: My own partnership work lives in circles/nesrine-partnership/
+# This portal is Nesrine's perspective — what I receive from her.
+
+nesrine-upstream:
+  type: subscription
+  remote: "https://github.com/nesrineristo/malte-partnership.git"
+  local_path: portals/upstream/nesrine-partnership
+  steward: Nesrine
   visibility: private
   created: 2025-11-25
   status: active
-  description: Intimate partnership practice exploring distributed cognition
-  local_path: portals/nesrine-partnership
+  description: Nesrine's fork of our partnership practice — her offerings to me
   
-  participants:
-    - mage: Kermit
-      github: malteristo
-      fork: "malteristo/nesrine-partnership"
-      role: co-practitioner
-    - mage: Nesrine
-      github: nesrineristo
-      fork: "nesrineristo/malte-partnership"
-      role: co-practitioner
+  pull_triggers:
+    - partnership
+    - synthesis
+    - nesrine
   
-  sync:
-    kermit_pushes_to: origin
-    kermit_pulls_from: nesrine
-    nesrine_pushes_to: origin (her fork)
-    nesrine_pulls_from: upstream (Kermit's fork)
-  
-  synthesis:
-    protocol: consensus
-    rhythm: bi-weekly
+  # Federated model: I pull from her fork to see her perspective
+  # My work lives in circles/nesrine-partnership/ (my fork)
+  # We each publish to our own forks, pull from each other's
 
 # =============================================================================
 # Subscriptions (Upstream Clones)
