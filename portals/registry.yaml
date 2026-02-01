@@ -18,15 +18,15 @@
 # Note: My own partnership work lives in circles/[redacted-name]-partnership/
 # This portal is [redacted-name]'s perspective — what I receive from her.
 
-[redacted-name]-upstream:
+malte-partnership:
   type: subscription
   remote: "https://github.com/[redacted-handle]/malte-partnership.git"
-  local_path: portals/upstream/[redacted-name]-partnership
+  local_path: portals/upstream/malte-partnership
   steward: [redacted-name]
   visibility: private
   created: 2025-11-25
   status: active
-  description: [redacted-name]'s fork of our partnership practice — her offerings to me
+  description: [redacted-name]'s perspective on our partnership — her offerings to me
   
   pull_triggers:
     - partnership
