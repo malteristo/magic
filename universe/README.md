@@ -31,6 +31,23 @@ These external pattern libraries are available for subscription:
 | `pai` | `danielmiessler/Personal_AI_Infrastructure` | Personal AI Infrastructure (Packs, Skills, Hooks) |
 | `daemon` | `danielmiessler/Daemon` | Personal API framework (daemon.md format) |
 | `fabric` | `danielmiessler/fabric` | AI augmentation framework (patterns, stitches) |
+| `agentskills` | `agentskills/agentskills` | Anthropic's open format for agent capabilities (SKILL.md) |
+
+### Agent Skills
+
+[Agent Skills](https://agentskills.io) is an open standard by Anthropic for giving agents new capabilities. Supported by Cursor, Claude, VS Code, GitHub Copilot, and 20+ tools.
+
+**Relationship to Magic:**
+- Skills = procedural capabilities (what agents can *do*)
+- Magic = relational wisdom (how Mage and Spirit *practice together*)
+
+Skills are a pattern library to draw from. When a skill would serve Magic practice, transcribe it into native format (Tome/Charm) with proper attribution.
+
+**Example transcription flow:**
+1. Discover useful skill in `agentskills/` or community
+2. Evaluate alignment with Magic's containment architecture
+3. Transcribe as Charm with attribution in lore
+4. The skill becomes Magic-native, relationally framed
 
 ---
 
