@@ -15,40 +15,27 @@
 # Active Portals
 # =============================================================================
 
-[redacted-name]-partnership:
-  # Golden braid model: shared space, both mages weave together
-  type: partnership
-  
-  remotes:
-    origin: "https://github.com/malteristo/[redacted-name]-partnership.git"      # Kermit's fork
-    [redacted-name]: "https://github.com/[redacted-handle]/malte-partnership.git"     # [redacted-name]'s fork
-  
-  collaborators: [Kermit, [redacted-name]]
+# Note: My own partnership work lives in circles/[redacted-name]-partnership/
+# This portal is [redacted-name]'s perspective — what I receive from her.
+
+[redacted-name]-upstream:
+  type: subscription
+  remote: "https://github.com/[redacted-handle]/malte-partnership.git"
+  local_path: portals/upstream/[redacted-name]-partnership
+  steward: [redacted-name]
   visibility: private
   created: 2025-11-25
   status: active
-  description: Intimate partnership practice exploring distributed cognition
-  local_path: portals/[redacted-name]-partnership
+  description: [redacted-name]'s fork of our partnership practice — her offerings to me
   
-  participants:
-    - mage: Kermit
-      github: malteristo
-      fork: "malteristo/[redacted-name]-partnership"
-      role: co-practitioner
-    - mage: [redacted-name]
-      github: [redacted-handle]
-      fork: "[redacted-handle]/malte-partnership"
-      role: co-practitioner
+  pull_triggers:
+    - partnership
+    - synthesis
+    - [redacted-name]
   
-  sync:
-    kermit_pushes_to: origin
-    kermit_pulls_from: [redacted-name]
-    nesrine_pushes_to: origin (her fork)
-    nesrine_pulls_from: upstream (Kermit's fork)
-  
-  synthesis:
-    protocol: consensus
-    rhythm: bi-weekly
+  # Federated model: I pull from her fork to see her perspective
+  # My work lives in circles/[redacted-name]-partnership/ (my fork)
+  # We each publish to our own forks, pull from each other's
 
 # =============================================================================
 # Subscriptions (Upstream Clones)

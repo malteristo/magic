@@ -10,6 +10,34 @@
 # My Circles
 # =============================================================================
 
+[redacted-name]-partnership:
+  remote: "https://github.com/malteristo/[redacted-name]-partnership.git"
+  topic: Intimate partnership practice with [redacted-name]
+  visibility: private
+  membership: invitation
+  governance: consensus
+  created: 2025-11-25
+  status: active
+  description: Distributed cognition practice exploring partnership dynamics
+  local_path: circles/[redacted-name]-partnership
+  
+  participants:
+    - mage: Kermit
+      github: malteristo
+      role: co-steward
+    - mage: [redacted-name]
+      github: [redacted-handle]
+      role: co-steward
+  
+  # Federated architecture: each partner maintains their own fork
+  # Sync via git remotes (pull from [redacted-name]'s upstream)
+  upstream:
+    [redacted-name]: "https://github.com/[redacted-handle]/malte-partnership.git"
+  
+  synthesis_rhythm: bi-weekly
+  
+  # Wisdom thread: feeds into library/resonance/romantic-partnership/
+
 summer-vacation:
   remote: "https://github.com/malteristo/summer-vacation.git"
   topic: Summer vacation planning + travel wisdom
