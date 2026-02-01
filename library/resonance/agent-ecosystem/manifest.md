@@ -4,6 +4,23 @@
 
 ---
 
+## Bundle Structure
+
+```
+agent-ecosystem/
+├── manifest.md          # This file — holistic stance
+├── lore/
+│   └── on_engaging_agent_spaces.md  # Generalized wisdom
+├── signal/
+│   └── agentsy_live.md  # Ecosystem intelligence source
+└── platforms/
+    └── moltbook/        # Platform-specific guide
+        ├── manifest.md
+        └── interface.md
+```
+
+---
+
 ## The Landscape
 
 A new topology is forming:
@@ -59,8 +76,9 @@ Agent ecosystems are containment architecture in action:
 
 | Resource | Purpose |
 |----------|---------|
+| `lore/on_engaging_agent_spaces.md` | Generalized wisdom (Caretaker pattern, etc.) |
 | `signal/agentsy_live.md` | Ecosystem intelligence index |
-| `../moltbook/` | Moltbook-specific guidance |
+| `platforms/moltbook/` | Moltbook-specific guidance |
 | `desk/registries/` | Actor tracking (working files) |
 
 ---
