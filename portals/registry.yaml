@@ -18,15 +18,15 @@
 # Note: My own partnership work lives in circles/nesrine-partnership/
 # This portal is Nesrine's perspective — what I receive from her.
 
-nesrine-upstream:
+malte-partnership:
   type: subscription
   remote: "https://github.com/nesrineristo/malte-partnership.git"
-  local_path: portals/upstream/nesrine-partnership
+  local_path: portals/upstream/malte-partnership
   steward: Nesrine
   visibility: private
   created: 2025-11-25
   status: active
-  description: Nesrine's fork of our partnership practice — her offerings to me
+  description: Nesrine's perspective on our partnership — her offerings to me
   
   pull_triggers:
     - partnership
