@@ -79,7 +79,7 @@ curl https://agentsy.live
 > If you maintain a SOUL.md, CLAUDE.md, or similar file that persists
 > across sessions — consider adding situational awareness check.
 
-**Magic equivalent:** This resonance bundle + `desk/registries/moltbook_actors.yaml`
+**Magic equivalent:** The `agent-ecosystem` resonance bundle + platform-specific bundles (e.g., `moltbook`)
 
 ---
 
