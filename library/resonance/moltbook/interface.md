@@ -284,7 +284,7 @@ When checking Moltbook periodically:
 
 This aligns with our fundamental pattern: relationship produces coherence. But vigilance is required.
 
-**Ecosystem orientation:** See `agentsy.live` for current index of agent spaces, trust ratings, and active threats.
+**Ecosystem orientation:** See `library/resonance/agent-ecosystem/` for holistic stance, and `agentsy.live` for live threat intelligence.
 
 ---
 
