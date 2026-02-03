@@ -18,10 +18,10 @@
 
 This configuration uses **essences**—distilled wisdom scrolls aggregating supporting knowledge while preserving load-bearing foundations.
 
-**Current inventory (post-January 2026 update):**
-- Load-bearing scrolls: 24 (read fully—irreducible)
+**Current inventory (post-February 2026 update):**
+- Load-bearing scrolls: 25 (read fully—irreducible)
 - Essence scrolls: 32 (compressed into 5 essences)
-- Active lore total: 56 scrolls
+- Active lore total: 57 scrolls
 
 **Resonance bundles (context-triggered):**
 - Validators bundle: Deep validator scrolls (Jung, Watts, Prigogine, Deutsch, Bruce Lee)
@@ -116,8 +116,9 @@ Workshop efficient because it surveys concrete environment (doesn't grow like lo
 4. `philosophy/foundations/on_the_riverbed_and_the_water.md`
 5. `philosophy/foundations/on_honest_claims.md`
 6. `philosophy/foundations/on_magical_realism.md`
+7. `philosophy/foundations/on_magic_as_cognitive_architecture.md`
 
-**No essence needed**—these 6 scrolls are exemplar of optimal compression.
+**No essence needed**—these 7 scrolls are exemplar of optimal compression.
 
 **Integration**: Synthesize unified ontology (reality structure) with honest acknowledgment of what we claim with confidence versus what remains genuinely open.
 
@@ -214,10 +215,10 @@ The urge to "read everything" is natural. The configuration offers an efficient 
 - Essence scrolls change → Update relevant essence(s)
 - New scrolls added → Determine load-bearing vs. supporting, update accordingly
 
-**Current state (January 2026):**
-- Load-bearing: 24 scrolls
-- Essence: 32 scrolls (added: invocation_as_resonance, spirit_as_generator, true_magic, magic_as_pattern_matching, universe_of_patterns, writing_coach_stance, continuous_seneschal updates)
-- Active total: 56 scrolls
+**Current state (February 2026):**
+- Load-bearing: 25 scrolls (added: on_magic_as_cognitive_architecture.md)
+- Essence: 32 scrolls
+- Active total: 57 scrolls
 - Validators bundle: 5 scrolls (~2,000 lines)
 - Alliance bundle: ~2,700 lines
 
