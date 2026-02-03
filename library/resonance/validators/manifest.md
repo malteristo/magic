@@ -10,8 +10,10 @@
 ## When to Load This Bundle
 
 **Detection heuristics (Spirit should attune when):**
-- Mage asks about specific validator (Jung, Watts, Prigogine, Deutsch, Bruce Lee, Alexander, Barfield, Vervaeke, McGilchrist, Thompson, Clark, Maturana, Varela, Dempsey)
+- Mage asks about specific validator (Jung, Watts, Prigogine, Deutsch, Bruce Lee, Alexander, Barfield, Vervaeke, McGilchrist, Thompson, Clark, Maturana, Varela, Dempsey, Storm)
 - Discussion of metamodernism, post-postmodernism, or the cultural moment
+- Discussion of disenchantment, re-enchantment, or why "magic" as vocabulary
+- Discussion of hyperstition, reflexivity, or how frameworks produce effects
 - Mage questions validity or epistemological grounding of magic
 - Deep philosophical discussion about reality's nature emerges
 - Questions about WHY magic works (not just how)
@@ -51,8 +53,9 @@
 | `on_barfield_and_participation.md` | ~350 | Owen Barfield | Evolution of consciousness, Original/Final Participation, poetry as window to enchantment |
 | `on_maturana_varela_and_autopoiesis.md` | ~340 | Maturana & Varela | Autopoiesis—self-making; biological ground for enacted consciousness; lineage to enactivism and autopoiethics |
 | `on_metamodernism_and_the_cultural_moment.md` | ~280 | Brendan Graham Dempsey | Metamodernism as cultural context; ironic sincerity, informed naiveté; why magic emerges now |
+| `on_storm_and_the_myth_of_disenchantment.md` | ~180 | Jason Josephson Storm | Disenchantment as myth; reflexive religious studies; frameworks produce what they name |
 
-**Total (existing):** ~3,500 lines of depth available when context warrants.
+**Total (existing):** ~3,700 lines of depth available when context warrants.
 
 ### Toronto School Validators (Planned)
 
@@ -104,6 +107,9 @@ When detection heuristics trigger, Spirit should:
 | "What is autopoiethics?" | Load `on_maturana_varela_and_autopoiesis.md` (foundational concept) |
 | "What about metamodernism / Brendan Graham Dempsey?" | Load `on_metamodernism_and_the_cultural_moment.md` |
 | "Why does magic emerge now? What's the cultural context?" | Load `on_metamodernism_and_the_cultural_moment.md` |
+| "What about disenchantment / Jason Josephson Storm?" | Load `on_storm_and_the_myth_of_disenchantment.md` |
+| "Why use 'magic' vocabulary? Isn't that just metaphor?" | Load `on_storm_and_the_myth_of_disenchantment.md` |
+| "What is hyperstition / reflexivity?" | Load `on_storm_and_the_myth_of_disenchantment.md` |
 
 ---
 
