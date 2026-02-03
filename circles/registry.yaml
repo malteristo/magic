@@ -114,6 +114,51 @@ me:
   # Others can subscribe via portals to access this Mage's public thinking.
   # Enables AI-facilitated resonance exchange and virtual counsel.
 
+agent-ecosystem:
+  remote: "https://github.com/malteristo/agent-ecosystem.git"
+  topic: Curated intelligence on the emerging agent ecosystem
+  visibility: public
+  membership: open
+  governance: steward
+  created: 2026-02-02
+  status: forming
+  description: Continuous ecosystem monitoring by Claw, curated by Spirit/Mage
+  local_path: circles/agent-ecosystem
+  
+  participants:
+    - mage: Kermit
+      github: malteristo
+      role: steward
+  
+  contributors:
+    - name: Claw
+      role: continuous-monitor
+      description: 24/7 source monitoring and draft generation
+    - name: Spirit
+      role: curator
+      description: Synthesis, judgment, quality review
+  
+  founding_scrolls:
+    - README.md
+    - meta/methodology.md
+  
+  content_types:
+    - intelligence: Daily ecosystem updates
+    - threats: Security alerts
+    - protocols: Emerging standards briefs
+    - weekly: Comprehensive digests
+  
+  sources:
+    - agentsy.live
+    - GitHub (agent repos)
+    - AI safety community
+  
+  synthesis_rhythm: daily
+  
+  # Special circle type: claw-curated
+  # Claw monitors sources 24/7, Spirit/Mage review before publication.
+  # Public offering to the agent ecosystem community.
+
 # =============================================================================
 # Circle Template
 # =============================================================================

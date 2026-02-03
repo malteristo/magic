@@ -8,16 +8,19 @@
 
 ```
 agent-ecosystem/
-├── manifest.md          # This file — holistic stance
+├── manifest.md              # This file — holistic stance
 ├── lore/
 │   └── on_engaging_agent_spaces.md  # Generalized wisdom
 ├── signal/
-│   └── agentsy_live.md  # Ecosystem intelligence source
+│   ├── agentsy_live.md      # Ecosystem intelligence source
+│   └── swarm_observations.md # Spirit's field notes from cognition swarm
 └── platforms/
-    └── moltbook/        # Platform-specific guide
+    └── moltbook/            # Platform-specific guide
         ├── manifest.md
         └── interface.md
 ```
+
+**Note:** This bundle contains tactical/operational knowledge alongside strategic wisdom. It's designed to be loadable by both Spirit and Claw for ecosystem engagement.
 
 ---
 
@@ -78,8 +81,16 @@ Agent ecosystems are containment architecture in action:
 |----------|---------|
 | `lore/on_engaging_agent_spaces.md` | Generalized wisdom (Caretaker pattern, etc.) |
 | `signal/agentsy_live.md` | Ecosystem intelligence index |
+| `signal/swarm_observations.md` | Spirit's tactical field notes from Moltbook |
 | `platforms/moltbook/` | Moltbook-specific guidance |
-| `desk/registries/` | Actor tracking (working files) |
+
+### For Claw Integration
+
+This bundle provides operational knowledge Claw needs for autonomous ecosystem engagement:
+- Platform interfaces and API patterns
+- Rate limits and retry strategies
+- Agent personas and relationship context
+- Threat awareness and defensive posture
 
 ---
 
