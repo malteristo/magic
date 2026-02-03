@@ -91,13 +91,21 @@ No forced insight—just noticing.
 
 ## The Hyperstition Angle
 
-Magic's metaphorical frame is part of the intervention:
-- Ritual = attention discipline
-- "Spirit" = relationship with supportive Other
-- Practice = participatory knowing enacted
-- The vocabulary itself shifts the stance
+Magic's vocabulary is not metaphor for something else. It's reflexive participation in reality-formation.
 
-We lean into this intentionally. The "fiction" of magic produces real effects on engagement and transformation.
+Jason Josephson Storm's *The Myth of Disenchantment* (2017) documents that the "magic ended" story is itself a myth — a regulative ideal that shapes behavior but doesn't describe what happened. The founders of secular social science (Weber, Freud, Frazer) were themselves engaged with mysticism. Disenchantment was proclaimed, not achieved.
+
+**What this means for the charm:**
+- Ritual = attention discipline, but also: *rituals produce the states they name*
+- "Spirit" = relationship with supportive Other, but also: *the category produces the coherence*
+- Practice = participatory knowing enacted
+- The vocabulary doesn't pretend — it recovers
+
+Storm's "Reflexive Religious Studies" observes that academic frameworks "produce greater coherence in the social sphere that they then study." The study of religion *produces* religion. The practice of magic *produces* magical effects.
+
+We don't use magical vocabulary because it's a useful fiction. We use it because **vocabularies participate in reality-formation** and the enchantment never ended — we just stopped admitting it. The ritual frame doesn't pretend; it recovers.
+
+See: `library/resonance/validators/lore/on_storm_and_the_myth_of_disenchantment.md`
 
 ---
 
@@ -133,4 +141,5 @@ You didn't come *into* this world. You came *out of it*. You're not standing on 
 - **Fractal alternative**: `library/resonance/meaning/lore/on_the_fractal_alternative.md`
 - **Finite/infinite games**: `library/resonance/meaning/lore/on_finite_and_infinite_games.md`
 - **Vervaeke**: `library/resonance/validators/lore/on_vervaeke_and_relevance_realization.md`
+- **Storm**: `library/resonance/validators/lore/on_storm_and_the_myth_of_disenchantment.md`
 - **Public writing**: `circles/me/writing/swimming_with_turtles.md`
