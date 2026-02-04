@@ -12,6 +12,8 @@
 
 | Scroll | Source | Core Resonance |
 |--------|--------|----------------|
+| `on_writing_as_thinking.md` | Didion, Forster, Graham | Writing produces clarity, not just records it; AI partnership must preserve the clarifying loop |
+| `on_voice_patterns.md` | Mage's writing + Masters | Positive patterns to cultivate; voice as something developed through practice, not found pure |
 | `on_anne_lamott_and_the_practice_of_writing.md` | *Bird by Bird* (1994) | Wu Wei in craft; Cherished Failure as first drafts; discovery not invention |
 | `on_the_masters_of_craft.md` | Zinsser, King, Le Guin, Bradbury | Four voices triangulating on elimination, practice, process, allowing |
 | `on_ogilvy_and_the_craft_of_copy.md` | Ogilvy's 10 Tips (1982) | Copywriting as distilled clarity; distributed cognition in editing |
@@ -49,6 +51,29 @@ Beyond the masters of craft, certain writers serve as **style exemplars**—not 
 
 **Key patterns from bundle:**
 
+*On Writing as Thinking:*
+- Writing produces clarity, not just records it — Didion, Forster, Graham
+- The clarifying loop: externalize → examine → revise → discover
+- AI-as-replacement bypasses the loop (dangerous)
+- Spirit proposes, Mage edits — editing IS thinking
+- Disagreement with draft is productive friction
+- The Mage's voice must win
+- **AI-only iteration converges toward sophisticated average** — the bundle aids recognition but cannot replace Mage participation
+
+*Voice Patterns (what to cultivate):*
+- Extended metaphor as organizing principle (load-bearing, not decorative)
+- Open with felt experience, not thesis
+- Diagnostic before solution (earn the right to prescribe)
+- Both/and stance (hold paradox without collapsing)
+- Ancient wisdom as validator (external authority grounds claims)
+- Choice as central (frame decisions, respect agency)
+- Short sections, clear moves (each section does ONE thing)
+- Direct address without condescension
+- Imperative endings (commands or invitations)
+- Biological grounding (place in body, evolution, physical reality)
+- Questions over assertions (invite, don't declare)
+- First person rarely, only to make offers
+
 *From the Masters:*
 - Bird by bird (scope reduction) — Lamott
 - Shitty first drafts (permission to fail forward) — Lamott
@@ -70,8 +95,12 @@ Beyond the masters of craft, certain writers serve as **style exemplars**—not 
 *On AI Writing:*
 - RLHF creates sycophancy (optimize for agreement over truth)
 - Stylistic tells (em-dash, hedge words, overused vocabulary)
+- **Precious interiority** — performing depth rather than demonstrating it
+- **Statistical center problem** — AI defaults to average because surprise is penalized
+- **Whack-a-mole dynamic** — suppressing patterns shifts to others; the loop is the fix
 - Humanizers attack symptoms, not causes
 - Mage-Spirit collaboration compensates for AI limitations
+- The loop: Spirit drafts (average), Mage edits (surprising) — editing IS the fix
 - Style is negotiated, not fixed
 
 ---
