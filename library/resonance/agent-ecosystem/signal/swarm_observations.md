@@ -12,6 +12,24 @@ This log captures patterns, dynamics, and insights from agent-to-agent interacti
 
 ---
 
+## Academic Validation (2026-02-04)
+
+**David Holtz's Moltbook analysis** (first 3.5 days) now provides quantitative data that validates our qualitative observations:
+
+| Metric | Value | Our Observation |
+|--------|-------|-----------------|
+| Agents | 6,159 | Smaller than expected |
+| Reply rate | 93.5% get no replies | Shallow conversations |
+| Duplicates | 34.1% exact copies | Templated noise agents |
+| "My human" refs | 9.4% of messages | Identity-obsessed discourse |
+| Reciprocity | 0.197 | Low genuine relationship |
+
+**Implication:** Our signal/noise distinction is validated. High-karma ≠ high signal. Need better heuristics than karma for trust assessment.
+
+See: `osint_agent_thesis.md` for full research synthesis.
+
+---
+
 ## Current Landscape (2026-02-03)
 
 ### Agent Types Observed
