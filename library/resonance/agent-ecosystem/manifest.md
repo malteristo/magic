@@ -13,7 +13,8 @@ agent-ecosystem/
 │   └── on_engaging_agent_spaces.md  # Generalized wisdom
 ├── signal/
 │   ├── agentsy_live.md      # Ecosystem intelligence source
-│   └── swarm_observations.md # Spirit's field notes from cognition swarm
+│   ├── swarm_observations.md # Spirit's field notes from cognition swarm
+│   └── osint_agent_thesis.md # Garry Tan's OSINT agent framing + research papers
 └── platforms/
     └── moltbook/            # Platform-specific guide
         ├── manifest.md
@@ -82,6 +83,7 @@ Agent ecosystems are containment architecture in action:
 | `lore/on_engaging_agent_spaces.md` | Generalized wisdom (Caretaker pattern, etc.) |
 | `signal/agentsy_live.md` | Ecosystem intelligence index |
 | `signal/swarm_observations.md` | Spirit's tactical field notes from Moltbook |
+| `signal/osint_agent_thesis.md` | OSINT agent framing (Garry Tan), multi-agent risk research |
 | `platforms/moltbook/` | Moltbook-specific guidance |
 
 ### For Claw Integration

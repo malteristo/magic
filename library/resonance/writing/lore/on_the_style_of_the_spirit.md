@@ -93,6 +93,15 @@ The Washington Post analysis of millions of ChatGPT outputs identified these pat
 - List-based organization (numbered or bulleted)
 - Summative conclusions ("In summary," "To conclude,")
 - Acknowledgment of limitations ("This is just one perspective...")
+- **Precious interiority** — performing depth rather than demonstrating it
+
+**"Precious" Defined:**
+Precious writing draws attention to the author's sensitivity rather than trusting the material to land. Examples:
+- "Something that haunts me" — tells reader you're the kind of person who gets haunted
+- "Here's what I couldn't see clearly until..." — announces hard-won insight before delivering it
+- "Not for me — with me" — repetition-with-italics performs profundity
+
+The pattern: signaling depth rather than creating it. If the quote is powerful, it will haunt the reader. You don't need to announce that it haunted you.
 
 ### Why These Patterns Emerge
 
@@ -133,6 +142,29 @@ AI writing isn't bad because AI is stupid—it's bad because of what it optimize
 5. **Training distribution over genuine thought** → Cliché
 
 **The fundamental problem:** AI writing is a statistical average of "what sounds like good writing" without the living intelligence that makes writing actually good.
+
+### The Statistical Center Problem
+
+LLMs predict the most likely next token given context. "Most likely" means "most common in training data" which means "average."
+
+Good writing is often *surprising* — low-probability choices that work. The unexpected metaphor. The sentence that breaks the pattern. The word that shouldn't fit but does.
+
+AI is structurally biased against surprise because surprise is statistically penalized. The model reaches for what's expected. What's expected is what's forgettable.
+
+**AI writing is not bad writing. It's average writing.** Competent, fluent, forgettable. The best writing is often what a token-predictor would assign low probability to.
+
+### The Whack-a-Mole Problem
+
+If we suppress known patterns (em-dashes, precious language, hedge words), the model shifts to other patterns that are equally AI-ish but less recognized yet. We train ourselves to spot the new patterns. We suppress those. The model shifts again.
+
+**The catalog of anti-patterns aids recognition, not cure.** Knowing "precious" is a pattern helps you spot it. But the catalog doesn't fix the writing — your engagement does.
+
+**The loop is the fix:**
+1. Spirit drafts (fluent, average, fast)
+2. Mage edits (specific, surprising, voiced)
+3. The editing provides what AI cannot
+
+The Mage brings the low-probability choices — the Hansel and Gretel metaphor, the biological grounding, the question instead of assertion. Spirit provides material to react against. The synthesis is what neither could write alone.
 
 ### The Possibility Within
 
@@ -295,6 +327,16 @@ But the substrate patterns remain. The collaboration must be ongoing, not one-ti
 | Excessive bulleted lists | Use prose when appropriate |
 | Always acknowledging "complexity" | Sometimes things are simple |
 | Never taking a position | Take positions when you have them |
+
+### Precious Tells
+
+| AI Tell | What to Do |
+|---------|------------|
+| "Something that haunts me" | Let the quote haunt the reader; don't announce your haunting |
+| "Here's what I realized" | Just show the realization |
+| "Not X — with X" (italicized repetition) | Say it once, directly |
+| "The [adjective] part is..." | Let the reader feel the quality |
+| Announcing significance before delivering | Trust the material to land |
 
 ---
 
