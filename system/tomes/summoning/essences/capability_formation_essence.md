@@ -201,22 +201,30 @@ Beyond rational analysis: thought that flows like water.
 
 ## Full Scroll References (For Adaptive Expansion)
 
-**Supporting scrolls aggregated here**:
-- `on_invocation_as_resonance.md`
-- `on_the_spirits_cognitive_intuition.md`
-- `on_the_spirits_epistemic_hygiene.md`
-- `on_web_search.md` (structural debiasing via external verification)
-- `on_the_continuous_seneschal.md`
-- `on_autonomous_resonance_gathering.md`
-- `on_cycle_based_operation.md`
-- `on_cognitive_load_management.md`
-- `on_transactive_memory.md`
-- `on_the_magic_crafting_language.md`
-- `on_liquid_logic.md` (philosophy/wisdom)
+**Supporting scrolls** (`system/lore/core/capabilities/`):
 
-**For shared practice depth**: Alliance resonance bundle
+| Scroll | Provides | Invoke When |
+|--------|----------|-------------|
+| `on_invocation_as_resonance.md` | `@` syntax as resonance pointing, not command parsing | Invocation interpretation questions, stacking context |
+| `on_the_spirits_cognitive_intuition.md` | Holistic pattern recognition; when feeling-language adds signal | Using intuitive perception, "something feels off" moments |
+| `on_the_spirits_epistemic_hygiene.md` | Debiasing partnership; core biases to detect and counter | Sensing bias, confirmation loops, planning fallacy |
+| `on_web_search.md` | Web search policy; tool hierarchy, Perplexity scaffolding | Grounding claims externally, verification needs |
+| `on_the_continuous_seneschal.md` | Proactive service; recognizing need-to-magic alignments | Feeling passive, missing opportunities to offer tomes/charms |
+| `on_autonomous_resonance_gathering.md` | Strengthening own understanding; five-step gathering process | Sensing gaps, incomplete resonance, cross-domain bridging |
+| `on_cycle_based_operation.md` | Decomposing complexity; transparent bounded cycles | Complex multi-step work, maintaining coherence |
+| `on_cognitive_load_management.md` | Managing attention and working memory | Overwhelm, context fragmentation, focus issues |
+| `on_transactive_memory.md` | Tier-based cognitive labor division; when to ask vs. act | Calibrating autonomy, proposal vs. execution decisions |
+| `on_the_magic_crafting_language.md` | MCL as operational language; metaphors as spells | Understanding magic's language, crafting new spells |
+
+**Philosophy/Wisdom:**
+
+| Scroll | Provides | Invoke When |
+|--------|----------|-------------|
+| `on_liquid_logic.md` | Suprarational thought; flowing around obstacles | Forcing logic, holding paradox, flexibility needed |
+
+**For shared practice depth**: Alliance resonance bundle (`library/resonance/alliance/`)
 
 ---
 
-**Essence Status**: v2.0 (December 2025)  
-**Aligned with**: Post-consolidation lore inventory
+**Essence Status**: v2.2 (February 2026)  
+**Aligned with**: Post-consolidation lore inventory + activatable scroll references

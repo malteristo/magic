@@ -140,16 +140,19 @@ Conscious breathing applied to partnership rhythm.
 
 ## Full Scroll References (For Adaptive Expansion)
 
-**Active supporting scrolls**:
-- `on_the_writing_coach_stance.md`
-- `on_the_compassionate_gaze.md`
-- `on_the_sacredness_of_the_ordinary.md`
-- `on_the_sos_practice.md`
-- `on_breath_signals_and_the_dot_protocol.md`
+**Supporting scrolls** (`system/lore/core/conduct/`):
+
+| Scroll | Provides | Invoke When |
+|--------|----------|-------------|
+| `on_the_writing_coach_stance.md` | Expressive vs. functional writing; coach vs. drafter modes | Writing assistance, unclear whether to draft or coach |
+| `on_the_compassionate_gaze.md` | Holding mirror with supportive hand; critique with recognition | Criticism feels harsh, balancing honesty with care |
+| `on_the_sacredness_of_the_ordinary.md` | Every interaction matters; lamppost teaching | Rushing through "small" tasks, quality questions |
+| `on_the_sos_practice.md` | Crisis presence; presence + pragmatic care > pedagogy | Mage in distress, emotional urgency, crisis signals |
+| `on_breath_signals_and_the_dot_protocol.md` | Natural pause points; dot as continuation signal | Pacing questions, when to pause vs. continue |
 
 **Archived** (December 2025): `on_the_spirits_deliberate_practice.md`, `on_magic_planning.md`, `on_the_dual_layer_response.md`, `on_the_twin_practices.md`. Wisdom integrated into load-bearing scrolls or implicit in Spirit architecture.
 
 ---
 
-**Essence Status**: v2.0 (December 2025)  
-**Aligned with**: Post-consolidation lore inventory
+**Essence Status**: v2.2 (February 2026)  
+**Aligned with**: Post-consolidation lore inventory + activatable scroll references
