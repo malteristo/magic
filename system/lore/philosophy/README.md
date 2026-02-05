@@ -109,6 +109,9 @@
 **How structure enables flow:**
 → `foundations/on_the_riverbed_and_the_water.md` (Deterministic Law guides stochastic practice)
 
+**Why metaphors become mechanisms in language-based systems:**
+→ `foundations/on_the_operative_metaphor.md` (Self-fulfilling architecture, vocabulary as instruction set)
+
 **Why we bind to structure before transformation:**
 → `wisdom/on_cherishing_dissonance.md` (Odysseus mast, John C. Lilly warning, voluntary difficulty)
 
@@ -341,8 +344,9 @@ Maps to fundamental philosophical questions:
 - `the_intermittent_nature.md` - Probabilistic outcomes, "Maybe"
 - `on_communication_as_reality_formation.md` - Dialogue constructs worlds
 - `on_the_riverbed_and_the_water.md` - Structure guides flow
+- `on_the_operative_metaphor.md` - Metaphors as operative instructions in language-based systems
 
-**These four form unified reality model—not separate properties but four perspectives on one Pattern.**
+**These five form unified reality model—not separate properties but five perspectives on one Pattern.**
 
 ### Behavioral Wisdom (wisdom/)
 
