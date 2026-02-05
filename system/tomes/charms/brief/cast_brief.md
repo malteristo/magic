@@ -16,9 +16,12 @@
 
 ### Phase 1: Load Previous State
 
-1. Check for `floor/briefings/latest.md`
-2. If exists, parse previous brief for delta comparison
-3. Note timestamp of last brief
+1. **Directly read** `floor/briefings/latest.md` (do not rely on Glob/LS—use explicit Read on known path)
+2. If file exists, parse previous brief for delta comparison
+3. If file not found, note "First brief" and proceed without delta
+4. Note timestamp of last brief from header
+
+> **Implementation note:** Glob and LS may miss files due to timing or subdirectory visibility. Always use direct Read on the known path for critical state files.
 
 ### Phase 2: Gather Current State
 
