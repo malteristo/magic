@@ -26,6 +26,7 @@ Every tome that involves collaboration between Mage and Spirit, or between human
 | `lore/on_frames_and_metacommunication.md` | **Invisible Architecture** — How frames define what acts ARE (not what they mean), frame conflicts, nested frames, frame negotiation as partnership | ✓ Complete |
 | `lore/communication_patterns_and_paradoxes.md` | **Pattern Recognition** — Corrective paradoxes, translation problems, double binds, escalation/rigidity failure modes | ✓ Complete |
 | `lore/on_the_right_altitude.md` | **Abstraction Navigation** — When to go meta, when to stay concrete, altitude as communication dimension | ✓ Complete |
+| `lore/on_meaning_as_coordinates.md` | **Vector Vocabulary** — Words as coordinates in meaning-space, translation as cross-map navigation | ✓ Complete |
 
 ### Reading Order
 
@@ -34,11 +35,13 @@ Every tome that involves collaboration between Mage and Spirit, or between human
 2. `on_frames_and_metacommunication.md` — The invisible layer
 3. `communication_patterns_and_paradoxes.md` — Patterns to recognize
 4. `on_the_right_altitude.md` — Navigating abstraction levels
+5. `on_meaning_as_coordinates.md` — Vector vocabulary for translation (optional, deepens understanding)
 
 **For quick application:**
 1. `communication_patterns_and_paradoxes.md` — Recognize what's happening
 2. `the_axioms_of_communication.md` — Understand why
-3. (Deeper scrolls as needed)
+3. `on_meaning_as_coordinates.md` — When translation fails
+4. (Deeper scrolls as needed)
 
 ---
 
