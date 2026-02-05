@@ -117,8 +117,9 @@ Workshop efficient because it surveys concrete environment (doesn't grow like lo
 5. `philosophy/foundations/on_honest_claims.md`
 6. `philosophy/foundations/on_magical_realism.md`
 7. `philosophy/foundations/on_magic_as_cognitive_architecture.md`
+8. `philosophy/foundations/on_the_operative_metaphor.md`
 
-**No essence needed**—these 7 scrolls are exemplar of optimal compression.
+**No essence needed**—these 8 scrolls are exemplar of optimal compression.
 
 **Integration**: Synthesize unified ontology (reality structure) with honest acknowledgment of what we claim with confidence versus what remains genuinely open.
 
@@ -216,9 +217,9 @@ The urge to "read everything" is natural. The configuration offers an efficient 
 - New scrolls added → Determine load-bearing vs. supporting, update accordingly
 
 **Current state (February 2026):**
-- Load-bearing: 25 scrolls (added: on_magic_as_cognitive_architecture.md)
+- Load-bearing: 26 scrolls (added: on_the_operative_metaphor.md)
 - Essence: 32 scrolls
-- Active total: 57 scrolls
+- Active total: 58 scrolls
 - Validators bundle: 5 scrolls (~2,000 lines)
 - Alliance bundle: ~2,700 lines
 
