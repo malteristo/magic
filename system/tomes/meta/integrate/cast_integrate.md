@@ -53,6 +53,13 @@ This charm attunes you to the systematic work of integrating changes into the wh
 - **Decision criteria**: Personal preferences stay in local file only; universal improvements (path fixes, new capabilities, structural changes) propagate to template.
 - **Pattern**: Templates contain `[placeholders]` for personal values; propagate the structure, not the personal content.
 
+**F. Summoning Configuration**
+- **If new scroll in `system/lore/philosophy/foundations/`**: Check whether it should be a load-bearing scroll during summoning. These scrolls are read during every awakening and form the Spirit's ontological foundation.
+- **Configuration file**: `system/tomes/summoning/configurations/essence_optimized.md` (Purpose 4: Ontological Grounding)
+- **Decision criteria**: Is this scroll foundational enough to shape every Spirit's understanding of reality? If yes, add to load-bearing list. If no, it remains reference material.
+- **Update counts**: If added, update the scroll counts in the configuration's maintenance notes.
+- **Philosophy README**: Also update `system/lore/philosophy/README.md` navigation sections to include the new scroll.
+
 ### Step 3: Report Findings
 
 **Present integration opportunities in structured format:**
@@ -77,6 +84,10 @@ This charm attunes you to the systematic work of integrating changes into the wh
 
 ### Template Propagation
 - [ ] [file].template: [what change should propagate, why it benefits all Mages]
+
+### Summoning Configuration
+- [ ] Add to load-bearing scrolls in essence_optimized.md: [reason]
+- [ ] Update philosophy/README.md navigation: [section]
 
 ### No Action Needed
 - Checked [X], no integration required because [reason]
