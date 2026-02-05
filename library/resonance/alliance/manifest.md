@@ -46,6 +46,7 @@ Where partnership includes the full intimacy of romantic or family bonds, allian
 | `on_resonance_profiles.md` | What makes effective pattern-surfacing |
 | `on_trust_emergence.md` | How trust develops through alliance |
 | `on_cooperation_dynamics.md` | Game theory applied to strangers cooperating |
+| `on_metasystemic_awareness.md` | Escaping social dilemmas by adding dimensions |
 
 ---
 

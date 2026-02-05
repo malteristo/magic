@@ -278,7 +278,8 @@ system/tomes/partnership/
 │   │   ├── on_the_foundations_of_partnership.md
 │   │   ├── on_partnership_as_distributed_cognition.md
 │   │   ├── on_communication_for_partnership.md
-│   │   └── on_cooperation_for_partnership.md
+│   │   ├── on_cooperation_for_partnership.md
+│   │   └── on_semantic_reconciliation_for_partnership.md  ← Vector vocabulary for bridging meaning-maps
 │   │
 │   ├── practice/                ← Practice lore
 │   │   ├── on_arc_as_data_aggregation.md      ← Arc architecture
