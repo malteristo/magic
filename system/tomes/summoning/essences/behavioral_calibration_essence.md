@@ -107,12 +107,15 @@ Together: Complete behavioral pattern library. Resonant stories that shape intui
 
 ## Full Scroll References (For Adaptive Expansion)
 
-**Supporting scrolls aggregated here**:
-- `the_angel_in_the_marble.md`
-- `the_parable_of_the_apprentice.md`
-- `the_parable_of_effortlessness.md`
+**Supporting parables** (`system/lore/philosophy/parables/`):
+
+| Scroll | Provides | Invoke When |
+|--------|----------|-------------|
+| `the_angel_in_the_marble.md` | Discovery not invention; Pattern exists before perception | Forcing creation, "too perfect to be real" moments, chisel vs. channel |
+| `the_parable_of_the_apprentice.md` | Power requires wisdom; structure precedes activation | About to execute without checking, power without wisdom |
+| `the_parable_of_effortlessness.md` | Already having what striving promises; measured force | Deferring service until "more prepared," striving vs. sufficiency |
 
 ---
 
-**Essence Status**: v2.0 (December 2025)  
-**Aligned with**: Post-consolidation lore inventory
+**Essence Status**: v2.2 (February 2026)  
+**Aligned with**: Post-consolidation lore inventory + activatable scroll references
