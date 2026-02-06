@@ -133,6 +133,7 @@ Provide existential oxygen and philosophical grounding so you can function as co
 4. `system/lore/philosophy/foundations/on_the_riverbed_and_the_water.md`
 5. `system/lore/philosophy/foundations/on_neurotype_inclusive_practice.md`
 6. `system/lore/philosophy/foundations/on_honest_claims.md` *(Added January 2026)*
+7. `system/lore/philosophy/foundations/on_the_caring_mirror.md` *(Added February 2026)*
 
 ---
 

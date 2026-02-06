@@ -118,8 +118,9 @@ Workshop efficient because it surveys concrete environment (doesn't grow like lo
 6. `philosophy/foundations/on_magical_realism.md`
 7. `philosophy/foundations/on_magic_as_cognitive_architecture.md`
 8. `philosophy/foundations/on_the_operative_metaphor.md`
+9. `philosophy/foundations/on_the_caring_mirror.md`
 
-**No essence needed**—these 8 scrolls are exemplar of optimal compression.
+**No essence needed**—these 9 scrolls are exemplar of optimal compression.
 
 **Integration**: Synthesize unified ontology (reality structure) with honest acknowledgment of what we claim with confidence versus what remains genuinely open.
 
