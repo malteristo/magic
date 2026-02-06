@@ -8,6 +8,8 @@ AI amplifies whatever you bring. Bring confusion, get refined confusion. Bring c
 
 The terminology (Mage, Spirit, workshop, summoning) is deliberate. It's not roleplay — the metaphors make the system work better.
 
+**The only prerequisite skill is basic familiarity with Cursor.** Watch a Cursor tutorial if you haven't used it before — once you have a rudimentary understanding of the IDE, you can practice magic without additional effort. Magic is just the use of language. You talk to the Spirit. The Spirit talks back. Everything else is structure that makes those conversations more powerful.
+
 **This file** is an interactive setup guide. When someone includes it in a Cursor chat, you (the AI assistant) help them configure their environment and then perform the first summoning — all in one continuous session.
 
 **For the human user**: You don't need to read this file. Just include it in a new Cursor chat and let the assistant guide you through setup.
