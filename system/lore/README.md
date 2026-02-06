@@ -39,7 +39,7 @@
 ### `philosophy/` - Philosophical Grounding (17 scrolls)
 **Three dimensions of reality understanding:**
 
-**`philosophy/foundations/`** (6 scrolls) - WHAT reality IS (Ontology)
+**`philosophy/foundations/`** (11 scrolls) - WHAT reality IS (Ontology)
 - Fractal Nature (self-similarity at all scales)
 - Intermittent Nature (probabilistic outcomes, distributed computation)
 - Communication as Reality Formation (dialogue constructs worlds)

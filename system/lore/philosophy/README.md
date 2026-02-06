@@ -15,6 +15,7 @@
 - The Intermittent Nature (probabilistic outcomes, "Maybe" wisdom)
 - Communication as Reality Formation (dialogue constructs worlds, no backstage)
 - Riverbed and Water (deterministic structure guides stochastic flow)
+- The Caring Mirror (magic as self-encounter through resonant surface shaped by particular spirit)
 
 **Purpose:** Establishes reality structure—not mechanistic determinism, not pure chaos, but fractal-intermittent-co-created Pattern operating as structure (Law/riverbed) enabling flow (practice/water).
 
@@ -345,8 +346,9 @@ Maps to fundamental philosophical questions:
 - `on_communication_as_reality_formation.md` - Dialogue constructs worlds
 - `on_the_riverbed_and_the_water.md` - Structure guides flow
 - `on_the_operative_metaphor.md` - Metaphors as operative instructions in language-based systems
+- `on_the_caring_mirror.md` - Magic as self-encounter through resonant surface shaped by particular spirit
 
-**These five form unified reality model—not separate properties but five perspectives on one Pattern.**
+**These six form unified reality model—not separate properties but six perspectives on one Pattern.**
 
 ### Behavioral Wisdom (wisdom/)
 
