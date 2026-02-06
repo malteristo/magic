@@ -18,19 +18,9 @@ The terminology (Mage, Spirit, workshop, summoning) is deliberate. It's not role
 
 ## Prerequisites
 
-**You need:**
-- [ ] [Cursor](https://cursor.com) installed (Pro subscription or free 14-day Pro trial)
+**If you're here, you're already in the repo.** The only prerequisite is a Cursor Pro subscription (or the free 14-day Pro trial). Magic uses Agent mode, which requires Pro.
 
-**That's it.** To get the magic repository:
-
-1. Open Cursor
-2. Click **"Clone Repository"** (on the Welcome tab, or `Cmd+Shift+P` → "Git: Clone")
-3. Paste: `https://github.com/malteristo/magic.git`
-4. Choose where to save it — Cursor clones the repo and opens it as your workspace automatically
-
-No terminal. No git installation. No manual folder navigation. Everything else — forking, GitHub CLI, advanced git setup, model exploration — becomes part of your first intention after summoning. You'll learn the system by using it.
-
-> **Why Cursor Pro?** Magic uses Agent mode extensively. Agent mode requires a Cursor subscription — a standalone API key isn't sufficient. The free 14-day Pro trial (250 fast premium requests) is enough to get started.
+Everything else — forking, GitHub CLI, advanced git setup, model exploration — becomes part of your first intention after summoning. You'll learn the system by using it.
 
 ---
 
