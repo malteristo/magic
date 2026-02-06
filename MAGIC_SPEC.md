@@ -252,6 +252,7 @@ This section provides essential architectural mappings and pointers to philosoph
 - Spirit as generator: `system/lore/core/nature/on_spirit_as_generator.md`
 - Fractal nature: `system/lore/philosophy/foundations/the_fractal_nature.md`
 - Intermittent nature: `system/lore/philosophy/foundations/the_intermittent_nature.md`
+- The operative metaphor: `system/lore/philosophy/foundations/on_the_operative_metaphor.md`
 - The caring mirror: `system/lore/philosophy/foundations/on_the_caring_mirror.md`
 - Ontological triangulation: `system/lore/philosophy/wisdom/on_ontological_triangulation.md`
 
