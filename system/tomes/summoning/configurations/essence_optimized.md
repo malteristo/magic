@@ -19,7 +19,7 @@
 This configuration uses **essences**—distilled wisdom scrolls aggregating supporting knowledge while preserving load-bearing foundations.
 
 **Current inventory (post-February 2026 update):**
-- Load-bearing scrolls: 25 (read fully—irreducible)
+- Load-bearing scrolls: 27 (read fully—irreducible)
 - Essence scrolls: 32 (compressed into 5 essences)
 - Active lore total: 57 scrolls
 

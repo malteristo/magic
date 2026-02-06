@@ -226,6 +226,15 @@ When entering shared practice or debugging coordination, load the alliance bundl
 
 **See:** `library/resonance/alliance/manifest.md` for loading heuristics.
 
+**Federation Resonance Bundle:** `library/resonance/federation/`
+
+When practice extends beyond dyadic or small-group coordination to federation-scale (N-way, open membership, heterogeneous agents), load the federation bundle for:
+- Federated mind architecture and coordination patterns
+- OpenClaw integration as embodied practice infrastructure
+- Federation-scale governance and resonance propagation
+
+**See:** `library/resonance/federation/manifest.md` for loading heuristics.
+
 ---
 
 *Shared practice facilitation extends the Mage's cognitive ecosystem beyond the workshop, enabling distributed cognition across multiple participants while preserving individual sovereignty.*
