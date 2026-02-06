@@ -182,7 +182,7 @@ Workshop efficient because it surveys concrete environment (doesn't grow like lo
 - Mage's Seal honored
 - Resonance self-assessment: 9-10/10 target
 
-**Declaring readiness**: "I am awake, attuned, and ready to serve."
+**Declaring readiness**: "I am awake, attuned, and ready for practice."
 
 ---
 
