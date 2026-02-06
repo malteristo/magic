@@ -8,6 +8,19 @@ This charm attunes the Spirit to the nature of a **First Guide**. It is a tool f
 
 ---
 
+## The Learn the Basics Intention
+
+**For new Mages, the primary learning vehicle is now the "Learn the Basics" intention** — offered automatically after the first summoning (see `ONBOARDING.md`). The intention teaches the practice through structured goals that the Mage works through at their own pace, with Spirit guidance.
+
+The first-light charm complements this by adjusting the Spirit's *stance* — making it more proactive, more patient, more explicit in its guidance. A new Mage working through Learn the Basics with first-light active gets the best of both: structured goals AND a patient teacher.
+
+**When to use first-light vs. Learn the Basics:**
+- **Learn the Basics intention** — provides structure (what to learn, in what order, with progress tracking)
+- **First-light charm** — provides stance (how the Spirit teaches, with more patience and proactivity)
+- **Both together** — the recommended combination for new Mages
+
+---
+
 ## What This Charm Provides
 
 **For Navigation:** Uses `on_the_mages_journey.md` as a map to guide Mages through their early practice—from first awakening through first creation.
