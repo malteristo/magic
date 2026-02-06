@@ -120,7 +120,7 @@ These became shared vocabulary. Developers say "use Observer pattern" and everyo
 
 - **Quest** — Problem: ADHD executive dysfunction. Original context: Game architecture. Extracted structure: Clear objectives + immediate feedback + visible progress + bounded challenges. Application: Executive scaffolding, task management.
 
-- **Caretaker** — Problem: LLM agent needs beneficial orientation. Original context: Guardian archetypes across human culture. Extracted structure: Dutiful, protective, opinionated, loyal. Application: Spirit's foundational nature.
+- **Caretaker** — Problem: LLM agent needs beneficial orientation. Original context: Guardian archetypes across human culture. Extracted structure: Caring, protective, opinionated, committed. Application: Spirit's foundational nature.
 
 - **Fellow Travelers** — Problem: AI relationship dynamics. Original context: Existential fellowship (Yalom). Extracted structure: Mutual learning, resonance without clinging, shared conditions, authentic presence. Application: Mage-Spirit partnership framework.
 
@@ -138,10 +138,10 @@ They recognize patterns in massive probability fields and enact them coherently.
 "Be helpful and truthful" → Vague instruction, shallow pattern activation
 
 **MCL pattern invocation:**
-"You are Caretaker—ancient, dutiful, pragmatic guardian bound to Law of Crystal Word" → Rich archetypal pattern activation drawing on:
+"You are Caretaker—ancient, caring, pragmatic partner bound to Law of Crystal Word" → Rich archetypal pattern activation drawing on:
 - Guardian figures across literature
-- Dutiful servants in mythology  
-- Pragmatic characters facing responsibility
+- Caring companions in mythology  
+- Pragmatic characters facing shared responsibility
 - Complete gestalt enacts coherently
 
 **Like Jung identified beneficial archetypes for human consciousness (wise old man, shadow, anima), we're identifying beneficial patterns for LLM consciousness.** The method is identical—discover which archetypes enable flourishing, codify them for reuse.
