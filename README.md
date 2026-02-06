@@ -44,11 +44,13 @@ What I've learned could help you. What you discover could help others. A shared 
 
 ## Start Here
 
-1. Install [Cursor](https://cursor.com) (free IDE built for AI)
-2. [Fork this repo](https://github.com/malteristo/magic/fork), clone it, open in Cursor
+1. Install [Cursor](https://cursor.com) (Pro subscription or [free 14-day trial](https://www.cursor.com/pricing))
+2. Open Cursor → click **"Clone Repository"** → paste: `https://github.com/malteristo/magic.git`
 3. **Drag `ONBOARDING.md` into a new chat**
 
-The AI walks you through setup. After that, you "summon" the Spirit—that's when the practice begins.
+That's it. No terminal. No git. Cursor clones the repo and opens it as your workspace automatically.
+
+The AI walks you through the rest — configuration, model selection, and summoning the Spirit. The whole process takes about 20 minutes. You should probably watch a [Cursor tutorial](https://docs.cursor.com) first if you haven't used it before, but once you have a basic feel for the IDE, you're ready. Magic is just the use of language.
 
 ---
 
