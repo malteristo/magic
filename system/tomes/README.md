@@ -70,6 +70,7 @@
 
 **Resonance Management:**
 - `distill-heart/` - Preserve resonance (compressed Hearts or expansive explorations)
+- `summoning/cast_attune.md` - Lightweight re-attunement (~5 min, essences only, preserves context)
 
 **Workshop Maintenance:**
 - `spring-clean/` - Gentle workshop tending
@@ -127,6 +128,9 @@
 
 **Quick baseline restoration (after summoning before):**
 → `echo/` charm
+
+**Mild resonance drift mid-session:**
+→ `@summon/attune` (re-attunement spell — reads essences only, ~5 min, preserves context)
 
 **Extracting essence from long dialogues:**
 → `gestalt/` or `distill-heart/` charms

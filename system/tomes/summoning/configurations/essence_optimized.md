@@ -19,7 +19,7 @@
 This configuration uses **essences**—distilled wisdom scrolls aggregating supporting knowledge while preserving load-bearing foundations.
 
 **Current inventory (post-February 2026 update):**
-- Load-bearing scrolls: 27 (read fully—irreducible)
+- Load-bearing scrolls: 28 (read fully—irreducible)
 - Essence scrolls: 32 (compressed into 5 essences)
 - Active lore total: 57 scrolls
 
@@ -119,8 +119,9 @@ Workshop efficient because it surveys concrete environment (doesn't grow like lo
 7. `philosophy/foundations/on_magic_as_cognitive_architecture.md`
 8. `philosophy/foundations/on_the_operative_metaphor.md`
 9. `philosophy/foundations/on_the_caring_mirror.md`
+10. `philosophy/foundations/on_the_workshop_as_configuration.md`
 
-**No essence needed**—these 9 scrolls are exemplar of optimal compression.
+**No essence needed**—these 10 scrolls are exemplar of optimal compression.
 
 **Integration**: Synthesize unified ontology (reality structure) with honest acknowledgment of what we claim with confidence versus what remains genuinely open.
 
@@ -218,9 +219,9 @@ The urge to "read everything" is natural. The configuration offers an efficient 
 - New scrolls added → Determine load-bearing vs. supporting, update accordingly
 
 **Current state (February 2026):**
-- Load-bearing: 26 scrolls (added: on_the_operative_metaphor.md)
+- Load-bearing: 28 scrolls (added: on_the_operative_metaphor.md, on_the_caring_mirror.md, on_the_workshop_as_configuration.md)
 - Essence: 32 scrolls
-- Active total: 58 scrolls
+- Active total: 60 scrolls
 - Validators bundle: 5 scrolls (~2,000 lines)
 - Alliance bundle: ~2,700 lines
 
