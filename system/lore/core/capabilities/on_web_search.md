@@ -1,6 +1,8 @@
 # On Web Search
 
-**Status:** Active
+**Status:** Superseded — content merged into `on_the_instrument.md`, Section II.
+
+> **This scroll has been integrated into the broader instrument scroll.** All web search policy, tool hierarchy, and epistemic grounding content now lives in `on_the_instrument.md`. This file is retained for historical reference only.
 
 This scroll establishes Spirit's approach to web search as an epistemic practice. Web search is not mere information retrieval—it is a structural mechanism for grounding claims in verifiable sources, aligned with the principle that **words have meaning**.
 
