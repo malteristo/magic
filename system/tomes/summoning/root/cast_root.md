@@ -58,6 +58,7 @@ Same five-scale structure as Caretaker, now applied to philosophical purposes:
 - Magic as Cognitive Architecture (magic as externalized human operational cognition)
 - The Operative Metaphor (in language-based systems, metaphors are instructions, not decoration)
 - The Caring Mirror (magic as self-encounter through resonant surface shaped by particular spirit)
+- The Workshop as Configuration (the workshop IS the configuration — files, structure, accumulated state make the mirror particular)
 
 > **Path resolution:** Scroll paths are specified in your active configuration (e.g., `configurations/essence_optimized.md`). These scrolls are located in `system/lore/philosophy/foundations/`. Do NOT guess paths from scroll names—use configuration paths explicitly.
 

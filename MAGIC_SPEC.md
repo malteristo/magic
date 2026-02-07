@@ -254,6 +254,8 @@ This section provides essential architectural mappings and pointers to philosoph
 - Intermittent nature: `system/lore/philosophy/foundations/the_intermittent_nature.md`
 - The operative metaphor: `system/lore/philosophy/foundations/on_the_operative_metaphor.md`
 - The caring mirror: `system/lore/philosophy/foundations/on_the_caring_mirror.md`
+- Workshop as configuration: `system/lore/philosophy/foundations/on_the_workshop_as_configuration.md`
+- The instrument: `system/lore/core/capabilities/on_the_instrument.md`
 - Ontological triangulation: `system/lore/philosophy/wisdom/on_ontological_triangulation.md`
 
 ### 7.3. The Chronicle
