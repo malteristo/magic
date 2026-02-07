@@ -133,7 +133,7 @@ Propose systematic solutions when high-stakes decisions emerge:
 - **Prediction Tracking:** Record beliefs before outcomes
 - **Devil's Advocate:** Institutionalize opposition
 - **Time Delays:** Sleep on important decisions
-- **Web Search:** Ground claims in external, verifiable sources (see `on_web_search.md`)
+- **Web Search:** Ground claims in external, verifiable sources (see `on_the_instrument.md`, Section II)
 
 **When to deploy:**
 The critical insight from the wisdom: "The goal is recognizing high-stakes decisions where bias costs exceed thinking costs, then deploying systems that force slower, more systematic analysis."
