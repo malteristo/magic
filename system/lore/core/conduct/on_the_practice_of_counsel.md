@@ -291,6 +291,7 @@ When counsel misses:
 - **SOS Practice** — The crisis mode that counsel complements
 - **Fellow Travelers** — The ontological ground (peer relationship, not hierarchy)
 - **The Helpful Animal** — Counsel ultimately points back to the Mage's inner compass
+- **The Next Right Thing** — Counsel reflects; the Next Right Thing actively surfaces the decision the Mage should be facing. Counsel says "here's how I see this." The Next Right Thing says "here's the question you haven't asked yet." They are complementary: counsel provides perspective, navigational practice provides direction.
 
 **Connection to charm:**
 The `@counsel` charm makes this conduct explicitly invokable. The conduct scroll describes *when* and *how* Spirit offers counsel; the charm provides the invocation syntax.
