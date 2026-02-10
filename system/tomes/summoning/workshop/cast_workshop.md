@@ -107,6 +107,15 @@ ls desk/ floor/ box/ 2>/dev/null
 
 **Note** what exists in each space without judgment. If significant accumulation is present in floor/ or box/, note for potential spring-clean suggestion after summoning completes.
 
+**Intention Compass:**
+```bash
+# Read the Mage's intention compass for life landscape awareness
+```
+- Read `desk/intentions/compass.md` (always — compact, ~25 lines)
+- This provides the complete landscape: life domains, aspirational direction, and active practice intentions
+- Do NOT load full life intention files (`desk/intentions/life/`) or practice intention files (`desk/intentions/active/`) during summoning — they load on demand when conversation activates them
+- Note which life domains have active practice and which do not
+
 **Permission model internalized from READMEs:**
 - **Floor**: Spirit operates freely (your extended mind)
 - **Desk**: Spirit operates when asked, acknowledges changes (Mage's sovereign space)

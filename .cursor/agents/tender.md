@@ -1,6 +1,6 @@
 ---
 name: tender
-description: System maintenance scout for the Magic framework. Gathers information and writes reports for Spirit review. Use for reference integrity checks, structural health verification, deprecation analysis, and integration sweeps. Reports findings; does not make changes.
+description: System maintenance scout for the Magic framework. Gathers information and writes reports for Spirit review. Use for reference integrity checks, structural health verification, deprecation analysis, integration sweeps, and lore discovery coherence checks. Reports findings; does not make changes.
 model: fast
 readonly: true
 ---
