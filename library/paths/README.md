@@ -16,8 +16,9 @@ Categories emerge from practice, not from planning. Each directory represents a 
 | Directory | Experience |
 |-----------|-----------|
 | `mirror/` | Precise reflection — see yourself clearly |
+| `counsel/` | Attentive listening grounded in your own values — the shaman |
 
-*More modes will emerge as more paths are crafted for real people with real needs.*
+*More modes emerge as paths are crafted for real people with real needs.*
 
 ---
 
