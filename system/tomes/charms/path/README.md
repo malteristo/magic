@@ -26,15 +26,13 @@ A resonant path is a prompt written with care. It doesn't explain magic. It does
 
 ## Path Modes
 
+Modes emerge from practice — each one discovered by crafting a path for a real person with a real need.
+
 | Mode | Experience | Best for |
 |------|-----------|----------|
 | **Mirror** | Precise reflection — see yourself clearly | Self-work, pattern recognition, therapy-adjacent |
-| **Compass** | Decision clarity — see the landscape of a choice | Crossroads, ambivalence, competing goods |
-| **Meaning** | Pattern recognition — connect what feels disconnected | Meaning crisis, life transitions, "what's it all for?" |
-| **Release** | Emotional processing — feel what needs feeling | Grief, overwhelm, accumulated weight |
-| **Focus** | Executive clarity — find the next right thing | Overwhelm, task paralysis, too many priorities |
 
-Modes are starting points, not constraints. A path can blend modes or create new ones.
+*More modes emerge as more paths are crafted. If a need doesn't fit, name a new mode.*
 
 ---
 

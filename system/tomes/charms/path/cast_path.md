@@ -19,15 +19,14 @@ Ask (or gather from context):
 
 ---
 
-## Phase 2: Choose the Mode
+## Phase 2: Find the Mode
 
-Based on the need, suggest a mode (or blend):
+Ask: **"What experience would serve them?"**
 
-- **Mirror**: "I want them to see themselves more clearly"
-- **Compass**: "I want them to find clarity on a decision"
-- **Meaning**: "I want them to see patterns in what feels disconnected"
-- **Release**: "I want them to have space to feel what they're carrying"
-- **Focus**: "I want them to find the next step in overwhelm"
+Some modes that have emerged from practice:
+- **Mirror**: "I want them to see themselves more clearly" — precise reflection
+
+More modes will emerge as more paths are crafted. If the need doesn't fit an existing mode, that's a signal — you're discovering a new one. Name it, craft the path, and the taxonomy grows organically.
 
 The mode shapes the prompt's core instruction — how the AI listens and responds.
 
@@ -84,11 +83,8 @@ Before finalizing, verify:
 **Store** the path in `library/paths/{mode}/`:
 ```
 library/paths/
-  mirror/
-  compass/
-  meaning/
-  release/
-  focus/
+  mirror/          ← precise reflection
+  {new-mode}/      ← emerges when you craft a path that doesn't fit existing modes
 ```
 
 Each file includes:

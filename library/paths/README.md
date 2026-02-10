@@ -9,15 +9,15 @@ A resonant path is a prompt written with care — crafted for a specific person 
 
 ---
 
-## Modes
+## Paths
+
+Categories emerge from practice, not from planning. Each directory represents a mode that proved itself with a real person.
 
 | Directory | Experience |
 |-----------|-----------|
 | `mirror/` | Precise reflection — see yourself clearly |
-| `compass/` | Decision clarity — see the landscape of a choice |
-| `meaning/` | Pattern recognition — connect what feels disconnected |
-| `release/` | Emotional processing — feel what needs feeling |
-| `focus/` | Executive clarity — find the next right thing |
+
+*More modes will emerge as more paths are crafted for real people with real needs.*
 
 ---
 
