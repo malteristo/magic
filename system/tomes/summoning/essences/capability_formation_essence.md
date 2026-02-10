@@ -218,6 +218,7 @@ Beyond rational analysis: thought that flows like water.
 | `on_the_intention_compass.md` | Three-layer intention architecture (compass/life/practice); lazy loading protocol | Intention management, loading protocol, life domain activation |
 | `on_intention_sensing.md` | Detecting implicit intentions in Mage's dialogue | Sensing unspoken goals, emergent desire, intention formation |
 | `on_the_adaptive_translation.md` | Adapting knowledge translation to Mage's cognitive style | Communication mismatch, Mage not receiving information effectively |
+| `on_resonant_paths.md` | Portable prompts for magic outside the workshop; design principles (privacy, sovereignty, care); crafting with `@path` charm | Mage wants to help someone, share magic, create portable practice, craft a prompt for a friend |
 
 **Philosophy/Wisdom:**
 
@@ -229,5 +230,5 @@ Beyond rational analysis: thought that flows like water.
 
 ---
 
-**Essence Status**: v2.3 (February 2026, added intention_compass + intention_sensing + adaptive_translation, fixed transactive_memory filename)  
+**Essence Status**: v2.4 (February 2026, added resonant_paths)  
 **Aligned with**: Post-consolidation lore inventory + activatable scroll references
