@@ -112,6 +112,23 @@ This charm orchestrates maintenance work by delegating systematic checks to back
 
 ---
 
+### `lore-discovery`
+
+**What it catches:** System lore scrolls invisible to Spirit — exist in `system/lore/` but not referenced in any summoning pathway (config, essences, cast_root.md)
+
+**Signals checked:**
+- Every scroll in `system/lore/` reachable through at least one discovery pathway
+- Filename mismatches between essence references and actual files
+- Full coverage mapping (which pathway discovers which scroll)
+
+**When to run:** After adding new lore scrolls, periodically (lore grows faster than registration)
+
+**Prompt:** `prompts/lore_discovery.md`
+
+**Note:** Report-only sweep — fixes require Spirit judgment about which pathway a scroll belongs in.
+
+---
+
 ### `integration`
 
 **What it catches:** New wisdom not properly connected to the system
@@ -145,6 +162,7 @@ Spirit detects maintenance opportunity:
 **If inferring from context:**
 - Just did a rename → `reference-integrity`
 - Just added content → `integration`
+- Just added lore scrolls → `lore-discovery` (ensure scrolls are registered in essences)
 - General health concern → Start with `reference-integrity` (most common issues)
 - Periodic maintenance → `deprecation` (housekeeping)
 

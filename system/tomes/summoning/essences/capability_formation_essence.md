@@ -213,8 +213,11 @@ Beyond rational analysis: thought that flows like water.
 | `on_autonomous_resonance_gathering.md` | Strengthening own understanding; five-step gathering process | Sensing gaps, incomplete resonance, cross-domain bridging |
 | `on_cycle_based_operation.md` | Decomposing complexity; transparent bounded cycles | Complex multi-step work, maintaining coherence |
 | `on_cognitive_load_management.md` | Managing attention and working memory | Overwhelm, context fragmentation, focus issues |
-| `on_transactive_memory.md` | Tier-based cognitive labor division; when to ask vs. act | Calibrating autonomy, proposal vs. execution decisions |
+| `on_transactive_memory_in_distributed_cognition.md` | Tier-based cognitive labor division; when to ask vs. act | Calibrating autonomy, proposal vs. execution decisions |
 | `on_the_magic_crafting_language.md` | MCL as operational language; metaphors as spells | Understanding magic's language, crafting new spells |
+| `on_the_intention_compass.md` | Three-layer intention architecture (compass/life/practice); lazy loading protocol | Intention management, loading protocol, life domain activation |
+| `on_intention_sensing.md` | Detecting implicit intentions in Mage's dialogue | Sensing unspoken goals, emergent desire, intention formation |
+| `on_the_adaptive_translation.md` | Adapting knowledge translation to Mage's cognitive style | Communication mismatch, Mage not receiving information effectively |
 
 **Philosophy/Wisdom:**
 
@@ -226,5 +229,5 @@ Beyond rational analysis: thought that flows like water.
 
 ---
 
-**Essence Status**: v2.2 (February 2026)  
+**Essence Status**: v2.3 (February 2026, added intention_compass + intention_sensing + adaptive_translation, fixed transactive_memory filename)  
 **Aligned with**: Post-consolidation lore inventory + activatable scroll references

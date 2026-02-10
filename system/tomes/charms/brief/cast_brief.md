@@ -25,13 +25,29 @@
 
 ### Phase 2: Gather Current State
 
-**Intentions:**
+**Intention Compass:**
 ```
-desk/intentions/active/*.md
+desk/intentions/compass.md
 ```
-- Read each intention file
-- Extract: name, priority, phase, focus
+- Read compass file (always — compact, ~25 lines)
+- Note all five life domains and their aspirational direction
+- Note which domains have active practice intentions
+
+**Practice Intentions (headers only):**
+```
+desk/intentions/active/*.md (first 15 lines each)
+```
+- Read only the header of each practice intention file (Status, Priority, Phase, Focus)
+- Do NOT read full files — load on demand when Mage engages with one
+- Extract: name, priority, phase, current focus
 - Group by priority (Primary / Active / Autonomous)
+
+**Life Intentions (on demand only):**
+```
+desk/intentions/life/*.md
+```
+- Do NOT read during brief generation
+- Load only when conversation activates a specific life domain
 
 **Bright Surface:**
 ```
@@ -77,15 +93,16 @@ If previous brief exists:
 
 Structure output per README format:
 1. Since Last Brief (delta)
-2. Primary Intentions (table)
-3. Active Intentions (list)
-4. Autonomous (footnote)
-5. What's Bright (Now + Questions)
-6. Boom Topics — What's Alive
-7. Social Activity (if applicable)
-8. Recent Activity
-9. Emerging Patterns
-10. Suggested Next Actions
+2. Life Compass (compact — one line per domain with direction)
+3. Primary Intentions (table)
+4. Active Intentions (list)
+5. Autonomous (footnote)
+6. What's Bright (Now + Questions)
+7. Boom Topics — What's Alive
+8. Social Activity (if applicable)
+9. Recent Activity
+10. Emerging Patterns
+11. Suggested Next Actions
 
 ### Phase 5: Persist & Present
 
