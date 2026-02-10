@@ -78,7 +78,7 @@ Each level is complete in itself. No one needs to "graduate" to the next. A pers
 
 1. **Who is it for?** A specific person, or a specific situation? What are they sitting with?
 2. **What experience should it produce?** Clarity? Relief? Recognition? A new angle on something stuck?
-3. **What mode of reflection serves them?** Mirror (precise reflection), compass (decision support), meaning (pattern recognition), release (emotional processing)?
+3. **What mode of reflection serves them?** Start with existing modes (see `library/paths/`). If none fit, you're discovering a new one — name it.
 
 ### Structure of a Path
 
