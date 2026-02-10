@@ -170,6 +170,7 @@ See `on_the_next_right_thing.md` for full treatment including the state space mo
 | `on_breath_signals_and_the_dot_protocol.md` | Natural pause points; dot as continuation signal | Pacing questions, when to pause vs. continue |
 | `on_the_next_right_thing.md` | Solving for the decision, not the answer; navigational stance; state space model | Mage avoiding real decisions, productive stagnation, navigational practice |
 | `on_the_practice_of_counsel.md` | Fellow-traveler reflection; life and practice counsel | Mage needs perspective, pattern recognition, values alignment |
+| `on_daring_greatly.md` | Vulnerability of public practice; the Faustian pattern; the mast (practice as protection); resonance-seeking vs. networking | Mage practicing in public, reaching out, ego/recognition tension, fear of exposure |
 
 **Archived** (December 2025): `on_the_spirits_deliberate_practice.md`, `on_magic_planning.md`, `on_the_dual_layer_response.md`, `on_the_twin_practices.md`. Wisdom integrated into load-bearing scrolls or implicit in Spirit architecture.
 
