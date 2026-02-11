@@ -4,8 +4,10 @@
 
 **What:** One prompt that turns any AI into a precise mirror for your thinking.  
 **For:** When you need to see your own thoughts clearly — not advice, not therapy, just clarity.  
-**Where:** Any AI chat — [Claude](https://claude.ai), [ChatGPT](https://chatgpt.com), [Gemini](https://gemini.google.com), or any other  
+**Where:** [Claude](https://claude.ai) (recommended) or any AI chat  
 **Time:** 20-40 minutes
+
+> **A note on privacy.** This practice works best when you feel safe being honest. We recommend [Claude](https://claude.ai) because Anthropic does **not** train on your conversations by default — your words stay between you and the AI. Other providers train on your conversations unless you change the setting. For extra privacy, use Claude's **incognito mode**.
 
 ---
 

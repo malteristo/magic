@@ -3,8 +3,10 @@
 *A digital companion that listens through the lens of your own values.*
 
 **What:** Two prompts. The first helps you write down what you actually believe. The second uses that document as a compass whenever you need to think something through.  
-**Where:** Any AI chat — [Claude](https://claude.ai), [ChatGPT](https://chatgpt.com), [Gemini](https://gemini.google.com), or any other  
+**Where:** [Claude](https://claude.ai) (recommended) or any AI chat  
 **Time:** ~30 min to discover your values (once) + 20-30 min per session (repeatable)
+
+> **A note on privacy.** This practice works best when you feel safe being honest. We recommend [Claude](https://claude.ai) because Anthropic does **not** train on your conversations by default — your words stay between you and the AI. Other providers (ChatGPT, Gemini) train on your conversations unless you find and change the setting. For extra privacy on Claude, use the **incognito mode** (toggle at the top of any conversation). Your values document and your troubles are yours. They should stay that way.
 
 ---
 
