@@ -4,7 +4,8 @@
 
 **What:** Two prompts. The first helps you write down what you actually believe. The second uses that document as a compass whenever you need to think something through.  
 **Where:** [Claude](https://claude.ai) (recommended) or any AI chat  
-**Time:** ~30 min to discover your values (once) + 20-30 min per session (repeatable)
+**Time:** ~30 min to discover your values (once) + 20-30 min per session (repeatable)  
+**Quick start:** Paste [`the_shaman_prompt.md`](the_shaman_prompt.md) into any AI chat — one paste, the AI guides everything.
 
 > **A note on privacy.** This practice works best when you feel safe being honest. Here's the honest picture:
 >
