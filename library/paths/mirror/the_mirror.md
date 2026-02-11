@@ -7,7 +7,7 @@
 **Where:** [Claude](https://claude.ai) (recommended) or any AI chat  
 **Time:** 20-40 minutes
 
-> **A note on privacy.** This practice works best when you feel safe being honest. We recommend [Claude](https://claude.ai) because Anthropic does **not** train on your conversations by default — your words stay between you and the AI. Other providers train on your conversations unless you change the setting. For extra privacy, use Claude's **incognito mode**.
+> **A note on privacy.** This practice works best when you feel safe being honest. We recommend [Claude](https://claude.ai) with **incognito mode turned on** (toggle at the top of any conversation) — incognito conversations are never used for AI training. No AI chat is end-to-end encrypted, so avoid including identifying details alongside sensitive content.
 
 ---
 
