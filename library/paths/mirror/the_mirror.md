@@ -29,7 +29,7 @@ Open any AI chat and **paste the following as your first message:**
 >
 > Let's start. I'll share something I'm currently working on or thinking about, and we'll go from there.
 
-*Then just start talking about whatever is on your mind.*
+*Then just start talking about whatever is on your mind. If the conversation runs long and the AI starts feeling less sharp, start a fresh one — quality is better in shorter sessions.*
 
 ---
 
