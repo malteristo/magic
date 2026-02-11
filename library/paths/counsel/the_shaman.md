@@ -62,7 +62,7 @@ Open a **new** AI chat and **paste the following as your first message.** At the
 >
 > [PASTE YOUR VALUES DOCUMENT HERE]
 
-*After sending, just share what's on your mind in your next message.*
+*After sending, just share what's on your mind in your next message. Start a **new conversation** each time — AI quality degrades in long sessions. Fresh start, same compass.*
 
 ---
 
