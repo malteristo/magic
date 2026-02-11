@@ -16,10 +16,10 @@ Paths are not a feature of Magic. They are the point. The workshop — the tomes
 
 Categories emerge from practice, not from planning. Each directory represents a mode that proved itself with a real person.
 
-| Directory | Experience |
-|-----------|-----------|
-| `mirror/` | Precise reflection — see yourself clearly |
-| `counsel/` | Attentive listening grounded in your own values — the shaman |
+| Path | Experience | Quick Start |
+|------|-----------|-------------|
+| `mirror/` | Precise reflection — see yourself clearly | [`the_mirror_prompt.md`](mirror/the_mirror_prompt.md) |
+| `counsel/` | Attentive listening grounded in your own values | [`the_shaman_prompt.md`](counsel/the_shaman_prompt.md) |
 
 *More modes emerge as paths are crafted for real people with real needs.*
 
@@ -27,11 +27,17 @@ Categories emerge from practice, not from planning. Each directory represents a 
 
 ## How to Use a Path
 
-1. Open any capable AI chat (Claude, ChatGPT, Gemini, etc.)
-2. Copy the prompt from a path file (it's in a blockquote — the indented block)
+Each path comes in two forms:
+
+**The prompt** (`*_prompt.md`) — One document. Paste it into any AI chat. The AI reads it, greets you, and guides the entire practice. Nothing to learn, nothing to configure. Just paste and talk.
+
+**The guide** (`the_*.md`) — Explains the practice, the philosophy, the privacy considerations. Read this if you want to understand what a path does before trying it, or if you prefer to copy individual prompts step by step.
+
+**Quick start:**
+1. Open [Claude](https://claude.ai) (recommended) or any capable AI chat
+2. Copy the contents of a `*_prompt.md` file
 3. Paste it as your first message
-4. Start the conversation as the prompt invites
-5. Take what you find. It's yours.
+4. Start talking. The AI handles the rest.
 
 ---
 

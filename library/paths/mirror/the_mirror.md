@@ -5,7 +5,8 @@
 **What:** One prompt that turns any AI into a precise mirror for your thinking.  
 **For:** When you need to see your own thoughts clearly — not advice, not therapy, just clarity.  
 **Where:** [Claude](https://claude.ai) (recommended) or any AI chat  
-**Time:** 20-40 minutes
+**Time:** 20-40 minutes  
+**Quick start:** Paste [`the_mirror_prompt.md`](the_mirror_prompt.md) into any AI chat — one paste, the AI guides everything.
 
 > **A note on privacy.** This practice works best when you feel safe being honest. We recommend [Claude](https://claude.ai) with **incognito mode turned on** (toggle at the top of any conversation) — incognito conversations are never used for AI training, which is the only ironclad guarantee any provider currently offers. No AI chat is end-to-end encrypted — the provider can technically access conversations on their servers. Avoid including identifying details alongside sensitive content. For the full privacy picture, see [The Shaman](counsel/the_shaman.md).
 
