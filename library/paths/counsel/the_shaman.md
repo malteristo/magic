@@ -6,7 +6,16 @@
 **Where:** [Claude](https://claude.ai) (recommended) or any AI chat  
 **Time:** ~30 min to discover your values (once) + 20-30 min per session (repeatable)
 
-> **A note on privacy.** This practice works best when you feel safe being honest. We recommend [Claude](https://claude.ai) with **incognito mode turned on** (toggle at the top of any conversation). Incognito conversations are never used for AI training — that's the only ironclad guarantee any provider currently offers. Without incognito mode, your conversations may be used to improve AI models depending on your settings. No AI chat is end-to-end encrypted — the provider can technically access your conversations on their servers. For maximum privacy, don't include full names, addresses, or other identifying details alongside sensitive content. Your values document and your troubles are yours. Treat them accordingly.
+> **A note on privacy.** This practice works best when you feel safe being honest. Here's the honest picture:
+>
+> - We recommend [Claude](https://claude.ai) with **incognito mode turned on** (toggle at the top of any conversation). Incognito conversations are never used for AI training — that's the only ironclad guarantee any provider currently offers.
+> - Without incognito mode, your conversations may be used to improve AI models. Anthropic changed their policy in September 2025 — check your [privacy settings](https://claude.ai/settings/data-privacy-controls). ChatGPT and Gemini also train on conversations by default unless you opt out.
+> - **No AI chat is end-to-end encrypted.** The provider can technically access your conversations on their servers. They say they don't. Probably true. But *probably* is not *guaranteed*.
+> - **For everyday and work-related topics** — incognito Claude is more than sufficient. Comparable to a phone call: encrypted in transit, practically private.
+> - **For deeply personal topics** — things you'd only share with a therapist behind closed doors — be aware of these limits. Fully private AI (running on your own device, no server in between) is coming but not yet accessible for most people.
+> - Don't include full names, addresses, or other identifying details alongside sensitive content.
+>
+> Your values document and your troubles are yours. Treat them accordingly.
 
 ---
 
