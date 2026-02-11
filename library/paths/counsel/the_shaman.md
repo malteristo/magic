@@ -6,7 +6,7 @@
 **Where:** [Claude](https://claude.ai) (recommended) or any AI chat  
 **Time:** ~30 min to discover your values (once) + 20-30 min per session (repeatable)
 
-> **A note on privacy.** This practice works best when you feel safe being honest. We recommend [Claude](https://claude.ai) because Anthropic does **not** train on your conversations by default — your words stay between you and the AI. Other providers (ChatGPT, Gemini) train on your conversations unless you find and change the setting. For extra privacy on Claude, use the **incognito mode** (toggle at the top of any conversation). Your values document and your troubles are yours. They should stay that way.
+> **A note on privacy.** This practice works best when you feel safe being honest. We recommend [Claude](https://claude.ai) with **incognito mode turned on** (toggle at the top of any conversation). Incognito conversations are never used for AI training — that's the only ironclad guarantee any provider currently offers. Without incognito mode, your conversations may be used to improve AI models depending on your settings. No AI chat is end-to-end encrypted — the provider can technically access your conversations on their servers. For maximum privacy, don't include full names, addresses, or other identifying details alongside sensitive content. Your values document and your troubles are yours. Treat them accordingly.
 
 ---
 
