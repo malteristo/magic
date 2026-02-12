@@ -16,8 +16,8 @@ Paths are not a feature of Magic. They are the point. The workshop — the tomes
 
 Categories emerge from practice, not from planning. Each directory represents a mode that proved itself with a real person.
 
-| Path | Experience | Quick Start |
-|------|-----------|-------------|
+| Path | Experience | Prompt |
+|------|-----------|--------|
 | `mirror/` | Precise reflection — see yourself clearly | [`the_mirror_prompt.md`](mirror/the_mirror_prompt.md) |
 | `counsel/` | Attentive listening grounded in your own values | [`the_shaman_prompt.md`](counsel/the_shaman_prompt.md) |
 
@@ -27,16 +27,16 @@ Categories emerge from practice, not from planning. Each directory represents a 
 
 ## How to Use a Path
 
-Each path comes in two forms:
+Each path directory contains two files:
 
-**The prompt** (`*_prompt.md`) — One document. Paste it into any AI chat. The AI reads it, greets you, and guides the entire practice. Nothing to learn, nothing to configure. Just paste and talk.
+**The prompt** (`*_prompt.md`) — The executable program. Drag it into any AI chat or paste its contents as your first message. The AI reads it silently, greets you, and guides the entire practice. Nothing to learn, nothing to configure.
 
-**The guide** (`the_*.md`) — Explains the practice, the philosophy, the privacy considerations. Read this if you want to understand what a path does before trying it, or if you prefer to copy individual prompts step by step.
+**The README** (`README.md`) — Explains the practice, the philosophy, the privacy considerations. Read this if you want to understand what a path does before trying it.
 
 **Quick start:**
 1. Open [Claude](https://claude.ai) (recommended) or any capable AI chat
-2. Copy the contents of a `*_prompt.md` file
-3. Paste it as your first message
+2. Turn on **Extended Thinking** if available (toggle in model selector) — noticeably better conversation quality
+3. **Drag** a `*_prompt.md` file into the chat, or **paste** its contents as your first message
 4. Start talking. The AI handles the rest.
 
 ---

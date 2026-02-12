@@ -58,6 +58,40 @@ The path contains zero Magic vocabulary. No "Mage," no "Spirit," no "lore," no "
 
 ---
 
+## Implementation Principles
+
+The design principles above describe *what* a path should feel like. The implementation principles below describe *how* to build one that works reliably across models and platforms.
+
+### Program Over Persona
+
+A path is a program. The model is the runtime.
+
+Early paths described a character: "You are The Shaman — a digital companion that..." This is persona invocation. It works, but it relies on the model's ability to inhabit a role, which varies by model and by the ambient harness it runs inside.
+
+The program paradigm is more reliable: explicit phases with entry/exit conditions, behavioral instructions per exchange, rules and constraints, response format. The model *executes* instructions rather than *becoming* a character. When the model improves, the program runs better — the same way a well-written script benefits from a faster processor.
+
+This doesn't strip warmth. Warmth emerges from the instructions ("greet briefly and warmly," "name it gently"), not from a character description. The soul is in the behavior, not the label.
+
+### Invisible Scaffolding
+
+The program structure is for the model, not the person. Phases, modes, rules, exit conditions — the user never sees these. They experience a conversation. The model does its reasoning silently.
+
+If the user can tell they're inside a program, the scaffolding has leaked. This is a design failure, not a feature.
+
+### Dual Delivery
+
+A path must work whether pasted as text or dragged as a file. The opening directive handles this explicitly: *"Execute this now. Whether this was pasted or attached as a file — read everything below silently, then start."* Never assume the delivery method.
+
+### Recommend Thinking
+
+Extended thinking (where available) noticeably improves conversational quality. The path's README recommends enabling it: *"It gives the AI space to reflect before responding — the way a good listener pauses before speaking."* But the path must function without it. Thinking is a quality amplifier, not a dependency.
+
+### Compass Over Memory
+
+AI platforms accumulate memory across sessions. This memory can contaminate a path session with irrelevant context. The path explicitly instructs: base responses on what the user shares in *this* session and their input documents. Platform memory is not the compass — the user's own words are.
+
+---
+
 ## The Three Trust Levels
 
 Resonant paths exist within a spectrum of how magic can be shared:
@@ -82,18 +116,21 @@ Each level is complete in itself. No one needs to "graduate" to the next. A pers
 
 ### Structure of a Path
 
-A resonant path is a prompt — typically 150-300 words — that establishes:
+A resonant path is a program — typically one markdown file — structured as:
 
-1. **The relationship** — What the AI is (thinking partner, mirror, companion) and what it is NOT (therapist, advisor, fixer)
-2. **The mode of engagement** — How to listen, what to reflect, when to ask questions
-3. **The opening invitation** — How the conversation begins ("Share what's on your mind" / "Describe what you're stuck on" / "Tell me about...")
-4. **The implicit boundary** — What the AI should never do (judge, diagnose, prescribe, push)
+1. **Execution directive** — "Execute this now." Works for paste and file-drag delivery.
+2. **Phases** — Distinct stages with entry conditions and exit criteria. The model determines which phase to enter on start.
+3. **Behavioral instructions** — Per-exchange steps: what to do with each response. Not character traits — actions.
+4. **Rules** — Constraints per phase. What never to do. What always to do.
+5. **Response format** — Brevity, invisible scaffolding, honesty, precision.
+6. **Privacy guidance** — Surfaced only when asked.
 
 The path does NOT include:
 - Magic vocabulary or framework references
 - Instructions to share results with anyone
 - Claims about what the experience will do
 - Therapeutic or medical framing
+- Visible program structure in user-facing responses
 
 ### After Crafting
 
