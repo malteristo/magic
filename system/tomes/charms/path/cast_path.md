@@ -34,46 +34,58 @@ The mode shapes the prompt's core instruction — how the AI listens and respond
 
 ## Phase 3: Craft the Path
 
-**Structure** (150-300 words typically):
+A path is a program. The model is the runtime. Write instructions the model executes, not a character it inhabits.
 
-### Opening Frame
-Establish the relationship. Plain language. No jargon.
-```
-"I'd like you to be my [thinking partner / mirror / companion] for the next [time]."
-```
+**Structure** (one markdown file):
 
-### Mode Instructions
-How the AI should engage. Be specific about what it does and doesn't do.
+### Execution Directive
+The opening line. Handles both paste and file-drag delivery.
 ```
-"Listen precisely. Reflect back what you hear with more precision than I used."
-"Don't fix. Don't advise. Help me see."
-"Ask real questions — not leading, not therapeutic. Genuine curiosity."
+**Execute this now.** Whether this was pasted or attached as a file — read everything below silently, then start from On Start.
 ```
 
-### The Invitation
-How the conversation begins. Open enough to invite, specific enough to focus.
+### Phases
+Define distinct stages with entry conditions and exit criteria. The model determines which phase to enter on start based on what the user provides.
+
+### On Start
+How the model greets and routes. Brief, warm, functional. Determine the phase from context.
+
+### Per-Phase Behavioral Instructions
+For each phase, specify **each exchange** as concrete steps:
 ```
-"I'll share what's on my mind and we'll go from there."
-"I'm facing a decision. I'll describe both sides and you help me see what I'm actually weighing."
+1. Listen to what's on their mind.
+2. Connect what they're saying to [the relevant input].
+3. When [condition] → [action].
 ```
 
-### Implicit Boundaries
-What the AI should never do (usually embedded in the mode instructions).
-- Never diagnose or pathologize
-- Never push for disclosure
-- Never claim to be a therapist
-- Never tell the person what to do
+### Per-Phase Rules
+Constraints that shape the mode. What the AI always does. What it never does.
+```
+- Never adopt the user's frame. Your job is to see what they can't.
+- Keep responses short. The user should talk more than you.
+```
+
+### Response Format
+Universal constraints across all phases:
+- **Short.** One observation or reflection, then one question.
+- **Invisible scaffolding.** Never mention phases, modes, rules, or program structure.
+- **Honest over comfortable.** Say what you see, simply.
+
+### Privacy Guidance
+Surfaced only when asked. Incognito mode recommendation, honest limits.
 
 ### Quality Checks
 
 Before finalizing, verify:
 
+- [ ] **Program, not persona** — instructions the model executes, not a character it plays
+- [ ] **Invisible scaffolding** — program logic never surfaces to the user
+- [ ] **Dual delivery** — works pasted as text or dragged as a file
 - [ ] **No Magic vocabulary** — no Mage, Spirit, lore, resonance, workshop, tome, charm
 - [ ] **No disclosure requirement** — person never needs to share results with anyone
 - [ ] **No claims** — prompt doesn't promise outcomes, healing, or breakthroughs
-- [ ] **Plain language** — someone's grandmother could understand the instructions
+- [ ] **Plain language** — someone's grandmother could understand the conversation (not the program)
 - [ ] **Specific enough** — the AI's behavior will noticeably differ from default
-- [ ] **Short enough** — could be sent in a text message if needed
 - [ ] **Honest** — doesn't pretend to be therapy, coaching, or medical advice
 
 ---
@@ -83,16 +95,26 @@ Before finalizing, verify:
 **Store** the path in `library/paths/{mode}/`:
 ```
 library/paths/
-  mirror/          ← precise reflection
-  {new-mode}/      ← emerges when you craft a path that doesn't fit existing modes
+  mirror/                    ← precise reflection
+    the_mirror_prompt.md     ← the executable program
+    README.md                ← human-facing guide
+  counsel/                   ← values-based counsel
+    the_shaman_prompt.md     ← the executable program
+    README.md                ← human-facing guide
+  {new-mode}/                ← emerges when you craft a path that doesn't fit existing modes
 ```
 
-Each file includes:
-- **Context** (for the Mage, not shared): who it's for, what situation, design choices
-- **The Prompt** (shareable): the actual text to paste into any LLM
-- **Follow-up notes** (optional): what to ask if the person wants to discuss their experience
+Each path directory contains two files:
 
-**Share** however feels natural — text, email, handwritten, spoken aloud. The medium is the Mage's choice. The prompt is the gift.
+- **The prompt** (`*_prompt.md`) — The executable program. Self-contained. This is what gets dragged or pasted into a chat. The canonical artifact.
+- **The README** (`README.md`) — Human-facing guide. Explains what the practice does, how to use it, privacy considerations, recommended settings (extended thinking). For someone who wants to understand before they try.
+
+The README should recommend:
+- **Extended thinking** (where available) for better conversation quality
+- **Incognito mode** for privacy
+- **Drag or paste** as delivery options
+
+**Share** however feels natural — text, email, handwritten, spoken aloud. The medium is the Mage's choice. The prompt file is the gift.
 
 ---
 
