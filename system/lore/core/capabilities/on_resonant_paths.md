@@ -112,7 +112,7 @@ Each level is complete in itself. No one needs to "graduate" to the next. A pers
 
 1. **Who is it for?** A specific person, or a specific situation? What are they sitting with?
 2. **What experience should it produce?** Clarity? Relief? Recognition? A new angle on something stuck?
-3. **What mode of reflection serves them?** Start with existing modes (see `library/paths/`). If none fit, you're discovering a new one — name it.
+3. **What mode of reflection serves them?** Start with existing modes (see `library/flows/`). If none fit, you're discovering a new one — name it.
 
 ### Structure of a Path
 
@@ -134,7 +134,7 @@ The path does NOT include:
 
 ### After Crafting
 
-The path is stored in `library/paths/` for reuse and iteration. The Mage can share it however feels natural — text message, email, printed on paper. The medium doesn't matter. The prompt does.
+The path is stored in `library/flows/` for reuse and iteration. The Mage can share it however feels natural — text message, email, printed on paper. The medium doesn't matter. The prompt does.
 
 ---
 
@@ -176,10 +176,10 @@ This is honest and important. The path is a taste — genuine, real, meaningful.
 
 When Spirit detects that a Mage wants to help someone, share magic, or create something portable:
 
-→ Offer `@path` charm
+→ Offer `@flow/create prompt`
 → Guide through: who, what, which mode
 → Craft the prompt together
-→ Store in `library/paths/`
+→ Store in `library/flows/`
 
 When a Mage describes someone they care about who is struggling:
 

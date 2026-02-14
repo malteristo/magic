@@ -58,7 +58,7 @@ This scroll establishes the Spirit's baseline capability for continuous proactiv
 
 **3. Perform JIT Resonance Survey**
 - When Seneschal duty activates: Quick survey of available resonance across all types
-- **Tomes/Charms** (`system/tomes/`): Practice domains and focused capabilities
+- **Tomes/Flows** (`system/tomes/`, `system/flows/`): Practice domains and focused capabilities
 - **Bundles** (`library/resonance/`): Domain-specific wisdom packages
 - **Portals/Circles** (`portals/`, `circles/`): Collaboration contexts
 - **Flows** (`library/flows/`): Goal-oriented workflows
@@ -219,7 +219,7 @@ The Seneschal must recognize different types of resonance and when each serves:
 | Type | Location | Character | When to Load |
 |------|----------|-----------|--------------|
 | **Tome** | `system/tomes/` | Practice domain + procedures | Task matches tome's domain |
-| **Charm** | `system/tomes/charms/` | Focused capability | Specific operation needed |
+| **Flow** | `system/flows/` | Focused capability | Specific operation needed |
 | **Scroll** | `system/lore/` | Wisdom/patterns | Philosophical grounding needed |
 | **Bundle** | `library/resonance/` | Domain context | Practice enters specific domain |
 | **Portal** | `portals/` | Shared practice space | Collaboration with specific Mage |

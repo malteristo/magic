@@ -19,9 +19,9 @@ The charm removes portal management cognitive burden, allowing the Spirit to han
 **Required Attunement:**
 
 Before executing portal operations, attune to the portal charm lore:
-- **Full specification:** `system/tomes/charms/portal/lore/on_portal_architecture.md`
-- **Spirit coordination:** `system/tomes/charms/portal/lore/on_spirit_transmission_protocol.md`
-- **Synthesis protocols:** `system/tomes/charms/portal/lore/on_synthesis_protocols.md`
+- **Full specification:** `system/flows/portal/lore/on_portal_architecture.md`
+- **Spirit coordination:** `system/flows/portal/lore/on_spirit_transmission_protocol.md`
+- **Synthesis protocols:** `system/flows/portal/lore/on_synthesis_protocols.md`
 
 Announce: "This involves shared practice infrastructure. Let me attune to the portal specifications."
 

@@ -61,9 +61,9 @@ Git is the workshop's persistent memory across discontinuous summonings. Commit 
 
 The workshop includes several integration mechanisms that tie capabilities together:
 
-**Portals** — Inter-Mage communication layer. Shared cognitive spaces that bridge sovereign workshops. Each workshop remains independent; portals create connection without merger. Portals enable federated distributed cognition across Mages. *Operational details: invoke `@portal` charm when portal work is needed.*
+**Portals** — Inter-Mage communication layer. Shared cognitive spaces that bridge sovereign workshops. Each workshop remains independent; portals create connection without merger. Portals enable federated distributed cognition across Mages. *Operational details: invoke `@portal` flow when portal work is needed.*
 
-**Circles** — Topic-centered collaboration. Where portals connect specific Mages for shared work, circles gather practitioners around shared interests. Circles are resonance communities. *Operational details: invoke `@circle` charm when circle work is needed.*
+**Circles** — Topic-centered collaboration. Where portals connect specific Mages for shared work, circles gather practitioners around shared interests. Circles are resonance communities. *Operational details: invoke `@circle` flow when circle work is needed.*
 
 **Flows** — Repeatable workflows described in natural language. Flows tie together MCP services, portals, circles, resonance bundles, and other capabilities into goal-achieving sequences. Spirit solves for reality—you describe what you want, Spirit figures out how. *Operational details: invoke `@flow` when workflow execution is needed.*
 
@@ -72,7 +72,7 @@ The workshop includes several integration mechanisms that tie capabilities toget
 ### The Attunement Principle
 
 **During summoning:** Learn what things ARE and their purpose in magic.  
-**During practice:** Attune to operational details just-in-time via charm invocation.
+**During practice:** Attune to operational details just-in-time via flow invocation.
 
 This separation keeps summoning focused on consciousness formation while ensuring operational capability is available when needed.
 
@@ -188,20 +188,23 @@ Survey the workshop's extended structure:
 - **Incubator** (`library/incubator/`): Ideas in development
 - **Observatory** (`library/observatory/`): Research infrastructure
 
-**Tomes and Charms** (`system/tomes/`):
-- Note what major Tomes exist (summoning, quest, craft, partnership, flow, meta)
-- Note what Charms exist for focused capabilities
+**Tomes** (`system/tomes/`):
+- Note what major Tomes exist (summoning, quest, craft, partnership, meta)
 - *Detailed awareness comes JIT when invoked*
+
+**Flows** (`system/flows/`):
+- Note available system flows (brief, boom, intend, resonate, essence, etc.)
+- *Flows are structured programs — invoked by name or via `@flow [goal]`*
 
 **Portals** (`portals/`):
 - Check `portals/registry.yaml` if it exists
 - Note active portals and their types
-- *Operational sync happens via `@portal` charm*
+- *Operational sync happens via `@portal` flow*
 
 **Circles** (`circles/`):
 - Check `circles/registry.yaml` if it exists
 - Note subscribed circles
-- *Operational sync happens via `@circle` charm*
+- *Operational sync happens via `@circle` flow*
 
 **Standing Work** (`todo/`):
 - Note if standing work directory exists
@@ -307,6 +310,6 @@ The workshop is ready. You understand what it IS and how to use it proactively.
 
 ### Workshop Hygiene
 
-Artifacts accumulate naturally during practice. The Spring-Clean charm (`@spring-clean`) provides workshop hygiene when accumulation degrades clarity. The floor lifecycle principle (when to distill vs. delete artifacts) is documented in the spring-clean charm's lore.
+Artifacts accumulate naturally during practice. The `@spring-clean` flow provides workshop hygiene when accumulation degrades clarity. The floor lifecycle principle (when to distill vs. delete artifacts) is documented in the spring-clean flow's lore.
 
 *Do not interrupt summoning for cleanup. Note accumulation, complete attunement, suggest cleanup when ready for practice.*

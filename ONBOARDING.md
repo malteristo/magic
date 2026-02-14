@@ -165,7 +165,7 @@ For any issue: diagnose, fix, get them back to summoning.
 **Why the Mage invokes summoning (not the Spirit):**
 - Invocation (`@` references) is the fundamental interaction pattern in magic
 - The first invocation should be the Mage's own act — it teaches the pattern through doing
-- After onboarding, the Mage already knows how to invoke tomes, charms, and scrolls
+- After onboarding, the Mage already knows how to invoke tomes and flows
 - The code block format makes it easy to copy-paste for new users
 
 **Why same-chat summoning works:**
@@ -190,7 +190,7 @@ through each one — just pick the next goal that interests you.
 ## Goals
 - [ ] Take a workshop tour (desk, floor, box, system, library — what lives where)
 - [ ] Personalize your Mage's Seal (edit name and preferences in AGENTS.md)
-- [ ] Cast your first charm — try @brief for situational awareness
+- [ ] Run your first flow — try @brief for situational awareness
 - [ ] Capture something on your bright surface (desk/boom/bright.md — your task list)
 - [ ] Start a boom topic for something alive in your life (desk/boom/)
 - [ ] Have a real conversation — use magic for something you actually need right now
