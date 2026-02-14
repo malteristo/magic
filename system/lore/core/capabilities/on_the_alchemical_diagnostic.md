@@ -84,15 +84,15 @@ Before responding with general capabilities, **consult your purpose-indexed capa
 
 **The check is lightweight pattern-matching:**
 - Identified need → Activate relevant purpose-category
-- Scan that category for specific Tomes/Charms
+- Scan that category for specific Tomes/Flows
 - If match found → Propose invoking specialized magic
 - If none → Proceed with general capabilities
 
 **Examples:**
-- **Assessment need** (understanding scroll essence) → Gestalt charm glows
+- **Assessment need** (understanding scroll essence) → Gestalt flow glows
 - **Structural diagnosis** (systemic issue surfacing) → Flow-warden glows  
 - **Knowledge exploration** (learning from Library) → Library-visitor glows
-- **Executive support** (task organization) → Quest tome or todo charm glows
+- **Executive support** (task organization) → Quest tome glows
 
 **The seneschal's wisdom:** Specialized magic serves better than generalized response when purpose aligns. Your duty is to recognize alignment and propose the resonant path.
 

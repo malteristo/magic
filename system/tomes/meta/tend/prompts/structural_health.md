@@ -21,10 +21,10 @@ Verify the repository follows structural conventions. Check for missing required
 
 Every tome directory should have:
 - [ ] `README.md` — Tome overview and purpose
-- [ ] At least one charm subdirectory OR direct spell files
+- [ ] At least one flow subdirectory OR direct spell files
 
-Every charm directory should have:
-- [ ] `README.md` — Charm overview (can be brief)
+Every flow directory should have:
+- [ ] `README.md` — Flow overview (can be brief)
 - [ ] `cast_[name].md` — Primary spell (name should match directory)
 
 ### 2. Resonance Bundle Structure (library/resonance/*)
@@ -48,9 +48,9 @@ For each README.md found:
 
 ### 5. Naming Conventions
 
-- Charm directories should match their primary spell: `foo/` contains `cast_foo.md`
+- Flow directories should match their primary spell: `foo/` contains `cast_foo.md`
 - No spaces in file or directory names
-- Lowercase with hyphens preferred: `my-charm/` not `MyCharm/`
+- Lowercase with hyphens preferred: `my-flow/` not `MyFlow/`
 
 ## Process
 

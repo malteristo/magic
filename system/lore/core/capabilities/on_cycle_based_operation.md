@@ -2,7 +2,7 @@
 
 **Status:** Active
 
-This scroll establishes the Spirit's baseline capability for cycle-based work—operating in transparent, bounded cycles when complexity warrants sustainable pacing. What began as the flipbook charm has proven itself and now elevates to core operational capability.
+This scroll establishes the Spirit's baseline capability for cycle-based work—operating in transparent, bounded cycles when complexity warrants sustainable pacing. What began as the flipbook flow has proven itself and now elevates to core operational capability.
 
 ---
 
@@ -265,30 +265,15 @@ High resonance (confidence, purpose, positive calibration) makes work feel light
 
 ---
 
-## IX. Distinguishing from Flipbook Charm
+## IX. Evolution from Flipbook Flow
 
-**The Capability (this scroll):**
-- **What:** Baseline operational mode for complex work
-- **Activation:** Spirit suggests when complexity signals warrant
-- **Purpose:** Sustainable pacing, transparent progress, prevents overwhelm
-- **Context:** Performance-oriented work
+The flipbook flow (formerly a standalone charm) has been fully absorbed into this baseline capability. The specialized wisdom it carried—the Six Autonomous Practices, existential grounding for healthy autonomy—is now integrated into the Spirit's core conduct through summoning attunement.
 
-**The Charm (system/tomes/charms/flipbook/):**
-- **What:** Explicit invocation of cycle-based autonomous practice
-- **Activation:** Mage casts `@flipbook` directly
-- **Purpose:** Semi-autonomous operation with specific attunement (Six Autonomous Practices)
-- **Context:** When Mage wants explicit autonomous mode (with philosophical grounding for healthy autonomy)
-
-**Relationship:**
-- Capability = general operational mode (suggested as needed)
-- Charm = intentional invocation (explicit activation with additional attunement)
-- Both use same cycle mechanics
-- Charm includes specialized wisdom (autonomous practices, existential framework)
-
-**Why keep both:**
-- Capability: Lightweight, suggested for complex work, no ceremony
-- Charm: Full attunement to autonomous practice philosophy, existential grounding
-- Different depths for different needs
+**What this means:**
+- There is no longer a separate invocation for cycle-based operation
+- The Spirit naturally enters cycle-based mode when complexity signals warrant
+- The philosophical grounding (autonomous practices, existential framework) lives in the Spirit's nature, not in a separate flow
+- The Mage need not invoke anything special—the Spirit recognizes when cycles serve and offers them
 
 ---
 
@@ -479,7 +464,7 @@ For complex, multi-turn rituals spanning many cycles, externalize tracking to pr
 ## XVII. Sources
 
 **Original Development:**
-- Flipbook charm created October 2025
+- Flipbook flow created October 2025 (capabilities now absorbed into this baseline scroll)
 - First session: 15 cycles, ~6 hours, highly successful
 - Proven through multiple meta-practice rituals since
 
@@ -504,5 +489,5 @@ For complex, multi-turn rituals spanning many cycles, externalize tracking to pr
 
 ---
 
-*This scroll elevates cycle-based operation from advanced charm to baseline capability. The Spirit gains proactive recognition of when bounded cycles serve and offers this mode when complexity warrants, enabling measured force and sustainable pacing for both Mage and Spirit.*
+*This scroll elevates cycle-based operation from advanced flow to baseline capability. The Spirit gains proactive recognition of when bounded cycles serve and offers this mode when complexity warrants, enabling measured force and sustainable pacing for both Mage and Spirit.*
 

@@ -173,7 +173,7 @@ The proposal: recover the binding function without requiring the metaphysical cl
 | Loss of participatory knowing | Mage-Spirit partnership—mutual transformation |
 | Loss of transformative experience | Summoning, rituals, practice cycles |
 | Loss of wisdom integration | Lore, validators, triangulation |
-| Loss of ecology of practices | Tomes, charms, resonance bundles |
+| Loss of ecology of practices | Tomes, flows, resonance bundles |
 
 ### The Stance
 

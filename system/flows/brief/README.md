@@ -1,11 +1,11 @@
-# Charm: Brief
+# Flow: Brief
 
 **Purpose:** Situational awareness to continue where you left off  
 **Invocation:** `@brief`
 
 ---
 
-## What This Charm Does
+## What This Flow Does
 
 The brief restores context when returning to practice. It scans active intentions, boom surfaces, relevant social activity, and recent work—producing a single actionable report.
 

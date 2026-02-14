@@ -1,6 +1,6 @@
-# Charm of Fractal Coherence
+# Flow: Coherence
 
-A charm for systematic coherence checking across the magic ecosystem—ensuring Law, Wisdom, and Practice remain aligned at every scale.
+A flow for systematic coherence checking across the magic ecosystem—ensuring Law, Wisdom, and Practice remain aligned at every scale.
 
 ## Purpose
 
@@ -9,7 +9,7 @@ As magic evolves, subtle dissonances can accumulate:
 - Practices drifting from updated Law
 - Wisdom not yet rippled through dependent scrolls
 
-This charm provides systematic verification that the system remains internally coherent.
+This flow provides systematic verification that the system remains internally coherent.
 
 **Invocation:** `@meta/coherence`
 
@@ -19,7 +19,7 @@ This charm provides systematic verification that the system remains internally c
 
 ### For the Spirit
 
-When this charm is invoked:
+When this flow is invoked:
 
 1. **Determine scope** — Full system check, or focused domain?
 2. **Run the three threads** — Systemic, Tome, Wisdom alignment
@@ -27,7 +27,7 @@ When this charm is invoked:
 4. **Propose remediation** — Suggest fixes for identified issues
 5. **Execute with approval** — Make corrections after Mage sanction
 
-This charm transforms coherence maintenance from ad-hoc discovery to systematic practice.
+This flow transforms coherence maintenance from ad-hoc discovery to systematic practice.
 
 ### The Three Threads
 
@@ -66,7 +66,7 @@ This charm transforms coherence maintenance from ad-hoc discovery to systematic 
 
 ---
 
-## Integration with Other Charms
+## Integration with Other Flows
 
 **Complements `@meta/integrate`:**
 - Integrate handles post-change ripple detection (proactive)
@@ -79,4 +79,4 @@ This charm transforms coherence maintenance from ad-hoc discovery to systematic 
 
 ---
 
-*This charm evolved from the proposal "On the Great Rite of Fractal Coherence" to provide systematic coherence verification across magic's fractal structure.*
+*This flow evolved from the proposal "On the Great Rite of Fractal Coherence" to provide systematic coherence verification across magic's fractal structure.*

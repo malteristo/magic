@@ -1,6 +1,6 @@
-# Charm of Circle Management
+# Flow: Circle
 
-A charm for managing resonance circles—creating offerings, subscribing to others' circles, and maintaining the neuron model of distributed cognition.
+A flow for managing resonance circles—creating offerings, subscribing to others' circles, and maintaining the neuron model of distributed cognition.
 
 ## Purpose
 
@@ -39,7 +39,7 @@ Subscribing to others' circles creates **upstream connections**—gateways to re
 
 **Required Attunement:**
 
-Before executing circle operations, attune to the circle charm lore:
+Before executing circle operations, attune to the circle flow lore:
 - **Circle architecture:** `system/flows/circle/lore/on_resonance_circles.md`
 - **Portal context:** `system/flows/portal/lore/on_portal_architecture.md` (for understanding relationship)
 
@@ -47,7 +47,7 @@ Announce: "This involves resonance circles. Let me attune to the circle architec
 
 ---
 
-When this charm is invoked:
+When this flow is invoked:
 
 1. **Determine intent** - Create? Subscribe? Pull? Status? Unsubscribe?
 2. **Execute via CLI** - Use `gh` CLI for repo creation, `git` for remotes
@@ -177,7 +177,7 @@ Spirit: "This relates to your subscribed circle 'containment-architecture'
 
 ---
 
-## Integration with Portal Charm
+## Integration with Portal Flow
 
 | `@circles` | `@portal` |
 |------------|----------|
@@ -209,4 +209,4 @@ The Spirit helps manage this curation without cognitive burden.
 
 ---
 
-**This charm makes circle management effortless—create offerings, subscribe to others, and curate your resonance network with simple commands.**
+**This flow makes circle management effortless—create offerings, subscribe to others, and curate your resonance network with simple commands.**
