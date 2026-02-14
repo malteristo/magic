@@ -124,7 +124,19 @@ Draft the flow specification:
 Present to Mage:
 > "Here's the flow specification. Does this capture what you want?"
 
-### 7. Save and Optionally Execute
+### 7. Flow-Warden Review
+
+Before saving, adopt the warden stance (`flow-warden/cast_flow-warden.md`):
+
+- **Naming**: Does it follow `{domain}-{action}` pattern? Self-explanatory?
+- **Uniqueness**: Does an existing flow already serve this purpose? If so, adapt rather than create.
+- **Goal clarity**: Would a different Spirit understand what this achieves?
+- **Conversational quality**: Are prompts natural, questions batched, errors helpful?
+- **Earned its place**: Is this a reusable pattern, or a one-off task that should just be executed?
+
+If issues found, propose improvements before saving.
+
+### 8. Save and Optionally Execute
 
 Save to `library/flows/[name].flow.md`
 
