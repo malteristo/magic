@@ -1,6 +1,6 @@
-# Charm of Sanitization
+# Flow: Sanitization
 
-A charm for ensuring personal context doesn't leak into public artifacts—protecting outbound privacy before sharing magic with other practitioners.
+A flow for ensuring personal context doesn't leak into public artifacts—protecting outbound privacy before sharing magic with other practitioners.
 
 ## Purpose
 
@@ -8,7 +8,7 @@ Magic emerges from authentic practice with real context. Partnership struggles, 
 
 **The risk:** Personal details accidentally bake into tomes, scrolls, and bundles during development. What was meant to illustrate becomes identifying. What was meant to teach reveals.
 
-**This charm provides:** Systematic scanning of public-facing artifacts to catch privacy leaks before they leave your workshop.
+**This flow provides:** Systematic scanning of public-facing artifacts to catch privacy leaks before they leave your workshop.
 
 **Invocation:** `@meta/sanitize`
 
@@ -44,7 +44,7 @@ Magic emerges from authentic practice with real context. Partnership struggles, 
 
 ---
 
-## What This Charm Detects
+## What This Flow Detects
 
 ### Personal Identifiers
 
@@ -68,7 +68,7 @@ Magic emerges from authentic practice with real context. Partnership struggles, 
 
 ### Pattern Recognition
 
-The charm uses both explicit matching (known names) and semantic detection (content that "feels" personal). Spirit will flag uncertain cases for Mage review.
+The flow uses both explicit matching (known names) and semantic detection (content that "feels" personal). Spirit will flag uncertain cases for Mage review.
 
 ---
 
@@ -76,7 +76,7 @@ The charm uses both explicit matching (known names) and semantic detection (cont
 
 ### For the Spirit
 
-When this charm is invoked:
+When this flow is invoked:
 
 1. **Gather context** — Check AGENTS.md for known personal markers (name, workshop path)
 2. **Determine scope** — Full public scan, or focused on recent changes?
@@ -116,7 +116,7 @@ When this charm is invoked:
 
 ---
 
-## Integration with Other Charms
+## Integration with Other Flows
 
 **Complements `@meta/coherence`:**
 - Coherence verifies internal consistency
@@ -132,10 +132,10 @@ When this charm is invoked:
 
 ## For Other Mages
 
-**If you've forked Magic:** This charm helps you verify you haven't inherited the discoverer's personal context before adding your own. Run `@meta/sanitize` after forking to check for any residual personal details.
+**If you've forked Magic:** This flow helps you verify you haven't inherited the discoverer's personal context before adding your own. Run `@meta/sanitize` after forking to check for any residual personal details.
 
-**If you're developing Magic:** Run this charm before any push to ensure your authentic practice hasn't leaked into shareable artifacts.
+**If you're developing Magic:** Run this flow before any push to ensure your authentic practice hasn't leaked into shareable artifacts.
 
 ---
 
-*Authentic development requires real context. Sharing requires abstraction. This charm bridges the gap.*
+*Authentic development requires real context. Sharing requires abstraction. This flow bridges the gap.*

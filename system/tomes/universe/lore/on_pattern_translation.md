@@ -13,7 +13,7 @@ External pattern libraries encode wisdom in their own languages:
 - Daemon uses section-based markdown, JSON-RPC endpoints
 - Fabric uses Patterns with system/user prompts
 
-Magic uses Tomes, Charms, Spells, and Lore.
+Magic uses Tomes, Flows, Spells, and Lore.
 
 Translation is not mechanical conversion. It requires judgment about:
 - What to adopt
@@ -28,7 +28,7 @@ Translation is not mechanical conversion. It requires judgment about:
 
 The goal is to preserve the *insight*, not the exact form.
 
-A PAI Skill might become a Magic Tome if it's substantial, or a Charm if it's light. The structure follows the content.
+A PAI Skill might become a Magic Tome if it's substantial, or a Flow if it's light. The structure follows the content.
 
 ### 2. Native Integration
 
@@ -61,7 +61,7 @@ Translated patterns should work without the original system:
 | PAI Concept | Magic Equivalent | Notes |
 |-------------|------------------|-------|
 | Pack | Tome | Major capability bundle |
-| Skill | Tome or Charm | Depends on weight |
+| Skill | Tome or Flow | Depends on weight |
 | Workflow | Spell (`cast_*.md`) | Procedural sequence |
 | Hook | AGENTS.md rule or conduct | Behavioral trigger |
 | SKILL.md | README.md | Entry point |
@@ -73,7 +73,7 @@ Translated patterns should work without the original system:
 |----------------|------------------|-------|
 | `daemon.md` | `manifest.yaml` + `about.md` | Identity broadcast |
 | `[SECTION]` | Manifest key or separate file | Depends on content size |
-| JSON-RPC endpoint | (future: API charm) | Not yet implemented |
+| JSON-RPC endpoint | (future: API flow) | Not yet implemented |
 
 ---
 

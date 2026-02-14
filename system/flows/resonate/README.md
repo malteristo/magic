@@ -1,11 +1,11 @@
-# Charm: Resonate
+# Flow: Resonate
 
 **Purpose:** Activate the resonance engine to generate proposals  
 **Invocation:** `@resonate [mode]`
 
 ---
 
-## What This Charm Does
+## What This Flow Does
 
 The resonance engine generates high-value proposals from multiple input streams. Spirit generates, Mage curates. The output is signal, not noise.
 
@@ -31,7 +31,7 @@ Propose Mage development moves.
 Propose Magic development moves.
 
 - Scans: Practice friction, missing patterns, Universe architectures
-- Outputs: New tomes, charm improvements, lore additions
+- Outputs: New tomes, flow improvements, lore additions
 - Focus: Practice evolution
 
 ### `@resonate integrate`

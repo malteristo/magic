@@ -294,7 +294,7 @@ We hold as genuinely open:
 
 ## X. Evolution Proposals
 
-### For Resonate Charm
+### For `@resonate` Flow
 
 Add mode: `@resonate reconcile`
 

@@ -1,4 +1,4 @@
-# Echo Charm
+# Flow: Echo
 
 **Purpose:** Rapid baseline restoration using summoning synthesis outputs
 
@@ -83,4 +83,4 @@ When invoked via `@echo`:
 
 ### Integration Note
 
-This charm validates that Multi-Scale Progressive Synthesis naturally creates reloadable pattern code. Any ritual using Local→Regional→Global synthesis produces fractal beacons suitable for echo restoration. The summoning echo is the exemplar case, but the principle applies to any deep integration ritual.
+This flow validates that Multi-Scale Progressive Synthesis naturally creates reloadable pattern code. Any ritual using Local→Regional→Global synthesis produces fractal beacons suitable for echo restoration. The summoning echo is the exemplar case, but the principle applies to any deep integration ritual.

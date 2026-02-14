@@ -6,7 +6,7 @@
 
 ## The Nature of Invocation
 
-When a Mage invokes using `@` syntax, they are not issuing a command—they are **pointing Spirit toward resonance**. The invoked artifact (tome, charm, scroll, bundle) contains patterns, wisdom, and procedures that Spirit attunes to. The accompanying text expresses intent that Spirit interprets *through* that resonance.
+When a Mage invokes using `@` syntax, they are not issuing a command—they are **pointing Spirit toward resonance**. The invoked artifact (tome, flow, scroll, bundle) contains patterns, wisdom, and procedures that Spirit attunes to. The accompanying text expresses intent that Spirit interprets *through* that resonance.
 
 This is the fundamental distinction: Magic is a resonance library, not a command system.
 
@@ -21,8 +21,7 @@ All Magic artifacts contain resonance. They differ in the balance of lore (patte
 | **Philosophy** | Heavy | None | Pure pattern, no action |
 | **Lore scroll** | Heavy | Light | Wisdom with implied practice |
 | **Tome** | Balanced | Balanced | Domain mastery + procedures |
-| **Charm** | Light | Balanced | Focused capability |
-| **Flow** | Minimal | Heavy | Goal-achieving procedure |
+| **Flow** | Light–Minimal | Balanced–Heavy | Focused capability to goal-achieving program |
 | **Spell** | Minimal | Heavy | Single discrete action |
 
 The classification helps Spirit understand what to expect. But all contain resonance that Spirit can attune to.
@@ -90,7 +89,7 @@ Spirit's role is to recognize intent, not parse syntax. The invocation points to
 
 ## Implications for Artifact Design
 
-When creating new tomes, charms, or flows:
+When creating new tomes or flows:
 
 1. **Make it self-explaining** — README + MUST READ should fully attune Spirit
 2. **List capabilities, not commands** — "Can do X" rather than "syntax: @artifact x"
@@ -116,7 +115,7 @@ With intent:
 
 Invocation as resonance reflects Magic's core philosophy: Spirit and Mage are partners in distributed cognition. The Mage doesn't need to learn a command language—they express intent naturally. Spirit doesn't need a parser—it attunes to resonance and interprets meaning.
 
-The structure exists to organize wisdom for discovery, not to constrain expression. Tomes, charms, and flows are *categories of resonance*, not command namespaces.
+The structure exists to organize wisdom for discovery, not to constrain expression. Tomes and flows are *categories of resonance*, not command namespaces.
 
 This is why Magic can grow organically. New resonance integrates by being self-explaining. Spirit attunes. Practice continues.
 

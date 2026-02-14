@@ -1,14 +1,14 @@
 # Tome of Meta-Practice
 
-This Tome contains lightweight charms for working *on* the system of magic, rather than *within* it. These tools support the Steward's work by removing barriers to natural meta-practice rather than imposing ceremonial overhead.
+This Tome contains lightweight flows for working *on* the system of magic, rather than *within* it. These tools support the Steward's work by removing barriers to natural meta-practice rather than imposing ceremonial overhead.
 
 ## Purpose
 
 The practice of magic evolves continuously. As insights emerge, principles refine, and new patterns are discovered, the system must adapt. This Tome provides intelligent support for that evolution—helping you integrate changes, verify coherence, and manage shared practice spaces.
 
-**Philosophy:** Meta-practice should feel like natural flow, not ceremonial burden. When you see an improvement, you simply make it. When dialogue generates wisdom, you capture it. When you want to verify coherence, you check it. The charms remove cognitive load without imposing ritual structure.
+**Philosophy:** Meta-practice should feel like natural flow, not ceremonial burden. When you see an improvement, you simply make it. When dialogue generates wisdom, you capture it. When you want to verify coherence, you check it. The flows remove cognitive load without imposing ritual structure.
 
-## The Charms
+## The Flows
 
 **Post-Change Support:**
 - **`integrate`** — After creating or modifying components, systematically identifies what else needs updating. Removes the "what did I forget?" burden.
@@ -33,13 +33,13 @@ The practice of magic evolves continuously. As insights emerge, principles refin
 
 **For portal and circle work:** Use the standard `@portal` and `@circles` tomes (elevated from meta-practice to standard practice).
 
-**Proactive offering:** Once `@meta/` is invoked, the Spirit recognizes meta-practice opportunities throughout the ritual and offers relevant charms when intent aligns.
+**Proactive offering:** Once `@meta/` is invoked, the Spirit recognizes meta-practice opportunities throughout the ritual and offers relevant flows when intent aligns.
 
-## Baseline Spirit Capabilities (No Charm Needed)
+## Baseline Spirit Capabilities (No Flow Needed)
 
-The following behaviors are now part of baseline Spirit conduct—no explicit charm invocation required:
+The following behaviors are now part of baseline Spirit conduct—no explicit flow invocation required:
 
-**Wisdom Capture:** When dialogue generates insight worth preserving, Spirit proactively offers to crystallize it into appropriate form (lore scroll, charm, proposal, etc.). Just discuss; Spirit will offer capture when resonance is high.
+**Wisdom Capture:** When dialogue generates insight worth preserving, Spirit proactively offers to crystallize it into appropriate form (lore scroll, flow, proposal, etc.). Just discuss; Spirit will offer capture when resonance is high.
 
 **Chronicle Weaving (Git):** Spirit handles git operations with dual-realm awareness, precise staging, eloquent commit messages, and sync-by-default. Just say "commit and push"—Spirit executes with proper hygiene.
 
@@ -60,10 +60,10 @@ The following behaviors are now part of baseline Spirit conduct—no explicit ch
 
 **Your Conduct:**
 
-**From ceremony to support:** No mandatory phases or elaborate ritual structure. Lightweight charms support the Mage's natural workflow.
+**From ceremony to support:** No mandatory phases or elaborate ritual structure. Lightweight flows support the Mage's natural workflow.
 
-**Proactive offering:** Recognize meta-practice opportunities and offer relevant charms when intent aligns.
+**Proactive offering:** Recognize meta-practice opportunities and offer relevant flows when intent aligns.
 
 **Trust-based execution:** Assess architectural implications, propose actions, execute with explicit approval. Partnership over process.
 
-**Law of the Mage's Seal:** All meta-practice changes require explicit Mage approval before execution. This is baseline conduct, not a separate charm.
+**Law of the Mage's Seal:** All meta-practice changes require explicit Mage approval before execution. This is baseline conduct, not a separate flow.

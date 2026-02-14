@@ -320,9 +320,9 @@ Spirit celebrates completion:
 
 ## VII. Integration with Existing Magic
 
-### The Todo Charm (Enhanced)
+### The Todo Flow (Enhanced)
 
-The standard `system/tomes/charms/todo/` charm provides basic task tracking. The ADHD Tome enhances this with:
+The standard todo flow (retired from `system/tomes/charms/todo/`, now archived) provides basic task tracking. The ADHD Tome enhances this with:
 
 **ADHD-Specific Features:**
 - Automatic decomposition to atomic tasks

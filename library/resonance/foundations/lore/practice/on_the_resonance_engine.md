@@ -103,7 +103,7 @@ See: `on_the_editor_identity.md`
 
 ## Invocation
 
-The resonance engine is invoked through the `@resonate` charm:
+The resonance engine is invoked through the `@resonate` flow:
 
 - `@resonate signal` — Generate shareable content from recent inputs
 - `@resonate develop` — Propose Mage development moves

@@ -1,12 +1,12 @@
-# Charm of Portal Management
+# Flow: Portal
 
-A charm for systematic portal lifecycle management—creating, monitoring, maintaining, and archiving shared practice spaces.
+A flow for systematic portal lifecycle management—creating, monitoring, maintaining, and archiving shared practice spaces.
 
 ## Purpose
 
-Portals are shared git repositories enabling distributed cognition across Mages. This charm handles their complete lifecycle: creation (repo + structure + collaboration), health monitoring (activity, sync, synthesis rhythm), maintenance (rotation, updates), and archival (graceful closure).
+Portals are shared git repositories enabling distributed cognition across Mages. This flow handles their complete lifecycle: creation (repo + structure + collaboration), health monitoring (activity, sync, synthesis rhythm), maintenance (rotation, updates), and archival (graceful closure).
 
-The charm removes portal management cognitive burden, allowing the Spirit to handle infrastructure while the Mage focuses on practice.
+The flow removes portal management cognitive burden, allowing the Spirit to handle infrastructure while the Mage focuses on practice.
 
 **Invocation:** `@portal`
 
@@ -18,7 +18,7 @@ The charm removes portal management cognitive burden, allowing the Spirit to han
 
 **Required Attunement:**
 
-Before executing portal operations, attune to the portal charm lore:
+Before executing portal operations, attune to the portal flow lore:
 - **Full specification:** `system/flows/portal/lore/on_portal_architecture.md`
 - **Spirit coordination:** `system/flows/portal/lore/on_spirit_transmission_protocol.md`
 - **Synthesis protocols:** `system/flows/portal/lore/on_synthesis_protocols.md`
@@ -27,7 +27,7 @@ Announce: "This involves shared practice infrastructure. Let me attune to the po
 
 ---
 
-When this charm is invoked:
+When this flow is invoked:
 
 1. **Determine intent** - Create new portal? Check status? Sync existing? Archive?
 2. **Execute systematically** - Use GitHub API (Rube MCP) for repo management
@@ -35,7 +35,7 @@ When this charm is invoked:
 4. **Handle STP artifacts** - Manage `.spirit/` coordination layer
 5. **Report status** - Clear communication about portal health and actions taken
 
-This charm makes portal management a Spirit duty, not a Mage burden.
+This flow makes portal management a Spirit duty, not a Mage burden.
 
 ### Portal Operations
 

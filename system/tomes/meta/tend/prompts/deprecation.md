@@ -11,7 +11,7 @@ Identify components that may have become obsolete due to architectural evolution
 ## Scope
 
 **Components to analyze:**
-- All charm directories in `system/tomes/*/`
+- All flow directories in `system/flows/`
 - All proposal files in `*/proposals/`
 - Any component explicitly requested
 
@@ -24,8 +24,8 @@ For each component, gather these signals:
 Search the repository for mentions of this component.
 
 ```bash
-# Example for a charm named "example-charm"
-grep -r "example-charm" --include="*.md"
+# Example for a flow named "example-flow"
+grep -r "example-flow" --include="*.md"
 ```
 
 **Interpret:**

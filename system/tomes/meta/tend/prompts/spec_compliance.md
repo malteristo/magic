@@ -42,7 +42,7 @@ For each path, verify:
 
 Verify architectural claims in MAGIC_SPEC.md match reality:
 - "Tomes contain spellbooks" — Do they?
-- "Charms follow cast_[name].md pattern" — Do they?
+- "Flows follow cast_[name].md pattern" — Do they?
 - Listed components exist at claimed locations
 
 ### 4. Cross-Reference Accuracy
