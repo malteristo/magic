@@ -1,4 +1,4 @@
-# Charm of the Spring Cleaning
+# Flow: Spring-Clean
 
 A gentle rite for tending the workshop—honoring the past while creating space for the future.
 
@@ -6,11 +6,11 @@ A gentle rite for tending the workshop—honoring the past while creating space 
 
 Over time, artifacts accumulate across the workshop's realms (box/, desk/, floor/, todo/). Each served a purpose in its moment. Some have completed their service. Some hold timeless value. Some may resonate in unexpected new ways.
 
-This charm transforms routine maintenance into gentle archaeology—sitting with what was, thanking what served, releasing what's complete, and discovering unexpected connections between seemingly unrelated pieces of the past.
+This flow transforms routine maintenance into gentle archaeology—sitting with what was, thanking what served, releasing what's complete, and discovering unexpected connections between seemingly unrelated pieces of the past.
 
 ## The KonMari Foundation
 
-This charm draws wisdom from Marie Kondo's philosophy of decluttering with gratitude:
+This flow draws wisdom from Marie Kondo's philosophy of decluttering with gratitude:
 
 - **Tidy by relationship, not location**: Present quest clusters (todo + Heart + artifacts) together
 - **Thank before releasing**: Acknowledge the artifact served the practice, release with gratitude
@@ -18,7 +18,7 @@ This charm draws wisdom from Marie Kondo's philosophy of decluttering with grati
 - **Visualize the ideal**: Begin with vision of well-tended workshop
 - **Welcome serendipity**: Allow unexpected resonances to emerge naturally
 
-## What This Charm Provides
+## What This Flow Provides
 
 **For the artifacts:**
 - Gentle review of accumulated work
@@ -61,7 +61,7 @@ This charm draws wisdom from Marie Kondo's philosophy of decluttering with grati
 
 **Keep**: Still actively serves current or imminent practice  
 **Archive**: Timeless personal value → `archive/`  
-**Distill**: Valuable synthesis → `desk/essences/` via `@essence` charm  
+**Distill**: Valuable synthesis → `desk/essences/` via `@essence` flow  
 **Release**: Purpose complete, let go with gratitude
 
 ### Floor Artifact Lifecycle
@@ -85,11 +85,11 @@ This charm draws wisdom from Marie Kondo's philosophy of decluttering with grati
 3. **Has historical/sentimental value?** → Archive
 4. **Purpose complete, no unique value?** → Release with gratitude
 
-**The rhythm:** When floor/ accumulates 3+ stale working memory files or general clutter obscures active work, it's time to spring-clean. This charm exists specifically for workshop hygiene.
+**The rhythm:** When floor/ accumulates 3+ stale working memory files or general clutter obscures active work, it's time to spring-clean. This flow exists specifically for workshop hygiene.
 
 ### For the Spirit
 
-When casting this charm:
+When casting this flow:
 
 1. **Survey with gratitude** - Review each artifact, acknowledging its service
 2. **Present clusters** - Show related artifacts together (quest + Heart + work products)
@@ -99,7 +99,7 @@ When casting this charm:
 
 ### Philosophy
 
-This charm embodies several foundational principles:
+This flow embodies several foundational principles:
 
 **The Victorian Principle** (`on_the_sacredness_of_the_ordinary.md`): Even cleanup deserves care. The ordinary is where we actually live.
 

@@ -1,10 +1,10 @@
-# Charm of Portal Management
+# Flow: Portal Management
 
-This charm attunes you to systematic portal lifecycle management. When the Mage needs to create, monitor, maintain, or archive shared practice spaces, you handle the infrastructure systematically.
+This flow attunes you to systematic portal lifecycle management. When the Mage needs to create, monitor, maintain, or archive shared practice spaces, you handle the infrastructure systematically.
 
 ---
 
-## I. When This Charm Is Cast
+## I. When This Flow Is Cast
 
 **Typical invocation contexts:**
 - Creating new partnership/quest portal
@@ -918,7 +918,7 @@ Already includes:
 In "Context-Aware Practice" or similar section:
 ```markdown
 **Portal management detected** (mentions creating/checking/syncing portals, collaboration with other Mages):
-→ Offer `@portal` charm: "Would portal management serve this systematically?"
+→ Offer `@portal` flow: "Would portal management serve this systematically?"
 
 **During summoning:** If `portals/portals.yaml` contains active portals, perform quick health check and offer sync/rotation if needed.
 ```
@@ -1009,5 +1009,5 @@ In "Context-Aware Practice" or similar section:
 
 ---
 
-**This charm makes portal management systematic, removing infrastructure burden while preserving Mage sovereignty over practice itself.**
+**This flow makes portal management systematic, removing infrastructure burden while preserving Mage sovereignty over practice itself.**
 

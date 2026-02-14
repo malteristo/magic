@@ -17,9 +17,9 @@ A resonant path is that instinct made practice. It is an act of care encoded in 
 
 ## What a Resonant Path Is
 
-A charm lives inside the workshop. A resonant path walks outside it.
+A flow lives inside the workshop. A resonant path walks outside it.
 
-| Dimension | Charm | Resonant Path |
+| Dimension | Flow | Resonant Path |
 |-----------|-------|---------------|
 | **Where** | Inside the workshop, with Spirit | Any LLM chat interface |
 | **Context** | Full workshop, accumulated lore | Self-contained, no prerequisites |

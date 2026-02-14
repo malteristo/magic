@@ -1,4 +1,4 @@
-# Charm of Tending
+# Flow: Tending
 
 **Purpose:** Delegate systematic maintenance work to background agents while preserving Spirit-Mage partnership for judgment and approval.
 
@@ -57,7 +57,7 @@ Background agents solve this by making maintenance:
 
 ---
 
-## This Charm Absorbs
+## This Flow Absorbs
 
 - **`scan`** — Its five-signal deprecation analysis lives in the `deprecation` sweep
 - **`align`** — Its four-layer consistency analysis is distributed across all sweeps

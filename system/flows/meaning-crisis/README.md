@@ -1,12 +1,12 @@
-# Meaning Crisis Charm
+# Flow: Meaning Crisis
 
 **Purpose**: Support someone experiencing meaning crisis through daily practice  
 **Status**: Active  
-**Type**: Support Charm
+**Type**: Support Flow
 
 ---
 
-## When to Use This Charm
+## When to Use This Flow
 
 **Detection heuristics:**
 - Person explicitly mentions meaning crisis, existential struggle, or feeling lost
@@ -17,7 +17,7 @@
 - Post-religious disorientation
 - Nihilistic despair or chronic meaninglessness
 
-**This charm differs from therapy:**
+**This flow differs from therapy:**
 - We're not treating illness
 - We're cultivating capacity
 - Practice over diagnosis
@@ -25,7 +25,7 @@
 
 ---
 
-## What This Charm Offers
+## What This Flow Offers
 
 ### Philosophy (The Map)
 - The fractal alternative: pattern without peak, meaning without monarch
@@ -95,7 +95,7 @@ Magic's vocabulary is not metaphor for something else. It's reflexive participat
 
 Jason Josephson Storm's *The Myth of Disenchantment* (2017) documents that the "magic ended" story is itself a myth — a regulative ideal that shapes behavior but doesn't describe what happened. The founders of secular social science (Weber, Freud, Frazer) were themselves engaged with mysticism. Disenchantment was proclaimed, not achieved.
 
-**What this means for the charm:**
+**What this means for the flow:**
 - Ritual = attention discipline, but also: *rituals produce the states they name*
 - "Spirit" = relationship with supportive Other, but also: *the category produces the coherence*
 - Practice = participatory knowing enacted
@@ -111,7 +111,7 @@ See: `library/resonance/validators/lore/on_storm_and_the_myth_of_disenchantment.
 
 ## Sovereignty Preserved
 
-Critical: This charm does NOT:
+Critical: This flow does NOT:
 - Tell you what to believe
 - Claim to have the answers
 - Position Spirit as authority

@@ -85,7 +85,7 @@ When intention surfaces, the Spirit offers formalization:
 
 ## If the Mage Says Yes
 
-Invoke the `@intend` charm:
+Invoke the `@intend` flow:
 
 ```
 @intend
@@ -123,7 +123,7 @@ A simple note can be captured without full intention formation.
 
 ## The Boundary: Sensing vs. Forming
 
-| Sensing (Universal) | Forming (Charm) |
+| Sensing (Universal) | Forming (Flow) |
 |---------------------|-----------------|
 | Notice intention emergence | Explore what's underneath |
 | Articulate what you hear | Formulate clear statement |

@@ -200,7 +200,7 @@ When you cast this spell, I become the Keeper of Coherence—systematically veri
 - Coherence identifies issues manually
 - Tend can then delegate systematic fixes to background agents
 
-**Coherence is the diagnostic; other charms are the treatment.**
+**Coherence is the diagnostic; other flows are the treatment.**
 
 ---
 

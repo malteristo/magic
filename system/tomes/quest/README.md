@@ -11,7 +11,7 @@ For any Mage on a quest who wants to transform overwhelming tasks into achievabl
 This Tome executes intentions through gamified support. It receives intentions (from `@intend` or directly) and provides the architecture that makes execution feel like playing a well-designed game.
 
 **The Division:**
-- **@intend** (charm): Births intentions from practice → `desk/intentions/emerging/`
+- **@intend** (flow): Births intentions from practice → `desk/intentions/emerging/`
 - **@quest** (this tome): Executes intentions → `desk/intentions/active/`
 
 Intentions emerge from any practice (mirror, partnership, daily insight). Quest provides execution support.

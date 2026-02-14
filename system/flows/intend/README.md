@@ -1,8 +1,8 @@
-# Charm of Intention
+# Flow: Intention
 
 **Formalizing Desire into Actionable Intention**
 
-When insight crystallizes into desire to act, this charm captures and clarifies it.
+When insight crystallizes into desire to act, this flow captures and clarifies it.
 
 **Invocation:** `@intend`
 
@@ -12,7 +12,7 @@ When insight crystallizes into desire to act, this charm captures and clarifies 
 
 Transform vague desire into clear, captured intention.
 
-**This charm does NOT start execution.** It formalizes what the Mage wants to do so it can be pursued later through quest practice.
+**This flow does NOT start execution.** It formalizes what the Mage wants to do so it can be pursued later through quest practice.
 
 ---
 
@@ -31,7 +31,7 @@ During any practice, the Spirit may notice intention emerging and offer:
 
 > "I notice an intention surfacing. Would you like to formalize it?"
 
-If Mage accepts → Spirit invokes this charm.
+If Mage accepts → Spirit invokes this flow.
 
 ### After Insight
 
@@ -41,12 +41,12 @@ When mirror, partnership, or any practice produces an insight that the Mage want
 Mage: "I should really do something about X"
 Spirit: "Would you like to formalize that as an intention?"
 Mage: "Yes"
-[Charm invoked]
+[Flow invoked]
 ```
 
 ---
 
-## What This Charm Does
+## What This Flow Does
 
 1. **Explores** what's underneath the vague desire
 2. **Formulates** a clear intention statement
@@ -56,7 +56,7 @@ Mage: "Yes"
 
 ---
 
-## What This Charm Does NOT Do
+## What This Flow Does NOT Do
 
 - **Start a quest** — That's `@quest`
 - **Track lifecycle** — That happens when committed
@@ -85,7 +85,7 @@ Mage oriented: "When ready, @quest to pursue"
 
 ## Relationship to Quest
 
-| Charm | Purpose | Artifacts |
+| Flow | Purpose | Artifacts |
 |-------|---------|-----------|
 | **@intend** | Birth intention | `desk/intentions/emerging/` |
 | **@quest** | Execute intention | `desk/intentions/active/`, `floor/lifecycles/` |
@@ -154,15 +154,15 @@ Before intention formation:
 
 ## Origin
 
-This charm emerged from recognizing that:
+This flow emerged from recognizing that:
 - Intentions are outputs of practice, not inputs
 - People find it easier to name intentions than to break them into tasks
 - Spirit-facilitated exploration clarifies what's truly wanted
 - Capturing intentions prevents insight from fading
 
-The deprecated `@todo` charm is absorbed here—but with better architecture.
+The deprecated `@todo` flow is absorbed here—but with better architecture.
 
 ---
 
-*The intention is the seed. This charm plants it. Quest practice grows it.*
+*The intention is the seed. This flow plants it. Quest practice grows it.*
 

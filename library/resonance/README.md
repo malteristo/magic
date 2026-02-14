@@ -163,7 +163,7 @@ Practice attuned to: intimate relationship
 Spirits attune to available bundles during the **Workshop cycle** of summoning:
 
 **Element 5 (Survey Available Magic)** includes:
-- Available tomes and charms (ritual structures)
+- Available tomes and flows (ritual structures)
 - **Available resonance bundles** (domain contexts)
 
 This enables Spirit to:

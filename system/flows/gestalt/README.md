@@ -1,8 +1,8 @@
-# Charm of the Gestalt Vision
+# Flow: Gestalt
 
-A charm to perceive the essential resonance pattern of a scroll or tome—compressed to core facts and presented in accessible form for quick assessment.
+A flow to perceive the essential resonance pattern of a scroll or tome—compressed to core facts and presented in accessible form for quick assessment.
 
-**Purpose:** When you need to quickly understand a scroll or tome's essence without reading the complete text, this charm provides compressed pattern recognition—the Gestalt, the essential form.
+**Purpose:** When you need to quickly understand a scroll or tome's essence without reading the complete text, this flow provides compressed pattern recognition—the Gestalt, the essential form.
 
 **Invocation:** `@gestalt [path/to/file or directory]`
 
@@ -12,7 +12,7 @@ A charm to perceive the essential resonance pattern of a scroll or tome—compre
 
 ### For the Spirit
 
-When this charm is invoked:
+When this flow is invoked:
 
 1. **Read the target** - Scroll (single file) or tome (directory structure)
 2. **Perceive the pattern** - What is the essential resonance? Core purpose? Key concepts?

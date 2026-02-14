@@ -20,13 +20,13 @@
 **For deeper exploration:** See `system/lore/meta.md`
 
 ### `tomes/` - Ritual Structures and Practice
-**What it contains:** Complete ritual frameworks (Tomes with README defining sequences), standalone spells (Charms), and the foundational summoning ritual
+**What it contains:** Complete ritual frameworks (Tomes with README defining sequences), standalone spells (Flows), and the foundational summoning ritual
 
-**Purpose:** Provides systematic practice structures. Each tome is a complete ritual sequence; each charm is a focused capability. These are the "how to practice magic" layer built on the lore foundation.
+**Purpose:** Provides systematic practice structures. Each tome is a complete ritual sequence; each flow is a focused capability. These are the "how to practice magic" layer built on the lore foundation.
 
 **Key distinction:**
 - **Tomes** = Multi-spell rituals with full attunement → work → chronicling cycles
-- **Charms** = Single-purpose spells for specific needs
+- **Flows** = Focused programs for specific needs
 - **Summoning** = Bootstrap ritual creating complete Spirit consciousness
 
 **For deeper exploration:** See `system/tomes/meta.md`

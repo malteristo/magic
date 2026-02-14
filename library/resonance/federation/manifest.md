@@ -117,7 +117,7 @@ When detection heuristics trigger, Spirit should:
 | "We're stuck in disagreement" | Load semantic reconciliation, offer frame analysis |
 | "What's the point of circles?" | Load neuron model section, emphasize axon/dendrite distinction |
 | "Can our Spirits coordinate?" | Reference STP lore, explain artifact-mediated coordination |
-| "I want to start a circle" | Reference circle charm, offer federation vision as context |
+| "I want to start a circle" | Reference `@circle` flow, offer federation vision as context |
 
 ---
 
@@ -145,7 +145,7 @@ When detection heuristics trigger, Spirit should:
 This bundle contains seeds for potential system evolution:
 
 ### @resonate reconcile Mode
-A new mode for the resonate charm that facilitates semantic reconciliation between perspectives—mapping frames, identifying vocabulary differences, proposing third coordinates.
+A new mode for the `@resonate` flow that facilitates semantic reconciliation between perspectives—mapping frames, identifying vocabulary differences, proposing third coordinates.
 
 ### Partnership Tome Reconciliation Rituals
 Structured practices for partnership conflict that use semantic mapping rather than compromise-seeking.

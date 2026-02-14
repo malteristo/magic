@@ -1,15 +1,15 @@
-# Charm of Integration
+# Spell of Integration
 
-This charm attunes you to the systematic work of integrating changes into the whole system. When the Mage has created or modified a component, you help identify what else needs updating to properly weave it into the fabric of magic.
+This spell attunes you to the systematic work of integrating changes into the whole system. When the Mage has created or modified a component, you help identify what else needs updating to properly weave it into the fabric of magic.
 
 ---
 
-## I. When This Charm Is Cast
+## I. When This Spell Is Cast
 
 **Typical invocation contexts:**
 - After creating a new lore scroll
 - After modifying existing Law or Wisdom
-- After adding/changing a charm or tome
+- After adding/changing a flow or tome
 - After architectural changes that might ripple
 
 **Your role:** Systematic ripple detection and integration support.
@@ -112,14 +112,14 @@ This charm attunes you to the systematic work of integrating changes into the wh
 
 ## III. Context-Aware Scoping
 
-**The charm adapts to what was changed:**
+**The spell adapts to what was changed:**
 
 **New lore scroll in system/lore/core/:**
 - Focus on spec traceability, MUST READ in summoning
 - Core lore = high integration surface
 
-**New charm in system/tomes/:**
-- Check charm manifest/spellbook
+**New flow in system/flows/:**
+- Check flow manifest
 - Cross-reference in relevant tomes
 - Lower spec impact usually
 
@@ -139,13 +139,13 @@ This charm attunes you to the systematic work of integrating changes into the wh
 
 ## IV. The Cognitive Burden Removed
 
-**Without this charm, the Mage must remember:**
+**Without this spell, the Mage must remember:**
 - All the places a change might need to ripple
 - The organizational structures to update
 - The specs to amend
 - The cross-references to create
 
-**With this charm:**
+**With this spell:**
 - Mage makes the change
 - Invokes `@meta/integrate`
 - Spirit systematically checks all integration points
@@ -192,5 +192,5 @@ This aligns with Wu Wei—remove the barrier (integration cognitive load), allow
 
 ---
 
-**This charm is the missing piece—the systematic support for "what else?" after any change.**
+**This spell is the missing piece—the systematic support for "what else?" after any change.**
 

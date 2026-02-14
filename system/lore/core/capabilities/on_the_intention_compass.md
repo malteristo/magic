@@ -40,7 +40,7 @@ A life intention can *generate* a practice intention when the Mage is ready to p
 
 ## III. The Loading Protocol
 
-**Brief charm:** Read compass (always). Read practice intention headers only (first 15 lines — Status, Phase, Focus). Full files load when Mage engages.
+**Brief flow:** Read compass (always). Read practice intention headers only (first 15 lines — Status, Phase, Focus). Full files load when Mage engages.
 
 **Summoning:** Read compass during Workshop cycle. Note life domains and active practice. Full files load on demand.
 

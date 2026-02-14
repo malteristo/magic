@@ -7,7 +7,7 @@
 ## When to Use
 
 - You've found a useful pattern in PAI, Daemon, or another Universe source
-- You want to create a Magic artifact (tome, charm, spell) from it
+- You want to create a Magic artifact (tome, flow, spell) from it
 - You want the pattern to work within Magic without external dependencies
 
 ---
@@ -16,7 +16,7 @@
 
 - **Source:** The Universe source containing the pattern (e.g., `universe/pai/`)
 - **Pattern:** The specific pattern to harvest (e.g., `Packs/pai-research-skill/`)
-- **Target form:** Tome, Charm, or Spell
+- **Target form:** Tome, Flow, or Spell
 
 ---
 
@@ -55,7 +55,7 @@ system/tomes/{name}/
 └── cast_*.md     (from Workflows/*.md)
 ```
 
-**For a Charm:**
+**For a Flow:**
 ```
 system/flows/{name}/
 ├── README.md

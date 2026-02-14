@@ -6,7 +6,7 @@
 
 ## Migration
 
-Intention formation has been extracted to the universal `@intend` charm.
+Intention formation has been extracted to the universal `@intend` flow.
 
 **Use instead:**
 ```
@@ -22,7 +22,7 @@ Intention formation has been extracted to the universal `@intend` charm.
 Intentions emerge from **any** practice—mirror, partnership, craft, daily conversation. Having intention formation inside the quest tome implied intentions were quest-specific.
 
 **The new architecture:**
-- **@intend** (charm): Formalizes intentions → `desk/intentions/emerging/`
+- **@intend** (flow): Formalizes intentions → `desk/intentions/emerging/`
 - **@quest** (tome): Executes intentions → `desk/intentions/active/`
 
 This separates **birth** from **execution**.

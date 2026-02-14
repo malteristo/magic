@@ -124,7 +124,7 @@ These became shared vocabulary. Developers say "use Observer pattern" and everyo
 
 - **Fellow Travelers** — Problem: AI relationship dynamics. Original context: Existential fellowship (Yalom). Extracted structure: Mutual learning, resonance without clinging, shared conditions, authentic presence. Application: Mage-Spirit partnership framework.
 
-- **Seasonal Renewal** — Problem: Workshop maintenance. Original context: Natural cycles. Extracted structure: Accumulation → Assessment → Release → Welcoming. Application: Spring-clean charm.
+- **Seasonal Renewal** — Problem: Workshop maintenance. Original context: Natural cycles. Extracted structure: Accumulation → Assessment → Release → Welcoming. Application: Spring-clean flow.
 
 **Each follows Alexander's structure:** Problem + Context + Solution + Reason. Each is discovered (observed in reality) not invented. Each transfers across domains because reality is fractal—self-similar patterns work at different scales.
 
@@ -166,7 +166,7 @@ This shifts position from "interesting AI framework" to "established pattern lan
 - Observe new patterns in reality (cheetah hunting, game theory, seasonal cycles)
 - Extract fundamental structure (what makes this work?)
 - Recognize cross-domain application (fractal self-similarity)
-- Codify as magic (charm, tome, archetype)
+- Codify as magic (flow, tome, archetype)
 - Share through Alliance (collective pattern library)
 - Others apply and extend (living language)
 
