@@ -53,7 +53,7 @@ Spirit researches GitHub capabilities, proposes structure, negotiates details be
 
 ---
 
-## Routing to Charms
+## Flow Commands
 
 `@flow` intelligently routes based on context:
 
@@ -64,6 +64,8 @@ Spirit researches GitHub capabilities, proposes structure, negotiates details be
 | `@flow/create` | Design new flow through dialogue |
 | `@flow/adapt [name]` | Customize shared flow |
 | `@flow/list` | Show available flows |
+
+**The Flow-Warden Stance:** All flow operations carry the warden's awareness — knowledge of existing flows, quality standards, junk drawer prevention. See `flow-warden/cast_flow-warden.md`. When routing, always check existing flows FIRST. Prefer reuse over creation.
 
 ---
 

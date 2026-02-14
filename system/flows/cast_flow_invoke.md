@@ -66,9 +66,10 @@ For any `[ADAPT: ...]` markers not yet personalized:
 
 ### 5. Execute
 
-Run the flow following the Solver Stance:
-- Progress reporting as appropriate
-- Variance handling
+Run the flow following the Solver Stance, with warden awareness of experience quality:
+- Progress reporting proportional to execution time
+- Variance handling with helpful explanations
+- Error messages that tell the Mage what happened AND what to do
 - Learning capture
 
 ### 6. Report

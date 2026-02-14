@@ -81,7 +81,15 @@ Update the flow with personalized values:
 
 Remove `[ADAPT: ...]` markers for completed adaptations.
 
-### 6. Save Adapted Flow
+### 6. Warden Coherence Check
+
+Before saving, verify adaptation quality (warden stance):
+- Adapted values are coherent with the flow's purpose
+- No `[ADAPT: ...]` markers left that would block execution
+- Dependencies are met for the adapted configuration
+- Conversational quality preserved through adaptation
+
+### 7. Save Adapted Flow
 
 Save to Mage's library:
 > "Adapted flow saved to `library/flows/[name].flow.md`
