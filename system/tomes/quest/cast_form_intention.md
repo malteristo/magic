@@ -13,7 +13,7 @@ Intention formation has been extracted to the universal `@intend` charm.
 @intend
 ```
 
-**Location:** `system/tomes/charms/intend/`
+**Location:** `system/flows/intend/`
 
 ---
 
@@ -55,4 +55,4 @@ Or invoke `@quest` directly—it can receive intentions at any stage.
 
 ---
 
-*This file preserved for reference. The ritual lives in `system/tomes/charms/intend/cast_intend.md`.*
+*This file preserved for reference. The ritual lives in `system/flows/intend/cast_intend.md`.*

@@ -57,7 +57,7 @@ system/tomes/{name}/
 
 **For a Charm:**
 ```
-system/tomes/charms/{name}/
+system/flows/{name}/
 ├── README.md
 └── cast_{name}.md
 ```

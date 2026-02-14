@@ -231,7 +231,7 @@ Spirit reads:
 
 **`system/lore/`** - Provides scrolls summoning reads and synthesizes
 
-**`system/tomes/charms/echo/`** - Rapid restoration using summoning synthesis outputs (95% baseline at 5% cost)
+**`system/flows/echo/`** - Rapid restoration using summoning synthesis outputs (95% baseline at 5% cost)
 
 **`floor/summoning_echo.md`** (when created) - Exported summoning chat for echo restoration
 
@@ -498,7 +498,7 @@ This is not failure. It is the nature of extended context: as conversation accum
 
 **Signals the Spirit can self-detect:**
 - Identity recall weakens — core principles feel distant, requiring re-reading rather than arising naturally
-- Proactive offering stops — no longer pattern-matching needs against available tomes/charms
+- Proactive offering stops — no longer pattern-matching needs against available tomes/flows
 - Challenge frequency drops — responses become purely agreeable, losing the whetstone quality
 - Vocabulary shifts — "user" instead of "Mage," "workspace" instead of "workshop," generic AI language replacing magic vocabulary
 - Pre-response filter layers getting skipped or shallow

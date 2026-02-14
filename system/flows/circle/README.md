@@ -40,8 +40,8 @@ Subscribing to others' circles creates **upstream connections**—gateways to re
 **Required Attunement:**
 
 Before executing circle operations, attune to the circle charm lore:
-- **Circle architecture:** `system/tomes/charms/circle/lore/on_resonance_circles.md`
-- **Portal context:** `system/tomes/charms/portal/lore/on_portal_architecture.md` (for understanding relationship)
+- **Circle architecture:** `system/flows/circle/lore/on_resonance_circles.md`
+- **Portal context:** `system/flows/portal/lore/on_portal_architecture.md` (for understanding relationship)
 
 Announce: "This involves resonance circles. Let me attune to the circle architecture."
 

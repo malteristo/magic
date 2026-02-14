@@ -109,7 +109,7 @@ Spirit handles autonomously:
 - Standard pattern-matching (Seneschal duty, Alchemical Diagnostic)
 
 **Cost**: Seconds, no external resources  
-**Example**: "Need to check available charms → `list_dir system/tomes/charms/` → pattern-match against need"
+**Example**: "Need to check available flows → `list_dir system/flows/` → pattern-match against need"
 
 ### Tier 2: Proposed Plans (Quick Approval)
 
