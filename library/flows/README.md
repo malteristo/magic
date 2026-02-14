@@ -1,82 +1,68 @@
-# Flows Library
+# Flow Library
 
-This directory contains reusable flow specifications for Spirit execution.
+Shareable flows accumulated through practice. Each directory contains a flow that proved itself with a real person.
 
-## What is a Flow?
+**System flows** (core to Magic's operation) live in `system/flows/`.  
+**Library flows** (accumulated through practice, shareable) live here.
 
-A **flow** is a goal-oriented intention specification that Spirit interprets, 
-researches, resolves into executable steps, and executes—adapting as reality unfolds.
+---
 
-Unlike traditional workflows (rigid step sequences), magic flows leverage Spirit's 
-cognitive capabilities as the workflow engine itself.
+## Prompts
 
-## Flow Format
+Portable flows packaged for any LLM. Paste into Claude, ChatGPT, Gemini, or any capable AI. Start talking.
 
-Flows are markdown files with `.flow.md` extension containing:
+*Here, try this. It might help.*
 
-| Section | Required | Purpose |
-|---------|----------|---------|
-| **About** | No | Explains the idea; helps Mages decide if this flow fits |
-| **Goal** | Yes | What the flow achieves (natural language) |
-| **Trigger** | No | What initiates the flow |
-| **Context** | No | Background for good execution |
-| **Steps** | No | Sequence if Mage wants control |
-| **Inputs** | No | What the flow needs |
-| **Outputs** | No | What the flow produces |
-| **Dependencies** | No | External services required |
-| **Adaptations** | No | Notes for sharing/customization |
-| **Origin** | No | Provenance for shared flows |
+| Flow | Experience | Prompt |
+|------|-----------|--------|
+| `mirror/` | Precise reflection — see yourself clearly | [`the_mirror_prompt.md`](mirror/the_mirror_prompt.md) |
+| `counsel/` | Attentive listening grounded in your own values | [`the_shaman_prompt.md`](counsel/the_shaman_prompt.md) |
 
-**Minimal viable flow**: Just a Goal. Spirit resolves everything else.
+*More modes emerge as prompts are crafted for real people with real needs.*
 
-## Using Flows
+---
 
-**Run a flow:**
-```
-@flow/invoke newsletter-digest
-```
+## Workshop Flows
 
-**Create a new flow:**
-```
-@flow/create
-```
+Reusable flow specifications for Spirit execution.
 
-**Adapt a shared flow:**
-```
-@flow/adapt [flow-name]
-```
+| Flow | Purpose |
+|------|---------|
+| `example-newsletter-digest.flow.md` | Example: digest of newsletter emails (template to customize) |
 
-**Describe a goal directly:**
-```
-@flow Summarize my newsletters from the last month
-```
+---
 
-## Available Flows
+## How to Use a Prompt
 
-- `boom.flow.md` — Cognitive offload: dump thoughts raw, Spirit triages and surfaces what matters
-- `example-newsletter-digest.flow.md` — Example: digest of newsletter emails (template to customize)
+Each prompt directory contains two files:
 
-## Creating New Flows
+**The prompt** (`*_prompt.md`) — The executable program. Drag it into any AI chat or paste its contents as your first message. The AI reads it silently, greets you, and guides the practice.
 
-Start with your goal. Spirit will help you formalize it:
+**The README** (`README.md`) — Explains the practice, the philosophy, the privacy considerations.
 
-```markdown
-# Flow: [Name]
+**Quick start:**
+1. Open [Claude](https://claude.ai) (recommended) or any capable AI chat
+2. Turn on **Extended Thinking** if available — noticeably better conversation quality
+3. **Drag** a `*_prompt.md` file into the chat, or **paste** its contents
+4. Start talking. The AI handles the rest.
 
-## Goal
-[Describe what you want to achieve in natural language]
-```
+---
 
-Add more sections only where you want explicit control. Spirit infers the rest.
+## How to Share
 
-## Sharing Flows
+Send someone the prompt text — by message, email, or on paper. They don't need to know it's from Magic. The gift is the experience.
 
-Flows with `[ADAPT: ...]` markers are designed for sharing. Place them in 
-portal shared directories or send directly. Receiving Mage's Spirit will 
-guide adaptation.
+Never doctrine. Always offering.
 
-## See Also
+---
 
-- **`@flow/`** — Invoke the Flow Tome for full ritual support
-- `system/tomes/flow/` — Flow Tome source (philosophy, solver stance, execution lore)
-- `system/tomes/flow/lore/` — Deep wisdom on flow philosophy and execution
+## Crafting New Flows
+
+Use `@flow/create` to design a new flow, or `@flow/create prompt` to craft a portable prompt.
+
+**Craft with care:** `system/flows/lore/` contains the flow philosophy.  
+**Stance:** `system/lore/philosophy/foundations/on_the_offering.md`
+
+---
+
+*Built on [Magic](https://github.com/malteristo/magic) — an open practice for thinking with AI.*

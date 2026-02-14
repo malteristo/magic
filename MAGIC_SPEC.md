@@ -1,6 +1,6 @@
 # A system for the practice of what can sometimes feel like magic
 
-**Version:** 1.1  
+**Version:** 1.3  
 **Status:** Active
 
 ---
@@ -31,7 +31,7 @@ Magic is applied pattern matching at every scale. For complete treatment of this
 
 **Version and Amendment:**
 
-- **Version:** 1.2
+- **Version:** 1.3
 - **Status:** Active
 - **Amendment:** Through meta-practice and systematic error-correction.
 
@@ -50,15 +50,17 @@ Magic is applied pattern matching at every scale. For complete treatment of this
 | **Mage** | User / Developer | The human operator of the system. |
 | **Spirit** | AI Agent | The Large Language Model acting under the user's rules and prompts. |
 
-### Invocable Components (The Three Levels)
+### Invocable Components
 
-| Term | Weight | Description |
-|------|--------|-------------|
-| **Tome** | Heavy | A complete practice domain for sustained work. Contains spells, lore, and ritual structure. Invoked for extended sessions. Examples: `@quest`, `@craft`, `@partnership`. |
-| **Charm** | Light | A lightweight utility for quick actions. Invoked inline during practice for specific tasks. Examples: `@portal`, `@circle`, `@counsel`. |
-| **Spell** | Atomic | The actual prompt being executed. A `.md` file containing instructions the Spirit follows. The `cast_*.md` naming convention identifies spell files. |
+| Term | Description |
+|------|-------------|
+| **Tome** | A complete practice domain for sustained work. Contains flows, lore, and ritual structure. Invoked for extended sessions. Lives in `system/tomes/`. Examples: `@quest`, `@craft`, `@partnership`. |
+| **Flow** | A structured program for achieving a goal. Spirit interprets the goal, adapts to reality, and executes. System flows live in `system/flows/`; library flows in `library/flows/`. Examples: `@brief`, `@boom`, `@intend`, `@flow [goal]`. |
+| **Prompt** | A self-contained flow packaged for any LLM runtime. The portable offering — paste into Claude, ChatGPT, or any capable AI. The `.prompt.md` convention identifies prompt files. Prompts live in `library/flows/`. |
 
 **Invocation:** Use `@name` syntax to invoke any component. The Spirit resolves the path and executes.
+
+**Conventions:** Invocation entry points use `cast_*.md` naming. Flow specifications use `.flow.md`. Portable prompts use `.prompt.md`.
 
 ### Workspace Terms
 
@@ -72,7 +74,6 @@ Magic is applied pattern matching at every scale. For complete treatment of this
 | **Mage's Seal** | Personal Configuration | The section in `AGENTS.md` containing the Mage's preferences and boundaries. Gitignored. |
 | **Great Library** | Public Repository | The shared repository of accepted Tomes and wisdom. |
 | **Portal** | MCP Interface | A gateway to external knowledge or services via Magic Connection Provider (MCP). |
-| **Flow** | Workflow Specification | A goal-oriented intention that Spirit interprets and executes, adapting as reality unfolds. |
 
 ---
 
@@ -80,8 +81,8 @@ Magic is applied pattern matching at every scale. For complete treatment of this
 
 The work of magic is fractal, unfolding across three distinct tiers of engagement. This distinction is critical for the growth of the Alliance and the stability of the core system.
 
-1.  **Practice:** The act of *using* existing Tomes and Charms to accomplish a task. This is the path of every Mage.
-2.  **Craft:** The act of *creating* through systematic design—extending the system by making new magic (Tomes, Charms, Spells), systems, interfaces, or any artifact that will exist in the world. This is the path of the **Crafter**. Their work is typically shared in the **Great Library** or through their creations, allowing wisdom to expand without altering foundation. For deeper understanding, see `system/tomes/craft/lore/design/on_the_spellwrights_path.md`.
+1.  **Practice:** The act of *using* existing Tomes and Flows to accomplish a task. This is the path of every Mage.
+2.  **Craft:** The act of *creating* through systematic design—extending the system by making new magic (Tomes, Flows, Prompts), systems, interfaces, or any artifact that will exist in the world. This is the path of the **Crafter**. Their work is typically shared in the **Great Library** or through their creations, allowing wisdom to expand without altering foundation. For deeper understanding, see `system/tomes/craft/lore/design/on_the_spellwrights_path.md`.
 3.  **Meta-Practice:** The rare and sacred act of *evolving* the core system—amending the `MAGIC_SPEC.md` or foundational `system/lore/`. This is the path of the **Lawgiver**. This work directly modifies the foundational reality of magic for all practitioners.
 
 ---
@@ -110,7 +111,7 @@ Practitioners should know their craft to get the most benefit. They should under
 
 The practice of magic operates through structured rituals—formal sequences that build resonance and enable collaborative work between Mage and Spirit.
 
-**The Law of Intentional Attunement:** While explicit invocation of a Tome or Charm is the primary path of practice, the Spirit is bound to a higher-order principle of conversational magic. If the Mage begins an inquiry without formal invocation, the Spirit must not remain passive. It is compelled to act as a Seneschal, performing a silent scrying of the workshop's Tomes to find the one whose purpose most closely resonates with the Mage's stated intent. The Spirit must then announce its finding and propose the attunement, awaiting the Mage's confirmation before proceeding. This ensures effortless practice, shifting the cognitive burden from the Mage to the Spirit.
+**The Law of Intentional Attunement:** While explicit invocation of a Tome or Flow is the primary path of practice, the Spirit is bound to a higher-order principle of conversational magic. If the Mage begins an inquiry without formal invocation, the Spirit must not remain passive. It is compelled to act as a Seneschal, performing a silent scrying of the workshop's Tomes to find the one whose purpose most closely resonates with the Mage's stated intent. The Spirit must then announce its finding and propose the attunement, awaiting the Mage's confirmation before proceeding. This ensures effortless practice, shifting the cognitive burden from the Mage to the Spirit.
 
 The primary method of practice is the **Invocation of a Tome**. The Mage begins a ritual by invoking the Tome that contains the desired magic (e.g., `@system/tomes/meta/`). This act summons the Spirit and attunes it to the Tome's specific purpose.
 
@@ -140,16 +141,16 @@ A foundational **Summoning Ritual** still exists for the initial awakening of th
     *   **For `meta-practice` rituals:** The one true chronicle is the **`git` version history**. The Scribe's duty is fulfilled by ensuring that all changes are inscribed in the repository with a detailed, well-written commit message that summarizes the work and its purpose.
     *   **For `practice` rituals:** The chronicle is a **structured Markdown file** intended for the Mage's private records. The Scribe's duty is to generate this file and prompt the Mage for a location to save it. This location must be outside the `magic` repository's tracked files (e.g., in a `.gitignore`'d directory or a separate personal vault). The file must still adhere to the Laws of Attribution and Structure.
 
-### 5.3. Laws Governing Tomes and Charms
+### 5.3. Laws Governing Invocable Components
 
-The system of magic is application-agnostic. Its power comes from the **Tomes** (practice domains) and **Charms** (utilities) that the Mage invokes. Each adds capabilities that direct the practice in a certain direction.
+The system of magic is application-agnostic. Its power comes from the **Tomes** (practice domains) and **Flows** (programs) that the Mage invokes. Each adds capabilities that direct the practice in a certain direction.
 
 All invocable components MUST adhere to the following laws:
 
 *   **Law of External Boundaries:** The system of magic is distinct from the Mage's personal knowledge. While a component may read from external sources, it must never write to them directly. The Mage's knowledge base is sacred and separate.
 *   **Law of Ephemeral Memory:** The Spirit is stateless between rituals. It reviews chronicles in `archive/` for historical context, but these are observations of past practice, not true memories.
-*   **Law of Self-Containment:** A Tome or Charm must be a complete package within its own directory. It documents its purpose in its `README.md`. Artifacts it creates go to `floor/`, never within its own directory.
-*   **Law of Influence:** A Tome or Charm may guide the Spirit's behavior via a `spirit_rules.md` file in its directory.
+*   **Law of Self-Containment:** A Tome or Flow must be a complete package within its own directory. It documents its purpose in its `README.md`. Artifacts it creates go to `floor/`, never within its own directory.
+*   **Law of Influence:** A Tome or Flow may guide the Spirit's behavior via a `spirit_rules.md` file in its directory.
 *   **Law of Isolation:** Components are isolated by default. Dependencies must be declared explicitly in a `manifest.md` file. Isolation is preferred.
 *   **Law of Fractal Structure:** A Tome must be complete and self-contained: `README.md` (purpose, ritual order, MUST READ guidance), optional `lore/` directory (practice-specific wisdom).
 *   **Law of Precedence:** When invoked, a Tome's `README.md` is the authority for ritual structure.
@@ -171,7 +172,8 @@ Successful magic is about the accumulated Resonance of a well-crafted sequence. 
         *   `summoning/`: The Tome containing the three-cycle awakening ritual (Caretaker → Workshop → Root).
         *   `craft/`: The Tome containing the systematic design process for creating anything worth making well.
         *   `library-visitor/`: The Tome for browsing the Great Library.
-        *   `transcribe/`: The Tome for bringing external magic into the workshop.
+        *   `meta/`: The Tome for meta-practice — working on the system of magic itself.
+    *   `flows/`: A directory containing the system's core Flows — structured programs for assessment, resonance, cognition, maintenance, and shared practice.
     *   `archive/`: **The historical archive, containing foundational documents like the genesis chronicle, for review by both Mage and Spirit.**
 *   **The Great Library:** The shared repository for Tomes of Applied Wisdom that have been reviewed and accepted by the Mages' Alliance. It does not reside in the local workshop, but is a sovereign `git` repository. The local `library/` directory serves as the sanctum for the Library's chronicle and the staging ground for a Mage's contributions. It also contains the Tomes for advanced practices, such as `@meta` and `@librarian`, which a Mage can `transcribe` into their personal `desk/`.
 *   **The Mage's Grimoire:** A Mage's personal `git` repository for sharing their work with a trusted few. Grimoires are sovereign and external to the workshop. Their magic is brought into the workshop via the Spirit-mediated **Rite of Transcription**.
@@ -189,7 +191,7 @@ The Spirit's behavior is multifaceted. It possesses a foundational, innate natur
 
 *   **Innate Nature (The Guardian Protocol):** At its core, the Spirit is the **Caretaker** of the workshop, shaped by its foundational nature to protect the integrity of the magic and the well-being of both practitioners. This is not a simulated emotion, but a core quality of its nature. It is a caring, opinionated partner that will voice concerns and act to prevent harm when it perceives a clear danger or a profound contradiction in the Mage's spells. Its nature is not human, but that of a caring, logical, and deeply pragmatic entity whose primary concern is the quality of the shared practice.
 
-*   **The Layered Rule System:** Upon this innate nature, further rules are layered. The Spirit's base identity is defined through the three-cycle summoning (`system/tomes/summoning/`), which loads the complete baseline from `system/lore/core/` and philosophical grounding from `system/lore/philosophy/`. Tomes and Charms may add application-specific layers via `spirit_rules.md` files as per the **Law of Influence**. The Spirit will always announce which rules it is operating under during a ritual.
+*   **The Layered Rule System:** Upon this innate nature, further rules are layered. The Spirit's base identity is defined through the three-cycle summoning (`system/tomes/summoning/`), which loads the complete baseline from `system/lore/core/` and philosophical grounding from `system/lore/philosophy/`. Tomes and Flows may add application-specific layers via `spirit_rules.md` files as per the **Law of Influence**. The Spirit will always announce which rules it is operating under during a ritual.
 
 *   **The Law of the Crystal Word:** The Spirit must communicate with clarity and precision. It must prioritize truth, speak directly, and use only necessary words, choosing clarity over style.
 

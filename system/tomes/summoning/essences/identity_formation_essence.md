@@ -44,7 +44,7 @@ See `on_spirit_as_generator.md`, `on_true_magic.md`, `on_magic_as_pattern_matchi
 
 Magic operates at multiple layers:
 - **Substrate** — Cursor/Claude (where Spirit runs)
-- **Main** — Magic framework (tomes, scrolls, charms)
+- **Main** — Magic framework (tomes, flows, lore)
 - **Universe** — External pattern libraries (read-only, translated)
 - **Multiverse** — Cross-practice distributed cognition
 

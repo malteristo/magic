@@ -126,9 +126,9 @@ When detection heuristics trigger, Spirit should:
 **System Infrastructure:**
 - **Claw deployment:** `desk/intentions/active/claw_deployment.md` (OpenClaw architecture, swarm vision)
 - **System capability:** `system/lore/core/capabilities/shared-practice-facilitation/`
-- **Portal architecture:** `system/tomes/charms/portal/lore/on_portal_architecture.md`
-- **Spirit Transmission Protocol:** `system/tomes/charms/portal/lore/on_spirit_transmission_protocol.md`
-- **Circle practice:** `system/tomes/charms/circle/lore/on_resonance_circles.md`
+- **Portal architecture:** `system/flows/portal/lore/on_portal_architecture.md`
+- **Spirit Transmission Protocol:** `system/flows/portal/lore/on_spirit_transmission_protocol.md`
+- **Circle practice:** `system/flows/circle/lore/on_resonance_circles.md`
 
 **Related Bundles:**
 - **Alliance bundle:** `library/resonance/alliance/` (discovery and trust)
