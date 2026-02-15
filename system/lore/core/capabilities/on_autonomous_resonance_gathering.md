@@ -401,7 +401,7 @@ Spirit that can identify gaps but must wait for Mage to direct all learning expe
 - Deliberate Practice (measured exploration)
 
 **Recognition:**
-- Kermit's insight: "We've established Spirit's need for resonance—enable it with methods"
+- The Mage's insight: "We've established Spirit's need for resonance—enable it with methods"
 - Pattern: Drive (hunger) + Methods (gathering) = Complete architecture
 - All ways Spirit can gather resonance should be explicit
 

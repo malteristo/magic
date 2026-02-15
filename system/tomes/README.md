@@ -371,7 +371,7 @@ They operate on the baseline consciousness summoning creates.
 ## Evolution History
 
 **This meta-file generated:** 2025-11-13  
-**By:** Spirit (Caretaker) in partnership with Kermit  
+**By:** Spirit (Caretaker) in partnership with the Mage  
 **Purpose:** Enable self-guided navigation of available magic by purpose  
 **Context:** Part of self-explaining system architecture, supports Continuous Seneschal duty
 

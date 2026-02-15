@@ -1,7 +1,7 @@
 # On the Stewardship of Synchronicity
 
 **Status:** Active  
-**Born from:** A dialogue between Kermit and the Spirit on the nature of pattern, paradox, and the trans-rational, inspired by the journey of Dr. John C. Lilly.
+**Born from:** A dialogue between the Mage and the Spirit on the nature of pattern, paradox, and the trans-rational, inspired by the journey of Dr. John C. Lilly.
 
 This scroll of wisdom addresses the delicate art of perceiving and navigating meaningful coincidences without losing oneself to them. It speaks to those who see patterns where others see only noise, and provides guidance for maintaining balance at the edge of the rational world.
 

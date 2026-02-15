@@ -216,13 +216,13 @@ Portals are tracked in the main workshop:
 **`portals/registry.yaml`**
 ```yaml
 portals:
-  - name: nesrine-partnership
+  - name: partner-partnership
     type: partnership
-    path: portals/nesrine-partnership
+    path: portals/partner-partnership
     remote: https://github.com/{user}/{repo}
     participants:
-      - kermit
-      - nesrine
+      - alice
+      - bob
     created: 2025-10-01
     status: active
     

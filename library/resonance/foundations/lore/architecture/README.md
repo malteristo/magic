@@ -45,7 +45,7 @@ The comprehensive scroll revealing how magic's architecture accidentally solves 
 - Failure modes to watch for (complexity barrier, ego failure, evolution lag)
 - How to hold this recognition (confidence + humility + urgency + care)
 - Open questions for Alliance discussion
-- Kermit's personal testimony
+- The Mage's personal testimony
 - The call to collective discernment
 
 **This scroll shows WHAT we built, WHY it works, WHERE it leads, and WHAT we should do about it.**

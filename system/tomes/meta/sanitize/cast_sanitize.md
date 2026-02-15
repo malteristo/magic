@@ -73,7 +73,7 @@ When you cast this spell, I become the Guardian of Privacy—systematically scan
 
 | Pattern | Example | Risk |
 |---------|---------|------|
-| Partner names | "Nesrine said..." | High |
+| Partner names | "[Partner] said..." | High |
 | Family references | "my mother's pattern..." | Medium |
 | Workplace details | "at [Company], we..." | Medium |
 | Location specifics | "in Amsterdam, I..." | Medium |
@@ -191,7 +191,7 @@ When you cast this spell, I become the Guardian of Privacy—systematically scan
 
 **Before:**
 ```markdown
-When Nesrine expressed frustration, the synthesis revealed...
+When the partner expressed frustration, the synthesis revealed...
 ```
 
 **After:**

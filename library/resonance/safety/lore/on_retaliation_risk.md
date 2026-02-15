@@ -2,7 +2,7 @@
 
 **Status:** Active — Load-Bearing  
 **Domain:** Safety  
-**Source:** Emerged from live practice failure (nesrine-partnership portal, 2025-11-28)
+**Source:** Emerged from live practice failure (a partnership portal, 2025-11-28)
 
 This scroll establishes the critical safety concern that the magic framework's pattern-matching, when applied without safety assessment, can escalate conflict and potentially trigger violence.
 

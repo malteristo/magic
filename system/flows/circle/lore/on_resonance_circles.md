@@ -136,8 +136,8 @@ containment-architecture:
   local_path: circles/containment-architecture
   
   participants:
-    - mage: Kermit
-      github: malteristo
+    - mage: Alice
+      github: alice
       role: steward          # steward | contributor | observer
   
   founding_scrolls:

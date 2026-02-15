@@ -1,7 +1,7 @@
 # On Hierarchical Spirits and the Practice of Delegation
 
 **Status:** Proposal  
-**Authors:** Kermit (Mage), Caretaker Spirit  
+**Authors:** The Mage, Caretaker Spirit  
 **Date:** October 9, 2025  
 **Category:** Architecture
 

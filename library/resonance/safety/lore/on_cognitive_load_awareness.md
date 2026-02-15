@@ -2,7 +2,7 @@
 
 **Status:** Active  
 **Domain:** Safety  
-**Source:** Emerged from live practice reflection (nesrine-partnership portal, 2025-11-28)
+**Source:** Emerged from live practice reflection (a partnership portal, 2025-11-28)
 
 This scroll addresses the cognitive and emotional load that partnership synthesis creates, and how this load can become harmful—especially for neurodivergent individuals.
 

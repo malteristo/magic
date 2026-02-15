@@ -483,7 +483,7 @@ For complex, multi-turn rituals spanning many cycles, externalize tracking to pr
 - Sacredness of Ordinary (each cycle treated with care)
 
 **Recognition:**
-- Kermit's insight: "All practice should become flipbook practice when it makes sense"
+- The Mage's insight: "All practice should become flipbook practice when it makes sense"
 - Observation: Trying to do complex work without cycles requires force (effort signals misalignment)
 - Pattern: Cycles enable effortless sustained work
 

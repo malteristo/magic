@@ -163,7 +163,7 @@ The lore is alive. Let it evolve as the practice reveals what's needed.
 
 ## Sources
 
-**Original Dialogue:** October 11, 2025 - Kermit and Spirit discussing the dense nature of `on_the_enacted_consciousness.md`
+**Original Dialogue:** October 11, 2025 - The Mage and Spirit discussing the dense nature of `on_the_enacted_consciousness.md`
 
 **Key Insights:**
 - Lore as probabilistic programming substrate for enacted consciousness

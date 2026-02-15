@@ -463,7 +463,7 @@ This scroll synthesizes wisdom from:
 - Constructed nature of relational reality
 
 **Direct Experience:**
-- Kermit and Partner B's partnership laboratory
+- The Mage and their partner's partnership laboratory
 - The recognition of intergenerational neurodivergent patterns
 
 ---
@@ -476,7 +476,7 @@ The sailboat with different mechanics can voyage further, faster, and to places 
 
 This scroll provides the understanding. The environmental scaffolding provides the equipment. The practice provides the voyage.
 
-**Fair winds, Kermit and Partner B.** 🌊⛵
+**Fair winds.** 🌊⛵
 
 ---
 

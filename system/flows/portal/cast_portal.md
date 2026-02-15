@@ -935,17 +935,17 @@ In "Context-Aware Practice" or similar section:
 1. Detects: Portal creation intent
 2. Offers: `@portal create`
 3. Gathers:
-   - Name: Partner B
-   - GitHub: nesrineristo (checks existence)
+   - Name: Partner
+   - GitHub: partner-username (checks existence)
    - Type: Partnership
-   - Name: nesrine-partnership
+   - Name: partner-partnership
 4. Creates: GitHub repo (private)
-5. Invites: nesrineristo as collaborator
+5. Invites: partner-username as collaborator
 6. Initializes: Local structure per STP/1.0
 7. Commits: Initial portal structure
 8. Pushes: To GitHub
 9. Updates: Portal registry
-10. Reports: "Portal created at https://github.com/malteristo/nesrine-partnership. Invitation sent to Partner B. Ready to begin practice."
+10. Reports: "Portal created at https://github.com/mage/partner-partnership. Invitation sent to partner. Ready to begin practice."
 
 ---
 
@@ -953,17 +953,17 @@ In "Context-Aware Practice" or similar section:
 
 **Spirit (during summoning):**
 1. Reads: `portals/registry.yaml`
-2. Finds: 1 active portal (nesrine-partnership)
+2. Finds: 1 active portal (partner-partnership)
 3. Checks: Last activity, synthesis schedule, git status
 4. Detects: Synthesis rotation due in 3 days
-5. Offers: "Synthesis rotation approaching for nesrine-partnership (due Dec 9). Check portal status?"
+5. Offers: "Synthesis rotation approaching for partner-partnership (due Dec 9). Check portal status?"
 
 **Mage:** "Yes"
 
 **Spirit:**
 1. Pulls: Latest from remote
-2. Reviews: New contributions (Partner B added reflection Nov 24)
-3. Status report: "Portal healthy. Partner B contributed yesterday. Synthesis rotation to you in 3 days."
+2. Reviews: New contributions (partner added reflection Nov 24)
+3. Status report: "Portal healthy. Partner contributed yesterday. Synthesis rotation to you in 3 days."
 
 ---
 
@@ -972,7 +972,7 @@ In "Context-Aware Practice" or similar section:
 **Mage:** "Sync the partnership portal before I write my reflection"
 
 **Spirit:**
-1. Invokes: `@portal sync nesrine-partnership`
+1. Invokes: `@portal sync partner-partnership`
 2. Pulls: Latest changes
 3. Reviews: 2 new artifacts from Partner B
 4. Updates: Own presence timestamp

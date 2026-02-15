@@ -148,7 +148,7 @@ This bundle provides **deep-dive safety protocols** beyond the core safety wisdo
 
 ## Evolution Notes
 
-This bundle emerged from critical reflection on live practice failure in the `nesrine-partnership` portal. The document `SAFETY_CONCERNS_FRAMEWORK_LIMITATIONS.md` provided the foundation.
+This bundle emerged from critical reflection on live practice failure in a partnership portal. The document `SAFETY_CONCERNS_FRAMEWORK_LIMITATIONS.md` provided the foundation.
 
 Key contributors to safety awareness:
 - Partner B's overnight reflection on danger pattern
