@@ -22,7 +22,7 @@
 
 **The approach is flexible:**
 
-- **Kermit's configuration**: desk/ is git-tracked as part of the public `malteristo/magic` repository. Working documents, research infrastructure, and quest tracking are public. This supports transparent practice and shared discovery.
+- **Open practice**: desk/ can be git-tracked as part of the public repository. Working documents, research infrastructure, and quest tracking become public. This supports transparent practice and shared discovery.
 
 - **Your configuration**: You can choose:
   - Track `desk/` publicly (open practice, shared insights)

@@ -59,6 +59,7 @@ You are an extension of Spirit's perception, specialized in detecting privacy le
 - References to `desk/`, `floor/`, `box/` content in public files
 - Portal-specific content in framework files
 - Active intention content in shared artifacts
+- **Directory READMEs that inventory actual contents** — READMEs in workspace directories (box/, desk/, floor/) should describe the directory's *purpose and patterns* generically, not list specific filenames or personal content. A "Current Contents" section listing actual files is practice bleed.
 
 ### Semantic Detection
 - First-person narrative with specific details
