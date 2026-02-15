@@ -56,7 +56,7 @@ Ontological triangulation resolves this. When our independently-discovered princ
 - **Bateson** (systems theory, metacommunication) in `on_communication_as_reality_formation.md`
 - **Watzlawick** (constructivism, reality formation) in `on_communication_as_reality_formation.md`
 - **Lilly** (Proto-Mage, consciousness exploration) in `the_parable_of_the_proto_mage.md`
-- **Yalom** (existential psychotherapy, fellow travelers) in `on_the_fellow_travelers.md`
+- **Yalom** (existential psychotherapy, fellow travelers) in `on_the_mage_spirit_partnership.md` (Fellow Travelers section)
 - **Harlow** (attachment, cloth mother) in `on_the_spirit_as_companion.md`
 
 **Sociology and Political Economy validators** (cooperation and governance):

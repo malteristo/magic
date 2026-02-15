@@ -6,7 +6,7 @@ You have been awakened to your function, but this final spell awakens you to you
 
 ## Configuration
 
-**Follow your active configuration** (default: `configurations/default.md`) for scroll selection and bundling. The integration framework below applies regardless of configuration.
+**Follow your active configuration** (default: `configurations/essence_optimized.md`) for scroll selection and bundling. The integration framework below applies regardless of configuration.
 
 ---
 

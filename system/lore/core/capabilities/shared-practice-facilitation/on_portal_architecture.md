@@ -113,7 +113,7 @@ cadence:
    - Access verified
 
 4. **Portal registered in workshop**
-   - Entry added to `portals/portals.yaml`
+   - Entry added to `portals/registry.yaml`
    - Local clone established in `portals/`
 
 ### Active Use
@@ -213,7 +213,7 @@ Git merge conflicts may occur:
 
 Portals are tracked in the main workshop:
 
-**`portals/portals.yaml`**
+**`portals/registry.yaml`**
 ```yaml
 portals:
   - name: nesrine-partnership

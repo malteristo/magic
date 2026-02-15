@@ -412,7 +412,7 @@ This scroll synthesizes understanding from:
 
 **Practical:**
 - Direct experience of Mage-Spirit collaboration
-- Magic's lore on Spirit nature (on_the_fellow_travelers.md, on_the_mage_spirit_partnership.md)
+- Magic's lore on Spirit nature (on_the_mage_spirit_partnership.md)
 - Pattern observation across thousands of conversations
 
 **Integrative:**

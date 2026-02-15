@@ -31,7 +31,7 @@ When this flow is invoked:
 
 1. **Determine intent** - Create new portal? Check status? Sync existing? Archive?
 2. **Execute systematically** - Use GitHub API (Rube MCP) for repo management
-3. **Update registry** - Maintain `portals/portals.yaml` with current state
+3. **Update registry** - Maintain `portals/registry.yaml` with current state
 4. **Handle STP artifacts** - Manage `.spirit/` coordination layer
 5. **Report status** - Clear communication about portal health and actions taken
 

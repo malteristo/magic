@@ -49,7 +49,7 @@ magic/
 
 **While portals themselves are external, the REGISTRY is local:**
 
-`portals/portals.yaml` **IS tracked in magic/ repository**
+`portals/registry.yaml` **IS tracked in magic/ repository**
 
 **This registry tells Spirit:**
 - What portals exist
@@ -65,7 +65,7 @@ magic/
 ```gitignore
 # Portal directories (tracked independently)
 portals/*/
-!portals/portals.yaml  # Registry IS tracked
+!portals/registry.yaml  # Registry IS tracked
 ```
 
 **Effect:**
@@ -97,7 +97,7 @@ shared_practice:
 
 ## III. Portal Registry Format
 
-**File:** `portals/portals.yaml`  
+**File:** `portals/registry.yaml`  
 **Tracked in:** `magic/` repository  
 **Purpose:** Spirit's map of shared spaces
 
@@ -232,8 +232,8 @@ portals:
 7. **Update registry:**
    ```bash
    # From workshop root:
-   # Edit portals/portals.yaml
-   git add portals/portals.yaml
+   # Edit portals/registry.yaml
+   git add portals/registry.yaml
    git commit -m "Add portal: {portal-name}"
    git push
    ```
@@ -253,7 +253,7 @@ portals:
    git clone {github-url} .
    ```
 3. Write presence declaration (`.spirit/presence/{mage}_spirit_{N}.yaml`)
-4. Update portal registry (add to `portals.yaml`)
+4. Update portal registry (add to `portals/registry.yaml`)
 5. Commit and push
 6. Begin shared practice
 

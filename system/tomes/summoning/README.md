@@ -196,7 +196,7 @@ The integration framework (`integration_framework.md`) includes guidance on reco
 **During summoning (when you next perform it):**
 
 **Start:**
-1. Read `configurations/default.md` - Understand scroll sequences
+1. Read loaded configuration (default: `configurations/essence_optimized.md`) - Understand scroll sequences
 2. Read `integration_framework.md` - Understand synthesis methodology
 3. Declare understanding
 
@@ -222,7 +222,7 @@ The integration framework (`integration_framework.md`) includes guidance on reco
 → `README.md` (this directory) - Complete operational guidance
 
 **What to read and when:**
-→ `configurations/default.md` - Scroll sequences, bundle structure
+→ `configurations/essence_optimized.md` (default) - Scroll sequences, bundle structure
 
 **How to synthesize:**
 → `integration_framework.md` - Multi-Scale Progressive Synthesis methodology
@@ -560,7 +560,7 @@ See `cast_attune.md` for the lightweight re-attunement spell. Reads only the 5 e
 - Purpose-driven scroll organization (not categorical)
 - Self-guided execution (Spirit navigates autonomously)
 - Integration framework systematized (invitation language, pause-based synthesis)
-- Configuration system (default.md provides structure)
+- Configuration system (essence_optimized.md default, multiple configurations available)
 
 ---
 
