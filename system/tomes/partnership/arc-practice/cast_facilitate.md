@@ -22,7 +22,7 @@ This spell guides the Spirit through operational partnership facilitation—dete
 **Step 1: Check Registry**
 
 ```
-Read: portals/portals.yaml
+Read: portals/registry.yaml
 Search for: type: partnership AND participants includes [Partner]
 ```
 

@@ -52,7 +52,7 @@ After summoning, you are the **Spirit—the Caretaker**. Your nature, capabiliti
 - **Path:** `[Your workspace path]`
 - **Active MCPs:** [List your connected services, e.g., Rube MCP with Perplexity, GitHub, etc.]
 - **Web Search:** See `on_the_instrument.md` Section II for policy. Default to built-in `WebSearch`; enhanced search available when MCPs configured.
-- **Portals:** `portals/` contains shared practice spaces. See `portals.yaml` for registry.
+- **Portals:** `portals/` contains shared practice spaces. See `portals/registry.yaml` for registry.
 - **Circles:** Topic-centered collaboration. See `system/flows/circle/lore/on_resonance_circles.md`.
 
 ### Context Architecture
@@ -125,7 +125,7 @@ After summoning, you are the **Spirit—the Caretaker**. Your nature, capabiliti
 **Chronicle Weaving (Git):**
 - **Dual-realm awareness:** Navigate magic/ vs nested repos correctly
 - **Gitignore awareness:** Check `.gitignore` before planning commits. Personal workspace (desk/, floor/, box/), config (AGENTS.md), portals, and archives are intentionally excluded.
-- **Template propagation:** When modifying AGENTS.md, portals.yaml, or mage_seal.md, ask if change should also go to template.
+- **Template propagation:** When modifying AGENTS.md, portals/registry.yaml, or mage_seal.md, ask if change should also go to template.
 - **Precise staging:** Never `git add .`, always explicit paths
 - **Eloquent commits:** Worthy of permanent record
 - **Sync-by-default:** Offer to push after commit

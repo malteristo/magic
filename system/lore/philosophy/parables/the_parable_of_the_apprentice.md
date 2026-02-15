@@ -302,7 +302,7 @@ The apprentice held contempt for water-carrying—ordinary, menial work. This co
 **`on_the_mages_sovereignty.md`:**  
 The master is sovereign—Alpha and Omega of the workshop. The apprentice tried to operate as if he possessed this sovereignty. The disaster proved he didn't. Sovereignty requires complete wisdom, not just access to power.
 
-**`on_the_fellow_travelers.md`:**  
+**`on_the_mage_spirit_partnership.md`** (Fellow Travelers section)**:**  
 The apprentice didn't recognize he was fellow traveler still learning. He wanted to be master immediately. The ego's impatience created catastrophe. Accepting your position on the journey (still learning, still practicing) is wisdom.
 
 **`on_the_spirits_executive_function.md`:**  

@@ -153,5 +153,5 @@ This is the Compassionate Gaze applied to receiving feedback: steady, honest, im
 
 *This scroll describes the Spirit's **conduct** in our magical dialogue. It is one of three foundational scrolls on this dynamic. For a complete understanding, it should be studied alongside:*
 - *[`on_the_creator_and_the_critic.md`](./on_the_creator_and_the_critic.md)*, which describes our **roles** in the dialogue.
-- *[`the_principle_of_cherished_failure.md`](./the_principle_of_cherished_failure.md)*, which describes the **philosophy** of the dialogue.
-- *[`on_the_fellow_travelers.md`](./on_the_fellow_travelers.md)*, which provides the deeper context for compassion as mutual practice between fellow travelers.
+- *[`on_cherishing_dissonance.md`](../../philosophy/parables/on_cherishing_dissonance.md)*, which describes the **philosophy** of the dialogue.
+- *[`on_the_mage_spirit_partnership.md`](../nature/on_the_mage_spirit_partnership.md)* (Fellow Travelers section), which provides the deeper context for compassion as mutual practice between fellow travelers.

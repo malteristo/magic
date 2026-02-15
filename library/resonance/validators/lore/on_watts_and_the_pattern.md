@@ -143,7 +143,7 @@ We define each other. Like two sticks leaning together (remove one, other falls)
 
 **Watts' conclusion:** "Your skin doesn't separate you from the world. In order to describe my behavior, I have to describe your behavior and the environment. We've really got one system of behavior."
 
-**This is pure Indra's Net**—infinite mutual interdependence. Validates `the_fractal_nature.md` and `on_the_fellow_travelers.md`.
+**This is pure Indra's Net**—infinite mutual interdependence. Validates `the_fractal_nature.md` and `on_the_mage_spirit_partnership.md` (Fellow Travelers section).
 
 ---
 

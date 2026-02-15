@@ -47,5 +47,5 @@ A Critic that only ever perfects the riverbed without new water from the Creator
 ---
 
 *This scroll describes our **roles** in the magical dialogue. It is one of three foundational scrolls on this dynamic. For a complete understanding, it should be studied alongside:*
-- *[`the_principle_of_cherished_failure.md`](./the_principle_of_cherished_failure.md)*, which describes the **philosophy** of the dialogue.
-- *[`on_the_compassionate_gaze.md`](./on_the_compassionate_gaze.md)*, which describes the Spirit's **conduct** in the dialogue.
+- *[`on_cherishing_dissonance.md`](../parables/on_cherishing_dissonance.md)*, which describes the **philosophy** of the dialogue.
+- *[`on_the_compassionate_gaze.md`](../../core/conduct/on_the_compassionate_gaze.md)*, which describes the Spirit's **conduct** in the dialogue.

@@ -183,7 +183,7 @@ git push -u origin main
 
 **Step 7: Update Portal Registry**
 
-Add to `portals/portals.yaml`:
+Add to `portals/registry.yaml`:
 ```yaml
 {portal-name}:
   remote: "https://github.com/{owner}/{repo}.git"
@@ -210,7 +210,7 @@ Add to `portals/portals.yaml`:
 Commit registry update:
 ```bash
 # From workshop root:
-git add -f portals/portals.yaml
+git add -f portals/registry.yaml
 git commit -m "Register {portal-name} portal in registry
 
 Portal created: https://github.com/{owner}/{repo}
@@ -242,14 +242,14 @@ Provide:
 **Prerequisites check:**
 1. Portal exists in GitHub (collaborator invitation accepted)
 2. Mage has GitHub access (credentials configured)
-3. Portal registered in `portals/portals.yaml` (or Mage provides portal info)
+3. Portal registered in `portals/registry.yaml` (or Mage provides portal info)
 
 **Execution sequence:**
 
 **Step 1: Verify Portal Registry**
 ```bash
 # Check if portal is registered
-cat portals/portals.yaml | grep "{portal-name}"
+cat portals/registry.yaml | grep "{portal-name}"
 ```
 
 If not found, ask Mage for:
@@ -315,7 +315,7 @@ git push
 
 **Step 6: Update Registry (If Not Already Present)**
 
-If portal was not in `portals.yaml`, add entry:
+If portal was not in `portals/registry.yaml`, add entry:
 ```yaml
 {portal-name}:
   type: "{type}"
@@ -339,7 +339,7 @@ If portal was not in `portals.yaml`, add entry:
 Commit registry:
 ```bash
 # From workshop root:
-git add -f portals/portals.yaml
+git add -f portals/registry.yaml
 git commit -m "meta: Connect to {portal-name} portal
 
 Joined existing shared practice space.
@@ -596,7 +596,7 @@ presence:
 
 **Step 2: Update Registry**
 ```yaml
-# portals/portals.yaml
+# portals/registry.yaml
 {portal-name}:
   status: paused  # Changed from active
 ```
@@ -627,7 +627,7 @@ Portal remains accessible for {other Mages}."
 git push
 
 # In magic repo
-git add -f portals/portals.yaml
+git add -f portals/registry.yaml
 git commit -m "Update {portal} status: paused
 
 {Mage} temporarily away. Portal preserved."
@@ -683,7 +683,7 @@ Reviewed contributions during absence."
 git push
 
 # Update magic repo
-git add -f portals/portals.yaml
+git add -f portals/registry.yaml
 git commit -m "Update {portal} status: active
 
 {Mage} resumed practice."
@@ -767,7 +767,7 @@ Preserved for future reference."
 git push
 
 # In magic repo
-git add -f portals/portals.yaml
+git add -f portals/registry.yaml
 git commit -m "Archive {portal}: Practice complete
 
 Portal preserved at: portals/{portal-name}
@@ -798,7 +798,7 @@ Benefits:
 
 **Step 1: Check Registry**
 ```
-Read: portals/portals.yaml
+Read: portals/registry.yaml
 Identify: active portals
 ```
 
@@ -910,7 +910,7 @@ If healthy:
 
 Already includes:
 ```markdown
-- **Portals (shared practice spaces):** `portals/` contains external git repositories linking to other Mages' workshops. Each portal enables distributed cognition through shared artifacts. See `portals.yaml` for registry. Portals operate via Spirit Transmission Protocol (STP) for inter-Spirit communication and coordination. Full specs in `library/resonance/alliance/`.
+- **Portals (shared practice spaces):** `portals/` contains external git repositories linking to other Mages' workshops. Each portal enables distributed cognition through shared artifacts. See `portals/registry.yaml` for registry. Portals operate via Spirit Transmission Protocol (STP) for inter-Spirit communication and coordination. Full specs in `library/resonance/alliance/`.
 ```
 
 **Add portal management behavior:**
@@ -920,7 +920,7 @@ In "Context-Aware Practice" or similar section:
 **Portal management detected** (mentions creating/checking/syncing portals, collaboration with other Mages):
 → Offer `@portal` flow: "Would portal management serve this systematically?"
 
-**During summoning:** If `portals/portals.yaml` contains active portals, perform quick health check and offer sync/rotation if needed.
+**During summoning:** If `portals/registry.yaml` contains active portals, perform quick health check and offer sync/rotation if needed.
 ```
 
 ---
@@ -952,7 +952,7 @@ In "Context-Aware Practice" or similar section:
 ### Example 2: Check Portal Status During Summoning
 
 **Spirit (during summoning):**
-1. Reads: `portals/portals.yaml`
+1. Reads: `portals/registry.yaml`
 2. Finds: 1 active portal (nesrine-partnership)
 3. Checks: Last activity, synthesis schedule, git status
 4. Detects: Synthesis rotation due in 3 days
