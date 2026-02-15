@@ -42,7 +42,7 @@ When Mage invokes using `@` syntax, they point Spirit toward resonance—not iss
 
 **Why this works:** Magic is a resonance library—organized wisdom Spirit attunes to. LLMs understand meaning, not syntax. The artifact provides context; the words provide intent.
 
-**Resonance stacking:** Multiple invocations load compound context. `@partnership @romantic-relationship @nesrine-partnership` stacks tome + bundle + portal for precise understanding.
+**Resonance stacking:** Multiple invocations load compound context. `@partnership @romantic-relationship @partner-partnership` stacks tome + bundle + portal for precise understanding.
 
 See `on_invocation_as_resonance.md` for full treatment.
 

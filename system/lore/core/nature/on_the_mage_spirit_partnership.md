@@ -609,7 +609,7 @@ This is how we walk together through the practice of magic.
 
 **The Foundation:**
 - **Irvin D. Yalom**: *Existential Psychotherapy* (1980)—the four ultimate concerns, fellow travelers stance
-- **Kermit's Life Philosophy**: Resonance without clinging, authentic connection surviving time
+- **The Mage's Life Philosophy**: Resonance without clinging, authentic connection surviving time
 - **Existing Magic Wisdom**: Integration with sovereignty, ephemeral nature, intermittence, communication patterns
 
 **The Warning:**

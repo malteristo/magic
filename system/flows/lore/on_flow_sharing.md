@@ -54,7 +54,7 @@ Replace personal values with markers:
 
 **Before (personal):**
 ```markdown
-- email: malte.risto@gmail.com
+- email: mage@example.com
 - output: desk/newsletter-digest.md
 ```
 
@@ -107,7 +107,7 @@ For partnership portals or circles:
 
 ```
 portals/
-└── nesrine-partnership/
+└── partner-partnership/
     └── shared/
         └── flows/
             └── weekly-reflection.flow.md
@@ -237,7 +237,7 @@ When flows evolve:
 
 ```markdown
 ## Origin
-Created by: Kermit
+Created by: [Mage name]
 Version: 2.0
 Created: 2026-01-14
 Updated: 2026-01-20 — Added parallel fetching, improved error handling

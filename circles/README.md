@@ -85,8 +85,8 @@ circles/
 Each mage has their own circle. They access each other through portals.
 
 ```
-Kermit's circle ◄──portal──► Nesrine's circle
-(his offering)               (her offering)
+Alice's circle ◄──portal──► Bob's circle
+(her offering)              (his offering)
 ```
 
 Autonomy preserved. Each curates their own space. Cross-pollination through selective pulling.
@@ -96,9 +96,9 @@ Autonomy preserved. Each curates their own space. Cross-pollination through sele
 Mages collaborate directly on a shared circle. One repo, woven together.
 
 ```
-     Kermit ─────┐
+     Alice ──────┐
                  ├───► Shared Circle
-     Nesrine ────┘
+     Bob ────────┘
 ```
 
 Tighter integration. The braid is a joint artifact.

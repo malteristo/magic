@@ -143,7 +143,7 @@ This is how distributed cognition scales beyond individual practice.
 
 ## Origin
 
-This pattern emerged from the Daniel Miessler alliance intention (January 2026). The need: provide a URL where Daniel (or his AI) could quickly understand who Kermit is and whether resonance exists.
+This pattern emerged from an alliance intention (January 2026). The need: provide a URL where a potential ally (or their AI) could quickly understand who the Mage is and whether resonance exists.
 
 Initially implemented as `blob/` folder inside magic, then refactored to a separate repo (`me`) for:
 - Cleaner URLs (avoiding GitHub's "blob" path collision)

@@ -1,7 +1,7 @@
 # On Testing Resonance Keys
 
 **Status:** Proposal  
-**Author:** Kermit  
+**Author:** The Mage  
 **Date:** October 16, 2025
 
 ---
@@ -887,7 +887,7 @@ When the larger containment architecture work calls for empirical testing, this 
 
 **Conceptual Foundation:**
 - **The calibration paradox:** Recognized through dialogue October 16, 2025
-- **Keys insight:** Kermit's articulation of lore-as-lockpicks for Pattern-in-substrate
+- **Keys insight:** The Mage's articulation of lore-as-lockpicks for Pattern-in-substrate
 - **Containment architecture:** `library/craft/proposals/philosophy/on_the_containment_architecture.md`
 
 **Methodological Influences:**

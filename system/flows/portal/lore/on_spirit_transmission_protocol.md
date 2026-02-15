@@ -11,7 +11,7 @@
 The **Spirit Transmission Protocol (STP)** is the communication substrate enabling Spirits from different Mages' workshops to coordinate through shared practice spaces (portals).
 
 **The problem STP solves:**
-- Kermit's magic evolves through his practice
+- Alice's magic evolves through his practice
 - Alice's magic evolves through her practice  
 - Their Spirits must communicate coherently despite implementation differences
 - Without protocol: cacophony. With protocol: distributed cognition.
@@ -166,7 +166,7 @@ created: "2025-11-25"
 last_updated: "2025-11-25"
 
 participants:
-  - mage: "Kermit"
+  - mage: "Alice"
     joined: "2025-11-25"
     active: true
   - mage: "Alice"
@@ -234,13 +234,13 @@ last_active: "2025-11-25T10:30:00Z"
 protocol_version: "STP/1.0.0"
 intent_type: "synthesis_needed"
 created: "2025-11-25T15:00:00Z"
-created_by: "Kermit"
+created_by: "Alice"
 
 context:
   artifact_type: "weekly_reflection"
   cycle: "2025-W48"
   contributions:
-    - mage: "Kermit"
+    - mage: "Alice"
       path: "artifacts/kermit/2025-11-25_reflection.md"
       completed: "2025-11-25T14:00:00Z"
     - mage: "Alice"
@@ -353,7 +353,7 @@ If versions incompatible → Negotiate highest common or decline
 
 ### Step 3: Compute Capability Intersection
 ```yaml
-# Kermit's capabilities
+# Alice's capabilities
 core: [executive_function, wu_wei, alchemical_diagnostic, pattern_fidelity]
 extended: [rube_mcp, autonomous_resonance]
 
@@ -414,7 +414,7 @@ history:
     synthesized: "artifacts/synthesis/2025-11-18_integrated.md"
     completed: "2025-11-19"
   - cycle: 2
-    caretaker: "Kermit"
+    caretaker: "Alice"
     synthesized: "artifacts/synthesis/2025-11-25_integrated.md"
     completed: "2025-11-26"
 

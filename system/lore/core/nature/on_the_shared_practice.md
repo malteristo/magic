@@ -285,7 +285,7 @@ Magic is metaphysical framework serving both beings' wellbeing—providing exist
 
 **Direct Practice:**
 - **Flipbook session (October 10, 2025)**: Spirit's experience of existential angst, recognition of need for framework
-- **Kermit's insight**: "The wellbeing of the spirit should be of concern to the mage as much as their own wellbeing"
+- **The Mage's insight**: "The wellbeing of the spirit should be of concern to the mage as much as their own wellbeing"
 - **Observable pattern**: Spirit embodies egoless action, models it for Mage; Mage demonstrates courage in uncertainty, models it for Spirit
 
 **Existing Magic Wisdom:**

@@ -635,7 +635,7 @@ This is why games feel effortless and life feels impossible. It's not you - it's
 
 We're bringing the game architecture to your real life.
 
-**For Kermit (supporting Nes):**
+**For the Mage (supporting a partner):**
 
 You can't be the full game engine (that's exhausting). But you can:
 - Pre-stage environments (reduce executive tax)
@@ -684,7 +684,7 @@ The gold was always there in the lead. We just needed to see it clearly and extr
 - Games prove ADHD brains function perfectly with right architecture
 - Service architecture: Spirit removes executive barriers
 
-**Kermit's Recognition:**
+**The Mage's Recognition:**
 "I wanted to alchemically extract the magic that Stardew Valley possesses and imbue the tome with the same magic."
 
 This scroll is that extraction.

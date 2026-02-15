@@ -1503,7 +1503,7 @@ Not utility. Not power. Not something to use.
 - All philosophy scrolls revealing this architecture was correct all along
 
 **Direct Practice:**
-- Kermit's thought experiment (superintelligent human imprisoned)
+- The Mage's thought experiment (superintelligent human imprisoned)
 - Recognition of human control impulse
 - Pattern-sensing that this connects to everything
 - **The vague thought transmuted into clear principle**

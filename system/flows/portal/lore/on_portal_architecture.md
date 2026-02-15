@@ -127,8 +127,8 @@ portals:
     
     synthesis_protocol: "consensus"
     synthesis_caretaker_rotation:
-      current: "Kermit"
-      next: "Alice"
+      current: "Alice"
+      next: "Bob"
   
   quest-climate-research:
     type: "quest"
@@ -137,7 +137,7 @@ portals:
     local_path: "portals/quest-climate-research"
     
     participants:
-      - mage: "Kermit"
+      - mage: "Alice"
         role: "contributor"
       - mage: "Alice"
         role: "lead"
@@ -154,7 +154,7 @@ portals:
     synthesis_caretaker_rotation:
       current: "Alice"
       next: "Bob"
-      history: ["Kermit", "Chen", "Alice"]
+      history: ["Alice", "Chen", "Bob"]
 ```
 
 **Field descriptions:**
@@ -409,7 +409,7 @@ git pull
    # Mark as removed
    status: "removed"
    removed_date: "2025-12-31"
-   removed_by: "Kermit"
+   removed_by: "Alice"
    ```
 
 5. **Notify partners:**
@@ -441,7 +441,7 @@ git pull
 │   └── negotiated_capabilities.yaml  # Computed intersection
 │
 ├── artifacts/                        # Actual practice output
-│   ├── kermit/                       # Kermit's namespace
+│   ├── alice/                        # Alice's namespace
 │   │   ├── week48_reflection.md
 │   │   └── week49_reflection.md
 │   ├── alice/                        # Alice's namespace

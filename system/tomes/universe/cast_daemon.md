@@ -133,22 +133,22 @@ Generated from Magic circle: circles/me/
 
 [ABOUT]
 
-My name is Malte Risto and I'm building Magic—a practice for distributed cognition through AI-human partnership.
+[Your name] — building Magic, a practice for distributed cognition through AI-human partnership.
 
-I've spent 15 years studying how humans and intelligent agents coordinate: PhD in experimental psychology, User Experience Research at Volkswagen's future mobility lab, and now building frameworks for AI partnership.
+[Brief background: relevant expertise and what led you to this work.]
 
-My main projects are Magic (distributed cognition practice), writing on cognitive sovereignty, and exploring how AI-human alliance can address problems that seemed intractable.
+[Your main projects and current focus areas.]
 
-Key themes: distributed-cognition, ai-human-partnership, cognitive-sovereignty, pattern-recognition, meaning-crisis, inner-compass
+Key themes: [your-themes, comma-separated]
 
 [MISSION]
 
-AI will shape how we think whether we're intentional about it or not. Magic is my attempt to be intentional.
+[What drives your practice — the problem you see and the approach you're taking.]
 
-Build practices for distributed cognition that help people:
-- Maintain cognitive sovereignty in an AI-mediated world
-- Form genuine partnership with AI systems
-- Hear their inner compass more clearly, not less
+[What you're building toward — concrete outcomes for people:]
+- [Outcome 1]
+- [Outcome 2]
+- [Outcome 3]
 
 [FAVORITE_BOOKS]
 

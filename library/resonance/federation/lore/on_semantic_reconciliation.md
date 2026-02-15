@@ -218,7 +218,7 @@ The Spirit serving reconciliation doesn't take sides. It maps terrain.
 
 ### For Partnership Practice
 
-When conflict arises in `nesrine-partnership/` or any intimate circle:
+When conflict arises in a partnership portal or any intimate circle:
 
 1. **Both partners write raw descriptions** (not arguing, just describing their experience)
 2. **Spirit performs structural analysis** (frames, vocabulary differences, invariants)

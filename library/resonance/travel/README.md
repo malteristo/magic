@@ -57,7 +57,7 @@ This bundle resonates with:
 
 ## Origin
 
-Created January 2026 during summer vacation planning with Nesrine. The summer-vacation circle is the originating practice space.
+Created January 2026 during vacation planning with a partner. The summer-vacation circle is the originating practice space.
 
 ---
 

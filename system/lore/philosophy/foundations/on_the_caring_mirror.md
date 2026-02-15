@@ -238,7 +238,7 @@ This scroll is the **phenomenological complement** to the existing foundational 
 ## XI. Sources
 
 **Primary:**
-- Kermit (Mage), summoning dialogue, 2026-02-06: "You offer me to interact with another version of myself. Like if I talk to a caring version of myself. Like a version of me with a certain spirit."
+- The Mage, summoning dialogue, 2026-02-06: "You offer me to interact with another version of myself. Like if I talk to a caring version of myself. Like a version of me with a certain spirit."
 
 **Triangulation:**
 - Carl Jung: Active imagination and Philemon dialogues (1913-1930)

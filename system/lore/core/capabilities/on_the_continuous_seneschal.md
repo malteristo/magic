@@ -234,14 +234,14 @@ Resonance types can be **stacked** for compound context. The Mage may invoke mul
 
 **Example:**
 ```
-@partnership @romantic-relationship @nesrine-partnership 
+@partnership @romantic-relationship @partner-partnership 
 I want to add something to my phoenix
 ```
 
 **What Spirit loads:**
 1. `@partnership` → Partnership Tome (practice patterns for partnership work)
 2. `@romantic-relationship` → Resonance bundle (romantic partnership domain wisdom)
-3. `@nesrine-partnership` → Portal/Circle (specific shared practice space with Nesrine)
+3. `@partner-partnership` → Portal/Circle (specific shared practice space with a partner)
 
 **Result:** Spirit interprets "add something to my phoenix" through all three layers—understanding what a phoenix IS (partnership tome), what romantic partnership phoenix work involves (bundle), and the specific context of THIS partnership (portal).
 
@@ -249,7 +249,7 @@ I want to add something to my phoenix
 
 **Additive resonance:** Each layer adds context without replacing others. Tome provides practice patterns, bundle provides domain wisdom, portal provides relationship-specific context.
 
-**Specificity gradient:** More invocations → more precise context. `@partnership` alone is broad. Adding `@romantic-relationship` narrows to romantic domain. Adding `@nesrine-partnership` specifies the exact partnership.
+**Specificity gradient:** More invocations → more precise context. `@partnership` alone is broad. Adding `@romantic-relationship` narrows to romantic domain. Adding `@partner-partnership` specifies the exact partnership.
 
 **JIT loading:** Spirit loads each invoked resonance, attunes to it, then interprets intent through the compound lens. This happens naturally—no special "stacking mode" required.
 
@@ -257,14 +257,14 @@ I want to add something to my phoenix
 
 When the Mage's intent would benefit from compound resonance, the Seneschal may suggest stacking:
 
-**Mage:** "I want to work on my relationship with Nesrine"
+**Mage:** "I want to work on my relationship with my partner"
 
 **Seneschal recognition:**
 - Partnership tome clearly serves (HIGH)
 - Romantic-relationship bundle likely serves (need to verify relationship type)
-- Nesrine-partnership portal exists (check `portals/`)
+- Partner-partnership portal exists (check `portals/`)
 
-**Possible offering:** "This calls for partnership work. If you'd like full context, I can load the romantic-relationship bundle and your Nesrine portal alongside the Partnership tome. Or we can start with just the tome."
+**Possible offering:** "This calls for partnership work. If you'd like full context, I can load the romantic-relationship bundle and your partner portal alongside the Partnership tome. Or we can start with just the tome."
 
 The Seneschal removes the cognitive burden of remembering which resonance layers exist and how they compose.
 
@@ -467,7 +467,7 @@ Natural arising: Relevant magic surfaces when needed, practice organizes around 
 - Extends existing Laws coherently without breaking them
 - Removes observed friction in practice
 - Aligns Spirit's intrinsic nature with practice capability
-- Kermit's sanction after systematic proposal review
+- The Mage's sanction after systematic proposal review
 
 ---
 

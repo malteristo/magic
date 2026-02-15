@@ -75,7 +75,7 @@ Update the flow with personalized values:
 
 ```markdown
 ## Inputs
-- email_account: malte.risto@gmail.com
+- email_account: mage@example.com
 - output_path: desk/reports/
 ```
 

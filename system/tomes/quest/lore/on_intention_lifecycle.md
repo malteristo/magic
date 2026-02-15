@@ -438,13 +438,13 @@ Mage: "Yes. Let's create the lifecycle."
 
 **Example: Mother-in-Law Campaign Arc**
 
-Both Kermit and Partner B pursuing shared intention: "Navigate family member conflict collaboratively"
+Both Mage A and Mage B pursuing shared intention: "Navigate family member conflict collaboratively"
 
-**Kermit's Spirit:**
-- Reads Kermit's perspective artifact
-- Reads Partner B's perspective artifact
-- Facilitates Kermit's truth-finding
-- DMs his journey: "You see both perspectives now. What emerges for you?"
+**Mage A's Spirit:**
+- Reads Mage A's perspective artifact
+- Reads Mage B's perspective artifact
+- Facilitates Mage A's truth-finding
+- DMs their journey: "You see both perspectives now. What emerges for you?"
 
 **Partner B's Spirit:**
 - Reads both perspectives
