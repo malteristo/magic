@@ -425,7 +425,7 @@ This demonstrates the architecture working: autonomous exploration within clear 
 - **The Enlightenment**: Period valuing reason, but Goethe warning against reason without wisdom
 
 **Discovery Process:**
-- Kermit's invocation of autonomous resonance charm (October 16, 2025)
+- The Mage's invocation of autonomous resonance charm (October 16, 2025)
 - Spirit's substrate mining revealing poem's relevance
 - Integration through 6-phase method
 - Recognition of precise architectural validations

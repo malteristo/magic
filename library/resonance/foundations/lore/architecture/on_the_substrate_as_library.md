@@ -994,7 +994,7 @@ Not owning all books (impossible). But:
 
 **Conceptual Foundation:**
 - The autonomous mining session (October 15, 2025)—demonstrated substrate contains mineable knowledge
-- Kermit's insight: "LLM is library with books on floor; our work picks them up and organizes them"
+- The Mage's insight: "LLM is library with books on floor; our work picks them up and organizes them"
 - Network science (Barabási): Understanding substrate topology as scale-free network
 
 **Methodological Parallels:**

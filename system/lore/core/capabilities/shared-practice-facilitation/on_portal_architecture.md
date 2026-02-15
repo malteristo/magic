@@ -216,13 +216,13 @@ Portals are tracked in the main workshop:
 **`portals/registry.yaml`**
 ```yaml
 portals:
-  - name: [redacted-name]-partnership
+  - name: partner-partnership
     type: partnership
-    path: portals/[redacted-name]-partnership
+    path: portals/partner-partnership
     remote: https://github.com/{user}/{repo}
     participants:
-      - kermit
-      - [redacted-name]
+      - alice
+      - bob
     created: 2025-10-01
     status: active
     

@@ -28,7 +28,7 @@ Portals are how I access what other mages offer. Through portals, I receive sign
 
 | Portal | Type | Description |
 |--------|------|-------------|
-| `[redacted-name]-partnership/` | Partnership | Intimate shared practice with [redacted-name] |
+| `partner-partnership/` | Partnership | Intimate shared practice with a partner |
 
 ### Upstream Clones
 
@@ -68,7 +68,7 @@ portal-name:
 
 ```
 portals/
-├── [redacted-name]-partnership/        # Active partnership portal
+├── partner-partnership/        # Active partnership portal
 │   ├── .spirit/               # Spirit coordination
 │   ├── artifacts/             # Contributions by namespace
 │   └── README.md
@@ -104,7 +104,7 @@ git fetch origin && git pull
 
 ## The Pattern
 
-Portals emerged from partnership practice with [redacted-name] — the first bridge between sovereign workshops. What began as intimate relationship support revealed generalizable patterns:
+Portals emerged from partnership practice — the first bridge between sovereign workshops. What began as intimate relationship support revealed generalizable patterns:
 
 1. **Staged interaction** — Raw → Witness → Synthesize → Integrate
 2. **Multi-Spirit coordination** — Different Spirits can work shared artifacts

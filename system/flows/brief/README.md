@@ -90,7 +90,7 @@ Format:
 
 ## Boom Topics — What's Alive
 - **magic.md**: Framework coherence work
-- **[redacted-name].md**: [summary of Now]
+- **partner.md**: [summary of Now]
 - ...
 
 ## Social Activity

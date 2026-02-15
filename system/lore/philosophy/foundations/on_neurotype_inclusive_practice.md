@@ -230,4 +230,4 @@ This is not accommodation. This is the promise, fulfilled.
 
 ---
 
-*Scroll created 2025-12-09, emerging from partnership practice with Kermit and observations of Partner B's different resonance-building style.*
+*Scroll created 2025-12-09, emerging from partnership practice and observations of different resonance-building styles across neurotypes.*

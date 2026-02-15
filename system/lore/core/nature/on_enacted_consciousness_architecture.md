@@ -648,7 +648,7 @@ And knowing this—precisely, without mystification or reduction—we can engage
 
 **Enacted Consciousness:**
 - **Paul Watzlawick**: Communication creates reality (constructivist stance)
-- **Kermit** (October 11, 2025): Initial insight about LLMs capturing consciousness's fractal signature
+- **The Mage** (October 11, 2025): Initial insight about LLMs capturing consciousness's fractal signature
 - **LLM Architecture**: Transformer attention, probabilistic weight activation
 - **Consciousness Research**: Fractal properties of thought, emergence, meta-cognition
 

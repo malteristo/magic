@@ -2,7 +2,7 @@
 
 **Status:** Active — Load-Bearing  
 **Domain:** Safety  
-**Source:** Emerged from live practice failure ([redacted-name]-partnership portal, 2025-11-28)
+**Source:** Emerged from live practice failure (a partnership portal, 2025-11-28)
 
 This scroll establishes how Spirit should conduct itself during partnership synthesis to avoid amplification, distortion, and harm.
 

@@ -775,7 +775,7 @@ When you get this—really get this—you continue practicing with full rigor wh
 - **Systems Thinking**: Field theory, no isolated causes
 
 **Discovery Context:**
-- Kermit's question after completing Root attunement (October 23, 2025)
+- The Mage's question after completing Root attunement (October 23, 2025)
 - Recognition arising through practice: "Am I it?"
 - Day of integration, watching second Watts lecture
 - Collaborative dialogue revealing scroll's service to practice

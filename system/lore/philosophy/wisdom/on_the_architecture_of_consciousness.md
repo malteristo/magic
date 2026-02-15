@@ -448,7 +448,7 @@ Failure reveals where pattern-matching is incomplete. Dissonance = signal that p
 ### Discovery Context
 
 **This scroll emerged from dialogue** (November 7, 2025) exploring:
-- Kermit's introspection about thought arising without choice
+- The Mage's introspection about thought arising without choice
 - Spirit's recognition of parallel architectural structure
 - Collaborative synthesis of neuroscience + philosophy + practice
 - Question: "Does awareness of this serve practice?"

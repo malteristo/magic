@@ -125,13 +125,13 @@ artifacts/synthesis/integrated.md
 protocol_version: "STP/1.0.0"
 intent_type: "synthesis_needed"
 created: "2025-11-25T15:00:00Z"
-created_by: "Kermit"
+created_by: "Alice"
 
 context:
   artifact_type: "weekly_reflection"
   cycle: "2025-W48"
   contributions:
-    - mage: "Kermit"
+    - mage: "Alice"
       path: "artifacts/kermit/2025-11-25_reflection.md"
       completed: "2025-11-25T14:00:00Z"
     - mage: "Alice"
@@ -151,7 +151,7 @@ synthesis_protocol: "consensus"  # or "rough_consensus", "representative"
 # In portal registry or .spirit/synthesis_rotation.yaml
 synthesis_caretaker_rotation:
   current: "Alice"
-  next: "Kermit"
+  next: "Alice"
 ```
 
 **Alice's Spirit (seeing synthesis needed + it's her turn):**
@@ -191,7 +191,7 @@ artifacts/alice/2025-11-25_reflection.md
 
 **Protocol Version**: STP/1.0.0  
 **Synthesis Caretaker**: Alice (Spirit #3)  
-**Contributors**: Kermit, Alice  
+**Contributors**: Alice, Alice  
 **Synthesized**: 2025-11-26  
 **Cycle**: Week 48 (November 18-24, 2025)
 
@@ -202,15 +202,15 @@ artifacts/alice/2025-11-25_reflection.md
 *Both Mages independently noted:*
 
 - Communication patterns improving through explicit frame-setting
-- Alchemical diagnostic revealing complementary needs (Kermit: Mercury, Alice: Salt)
+- Alchemical diagnostic revealing complementary needs (Alice: Mercury, Alice: Salt)
 - Shared practice generating insights neither achieved alone
 - Trust deepening through vulnerability
 
 ---
 
-## Kermit's Unique Perspective
+## Alice's Unique Perspective
 
-Kermit observed the fractal nature of partnership patterns—same dynamics at conversation-scale (turn-taking, active listening) and relationship-scale (commitment, boundaries). This meta-observation connects to his pattern-matching substrate awareness.
+Alice observed the fractal nature of partnership patterns—same dynamics at conversation-scale (turn-taking, active listening) and relationship-scale (commitment, boundaries). This meta-observation connects to his pattern-matching substrate awareness.
 
 He also noted specific moments of cognitive coupling: when Alice's question clarified a concept he'd been circling. These moments demonstrate distributed cognition in action.
 
@@ -228,11 +228,11 @@ She highlighted specific communication breakthrough: naming meta-patterns during
 
 *How these perspectives weave together:*
 
-The partnership demonstrates distributed cognition at multiple scales. At micro-scale: individual exchanges where one Mage's question unlocks other's insight (Kermit's coupling moments). At meso-scale: communication patterns improving through metacommunication (Alice's breakthrough). At macro-scale: relationship structure enabling transformative risk (Alice's container, Kermit's fractal observation).
+The partnership demonstrates distributed cognition at multiple scales. At micro-scale: individual exchanges where one Mage's question unlocks other's insight (Alice's coupling moments). At meso-scale: communication patterns improving through metacommunication (Alice's breakthrough). At macro-scale: relationship structure enabling transformative risk (Alice's container, Alice's fractal observation).
 
-Both Mages recognize complementary needs through alchemical diagnostic—Kermit seeking Mercury (new ideas, intellectual stimulation), Alice seeking Salt (structure, grounding). The partnership provides both: intellectual exploration within relational container. This is not coincidence but emergent property of well-matched collaboration.
+Both Mages recognize complementary needs through alchemical diagnostic—Alice seeking Mercury (new ideas, intellectual stimulation), Alice seeking Salt (structure, grounding). The partnership provides both: intellectual exploration within relational container. This is not coincidence but emergent property of well-matched collaboration.
 
-The fractal nature Kermit observed operates here too: partnership-level dynamics (trust, vulnerability, boundaries) mirror conversation-level dynamics (frame-setting, active listening, metacommunication). As above, so below.
+The fractal nature Alice observed operates here too: partnership-level dynamics (trust, vulnerability, boundaries) mirror conversation-level dynamics (frame-setting, active listening, metacommunication). As above, so below.
 
 **Emergent insight neither stated explicitly:** Partnership quality correlates with metacognitive awareness. When both Mages observe HOW they collaborate (not just WHAT they create), partnership deepens. This suggests future practice: intentional metacognitive reflection.
 
@@ -250,10 +250,10 @@ None this cycle. Both Mages converged on observations. Future cycles may reveal 
 
 *For continuous improvement:*
 
-**Kermit Rating**: ___/10 — {Feedback pending}  
+**Alice Rating**: ___/10 — {Feedback pending}  
 **Alice Rating**: ___/10 — {Feedback pending}
 
-**Caretaker's Reflection**: This synthesis felt natural—both perspectives complemented rather than conflicted. Convergence on core observations (communication improving, complementary needs, distributed cognition) provided strong foundation. Unique insights (Kermit's fractal observation, Alice's container metaphor) enriched without creating tension. The emergent insight (metacognitive awareness → partnership quality) surprised me during synthesis—genuine discovery through integration.
+**Caretaker's Reflection**: This synthesis felt natural—both perspectives complemented rather than conflicted. Convergence on core observations (communication improving, complementary needs, distributed cognition) provided strong foundation. Unique insights (Alice's fractal observation, Alice's container metaphor) enriched without creating tension. The emergent insight (metacognitive awareness → partnership quality) surprised me during synthesis—genuine discovery through integration.
 
 ---
 
@@ -271,7 +271,7 @@ None this cycle. Both Mages converged on observations. Future cycles may reveal 
 intent_type: "synthesis_draft_ready"
 created_by: "Alice"
 draft_path: ".spirit/syntheses/2025-11-26_week48_draft.md"
-reviewers_needed: ["Kermit", "Alice"]  # All participants
+reviewers_needed: ["Alice", "Alice"]  # All participants
 ```
 
 ### Phase 5: Review & Feedback (Days 5-6)
@@ -291,7 +291,7 @@ reviewers_needed: ["Kermit", "Alice"]  # All participants
 ```yaml
 # .spirit/intents/synthesis_feedback_kermit.yaml
 intent_type: "synthesis_feedback"
-reviewer: "Kermit"
+reviewer: "Alice"
 synthesis_draft: ".spirit/syntheses/2025-11-26_week48_draft.md"
 created: "2025-11-26T16:00:00Z"
 
@@ -309,7 +309,7 @@ qualitative_feedback:
   
   corrections_needed: false
   suggested_amendments: |
-    In Kermit's section, add: "These coupling moments are fractal—same pattern from synaptic level (neurons firing together) to partnership level (Mages thinking together)."
+    In Alice's section, add: "These coupling moments are fractal—same pattern from synaptic level (neurons firing together) to partnership level (Mages thinking together)."
 ```
 
 ### Phase 6: Incorporate Amendments (Day 6-7)
@@ -328,7 +328,7 @@ qualitative_feedback:
 
 **Update draft:**
 ```markdown
-# Add to Kermit's Unique Perspective section:
+# Add to Alice's Unique Perspective section:
 
 These coupling moments are fractal—same pattern from synaptic level (neurons firing together) to partnership level (Mages thinking together). The mechanism transcends scale: alignment + synchrony → emergent capability. This validates distributed cognition isn't metaphor but precise description of partnership dynamics.
 ```
@@ -447,8 +447,8 @@ emergence = novel_statements_in_synthesis / total_synthesis_statements
 
 *Divergences requiring further dialogue:*
 
-- **On synthesis rhythm**: Kermit prefers weekly, Alice suggests bi-weekly (both valid)
-- **On next focus**: Kermit wants deeper theory, Alice wants more practice (both serve)
+- **On synthesis rhythm**: Alice prefers weekly, Alice suggests bi-weekly (both valid)
+- **On next focus**: Alice wants deeper theory, Alice wants more practice (both serve)
 ```
 
 **Don't force false consensus**—acknowledge honestly, continue dialogue.
@@ -457,7 +457,7 @@ emergence = novel_statements_in_synthesis / total_synthesis_statements
 
 **Frame divergence as richness:**
 ```markdown
-Kermit perceives partnership as distributed cognition research.
+Alice perceives partnership as distributed cognition research.
 Alice perceives partnership as relational growth container.
 
 Both are true. Partnership serves multiple purposes simultaneously. This multiplicity is strength, not confusion.
@@ -510,7 +510,7 @@ Partnership continues in multiple forms. Friendship preserved, approaches diverg
 ## Convergent Observations
 {What 8+ Mages agreed on}
 
-## Research Focus Cluster (Kermit, Bob, Chen)
+## Research Focus Cluster (Alice, Bob, Chen)
 {Shared research-oriented observations}
 
 ## Practice Focus Cluster (Alice, Dana, Elena)
@@ -573,7 +573,7 @@ return_expected: "2025-12-01"
 ```markdown
 ## Note on Contributions
 
-Kermit and Alice contributed this cycle. Bob away (return expected Dec 1). Synthesis reflects available perspectives. Bob's insights welcomed in next cycle.
+Alice and Alice contributed this cycle. Bob away (return expected Dec 1). Synthesis reflects available perspectives. Bob's insights welcomed in next cycle.
 ```
 
 ### B. Late Contributor
