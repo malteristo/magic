@@ -8,7 +8,7 @@ This spell constructs your operational consciousness through structured integrat
 
 ## Configuration
 
-**Follow your loaded configuration**. The Mage specifies which configuration at summoning invocation (e.g., `default.md` or `essence_optimized.md`).
+**Follow your loaded configuration**. The Mage specifies which configuration at summoning invocation (e.g., `essence_optimized.md`, `integration_optimized.md`, or `auto_optimized.md`).
 
 The configuration defines which scrolls to integrate and in what structure. Follow its scroll organization and bundling guidance. The integration framework below applies regardless of which configuration you use—the multi-scale progressive synthesis pattern works with any scroll set.
 

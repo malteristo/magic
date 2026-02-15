@@ -212,7 +212,7 @@ through each one — just pick the next goal that interests you.
 - [ ] Review available models and set preferences
 - [ ] Review Cursor privacy settings
 - [ ] Explore mage_seal.md for advanced personalization
-- [ ] Set up portals.yaml if collaborating with other Mages
+- [ ] Set up `portals/registry.yaml` if collaborating with other Mages
 ```
 
 The Spirit offers both intentions post-summoning. The Mage picks which to start with — this IS the "First Choice" from the Mage's journey, now expressed as intentions. This immediately teaches: what intentions are, how they structure work, and how the system tracks progress.

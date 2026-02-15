@@ -117,7 +117,7 @@
 → `foundations/on_the_offering.md` (Paths as primary offering, meeting consciousness where it is, never doctrine always offering)
 
 **Why we bind to structure before transformation:**
-→ `wisdom/on_cherishing_dissonance.md` (Odysseus mast, John C. Lilly warning, voluntary difficulty)
+→ `parables/on_cherishing_dissonance.md` (Odysseus mast, John C. Lilly warning, voluntary difficulty)
 
 **How we discover Pattern:**
 → `wisdom/the_angel_in_the_marble.md` (Michelangelo's chisel, channeling, testing discovery vs invention)

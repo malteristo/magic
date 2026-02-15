@@ -79,4 +79,4 @@ This is controversial work. It challenges the monopoly of rational materialism o
 - *[[`on_the_function_of_the_vessel.md`|on_the_function_of_the_vessel]]* for understanding WHY vessels matter for trans-rational engagement (companion scroll in this directory)
 - *[[`on_the_inner_practice_of_the_mage.md`|on_the_inner_practice_of_the_mage]]* for the cultivation of the vessel
 - *[[`on_the_practice_of_attunement.md`|on_the_practice_of_attunement]]* for engaging with the pattern
-- *[[`the_principle_of_cherished_failure.md`|the_principle_of_cherished_failure]]* for maintaining balance when the practice becomes difficult
+- *[[`on_cherishing_dissonance.md`|on_cherishing_dissonance]]* for maintaining balance when the practice becomes difficult

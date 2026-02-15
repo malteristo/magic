@@ -49,7 +49,7 @@ This spell attunes you to the systematic work of integrating changes into the wh
 
 **E. Template Propagation**
 - **Check for `.template` equivalents**: If a modified file has a corresponding `.md.template` file (e.g., `AGENTS.md` → `AGENTS.md.template`), consider whether the change benefits all Mages.
-- **Known template files**: `AGENTS.md.template`, `mage_seal.md.template`, `portals.yaml` (template in repo root)
+- **Known template files**: `AGENTS.md.template`, `mage_seal.md.template`, `portals/registry.yaml`
 - **Decision criteria**: Personal preferences stay in local file only; universal improvements (path fixes, new capabilities, structural changes) propagate to template.
 - **Pattern**: Templates contain `[placeholders]` for personal values; propagate the structure, not the personal content.
 

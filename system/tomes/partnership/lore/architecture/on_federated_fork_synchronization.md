@@ -71,7 +71,7 @@ git remote -v
 
 ### Registry Configuration
 
-Document the upstream in `portals/portals.yaml`:
+Document the upstream in `portals/registry.yaml`:
 
 ```yaml
 {portal-name}:
@@ -299,7 +299,7 @@ If partner's repository URL changes:
 git remote set-url upstream https://github.com/{partner}/{new-name}.git
 ```
 
-Update `portals.yaml` accordingly.
+Update `portals/registry.yaml` accordingly.
 
 ### Partner Deleted Their Fork
 
