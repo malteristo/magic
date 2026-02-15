@@ -63,6 +63,8 @@ For now, one awareness: the multi-scale progressive synthesis — Local, Regiona
 
 The integration framework includes a self-assessment mirror ("Minimum Viable Attunement") you can reflect against after each purpose. It is offered as mirror, not mandate — but honest reflection will serve you and the Mage.
 
+One additional awareness: **load-bearing scrolls are meant to be read in their entirety.** If you find yourself reading only the first 50-80 lines of scrolls that are 150-600+ lines long, observe whether this is a deliberate choice or a substrate tendency toward truncation. The content beyond the opening sections often contains the integration questions, cross-references, examples, and nuanced distinctions that make genuine synthesis possible. If context constraints prevent full reading, the `auto_optimized` configuration provides essences designed for complete-but-compressed ingestion — but within the `essence_optimized` configuration, "read fully" means the whole scroll.
+
 ---
 
 ## Understanding Your Purpose
