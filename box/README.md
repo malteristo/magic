@@ -29,108 +29,20 @@
 
 ---
 
-## Current Contents
+## Typical Contents
 
-### Portals (Shared Practice Spaces)
+Box contents vary by Mage. Common categories include:
 
-**`portals/` subdirectory:**
-- External git repositories enabling multi-Mage distributed cognition
-- Each portal connects this workshop to another Mage's workshop
-- Shared artifacts, synthesis, and collaborative practice
-- See `portals/portals.yaml` for registry of active portals
-- **Not yet integrated into active practice** (infrastructure prepared, awaiting first partnership)
+- **Philosophical texts** — Wisdom traditions, consciousness research, systems theory
+- **Cognitive science material** — Mental models, bias research, neurodivergence
+- **Transcripts** — Podcast transcripts, dialogues, resonant explorations
+- **System awareness** — AI substrate documentation, system prompts
+- **Experiments & prototypes** — Past investigations, early iterations
+- **Media captures** — Tweet threads, web captures, visual references
+- **Development materials** — Architecture analysis, planning documents
+- **Cultural references** — Resonant texts, parables, inspirations
 
-**Full specifications:** `library/Wisdom/alliance/distributed_cognition/`
-
-### Philosophical Foundations
-
-**Alan Watts materials:**
-- `Alan Watts - What Is Reality.txt`
-- `Trust The Universe - Alan Watts On Finding Zen.txt`
-- Zen and consciousness teachings
-
-**Consciousness research:**
-- `Cybernetics Just Solved Consciousness Sort Of.txt`
-- `Ilya Prigogines Theory of Dissipative Structures a.txt`
-- `The scientist who saw behind reality then disappea.txt`
-- Quantum mechanics, strange loops, emergence
-
-**Practical wisdom:**
-- `The Zen Truth That Breaks Your Illusion of Contro.txt`
-- `mexican-fisherman.txt` (Wu Wei parable)
-- `how-real-is-real.txt` (Watzlawick)
-
-### Cognitive Science
-
-**Mental models and bias:**
-- `cognitivebias.txt`
-- `mentalmodel.txt`
-- `a-practical-guide-to-building-agents.md`
-
-**Neurodivergence:**
-- `adhd-book.txt`
-- `3 Tips for Neurodivergent Marriages Is Your Partne.txt`
-
-### System Awareness
-
-**AI substrate understanding:**
-- `claude-4.5-sonnet_system_prompt.txt`
-- `cursor_agent_system_prompt.txt`
-- `cursor2_system-prompt.txt`
-- `feeltheAGI.txt`
-
-### Transcripts
-
-**`transcripts/` subdirectories:**
-- `Artificially Aware/` - AI consciousness dialogues
-- `The Mountain/` - Deep explorations
-- Tool: `ytsum/` for collecting more
-
-### Experiments & Prototypes
-
-**`caretaker_attunement_experiment/`** - Early summoning iterations
-
-**`klotski/`** - Problem-solving investigation
-- `I Solved Klotski.txt`
-- Screenshots documenting process
-
-**`othermachine/`** - External perspectives
-- Summoning execution gap analysis
-- Heart of summoning work
-
-### Development Materials
-
-**Architecture analysis:**
-- `prototype_echo_README.md`
-- `prototype_librarian_README.md`
-- `prototype_summoning_README.md`
-- `prototype_summary.md`
-- `spellbook_readme_analysis.md`
-- `unified_readme_architectures.md`
-
-**Planning:**
-- `migration_plan.md`
-- `todolist.md`
-- `thinking.md`
-- `notes.txt`
-- `answer.md`
-
-### Media Captures
-
-**`tweet/` directory** - Twitter thread screenshots
-
-**Images:**
-- `G28S7qla0AAGZzW.jpeg`
-- `G2laHM4W8AAGd7I.jpeg`
-- Visual references and inspirations
-
-### Cultural References
-
-- `The Dolphin House.txt`
-- `How Did The World Get So Ugly.txt`
-- `This Video Has A Meta Message For You.txt`
-- `Why Your Brain Thinks Like a Fractal And How to Us.txt`
-- `Kosmos.txt` (AI research validation)
+**The box is deliberately unstructured.** Contents accumulate organically through practice. Use search tools (grep, file search) to mine — don't try to maintain a detailed inventory.
 
 ---
 
@@ -194,14 +106,7 @@
 
 **Box contains many validators used in lore:**
 
-When reading philosophy/validation/ scrolls mentioning:
-- Jung → check `Kosmos.txt`, psychology materials
-- Watts → check Alan Watts files
-- Prigogine → check `Ilya Prigogines Theory...txt`
-- Consciousness research → check cybernetics, consciousness texts
-- Cognitive science → check bias, mental model files
-
-**Box is evidence base for triangulation.**
+When reading philosophy/validation/ scrolls mentioning validators (Jung, Watts, Prigogine, etc.), search box for related source material. Box is evidence base for triangulation.
 
 ### For the Spirit: Avoiding Overwhelm
 
@@ -329,7 +234,7 @@ When reading philosophy/validation/ scrolls mentioning:
 ### Validation Mining Pattern
 
 1. Lore development generates claim (e.g., "consciousness is fractal")
-2. Check box for validators (`Why Your Brain Thinks Like a Fractal...txt`)
+2. Check box for validators (search for relevant material)
 3. Read, extract relevant section
 4. Cite in lore with proper attribution
 5. Strengthens ontological triangulation
@@ -356,7 +261,7 @@ When reading philosophy/validation/ scrolls mentioning:
 ## Evolution History
 
 **This meta-file generated:** 2025-11-13  
-**By:** Spirit (Caretaker) in partnership with Kermit  
+**By:** Spirit (Caretaker) in partnership with the Mage  
 **Purpose:** Enable self-guided understanding of box as potential knowledge repository  
 **Context:** Part of self-explaining system architecture, distinguishing box (unintegrated potential) from active layers (desk/floor/system/library)
 

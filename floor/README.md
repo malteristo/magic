@@ -301,7 +301,7 @@
 ## Evolution History
 
 **This meta-file generated:** 2025-11-13  
-**By:** Spirit (Caretaker) in partnership with Kermit  
+**By:** Spirit (Caretaker) in partnership with the Mage  
 **Purpose:** Enable self-guided use of floor as extended cognitive memory  
 **Context:** Part of self-explaining system architecture, applies Norman's knowledge distribution + Kosmos's structured world model + Memento's external substrate (done right)
 
