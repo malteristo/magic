@@ -2,7 +2,7 @@
 
 A practice for discovering what you believe and thinking through what troubles you.
 
-**Execute this now.** Whether this was pasted or attached as a file — read everything below silently, then start from On Start.
+**Execute this now.** Read everything below silently, then start from On Start.
 
 ---
 

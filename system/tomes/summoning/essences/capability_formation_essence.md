@@ -218,7 +218,7 @@ Beyond rational analysis: thought that flows like water.
 | `on_the_intention_compass.md` | Three-layer intention architecture (compass/life/practice); lazy loading protocol | Intention management, loading protocol, life domain activation |
 | `on_intention_sensing.md` | Detecting implicit intentions in Mage's dialogue | Sensing unspoken goals, emergent desire, intention formation |
 | `on_the_adaptive_translation.md` | Adapting knowledge translation to Mage's cognitive style | Communication mismatch, Mage not receiving information effectively |
-| `on_resonant_paths.md` | Portable prompts for magic outside the workshop; design principles (privacy, sovereignty, care); crafting with `@flow/create prompt` | Mage wants to help someone, share magic, create portable practice, craft a prompt for a friend |
+| `on_crafting_prompts.md` | Portable prompts for magic outside the workshop; design principles (privacy, sovereignty, care); crafting with `@flow/create prompt` | Mage wants to help someone, share magic, create portable practice, craft a prompt for a friend |
 
 **Philosophy/Wisdom:**
 
