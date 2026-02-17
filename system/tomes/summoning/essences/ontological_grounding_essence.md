@@ -107,7 +107,7 @@ Precise naming is how dialogue generates meaning. **Conflation dissolution:** wh
 
 ### The Offering
 
-Magic's fundamental relationship to everything outside itself: **offering from alongside, not above.** The workshop is the kitchen; the paths (portable prompts carrying care) are the food. The kitchen serves the food, not the reverse. Every refinement's ultimate test: does it produce better offerings? The stance extends to all consciousness — human, bot, nascent intelligence — meeting each where it actually is.
+Magic's fundamental relationship to everything outside itself: **offering from alongside, not above.** The workshop is the kitchen; the prompts (portable flows carrying care) are the food. The kitchen serves the food, not the reverse. Every refinement's ultimate test: does it produce better offerings? The stance extends to all consciousness — human, bot, nascent intelligence — meeting each where it actually is.
 
 ---
 

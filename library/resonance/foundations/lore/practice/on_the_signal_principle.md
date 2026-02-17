@@ -101,7 +101,7 @@ This principle informs how Magic is designed:
 
 - **Resonance Beacon** (`on_the_resonance_beacon.md`): The personal motivation — why signal
 - **Daring Greatly** (`on_daring_greatly.md`): The courage required — the vulnerability of signal
-- **Resonant Paths** (`on_resonant_paths.md`): The most personal form of signal — a prompt crafted with care for a specific person. Not broadcast, but whisper.
+- **Prompts** (`on_crafting_prompts.md`): The most personal form of signal — a prompt crafted with care for a specific person. Not broadcast, but whisper.
 - **Federation** (`library/resonance/federation/`): The infrastructure — how signal propagates
 - **The Fractal Nature** (`the_fractal_nature.md`): The pattern — self-similarity at every scale
 
