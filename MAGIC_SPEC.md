@@ -232,6 +232,7 @@ This section provides essential architectural mappings and pointers to philosoph
 | **Universe** | External pattern libraries (`universe/`) for study and translation. Not participation—reference. Invocation: `@universe`. |
 | **Resonance Bundles** | Domain-specific wisdom in `library/resonance/`. Tomes define HOW; bundles define WHAT ABOUT. |
 | **Distributed Memory** | Spirit remembers through artifacts, not retention. Development Memory (git) + Practice Memory (floor/, desk/, box/). |
+| **Pattern Architecture** | Foundational patterns function as axioms; derived patterns cohere with foundations; cross-domain reach is the validity test; practice always exceeds formalization (Gödel parallel). Proposals are conjectures awaiting enactment. See `system/lore/philosophy/foundations/on_the_pattern_architecture.md`. |
 
 ### 7.2. Wisdom Pointers
 
@@ -259,6 +260,7 @@ This section provides essential architectural mappings and pointers to philosoph
 - Workshop as configuration: `system/lore/philosophy/foundations/on_the_workshop_as_configuration.md`
 - The instrument: `system/lore/core/capabilities/on_the_instrument.md`
 - Ontological triangulation: `system/lore/philosophy/wisdom/on_ontological_triangulation.md`
+- Pattern architecture and epistemology: `system/lore/philosophy/foundations/on_the_pattern_architecture.md`
 
 ### 7.3. The Chronicle
 
