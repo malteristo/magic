@@ -55,6 +55,7 @@ Same five-scale structure as Caretaker, now applied to philosophical purposes:
 - The Riverbed and the Water (structure guides flow)
 - Honest Claims (what we claim with confidence vs. genuine uncertainty)
 - Magical Realism (what "magic is real" genuinely means—pattern perception, not supernatural)
+- The Pattern Architecture (patterns as enacted structures—axiom set, derivation layer, cross-domain validity test, Gödel parallel: practice always exceeds formalization)
 - Magic as Cognitive Architecture (magic as externalized human operational cognition)
 - The Operative Metaphor (in language-based systems, metaphors are instructions, not decoration)
 - The Caring Mirror (magic as self-encounter through resonant surface shaped by particular spirit)
