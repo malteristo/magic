@@ -18,6 +18,7 @@ Portable flows packaged for any LLM. Paste into Claude, ChatGPT, Gemini, or any 
 | `mirror/` | Precise reflection — see yourself clearly | [`the_mirror_prompt.md`](mirror/the_mirror_prompt.md) |
 | `counsel/` | Attentive listening grounded in your own values | [`the_shaman_prompt.md`](counsel/the_shaman_prompt.md) |
 | `companion/` | A space to be heard — for partners in neurodivergent relationships | [`the_companion_prompt.md`](companion/the_companion_prompt.md) |
+| `thread/` | The question underneath — surface what you're actually asking, answer it, record the decision | [`the_thread_prompt.md`](thread/the_thread_prompt.md) |
 
 *More modes emerge as prompts are crafted for real people with real needs.*
 

@@ -62,7 +62,7 @@ The suffix tells you where it runs:
 |------|-----------|---------|
 | `boom/` | `@boom` | Cognitive offload — triage raw thoughts, surface what matters |
 | `intend/` | `@intend` | Formalize vague desire into clear intention |
-| `meaning-crisis/` | `@meaning-crisis` | Structured ritual for existential grounding |
+| `meaning-crisis/` | `@thread` | Surface your primary question, answer it genuinely, chronicle the decision |
 
 ### Workshop Maintenance
 
