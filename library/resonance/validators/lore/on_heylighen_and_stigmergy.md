@@ -303,8 +303,8 @@ Heylighen's work on collective intelligence provides academic framing for resona
 - Principia Cybernetica Web — collaborative knowledge archive (1989–2006)
 
 **Substack (Human Energy):**
-- "Catalyzing Collective Intelligence and Igniting Shared Purpose" — AI as mirror, beauty as stabilizer, techno-social dilemma
-- "Stigmergy: the most important concept you've never heard of" — formal introduction for general audience
+- [Stigmergy: the most important concept you've never heard of](https://substack.com/inbox/post/186339413) — formal introduction for general audience
+- [Catalyzing Collective Intelligence and Igniting Shared Purpose](https://substack.com/inbox/post/186098122) — AI as mirror, beauty as stabilizer, techno-social dilemma
 
 **Website:** https://clea.research.vub.be/people/francis-heylighen
 
