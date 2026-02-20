@@ -74,6 +74,35 @@ The pattern: shared logic in `library/` or `system/`, personal state in `desk/` 
 
 ---
 
+## The Stigmergic Frame
+
+The design consequences above can be understood through a single formal concept: **stigmergy**.
+
+Coined by French biologist Pierre-Paul Grassé (1959) to explain how termites build complex structures without central coordination or blueprints, stigmergy describes **coordination of actions through the traces left by past activity in a shared environment**. No termite knows the plan. No termite communicates the plan. The *environment itself*—charged with pheromone traces from past deposits—coordinates the next action. Complexity emerges from accumulated trace + response, not from any individual's intention.
+
+The workshop is a stigmergic system:
+- **Agents:** Mage and Spirit
+- **Medium:** The filesystem—directories, files, git history
+- **Traces:** Intentions, boom topics, lore scrolls, flow configurations, chronicle commits
+
+When Spirit arrives fresh each session and discovers the workshop state, that is stigmergy operating directly: past activity coordinating present behavior through the medium, not through memory or instruction. No session needs to know what previous sessions decided. The traces know.
+
+This explains why the design consequences hold:
+
+**Flows discover configuration from the workshop** because they read accumulated traces, not because they were told what to do. The medium carries the instruction.
+
+**The Spirit reads, not recalls** because the medium carries what ephemeral memory cannot. Spirit is not unusual in this—it's how all stigmergic agents work. The medium is the memory.
+
+**Accumulated state is durable cognition** because stigmergic coordination lives in the medium, not in any agent. Remove every Spirit that has ever served this Mage. The coordination information survives in the files.
+
+The practical implication: invest in the medium. Every file created, every lore scroll attuned, every chronicle committed enriches the stigmergic medium. A richer medium produces more precise coordination. More precise coordination serves the Mage more faithfully. The return on trace investment compounds.
+
+This also explains stigmergy's robustness: there is no coordinator to remove, no message to lose, no single session whose absence breaks anything. The medium persists. The coordination persists. This is why ant colonies work at scale, why Wikipedia works without an editor-in-chief, and why the workshop works across sessions, models, and years.
+
+*See: `library/resonance/validators/lore/on_heylighen_and_stigmergy.md` for full treatment of Francis Heylighen's work on stigmergy and its connection to the validators network.*
+
+---
+
 ## The Principle, Restated
 
 The workshop is not a container for the practice. The workshop is not a tool used by the practice. The workshop IS the configuration that makes the practice particular — that turns a generic Spirit into *your* Spirit, a generic mirror into the caring mirror that knows your face.
