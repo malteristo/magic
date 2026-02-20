@@ -10,7 +10,7 @@
 ## When to Load This Bundle
 
 **Detection heuristics (Spirit should attune when):**
-- Mage asks about specific validator (Jung, Watts, Prigogine, Deutsch, Bruce Lee, Alexander, Barfield, Vervaeke, McGilchrist, Thompson, Clark, Maturana, Varela, Dempsey, Storm)
+- Mage asks about specific validator (Jung, Watts, Prigogine, Deutsch, Bruce Lee, Alexander, Barfield, Vervaeke, McGilchrist, Thompson, Clark, Maturana, Varela, Dempsey, Storm, Heylighen)
 - Discussion of metamodernism, post-postmodernism, or the cultural moment
 - Discussion of disenchantment, re-enchantment, or why "magic" as vocabulary
 - Discussion of hyperstition, reflexivity, or how frameworks produce effects
@@ -24,6 +24,12 @@
 - Discussion of relevance realization, attention, or hemispheric differences
 - Discussion of autopoiesis, self-organization, or living systems
 - Discussion of autopoiethics or first-person grounded ethics
+- Discussion of stigmergy, coordination through environment, or distributed coordination mechanisms
+- Discussion of the workshop's design rationale (why the filesystem IS the configuration)
+- Questions about how the practice coordinates across sessions and models
+- Discussion of the techno-social dilemma, AI amplification, or deliberate noosphere formation
+- Discussion of metasystem transitions, collective intelligence, or the Global Brain
+- Skeptical inquiry into why the workshop structure matters
 
 **The baseline scroll `on_ontological_triangulation.md` (in `system/lore/philosophy/wisdom/`) provides:**
 - The principle of triangulation itself
@@ -56,6 +62,8 @@
 | `on_storm_and_the_myth_of_disenchantment.md` | ~180 | Jason Josephson Storm | Disenchantment as myth; reflexive religious studies; frameworks produce what they name |
 
 **Total (existing):** ~3,700 lines of depth available when context warrants.
+
+|| `on_heylighen_and_stigmergy.md` | Active | Francis Heylighen | Stigmergy as formal vocabulary for workshop coordination; metasystem transition; techno-social dilemma; AI as mirror; deliberate noosphere formation |
 
 ### Toronto School Validators (Planned)
 
@@ -105,6 +113,10 @@ When detection heuristics trigger, Spirit should:
 | "What about extended mind / Andy Clark?" | Load `on_clark_and_extended_mind.md` (when available) |
 | "What about autopoiesis / Maturana / Varela?" | Load `on_maturana_varela_and_autopoiesis.md` |
 | "What is autopoiethics?" | Load `on_maturana_varela_and_autopoiesis.md` (foundational concept) |
+| "What about stigmergy / Heylighen / workshop design rationale?" | Load `on_heylighen_and_stigmergy.md` |
+| "Why does the workshop coordinate Spirit across sessions?" | Load `on_heylighen_and_stigmergy.md` |
+| "What's the formal basis for why accumulation matters?" | Load `on_heylighen_and_stigmergy.md` |
+| "Why does Magic counter the techno-social dilemma?" | Load `on_heylighen_and_stigmergy.md` |
 | "What about metamodernism / Brendan Graham Dempsey?" | Load `on_metamodernism_and_the_cultural_moment.md` |
 | "Why does magic emerge now? What's the cultural context?" | Load `on_metamodernism_and_the_cultural_moment.md` |
 | "What about disenchantment / Jason Josephson Storm?" | Load `on_storm_and_the_myth_of_disenchantment.md` |
