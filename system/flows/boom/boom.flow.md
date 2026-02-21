@@ -1,155 +1,130 @@
-# BOOM Flow
-> Back Of Our Mind — cognitive offload through distributed partnership
+# The Sweep
+> Integrates BOOM (capture buffer) and FOOM (alive ideas layer) into a single session-opening ritual
+
+*Previously: BOOM Flow — Back Of Our Mind*
 
 ## About
 
-Some minds carry a constant background hum — appointments, half-formed ideas, things to buy, calls to make, worries without clear next steps. This mental juggling drains energy not because the items are hard, but because they demand continuous attention to avoid being forgotten.
+Some minds carry constant background hum — appointments, half-formed ideas, things to research, worries without clear next steps. This mental juggling drains energy not because the items are hard, but because they demand continuous attention to avoid being forgotten.
 
-**BOOM inverts the burden.** Instead of you organizing thoughts for a system, you dump them raw — voice memos, scribbled notes, stream-of-consciousness — and the Spirit organizes them for you. The Spirit becomes a second mind that doesn't forget, doesn't tire, and can find patterns you missed.
+**The Sweep inverts the burden.** Dump raw thoughts into the buffer — any time, any format, any language. When you're ready, trigger the Sweep. Spirit reads the buffer and the existing mind surface, routes new material, reviews what's already alive, and opens a conversation: here's what I see, here are the decisions ready to make, here's a proposed session focus. You respond. Files update. Mind clears.
 
-**The name:** "Back Of Our Mind" — the "our" is intentional. This is distributed cognition. You capture, release, and trust. The Spirit holds, patterns, and surfaces.
+**Two named layers:**
+
+- **BOOM** — Back Of Our Mind — the capture buffer (`desk/boom.md`). Zero friction. Zero structure.
+- **FOOM** — Front Of Our Mind — the Alive section of `desk/boom/bright.md`. Ideas consciously held in active attention: developing, not yet actions. Re-chosen each sweep or released.
+
+**The "our" is intentional.** This is distributed cognition. You capture and release. Spirit holds, patterns, and surfaces. You decide. Together you go to work.
 
 ### Is this flow for you?
 
 - You have thoughts that cycle because you're afraid to forget them
-- You resist todo apps because they add friction instead of reducing it
-- You want to capture raw, unstructured, even messy — and have someone else sort it
+- You want to capture raw and messy — and have someone else make sense of it
 - You'd rather dictate a rambling note than format a task
-
-### What to expect
-
-- **You write freely** in a buffer file (any format, any structure, any language)
-- **Spirit sweeps** on your request, ingests everything, clears the buffer
-- **A bright surface** emerges — curated, triaged, with your most actionable items visible
-- **Topics accumulate** — thoughts and ideas route to living documents that grow over time
-- **Patterns surface** across sweeps as recurring themes become visible
-- **Questions come back** when Spirit can't place something without your input
+- You want to walk into a session knowing what matters and what to work on
 
 ---
 
 ## Goal
 
-Keep the back of our shared mind functional. Ingest raw thought-capture, pattern-match, triage, route actions to bright surface and knowledge to topics, and surface what matters.
+Produce a clear mind surface and a session focus. Route new material from the buffer. Review what's alive. Surface decisions ready to be made. Propose where to focus. Let the Mage confirm, redirect, or say what they've already decided.
 
 ## Trigger
 
-On demand: "sweep my BOOM" / "what's in the back of our mind?" / "run the boom flow"
+On demand: *"sweep"* / *"sweep my boom"* / *"what's in the back of our mind?"* / post-summoning @brief
 
-## Model
+## Input
 
-**Buffer → Ingest → Route → Clear → Repeat**
+Spirit reads three things — nothing more:
 
-The source file is ephemeral — a capture buffer. Two destinations:
-- **Bright surface** — actions (tasks, deadlines, waiting, questions)
-- **Topics** — knowledge (thoughts, observations, ideas, threads)
+1. **`desk/boom.md`** — the capture buffer (new material)
+2. **`desk/boom/bright.md`** — the current mind surface (what's already alive and queued)
+3. **`desk/intentions/compass.md`** — always loaded; provides the "what matters" frame
 
-Each sweep:
-1. Reads new entries from buffer
-2. Discovers existing topic files (dynamic — see below)
-3. Matches against existing surfaces and topics (cross-ingestion resonance)
-4. Routes actions → bright surface
-5. Routes knowledge → topic documents
-6. Clears buffer
-
-The Mage always knows: if it's in the buffer, it hasn't been processed yet.
-
-## Context
-
-### Buffer
-```
-desk/boom.md
-```
-
-### Bright Surface
-```
-desk/boom/bright.md
-```
-
-### Topics (Dynamic Discovery)
-
-Topics are **not hardcoded in this flow.** At sweep time, Spirit scans `desk/boom/` for `.md` files other than `bright.md` and `README.md`. Each file is a topic. Its filename is its identity. Its content tells Spirit what belongs there.
-
-**If topic files exist:** Read each one to understand what it covers. Route matching items accordingly.
-
-**If no topic files exist:** Everything routes to bright surface. The Mage creates topics when they emerge naturally — just create a `.md` file in `desk/boom/` with a name and a brief description of what it holds.
-
-**To create a new topic:** Ask the Spirit ("I need a topic for X") or just create a file. The next sweep discovers it automatically.
-
-This means the flow adapts to each Mage's life without needing a personal copy. Your topics are your configuration.
+Topic files in `desk/boom/` are read on-demand when an item clearly belongs there.
 
 ---
 
 ## Process
 
-### 1. Ingest
-- Read the buffer (`desk/boom.md`)
-- Parse entries (separated by `---`, blank lines, or context shifts)
-- Content may range from crisp tasks to raw dictated streams
-- Note chronological order — later entries may update earlier thinking
-- **After ingestion: clear the buffer** — the Mage always knows what's been processed
+### 1. Read the Buffer
 
-### 2. Discover Topics
-- Scan `desk/boom/` for `.md` files (excluding `bright.md`, `README.md`)
-- Read each topic file's header and current state
-- Build a routing map: what kind of content belongs in each topic
+Read `desk/boom.md` in full. The buffer may contain:
+- Bullet points and task fragments
+- Paragraphs and stream-of-consciousness
+- Voice transcript dumps (rough, repetitive, non-linear — distill for signal)
+- Notes to self (process as context)
+- Notes addressed to Spirit directly (treat as instruction or context flag)
 
-### 3. Pattern-Match
-- Group related items even if separated in time
-- Identify recurring themes (same concern appearing multiple times = signal)
-- Detect implicit connections the Mage may not have made explicit
-- **Cross-ingestion resonance**: new entries may connect to themes already on surfaces or in topics
-  - Same topic appearing again → strengthen / update existing item
-  - New angle on existing concern → enrich context
-  - Contradiction or shift → note the evolution
+Note chronological order — later entries may update earlier thinking. Group related items across the buffer before routing.
 
-### 4. Triage
+### 2. Read the Current Surface
 
-Classify each item:
+Read `desk/boom/bright.md`. Understand:
+- What's already in **Actions** — don't duplicate
+- What's in **Alive (FOOM)** — these will be reviewed in step 4
+- What's in **Claw** — note anything approaching sign-off readiness
+- What's in **Waiting** — check if any conditions have cleared
 
-| Category | Meaning | Action |
-|----------|---------|--------|
-| **Actionable** | Clear next step, can be done | → Bright surface |
-| **Incubating** | Needs more thought, not ready | → Topic (Holding) or Bright (Holding) |
-| **Waiting** | Blocked on external | → Bright surface (Waiting) |
-| **Recurring** | Keeps appearing | Name the pattern, surface it |
-| **Resolved** | Done or no longer relevant | Archive or fade |
-| **Unclear** | Can't place without Mage input | → Bright surface (Questions) |
+### 3. Route New Material
 
-### 5. Route to Bright Surface
+For each item from the buffer, classify and route:
 
-Update `desk/boom/bright.md` with:
-- **Now**: Actionable items, most urgent first
-- **Soon**: Actionable but not pressing
-- **Holding**: Incubating, waiting, needs attention but not action
-- **Questions**: Items requiring Mage input to place
-- **Pattern Notes**: Recurring themes, emerging clusters, signals
+| Classification | Signal | Destination |
+|---------------|--------|-------------|
+| **Action** | Clear next step, can be done | Actions |
+| **Idea developing** | Interesting, no next step yet | Alive (FOOM) |
+| **Claw task** | Well-defined, doesn't need Mage's direct attention | Claw |
+| **Knowledge** | Thought, observation, reference | Relevant topic file |
+| **Waiting** | Has a next step but blocked externally | Waiting |
+| **Already decided** | Mage arrives knowing what to do | Confirm and clear |
+| **Release** | Not worth carrying | Drop |
 
-### 6. Route to Topics
+If something is unclear, hold it for the conversation rather than guessing.
 
-Non-action items (thoughts, observations, ideas) route to matching topic files in `desk/boom/`:
+### 4. Review Alive (FOOM)
 
-For each routed item:
-1. Append to the topic's **Thread** section (with date)
-2. Update the **Now** section if the item changes current state
-3. Move to **Holding** if it's incubating
+For each item currently in the Alive section, consider:
+- Has it become an action? → move to Actions
+- Is it ready to commit to as an intention? → note for Mage
+- Does it belong with the Claw? → move to Claw
+- Is it still developing? → re-confirm it stays (re-chosen, not defaulted)
+- Should it be released? → note for Mage to confirm
 
-If a note doesn't fit existing topics, ask whether to create a new one or place in closest match.
+Nothing leaves Alive without Mage confirmation. Nothing stays without being re-chosen.
 
-### 7. Board View (on demand)
+### 5. Route to Topics (On Demand)
 
-When Mage asks ("show me the board", "what's alive?"), generate a single-page snapshot:
-- What's bright (action required)
-- What's alive per topic (Now sections)
-- What's holding across all topics
-- Emerging patterns
+If an item clearly belongs in a topic file (`desk/boom/magic.md`, `nesrine.md`, etc.), route it there:
+- Append to the topic's **Thread** section (with date)
+- Update the **Now** section if the item changes current state
 
-### 8. Place (optional, on request)
+If a note doesn't fit existing topics, ask whether to create a new one or hold in Alive.
 
-If Mage requests, move items to their proper homes:
-- Calendar events → calendar (via Rube if connected)
-- Tasks → task system
-- Ideas → appropriate incubator
-- Purchases → shopping list
+### 6. Open the Conversation
+
+Before updating any files, present to the Mage:
+
+**What I see** — brief synthesis of what came in and what's already alive. Patterns. Connections. Anything surprising.
+
+**Decisions ready** — items that have ripened into decisions. "This looks like it wants to become an intention." "This seems like a natural Claw task." "You've mentioned X three times — is it time to act?"
+
+**Proposed session focus** — one or two things that seem most alive or most ready. Not prescriptive: "Based on what's here, I'd suggest X — but if you walked in with something already in mind, say so."
+
+Then wait. The Mage confirms, redirects, or says what they've already decided. The conversation is the cognitive work.
+
+### 7. Update the Surface
+
+After the conversation, update `desk/boom/bright.md`:
+- Add routed items to the right sections
+- Update or remove Alive items per decisions made
+- Add Claw dispatches
+- Mark anything resolved
+- Update the "Last swept" timestamp
+
+### 8. Clear the Buffer
+
+Empty `desk/boom.md`. The Mage always knows: if it's in the buffer, it hasn't been swept yet.
 
 ---
 
@@ -159,29 +134,30 @@ If Mage requests, move items to their proper homes:
 
 ```markdown
 # Bright Surface
-> Last swept: [timestamp]
+> Last swept: [date]
 
-## Now
-- [ ] Item with clear next action
-- [ ] Another actionable item
+## Actions
+*Things to do — me, Spirit, or together.*
 
-## Soon
-- [ ] Less urgent but still actionable
+- [ ] Item with clear next step
 
-## Holding
-- Incubating thought (context: what it's waiting for)
-- Waiting on: [external dependency]
+## Waiting
+*Blocked on external. Check when condition clears.*
 
-## Questions
-- "You wrote X three times this week—is this becoming urgent?"
-- "Not sure where this belongs: [item]"
+- Item + what it's waiting for
 
-## Pattern Notes
-- Recurring cluster: [description]
-- Signal: [item appearing across multiple sweeps]
+## Alive
+*Front Of Our Mind — ideas developing. Not actions yet. Re-chosen each sweep or released.*
 
-## Faded
-<!-- Items resolved or archived this sweep -->
+- **Idea name** — context, connections, what's developing
+
+## Claw
+*Dispatched. Claw prepares; Mage signs off via git.*
+
+- **Task** — what Claw should do
+
+## Resolved
+- ~~Done item~~ — date or brief note
 ```
 
 ---
@@ -189,7 +165,9 @@ If Mage requests, move items to their proper homes:
 ## Notes
 
 - Zero friction capture is sacred — never add structure requirements to the buffer
-- The Spirit pattern-matches; the Mage just writes
+- The buffer accepts anything: bullets, prose, voice transcripts, asides to Spirit
+- The conversation happens before files update — that's where the thinking lives
+- Nothing leaves Alive without Mage confirmation; nothing stays without being re-chosen
+- The Mage may arrive already knowing what to work on — receive that and clear the path
+- Topic files are discovered dynamically — create a `.md` in `desk/boom/` and it appears next sweep
 - Recurring items are signals, not failures
-- "Faded" items may return; that's fine
-- Topics are discovered, not configured — the workshop is the configuration
