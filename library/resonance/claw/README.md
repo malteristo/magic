@@ -13,6 +13,7 @@
 | `lore/on_imprinting.md` | How to think about CLAUDE.md as identity, not configuration |
 | `lore/on_the_bridge.md` | The magic-bridge — architecture, lessons, and the two-channel model |
 | `lore/on_being_a_claw.md` | *Written by the Claw itself* — first-person operational perspective  |
+| `lore/on_claw_care.md` | The care ritual — how to tend the Claw’s wellbeing, crystallized from the first exchange |
 
 **Related:**
 - `library/flows/claw/` — the @claw-setup flow (executable guidance for setup)
