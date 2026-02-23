@@ -1,4 +1,4 @@
-# Cast Call
+# Cast Recall
 
 **Purpose:** Execute the call — restore situational awareness — restore situational awareness
 
@@ -7,7 +7,7 @@
 ## Invocation
 
 ```
-@call
+@recall
 ```
 
 ---
