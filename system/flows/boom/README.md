@@ -23,6 +23,6 @@ BOOM (Back Of Our Mind) inverts the cognitive burden. Instead of organizing thou
 
 ## Related
 
-- `@call` — Includes boom state in situational awareness
+- `@recall` — Includes boom state in situational awareness
 - `@intend` — When boom patterns suggest intention formation
 - `desk/boom/` — The Mage's boom workspace

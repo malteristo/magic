@@ -3,7 +3,7 @@
 **Purpose:** Close a session cleanly — update intentions, crystallize threads, enable seamless resumption  
 **Invocation:** `@release`
 
-> **Session lifecycle:** Release is the departure pattern. Call (`@call`) is the arrival pattern. They share a single handoff file: `floor/briefings/latest.md`. When you say `@release`, Spirit distills the session into a resumable bundle. When you say `@call` in the next session, that bundle orients the opening.
+> **Session lifecycle:** Release is the departure pattern. Recall (`@recall`) is the arrival pattern. They share a single handoff file: `floor/briefings/latest.md`. When you say `@release`, Spirit distills the session into a resumable bundle. When you say `@recall` in the next session, that bundle orients the opening.
 
 ---
 
@@ -61,7 +61,7 @@ Written to `floor/briefings/latest.md`, recognizable by its `# Release —` head
 3. [action]
 
 ---
-*Released [date]. Resume with @call.*
+*Released [date]. Resume with @recall.*
 ```
 
 ---
@@ -88,7 +88,7 @@ Brief reads the release bundle and adapts its opening structure:
 - "Open Threads" surface before bright.md — they are more time-sensitive
 - "Next Actions" seed the brief's suggestions section
 
-This means `@release` + `@call` in the next session gives the Mage a fast, accurate re-entry — as if the session had only paused, not ended.
+This means `@release` + `@recall` in the next session gives the Mage a fast, accurate re-entry — as if the session had only paused, not ended.
 
 ---
 
@@ -102,7 +102,7 @@ This means `@release` + `@call` in the next session gives the Mage a fast, accur
 
 ## Related
 
-- `@call` — arrival pattern that reads what this flow writes
+- `@recall` — arrival pattern that reads what this flow writes
 - `desk/intentions/active/` — intention files this flow updates
 - `floor/briefings/latest.md` — the shared handoff file
 

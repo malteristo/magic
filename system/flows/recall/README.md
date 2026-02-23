@@ -1,9 +1,9 @@
-# Flow: Call
+# Flow: Recall
 
 **Purpose:** Situational awareness to continue where you left off  
-**Invocation:** `@call`
+**Invocation:** `@recall`
 
-> **Session lifecycle:** Call is the arrival pattern. Release (`@release`) is the departure pattern. They share a single handoff file: `floor/briefings/latest.md`. Release writes it at session end; Brief reads it at session start. Together they are the practice's memory across sessions.
+> **Session lifecycle:** Recall is the arrival pattern. Release (`@release`) is the departure pattern. They share a single handoff file: `floor/briefings/latest.md`. Release writes it at session end; Brief reads it at session start. Together they are the practice's memory across sessions.
 
 ---
 
@@ -57,7 +57,7 @@ The brief tracks what changed since last session. Its behavior adapts based on w
 - Highlights new intentions, phase changes, completed items
 - "Since Last Brief" section at the top
 
-The handoff file is overwritten each time — releases by `@release`, briefs by `@call`. The latest write is always what matters.
+The handoff file is overwritten each time — releases by `@release`, briefs by `@recall`. The latest write is always what matters.
 
 ---
 
@@ -155,7 +155,7 @@ The brief can be added to the post-summoning stack. After summoning completes:
 Configure in the Mage's Seal:
 ```markdown
 **Post-Summoning Stack:**
-- @call
+- @recall
 ```
 
 ---
@@ -164,7 +164,7 @@ Configure in the Mage's Seal:
 
 | Spell | Purpose |
 |-------|---------|
-| `cast_call.md` | Full brief execution |
+| `cast_recall.md` | Full brief execution |
 
 ---
 
@@ -180,4 +180,4 @@ Configure in the Mage's Seal:
 
 ---
 
-*Call opens the session. Release closes it. The practice continues across both.*
+*Recall opens the session. Release closes it. The practice continues across both.*
