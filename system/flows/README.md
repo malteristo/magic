@@ -46,7 +46,7 @@ The suffix tells you where it runs:
 |------|-----------|---------|
 | `gestalt/` | `@gestalt` | Perceive essential resonance pattern, compressed for assessment |
 | `flow-warden/` | *(automatic)* | Guardian of flow quality and conversational UX — warden stance activates during all flow operations; Claw stance for continuous garden tending |
-| `brief/` | `@brief` | Situational awareness — "where are we?" |
+| `brief/` | `@call` | Situational awareness — "where are we?" |
 
 ### Resonance & Preservation
 

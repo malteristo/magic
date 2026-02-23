@@ -31,7 +31,7 @@ Produce a clear mind surface and a session focus. Route new material from the bu
 
 ## Trigger
 
-On demand: *"sweep"* / *"sweep my boom"* / *"what's in the back of our mind?"* / post-summoning @brief
+On demand: *"sweep"* / *"sweep my boom"* / *"what's in the back of our mind?"* / post-summoning @call
 
 ## Input
 
