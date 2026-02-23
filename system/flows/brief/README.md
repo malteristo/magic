@@ -3,6 +3,8 @@
 **Purpose:** Situational awareness to continue where you left off  
 **Invocation:** `@brief`
 
+> **Session lifecycle:** Brief is the arrival pattern. Release (`@release`) is the departure pattern. They share a single handoff file: `floor/briefings/latest.md`. Release writes it at session end; Brief reads it at session start. Together they are the practice's memory across sessions.
+
 ---
 
 ## What This Flow Does
@@ -42,14 +44,20 @@ The brief surfaces Primary intentions prominently, Active intentions as a list, 
 
 ## Delta Awareness
 
-The brief tracks what changed since last briefing:
+The brief tracks what changed since last session. Its behavior adapts based on what it finds in `floor/briefings/latest.md`:
 
-1. Reads previous brief from `floor/briefings/latest.md`
-2. Compares with current state
-3. Highlights what's new or changed
-4. Writes new brief, discards old
+**If previous file is a `# Release —` (departure from last session):**
+- Brief leads with "Continue From" — the orientation sentence Spirit distilled at departure
+- "Open Threads" from the release surface first — these are the live wires
+- Full current-state survey still runs, but is anchored to the release context
+- This is the *resume* experience: fast re-entry with full context
 
-This enables "what's new since last time" visibility.
+**If previous file is a `# Brief —` (standard previous brief):**
+- Standard delta: compare current state to previous
+- Highlights new intentions, phase changes, completed items
+- "Since Last Brief" section at the top
+
+The handoff file is overwritten each time — releases by `@release`, briefs by `@brief`. The latest write is always what matters.
 
 ---
 
@@ -162,12 +170,14 @@ Configure in the Mage's Seal:
 
 ## Related
 
+- `@release` — departure ritual; writes the release bundle this flow reads
 - `@boom` (sweep) — Processes raw captures into surfaces
 - `@quest` / `@intend` — Intention management
 - `@resonate` — Generates proposals (brief informs what to generate)
 - `desk/boom/bright.md` — Action surface
 - `desk/intentions/active/` — Intention files
+- `floor/briefings/latest.md` — The shared handoff file
 
 ---
 
-*Brief restores context. Mage decides direction. Practice continues.*
+*Brief opens the session. Release closes it. The practice continues across both.*
