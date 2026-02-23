@@ -17,11 +17,19 @@
 ### Phase 1: Load Previous State
 
 1. **Directly read** `floor/briefings/latest.md` (do not rely on Glob/LS—use explicit Read on known path)
-2. If file exists, parse previous brief for delta comparison
-3. If file not found, note "First brief" and proceed without delta
-4. Note timestamp of last brief from header
+2. If file not found, note "First brief" and proceed without delta
+3. **Detect file type by header:**
+   - `# Release —` → previous session ended with a release. Extract:
+     - **Continue From** (the orientation sentence — elevate to top of brief output)
+     - **Open Threads** (carry forward verbatim as "Continuing Threads" section)
+     - **Next Actions** (seed the brief's suggestions)
+     - Note as: "Returning after release on [date]"
+   - `# Brief —` → standard previous brief. Parse for delta comparison as normal.
+4. Note timestamp from header in either case
 
 > **Implementation note:** Glob and LS may miss files due to timing or subdirectory visibility. Always use direct Read on the known path for critical state files.
+
+> **Release detection matters:** When returning after a `@release`, the brief's primary job is to restore the *thread*, not reconstruct everything from scratch. The release already did the synthesis. Trust it — surface its threads first, then layer in current state.
 
 ### Phase 2: Gather Current State
 
@@ -82,7 +90,13 @@ desk/boom/*.md (excluding bright.md, README.md)
 
 ### Phase 3: Compute Delta
 
-If previous brief exists:
+**If previous file was a `# Release —`:**
+- Skip structural comparison (no meaningful diff possible against a departure state)
+- "Since Last Session" section leads with the release's Continue From sentence
+- "Open Threads" from the release become the first action block — not bright.md
+- Only then layer in current bright surface and intention state for additional context
+
+**If previous file was a `# Brief —`:**
 - New intentions added
 - Intentions completed or phase-changed
 - Bright items added/completed
@@ -91,7 +105,17 @@ If previous brief exists:
 
 ### Phase 4: Generate Brief
 
-Structure output per README format:
+**If returning after a `# Release —`**, use this structure:
+1. **Continue From** (callout block — the release's orientation sentence)
+2. **Open Threads** (carried verbatim from release — these are the live wires)
+3. Life Compass (compact)
+4. Primary Intentions (table — confirm they match what release described)
+5. Active Intentions (list)
+6. What's Bright (Now + Questions — supplementary, not primary)
+7. Social Activity (if applicable)
+8. Suggested Next Actions (seed from release's Next Actions + current state)
+
+**If returning after a `# Brief —`**, use standard structure:
 1. Since Last Brief (delta)
 2. Life Compass (compact — one line per domain with direction)
 3. Primary Intentions (table)
@@ -131,6 +155,7 @@ Generate 2-4 actionable suggestions based on:
 | Situation | Response |
 |-----------|----------|
 | No previous brief | Skip delta section, note "First brief" |
+| Release found but "Continue From" missing | Surface all Open Threads instead, proceed normally |
 | No active intentions | Surface this as notable, suggest `@intend` |
 | Social API fails | Note "Social unavailable" and continue |
 | Empty boom | Note "Boom surfaces empty" |
@@ -152,6 +177,15 @@ floor/briefings/
 └── archive/
     └── 2026-02-03.md
 ```
+
+---
+
+---
+
+## Related
+
+- `@release` — departure ritual that writes the release bundle this flow reads
+- The brief and release are two sides of one pattern: release closes, brief opens
 
 ---
 
