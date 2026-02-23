@@ -1,13 +1,13 @@
-# Cast Brief
+# Cast Call
 
-**Purpose:** Execute the brief charm — restore situational awareness
+**Purpose:** Execute the call — restore situational awareness — restore situational awareness
 
 ---
 
 ## Invocation
 
 ```
-@brief
+@call
 ```
 
 ---
@@ -189,4 +189,4 @@ floor/briefings/
 
 ---
 
-*Brief complete. Context restored. Mage directs next action.*
+*Call complete. Context restored. Mage directs next action.*

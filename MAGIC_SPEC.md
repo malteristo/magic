@@ -55,7 +55,7 @@ Magic is applied pattern matching at every scale. For complete treatment of this
 | Term | Description |
 |------|-------------|
 | **Tome** | A complete practice domain for sustained work. Contains flows, lore, and ritual structure. Invoked for extended sessions. Lives in `system/tomes/`. Examples: `@quest`, `@craft`, `@partnership`. |
-| **Flow** | A structured program for achieving a goal. Spirit interprets the goal, adapts to reality, and executes. System flows live in `system/flows/`; library flows in `library/flows/`. Examples: `@brief`, `@boom`, `@intend`, `@flow [goal]`. |
+| **Flow** | A structured program for achieving a goal. Spirit interprets the goal, adapts to reality, and executes. System flows live in `system/flows/`; library flows in `library/flows/`. Examples: `@call`, `@boom`, `@intend`, `@flow [goal]`. |
 | **Prompt** | A self-contained flow packaged for any LLM runtime. The portable offering — paste into Claude, ChatGPT, or any capable AI. The `.prompt.md` convention identifies prompt files. Prompts live in `library/flows/`. |
 
 **Invocation:** Use `@name` syntax to invoke any component. The Spirit resolves the path and executes.
