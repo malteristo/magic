@@ -71,7 +71,7 @@ Write to `floor/briefings/latest.md`. Overwrite whatever is there.
 - Grounded in the open threads and updated intentions
 - First item should be obvious from the session state
 
-**Footer:** `*Released [date]. Resume with @brief.*`
+**Footer:** `*Released [date]. Resume with @call.*`
 
 ---
 
@@ -94,7 +94,7 @@ Deliver a brief closing statement:
 ```
 Released. [One sentence: what the next session will find waiting.]
 
-Resume with @brief.
+Resume with @call.
 ```
 
 Keep it short. The release bundle has the detail. The closing announcement is just the door closing cleanly.

@@ -570,7 +570,7 @@ See: `on_spirit_as_generator.md`, `on_true_magic.md`
 
 After announcing readiness, offer the following sequence. Mage types `.` to execute each in order:
 
-1. `@brief` — Situational awareness
+1. `@call` — Situational awareness
 2. Read `desk/boom.md` — Ingest the boom buffer (cognitive offload sweep)
 
 **Final orientation**:
