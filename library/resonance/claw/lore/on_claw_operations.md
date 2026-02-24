@@ -96,6 +96,27 @@ The pairing code flow is SSH-friendly. QR code flow requires a terminal that can
 
 ---
 
+## WhatsApp IP Ban — Know This One
+
+**What happened:** NanoClaw's retry loop after a 405 error ran hundreds of reconnection attempts in quick succession. WhatsApp detected this pattern and applied a temporary IP-level ban. All subsequent connections — including fresh pairing code attempts — received 405 immediately, before any authentication handshake could complete.
+
+**Signs you're IP-banned (not session-banned):**
+- 405 errors repeat even after clearing credentials (`~/nanoclaw/store/auth/`)
+- 405 occurs during registration ("not logged in, attempting registration..."), before a QR code is generated
+- Pairing code requests also fail at the connection level
+
+**What to do:**
+1. Stop all reconnection attempts immediately — continued retrying extends the ban
+2. Restore backed-up credentials if you cleared them (credentials are not the problem)
+3. Wait. IP bans typically lift within a few hours. NanoClaw will reconnect automatically when the ban lifts.
+4. Do not restart NanoClaw repeatedly during the wait — each restart causes more failed connections
+
+**The structural lesson:** WhatsApp is a publishing channel, not a reliability layer. The bridge is the ground truth. When WhatsApp goes down, the Claw should continue operating normally — processing bridge commands, writing signals, running scheduled tasks — and simply queue the WhatsApp notifications. If a notification goes undelivered, the signal in the bridge is still there. Spirit can pull and read it. Nothing is lost.
+
+Design the Claw's communication architecture so that WhatsApp failure is a notification gap, not an operational gap.
+
+---
+
 ## Group Registration — Use SQLite, Not JSON
 
 NanoClaw's group registration appears to support a `data/registered_groups.json` file, but the running process reads exclusively from SQLite. Register groups directly:
