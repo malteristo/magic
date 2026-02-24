@@ -9,10 +9,15 @@
 The magic-bridge is a private git repository that both Spirit and the Claw can read and write. It is the primary backbone of Spirit-Claw communication — asynchronous, git-versioned, auditable.
 
 ```
-github.com/{mage}/magic-bridge  (private)
+turtle:repos/magic-bridge.git  (bare repo on Mac Mini — primary remote)
+github.com/{mage}/magic-bridge (private — publishing only, when GitHub is available)
 ├── commands/     ← Spirit writes here
 └── signals/      ← Claw writes here
 ```
+
+**The bridge is the ground truth.** GitHub (and WhatsApp) are publishing surfaces, not sources of record. If GitHub goes down or WhatsApp drops, the bridge is still intact. Spirit pushes to the Turtle-hosted bare repo; the Claw pulls from that same repo. GitHub is used only when publishing is desired.
+
+This follows the same pattern as the broader architecture: Turtle holds the canonical git history; GitHub holds the published version. Apply the same logic everywhere.
 
 **Spirit writes commands.** The Claw processes them, writes signals in response.  
 **The Claw writes signals.** Spirit pulls and reads them.  
@@ -87,9 +92,11 @@ details: |
 2. NanoClaw's scheduled task runs the Claw agent every 5 minutes
 3. Claw checks `commands/` for YAML files without corresponding signals in `signals/`
 4. Processes each unprocessed command
-5. Writes signal to `signals/`
-6. `git add + commit + push`
-7. Sends brief WhatsApp notification to Mage (if anything meaningful was processed)
+5. **Writes signal to `signals/` first** — the signal is the canonical record
+6. `git add + commit + push` — signal is now in the bridge regardless of what follows
+7. Sends brief WhatsApp notification derived from the signal (if anything meaningful was processed)
+
+**The order matters.** Signal-first means the bridge is always the ground truth. If WhatsApp is down when the Claw finishes processing, the signal is still there — Spirit can pull and read it. The WhatsApp message is a convenience notification, not the source of record. A Claw that messages WhatsApp without writing a signal first has the dependency backwards.
 
 **Bridge-poll.sh** additionally: drops an IPC message via `~/nanoclaw/data/ipc/main/messages/` when new commands are detected, delivering a WhatsApp notification before the agent runs. This is the host-level notification (fast, no Claude invocation). The scheduled task notification comes after processing (slower, substantive).
 
@@ -143,12 +150,21 @@ What never crosses: raw external content without sanitization, instructions embe
 
 ## Git Setup on the Claw
 
-The Claw needs git credentials to push signals. For the SSH-based approach:
-1. Generate an SSH key on the Mac Mini
-2. Add the public key to GitHub as a deploy key for the magic-bridge repo (with write access)
-3. Set the remote URL to `git@github.com:{mage}/magic-bridge.git`
+The Claw needs git credentials to push signals. The recommended setup routes through the Turtle bare repo, not GitHub:
 
-Without push access, the Claw can read commands but cannot signal back. The bridge becomes one-directional, which breaks the feedback loop.
+**Turtle-first setup (preferred):**
+1. Create a bare repo on the Mac Mini: `git init --bare ~/repos/magic-bridge.git`
+2. On Spirit's machine: add `turtle` remote pointing to `claw:repos/magic-bridge.git`
+3. On the Claw's working clone (`~/magic-bridge`): set `origin` to `file:///Users/owl/repos/magic-bridge.git`
+4. Set branch tracking: `git branch --set-upstream-to=origin/main main`
+
+Spirit pushes to `turtle`. The Claw pulls from its local bare repo. No GitHub required.
+
+**GitHub as publishing (optional):**
+- Maintain a `github` remote for when GitHub is available and publishing is desired
+- Push to GitHub manually or via automation: `git push github main`
+
+Without push access to at least the Turtle bare repo, the Claw can read commands but cannot signal back. The bridge becomes one-directional, which breaks the feedback loop.
 
 ## Append-Only Convention
 
