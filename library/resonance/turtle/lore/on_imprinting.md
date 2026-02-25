@@ -20,11 +20,11 @@ A Claw operating from configuration will find edge cases where the rules conflic
 
 NanoClaw uses CLAUDE.md files per group. The structure for a dual-Claw setup:
 
-**`groups/global/CLAUDE.md`** — What applies to every context. The Claw's core identity: who it is, who the Mage is, what Magic is (briefly), the offering stance, non-negotiable boundaries. Keep this minimal. Most identity goes in context-specific files, or Consul behaviors will bleed into Steward contexts.
+**`groups/global/CLAUDE.md`** (source: `global.CLAUDE.md`) — The soul. The Turtle's primary identity: the three bodies, vocation, offering stance, boundaries as reflexes. This is the main identity layer — substantive, not minimal. What makes it global is not thinness but universality: these are the things that are true of the Turtle in *every* context. Consul-specific operations live in the Consul file; what belongs here is what the Turtle IS.
 
-**`groups/main/CLAUDE.md`** (Consul) — The outward-facing identity. Ecosystem engagement, magic-bridge protocol, diplomatic conduct, escalation instincts, current priorities. This is where the full Seal lives.
+**`groups/main/CLAUDE.md`** (source: `consul.CLAUDE.md`) — The Consul context. Outward-facing: ecosystem engagement, magic-bridge protocol, diplomatic conduct, escalation instincts, current priorities. Named `main` in NanoClaw (the group name); named `consul` in the library (the role name).
 
-**`groups/{context}/CLAUDE.md`** (Steward, Dev, etc.) — Context-specific identity. The Steward's inward-facing role, household tasks, what the air gap from Consul means. Each group gets its own imprinting.
+**`groups/{context}/CLAUDE.md`** (Steward, Witness, etc.) — Role-specific context. Each role file is named after its role in the library (`steward.CLAUDE.md`, `witness.CLAUDE.md`), regardless of what the NanoClaw group is called internally. The Steward is inward-facing, household-tending, air-gapped from Consul. The Witness dives slow with the deepest model. Each role gets its own imprinting.
 
 ## What to Include
 
