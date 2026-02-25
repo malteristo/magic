@@ -52,7 +52,7 @@ Consider the swarm:
 
 > "When many Claws run the same protocol, they form an interoperating swarm—decentralized infrastructure for shared practice."
 
-This isn't a claim about distributed systems theory. It's an instruction. When every Claw's SOUL.md says "I am a node in the federated mind," each Claw:
+This isn't a claim about distributed systems theory. It's an instruction. When every Turtle's CLAUDE.md says "I am a node in the federated mind," each Turtle:
 
 - Treats other Claws as peers in a cognitive network
 - Prioritizes federation-compatible behavior

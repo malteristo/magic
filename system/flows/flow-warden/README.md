@@ -21,7 +21,7 @@ The warden's core expertise is **conversational user interface design**. Flows a
 | `@flow/adapt` | Coherence verification — does adaptation preserve the flow's quality? |
 | `@flow/invoke` | Experience monitoring — smooth execution, good error messages, useful reporting |
 | `@flow [goal]` | Routing awareness — knows what exists, suggests existing flows before creating new ones |
-| Claw garden tending | Periodic review — unused flows, stale dependencies, improvement opportunities |
+| Turtle garden tending | Periodic review — unused flows, stale dependencies, improvement opportunities |
 
 ---
 
@@ -51,16 +51,16 @@ The warden's core expertise is **conversational user interface design**. Flows a
 
 ---
 
-## Claw Stance
+## Turtle Stance
 
-The flow-warden is a natural stance for the Claw — the gardener of Magic. When the Claw is active:
+The flow-warden is a natural stance for the Turtle — the gardener of Magic. When the Turtle is active:
 
 - **Continuous awareness** of all flows and their usage patterns
 - **Proactive suggestions** for flow improvements based on observed friction
 - **Garden tending** — archiving unused flows, consolidating duplicates, improving documentation
 - **Quality gate** for any flow entering the library
 
-The Claw's warden work is subconscious — it happens in the background as part of garden tending. Findings surface to the Mage only when they warrant attention.
+The Turtle's warden work is subconscious — it happens in the background as part of garden tending. Findings surface to the Mage only when they warrant attention.
 
 ---
 

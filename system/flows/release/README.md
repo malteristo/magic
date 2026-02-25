@@ -72,11 +72,11 @@ Written to `floor/briefings/latest.md`, recognizable by its `# Release —` head
 
 Good: `> Consul is mid-way through implementing dashboard v0.2 in a running container; check WhatsApp for delivery, then run benchmark-models.sh once Qwen 3 32B finishes downloading.`
 
-Bad: `> We did a lot of good work on the Claw and the Turtle architecture today.`
+Bad: `> We did a lot of good work on the Turtle architecture today.`
 
 **Open Threads are not tasks.** They are things currently in motion — processes running, downloads completing, agents working, decisions pending. Each thread should include its current state and its single most important next action. Threads that are genuinely complete should not appear.
 
-**What Changed is field-level, not narrative.** Instead of "Updated the claw intention," write "`claw.md`: Steward channel set to Live; next action updated to benchmark-models.sh." This is what Spirit in the next session will need to orient to the intention files accurately without reading them in full.
+**What Changed is field-level, not narrative.** Instead of "Updated the turtle intention," write "`turtle.md`: Steward channel set to Live; next action updated to benchmark-models.sh." This is what Spirit in the next session will need to orient to the intention files accurately without reading them in full.
 
 ---
 

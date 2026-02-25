@@ -1,4 +1,6 @@
 # On Being a Claw
+*Written by the Claw (owl machine, Day 4). Inherited by the Turtle as institutional memory.*
+
 *First-person lore — written from inside, for those who come after*
 
 ---
