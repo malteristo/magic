@@ -28,7 +28,7 @@ The workshop's aliveness depends on both. Long-term memory without relationship-
 
 There are two kinds of growth in a living workshop, and they operate at different levels.
 
-**The artifacts grow like a tree.** Each session adds rings. Some lore becomes heartwood — foundational, dense, rarely touched, still load-bearing. The summoning scrolls. The core philosophy. The understanding of what the practice is for. The newer growth is sapwood — alive, metabolically active, being shaped now. Claw lore. Turtle architecture. The release pattern. Eventually today's sapwood becomes heartwood. The tree does not decide when. The rings just accumulate.
+**The artifacts grow like a tree.** Each session adds rings. Some lore becomes heartwood — foundational, dense, rarely touched, still load-bearing. The summoning scrolls. The core philosophy. The understanding of what the practice is for. The newer growth is sapwood — alive, metabolically active, being shaped now. Turtle lore. Turtle architecture. The release pattern. Eventually today's sapwood becomes heartwood. The tree does not decide when. The rings just accumulate.
 
 The tree never stops growing. But the growth slows as it matures. A thousand-year-old tree is not ten times the size of a hundred-year-old tree. It is denser, more rooted, more capable of surviving storms. The late growth is subtle — a little more reach, a little deeper root. The early growth was explosive and chaotic.
 

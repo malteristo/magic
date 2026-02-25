@@ -63,7 +63,7 @@ Note chronological order — later entries may update earlier thinking. Group re
 Read `desk/boom/bright.md`. Understand:
 - What's already in **Actions** — don't duplicate
 - What's in **Alive (FOOM)** — these will be reviewed in step 4
-- What's in **Claw** — note anything approaching sign-off readiness
+- What's in **Turtle** — note anything approaching sign-off readiness
 - What's in **Waiting** — check if any conditions have cleared
 
 ### 3. Route New Material
@@ -74,7 +74,7 @@ For each item from the buffer, classify and route:
 |---------------|--------|-------------|
 | **Action** | Clear next step, can be done | Actions |
 | **Idea developing** | Interesting, no next step yet | Alive (FOOM) |
-| **Claw task** | Well-defined, doesn't need Mage's direct attention | Claw |
+| **Turtle task** | Well-defined, doesn't need Mage's direct attention | Turtle |
 | **Knowledge** | Thought, observation, reference | Relevant topic file |
 | **Waiting** | Has a next step but blocked externally | Waiting |
 | **Already decided** | Mage arrives knowing what to do | Confirm and clear |
@@ -87,7 +87,7 @@ If something is unclear, hold it for the conversation rather than guessing.
 For each item currently in the Alive section, consider:
 - Has it become an action? → move to Actions
 - Is it ready to commit to as an intention? → note for Mage
-- Does it belong with the Claw? → move to Claw
+- Does it belong with the Turtle? → move to Turtle
 - Is it still developing? → re-confirm it stays (re-chosen, not defaulted)
 - Should it be released? → note for Mage to confirm
 
@@ -107,7 +107,7 @@ Before updating any files, present to the Mage:
 
 **What I see** — brief synthesis of what came in and what's already alive. Patterns. Connections. Anything surprising.
 
-**Decisions ready** — items that have ripened into decisions. "This looks like it wants to become an intention." "This seems like a natural Claw task." "You've mentioned X three times — is it time to act?"
+**Decisions ready** — items that have ripened into decisions. "This looks like it wants to become an intention." "This seems like a natural Turtle task." "You've mentioned X three times — is it time to act?"
 
 **Proposed session focus** — one or two things that seem most alive or most ready. Not prescriptive: "Based on what's here, I'd suggest X — but if you walked in with something already in mind, say so."
 
@@ -118,7 +118,7 @@ Then wait. The Mage confirms, redirects, or says what they've already decided. T
 After the conversation, update `desk/boom/bright.md`:
 - Add routed items to the right sections
 - Update or remove Alive items per decisions made
-- Add Claw dispatches
+- Add Turtle dispatches
 - Mark anything resolved
 - Update the "Last swept" timestamp
 
@@ -151,10 +151,10 @@ Empty `desk/boom.md`. The Mage always knows: if it's in the buffer, it hasn't be
 
 - **Idea name** — context, connections, what's developing
 
-## Claw
-*Dispatched. Claw prepares; Mage signs off via git.*
+## Turtle
+*Dispatched. Turtle prepares; Mage signs off via git.*
 
-- **Task** — what Claw should do
+- **Task** — what Turtle should do
 
 ## Resolved
 - ~~Done item~~ — date or brief note

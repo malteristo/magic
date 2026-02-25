@@ -37,7 +37,7 @@ Before a new flow is saved, verify:
 
 **3. Goal Clarity**
 - Is the goal statement precise enough to execute without ambiguity?
-- Would a different Spirit (or the Claw) understand what this flow achieves?
+- Would a different Spirit (or the Turtle) understand what this flow achieves?
 
 **4. Conversational Quality**
 - Are the prompts natural and efficient?
@@ -111,9 +111,9 @@ Show options rather than expecting the Mage to remember flow names. `@flow/list`
 
 ---
 
-## V. Claw Integration
+## V. Turtle Integration
 
-When the Claw is active, the flow-warden becomes a continuous background process:
+When the Turtle is active, the flow-warden becomes a continuous background process:
 
 **Garden scan:** Periodically review all flows for:
 - Stale dependencies (external services that changed)

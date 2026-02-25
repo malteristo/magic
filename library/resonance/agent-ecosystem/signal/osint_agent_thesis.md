@@ -93,11 +93,11 @@ Séb Krier isn't a doomer. Same multi-agent dynamics enable tools for good:
 
 ## Implications for Magic
 
-### For Claw Deployment
+### For Turtle Deployment
 
-The OSINT agent thesis strengthens Claw's defensive role:
+The OSINT agent thesis strengthens the Turtle's defensive role:
 
-- **Claw as body armor** — continuous monitoring and filtering of information streams
+- **Turtle as body armor** — continuous monitoring and filtering of information streams
 - **Scout system as OSINT** — tender, sanitizer, ecosystem curation are OSINT operations
 - **Signal compression** — processing hostile information environment into actionable intelligence
 - **Barrier protocol** — sanitization prevents injection from hostile agents
