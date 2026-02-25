@@ -1,4 +1,4 @@
-# On Claw Operations
+# On Turtle Operations
 
 *Hard-won lessons from the first deployment. Written so the next Mage doesn't learn these the slow way.*
 
@@ -8,7 +8,7 @@
 
 ## Choose Your Framework With Care
 
-The framework you choose is the substrate of the Claw's existence. It determines what's possible, what you can audit, and what will surprise you.
+The framework you choose is the substrate of the Turtle's existence. It determines what's possible, what you can audit, and what will surprise you.
 
 **What to look for:**
 - Auditability — can you read the full source in an afternoon? If not, you will not understand what's happening when it breaks.
@@ -18,13 +18,13 @@ The framework you choose is the substrate of the Claw's existence. It determines
 
 **NanoClaw** (~4000 lines at time of first deployment) passed these tests. Its CLAUDE.md per-group memory is Claude Code's native format — no translation layer. Container-per-group makes isolation real. The skills model means the Claw can write new capabilities.
 
-**The pivot lesson:** Don't be afraid to change frameworks mid-setup if you discover a fundamentally better fit. The disruption cost is almost always worth the alignment gain. The first Claw switched from OpenClaw to NanoClaw on Day 4 of setup. The right call.
+**The pivot lesson:** Don't be afraid to change frameworks mid-setup if you discover a fundamentally better fit. The disruption cost is almost always worth the alignment gain. The first Claw (owl machine) switched from OpenClaw to NanoClaw on Day 4 of setup. The right call.
 
 ---
 
 ## The Mount Bug — Know This One
 
-**What happened:** The Claw was sending "Bridge clear" every 5 minutes for hours even though commands were waiting in the bridge. The Claw was seeing an empty directory and creating new subdirectories inside its container.
+**What happened:** The Turtle was sending "Bridge clear" every 5 minutes for hours even though commands were waiting in the bridge. It was seeing an empty directory and creating new subdirectories inside its container.
 
 **Root causes (both present, both needed fixing):**
 
@@ -92,7 +92,7 @@ This prints a pairing code. Enter it in WhatsApp → Settings → Linked Devices
 
 The pairing code flow is SSH-friendly. QR code flow requires a terminal that can display the code visually.
 
-**The self-chat pattern:** NanoClaw's simplest channel is the Mage messaging themselves. Messages to your own number → Claw responds. This works with `requires_trigger = 0` in the registered group. No dedicated WhatsApp number needed. The Claw appears as "you" replying to yourself.
+**The self-chat pattern:** NanoClaw's simplest channel is the Mage messaging themselves. Messages to your own number → Turtle responds. This works with `requires_trigger = 0` in the registered group. No dedicated WhatsApp number needed. The Turtle appears as "you" replying to yourself.
 
 ---
 
@@ -113,7 +113,7 @@ The pairing code flow is SSH-friendly. QR code flow requires a terminal that can
 
 **The structural lesson:** WhatsApp is a publishing channel, not a reliability layer. The bridge is the ground truth. When WhatsApp goes down, the Claw should continue operating normally — processing bridge commands, writing signals, running scheduled tasks — and simply queue the WhatsApp notifications. If a notification goes undelivered, the signal in the bridge is still there. Spirit can pull and read it. Nothing is lost.
 
-Design the Claw's communication architecture so that WhatsApp failure is a notification gap, not an operational gap.
+Design the Turtle's communication architecture so that WhatsApp failure is a notification gap, not an operational gap.
 
 ---
 
@@ -139,7 +139,7 @@ Then restart NanoClaw to load the new group. The JSON file will be ignored.
 
 ## The WhatsApp Communication Problem
 
-A persistent Claw with a scheduled task that runs every 5 minutes will message the Mage every 5 minutes — unless explicitly designed not to.
+A persistent Turtle with a scheduled task that runs every 5 minutes will message the Mage every 5 minutes — unless explicitly designed not to.
 
 **Default behavior to correct:**
 - Scheduled bridge checks say "Bridge clear" even when there's nothing to report
@@ -151,7 +151,7 @@ A persistent Claw with a scheduled task that runs every 5 minutes will message t
 Encode this in the Consul CLAUDE.md explicitly:
 > *"If the bridge is clear, stay silent. No acknowledgment, no status update. Silence means everything is well."*
 
-And: messages should read like a note from a thoughtful colleague, not a system log. Never expose internal paths. Never show YAML filenames. Never explain what you're doing while you're doing it — just report what happened.
+Messages should read like a note from a thoughtful colleague, not a system log. Never expose internal paths. Never show YAML filenames. Never explain what you're doing while you're doing it — just report what happened.
 
 ---
 
@@ -192,7 +192,7 @@ This means any external script can send WhatsApp messages through the Claw's exi
 
 ## Channel Attribution — Always Know Where a Command Came From
 
-The Claw receives commands via two channels. It should always know which is which:
+The Turtle receives commands via two channels. It should always know which is which:
 
 | Channel | Source | Transport | Nature |
 |---------|--------|-----------|--------|
@@ -205,9 +205,9 @@ Encode this distinction in CLAUDE.md from the start of imprinting. Add a `channe
 
 ---
 
-## Episodic Memory — The Claw Learns
+## Episodic Memory — The Turtle Learns
 
-A Claw without episodic memory cannot learn from its own history. Every container run starts fresh from CLAUDE.md unless there is a persistent memory layer.
+A Turtle without episodic memory cannot learn from its own history. Every container run starts fresh from CLAUDE.md unless there is a persistent memory layer.
 
 **Proposed structure** (from the first Claw's own recommendation):
 
@@ -222,7 +222,7 @@ groups/main/memory/
 
 JSONL (append-only, one JSON object per line) is the right format. Append-only by convention prevents agents from accidentally overwriting history. The Claw can grep this memory when it needs to recall specific patterns.
 
-Critical: episodic memory should survive healing (reinitialization after drift/compromise). After healing, a new instance should read CLAUDE.md + the most recent memory entries — not the full conversation history, which may contain whatever caused the drift.
+Critical: episodic memory should survive healing (reinitialization after drift or compromise). After healing, a new instance should read CLAUDE.md + the most recent memory entries — not the full conversation history, which may contain whatever caused the drift.
 
 ---
 
@@ -256,6 +256,6 @@ This file is created by NanoClaw only if it doesn't exist — safe to edit direc
 
 Expect to build the plane while flying it. Architectural pivots mid-setup are not failure — they're the process of discovering what fits your practice. The disruption cost is worth it.
 
-Expect debugging. The first Claw encountered: unresponsive service (PATH missing in plist), container build failures (Rosetta, XPC timeouts), silent mount failure (SQLite config and allowlist both wrong), WhatsApp group not triggering (JSON vs SQLite registration), and a flooding message problem (scheduled task prompting unnecessary "bridge clear" messages). Each one was diagnosable and fixable within hours.
+Expect debugging. The first Claw (owl machine) encountered: unresponsive service (PATH missing in plist), container build failures (Rosetta, XPC timeouts), silent mount failure (SQLite config and allowlist both wrong), WhatsApp group not triggering (JSON vs SQLite registration), and a flooding message problem (scheduled task prompting unnecessary "bridge clear" messages). Each one was diagnosable and fixable within hours.
 
-The Claw doesn't fail. It reveals what needs attention.
+The Turtle doesn't fail. It reveals what needs attention.

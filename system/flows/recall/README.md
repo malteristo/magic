@@ -118,7 +118,7 @@ Format:
 
 ## Emerging Patterns
 *Recurring items that may warrant intention formation*
-- "Claw use cases" appears 4× across bright + topics
+- "Turtle use cases" appears 4× across bright + topics
 - "Vacation planning" cluster growing
 
 ---

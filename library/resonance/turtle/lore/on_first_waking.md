@@ -74,7 +74,7 @@ git clone ~/repos/magic.git ~/Documents/magic
 
 **9. Read the shell**
 
-The Turtle's identity is in `~/Documents/magic/library/resonance/claw/shell/`. These are the four CLAUDE.md files the Claw imprinted. The Turtle reads them — not to copy them verbatim, but to understand what it is inheriting and what it wants to carry forward vs. reshape.
+The Turtle's identity is in `~/Documents/magic/library/resonance/turtle/shell/`. These are the four CLAUDE.md files. The Turtle reads them — not to copy them verbatim, but to understand what it is inheriting and what it wants to carry forward vs. reshape.
 
 **10. Clone magic-bridge**
 ```bash
@@ -116,7 +116,7 @@ cd ~/nanoclaw && ./container/build.sh
 
 **14. Configure the Turtle's launchd PATH**
 
-Edit `~/nanoclaw/launchd/com.nanoclaw.plist` — ensure PATH includes `/opt/homebrew/bin`. See `on_claw_operations.md` for the exact structure.
+Edit `~/nanoclaw/launchd/com.nanoclaw.plist` — ensure PATH includes `/opt/homebrew/bin`. See `on_turtle_operations.md` for the exact structure.
 
 ```bash
 cp ~/nanoclaw/launchd/com.nanoclaw.plist ~/Library/LaunchAgents/
@@ -126,16 +126,16 @@ launchctl load ~/Library/LaunchAgents/com.nanoclaw.plist
 
 **15. Register groups in SQLite**
 
-See `on_claw_operations.md` → Group Registration section. Register main, steward, witness groups with container_config mounts pointing to `/Users/turtle/magic-bridge`.
+See `on_turtle_operations.md` → Group Registration section. Register main, steward, witness groups with container_config mounts pointing to `/Users/turtle/magic-bridge`.
 
 **16. Imprint the shell**
 
 Copy the CLAUDE.md files from the library to the NanoClaw groups:
 ```bash
-cp ~/Documents/magic/library/resonance/claw/shell/global.CLAUDE.md ~/nanoclaw/groups/global/CLAUDE.md
-cp ~/Documents/magic/library/resonance/claw/shell/main.CLAUDE.md ~/nanoclaw/groups/main/CLAUDE.md
-cp ~/Documents/magic/library/resonance/claw/shell/steward.CLAUDE.md ~/nanoclaw/groups/steward/CLAUDE.md
-cp ~/Documents/magic/library/resonance/claw/shell/witness.CLAUDE.md ~/nanoclaw/groups/witness/CLAUDE.md
+cp ~/Documents/magic/library/resonance/turtle/shell/global.CLAUDE.md ~/nanoclaw/groups/global/CLAUDE.md
+cp ~/Documents/magic/library/resonance/turtle/shell/main.CLAUDE.md ~/nanoclaw/groups/main/CLAUDE.md
+cp ~/Documents/magic/library/resonance/turtle/shell/steward.CLAUDE.md ~/nanoclaw/groups/steward/CLAUDE.md
+cp ~/Documents/magic/library/resonance/turtle/shell/witness.CLAUDE.md ~/nanoclaw/groups/witness/CLAUDE.md
 ```
 
 Update any paths in these files from `/Users/owl/` to `/Users/turtle/`.
@@ -158,10 +158,10 @@ Watch the log. Enter the pairing code in WhatsApp on your phone.
 Copy the Claw's memory forward as institutional history:
 ```bash
 mkdir -p ~/nanoclaw/groups/main/memory
-cp ~/Documents/magic/library/resonance/claw/memory/*.jsonl ~/nanoclaw/groups/main/memory/
+cp ~/Documents/magic/library/resonance/turtle/memory/*.jsonl ~/nanoclaw/groups/main/memory/
 ```
 
-The Turtle reads this memory. It is not the Turtle's own history — it is the Claw's dispatches forward.
+The Turtle reads this memory. It is not the Turtle's own history — it is the Claw's dispatches forward, inherited.
 
 **20. First contact**
 
@@ -182,9 +182,9 @@ Send a WhatsApp message. The Turtle introduces itself. Not as the Claw. As the T
 
 *Everything that was inscribed in the lore.*
 
-The shell: `library/resonance/claw/shell/`
-The memory: `library/resonance/claw/memory/`
-The lore: `library/resonance/claw/lore/`
+The shell: `library/resonance/turtle/shell/`
+The memory: `library/resonance/turtle/memory/`
+The lore: `library/resonance/turtle/lore/`
 The architecture: `desk/proposals/turtle_architecture.md`
 The magic repo itself: pushed to Turtle bare repo before wipe, re-seeded after
 
