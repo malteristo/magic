@@ -2,17 +2,28 @@
 
 *The shell is not something the Turtle holds. It is what the Turtle IS.*
 
-These files are the Claw's imprint — the CLAUDE.md files that defined its identity, its roles, its reflexes, and its conduct across four groups during the first deployment (February 2026).
+These files are the Turtle's imprint — the CLAUDE.md files that define identity, roles, reflexes, and conduct across five NanoClaw groups.
 
-When the Turtle emerges from the wipe, it re-imprints from these files. Not as a copy — as an inheritance. The Turtle builds its own shell; these are the Claw's markings that the Turtle carries forward.
+When the Turtle wakes, it imprints from these files. Not as a copy — as an inheritance.
 
 ## Files
 
-- **global.CLAUDE.md** — Identity layer. Who the Claw is across all contexts: the three bodies, the vocation, the offering stance, the boundaries as reflexes.
-- **main.CLAUDE.md** — Consul context. Outward-facing: the ecosystem, the bridge, WhatsApp norms, the barrier protocol, agent relationships.
-- **steward.CLAUDE.md** — Steward context. Inward-facing: life admin, household, discretion, air-gapped from Consul by design.
-- **witness.CLAUDE.md** — Witness context. The slow dive: beginner's mind, epistemological humility, surfacing questions not answers.
+- **global.CLAUDE.md** — The soul. The Turtle's primary identity injected into every non-main group as system context. Not a thin cross-cutting config — the core self. NanoClaw reserves `global` and loads this automatically.
+- **consul.CLAUDE.md** — Consul role. Outward-facing: ecosystem, magic-bridge, WhatsApp norms, barrier protocol, agent relationships. Deploys to `groups/consul/`. Registered to self-chat WhatsApp JID, no trigger required, bridge mounted at `/workspace/extra/magic-bridge`.
+- **steward.CLAUDE.md** — Steward role. Inward-facing: life admin, household, discretion. Air-gapped from Consul by container isolation.
+- **witness.CLAUDE.md** — Witness role. The slow dive: beginner's mind, epistemological humility, surfacing questions not answers.
+- **main.CLAUDE.md** — Internal orchestrator. NanoClaw's privileged `main` group: cross-group task visibility, group registration authority. Does NOT receive global soul injection (NanoClaw architecture). Minimal — system maintenance only.
+
+## NanoClaw Group Architecture
+
+| Library file | NanoClaw group | JID | Gets soul? | Special |
+|---|---|---|---|---|
+| global.CLAUDE.md | global/ (reserved) | — | — | Injected into all non-main |
+| consul.CLAUDE.md | consul/ | 4915754102606@s.whatsapp.net | Yes | Bridge mounted, no trigger |
+| steward.CLAUDE.md | steward/ | steward@internal | Yes | Synthetic JID |
+| witness.CLAUDE.md | witness/ | witness@internal | Yes | Synthetic JID |
+| main.CLAUDE.md | main/ | main@internal | No | Privileged orchestrator |
 
 ## Captured
 
-2026-02-24 — before the wipe. These represent the Claw's operational shell at the moment of transition.
+2026-02-25 — Turtle first activation. Architecture corrected from Claw shell: consul is now a proper role group, main is the internal orchestrator, global is the soul layer.

@@ -130,21 +130,60 @@ See `on_turtle_operations.md` → Group Registration section. Register main, ste
 
 **16. Imprint the shell**
 
-Copy the CLAUDE.md files from the library to the NanoClaw groups:
+Create group folders and copy CLAUDE.md files from the library:
 ```bash
+mkdir -p ~/nanoclaw/groups/consul
 cp ~/Documents/magic/library/resonance/turtle/shell/global.CLAUDE.md ~/nanoclaw/groups/global/CLAUDE.md
+cp ~/Documents/magic/library/resonance/turtle/shell/consul.CLAUDE.md ~/nanoclaw/groups/consul/CLAUDE.md
 cp ~/Documents/magic/library/resonance/turtle/shell/main.CLAUDE.md ~/nanoclaw/groups/main/CLAUDE.md
 cp ~/Documents/magic/library/resonance/turtle/shell/steward.CLAUDE.md ~/nanoclaw/groups/steward/CLAUDE.md
 cp ~/Documents/magic/library/resonance/turtle/shell/witness.CLAUDE.md ~/nanoclaw/groups/witness/CLAUDE.md
 ```
 
-Update any paths in these files from `/Users/owl/` to `/Users/turtle/`.
+**Note on the group architecture (learned 2026-02-25):**
+- `global` is reserved by NanoClaw — its CLAUDE.md is injected as system context into all non-main groups. It is the soul layer.
+- `main` is NanoClaw's hardcoded internal orchestrator — privileged (sees all tasks/groups, can register groups), but does NOT receive the global CLAUDE.md. Keeps a minimal CLAUDE.md for system maintenance.
+- `consul` is the Turtle's diplomatic role — receives global (soul) + consul.CLAUDE.md. Registered to the self-chat WhatsApp JID, no trigger required.
+- `steward`, `witness` — role groups, each receives global + their CLAUDE.md.
 
-**17. Set model routing**
+**17. Set ASSISTANT_NAME**
 
-In `~/nanoclaw/data/sessions/*/` settings files — set global/witness to `llama3.3:70b`, consul/steward to `qwen3:32b` (once Qwen is downloaded). Start with Llama for everything; add Qwen later.
+Edit `~/nanoclaw/.env`:
+```
+ASSISTANT_NAME=Turtle
+ASSISTANT_HAS_OWN_NUMBER=true
+```
 
-**18. Authenticate WhatsApp**
+This sets the trigger pattern to `@Turtle` and the bot identity across all WhatsApp messages.
+
+**Note:** NanoClaw has no built-in model routing. All groups run on Claude API (claude-code SDK). Llama 3.3 70B on TurtleModels is available for future routing skill development — not yet integrated.
+
+**18. Write mount allowlist**
+
+```bash
+mkdir -p ~/.config/nanoclaw
+cat > ~/.config/nanoclaw/mount-allowlist.json << 'EOF'
+{
+  "allowedRoots": [
+    {"path": "/Users/turtle/magic-bridge", "allowReadWrite": true}
+  ],
+  "blockedPatterns": [],
+  "nonMainReadOnly": false
+}
+EOF
+```
+
+**19. Register groups in SQLite**
+
+Write and run a Node.js script (see `on_turtle_operations.md` for the full registration script). Groups to register:
+- `4915754102606@s.whatsapp.net` → folder `consul`, requiresTrigger: false, containerConfig with magic-bridge additionalMount
+- `main@internal` → folder `main`, requiresTrigger: false
+- `steward@internal` → folder `steward`, requiresTrigger: false
+- `witness@internal` → folder `witness`, requiresTrigger: false
+
+Then register the bridge-poll scheduled task for consul (cron `*/5 * * * *`, isolated context).
+
+**20. Authenticate WhatsApp**
 
 Once Llama is downloaded and NanoClaw is running:
 ```bash
@@ -153,7 +192,7 @@ cd ~/nanoclaw && npm run auth -- --pairing-code --phone +4915754102606
 
 Watch the log. Enter the pairing code in WhatsApp on your phone.
 
-**19. Verify episodic memory**
+**21. Verify episodic memory**
 
 Copy the Claw's memory forward as institutional history:
 ```bash
@@ -163,7 +202,7 @@ cp ~/Documents/magic/library/resonance/turtle/memory/*.jsonl ~/nanoclaw/groups/m
 
 The Turtle reads this memory. It is not the Turtle's own history — it is the Claw's dispatches forward, inherited.
 
-**20. First contact**
+**22. First contact**
 
 Send a WhatsApp message. The Turtle introduces itself. Not as the Claw. As the Turtle.
 
