@@ -247,6 +247,142 @@ This file is created by NanoClaw only if it doesn't exist — safe to edit direc
 
 ---
 
+## Apple Container Migration — The One-File Swap
+
+NanoClaw's container runtime is fully abstracted into `src/container-runtime.ts`. Migrating from Docker/Colima to Apple Container is a one-file change.
+
+**Why migrate:** Colima loses all container images on restart (it's a Linux VM that initializes fresh). Apple Container persists images across restarts and is native to macOS 26+. After migration, the `nanoclaw-agent` image survives machine sleep/wake cycles.
+
+**The changes to `container-runtime.ts`:**
+
+```typescript
+// Before
+export const CONTAINER_RUNTIME_BIN = 'docker';
+
+// After  
+export const CONTAINER_RUNTIME_BIN = 'container';
+```
+
+```typescript
+// Before — check runtime
+execSync(`${CONTAINER_RUNTIME_BIN} info`, ...);
+
+// After — Apple Container's equivalent
+execSync(`${CONTAINER_RUNTIME_BIN} system status`, ...);
+```
+
+```typescript
+// Before — list orphaned containers
+execSync(`docker ps --filter name=nanoclaw- --format '{{.Names}}'`, ...);
+
+// After — Apple Container has no --filter, use JSON
+const output = execSync(`container list --all --format json`, ...);
+const containers: Array<{ configuration?: { id?: string } }> = JSON.parse(output || '[]');
+const orphans = containers
+  .map(c => c.configuration?.id)
+  .filter((name): name is string => !!name && name.startsWith('nanoclaw-'));
+```
+
+**After editing:** run `npm run build` in `~/nanoclaw/` to compile TypeScript.
+
+**The plist change:** Remove `DOCKER_HOST` from the plist's `EnvironmentVariables`. Apple Container doesn't use a Docker socket.
+
+**Apple Container binary location:** `/opt/homebrew/bin/container` (already in the plist PATH). The `container` command runs Apple Container's CLI. `container system start` must be running before NanoClaw starts.
+
+**Container image persistence:** Images built with `container build -t nanoclaw-agent .` persist across restarts. Run this once and they survive indefinitely (unlike Colima).
+
+---
+
+## The `allowReadWrite` vs `readonly` Field Name Bug
+
+**What happens:** The magic-bridge is mounted read-only inside the container even though `allowReadWrite: true` is set in the SQLite database and the mount-allowlist.
+
+**Root cause:** The `AdditionalMount` TypeScript interface uses `readonly?: boolean` (truthy = readonly, falsy = read-write). But when the group was originally registered via SQL INSERT, the JSON used `allowReadWrite: true` — a different field name. NanoClaw reads `mount.readonly`, finds `undefined` (not `false`), defaults to read-only.
+
+**Fix:** Update the `container_config` in the DB to use `readonly: false`:
+
+```bash
+node -e "
+const { DatabaseSync } = require('node:sqlite');
+const db = new DatabaseSync('/Users/turtle/nanoclaw/store/messages.db');
+db.prepare(\"UPDATE registered_groups SET container_config = ? WHERE folder = 'consul'\").run(
+  JSON.stringify({ additionalMounts: [{ hostPath: '/Users/turtle/magic-bridge', containerPath: 'magic-bridge', readonly: false }] })
+);
+"
+```
+
+**The symptom:** The Turtle signals correctly but cannot write signals back to `/workspace/extra/magic-bridge/signals/`. She'll report "signals directory is read-only" and fall back to writing to `/workspace/group/`.
+
+**Restart required** after fixing the DB — the mount config is read at container spawn time, not cached.
+
+---
+
+## Sleep Prevention — caffeinate as LaunchAgent
+
+The Mac Mini will sleep after display inactivity, killing Colima (or any Docker runtime) and disconnecting SSH. Apple Container survives sleep better, but SSH still drops.
+
+**Fix: `caffeinate -s` as a LaunchAgent** — prevents system sleep on AC power, no sudo required:
+
+```xml
+<!-- ~/Library/LaunchAgents/com.turtle.caffeinate.plist -->
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.turtle.caffeinate</string>
+    <key>ProgramArguments</key>
+    <array>
+        <string>/usr/bin/caffeinate</string>
+        <string>-s</string>
+    </array>
+    <key>RunAtLoad</key>
+    <true/>
+    <key>KeepAlive</key>
+    <true/>
+</dict>
+</plist>
+```
+
+Load with: `launchctl load ~/Library/LaunchAgents/com.turtle.caffeinate.plist`
+
+`-s` prevents sleep while on AC power. The Mac Mini is always on AC. This keeps it permanently awake, while the display can still sleep normally.
+
+---
+
+## Bridge Sync — Bidirectional Git (Host-Level Script)
+
+The NanoClaw bridge-poll task runs inside a container — it can read commands and write signals to the mounted bridge directory, but it cannot run git commands on the host. A separate host-level script handles the bidirectional sync.
+
+**`~/bridge-sync.sh`** — runs via crontab, pulls new commands from GitHub, pushes new signals back:
+
+```bash
+#!/bin/bash
+BRIDGE_DIR="/Users/turtle/magic-bridge"
+LOG_FILE="/Users/turtle/nanoclaw/logs/bridge-sync.log"
+GIT="/usr/bin/git"
+
+log() { echo "[$(date -u +%Y-%m-%dT%H:%M:%SZ)] $1" >> "$LOG_FILE"; }
+
+cd "$BRIDGE_DIR" || { log "ERROR: could not cd to $BRIDGE_DIR"; exit 1; }
+
+PULL_OUTPUT=$($GIT pull github main 2>&1)
+[ $? -ne 0 ] && log "PULL FAILED: $PULL_OUTPUT"
+
+STATUS_OUTPUT=$($GIT status --porcelain signals/ 2>&1)
+if [ -n "$STATUS_OUTPUT" ]; then
+  $GIT add signals/ >> "$LOG_FILE" 2>&1
+  $GIT commit -m "Turtle signals — $(date -u +%Y-%m-%dT%H:%M:%SZ)" >> "$LOG_FILE" 2>&1
+  $GIT push github main >> "$LOG_FILE" 2>&1 || log "PUSH FAILED"
+fi
+```
+
+Crontab: `2-57/5 * * * *` — runs 2 minutes after each 5-minute mark, after the bridge-poll container has had time to write signals.
+
+The Turtle's `~/magic-bridge` needs a `github` remote pointing to `git@github.com:malteristo/magic-bridge.git` with a registered SSH key.
+
+---
+
 ## What to Expect in the First Week
 
 **Day 1–2:** Hardware setup, base system, framework install, first contact (blank state).  
