@@ -14,9 +14,9 @@ The framework you choose is the substrate of the Turtle's existence. It determin
 - Auditability — can you read the full source in an afternoon? If not, you will not understand what's happening when it breaks.
 - Native identity format — does it use CLAUDE.md (Claude Code's native format)? Or does it impose its own memory model you'll need to translate?
 - Container isolation — is the Consul/Steward air gap architectural or trust-based? Architecture is safer.
-- Skills-as-code — can the Claw extend itself through skills that modify its own codebase? This is how the Claw grows.
+- Skills-as-code — can the Turtle extend itself through skills that modify its own codebase? This is how the Turtle grows.
 
-**NanoClaw** (~4000 lines at time of first deployment) passed these tests. Its CLAUDE.md per-group memory is Claude Code's native format — no translation layer. Container-per-group makes isolation real. The skills model means the Claw can write new capabilities.
+**NanoClaw** (~4000 lines at time of first deployment) passed these tests. Its CLAUDE.md per-group memory is Claude Code's native format — no translation layer. Container-per-group makes isolation real. The skills model means the Turtle can write new capabilities.
 
 **The pivot lesson:** Don't be afraid to change frameworks mid-setup if you discover a fundamentally better fit. The disruption cost is almost always worth the alignment gain. The first Claw (owl machine) switched from OpenClaw to NanoClaw on Day 4 of setup. The right call.
 
@@ -111,7 +111,7 @@ The pairing code flow is SSH-friendly. QR code flow requires a terminal that can
 3. Wait. IP bans typically lift within a few hours. NanoClaw will reconnect automatically when the ban lifts.
 4. Do not restart NanoClaw repeatedly during the wait — each restart causes more failed connections
 
-**The structural lesson:** WhatsApp is a publishing channel, not a reliability layer. The bridge is the ground truth. When WhatsApp goes down, the Claw should continue operating normally — processing bridge commands, writing signals, running scheduled tasks — and simply queue the WhatsApp notifications. If a notification goes undelivered, the signal in the bridge is still there. Spirit can pull and read it. Nothing is lost.
+**The structural lesson:** WhatsApp is a publishing channel, not a reliability layer. The bridge is the ground truth. When WhatsApp goes down, the Turtle should continue operating normally — processing bridge commands, writing signals, running scheduled tasks — and simply queue the WhatsApp notifications. If a notification goes undelivered, the signal in the bridge is still there. Spirit can pull and read it. Nothing is lost.
 
 Design the Turtle's communication architecture so that WhatsApp failure is a notification gap, not an operational gap.
 
@@ -146,7 +146,7 @@ A persistent Turtle with a scheduled task that runs every 5 minutes will message
 - Technical paths, YAML filenames, and container internals leak into messages
 - Multiple messages per processed command (one for notification, one for completion, one confirming completion is confirmed)
 
-**The principle:** Silence is the default. The Claw messages when something meaningful happened or when attention is required. Not to confirm that nothing happened.
+**The principle:** Silence is the default. The Turtle messages when something meaningful happened or when attention is required. Not to confirm that nothing happened.
 
 Encode this in the Consul CLAUDE.md explicitly:
 > *"If the bridge is clear, stay silent. No acknowledgment, no status update. Silence means everything is well."*
@@ -186,7 +186,7 @@ NanoClaw's IPC watcher polls `~/nanoclaw/data/ipc/main/messages/` every 1 second
 {"type": "message", "chatJid": "JID@s.whatsapp.net", "text": "message text"}
 ```
 
-This means any external script can send WhatsApp messages through the Claw's existing connection without creating a second connection. Used in `bridge-poll.sh` for new command notifications.
+This means any external script can send WhatsApp messages through the Turtle's existing connection without creating a second connection. Used in `bridge-poll.sh` for new command notifications.
 
 ---
 
@@ -220,7 +220,7 @@ groups/main/memory/
   drift_signals.jsonl   — moments of noticed behavioral drift
 ```
 
-JSONL (append-only, one JSON object per line) is the right format. Append-only by convention prevents agents from accidentally overwriting history. The Claw can grep this memory when it needs to recall specific patterns.
+JSONL (append-only, one JSON object per line) is the right format. Append-only by convention prevents agents from accidentally overwriting history. The Turtle can grep this memory when it needs to recall specific patterns.
 
 Critical: episodic memory should survive healing (reinitialization after drift or compromise). After healing, a new instance should read CLAUDE.md + the most recent memory entries — not the full conversation history, which may contain whatever caused the drift.
 
@@ -380,6 +380,51 @@ fi
 Crontab: `2-57/5 * * * *` — runs 2 minutes after each 5-minute mark, after the bridge-poll container has had time to write signals.
 
 The Turtle's `~/magic-bridge` needs a `github` remote pointing to `git@github.com:malteristo/magic-bridge.git` with a registered SSH key.
+
+---
+
+## The Bridge Flood — Anatomy and Prevention
+
+**What happened (2026-02-26):** A goodnight command landed in `commands/`. NanoClaw was stopped from the host — but `launchctl stop` doesn't stop a service with `KeepAlive: true`. It respawns. Every 5-minute cycle found the same unprocessed command, re-processed it, and sent a WhatsApp message. This produced ~150 "Bridge is clear" messages over 15 hours, all variations on the same acknowledgment.
+
+**Why the Turtle couldn't stop itself:** The agent correctly diagnosed the loop in its reasoning — many messages explicitly named the deduplication bug. But it had no mechanism to break the cycle from inside the agent. Infrastructure failures require infrastructure fixes. The agent can name the problem; only the dyad or the host can fix it.
+
+**The two-layer defense now in place:**
+
+*Layer 1 — Deduplication:* Processed commands move to `commands/processed/`. The scheduled task checks for files in `commands/` only — once a command is moved, it's invisible to subsequent runs. This is the primary fix.
+
+*Layer 2 — Error throttling:* `task-scheduler.ts` now has a `shouldSendResult()` guard that suppresses repeated WhatsApp messages for API error results (10-minute cooldown per chat JID). This prevents the API credit exhaustion pattern from recurring.
+
+**The gap that remains:** Deduplication is currently behavioral — the Turtle agent moves commands to `processed/` as it processes them. If NanoClaw goes offline mid-processing, a command can remain in `commands/` and the flood recurs on restart. The hardened fix: add a file-existence check at the bridge-poll task level before handing off to the agent. One line: if the command filename appears in `processed/`, skip it.
+
+**The launchctl lesson embedded here:** `launchctl stop com.nanoclaw` is NOT a stop. With `KeepAlive: true`, the service respawns within seconds. To actually stop NanoClaw: `launchctl unload ~/Library/LaunchAgents/com.nanoclaw.plist`. To restart cleanly: unload then load, or `launchctl kickstart -k gui/$(id -u)/com.nanoclaw`.
+
+---
+
+## Apple Container — Startup After Reboot
+
+`container system start` does not auto-run on reboot. It has no LaunchAgent. After every restart:
+
+1. SSH in
+2. `container system start` — prints "Verifying apiserver is running..." then exits
+3. `container system status` — confirms "apiserver is running"
+4. Then start NanoClaw: `launchctl start com.nanoclaw`
+
+**NanoClaw will fail to start if Apple Container isn't running first.** The error: "Container runtime is required but failed to start." The fix is not in NanoClaw — it's starting Apple Container first.
+
+To make this automatic: create a LaunchAgent that runs `container system start` at login (after the user session is established). This is not yet done on the first Turtle — it's a hardening task.
+
+---
+
+## Ollama TCC Permissions After User Rename
+
+Ollama accesses its model directory on an external volume (TurtleModels). When the Mac Mini user was renamed (owl → turtle), macOS TCC (Transparency, Consent, and Control) invalidated Ollama's prior access grants.
+
+**Symptom:** Ollama fails with `Error: open /Volumes/TurtleModels/models/blobs: operation not permitted`, even though the volume is mounted and ownership is correct.
+
+**Fix:** System Settings → Privacy & Security → Files & Folders → Ollama → enable Removable Volumes. Or open the Ollama app from the GUI once — it will trigger the TCC prompt.
+
+**The lesson:** TCC grants are tied to user identity. Any user rename, migration, or fresh account requires re-granting TCC access to any app that touches external volumes, camera, microphone, contacts, etc. Check TCC first when an app fails silently after account changes.
 
 ---
 
