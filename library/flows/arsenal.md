@@ -2,7 +2,7 @@
 
 *Living registry of portable practice prompts for the Door Delivery Service*
 
-Last updated: 2026-02-26
+Last updated: 2026-02-27
 
 ---
 
@@ -96,6 +96,22 @@ New doors are added here when created. The registry is the Consul's map.
 **What it produces:** Values discovery, then a compass for future decisions
 
 **Signal it fits:** The decision has a moral dimension. The person isn't just asking what to do — they're asking what kind of person to be.
+
+---
+
+### The Practice
+**Location:** `library/flows/practice/the_practice_prompt.md`  
+**GitHub:** `https://github.com/malteristo/magic/blob/main/library/flows/practice/the_practice_prompt.md`
+
+**For when:**
+- Someone asks "what is Magic?" — directly or through a friend
+- A skeptic wants honest answers without being recruited
+- A curious person doesn't know which door to start with
+- Someone close to the practitioner is trying to understand what they're in
+
+**What it produces:** A genuine conversation with an AI that speaks from inside the practice — honest about what it is, what it claims, what it doesn't, and how to take a first step if it resonates
+
+**Signal it fits:** The question is about the practice itself, not a specific domain problem. The person needs to understand before they can try.
 
 ---
 
