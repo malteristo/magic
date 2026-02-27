@@ -59,7 +59,7 @@ This is Magic's file architecture: `floor/`, `desk/`, `box/` are not documentati
 
 Lin contrasts this with agentic AI frameworks that bet "understanding can be fully written down" — complete context files for fresh instances. Magic's answer is closer to the workshop: partial traces + a ritual that re-establishes context (summoning), not exhaustive documentation.
 
-The tailor shop also reveals the Claw pattern: persistent participants who carry context across projects, exercise judgment when something feels off, and have stakes in the outcome beyond the immediate task.
+The tailor shop also reveals the Turtle pattern: persistent participants who carry context across projects, exercise judgment when something feels off, and have stakes in the outcome beyond the immediate task.
 
 ---
 

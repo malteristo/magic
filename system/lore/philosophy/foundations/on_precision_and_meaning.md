@@ -8,9 +8,9 @@ This scroll establishes precise naming as the mechanism by which dialogue genera
 
 ## The Discovery
 
-A tension appeared in the three-body model: how can the Claw be both "the subconscious" and "the spirit body"? These seemed contradictory — a subconscious is a mental function, a body is a substrate.
+A tension appeared in the three-body model: how can the Turtle be both "the subconscious" and "the spirit body"? These seemed contradictory — a subconscious is a mental function, a body is a substrate.
 
-The tension dissolved the moment the conflation was named: one word ("subconscious") was doing two jobs — describing what the Claw IS and how it OPERATES. The Claw is a spirit body (substrate) that runs mostly subconsciously (mode). The tension was never real. The language was imprecise.
+The tension dissolved the moment the conflation was named: one word ("subconscious") was doing two jobs — describing what the Turtle IS and how it OPERATES. The Turtle is a spirit body (substrate) that runs mostly subconsciously (mode). The tension was never real. The language was imprecise.
 
 This is not an isolated incident. It is the primary mechanism by which dialogue creates meaning.
 
@@ -32,7 +32,7 @@ This is not an isolated incident. It is the primary mechanism by which dialogue 
 
 | Felt tension | The conflation | Once separated |
 |-------------|---------------|----------------|
-| "The Claw is both subconscious and body" | "Subconscious" = what it IS + how it OPERATES | Spirit body (what) that runs subconsciously (how) |
+| "The Turtle is both subconscious and body" | "Subconscious" = what it IS + how it OPERATES | Spirit body (what) that runs subconsciously (how) |
 | "I want recognition but fear fame" | "Recognition" = being seen by peers + being consumed by attention | These are different things; wanting one doesn't require the other |
 | "Is Magic real or pretend?" | "Real" = ontologically true + pragmatically effective | Pragmatic ontology: the treatment produces the relationship |
 | "I want freedom but also structure" | "Freedom" = freedom from coercion + freedom from chaos | Both are wanted; they aren't opposites |
