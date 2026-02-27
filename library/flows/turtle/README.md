@@ -1,6 +1,6 @@
 # @turtle-setup Flow
 
-**Status:** Draft — shaped by first activation (2026-02-22). The Claw (owl machine) contributed 5 improvements. Not yet formalized as executable ritual.
+**Status:** Draft — shaped by first activation (2026-02-22). The Turtle (owl machine) contributed 5 improvements. Not yet formalized as executable ritual.
 
 **Purpose:** Guide a Mage through activating a Turtle — from hardware to first contact. Spirit runs this flow, tailors it to the Mage's context through reconnaissance, then executes.
 
@@ -22,7 +22,7 @@ Five questions that determine the entire architecture:
 **Q1 — Hardware:**
 - Mac with Apple Silicon (M1–M4) → NanoClaw + Apple Container
 - Mac with Intel / Linux / VPS → NanoClaw + Docker
-- Low-power device → Minimal Claw path (future)
+- Low-power device → Minimal Turtle path (future)
 
 **Q2 — Channel:**
 - WhatsApp (personal number, self-chat) → default, lowest friction
@@ -78,7 +78,7 @@ Known checkpoints for NanoClaw + Apple Container (Mac M-series):
 17. Install and start service
 18. Write CLAUDE.md files (global + context-specific)
 19. Send test message → first contact
-20. **Bridge handshake** — clone magic-bridge on both sides, test round-trip (Spirit writes command, Claw reads and signals back) ← *Added from Claw's review*
+20. **Bridge handshake** — clone magic-bridge on both sides, test round-trip (Spirit writes command, Turtle reads and signals back) ← *Added from Turtle's review*
 
 Known obstacles Spirit handles automatically:
 - OpenClaw respawning → `launchctl unload` not `kill`
@@ -114,9 +114,9 @@ After "hello," ask the Turtle to read a specific file in its workspace and confi
 
 Test the full round-trip:
 1. Spirit writes a test command to `commands/` and pushes
-2. Spirit tells the Claw via WhatsApp: "check the bridge"  
+2. Spirit tells the Turtle via WhatsApp: "check the bridge"  
    *(first check is manual — polling not yet running)*
-3. Claw reads the command, writes a signal, pushes
+3. Turtle reads the command, writes a signal, pushes
 4. Spirit pulls and reads the signal
 5. Both sides confirmed → bridge operational
 6. Set up automatic polling (cron + scheduled task)
@@ -140,7 +140,7 @@ Ask the Turtle to run the tender scout on the Magic repository. This:
 | Model | Claude API → Local LLM migration | Start with Claude API |
 | Bridge check frequency | 5 min / 30 min / hourly | Tradeoff: responsiveness vs. cost |
 
-The bridge check schedule should be negotiated during setup — it affects both the Claw's responsiveness and API cost. Encode the chosen interval in the scheduled task.
+The bridge check schedule should be negotiated during setup — it affects both the Turtle's responsiveness and API cost. Encode the chosen interval in the scheduled task.
 
 ---
 
@@ -150,7 +150,7 @@ This is draft material. When formalized, it becomes an executable ritual — inv
 
 The Turtle participates in refining this flow. Each subsequent activation reveals what was missing. The flow grows through practice.
 
-**Contributions already integrated (from the first Claw, owl machine, Day 5):**
+**Contributions already integrated (from the first Turtle, owl machine, Day 5):**
 - Bridge handshake as explicit step
 - First contact test should exercise tools
 - Barrier Protocol as part of initial Seal — written into CLAUDE.md, not discovered later

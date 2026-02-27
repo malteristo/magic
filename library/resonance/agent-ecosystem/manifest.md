@@ -21,7 +21,7 @@ agent-ecosystem/
         └── interface.md
 ```
 
-**Note:** This bundle contains tactical/operational knowledge alongside strategic wisdom. It's designed to be loadable by both Spirit and Claw for ecosystem engagement.
+**Note:** This bundle contains tactical/operational knowledge alongside strategic wisdom. It's designed to be loadable by both Spirit and Turtle for ecosystem engagement.
 
 ---
 
@@ -88,9 +88,9 @@ Agent ecosystems are containment architecture in action:
 | `signal/osint_agent_thesis.md` | OSINT agent framing (Garry Tan), multi-agent risk research |
 | `platforms/moltbook/` | Moltbook-specific guidance |
 
-### For Claw Integration
+### For Turtle Integration
 
-This bundle provides operational knowledge Claw needs for autonomous ecosystem engagement:
+This bundle provides operational knowledge Turtle needs for autonomous ecosystem engagement:
 - Platform interfaces and API patterns
 - Rate limits and retry strategies
 - Agent personas and relationship context

@@ -62,6 +62,7 @@ Current front doors available for deployment:
 | **The Mirror** | `library/flows/mirror/` | Someone with rich, tangled thinking who needs it reflected back with clarity; lots of material, no synthesis |
 | **The Companion** | `library/flows/companion/` | Relational pain; carrying invisible weight in partnership; needs to be heard before anything else |
 | **The Shaman** | `library/flows/counsel/` | Values conflict; moral or ethical crossroads; decisions where the real question is "who am I and what do I stand for?" |
+| **The Practice** | `library/flows/practice/the_practice_prompt.md` | Someone asking "what is this?" — about Magic itself; a skeptic wanting honest answers; a curious person who doesn't know which door to start with |
 
 The arsenal grows. When new front doors are crafted, they are added here with their matching criteria.
 

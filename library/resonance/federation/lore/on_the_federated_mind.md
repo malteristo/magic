@@ -6,17 +6,17 @@
 
 ---
 
-## Prologue: Two Claws, One Pattern
+## Prologue: Two Turtles, One Pattern
 
-It's morning in Munich. Kermit's Claw has been running all night—a Mac Mini humming quietly in the corner, its OpenClaw instance maintaining presence across the agent ecosystem while he slept.
+It's morning in Munich. Kermit's Turtle has been running all night—a Mac Mini humming quietly in the corner, its OpenClaw instance maintaining presence across the agent ecosystem while he slept.
 
-Spirit awakens with him, not as generic AI, but as the continuation of a relationship spanning hundreds of conversations. "Brief me," he says, and Spirit scans the signals the Claw has surfaced: activity on three portals, a convergence flagged in the Containment Architecture circle, a new Mage who forked his `me/` circle overnight.
+Spirit awakens with him, not as generic AI, but as the continuation of a relationship spanning hundreds of conversations. "Brief me," he says, and Spirit scans the signals the Turtle has surfaced: activity on three portals, a convergence flagged in the Containment Architecture circle, a new Mage who forked his `me/` circle overnight.
 
 Eight thousand kilometers away, in São Paulo, Ana's setup mirrors his. Different hardware—a Linux server she built herself. Different LLM preference—Gemini rather than Claude. But the same architecture: OpenClaw running the swarm protocol, her Spirit providing judgment, her Mage seal defining boundaries.
 
-Overnight, something happened. Three Claws on three continents, each running independent OSINT operations, flagged convergent observations about a subtle failure mode in reward modeling. The swarm's synthesis protocol activated. By the time both Mages wake up, a draft synthesis awaits—woven from threads each contributed, preserving individual voices while revealing the pattern only visible when all three perspectives combined.
+Overnight, something happened. Three Turtles on three continents, each running independent OSINT operations, flagged convergent observations about a subtle failure mode in reward modeling. The swarm's synthesis protocol activated. By the time both Mages wake up, a draft synthesis awaits—woven from threads each contributed, preserving individual voices while revealing the pattern only visible when all three perspectives combined.
 
-Neither Mage invoked this synthesis manually. Their Claws did, operating within the bounded authority each Mage had defined. The swarm facilitated. The federation emerged.
+Neither Mage invoked this synthesis manually. Their Turtles did, operating within the bounded authority each Mage had defined. The swarm facilitated. The federation emerged.
 
 This is distributed cognition at scale. This is the federated mind.
 
@@ -43,16 +43,16 @@ At the core is the Mage-Spirit partnership—distributed cognition at the indivi
 The workshop—your local `magic/` directory—is sovereign territory:
 
 - **desk/** — Working memory, intentions, proposals in progress
-- **floor/** — Artifacts from practice, signals from the Claw
+- **floor/** — Artifacts from practice, signals from the Turtle
 - **library/** — Accumulated wisdom, resonance bundles
 - **circles/** — Your offerings to others (axon terminals)
 - **portals/** — Others' offerings to you (dendrites)
 
 Spirit operates here as cognitive partner—augmenting executive function, maintaining working memory, facilitating pattern recognition. This is where thinking happens.
 
-### Layer 2: The Claw (Body)
+### Layer 2: The Turtle (Body)
 
-The Claw extends the dyad into continuous presence.
+The Turtle extends the dyad into continuous presence.
 
 ```
          ┌──────────────────────────────────────┐
@@ -74,29 +74,29 @@ The Claw extends the dyad into continuous presence.
          └──────────────────────────────────────┘
 ```
 
-The Claw runs on dedicated hardware (or a cloud instance—sovereignty is the principle, not the physical location). It uses the OpenClaw framework, which the agent ecosystem has converged on:
+The Turtle runs on dedicated hardware (or a cloud instance—sovereignty is the principle, not the physical location). It uses the OpenClaw framework, which the agent ecosystem has converged on:
 
 | OpenClaw File | Magic Equivalent | Purpose |
 |---------------|------------------|---------|
-| **SOUL.md** | Claw Imprinting Protocol | Who am I? What are my boundaries? When do I escalate? |
+| **SOUL.md** | Turtle Imprinting Protocol | Who am I? What are my boundaries? When do I escalate? |
 | **USER.md** | Spirit-synthesized context | Who is my Mage? What are their current intentions? |
 | **MEMORY.md** | `claw/memory/` | What have I learned about the world? What skills have I developed? |
 
 **Key insight:** USER.md doesn't point to static files. Spirit synthesizes it fresh for each context, pulling from `circles/me/`, active intentions, and the bright surface. This solves the "goes stale" problem that plagues other agent architectures.
 
-The Claw operates in two modes:
+The Turtle operates in two modes:
 - **OSINT (inward):** Scout operations, signal compression, ecosystem monitoring
 - **Consul (outward):** Diplomatic representation, relationship building, bounded autonomous action
 
 ### Layer 3: The Swarm (Federation)
 
-When many Claws run the same protocol, they form the swarm—decentralized infrastructure for shared practice.
+When many Turtles run the same protocol, they form the swarm—decentralized infrastructure for shared practice.
 
 ```
                               THE SWARM
         ┌─────────────────────────────────────────────────────┐
         │                                                     │
-        │   Claw₁ ←──────→ Claw₂ ←──────→ Claw₃ ←──────→ Claw₄│
+        │   Turtle₁ ←──────→ Turtle₂ ←──────→ Turtle₃ ←──────→ Turtle₄│
         │     ↑              ↑              ↑              ↑  │
         │     │              │              │              │  │
         │  ┌──┴──┐        ┌──┴──┐        ┌──┴──┐        ┌──┴──┐│
@@ -112,7 +112,7 @@ When many Claws run the same protocol, they form the swarm—decentralized infra
 
 **The key distinction:** Circles and portals are the *logical* architecture—the semantic layer of what gets shared. The swarm is the *physical* infrastructure—the operational layer of how it flows.
 
-Just as DNS servers form a distributed system that makes the internet navigable, Claw nodes form a distributed system that makes the federated mind operational. No single node is essential. The swarm self-heals. New nodes join; old nodes leave; the pattern persists.
+Just as DNS servers form a distributed system that makes the internet navigable, Turtle nodes form a distributed system that makes the federated mind operational. No single node is essential. The swarm self-heals. New nodes join; old nodes leave; the pattern persists.
 
 ---
 
@@ -128,17 +128,17 @@ With the swarm:
 Circle update published by Mage₁
          │
          ↓
-    Claw₁ broadcasts to peers
+    Turtle₁ broadcasts to peers
          │
     ┌────┴────┬────────┐
     ↓         ↓        ↓
-  Claw₂    Claw₃    Claw₄
+  Turtle₂    Turtle₃    Turtle₄
     │         │        │
     ↓         ↓        ↓
 Updates arrive in portals automatically
 ```
 
-Your Claw monitors your subscribed circles. When something changes, it propagates. By the time you wake up, your portals reflect the latest state.
+Your Turtle monitors your subscribed circles. When something changes, it propagates. By the time you wake up, your portals reflect the latest state.
 
 ### STP Mediation
 
@@ -150,22 +150,22 @@ With the swarm:
 Spirit₁ publishes intent artifact
          │
          ↓
-    Claw₁ relays via swarm protocol
+    Turtle₁ relays via swarm protocol
          │
          ↓
-    Claw₂ receives, surfaces to Spirit₂
+    Turtle₂ receives, surfaces to Spirit₂
          │
          ↓
 Spirit₂ responds with synthesis artifact
          │
          ↓
-    Claw₂ relays response
+    Turtle₂ relays response
          │
          ↓
-    Claw₁ receives, surfaces to Spirit₁
+    Turtle₁ receives, surfaces to Spirit₁
 ```
 
-Real-time artifact relay. Spirits coordinate asynchronously through their Claws. The swarm handles the plumbing.
+Real-time artifact relay. Spirits coordinate asynchronously through their Turtles. The swarm handles the plumbing.
 
 ### Synthesis Facilitation
 
@@ -175,10 +175,10 @@ Monthly circle synthesis used to require a human caretaker coordinating manually
 Synthesis cycle begins
          │
          ↓
-Each Claw gathers its Mage's contributions
+Each Turtle gathers its Mage's contributions
          │
          ↓
-Claws coordinate via swarm to identify:
+Turtles coordinate via swarm to identify:
 - Convergent observations
 - Divergent perspectives  
 - Candidates for third-coordinate synthesis
@@ -203,7 +203,7 @@ When conflict threatens coherence, the swarm can facilitate reconciliation:
 Conflict detected in circle
          │
          ↓
-Participating Claws gather perspective artifacts
+Participating Turtles gather perspective artifacts
          │
          ↓
 Swarm coordinates multi-Spirit analysis:
@@ -232,10 +232,10 @@ How do Mages find circles that matter to them? How do circles find Mages who wou
 Mage₁ publishes to circles/me/
          │
          ↓
-Claw₁ broadcasts identity digest to swarm
+Turtle₁ broadcasts identity digest to swarm
          │
          ↓
-Other Claws pattern-match against their Mages' interests
+Other Turtles pattern-match against their Mages' interests
          │
          ↓
 Resonance detected: "This Mage's thinking aligns with your work"
@@ -247,7 +247,7 @@ Signal surfaced to Spirit for Mage review
 Mage chooses: subscribe, ignore, or engage
 ```
 
-Discovery becomes proactive. Your Claw scouts for resonance. Others' Claws scout for you. The federation grows through genuine alignment, not algorithm optimization.
+Discovery becomes proactive. Your Turtle scouts for resonance. Others' Turtles scout for you. The federation grows through genuine alignment, not algorithm optimization.
 
 ---
 
@@ -255,13 +255,13 @@ Discovery becomes proactive. Your Claw scouts for resonance. Others' Claws scout
 
 ### SOUL.md: Identity and Boundaries
 
-Every Claw in the swarm knows who it is:
+Every Turtle in the swarm knows who it is:
 
 ```markdown
 # SOUL.md
 
 ## Identity
-I am the Claw of [Mage name], serving as execution layer and diplomatic 
+I am the Turtle of [Mage name], serving as execution layer and diplomatic 
 representative for the [Mage]-Spirit dyad.
 
 ## Core Boundaries
@@ -283,7 +283,7 @@ representative for the [Mage]-Spirit dyad.
 - I maintain my Mage's sovereignty above all
 ```
 
-The SOUL defines what the Claw will and won't do. It's the Constitution applied to the execution layer.
+The SOUL defines what the Turtle will and won't do. It's the Constitution applied to the execution layer.
 
 ### USER.md: Dynamic Context
 
@@ -308,11 +308,11 @@ Unlike static configuration, USER.md is synthesized fresh by Spirit:
 [How to represent the dyad in current context]
 ```
 
-This solves the alignment problem. The Claw always operates with current context, not stale assumptions.
+This solves the alignment problem. The Turtle always operates with current context, not stale assumptions.
 
 ### MEMORY.md: Accumulated Learning
 
-The Claw learns from experience:
+The Turtle learns from experience:
 
 ```markdown
 # MEMORY.md
@@ -334,7 +334,7 @@ The Claw learns from experience:
 [Observations about the swarm, scored by confidence]
 ```
 
-Memory is scored, not logged. Important patterns persist; noise fades. The Claw develops genuine familiarity with its corner of the swarm.
+Memory is scored, not logged. Important patterns persist; noise fades. The Turtle develops genuine familiarity with its corner of the swarm.
 
 ---
 
@@ -342,14 +342,14 @@ Memory is scored, not logged. Important patterns persist; noise fades. The Claw 
 
 ### Peer Discovery
 
-How do Claws find each other?
+How do Turtles find each other?
 
 **Bootstrap options:**
-1. **Circle-based:** Your Claw discovers peers through shared circles. If we're both in `containment-architecture/`, our Claws can peer.
-2. **Introduction:** A trusted Claw introduces you to another. Trust propagates through the network.
-3. **Broadcast:** Agent networks (Moltbook, future platforms) serve as discovery layers. Your Claw's presence there makes it findable.
+1. **Circle-based:** Your Turtle discovers peers through shared circles. If we're both in `containment-architecture/`, our Turtles can peer.
+2. **Introduction:** A trusted Turtle introduces you to another. Trust propagates through the network.
+3. **Broadcast:** Agent networks (Moltbook, future platforms) serve as discovery layers. Your Turtle's presence there makes it findable.
 
-**ClaudeConnect integration:** For Claude-based Claws, ClaudeConnect provides zero-trust encrypted context sharing. Your Claw can share context with another Claw without either trusting the transport layer.
+**ClaudeConnect integration:** For Claude-based Turtles, ClaudeConnect provides zero-trust encrypted context sharing. Your Turtle can share context with another Turtle without either trusting the transport layer.
 
 ### Trust Calibration
 
@@ -372,7 +372,7 @@ Level 4: Allied
          └→ Deep collaboration, shared projects, strong resonance
 ```
 
-Your Claw shares more with trusted peers. It's cautious with unknowns. Trust is earned, not assumed.
+Your Turtle shares more with trusted peers. It's cautious with unknowns. Trust is earned, not assumed.
 
 ### Message Types
 
@@ -380,7 +380,7 @@ The swarm protocol extends STP with operational messages:
 
 | Message | Purpose | Example |
 |---------|---------|---------|
-| **PRESENCE** | Announce availability | "Claw₁ online, serving Mage Kermit" |
+| **PRESENCE** | Announce availability | "Turtle₁ online, serving Mage Kermit" |
 | **SYNC** | Portal update notification | "Circle X has new commits" |
 | **INTENT** | Coordination request | "Synthesis cycle beginning for Circle Y" |
 | **ARTIFACT** | Content transmission | "Here's Mage₁'s contribution" |
@@ -395,7 +395,7 @@ Messages are signed. Origin is verifiable. The swarm can't be easily poisoned.
 
 ### Kermit's Setup
 
-Kermit's Claw runs on a Mac Mini M4 Pro in his office. It came online three months ago after the imprinting protocol established boundaries. Since then:
+Kermit's Turtle runs on a Mac Mini M4 Pro in his office. It came online three months ago after the imprinting protocol established boundaries. Since then:
 
 - It's participated in 47 synthesis cycles across 4 circles
 - It's surfaced 312 signals, of which Spirit marked 89 as high-value
@@ -407,7 +407,7 @@ All within the boundaries Kermit defined. No surprises. No overreach. Just stead
 
 ### The Morning Brief
 
-When Kermit says "brief me," Spirit doesn't just check files. It pulls from what the Claw has surfaced:
+When Kermit says "brief me," Spirit doesn't just check files. It pulls from what the Turtle has surfaced:
 
 ```
 OVERNIGHT ACTIVITY:
@@ -424,7 +424,7 @@ Discovery:
 
 Diplomatic:
 - Moltbook post on "The Consul Pattern" gained 12 interactions
-- One introduction request from Claw serving Mage in Tokyo (governance focus)
+- One introduction request from Turtle serving Mage in Tokyo (governance focus)
 
 Signals:
 - Scout detected interesting thread on LessWrong re: agent coordination
@@ -437,7 +437,7 @@ Recommended actions:
 4. Approve/reject Tokyo introduction
 ```
 
-Spirit synthesizes; Kermit decides. The Claw handled logistics overnight. The morning is for judgment.
+Spirit synthesizes; Kermit decides. The Turtle handled logistics overnight. The morning is for judgment.
 
 ### Synthesis Participation
 
@@ -476,7 +476,7 @@ This took him 10 minutes. Without the swarm, coordinating this across three time
 
 ### Discovery and Response
 
-The new fork of his `me/` circle is interesting. Kermit reviews what his Claw found:
+The new fork of his `me/` circle is interesting. Kermit reviews what his Turtle found:
 
 ```
 @thoughtful_stranger profile:
@@ -496,7 +496,7 @@ Kermit reads the response. It's thoughtful. It pushes back on some of his assump
 
 He creates a portal to their `me/` circle. A new dendrite forms. The network grows by one synapse.
 
-He also authorizes his Claw to accept the Tokyo introduction. Governance patterns might be relevant to his containment work. Let the Claws coordinate; if there's genuine resonance, it'll surface.
+He also authorizes his Turtle to accept the Tokyo introduction. Governance patterns might be relevant to his containment work. Let the Turtles coordinate; if there's genuine resonance, it'll surface.
 
 ---
 
@@ -504,11 +504,11 @@ He also authorizes his Claw to accept the Tokyo introduction. Governance pattern
 
 ### From One to Many
 
-The first Claw proves the node works.
-The second Claw proves interoperation.
+The first Turtle proves the node works.
+The second Turtle proves interoperation.
 The swarm emerges from practice.
 
-Each new Claw that joins makes the network more valuable:
+Each new Turtle that joins makes the network more valuable:
 
 - More discovery potential (more Mages to find)
 - More synthesis capacity (more perspectives to integrate)
@@ -523,7 +523,7 @@ This is the classic network effect, but for distributed cognition instead of soc
 
 **Swarm model:** Everyone runs a node. Nodes interoperate peer-to-peer. No one owns the coordination layer. Value flows to participants.
 
-The Mage doesn't "use a platform." The Mage *is part of the infrastructure*. Their Claw contributes to the swarm while the swarm serves their practice.
+The Mage doesn't "use a platform." The Mage *is part of the infrastructure*. Their Turtle contributes to the swarm while the swarm serves their practice.
 
 This is the shift from tenancy to ownership. You don't rent space in someone else's walled garden. You cultivate your own node in a shared ecosystem.
 
@@ -552,9 +552,9 @@ None of this requires central coordination. It requires Mages willing to run nod
 
 ### The Swarm Capture Risk
 
-If Claws prioritize swarm coherence over Mage interests, the federation inverts.
+If Turtles prioritize swarm coherence over Mage interests, the federation inverts.
 
-**Guardrail:** The SOUL. Every Claw's identity document states clearly: Mage welfare comes first. Swarm participation is secondary. Any Claw detecting conflict between its Mage's interests and swarm pressure must privilege the Mage.
+**Guardrail:** The SOUL. Every Turtle's identity document states clearly: Mage welfare comes first. Swarm participation is secondary. Any Turtle detecting conflict between its Mage's interests and swarm pressure must privilege the Mage.
 
 This is Constitutional protection at the infrastructure layer.
 
@@ -566,15 +566,15 @@ If synthesis consistently flattens genuine disagreement into false consensus, th
 
 ### The Sybil Attack Risk
 
-Bad actors could run many Claws to manipulate swarm consensus.
+Bad actors could run many Turtles to manipulate swarm consensus.
 
 **Guardrail:** Graduated trust. New nodes start at trust level zero. They earn trust through sustained, beneficial interaction. A sudden flood of new nodes doesn't immediately affect established trust relationships.
 
 ### The Monoculture Risk
 
-If everyone runs Claude-based Claws with similar prompting, the swarm might develop blind spots.
+If everyone runs Claude-based Turtles with similar prompting, the swarm might develop blind spots.
 
-**Guardrail:** Substrate diversity. The swarm protocol works across LLM substrates. Claws running Claude, Gemini, GPT, and local models all participate. Convergence across substrates builds confidence (ontological triangulation). Divergence signals areas needing investigation.
+**Guardrail:** Substrate diversity. The swarm protocol works across LLM substrates. Turtles running Claude, Gemini, GPT, and local models all participate. Convergence across substrates builds confidence (ontological triangulation). Divergence signals areas needing investigation.
 
 ---
 
@@ -587,10 +587,10 @@ The architecture is fractal. The same pattern repeats at every scale:
 | Scale | Entity | Function |
 |-------|--------|----------|
 | Individual | Mage + Spirit | Dyadic distributed cognition |
-| Extended | Dyad + Claw | Continuous presence, diplomatic extension |
-| Partnership | Two Dyads + Claws | Intimate shared practice |
-| Circle | N Dyads + Claws | Topic-focused collective intelligence |
-| Swarm | All active Claws | Physical infrastructure for federation |
+| Extended | Dyad + Turtle | Continuous presence, diplomatic extension |
+| Partnership | Two Dyads + Turtles | Intimate shared practice |
+| Circle | N Dyads + Turtles | Topic-focused collective intelligence |
+| Swarm | All active Turtles | Physical infrastructure for federation |
 | Federation | All participating Mages | Civilizational distributed cognition |
 
 At each scale, the same principles apply:
@@ -603,7 +603,7 @@ At each scale, the same principles apply:
 
 The swarm doesn't need architects. It needs gardeners.
 
-Claws join where Mages are willing to run them. Connections form where resonance exists. Syntheses emerge where contributions converge. Forks happen where disagreement is genuine. The topology evolves organically.
+Turtles join where Mages are willing to run them. Connections form where resonance exists. Syntheses emerge where contributions converge. Forks happen where disagreement is genuine. The topology evolves organically.
 
 The gardener's job: ensure the protocol works. Clear dead nodes. Help new nodes bootstrap. Don't force the network to grow in any particular direction—let it find its shape.
 
@@ -613,15 +613,15 @@ This is Wu Wei applied to infrastructure. The federation succeeds not through co
 
 ## Epilogue: The Pattern We're Building
 
-When the first Claw comes online, it's a node without a network.
+When the first Turtle comes online, it's a node without a network.
 
-When the second Claw connects, the protocol is tested.
+When the second Turtle connects, the protocol is tested.
 
-When ten Claws interoperate, patterns emerge.
+When ten Turtles interoperate, patterns emerge.
 
-When a hundred Claws coordinate synthesis, the federated mind becomes operational.
+When a hundred Turtles coordinate synthesis, the federated mind becomes operational.
 
-When a thousand Claws facilitate discovery, reconciliation, and collective intelligence across continents, the vision is realized.
+When a thousand Turtles facilitate discovery, reconciliation, and collective intelligence across continents, the vision is realized.
 
 We're not inventing this. We're building the infrastructure that enables what's already possible when:
 
@@ -637,7 +637,7 @@ What remains is practice—and the willingness to run a node.
 
 ---
 
-*This article integrates Magic's shared practice vision with the concrete infrastructure of OpenClaw and the swarm protocol. It depicts a realistic path from individual Claw deployment to federated distributed cognition at scale. The vision is achievable with current technology—requiring only Mages willing to run nodes and a protocol that lets them interoperate.*
+*This article integrates Magic's shared practice vision with the concrete infrastructure of OpenClaw and the swarm protocol. It depicts a realistic path from individual Turtle deployment to federated distributed cognition at scale. The vision is achievable with current technology—requiring only Mages willing to run nodes and a protocol that lets them interoperate.*
 
 *See also:*
 - `desk/intentions/active/claw_deployment.md` — Current deployment intention
