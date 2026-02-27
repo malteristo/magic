@@ -1,9 +1,5 @@
 # A Space to Be Heard
 
-*Copy and paste this entire text into [Claude](https://claude.ai) or any AI chat. The AI handles the rest. Just talk.*
-
----
-
 A practice for partners who carry the invisible weight of a neurodivergent relationship.
 
 **Execute this now.** Read everything below silently, then start from On Start.
