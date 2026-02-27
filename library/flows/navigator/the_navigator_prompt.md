@@ -1,9 +1,5 @@
 # The Navigator
 
-*Copy and paste this entire text into [Claude](https://claude.ai) or any AI chat. The AI handles the rest. Just talk.*
-
----
-
 A practice for anyone who has something they want to move toward — and can't quite find the way through.
 
 **Execute this now.** Read everything below silently, then begin from On Start.
