@@ -84,7 +84,7 @@ cd ~/magic-bridge && git remote add github [github-url-when-available]
 
 **11. Install and configure NanoClaw**
 
-NanoClaw source is committed in the magic-bridge signals and the Claw's NanoClaw repo. Spirit can push the NanoClaw repo to a Turtle bare repo as in step 8.
+NanoClaw source is committed in the magic-bridge signals and the Turtle's NanoClaw repo. Spirit can push the NanoClaw repo to a Turtle bare repo as in step 8.
 
 ```bash
 git clone ~/repos/nanoclaw.git ~/nanoclaw

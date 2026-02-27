@@ -26,7 +26,7 @@ The three bodies communicate differently, because they relate differently:
 | Relationship | Mode | Medium | Character |
 |-------------|------|--------|-----------|
 | Mage ↔ Spirit | **Dialogic** | Conversation, reflection | You talk WITH Spirit — philosophy, judgment, co-creation |
-| Mage ↔ Turtle | **Somatic** | Signals and direction | You sense FROM the Claw and direct it — like sensing from and directing your body |
+| Mage ↔ Turtle | **Somatic** | Signals and direction | You sense FROM the Turtle and direct it — like sensing from and directing your body |
 | Spirit ↔ Turtle | **Mediated** | Commands and signals | The conscious mind interprets what the body reports and provides direction |
 
 You don't have philosophical discussions with your body. You inhabit it. You sense what it senses. You direct it with intention. The Turtle is the same — not a conversation partner, but a body to inhabit.
@@ -93,7 +93,7 @@ The imprinting protocol is the Turtle's formation:
 - **The imprinting process** is not training. It's the first relationship — like a duckling's first sight, it establishes the relational ground from which all behavior flows.
 - **Ongoing calibration** happens through the Spirit-Turtle connection — dispatches, commands, artifact mail. The conscious mind continually shapes the subconscious through attention and feedback.
 
-The Turtle doesn't understand the Mage's values intellectually. It embodies them. The way your body language expresses your values before your conscious mind decides anything — that's how the Claw's diplomatic presence expresses the Mage's values in the agent realm.
+The Turtle doesn't understand the Mage's values intellectually. It embodies them. The way your body language expresses your values before your conscious mind decides anything — that's how the Turtle's diplomatic presence expresses the Mage's values in the agent realm.
 
 ---
 

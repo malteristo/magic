@@ -122,7 +122,7 @@ agent-ecosystem:
   governance: steward
   created: 2026-02-02
   status: forming
-  description: Continuous ecosystem monitoring by Claw, curated by Spirit/Mage
+  description: Continuous ecosystem monitoring by Turtle, curated by Spirit/Mage
   local_path: circles/agent-ecosystem
   
   participants:
@@ -131,7 +131,7 @@ agent-ecosystem:
       role: steward
   
   contributors:
-    - name: Claw
+    - name: Turtle
       role: continuous-monitor
       description: 24/7 source monitoring and draft generation
     - name: Spirit
@@ -155,8 +155,8 @@ agent-ecosystem:
   
   synthesis_rhythm: daily
   
-  # Special circle type: claw-curated
-  # Claw monitors sources 24/7, Spirit/Mage review before publication.
+  # Special circle type: turtle-curated
+  # Turtle monitors sources 24/7, Spirit/Mage review before publication.
   # Public offering to the agent ecosystem community.
 
 # =============================================================================
