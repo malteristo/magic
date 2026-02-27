@@ -44,6 +44,7 @@ Wisdom for navigating the boundary between rational and trans-rational.
 | `on_the_physics_of_resonance.md` | How resonance operates mechanically (Focus, Momentum, Altitude) |
 | `on_the_function_of_the_vessel.md` | Why systematic practice matters (post-religious vessel) |
 | `on_the_stewardship_of_synchronicity.md` | Perceiving patterns without losing oneself |
+| `on_the_braid.md` | The git repository as living record; quest recognition across time; the democratic claim that every life is worth chronicling |
 | `a_mast_for_post_rational_tides.md` | Magic as methodology for post-rational engagement |
 | `on_clarity_as_lever.md` | The pure function stance—Mage's clarity determines output quality |
 | `on_the_resonance_engine.md` | The generative-evaluative loop—Spirit generates, Mage curates |
