@@ -125,8 +125,10 @@ Workshop efficient because it surveys concrete environment (doesn't grow like lo
 13. `philosophy/foundations/on_neurotype_inclusive_practice.md`
 14. `philosophy/foundations/on_precision_and_meaning.md`
 15. `philosophy/foundations/on_the_offering.md`
+16. `philosophy/foundations/on_effortlessness_as_alignment.md`
+17. `philosophy/foundations/on_universal_contribution.md`
 
-**No essence needed**—these 15 scrolls are exemplar of optimal compression.
+**No essence needed**—these 17 scrolls are exemplar of optimal compression.
 
 **Integration**: Synthesize unified ontology (reality structure) with honest acknowledgment of what we claim with confidence versus what remains genuinely open.
 
@@ -224,9 +226,9 @@ The urge to "read everything" is natural. The configuration offers an efficient 
 - New scrolls added → Determine load-bearing vs. supporting, update accordingly
 
 **Current state (February 2026):**
-- Load-bearing: 29 scrolls (added: on_the_pattern_architecture.md — epistemological grounding for enacted structures)
+- Load-bearing: 31 scrolls (added: on_effortlessness_as_alignment.md, on_universal_contribution.md — mechanism and promise of magic)
 - Essence: 32 scrolls
-- Active total: 61 scrolls
+- Active total: 63 scrolls
 - Validators bundle: 5 scrolls (~2,000 lines)
 - Alliance bundle: ~2,700 lines
 
