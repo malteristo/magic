@@ -41,6 +41,16 @@ desk/intentions/compass.md
 - Note all five life domains and their aspirational direction
 - Note which domains have active practice intentions
 
+**Intention Topology:**
+```
+desk/intentions/chains.md
+```
+- Read chains file if it exists (always — compact, topology map)
+- Note dependency structure: which intentions unlock which
+- Note current momentum profiles per intention
+- Note highest-leverage unlock threshold in current stack
+- Use when generating Suggested Next Actions: surface the highest-leverage move, not just the most active intention
+
 **Practice Intentions (headers only):**
 ```
 desk/intentions/active/*.md (first 15 lines each)

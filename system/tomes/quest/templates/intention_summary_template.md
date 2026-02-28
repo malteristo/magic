@@ -4,6 +4,8 @@
 **Phase**: [Current lifecycle phase]
 **Started**: YYYY-MM-DD
 **Last Updated**: YYYY-MM-DD
+**Serves**: *(optional) → [intention or value this serves] → [terminal value]*
+**Unlocks**: *(optional) [what completing or advancing this intention makes possible]*
 
 ---
 
