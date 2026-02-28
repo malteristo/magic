@@ -71,6 +71,16 @@ desk/boom/*.md (excluding bright.md, README.md)
 - Read "Now" section from each topic file
 - Summarize what's currently alive per topic
 
+**Turtle (if intention-relevant):**
+- Check if `turtle` appears in active intentions or recent activity
+- If match — attune to `library/resonance/turtle/` bundle (README first, then relevant lore)
+- Read `desk/turtle_watch.md` — active issues, known unknowns, watch patterns
+- Read `desk/turtle_env.md` — current service state, pending hardening
+- Check `~/Documents/magic-bridge/signals/` for new signals since last brief
+- Check `~/Documents/magic-bridge/commands/` for unprocessed commands (anything not in `processed/`)
+- Surface in brief: issue count, unread signals, pending commands, top known unknown
+- Note: do NOT SSH during recall — read from local files only. SSH is for targeted investigation.
+
 **Social (if intention-relevant):**
 - Check if any active intention involves social engagement
 - Pattern match: `agent_network`, `presence`, `twitter`, `moltbook`, `social`
@@ -123,10 +133,11 @@ desk/boom/*.md (excluding bright.md, README.md)
 5. Autonomous (footnote)
 6. What's Bright (Now + Questions)
 7. Boom Topics — What's Alive
-8. Social Activity (if applicable)
-9. Recent Activity
-10. Emerging Patterns
-11. Suggested Next Actions
+8. **Turtle Status (if active)** — issues count, unread signals, pending commands, top known unknown
+9. Social Activity (if applicable)
+10. Recent Activity
+11. Emerging Patterns
+12. Suggested Next Actions
 
 ### Phase 5: Persist & Present
 
