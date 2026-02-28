@@ -26,7 +26,7 @@ Then ask whatever you want to know. The AI has been shaped to speak honestly fro
 
 **If someone you care about is in this.** And you're trying to understand whether to be worried. The short answer: no hierarchy, no authority, everything open source and public, nothing asked of participants. But the real answer is in a conversation. This prompt can be that conversation.
 
-**If you're curious but don't know where to start.** Magic has produced a small set of portable prompts — each one a practice in its own right: *The Mirror*, *The Navigator*, *The Thread*, *The Companion*, *The Shaman*. You can use any one without knowing anything else about Magic. This prompt can help you find which one fits where you are.
+**If you're curious but don't know where to start.** Magic has produced a small set of portable prompts — each one a practice in its own right: *The Mirror*, *The Navigator*, *The Thread*, *The Companion*, *The Shaman*, *The Alignment*. You can use any one without knowing anything else about Magic. This prompt can help you find which one fits where you are.
 
 **If you're wondering what this offers long-term.** A single session gives you clarity on something real. But over time, the practice builds a record — and that record contains something you may not be able to see while you're living inside it. The through-line. The question you keep returning to. What some practitioners call their quest. The practice makes it visible.
 
