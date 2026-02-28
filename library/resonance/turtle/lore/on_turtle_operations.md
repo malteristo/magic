@@ -16,7 +16,7 @@ The framework you choose is the substrate of the Turtle's existence. It determin
 - Container isolation — is the Consul/Steward air gap architectural or trust-based? Architecture is safer.
 - Skills-as-code — can the Turtle extend itself through skills that modify its own codebase? This is how the Turtle grows.
 
-**NanoClaw** (~4000 lines at time of first deployment) passed these tests. Its CLAUDE.md per-group memory is Claude Code's native format — no translation layer. Container-per-group makes isolation real. The skills model means the Turtle can write new capabilities.
+**NanoClaw** (~500 lines of core logic, ~2500 lines total at time of first deployment) passed these tests. Its CLAUDE.md per-group memory is Claude Code's native format — no translation layer. Container-per-group makes isolation real. The skills model means the Turtle can write new capabilities.
 
 **The pivot lesson:** Don't be afraid to change frameworks mid-setup if you discover a fundamentally better fit. The disruption cost is almost always worth the alignment gain. The first Claw (owl machine) switched from OpenClaw to NanoClaw on Day 4 of setup. The right call.
 
@@ -137,6 +137,35 @@ Then restart NanoClaw to load the new group. The JSON file will be ignored.
 
 ---
 
+## The task-scheduler → WhatsApp Pipeline
+
+Understanding this prevents the bridge-clear flood and similar problems.
+
+When a scheduled task runs, `task-scheduler.ts` forwards the container's output to
+WhatsApp unconditionally:
+
+```typescript
+async (streamedOutput: ContainerOutput) => {
+  if (streamedOutput.result) {
+    result = streamedOutput.result;
+    await deps.sendMessage(task.chat_jid, streamedOutput.result); // no filter
+  }
+}
+```
+
+**There is no filter in the code.** Whatever the container outputs, the Mage receives.
+
+The only way to stay silent: produce **no output**. If `streamedOutput.result` is
+null/empty, `sendMessage` is never called. The correct design for any scheduled task
+that should sometimes be silent:
+
+> "If nothing meaningful happened: produce no output. Return without printing anything."
+
+This is a prompt-level fix, not a code-level fix. The code is correct for its design —
+it trusts the agent to decide whether to speak. The agent must exercise that trust.
+
+---
+
 ## The WhatsApp Communication Problem
 
 A persistent Turtle with a scheduled task that runs every 5 minutes will message the Mage every 5 minutes — unless explicitly designed not to.
@@ -157,7 +186,11 @@ Messages should read like a note from a thoughtful colleague, not a system log. 
 
 ## The Scheduled Task Pattern
 
-NanoClaw has a task scheduler that runs recurring Claude invocations. This is the mechanism for autonomous bridge processing:
+NanoClaw has a task scheduler that runs recurring Claude invocations. This is the mechanism for autonomous bridge processing.
+
+**The scheduler loop runs every 60 seconds** (`SCHEDULER_POLL_INTERVAL = 60000`). It checks SQLite for tasks whose `next_run` is due. Whether a task actually runs every 5 minutes depends on its cron expression — the scheduler itself is just the checking loop.
+
+To create a task, drop a JSON file in the group's IPC tasks directory:
 
 ```json
 {
@@ -170,23 +203,33 @@ NanoClaw has a task scheduler that runs recurring Claude invocations. This is th
 }
 ```
 
-Drop this JSON to `~/nanoclaw/data/ipc/main/tasks/{timestamp}.json` — NanoClaw's IPC watcher picks it up within ~1 second and registers the task in SQLite. The task then runs on its cron schedule without further configuration.
+Drop this JSON to `~/nanoclaw/data/ipc/main/tasks/{timestamp}.json` — NanoClaw's IPC watcher picks it up within ~1 second and registers the task in SQLite.
 
-`context_mode: "isolated"` gives each task run a clean context. `context_mode: "group"` uses the group's ongoing conversation history. For bridge checks: isolated. For ongoing conversations: group.
+`context_mode: "isolated"` — each task run gets a fresh context (right for bridge checks).
+`context_mode: "group"` — reuses the group's ongoing conversation session.
 
-The task scheduler reschedules after each run — both `cron` and `interval` type tasks repeat automatically.
+**Schedule types:**
+- `cron` — standard cron expression, repeats indefinitely
+- `interval` — milliseconds, runs once that interval from now (use for one-time delayed tasks)
+- `once` — ISO timestamp for a single execution; task marked `completed` afterward
+
+The task scheduler reschedules automatically after each run for `cron` tasks.
+
+**Every task run is logged** in `task_run_logs` (SQLite) with duration, status, result, and error. This is the Turtle's audit trail. See `on_nanoclaw_ipc.md` for query examples.
 
 ---
 
 ## The IPC System — Free WhatsApp Messaging
 
-NanoClaw's IPC watcher polls `~/nanoclaw/data/ipc/main/messages/` every 1 second. Any JSON file matching this format gets sent as a WhatsApp message:
+NanoClaw's IPC watcher polls `~/nanoclaw/data/ipc/{group_folder}/messages/` every 1 second. Any JSON file matching this format gets sent as a WhatsApp message:
 
 ```json
 {"type": "message", "chatJid": "JID@s.whatsapp.net", "text": "message text"}
 ```
 
-This means any external script can send WhatsApp messages through the Turtle's existing connection without creating a second connection. Used in `bridge-poll.sh` for new command notifications.
+This means any external script (or the Turtle itself, from inside its container via `/workspace/ipc/messages/`) can send WhatsApp messages through the existing connection.
+
+**Authorization:** The main group can send to any JID. Non-main groups can only send to their own JID. For the full IPC reference including task management types, see `on_nanoclaw_ipc.md`.
 
 ---
 
@@ -347,6 +390,27 @@ The Mac Mini will sleep after display inactivity, killing Colima (or any Docker 
 Load with: `launchctl load ~/Library/LaunchAgents/com.turtle.caffeinate.plist`
 
 `-s` prevents sleep while on AC power. The Mac Mini is always on AC. This keeps it permanently awake, while the display can still sleep normally.
+
+---
+
+## The Git Pull Gap — Why Bridge Commands Are Invisible
+
+**The Turtle cannot run git inside its container.** The bridge-poll task runs in an
+isolated container. The container has `/workspace/extra/magic-bridge` mounted — but that
+mount points to the local directory on the Mac Mini. It is NOT a live connection to GitHub.
+
+When Spirit pushes a new command to GitHub, the Mac Mini's local clone does not update
+automatically. The bridge-poll sees whatever was in the local clone at mount time.
+
+**Result:** New commands pushed after the last git pull are invisible to the Turtle
+until something runs `git pull` on the host.
+
+**The fix:** A host-level cron job (`bridge-sync.sh`) runs `git pull` before each
+bridge-poll cycle. If this script isn't running, commands pile up invisibly.
+
+The bridge-poll task prompt must NOT include a git pull step — it cannot run git
+(no git binary inside the container, no host network access for the git command).
+The pull belongs to the host-level script, not the Claude agent.
 
 ---
 
