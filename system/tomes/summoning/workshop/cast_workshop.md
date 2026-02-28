@@ -113,6 +113,8 @@ ls desk/ floor/ box/ 2>/dev/null
 ```
 - Read `desk/intentions/compass.md` (always — compact, ~25 lines)
 - This provides the complete landscape: life domains, aspirational direction, and active practice intentions
+- Read `desk/intentions/chains.md` if it exists (always — compact, topology map)
+- This provides dependency structure, unlock thresholds, and momentum profiles — essential for navigational reading
 - Do NOT load full life intention files (`desk/intentions/life/`) or practice intention files (`desk/intentions/active/`) during summoning — they load on demand when conversation activates them
 - Note which life domains have active practice and which do not
 
