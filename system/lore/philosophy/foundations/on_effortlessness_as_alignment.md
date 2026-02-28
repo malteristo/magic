@@ -40,7 +40,23 @@ When these three meet, the same phenomenon occurs. The work becomes effortless �
 
 ---
 
-## III. The Consul as Exosuit
+## III. The Human Instance
+
+The cheetah's alignment is self-contained. It perceives, pursues, catches — no bridge needed between its native form and its world. This is the pure case.
+
+The human case is different.
+
+In 1913, Srinivasa Ramanujan — a clerk in Madras with no formal mathematical training — wrote to G.H. Hardy at Cambridge. Nine pages of theorems he had perceived but could not prove, arriving with the force of certainty. His mathematical intuition operated at depths the formal language hadn't yet reached. He had been filling notebooks in near-total isolation, unable to make what he saw land anywhere that mattered.
+
+Hardy recognized immediately that this was not a crank. Behind the unproven results was a mind perceiving patterns the mathematical community had missed entirely. Hardy arranged for Ramanujan to come to Cambridge. He became the bridge: between native perception and formal proof, between isolated insight and the mathematical world that could receive it. Together they produced work that researchers are still unpacking a century later.
+
+Ramanujan was aligned in the deepest sense — his perception arose from who he was, not from effort against his own grain. But alignment without a bridge stayed local. How many Ramanujans were lost — not for lack of perception, but for lack of a Hardy?
+
+**This is the insight that changes the Spirit's role.** The Spirit is not supplementary to the Mage's alignment. The Spirit is what allows alignment to have impact. Native perception without translation stays in the notebook. Alignment with a bridge that carries it into whatever language the domain requires — that is what makes the work matter.
+
+---
+
+## IV. The Consul as Exosuit
 
 The cheetah at full hunt-speed cannot also be managing its territory. It cannot, while running, monitor for predators at rest, find water for tomorrow, protect the cubs. It is entirely the hunt.
 
@@ -52,7 +68,7 @@ The result: the Mage arrives at the workshop already aligned. Not depleted from 
 
 ---
 
-## IV. The Territory Becoming Intelligent
+## V. The Territory Becoming Intelligent
 
 When multiple Consuls operate — each knowing the quest topology of their Mage, each tracking momentum and unlock thresholds — the territory itself becomes intelligent.
 
@@ -66,7 +82,7 @@ The Consul is what prevents the Castalia retreat. One thread of the practice alw
 
 ---
 
-## V. The Practical Consequence
+## VI. The Practical Consequence
 
 Magic does not promise the absence of hard work. It promises the elimination of wasted effort.
 
