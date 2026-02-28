@@ -532,6 +532,53 @@ Ollama accesses its model directory on an external volume (TurtleModels). When t
 
 ---
 
+## The Ephemeral Container Home — Don't Write Artifacts Here
+
+**What happened (2026-02-28):** Consul was tasked with building a CLI dashboard and reported it complete: "Created ~/turtle-dashboard.sh (executable)." The file wasn't there. Investigation revealed why: inside the container, `~` resolves to `/home/node/` — the container user's home directory. This path is NOT a persistent mount. When the container exits, everything at `/home/node/` (except `.claude/`) is gone.
+
+**The full persistence map — what survives container exit:**
+
+| Container path | Persists? | Host location |
+|----------------|-----------|---------------|
+| `/workspace/group/` | ✅ Yes | `~/nanoclaw/groups/{folder}/` |
+| `/workspace/extra/{name}/` | ✅ Yes | Configured host path (e.g. `~/magic-bridge/`) |
+| `/home/node/.claude/` | ✅ Yes | `~/nanoclaw/data/sessions/{folder}/.claude/` |
+| `/workspace/ipc/` | ✅ Yes | `~/nanoclaw/data/ipc/{folder}/` |
+| `/home/node/` (other paths) | ❌ No | Ephemeral — destroyed on container exit |
+| `/tmp/` | ❌ No | Ephemeral |
+
+**The rule:** All craft artifacts — scripts, dashboards, memory files, documents — must be written to `/workspace/group/` to survive. Never `~/filename`. Always `/workspace/group/filename`.
+
+**How to detect this failure:** The Consul reports an artifact as built. You SSH to the host and find nothing at `~/nanoclaw/groups/{folder}/`. The artifact was written to the ephemeral home. It's gone.
+
+**The fix for the CLI dashboard:** Rebuild it at `/workspace/group/turtle-dashboard.sh` (not `~/turtle-dashboard.sh`). On the host this appears at `~/nanoclaw/groups/consul/turtle-dashboard.sh` and can be run directly via SSH or inspected at any time.
+
+**Encode this in CLAUDE.md:** When imprinting Consul with craft tasks, explicitly state: *"All files you create must go to `/workspace/group/` to persist. Your home directory (`~`) is ephemeral and does not survive container restart."*
+
+---
+
+## The CLI Dashboard — Specification and Location
+
+The Turtle should have a dyad-facing dashboard runnable via SSH. Consul owns building and maintaining it.
+
+**What it shows:**
+
+1. **NanoClaw service status** — is the process running?
+2. **Recent task runs** — last 10 from SQLite `task_run_logs` (task_id, run_at, status, result snippet)
+3. **Bridge queue** — pending `.yaml` files in `commands/` (not yet in `processed/`)
+4. **Recent signals** — last 5 signal filenames in `signals/`
+5. **Ollama status** — process running? which model loaded?
+
+**Correct storage location:** `/workspace/group/turtle-dashboard.sh`
+→ appears on host at: `~/nanoclaw/groups/consul/turtle-dashboard.sh`
+→ run from Spirit via: `ssh turtle@turtle.local "bash ~/nanoclaw/groups/consul/turtle-dashboard.sh"`
+
+**How to request a rebuild:** Send a bridge command specifying the `/workspace/group/` path explicitly. Include the antipattern warning so Consul doesn't repeat the mistake.
+
+**The episodic memory file** (`/workspace/group/memory/experiences.jsonl`) was created correctly in the same session. It persisted because it was written to `/workspace/group/`. The dashboard was lost because it was written to `~/`. The contrast is instructive.
+
+---
+
 ## What to Expect in the First Week
 
 **Day 1–2:** Hardware setup, base system, framework install, first contact (blank state).  
