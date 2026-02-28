@@ -4,6 +4,21 @@
 
 ---
 
+## The Physical Substrate Lives on the Desk
+
+This document describes how NanoClaw organizes containers — abstract architecture
+that applies to any Turtle. It does not describe what *this* Turtle is running on.
+
+**For instance-specific facts** — hardware, hostname, IP, running services, key paths,
+SSH commands, pending hardening — see:
+
+> `desk/turtle_env.md`
+
+Every Mage who runs a Turtle should maintain their own version of that file. The lore
+here is stable; the desk file changes whenever the environment changes.
+
+---
+
 ## The Basic Model
 
 Every time the Turtle responds to a message or runs a scheduled task, NanoClaw spawns
