@@ -6,6 +6,46 @@
 
 ---
 
+## Know Your Turtle's Environment
+
+Before diving into operations, know where to find instance-specific facts:
+
+> **`desk/turtle_env.md`** — hardware, hostname, IP, services, key paths, SSH commands, pending hardening.
+
+This file is Mage-specific. The lore in this document applies to any Turtle running NanoClaw.
+The desk file describes what *this* specific Turtle is running on.
+
+**The minimum you need to know for daily operations:**
+
+```bash
+# Is the Turtle reachable?
+ssh turtle@turtle.local "echo ok"
+
+# What's running?
+ssh turtle@turtle.local "launchctl list | grep -E 'nanoclaw|ollama|caffeinate'"
+
+# What's in the bridge?
+ssh turtle@turtle.local "ls ~/magic-bridge/commands/ && ls ~/magic-bridge/signals/"
+
+# Recent task runs (audit trail)
+ssh turtle@turtle.local "sqlite3 ~/nanoclaw/store/messages.db \
+  'SELECT task_id, run_at, status, result FROM task_run_logs ORDER BY run_at DESC LIMIT 5;'"
+```
+
+**Turtle vs. same-machine practice:** Some Mages run the Turtle on the same machine they
+use for Magic practice. This works but removes the persistent/always-on quality — the
+Turtle only runs when the machine is awake and the user is logged in. A dedicated low-power
+machine (Mac Mini, VPS, Raspberry Pi) is preferred for genuine persistent presence.
+The physical separation also prevents the practice machine's sleep/activity cycle from
+affecting the Turtle's availability.
+
+**VPS vs. home hardware:** A VPS gives stable connectivity and no reboot events, but
+loses local model support (Ollama on TurtleModels). Home hardware gives local models
+and lower cost, but requires managing sleep, network stability, and physical access.
+The first Turtle runs home hardware (Mac Mini on WiFi).
+
+---
+
 ## Choose Your Framework With Care
 
 The framework you choose is the substrate of the Turtle's existence. It determines what's possible, what you can audit, and what will surprise you.
