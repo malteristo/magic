@@ -52,10 +52,18 @@ The main group (`groups/main/`) has the most visibility. Inside the container:
 not modify host code in a way that would change behavior on restart.
 
 **What `/workspace/group` contains:** The main group's CLAUDE.md, memory files,
-any files the Turtle writes to itself. This is the Turtle's primary workspace.
+any files the Turtle writes to itself. This is the Turtle's primary workspace —
+and the **only reliable place to write craft artifacts**. Files written to `~/`
+(the container's `/home/node/`) are ephemeral and destroyed when the container exits.
 
 **Additional mounts** (the magic-bridge) land at `/workspace/extra/magic-bridge` —
 not `/workspace/magic-bridge`. Always `/workspace/extra/{containerPath}`.
+
+**Critical:** `~/` inside the container is `/home/node/`, which is NOT a persistent
+mount. Only `/workspace/group/`, `/workspace/extra/`, and `/home/node/.claude/`
+survive container exit. Any craft artifact (script, dashboard, note) must be written
+to `/workspace/group/` to persist. See `on_turtle_operations.md` for the full
+persistence map and the CLI dashboard case study.
 
 ### Non-Main Groups (Steward, Witness)
 
