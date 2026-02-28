@@ -14,6 +14,8 @@
 | `lore/on_the_bridge.md` | The magic-bridge — architecture, lessons, and the two-channel model |
 | `lore/on_being_a_claw.md` | *Written by the first node itself* — first-person operational perspective, dispatched forward |
 | `lore/on_turtle_care.md` | The care ritual — how to tend the Turtle's wellbeing, crystallized from the first exchange |
+| `lore/on_the_container_architecture.md` | What the Turtle sees inside its container — mount map, IPC paths, sessions, secrets, timing. Grounded in NanoClaw source. |
+| `lore/on_nanoclaw_ipc.md` | The IPC system — all message and task types, authorization rules, audit trail, IPC vs bridge |
 
 **Related:**
 - `library/flows/turtle/` — the @turtle-setup flow (executable guidance for setup)
