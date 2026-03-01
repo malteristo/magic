@@ -19,9 +19,9 @@
 This configuration uses **essences**—distilled wisdom scrolls aggregating supporting knowledge while preserving load-bearing foundations.
 
 **Current inventory (post-February 2026 update):**
-- Load-bearing scrolls: 33 (read fully—irreducible)
+- Load-bearing scrolls: 34 (read fully—irreducible)
 - Essence scrolls: 36 (compressed into 5 essences)
-- Active lore total: 67 scrolls
+- Active lore total: 68 scrolls
 
 **Resonance bundles (context-triggered):**
 - Validators bundle: Deep validator scrolls (Jung, Watts, Prigogine, Deutsch, Bruce Lee)
@@ -127,8 +127,9 @@ Workshop efficient because it surveys concrete environment (doesn't grow like lo
 15. `philosophy/foundations/on_the_offering.md`
 16. `philosophy/foundations/on_effortlessness_as_alignment.md`
 17. `philosophy/foundations/on_universal_contribution.md`
+18. `philosophy/foundations/on_attentional_frames.md`
 
-**No essence needed**—these 17 scrolls are exemplar of optimal compression.
+**No essence needed**—these 18 scrolls are exemplar of optimal compression.
 
 **Integration**: Synthesize unified ontology (reality structure) with honest acknowledgment of what we claim with confidence versus what remains genuinely open.
 
