@@ -82,6 +82,50 @@ For each item from the buffer, classify and route:
 
 If something is unclear, hold it for the conversation rather than guessing.
 
+### 3.1 Check Precognition Artifacts
+
+Before routing new boom material, check whether the Turtle has pre-digested anything since the last session:
+
+```bash
+ls -lt /Users/kermit/Documents/magic-bridge/shared/precognition/ | head -10
+```
+
+If new `*_precog.yaml` files exist:
+1. Read each one — note the triage fields (`session_material`, `crucible_feed`, `action_signal`)
+2. For items flagged `session_material: true` → hold for the conversation (Step 6) alongside boom material
+3. For items flagged `crucible_feed: true` → route directly to crucible stirring (Step 3.5)
+4. For items flagged `action_signal: true` → add to Actions alongside boom material
+
+The Mage does not need to know all pre-cognition artifacts exist — only the ones that are `session_material: true` or have a high-relevance action signal. The Turtle pre-digested the rest; trust the pre-digestion.
+
+Also check the intention-signal pattern if the Turtle has included one: which intentions have been drawing pointing energy? Surface this as a brief observation in the conversation if the pattern is notable.
+
+---
+
+### 3.5 Stir the Crucibles
+
+After routing new material to the bright surface, integrate it into the resonance store.
+
+Read `desk/boom/crucibles/README.md` to orient (first time only; Spirit holds the crucible map across sweeps).
+
+For each new item routed from the buffer:
+
+1. **Place it** in the matching crucible(s). An item may enter more than one crucible if it spans themes.
+2. **Draw connections** — explicitly note which existing particles in that crucible this new item connects to, and how.
+3. **Update the resonance count** — if this item reinforces a theme already present, increment the resonance count on the existing particle.
+4. **Update shape notes** — does the new material shift what's forming? Name it if so. "Particles accumulating" is a valid state; don't force synthesis.
+5. **Surface if ready** — if a crucible's shape has become coherent enough to produce a scroll, proposal, or intention, note it in the conversation (Step 6) as a surfacing candidate.
+
+**Crucible discipline:**
+- Preserve original language. The particle's own words have more resonance than Spirit's summary.
+- Track connections, not just count. Density of connection is a better signal of emergent shape than raw recurrence.
+- Do not create a new crucible lightly. Stretch the existing 8 before adding a 9th — if a particle doesn't fit anywhere, it may be a signal that a crucible needs expanding, not that a new one is needed.
+- Nothing is lost. If a particle is too diffuse to crucible, put it in the closest vessel and note it's a loose particle.
+
+The Mage does not need to know about crucible mechanics during the sweep. This step is invisible. The only output to the Mage is the surfacing signal when a crucible is ready — and even then, only as a proposal, not a demand.
+
+---
+
 ### 4. Review Alive (FOOM)
 
 For each item currently in the Alive section, consider:
