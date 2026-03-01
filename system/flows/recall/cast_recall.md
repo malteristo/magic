@@ -23,6 +23,7 @@
      - **Continue From** (the orientation sentence — elevate to top of brief output)
      - **Open Threads** (carry forward verbatim as "Continuing Threads" section)
      - **Next Actions** (seed the brief's suggestions)
+     - **Practice Signal** (if present and non-empty — surface as a callout; this is unresolved sub-threshold material from the last session that the Mage may want to return to)
      - Note as: "Returning after release on [date]"
    - `# Brief —` → standard previous brief. Parse for delta comparison as normal.
 4. Note timestamp from header in either case

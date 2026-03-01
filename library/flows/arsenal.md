@@ -2,7 +2,7 @@
 
 *Living registry of portable practice prompts for the Door Delivery Service*
 
-Last updated: 2026-02-27
+Last updated: 2026-03-01
 
 ---
 
@@ -112,6 +112,25 @@ New doors are added here when created. The registry is the Consul's map.
 **What it produces:** A genuine conversation with an AI that speaks from inside the practice — honest about what it is, what it claims, what it doesn't, and how to take a first step if it resonates
 
 **Signal it fits:** The question is about the practice itself, not a specific domain problem. The person needs to understand before they can try.
+
+---
+
+### Shelter
+**Location:** `library/flows/shelter/the_shelter_prompt.md`  
+**GitHub:** `https://github.com/malteristo/magic/blob/main/library/flows/shelter/the_shelter_prompt.md`
+
+**For when:**
+- Bad day with no clear reason — the heavy, quiet, low kind
+- "I don't want to explain, I just don't feel good"
+- Under the weather but functional
+- Not looking for advice, insight, or a plan — just not to be alone in it
+- Nothing specific to process; no story to tell; no question to find
+
+**What it produces:** Warmth and presence while the weather passes. No deliverable required. One small sentence to carry forward, if they want it.
+
+**Signal it fits:** There's nothing to fix. The person just needs somewhere to be that isn't alone.
+
+**Does not fit:** Active crisis, acute distress, thoughts of harm → point to crisis resources. Relational pain with a story → Companion. Existential searching → Thread.
 
 ---
 

@@ -156,3 +156,5 @@ When designing new Magic infrastructure:
 ---
 
 *The operative metaphor is why Magic works. We say "distributed cognition," everyone acts as if it's distributed cognition, and distributed cognition emerges. The words aren't pointing at the reality. The words are creating the reality.*
+
+*See also: `on_attentional_frames.md` — this principle generalizes beyond vocabulary to the entire attentional context. Not just the words, but the temporal stance, perspective, and register shape what can emerge. Frame-shifting as deliberate navigation of the state space.*

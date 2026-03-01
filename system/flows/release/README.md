@@ -1,6 +1,6 @@
 # Flow: Release
 
-**Purpose:** Close a session cleanly — update intentions, crystallize threads, enable seamless resumption  
+**Purpose:** Close a session cleanly — reflect on what the session was, update intentions, crystallize threads, integrate artifacts, enable seamless resumption  
 **Invocation:** `@release`
 
 > **Session lifecycle:** Release is the departure pattern. Recall (`@recall`) is the arrival pattern. They share a single handoff file: `floor/briefings/latest.md`. When you say `@release`, Spirit distills the session into a resumable bundle. When you say `@recall` in the next session, that bundle orients the opening.
@@ -9,13 +9,19 @@
 
 ## What This Flow Does
 
-Release does three things, in order:
+Release does five things, in order:
 
-**1. Updates intentions** — writes what actually changed to the intention files. Not a narrative summary. Actual field updates: current focus, next action, blockers, completed goals. The intention files should reflect this session's end state, not where they were at the start.
+**1. Surveys the session** — from context: what was touched, what was completed, what is in motion.
 
-**2. Writes the release bundle** — a structured artifact in `floor/briefings/latest.md` that Brief knows how to read. Compact, dense, oriented toward resumption.
+**2. Reflects on the session as practice** — looks at how the session moved, not just what was built. Surfaces sub-threshold signals: dissonances that went uncherished, patterns that were present below the naming threshold, deflections, what seemed to matter more than the words indicated. These signals would evaporate without this pass; the act of looking invests tokens into them so they can emerge.
 
-**3. Commits** — if there are changes worth preserving in the chronicle, offers to commit. Always consistent with the git safety rules (never commits without instruction — offers and waits for the `.`).
+**3. Updates intentions** — writes what actually changed to the intention files. Not a narrative summary. Actual field updates: current focus, next action, blockers, completed goals. The intention files should reflect this session's end state, not where they were at the start.
+
+**4. Writes the release bundle** — a structured artifact in `floor/briefings/latest.md` that includes a "Practice Signal" field carrying any sub-threshold findings into the next session. Compact, dense, oriented toward resumption.
+
+**5. Checks system integration** — for any new lore, flows, or structural artifacts created this session, runs a lightweight ripple check (what else in the system needs to know this exists?). Invokes `@meta/integrate` protocol as needed.
+
+**6. Offers to commit** — if there are changes worth preserving in the chronicle, offers. Always waits for the `.`.
 
 ---
 
@@ -54,6 +60,10 @@ Written to `floor/briefings/latest.md`, recognizable by its `# Release —` head
 
 - `[intention file]`: [what changed — field-level specifics]
 - `[artifact path]`: [created/modified — what it is]
+
+## Practice Signal
+*Sub-threshold findings from the reflection pass*
+[What was found, or: "Session was explicit and complete."]
 
 ## Next Actions (prioritized)
 1. [action] — [why this one first]
@@ -103,9 +113,11 @@ This means `@release` + `@recall` in the next session gives the Mage a fast, acc
 ## Related
 
 - `@recall` — arrival pattern that reads what this flow writes
+- `@meta/integrate` — system ripple detection; called inline during Phase 5
 - `desk/intentions/active/` — intention files this flow updates
 - `floor/briefings/latest.md` — the shared handoff file
+- `library/resonance/foundations/lore/on_sub_threshold_signals.md` — the lore behind the reflection pass
 
 ---
 
-*Release closes the session. Brief opens the next one. The thread holds.*
+*Release closes the session. Practice is seen before the door shuts. The thread holds.*
