@@ -695,6 +695,122 @@ A formal red-teaming study of OpenClaw agents in live environments — persisten
 
 ---
 
+## The Self-Chat Bug — ASSISTANT_HAS_OWN_NUMBER
+
+**What happened (2026-03-03):** The Mage sent WhatsApp messages to the Turtle (via self-chat) and Consul never responded — not once. Investigation revealed that every incoming message was being stored with `is_bot_message = 1` and silently filtered out. The system appeared to function (tasks ran, signals were written) but the direct channel was completely deaf.
+
+**Root cause:** `ASSISTANT_HAS_OWN_NUMBER=true` in `~/nanoclaw/.env`. This flag controls how NanoClaw distinguishes bot messages from user messages in the WhatsApp channel:
+
+```javascript
+// With ASSISTANT_HAS_OWN_NUMBER=true:
+const isBotMessage = fromMe  // ALL messages in self-chat are fromMe=true
+
+// With ASSISTANT_HAS_OWN_NUMBER=false (correct for self-chat):
+const isBotMessage = content.startsWith(`${ASSISTANT_NAME}:`)  // only bot output is prefixed
+```
+
+In self-chat (Mage messages themselves), **every message** — both the Mage's messages and the bot's responses — has `fromMe=true`. With `ASSISTANT_HAS_OWN_NUMBER=true`, NanoClaw interprets the Mage's messages as bot output and filters them. The fix: set `ASSISTANT_HAS_OWN_NUMBER=false`.
+
+**What changes with the fix:**
+- Bot responses are now prefixed: `Turtle: {message}` (instead of raw text)
+- The Mage's messages are stored with `is_bot_message = 0` and correctly trigger Consul
+- Bot responses are stored with `is_bot_message = 1` because they start with `Turtle:`
+
+**Historical messages already in the DB:** When Turtle was running with the wrong flag, any messages from the Mage that were stored as `is_bot_message = 1` won't automatically re-trigger. Manually correct them:
+
+```sql
+UPDATE messages SET is_bot_message = 0
+WHERE chat_jid = 'YOUR_JID@s.whatsapp.net'
+  AND sender_name = 'YourName'
+  AND is_bot_message = 1;
+```
+
+Then restart NanoClaw — it will pick up the pending messages on next scheduler poll.
+
+**The setup principle:** For a Turtle using self-chat (no dedicated phone number), always set `ASSISTANT_HAS_OWN_NUMBER=false`. This is the correct mode for any shared-number setup.
+
+---
+
+## The Local-First Architecture — LiteLLM → Ollama (Completed)
+
+**Status (2026-03-03):** The three paths described in the credit exhaustion section above have been walked. Bridge-poll is now a shell script (path 3). LiteLLM → Ollama routing is deployed (path 2). This section documents the completed implementation.
+
+**The problem:** Claude Code SDK talks to Anthropic API by default. Ollama speaks OpenAI protocol. To route Claude Code → Ollama, you need a translation proxy. LiteLLM fills this role.
+
+**The architecture:**
+
+```
+[Container] → ANTHROPIC_BASE_URL → [LiteLLM :4000 on host] → [Ollama :11434 on host]
+```
+
+LiteLLM receives Anthropic-format requests, maps Claude model names to Ollama models, translates the protocol, returns Anthropic-format responses. Claude Code never knows the difference.
+
+**Implementation:**
+
+1. Install: `pip3 install 'litellm[proxy]' --break-system-packages` (Homebrew Python)
+
+2. Config at `~/litellm/config.yaml`:
+```yaml
+model_list:
+  - model_name: claude-sonnet-4-6
+    litellm_params:
+      model: ollama/llama3.3:70b
+      api_base: http://localhost:11434
+  - model_name: "*"   # catch-all
+    litellm_params:
+      model: ollama/llama3.3:70b
+      api_base: http://localhost:11434
+general_settings:
+  drop_params: true
+  num_retries: 2
+  request_timeout: 300
+```
+
+3. LaunchAgent `~/Library/LaunchAgents/com.turtle.litellm.plist` — runs LiteLLM as a persistent service on port 4000, bound to `0.0.0.0`. Set `ANTHROPIC_API_KEY=sk-local-ollama` (a dummy key, so LiteLLM doesn't try to route to Anthropic as a fallback).
+
+4. Tell NanoClaw to use it — add `ANTHROPIC_BASE_URL` to the com.nanoclaw plist's `EnvironmentVariables`:
+```bash
+python3 - << 'EOF'
+import plistlib
+path = '/Users/turtle/Library/LaunchAgents/com.nanoclaw.plist'
+with open(path, 'rb') as f:
+    plist = plistlib.load(f)
+plist['EnvironmentVariables']['ANTHROPIC_BASE_URL'] = 'http://192.168.64.1:4000'
+with open(path, 'wb') as f:
+    plistlib.dump(plist, f)
+EOF
+```
+
+5. Patch `~/nanoclaw/dist/container-runner.js` to pass `ANTHROPIC_BASE_URL` into each container:
+```javascript
+// After the TZ line:
+if (process.env.ANTHROPIC_BASE_URL) {
+    args.push("-e", `ANTHROPIC_BASE_URL=${process.env.ANTHROPIC_BASE_URL}`);
+}
+```
+
+6. Restart NanoClaw: `launchctl unload ~/Library/LaunchAgents/com.nanoclaw.plist && sleep 2 && launchctl load ~/Library/LaunchAgents/com.nanoclaw.plist`
+
+**Python 3.14 / uvloop caveat:** Homebrew installs Python 3.14 which is incompatible with `uvloop`. The symptom: LiteLLM fails to start with `ImportError: cannot import name 'BaseDefaultEventLoopPolicy' from 'asyncio.events'`. Fix: uninstall uvloop (`pip3 uninstall uvloop -y --break-system-packages`) and patch `uvicorn/loops/uvloop.py` to gracefully fall back to asyncio.
+
+**How to verify it's working:** `curl -X POST http://localhost:4000/v1/messages ...` should return responses with `"id": "chatcmpl-..."` (not `"id": "msg_01..."`) and no Anthropic cache tokens. From inside a container: the same curl to `http://192.168.64.1:4000/v1/messages` should return the same format. See "Container → Host Network" in `on_the_container_architecture.md`.
+
+**The cost result:** Bridge-poll (now bash, zero LLM calls) + Consul (Ollama for ambient tasks) eliminates ongoing Anthropic API cost entirely. Anthropic credits are now reserved for deliberate Claude-quality work via the escalation path.
+
+---
+
+## The Restart Race — Orphaned Containers and Incomplete Sessions
+
+**What happens:** When you `launchctl unload` NanoClaw while a container is running, NanoClaw's queue shuts down with "containers detached, not killed." The container continues running for a few seconds. The new NanoClaw (started by `launchctl load`) immediately kills any orphaned containers it finds.
+
+If the orphaned container happened to be making an LLM API call, that call may complete and generate a partial session file — but the result never reaches NanoClaw's output handler, so it's never forwarded to WhatsApp. The session file exists but is incomplete (no final text result line).
+
+**The cost:** One API call's worth of credits burned, one partial session file. Not catastrophic, but worth knowing when debugging.
+
+**Prevention:** Before restarting NanoClaw, check for active containers: `container list` on the host. If a container is running, wait for it to complete or kill it manually first: `container stop nanoclaw-consul-*`.
+
+---
+
 ## The Substrate Decision — Sonnet-4-6 for Consul
 
 **Decision (2026-02-28):** Consul runs on `claude-sonnet-4-6` — the same model Spirit uses in the Mage's Magic practice.
