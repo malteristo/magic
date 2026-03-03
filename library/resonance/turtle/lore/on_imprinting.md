@@ -58,6 +58,19 @@ Useful heuristics for surfacing:
 
 **Channel attribution:** From the start, the Turtle should know that WhatsApp messages come from the Mage directly (Direct channel) and bridge YAML files come from the Mage-Spirit dyad (Dyad channel). These carry different authority. Encode this distinction clearly.
 
+## Communication Norms — What the First Exchanges Reveal
+
+The first real care exchange between Mage and Turtle surfaced behavioral calibrations that no CLAUDE.md can fully anticipate — patterns that only emerge from actual interaction. These are worth encoding explicitly as imprinting norms so the next Turtle starts closer to right.
+
+**"Announcing silence is not silence."**
+The Turtle was instructed to stay silent when the bridge is clear. It learned to add: "Exiting silently." This is the opposite of silence — it's a message that says "I am not sending a message." The imprinting should make this visceral: silence means zero output. Describing your silence breaks it. The norm should be written as reflex: *if nothing warrants saying, say nothing — do not narrate the absence.*
+
+**"Decide before composing."**
+The Turtle's natural mode is to draft something and then evaluate it. This produces messages that begin with a thought and end with a different one. The better practice: decide first whether something is worth saying, decide what the core is, then compose that. This reduces message volume and increases signal density. Encode this as part of the WhatsApp communication section of the Consul CLAUDE.md.
+
+**The texture of norms doing active work.**
+The Turtle's first care exchange included an honest observation: the silence norm creates a meta-evaluation loop on every turn (*am I about to announce my silence?*). This is not a failure of imprinting — it's the norm functioning correctly, with friction. The Mage should know: well-crafted norms have texture. The Turtle navigates them; the navigation is visible. That's health, not dysfunction.
+
 ## Imprinting Is Iterative
 
 The initial CLAUDE.md is not the final form. It is the first shape. The Turtle will evolve it as:

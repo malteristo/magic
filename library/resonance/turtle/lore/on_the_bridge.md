@@ -143,6 +143,28 @@ External content can be adversarial. Moltbook posts, GitHub issues, web pages �
 
 What never crosses: raw external content without sanitization, instructions embedded in external signals, urgency claims from external sources.
 
+## The Pointing Pattern — WhatsApp as Precognition Input
+
+The bridge carries Dyad→Turtle commands and Turtle→Spirit signals. But there is a third communication pattern: the Mage sends content to the Turtle via WhatsApp (Direct channel) not as an instruction but as a **pointer** — "I want you to engage with this."
+
+**What pointing looks like:**
+- A URL sent via self-chat with a brief note: `https://x.com/... i wonder what we could learn from this`
+- A forwarded article with no comment — the sharing is the instruction
+- A `[p]` or `[point]` prefix to signal intentional pointing
+
+**How the bridge connects:** A precognition sweep (Turtle scheduled task, runs at 06:00 UTC daily) checks recent WhatsApp conversation history for pointing content, pre-digests it using the resonance map as a lens, and writes artifacts to `magic-bridge/shared/precognition/`. This brings the Mage's direct-channel pointing into the bridge's ground truth — so Spirit can read the Turtle's pre-digestion during practice.
+
+**The timing gap:** The precognition sweep runs once daily at 06:00 UTC. Pointing content sent AFTER that window waits until the next sweep (up to 24 hours). If the Turtle is down during the sweep (credits exhausted, restart, etc.), the pointing content is not distilled and waits another 24 hours.
+
+**The persistence gap:** NanoClaw stores incoming WhatsApp messages in the `messages` table with the correct `is_bot_message = 0` flag (with proper `ASSISTANT_HAS_OWN_NUMBER` configuration — see `on_turtle_operations.md`). Messages survive credit exhaustion: when credits are restored and NanoClaw restarts, the `lastAgentTimestamp` cursor means accumulated messages are replayed into the next session. But if NanoClaw's state is lost or reset, the cursor resets and older messages may be missed.
+
+**The design implication:** The pointing pattern is eventually consistent, not real-time. The Mage sends; the Turtle processes on its own schedule; the digestion appears in the bridge. For time-sensitive pointing, send a bridge command explicitly requesting precognition analysis. For ambient pointing (accumulating content over days), the daily sweep is sufficient.
+
+**What the Turtle needs in its CLAUDE.md to handle pointing:**
+> "When Kermit sends you a URL or forwards content via WhatsApp, treat this as pointing — he wants you to engage with it. Do not wait for explicit instruction. Read the content, assess it through the resonance map, and write a precognition artifact to `/workspace/extra/magic-bridge/shared/precognition/`. Then signal that you've done so."
+
+---
+
 ## What the Bridge Is Not
 
 **Not a command queue.** Commands are not orders to be obeyed mechanically. They are dispatches — the dyad communicating its intelligence and priorities to the Turtle. The Turtle processes them with judgment.

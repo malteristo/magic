@@ -170,6 +170,41 @@ session.
 
 ---
 
+## Container → Host Network: The Nameserver Gateway
+
+Containers on Apple Container (macOS native) can reach the host at the IP listed as
+their nameserver in `/etc/resolv.conf`. For the first Turtle this is `192.168.64.1`.
+
+```bash
+# From inside a container:
+cat /etc/resolv.conf
+# → nameserver 192.168.64.1
+
+# Reach a host service running on port 4000:
+curl http://192.168.64.1:4000/health
+```
+
+**The practical consequence:** Any service on the host bound to `0.0.0.0` is reachable
+from containers via the nameserver IP. This is how the LiteLLM proxy (local LLM routing)
+is reached by Claude Code running inside a container.
+
+**To pass host services to containers:** Set `ANTHROPIC_BASE_URL=http://192.168.64.1:4000`
+in NanoClaw's LaunchAgent plist. Patch `container-runner.js` to forward this env var via
+`-e ANTHROPIC_BASE_URL=...` when spawning containers. The container then reaches LiteLLM
+at the nameserver IP. See `on_turtle_operations.md` → "The Local-First Architecture".
+
+**How to verify reachability from a container:**
+
+```bash
+/opt/homebrew/Cellar/container/0.9.0/bin/container run --rm \
+  --entrypoint /bin/sh nanoclaw-agent:latest \
+  -c 'NS=$(grep nameserver /etc/resolv.conf | head -1 | awk "{print \$2}") && curl -s http://${NS}:4000/health'
+```
+
+**Note:** The nameserver IP may differ on other machines or with different network configurations. Always check `cat /etc/resolv.conf` from inside a container to confirm the actual value before hardcoding it.
+
+---
+
 ## Container Lifecycle Timing
 
 From the source:
