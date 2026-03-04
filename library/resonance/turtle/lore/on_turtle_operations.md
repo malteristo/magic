@@ -4,6 +4,8 @@
 
 **Source:** First Claw activation, 2026-02-22. NanoClaw on Mac Mini M4 Pro (macOS 26.2, Apple Silicon). These lessons are drawn from real failures and real fixes.
 
+**Note:** The hermit crab architecture (`on_the_hermit_crab_architecture.md`) proposes resolving much of the container-related complexity documented here by replacing NanoClaw with a minimal regenerable shell on dedicated machines. This document remains the canonical reference for NanoClaw-based operations.
+
 ---
 
 ## Know Your Turtle's Environment

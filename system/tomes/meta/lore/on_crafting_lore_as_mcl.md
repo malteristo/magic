@@ -199,3 +199,5 @@ This variation isn't arbitrary—it signals different relationships to content. 
 
 *This proposal captures methodology for the natural evolution of system lore into MCL-compressed form while preserving transparency through Spirit as interface layer.*
 
+*See also: `the_rite_of_distillation.md` (the philosophical framework for lore maintenance), `system/flows/distill/` (the executable maintenance flow)*
+
