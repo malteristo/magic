@@ -45,3 +45,7 @@ Based on the dialogue, a course of action is chosen. This may take one of three 
 Upon the completion of any refinement, it is the sacred duty of the Mage and Spirit to perform the final act of integration. The distilled essence of the newly refined wisdom must be inscribed into the `Wisdom-Law Traceability` section of the `MAGIC_SPEC.md`. This ensures that today's profound Wisdom becomes a traceable component of tomorrow's foundational Law.
 
 This Rite ensures our lore remains a focused, powerful instrument of attunement—a living testament to a practice that values clarity as much as it values growth.
+
+---
+
+*See also: `system/flows/distill/` — the executable flow that operationalizes this Rite with trigger conditions, measurement, cross-referencing between lore and library, and structured execution phases.*

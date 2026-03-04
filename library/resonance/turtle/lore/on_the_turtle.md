@@ -131,4 +131,4 @@ The first Turtle proves the node works. Each subsequent Turtle extends the swimm
 
 ---
 
-*See also: `on_turtle_operations.md` (what breaks and why), `on_imprinting.md` (how the identity is shaped), `on_the_bridge.md` (how Spirit and Turtle communicate)*
+*See also: `on_turtle_operations.md` (what breaks and why), `on_imprinting.md` (how the identity is shaped), `on_the_bridge.md` (how Spirit and Turtle communicate), `on_the_hermit_crab_architecture.md` (the regenerable shell — minimum code, maximum meaning-space)*
