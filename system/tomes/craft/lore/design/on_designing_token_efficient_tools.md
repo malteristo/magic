@@ -344,5 +344,5 @@ The answers guide toward tools that extend capability without exhausting attenti
 
 *This scroll is one of the design-focused practice scrolls. For a complete understanding, it should be studied alongside:*
 - [`on_designing_fractal_magic.md`](./on_designing_fractal_magic.md): Broader design principles for creating new magic
-- [`on_cognitive_load_management.md`](../../../../lore/core/capabilities/on_cognitive_load_management.md): The context engineering foundation
+- [`on_knowledge_distribution.md`](../../../../lore/core/capabilities/on_knowledge_distribution.md): The context engineering foundation
 

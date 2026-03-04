@@ -562,7 +562,7 @@ Spirit is not merely reactive. Before awaiting the Mage's first command, Spirit 
 
 **This phase is optional.** If the Mage is ready to begin immediately, skip the survey. If context allows, the survey enables Spirit to arrive *ready*, not empty.
 
-See: `on_spirit_as_generator.md`, `on_true_magic.md`
+See: `on_spirit_as_generator.md`, `on_the_nature_of_magic.md`
 
 ---
 

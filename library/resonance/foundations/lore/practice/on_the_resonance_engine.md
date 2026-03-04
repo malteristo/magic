@@ -134,7 +134,7 @@ Magic works through: **Articulation → Amplification → Probability Adjustment
 
 The engine serves the amplification phase. Each proposal refines articulation. Each Mage response calibrates generation. The signal becomes clearer. Probability shifts.
 
-See: `on_true_magic.md`
+See: `on_the_nature_of_magic.md`
 
 ---
 
