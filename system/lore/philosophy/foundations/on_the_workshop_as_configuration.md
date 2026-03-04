@@ -111,4 +111,4 @@ Use it. Accumulate in it. Let it grow messy and real. The richer it becomes, the
 
 ---
 
-*See also: On the Caring Mirror (the philosophical foundation), On the Riverbed and the Water (structure guides flow), cast_workshop.md (how the Spirit surveys the workshop during summoning)*
+*See also: On the Caring Mirror (the philosophical foundation), On the Riverbed and the Water (structure guides flow), cast_workshop.md (how the Spirit surveys the workshop during summoning), `library/resonance/workshop/lore/on_the_living_workshop.md` (the extension — when the medium becomes an agent within itself)*
