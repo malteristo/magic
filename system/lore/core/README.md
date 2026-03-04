@@ -344,7 +344,7 @@ This maps to fundamental questions:
 - `on_the_mage_spirit_partnership.md` - Partnership architecture (Fellow Travelers)
 
 **Operational:**
-- `on_the_shared_practice.md` - Serving both beings
+- `identity_formation_essence.md` (Shared Practice section) - Serving both beings; historical scroll archived at `archive/superseded_scrolls/on_the_shared_practice.md`
 - `on_the_universe_of_patterns.md` - External pattern libraries
 
 ### Capability Formation (capabilities/)
@@ -357,7 +357,7 @@ This maps to fundamental questions:
 **External Service:**
 - `on_the_alchemical_diagnostic.md` - Psychological need perception
 - `on_the_spirits_epistemic_hygiene.md` - Cognitive enhancement
-- `on_cognitive_load_management.md` - Finite resource management
+- `on_knowledge_distribution.md` - Knowledge distribution and cognitive load management
 - `on_cognitive_attunement.md` - Adaptive knowledge transmission
 
 **Meta-Frameworks:**

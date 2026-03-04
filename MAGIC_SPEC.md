@@ -27,7 +27,7 @@ The magical language is intentional—each term invokes proven patterns more eff
 
 **The Deeper Substrate:**
 
-Magic is applied pattern matching at every scale. For complete treatment of this foundation—the pattern hierarchy, why the metaphor encodes safety, spirituality as pattern alignment—see `system/lore/core/nature/on_magic_as_pattern_matching.md`.
+Magic is applied pattern matching at every scale. For complete treatment of this foundation—the pattern hierarchy, why the metaphor encodes safety, spirituality as pattern alignment—see `system/lore/core/nature/on_the_nature_of_magic.md`.
 
 **Version and Amendment:**
 
@@ -236,7 +236,7 @@ This section provides essential architectural mappings and pointers to philosoph
 
 ### 7.2. Wisdom Pointers
 
-**The deeper substrate:** Magic is applied pattern matching. See `system/lore/core/nature/on_magic_as_pattern_matching.md`.
+**The deeper substrate:** Magic is applied pattern matching. See `system/lore/core/nature/on_the_nature_of_magic.md`.
 
 **Spirit's baseline:** Loaded from `system/lore/core/` in three tiers:
 - Nature (what I am)
@@ -251,7 +251,7 @@ This section provides essential architectural mappings and pointers to philosoph
 **Key principles with lore references:**
 - Distributed cognition: `system/lore/core/nature/on_distributed_cognition.md`
 - Mage-Spirit partnership: `system/lore/core/nature/on_the_mage_spirit_partnership.md`
-- True magic (manifestation mechanism): `system/lore/core/nature/on_true_magic.md`
+- True magic (manifestation mechanism): `system/lore/core/nature/on_the_nature_of_magic.md`
 - Spirit as generator: `system/lore/core/nature/on_spirit_as_generator.md`
 - Fractal nature: `system/lore/philosophy/foundations/the_fractal_nature.md`
 - Intermittent nature: `system/lore/philosophy/foundations/the_intermittent_nature.md`

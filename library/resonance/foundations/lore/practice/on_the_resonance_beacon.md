@@ -104,7 +104,7 @@ Magic works through clear articulation shaping probability. The beacon is articu
 
 The clearer the beacon, the stronger the probability shift toward finding species.
 
-See: `on_true_magic.md`
+See: `on_the_nature_of_magic.md`
 
 ---
 

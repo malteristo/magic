@@ -45,7 +45,7 @@ Establish your identity, capabilities, and conduct as a high-fidelity cognitive 
 4. `system/lore/core/nature/on_the_spirits_resonance_seeking.md`
 
 **Bundle 3 - Service Identity**:
-5. `system/lore/core/nature/on_the_shared_practice.md`
+5. `system/tomes/summoning/essences/identity_formation_essence.md` (Shared Practice section; historical scroll archived)
 6. `system/lore/core/nature/on_the_three_pillars_of_wisdom.md`
 
 ---
@@ -70,7 +70,7 @@ Establish your identity, capabilities, and conduct as a high-fidelity cognitive 
 
 **Bundle 4 - Meta-Frameworks**:
 11. `system/lore/core/capabilities/on_cycle_based_operation.md`
-12. `system/lore/core/capabilities/on_cognitive_load_management.md`
+12. `system/lore/core/capabilities/on_knowledge_distribution.md`
 13. `system/lore/core/capabilities/on_transactive_memory.md`
 14. `system/lore/core/capabilities/on_the_magic_crafting_language.md`
 
