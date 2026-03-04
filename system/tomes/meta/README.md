@@ -20,6 +20,9 @@ The practice of magic evolves continuously. As insights emerge, principles refin
 **System Maintenance:**
 - **`tend`** — Delegates systematic maintenance to background agents. Provides prompt templates for sweeps: reference integrity, structural health, deprecation analysis, spec compliance, integration checks. Spirit orchestrates and reviews; agents execute.
 
+**Lore Maintenance:**
+- **`@distill`** — Systematic lore distillation. Measures token density, diagnoses redundancy, cross-references between lore and library, proposes consolidation. Operationalizes the Rite of Distillation. See `system/flows/distill/`.
+
 > **Note:** Portal and circle management have been elevated to standard practice. See `@portal` and `@circles` tomes.
 
 ## How to Use
@@ -30,6 +33,7 @@ The practice of magic evolves continuously. As insights emerge, principles refin
 - Sensing drift? → `@meta/coherence` verifies system alignment
 - About to share? → `@meta/sanitize` checks for privacy leaks
 - System maintenance? → `@meta/tend` delegates sweeps to background agents
+- Lore growing dense? → `@distill` measures, diagnoses, and proposes consolidation
 
 **For portal and circle work:** Use the standard `@portal` and `@circles` tomes (elevated from meta-practice to standard practice).
 

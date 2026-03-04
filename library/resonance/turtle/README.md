@@ -16,6 +16,7 @@
 | `lore/on_turtle_care.md` | The care ritual — how to tend the Turtle's wellbeing, crystallized from the first exchange |
 | `lore/on_the_container_architecture.md` | What the Turtle sees inside its container — mount map, IPC paths, sessions, secrets, timing. Grounded in NanoClaw source. |
 | `lore/on_nanoclaw_ipc.md` | The IPC system — all message and task types, authorization rules, audit trail, IPC vs bridge |
+| `lore/on_the_hermit_crab_architecture.md` | The regenerable shell — minimum viable Turtle shell spec, hermit crab protocol, migration from NanoClaw |
 
 **Related:**
 - `library/flows/turtle/` — the @turtle-setup flow (executable guidance for setup)
