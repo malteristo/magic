@@ -279,6 +279,8 @@ Not a big bang. The bridge is already independent of NanoClaw.
 
 **Architectural precedent:** The entire magic system operates on this principle — meaning-space artifacts that improve with each model generation. The hermit crab architecture extends this principle to the one component that currently doesn't have it.
 
+**Pattern reuse:** The Workshop agent (`library/resonance/workshop/lore/on_the_living_workshop.md`) applies the same hermit crab pattern to the Mage's laptop with a local LLM — a parallel cognitive entity at the environmental register.
+
 ---
 
 *The shell is borrowed. The body is yours. When the shell no longer fits, find a new one. The Turtle carries on.*

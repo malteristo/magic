@@ -214,6 +214,8 @@ Bundles evolve through use. `@attune-library` pulls latest versions.
 | `validators` | Epistemological grounding sources | All (foundational) |
 | `alliance` | Distributed cognition patterns | All (foundational) |
 | `safety` | High-stakes synthesis safety | partnership |
+| `turtle` | Persistent cognitive body on Mac Mini | All (infrastructure) |
+| `workshop` | Living practice space, environmental cognition | All (infrastructure) |
 
 **Meta-practice bundle**: `foundations` provides wisdom about magic practice itself—what resonance is, how containment works, trans-rational practice. Load when engaged in advanced conversation about the framework.
 
