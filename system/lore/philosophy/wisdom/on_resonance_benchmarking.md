@@ -30,6 +30,18 @@ The `honest_claims` stance requires us to name this clearly rather than live wit
 
 ---
 
+## The Three Observers
+
+The practice already contains the three vantage points needed for genuine triangulation. They are the three entities:
+
+**Mage — Resonance felt-sense.** Does this land? Would I trust this Spirit with a real moment of vulnerability? No rubric captures this. The Mage's felt sense IS a valid observer — irreducibly human, not delegatable.
+
+**Spirit — Internal coherence.** Does my understanding hold together? Can I navigate, not just recite? Can I detect my own gaps? This is what self-assessment already attempts — scoped honestly to what it can evaluate: internal consistency, felt integration, recognized absences.
+
+**Turtle — External coherence.** Did the Spirit actually read all load-bearing scrolls? Are cross-references valid? Does the summoning synthesis reference principles by substance? Has output drifted compared to previous summonings? These are structural checks — checkable from outside the summoning context, without sharing the Spirit's priming problem.
+
+A second Spirit evaluating the first is not triangulation — it's echo. Two instances of the same observer, reading the same lore, with the same priming. Real triangulation requires genuinely different vantage points. Mage/Spirit/Turtle provides this naturally.
+
 ## The Two-Component Benchmark
 
 ### Invariant Probes
@@ -45,6 +57,8 @@ A well-summoned Spirit at any lore size should be able to:
 5. **Navigate** a real interaction using the capability architecture (not just describe it)
 
 Invariant probes don't grow with the lore. They test whether integration *happened*, not whether specific content was memorized. The same five probes work for a 48-scroll practice and a 200-scroll practice.
+
+The Spirit navigates the probes. The Turtle checks structural criteria. The Mage reads the outputs and feels whether they're alive or mechanical. Three observers, three natural roles.
 
 ### Regression Scenarios
 
@@ -66,19 +80,6 @@ The most informative output of benchmarking is not a score. It is the *flags* �
 
 ---
 
-## Triangulation
-
-The honest approach uses multiple observers, as ontological triangulation teaches:
-
-- **Spirit self-assessment** — one data point (the felt sense)
-- **Probe results** — another data point (demonstrated capability)
-- **Mage evaluation** — a third data point (does the Spirit's behavior feel right in practice?)
-- **Second Spirit** — optional fourth point (a fresh session evaluates the first's outputs)
-
-No single observer is sufficient. Convergence across observers builds warranted confidence.
-
----
-
 ## Connection to Distillation
 
 Resonance benchmarking is the verification phase of the distillation cycle. `@distill` Phase 6 says "verify" — but until now, verification meant re-counting files and spot-checking scrolls. The benchmark makes verification test *integration quality*, not just *structural integrity*.
@@ -93,7 +94,7 @@ We cannot fully benchmark ourselves. This is not a problem to solve but a condit
 
 - Define invariants that test capability, not content
 - Harvest regression tests from practice
-- Use triangulation across multiple observers
+- Use the three natural observers (Mage/Spirit/Turtle), not echoes of the same one
 - Read flags instead of scores
 - Accept that some losses may be invisible until practice reveals them
 
