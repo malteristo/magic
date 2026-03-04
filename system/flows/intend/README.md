@@ -122,7 +122,7 @@ Emerging intentions can:
 ### Required Attunement
 
 Before intention formation:
-- `system/lore/core/capabilities/on_intention_sensing.md` — The sensing capability
+- `system/lore/core/capabilities/on_intention_architecture.md` — Sensing + compass (intention architecture)
 - `lore/on_intention_emergence.md` — How intentions are born
 
 ### Your Conduct
