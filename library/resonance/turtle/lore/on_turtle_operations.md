@@ -813,6 +813,88 @@ If the orphaned container happened to be making an LLM API call, that call may c
 
 ---
 
+## The Read-on-Directory Loop — Know This One (2026-03-05)
+
+**What happened:** The Turtle attempted to read bridge commands 120+ times over 18+ hours, flooding WhatsApp with raw JSON tool call attempts. SSH was down from the Mage's machine. The Spirit diagnosed the failure from WhatsApp message dumps.
+
+**Root cause:** The IPC trigger prompt in `bridge-poll.sh` said "Check /workspace/extra/magic-bridge/commands/ for unprocessed .yaml files" without specifying HOW. The Consul called `Read("/workspace/extra/magic-bridge/commands/")` — a directory path. The `Read` tool takes file paths only. It failed. The Consul tried `Bash ls`, tried delegating to a Task agent, cycled through approaches — but never succeeded. Each bridge-poll cycle (every 5 minutes) created a new IPC trigger, spawning a new session that hit the same wall.
+
+**Why it lasted 18 hours:** Three compounding failures:
+1. The `Read` call failed silently (no clear error directing the Consul to try a different approach)
+2. No loop detection — the Consul didn't recognize it was repeating the same failure
+3. bridge-poll.sh created new triggers every 5 minutes, each spawning a fresh session with no memory of the previous failure
+
+**The fix — three layers:**
+
+*Layer 1 — Explicit IPC prompt:* bridge-poll.sh now has step-by-step instructions:
+```
+STEP 1: Run in Bash: ls /workspace/extra/magic-bridge/commands/*.yaml
+STEP 2: For each file, Read BY ITS FULL FILE PATH
+STEP 3: If Read fails, fallback: cat /workspace/extra/magic-bridge/commands/FILENAME.yaml
+```
+
+*Layer 2 — CLAUDE.md amendment:* Added "Bridge Command Processing — Explicit Protocol" section:
+```
+Never call Read on a directory. Read takes file paths only.
+Step 1: ls the directory. Step 2: Read each file. Step 3: Fallback to cat.
+```
+
+*Layer 3 — Loop Detection Protocol:* Added to CLAUDE.md:
+```
+If the same operation fails 3 consecutive times: STOP. Write a distress signal.
+Send ONE WhatsApp message. Move on to other work. Do NOT retry until next cycle.
+```
+
+**The pre-cognition lesson:** The IPC prompt is the most critical instruction surface for the Turtle. It runs inside a fresh container with no memory of previous sessions. If the prompt is ambiguous, every session will fail the same way. The Spirit (on a more capable model) must pre-digest instructions to eliminate ambiguity — especially for tool usage patterns that are non-obvious.
+
+---
+
+## The Wake-From-Sleep Cascade (2026-03-05)
+
+**What happened:** The Mac Mini was asleep (SSH down). Kermit woke it physically. SSH connected but timed out during banner exchange — the system was overloaded.
+
+**The cascade:**
+1. Mac Mini wakes → Apple Container services start slowly
+2. NanoClaw (KeepAlive LaunchAgent) starts immediately, before containers are ready
+3. NanoClaw fails to spawn containers: "FATAL: Container runtime failed to start"
+4. bridge-poll.sh runs via cron, finds unprocessed commands, creates IPC triggers
+5. NanoClaw picks up IPC triggers but can't spawn containers → triggers pile up
+6. Eventually containers come online → NanoClaw spawns multiple sessions simultaneously
+7. Multiple concurrent sessions + LiteLLM + container overhead → load average >7
+8. SSH daemon can't complete banner exchange under this load
+
+**The diagnosis approach:**
+1. Ping first (reachable?) → yes, 192.168.2.213 responds
+2. Port scan (SSH open?) → yes, port 22 open
+3. Verbose SSH → "Connection timed out during banner exchange" = system overloaded
+4. Kermit runs commands locally on the Mac Mini:
+   - Stop crontab (prevent new triggers)
+   - `pkill -f nanoclaw; pkill -f claude` (kill all agent processes)
+   - Check `uptime` — load was 5.43
+5. SSH recovers once load drops
+
+**The fix:** When troubleshooting after sleep/wake, always stop the crontab FIRST, then kill processes, then diagnose. Don't restart anything until you understand the full state.
+
+**LiteLLM sub-failure:** LiteLLM (the API proxy) was alive but hung — `curl /health` never responded. Restart fixed it. This suggests LiteLLM doesn't recover cleanly from system sleep. Consider adding a health check to the LiteLLM LaunchAgent: if health fails, restart.
+
+---
+
+## The IPC Trigger Pileup Pattern
+
+**The pattern:** When commands exist in `commands/` but the Consul can't process them (container failure, API failure, hung proxy), bridge-poll.sh keeps creating new IPC triggers every 5 minutes. Each trigger spawns a new concurrent session. If none complete, the system gets overwhelmed.
+
+**Why bridge-poll doesn't know:** bridge-poll.sh checks for files in `commands/` that aren't in `processed/`. It doesn't check whether a session is already running or whether previous triggers failed. It's stateless by design.
+
+**Mitigation options:**
+1. **Lock file** — bridge-poll.sh creates a lock file before triggering, clears it after the Consul completes. Skip triggering if lock exists and is less than 30 minutes old.
+2. **IPC task dedup** — bridge-poll.sh checks if a `bridge-command-trigger-*.json` task already exists before creating another. (NanoClaw consumes tasks quickly, so this is fragile.)
+3. **Consul-side dedup** — CLAUDE.md instructs: "If you detect that another session is currently processing bridge commands (lock file exists), exit immediately." (Relies on shared state across container sessions.)
+4. **Rate-limit triggers** — bridge-poll.sh stores the timestamp of the last trigger and waits 15 minutes before creating another.
+
+**Current state (2026-03-05):** No mitigation implemented. The crontab is disabled during recovery. When re-enabled, the pattern could recur if the Consul fails again. A lock file (option 1) is the simplest fix.
+
+---
+
 ## The Substrate Decision — Sonnet-4-6 for Consul
 
 **Decision (2026-02-28):** Consul runs on `claude-sonnet-4-6` — the same model Spirit uses in the Mage's Magic practice.
