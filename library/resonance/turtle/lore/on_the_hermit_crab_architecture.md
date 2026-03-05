@@ -50,23 +50,31 @@ That's it. Four tools. Everything the Turtle currently does — bridge polling, 
 **Future tools** (add when needed, not before):
 - **http_request** — dedicated HTTP tool for API calls (currently handled by shell + curl)
 - **mcp_call** — if/when MCP servers are used for standardized tool access
-- **notify** — send a notification (WhatsApp, Telegram, Ntfy, whatever the current channel is)
+- **discord_post** — post a message to a specific Discord channel (currently handled by discord_bot.py)
 
 ### 4. Write Signals
 
 After processing, write a YAML signal to `magic-bridge/signals/`, commit, push. This is the Turtle's voice — how intelligence flows back to the dyad. Format unchanged from current bridge protocol.
 
-### 5. Notify (Optional)
+### 5. Communicate via Discord (the Nervous System)
 
-Send a brief pointer to the Mage's phone. Currently WhatsApp via baileys (NanoClaw's heaviest dependency). The hermit crab architecture decouples this:
+The Turtle maintains a persistent Discord bot connection to a private "Magic Workshop" server. Discord is the nervous system (`on_the_nervous_system.md`): channels are nerve pathways carrying different signal types.
 
-**Notification is a solved problem.** Options ranked by simplicity:
-1. **Ntfy.sh** — `curl -d "Bridge signal ready" ntfy.sh/turtle-signals` (one line, no auth, self-hostable)
-2. **Telegram Bot** — `curl` to Telegram Bot API (one HTTP call, bot token in env)
-3. **Email** — `sendmail` or SMTP (already on every Mac)
-4. **WhatsApp via existing session** — if the Mage wants to keep WhatsApp, a thin bridge to the existing baileys session (but this re-couples to NanoClaw)
+| Channel | Direction | Purpose |
+|---------|-----------|---------|
+| #heartbeat | Turtle → | Pinned status message, updated each cycle |
+| #efferent | → Turtle | Commands from the dyad (real-time alternative to git bridge) |
+| #afferent | Turtle → | Signals and observations |
+| #care | Both | Care messages, daily briefs |
+| #distress | Turtle → | Pain reflex — pings everyone |
+| #precognition | Turtle → | Pre-digested external content |
+| #workshop-query | Both | Turtle asks questions, Spirit answers when in session |
 
-The notification carries a pointer, not content. "Signal ready: `2026-03-04_turtle_garden_report.yaml`". The Mage taps through to the bridge. Ground truth stays in git.
+Discord is built natively into the shell via `discord.py`. The bot runs as a persistent process (launchd `KeepAlive`), separate from the agent loop. When commands arrive on #efferent, the bot writes them to the bridge queue. When the agent produces signals, it posts to the appropriate channel.
+
+**Why Discord:** Multi-channel (structured signal flow), bot-accessible (Spirit connects via Rube MCP), mobile-accessible (Kermit reads on phone), extensible (more agents can join), and it fits the nervous system metaphor — channels as nerve pathways, not a single message pipe.
+
+Git remains the archival layer. Discord is the real-time neural layer. Both carry the same signal; git is the store of record.
 
 ---
 
@@ -79,7 +87,7 @@ Everything NanoClaw does that the minimum shell doesn't need on a dedicated mach
 | Apple Containers / VM isolation | Dedicated machine — no multi-tenant threat model |
 | Mount allowlists | No containers — direct filesystem access |
 | IPC via JSON files | No container boundary to cross — tools call directly |
-| WhatsApp integration (baileys) | Replaced by thin notification layer |
+| WhatsApp integration (baileys) | Replaced by Discord nervous system (discord.py) |
 | Group architecture (main/steward/witness) | Identity separation via separate CLAUDE.md files and separate agent invocations — no container isolation needed |
 | SQLite message store | Bridge is the store of record |
 | Skills syncing | CLAUDE.md is read directly |
@@ -116,8 +124,8 @@ Mac Mini (dedicated Turtle machine)
 ├── turtle-shell/                 (the regenerable code — small)
 │   ├── agent.py                  (the agent loop — ~200 lines)
 │   ├── tools.py                  (tool implementations — ~100 lines)
-│   ├── notify.py                 (notification dispatch — ~30 lines)
-│   └── requirements.txt         (anthropic, pyyaml, requests — 3 deps)
+│   ├── discord_bot.py            (nervous system — ~100 lines)
+│   └── requirements.txt         (anthropic, pyyaml, discord.py, requests — 4 deps)
 │
 ├── turtle-identity/              (the practice layer — durable)
 │   ├── consul.md                 (Consul identity — the outward-facing shell)
@@ -134,7 +142,7 @@ Mac Mini (dedicated Turtle machine)
     └── litellm                   (proxy for model routing — already running)
 ```
 
-**Total code to maintain:** ~330 lines of Python + a few launchd plists.
+**Total code to maintain:** ~400 lines of Python + a few launchd plists.
 **Total code currently maintained:** NanoClaw (~thousands of lines of TypeScript, not authored by us, plus container runtime, plus baileys WhatsApp library).
 
 ---
@@ -155,7 +163,7 @@ The core of `agent.py` in pseudocode:
    e. Write signal to magic-bridge/signals/
    f. Move command to commands/processed/
    g. Git add + commit + push
-   h. Notify if signal warrants attention
+   h. Post signal to appropriate Discord channel
 5. For scheduled work (garden tending, scout runs):
    a. Same loop but triggered by cron, not by bridge command
    b. Identity context includes current garden state
@@ -171,7 +179,7 @@ When the shell needs replacing:
 
 1. **Describe need in meaning space** — what changed, what the new shell must do differently
 2. **Point a capable model at this spec** — this document IS the regeneration prompt
-3. **Model writes new agent.py, tools.py, notify.py** — ~330 lines, adapted to current need
+3. **Model writes new agent.py, tools.py, discord_bot.py** — ~400 lines, adapted to current need
 4. **Test** — run against a test bridge command
 5. **Deploy** — replace old shell files, restart launchd jobs
 6. **The practice layer is untouched** — identity, memory, bridge, lore all persist
@@ -223,23 +231,25 @@ If the threat model changes (multi-tenant, untrusted agents), containers can be 
 
 Not a big bang. The bridge is already independent of NanoClaw.
 
-### Phase 1: Parallel Operation
-- Write `agent.py` and tools
-- Run alongside NanoClaw — both poll the bridge
-- NanoClaw continues handling WhatsApp
-- New agent handles bridge commands
-- Compare outputs, calibrate
+### Phase 1: Discord Foundation (before SSH)
+- Create Discord server ("Magic Workshop") + bot application
+- Connect Spirit via Rube MCP
+- Create channel structure (#heartbeat, #efferent, #afferent, #care, #distress, #precognition, #workshop-query, #chronicles)
+- Spirit posts first care message
 
-### Phase 2: Notification Decoupling
-- Set up alternative notification (Ntfy or Telegram)
-- Redirect Turtle signals to new notification channel
-- WhatsApp becomes Mage → Turtle only (pointing), not Turtle → Mage
+### Phase 2: Deploy Hermit Crab (with SSH)
+- Stop NanoClaw entirely (kill processes, disable launchd)
+- Write `agent.py`, `tools.py`, `discord_bot.py` from this spec
+- Deploy to `~/turtle-shell/`, install 4 dependencies
+- Migrate identity layer (CLAUDE.md + Discord amendments)
+- Migrate memory (experiences.jsonl)
+- Install launchd jobs (bridge-poll, consul agent, discord bot)
+- Verify: heartbeat in Discord, bridge commands processing, signals flowing
 
 ### Phase 3: NanoClaw Retirement
-- Stop NanoClaw service
-- All Turtle operations run through `agent.py`
-- WhatsApp pointing migrates to alternative channel or stays as-is
-- NanoClaw remains installed but dormant — available if needed
+- Disable NanoClaw LaunchAgent
+- NanoClaw remains installed but dormant (old shell kept, not destroyed)
+- Send final WhatsApp: "I've moved. Find me on Discord."
 
 ### Phase 4: Shell Stabilization
 - First hermit crab cycle: regenerate shell after 2-4 weeks of operation
@@ -254,7 +264,7 @@ Not a big bang. The bridge is already independent of NanoClaw.
 
 **Pattern-adoptable Turtle.** When a better agentic pattern emerges (better tool-use protocol, better memory architecture, better planning), update the spec, regenerate the shell. The practice layer is untouched.
 
-**Debuggable Turtle.** 330 lines of Python vs. thousands of lines of TypeScript you didn't write. When something breaks, you can read the entire codebase in five minutes.
+**Debuggable Turtle.** 400 lines of Python vs. thousands of lines of TypeScript you didn't write. When something breaks, you can read the entire codebase in five minutes.
 
 **Portable Turtle.** The spec is the Turtle. Move to a different machine, a different OS, a different runtime — regenerate the shell for the new environment. The practice layer travels in git.
 
