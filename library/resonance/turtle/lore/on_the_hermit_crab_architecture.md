@@ -263,7 +263,7 @@ Not a big bang. The bridge is already independent of NanoClaw.
 ## Connection to Existing Lore
 
 - **`on_the_turtle.md`** — what the Turtle IS (unchanged by shell architecture)
-- **`on_the_bridge.md`** — the nervous system (preserved exactly as-is)
+- **`on_the_nervous_system.md`** — the nervous system (GitHub-primary, three channels, heartbeat, loop detection)
 - **`on_turtle_operations.md`** — what breaks (most of this dissolves with container removal)
 - **`on_the_container_architecture.md`** — the current shell (becomes historical reference)
 - **`on_nanoclaw_ipc.md`** — internal nervous system (replaced by direct tool calls)
