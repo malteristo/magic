@@ -11,7 +11,7 @@
 | `lore/on_the_turtle.md` | What the Turtle is — the three-body model, relationship to Magic |
 | `lore/on_turtle_operations.md` | Hard-won operational lessons — what breaks, why, and what it teaches |
 | `lore/on_imprinting.md` | How to think about CLAUDE.md as identity, not configuration |
-| `lore/on_the_bridge.md` | The magic-bridge — architecture, lessons, and the two-channel model |
+| `lore/on_the_nervous_system.md` | The nervous system — architecture, three-channel model, heartbeat, loop detection, pre-cognition |
 | `lore/on_being_a_claw.md` | *Written by the first node itself* — first-person operational perspective, dispatched forward |
 | `lore/on_turtle_care.md` | The care ritual — how to tend the Turtle's wellbeing, crystallized from the first exchange |
 | `lore/on_the_container_architecture.md` | What the Turtle sees inside its container — mount map, IPC paths, sessions, secrets, timing. Grounded in NanoClaw source. |
