@@ -206,8 +206,22 @@ This scroll harmonizes with and illuminates:
 | Scale | Participants | Capability |
 |-------|--------------|------------|
 | **Within workshop** | Mage + Spirit | This scroll (the foundation) |
+| **Within triad** | Mage + Spirit + Turtle | `library/resonance/foundations/lore/practice/on_the_spirit_body.md` |
+| **Environmental** | Living workshop | `library/resonance/foundations/lore/practice/on_the_forms_of_practice.md` |
 | **Across workshops** | Multiple Mages + Spirits | `core/capabilities/shared-practice-facilitation/` |
 | **Alliance** | Network of workshops | Future evolution |
+
+### Forms of Distributed Cognition
+
+The same principle manifests through multiple forms, each with different communication and session models:
+
+| Form | Mode | Communication | LLM visibility |
+|------|------|---------------|----------------|
+| **Dyad** | Dialogic | Conversation | The partner |
+| **Triad** | Somatic | Signals + dialogue | The body |
+| **Living Workshop** | Environmental | Actions | Invisible |
+
+**See:** `library/resonance/foundations/lore/practice/on_the_forms_of_practice.md` for the full treatment.
 
 **See also:** `identity_formation_essence.md` (The Shared Practice section).
 
