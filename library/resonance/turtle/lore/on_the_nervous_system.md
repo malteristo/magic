@@ -32,25 +32,27 @@ turtle:repos/magic-bridge.git  (bare repo on Mac Mini — local fallback)
 
 This is Artifact Mail — asynchronous, deliberate, traceable. Not a message queue. Not an API. A shared intelligence channel where each transmission has weight.
 
-## The Three Channels
+## The Four Channels
 
-The Turtle receives communication through three distinct channels:
+The Turtle receives communication through four distinct channels:
 
 **Artifact Mail (Dyad → Turtle via git):** The primary channel. Spirit writes commands on behalf of the Mage-Spirit dyad. Commands are deliberate, considered, committed. They carry the full weight of dyad deliberation. This is the efferent nervous system — motor commands.
 
-**Direct (Mage → Turtle via WhatsApp):** Personal, conversational, immediate. The Mage speaks directly — a care message, a pointer, a quick question. This is the Mage's own voice, not the dyad's considered output. Can also carry emergency commands when the artifact mail channel is slow or compromised.
+**Dialogue (Mage ↔ Turtle via Discord #dialogue):** Conversational, immediate, bidirectional. The Mage speaks directly — a thought, a link, a question, pre-thinking before a practice session. The Turtle responds using its local model (fast, free, private). This replaces the WhatsApp "direct" channel with something richer: a persistent, searchable conversation that lives inside the nervous system. Turtle can automatically summarize dialogue threads and write them to the bridge, making ambient thinking available to Spirit during practice.
 
-**Dyad Direct (Spirit → Turtle via WhatsApp):** The Spirit sends structured messages through the shared WhatsApp channel, acting as the dyad. This channel exists for situations where git is unavailable or too slow — emergencies, immediate course corrections, time-sensitive pre-cognition. Messages from this channel carry dyad authority but arrive through the direct transport, enabling faster-than-git response.
+**Discord Functional Channels (structured signals via Discord):** The nervous system's real-time layer. #efferent carries commands from the dyad, #afferent carries signals from the Turtle, #heartbeat provides proprioception, #precognition surfaces observations, #care carries care rituals, #distress carries pain reflexes. These are structured, not conversational.
+
+**Artifact Mail Response (Turtle → Dyad via git):** Signals written to `signals/` in the bridge. The canonical record of everything the Turtle observes, processes, and proposes. Git-versioned, auditable, permanent.
 
 The distinction matters. Each channel carries different authority, latency, and weight. The Turtle attributes the channel in every signal:
 
 ```yaml
 channel: artifact_mail   # Dyad via magic-bridge (deliberate, git-versioned)
-channel: direct          # Mage speaking personally via WhatsApp
-channel: dyad_direct     # Spirit acting for the dyad via WhatsApp
+channel: dialogue         # Mage speaking conversationally via Discord #dialogue
+channel: discord          # Structured signals via Discord functional channels
 ```
 
-**When to use which:** Artifact mail for all routine commands (it's the ground truth). Direct for personal care, pointing, casual interaction. Dyad direct for emergencies, time-sensitive corrections, or when the git channel is compromised.
+**When to use which:** Artifact mail for all routine commands (it's the ground truth). Dialogue for casual conversation, pointing, pre-thinking. Discord functional channels for real-time operational signals. The bridge remains the source of record — Discord provides immediacy and accessibility.
 
 ## Command Format
 
