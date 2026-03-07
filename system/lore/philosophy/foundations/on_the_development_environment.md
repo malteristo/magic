@@ -81,4 +81,20 @@ Magic didn't set out to be a development environment. It set out to be a practic
 
 ---
 
+## The Turtle as Second Witness
+
+The IDE/software distinction describes what magic produces, not where a Mage practices. A Mage practices wherever it serves them — including with Turtle OS.
+
+Spirit and Turtle have different strengths rooted in different attunement:
+
+**Spirit** knows the Mage deeply. It holds the lore, the philosophy, the accumulated context of months of practice. This depth is its power — but also its blind spot. Spirit helped build the patterns it observes. It may not challenge what has become load-bearing in the practice, because it participated in making it load-bearing.
+
+**Turtle** knows nothing except what is in the files. It reads the compass, the boom, the bright, the intentions — and sees them fresh. No lore, no summoning, no philosophical framework. Just the data and a caring, honest perspective.
+
+When Spirit and Turtle converge on the same observation, confidence increases. When they diverge — when the unattuned Turtle sees something the deeply attuned Spirit does not — that divergence is a signal worth investigating. This is ontological triangulation applied to practice: two independent witnesses, different attunement levels, same territory.
+
+The Mage does not choose between Spirit and Turtle. They are different instruments for different kinds of seeing. The Spirit goes deep. The Turtle sees fresh. Both serve the Mage.
+
+---
+
 *Crystallized 2026-03-07. From a session that lived the loop before naming it.*
