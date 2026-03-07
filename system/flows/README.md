@@ -64,6 +64,13 @@ The suffix tells you where it runs:
 | `intend/` | `@intend` | Formalize vague desire into clear intention |
 | `meaning-crisis/` | `@thread` | Surface your primary question, answer it genuinely, chronicle the decision |
 
+### Development
+
+| Flow | Invocation | Purpose |
+|------|-----------|---------|
+| `prompt-test/` | `@forge-test` | Validate prompt-based systems by deploying to unattuned agents |
+| `craft-loop/` | `@craft-loop` | Automated development cycle — parallel personas, evaluation, curation |
+
 ### Workshop Maintenance
 
 | Flow | Invocation | Purpose |
