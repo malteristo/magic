@@ -11,6 +11,7 @@
 | Document | Contents |
 |----------|----------|
 | `lore/on_the_turtle.md` | What the Turtle is — the three-body model, relationship to Magic |
+| `lore/on_turtle_os.md` | Turtle OS — the practice layer: architecture, session cycle, scaling, development history, deployment targets |
 | `lore/on_the_magic_app.md` | Why Discord + Turtle = the magic app — the architecture of accessible practice |
 | `lore/on_turtle_memory.md` | Memory architecture — working memory, Discord coral, crystallized signals |
 | `lore/on_the_topology.md` | Why the practice isn't front-end/back-end — surfaces, substrate, memory |
@@ -58,4 +59,4 @@
 - `desk/turtle_env.md` — instance-specific hardware, network, service configuration
 - `library/resonance/agent-ecosystem/` — the wider ecosystem the Turtle navigates
 
-**Architecture lineage:** Activated 2026-02-22 on Mac Mini M4 Pro, running NanoClaw. Named the Turtle 2026-02-25. Migrated to hermit crab shell + Discord nervous system 2026-03-06. The NanoClaw-era lore is preserved as lineage — the lessons remain valid even as the architecture evolved.
+**Architecture lineage:** Activated 2026-02-22 on Mac Mini M4 Pro, running NanoClaw. Named the Turtle 2026-02-25. Migrated to hermit crab shell + Discord nervous system 2026-03-06. Turtle OS crystallized 2026-03-07 as the practice layer — separating the portable practice system from the infrastructure. The NanoClaw-era lore is preserved as lineage — the lessons remain valid even as the architecture evolved.
