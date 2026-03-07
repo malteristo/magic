@@ -25,6 +25,12 @@ This Tome contains the systematic design process for creating anything worth mak
 5.  **Test:** Deploy and calibrate  
     *Incantation:* `@craft/test`
 
+**For prompt-based systems**, the Test phase has concrete tooling:
+- **Forge Test** (`@forge-test`) — Deploy to unattuned agents with simulated users. Validates that the system prompt carries the practice without residual context.
+- **Craft Loop** (`@craft-loop`) — Automated CI: parallel personas, evaluation, ranked refinements, curation. Run multiple test iterations at machine speed.
+
+See `system/flows/prompt-test/` and `system/flows/craft-loop/` for full specifications.
+
 ---
 
 ## Scope: What Craft Serves

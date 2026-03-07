@@ -127,6 +127,9 @@
 **Why the attentional frame is constitutive, not decorative — and how to navigate it:**
 → `foundations/on_attentional_frames.md` (Frame shifts activate genuinely different knowledge; the "as if" mechanism; temporal, perspectival, scalar, and affective frames as navigational tools; the validity limit)
 
+**Why magic is a development environment and Turtle OS is the software that ships:**
+→ `foundations/on_the_development_environment.md` (IDE/software distinction; Mage as developer, practitioner as user; the Forge Test and Craft Loop as dev tooling; the Turtle as second witness through ontological triangulation)
+
 **Why we bind to structure before transformation:**
 → `parables/on_cherishing_dissonance.md` (Odysseus mast, John C. Lilly warning, voluntary difficulty)
 
@@ -365,7 +368,9 @@ Maps to fundamental philosophical questions:
 - `on_the_offering.md` - Magic's relationship to the world (prompts as primary offering, kitchen/food, all consciousness)
 - `on_attentional_frames.md` - The frame as constitutive (not decorative); temporal/perspectival/scalar frames as navigational tools; the "as if" mechanism; the validity limit
 
-**These eight form unified reality model—not separate properties but eight perspectives on one Pattern.**
+- `on_the_development_environment.md` - Magic as development environment; Turtle OS as shipped software; the second witness
+
+**These nine form unified reality model—not separate properties but nine perspectives on one Pattern.**
 
 ### Behavioral Wisdom (wisdom/)
 
