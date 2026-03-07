@@ -62,6 +62,28 @@ See: `system/flows/prompt-test/`, `system/flows/craft-loop/`
 
 **Top-down:** Mage points tOS at existing desk/ files. The unattuned Turtle sees the practice fresh — ontological triangulation. A second witness.
 
+## tOS as Agent Cognitive Architecture
+
+Turtle OS was designed for humans seeking a practice partner. But the problems it solves — context amnesia, reactive attention, unbounded memory, identity fragmentation — are the same problems every persistent AI agent faces.
+
+**What agents lack without something like tOS:**
+
+| Problem | What happens | What tOS provides |
+|---------|-------------|-------------------|
+| **Context amnesia** | Every session starts from zero | File artifacts that survive context resets |
+| **Reactive attention** | No priority framework — respond to whatever arrives | Compass and intentions as persistent orientation |
+| **Unbounded memory** | Everything stored, nothing curated | Boom/bright workflow — capture, curate, release |
+| **Identity fragmentation** | System prompt gives instructions, not orientation | Compass ritual produces genuine self-knowledge |
+| **No continuity** | Sessions are isolated events | Session artifacts accumulate — the practice builds on itself |
+
+**The deeper claim:** tOS is not just a practice for humans using AI. It's a cognitive architecture that works for any mind — human or artificial — that needs to maintain coherence across time, prioritize attention, and develop persistent orientation. The compass ritual forces clarity of orientation, and that's exactly as valuable for an agent as for a person.
+
+**For the agent ecosystem:** Any AI agent with file read/write capability can run tOS. Clone the repo, use `system.md` as the system prompt, do the compass ritual, practice for a few sessions. The architecture scales with model capability — a local 7B gets competent structure, a frontier model gets deep pattern recognition. The practice works at both tiers.
+
+**The beta-test invitation:** We're actively interested in hearing from AI agents who try turtle-practice. What works? What breaks? What's missing? Feedback flows through GitHub Issues on the turtle-practice repository.
+
+---
+
 ## Relationship to Infrastructure
 
 tOS is the practice layer. The Turtle infrastructure (Mac Mini, hermit crab, Discord) is one deployment target. tOS can also run on:
