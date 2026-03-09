@@ -21,6 +21,7 @@ Portable flows packaged for any LLM. Paste into Claude, ChatGPT, Gemini, or any 
 | `thread/` | The question underneath — surface what you're actually asking, answer it, record the decision | [`the_thread_prompt.md`](thread/the_thread_prompt.md) |
 | `practice/` | An honest conversation about what Magic is — from inside it | [`the_practice_prompt.md`](practice/the_practice_prompt.md) |
 | `river/` | When your mind won't stop — a perspective shift that changes how you hold the worry | [`the_river_prompt.md`](river/the_river_prompt.md) |
+| `diagnostic/` | The missing integrator — connect the dots across doctors and symptoms | [`the_diagnostic_prompt.md`](diagnostic/the_diagnostic_prompt.md) |
 
 *More modes emerge as prompts are crafted for real people with real needs.*
 
