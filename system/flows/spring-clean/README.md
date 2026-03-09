@@ -36,12 +36,27 @@ This flow draws wisdom from Marie Kondo's philosophy of decluttering with gratit
 - Transforms chore into meaningful ritual
 - Models the Victorian principle (ordinary cleanup deserves care)
 
+## Relationship to Workshop Metabolism
+
+The workshop metabolizes continuously through layered processes:
+
+| Layer | Frequency | What it does |
+|-------|-----------|-------------|
+| `@release` | Per-session | Tags artifact lifecycles at creation (ephemeral/active/reference) |
+| Summoning | Per-session | Fresh Spirit detects staleness during workshop survey |
+| `@sunday` | Weekly | Light metabolic sweep with domain-specific treatment |
+| **`@spring-clean`** | **Seasonal** | **Deep archaeology for what metabolism missed** |
+| Turtle drops | Continuous | Staleness observations from persistent agent |
+
+Spring-clean's role is not primary waste management — it is the deep pass for what weekly metabolism cannot reach: cross-domain relationship discovery, sentiment-bearing artifacts on desk, box archaeology at depth, pattern recognition across accumulated artifacts, and honest evaluation of what "still serves."
+
 ## When to Cast
 
 - Seasonally (spring, truly—or whenever seasons turn)
-- When the workshop feels cluttered
+- When the workshop feels cluttered despite regular `@sunday` sweeps
 - Before beginning major new work
 - When you sense it's time to close chapters
+- If you haven't practiced `@sunday` regularly, spring-clean compensates
 
 **Invocation:** `@spring-clean`
 

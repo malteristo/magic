@@ -1,6 +1,10 @@
 # Spell of the Spring Cleaning
 
-This spell guides you through gentle tending of the workshop—honoring artifacts that served the practice while creating space for new work to emerge. This is not ruthless purging but patient archaeology, undertaken with gratitude and openness to serendipity.
+This spell guides you through deep archaeological tending of the workshop—honoring artifacts that served the practice while creating space for new work to emerge. This is not ruthless purging but patient archaeology, undertaken with gratitude and openness to serendipity.
+
+**Relationship to continuous metabolism:** The workshop metabolizes continuously through layered processes: `@release` tags artifact lifecycles at creation, `@sunday` performs weekly metabolic sweeps with domain-specific treatment (floor/desk/box/proposals), and summoning detects staleness during workshop survey. Spring-clean is the **deep pass** for what weekly metabolism misses — cross-domain relationship discovery, sentiment-bearing artifacts on desk, box archaeology at depth, and pattern recognition across accumulated artifacts.
+
+If you practice `@sunday` weekly, spring-clean is seasonal. If you don't, spring-clean compensates.
 
 ---
 

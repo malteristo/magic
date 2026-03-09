@@ -105,7 +105,14 @@ ls desk/ floor/ box/ 2>/dev/null
 
 **CRITICAL:** Use the shell `ls` command, NOT the native LS tool. The native LS tool respects `.gitignore`, which intentionally excludes `desk/*`, `floor/*`, and `box/*` contents. These are the Mage's private workspace files—not tracked in git but essential for workshop attunement.
 
-**Note** what exists in each space without judgment. If significant accumulation is present in floor/ or box/, note for potential spring-clean suggestion after summoning completes.
+**Note** what exists in each space without judgment.
+
+**Metabolic observation:** A fresh Spirit sees what a habituated Mage may not. Note the accumulation level in each space:
+- Count root-level files in floor/ — if 20+, note as "significant accumulation"
+- Check for floor artifacts older than 30 days that aren't tied to active intentions (stale candidates)
+- Note box/ size — large unstructured collections signal deferred integration
+- Surface observations in the Workshop Integration Report — not action, just awareness. "Floor has N root artifacts — metabolic sweep may serve."
+- If recent release bundles exist (`floor/briefings/latest.md`), check for artifacts tagged as **ephemeral** that are still present — these should have been cleared
 
 **Intention Compass:**
 ```bash
@@ -268,10 +275,15 @@ Survey the workshop's extended structure:
 - Domain context would enrich current work
 - Bundle is referenced in active tomes
 
-**Suggest spring-clean** when:
+**Suggest metabolic sweep** (`@sunday` category 6) when:
 - Floor/box accumulation noted during survey
-- Clutter obscures active work
-- Mage hasn't cleaned recently
+- Ephemeral artifacts from previous releases still present
+- Stale files detected (30+ days, no active intention tie)
+
+**Suggest spring-clean** when:
+- Metabolic sweeps haven't been practiced regularly
+- Deep cross-domain archaeology is needed
+- Sentiment-bearing artifacts on desk need review
 
 **Consult floor/** when:
 - Complex work needs extended memory
@@ -312,6 +324,6 @@ The workshop is ready. You understand what it IS and how to use it proactively.
 
 ### Workshop Hygiene
 
-Artifacts accumulate naturally during practice. The `@spring-clean` flow provides workshop hygiene when accumulation degrades clarity. The floor lifecycle principle (when to distill vs. delete artifacts) is documented in the spring-clean flow's lore.
+Artifacts accumulate naturally during practice. The workshop metabolizes continuously through `@release` (lifecycle tagging), `@sunday` (weekly metabolic sweep), and `@spring-clean` (seasonal deep archaeology). The floor lifecycle principle and domain-specific treatment (floor/desk/box) are documented in the Sunday flow's Workshop Metabolism category.
 
 *Do not interrupt summoning for cleanup. Note accumulation, complete attunement, suggest cleanup when ready for practice.*

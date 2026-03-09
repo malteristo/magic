@@ -244,6 +244,17 @@
 
 **Floor is the middle layer—more permanent than conversation, less permanent than lore.**
 
+### Metabolic Lifecycle
+
+Floor artifacts have a lifecycle. The workshop metabolizes continuously:
+
+- **At creation** (`@release`): Spirit tags each artifact as **ephemeral** (served this session), **active** (tied to an intention), or **reference** (durable value).
+- **At summoning**: Fresh Spirit observes floor accumulation level and notes stale candidates.
+- **Weekly** (`@sunday` Workshop Metabolism): Ephemeral artifacts cleared, files older than 30 days surfaced, proposals triaged.
+- **Seasonally** (`@spring-clean`): Deep archaeology for what metabolism missed.
+
+**Default stance for floor artifacts: release.** Spirit created them, Spirit can propose releasing them. Most floor artifacts served their moment. Not everything needs to become an essence — only high-resonance synthesis should be distilled.
+
 ### The Self-Explaining Design
 
 **Floor follows same meta-file architecture:**

@@ -90,6 +90,24 @@ If an intention was only discussed but not acted on, note `Current focus` if it 
 
 ---
 
+### Phase 3.5: Artifact Lifecycle Tagging
+
+*The moment of creation is the best time to determine an artifact's lifecycle.*
+
+For each artifact created or significantly modified this session (floor files, desk files, proposals, drafts), tag its lifecycle intent:
+
+| Tag | Meaning | Example |
+|-----|---------|---------|
+| **Ephemeral** | Served this session only. Release on next summoning or Sunday sweep. | Working memory checkpoint, intermediate synthesis |
+| **Active** | Tied to an in-flight intention. Lifecycle tracks the intention. | Sprint proposal, intention-specific working file |
+| **Reference** | Durable value across sessions. Keep until explicitly released. | Summoning echo, capability map, session synthesis |
+
+Record these tags in the release bundle's "What Changed" section alongside each artifact path. One word per artifact — this is lightweight.
+
+**Why this matters:** Artifacts created without lifecycle awareness accumulate indefinitely. Tagging at creation enables the Sunday metabolic sweep (`@sunday`) and summoning staleness detection to process them efficiently. The workshop metabolizes continuously — release is where metabolism begins.
+
+---
+
 ### Phase 4: Write the Release Bundle
 
 Write to `floor/briefings/latest.md`. Overwrite whatever is there.
@@ -113,7 +131,7 @@ Write to `floor/briefings/latest.md`. Overwrite whatever is there.
 
 **What Changed** (field-level specifics):
 - For each intention file touched: what fields changed
-- For each artifact created or significantly modified: its path and what it is
+- For each artifact created or significantly modified: its path, what it is, and lifecycle tag (ephemeral/active/reference) from Phase 3.5
 - Not narrative — specific enough that Spirit can update its mental model without reading the files
 
 **Practice Signal** (from Phase 2):

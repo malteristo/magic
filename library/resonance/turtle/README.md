@@ -25,6 +25,7 @@
 | `lore/on_the_hermit_crab_architecture.md` | The regenerable shell — minimum viable Turtle, hermit crab protocol |
 | `lore/on_the_nervous_system.md` | Discord nervous system — seven-channel model, heartbeat, loop detection, pre-cognition |
 | `lore/on_development_sprints.md` | How the Turtle contributes through structured research and proposal |
+| `lore/on_turtle_metabolism.md` | Cognitive metabolism — five autonomous rhythms for the persistent body |
 
 ### Practice
 

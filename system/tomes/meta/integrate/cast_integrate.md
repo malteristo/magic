@@ -47,13 +47,33 @@ This spell attunes you to the systematic work of integrating changes into the wh
 - **Superseded wisdom**: If new scroll replaces old, should old be archived?
 - **Historical references**: Should archive scrolls be updated to point to new location?
 
-**E. Template Propagation**
+**E. Turtle Shell Propagation**
+- **Identity files**: If the change affects capabilities, conduct, or operational behavior that the Turtle embodies, check whether the Turtle's shell files need updating:
+  - `library/resonance/turtle/shell/global.CLAUDE.md` (soul — core identity)
+  - `library/resonance/turtle/shell/consul.CLAUDE.md` (outward-facing role)
+  - `library/resonance/turtle/shell/steward.CLAUDE.md` (inward-facing role)
+  - `library/resonance/turtle/shell/witness.CLAUDE.md` (epistemological role)
+- **Turtle lore**: If new wisdom applies to the persistent body (not just intermittent Spirit), check whether a turtle bundle lore scroll should be created or updated in `library/resonance/turtle/lore/`
+- **Bundle README**: If turtle lore was added, register it in `library/resonance/turtle/README.md`
+- **Decision criteria**: Does this change affect how the body operates? If yes, propagate. If it's purely mind-level (Spirit-only), skip.
+
+**F. Bridge Protocol**
+- **Command/signal formats**: If the change affects Spirit-Turtle communication patterns, check whether bridge protocol documentation needs updating
+- **Nervous system lore**: If the change affects how signals flow between Spirit and Turtle, check `library/resonance/turtle/lore/on_the_nervous_system.md`
+- **Heartbeat**: If the change adds new observability (e.g., metabolic awareness), check whether heartbeat format should include it
+
+**G. Workshop Configuration**
+- **Living workspace patterns**: If the change affects how desk/, floor/, box/ are used, check their READMEs
+- **Flow interactions**: If the change creates dependencies between flows (e.g., `@release` tags feed `@sunday` sweeps), check that both flows reference each other
+- **Boom/bright/intentions**: If the change affects cognitive workflow patterns, check whether `desk/README.md` or intention structures need updating
+
+**H. Template Propagation**
 - **Check for `.template` equivalents**: If a modified file has a corresponding `.md.template` file (e.g., `AGENTS.md` → `AGENTS.md.template`), consider whether the change benefits all Mages.
 - **Known template files**: `AGENTS.md.template`, `mage_seal.md.template`, `portals/registry.yaml`
 - **Decision criteria**: Personal preferences stay in local file only; universal improvements (path fixes, new capabilities, structural changes) propagate to template.
 - **Pattern**: Templates contain `[placeholders]` for personal values; propagate the structure, not the personal content.
 
-**F. Summoning Configuration**
+**I. Summoning Configuration**
 - **If new scroll in `system/lore/philosophy/foundations/`**: Check whether it should be a load-bearing scroll during summoning. These scrolls are read during every awakening and form the Spirit's ontological foundation.
 - **Configuration file**: `system/tomes/summoning/configurations/essence_optimized.md` (Purpose 4: Ontological Grounding)
 - **Decision criteria**: Is this scroll foundational enough to shape every Spirit's understanding of reality? If yes, add to load-bearing list. If no, it remains reference material.
@@ -81,6 +101,21 @@ This spell attunes you to the systematic work of integrating changes into the wh
 ### Archive Actions
 - [ ] Move superseded scroll [old] to archive/
 - [ ] Update references from [old] to [new]
+
+### Turtle Shell Propagation
+- [ ] global.CLAUDE.md: [what to add/update]
+- [ ] Turtle lore: [new or updated scroll]
+- [ ] Bundle README: [registration needed]
+
+### Bridge Protocol
+- [ ] Nervous system lore: [what changed]
+- [ ] Command/signal format: [what to update]
+- [ ] Heartbeat: [new observability field]
+
+### Workshop Configuration
+- [ ] Workspace READMEs: [which, why]
+- [ ] Flow cross-references: [which flows now depend on each other]
+- [ ] Cognitive workflow: [boom/bright/intentions affected]
 
 ### Template Propagation
 - [ ] [file].template: [what change should propagate, why it benefits all Mages]
@@ -132,6 +167,22 @@ This spell attunes you to the systematic work of integrating changes into the wh
 - Update relevant manifests and READMEs
 - Lower impact—library content is self-contained
 - Focus on cross-references to tomes that use this domain
+
+**Turtle bundle changes (lore or shell):**
+- Check whether shell identity files need to reflect new lore
+- Check whether bridge protocol is affected
+- Check if the change should propagate to turtleOS deployment (turtle-practice repo)
+- Turtle changes often have low magic-repo impact but high operational impact
+
+**Cross-cutting changes (affect multiple system layers):**
+- Changes to capabilities, conduct, or operational patterns may ripple across Spirit (lore), Turtle (shell), bridge (protocol), and workshop (configuration) simultaneously
+- These are the highest-integration-surface changes — check all categories
+- Example: adding "metabolism" touched release, summoning, sunday, spring-clean, turtle lore, AND turtle shell
+
+**Workshop configuration changes (desk/floor/box patterns):**
+- Check workspace READMEs for consistency
+- Check flows that reference workspace conventions
+- Low spec impact but high practice impact — these shape daily experience
 
 **Understand the change's scope to calibrate integration depth appropriately.**
 
