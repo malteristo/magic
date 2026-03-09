@@ -26,6 +26,7 @@
 | `lore/on_the_nervous_system.md` | Discord nervous system — seven-channel model, heartbeat, loop detection, pre-cognition |
 | `lore/on_development_sprints.md` | How the Turtle contributes through structured research and proposal |
 | `lore/on_turtle_metabolism.md` | Cognitive metabolism — five autonomous rhythms for the persistent body |
+| `lore/on_turtle_probes.md` | Irreducible abilities — tend, offer, discern, protect, report — the five body operations |
 
 ### Practice
 
