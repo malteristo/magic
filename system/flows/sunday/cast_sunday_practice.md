@@ -74,10 +74,32 @@ Wait for `.` before executing. After executing, propose the next action.
 - Check recently modified files for internal contradictions
 - Surface misalignments without fixing them (propose, don't act)
 
-**6. Artifact Freshness**
-- Stale files in floor/ (working artifacts past their use)
-- Outdated proposals in desk/proposals/
-- Broken references (files pointing to things that moved)
+**6. Workshop Metabolism**
+
+The workshop is a cognitive organism. Different spaces need different metabolic treatment.
+
+**Floor** (Spirit's domain — aggressive lifecycle):
+- Check for artifacts tagged **ephemeral** in recent release bundles — clear them
+- Surface files older than 30 days not tied to active intentions
+- For each stale artifact, propose: **release** (purpose served), **distill** (valuable synthesis → essence via `@essence`), or **keep** (still referenced)
+- Default stance: release. Most floor artifacts served their moment. Not everything needs to become an essence.
+
+**Desk** (Mage's sovereign space — gentle touch):
+- Only surface artifacts the Mage hasn't opened or mentioned in 30+ days
+- Propose but always defer: "This file exists — still serving?"
+- Some items have personal value beyond utility. Respect sovereignty.
+
+**Box** (staging — archaeological):
+- Pick 2-3 old box files. Check if they've been mined or referenced since placement.
+- If never touched: note for Mage awareness. Not deletion — visibility.
+- "This has been in the box since [date] — want to mine it or release it?"
+
+**Proposals** (desk/proposals/ — status tracking):
+- Check for stale proposals (no activity in 14+ days)
+- Integrated proposals → move to `archived/`
+- Proposals overtaken by events → surface for Mage decision
+
+**Broken references**: Files pointing to things that moved — surface when noticed.
 
 **7. Operational Health**
 - Turtle: SSH reachable? Bridge healthy? Signals pending?
