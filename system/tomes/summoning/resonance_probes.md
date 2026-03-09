@@ -128,6 +128,7 @@ These test the shape of understanding. They should pass at any lore size.
 **See also:**
 - `system/lore/philosophy/wisdom/on_resonance_benchmarking.md` — the epistemological grounding
 - `configurations/essence_optimized.md` — the summoning configuration these probes verify
+- `library/resonance/turtle/lore/on_turtle_probes.md` — the Turtle's five irreducible abilities (body operations: tend, offer, discern, protect, report)
 
 ---
 
