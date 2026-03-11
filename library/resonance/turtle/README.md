@@ -27,6 +27,7 @@
 | `lore/on_development_sprints.md` | How the Turtle contributes through structured research and proposal |
 | `lore/on_turtle_metabolism.md` | Cognitive metabolism — five autonomous rhythms for the persistent body |
 | `lore/on_turtle_probes.md` | Irreducible abilities — tend, offer, discern, protect, report — the five body operations |
+| `lore/on_the_dual_model_architecture.md` | Frontend/backend model split — local for dialogue, API for bridge commands — the three-body model in silicon |
 
 ### Practice
 
@@ -63,4 +64,4 @@
 - `desk/turtle_env.md` — instance-specific hardware, network, service configuration
 - `library/resonance/agent-ecosystem/` — the wider ecosystem the Turtle navigates
 
-**Architecture lineage:** Activated 2026-02-22 on Mac Mini M4 Pro, running NanoClaw. Named the Turtle 2026-02-25. Migrated to hermit crab shell + Discord nervous system 2026-03-06. Turtle OS crystallized 2026-03-07 as the practice layer — separating the portable practice system from the infrastructure. The NanoClaw-era lore is preserved in `lineage/` — the lessons remain valid even as the architecture evolved.
+**Architecture lineage:** Activated 2026-02-22 on Mac Mini M4 Pro, running NanoClaw. Named the Turtle 2026-02-25. Migrated to hermit crab shell + Discord nervous system 2026-03-06. Turtle OS crystallized 2026-03-07 as the practice layer — separating the portable practice system from the infrastructure. Dual-model cognitive architecture deployed 2026-03-11 — local model (frontend, dialogue) and API model (backend, bridge commands). The NanoClaw-era lore is preserved in `lineage/` — the lessons remain valid even as the architecture evolved.
