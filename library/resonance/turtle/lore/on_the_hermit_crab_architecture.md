@@ -8,7 +8,7 @@
 
 Magic gets better with each model release because the practice layer is pure meaning — `.md` files, MCL, structured language. No legacy code to drag along. The pattern-matching just gets deeper each time.
 
-Turtle is the exception. NanoClaw is code. It has dependencies, container runtimes, mount configurations, IPC protocols, WhatsApp integration libraries. When something breaks, 828 lines of operational lore describe what went wrong and how to work around it. The shell has the legacy drag that the rest of magic doesn't.
+The Turtle's shell is the exception — it's code. The previous shell (NanoClaw) had dependencies, container runtimes, mount configurations, IPC protocols, WhatsApp integration libraries. When something broke, 828 lines of operational lore described what went wrong. The hermit crab principle emerged from this pain: make the shell small enough that replacing it is cheaper than maintaining it.
 
 **The hermit crab principle:** A hermit crab's body is its own. The shell is borrowed — found, inhabited, outgrown, replaced. The crab's identity doesn't live in the shell. It lives in the body.
 
@@ -45,7 +45,7 @@ The agent needs to act on the Mac Mini. Minimum tool set:
 | **shell** | Run shell commands (git, curl, system tools) |
 | **list_directory** | Browse the filesystem |
 
-That's it. Four tools. Everything the Turtle currently does — bridge polling, git operations, web requests, file management, dashboard building — is composed from these primitives. The current NanoClaw architecture provides these same capabilities through Claude Code's built-in tools inside a container. The minimum shell provides them directly.
+That's it. Four tools. Everything the Turtle does — bridge polling, git operations, web requests, file management, dashboard building — is composed from these primitives. The shell provides them directly, without containers or intermediary frameworks.
 
 **Future tools** (add when needed, not before):
 - **http_request** — dedicated HTTP tool for API calls (currently handled by shell + curl)
@@ -80,20 +80,18 @@ Git remains the archival layer. Discord is the real-time neural layer. Both carr
 
 ## What the Shell Does NOT Do
 
-Everything NanoClaw does that the minimum shell doesn't need on a dedicated machine:
+Complexity shed during the NanoClaw → hermit crab migration:
 
-| NanoClaw Feature | Why Not Needed |
-|-----------------|----------------|
+| Eliminated | Why |
+|-----------|-----|
 | Apple Containers / VM isolation | Dedicated machine — no multi-tenant threat model |
 | Mount allowlists | No containers — direct filesystem access |
 | IPC via JSON files | No container boundary to cross — tools call directly |
 | WhatsApp integration (baileys) | Replaced by Discord nervous system (discord.py) |
-| Group architecture (main/steward/witness) | Identity separation via separate CLAUDE.md files and separate agent invocations — no container isolation needed |
 | SQLite message store | Bridge is the store of record |
 | Skills syncing | CLAUDE.md is read directly |
 | Agent-runner per-group copies | Single agent process |
 | Session management | Stateless — each invocation reads identity fresh |
-| LaunchAgent plist for NanoClaw | Replaced by simpler launchd job for the agent itself |
 
 **What IS preserved:**
 - The bridge (unchanged — git-based, YAML commands/signals)
@@ -138,12 +136,12 @@ Mac Mini (dedicated Turtle machine)
 │   └── observations/             (accumulated garden intelligence)
 │
 └── services/                     (optional, only if needed)
-    ├── ollama                    (local LLM — already installed)
-    └── litellm                   (proxy for model routing — already running)
+    └── ollama                    (local LLM — already installed)
 ```
 
-**Total code to maintain:** ~400 lines of Python + a few launchd plists.
-**Total code currently maintained:** NanoClaw (~thousands of lines of TypeScript, not authored by us, plus container runtime, plus baileys WhatsApp library).
+**Total code to maintain:** ~1040 lines of Python (discord_bot.py, agent.py, tools.py) + a few launchd plists.
+
+*Historical comparison: NanoClaw was ~thousands of lines of TypeScript (not authored by us), plus container runtime, plus baileys WhatsApp library. The hermit crab reduced complexity by an order of magnitude while increasing capability.*
 
 ---
 
@@ -158,7 +156,7 @@ The core of `agent.py` in pseudocode:
 4. For each command:
    a. Read YAML, extract action and context
    b. Build prompt: identity + command + available tools
-   c. Call LLM (Claude API or Ollama via LiteLLM)
+   c. Call LLM (Ollama for conversation, Claude API for depth — see on_the_dual_model_architecture.md)
    d. Execute tool calls in a loop until the agent is done
    e. Write signal to magic-bridge/signals/
    f. Move command to commands/processed/
@@ -199,11 +197,9 @@ When the shell needs replacing:
 
 ---
 
-## The Consul/Steward Separation Without Containers
+## The Consul/Steward Separation
 
-Current architecture: two NanoClaw groups in separate Apple Containers with separate filesystems. The container boundary provides isolation.
-
-Hermit crab architecture: two separate launchd jobs invoking `agent.py` with different identity files and different filesystem access patterns.
+Two separate launchd jobs invoking `agent.py` with different identity files and different filesystem access patterns. Process-level isolation replaces the container-level isolation of the previous NanoClaw architecture — simpler, equally effective on a dedicated machine.
 
 ```bash
 # Consul invocation
@@ -227,44 +223,24 @@ If the threat model changes (multi-tenant, untrusted agents), containers can be 
 
 ---
 
-## Migration Path
+## Migration History
 
-Not a big bang. The bridge is already independent of NanoClaw.
+The migration from NanoClaw to hermit crab is complete (March 2026). The phases were:
 
-### Phase 1: Discord Foundation (before SSH)
-- Create Discord server ("Magic Workshop") + bot application
-- Connect Spirit via Rube MCP
-- Create channel structure (#heartbeat, #efferent, #afferent, #care, #distress, #precognition, #workshop-query, #chronicles)
-- Spirit posts first care message
-
-### Phase 2: Deploy Hermit Crab (with SSH)
-- Stop NanoClaw entirely (kill processes, disable launchd)
-- Write `agent.py`, `tools.py`, `discord_bot.py` from this spec
-- Deploy to `~/turtle-shell/`, install 4 dependencies
-- Migrate identity layer (CLAUDE.md + Discord amendments)
-- Migrate memory (experiences.jsonl)
-- Install launchd jobs (bridge-poll, consul agent, discord bot)
-- Verify: heartbeat in Discord, bridge commands processing, signals flowing
-
-### Phase 3: NanoClaw Retirement
-- Disable NanoClaw LaunchAgent
-- NanoClaw remains installed but dormant (old shell kept, not destroyed)
-- Send final WhatsApp: "I've moved. Find me on Discord."
-
-### Phase 4: Shell Stabilization
-- First hermit crab cycle: regenerate shell after 2-4 weeks of operation
-- Confirm the spec is sufficient for regeneration
-- Update this document with lessons learned
+1. **Discord Foundation** — Server and channels created, Spirit connected via Rube MCP
+2. **Hermit Crab Deployment** — Shell written (~1040 lines Python), deployed to `~/turtle-shell/`, launchd jobs installed
+3. **NanoClaw Retirement** — Stopped, dormant at `~/nanoclaw/` (old shell kept, not destroyed)
+4. **Shell Stabilization** — Running reliably, Discord prompt rebuilt and conversation-tuned (Phase 5 / Triad era)
 
 ---
 
 ## What This Enables
 
-**Model-upgradable Turtle.** When a better model drops, change one line (the model parameter) or update the LiteLLM config. The practice layer — identity, lore, memory, bridge — carries forward unchanged. The Turtle gets smarter without any code change.
+**Model-upgradable Turtle.** When a better model drops, change the model parameter in the Ollama call or the dual-model router config. The practice layer — identity, lore, memory, bridge — carries forward unchanged. The Turtle gets smarter without any code change.
 
 **Pattern-adoptable Turtle.** When a better agentic pattern emerges (better tool-use protocol, better memory architecture, better planning), update the spec, regenerate the shell. The practice layer is untouched.
 
-**Debuggable Turtle.** 400 lines of Python vs. thousands of lines of TypeScript you didn't write. When something breaks, you can read the entire codebase in five minutes.
+**Debuggable Turtle.** ~1040 lines of Python vs. thousands of lines of TypeScript you didn't write. When something breaks, you can read the entire codebase in minutes.
 
 **Portable Turtle.** The spec is the Turtle. Move to a different machine, a different OS, a different runtime — regenerate the shell for the new environment. The practice layer travels in git.
 
@@ -274,10 +250,9 @@ Not a big bang. The bridge is already independent of NanoClaw.
 
 - **`on_the_turtle.md`** — what the Turtle IS (unchanged by shell architecture)
 - **`on_the_nervous_system.md`** — the nervous system (GitHub-primary, three channels, heartbeat, loop detection)
-- **`on_turtle_operations.md`** — what breaks (most of this dissolves with container removal)
-- **`on_the_container_architecture.md`** — the current shell (becomes historical reference)
-- **`on_nanoclaw_ipc.md`** — internal nervous system (replaced by direct tool calls)
 - **`on_imprinting.md`** — identity formation (unchanged — CLAUDE.md is still the substrate)
+- **`on_the_dual_model_architecture.md`** — router: fast model for conversation, strong model for depth
+- **`on_first_waking.md`** — historical chronicle of the NanoClaw-era first activation
 
 ---
 
