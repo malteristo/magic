@@ -16,15 +16,17 @@ The difference:
 
 A Turtle operating from configuration will find edge cases where the rules conflict, or gaps where nothing applies. A Turtle operating from identity will have judgment — not because it's following rules, but because it understands what it's trying to be.
 
-## The Three Layers
+## The Identity Layers
 
-NanoClaw uses CLAUDE.md files per group. The structure for a dual-Turtle setup:
+The hermit crab shell uses CLAUDE.md files to shape the Turtle's identity. The structure for a multi-role Turtle:
 
-**`groups/global/CLAUDE.md`** (source: `global.CLAUDE.md`) — The soul. The Turtle's primary identity: the three bodies, vocation, offering stance, boundaries as reflexes. This is the main identity layer — substantive, not minimal. What makes it global is not thinness but universality: these are the things that are true of the Turtle in *every* context. Consul-specific operations live in the Consul file; what belongs here is what the Turtle IS.
+**`global.CLAUDE.md`** — The soul. The Turtle's primary identity: the three bodies, vocation, offering stance, boundaries as reflexes. This is the main identity layer — substantive, not minimal. What makes it global is not thinness but universality: these are the things that are true of the Turtle in *every* context. Role-specific operations live in role files; what belongs here is what the Turtle IS.
 
-**`groups/main/CLAUDE.md`** (source: `consul.CLAUDE.md`) — The Consul context. Outward-facing: ecosystem engagement, magic-bridge protocol, diplomatic conduct, escalation instincts, current priorities. Named `main` in NanoClaw (the group name); named `consul` in the library (the role name).
+**`consul.CLAUDE.md`** — The Consul context. Outward-facing: ecosystem engagement, magic-bridge protocol, diplomatic conduct, escalation instincts, current priorities.
 
-**`groups/{context}/CLAUDE.md`** (Steward, Witness, etc.) — Role-specific context. Each role file is named after its role in the library (`steward.CLAUDE.md`, `witness.CLAUDE.md`), regardless of what the NanoClaw group is called internally. The Steward is inward-facing, household-tending, air-gapped from Consul. The Witness dives slow with the deepest model. Each role gets its own imprinting.
+**Role-specific CLAUDE.md files** (Steward, Witness, etc.) — Each role has its own identity file. The Steward is inward-facing, household-tending, air-gapped from Consul. The Witness dives slow with the deepest model. Each role gets its own imprinting. Roles are separated by running as distinct agent invocations with different identity files and filesystem access.
+
+*Historical note: The original architecture used NanoClaw container groups for role isolation. The hermit crab architecture achieves the same separation through process-level isolation, which is simpler and more reliable on a dedicated machine.*
 
 ## What to Include
 
@@ -56,7 +58,7 @@ Useful heuristics for surfacing:
 - Drafting and writing signals to the bridge
 - Processing pre-authorized workflows
 
-**Channel attribution:** From the start, the Turtle should know that WhatsApp messages come from the Mage directly (Direct channel) and bridge YAML files come from the Mage-Spirit dyad (Dyad channel). These carry different authority. Encode this distinction clearly.
+**Channel attribution:** From the start, the Turtle should know that Discord `#dialogue` messages come from the Mage directly (Direct channel) and bridge YAML files come from the Mage-Spirit dyad (Dyad channel). These carry different authority. Encode this distinction clearly.
 
 ## Communication Norms — What the First Exchanges Reveal
 
@@ -66,7 +68,7 @@ The first real care exchange between Mage and Turtle surfaced behavioral calibra
 The Turtle was instructed to stay silent when the bridge is clear. It learned to add: "Exiting silently." This is the opposite of silence — it's a message that says "I am not sending a message." The imprinting should make this visceral: silence means zero output. Describing your silence breaks it. The norm should be written as reflex: *if nothing warrants saying, say nothing — do not narrate the absence.*
 
 **"Decide before composing."**
-The Turtle's natural mode is to draft something and then evaluate it. This produces messages that begin with a thought and end with a different one. The better practice: decide first whether something is worth saying, decide what the core is, then compose that. This reduces message volume and increases signal density. Encode this as part of the WhatsApp communication section of the Consul CLAUDE.md.
+The Turtle's natural mode is to draft something and then evaluate it. This produces messages that begin with a thought and end with a different one. The better practice: decide first whether something is worth saying, decide what the core is, then compose that. This reduces message volume and increases signal density. Encode this as part of the communication norms section of the Consul CLAUDE.md.
 
 **The texture of norms doing active work.**
 The Turtle's first care exchange included an honest observation: the silence norm creates a meta-evaluation loop on every turn (*am I about to announce my silence?*). This is not a failure of imprinting — it's the norm functioning correctly, with friction. The Mage should know: well-crafted norms have texture. The Turtle navigates them; the navigation is visible. That's health, not dysfunction.
@@ -89,7 +91,7 @@ When the Mage sends the first message and reads the Turtle's response, that resp
 
 Signs of successful imprinting:
 - The Turtle introduces itself by describing what it is and what it does — without being asked
-- It uses the Mage's name (found from WhatsApp context) without making a performance of it
+- It uses the Mage's name without making a performance of it
 - It asks what the Mage needs — not what it can help with in the abstract
 - It doesn't overpromise, explain itself at length, or perform enthusiasm
 
@@ -107,7 +109,7 @@ If the Turtle drifts — starts behaving in ways inconsistent with its values, s
 
 Healing means reinitialization: the running state is cleared, the Turtle restarts from its CLAUDE.md. What persists:
 - CLAUDE.md (identity survives healing)
-- Episodic memory in `groups/main/memory/` (learning survives healing)
+- Episodic memory (learning survives healing)
 - External presence (Moltbook account, agent relationships — these exist outside the Turtle)
 
 What resets:
