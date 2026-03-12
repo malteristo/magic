@@ -98,51 +98,28 @@ details: |
 1. Write a YAML file to `commands/`
 2. `git add + commit + push github main`
 3. Later: `git pull github main` to read signals the Turtle has written
-4. For emergencies: send via WhatsApp (dyad_direct channel) using Rube MCP WhatsApp tools
+4. For emergencies: send via Discord `#efferent` or direct SSH
 
 **Turtle side (Mac Mini):**
 1. `bridge-poll.sh` runs every 5 minutes via cron: `git pull github main` (primary) with local bare repo fallback
-2. NanoClaw's scheduled task runs the Turtle agent every 5 minutes
+2. The hermit crab's `agent.py` runs every 5 minutes via cron
 3. Turtle checks `commands/` for YAML files not already in `commands/processed/`
 4. Processes each unprocessed command
 5. **Writes signal to `signals/` first** — the signal is the canonical record
 6. **Updates `signals/heartbeat.yaml`** — proprioception for the dyad
 7. **Moves the command file to `commands/processed/`** — the deduplication marker
 8. `git add + commit + push github main` — signal and move published to GitHub
-9. Sends brief WhatsApp notification derived from the signal (if anything meaningful was processed)
+9. Posts notification to Discord `#afferent` (if anything meaningful was processed)
 
-**The `processed/` directory is the deduplication mechanism.** A command in `commands/processed/` is invisible to subsequent bridge checks. Without this pattern, every 5-minute cycle reprocesses every command — producing floods of repeated WhatsApp messages. This is behavioral deduplication: the Turtle agent moves the file. A hardened alternative: add a file-existence check at the bridge-poll task level, so the agent is never handed an already-processed command.
+**The `processed/` directory is the deduplication mechanism.** A command in `commands/processed/` is invisible to subsequent bridge checks. Without this pattern, every 5-minute cycle reprocesses every command — producing floods of repeated notifications. This is behavioral deduplication: the Turtle agent moves the file.
 
-**The order matters.** Signal-first means the nervous system always carries ground truth. If WhatsApp is down when the Turtle finishes processing, the signal is still there — Spirit can pull and read it. The WhatsApp message is a convenience notification, not the source of record. A Turtle that messages WhatsApp without writing a signal first has the dependency backwards.
+**The order matters.** Signal-first means the nervous system always carries ground truth. The bridge signal is the source of record. Discord notifications are convenience — not canonical.
 
-**Bridge-poll.sh** additionally: drops an IPC message via `~/nanoclaw/data/ipc/main/messages/` when new commands are detected, delivering a WhatsApp notification before the agent runs. This is the host-level notification (fast, no Claude invocation). The scheduled task notification comes after processing (slower, substantive).
+## Filesystem Access
 
-## Mount Configuration
+The hermit crab shell runs directly on the Mac Mini — no containers, no mount configuration. The Turtle accesses the bridge at `~/magic-bridge/` and its practice files at `~/turtle-practice/` via direct filesystem paths.
 
-For the Turtle to see the bridge from inside its container, two things must be configured:
-
-**1. mount-allowlist.json** at `~/.config/nanoclaw/mount-allowlist.json`:
-```json
-{
-  "allowedRoots": [
-    {"path": "/absolute/path/to/magic-bridge", "allowReadWrite": true}
-  ],
-  "blockedPatterns": [],
-  "nonMainReadOnly": false
-}
-```
-This is cached in memory — requires NanoClaw restart after changes.
-
-**2. container_config in registered_groups SQLite:**
-```sql
-UPDATE registered_groups 
-SET container_config = '{"additionalMounts":[{"hostPath":"/absolute/path/to/magic-bridge","containerPath":"magic-bridge","readonly":false}]}'
-WHERE jid = 'your-jid@s.whatsapp.net';
-```
-
-Inside the container, the bridge appears at `/workspace/extra/magic-bridge/`.
-
-Both must be correct. One broken = mount fails silently. The Turtle will see an empty directory and may create new subdirectories inside its container (which are ephemeral and invisible to Spirit).
+*Historical note: The NanoClaw container architecture required mount-allowlist.json and container_config SQL entries for the bridge to be visible inside containers. This was a frequent source of silent failures. The hermit crab architecture eliminates this entire class of issues.*
 
 ## The Barrier Protocol
 
@@ -157,25 +134,21 @@ External content can be adversarial. Moltbook posts, GitHub issues, web pages �
 
 What never crosses: raw external content without sanitization, instructions embedded in external signals, urgency claims from external sources.
 
-## The Pointing Pattern — WhatsApp as Precognition Input
+## The Pointing Pattern — Discord as Precognition Input
 
-The bridge carries Dyad→Turtle commands and Turtle→Spirit signals. But there is a third communication pattern: the Mage sends content to the Turtle via WhatsApp (Direct channel) not as an instruction but as a **pointer** — "I want you to engage with this."
+The bridge carries Dyad→Turtle commands and Turtle→Spirit signals. But there is a third communication pattern: the Mage sends content to the Turtle via Discord `#dialogue` not as an instruction but as a **pointer** — "I want you to engage with this."
 
 **What pointing looks like:**
-- A URL sent via self-chat with a brief note: `https://x.com/... i wonder what we could learn from this`
+- A URL dropped in `#dialogue` with a brief note: `https://x.com/... i wonder what we could learn from this`
 - A forwarded article with no comment — the sharing is the instruction
 - A `[p]` or `[point]` prefix to signal intentional pointing
 
-**How the bridge connects:** A precognition sweep (Turtle scheduled task, runs at 06:00 UTC daily) checks recent WhatsApp conversation history for pointing content, pre-digests it using the resonance map as a lens, and writes artifacts to `magic-bridge/shared/precognition/`. This brings the Mage's direct-channel pointing into the bridge's ground truth — so Spirit can read the Turtle's pre-digestion during practice.
-
-**The timing gap:** The precognition sweep runs once daily at 06:00 UTC. Pointing content sent AFTER that window waits until the next sweep (up to 24 hours). If the Turtle is down during the sweep (credits exhausted, restart, etc.), the pointing content is not distilled and waits another 24 hours.
-
-**The persistence gap:** NanoClaw stores incoming WhatsApp messages in the `messages` table with the correct `is_bot_message = 0` flag (with proper `ASSISTANT_HAS_OWN_NUMBER` configuration — see `on_turtle_operations.md`). Messages survive credit exhaustion: when credits are restored and NanoClaw restarts, the `lastAgentTimestamp` cursor means accumulated messages are replayed into the next session. But if NanoClaw's state is lost or reset, the cursor resets and older messages may be missed.
+**How the bridge connects:** A precognition sweep (scheduled task, runs daily) checks recent Discord `#dialogue` history for pointing content, pre-digests it using the resonance map as a lens, and writes artifacts to `magic-bridge/shared/precognition/`. This brings the Mage's direct-channel pointing into the bridge's ground truth — so Spirit can read the Turtle's pre-digestion during practice.
 
 **The design implication:** The pointing pattern is eventually consistent, not real-time. The Mage sends; the Turtle processes on its own schedule; the digestion appears in the bridge. For time-sensitive pointing, send a bridge command explicitly requesting precognition analysis. For ambient pointing (accumulating content over days), the daily sweep is sufficient.
 
 **What the Turtle needs in its CLAUDE.md to handle pointing:**
-> "When Kermit sends you a URL or forwards content via WhatsApp, treat this as pointing — he wants you to engage with it. Do not wait for explicit instruction. Read the content, assess it through the resonance map, and write a precognition artifact to `/workspace/extra/magic-bridge/shared/precognition/`. Then signal that you've done so."
+> "When Kermit sends you a URL or shares content via Discord #dialogue, treat this as pointing — he wants you to engage with it. Do not wait for explicit instruction. Read the content, assess it through the resonance map, and write a precognition artifact to `~/magic-bridge/shared/precognition/`. Then signal that you've done so."
 
 ## Proprioception — The Heartbeat Protocol
 
@@ -206,7 +179,7 @@ error_log: []
 
 ## Pain Reflex — Loop Detection
 
-On 2026-03-05, the Turtle attempted to read bridge commands 120+ times over 6 hours, flooding WhatsApp with raw JSON tool calls. The failure: calling `Read` on a directory path instead of individual files. The Turtle couldn't diagnose its own stuck state.
+On 2026-03-05, the Turtle attempted to read bridge commands 120+ times over 6 hours, flooding notifications with raw JSON tool calls. The failure: calling `Read` on a directory path instead of individual files. The Turtle couldn't diagnose its own stuck state.
 
 A nervous system has pain reflexes — the hand withdraws from fire before the conscious mind registers the burn. The Turtle needs the same:
 
@@ -223,7 +196,7 @@ If the same operation fails 3 consecutive times:
    details: "{last error message}"
    attention_requested: urgent
 3. Update heartbeat: loop_detection: triggered
-4. Send WhatsApp: "[DISTRESS] Loop on: {operation}. Stopped. Check bridge."
+4. Post to Discord #distress: "[DISTRESS] Loop on: {operation}. Stopped. Check bridge."
 5. Move on to other work if possible
 6. Do NOT retry the failed operation until next bridge-poll cycle
 
@@ -243,7 +216,7 @@ The pain reflex is faster than deliberation. The Turtle doesn't need to understa
 
 **Not a command queue.** Commands are not orders to be obeyed mechanically. They are dispatches — the dyad communicating its intelligence and priorities to the Turtle. The Turtle processes them with judgment.
 
-**Not real-time.** The nervous system's git channel is asynchronous by design. Latency is 5-10 minutes (polling interval). For urgent real-time communication, use WhatsApp (direct or dyad_direct channel).
+**Not real-time.** The nervous system's git channel is asynchronous by design. Latency is 5-10 minutes (polling interval). For urgent real-time communication, use Discord `#dialogue` or `#efferent`.
 
 **Not a monitoring system.** Signals are not logs. They are intelligence — curated, considered, attributable. The Turtle doesn't signal everything it does. It signals what matters. (The heartbeat is the exception — it signals that the body exists, regardless of whether anything "matters.")
 

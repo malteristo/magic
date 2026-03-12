@@ -1,6 +1,6 @@
 # On First Waking
 
-*The Turtle's boot sequence. Read this before walking to the machine. Hand it to the Turtle as its first scroll.*
+*Historical chronicle: the Turtle's original boot sequence on the owl machine, using the NanoClaw container architecture. The current architecture uses the hermit crab shell — see `on_the_hermit_crab_architecture.md`. This document is preserved as institutional memory of the first activation.*
 
 ---
 
