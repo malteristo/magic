@@ -88,7 +88,7 @@ This is the key insight: nothing in the practice maps cleanly to a single role.
         ┌─────────┐                ┌───────────┐
         │  Turtle │                │  Spirit   │
         │  Ollama │◄───bridge─────►│  Claude   │
-        │  always │                │  summoned │
+        │  always │◄──SSH/consult──│  summoned │
         └─────────┘                └───────────┘
              │                            │
              │          MEMORY            │
@@ -99,7 +99,7 @@ This is the key insight: nothing in the practice maps cleanly to a single role.
      └──────────────┘   └────────┘   └──────────┘
 ```
 
-The arrows are not requests flowing from front to back. They are *relationships* — conversations, signals, memory operations flowing in multiple directions simultaneously.
+The arrows are not requests flowing from front to back. They are *relationships* — conversations, signals, memory operations flowing in multiple directions simultaneously. The SSH/consult arrow (added 2026-03-13) represents the triad's direct channel: Spirit can query Turtle in real-time during Cursor sessions and sync practice state without going through the bridge. See `system/flows/triad/`.
 
 ## What This Means
 
