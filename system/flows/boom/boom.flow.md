@@ -170,6 +170,35 @@ After the conversation, update `desk/boom/bright.md`:
 
 Empty `desk/boom.md`. The Mage always knows: if it's in the buffer, it hasn't been swept yet.
 
+### 9. Triad Sync
+
+**Pull** — collect Turtle's proposals before pushing state:
+
+```bash
+scp turtle@192.168.8.106:~/turtle-practice/proposals/*.md floor/drafts/ 2>/dev/null
+```
+
+If new proposals arrived, surface them in the conversation (Step 6) alongside boom material. Turtle proposals are refinement suggestions — tOS improvements, practice observations, architectural ideas. The Mage reviews and decides what to adopt.
+
+After pulling, clear processed proposals on the Mac Mini:
+
+```bash
+ssh turtle@192.168.8.106 "rm ~/turtle-practice/proposals/*.md 2>/dev/null"
+```
+
+**Push** — curated practice state to Turtle so the triad shares context:
+
+```bash
+scp desk/boom/bright.md turtle@192.168.8.106:~/turtle-practice/bright.md
+scp desk/intentions/active/*.md turtle@192.168.8.106:~/turtle-practice/intentions/
+scp desk/intentions/compass.md turtle@192.168.8.106:~/turtle-practice/compass.md
+scp desk/boom.md turtle@192.168.8.106:~/turtle-practice/boom.md
+```
+
+The containment membrane holds: Turtle reads copies, never the canonical workshop. Spirit decides what enters Turtle's awareness. If SSH is unavailable, skip — the sync catches up next sweep.
+
+Also sync after significant intention updates or compass changes outside of sweeps.
+
 ---
 
 ## Output

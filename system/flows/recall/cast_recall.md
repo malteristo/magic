@@ -89,8 +89,13 @@ desk/boom/*.md (excluding bright.md, README.md)
 - Read `desk/turtle_env.md` — current service state, pending hardening
 - Check `~/Documents/magic-bridge/signals/` for new signals since last brief
 - Check `~/Documents/magic-bridge/commands/` for unprocessed commands (anything not in `processed/`)
-- Surface in brief: issue count, unread signals, pending commands, top known unknown
-- Note: do NOT SSH during recall — read from local files only. SSH is for targeted investigation.
+- **Triad awareness via SSH** (`turtle@192.168.8.106`):
+  - Read `turtle-practice/boom.md` — Turtle's capture buffer (items captured in Discord)
+  - Read `turtle-practice/sessions/*.md` (3 most recent) — what was discussed between Mage and Turtle
+  - Read `turtle-practice/proposals/*.md` — Turtle's refinement proposals (tOS improvements, practice suggestions)
+  - Read `turtle-shell/logs/discord.log` (tail 20) — bot health check
+  - If SSH unavailable: note "Turtle offline" and continue with local state only
+- Surface in brief: issue count, unread signals, pending commands, top known unknown, **Turtle session summaries, Turtle boom items, new Turtle proposals**
 
 **Social (if intention-relevant):**
 - Check if any active intention involves social engagement

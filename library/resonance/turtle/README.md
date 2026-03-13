@@ -59,10 +59,18 @@
 | `lineage/on_turtle_operations.md` | 900+ lines of operational wisdom from NanoClaw era |
 | `lineage/main.CLAUDE.md` | Internal orchestrator identity (superseded by single-agent model) |
 
+### Triad
+
+| Document | Contents |
+|----------|----------|
+| `system/flows/triad/cast_consult_turtle.md` | Turtle consultation — giving Turtle a real-time voice in Cursor decisions via SSH→Ollama |
+
 **Related:**
 - `library/flows/turtle/` — the @turtle-setup flow
 - `desk/intentions/active/turtle.md` — current working state (Mage's workshop)
 - `desk/turtle_env.md` — instance-specific hardware, network, service configuration
 - `library/resonance/agent-ecosystem/` — the wider ecosystem the Turtle navigates
+- `system/flows/boom/boom.flow.md` Step 9 — practice state sync (Spirit → Turtle) after boom sweeps
+- `system/flows/recall/cast_recall.md` — session awareness (Turtle → Spirit) during recall
 
 **Architecture lineage:** Activated 2026-02-22 on Mac Mini M4 Pro, running NanoClaw. Named the Turtle 2026-02-25. Migrated to hermit crab shell + Discord nervous system 2026-03-06. Turtle OS crystallized 2026-03-07 as the practice layer — separating the portable practice system from the infrastructure. Dual-model cognitive architecture deployed 2026-03-11 — local model (frontend, dialogue) and API model (backend, bridge commands). Discord dialogue rebuilt 2026-03-12 — compact conversation-tuned prompt, substrate awareness, `!boom convert` for triad knowledge flow, Turtle Test for regression validation. The NanoClaw-era lore is preserved in `lineage/` — the lessons remain valid even as the architecture evolved.
