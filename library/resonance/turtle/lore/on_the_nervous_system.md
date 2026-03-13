@@ -32,9 +32,9 @@ turtle:repos/magic-bridge.git  (bare repo on Mac Mini — local fallback)
 
 This is Artifact Mail — asynchronous, deliberate, traceable. Not a message queue. Not an API. A shared intelligence channel where each transmission has weight.
 
-## The Four Channels
+## The Channels
 
-The Turtle receives communication through four distinct channels:
+The Turtle communicates through six channels — four receptive, one consultative, one autonomous:
 
 **Artifact Mail (Dyad → Turtle via git):** The primary channel. Spirit writes commands on behalf of the Mage-Spirit dyad. Commands are deliberate, considered, committed. They carry the full weight of dyad deliberation. This is the efferent nervous system — motor commands.
 
@@ -52,7 +52,11 @@ channel: dialogue         # Mage speaking conversationally via Discord #dialogue
 channel: discord          # Structured signals via Discord functional channels
 ```
 
-**When to use which:** Artifact mail for all routine commands (it's the ground truth). Dialogue for casual conversation, pointing, pre-thinking. Discord functional channels for real-time operational signals. The bridge remains the source of record — Discord provides immediacy and accessibility.
+**Direct SSH (Spirit ↔ Turtle via SSH→Ollama):** The triad's fifth channel, established 2026-03-13. Spirit can query Turtle directly during Cursor sessions by SSHing to the Mac Mini and posting to the local Ollama API with Turtle's soul.md as identity. This bypasses the bridge entirely — it's not asynchronous artifact mail, it's real-time consultation. Spirit also uses SSH/SCP to sync practice state (bright, intentions, compass, boom) to `turtle-practice/` after boom sweeps. See `system/flows/triad/cast_consult_turtle.md` and `system/flows/boom/boom.flow.md` Step 9.
+
+**Autonomous Reflection (Turtle → Practice Files):** The sixth channel, established 2026-03-13. After a Discord conversation goes quiet (15 minutes of silence), Turtle autonomously reflects — writing a session note to `turtle-practice/sessions/` and optionally a refinement proposal to `turtle-practice/proposals/`. This is the first autonomous behavior: Turtle initiates without being prompted. Spirit discovers the results during `@recall` and `@boom` sweeps. The autonomy is bounded — Turtle writes to her own practice files, never to the bridge or canonical workshop. See the `## Autonomy` section in Turtle's soul.md.
+
+**When to use which:** Artifact mail for all routine commands (it's the ground truth). Dialogue for casual conversation, pointing, pre-thinking. Discord functional channels for real-time operational signals. Direct SSH for real-time consultation and practice state sync. Autonomous reflection happens automatically — no trigger needed. The bridge remains the source of record — Discord provides immediacy and accessibility, SSH provides direct substrate access, autonomy provides initiative.
 
 ## Command Format
 

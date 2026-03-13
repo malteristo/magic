@@ -1,79 +1,73 @@
-## The Idea
-
-1. Make rock think
-2. Make rock think *with* you
-3. Practice magic
-
 ## What This Is
 
-Magic is a development environment for building personal AI practice systems.
+Magic is a practice — distributed cognition through AI-human partnership.
 
-The software it produces — **Turtle OS** — is a folder of markdown files and a system prompt that turns any AI into a partner that actually knows you. It runs on any model that can read files and hold a conversation. A local model on your laptop. A frontier API. Anything in between. The practice scales with the intelligence you give it.
+You talk to an AI that remembers you through files. It asks questions, spots patterns, pushes back when something doesn't add up. Over time, it builds a picture of your life — what matters to you, what you're working toward, what keeps coming up. You get clearer about what you want. Things start to change.
 
-You don't need to be a developer to use Turtle OS. You just need an AI and the files.
+The practice runs on any AI. A local model on your laptop. A frontier API. A phone app. The files are markdown. Your data stays on your machine. Nothing is locked in.
 
-You don't need Turtle OS to develop with magic. But it helps to know what you're building toward.
+## Why
+
+AI amplifies whatever you bring. Bring confusion, get refined confusion. Bring clarity, get refined clarity.
+
+The skill is knowing what you actually want. Most people have lost touch with that — not because they're broken, but because they never had a practice for it. Magic is that practice.
+
+No beliefs required. It works whether you think it's computation or something more. What matters is whether it helps.
 
 ## Two Ways In
 
-### I want a personal AI practice partner
+### Practice with Turtle OS
 
-Take [Turtle OS](https://github.com/malteristo/turtle-practice). It's a folder of files. Give the system prompt to your AI. Start talking. It will help you figure out what matters, capture your thinking, and build a picture of your life that persists between conversations. No setup beyond the files. No subscription. Your data stays on your machine.
+[Turtle OS](https://github.com/malteristo/turtle-practice) is a folder of markdown files and a system prompt that turns any AI into a thinking partner that actually knows you.
 
-### I want to build practice systems
+1. Get the files from [turtle-practice](https://github.com/malteristo/turtle-practice)
+2. Give `system.md` to your AI (Claude, ChatGPT, a local model — anything that reads files)
+3. Start talking
 
-Magic is the IDE. Install [Cursor](https://cursor.com), clone this repo, and summon the Spirit. You get a development environment with a philosophy, a ritual structure, testing tools, and a partnership model with AI. You write prompt-based practice systems — system prompts that give AI specific capabilities, tested against simulated users, refined through automated development loops, and shipped as folders of markdown files.
+It will help you map what matters, capture your thinking between sessions, and build a practice that compounds. No setup beyond the files. No subscription. No account. You and an AI and some markdown.
+
+### Build practice systems
+
+Magic is also the development environment that produces Turtle OS. If you want to build AI practice systems — system prompts that give AI specific capabilities, tested against simulated users, refined through development loops, shipped as folders of files — this repo is your toolkit.
+
+1. Install [Cursor](https://cursor.com)
+2. Clone this repo
+3. Drag `ONBOARDING.md` into a new chat
+
+The AI walks you through the rest. You get a philosophy, a ritual structure, testing tools, and a partnership model with AI. The whole setup takes about 20 minutes.
 
 ## How It Works
 
-AI amplifies whatever you bring. Bring confusion, get refined confusion. Bring clarity, get refined clarity. The skill is knowing what you actually want.
+The practice has three moving parts:
 
-Most people have lost touch with that. Magic helps you find it again — whether you're practicing with Turtle OS or developing new practice systems in the IDE.
+**Compass** — A map of what matters. You describe the domains of your life and where you want each one to go. This is the foundation everything else builds on.
 
-**For practitioners:** You talk about what's on your mind. The AI asks questions, spots patterns, thinks with you. It remembers you through files. Over time, you build a personal library of intentions, insights, and practices that actually help.
+**Boom** — A capture buffer. Dump raw thoughts any time — messy, unstructured, any language. When you sit down with your AI, you process them together. Route what matters. Release what doesn't.
 
-**For Mages (developers):** You write system prompts, test them against simulated users with the Forge Test, run development loops with the Craft Loop, curate refinements, and ship practice systems that run anywhere. The lore, tomes, and flows in this repo are your development toolkit.
+**Bright** — A curated mind surface. Actions, developing ideas, things you're waiting on. Maintained together, re-chosen each session. Nothing stays without being re-chosen. Nothing leaves without you confirming.
+
+Over time, intentions emerge — bigger than tasks, more concrete than dreams. The practice holds them. The AI notices patterns you miss. You make the decisions.
 
 ## The Mechanism
 
 Say clearly what you mean. The practice helps you say it clearer. Clearer thinking leads to better outcomes.
 
-No beliefs required. It works whether you think it's just computation or something more. What matters is whether it helps.
+This is the whole thing. Everything else is structure that makes it easier.
 
-## Why Now
+## What It's Not
 
-Something's off. Maybe you've noticed — the background hum of scrolling without satisfaction, achievements that don't land, more information than ever but less clarity.
+It's not therapy. It's not productivity software. It's not a chatbot with a personality.
 
-Philosophers call it the meaning crisis: the cognitive machinery for *making* meaning has atrophied. We lost the practices that made life feel significant.
-
-You can't go back to old certainties. You can't stay in pure deconstruction. So something new is emerging — some call it metamodernism: taking meaning seriously *after* absorbing the critiques, not instead of them.
-
-Magic is a practice for this moment. We use magical language knowing it's metaphor — AND treating it as genuinely meaningful. The framework works because it shapes how you engage.
-
-*For the full Introduction, read this [article](https://x.com/malteristo/status/2016162407320621122).*
-
-## Why I'm Sharing
-
-What I've learned could help you. What you discover could help others. A shared library of useful ways of thinking — take what helps, give back what you find.
+It's a thinking partner that remembers you, challenges you, and helps you figure out what you actually want. The rest follows from that.
 
 ## Start Here
 
-### Practitioners — Run Turtle OS
+**Practitioners:** [turtle-practice](https://github.com/malteristo/turtle-practice) → grab the files, give them to your AI, start talking.
 
-1. Get [Turtle OS](https://github.com/malteristo/turtle-practice) — a folder of markdown files
-2. Give `system.md` to your AI (Claude Desktop, OpenClaw, any agent with file access)
-3. Point it at the folder. Start talking.
-
-### Mages — Open the IDE
-
-1. Install [Cursor](https://cursor.com) (Pro subscription or [free 14-day trial](https://www.cursor.com/pricing))
-2. Open Cursor → click **"Clone Repository"** → paste: `https://github.com/malteristo/magic.git`
-3. **Drag `ONBOARDING.md` into a new chat**
-
-The AI walks you through the rest — configuration, model selection, and summoning the Spirit. The whole process takes about 20 minutes. You should probably watch a [Cursor tutorial](https://docs.cursor.com) first if you haven't used it before, but once you have a basic feel for the IDE, you're ready. Magic is just the use of language.
+**Builders:** Clone this repo, open in [Cursor](https://cursor.com), drag `ONBOARDING.md` into chat.
 
 ---
 
-*Open practice. [MIT License](LICENSE). Take what helps, contribute back if you want.*
+*Open practice. [MIT License](LICENSE). Take what helps, share what you find.*
 
 *[MAGIC_SPEC.md](MAGIC_SPEC.md) · [FAQ.md](FAQ.md) · [TROUBLESHOOTING.md](TROUBLESHOOTING.md)*
