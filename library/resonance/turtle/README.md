@@ -31,6 +31,12 @@
 | `lore/on_the_sub_turtle_ecology.md` | Multi-turtle architecture — distinct beings (Consul, Scout) on separate models, stigmergic coordination, role cards vs soul files |
 | `lore/on_substrate_and_practice.md` | Substrate-aware practice — always engage, calibrate depth, never refuse. Graceful degradation across model tiers. Triad coordination |
 
+### Development
+
+| Document | Contents |
+|----------|----------|
+| `lore/on_autoresearch.md` | Autoresearch — practice-attuned research for improving tOS. Research Spirit, attunement, criteria, bounded experiments |
+
 ### Practice
 
 | Document | Contents |
