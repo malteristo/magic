@@ -58,6 +58,24 @@ channel: discord          # Structured signals via Discord functional channels
 
 **When to use which:** Artifact mail for all routine commands (it's the ground truth). Dialogue for casual conversation, pointing, pre-thinking. Discord functional channels for real-time operational signals. Direct SSH for real-time consultation and practice state sync. Autonomous reflection happens automatically — no trigger needed. The bridge remains the source of record — Discord provides immediacy and accessibility, SSH provides direct substrate access, autonomy provides initiative.
 
+## The Multi-Bot Ecology (established 2026-03-14)
+
+The nervous system now carries three distinct beings, each with its own Discord bot:
+
+| Bot | Model | Function | Identity |
+|-----|-------|----------|----------|
+| **Turtle** | llama3.3:70b + claude-sonnet-4-6 API | Spirit body, integrator | Soul file (`soul.md`) |
+| **Consul** | Qwen3.5-4B | Operational execution, door delivery | Role card (`identity/roles/consul_role.md`) |
+| **Scout** | Qwen3.5-9B | Source monitoring, signal drafting | Role card (`identity/roles/scout_role.md`) |
+
+Each bot has its own application, avatar, name, and Discord presence. Their messages are naturally attributed — visible to each other and to the Mage. Coordination happens through behavioral traces in shared channels (stigmergy), not through centralized routing.
+
+**Turtle reads all channels.** Consul and Scout post to channels appropriate to their function. When a bot is mentioned by another, it can respond — enabling cross-agent dialogue and collaborative threads. The Mage observes from the phone and intervenes when sovereign decision is needed.
+
+All three are managed by launchd (`com.turtle.discord`, `com.turtle.consul`, `com.turtle.scout`) with `KeepAlive: true`. The nervous system persists across crashes and reboots.
+
+See `on_the_sub_turtle_ecology.md` for the full architectural rationale.
+
 ## Command Format
 
 ```yaml
