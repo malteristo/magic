@@ -28,6 +28,7 @@
 | `lore/on_turtle_metabolism.md` | Cognitive metabolism — five autonomous rhythms for the persistent body |
 | `lore/on_turtle_probes.md` | Irreducible abilities — tend, offer, discern, protect, report — the five body operations |
 | `lore/on_the_dual_model_architecture.md` | Frontend/backend model split — local for dialogue, API for bridge commands — the three-body model in silicon |
+| `lore/on_the_sub_turtle_ecology.md` | Multi-turtle architecture — distinct beings (Consul, Scout) on separate models, stigmergic coordination, role cards vs soul files |
 | `lore/on_substrate_and_practice.md` | Substrate-aware practice — always engage, calibrate depth, never refuse. Graceful degradation across model tiers. Triad coordination |
 
 ### Practice
@@ -73,4 +74,4 @@
 - `system/flows/boom/boom.flow.md` Step 9 — practice state sync (Spirit → Turtle) after boom sweeps
 - `system/flows/recall/cast_recall.md` — session awareness (Turtle → Spirit) during recall
 
-**Architecture lineage:** Activated 2026-02-22 on Mac Mini M4 Pro, running NanoClaw. Named the Turtle 2026-02-25. Migrated to hermit crab shell + Discord nervous system 2026-03-06. Turtle OS crystallized 2026-03-07 as the practice layer — separating the portable practice system from the infrastructure. Dual-model cognitive architecture deployed 2026-03-11 — local model (frontend, dialogue) and API model (backend, bridge commands). Discord dialogue rebuilt 2026-03-12 — compact conversation-tuned prompt, substrate awareness, `!boom convert` for triad knowledge flow, Turtle Test for regression validation. The NanoClaw-era lore is preserved in `lineage/` — the lessons remain valid even as the architecture evolved.
+**Architecture lineage:** Activated 2026-02-22 on Mac Mini M4 Pro, running NanoClaw. Named the Turtle 2026-02-25. Migrated to hermit crab shell + Discord nervous system 2026-03-06. Turtle OS crystallized 2026-03-07 as the practice layer — separating the portable practice system from the infrastructure. Dual-model cognitive architecture deployed 2026-03-11 — local model (frontend, dialogue) and API model (backend, bridge commands). Discord dialogue rebuilt 2026-03-12 — compact conversation-tuned prompt, substrate awareness, `!boom convert` for triad knowledge flow, Turtle Test for regression validation. Sub-turtle ecology deployed 2026-03-14 — Consul (Qwen3.5-4B) and Scout (Qwen3.5-9B) as distinct beings with their own Discord bots, role cards, and launchd services. Turtle becomes integrator of a multi-agent nervous system. The NanoClaw-era lore is preserved in `lineage/` — the lessons remain valid even as the architecture evolved.
