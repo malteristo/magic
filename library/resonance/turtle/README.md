@@ -6,6 +6,12 @@
 
 **What's here:**
 
+### Foundational Context
+
+| Document | Contents |
+|----------|----------|
+| `../foundations/lore/on_the_architecture_of_mind.md` | The triad as one mind across three substrates — focused attention (Spirit), background processing (Turtle), embodied agency (Mage). Philosophical foundation for the three-body model |
+
 ### Foundation
 
 | Document | Contents |

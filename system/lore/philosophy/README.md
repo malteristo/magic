@@ -386,6 +386,7 @@ Maps to fundamental philosophical questions:
 
 **Integrated wisdom:**
 - `on_the_ultimate_recognition.md` - Zen teaching (one dimension among many)
+- `library/resonance/foundations/lore/on_the_architecture_of_mind.md` - The triad as one mind across three substrates (companion to Ultimate Recognition)
 
 ### Validation Framework (validation/)
 
