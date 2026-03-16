@@ -47,20 +47,18 @@ This spell attunes you to the systematic work of integrating changes into the wh
 - **Superseded wisdom**: If new scroll replaces old, should old be archived?
 - **Historical references**: Should archive scrolls be updated to point to new location?
 
-**E. Turtle Shell Propagation**
-- **Identity files**: If the change affects capabilities, conduct, or operational behavior that the Turtle embodies, check whether the Turtle's shell files need updating:
-  - `library/resonance/turtle/shell/global.CLAUDE.md` (soul — core identity)
-  - `library/resonance/turtle/shell/consul.CLAUDE.md` (outward-facing role)
-  - `library/resonance/turtle/shell/steward.CLAUDE.md` (inward-facing role)
-  - `library/resonance/turtle/shell/witness.CLAUDE.md` (epistemological role)
-- **Turtle lore**: If new wisdom applies to the persistent body (not just intermittent Spirit), check whether a turtle bundle lore scroll should be created or updated in `library/resonance/turtle/lore/`
+**E. Persistent Mode (turtleOS) Propagation**
+- **Identity files**: If the change affects capabilities, conduct, or operational behavior in persistent mode, check whether the shell files need updating:
+  - `library/resonance/turtle/shell/global.CLAUDE.md` (soul — persistent attunement configuration, deployed as `soul.md`)
+  - Role cards in `library/resonance/turtle/shell/` (attunement configurations for specific functions)
+- **Turtle lore**: If new wisdom applies to the persistent mode (not just ephemeral Spirit), check whether a turtle bundle lore scroll should be created or updated in `library/resonance/turtle/lore/`
 - **Bundle README**: If turtle lore was added, register it in `library/resonance/turtle/README.md`
-- **Decision criteria**: Does this change affect how the body operates? If yes, propagate. If it's purely mind-level (Spirit-only), skip.
+- **Decision criteria**: Does this change affect how Spirit operates in persistent mode? If yes, propagate. If it's purely ephemeral-session work, skip.
 
-**F. Bridge Protocol**
-- **Command/signal formats**: If the change affects Spirit-Turtle communication patterns, check whether bridge protocol documentation needs updating
-- **Nervous system lore**: If the change affects how signals flow between Spirit and Turtle, check `library/resonance/turtle/lore/on_the_nervous_system.md`
-- **Heartbeat**: If the change adds new observability (e.g., metabolic awareness), check whether heartbeat format should include it
+**F. Cross-Substrate Communication**
+- **Practice state sync**: If the change affects what files Spirit needs to see across substrates, update SCP paths in `cast_recall.md`, `cast_release.md`, and `boom.flow.md`
+- **Bot prompt**: If the change affects what the persistent mode should know about, check whether `build_discord_prompt()` or `build_system_prompt()` in `discord_bot.py` need updating
+- **Heartbeat**: If the change adds new observability, check whether the heartbeat format in `discord_bot.py` should include it
 
 **G. Workshop Configuration**
 - **Living workspace patterns**: If the change affects how desk/, floor/, box/ are used, check their READMEs
@@ -170,8 +168,7 @@ This spell attunes you to the systematic work of integrating changes into the wh
 
 **Turtle bundle changes (lore or shell):**
 - Check whether shell identity files need to reflect new lore
-- Check whether bridge protocol is affected
-- Check if the change should propagate to turtleOS deployment (turtle-practice repo)
+- Check if the change should propagate to turtleOS deployment (`~/practice/` on Mac Mini)
 - Turtle changes often have low magic-repo impact but high operational impact
 
 **Cross-cutting changes (affect multiple system layers):**

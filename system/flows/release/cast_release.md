@@ -166,6 +166,19 @@ Ask: were any of the following created or significantly changed this session?
 
 ---
 
+### Phase 5.5: Sync Practice State to Turtle
+
+Push current practice state so Turtle sees fresh context:
+
+```bash
+scp desk/boom.md turtle@[redacted-lan-ip]:~/practice/boom.md
+scp desk/boom/bright.md turtle@[redacted-lan-ip]:~/practice/bright.md
+scp desk/intentions/compass.md turtle@[redacted-lan-ip]:~/practice/compass.md
+scp desk/intentions/active/*.md turtle@[redacted-lan-ip]:~/practice/intentions/
+```
+
+If SSH fails, note "Turtle sync deferred" and continue. Not blocking.
+
 ### Phase 6: Offer to Commit
 
 After writing the release bundle, check:

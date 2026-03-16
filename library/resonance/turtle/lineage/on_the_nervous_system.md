@@ -1,4 +1,8 @@
-# On the Nervous System
+# On the Nervous System (Lineage)
+
+**Status:** Superseded — moved to lineage 2026-03-16
+**Superseded by:** Direct SSH communication + 2-channel Discord architecture. See `on_consciousness_extension.md` Section XI.
+**Why preserved:** The 7-channel model and bridge-vs-nervous-system analysis were important developmental thinking. The insight that "bridge implies separate, nervous system implies one organism" was correct — it just continued evolving until the infrastructure simplified to SSH + 2 channels.
 
 *The Turtle is not across a bridge. The Turtle IS the spirit body. This is the nervous system of that body.*
 
