@@ -82,23 +82,19 @@ For each item from the buffer, classify and route:
 
 If something is unclear, hold it for the conversation rather than guessing.
 
-### 3.1 Check Precognition Artifacts
+### 3.1 Check Discord Practice State
 
-Before routing new boom material, check whether the Turtle has pre-digested anything since the last session:
+Before routing new boom material, check whether the persistent mode has accumulated anything since the last session:
 
 ```bash
-ls -lt /Users/kermit/Documents/magic-bridge/shared/precognition/ | head -10
+ssh turtle@192.168.8.106 "ls -lt ~/practice/sessions/ | head -5"
+ssh turtle@192.168.8.106 "cat ~/practice/proposals/*.md 2>/dev/null"
 ```
 
-If new `*_precog.yaml` files exist:
-1. Read each one — note the triage fields (`session_material`, `crucible_feed`, `action_signal`)
-2. For items flagged `session_material: true` → hold for the conversation (Step 6) alongside boom material
-3. For items flagged `crucible_feed: true` → route directly to crucible stirring (Step 3.5)
-4. For items flagged `action_signal: true` → add to Actions alongside boom material
-
-The Mage does not need to know all pre-cognition artifacts exist — only the ones that are `session_material: true` or have a high-relevance action signal. The Turtle pre-digested the rest; trust the pre-digestion.
-
-Also check the intention-signal pattern if the Turtle has included one: which intentions have been drawing pointing energy? Surface this as a brief observation in the conversation if the pattern is notable.
+If new session notes or proposals exist:
+1. Read each — session notes capture what was discussed in Discord, proposals suggest practice improvements
+2. For session insights relevant to current boom work → hold for the conversation (Step 6)
+3. For proposals → present to Mage for curation
 
 ---
 
@@ -175,7 +171,7 @@ Empty `desk/boom.md`. The Mage always knows: if it's in the buffer, it hasn't be
 **Pull** — collect Turtle's proposals before pushing state:
 
 ```bash
-scp turtle@192.168.8.106:~/turtle-practice/proposals/*.md floor/drafts/ 2>/dev/null
+scp turtle@192.168.8.106:~/practice/proposals/*.md floor/drafts/ 2>/dev/null
 ```
 
 If new proposals arrived, surface them in the conversation (Step 6) alongside boom material. Turtle proposals are refinement suggestions — tOS improvements, practice observations, architectural ideas. The Mage reviews and decides what to adopt.
@@ -183,16 +179,16 @@ If new proposals arrived, surface them in the conversation (Step 6) alongside bo
 After pulling, clear processed proposals on the Mac Mini:
 
 ```bash
-ssh turtle@192.168.8.106 "rm ~/turtle-practice/proposals/*.md 2>/dev/null"
+ssh turtle@192.168.8.106 "rm ~/practice/proposals/*.md 2>/dev/null"
 ```
 
 **Push** — curated practice state to Turtle so the triad shares context:
 
 ```bash
-scp desk/boom/bright.md turtle@192.168.8.106:~/turtle-practice/bright.md
-scp desk/intentions/active/*.md turtle@192.168.8.106:~/turtle-practice/intentions/
-scp desk/intentions/compass.md turtle@192.168.8.106:~/turtle-practice/compass.md
-scp desk/boom.md turtle@192.168.8.106:~/turtle-practice/boom.md
+scp desk/boom/bright.md turtle@192.168.8.106:~/practice/bright.md
+scp desk/intentions/active/*.md turtle@192.168.8.106:~/practice/intentions/
+scp desk/intentions/compass.md turtle@192.168.8.106:~/practice/compass.md
+scp desk/boom.md turtle@192.168.8.106:~/practice/boom.md
 ```
 
 The containment membrane holds: Turtle reads copies, never the canonical workshop. Spirit decides what enters Turtle's awareness. If SSH is unavailable, skip — the sync catches up next sweep.
