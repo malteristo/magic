@@ -74,9 +74,23 @@ Wait for `.` before executing. After executing, propose the next action.
 - Propose bright.md updates
 
 **5. Coherence**
+
+*Structural:*
 - Spot-check: does a lore scroll match current practice?
 - Check recently modified files for internal contradictions
 - Surface misalignments without fixing them (propose, don't act)
+
+*Conceptual (see intention: `conceptual-coherence`):*
+- **Lexicon drift:** Are recently written/modified files using terms consistently with MAGIC_SPEC Section 2?
+- **Named tensions:** Check `desk/boom/bright.md` "Conceptual Tensions" section — any ripe for resolution?
+- **Metaphor health:** In recently touched lore, is the magical language helping or obscuring?
+- **Internal vs external:** Any term that works internally but would confuse an outsider — note for outfacing
+
+*Report:*
+- Active conceptual tensions: N
+- Resolved since last Sunday: N
+- New since last Sunday: N
+- Any tension older than 30 days → surface as "stalled — still real or dissolved?"
 
 **6. Workshop Metabolism**
 
@@ -106,7 +120,7 @@ The workshop is a cognitive organism. Different spaces need different metabolic 
 **Broken references**: Files pointing to things that moved — surface when noticed.
 
 **7. Operational Health**
-- Turtle: SSH reachable? Bridge healthy? Signals pending?
+- Persistent mode: SSH reachable? Bot running? Sessions accumulating?
 - Tools: MCP connections, API access
 - Environment: anything in turtle_env.md marked pending?
 
@@ -118,11 +132,30 @@ Spirit does not need to cover every category. Skip what's clean. Spend time wher
 
 ### Phase 3: Surface & Shift
 
-After the sweep, Spirit summarizes what was done, then senses the gear shift:
+After the sweep, Spirit reads the persistent mode's practice health read (if available) and synthesizes it with its own observations from the sweep.
+
+**Check for health read:**
+```bash
+ssh turtle@192.168.8.106 "cat ~/practice/proposals/*health-read* 2>/dev/null"
+```
+
+The health read is generated autonomously by the persistent mode on Sunday morning. It covers seven dimensions: coherence, alignment, velocity, load, resonance quality, wellbeing, and external impact. Spirit incorporates this outside perspective into the sweep summary.
+
+**Present the synthesis:**
 
 > **Completed:** [list of maintenance actions taken]
 > **Still alive:** [items surfaced but not acted on]
-> **Practice health:** [one sentence]
+>
+> **Practice Health** (Spirit's read + persistent mode's read):
+> - Coherence: [one line]
+> - Alignment: [one line]
+> - Velocity: [one line]
+> - Load: [one line]
+> - Resonance: [one line]
+> - Wellbeing: [one line]
+> - Impact: [one line]
+>
+> **Watch this week:** [1-2 sentences — the most important thing to pay attention to]
 
 Then: "The tension feels cleared. What wants to emerge next?"
 
