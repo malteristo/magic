@@ -71,6 +71,22 @@ Do not manufacture signal where there is none. The value of the practice is in h
 
 ---
 
+### Phase 2.5: Triage Dissonance
+
+*Dissonance named but not channeled accumulates. Every item from the reflection gets triaged before the session closes.*
+
+For each uncherished dissonance or sub-threshold signal surfaced in Phase 2, decide:
+
+- **Relieve now** — Small enough to address before closing. Fix it, update the file, note the resolution. Don't let thirty-second fixes ride as open threads.
+- **Channel forward** — Too substantial for now, but deserves dedicated attention. Goes into the release bundle's Open Threads with a clear next action. Optionally: drop it into boom for the next sweep.
+- **Release** — Naming it was enough. The act of seeing was the investment. No action needed.
+
+Present the triage to the Mage. Execute "relieve now" items immediately. The Mage may reclassify — a "channel forward" might become "actually, let's do that now" or "just release it."
+
+Nothing leaves the dissonance inventory in an ambiguous state.
+
+---
+
 ### Phase 3: Update Intention Files
 
 For each intention touched this session, update its file in `desk/intentions/active/`:
