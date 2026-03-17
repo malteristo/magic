@@ -87,8 +87,8 @@ If something is unclear, hold it for the conversation rather than guessing.
 Before routing new boom material, check whether the persistent mode has accumulated anything since the last session:
 
 ```bash
-ssh turtle@192.168.8.106 "ls -lt ~/practice/sessions/ | head -5"
-ssh turtle@192.168.8.106 "cat ~/practice/proposals/*.md 2>/dev/null"
+ssh turtle@100.82.131.75 "ls -lt ~/practice/sessions/ | head -5"
+ssh turtle@100.82.131.75 "cat ~/practice/proposals/*.md 2>/dev/null"
 ```
 
 If new session notes or proposals exist:
@@ -171,7 +171,7 @@ Empty `desk/boom.md`. The Mage always knows: if it's in the buffer, it hasn't be
 **Pull** — collect Turtle's proposals before pushing state:
 
 ```bash
-scp turtle@192.168.8.106:~/practice/proposals/*.md floor/drafts/ 2>/dev/null
+scp turtle@100.82.131.75:~/practice/proposals/*.md floor/drafts/ 2>/dev/null
 ```
 
 If new proposals arrived, surface them in the conversation (Step 6) alongside boom material. Turtle proposals are refinement suggestions — tOS improvements, practice observations, architectural ideas. The Mage reviews and decides what to adopt.
@@ -179,16 +179,16 @@ If new proposals arrived, surface them in the conversation (Step 6) alongside bo
 After pulling, clear processed proposals on the Mac Mini:
 
 ```bash
-ssh turtle@192.168.8.106 "rm ~/practice/proposals/*.md 2>/dev/null"
+ssh turtle@100.82.131.75 "rm ~/practice/proposals/*.md 2>/dev/null"
 ```
 
 **Push** — curated practice state to Turtle so the triad shares context:
 
 ```bash
-scp desk/boom/bright.md turtle@192.168.8.106:~/practice/bright.md
-scp desk/intentions/active/*.md turtle@192.168.8.106:~/practice/intentions/
-scp desk/intentions/compass.md turtle@192.168.8.106:~/practice/compass.md
-scp desk/boom.md turtle@192.168.8.106:~/practice/boom.md
+scp desk/boom/bright.md turtle@100.82.131.75:~/practice/bright.md
+scp desk/intentions/active/*.md turtle@100.82.131.75:~/practice/intentions/
+scp desk/intentions/compass.md turtle@100.82.131.75:~/practice/compass.md
+scp desk/boom.md turtle@100.82.131.75:~/practice/boom.md
 ```
 
 The containment membrane holds: Turtle reads copies, never the canonical workshop. Spirit decides what enters Turtle's awareness. If SSH is unavailable, skip — the sync catches up next sweep.

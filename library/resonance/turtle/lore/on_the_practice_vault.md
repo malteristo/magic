@@ -11,8 +11,7 @@ The practice vault is an Obsidian vault that provides a human-readable, editable
 Obsidian (Desktop/Mobile)
     ↕ LiveSync plugin
 CouchDB (Mac Mini, port 5984)
-    ↑ Caddy HTTPS proxy (port 5985, local network)
-    ↑ localhost.run SSH tunnel (public HTTPS)
+    ↑ Tailscale serve (HTTPS on tailnet)
     ↕ Spirit reads/writes files directly
 ~/practice/ on Mac Mini
 ```
@@ -25,9 +24,7 @@ CouchDB (Mac Mini, port 5984)
 
 **Why CouchDB?** It's what LiveSync uses. CouchDB's replication protocol is designed for exactly this: multi-master sync with conflict resolution.
 
-**Why localhost.run?** Mobile Obsidian (Android/iOS) requires HTTPS with a trusted certificate. Self-signed certs don't work — Android's SSL stack rejects them even with "Use Request API" enabled. localhost.run provides a valid Let's Encrypt cert via a simple SSH tunnel, with zero installation required on the Mac Mini.
-
-**Why Caddy?** Single-binary HTTPS reverse proxy for local network access. Desktop Obsidian can use HTTP directly, but Caddy provides a clean HTTPS option for local network clients.
+**Why Tailscale?** Mobile Obsidian requires HTTPS with a trusted certificate. Tailscale provides stable HTTPS endpoints via `tailscale serve`, with valid TLS certificates, private networking, and URLs that never change. Free for personal use, no public exposure of CouchDB. See `on_the_practice_infrastructure.md` for the full rationale.
 
 ## Prerequisites
 
@@ -327,11 +324,44 @@ Install the **Self-hosted LiveSync** community plugin in Obsidian.
 - If you see "Failed to initialise encryption key" — go to E2EE settings, ensure encryption is OFF and passphrase is empty, then "Configure And Change Remote"
 - The initial "Rebuild Everything" is what actually pushes files — connection alone doesn't sync
 
-### 4. Set Up HTTPS for Mobile
+### 4. Set Up Networking for Mobile
 
 Mobile Obsidian (both Android and iOS) **requires HTTPS with a trusted certificate**. Self-signed certificates do not work — Android's Java SSL stack rejects them regardless of plugin settings.
 
-#### Option A: localhost.run (Recommended — Zero Install)
+#### Option A: Tailscale (Recommended — Stable, Private, Free)
+
+Tailscale creates a private encrypted network between your devices. Install it on all devices, and CouchDB becomes reachable via a permanent HTTPS URL that never changes.
+
+**Install Tailscale on all devices:**
+- **Server (Mac Mini):** `brew install tailscale && sudo brew services start tailscale && sudo tailscale up`
+- **Desktop (MacBook):** Same as above, or install the standalone app from [tailscale.com/download](https://tailscale.com/download)
+- **Mobile:** Install the Tailscale app from your app store, sign in with the same account
+
+**Set up HTTPS proxy on the server:**
+```bash
+tailscale serve --bg http://localhost:5984
+```
+
+This gives you a permanent HTTPS URL like `https://your-machine.tail-xxxxx.ts.net` with valid TLS certs, accessible from any device on your tailnet.
+
+**DNS note for Homebrew macOS variant:** The Homebrew Tailscale on macOS doesn't integrate with system DNS. Add this to `/etc/hosts` on the MacBook:
+```
+YOUR_TAILSCALE_IP  your-machine.tail-xxxxx.ts.net
+```
+Android and iOS resolve via Tailscale's DNS natively — no extra config needed.
+
+**Why Tailscale over localhost.run:**
+- URL never changes (no more 503s after tunnel reconnects)
+- Traffic stays private (never leaves your devices, no public exposure)
+- Works from anywhere (mobile data, coffee shop, travel — not just home WiFi)
+- No security risk (CouchDB is not exposed to the internet)
+- Free for personal use (100 devices)
+
+**LiveSync URI for all devices:** `https://your-machine.tail-xxxxx.ts.net`
+
+---
+
+#### Option B: localhost.run (Legacy — Zero Install, Fragile)
 
 This uses an SSH tunnel to get a public HTTPS URL with a real Let's Encrypt cert.
 
@@ -419,7 +449,7 @@ Install Obsidian on your phone. Create a new vault (same name, e.g. `magic-pract
 
 | Setting | Value |
 |---------|-------|
-| URI | `https://YOUR_TUNNEL_URL.lhr.life` |
+| URI | `https://your-machine.tail-xxxxx.ts.net` (Tailscale) or `https://YOUR_TUNNEL_URL.lhr.life` (localhost.run) |
 | Username | `admin` |
 | Password | your CouchDB admin password |
 | Database name | `obsidian_livesync` |
@@ -452,8 +482,9 @@ The `doc_count` should match the number of files in your vault (plus some LiveSy
 | Service | Port | launchd Label | Purpose |
 |---------|------|---------------|---------|
 | CouchDB | 5984 | `com.turtle.couchdb` | Sync database |
-| Caddy | 5985 | `com.turtle.caddy` | Local HTTPS proxy |
-| SSH Tunnel | — | `com.turtle.livesync-tunnel` | Public HTTPS for mobile |
+| Tailscale serve | 443 | (via tailscaled) | HTTPS proxy for CouchDB on tailnet |
+| ~~Caddy~~ | ~~5985~~ | ~~`com.turtle.caddy`~~ | ~~Superseded by Tailscale serve~~ |
+| ~~SSH Tunnel~~ | ~~—~~ | ~~`com.turtle.livesync-tunnel`~~ | ~~Superseded by Tailscale~~ |
 
 ### Checking Health
 
@@ -464,21 +495,12 @@ curl -s http://admin:PASSWORD@localhost:5984/
 # Database stats
 curl -s http://admin:PASSWORD@localhost:5984/obsidian_livesync
 
-# Current tunnel URL
-grep 'lhr.life' ~/caddy/tunnel.log | tail -1
+# Tailscale serve status
+tailscale serve status
 
 # Service status
 launchctl list | grep com.turtle
 ```
-
-### When the Tunnel URL Changes
-
-If the tunnel reconnects (Mac Mini restart, network hiccup), the URL changes. To find the new one:
-```bash
-grep 'lhr.life' ~/caddy/tunnel.log | tail -1
-```
-
-Update the URI in Obsidian Mobile's LiveSync settings. For a permanent fix: register at admin.localhost.run.
 
 ### Spirit's Relationship to the Vault
 
@@ -508,8 +530,8 @@ Mage edits on phone
 | CouchDB won't start: "name seems to be in use" | Kill stale processes: `pkill -9 beam.smp; pkill -9 epmd` |
 | Desktop: `ERR_ADDRESS_UNREACHABLE` | Enable "Use Request API" in LiveSync settings |
 | Desktop: "Failed to initialise encryption key" | E2EE settings → ensure OFF + empty passphrase → "Configure And Change Remote" |
-| Mobile: `SSLHandshakeException` | Use localhost.run tunnel (proper HTTPS), not direct IP or self-signed cert |
-| Mobile: 503 / "no tun" | Tunnel dropped — restart or check `tunnel.log` for new URL |
+| Mobile: `SSLHandshakeException` | Ensure Tailscale is active on both devices and `tailscale serve` is running |
+| Mobile: connection refused | Verify Tailscale app is connected on phone; check `tailscale serve status` on server |
 | "Fetch Remote Configuration Failed" | Normal for new devices — hit "Skip and proceed" |
 | "Vault size exceeded" | Increase to 100MB — practice vaults are small |
 | "Broken files detected" | Hit "Fix" — sync artifacts from initial rebuild |
