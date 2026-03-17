@@ -48,6 +48,7 @@ This spell attunes you to the systematic work of integrating changes into the wh
 - **Historical references**: Should archive scrolls be updated to point to new location?
 
 **E. Persistent Mode (turtleOS) Propagation**
+- **TURTLE_SPEC.md**: If the change affects persistent mode behavior — session cycle, thread model, interoception, behavioral laws, boundaries, or cross-substrate coherence — check whether `library/resonance/turtle/TURTLE_SPEC.md` needs amendment. TURTLE_SPEC is derived law from MAGIC_SPEC; it must stay coherent with both.
 - **Identity files**: If the change affects capabilities, conduct, or operational behavior in persistent mode, check whether the shell files need updating:
   - `library/resonance/turtle/shell/global.CLAUDE.md` (soul — persistent attunement configuration, deployed as `soul.md`)
   - Role cards in `library/resonance/turtle/shell/` (attunement configurations for specific functions)
@@ -100,15 +101,16 @@ This spell attunes you to the systematic work of integrating changes into the wh
 - [ ] Move superseded scroll [old] to archive/
 - [ ] Update references from [old] to [new]
 
-### Turtle Shell Propagation
+### Turtle Propagation
+- [ ] TURTLE_SPEC.md: [what to amend — which section, why]
 - [ ] global.CLAUDE.md: [what to add/update]
 - [ ] Turtle lore: [new or updated scroll]
 - [ ] Bundle README: [registration needed]
 
-### Bridge Protocol
-- [ ] Nervous system lore: [what changed]
-- [ ] Command/signal format: [what to update]
-- [ ] Heartbeat: [new observability field]
+### Cross-Substrate Communication
+- [ ] Practice state sync paths: [files to add/update in SCP sync]
+- [ ] Bot prompt (discord_bot.py): [what the persistent mode should know about]
+- [ ] Diagnostics/interoception: [new observability to add]
 
 ### Workshop Configuration
 - [ ] Workspace READMEs: [which, why]
@@ -166,13 +168,14 @@ This spell attunes you to the systematic work of integrating changes into the wh
 - Lower impact—library content is self-contained
 - Focus on cross-references to tomes that use this domain
 
-**Turtle bundle changes (lore or shell):**
+**Turtle bundle changes (lore, shell, or TURTLE_SPEC):**
 - Check whether shell identity files need to reflect new lore
+- Check whether TURTLE_SPEC needs amendment for behavioral or structural changes
 - Check if the change should propagate to turtleOS deployment (`~/practice/` on Mac Mini)
 - Turtle changes often have low magic-repo impact but high operational impact
 
 **Cross-cutting changes (affect multiple system layers):**
-- Changes to capabilities, conduct, or operational patterns may ripple across Spirit (lore), Turtle (shell), bridge (protocol), and workshop (configuration) simultaneously
+- Changes to capabilities, conduct, or operational patterns may ripple across Spirit (lore), Turtle (shell/TURTLE_SPEC), cross-substrate communication (SSH/SCP), and workshop (configuration) simultaneously
 - These are the highest-integration-surface changes — check all categories
 - Example: adding "metabolism" touched release, summoning, sunday, spring-clean, turtle lore, AND turtle shell
 
