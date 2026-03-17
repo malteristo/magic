@@ -187,10 +187,10 @@ Ask: were any of the following created or significantly changed this session?
 Push current practice state so Turtle sees fresh context:
 
 ```bash
-scp desk/boom.md turtle@[redacted-lan-ip]:~/practice/boom.md
-scp desk/boom/bright.md turtle@[redacted-lan-ip]:~/practice/bright.md
-scp desk/intentions/compass.md turtle@[redacted-lan-ip]:~/practice/compass.md
-scp desk/intentions/active/*.md turtle@[redacted-lan-ip]:~/practice/intentions/
+scp desk/boom.md turtle@[redacted-ts-ip]:~/practice/boom.md
+scp desk/boom/bright.md turtle@[redacted-ts-ip]:~/practice/bright.md
+scp desk/intentions/compass.md turtle@[redacted-ts-ip]:~/practice/compass.md
+scp desk/intentions/active/*.md turtle@[redacted-ts-ip]:~/practice/intentions/
 ```
 
 If SSH fails, note "Turtle sync deferred" and continue. Not blocking.

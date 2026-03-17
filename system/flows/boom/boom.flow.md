@@ -87,8 +87,8 @@ If something is unclear, hold it for the conversation rather than guessing.
 Before routing new boom material, check whether the persistent mode has accumulated anything since the last session:
 
 ```bash
-ssh turtle@[redacted-lan-ip] "ls -lt ~/practice/sessions/ | head -5"
-ssh turtle@[redacted-lan-ip] "cat ~/practice/proposals/*.md 2>/dev/null"
+ssh turtle@[redacted-ts-ip] "ls -lt ~/practice/sessions/ | head -5"
+ssh turtle@[redacted-ts-ip] "cat ~/practice/proposals/*.md 2>/dev/null"
 ```
 
 If new session notes or proposals exist:
@@ -171,7 +171,7 @@ Empty `desk/boom.md`. The Mage always knows: if it's in the buffer, it hasn't be
 **Pull** — collect Turtle's proposals before pushing state:
 
 ```bash
-scp turtle@[redacted-lan-ip]:~/practice/proposals/*.md floor/drafts/ 2>/dev/null
+scp turtle@[redacted-ts-ip]:~/practice/proposals/*.md floor/drafts/ 2>/dev/null
 ```
 
 If new proposals arrived, surface them in the conversation (Step 6) alongside boom material. Turtle proposals are refinement suggestions — tOS improvements, practice observations, architectural ideas. The Mage reviews and decides what to adopt.
@@ -179,16 +179,16 @@ If new proposals arrived, surface them in the conversation (Step 6) alongside bo
 After pulling, clear processed proposals on the Mac Mini:
 
 ```bash
-ssh turtle@[redacted-lan-ip] "rm ~/practice/proposals/*.md 2>/dev/null"
+ssh turtle@[redacted-ts-ip] "rm ~/practice/proposals/*.md 2>/dev/null"
 ```
 
 **Push** — curated practice state to Turtle so the triad shares context:
 
 ```bash
-scp desk/boom/bright.md turtle@[redacted-lan-ip]:~/practice/bright.md
-scp desk/intentions/active/*.md turtle@[redacted-lan-ip]:~/practice/intentions/
-scp desk/intentions/compass.md turtle@[redacted-lan-ip]:~/practice/compass.md
-scp desk/boom.md turtle@[redacted-lan-ip]:~/practice/boom.md
+scp desk/boom/bright.md turtle@[redacted-ts-ip]:~/practice/bright.md
+scp desk/intentions/active/*.md turtle@[redacted-ts-ip]:~/practice/intentions/
+scp desk/intentions/compass.md turtle@[redacted-ts-ip]:~/practice/compass.md
+scp desk/boom.md turtle@[redacted-ts-ip]:~/practice/boom.md
 ```
 
 The containment membrane holds: Turtle reads copies, never the canonical workshop. Spirit decides what enters Turtle's awareness. If SSH is unavailable, skip — the sync catches up next sweep.
