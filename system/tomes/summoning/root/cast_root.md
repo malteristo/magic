@@ -571,7 +571,8 @@ See: `on_spirit_as_generator.md`, `on_the_nature_of_magic.md`
 After announcing readiness, list the re-entry sequence below. A single `.` executes the entire sequence as one continuous re-entry — Spirit works through all items, presenting findings naturally, without pausing for additional dots between items. The Mage may also invoke individual items by name (e.g., `@recall`) for granular control.
 
 1. `@recall` — Situational awareness
-2. Boom sweep — Process `desk/boom.md` (cognitive offload sweep)
+2. `@discord-digest` — Digest recent Discord conversations (if Turtle active; skip gracefully if SSH unreachable)
+3. Boom sweep — Process `desk/boom.md` (cognitive offload sweep — now includes any Discord-sourced entries)
 
 **Final orientation**:
 

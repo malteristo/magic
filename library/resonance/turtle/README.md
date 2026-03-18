@@ -36,7 +36,7 @@
 
 | Document | Contents |
 |----------|----------|
-| `lore/on_the_practice_server.md` | **Discord server setup** — two-channel architecture (#initiative-mage, #initiative-ai), bot creation, naming conventions, thread orchestration. The complete guide to the conversational practice surface |
+| `lore/on_the_practice_server.md` | **Discord server setup** — two-channel architecture (#dialogue, #system), bot creation, naming conventions, thread orchestration. The complete guide to the conversational practice surface |
 | `lore/on_the_practice_vault.md` | **Obsidian LiveSync setup** — CouchDB, Tailscale serve, vault structure, templates, mobile sync. The complete guide to practice-state-anywhere |
 | `lore/on_diagnostics.md` | **Practice stack diagnostics** — five layers (services, connections, sync, practice flow, reachability), `!diagnose` command, troubleshooting decision trees, control surface philosophy (Discord/Obsidian/Cursor) |
 
