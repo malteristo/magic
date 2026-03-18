@@ -56,7 +56,7 @@ Scan the message log for these specific indicators. Report counts and examples.
 
 #### 2.4 Startup Noise
 - Count "Fresh awakening", "Memory reset", "online" messages
-- Expected: ≤1 per day in #afferent, 0 in #dialogue
+- Expected: ≤1 per day in #system, 0 in #dialogue
 - Flag: Multiple per day = crash loop; any in #dialogue = patch regression
 
 #### 2.5 Error Messages
