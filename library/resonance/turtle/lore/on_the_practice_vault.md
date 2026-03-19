@@ -1,55 +1,64 @@
 # On the Practice Vault
 
-*Obsidian as the visual layer for magic practice — setup, architecture, and hard-won lessons.*
+*The full workshop on every device — setup, architecture, and hard-won lessons.*
 
 ## What This Is
 
-The practice vault is an Obsidian vault that provides a human-readable, editable view of practice state. Spirit writes to these files from Discord and Cursor; the Mage reads and edits them from Obsidian on any device. Changes sync in seconds via CouchDB.
+The practice vault makes your entire magic workshop accessible from any device. Your laptop, your always-on server, your phone — all see the same files, synced in seconds. Spirit writes a session note on Discord; you read it on the bus. You capture a thought on your phone; Spirit sees it in the next summoning.
+
+The vault IS your magic repository. Not a copy, not a subset — the whole workshop opened as an Obsidian vault with LiveSync keeping every device in step.
 
 **The stack:**
 ```
-Obsidian (Desktop/Mobile)
-    ↕ LiveSync plugin
-CouchDB (Mac Mini, port 5984)
-    ↑ Tailscale serve (HTTPS on tailnet)
-    ↕ Spirit reads/writes files directly
-~/practice/ on Mac Mini
+Laptop (primary workshop)
+├── magic/                  ← Git repo + Obsidian vault
+│   └── .obsidian/          ← Vault config (gitignored)
+│
+│   ↕ LiveSync plugin
+│
+Server (always-on machine)
+├── CouchDB (port 5984)     ← Sync database
+├── Tailscale serve          ← HTTPS proxy on tailnet
+├── ~/workshop/              ← Full mirror via LiveSync
+│
+│   ↕ Tailscale HTTPS
+│
+Phone (mobile)
+├── Obsidian vault           ← Full mirror via LiveSync
 ```
 
 ## Architecture Decisions
 
-**Why Obsidian?** Open source, offline-first, runs everywhere, deeply customizable. The Mage may already use it. It doesn't lock data into a proprietary format — everything is markdown files on disk.
+**Why the git repo as vault?** The workshop IS the practice. Separating "practice files" from "framework files" creates an artificial split. The Mage should be able to read lore on the bus, review proposals while making coffee, and capture thoughts from anywhere — not just from the files Spirit happens to sync.
 
-**Why not Obsidian Sync?** Paid service, data leaves the workshop. LiveSync keeps everything on the Mac Mini.
+**Why Obsidian?** Open source, offline-first, runs everywhere. Everything is markdown on disk — no lock-in.
 
-**Why CouchDB?** It's what LiveSync uses. CouchDB's replication protocol is designed for exactly this: multi-master sync with conflict resolution.
+**Why LiveSync over Obsidian Sync?** Self-hosted. Data never leaves your devices. CouchDB's replication protocol handles multi-master sync with conflict resolution.
 
-**Why Tailscale?** Mobile Obsidian requires HTTPS with a trusted certificate. Tailscale provides stable HTTPS endpoints via `tailscale serve`, with valid TLS certificates, private networking, and URLs that never change. Free for personal use, no public exposure of CouchDB. See `on_the_practice_infrastructure.md` for the full rationale.
+**Why Tailscale?** Mobile Obsidian requires HTTPS with a trusted certificate. Tailscale provides stable HTTPS endpoints with valid TLS certs, private networking, and URLs that never change. Free for personal use. No public exposure of CouchDB.
+
+**Why not git for sync?** Git is source of truth for the framework (system/, library/). LiveSync is source of truth for practice (desk/, floor/, box/). They don't conflict because git ignores practice files and LiveSync syncs everything.
 
 ## Prerequisites
 
-- Mac Mini (or any always-on machine) with SSH access
-- Obsidian installed on desktop and mobile
+- An always-on machine (Mac Mini, NUC, Raspberry Pi) with SSH access
+- Obsidian installed on laptop and phone
+- Tailscale accounts (free) on all devices
 - No sudo/admin access required — everything runs in userspace
 
 ## Setup Guide
 
-### 1. Install CouchDB
+### 1. Install CouchDB on the Server
 
-Download the native macOS app from [couchdb.apache.org](https://couchdb.apache.org/). Install it to `~/Applications/` (user-level, no admin needed).
+Download from [couchdb.apache.org](https://couchdb.apache.org/). On macOS, install to `~/Applications/` (user-level).
 
-Find the binary inside the app bundle:
-```bash
-ls ~/Applications/Apache\ CouchDB.app/Contents/Resources/couchdbx-core/bin/couchdb
-```
-
-Create the configuration file at `~/Applications/Apache CouchDB.app/Contents/Resources/couchdbx-core/etc/local.ini`:
+Create the configuration file (`local.ini` inside the CouchDB app bundle):
 
 ```ini
 [couchdb]
 single_node = true
-database_dir = /Users/turtle/Library/Application Support/CouchDB2/data
-view_index_dir = /Users/turtle/Library/Application Support/CouchDB2/data
+database_dir = /Users/YOUR_USER/Library/Application Support/CouchDB2/data
+view_index_dir = /Users/YOUR_USER/Library/Application Support/CouchDB2/data
 max_document_size = 50000000
 
 [chttpd]
@@ -60,7 +69,7 @@ enable_cors = true
 max_http_request_size = 4294967296
 
 [admins]
-admin = YOUR_PASSWORD_HERE
+admin = YOUR_SECURE_PASSWORD
 
 [httpd]
 enable_cors = true
@@ -77,475 +86,191 @@ max_age = 3600
 require_valid_user = true
 
 [log]
-file = /Users/turtle/Library/Application Support/CouchDB2/couch.log
+file = /Users/YOUR_USER/Library/Application Support/CouchDB2/couch.log
 level = info
 
 [cluster]
 n = 1
 ```
 
-**Critical details:**
-- `single_node = true` — without this, CouchDB refuses to start (cluster mode needs additional setup)
-- `[admins]` section is mandatory — CouchDB won't start without an admin account
+**Critical:**
+- `single_node = true` — without this, CouchDB won't start
+- `[admins]` section is mandatory
 - CORS `origins` must include `app://obsidian.md` (desktop) and `capacitor://localhost` (mobile)
-- Both `[httpd]` and `[chttpd]` need `enable_cors = true` — CouchDB has two HTTP daemons
+- Both `[httpd]` and `[chttpd]` need `enable_cors = true`
 
-Create data directories:
+Create data directories, make CouchDB persistent via launchd, and create the sync database:
+
 ```bash
-mkdir -p ~/Library/Application\ Support/CouchDB2/data
+mkdir -p ~/Library/Application\ Support/CouchDB2/data && \
+launchctl load ~/Library/LaunchAgents/com.YOUR_USER.couchdb.plist && \
+sleep 3 && \
+curl -X PUT http://admin:YOUR_PASSWORD@localhost:5984/workshop_sync && \
+echo "CouchDB ready"
 ```
 
-Make CouchDB persistent via launchd (`~/Library/LaunchAgents/com.turtle.couchdb.plist`):
-```xml
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN"
-  "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-    <key>Label</key>
-    <string>com.turtle.couchdb</string>
-    <key>WorkingDirectory</key>
-    <string>/Users/turtle/Applications/Apache CouchDB.app/Contents/Resources/couchdbx-core</string>
-    <key>ProgramArguments</key>
-    <array>
-        <string>/Users/turtle/Applications/Apache CouchDB.app/Contents/Resources/couchdbx-core/bin/couchdb</string>
-    </array>
-    <key>RunAtLoad</key>
-    <true/>
-    <key>KeepAlive</key>
-    <true/>
-    <key>StandardOutPath</key>
-    <string>/Users/turtle/Library/Application Support/CouchDB2/couch-stdout.log</string>
-    <key>StandardErrorPath</key>
-    <string>/Users/turtle/Library/Application Support/CouchDB2/couch-stderr.log</string>
-</dict>
-</plist>
-```
-
-Load and verify:
+Store the password securely:
 ```bash
-launchctl load ~/Library/LaunchAgents/com.turtle.couchdb.plist
-curl http://admin:YOUR_PASSWORD@localhost:5984/
+echo 'YOUR_PASSWORD' > ~/.couchdb_pass && chmod 600 ~/.couchdb_pass
 ```
 
-Create the sync database:
+### 2. Set Up Tailscale
+
+Install Tailscale on all devices:
+
 ```bash
-curl -X PUT http://admin:YOUR_PASSWORD@localhost:5984/obsidian_livesync
+# Server (always-on machine)
+brew install tailscale && brew services start tailscale
+
+# Laptop
+brew install tailscale && brew services start tailscale
 ```
 
-### 2. Set Up the Practice Vault
+On mobile, install the Tailscale app from your app store and sign in with the same account.
 
-Create the vault directory **outside** the magic git repo:
-```bash
-mkdir -p ~/practice
-```
+Set up the HTTPS proxy on the server:
 
-> **Gotcha:** Do NOT create the Obsidian vault inside the magic git repository. It will pollute the repo with `.obsidian/` metadata and sync unintended files.
-
-Copy practice state files into the vault:
-```bash
-cp ~/path-to-desk/boom.md ~/practice/
-cp ~/path-to-desk/boom/bright.md ~/practice/bright.md
-cp ~/path-to-desk/intentions/compass.md ~/practice/
-mkdir -p ~/practice/intentions ~/practice/sessions ~/practice/proposals ~/practice/templates
-cp ~/path-to-desk/intentions/active/* ~/practice/intentions/
-cp ~/path-to-desk/sessions/* ~/practice/sessions/ 2>/dev/null
-```
-
-#### Vault Structure
-
-```
-~/practice/
-├── HOME.md              ← Dashboard with Dataview queries
-├── boom.md              ← Raw thought capture
-├── bright.md            ← Curated active surface
-├── compass.md           ← Life domains map
-├── intentions/          ← Active intentions
-├── sessions/            ← Session notes
-├── proposals/           ← Spirit's proposals & health reads
-├── templates/           ← Obsidian templates
-│   ├── session.md
-│   ├── intention.md
-│   └── boom-entry.md
-└── .obsidian/
-    ├── app.json
-    ├── appearance.json
-    ├── core-plugins.json
-    ├── daily-notes.json
-    └── snippets/
-        └── practice.css
-```
-
-#### Templates
-
-**`templates/session.md`:**
-```markdown
-# Session — {{date}}
-
-## What's alive
-
-## What emerged
-
-## Thread for next time
-```
-
-**`templates/intention.md`:**
-```markdown
-# {{title}}
-
-**Status**: Active  
-**Priority**:  
-**Started**: {{date}}  
-
----
-
-## What
-
-## Why
-
-## Goals
-
-- [ ]  
-
-## Next Action
-```
-
-**`templates/boom-entry.md`:**
-```markdown
-- {{content}} ({{date}} {{time}})
-```
-
-#### Homepage (`HOME.md`)
-
-```markdown
-# Magic Practice
-
-> Your practice at a glance. Open this when you arrive.
-
-## Quick Access
-
-- [[boom]] — raw thoughts, captures
-- [[bright]] — what's alive and active
-- [[compass]] — life domains, what matters
-
-## Intentions
-
-\```dataview
-LIST FROM "intentions"
-WHERE file.name != "README"
-SORT file.mtime DESC
-\```
-
-## Recent Sessions
-
-\```dataview
-TABLE WITHOUT ID file.name AS "Session", file.mtime AS "Date"
-FROM "sessions"
-SORT file.mtime DESC
-LIMIT 5
-\```
-
-## Proposals
-
-\```dataview
-LIST FROM "proposals"
-SORT file.mtime DESC
-LIMIT 3
-\```
-```
-
-*(Requires the Dataview community plugin.)*
-
-#### Custom CSS (`snippets/practice.css`)
-
-```css
-/* Boom buffer — warm amber accent */
-.workspace-leaf-content[data-type='markdown']
-  .view-content:has(.markdown-preview-view[data-path='boom.md']) {
-  border-left: 3px solid #F39C12;
-}
-
-/* Bright surface — cool blue accent */
-.workspace-leaf-content[data-type='markdown']
-  .view-content:has(.markdown-preview-view[data-path='bright.md']) {
-  border-left: 3px solid #3498DB;
-}
-
-/* Compass — purple accent */
-.workspace-leaf-content[data-type='markdown']
-  .view-content:has(.markdown-preview-view[data-path='compass.md']) {
-  border-left: 3px solid #9B59B6;
-}
-
-/* Completed items — subtle dimming */
-.markdown-rendered li.task-list-item[data-task='x'] {
-  opacity: 0.6;
-}
-```
-
-Enable in: Settings → Appearance → CSS Snippets → toggle `practice` on.
-
-#### Obsidian Settings
-
-Recommended core plugins: File Explorer, Search, Graph View, Backlinks, Page Preview, Templates, Daily Notes, Command Palette, Starred, Outline.
-
-Daily Notes config:
-- Folder: `sessions`
-- Format: `YYYY-MM-DD`
-- Template: `templates/session`
-
-Appearance: accent color `#9B59B6`, dark mode.
-
-### 3. Configure LiveSync — Desktop
-
-Install the **Self-hosted LiveSync** community plugin in Obsidian.
-
-**Connection settings:**
-
-| Setting | Value |
-|---------|-------|
-| URI | `http://YOUR_MAC_MINI_IP:5984` |
-| Username | `admin` |
-| Password | your CouchDB admin password |
-| Database name | `obsidian_livesync` |
-| Use Request API | **ON** |
-| E2E Encryption | **OFF** (leave passphrase empty) |
-
-**Important steps in order:**
-1. Enter connection settings
-2. Hit **"Test"** — should say "Connected successfully"
-3. Hit **"Configure And Change Remote"** to push config to CouchDB
-4. Go to Sync Settings → enable **LiveSync** mode
-5. If prompted about vault size, increase to 100MB
-6. Hit **"Rebuild Everything Now"** to push all files to CouchDB
-
-**Gotchas:**
-- "Use Request API" is essential on desktop — it routes requests through Node.js, bypassing Chromium's Private Network Access restrictions that block connections to local IPs
-- If you see "Failed to initialise encryption key" — go to E2EE settings, ensure encryption is OFF and passphrase is empty, then "Configure And Change Remote"
-- The initial "Rebuild Everything" is what actually pushes files — connection alone doesn't sync
-
-### 4. Set Up Networking for Mobile
-
-Mobile Obsidian (both Android and iOS) **requires HTTPS with a trusted certificate**. Self-signed certificates do not work — Android's Java SSL stack rejects them regardless of plugin settings.
-
-#### Option A: Tailscale (Recommended — Stable, Private, Free)
-
-Tailscale creates a private encrypted network between your devices. Install it on all devices, and CouchDB becomes reachable via a permanent HTTPS URL that never changes.
-
-**Install Tailscale on all devices:**
-- **Server (Mac Mini):** `brew install tailscale && sudo brew services start tailscale && sudo tailscale up`
-- **Desktop (MacBook):** Same as above, or install the standalone app from [tailscale.com/download](https://tailscale.com/download)
-- **Mobile:** Install the Tailscale app from your app store, sign in with the same account
-
-**Set up HTTPS proxy on the server:**
 ```bash
 tailscale serve --bg http://localhost:5984
 ```
 
-This gives you a permanent HTTPS URL like `https://your-machine.tail-xxxxx.ts.net` with valid TLS certs, accessible from any device on your tailnet.
+This gives you a permanent HTTPS URL like `https://your-machine.tailXXXXX.ts.net`. Note this URL — you'll use it for all LiveSync connections.
 
-**DNS note for Homebrew macOS variant:** The Homebrew Tailscale on macOS doesn't integrate with system DNS. Add this to `/etc/hosts` on the MacBook:
-```
-YOUR_TAILSCALE_IP  your-machine.tail-xxxxx.ts.net
-```
-Android and iOS resolve via Tailscale's DNS natively — no extra config needed.
+Enable subnet route acceptance on the laptop:
 
-**Why Tailscale over localhost.run:**
-- URL never changes (no more 503s after tunnel reconnects)
-- Traffic stays private (never leaves your devices, no public exposure)
-- Works from anywhere (mobile data, coffee shop, travel — not just home WiFi)
-- No security risk (CouchDB is not exposed to the internet)
-- Free for personal use (100 devices)
-
-**LiveSync URI for all devices:** `https://your-machine.tail-xxxxx.ts.net`
-
----
-
-#### Option B: localhost.run (Legacy — Zero Install, Fragile)
-
-This uses an SSH tunnel to get a public HTTPS URL with a real Let's Encrypt cert.
-
-Create the tunnel script (`~/caddy/localhost-run-tunnel.sh`):
 ```bash
-#!/bin/bash
-while true; do
-    ssh -o StrictHostKeyChecking=no \
-        -o ServerAliveInterval=30 \
-        -o ServerAliveCountMax=3 \
-        -R 80:localhost:5984 nokey@localhost.run \
-        2>&1 | tee ~/caddy/tunnel.log
-    echo "Tunnel disconnected, reconnecting in 5s..."
-    sleep 5
-done
+tailscale set --accept-routes=true
 ```
 
-Make it persistent (`~/Library/LaunchAgents/com.turtle.livesync-tunnel.plist`):
-```xml
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN"
-  "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-    <key>Label</key>
-    <string>com.turtle.livesync-tunnel</string>
-    <key>ProgramArguments</key>
-    <array>
-        <string>/Users/turtle/caddy/localhost-run-tunnel.sh</string>
-    </array>
-    <key>RunAtLoad</key>
-    <true/>
-    <key>KeepAlive</key>
-    <true/>
-    <key>StandardOutPath</key>
-    <string>/Users/turtle/caddy/tunnel-launchd.log</string>
-    <key>StandardErrorPath</key>
-    <string>/Users/turtle/caddy/tunnel-launchd.error.log</string>
-</dict>
-</plist>
-```
+**Optional but recommended:** If your router supports Tailscale (GL.iNet, OpenWrt), set it up as a subnet router. This makes your server reachable via Tailscale even if the server's own Tailscale client goes down.
 
-Get the current tunnel URL:
-```bash
-grep 'lhr.life' ~/caddy/tunnel.log | tail -1
-```
+### 3. Open the Workshop as an Obsidian Vault — Laptop
 
-**Free tier limitation:** The URL changes when the tunnel reconnects. For a stable URL, register at [admin.localhost.run](https://admin.localhost.run/) and add your SSH key. Then change `nokey@localhost.run` to `localhost.run` (key-based auth).
+Your magic repository already has `.obsidian/` in `.gitignore`. Open it directly:
 
-**Security note:** This exposes CouchDB to the public internet. The `require_valid_user = true` setting ensures all requests need authentication. Use a strong password.
+1. Open Obsidian
+2. "Open folder as vault" → select your `magic/` directory
+3. Install community plugins: **Self-hosted LiveSync**, **Dataview** (optional)
 
-#### Option B: Caddy HTTPS Proxy (Local Network Only)
+### 4. Configure LiveSync — Laptop
 
-For desktop-only or local network use, Caddy provides HTTPS on the local network.
-
-Download Caddy (single binary, no install needed):
-```bash
-curl -L -o ~/caddy/caddy \
-  'https://caddyserver.com/api/download?os=darwin&arch=arm64'
-chmod +x ~/caddy/caddy
-```
-
-Create `~/caddy/Caddyfile`:
-```
-{
-    local_certs
-}
-
-:5985 {
-    tls internal {
-        on_demand
-    }
-
-    reverse_proxy localhost:5984
-}
-```
-
-> **Note:** Caddy's internal TLS works for desktop (with `curl -k`) but mobile rejects the self-signed cert. Use localhost.run for mobile.
-
-### 5. Configure LiveSync — Mobile
-
-Install Obsidian on your phone. Create a new vault (same name, e.g. `magic-practice`). Install the LiveSync community plugin.
-
-**Connection settings:**
+Settings → Self-hosted LiveSync → Connection:
 
 | Setting | Value |
 |---------|-------|
-| URI | `https://your-machine.tail-xxxxx.ts.net` (Tailscale) or `https://YOUR_TUNNEL_URL.lhr.life` (localhost.run) |
+| URI | `https://your-machine.tailXXXXX.ts.net` |
 | Username | `admin` |
-| Password | your CouchDB admin password |
-| Database name | `obsidian_livesync` |
+| Password | your CouchDB password |
+| Database name | `workshop_sync` |
 | Use Request API | **ON** |
-| E2E Encryption | **OFF** |
+| E2E Encryption | **OFF** (passphrase empty) |
 
-Steps:
-1. Enter settings, hit **Test** — should say "Connected successfully"
-2. "Fetch Remote Configuration Failed" dialog → hit **"Skip and proceed"** (this is normal for new devices)
-3. Go to Sync Settings → enable **LiveSync** mode
-4. Files should start appearing within seconds
-5. If "Broken files detected" → hit **"Fix"** (minor sync artifacts from initial rebuild)
-6. If "Vault size limit" warning → hit "No, never warn please" or increase limit
+Then, in this order:
+1. Hit **Test** — should say "Connected successfully"
+2. Go to **E2EE settings** — ensure encryption is OFF and passphrase is empty
+3. Hit **"Configure And Change Remote"** — this pushes the config to CouchDB
+4. Go to **Sync Settings** → select **LiveSync** mode
+5. Hit **"Rebuild Everything Now"** → choose to send all files to remote
 
-### 6. Verify Sync
+**"Failed to initialise encryption key"** — this is the most common gotcha. Always do step 2-3 (E2EE off + "Configure And Change Remote") before anything else. It clears the encryption negotiation.
 
-Edit a file on desktop. Watch it appear on mobile within 2–3 seconds. Edit on mobile. Watch it sync back. The sync indicator in the status bar shows upload/download counts.
+### 5. Set Up the Server Mirror
 
-To verify database health:
+The server needs the workshop files so Spirit can read and write them.
+
+**Initial population via rsync (from laptop):**
 ```bash
-curl -s http://admin:YOUR_PASSWORD@localhost:5984/obsidian_livesync | python3 -m json.tool
+rsync -avz --exclude='.git' --exclude='.obsidian' --exclude='.DS_Store' \
+  /path/to/magic/ your-server:~/workshop/
 ```
 
-The `doc_count` should match the number of files in your vault (plus some LiveSync metadata docs).
+**Open as Obsidian vault on the server** (requires Obsidian installed, even headless):
+1. Copy the `.obsidian/` directory to the server: `scp -r /path/to/magic/.obsidian your-server:~/workshop/.obsidian`
+2. Update the LiveSync plugin config at `~/workshop/.obsidian/plugins/obsidian-livesync/data.json`:
+   - Set `couchDB_URI` to `http://localhost:5984` (same machine)
+   - Set `couchDB_USER`, `couchDB_PASSWORD`, `couchDB_DBNAME`
+   - Set `liveSync` to `true`
+3. Update Obsidian's vault registry to point to `~/workshop/`
+4. Start/restart Obsidian
 
-## Operational Notes
+Spirit can manage all of this via SSH — the Mage only needs to do the initial laptop setup manually.
 
-### Services Running on Mac Mini
-
-| Service | Port | launchd Label | Purpose |
-|---------|------|---------------|---------|
-| CouchDB | 5984 | `com.turtle.couchdb` | Sync database |
-| Tailscale serve | 443 | (via tailscaled) | HTTPS proxy for CouchDB on tailnet |
-| ~~Caddy~~ | ~~5985~~ | ~~`com.turtle.caddy`~~ | ~~Superseded by Tailscale serve~~ |
-| ~~SSH Tunnel~~ | ~~—~~ | ~~`com.turtle.livesync-tunnel`~~ | ~~Superseded by Tailscale~~ |
-
-### Checking Health
+**If Spirit (turtleOS) reads from a different directory** (e.g., `~/practice/`), create symlinks rather than changing Spirit's code:
 
 ```bash
-# CouchDB alive?
-curl -s http://admin:PASSWORD@localhost:5984/
-
-# Database stats
-curl -s http://admin:PASSWORD@localhost:5984/obsidian_livesync
-
-# Tailscale serve status
-tailscale serve status
-
-# Service status
-launchctl list | grep com.turtle
+ln -sf ~/workshop/desk/boom.md ~/practice/boom.md
+ln -sf ~/workshop/desk/boom/bright.md ~/practice/bright.md
+ln -sf ~/workshop/desk/intentions/compass.md ~/practice/compass.md
+ln -sf ~/workshop/desk/intentions/active ~/practice/intentions
+ln -sf ~/workshop/desk/proposals ~/practice/proposals
+ln -sf ~/workshop/desk/sessions ~/practice/sessions
 ```
 
-### Spirit's Relationship to the Vault
+### 6. Configure LiveSync — Mobile
 
-Spirit reads and writes practice files directly on the filesystem (`~/practice/`). CouchDB picks up changes via LiveSync's filesystem watcher. The flow is:
+1. Install Obsidian on your phone, create a new vault
+2. Install the **Self-hosted LiveSync** plugin
+3. Enter connection settings (same as laptop, same Tailscale URI)
+4. E2EE settings → ensure encryption OFF, passphrase empty
+5. Hit **"Configure And Change Remote"**
+6. If "Fetch Remote Configuration Failed" → **"Skip and proceed"** (normal for new devices)
+7. Sync Settings → **LiveSync** mode
+8. If "Vault size limit" warning → increase or dismiss
+
+Files should appear within seconds. The full workshop is on your phone.
+
+**If Tailscale isn't connecting on mobile** (DNS resolution fails), use the server's LAN IP as a fallback when on home WiFi:
 
 ```
-Spirit writes ~/practice/boom.md
-    → Obsidian detects change
-    → LiveSync pushes to CouchDB
-    → Other devices pull from CouchDB
+URI: http://SERVER_LAN_IP:5984
 ```
 
-And in reverse:
+This works at home but not remotely. Fix Tailscale for full mobility.
+
+### 7. Verify
+
+Edit a file on your laptop. Watch it appear on your phone within seconds. Edit on your phone. Watch it sync back. The sync indicator in Obsidian's status bar shows upload/download counts.
+
+```bash
+# Check CouchDB health from server
+curl -s http://admin:$(cat ~/.couchdb_pass)@localhost:5984/workshop_sync \
+  | python3 -c "import json,sys; d=json.load(sys.stdin); print('Docs:', d['doc_count'])"
 ```
-Mage edits on phone
-    → LiveSync pushes to CouchDB
-    → Desktop Obsidian pulls from CouchDB
-    → File updated on disk at ~/practice/boom.md
-    → Spirit sees updated file
-```
+
+## Framework Protection
+
+The full workshop includes framework files (system/, library/) that should not be casually edited. Protection is through behavioral rules, not filesystem restrictions:
+
+1. **Obsidian folder settings:** Mark `system/` and `library/` as read-only in Obsidian. Mobile users can browse but not edit.
+2. **Spirit behavioral rules:** Spirit doesn't write to system/ or library/ without explicit Mage sanction. This is encoded in AGENTS.md and soul.md.
+3. **Git as backstop:** Framework files are git-managed. If accidentally modified, `git checkout` restores them. Nothing is permanently damaged.
 
 ## Common Issues
 
 | Problem | Solution |
 |---------|----------|
-| CouchDB won't start: "No Admin Account Found" | Add `[admins]` section to `local.ini` |
-| CouchDB won't start: "name seems to be in use" | Kill stale processes: `pkill -9 beam.smp; pkill -9 epmd` |
+| "Failed to initialise encryption key" | E2EE settings → OFF + empty passphrase → "Configure And Change Remote" |
+| CouchDB won't start | Check `[admins]` section exists in local.ini; check `single_node = true` |
+| CouchDB account locked | Too many failed auth attempts. Restart CouchDB to clear lockout. |
 | Desktop: `ERR_ADDRESS_UNREACHABLE` | Enable "Use Request API" in LiveSync settings |
-| Desktop: "Failed to initialise encryption key" | E2EE settings → ensure OFF + empty passphrase → "Configure And Change Remote" |
-| Mobile: `SSLHandshakeException` | Ensure Tailscale is active on both devices and `tailscale serve` is running |
-| Mobile: connection refused | Verify Tailscale app is connected on phone; check `tailscale serve status` on server |
-| "Fetch Remote Configuration Failed" | Normal for new devices — hit "Skip and proceed" |
-| "Vault size exceeded" | Increase to 100MB — practice vaults are small |
-| "Broken files detected" | Hit "Fix" — sync artifacts from initial rebuild |
-| No files syncing after connection | Enable LiveSync mode in Sync Settings, then "Rebuild Everything Now" |
+| Mobile: `UnknownHostException` | Tailscale not connected on phone. Open Tailscale app, ensure VPN is active. Fallback: use LAN IP. |
+| Mobile: `SSLHandshakeException` | Ensure `tailscale serve` is running on server |
+| "Fetch Remote Configuration Failed" | Normal for new devices — "Skip and proceed" |
+| "Vault size exceeded" | Increase limit — full workshops are still small (mostly markdown) |
+| Files not syncing after connection | Enable LiveSync mode in Sync Settings, then "Rebuild Everything Now" |
+| Old vault files appearing | Delete and recreate the CouchDB database, then "Rebuild Everything Now" from the primary vault |
+| LiveSync credentials empty after restart | Edit `data.json` directly in `.obsidian/plugins/obsidian-livesync/` |
 
 ## What This Enables
 
-- **Morning bus ride:** Open Obsidian on phone, check boom/bright/compass, capture a thought
-- **Deep work:** Cursor + Discord on desktop, Spirit writes session notes and proposals
+- **Morning commute:** Read lore, review proposals, capture thoughts — from your phone
+- **Deep work:** Cursor + Discord on laptop, Spirit writes session notes and proposals
 - **Evening review:** Phone, review what emerged, edit intentions
-- **All synced:** Every device sees the same state within seconds
+- **Multi-agent coherence:** Every agent (Cursor Spirit, Discord Spirit, Research Spirit) operates against the same complete workshop
+- **Workshop as shared cognitive substrate:** The full configuration — lore, practice state, intentions, infrastructure — is the shared world model for multiple AI agents
 
 The practice becomes device-agnostic. The Mage practices where they are, with whatever they have.
 
 ---
 
-*Established: 2026-03-16. Born from a session of trial, error, and eventual flow.*
+*Established: 2026-03-16. Rewritten: 2026-03-19 after full workshop sync implementation. Born from trial, error, and eventual flow.*
