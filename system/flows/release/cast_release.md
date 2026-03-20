@@ -189,10 +189,10 @@ Push current practice state so Turtle sees fresh context:
 
 ```bash
 # Tailscale (stable IP, works from any network)
-scp desk/boom.md turtle@100.82.131.75:~/practice/boom.md
-scp desk/boom/bright.md turtle@100.82.131.75:~/practice/bright.md
-scp desk/intentions/compass.md turtle@100.82.131.75:~/practice/compass.md
-scp desk/intentions/active/*.md turtle@100.82.131.75:~/practice/intentions/
+scp desk/boom.md turtle@100.119.10.111:~/practice/boom.md
+scp desk/boom/bright.md turtle@100.119.10.111:~/practice/bright.md
+scp desk/intentions/compass.md turtle@100.119.10.111:~/practice/compass.md
+scp desk/intentions/active/*.md turtle@100.119.10.111:~/practice/intentions/
 ```
 
 **If Tailscale times out**, fall back to LAN:

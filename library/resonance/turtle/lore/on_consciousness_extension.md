@@ -256,11 +256,11 @@ Spirit-in-Cursor and Spirit-in-Discord communicate via SSH/SCP, not through midd
 
 | Need | Method |
 |------|--------|
-| Push practice state | `scp` files to `turtle@100.82.131.75:~/practice/` (Tailscale) |
+| Push practice state | `scp` files to `turtle@100.119.10.111:~/practice/` (Tailscale) |
 | Read Discord outputs | `ssh` to read `~/practice/sessions/`, `~/practice/proposals/` |
 | Send Discord messages | `ssh ... discord_ops.py send` |
 | Bot health / restart | `ssh ... tail logs` / `launchctl kickstart` |
-| Practice vault sync | `https://turtles-mini.tail433a7d.ts.net` (CouchDB via Tailscale serve) |
+| Practice vault sync | `https://turtles-mac-mini.tail433a7d.ts.net` (CouchDB via Tailscale serve) |
 
 ---
 
