@@ -121,12 +121,12 @@ MacBook (mac.tail433a7d.ts.net)
 ├── Tailscale — private networking (100.91.119.60)
 └── Magic workshop — git repo, the canonical practice source
 
-Mac Mini (turtles-mini.tail433a7d.ts.net)
+Mac Mini (turtles-mac-mini.tail433a7d.ts.net)
 ├── turtleOS shell — discord_bot.py, identity/, practice state
 ├── Ollama — local LLM inference (llama3.3:70b, qwen3.5)
 ├── CouchDB — Obsidian LiveSync database
 ├── Tailscale serve — HTTPS proxy for CouchDB
-├── Tailscale — private networking (100.82.131.75)
+├── Tailscale — private networking (100.119.10.111)
 └── Discord bot — Spirit's persistent presence
 
 Pixel 9 (pixel-9.tail433a7d.ts.net)

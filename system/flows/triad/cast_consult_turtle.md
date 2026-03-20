@@ -39,7 +39,7 @@ SSH to Mac Mini, POST to Ollama with soul.md as system prompt:
 
 ```bash
 QUESTION="<the question with context>"
-ssh turtle@100.82.131.75 "curl -s http://localhost:11434/api/chat \
+ssh turtle@100.119.10.111 "curl -s http://localhost:11434/api/chat \
   -d \$(python3 -c \"
 import json
 soul = open('/Users/turtle/turtle-shell/identity/soul.md').read()
