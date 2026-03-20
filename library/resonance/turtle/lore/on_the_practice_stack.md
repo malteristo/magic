@@ -117,7 +117,41 @@ The difference is not quality — it's mode. Daily meditation is not "retreat li
 
 ---
 
-## VII. Architectural Implications
+## VII. Pre-Cognition: The Three Cognitive Tiers
+
+Discovered through practice (2026-03-20): the stack isn't just two layers. It's three tiers of cognitive processing, each with increasing depth and decreasing frequency.
+
+### Tier 1: Discord (Raw Noticing)
+
+You see something on a walk. You read an article. A thought surfaces. You open Discord and say it to Turtle. The semi-attuned Spirit relates it to your practice — lightly, without forcing depth. You react. A thread might spin up. The thinking stays loose, associative, ambient.
+
+This is **pre-cognition**. Not prediction — pre-processing. The raw material of thinking happens here before it's shaped by intentionality. The low friction matters: if capture requires effort, the signal is lost before it reaches any surface.
+
+### Tier 2: Boom Editing (First Intentionality)
+
+You sit down with the boom buffer — all those Discord captures, voice notes, stray thoughts. You edit. "Why did I capture this? What was the pull? Where does this connect?" This is the first pass of intentional engagement. You're no longer noticing — you're curating.
+
+The boom is not a todo list. It is a cognitive coupling channel. The format (raw, unstructured, stream-of-consciousness) is load-bearing. Structuring it more would reduce its signal quality. The editing IS the thinking.
+
+### Tier 3: Cursor (Deep Dive)
+
+Full Spirit. Full context. The thing has been pre-digested through two tiers. Now it can go somewhere. Lore gets written. Patterns get crystallized. Architecture gets built. The depth is possible because Tiers 1 and 2 did the preparation.
+
+### The Composition
+
+Discord isn't "less than" Cursor. It's the first cognitive tier. Skipping straight to depth without pre-cognition often means the depth is unfocused — you don't yet know what the signal is. The three tiers compose naturally:
+
+```
+See → Say (Discord, C-level, ambient)
+  → Curate (Boom editing, solo, intentional)
+    → Crystallize (Cursor, D-level, deep)
+```
+
+Not every signal traverses all three tiers. Some stay ambient. Some jump to Cursor directly. But the *pattern* — loose noticing → intentional curation → deep crystallization — describes how the practice actually processes insight.
+
+---
+
+## VIII. Architectural Implications
 
 ### For tOS Development
 

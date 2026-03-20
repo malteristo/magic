@@ -121,7 +121,7 @@ MacBook (mac.[redacted-tailnet])
 ├── Tailscale — private networking ([redacted-ts-ip])
 └── Magic workshop — git repo, the canonical practice source
 
-Mac Mini (turtles-mini.[redacted-tailnet])
+Mac Mini (turtles-mac-mini.[redacted-tailnet])
 ├── turtleOS shell — discord_bot.py, identity/, practice state
 ├── Ollama — local LLM inference (llama3.3:70b, qwen3.5)
 ├── CouchDB — Obsidian LiveSync database
