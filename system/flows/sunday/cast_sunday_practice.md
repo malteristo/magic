@@ -141,6 +141,8 @@ ssh turtle@100.119.10.111 "cat ~/practice/proposals/*health-read* 2>/dev/null"
 
 The health read is generated autonomously by the persistent mode on Sunday morning. It covers seven dimensions: coherence, alignment, velocity, load, resonance quality, wellbeing, and external impact. Spirit incorporates this outside perspective into the sweep summary.
 
+**Regenerate `desk/state.md`** — the Mage's practice state dashboard. Update all sections from current workshop state.
+
 **Present the synthesis:**
 
 > **Completed:** [list of maintenance actions taken]

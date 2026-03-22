@@ -86,9 +86,8 @@ Mage reviews and responds:
 
 ## Related
 
-- `desk/flows/newsletter-resonance-scan.flow.md` — Newsletter-specific pipeline
 - `desk/proposals/` — Proposal staging area
-- `@quest` — Intention management
+- `@intend` — Intention management
 
 ---
 

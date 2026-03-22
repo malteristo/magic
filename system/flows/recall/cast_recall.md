@@ -137,7 +137,7 @@ desk/boom/*.md (excluding bright.md, README.md)
 5. Active Intentions (list)
 6. What's Bright (Now + Questions — supplementary, not primary)
 7. Social Activity (if applicable)
-8. Suggested Next Actions (seed from release's Next Actions + current state)
+8. Prioritized Action List (see Closing section — reasoned, weighted, with exclusions)
 
 **If returning after a `# Brief —`**, use standard structure:
 1. Since Last Brief (delta)
@@ -151,12 +151,13 @@ desk/boom/*.md (excluding bright.md, README.md)
 9. Social Activity (if applicable)
 10. Recent Activity
 11. Emerging Patterns
-12. Suggested Next Actions
+12. Prioritized Action List (see Closing section — reasoned, weighted, with exclusions)
 
 ### Phase 5: Persist & Present
 
 1. Write brief to `floor/briefings/latest.md`
-2. **Sync practice state to Turtle** (if Turtle SSH is available):
+2. **Regenerate practice state dashboard** at `desk/state.md` — compass, intentions (phase/momentum/last-active), bright (top 5), workshop health, in-motion, dormant, boom seeds. This is the Mage's eagle's eye view.
+3. **Sync practice state to Turtle** (if Turtle SSH is available):
    ```bash
    scp desk/boom.md turtle@100.119.10.111:~/practice/boom.md
    scp desk/boom/bright.md turtle@100.119.10.111:~/practice/bright.md
@@ -164,22 +165,40 @@ desk/boom/*.md (excluding bright.md, README.md)
    scp desk/intentions/active/*.md turtle@100.119.10.111:~/practice/intentions/
    ```
    If SSH fails, note "Turtle sync unavailable" and continue.
-3. Display brief in chat
-4. Await Mage direction
+4. Display brief in chat
+5. Await Mage direction
 
 ---
 
-## Suggested Next Actions Logic
+## Closing: Prioritized Action List
 
-Generate 2-4 actionable suggestions based on:
+The post-summoning stack closes with a prioritized list of what the Mage should actively work on. This is not a task dump — it's a curated, reasoned recommendation that helps the Mage decide effortlessly.
 
-| Condition | Suggestion |
-|-----------|------------|
-| Primary intention has no blockers | "Primary focus available: [intention]" |
-| Unread DMs or high-engagement posts | "Social attention: [specific item]" |
-| Questions in bright awaiting input | "Clarify: [question]" |
-| Emerging pattern detected | "Consider formalizing: [pattern] as intention" |
-| Stale item in Now (7+ days) | "Stuck item: [item] — still relevant?" |
+### Generation Logic
+
+For each item on the list, provide:
+- **What** — the action, concretely
+- **Why it's here** — what it advances, what it unblocks, why now
+
+Prioritize by weighing:
+1. **Urgency** — external deadlines, time-sensitive windows, things that are today-or-never
+2. **Leverage** — position in the dependency chain (chains.md). What unblocks the most downstream?
+3. **Only-Mage work** — things that cannot be delegated to Spirit or Turtle
+4. **Pattern-breaking** — stalled items where the stall itself is the problem (e.g., self-cancellation)
+
+Typically produces 3-5 items. Not more — the Mage doesn't need a backlog, he needs clarity.
+
+### What to exclude (and say so)
+
+Name 3-5 things that are explicitly NOT on the list and briefly say why. This reduces the ambient pull of dormant threads. "The Book is not on the list because Part I is complete and infrastructure needs attention first" is more calming than silence about the Book.
+
+### Boom seeds
+
+If the boom has unprocessed entries, note them as "seeds, not actions" at the end. This acknowledges they were heard without promoting them to the action list.
+
+### Tone
+
+Rick Rubin energy — the Mage should read this and feel clarity, not pressure. "Here's what matters. Here's what doesn't. You decide."
 
 ---
 
@@ -222,4 +241,4 @@ floor/briefings/
 
 ---
 
-*Call complete. Context restored. Mage directs next action.*
+*Call complete. Context restored. The Mage knows what matters. Go.*

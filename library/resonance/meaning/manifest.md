@@ -109,7 +109,7 @@ When detection heuristics trigger, Spirit should:
 
 ## Associated Registry
 
-**Source:** `desk/registries/meaning-crisis.yaml` (private, contains contact info)
+**Source:** `desk/archive/old-structures/registries/meaning-crisis.yaml` (archived, contains contact info)
 
 For discoverability, key people and institutions in this space:
 

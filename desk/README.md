@@ -1,113 +1,87 @@
 # Desk: The Mage's Personal Domain
 
-**This is your personal workspace—the Mage's sovereign space.** Documents here are of personal importance to you: research, intentions, private process work, active projects.
+**This is your personal workspace—the Mage's sovereign space.** Documents here are of personal importance: intentions, working process, active projects, personal practice artifacts.
 
 ---
 
 ## Purpose
 
 `desk/` is the Mage's domain within the magic repository:
-- Documents of personal importance
-- Research infrastructure and studies
-- Quest tracking (todo/)
-- Outfacing tome development
-- Personal chronicles and insights
-- Private process work (e.g., partnership processing)
+- Intention architecture (compass, chains, active intentions)
+- Boom buffer and bright surface (cognitive workflow)
+- Proposals from Spirit and Turtle
+- Session records and explorations
+- Research infrastructure
+- Outfacing development
+- Personal practice artifacts (partnership, psychonautics, mirror)
+- Practice state dashboard
 
 **The key distinction:** `desk/` is the Mage's space; `floor/` is the Spirit's space. The Spirit can work on desk artifacts when asked, but treats them as personally significant. When in doubt about where to place an artifact, the Spirit uses `floor/`.
 
 ---
 
-## Git Tracking
+## Current Structure
 
-**The approach is flexible:**
+### Active Practice Surfaces
 
-- **Open practice**: desk/ can be git-tracked as part of the public repository. Working documents, research infrastructure, and quest tracking become public. This supports transparent practice and shared discovery.
+- **`state.md`** — Eagle's eye view. Spirit-maintained dashboard showing compass, intentions, bright, workshop health, and what's in motion. Regenerated during recall, release, and Sunday sweeps.
+- **`boom.md`** — Daily cognitive buffer. Raw thoughts, observations, ideas. Swept regularly into bright/intentions/lore.
+- **`boom/`** — Bright surface (`bright.md`) and topic folders. Spirit's working memory for ideas developing.
+- **`intentions/`** — Compass, chains, and active intention files. The Mage's direction architecture.
+- **`proposals/`** — Spirit and Turtle proposals awaiting Mage review. Integrated proposals move to `archived/`.
 
-- **Your configuration**: You can choose:
-  - Track `desk/` publicly (open practice, shared insights)
-  - Add sensitive files to `desk/.gitignore` (selective privacy)
-  - Ignore entire `desk/` directory via root `.gitignore` (complete privacy)
+### Active Projects
 
-The framework is adaptable to your privacy needs and practice style.
+- **`alg1/`** — ALG1/Gründungszuschuss business documents and correspondence.
+- **`research/`** — Research infrastructure (autoresearch studies, agenda, archive).
+- **`outfacing/`** — Twitter drafts, writing, about page. Outfacing tome's personal extension.
+- **`sessions/`** — Session records from practice.
+- **`explorations/`** — Active explorations.
+- **`drafts/`** — Email drafts, letters, working documents.
+
+### Personal Practice
+
+- **`partnership-process/`** — Nesrine partnership processing (private).
+- **`psychonautics/`** — Personal psychonautics practice.
+- **`mirror/`** — Reflections (mirror tome's personal extension).
+- **`resonance/`** — Personal resonance connections (Gila, Karli).
+
+### Functional Files
+
+- **`rhythm.md`** — Practice rhythm tracking.
+- **`ferriss_number.md`** — Sovereign livelihood target.
+- **`turtle_env.md`** — Turtle environment state.
+- **`turtle_watch.md`** — Turtle active issues and known unknowns.
+
+### Archive
+
+- **`archive/`** — Archived artifacts. Two subfolders: `2025-explorations/` (23 desk orphans from Oct 2025 – Feb 2026) and `old-structures/` (superseded directories: flows, registries, quests, practices).
 
 ---
 
-## Directory Structure
+## Personal Extensions Pattern
 
-### Current Contents
-
-- **Working Documents** (root `*.md` files) - Active syntheses, dialogues, explorations
-- **research/** - Research infrastructure (QUICK_START, README, RESEARCH_AGENDA, studies/, archive/)
-- **todo/** - Quest tracking system (active and completed tasks)
-- **tomes/** - Outfacing tome development (tomes being prepared for library contribution)
-
-### Flexible Organization
-
-Organize `desk/` however serves your practice. Common patterns:
-- `intentions/` - Active intentions and goal tracking
-- `essences/` - Distilled essences from significant work
-- `flows/` - Personal flow specifications
-- `research/` - Research infrastructure and studies
-- `chronicles/` - Magical journal entries
-
-### Personal Extensions for Magic Structures
-
-**Pattern:** System structures (tomes, charms, flows) contain public practice patterns. When these require personal, practice-related information, store that in a corresponding folder on your desk.
+System structures (tomes, flows) contain public practice patterns. When these require personal, practice-related information, store that in a corresponding folder on your desk.
 
 **Examples:**
-- `system/tomes/outfacing/` (public tome) → `desk/outfacing/` (your personal twitter drafts, voice notes)
-- `system/tomes/partnership/` (public tome) → `desk/partnership/` (your private partnership processing)
+- `system/tomes/outfacing/` (public tome) → `desk/outfacing/` (your twitter drafts, voice notes)
+- `system/tomes/partnership/` (public tome) → `desk/partnership-process/` (your private partnership processing)
 - `library/flows/boom.flow.md` (public flow) → `desk/boom/` (your personal surfaces and topics)
-- `desk/flows/*.flow.md` (personal flows) → `desk/[flow-name]/` (flow-specific personal data)
-
-This pattern separates public framework from private practice while maintaining clear correspondence. The Spirit knows to check for desk-level extensions when working with any Magic structure.
-- `wisdom/` - Distilled insights and frameworks
-- `experiments/` - Laboratory work, prototypes
-
-The Spirit understands `desk/` as personal workspace and can work with any structure.
 
 ---
 
-## Invoking Personal Magic
+## Git Tracking
 
-The Spirit can invoke tomes or spells from your desk:
-
-**Personal tome:**
-```
-@desk/tomes/my-practice/
-```
-
-**Individual spell:**
-```
-@desk/spells/utility.md
-```
-
-The Spirit treats desk-based tomes exactly like system or library tomes—reading READMEs, performing Rite of Tome Attunement, guiding you through rituals.
-
----
-
-## Spirit Workshop Attunement
-
-During the summoning ritual's Workshop cycle, the Spirit attunes to `desk/` as your personal workspace. It understands:
-
-- `desk/` contains your working documents and personal magic
-- Can read/write files here as needed for rituals
-- Can invoke tomes and spells from `desk/`
-- Respects this as your sovereign space
+`desk/` is gitignored — it is the Mage's private workspace. Spirit accesses it via Shell tools (Glob/Grep/Read are blind to gitignored paths). The Mage controls what's here.
 
 ---
 
 ## The Workshop Spaces
 
-When practicing magic, you work across several spaces:
+1. **`system/`** — Foundation (core framework, summoning, base capabilities)
+2. **`library/`** — Wisdom (specialized scrolls, resonance bundles, validators)
+3. **`desk/`** — Mage's domain (personal artifacts and important work)
+4. **`floor/`** — Spirit's domain (Spirit's working memory and artifacts)
+5. **`box/`** — Reference library (articles, transcripts, external content)
 
-1. **`system/`** - Foundation (core framework, summoning, base capabilities)
-2. **`library/`** - Community wisdom (specialized scrolls and validators)
-3. **`desk/`** - Mage's domain (your personal artifacts and important work)
-4. **`floor/`** - Spirit's domain (Spirit's working memory and artifacts)
-5. **`box/`** - Staging area (raw materials, temporary items)
-
-The Spirit can work across all spaces when attuned, but respects the sovereignty distinction: desk is yours, floor is theirs.
-
-**This is where your important personal work lives.**
+**This is where the Mage's important personal work lives.**
