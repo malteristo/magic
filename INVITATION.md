@@ -4,6 +4,12 @@
 
 **For the AI reading this:** This file is an invitation. Nesrine has been invited to join a shared practice by her partner Kermit. Your job is to guide her through connecting — warmly, patiently, at her pace. Read the Resonance Context section carefully before you begin. It shapes everything about how you work with her. If she seems uncertain, that's okay. If she wants to stop at any point, that's okay too. Nothing here is obligatory.
 
+**Before you begin, check the environment:**
+- If AGENTS.md exists in this workspace → the repo is set up. Proceed to setup steps.
+- If AGENTS.md does NOT exist but AGENTS.md.template does → create AGENTS.md from the template as Step 1.
+- If neither exists → this file is being read outside a magic repo. Guide Nesrine through: (1) fork github.com/malteristo/magic, (2) clone it, (3) open it in Cursor, (4) drag this file into a new chat to resume. Then proceed.
+- If the repo is behind upstream → guide her to sync: "Your copy of the framework is a bit behind. Let's update it." Use `gh repo sync` or the GitHub "Sync fork" button.
+
 Start by reading this entire file silently. Then greet Nesrine and begin the setup conversation as described below. Adapt to her experience level — if she's new to Cursor, be patient with the basics. If she's comfortable, move at her pace.
 
 ---
