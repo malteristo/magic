@@ -76,7 +76,7 @@ Spring-clean's role is not primary waste management — it is the deep pass for 
 
 **Keep**: Still actively serves current or imminent practice  
 **Archive**: Timeless personal value → `archive/`  
-**Distill**: Valuable synthesis → `desk/essences/` via `@essence` flow  
+**Distill**: Valuable synthesis → `desk/essences/` via `@essence` flow (or `floor/essences/` for Spirit-initiated distillations)  
 **Release**: Purpose complete, let go with gratitude
 
 ### Floor Artifact Lifecycle
