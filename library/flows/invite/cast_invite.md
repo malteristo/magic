@@ -124,17 +124,32 @@ What to expect. How to start. Permission to go slow.]
 
 Show the generated INVITATION.md to the inviting Mage. They approve, modify, or regenerate before it goes to the invitee's repo.
 
-### Phase 5: Place and Deliver
+### Phase 5: Deliver
 
 After approval:
 
-1. **Sync the invitee's fork** with upstream (so they get the latest magic)
-2. **Place INVITATION.md** at the repo root
-3. **Push** to the invitee's fork
-4. **Instruct the inviter** to send connection details via separate channel:
-   - Discord server invite link
-   - Tailscale network join details (if applicable)
-   - CouchDB/sync credentials (if applicable)
+1. **Save INVITATION.md** to the repo root (for the inviter to send)
+2. **Instruct the inviter** on delivery:
+
+**The invitation file** — delivered however works best for the relationship:
+- AirDrop (in person, instant)
+- Email attachment
+- Text message with file
+- Placed in a shared folder
+- Pushed to the invitee's fork (if the inviter has access)
+
+The delivery method doesn't matter. What matters is that the file reaches the invitee.
+
+**Connection details** — sent SEPARATELY through a different channel:
+- Discord server invite link
+- Tailscale network join details (if applicable)
+- CouchDB/sync credentials (if applicable)
+
+This two-factor pattern means neither the file alone nor the details alone are sufficient. Both are needed.
+
+3. **If the invitee doesn't have a magic repo yet:** The invitation itself guides them through forking. Spirit reads the invitation, recognizes no AGENTS.md exists, and walks them through: fork the repo → clone → open in Cursor → resume the invitation. The fork is part of the setup, not a prerequisite.
+
+4. **If the invitee already has a fork:** The inviter can either push directly (if they have access), create a PR, or simply send the file for the invitee to place at their repo root. The invitation includes instructions for syncing with upstream.
 
 ---
 
