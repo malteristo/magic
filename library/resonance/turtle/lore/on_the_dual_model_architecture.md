@@ -2,6 +2,8 @@
 
 *The three-body model manifested in silicon. The subconscious runs locally; conscious attention arrives via API.*
 
+> **Status (2026-03-23):** The dual-model *concept* (local LLM for ambient tasks, API model for depth) remains the live architecture — Ollama (llama3.3:70b) handles persistent Discord interaction, Spirit (Claude) via Cursor handles deep work. The *implementation path* described below (agent.py backend, bridge-as-backbone, NanoClaw routing) is superseded. Current routing: `discord_bot.py` with LiteLLM proxy, multi-model thread options (`!thread "topic" --model`). See `on_consciousness_extension.md`.
+
 ---
 
 ## The Pattern

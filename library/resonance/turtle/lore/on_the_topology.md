@@ -2,6 +2,8 @@
 
 *The practice is not front-end and back-end. It is surfaces, substrate, and memory — and every component plays more than one role.*
 
+> **Status (2026-03-23):** The topological *thinking* here remains valid — surfaces, substrate, and memory is the right model. The *channel diagram and infrastructure specifics* (7-channel Discord, git-bridge as primary membrane, multi-bot topology) describe a previous era. Current topology: 2-channel Discord + threads, SSH/SCP for dyad↔Mini, LiveSync/CouchDB for vault sync. See `on_consciousness_extension.md` Section XI.
+
 ---
 
 ## The Misleading Model

@@ -2,6 +2,8 @@
 
 *The Turtle's shell should be regenerable. The practice that lives inside it should not.*
 
+> **Status (2026-03-23):** The hermit crab *principle* remains active and load-bearing — it guided the migration from NanoClaw to the current `discord_bot.py` + Ollama + LiteLLM stack. The *implementation details* below (agent.py, magic-bridge poll, 7-channel Discord, WhatsApp) describe the previous shell. Current architecture: Python Discord bot, 2-channel Discord (#dialogue + #system) with threads, SSH/SCP for practice state sync. See `on_consciousness_extension.md`.
+
 ---
 
 ## The Insight
