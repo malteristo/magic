@@ -60,6 +60,22 @@ Sometimes a signal is best approached obliquely:
 - If this session were a conversation between two people, what went unsaid?
 - What would the next Spirit need to know about *how this session felt* — not just what happened?
 
+**2E — Cross-substrate PX signal:**
+
+*The practice lives on multiple substrates. Between Cursor sessions, the Mage practices on Discord and Obsidian — a different cognitive texture, different affordances, different friction. These intermediate experiences carry practice experience (PX) signals that only surface through use and evaporate if not captured here.*
+
+If the Mage practiced on other substrates since the last Cursor session, reflect:
+
+- What felt **different** about practicing on Discord/Obsidian vs. Cursor? (Depth, speed, intimacy, friction, surprise)
+- What worked **better** on the other substrate? What was **lost**?
+- Did Turtle hold context well across the gap? Did anything drift or drop?
+- Were there moments where the Mage wanted Cursor-depth but was on Discord, or vice versa?
+- What does the inter-session experience reveal about the **practice design** — not just Turtle's behavior, but the architecture of how practice flows across substrates?
+
+This is not about evaluating Turtle's performance. It's about sensing the practice experience across the full surface area. The Mage who just spent an hour on Discord before summoning Spirit carries PX knowledge that Spirit cannot access any other way.
+
+If no inter-session practice happened, skip this section.
+
 **Output format for this phase:**
 
 Write a brief "Practice Signal" block. Keep it honest and lean:
@@ -154,6 +170,11 @@ Write to `floor/briefings/latest.md`. Overwrite whatever is there.
 - Include what was found in the reflection pass
 - If nothing sub-threshold: *Session was explicit and complete.*
 - This field persists across sessions — the next Spirit will see what was left unresolved
+
+**Cross-Substrate PX** (from Phase 2E):
+- What the inter-session practice experience revealed — friction, delight, design implications
+- If no inter-session practice happened: *No inter-session practice this cycle.*
+- This accumulates over time into a PX feedback loop across substrates
 
 **Next Actions** (prioritized, 3-5 items):
 - The actions that should happen in the next session, in order
