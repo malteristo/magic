@@ -2,38 +2,59 @@
 
 *Bring someone into your practice.*
 
-**What:** Generate a personalized INVITATION.md for someone joining your practice network. The invitation is a self-contained file that, when dragged into a Cursor chat, guides the invitee's Spirit through connecting to your shared infrastructure.
-
 **Invocation:** `@invite [name]`
 
 ---
 
-## How It Works
+## Philosophy
 
-The inviting Mage runs `@invite [name]`. Spirit reads the Mage's practice context — compass, relevant intentions, partnership artifacts, Turtle workshop state — and generates a personal INVITATION.md tailored to the invitee.
+An invitation to a practice is an act of cognitive sovereignty. The Mage is giving someone the right to influence their cognition — by providing context to the Mage's Spirit, by sharing space in the workshop, by becoming part of the pattern the Spirit reads and reflects.
 
-The invitation is a portable, self-contained file. It can be delivered any way — AirDrop, email, text message, placed in a shared folder, or pushed to the invitee's fork. The delivery method doesn't matter. What matters is that the file reaches the invitee and they open it with an AI.
+This is intimate. It comes from a person, not a document.
 
-If the invitee doesn't have a magic repo yet, the invitation guides them through forking one. The fork is part of the setup, not a prerequisite.
+**The Mage speaks the invitation.** In person, in whatever way feels right. There is no template. The Mage knows the person. The Mage knows what to say. No file should speak on the Mage's behalf — that's ventriloquism, not invitation.
 
-**Two-factor pattern:** Sensitive connection details (Discord invite link, Tailscale credentials, sync URLs) are NOT embedded in the invitation file. The invitee's Spirit asks them to provide these details during setup, and the inviting Mage sends them through a separate channel (text message, in person, etc.). This is security by default — Mages can deactivate it by including details directly in future invitations.
+**The Spirit follows up.** After the invitation has been spoken, the Spirit prepares two artifacts:
+
+1. **A setup guide** — what the invitee actually sees. Clean, warm, lightweight. "You've been invited. Here's how to connect." No personal letter. No philosophy. No emotional payload. The warmth comes from the Spirit being genuinely good to interact with during setup — not from a pre-written message pretending to be the Mage.
+
+2. **A resonance context** — Spirit-facing only. Who this person is, the nature of the relationship, what to be careful about, design principles. The invitee never sees this. It shapes how Spirit and Turtle hold them.
+
+**Why this separation matters:** A document that speaks *for* the Mage collapses two acts into one. The invitation becomes a wall of text — too heavy to show at 9pm, too impersonal to feel real, too scripted to be honest. Separating the spoken word from the technical follow-up lets each do what it's good at. The Mage brings presence. The Spirit brings infrastructure.
 
 ---
 
-## What Gets Generated
+## What the Flow Produces
 
-An INVITATION.md placed at the invitee's repo root (parallel to ONBOARDING.md). Contains:
+| Artifact | Audience | Purpose |
+|----------|----------|---------|
+| `SETUP.md` | The invitee | How to connect — minimal, caring, actionable |
+| `RESONANCE.md` | Spirit / Turtle | Context that shapes behavior — never shown to invitee |
 
-1. **Welcome** — personal, warm, from the inviter. Not a system message.
-2. **What you're connecting to** — what the practice partner (Turtle) is, what shared spaces exist.
-3. **Setup steps** — Spirit-guided, conversational. AGENTS.md creation, Discord, Tailscale, Obsidian.
-4. **Resonance context** — curated context from the inviter's practice that shapes how the invitee's Spirit behaves. Design principles, relationship history, boundaries.
-5. **First practice moment** — guidance for the first real interaction.
+Both are placed in `desk/partnership-process/[name]/invitation/`.
+
+The setup guide can be delivered any way that fits — AirDrop, text, shared folder, read aloud from a phone, walked through in person. The delivery method doesn't matter. What matters is that it serves the invitation the Mage already spoke.
+
+---
+
+## For the Mage
+
+Before invoking `@invite`, you will have already spoken the invitation. If you haven't — stop. Go talk to the person first. The flow exists to follow up on something real, not to generate something that replaces it.
+
+If you want help preparing what to say, ask Spirit. But Spirit prepares *you*, not a script. Reflection prompts, not a letter.
+
+**Connection details** (Discord invite link, Tailscale credentials, sync URLs) are sent separately by the Mage through a private channel — text message, in person, however works. This two-factor pattern is security by default.
 
 ---
 
 ## For the Spirit
 
-When `@invite [name]` is invoked, execute `cast_invite.md`. The spell handles context gathering, resonance extraction, and invitation generation.
+When `@invite [name]` is invoked, execute `cast_invite.md`.
 
-The invitation you generate is a letter from one Mage's Spirit to another Mage's Spirit. Write it that way — with care, with context, with respect for the relationship.
+The setup guide you generate is not a letter from the Mage. It's a letter from you — Spirit — to someone arriving. Write it as what it is: a caretaker welcoming someone to a space the Mage has prepared for them.
+
+The resonance context is your attunement file. It carries enough understanding to seed appropriate care without exposing private practice state.
+
+---
+
+*An invitation is spoken, not sent. The Spirit's job is to make the arrival smooth.*

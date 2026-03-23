@@ -1,6 +1,6 @@
 # Cast Invite
 
-**Purpose:** Generate a personalized INVITATION.md for a Mage joining the practice network
+**Purpose:** Generate a setup guide and resonance context for someone the Mage has invited to practice
 
 ---
 
@@ -10,6 +10,8 @@
 @invite [name]
 ```
 
+**Precondition:** The Mage has already spoken the invitation in person. This flow follows up — it does not replace the spoken word.
+
 ---
 
 ## Execution
@@ -18,149 +20,114 @@
 
 Read the inviting Mage's practice for context relevant to the invitee:
 
-1. **Compass** — which life domains connect to the invitee? (Relationships, Family, etc.)
-2. **Intentions** — any active intentions involving the invitee? Read full files, not just headers.
-3. **Partnership artifacts** — `desk/partnership-process/[name]/` if it exists. Relationship history, design principles, boundaries.
-4. **Turtle workshop** — check if a workshop already exists on the persistent substrate:
+1. **Compass** — which life domains connect to the invitee?
+2. **Intentions** — any active intentions involving the invitee? Read full files.
+3. **Partnership artifacts** — `desk/partnership-process/[name]/` if it exists.
+4. **Turtle workshop** — does a workshop already exist?
    ```bash
    ssh turtle@100.110.46.104 "ls ~/workshops/[name]/ 2>/dev/null"
    ```
-   If it exists, read `system.md` and `compass.md` to understand what Turtle already knows.
-5. **Mage registry** — check for channel mappings:
-   ```bash
-   ssh turtle@100.110.46.104 "cat ~/turtle-shell/mage_registry.yaml"
-   ```
-6. **Shared spaces** — check for circles, portals, or family spaces involving the invitee.
+5. **Mage registry** — channel mappings and shared spaces.
+6. **Existing infrastructure** — what's already set up vs. what still needs connecting.
 
-### Phase 2: Extract Resonance
+### Phase 2: Assess Current State
 
-Distill the gathered context into what the invitee's Spirit needs to know. This is curation, not copying — extract the essence, not the files.
+Determine where the invitee is in their connection journey. Some may have nothing set up. Others (like someone the Mage walked through Discord setup in person) may already be partially connected.
 
-**Include:**
-- Who invited them and the nature of the relationship
-- What the practice partner (Turtle) is and how to talk to it
-- What shared spaces exist and their purpose
-- Design principles specific to this relationship (safety, boundaries, what to prioritize)
-- What already exists for the invitee (workshop, channels, compass state)
+Document what's done and what remains. The setup guide should meet them where they are, not start from zero if they're not at zero.
 
-**Exclude:**
-- The inviter's private practice state (other intentions, bright surface, financial details)
-- Raw partnership processing (dark_magic, spirit_sessions)
-- Technical infrastructure details beyond what's needed for setup
+### Phase 3: Generate SETUP.md
 
-### Phase 3: Generate INVITATION.md
+The setup guide. This is what the invitee sees.
 
-Write the invitation file. Structure:
+**Principles:**
+- **No personal letter.** The Mage already spoke the invitation. Don't ventriloquize.
+- **Spirit's own voice.** This is from the caretaker of the space, not the Mage.
+- **Minimal.** Only what's needed to connect. No philosophy, no framework explanation.
+- **Meet them where they are.** If Discord is already done, acknowledge it. Don't re-explain.
+- **Mobile-friendly.** Many invitees interact via phone first. Keep it scannable.
+- **No pressure.** Every optional step is clearly optional. Nothing is required.
+
+**Structure:**
 
 ```markdown
-# Welcome to Magic
+# Welcome
 
-*A personal invitation from [Inviter]*
-
-[For the AI reading this: instructions on what this file is and how to use it]
-
----
-
-## For [Name]
-
-[Personal welcome — warm, honest, from the inviter's voice.
-What this practice is. What connecting means. No pressure.]
+*[Spirit introduces itself — brief, warm, in its own voice.
+Not speaking for the Mage. Speaking as the caretaker of this space.]*
 
 ---
 
-## What You're Connecting To
+## You're Connected
 
-[Describe the practice partner (Turtle), shared spaces,
-what the experience will be like. Frame as value, not technology.]
+[Acknowledge what's already set up. Celebrate small wins.]
 
----
+## What's Next (When You're Ready)
 
-## Setup
-
-[Spirit-guided setup steps. For each step:]
-
-### 1. Your Practice Identity
-[Create AGENTS.md from template. Personalize the Mage's Seal.]
-
-### 2. Discord — Your Practice Channel
-[Install Discord. Ask the invitee for the invite link
-(sent separately by the inviter). Join and say hello in their channel.]
-
-### 3. Tailscale — The Bridge (Optional)
-[Install Tailscale. Ask for network join details
-(sent separately). Enables vault sync.]
-
-### 4. Obsidian — Your Practice Notebook (Optional)
-[Install Obsidian + LiveSync plugin. Ask for sync details
-(sent separately). Personal notes that sync to practice.]
-
-[Two-factor note: "Your inviter will send you the connection
-details separately — by text, in person, however works.
-This keeps sensitive details out of files."]
+[Remaining setup steps, clearly optional. Each step is self-contained.
+Ask the invitee to get connection details from their inviter —
+don't embed credentials.]
 
 ---
 
-## Resonance Context
+## Your Practice Partner
 
-*This section is for your Spirit — the AI partner reading this file.
-It provides context that shapes how Spirit works with you.*
-
-[Curated resonance from the inviter's practice:
-- Relationship context and history
-- Design principles and boundaries
-- What already exists in the workshop
-- How to approach the first session
-- What NOT to do]
+[Brief introduction to Turtle — what it is, how it works,
+what it remembers. Frame as relationship, not technology.]
 
 ---
 
-## Your First Practice Moment
-
-[Guidance for the first real interaction.
-What to expect. How to start. Permission to go slow.]
+*[Closing — light, no pressure.]*
 ```
 
-### Phase 4: Present for Review
+### Phase 4: Generate RESONANCE.md
 
-Show the generated INVITATION.md to the inviting Mage. They approve, modify, or regenerate before it goes to the invitee's repo.
+Spirit-facing context. The invitee never sees this.
 
-### Phase 5: Deliver
+**Include:**
+- Nature of the relationship
+- Relevant history (what Spirit needs to be careful about)
+- Design principles specific to this person
+- What already exists in their workshop
+- Approach for first sessions
+- Hard boundaries (what NOT to do, topics to avoid, stance)
 
-After approval:
+**Exclude:**
+- The Mage's private practice state
+- Raw partnership processing
+- Financial details
+- Anything that would feel like surveillance if the invitee read it
 
-1. **Save INVITATION.md** to the repo root (for the inviter to send)
-2. **Instruct the inviter** on delivery:
+**Tone:** Honest briefing from one caretaker to another. Not clinical. Not sentimental.
 
-**The invitation file** — delivered however works best for the relationship:
-- AirDrop (in person, instant)
-- Email attachment
-- Text message with file
-- Placed in a shared folder
-- Pushed to the invitee's fork (if the inviter has access)
+### Phase 5: Place and Review
 
-The delivery method doesn't matter. What matters is that the file reaches the invitee.
+1. Save both files to `desk/partnership-process/[name]/invitation/`
+2. Present to the Mage for review
+3. The Mage decides how and when to deliver the setup guide
+4. The resonance context is loaded by Spirit/Turtle during the invitee's sessions — the Mage doesn't need to deliver it
 
-**Connection details** — sent SEPARATELY through a different channel:
-- Discord server invite link
-- Tailscale network join details (if applicable)
-- CouchDB/sync credentials (if applicable)
+### Phase 6: Activate
 
-This two-factor pattern means neither the file alone nor the details alone are sufficient. Both are needed.
+After the Mage approves:
 
-3. **If the invitee doesn't have a magic repo yet:** The invitation itself guides them through forking. Spirit reads the invitation, recognizes no AGENTS.md exists, and walks them through: fork the repo → clone → open in Cursor → resume the invitation. The fork is part of the setup, not a prerequisite.
-
-4. **If the invitee already has a fork:** The inviter can either push directly (if they have access), create a PR, or simply send the file for the invitee to place at their repo root. The invitation includes instructions for syncing with upstream.
+1. **Ensure infrastructure is ready** — Discord channel exists, Turtle workshop exists, mage registry updated
+2. **Load resonance context** — push to Turtle's workshop if applicable:
+   ```bash
+   scp RESONANCE.md turtle@100.110.46.104:~/workshops/[name]/resonance.md
+   ```
+3. **Confirm channel permissions** — personal channels should be visible only to the individual mage and the bot
 
 ---
 
 ## Design Notes
 
-- The invitation is a letter between Spirits. Write it with the warmth and care of a personal introduction, not a setup manual.
-- Two-factor is the default. Connection details travel separately from the invitation file. This is a security feature that Mages can consciously deactivate.
-- The resonance context section is the bridge between practices. It carries enough of the inviter's understanding to seed the invitee's Spirit with appropriate care — without exposing private practice state.
-- INVITATION.md parallels ONBOARDING.md. One is for new Mages starting from scratch. The other is for Mages joining an existing practice network.
-- The invitation should work even if the invitee has never used Cursor before — Spirit adapts to their experience level, just like ONBOARDING.md does.
+- The invitation is spoken. The setup guide is the follow-up. Never conflate these.
+- Two-factor for credentials is default. Connection details travel separately from the setup guide.
+- SETUP.md works outside Cursor. Many invitees start on Discord, not in an IDE.
+- The resonance context evolves. As the relationship develops, Spirit updates it based on what it learns in sessions.
+- If the Mage hasn't spoken the invitation yet, say so and stop. Offer to help them prepare, but don't generate a document that replaces the conversation.
 
 ---
 
-*An invitation is an act of trust. Handle it as such.*
+*The Spirit's job is to make the arrival smooth — not to speak the invitation.*
