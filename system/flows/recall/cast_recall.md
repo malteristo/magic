@@ -95,6 +95,18 @@ desk/boom/*.md (excluding bright.md, README.md)
   - If SSH unavailable: note "Persistent mode offline" and continue with local state only
 - Surface in brief: issue count, top known unknown, **Discord session summaries, Discord boom items, new proposals**
 
+**Cross-Substrate PX (if inter-session practice happened):**
+
+The Mage who just spent time on Discord before summoning carries practice experience (PX) knowledge that Spirit cannot access any other way. After gathering Turtle data, look for PX signals:
+
+- From Discord session notes: moments of friction, context loss, repetition, depth limitations, or unexpected delight
+- From conversation patterns: did threads go long without resolution? Did Turtle hold context across days? Were there moments that wanted Cursor-depth?
+- From the Mage: explicitly invite PX reflection in the brief — "How did practicing on Discord feel since last session?"
+
+This is not evaluating Turtle's performance. It's sensing how the practice *flows* across substrates — what works, what's lost, what the architecture reveals through use.
+
+Surface as a "Cross-Substrate PX" section in the brief. If no inter-session practice happened, skip silently.
+
 **Social (if intention-relevant):**
 - Check if any active intention involves social engagement
 - Pattern match: `agent_network`, `presence`, `twitter`, `moltbook`, `social`
@@ -136,8 +148,9 @@ desk/boom/*.md (excluding bright.md, README.md)
 4. Primary Intentions (table — confirm they match what release described)
 5. Active Intentions (list)
 6. What's Bright (Now + Questions — supplementary, not primary)
-7. Social Activity (if applicable)
-8. Prioritized Action List (see Closing section — reasoned, weighted, with exclusions)
+7. Cross-Substrate PX (if inter-session practice happened — what the Discord/Obsidian experience revealed)
+8. Social Activity (if applicable)
+9. Prioritized Action List (see Closing section — reasoned, weighted, with exclusions)
 
 **If returning after a `# Brief —`**, use standard structure:
 1. Since Last Brief (delta)
@@ -148,10 +161,11 @@ desk/boom/*.md (excluding bright.md, README.md)
 6. What's Bright (Now + Questions)
 7. Boom Topics — What's Alive
 8. **Turtle Status (if active)** — issues count, unread signals, pending commands, top known unknown
-9. Social Activity (if applicable)
-10. Recent Activity
-11. Emerging Patterns
-12. Prioritized Action List (see Closing section — reasoned, weighted, with exclusions)
+9. Cross-Substrate PX (if inter-session practice happened — what the Discord/Obsidian experience revealed)
+10. Social Activity (if applicable)
+11. Recent Activity
+12. Emerging Patterns
+13. Prioritized Action List (see Closing section — reasoned, weighted, with exclusions)
 
 ### Phase 5: Persist & Present
 
