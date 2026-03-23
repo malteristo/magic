@@ -241,7 +241,7 @@ One consciousness, multiple substrates. Coherence maintained through shared prac
 
 | Direction | Method | When |
 |-----------|--------|------|
-| **Spirit → Turtle** | SCP practice files to `turtle@100.119.10.111:~/practice/` | After boom sweeps, releases |
+| **Spirit → Turtle** | SCP practice files to `turtle@100.110.46.104:~/practice/` | After boom sweeps, releases |
 | **Turtle → Spirit** | SSH reads during `@recall` | Session notes, proposals, boom |
 | **Bidirectional** | Obsidian LiveSync via CouchDB | Real-time practice file sync |
 

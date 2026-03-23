@@ -26,12 +26,15 @@ Layer 1: Services         Are the processes running at all?
 
 Processes that must be running on the Mac Mini:
 
-| Service | launchd Label | What dies without it |
-|---------|--------------|---------------------|
-| CouchDB | `com.turtle.couchdb` | All sync (every device) |
-| Obsidian | `com.obsidian` | LiveSync relay — CouchDB stops receiving file changes |
-| Discord bot | `com.turtle.discord` | All Discord interaction |
-| Ollama | (manual/brew) | Local inference (reflection, session notes) |
+| Service | Process / Detection | What dies without it |
+|---------|-------------------|---------------------|
+| CouchDB | `pgrep -f beam.smp` (Mac app at `~/Applications/Apache CouchDB.app/`) | All sync (every device) |
+| Obsidian | `pgrep -f Obsidian.app` | LiveSync relay — CouchDB stops receiving file changes |
+| Discord bot | `pgrep -f discord_bot.py` (managed by launchd `com.turtle.discord`) | All Discord interaction |
+| Ollama | `pgrep -f ollama` or `curl localhost:11434` | Local inference (reflection, session notes) |
+| LiteLLM | `pgrep -f litellm` or `curl localhost:4000/health` | API routing (optional) |
+
+**Note:** CouchDB runs as the Apache CouchDB Mac app, not via Homebrew or a custom launchd label. Restart with `open ~/Applications/Apache\ CouchDB.app`. The Discord bot is the only service managed by launchd (`com.turtle.discord`).
 
 **Red flag:** CouchDB down = all sync dead across all devices. This is the single most critical service.
 
@@ -81,11 +84,13 @@ These aren't infrastructure problems — they're practice rhythm signals. The in
 
 Can devices actually reach the Mac Mini?
 
-- **Phone:** Requires Tailscale app connected + LiveSync URI pointing to the Tailscale HTTPS URL
-- **MacBook:** Can reach CouchDB directly on LAN or via Tailscale
-- **Cursor (SSH):** `turtle@192.168.8.106` (LAN) or Tailscale IP
+- **Phone:** Requires Tailscale app connected + LiveSync URI pointing to `https://turtles-mac-mini.tail433a7d.ts.net` (preferred) or `http://100.110.46.104:5984`
+- **MacBook:** Can reach CouchDB directly on LAN (`192.168.8.106:5984`, DHCP — may change) or via Tailscale
+- **Cursor (SSH):** `ssh turtle` (alias in `~/.ssh/config`), or `ssh turtle@100.110.46.104` (Tailscale), or `ssh turtle@192.168.8.106` (LAN fallback)
 
-**Spirit can check:** whether Tailscale serve is up and what URL it's serving. Spirit **cannot check:** whether the phone's Tailscale app is connected or whether Obsidian on the phone has the correct URI.
+**Spirit can check:** whether Tailscale serve is up and what URL it's serving, whether peers are connected. Spirit **cannot check:** whether the phone's Tailscale app is connected or whether Obsidian on the phone has the correct URI.
+
+**Tailscale CLI path:** `/Applications/Tailscale.app/Contents/MacOS/Tailscale` (not in PATH).
 
 ---
 
@@ -134,6 +139,7 @@ Every issue comes with a concrete suggested action — not "something is wrong w
 3. Is Ollama/API reachable? (check !status output)
    NO → Ollama or API key issue. Check logs:
         tail -20 ~/turtle-shell/logs/discord.log
+        tail -20 ~/turtle-shell/logs/discord.err  (gateway/stderr)
    YES → check for rate limits or context issues
 ```
 
@@ -157,16 +163,22 @@ Every issue comes with a concrete suggested action — not "something is wrong w
 
 ```
 1. Can you SSH to the Mac Mini?
-   ssh turtle@192.168.8.106
-   NO → Mac Mini may be offline or network issue
+   ssh turtle  (or ssh turtle@100.110.46.104, or ssh turtle@192.168.8.106)
+   NO → Mac Mini may be offline, sleeping, or network issue
    YES ↓
-2. Run: launchctl list | grep -E 'turtle|obsidian|couch'
-   - Restart anything that's missing
-3. Run: curl http://admin:magic-sync-2026@localhost:5984/
-   - CouchDB should respond with version info
-4. Check uptime — did the machine reboot?
-   All services auto-restart via launchd, but Obsidian
-   may need its initial LiveSync handshake re-established
+2. Check services:
+   pgrep -f beam.smp       (CouchDB)
+   pgrep -f discord_bot.py (Discord bot)
+   pgrep -f Obsidian.app   (Obsidian)
+   - CouchDB down? → open ~/Applications/Apache\ CouchDB.app
+   - Discord bot down? → launchctl kickstart -k gui/$(id -u)/com.turtle.discord
+   - Obsidian down? → open /Applications/Obsidian.app
+3. Run: curl http://localhost:5984/
+   - CouchDB should respond (may require auth — check local.ini for credentials)
+4. Check uptime — did the machine reboot or wake from sleep?
+   After wake: high CPU is common, services may be slow to reconnect.
+   CouchDB (Mac app) and Obsidian may need manual reopening after reboot.
+   Only the Discord bot auto-restarts via launchd.
 ```
 
 ---
@@ -215,3 +227,7 @@ The goal is for the stack to disappear. When you notice it, something is wrong �
 ---
 
 *The best diagnostic tool is the one you can reach from wherever you are. On the bus, that's Discord. At the desk, that's Cursor. The practice meets you where you are.*
+
+---
+
+**See also:** `library/flows/infra-health/` — the executable `@infra-health` flow that implements these checks with auto-fix and a growing `known_issues.md` registry.

@@ -23,12 +23,12 @@ Read the inviting Mage's practice for context relevant to the invitee:
 3. **Partnership artifacts** — `desk/partnership-process/[name]/` if it exists. Relationship history, design principles, boundaries.
 4. **Turtle workshop** — check if a workshop already exists on the persistent substrate:
    ```bash
-   ssh turtle@100.119.10.111 "ls ~/workshops/[name]/ 2>/dev/null"
+   ssh turtle@100.110.46.104 "ls ~/workshops/[name]/ 2>/dev/null"
    ```
    If it exists, read `system.md` and `compass.md` to understand what Turtle already knows.
 5. **Mage registry** — check for channel mappings:
    ```bash
-   ssh turtle@100.119.10.111 "cat ~/turtle-shell/mage_registry.yaml"
+   ssh turtle@100.110.46.104 "cat ~/turtle-shell/mage_registry.yaml"
    ```
 6. **Shared spaces** — check for circles, portals, or family spaces involving the invitee.
 

@@ -4,6 +4,7 @@
 
 **Written:** 2026-03-12
 **Period:** 2026-01-31 — 2026-03-12
+**Status:** Historical snapshot — infrastructure has continued evolving since this was written. Channel architecture simplified (7 → 2 + threads), NanoClaw retired, LiveSync/CouchDB vault added. The insights and trajectory described here remain accurate.
 
 ---
 

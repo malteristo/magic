@@ -99,12 +99,12 @@ n = 1
 - CORS `origins` must include `app://obsidian.md` (desktop) and `capacitor://localhost` (mobile)
 - Both `[httpd]` and `[chttpd]` need `enable_cors = true`
 
-Create data directories, make CouchDB persistent via launchd, and create the sync database:
+Create data directories and the sync database. CouchDB on macOS runs as the Apache CouchDB app (not via launchd):
 
 ```bash
 mkdir -p ~/Library/Application\ Support/CouchDB2/data && \
-launchctl load ~/Library/LaunchAgents/com.YOUR_USER.couchdb.plist && \
-sleep 3 && \
+open ~/Applications/Apache\ CouchDB.app && \
+sleep 5 && \
 curl -X PUT http://admin:YOUR_PASSWORD@localhost:5984/workshop_sync && \
 echo "CouchDB ready"
 ```
@@ -118,21 +118,15 @@ echo 'YOUR_PASSWORD' > ~/.couchdb_pass && chmod 600 ~/.couchdb_pass
 
 Install Tailscale on all devices:
 
-```bash
-# Server (always-on machine)
-brew install tailscale && brew services start tailscale
-
-# Laptop
-brew install tailscale && brew services start tailscale
-```
-
-On mobile, install the Tailscale app from your app store and sign in with the same account.
+On macOS, install Tailscale from the Mac App Store or download from [tailscale.com](https://tailscale.com). On mobile, install the Tailscale app and sign in with the same account.
 
 Set up the HTTPS proxy on the server:
 
 ```bash
-tailscale serve --bg http://localhost:5984
+/Applications/Tailscale.app/Contents/MacOS/Tailscale serve --bg --https=443 http://localhost:5984
 ```
+
+**Note:** On macOS, the Tailscale CLI is inside the app bundle — use the full path above, not `tailscale` directly.
 
 This gives you a permanent HTTPS URL like `https://your-machine.tailXXXXX.ts.net`. Note this URL — you'll use it for all LiveSync connections.
 
