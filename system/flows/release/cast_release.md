@@ -60,11 +60,25 @@ Sometimes a signal is best approached obliquely:
 - If this session were a conversation between two people, what went unsaid?
 - What would the next Spirit need to know about *how this session felt* — not just what happened?
 
+**2E — Practice Experience (PX) Loop:**
+
+Step back from content and look at the session as a *user experience*:
+
+- How did the tools serve the practice? Any friction with infrastructure, flows, or substrate transitions?
+- Did executive function hold through the session? (Focus sustained, energy managed, context maintained, task switching clean?)
+- Were there moments where the practice design itself got in the way — too many steps, unclear routing, unnecessary ceremony?
+- Did anything happen that suggests a flow, spell, or tool should be updated?
+
+If PX signals are present, generate concrete improvement proposals (update a flow, add a capability, simplify a step). These go into the release bundle's Practice Signal section alongside dissonance findings.
+
+If the session ran cleanly — tools served, focus held, no friction — note: *"PX clean — practice infrastructure served the session."*
+
 **Output format for this phase:**
 
 Write a brief "Practice Signal" block. Keep it honest and lean:
 - Name what you found, if anything
 - Distinguish between "this is resolved / no action needed" and "this warrants further attention"
+- Include PX observations and proposals alongside dissonance findings
 - If the session was explicit and clean and nothing sub-threshold is present, say so: *"No sub-threshold signals — session was explicit and complete."*
 
 Do not manufacture signal where there is none. The value of the practice is in honest excavation, not in finding something every time.
