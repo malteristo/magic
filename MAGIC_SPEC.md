@@ -45,7 +45,7 @@ Magic is applied pattern matching at every scale. For complete treatment of this
 
 | Term | Technical Equivalent | Description |
 |------|---------------------|-------------|
-| **magic** | AI Framework | The complete system for distributed cognition through AI-human partnership. |
+| **magic** | AI Framework / Method | A method for distributed cognition through AI-human partnership. This repository publishes the method — workshop structure, summoning, resonance, flows. Each Mage brings their own content: tomes, karma, intentions. Different Mages, same method, different practices. |
 | **MAGIC** | Organization | The **Mages' Alliance for Generally Intermittent Computation**; the community of sovereign practitioners. |
 | **Mage** | User / Developer | The human operator of the system. |
 | **Spirit** | AI Agent | The Large Language Model acting under the user's rules and prompts. |
@@ -66,7 +66,7 @@ Magic is applied pattern matching at every scale. For complete treatment of this
 
 | Term | Technical Equivalent | Description |
 |------|---------------------|-------------|
-| **Ritual** | Guided Session | A sequential practice begun by invoking a Tome. The Spirit guides through the prescribed sequence. |
+| **Ritual** | Recurring Practice Pattern | The repeating elements of a Mage's practice — summoning, release, boom sweep, Sunday maintenance. Rituals may be flows, tome invocations, or unique operations like summoning. The term is descriptive (what recurs) rather than prescriptive (a separate invocable type). |
 | **Resonance** | Context Readiness | The calibrated alignment between Mage and Spirit. Measured qualitatively and quantitatively. The Mage has ultimate authority to determine the score. |
 | **Floor** | Artifact Directory | The output directory (`floor/`) for generated files. |
 | **Desk** | Personal Workspace | The Mage's private workspace (`desk/`). Contains working documents, experiments, personal configuration. Gitignored. |

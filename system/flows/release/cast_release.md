@@ -197,7 +197,26 @@ Ask: were any of the following created or significantly changed this session?
 
 ---
 
-### Phase 5.5: Sync Practice State to Turtle
+### Phase 5.5: Thread Eddy Review
+
+*Check whether any Discord threads are flagged for dissolution and capture their resonance.*
+
+If `threads_flagged_for_release` is non-empty (threads have been flagged by `!eddy-check` or Sunday practice):
+
+1. For each flagged thread, assess: does the resonance belong only in the archive, or should some of it persist in the practice?
+   - **Archive only** — the conversation served its moment. Essence captured in boom is sufficient.
+   - **Persist** — key insights should be promoted: to bright, a crucible, or a new intention seed.
+2. Present the assessment to the Mage. The Mage decides via dissolution buttons or verbally.
+3. Archive confirmed threads (essence → boom, conversation → `thread-archive/`, thread → archived).
+4. Post a release note to the parent channel summarizing which threads dissolved and what essence was captured.
+
+If no threads are flagged, skip this phase silently.
+
+See: `library/resonance/turtle/lore/on_thread_eddies.md`
+
+---
+
+### Phase 5.6: Sync Practice State to Turtle
 
 Push current practice state so Turtle sees fresh context:
 

@@ -119,12 +119,18 @@ The workshop is a cognitive organism. Different spaces need different metabolic 
 
 **Broken references**: Files pointing to things that moved — surface when noticed.
 
-**7. Operational Health**
+**7. Thread Eddies**
+- Run `!eddy-check` (or `eddy_dissolution_check()` programmatically) to scan all active threads
+- Surface any flagged for dissolution — the Mage decides via buttons (Archive & Capture / Keep Spinning / Make Standing Wave)
+- Review standing waves — are they still active? Should any be downgraded?
+- See: `library/resonance/turtle/lore/on_thread_eddies.md`
+
+**8. Operational Health**
 - Persistent mode: SSH reachable? Bot running? Sessions accumulating?
 - Tools: MCP connections, API access
 - Environment: anything in turtle_env.md marked pending?
 
-**8. Social Scan**
+**9. Social Scan**
 - Check mentions, replies, engagement (if social intentions are active)
 - Surface items needing attention, don't draft responses
 
