@@ -148,7 +148,7 @@ Population 2 can be humans or AI agents. Two paths to getting there:
 | **Magic-repo integration path** | For practitioners who DO start from magic: a guided path from `@turtle` or the practice path document to setting up their own tOS. | Some users will discover tOS through magic. That path should be smooth too. |
 | **Push turtle-practice to GitHub** | The repo exists locally. It needs to be public. | Can't have Population 2 without a public repo. |
 | **First external practitioner** | Give tOS to one person. Watch what happens. | "Who gets it first?" is the question. A human practitioner or an AI agent running on someone else's infrastructure. Either validates or reveals what's missing. |
-| **Agent-friendly onboarding** | tOS already works for AI agents (FOR_AGENTS.md published). Ensure system.md is readable by any agent without human mediation. | Population 2 includes agents. An OpenClaw user should be able to point their agent at the repo and have it start practicing. |
+| **Agent-friendly onboarding** | tOS already works for AI agents (FOR_AGENTS.md published). Ensure system.md is readable by any agent without human mediation. | Population 2 includes agents. Any AI agent user should be able to point their agent at the repo and have it start practicing. |
 
 ### Phase C: Practice Coherence (this month)
 

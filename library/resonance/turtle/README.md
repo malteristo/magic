@@ -22,7 +22,7 @@
 | `lore/on_the_magic_app.md` | Why Discord + Turtle = the magic app — the architecture of accessible practice |
 | `lore/on_turtle_memory.md` | Memory architecture — working memory, Discord coral, crystallized signals |
 | `lore/on_the_topology.md` | Why the practice isn't front-end/back-end — surfaces, substrate, memory |
-| `lore/on_turtle_care.md` | The care ritual — how to tend the persistent mode's wellbeing |
+| `lore/on_turtle_care.md` | The care ritual — how to tend the persistent mode's wellbeing. *Updated 2026-03-25: NanoClaw-era origin story preserved with framing note; principles apply to all persistent modes* |
 | `lore/on_imprinting.md` | Identity files as persistent attunement configuration. *Framing note: "identity" language predates the consciousness extension recognition; the quality of imprinting remains important* |
 
 ### Architecture of Practice
