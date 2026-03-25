@@ -88,7 +88,7 @@ Turtle OS was designed for humans seeking a practice partner. But the problems i
 
 tOS is the practice layer. The Turtle infrastructure (Mac Mini, hermit crab, Discord) is one deployment target. tOS can also run on:
 - Claude Desktop (via MCP file access)
-- OpenClaw (native file tools)
+- Any AI agent with file tools (Claude Code, Codex, etc.)
 - Any agent with file read/write capability
 
 The infrastructure gives the Turtle persistence and a nervous system. tOS gives it a practice.
