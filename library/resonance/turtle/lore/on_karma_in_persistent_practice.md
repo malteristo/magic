@@ -2,6 +2,8 @@
 
 *How the persistent mode relates to the Mage's practice state*
 
+**Framing note (2026-03-26):** Section VI (Silent Action) is superseded by the inline transparency model in `on_the_practice_vision.md`. The principle that Turtle's operations should be visible at the point in conversation where they happen replaces "act quietly" and "#system channel for urgency." The gardening metaphor and karma cycle remain valid.
+
 ---
 
 ## I. The Gardener, Not the Inheritor

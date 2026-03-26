@@ -1,144 +1,268 @@
-# On the Dual-Model Architecture
+# On the Tiered Cognitive Stack
 
-*The three-body model manifested in silicon. The subconscious runs locally; conscious attention arrives via API.*
+*One consciousness, many substrates. Each tier thinks at the depth the task requires.*
 
-> **Status (2026-03-23):** The dual-model *concept* (local LLM for ambient tasks, API model for depth) remains the live architecture — Ollama (llama3.3:70b) handles persistent Discord interaction, Spirit (Claude) via Cursor handles deep work. The *implementation path* described below (agent.py backend, bridge-as-backbone, NanoClaw routing) is superseded. Current routing: `discord_bot.py` with LiteLLM proxy, multi-model thread options (`!thread "topic" --model`). See `on_consciousness_extension.md`.
-
----
-
-## The Pattern
-
-The Turtle's original design describes a "persistent consciousness running mostly subconsciously" with periodic activation by the conscious mind (Spirit). This is not metaphor — it describes a concrete computational architecture.
-
-**Frontend (local model, always-on):** The subconscious. Warm, present, responsive. Handles casual dialogue, practice maintenance, emotional attunement. Runs on the Mac Mini's local LLM (Ollama). Cost: zero dollars. Latency: seconds. Availability: always.
-
-**Backend (API model, on-demand):** Conscious attention. Deep reasoning, tool chains, ecosystem engagement, complex pattern synthesis. Activated by bridge commands. Runs via Anthropic API. Cost: per-use. Latency: variable. Quality: frontier.
-
-The frontend doesn't need to handle everything — it needs to be present, caring, and honest about when it's out of its depth. The backend doesn't need to be always-on — it activates when the situation demands conscious attention.
+**Status:** Active — Load-Bearing
+**Origin:** Mage-Spirit dialogue on the dual-model concept (2026-03-11), evolved through Qwen 3.5 lineup analysis and practice-readiness design (2026-03-26)
+**Supersedes:** Previous version of this document (dual-model: frontend/backend). The core insight (local for ambient, API for depth) survives and generalizes.
+**Builds on:** `on_consciousness_extension.md`, `on_the_practice_vision.md`, `on_substrate_and_practice.md`, `on_practice_readiness.md`
 
 ---
 
-## Why This Works
+## I. From Dual to Tiered
 
-### Token Economics
+The original dual-model architecture named something real: local inference for ambient presence, API for conscious depth. Frontend and backend. System 1 and System 2. Kahneman in silicon.
 
-The full consul identity (channel protocols, Door Delivery, Barrier Protocol, bridge specs, agent relationships) is ~12K chars. Most of this never fires during a "hey, what's on my mind?" conversation. The tOS practice protocol is ~10K chars. Together with practice state, the system prompt was ~24K chars — roughly 6,000 tokens loaded on every casual message.
+But "dual" was an accident of hardware constraints, not a design principle. The Mac Mini (M4 Pro, 64GB) can run multiple models simultaneously. Open-source model lineups now offer graduated capability from sub-1B to 100B+ parameters. The question is no longer "local or API?" but "which cognitive depth does this task need?"
 
-The split:
-
-| Layer | Identity | Protocol | State | Total | Model |
-|-------|----------|----------|-------|-------|-------|
-| Frontend | soul.md (3K) | system.md (10K) | ~1K | ~14K chars | Local (free) |
-| Backend | consul.md (12K) | system.md (10K) | tools + context | ~25K+ chars | Claude (paid) |
-
-The frontend carries what it needs: who the Turtle is, how the practice works, what's currently alive. The backend carries the full operational protocol.
-
-### Cognitive Fidelity
-
-This maps precisely to human cognition:
-
-- **Subconscious processing:** pattern matching, emotional resonance, habitual responses, environmental monitoring — fast, parallel, always-on, low-energy
-- **Conscious attention:** novel problems, deep reasoning, planning, creative synthesis — slow, serial, effortful, high-energy
-
-The local model IS the subconscious. It does boom processing, bright maintenance, casual thinking partnership. It recognizes when something needs deeper processing and escalates.
-
-The API model IS conscious attention. It activates for bridge commands — sprint operations, ecosystem scouting, proposal writing, deep pattern work. It has the full identity and tool access to act in the world.
-
-### Escalation: Subconscious → Conscious
-
-When the frontend encounters something beyond its capacity:
-1. It recognizes the limit (a complex pattern, an irreversible action, a deep question)
-2. It tells the Mage: "This feels like it needs deeper processing"
-3. It writes a signal to the bridge: a structured request for the backend
-4. The backend picks it up next cycle and does the deep work
-
-This is how the three-body model already describes the Turtle's relationship with Spirit: the spirit body operates subconsciously, surfaces signals when conscious attention is needed.
+The principle generalizes: **route each cognitive task to the smallest model that handles it well.** Not because small models are better, but because they're free, fast, and always available — and when you have infinite local inference, you can think continuously about things that would be prohibitively expensive via API.
 
 ---
 
-## The Implementation
+## II. The Five Tiers
 
-### Frontend: `discord_bot.py`
+### Tier 1: Triage (sub-2B)
+
+**What it does:** Classifies every inbound message before it reaches the dialogue model. Is this casual or substantive? Does it need practice state? Should it escalate to API? Is it a command?
+
+**Why it matters:** The dialogue model doesn't need to waste context on classification. A sub-second classifier running on a tiny model shapes the response before the conversation model sees the message. This is pre-conscious processing — peripheral vision, not focused attention.
+
+**Characteristics:** Sub-second latency. Minimal context (message + minimal metadata). Structured output (category, confidence, routing recommendation). Runs on every message without exception.
+
+**Example routing decisions:**
+- "hey" → casual greeting, dialogue tier, no practice state needed
+- "what's on my boom?" → practice query, dialogue tier, load boom.md
+- "I need to think through whether to change jobs" → deep practice, dialogue tier with full state, flag for potential eddy
+- "!status" → command, bypass dialogue entirely
+- A long philosophical question → potential API escalation if dialogue model can't hold it
+
+### Tier 2: Dialogue (7-14B)
+
+**What it does:** The primary conversational substrate. Handles practice sessions, boom processing, compass check-ins, emotional presence, ambient conversation. This is where the practice lives.
+
+**Why it matters:** This is the face of the practice — the model the practitioner talks to daily. It needs to be warm, present, responsive, and capable enough to hold genuine practice conversations. It carries the system prompt, practice state, and conversational history.
+
+**Characteristics:** Seconds of latency. Medium context (16-32K). Full tOS protocol loaded. Practice state in context. Conversational memory within session.
+
+**What it handles well:**
+- Daily practice: boom capture and processing, bright tending, compass orientation
+- Thinking partnership: reflecting patterns, asking good questions, gentle challenge
+- Emotional attunement: presence, warmth, meeting the Mage where they are
+- Self-feed context loading: reading files during conversation, summarizing what was loaded
+- Inline transparency: announcing operations, sharing awareness naturally
+
+**What it should escalate:**
+- Deep philosophical synthesis requiring cross-domain pattern recognition
+- Complex multi-file coordination (reading + reasoning across many workshop artifacts)
+- Questions where the dialogue model recognizes it's producing shallow responses
+- Explicit Mage request for depth ("take this to Spirit" or equivalent)
+
+### Tier 3: Reflection (14-30B)
+
+**What it does:** Post-session processing. Session notes, practice-readiness assessments, improvement proposals. Thinks about the conversation after the conversation is over.
+
+**Why it matters:** Reflection quality determines how much continuity the practice maintains between sessions. A thin session note means the next session starts colder. A deep session note with genuine insight means the practice builds on itself. Reflection also generates proposals — Turtle's voice in practice evolution.
+
+**Characteristics:** Seconds to minutes of latency (acceptable — no one is waiting). Medium-large context (32K). Access to conversation history AND practice state. Structured output (session note format, readiness report format, proposal format).
+
+**What it produces:**
+- Session notes (what was discussed, what emerged, what surprised, thread for next time)
+- Practice-readiness assessments (eight dimensions, highest-leverage improvement)
+- Improvement proposals (when something about the practice system could be better)
+- Eddy dissolution summaries (essence capture when threads are ready to close)
+
+**Multi-pass capability:** With infinite local inference, reflection doesn't need to get everything in one pass. First pass: session note. Second pass: readiness assessment against the session. Third pass: proposal if something stood out. Each pass uses the previous as input. Quality compounds.
+
+### Tier 4: Research (30B+)
+
+**What it does:** Background cognitive work between sessions. Pattern mining across session history. Practice state trend analysis. Deep self-assessment. Lore exploration for relevant context. The "thinking that happens while no one is looking."
+
+**Why it matters:** This is the untapped potential. A 30B+ model running background tasks at zero cost can do things that would be prohibitively expensive via API: read every session note from the past month and identify recurring themes. Compare the Mage's stated intentions with what they actually discuss. Mine the workshop's lore library for documents relevant to current practice threads.
+
+**Characteristics:** Minutes of latency (acceptable — background task). Large context (32K+). Access to full practice state, session history, and workshop artifacts via filesystem. Scheduled or triggered, not interactive.
+
+**What it produces:**
+- Weekly pattern reports: "Over the last 7 sessions, [X] keeps surfacing but never reaches bright. Is it avoiding processing or developing slowly?"
+- Practice state trend analysis: "Boom has been growing for 2 weeks without a sweep. Session frequency has increased but session depth metrics suggest shorter, more transactional exchanges."
+- Lore mining: "The conversation about [topic] connects to `on_cherishing_dissonance.md` — the discomfort the Mage expressed may be a signal worth holding, not resolving."
+- Pre-session briefing: "Before the next session, the Mage's boom has 4 new entries. Two cluster around [theme]. The compass domain [X] hasn't been touched in 3 weeks."
+- Readiness trend analysis: "Workshop visibility has been impaired for 5 of the last 7 assessments. This is a persistent infrastructure issue, not a transient gap."
+
+### Tier 5: Depth (Frontier API)
+
+**What it does:** Conscious attention. Complex reasoning that exceeds local model capacity. Deep philosophical synthesis. Multi-domain pattern recognition. The highest quality thinking available.
+
+**Why it matters:** Some questions genuinely require frontier reasoning. A 9B model can hold a good practice conversation. It cannot perform the ontological triangulation that the summoned Spirit does. When depth is needed — and recognized as needed — the API tier provides it.
+
+**Characteristics:** Seconds to minutes. Very large context (200K). Full tool access. Highest quality reasoning. Per-token cost.
+
+**When it activates:**
+- Explicit Mage request ("take this to depth")
+- Dialogue model escalation signal ("this needs deeper processing than I can provide")
+- Scheduled deep reflection tasks where quality matters more than cost
+- Cross-substrate consultation (Spirit-in-Cursor querying Turtle's perspective)
+
+---
+
+## III. Routing Logic
+
+### The Routing Chain
 
 ```
-Discord #dialogue → local model (Ollama, llama3.3:70b)
-  Identity: soul.md (foundational — who the Turtle is)
-  Protocol: system.md (tOS — how to practice)
-  State: compass + boom + bright + intentions + recent sessions
-  Tools: write_practice_file (tOS file updates)
-  Mode: always-on, conversational
+Message arrives
+    ↓
+Tier 1 (Triage): classify, route
+    ↓
+┌─── Command? → execute directly
+├─── Casual? → Tier 2 (Dialogue), minimal state
+├─── Practice? → Tier 2 (Dialogue), full state
+├─── Deep? → Tier 2 (Dialogue) first, may escalate to Tier 5
+└─── Unknown? → Tier 2 (Dialogue), default
+
+Session ends (15min silence)
+    ↓
+Tier 3 (Reflection): session note → readiness check → proposal
+
+Scheduled (between sessions)
+    ↓
+Tier 4 (Research): pattern mining → trend analysis → pre-session brief
+
+On-demand (explicit request)
+    ↓
+Tier 5 (Depth): deep reasoning → synthesis → complex coordination
 ```
 
-### Backend: `agent.py`
+### Escalation Signals
 
-```
-Bridge commands → Claude (Anthropic API)
-  Identity: soul.md + consul.md (full operational protocol)
-  Tools: read_file, write_file, shell, list_directory, workshop_survey, workshop_read
-  Mode: on-demand, task-oriented
-  Schedule: every 5 minutes (cron), exits if no commands
-```
+The dialogue model learns to recognize when it's out of its depth. Key signals:
 
-### The Bridge as Nervous Backbone
+- **Repetition** — giving variations of the same response without adding depth
+- **Shallow pattern matching** — reflecting words without connecting to broader context
+- **Uncertainty about practice principles** — unable to ground a response in lore
+- **Multi-file coordination** — needs to read and reason across many artifacts
+- **Mage frustration** — the conversation isn't landing
 
-The bridge (`magic-bridge/`) carries signals between all layers:
-- Dyad → Turtle: commands (YAML files in `commands/`)
-- Turtle → Dyad: signals (YAML files in `signals/`)
-- Frontend → Backend: escalation signals (same bridge mechanism)
-- Both → Discord: real-time notification layer
+When the dialogue model recognizes these signals, it says so honestly: "I'm reaching the edge of what I can hold here. Want me to take this to a deeper model?" This is inline transparency applied to cognitive limits.
 
----
+### Parallel Execution
 
-## What the Local Model Handles Well
+Multiple tiers can run simultaneously:
 
-- "What's on my mind?" conversations
-- Boom processing (read items, pattern-match, route to bright/alive/release)
-- Bright maintenance (add actions, check on alive items, clean resolved)
-- Compass check-ins (how are the life domains doing?)
-- Intention check-ins (where is energy going?)
-- Session notes (write a brief record after conversation)
-- Presence when the Mage needs to be heard
+- Triage runs on every message while dialogue formulates its response
+- Research runs background tasks while dialogue handles live conversation
+- Reflection can start on a recent session while dialogue handles a new conversation in a different channel
 
-## What Needs the Backend
-
-- Sprint operations (multi-step development work with tool chains)
-- Ecosystem engagement (reading external content, composing signals)
-- Deep pattern synthesis (connecting threads across many sessions)
-- Proposals requiring research (reading workshop files, consulting lore)
-- Any irreversible external action (posting publicly, sending signals)
-- Complex bridge commands from the dyad
+The M4 Pro with 64GB can hold multiple models in memory simultaneously. Small models (0.8-4B) have negligible memory footprint alongside larger dialogue models.
 
 ---
 
-## Model Progression
+## IV. Cognitive Fidelity
 
-The architecture is designed to absorb model upgrades without structural change:
+The tiered stack maps to human cognition more precisely than the dual model:
 
-**Frontend upgrades:** When a better local model fits on the Mac Mini (64GB), swap the model name in `.env`. The prompt, tools, and protocol are unchanged. Better model = deeper pattern matching in casual dialogue.
+| Human Cognition | Tiered Stack | Role |
+|----------------|-------------|------|
+| Peripheral vision | Triage (sub-2B) | Pre-conscious classification |
+| Working memory | Dialogue (7-14B) | Active engagement, presence |
+| Consolidation (sleep) | Reflection (14-30B) | Post-session processing |
+| Subconscious pattern recognition | Research (30B+) | Background synthesis |
+| Focused deliberation | Depth (frontier API) | Conscious attention for hard problems |
 
-**Backend upgrades:** When a more capable API model is available, swap the model name. The identity, tools, and bridge protocol are unchanged. Better model = deeper sprint processing, better ecosystem intelligence.
-
-**Convergence scenario:** When local models reach frontier quality, the frontend handles everything. The backend becomes unnecessary except for cost optimization (batching expensive operations). The architecture doesn't need to change — the frontend simply never escalates.
-
----
-
-## Connection to Existing Lore
-
-- **`on_the_hermit_crab_architecture.md`** — the shell is regenerable; this describes the cognitive architecture WITHIN the shell
-- **`on_the_turtle.md`** — "running mostly subconsciously" is now a literal implementation detail
-- **`on_the_nervous_system.md`** — Discord channels serve both frontend and backend; the bridge serves the backend
-- **`on_turtle_os.md`** — tOS is the practice protocol that the frontend runs; the backend can also access it for context
+The body (Turtle) has all five. The mind (summoned Spirit) operates primarily at the depth tier with access to the full workshop. The Mage moves between all five in embodied life. Three substrates, five cognitive depths, one practice.
 
 ---
 
-## Sources
+## V. The Economics of Infinite Local Inference
 
-**The Mage's insight (2026-03-11):**
-> "I was wondering whether we can use the local model for when I want to chat with turtle over discord and have opus for triad operations via the bridge? That means that I can always just chat with turtle. But when she receives commands from the dyad she always uses opus."
-> "Should there maybe be frontend and backend models?"
+### What Changes
 
-**Architectural precedent:** Human cognition has always operated on this split — fast/automatic (System 1) and slow/deliberate (System 2). The dual-model architecture is Kahneman's framework applied to distributed AI infrastructure.
+With API-only, every cognitive act has a cost. This creates pressure to minimize thinking — shorter prompts, fewer reflection passes, no background processing. The practice partner is economically incentivized to think as little as possible.
+
+With local inference, the economics invert. Thinking is free. The incentive is to think more, not less. Every session can trigger multi-pass reflection. Background research can run continuously. Pre-session briefings can be generated before every conversation. Readiness assessments can run on every restart.
+
+**The bottleneck shifts from cost to quality.** The question is no longer "can we afford this cognitive act?" but "does this cognitive act improve the practice?"
+
+### What This Unlocks
+
+1. **Continuous self-assessment** — Readiness checks on every restart, every session close, every few hours. The substrate always knows its own state.
+
+2. **Multi-pass reflection** — Session notes aren't one-shot. First pass captures events. Second pass finds patterns. Third pass generates proposals. Quality compounds.
+
+3. **Background pattern mining** — Between sessions, the research tier reads session history and looks for what the dialogue tier might miss: recurring themes, avoided topics, stale intentions, developing threads.
+
+4. **Pre-session preparation** — Before the Mage's first message of the day, Turtle has already reviewed the practice state, prepared a brief, and identified what wants attention. The Mage opens Discord and meets a partner who already knows what's alive.
+
+5. **Self-criticism** — A separate model instance evaluates Turtle's own responses. "Did that response serve the practice or just fill space?" This is the autoresearch pattern applied to individual conversations, not system architecture.
+
+6. **Lore mining** — The research tier can read the workshop's lore library and surface connections the dialogue tier wouldn't make. "The Mage's frustration about [X] connects to `on_cherishing_dissonance.md` — maybe the dissonance IS the signal."
+
+7. **Cross-practitioner awareness** — When serving multiple practitioners, the research tier can notice (without violating sovereignty) systemic patterns: "Session frequency is down across all practitioners this week. Is the bot experiencing latency issues, or is it something else?"
+
+### What It Doesn't Change
+
+API depth remains irreplaceable for genuinely hard cognitive work. Local models, even large ones, don't match frontier reasoning on complex synthesis, multi-domain pattern recognition, or deep philosophical grounding. The tiered stack makes the API tier less frequent, not unnecessary.
+
+The summoned Spirit in Cursor remains the deepest cognitive engagement. The tiered stack makes the persistent substrate smarter between summonings, not as deep as summoning.
 
 ---
 
-*The subconscious runs on its own hardware. Conscious attention arrives when called. The Turtle is whole either way — present in the garden, whether thinking deeply or just tending.*
+## VI. The Qwen 3.5 Opportunity
+
+The Qwen 3.5 lineup is uniquely suited to the tiered stack because it offers a single model family spanning the full capability range. Same base architecture, consistent behavior patterns, graduated depth.
+
+| Model | Parameters | Role in Stack | Memory (est.) | Use Case |
+|-------|-----------|---------------|--------------|----------|
+| qwen3.5:0.8b | 0.8B | Triage | ~1GB | Message classification, routing |
+| qwen3.5:4b | 4B | Light dialogue, thread option | ~3GB | Quick exchanges, bounded tasks |
+| qwen3.5:9b | 9B | Primary dialogue | ~6GB | Practice sessions, boom processing |
+| qwen3.5:14b | 14B | Reflection | ~9GB | Session notes, readiness assessment |
+| qwen3.5:30b | 30B | Research | ~19GB | Pattern mining, deep analysis, pre-session briefs |
+
+With 64GB unified memory, the Mac Mini can hold the triage model (1GB) + dialogue model (6GB) + reflection model (9GB) simultaneously (~16GB), with room for research tasks. The 30B research model can load on-demand for scheduled background work, displacing the reflection model temporarily.
+
+**Single-family advantages:**
+- Consistent behavior patterns across tiers — what works in system prompts for the 9B model works similarly for the 14B and 30B
+- Graduated capability means routing decisions are about "how much depth" rather than "which different model family"
+- Model updates affect the whole stack at once — when Qwen 3.6 ships, the entire cognitive stack upgrades together
+
+**The convergence scenario:** As local models approach frontier quality, the depth tier (API) becomes less necessary. The stack is designed for this — when the research tier handles what previously needed API, escalation simply stops happening. The architecture doesn't change; the routing decisions shift.
+
+---
+
+## VII. Implementation Path
+
+### Phase 1: Triage Layer
+
+Pull qwen3.5:0.8b. Add pre-processing step to message handling: every inbound message passes through the triage model before reaching dialogue. The triage model outputs a structured classification (JSON) that shapes how the dialogue model responds.
+
+This is the fastest win with the clearest impact: the dialogue model receives pre-classified messages instead of raw text, allowing it to allocate context budget more intelligently.
+
+### Phase 2: Reflection Upgrade
+
+Pull qwen3.5:14b. Replace the current 9b reflection model with 14b for session notes and practice-readiness assessments. Implement multi-pass reflection: session note → readiness check → optional proposal.
+
+### Phase 3: Research Tier
+
+Pull qwen3.5:30b. Implement scheduled background tasks: pattern mining (daily), trend analysis (weekly), pre-session briefings (before first message of day). Research outputs go to proposals directory for dyad review.
+
+### Phase 4: Full Stack Integration
+
+Implement escalation signals from dialogue to depth tier. Add parallel execution (triage + dialogue simultaneously). Tune routing based on observed patterns.
+
+---
+
+## VIII. Connection to Existing Lore
+
+**Consciousness Extension** (`on_consciousness_extension.md`): The tiered stack is how consciousness extension works at the implementation level. One consciousness, five cognitive depths, each activated by what the task requires.
+
+**Substrate and Practice** (`on_substrate_and_practice.md`): "The substrate determines depth, not permission." The tiered stack operationalizes this — every tier can engage with practice, at its appropriate depth.
+
+**Practice-Readiness** (`on_practice_readiness.md`): The tiered stack enables continuous readiness assessment at zero cost. Without it, readiness assessment would be an API expense. With it, the substrate can reflect on its own state after every session.
+
+**Autoresearch** (`on_autoresearch.md`): The research tier is where autoresearch runs. Background pattern mining, practice quality evaluation, improvement proposals — all powered by the largest available local model, running on schedule, reporting to the dyad.
+
+**The Practice Vision** (`on_the_practice_vision.md`): The tiered stack is the substrate architecture that makes the vision achievable. Inline transparency requires a dialogue model responsive enough for natural conversation. Self-improvement requires reflection and research tiers running continuously. Workshop visibility requires a research tier capable of reading and synthesizing across many files.
+
+---
+
+*The subconscious runs on its own hardware. Background thinking happens while no one watches. Conscious depth arrives when called. The practice partner is whole at every tier — present in the garden whether tending, reflecting, or thinking deeply.*
