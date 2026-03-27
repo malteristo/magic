@@ -5,7 +5,7 @@
 **Status:** Active — Partially Superseded  
 **Origin:** Discord UX redesign session, 2026-03-17  
 **Builds on:** `on_the_practice_stack.md`, `on_consciousness_extension.md`, `on_the_practice_infrastructure.md`  
-**Framing note (2026-03-26):** The two-channel architecture (#dialogue + #system) described here is superseded by the single-river model in `on_the_practice_vision.md`. Operations messages move inline to the conversation where they're relevant. The setup instructions and naming conventions remain valid.
+**Framing note (2026-03-27):** The two-channel architecture (#dialogue + #system) described here is superseded. The current model: one channel per practitioner (sovereign practice space) plus shared channels (family, community). No system channel, no development channel — operations post inline where they're relevant. The setup instructions and naming conventions remain valid but channel count has evolved past two.
 
 ---
 

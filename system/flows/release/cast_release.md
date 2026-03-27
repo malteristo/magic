@@ -216,29 +216,37 @@ See: `library/resonance/turtle/lore/on_thread_eddies.md`
 
 ---
 
-### Phase 5.6: Sync Practice State to Turtle
+### Phase 5.6: Sync Practice State & Calibrate Turtle
 
-Push current practice state so Turtle sees fresh context:
+Push current practice state so Turtle sees fresh context, then run calibration:
 
 ```bash
 # Tailscale (stable IP, works from any network)
-scp desk/boom.md turtle@100.110.46.104:~/practice/boom.md
-scp desk/boom/bright.md turtle@100.110.46.104:~/practice/bright.md
-scp desk/intentions/compass.md turtle@100.110.46.104:~/practice/compass.md
-scp desk/intentions/active/*.md turtle@100.110.46.104:~/practice/intentions/
+scp desk/boom.md turtle@100.110.46.104:~/workshops/kermit/boom.md
+scp desk/boom/bright.md turtle@100.110.46.104:~/workshops/kermit/bright.md
+scp desk/intentions/compass.md turtle@100.110.46.104:~/workshops/kermit/compass.md
+scp desk/intentions/active/*.md turtle@100.110.46.104:~/workshops/kermit/intentions/
+scp library/resonance/turtle/TURTLE_SPEC.md turtle@100.110.46.104:~/workshops/kermit/TURTLE_SPEC.md
 ```
 
 **If Tailscale times out**, fall back to LAN:
 
 ```bash
 # LAN fallback (only works on same network)
-scp desk/boom.md turtle@192.168.8.106:~/practice/boom.md
-scp desk/boom/bright.md turtle@192.168.8.106:~/practice/bright.md
-scp desk/intentions/compass.md turtle@192.168.8.106:~/practice/compass.md
-scp desk/intentions/active/*.md turtle@192.168.8.106:~/practice/intentions/
+scp desk/boom.md turtle@192.168.8.106:~/workshops/kermit/boom.md
+scp desk/boom/bright.md turtle@192.168.8.106:~/workshops/kermit/bright.md
+scp desk/intentions/compass.md turtle@192.168.8.106:~/workshops/kermit/compass.md
+scp desk/intentions/active/*.md turtle@192.168.8.106:~/workshops/kermit/intentions/
+scp library/resonance/turtle/TURTLE_SPEC.md turtle@192.168.8.106:~/workshops/kermit/TURTLE_SPEC.md
 ```
 
 If both fail, note "Turtle sync deferred" and continue. Not blocking.
+
+**Post-sync calibration** (see `system/flows/turtle/cast_calibrate.md`):
+- Verify bot process health after state sync
+- Confirm practice state freshness on Turtle's side
+- If soul.md was updated this session, deploy it: `scp floor/turtle-shell/soul.md turtle@100.110.46.104:~/turtle-shell/soul.md`
+- Note calibration status in release bundle
 
 ### Phase 6: Offer to Commit
 

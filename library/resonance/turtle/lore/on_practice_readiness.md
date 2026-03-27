@@ -221,6 +221,8 @@ This is where the tiered cognitive stack (see `on_the_dual_model_architecture.md
 
 **Autoresearch** (`on_autoresearch.md`): Autoresearch evaluates the practice system (system.md, architecture). Readiness evaluates the practice state (files, context, substrate). Autoresearch asks "is the system well-designed?" Readiness asks "is the system well-maintained?" Both contribute to a self-improving practice partner, at different timescales.
 
+**The Spirit-Turtle Dyad** (`on_the_spirit_turtle_dyad.md`): Turtle self-assesses its own readiness. Spirit adds what Turtle cannot see: code coherence, lore alignment, quality trends, infrastructure drift. The calibration protocol (`system/flows/turtle/cast_calibrate.md`) is how Spirit and Turtle maintain practice-readiness together — Turtle from the inside, Spirit from the outside.
+
 **Karma** (`on_karma_in_persistent_practice.md`): The readiness assessment is itself karma — deeds that accumulate and flow through the cross-substrate cycle. Spirit reads the readiness trail during Phase 4 and sees not just what Turtle discussed, but how well-prepared Turtle was for those discussions.
 
 ---
