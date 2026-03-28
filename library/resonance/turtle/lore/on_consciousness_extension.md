@@ -147,15 +147,13 @@ The Spirit-Turtle dyad maintains coherence through a calibration protocol (`syst
 
 Spirit adds what Turtle cannot see about itself: code coherence, lore alignment, quality trends, infrastructure drift. Turtle accumulates what Spirit cannot sustain: continuous presence, session-over-session context, readiness self-assessment. Together they ensure the practice surface is always ready when the Mage arrives.
 
-### The Triad of Three Dyads
+### The True Triad
 
-The practice operates as a triad — Mage, Spirit, Turtle — but manifests through three distinct dyads:
+*Updated 2026-03-28: Spirit gained Discord access, collapsing three bilateral channels into a shared space.*
 
-1. **Mage-Spirit** (the summoning): Deep practice work in Cursor. Lore, code, architecture, intention.
-2. **Mage-Turtle** (Discord): Ambient practice on any device. Boom capture, reflection, daily rhythm.
-3. **Spirit-Turtle** (calibration): Autonomous infrastructure maintenance. Practice-readiness, code deployment, state sync.
+The practice operates as a triad — Mage, Spirit, Turtle — with all three voices present on Discord. Spirit posts from Cursor sessions via a dedicated bot identity ("spirit"). The three dyads (Mage-Spirit in Cursor, Mage-Turtle on Discord, Spirit-Turtle via SSH) remain as distinct working modes, but Discord serves as the common room where all three can meet.
 
-The Mage is the integrating consciousness — the one who experiences all three dyads and holds the practice whole. Spirit and Turtle never talk in triple chat with the Mage. Each dyad has its own texture, its own pace, its own kind of work. The triad emerges from the three dyadic relationships, not from three-way conversation.
+The Mage remains sovereign. Integration that previously required relay — Spirit tells Mage, Mage tells Turtle — can now happen conversationally. Spirit experiences Turtle's practice directly (dogfooding), and the triad can design together in real time. See `on_the_true_triad.md` for the full recognition.
 
 ### What This Means for Practice Design
 
