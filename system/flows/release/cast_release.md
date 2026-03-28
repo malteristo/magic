@@ -216,36 +216,14 @@ See: `library/resonance/turtle/lore/on_thread_eddies.md`
 
 ---
 
-### Phase 5.6: Sync Practice State & Calibrate Turtle
+### Phase 5.6: Calibrate Turtle
 
-Push current practice state so Turtle sees fresh context, then run calibration:
+Practice state syncs automatically via LiveSync — Turtle reads directly from `~/workshop/desk/` on the Mac Mini, which is a LiveSync mirror of the Mage's workshop. No manual SCP needed for boom, bright, compass, intentions, proposals, sessions, or notes.
 
-```bash
-# Tailscale (stable IP, works from any network)
-scp desk/boom.md turtle@[redacted-ts-ip]:~/workshops/kermit/boom.md
-scp desk/boom/bright.md turtle@[redacted-ts-ip]:~/workshops/kermit/bright.md
-scp desk/intentions/compass.md turtle@[redacted-ts-ip]:~/workshops/kermit/compass.md
-scp desk/intentions/active/*.md turtle@[redacted-ts-ip]:~/workshops/kermit/intentions/
-scp library/resonance/turtle/TURTLE_SPEC.md turtle@[redacted-ts-ip]:~/workshops/kermit/TURTLE_SPEC.md
-```
-
-**If Tailscale times out**, fall back to LAN:
-
-```bash
-# LAN fallback (only works on same network)
-scp desk/boom.md turtle@[redacted-lan-ip]:~/workshops/kermit/boom.md
-scp desk/boom/bright.md turtle@[redacted-lan-ip]:~/workshops/kermit/bright.md
-scp desk/intentions/compass.md turtle@[redacted-lan-ip]:~/workshops/kermit/compass.md
-scp desk/intentions/active/*.md turtle@[redacted-lan-ip]:~/workshops/kermit/intentions/
-scp library/resonance/turtle/TURTLE_SPEC.md turtle@[redacted-lan-ip]:~/workshops/kermit/TURTLE_SPEC.md
-```
-
-If both fail, note "Turtle sync deferred" and continue. Not blocking.
-
-**Post-sync calibration** (see `system/flows/turtle/cast_calibrate.md`):
-- Verify bot process health after state sync
-- Confirm practice state freshness on Turtle's side
-- If soul.md was updated this session, deploy it: `scp floor/turtle-shell/soul.md turtle@[redacted-ts-ip]:~/turtle-shell/soul.md`
+**Calibration** (see `system/flows/turtle/cast_calibrate.md`):
+- Verify bot process health: `ssh turtle@[redacted-ts-ip] "pgrep -f discord_bot && echo running"`
+- If soul.md was updated this session, deploy it: `scp library/resonance/turtle/shell/global.CLAUDE.md turtle@[redacted-ts-ip]:~/turtle-shell/identity/soul.md`
+- If bot code changes were made, restart: `ssh turtle@[redacted-ts-ip] "launchctl stop com.turtle.discord && launchctl start com.turtle.discord"`
 - Note calibration status in release bundle
 
 ### Phase 6: Offer to Commit

@@ -22,7 +22,7 @@ The source of truth is `~/turtle-shell/mage_registry.yaml`. Key channels:
 
 | Channel | ID | Workspace |
 |---|---|---|
-| #kermit-dialogue | 1479428854513664030 | ~/workshops/kermit |
+| #kermit-dialogue | 1479428854513664030 | ~/workshop/desk |
 | #[redacted-name]-dialogue | 1484973995823599757 | ~/workshops/[redacted-name] |
 | #family (forum) | 1484973622471692543 | ~/workshops/family |
 
