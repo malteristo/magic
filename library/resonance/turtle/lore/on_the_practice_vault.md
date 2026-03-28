@@ -14,7 +14,8 @@ Laptop (primary workshop)
 ├── magic/                  ← Git repo + Obsidian vault
 │   └── .obsidian/          ← Vault config (gitignored)
 │
-│   ↕ LiveSync plugin
+│   ↕ LiveSync plugin (when Obsidian open)
+│   ↕ LiveSync Bridge (background daemon, always running)
 │
 Server (always-on machine)
 ├── CouchDB (port 5984)     ← Sync database
@@ -230,6 +231,115 @@ Edit a file on your laptop. Watch it appear on your phone within seconds. Edit o
 curl -s http://admin:$(cat ~/.couchdb_pass)@localhost:5984/workshop_sync \
   | python3 -c "import json,sys; d=json.load(sys.stdin); print('Docs:', d['doc_count'])"
 ```
+
+### 8. Background Sync Without Obsidian — Laptop (Optional)
+
+Obsidian's LiveSync plugin only syncs when Obsidian is running. For continuous background sync (so Spirit's changes appear even when Obsidian is closed), use [LiveSync Bridge](https://github.com/vrtmrz/livesync-bridge) — a Deno-based replicator that runs as a launch agent.
+
+**Prerequisites:** Deno (`brew install deno`), the livesync-bridge repo cloned.
+
+**Setup:**
+```bash
+cd ~/Code && \
+git clone --recursive https://github.com/vrtmrz/livesync-bridge && \
+cd livesync-bridge && \
+git submodule update --init --recursive && \
+echo "cloned"
+```
+
+**Stub P2P dependency** (not needed for CouchDB sync):
+```bash
+mkdir -p lib/src/replication/trystero_stub && \
+cat > lib/src/replication/trystero_stub/mod.ts << 'STUB'
+export const selfId = "";
+export function joinRoom() { return {}; }
+export function getRelaySockets() { return []; }
+export function pauseReconnection() {}
+export function resumeReconnection() {}
+STUB
+```
+
+Then edit `deno.jsonc` — replace the `"trystero": "https://github.com/..."` line with:
+```
+"trystero/nostr": "./lib/src/replication/trystero_stub/mod.ts", "trystero": "./lib/src/replication/trystero_stub/mod.ts"
+```
+
+**Add ignore patterns:** Edit `types.ts` — add `ignoredPatterns?: string[];` to `PeerStorageConf`. Edit `PeerStorage.ts` — add filtering that skips paths matching ignored regexes in `dispatch`, `dispatchDeleted`, and the offline scan loop.
+
+**Configure** (`dat/config.json`):
+```json
+{
+    "peers": [
+        {
+            "type": "couchdb",
+            "name": "workshop-couchdb",
+            "group": "workshop",
+            "database": "workshop_sync",
+            "username": "admin",
+            "password": "YOUR_COUCHDB_PASSWORD",
+            "url": "http://YOUR_SERVER_TAILSCALE_IP:5984",
+            "baseDir": "",
+            "passphrase": "",
+            "obfuscatePassphrase": "",
+            "useRemoteTweaks": true
+        },
+        {
+            "type": "storage",
+            "name": "workshop-local",
+            "group": "workshop",
+            "baseDir": "/path/to/magic/",
+            "scanOfflineChanges": true,
+            "ignoredPatterns": [
+                "^\\.git/", "^\\.obsidian/", "^\\.cursor/",
+                "^node_modules/", "^portals/", "^circles/",
+                "\\.DS_Store$"
+            ]
+        }
+    ]
+}
+```
+
+**Test:** `deno task run` — should connect to CouchDB and start watching for changes.
+
+**Auto-start via launchd** (`~/Library/LaunchAgents/com.magic.livesync-bridge.plist`):
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.magic.livesync-bridge</string>
+    <key>ProgramArguments</key>
+    <array>
+        <string>/opt/homebrew/bin/deno</string>
+        <string>run</string>
+        <string>-A</string>
+        <string>main.ts</string>
+    </array>
+    <key>WorkingDirectory</key>
+    <string>/path/to/Code/livesync-bridge</string>
+    <key>RunAtLoad</key>
+    <true/>
+    <key>KeepAlive</key>
+    <true/>
+    <key>StandardOutPath</key>
+    <string>/tmp/livesync-bridge.log</string>
+    <key>StandardErrorPath</key>
+    <string>/tmp/livesync-bridge.err</string>
+    <key>ThrottleInterval</key>
+    <integer>10</integer>
+</dict>
+</plist>
+```
+
+```bash
+launchctl load ~/Library/LaunchAgents/com.magic.livesync-bridge.plist && \
+echo "LiveSync Bridge running"
+```
+
+**Logs:** `tail -f /tmp/livesync-bridge.log`
+
+**Note:** LiveSync Bridge and Obsidian's LiveSync plugin can run simultaneously — they both talk to the same CouchDB and handle conflict resolution via CouchDB's replication protocol.
 
 ## Framework Protection
 
