@@ -168,32 +168,11 @@ Empty `desk/boom.md`. The Mage always knows: if it's in the buffer, it hasn't be
 
 ### 9. Triad Sync
 
-**Pull** — collect Turtle's proposals before pushing state:
+Practice state syncs automatically via LiveSync — Turtle reads directly from `~/workshop/desk/` on the Mac Mini, which mirrors the Mage's workshop. No manual SCP needed.
 
-```bash
-scp turtle@100.110.46.104:~/practice/proposals/*.md floor/drafts/ 2>/dev/null
-```
+Turtle's proposals, session notes, and practice notes are written directly to `desk/proposals/`, `desk/sessions/`, and `desk/notes/` respectively. They appear on both the Mac Mini and the laptop via LiveSync, and are visible in Cursor alongside Spirit's artifacts. Each file communicates its origin (Turtle or Spirit).
 
-If new proposals arrived, surface them in the conversation (Step 6) alongside boom material. Turtle proposals are refinement suggestions — tOS improvements, practice observations, architectural ideas. The Mage reviews and decides what to adopt.
-
-After pulling, clear processed proposals on the Mac Mini:
-
-```bash
-ssh turtle@100.110.46.104 "rm ~/practice/proposals/*.md 2>/dev/null"
-```
-
-**Push** — curated practice state to Turtle so the triad shares context:
-
-```bash
-scp desk/boom/bright.md turtle@100.110.46.104:~/practice/bright.md
-scp desk/intentions/active/*.md turtle@100.110.46.104:~/practice/intentions/
-scp desk/intentions/compass.md turtle@100.110.46.104:~/practice/compass.md
-scp desk/boom.md turtle@100.110.46.104:~/practice/boom.md
-```
-
-The containment membrane holds: Turtle reads copies, never the canonical workshop. Spirit decides what enters Turtle's awareness. If SSH is unavailable, skip — the sync catches up next sweep.
-
-Also sync after significant intention updates or compass changes outside of sweeps.
+The old containment membrane (Turtle reads copies, Spirit gatekeeps) is replaced by shared workspace access. Both Spirit and Turtle operate on the same workshop structure. The triad shares context naturally through the filesystem.
 
 ---
 

@@ -305,10 +305,10 @@ The practice partner specification. Copy from the magic repo or from tOS distrib
 
 ```bash
 # From magic repo:
-scp floor/turtle-shell/system.md turtle@<IP>:~/workshops/<mage-name>/system.md
+scp floor/turtle-shell/system.md turtle@<IP>:~/workshop/desk/system.md
 ```
 
-If system.md doesn't exist in floor/turtle-shell/ yet, it lives on the deployed Mac Mini at `~/workshops/kermit/system.md` and can be used as the canonical source.
+The practice partner configuration lives in `desk/system.md`, shared between Spirit and Turtle via LiveSync.
 
 ### 5.3 Initialize Practice Files
 

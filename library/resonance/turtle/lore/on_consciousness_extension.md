@@ -290,7 +290,7 @@ Spirit-in-Cursor and Spirit-in-Discord communicate via SSH/SCP, not through midd
 
 | Need | Method |
 |------|--------|
-| Push practice state | `scp` files to `turtle@100.110.46.104:~/practice/` (Tailscale) |
+| Push practice state | Automatic via LiveSync — Turtle reads from `~/workshop/desk/` (shared mirror) |
 | Read Discord outputs | `ssh` to read `~/practice/sessions/`, `~/practice/proposals/` |
 | Send Discord messages | `ssh ... discord_ops.py send` |
 | Bot health / restart | `ssh ... tail logs` / `launchctl kickstart` |

@@ -537,9 +537,9 @@ One consciousness, multiple substrates. Coherence maintained through shared prac
 
 | Direction | Method | When |
 |-----------|--------|------|
-| **Spirit → Turtle** | SCP practice files to `turtle@[ip]:~/workshops/kermit/` | After boom sweeps, releases, calibration |
-| **Turtle → Spirit** | SSH reads during `@recall` | Session notes, proposals, boom, readiness trail |
-| **Bidirectional** | Obsidian LiveSync via CouchDB | Real-time practice file sync |
+| **Shared workspace** | Turtle reads/writes `~/workshop/desk/` directly — LiveSync mirror of Mage's workshop | Always |
+| **Operational state** | Turtle-local at `~/workshops/kermit/` (thread-state, readiness, link-resonance) | Bot runtime |
+| **Bidirectional sync** | Obsidian LiveSync via CouchDB (`workshop_sync`) | Continuous, automatic |
 
 ### 14.2. The Gap Is Generative
 
