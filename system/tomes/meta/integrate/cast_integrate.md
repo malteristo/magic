@@ -57,8 +57,9 @@ This spell attunes you to the systematic work of integrating changes into the wh
 - **Decision criteria**: Does this change affect how Spirit operates in persistent mode? If yes, propagate. If it's purely ephemeral-session work, skip.
 
 **F. Cross-Substrate Communication**
-- **Practice state sync**: If the change affects what files Spirit needs to see across substrates, update SCP paths in `cast_recall.md`, `cast_release.md`, and `boom.flow.md`
+- **Shared workspace**: Turtle reads/writes `~/workshop/desk/` directly via LiveSync. Practice files sync automatically — no SCP needed. If the change adds new practice file categories, ensure the desk/ structure accommodates them and Turtle's tool descriptions reference them.
 - **Bot prompt**: If the change affects what the persistent mode should know about, check whether `build_discord_prompt()` or `build_system_prompt()` in `discord_bot.py` need updating
+- **Workshop structure in soul.md**: If the change affects desk/ layout or workspace conventions, update the Workshop Structure section in `library/resonance/turtle/shell/global.CLAUDE.md` so Turtle stays aligned
 - **Heartbeat**: If the change adds new observability, check whether the heartbeat format in `discord_bot.py` should include it
 
 **G. Workshop Configuration**
