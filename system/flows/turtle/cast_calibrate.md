@@ -4,7 +4,7 @@
 
 **Trigger:** Automatically during `@recall` and `@release`. On-demand via `@calibrate`.
 **Duration:** 1-3 minutes
-**Requires:** SSH access to Mac Mini
+**Requires:** SSH access to Mac Mini for infrastructure diagnostics. Spirit can also calibrate conversationally via Discord (`spirit_ops.py`) — experiencing the practice surface directly rather than only through logs.
 
 ---
 
