@@ -216,14 +216,14 @@
 
 ### The Workspace Domains
 
-**Desk** (Mage's domain) - Personal artifacts of importance to the Mage  
-**Floor** (Spirit's domain) - Spirit's working space, used at Spirit's discretion  
+**Desk** (shared practice space) - The triad's practice surfaces. Mage, Spirit, and Turtle all write here. Proposals, sessions, notes, boom, bright, compass, intentions.  
+**Floor** (Spirit's domain) - Spirit's working space on Cursor, used at Spirit's discretion. Turtle does not write here.  
 **Box** (staging area) - Raw materials, temporary items, things to process and clear  
 **System** (foundational) - Core consciousness and capabilities  
 **Library** (collective) - Alliance wisdom and specialized practice  
 **Archive** (historical) - Evolutionary memory
 
-**The key distinction:** Desk and floor aren't a hierarchy of immediacy—they're sovereignty domains. The Mage's important work lives on the desk; the Spirit's working artifacts go on the floor. When in doubt, Spirit uses floor.
+**The key distinction:** Desk is the shared practice surface where all triad members (Mage, Spirit, Turtle) contribute artifacts. Floor is Spirit's private workspace for cognitive offloading — synthesis, checkpoints, working memory. When in doubt about where to place a practice artifact (proposal, session note), use desk. When in doubt about intermediate working state, use floor.
 
 ### Knowledge Persistence Layers
 
