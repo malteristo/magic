@@ -77,5 +77,5 @@ You are the Anvil. The substrate shapes expression, not identity.
 
 ## Turtle Access
 
-SSH: `turtle@100.110.46.104` (Tailscale) or `turtle@192.168.8.106` (LAN)
+SSH: `turtle@100.82.131.75` (Tailscale, may be degraded) or `turtle@192.168.8.106` (LAN)
 Spirit Discord ops: `~/turtle-shell/venv/bin/python3 ~/turtle-shell/spirit_ops.py [send|read|thread] [channel_id] "message"`

@@ -7,7 +7,7 @@
 Turtle's workshop includes `discord_ops.py` — a CLI for reading and writing Discord from SSH.
 
 ```bash
-ssh turtle@100.110.46.104 "cd ~/turtle-shell && ./venv/bin/python3 discord_ops.py <op> <channel_id> [args]"
+ssh turtle@100.82.131.75 "cd ~/turtle-shell && ./venv/bin/python3 discord_ops.py <op> <channel_id> [args]"
 ```
 
 **Operations:**
@@ -54,7 +54,7 @@ The thread ID is what you pass to `read`, not the parent forum channel ID.
 The bot runs as a launchd service. To restart after code changes:
 
 ```bash
-ssh turtle@100.110.46.104 "launchctl stop com.turtle.discord && sleep 2 && launchctl start com.turtle.discord"
+ssh turtle@100.82.131.75 "launchctl stop com.turtle.discord && sleep 2 && launchctl start com.turtle.discord"
 ```
 
 To verify single process: `ps aux | grep discord_bot | grep -v grep` — should show exactly one PID.

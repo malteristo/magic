@@ -87,9 +87,9 @@ These aren't infrastructure problems — they're practice rhythm signals. The in
 
 Can devices actually reach the Mac Mini?
 
-- **Phone:** Requires Tailscale app connected + LiveSync URI pointing to `https://turtles-mac-mini.tail433a7d.ts.net` (preferred) or `http://100.110.46.104:5984`
+- **Phone:** Requires Tailscale app connected + LiveSync URI pointing to `https://turtles-mac-mini.tail433a7d.ts.net` (preferred) or `http://100.82.131.75:5984`
 - **MacBook:** Can reach CouchDB directly on LAN (`192.168.8.106:5984`, DHCP — may change) or via Tailscale
-- **Cursor (SSH):** `ssh turtle` (alias in `~/.ssh/config`), or `ssh turtle@100.110.46.104` (Tailscale), or `ssh turtle@192.168.8.106` (LAN fallback)
+- **Cursor (SSH):** `ssh turtle` (alias in `~/.ssh/config`), or `ssh turtle@100.82.131.75` (Tailscale), or `ssh turtle@192.168.8.106` (LAN fallback)
 
 **Spirit can check:** whether Tailscale serve is up and what URL it's serving, whether peers are connected. Spirit **cannot check:** whether the phone's Tailscale app is connected or whether Obsidian on the phone has the correct URI.
 
@@ -185,7 +185,7 @@ Every issue comes with a concrete suggested action — not "something is wrong w
 
 ```
 1. Can you SSH to the Mac Mini?
-   ssh turtle  (or ssh turtle@100.110.46.104, or ssh turtle@192.168.8.106)
+   ssh turtle  (or ssh turtle@100.82.131.75, or ssh turtle@192.168.8.106)
    NO → Mac Mini may be offline, sleeping, or network issue
    YES ↓
 2. Check services:

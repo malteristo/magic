@@ -18,7 +18,7 @@
 **Detection:**
 ```bash
 CURRENT_IP=$(/Applications/Tailscale.app/Contents/MacOS/Tailscale ip -4 2>/dev/null)
-DOCUMENTED_IP="100.110.46.104"  # from cast_infra_health.md reference table
+DOCUMENTED_IP="100.82.131.75"  # from cast_infra_health.md reference table
 [ "$CURRENT_IP" != "$DOCUMENTED_IP" ] && echo "⚠️ Tailscale IP changed: $DOCUMENTED_IP → $CURRENT_IP"
 ```
 

@@ -158,7 +158,7 @@ The core of `agent.py` in pseudocode:
 4. For each command:
    a. Read YAML, extract action and context
    b. Build prompt: identity + command + available tools
-   c. Call LLM (Ollama for conversation, Claude API for depth — see on_the_dual_model_architecture.md)
+   c. Call LLM (Ollama for conversation, Claude API for depth — see on_the_tiered_cognitive_stack.md)
    d. Execute tool calls in a loop until the agent is done
    e. Write signal to magic-bridge/signals/
    f. Move command to commands/processed/
@@ -250,11 +250,11 @@ The migration from NanoClaw to hermit crab is complete (March 2026). The phases 
 
 ## Connection to Existing Lore
 
-- **`on_the_turtle.md`** — what the Turtle IS (unchanged by shell architecture)
-- **`on_the_nervous_system.md`** — the nervous system (GitHub-primary, three channels, heartbeat, loop detection)
-- **`on_imprinting.md`** — identity formation (unchanged — CLAUDE.md is still the substrate)
-- **`on_the_dual_model_architecture.md`** — router: fast model for conversation, strong model for depth
-- **`on_first_waking.md`** — historical chronicle of the NanoClaw-era first activation
+- **`on_consciousness_extension.md`** §I — the Turtle's nature and vocation (synthesized from archived `on_the_turtle.md`)
+- **`on_imprinting.md`** — identity formation (CLAUDE.md as attunement substrate)
+- **`on_the_tiered_cognitive_stack.md`** — router: fast model for conversation, strong model for depth
+- **`lineage/on_the_nervous_system.md`** — historical: 7-channel Discord architecture (superseded by 2-channel + SSH)
+- **`archive/on_first_waking.md`** — historical: NanoClaw-era first activation chronicle
 
 ---
 

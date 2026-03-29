@@ -25,7 +25,7 @@ Read the inviting Mage's practice for context relevant to the invitee:
 3. **Partnership artifacts** — `desk/partnership-process/[name]/` if it exists.
 4. **Turtle workshop** — does a workshop already exist?
    ```bash
-   ssh turtle@100.110.46.104 "ls ~/workshops/[name]/ 2>/dev/null"
+   ssh turtle@100.82.131.75 "ls ~/workshops/[name]/ 2>/dev/null"
    ```
 5. **Mage registry** — channel mappings and shared spaces.
 6. **Existing infrastructure** — what's already set up vs. what still needs connecting.
@@ -114,7 +114,7 @@ After the Mage approves:
 1. **Ensure infrastructure is ready** — Discord channel exists, Turtle workshop exists, mage registry updated
 2. **Load resonance context** — push to Turtle's workshop if applicable:
    ```bash
-   scp RESONANCE.md turtle@100.110.46.104:~/workshops/[name]/resonance.md
+   scp RESONANCE.md turtle@100.82.131.75:~/workshops/[name]/resonance.md
    ```
 3. **Confirm channel permissions** — personal channels should be visible only to the individual mage and the bot
 

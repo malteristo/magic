@@ -10,7 +10,7 @@
 
 1. SSH config alias: `ssh turtle` (if configured in `~/.ssh/config`)
 2. Tailscale hostname: `ssh turtle@turtles-mac-mini` (MagicDNS short name)
-3. Tailscale IP: `ssh turtle@100.110.46.104`
+3. Tailscale IP: `ssh turtle@100.82.131.75`
 4. LAN fallback: `ssh turtle@192.168.8.106`
 
 If none work → **STOP.** The Mac Mini is unreachable. Possible causes:
@@ -234,7 +234,7 @@ The Mage approves the addition. The flow learns.
 
 | Parameter | Value |
 |-----------|-------|
-| Mac Mini Tailscale IP | `100.110.46.104` |
+| Mac Mini Tailscale IP | `100.82.131.75` |
 | Mac Mini Tailscale hostname | `turtles-mac-mini.tail433a7d.ts.net` |
 | Mac Mini LAN IP | `192.168.8.106` (DHCP — may change) |
 | CouchDB port | 5984 |
@@ -242,7 +242,7 @@ The Mage approves the addition. The flow learns.
 | Active database | `workshop_sync` |
 | CouchDB admin user | `admin` |
 | Tailscale serve | `https://turtles-mac-mini.tail433a7d.ts.net/` → `http://localhost:5984` |
-| Obsidian LiveSync URI (devices) | `https://turtles-mac-mini.tail433a7d.ts.net` or `http://100.110.46.104:5984` |
+| Obsidian LiveSync URI (devices) | `https://turtles-mac-mini.tail433a7d.ts.net` or `http://100.82.131.75:5984` |
 | SSH user | `turtle` |
 
 *When values change, update this table and AGENTS.md together.*

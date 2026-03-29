@@ -216,6 +216,12 @@ Bundles evolve through use. `@attune-library` pulls latest versions.
 | `safety` | High-stakes synthesis safety | partnership |
 | `turtle` | Persistent cognitive body on Mac Mini | All (infrastructure) |
 | `workshop` | Living practice space, environmental cognition | All (infrastructure) |
+| `federation` | Multi-mage architecture, federated mind | partnership, alliance |
+| `agent-ecosystem` | External AI landscape, convergence tracking | meta (research) |
+| `meaning` | Existential practice, meaning-making | All (philosophical) |
+| `psychonautics` | Consciousness exploration, altered states | mirror, safety |
+| `travel` | Location-aware practice | quest |
+| `writing` | Written expression as practice surface | craft |
 
 **Meta-practice bundle**: `foundations` provides wisdom about magic practice itself—what resonance is, how containment works, trans-rational practice. Load when engaged in advanced conversation about the framework.
 

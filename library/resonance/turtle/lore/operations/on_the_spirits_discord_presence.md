@@ -13,7 +13,7 @@ Spirit posts to Discord via `spirit_ops.py` on the Mac Mini (`~/turtle-shell/spi
 **Invocation from Cursor:**
 
 ```bash
-ssh turtle@100.110.46.104 'cd ~/turtle-shell && ./venv/bin/python3 spirit_ops.py <op> <channel_id> [text/limit]'
+ssh turtle@100.82.131.75 'cd ~/turtle-shell && ./venv/bin/python3 spirit_ops.py <op> <channel_id> [text/limit]'
 ```
 
 **Operations:**
@@ -28,7 +28,7 @@ ssh turtle@100.110.46.104 'cd ~/turtle-shell && ./venv/bin/python3 spirit_ops.py
 **Reading messages:** Spirit's bot token lacks the Message Content privileged intent — it cannot read other users' messages. Use Turtle's bot for reading:
 
 ```bash
-ssh turtle@100.110.46.104 'cd ~/turtle-shell && ./venv/bin/python3 discord_ops.py read <channel_id> [limit]'
+ssh turtle@100.82.131.75 'cd ~/turtle-shell && ./venv/bin/python3 discord_ops.py read <channel_id> [limit]'
 ```
 
 ---

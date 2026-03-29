@@ -221,9 +221,9 @@ See: `library/resonance/turtle/lore/on_thread_eddies.md`
 Practice state syncs automatically via LiveSync — Turtle reads directly from `~/workshop/desk/` on the Mac Mini, which is a LiveSync mirror of the Mage's workshop. No manual SCP needed for boom, bright, compass, intentions, proposals, sessions, or notes.
 
 **Calibration** (see `system/flows/turtle/cast_calibrate.md`):
-- Verify bot process health: `ssh turtle@100.110.46.104 "pgrep -f discord_bot && echo running"`
-- If soul.md was updated this session, deploy it: `scp library/resonance/turtle/shell/global.CLAUDE.md turtle@100.110.46.104:~/turtle-shell/identity/soul.md`
-- If bot code changes were made, restart: `ssh turtle@100.110.46.104 "launchctl stop com.turtle.discord && launchctl start com.turtle.discord"`
+- Verify bot process health: `ssh turtle@100.82.131.75 "pgrep -f discord_bot && echo running"`
+- If soul.md was updated this session, deploy it: `scp library/resonance/turtle/shell/global.CLAUDE.md turtle@100.82.131.75:~/turtle-shell/identity/soul.md`
+- If bot code changes were made, restart: `ssh turtle@100.82.131.75 "launchctl stop com.turtle.discord && launchctl start com.turtle.discord"`
 - Note calibration status in release bundle
 
 ### Phase 6: Offer to Commit

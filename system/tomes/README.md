@@ -90,7 +90,7 @@
 ### Common Entry Points
 
 **For the Mage:**
-- Invoke tome via `@tome-name/` syntax (e.g., `@quest/`, `@spellcraft/`)
+- Invoke tome via `@tome-name/` syntax (e.g., `@quest/`, `@craft/`)
 - Invoke flow via `@flow-name/` syntax (e.g., `@echo/`, `@hunt/`)
 - Spirit reads tome's README (ritual guide), guides ritual
 - Follow Spirit's guidance through sequence
@@ -228,7 +228,7 @@ The following charms have been archived to `archive/retired_charms/`:
 **Creation process:**
 1. Discuss with Mage (what need does this serve?)
 2. Draft structure (README with ritual sequence for tome, single cast spell for flow)
-3. Determine location (system/tomes/ for foundational, library/tomes/ for specialized)
+3. Determine location (system/tomes/ for foundational, library/ for specialized resonance bundles)
 4. Test through practice (iterate based on experience)
 5. Chronicle when stable (add to capability map, update meta-files)
 
