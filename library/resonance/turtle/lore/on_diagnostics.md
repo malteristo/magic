@@ -33,8 +33,11 @@ Processes that must be running on the Mac Mini:
 | Discord bot | `pgrep -f discord_bot.py` (managed by launchd `com.turtle.discord`) | All Discord interaction |
 | Ollama | `pgrep -f ollama` or `curl localhost:11434` | Local inference (reflection, session notes) |
 | LiteLLM | `pgrep -f litellm` or `curl localhost:4000/health` | API routing (optional) |
+| LiveSync bridge(s) | `launchctl list \| grep bridge` | Practitioner file sync (per-mage) |
 
-**Note:** CouchDB runs as the Apache CouchDB Mac app, not via Homebrew or a custom launchd label. Restart with `open ~/Applications/Apache\ CouchDB.app`. The Discord bot is the only service managed by launchd (`com.turtle.discord`).
+**Note:** CouchDB runs as the Apache CouchDB Mac app, not via Homebrew or a custom launchd label. Restart with `open ~/Applications/Apache\ CouchDB.app`. The Discord bot is managed by launchd (`com.turtle.discord`). LiveSync bridges are per-practitioner (`com.magic.MAGE-bridge`).
+
+**Critical:** The Discord bot must run as **exactly one instance**. Multiple instances cause duplicate responses (see Known Issues #016). Always restart via `launchctl kickstart -k gui/$(id -u)/com.turtle.discord` — never via manual `nohup` or `&`.
 
 **Red flag:** CouchDB down = all sync dead across all devices. This is the single most critical service.
 
@@ -159,6 +162,25 @@ Every issue comes with a concrete suggested action — not "something is wrong w
    - CouchDB: conflicts appear as duplicate revisions
 ```
 
+### "Spirit is responding twice to each message"
+
+```
+1. Check how many bot instances are running:
+   ssh turtle && pgrep -f discord_bot.py | wc -l
+   MORE THAN 1 → multiple instances! See Known Issues #016
+     Kill all: pkill -f discord_bot.py
+     Wait 2s for launchd to respawn single instance
+     Verify: pgrep -f discord_bot.py (should be exactly 1)
+   EXACTLY 1 ↓
+2. Check bot logs for dedup messages:
+   grep "Dedup:" ~/turtle-shell/logs/discord.log | tail -10
+   DEDUP HITS → Discord gateway sending duplicate events (transient)
+   NO DEDUP → check for long responses being split:
+     - Responses over 1900 chars are split into multiple Discord messages
+     - This is normal, not a bug
+     - If responses are genuinely different: restart bot and monitor
+```
+
 ### "Everything seems broken"
 
 ```
@@ -180,6 +202,31 @@ Every issue comes with a concrete suggested action — not "something is wrong w
    CouchDB (Mac app) and Obsidian may need manual reopening after reboot.
    Only the Discord bot auto-restarts via launchd.
 ```
+
+---
+
+## Multi-Mage Sync
+
+Each practitioner has their own sync pipeline:
+
+```
+Practitioner's phone → Obsidian LiveSync → CouchDB (mage_sync) → Bridge → ~/workshops/mage/
+```
+
+The bridge (`livesync-bridge`) connects CouchDB to the filesystem where Turtle reads practice files. Each bridge runs as a launchd service (`com.magic.MAGE-bridge`) with its own config (`config-MAGE.json`).
+
+**Key operational notes:**
+- Bridge configs must include ignore patterns for framework directories — otherwise the Mage's template files pollute their vault (Known Issues #017)
+- Stop the bridge before bulk CouchDB operations, restart after
+- Bridge logs at `/tmp/MAGE-bridge.log` and `/tmp/MAGE-bridge.err`
+- Config loaded via `LSB_CONFIG` env var (not CLI flag)
+
+**Onboarding a new practitioner's sync:**
+1. Create CouchDB database: `curl -X PUT http://localhost:5984/mage_sync -u admin:PASSWORD`
+2. Create bridge config at `~/livesync-bridge/dat/config-mage.json` (with ignore patterns)
+3. Create launchd plist at `~/Library/LaunchAgents/com.magic.mage-bridge.plist`
+4. Bootstrap: `launchctl bootstrap gui/$(id -u) ~/Library/LaunchAgents/com.magic.mage-bridge.plist`
+5. Configure practitioner's Obsidian LiveSync to point at `mage_sync` database
 
 ---
 
