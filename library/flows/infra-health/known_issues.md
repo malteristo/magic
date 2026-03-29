@@ -294,4 +294,79 @@ pgrep -f litellm > /dev/null && curl -s -m 5 http://localhost:4000/health > /dev
 
 ---
 
+## Issue #016: Discord Bot Duplicate Responses (Multiple Instances)
+
+**First diagnosed:** 2026-03-29
+**Layer:** 1 (Services)
+
+**Symptom:** Turtle sends two (or more) different responses to a single user message. The responses are genuinely different — not split chunks of one long reply. Reply-to-message ratio exceeds 1.0 (e.g. 1.6x observed: 27 replies to 17 messages).
+
+**Root cause:** Multiple `discord_bot.py` processes running simultaneously. Each receives every message from the Discord gateway and processes it independently. The per-channel `asyncio.Lock` only prevents concurrency *within a single process* — it cannot coordinate across OS processes.
+
+**How it happens:** A manual restart (e.g. `nohup python3 discord_bot.py &`) while the launchd-managed instance (`com.turtle.discord`) is still running — or launchd respawns while a manual instance is already up. After a crash, both launchd and a manual restart can race.
+
+**Detection:**
+```bash
+PIDS=$(pgrep -f discord_bot.py)
+COUNT=$(echo "$PIDS" | wc -l | tr -d ' ')
+[ "$COUNT" -gt 1 ] && echo "⚠️ $COUNT bot instances running: $PIDS"
+```
+
+**Fix:**
+1. Kill all instances: `pkill -f discord_bot.py`
+2. Wait 2 seconds for launchd to respawn the managed instance
+3. Verify single instance: `pgrep -f discord_bot.py` should return exactly one PID
+4. If launchd doesn't respawn: `launchctl kickstart gui/$(id -u)/com.turtle.discord`
+
+**Prevention:**
+- **Always** restart via launchd: `launchctl kickstart -k gui/$(id -u)/com.turtle.discord`
+- **Never** use `nohup` or `&` to start the bot manually — launchd manages it
+- The bot now has a message-ID dedup guard (`_processed_message_ids`) that prevents double-processing within a single process (defense against Discord gateway replays), but this does not help across multiple processes
+
+---
+
+## Issue #017: Multi-Mage Vault Pollution (Framework Files in Practice CouchDB)
+
+**First diagnosed:** 2026-03-29
+**Layer:** 3 (Sync)
+
+**Symptom:** A practitioner's Obsidian vault shows hundreds of unfamiliar files — `system/`, `library/`, `archive/`, `AGENTS.md`, etc. Their vault is cluttered with framework internals they never created.
+
+**Root cause:** The practitioner's Obsidian vault was initialized from a template or copied from an existing workshop that included the full Magic framework tree. LiveSync faithfully synced all of it to their CouchDB database. If a LiveSync bridge is then connected, framework files propagate bidirectionally between CouchDB and filesystem.
+
+**Detection:**
+```bash
+# Check for framework directories in a practitioner's CouchDB
+DB="nesrine_sync"  # or whatever the practitioner's database name is
+curl -s "http://localhost:5984/$DB/_all_docs" -u admin:PASSWORD | \
+  python3 -c "import json,sys; docs=json.load(sys.stdin); \
+  cruft=[r['id'] for r in docs['rows'] if not r['id'].startswith('h:') and \
+  any(r['id'].startswith(p) for p in ['library/','system/','archive/','circles/','box/','desk/','portals/'])]; \
+  print(f'{len(cruft)} framework docs found') if cruft else print('Clean')"
+```
+
+**Fix:**
+1. **Stop the bridge** (if running): `launchctl bootout gui/$(id -u)/com.magic.MAGE-bridge`
+2. **Bulk-delete framework docs from CouchDB** using `_bulk_docs` with `_deleted: true`
+3. **Remove framework dirs from filesystem**: `rm -rf ~/workshops/MAGE/{archive,box,circles,desk,library,portals,proposals,system,universe}`
+4. **Update bridge config** (`config-MAGE.json`) with ignore patterns for framework paths
+5. **Restart the bridge**: `launchctl bootstrap gui/$(id -u) ~/Library/LaunchAgents/com.magic.MAGE-bridge.plist`
+
+**Prevention:**
+- When onboarding a new practitioner, start with a **clean vault** — only practice files (boom.md, bright.md, compass.md, mirror.md, system.md, resonance.md, intentions/, sessions/)
+- Bridge configs should include ignore patterns for framework directories from day one
+- Template ignore patterns for bridge config:
+  ```json
+  "ignoredPatterns": [
+      "^\\.git/", "^\\.obsidian/", "\\.DS_Store$",
+      "^archive/", "^box/", "^circles/", "^desk/",
+      "^library/", "^portals/", "^proposals/",
+      "^system/", "^universe/", "^thread-state/",
+      "^AGENTS", "^LICENSE", "^README", "^FAQ",
+      "^MAGIC_SPEC", "^ONBOARDING", "^TROUBLESHOOTING", "^mage_seal"
+  ]
+  ```
+
+---
+
 *Add new issues below this line. Number sequentially. Include all fields: symptom, root cause, detection, fix, prevention (if applicable).*
