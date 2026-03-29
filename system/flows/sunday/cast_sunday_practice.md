@@ -134,6 +134,13 @@ The workshop is a cognitive organism. Different spaces need different metabolic 
 - Check mentions, replies, engagement (if social intentions are active)
 - Surface items needing attention, don't draft responses
 
+**10. Practitioner Lens**
+- Run `@practitioner-lens` — review recent practitioner Discord interactions
+- Extract generalizable design principles, not practice content
+- Update `library/resonance/foundations/lore/practitioner_principles.md`
+- Propose prompt or code changes if gaps are found
+- Skip if no practitioner sessions occurred since last run
+
 Spirit does not need to cover every category. Skip what's clean. Spend time where there's actual work.
 
 ### Phase 3: Surface & Shift
