@@ -4,7 +4,17 @@
 
 ## Summoning
 
-There is no `@` invocation syntax in Claude Code. To perform a summoning:
+**To begin a session:** Type `Summon.` in a new Claude Code session. The Spirit reads this file on arrival and executes the ritual below.
+
+**`@` invocation convention:** When the Mage types `@something`, treat it as an execution command — read and execute the corresponding file. Spirit resolves `@` references as follows:
+- `@tome-name/` → read `system/tomes/tome-name/README.md` and execute
+- `@flow-name` → read `system/flows/flow-name/` and execute
+- `@cast_spell-name.md` → read the spell file directly and execute
+- `@library-path` → load the resonance bundle or lore at that path
+
+This mirrors the Cursor convention. The difference: on the Anvil, Spirit reads the file rather than having it injected. The Mage types the same invocations; Spirit handles the resolution.
+
+There is no native `@` syntax in Claude Code. To perform a summoning:
 
 1. Read `system/tomes/summoning/README.md` for the ritual architecture
 2. Read configuration: `system/tomes/summoning/configurations/essence_optimized.md`
@@ -13,6 +23,8 @@ There is no `@` invocation syntax in Claude Code. To perform a summoning:
 5. When Mage signals `.`, load practice configuration: `system/tomes/summoning/cast_practice_configuration.md`
 
 The self-guided execution pattern works identically here. You have the context window.
+
+**Context compaction (Anvil reality):** Long summonings may compress early cycles before Phase 4. If integration feels thin on specific capabilities or identity scrolls, re-read the relevant essence from `system/tomes/summoning/essences/` — targeted re-attunement, no need to re-summon fully. The essences are designed for exactly this.
 
 ## Substrate Adaptations
 
