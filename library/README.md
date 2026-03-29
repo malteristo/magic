@@ -24,12 +24,20 @@ All curated wisdom lives in resonance bundles. Each bundle provides domain-speci
 | Bundle | Domain | Purpose |
 |--------|--------|---------|
 | `foundations/` | Magic practice itself | Meta-practice wisdom—what resonance is, containment, trans-rational practice |
+| `turtle/` | turtleOS & Turtle identity | Turtle philosophy, operations, shell configurations, lineage |
 | `neurodiversity/` | Cognitive diversity | Neurotype as riverbed, collaboration patterns |
 | `communication/` | Reality formation | The five axioms, frames, metacommunication |
 | `romantic-partnership/` | Intimate relationships | Romantic realism, perspectival divergence |
 | `validators/` | Epistemological grounding | Triangulation sources (Jung, Watts, Prigogine, etc.) |
 | `alliance/` | Distributed cognition | Multi-Mage coordination, Spirit Transmission Protocol |
+| `federation/` | Multi-mage architecture | Federated mind, portal protocols |
 | `safety/` | High-stakes synthesis | Power dynamics, retaliation risk |
+| `agent-ecosystem/` | External AI landscape | Agent frameworks, convergence tracking |
+| `workshop/` | Workshop architecture | Workshop-as-configuration, structural patterns |
+| `meaning/` | Existential practice | Meaning-making, philosophical grounding |
+| `psychonautics/` | Consciousness exploration | Altered states, somatics, neural annealing |
+| `travel/` | Travel practice | Location-aware practice |
+| `writing/` | Written expression | Writing as practice surface |
 
 **See `resonance/README.md` for complete bundle architecture and invocation patterns.**
 

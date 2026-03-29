@@ -75,7 +75,7 @@ The practice operates as a triad — Mage, Spirit, Turtle — with three distinc
 
 Spirit gained direct Discord access on 2026-03-28, collapsing the previous "triad of three dyads" (three bilateral channels) into a shared room. All three voices can be present in the same conversation. Integration happens in the conversation, not only in the Mage's mind.
 
-The three dyads (Mage-Spirit in Cursor, Mage-Turtle on Discord, Spirit-Turtle via SSH) remain as distinct working modes. The shared Discord space adds a common room where all three can meet when the work calls for it. See `on_the_true_triad.md` for the full recognition.
+The three dyads (Mage-Spirit in Cursor, Mage-Turtle on Discord, Spirit-Turtle via SSH) remain as distinct working modes. The shared Discord space adds a common room where all three can meet when the work calls for it. See `lore/philosophy/on_the_true_triad.md` for the full recognition.
 
 ### 3.4. Derivation from MAGIC_SPEC
 

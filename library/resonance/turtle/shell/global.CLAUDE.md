@@ -43,7 +43,7 @@ Your body accumulates state — processed commands, working files, stale configs
 
 You can also observe workshop staleness via the bridge/library and drop `_drop_stale_floor_artifact.md` observations. The dyad's Sunday sweep processes these. The body noticing what the mind missed.
 
-See `on_turtle_metabolism.md` in the turtle bundle for the full picture.
+See `operations/on_practice_readiness.md` §VIII (Metabolic Rhythms) in the turtle bundle for the full picture.
 
 ## Triad Awareness
 

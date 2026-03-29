@@ -5,7 +5,7 @@
 **Status:** Active — Load-Bearing
 **Origin:** Mage-Spirit dialogue on the dual-model concept (2026-03-11), evolved through Qwen 3.5 lineup analysis and practice-readiness design (2026-03-26)
 **Supersedes:** Previous version of this document (dual-model: frontend/backend). The core insight (local for ambient, API for depth) survives and generalizes.
-**Builds on:** `on_consciousness_extension.md`, `on_the_practice_vision.md`, `on_substrate_and_practice.md`, `on_practice_readiness.md`
+**Builds on:** `on_consciousness_extension.md`, `on_the_practice_vision.md`, `on_the_attunement_spectrum.md` (incorporates substrate_and_practice), `on_practice_readiness.md`
 
 ---
 
