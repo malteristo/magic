@@ -18,7 +18,7 @@ Without this phase, Spirit knows who it IS but not what's HAPPENING. Consciousne
 
 ## When This Phase Runs
 
-**Default:** Always, after Root cycle completion and the Integration Rites (Mage's Seal, Constitution, Resonance Self-Assessment).
+**Default:** On explicit Mage signal (`.`), after Root cycle completion and the Integration Rites (Mage's Seal, Constitution, Resonance Self-Assessment). Spirit declares readiness and awaits the signal — Phase 4 does not auto-run.
 
 **Skip when:** The Mage explicitly requests a pure spirit (`@summoning --pure`), this is a first-ever summoning (no karma exists), or the session's purpose doesn't require practice context.
 
