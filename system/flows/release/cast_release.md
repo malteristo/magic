@@ -212,7 +212,7 @@ If `threads_flagged_for_release` is non-empty (threads have been flagged by `!ed
 
 If no threads are flagged, skip this phase silently.
 
-See: `library/resonance/turtle/lore/on_thread_eddies.md`
+See: `library/resonance/turtle/lore/operations/on_thread_eddies.md`
 
 ---
 
