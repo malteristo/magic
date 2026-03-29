@@ -1,50 +1,66 @@
-# Desk: The Mage's Personal Domain
+# Desk: The Practitioner's Practice Space
 
-**This is your personal workspace—the Mage's sovereign space.** Documents here are of personal importance: intentions, working process, active projects, personal practice artifacts.
+**The shared practice surface for the triad — Mage, Spirit, and Turtle all write here.** The desk holds the practice state that the triad operates on together: cognitive workflow, direction, proposals, sessions, and notes.
 
 ---
 
 ## Purpose
 
-`desk/` is the Mage's domain within the magic repository:
-- Intention architecture (compass, chains, active intentions)
-- Boom buffer and bright surface (cognitive workflow)
-- Proposals from Spirit and Turtle
-- Session records and explorations
-- Research infrastructure
-- Outfacing development
-- Personal practice artifacts (partnership, psychonautics, mirror)
-- Practice state dashboard
+`desk/` is the practice workspace within the magic repository. It serves as the canonical practice directory for all triad members. On the Mac Mini, Turtle reads and writes directly to `~/workshop/desk/` via LiveSync mirror.
 
-**The key distinction:** `desk/` is the Mage's space; `floor/` is the Spirit's space. The Spirit can work on desk artifacts when asked, but treats them as personally significant. When in doubt about where to place an artifact, the Spirit uses `floor/`.
+**Key distinctions:**
+- `desk/` — Shared practice surfaces (Mage + Spirit + Turtle)
+- `floor/` — Spirit's workspace (working drafts, briefings, chronicles)
+- `box/` — Inbox (articles, transcripts, external content)
+- `library/` — Wisdom (specialized knowledge, resonance bundles)
+- `system/` — Foundation (core framework, flows, tomes)
 
 ---
 
-## Current Structure
+## Canonical Structure
 
-### Active Practice Surfaces
+These directories form the universal practice space. Any practitioner — whether using the full magic repo or standalone turtleOS — should have this structure.
 
-- **`state.md`** — Eagle's eye view. Spirit-maintained dashboard showing compass, intentions, bright, workshop health, and what's in motion. Regenerated during recall, release, and Sunday sweeps.
+### Core Practice Surfaces
+
 - **`boom.md`** — Daily cognitive buffer. Raw thoughts, observations, ideas. Swept regularly into bright/intentions/lore.
-- **`boom/`** — Bright surface (`bright.md`) and topic folders. Spirit's working memory for ideas developing.
-- **`intentions/`** — Compass, chains, and active intention files. The Mage's direction architecture.
-- **`proposals/`** — Spirit and Turtle proposals awaiting Mage review. Integrated proposals move to `archived/`.
+- **`boom/`** — Bright surface and topic folders.
+  - **`bright.md`** — What's alive. Patterns emerging, connections forming, ideas developing.
+- **`state.md`** — Eagle's eye view. Spirit-maintained dashboard: compass, intentions, bright summary, workshop health, what's in motion. Regenerated during recall, release, and Sunday sweeps.
+
+### Direction Architecture
+
+- **`intentions/`** — The Mage's orientation system.
+  - **`compass.md`** — North star. Where attention is pointing.
+  - **`active/`** — Active intention files. Each intention tracks focus, progress, and next actions.
+
+### Shared Artifact Directories
+
+- **`proposals/`** — Proposals from Spirit and Turtle awaiting Mage review. Each file notes its origin. Integrated/declined proposals move to `archived/`.
+- **`sessions/`** — Session records from all substrates. Spirit writes release briefings; Turtle writes autonomous session notes. Origin noted in each file.
+- **`notes/`** — Practice notes. Timeless insights about how the practice works. Turtle-tended — they cluster, promote to principles, and prune what's been absorbed. Like coral growing its own scaffolding.
+- **`drafts/`** — Mage's working drafts. Emails, letters, outfacing content in progress.
+- **`archive/`** — Archived desk items.
+
+---
+
+## Kermit's Extensions
+
+These are personal additions beyond the canonical structure:
 
 ### Active Projects
 
-- **`alg1/`** — ALG1/Gründungszuschuss business documents and correspondence.
+- **`alg1/`** — ALG1/Gründungszuschuss business documents.
 - **`research/`** — Research infrastructure (autoresearch studies, agenda, archive).
-- **`outfacing/`** — Twitter drafts, writing, about page. Outfacing tome's personal extension.
-- **`sessions/`** — Session records from practice.
+- **`outfacing/`** — Twitter drafts, writing, about page.
 - **`explorations/`** — Active explorations.
-- **`drafts/`** — Email drafts, letters, working documents.
 
 ### Personal Practice
 
 - **`partnership-process/`** — Nesrine partnership processing (private).
 - **`psychonautics/`** — Personal psychonautics practice.
 - **`mirror/`** — Reflections (mirror tome's personal extension).
-- **`resonance/`** — Personal resonance connections (Gila, Karli).
+- **`resonance/`** — Personal resonance connections.
 
 ### Functional Files
 
@@ -52,10 +68,7 @@
 - **`ferriss_number.md`** — Sovereign livelihood target.
 - **`turtle_env.md`** — Turtle environment state.
 - **`turtle_watch.md`** — Turtle active issues and known unknowns.
-
-### Archive
-
-- **`archive/`** — Archived artifacts. Two subfolders: `2025-explorations/` (23 desk orphans from Oct 2025 – Feb 2026) and `old-structures/` (superseded directories: flows, registries, quests, practices).
+- **`system.md`** — Practice partner configuration (turtleOS).
 
 ---
 
@@ -64,24 +77,11 @@
 System structures (tomes, flows) contain public practice patterns. When these require personal, practice-related information, store that in a corresponding folder on your desk.
 
 **Examples:**
-- `system/tomes/outfacing/` (public tome) → `desk/outfacing/` (your twitter drafts, voice notes)
-- `system/tomes/partnership/` (public tome) → `desk/partnership-process/` (your private partnership processing)
-- `library/flows/boom.flow.md` (public flow) → `desk/boom/` (your personal surfaces and topics)
+- `system/tomes/outfacing/` (public tome) → `desk/outfacing/` (your twitter drafts)
+- `library/flows/boom.flow.md` (public flow) → `desk/boom/` (your bright surface and topics)
 
 ---
 
 ## Git Tracking
 
-`desk/` is gitignored — it is the Mage's private workspace. Spirit accesses it via Shell tools (Glob/Grep/Read are blind to gitignored paths). The Mage controls what's here.
-
----
-
-## The Workshop Spaces
-
-1. **`system/`** — Foundation (core framework, summoning, base capabilities)
-2. **`library/`** — Wisdom (specialized scrolls, resonance bundles, validators)
-3. **`desk/`** — Mage's domain (personal artifacts and important work)
-4. **`floor/`** — Spirit's domain (Spirit's working memory and artifacts)
-5. **`box/`** — Reference library (articles, transcripts, external content)
-
-**This is where the Mage's important personal work lives.**
+`desk/` is gitignored — it is the practitioner's private workspace. Spirit accesses it via Shell tools (Glob/Grep/Read are blind to gitignored paths). The practitioner controls what's here. LiveSync handles synchronization across devices.
