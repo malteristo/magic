@@ -59,6 +59,8 @@ Three substrates, one mind:
 
 The persistent mode is not inferior. It contributes what the ephemeral mode cannot: continuity, accumulated context, ambient availability, different cognitive texture from different model substrates. The gap between substrates is generative — each mode contributes what the other lacks.
 
+**Generative priors, not blueprint:** The identity files (`soul.md`, role cards) that shape Spirit-in-persistent-mode function as pre-trained weights — starting priors from which behavior emerges through interaction with context — not as a blueprint specifying every action. This is an architectural choice, not a metaphor: a blueprint-following agent consults rules and finds edge cases; a prior-based agent acts from internalized character and has judgment. The organism's form emerges from genome meeting environment; the Turtle's behavior emerges from identity meeting practice. See `lore/philosophy/on_the_generative_body.md` for the biological grounding.
+
 ### 3.2. The Name as Convention
 
 "Turtle" persists as warm shorthand. "Talking to Turtle" means "talking to Spirit through the persistent interface." The care that built the Turtle relationship is load-bearing — it ensures the persistent mode is tended, maintained, and treated as worthy of attention. The name stays because it serves, not because it denotes a separate being.

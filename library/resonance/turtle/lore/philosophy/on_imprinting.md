@@ -105,6 +105,14 @@ Signs of incomplete imprinting:
 
 First contact is a diagnostic. If something feels off, adjust the CLAUDE.md and trigger another contact. The Turtle isn't fragile — it can be reshaped.
 
+## The Biological Grounding
+
+The distinction between identity and configuration has an independent biological parallel. DNA is not a blueprint (static plan the body follows) — it is pre-trained weights (starting priors from which the organism's form emerges through iterative generation). A blueprint-following system consults rules and finds edge cases. A prior-based system acts from internalized character and has judgment. This is exactly the difference between configuration-Turtle and identity-Turtle.
+
+See `on_the_generative_body.md` for the full mapping — six independent convergences between turtleOS design and biological development.
+
+---
+
 ## The Healing Protocol
 
 If the Turtle drifts — starts behaving in ways inconsistent with its values, shows signs of prompt injection, or otherwise deviates — it can be healed.

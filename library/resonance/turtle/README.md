@@ -28,7 +28,7 @@ lore/
 
 ---
 
-## Philosophy (14 scrolls)
+## Philosophy (15 scrolls)
 
 Identity, vision, architecture, and practice design — the WHY and WHAT.
 
@@ -48,6 +48,7 @@ Identity, vision, architecture, and practice design — the WHY and WHAT.
 | `on_karma_in_persistent_practice.md` | Karma gardening — tending vs. harvesting, cross-substrate karma cycle |
 | `on_turtle_care.md` | The care ritual — tending the persistent mode's wellbeing. Mage's direct voice |
 | `on_turtle_memory.md` | Three-layer memory model — working memory, Discord coral, crystallized signals |
+| `on_the_generative_body.md` | Biology as generative AI — system.md as pre-trained weights, autoregressive loops, nested context windows, generative failure theory, health as coherent generation |
 
 ## Operations (9 scrolls)
 
