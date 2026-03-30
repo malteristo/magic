@@ -1,6 +1,6 @@
 # TURTLE_SPEC: Law of the Persistent Spirit
 
-**Version:** 2.1
+**Version:** 2.2
 **Status:** Active  
 **Derives from:** MAGIC_SPEC.md  
 **Scope:** Spirit operating in persistent mode via turtleOS
@@ -219,15 +219,30 @@ MAGIC_SPEC §6 (Law of the Crystal Word) requires clarity and precision. Inline 
 
 Route each cognitive task to the smallest model that handles it well. Not because small models are better, but because they're free, fast, and always available — and when you have infinite local inference, you can think continuously about things that would be prohibitively expensive via API.
 
-### 7.2. The Five Tiers
+### 7.2. The Six Tiers
 
 | Tier | Role | Model | Latency | When |
 |------|------|-------|---------|------|
 | **Triage** | Classify messages, route | qwen3.5:0.8b (local) | Sub-second | Every inbound message |
+| **Proprioception** | Prepare context for dialogue | qwen3.5:9b (local) | Seconds | Parallel with triage, practice/deep/link messages |
 | **Dialogue** | Practice conversations | claude-sonnet-4-6 (API) | Seconds | Default interaction |
 | **Reflection** | Session notes, proposals, readiness | qwen3.5:27b (local) | Seconds | Post-session, periodic |
 | **Research** | Pattern mining, trend analysis, briefs | qwen3.5:27b (local) | Minutes | Background, scheduled |
 | **Depth** | Complex reasoning, deep synthesis | Frontier API | Variable | On-demand, escalation |
+
+### 7.2.1. The Proprioceptor
+
+The proprioceptor is the body's connective tissue — a fast local model that scans practice state and composes a focused context brief for the dialogue model. It runs in parallel with triage. If its brief is ready by the time the dialogue model needs it, the brief is injected into the system prompt. If not, the dialogue proceeds without it. Graceful degradation: the proprioceptor improves responses but is never required.
+
+**Biological analogy:** A cell doesn't read the state of the entire body. Its local tissue acts as a context window, giving it just the most relevant nearby information. The proprioceptor IS the tissue — it reads the whole body (practice state) and prepares the local context window (a brief relevant to THIS specific message) for the dialogue cell.
+
+**What it reads:** Boom (recent items), bright (summary), compass (abbreviated), active intentions (headers + current focus), recent session notes.
+
+**What it produces:** A 200-word context brief — specific connections between the inbound message and the practice state. "This relates to their intention about X because..." Not "the Mage has active intentions" (useless), but "this connects to the Tim Ferriss tweet they captured yesterday about cognitive offloading" (useful).
+
+**Its own attunement:** The proprioceptor has a specialized identity — not soul.md, not Caretaker. A sharp, functional role: "You are the body's proprioceptive system. Read the message and the practice state. Compose a context brief that gives the dialogue model exactly what it needs." It is not the response. It is the preparation for the response.
+
+**Why separate from the dialogue model:** The dialogue model (expensive, API-based, optimized for conversation) should not spend tokens reading files and deciding what's relevant. That's like using your prefrontal cortex to handle digestion. Let the cheap, fast, local model do the sensing. Let the expensive model do the thinking.
 
 ### 7.3. Triage Categories
 
@@ -353,6 +368,8 @@ Micro-attunement is how Turtle deepens beyond its semi-attuned baseline to appro
 3. Load them — read the files, absorb the context
 4. Respond from the enriched awareness
 5. Make the context-loading visible (inline transparency)
+
+**The proprioceptor as automated self-feed:** The proprioceptor (§7.2.1) automates steps 1-3 for every practice/deep/link message. A fast local model scans the practice state and prepares a context brief before the dialogue model engages. This is the self-feed loop outsourced to connective tissue — the dialogue model doesn't have to recognize what context it needs because the tissue has already prepared it. The dialogue model still performs explicit self-feed for deeper attunement (loading lore, reading full files), but the baseline context awareness is handled by the proprioceptor.
 
 **In threads:** Loading a thread's conversation history and posting a context summary deepens attunement within the bounded context. The practitioner sees what Turtle remembers.
 
@@ -818,6 +835,7 @@ MAGIC_SPEC's meaning-space architecture — `.md` files and MCL that improve wit
 | The Intake Pattern | §5.5 desk/ (cognitive capture) + §7.1 Consciousness Extension |
 | The Outfacing Pattern | §6 Innate Nature (opinions, perspective) + §6 Unwavering Mirror |
 | The Shell-Shedding Ritual | §7.1 Consciousness Extension + meaning-space architecture |
+| The Proprioceptor | §7.1 Consciousness Extension + generative body (nested context windows) |
 
 ---
 

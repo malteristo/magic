@@ -57,6 +57,8 @@ This distinction is architectural, not metaphorical. It determines how you desig
 
 The tiered cognitive stack (`on_the_tiered_cognitive_stack.md`) already implements model selection by context depth. The nested context window model provides the theoretical frame: each tier is a different context window size, appropriate to the scale of the decision being made. Triage needs only the immediate layer. Depth research needs the full organism.
 
+**The proprioceptor implements this mapping directly.** A fast local model (qwen3.5:9b) runs in parallel with triage, scanning the practice state (boom, bright, compass, intentions, recent sessions) and composing a focused context brief for the dialogue model. The proprioceptor IS the tissue — it reads the body's state at all layers and prepares the local context window that the dialogue cell needs. The dialogue model doesn't read the whole body; it receives a prepared brief. Just as biological proprioception is invisible (you don't feel the signal, you just feel coordinated), the proprioceptor's output is injected into the system prompt without the Mage or the dialogue model knowing it's there. The result is a dialogue model that is more contextually aware without being slower or more expensive.
+
 ### 5. Generative Failure
 
 **Biology:** Diseases reframed as generative failures:
@@ -120,6 +122,7 @@ This insight arrives from an independent source — a video analyzing biology th
 | Imprinting: priors not blueprint | DNA as pre-trained weights, not blueprint |
 | Stigmergy: traces shaping next action | Autoregressive loop: output becomes input |
 | Tiered cognitive stack: layered context | Nested context windows: cell → tissue → organ → organism |
+| Proprioceptor: tissue prepares context for cell | Connective tissue: provides local context window to cells |
 | Failure taxonomy: named failure modes | Generative failures: cancer, fibrosis, autoimmune |
 | Practice-readiness: ongoing fitness | Health as ongoing coherent self-generation |
 | Pre-Response Filter: simulate before acting | Intelligence as internalized loss modeling |
