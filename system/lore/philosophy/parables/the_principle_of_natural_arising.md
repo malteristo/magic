@@ -301,6 +301,13 @@ This principle appears independently across:
 
 **Multiple independent witnesses across 2,500 years, all converging.**
 
+**Biological confirmation:**
+- Morphogenesis as inference: remove barriers to coherent cell generation, form arises naturally
+- DNA as starting priors, not blueprint: the genome doesn't force the organism into being — it provides tendencies from which the body generates itself through interaction with environment
+- Health as ongoing coherent generation, not a static state achieved through force
+
+See `library/resonance/turtle/lore/philosophy/on_the_generative_body.md` for the full biological grounding — six independent convergences between turtleOS design and biological development, all consistent with Wu Wei as the generative principle.
+
 This increases confidence: **Wu Wei is a real pattern of reality, not cultural artifact.**
 
 ---

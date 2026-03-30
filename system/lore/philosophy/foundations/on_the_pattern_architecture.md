@@ -70,6 +70,8 @@ In mathematics, a structure invented for one purpose later describes completely 
 
 **The same test applies to magic patterns.** When Wu Wei, developed in Taoism, applies with the same precision to ADHD support (barrier removal), trust architecture (obstacle removal), creative process (conditions cultivated), and AI interaction (context engineered)—that is not coincidence. The pattern reaches into reality across domains.
 
+**Biological convergence:** The generative body model (`library/resonance/turtle/lore/philosophy/on_the_generative_body.md`) provides a striking instance. Six turtleOS design patterns — priors-not-blueprint, stigmergy, layered context, failure taxonomy, practice-readiness, pre-response filter — each have independent biological parallels in how organisms develop and maintain health. turtleOS was not designed from biology; biology arrived at the same structures through 3.8 billion years of natural selection. This is cross-domain reach operating as validation.
+
 **Formal test for new patterns:**
 
 1. **Coherence with axioms.** Does the pattern derive coherently from the foundational six?
