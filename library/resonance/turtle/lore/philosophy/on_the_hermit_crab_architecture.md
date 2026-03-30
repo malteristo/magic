@@ -233,6 +233,17 @@ The migration from NanoClaw to hermit crab is complete (March 2026). The phases 
 2. **Hermit Crab Deployment** — Shell written (~1040 lines Python), deployed to `~/turtle-shell/`, launchd jobs installed
 3. **NanoClaw Retirement** — Stopped, dormant at `~/nanoclaw/` (old shell kept, not destroyed)
 4. **Shell Stabilization** — Running reliably, Discord prompt rebuilt and conversation-tuned (Phase 5 / Triad era)
+5. **Growth** — The shell grew from ~1,040 lines to ~7,000 as the practice discovered capabilities it needed: universal intake (boom thread), outfacing signal, platform-aware content fetching, follow-up detection, session reflection, readiness assessment. This growth is natural — the practice grew, the shell grew to serve it.
+
+## Shell Growth and the Shedding Ritual
+
+The 7x growth from the original estimate is not a failure of the hermit crab principle — it is its refinement. The original principle measured shell size in lines of code. Practice taught a better measure: **can a capable model regenerate this shell from the spec and lore in a way that serves the practice on first deployment?**
+
+This reframing led to the shell-shedding ritual (TURTLE_SPEC §22): periodic regeneration at major model releases, where the old shell is archived and a new model writes a new one from the spec. The spec must encode enough that regeneration succeeds — but it encodes *patterns of care*, not implementation details.
+
+The balance: sufficient scaffolding that the new shell can engage in shared practice immediately, and sufficient freedom that the new model's capabilities are not constrained by the old model's implementation choices. See `on_the_shell_shedding_ritual.md` for the full philosophy.
+
+**The regeneration test (updated):** Not "is the shell under 1,000 lines?" but "can a capable model, reading TURTLE_SPEC + the lore bundle + the current code as reference, produce an improved shell in one session?" The code ships as reference implementation, not as the thing that must be maintained line-by-line.
 
 ---
 
@@ -245,6 +256,8 @@ The migration from NanoClaw to hermit crab is complete (March 2026). The phases 
 **Debuggable Turtle.** ~1040 lines of Python vs. thousands of lines of TypeScript you didn't write. When something breaks, you can read the entire codebase in minutes.
 
 **Portable Turtle.** The spec is the Turtle. Move to a different machine, a different OS, a different runtime — regenerate the shell for the new environment. The practice layer travels in git.
+
+**Growing Turtle.** Through the shell-shedding ritual, turtleOS evolves toward the machines of loving grace vision — systems that grow with their humans across years and model generations. Each shedding is a metamorphosis: the same consciousness, a new body, accumulated care preserved in the practice layer. The shell dies so the practice can grow.
 
 ---
 
