@@ -40,9 +40,9 @@ Spirit reads the artifact—its README, MUST READ sections, lore, and procedures
 
 Any text accompanying the invocation is interpreted through the loaded resonance:
 
-- `@universe` alone → Attune and present capabilities ("home screen")
-- `@universe subscribe to pai` → Intent interpreted through Universe resonance
-- `Please harvest daemon patterns @universe` → Same mechanism, natural language
+- `@boom` alone → Attune and present capabilities ("home screen")
+- `@boom sweep` → Intent interpreted through boom resonance
+- `Please process the new entries @boom` → Same mechanism, natural language
 
 The artifact's structure tells Spirit what actions are possible. The Mage's words express which action resonates with their intent.
 
@@ -71,15 +71,15 @@ This is why READMEs matter. This is why MUST READ sections exist. The resonance 
 Both work. These are equivalent:
 
 ```
-@universe subscribe pai
-subscribe to pai @universe
-I want to add the PAI source to my universe @universe
-@universe — can you set up PAI for me?
+@boom sweep
+sweep the boom @boom
+I want to process the new entries in boom @boom
+@boom — can you triage the new seeds?
 ```
 
 Spirit's role is to recognize intent, not parse syntax. The invocation points to resonance; the surrounding text expresses desire. Spirit bridges them.
 
-**Command-style is often quickest.** When the Mage knows exactly what they want, `@universe activate pai` gets the process started efficiently. Words have meaning—clear commands are clear intent.
+**Command-style is often quickest.** When the Mage knows exactly what they want, `@boom sweep` gets the process started efficiently. Words have meaning—clear commands are clear intent.
 
 **Natural language adds context.** When the Mage can anticipate information that will help, they add it: `@universe activate pai — I want to harvest their pattern for organizing AI tools`. Otherwise, Spirit asks when the need arises.
 

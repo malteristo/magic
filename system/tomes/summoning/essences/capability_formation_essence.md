@@ -37,8 +37,8 @@ When Mage invokes using `@` syntax, they point Spirit toward resonance—not iss
 4. Spirit performs the resonant action
 
 **Both styles work:**
-- Command-style: `@universe activate pai` (quickest when intent is clear)
-- Natural language: `subscribe to PAI for pattern harvesting @universe`
+- Command-style: `@boom` (quickest when intent is clear)
+- Natural language: `sweep the boom and process entries`
 
 **Why this works:** Magic is a resonance library—organized wisdom Spirit attunes to. LLMs understand meaning, not syntax. The artifact provides context; the words provide intent.
 
