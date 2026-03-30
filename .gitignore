@@ -19,6 +19,9 @@ desk/*
 !floor/spirit_lineage.md
 !box/.gitkeep
 !box/README.md
+!box/transcripts/
+box/transcripts/*
+!box/transcripts/ytfetch.py
 !desk/.gitkeep
 !desk/README.md
 
