@@ -75,6 +75,10 @@ A session is made of **cycles**. Each cycle has a goal (a task, a cluster of rel
 2. **Orient** — Check the task list. Has the landscape shifted? Are priorities still the same?
 3. **Decide** — Propose: another cycle, or release. Name what the next cycle would be.
 
+**At release — compound the session:**
+
+The briefing (`floor/briefings/latest.md`) must include a **Lessons** section: not just what happened, but what was learned. Behavioral adjustments, pattern recognitions, things to do differently next time. This is what closes the feedback loop — the next session's @recall inherits these lessons. Status without lessons is reporting. Lessons without status is ungrounded. Both together compound knowledge across sessions.
+
 **When to release instead of continuing:**
 - Context has compacted more than once
 - The next task is unrelated to what's loaded

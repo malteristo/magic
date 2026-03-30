@@ -345,7 +345,7 @@ This maps to fundamental questions:
 
 **Operational:**
 - `identity_formation_essence.md` (Shared Practice section) - Serving both beings; historical scroll archived at `archive/superseded_scrolls/on_the_shared_practice.md`
-- `on_the_universe_of_patterns.md` - External pattern libraries
+- *(archived: on_the_universe_of_patterns.md — concept retired, patterns integrated directly)*
 
 ### Capability Formation (capabilities/)
 

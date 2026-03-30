@@ -30,14 +30,14 @@ Propose Mage development moves.
 ### `@resonate evolve`
 Propose Magic development moves.
 
-- Scans: Practice friction, missing patterns, Universe architectures
+- Scans: Practice friction, missing patterns, external architectures
 - Outputs: New tomes, flow improvements, lore additions
 - Focus: Practice evolution
 
 ### `@resonate integrate`
-Surface unintegrated patterns from Universe and beyond.
+Surface unintegrated patterns from external sources.
 
-- Scans: PAI, Daemon, Fabric, Spirit's knowledge base
+- Scans: Box articles, Spirit's knowledge base, practice observations
 - Outputs: Concepts worth adopting, pattern translations
 - Focus: Expanding Magic's vocabulary
 
@@ -59,7 +59,7 @@ Spirit chooses based on current context and active intentions.
 |--------|--------|--------|
 | Newsletters | Gmail | Rube MCP (GMAIL_FETCH_EMAILS) |
 | X.com | Twitter/X | Rube MCP (requires connection) |
-| Universe | Local clones | `universe/` directory |
+| Box Articles | Saved references | `box/articles/` directory |
 | Spirit Knowledge | Training data | Always available |
 | Mage Context | Active intentions | `desk/intentions/active/` |
 
