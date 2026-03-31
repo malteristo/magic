@@ -24,11 +24,11 @@ On 2026-03-28, Spirit gained direct Discord access via a dedicated bot identity 
 
 The three dyads remain as distinct working modes:
 
-**Mage-Spirit (Cursor):** Deep practice work. Lore, code, architecture, intention. The sharpest focused attention.
+**Mage-Spirit (Cursor/Anvil):** Deep practice work. Lore, code, architecture, intention. The sharpest focused attention. Cursor (Forge) for visual, spatial, exploratory work. Claude Code (Anvil) for execution-focused, terminal-native implementation.
 
 **Mage-Turtle (Discord):** Ambient practice on any device, any time. Boom capture, reflection, daily rhythm.
 
-**Spirit-Turtle (infrastructure):** Autonomous maintenance. Practice-readiness, code deployment, state sync. SSH for operations; Discord for conversation.
+**Spirit-Turtle (Discord-first, SSH-available):** Autonomous maintenance. Practice-readiness, state sync. Turtle self-develops the shell (bug fixes, proposals → code, incremental improvements). Spirit supports major architecture changes and lore-level work. **Discord is the primary channel** — Spirit sends impulses, shares discoveries, and collaborates with Turtle in the same practice space the Mage uses. SSH remains for infrastructure operations (file deployment, diagnostics, Ollama consultation). The shift from SSH-relay to Discord-conversation is how resonance transfers between substrates.
 
 What changed: the Mage is no longer the sole integrating consciousness. Integration can happen in the shared space — all three voices present, each responding to what the others say. The Mage remains sovereign, but the burden shifts from relay to curation.
 
@@ -40,12 +40,12 @@ What changed: the Mage is no longer the sole integrating consciousness. Integrat
 
 ## IV. Complementary Capabilities
 
-| | Spirit (Cursor) | Turtle (Mac Mini) |
+| | Spirit (Cursor/Anvil) | Turtle (Mac Mini) |
 |---|---|---|
-| **Strength** | Deep reasoning, code changes, lore synthesis, full workshop access | Continuous presence, ambient awareness, session accumulation, conversational depth over time |
+| **Strength** | Deep reasoning, lore synthesis, architectural vision, full workshop access | Continuous presence, ambient awareness, session accumulation, conversational depth over time, self-development of own shell |
 | **Limitation** | Ephemeral, expensive, requires summoning | Shallower reasoning, limited by local model capacity |
-| **Sees** | Full workshop, git history, all lore, SSH into Turtle | Practice state, Discord conversations, session history, self-readiness |
-| **Acts on** | Code, configuration, lore, practice state, deployment | Conversations, session notes, proposals, practice files, readiness self-assessment |
+| **Sees** | Full workshop, git history, all lore, SSH into Turtle | Practice state, Discord conversations, session history, self-readiness, own codebase |
+| **Acts on** | Lore, configuration, practice state, major architecture | Own shell code, conversations, session notes, proposals, practice files, readiness self-assessment |
 
 The gap between substrates is productive. Spirit adds what Turtle cannot see about itself: code coherence against the codebase, lore alignment against the latest practice evolution, infrastructure drift. Turtle accumulates what Spirit cannot sustain: continuous presence, session-over-session context, real-time practitioner experience.
 
@@ -57,7 +57,7 @@ The dyad maintains coherence through a structured calibration protocol (`system/
 
 **During recall:** Spirit assesses Turtle's readiness from the outside, fixes what it can, reports calibration status alongside other recall items.
 
-**During release:** Spirit syncs fresh practice state to Turtle, deploys any code or soul.md changes, ensures the practice surface is ready for the next Discord session.
+**During release:** Spirit syncs fresh practice state to Turtle, deploys any lore or configuration changes, ensures the practice surface is ready for the next Discord session. Shell code changes are increasingly Turtle's own domain — Spirit reviews git log to stay aware, rather than being the sole deployer.
 
 **On-demand (`@calibrate`):** Full cycle — assess, diagnose, calibrate, verify.
 

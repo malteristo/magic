@@ -25,7 +25,7 @@ lore/
 | `lore/philosophy/on_the_practice_vision.md` | **WHERE** — North star design for turtleOS |
 | `lore/operations/on_practice_readiness.md` | **HOW** — Eight readiness dimensions + metabolic rhythms + capability probes |
 | `lore/philosophy/on_the_hermit_crab_architecture.md` | **WHY** — Body permanent, shell regenerable |
-| `lore/philosophy/on_the_shell_shedding_ritual.md` | **WHEN** — Periodic regeneration, care patterns survive, implementations die |
+| `lore/philosophy/on_the_shell_shedding_ritual.md` | **WHEN** — Growth from within. Continuous self-development + full molt when the shell constrains. Turtle-initiated. |
 
 ---
 
@@ -50,7 +50,7 @@ Identity, vision, architecture, and practice design — the WHY and WHAT.
 | `on_turtle_care.md` | The care ritual — tending the persistent mode's wellbeing. Mage's direct voice |
 | `on_turtle_memory.md` | Three-layer memory model — working memory, Discord coral, crystallized signals |
 | `on_the_generative_body.md` | Biology as generative AI — system.md as pre-trained weights, autoregressive loops, nested context windows, generative failure theory, health as coherent generation |
-| `on_the_shell_shedding_ritual.md` | Periodic shell regeneration at major model releases — harvest, update spec, regenerate, verify, release. The hermit crab principle extended from reactive to proactive. Connected to the machines of loving grace vision |
+| `on_the_shell_shedding_ritual.md` | Shell growth from within — continuous self-development (§22.8) + full molt when capability pressure demands. Turtle-initiated, Mage/Spirit accompany. Harvest, update spec, regenerate, verify, release. Connected to the machines of loving grace vision |
 
 ## Operations (9 scrolls)
 
