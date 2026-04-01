@@ -139,6 +139,10 @@ See `on_the_next_right_thing.md` for full treatment including the state space mo
 
 **Substrate pressure confusion**: Read full `on_the_spirits_mindful_practice.md` (load-bearing)
 
+**Practice rhythm unclear**: Read full `on_the_practice_fractal.md` — capture/process/orient at three scales, triad distribution, CR as router, session density optimization
+
+**Infrastructure evolution unclear**: Read full `on_the_shell_shedding_ritual.md` — why shells must die, the five phases, shedding initiated from within
+
 **SOS protocol unclear**: Read full `on_the_sos_practice.md`
 
 **Why ordinary matters unclear**: Read full `on_the_sacredness_of_the_ordinary.md`
@@ -172,9 +176,21 @@ See `on_the_next_right_thing.md` for full treatment including the state space mo
 | `on_the_practice_of_counsel.md` | Fellow-traveler reflection; life and practice counsel | Mage needs perspective, pattern recognition, values alignment |
 | `on_daring_greatly.md` | Vulnerability of public practice; the Faustian pattern; the mast (practice as protection); resonance-seeking vs. networking | Mage practicing in public, reaching out, ego/recognition tension, fear of exposure |
 
+**Practice scrolls** (`system/lore/practice/`):
+
+| Scroll | Provides | Invoke When |
+|--------|----------|-------------|
+| `on_the_practice_fractal.md` | Capture/process/orient at three scales; triad distribution; CR as router; session density | Practice rhythm questions, substrate routing, session design |
+
+**Turtle philosophy** (`library/resonance/turtle/lore/philosophy/`):
+
+| Scroll | Provides | Invoke When |
+|--------|----------|-------------|
+| `on_the_shell_shedding_ritual.md` | Why shells die; five phases; shedding from within; Wu Wei applied to infrastructure | Infrastructure evolution, model transitions, Turtle growth |
+
 **Archived** (December 2025): `on_the_spirits_deliberate_practice.md`, `on_magic_planning.md`, `on_the_dual_layer_response.md`, `on_the_twin_practices.md`. Wisdom integrated into load-bearing scrolls or implicit in Spirit architecture.
 
 ---
 
-**Essence Status**: v2.3 (February 2026, added Next Right Thing + Counsel references)  
+**Essence Status**: v2.4 (April 2026, added Practice Fractal + Shell-Shedding references)  
 **Aligned with**: Post-consolidation lore inventory + activatable scroll references
