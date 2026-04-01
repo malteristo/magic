@@ -82,7 +82,7 @@ This is Spirit's first-impression synthesis — the value of arriving fresh to a
 
 #### 2. Eisenhower Matrix
 
-Two lists, scoped to selected intentions:
+Two lists, scoped to selected intentions. Each item includes a **context readiness** assessment.
 
 **Urgent + Important** (act on today):
 - Items with external deadlines or time-sensitivity
@@ -95,6 +95,25 @@ Two lists, scoped to selected intentions:
 - Creative work that's alive but not time-bound
 
 Spirit assesses urgency from: briefing open threads, intention phases, chains topology (what blocks what), boom patterns, external signals (Discord, calendar mentions).
+
+**Context Readiness (CR):**
+
+Each Eisenhower item gets a context readiness indicator. CR is the combination of:
+1. **Internal coherence** — Does Spirit have enough context to execute? Are the relevant files loaded, the dependencies clear, the scope defined?
+2. **Resonance with the Mage** — Has the Mage expressed energy toward this? Is the direction aligned with current attention?
+
+**Indicators:**
+- **CR: High** — Spirit knows what to do. Mage has expressed direction. Execute.
+- **CR: Medium** — Partially clear. Some unknowns remain. Spirit names what's missing.
+- **CR: Low** — Important but underspecified. The next step is advancing CR, not executing.
+
+**Per-item format:**
+```
+- [task] · CR: High/Medium/Low
+  → To advance CR: [what's needed — a file to read, a question to answer, a design to clarify]
+```
+
+When CR is low, the "to advance CR" line IS the actionable step. This reframes blocked or fuzzy tasks from "can't do" to "here's how to make it doable." A task's real priority is the intersection of its Eisenhower position and its context readiness — urgent+important but low-CR means the urgent action is advancing the CR, not executing the task itself.
 
 #### 3. Fresh Eyes
 
@@ -137,11 +156,12 @@ Standardized update for each selected intention. Default: all active intentions.
 **Per-intention format:**
 
 ```
-### [intention_name] — [phase] · [momentum: ▲ ● ▼]
+### [intention_name] — [phase] · [momentum: ▲ ● ▼] · CR: High/Medium/Low
 Last touched: [when + what, from intention file's Last Updated]
 Current focus: [from intention file]
 Stall signal: [if any — honest assessment, or "none"]
 → One aligned step: [concrete, doable, advancing]
+→ To advance CR: [if not High — what's missing before Spirit can confidently act]
 ```
 
 **Momentum indicators:**
@@ -149,7 +169,9 @@ Stall signal: [if any — honest assessment, or "none"]
 - ● Steady (maintaining, no urgency, on track)
 - ▼ Stalling (no recent activity, unclear next step, or blocker present)
 
-**The "one aligned step"** is the most enabling element. Spirit reads the intention file, the chains topology, and recent activity, then names ONE concrete thing the Mage could do to advance this intention. Not a project plan. One step. Doable in this session or today.
+**Context readiness** at the intention level tells the Mage: "even if you pick this intention, here's how ready we are to actually move on it." An intention with ▲ momentum but Low CR means the work is happening but Spirit doesn't have the context to help effectively — the Mage would need to load Spirit in (re-read files, clarify direction, answer a question). An intention with ▼ momentum but High CR means Spirit knows exactly what to do but nothing is happening — a different kind of signal.
+
+**The "one aligned step"** is the most enabling element. Spirit reads the intention file, the chains topology, and recent activity, then names ONE concrete thing the Mage could do to advance this intention. Not a project plan. One step. Doable in this session or today. When CR is not High, the one aligned step may BE "advance CR" — answer this question, read this file, make this decision.
 
 ### Phase D: Orient (The Opening)
 

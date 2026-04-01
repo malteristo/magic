@@ -99,9 +99,13 @@ Present in this order. Terminal-native: headers, tables, short lines. Scannable 
 Where we are. What changed. What Spirit notices with fresh eyes.
 
 #### 2. Eisenhower Matrix
-Two lists scoped to selected intentions:
+Two lists scoped to selected intentions. Each item includes a **context readiness (CR)** assessment.
 - **Urgent + Important** — act today
 - **Important + Not Urgent** — don't lose sight
+
+Each item: `[task] · CR: High/Medium/Low` with `→ To advance CR: [what's needed]` when not High.
+
+CR = internal coherence (Spirit knows what to do) + resonance with Mage (energy/attention aligned). High CR → execute. Low CR → the next step is advancing CR, not executing. See cast spell for full CR framework.
 
 Spirit assesses from: briefing open threads, intention phases, chains topology, boom patterns, Discord signals.
 
