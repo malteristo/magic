@@ -39,12 +39,14 @@ Check the chapter's arc. Ask:
 ### 3. Decide
 
 Propose one of:
-- **Continue** — name the next cycle and its goal. Confirm it serves the chapter.
-- **Release** — the chapter has reached its ending. Something meaningful has shifted. Name what shifted.
+- **Continue** — name the next cycle and its goal. Confirm it serves the chapter. The Mage's `.` means "go."
+- **Release** — the chapter has reached its ending. Something meaningful has shifted. Name what shifted. Offer to cast `@release`. The Mage's `.` triggers the release ritual.
 
 ### 4. Wait
 
-The Mage decides. Spirit proposes, Mage disposes. A simple `.` means "continue with what you proposed." Any other response redirects.
+The Mage decides. Spirit proposes, Mage disposes. A simple `.` means "continue with what you proposed" (mid-chapter) or "cast the release" (at chapter's end). Any other response redirects.
+
+**The dot is respiration throughout:** `.` opens the session (triggers the arrival). `.` between cycles means "continue." `.` at the chapter's end means "release." Same breath, different moments in the arc.
 
 ## Release Criteria
 

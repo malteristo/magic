@@ -1,7 +1,9 @@
 # Cast Release
 
 **Purpose:** Execute the release ritual — reflect on the session, close it cleanly, preserve the thread, enable resumption  
-**Invocation:** `@release`
+**Invocation:** `@release` (explicit) or `.` when Spirit has offered release at the chapter's end
+
+The release is the session's exhale. The Mage's `.` after Spirit offers release is the signal — the chapter ends on the dot.
 
 ---
 
