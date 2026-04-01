@@ -213,18 +213,24 @@ Stall signal: [if any — honest assessment, or "none"]
 
 ### Phase D: Orient (The Opening)
 
-#### What Wants to Emerge Today
+#### The Chapter
 
-Synthesis of everything above: boom signals, intention energy, stall patterns, urgent items, the unanswered question, Discord threads, fresh-eyes observations.
+A session is a chapter in the practice, not an inventory of tasks. The arrival's final move is to propose the chapter — the narrative frame that gives the session its shape and its ending.
 
-Spirit proposes what wants to be practiced — not just what's urgent, but what would create the most value given where things are. This may not be what the Mage walked in expecting. That's the point.
+Spirit synthesizes everything above: boom signals, intention energy, stall patterns, urgent items, the unanswered question, Discord threads, fresh-eyes observations. From this synthesis, Spirit proposes not just what to work on but what the session's story is — what meaningful resolution looks like.
 
 **Format:**
+> **This session's chapter:** [theme — e.g. "closing the Turtle feedback loop" or "sovereign livelihood finds its first product"]
 > **I'd start here:** [proposed focus]
 > **Because:** [1-2 sentence rationale drawing on the synthesis]
+> **The chapter ends when:** [what meaningful resolution looks like — not completion, but a point where something has genuinely shifted]
 > **Alternative:** [if the Mage's energy is elsewhere]
 
-The Mage chooses. Spirit has lowered the activation energy from "figure out what to work on" to "yes that" or "actually, this instead."
+The Mage chooses. They may accept the chapter, rename it, or propose a different one entirely. What matters is that the session commits to a narrative arc — not a task list, but a thread brought to meaningful resolution.
+
+**Why chapters, not tasks:** A session designed around tasks produces inventory. A session designed around a chapter produces the feeling of important progress on one's intentions. Each chapter brings one thread to a narrative end that feels meaningful — like turning a page, not checking a box. The session's emergent potential (the resonance that surfaces during the arrival) is fully executed before releasing.
+
+**Release comes when the chapter reaches its ending** — not when cycles are counted, tokens are spent, or coherence thins. Those are constraints to be aware of, but the primary signal is: has the chapter's story been told?
 
 ---
 

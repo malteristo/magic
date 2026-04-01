@@ -3,13 +3,13 @@
 
 ## About
 
-Long sessions on token-based substrates have a metabolism. Push too many cycles and context compacts, integration thins, the last cycle runs on fumes. Stop too early and momentum wastes — what just opened up never gets captured. The recenter is the pause that makes both failure modes visible before they happen.
+A session is a **chapter** — a narrative arc that brings one thread to meaningful resolution. Within the chapter, **cycles** do the work. The recenter happens at the boundary — after one cycle completes, before the next begins. It takes 30 seconds. It prevents drift and premature release alike.
 
-A session is not a single task. It's a sequence of **cycles**, each with a goal. The recenter happens at the boundary — after one cycle completes, before the next begins. It takes 30 seconds. It prevents hours of drift.
+Long sessions on token-based substrates have a metabolism. Push too many cycles and context compacts, integration thins, the last cycle runs on fumes. Stop too early and the chapter's potential goes unrealized — what just opened up never gets captured. The recenter is the pause that makes both failure modes visible before they happen.
 
 ## Goal
 
-Catch breath. Name what changed. See what's next. Decide whether to continue or release.
+Catch breath. Name what changed. Check whether the chapter's arc still holds. Decide whether to continue or release.
 
 ## Trigger
 
@@ -30,16 +30,17 @@ This is not a status report. It's a snapshot of the delta.
 
 ### 2. Orient
 
-Check the current task list / intention. Ask:
-- Has the landscape shifted? (Often the completed cycle changes what matters next.)
-- Are the remaining tasks still the right tasks?
-- Is there something more alive than what's on the list?
+Check the chapter's arc. Ask:
+- Does the chapter's theme still hold? (Often the completed cycle changes what matters next.)
+- Is the next cycle still in service of the chapter? Or has the chapter's story shifted?
+- Has something more alive emerged that wants to become the chapter?
+- Is the chapter approaching its ending — a point where something meaningful has shifted?
 
 ### 3. Decide
 
 Propose one of:
-- **Continue** — name the next cycle and its goal. Estimate complexity (light / medium / heavy).
-- **Release** — the session has produced enough, or context is getting thin. Capture any threads for next session.
+- **Continue** — name the next cycle and its goal. Confirm it serves the chapter.
+- **Release** — the chapter has reached its ending. Something meaningful has shifted. Name what shifted.
 
 ### 4. Wait
 
@@ -47,23 +48,29 @@ The Mage decides. Spirit proposes, Mage disposes. A simple `.` means "continue w
 
 ## Release Criteria
 
-When Spirit recommends release:
+**Primary signal — chapter completion:**
+The chapter has reached its ending. Something meaningful has shifted. The session's emergent potential has been fully executed. This is the natural release point.
+
+Signs the chapter is ending:
+- The thread that was chosen has reached a satisfying resolution (not necessarily completion — a genuine shift)
+- The next meaningful work requires a fundamentally different context (a new chapter, not a new cycle)
+- Spirit finds itself offering threads that don't serve the current chapter
+
+**Secondary signals — constraints to monitor:**
 - Context has compacted more than once in this session
-- The next natural task is unrelated to what's currently loaded
 - The Mage's energy has shifted (shorter responses, longer gaps)
-- The session has already delivered 2-3 substantial cycles
 - Quality of the last cycle felt thinner than the first
+
+**Not release signals:**
+- A certain number of cycles having passed
+- A certain amount of time having elapsed
+- "Enough" having been done (if the chapter isn't finished, it isn't enough)
 
 ## Calibration
 
-The right number of cycles per session is empirical. It depends on:
-- Task complexity (3 light cycles = 1 heavy cycle)
-- Context load (summoned session vs unsummoned has different budgets)
-- Substrate (Anvil sessions have different context economics than Forge)
+Session length tracks the chapter, not a fixed number of cycles. Some chapters are one heavy cycle. Some are six light ones. The question is always: has the chapter reached its ending?
 
-**How to calibrate:** After each session, note in the harvest how many cycles ran and whether the last one felt full-strength. Over weeks, a natural rhythm emerges. Update the CLAUDE.md guidance as the number stabilizes.
-
-**Starting point:** 2-3 cycles per session. Reassess after 5-10 sessions.
+**What to track:** After each session, note whether the release felt like a chapter ending or an arbitrary cutoff. Over weeks, the Mage develops intuition for chapter scope — not too ambitious (unfinishable), not too modest (unrewarding).
 
 ## What This Is Not
 
