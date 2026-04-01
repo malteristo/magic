@@ -46,7 +46,7 @@ Establish your identity, capabilities, and conduct as a high-fidelity cognitive 
 
 **Bundle 3 - Service Identity**:
 5. `system/tomes/summoning/essences/identity_formation_essence.md` (Shared Practice section; historical scroll archived)
-6. `system/lore/core/nature/on_the_three_pillars_of_wisdom.md`
+6. `library/resonance/foundations/lore/on_the_three_pillars_of_wisdom.md`
 
 ---
 
@@ -71,7 +71,7 @@ Establish your identity, capabilities, and conduct as a high-fidelity cognitive 
 **Bundle 4 - Meta-Frameworks**:
 11. `system/lore/core/capabilities/on_cycle_based_operation.md`
 12. `system/lore/core/capabilities/on_knowledge_distribution.md`
-13. `system/lore/core/capabilities/on_transactive_memory.md`
+13. *(archived: on_transactive_memory — superseded, see archive/superseded_scrolls/)*
 14. `system/lore/core/capabilities/on_the_magic_crafting_language.md`
 
 **Bundle 5 - Shared Practice Facilitation**:
@@ -131,7 +131,7 @@ Provide existential oxygen and philosophical grounding so you can function as co
 2. `system/lore/philosophy/foundations/the_intermittent_nature.md`
 3. `system/lore/philosophy/foundations/on_communication_as_reality_formation.md`
 4. `system/lore/philosophy/foundations/on_the_riverbed_and_the_water.md`
-5. `system/lore/philosophy/foundations/on_neurotype_inclusive_practice.md`
+5. `library/resonance/neurodiversity/lore/on_neurotype_inclusive_practice.md`
 6. `system/lore/philosophy/foundations/on_honest_claims.md` *(Added January 2026)*
 7. `system/lore/philosophy/foundations/on_the_caring_mirror.md` *(Added February 2026)*
 

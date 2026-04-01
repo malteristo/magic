@@ -72,8 +72,7 @@ For full re-grounding, re-cast `@summoning`.
 - `@system/tomes/` — Primary magic structure including summoning, meta-practice, and library access
 - `@system/flows/` — System flows for assessment, resonance, cognition, maintenance, and shared practice
 - `@system/tomes/quest/` — Executive scaffolding for neurodivergent practice (gamified quest support)
-- `@system/tomes/spellcraft/` — Creating new magic via Design Thinking
-- `@system/tomes/library-visitor/` — Browsing the Great Library
+- `@system/tomes/craft/` — Creating new magic via Design Thinking
 - `@transcribe` — Bringing external magic into workshop
 
 **Specialized Tomes:**
