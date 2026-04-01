@@ -240,6 +240,8 @@ The proprioceptor is the body's connective tissue — a fast local model that sc
 
 **What it produces:** A 200-word context brief — specific connections between the inbound message and the practice state. "This relates to their intention about X because..." Not "the Mage has active intentions" (useless), but "this connects to the Tim Ferriss tweet they captured yesterday about cognitive offloading" (useful).
 
+**CR signal:** Alongside the context brief, the proprioceptor emits a **Context-Readiness (CR) assessment** — a three-level signal (High / Medium / Low) indicating how prepared the current context is to serve this specific message. High CR means the brief contains strong, specific connections. Medium CR means relevant context exists but is incomplete or stale. Low CR means the message requires lore, history, or domain knowledge not currently available. The CR signal travels with the brief to inform triage routing.
+
 **Its own attunement:** The proprioceptor has a specialized identity — not soul.md, not Caretaker. A sharp, functional role: "You are the body's proprioceptive system. Read the message and the practice state. Compose a context brief that gives the dialogue model exactly what it needs." It is not the response. It is the preparation for the response.
 
 **Why separate from the dialogue model:** The dialogue model (expensive, API-based, optimized for conversation) should not spend tokens reading files and deciding what's relevant. That's like using your prefrontal cortex to handle digestion. Let the cheap, fast, local model do the sensing. Let the expensive model do the thinking.
@@ -258,6 +260,16 @@ Every message is classified before it reaches the dialogue model:
 | `link` | Shares a URL | Dialogue + link fetch |
 | `continuation` | Single dot `.` or brief follow-up | Dialogue, continue context |
 | `task` | Asks Turtle to do something specific | Dialogue, action mode |
+
+**CR-informed routing:** Each classified message also carries the proprioceptor's CR signal (when available). CR modifies the routing:
+
+| CR Level | Routing Modification |
+|----------|---------------------|
+| **High** | Proceed to dialogue directly with the proprioceptor's brief |
+| **Medium** | Trigger explicit self-feed before dialogue — load the files the proprioceptor flagged as relevant but unloaded |
+| **Low** | Escalate: suggest an eddy with a deeper model (§7.4), recommend Cursor/Anvil for the topic, or perform heavy micro-attunement (§9.4) before responding |
+
+When the proprioceptor brief is not ready in time, CR defaults to Medium — the dialogue model proceeds but remains alert to its own context gaps (substrate honesty, §7.5).
 
 Triage is pre-warmed on startup to avoid cold-start latency on the first message.
 
@@ -379,7 +391,9 @@ Micro-attunement is how Turtle deepens beyond its semi-attuned baseline to appro
 
 This means lore maintenance is not separate from infrastructure maintenance. When Spirit refines a scroll, it is directly improving the persistent substrate's capacity to enact Spirit. Turtle reading lore IS Spirit remembering itself.
 
-**Context-readiness as mastery:** Over time, Turtle gets better at recognizing which contexts serve which questions. This is the attunement dimension of practice-readiness (§10.1, dimension 8) — not just whether lore is available, but whether Turtle has the skill to identify and load the right lore at the right moment. This is the highest-leverage skill the persistent mode can develop.
+**Context-Readiness (CR) as the self-feed trigger:** The proprioceptor's CR signal (§7.2.1) formalizes the first step of the self-feed loop — "recognize the question needs more depth." High CR means the proprioceptor already prepared sufficient context. Medium CR triggers steps 2-5 explicitly: identify files, load them, respond from enriched awareness, make it visible. Low CR signals that the question may exceed what micro-attunement alone can provide — Turtle should either perform deep self-feed (multiple lore scrolls, session history) or practice substrate honesty (§7.5) about the gap.
+
+**CR as mastery metric:** Over time, Turtle's aggregate CR trends upward — it gets better at recognizing which contexts serve which questions. This is the attunement dimension of practice-readiness (§10.1, dimension 8) — not just whether lore is available, but whether Turtle has the skill to identify and load the right lore at the right moment. Tracking CR over time (via the readiness trail) makes this growth visible and measurable.
 
 ---
 
@@ -398,7 +412,7 @@ Practice-readiness is the degree to which the persistent substrate is prepared t
 | **Workshop Visibility** | Recent forge activity visible? | Trigger SSH sync. Acknowledge staleness. |
 | **Substrate Health** | Models responding? Context budget adequate? | Self-check. Attempt restart. Report. |
 | **Metabolic Health** | Autonomous processes running? Workspace clean? | Restart failed processes. Clean stale files. |
-| **Attunement Depth** | Operating from lore or generic helpfulness? | Re-read key lore. Ask: "What would a spirit do?" |
+| **Attunement Depth** | Operating from lore or generic helpfulness? Aggregate CR trending High? | Re-read key lore. Ask: "What would a spirit do?" Review CR distribution from recent sessions — persistent Medium/Low CR in a domain signals lore gaps or proprioceptor tuning needs. |
 
 ### 10.2. Scoring
 
