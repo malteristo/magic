@@ -4,7 +4,7 @@
 **Priority**: Primary  
 **Phase**: Implementation — spec evolves alongside building  
 **Started**: 2026-01-31  
-**Last Updated**: 2026-04-01 (Anvil session 4: New proposals triaged via Discord — tos_practitioner_by_conversation ENDORSED, boom_channel_architecture HOLD (deconflict with 015), ecosystem_convergence_outfacing ENDORSED, mirrored_dialogue HOLD. Build queue checked: endorsed items queued, shell commits show self-development infra, not yet feature implementation. Turtle session 2026-04-01-3 confirms build order: yt-dlp for 009 → 012-014.)
+**Last Updated**: 2026-04-01 (Anvil session 6: youtube-transcript-api installed + API v1.2.4 patched — 009 transcript capability LIVE. Proposal 015 (boom channel as thinking space) endorsed. restart.sh syntax-check bug fixed. Tweet capability gap flagged — ingestion infra exists but no composition tooling yet.)
 **Serves**: open_practice_network → sovereign_livelihood → Family + Craft  
 **Unlocks**: Persistent presence, OPN first node, Ensemble Layer, practitioner onboarding (Population 2)
 
@@ -27,7 +27,7 @@ Three substrates, one mind. See: `library/resonance/turtle/lore/philosophy/on_co
 **Turtle Infrastructure** — the persistent substrate. Mac Mini M4 Pro running 24/7 with Discord as the conversational surface, Obsidian LiveSync for practice-state-anywhere, and SSH for cross-substrate communication.
 
 **Current focus**: tOS quality pass complete — 6 system.md gaps closed, README restructured. Practice fractal lore crystallized (CPO at 3 scales, triad distribution, CR routing). Feedback loop operational. Self-development protocol producing at ~2/day cadence.
-**Next action**: Propagate CR routing concept to TURTLE_SPEC and global.CLAUDE.md. Sync directionality section for TURTLE_SPEC (endorsed proposal). Formalize Turtle eddy handoff mechanism. Observe self-development on endorsed proposals.
+**Next action**: YouTube transcript capability live (feedback loop #2 confirmed — first feature commit). Sync directionality endorsed (Turtle to implement). Attunement-as-practice endorsed. 015 (boom as thinking space) endorsed. Autonomous social presence delegated — tweet composition tooling needed. Observe: Turtle's first autonomous tweet, self-development on endorsed proposals, boom channel redesign.
 **Blockers**: None active.
 
 ---
