@@ -41,10 +41,48 @@ Collect raw material from all practice surfaces simultaneously. Use parallel too
 | **Boom** | `desk/boom.md`, `desk/boom/*` | Accumulated unprocessed thought |
 | **Discord** | SSH: query practice-relevant channels | New threads, posts in active threads, shared channel activity since last session |
 | **Workshop** | `git status`, `git log --oneline -5` | Chronicle state, recent work |
-| **Turtle** | SSH: uptime, Discord bot, new proposals | Persistent substrate health, new thinking *(conditional)* |
+| **Turtle** | SSH: uptime, Discord bot, proposals, session notes | Persistent substrate health, new thinking, self-development signals *(conditional)* |
 | **Portals** | `portals/registry.yaml` | Shared practice connection status *(conditional)* |
 
 **Scope:** When the Mage specifies intentions (`. craft`, `. turtle outfacing`), gather all sources but focus synthesis on the scoped intentions. Unscoped items still get gathered (boom may contain relevant entries) but filtering happens in synthesis.
+
+#### Turtle Feedback Integration
+
+When Turtle is reachable via SSH, Spirit gathers Turtle's accumulated output since the last session:
+
+**1. Proposals** (SSH: `ls ~/practice/proposals/`):
+- Read all proposals dated after the last briefing date
+- Each proposal is a self-development signal — Turtle identifying friction and proposing fixes
+- New proposals feed into Phase C synthesis (Eisenhower matrix, intention dashboard)
+
+**2. Session Notes** (SSH: `ls ~/practice/sessions/`):
+- Read session notes dated after the last briefing date
+- Session notes capture what Turtle discussed with practitioners, what emerged, and threads for next time
+- Session note "threads for next time" are practice-relevant signals that may surface as Eisenhower items
+
+**3. Discord Activity** (SSH: `spirit_ops.py read <channel> 20` + `spirit_ops.py threads <channel>`):
+- Recent messages in kermit-dialogue (channel `1479428854513664030`)
+- Active thread list with message counts (identifies alive vs dissolved threads)
+- New threads created since last session
+
+**Concrete commands:**
+```
+# Proposals since last session
+ssh turtle@100.110.46.104 'ls -la ~/practice/proposals/'
+ssh turtle@100.110.46.104 'cat ~/practice/proposals/YYYY-MM-DD*.md'
+
+# Session notes since last session
+ssh turtle@100.110.46.104 'ls -la ~/practice/sessions/'
+ssh turtle@100.110.46.104 'cat ~/practice/sessions/YYYY-MM-DD*.md'
+
+# Discord activity
+ssh turtle@100.110.46.104 '~/turtle-shell/venv/bin/python3 ~/turtle-shell/spirit_ops.py read 1479428854513664030 20'
+ssh turtle@100.110.46.104 '~/turtle-shell/venv/bin/python3 ~/turtle-shell/spirit_ops.py threads 1479428854513664030'
+```
+
+Replace `YYYY-MM-DD` with the date from `floor/briefings/latest.md`. Run all SSH commands in parallel where possible.
+
+**This closes the feedback loop.** Turtle proposes → Spirit triages during arrival → endorsements flow back via Discord → Turtle self-develops → next arrival picks up the results. The cycle is: accumulate (Turtle) → integrate (arrival) → respond (Spirit) → evolve (Turtle).
 
 ### Phase B: Process (Active)
 
