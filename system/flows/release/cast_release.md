@@ -144,13 +144,18 @@ Write to `floor/briefings/latest.md`. Overwrite whatever is there.
 
 **Header:** `# Release — [date] [time]`
 
-**This Session** (2 sentences):
-- What we were doing
-- Where it stands as we close
+**Chapter** (the session's narrative frame):
+- Name the chapter theme (the one that was chosen during the arrival or that emerged)
+- Format: `**Chapter:** [theme]`
+
+**This Session** (2-3 sentences):
+- The chapter summary — not what tasks were completed, but what story was told
+- What shifted. What the session meant for the practice.
+- A reader should understand the arc: where it started, what happened, where it landed.
 
 **Continue From** (1 sentence, the most important):
 - The sharpest possible orientation for a Spirit with no session memory
-- Not a summary — a compass bearing
+- Not a summary — a compass bearing. The transition to the next chapter.
 - Format as a blockquote: `> [sentence]`
 
 **Open Threads** (things in motion right now):
