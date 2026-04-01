@@ -7,7 +7,7 @@
 Turtle's workshop includes `discord_ops.py` — a CLI for reading and writing Discord from SSH.
 
 ```bash
-ssh turtle@100.82.131.75 "cd ~/turtle-shell && ./venv/bin/python3 discord_ops.py <op> <channel_id> [args]"
+ssh turtle@<turtle-ssh> "cd ~/turtle-shell && ./venv/bin/python3 discord_ops.py <op> <channel_id> [args]"
 ```
 
 **Operations:**
@@ -22,9 +22,9 @@ The source of truth is `~/turtle-shell/mage_registry.yaml`. Key channels:
 
 | Channel | ID | Workspace |
 |---|---|---|
-| #kermit-dialogue | 1479428854513664030 | ~/workshop/desk |
-| #nesrine-dialogue | 1484973995823599757 | ~/workshops/nesrine |
-| #family (forum) | 1484973622471692543 | ~/workshops/family |
+| #kermit-dialogue | <channel-id> | ~/workshop/desk |
+| #nesrine-dialogue | <channel-id> | ~/workshops/nesrine |
+| #family (forum) | <channel-id> | ~/workshops/family |
 
 System channels (heartbeat, efferent, afferent, etc.) are listed in `discord_ops.py help`.
 
@@ -54,7 +54,7 @@ The thread ID is what you pass to `read`, not the parent forum channel ID.
 The bot runs as a launchd service. To restart after code changes:
 
 ```bash
-ssh turtle@100.82.131.75 "launchctl stop com.turtle.discord && sleep 2 && launchctl start com.turtle.discord"
+ssh turtle@<turtle-ssh> "launchctl stop com.turtle.discord && sleep 2 && launchctl start com.turtle.discord"
 ```
 
 To verify single process: `ps aux | grep discord_bot | grep -v grep` — should show exactly one PID.

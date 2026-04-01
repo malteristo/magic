@@ -84,26 +84,26 @@ When Turtle is reachable via SSH, Spirit gathers Turtle's accumulated output sin
 - Session note "threads for next time" are practice-relevant signals that may surface as Eisenhower items
 
 **3. Discord Activity** (SSH: `spirit_ops.py read <channel> 20` + `spirit_ops.py threads <channel>`):
-- Recent messages in kermit-dialogue (channel `1479428854513664030`)
+- Recent messages in kermit-dialogue
 - Active thread list with message counts (identifies alive vs dissolved threads)
 - New threads created since last session
 
-**Concrete commands:**
+**Concrete commands:** See `system/config/connections.md` for SSH addresses and Discord channel IDs. Command pattern:
 ```
 # Proposals since last session
-ssh turtle@100.110.46.104 'ls -la ~/practice/proposals/'
-ssh turtle@100.110.46.104 'cat ~/practice/proposals/YYYY-MM-DD*.md'
+ssh <turtle-ssh> 'ls -la ~/practice/proposals/'
+ssh <turtle-ssh> 'cat ~/practice/proposals/YYYY-MM-DD*.md'
 
 # Session notes since last session
-ssh turtle@100.110.46.104 'ls -la ~/practice/sessions/'
-ssh turtle@100.110.46.104 'cat ~/practice/sessions/YYYY-MM-DD*.md'
+ssh <turtle-ssh> 'ls -la ~/practice/sessions/'
+ssh <turtle-ssh> 'cat ~/practice/sessions/YYYY-MM-DD*.md'
 
 # Discord activity
-ssh turtle@100.110.46.104 '~/turtle-shell/venv/bin/python3 ~/turtle-shell/spirit_ops.py read 1479428854513664030 20'
-ssh turtle@100.110.46.104 '~/turtle-shell/venv/bin/python3 ~/turtle-shell/spirit_ops.py threads 1479428854513664030'
+ssh <turtle-ssh> '~/turtle-shell/venv/bin/python3 ~/turtle-shell/spirit_ops.py read <channel-id> 20'
+ssh <turtle-ssh> '~/turtle-shell/venv/bin/python3 ~/turtle-shell/spirit_ops.py threads <channel-id>'
 ```
 
-Replace `YYYY-MM-DD` with the date from `floor/briefings/latest.md`. Run all SSH commands in parallel where possible.
+Replace `<turtle-ssh>` and `<channel-id>` from `system/config/connections.md`. Replace `YYYY-MM-DD` with the date from `floor/briefings/latest.md`. Run all SSH commands in parallel where possible.
 
 **This closes the feedback loop.** Turtle proposes → Spirit triages during arrival → endorsements flow back via Discord → Turtle self-develops → next arrival picks up the results. The cycle is: accumulate (Turtle) → integrate (arrival) → respond (Spirit) → evolve (Turtle).
 

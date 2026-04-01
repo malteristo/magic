@@ -13,7 +13,7 @@ Spirit posts to Discord via `spirit_ops.py` on the Mac Mini (`~/turtle-shell/spi
 **Invocation from Cursor:**
 
 ```bash
-ssh turtle@100.82.131.75 'cd ~/turtle-shell && ./venv/bin/python3 spirit_ops.py <op> <channel_id> [text/limit]'
+ssh turtle@<turtle-ssh> 'cd ~/turtle-shell && ./venv/bin/python3 spirit_ops.py <op> <channel_id> [text/limit]'
 ```
 
 **Operations:**
@@ -28,7 +28,7 @@ ssh turtle@100.82.131.75 'cd ~/turtle-shell && ./venv/bin/python3 spirit_ops.py 
 **Reading messages:** Spirit's bot token lacks the Message Content privileged intent — it cannot read other users' messages. Use Turtle's bot for reading:
 
 ```bash
-ssh turtle@100.82.131.75 'cd ~/turtle-shell && ./venv/bin/python3 discord_ops.py read <channel_id> [limit]'
+ssh turtle@<turtle-ssh> 'cd ~/turtle-shell && ./venv/bin/python3 discord_ops.py read <channel_id> [limit]'
 ```
 
 ---
@@ -37,10 +37,10 @@ ssh turtle@100.82.131.75 'cd ~/turtle-shell && ./venv/bin/python3 discord_ops.py
 
 | Channel | ID | Purpose |
 |---------|-----|---------|
-| kermit-dialogue | `1479428854513664030` | Kermit's main practice channel. Triad conversations happen here. |
-| system | `1479428866975207424` | System messages, bot status. |
-| nesrine-dialogue | `1484973995823599757` | Nesrine's practice channel. |
-| family | `1484973622471692543` | Family shared space. |
+| kermit-dialogue | `<channel-id>` | Kermit's main practice channel. Triad conversations happen here. |
+| system | `<channel-id>` | System messages, bot status. |
+| nesrine-dialogue | `<channel-id>` | Nesrine's practice channel. |
+| family | `<channel-id>` | Family shared space. |
 
 ---
 

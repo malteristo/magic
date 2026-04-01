@@ -176,7 +176,7 @@ EOF
 **19. Register groups in SQLite**
 
 Write and run a Node.js script (see `on_turtle_operations.md` for the full registration script). Groups to register:
-- `REDACTED_PHONE@s.whatsapp.net` → folder `consul`, requiresTrigger: false, containerConfig with magic-bridge additionalMount
+- `<whatsapp-jid>` → folder `consul`, requiresTrigger: false, containerConfig with magic-bridge additionalMount
 - `main@internal` → folder `main`, requiresTrigger: false
 - `steward@internal` → folder `steward`, requiresTrigger: false
 - `witness@internal` → folder `witness`, requiresTrigger: false
@@ -187,7 +187,7 @@ Then register the bridge-poll scheduled task for consul (cron `*/5 * * * *`, iso
 
 Once Llama is downloaded and NanoClaw is running:
 ```bash
-cd ~/nanoclaw && npm run auth -- --pairing-code --phone +REDACTED_PHONE
+cd ~/nanoclaw && npm run auth -- --pairing-code --phone <phone-number>
 ```
 
 Watch the log. Enter the pairing code in WhatsApp on your phone.

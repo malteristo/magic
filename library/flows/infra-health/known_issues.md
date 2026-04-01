@@ -18,7 +18,7 @@
 **Detection:**
 ```bash
 CURRENT_IP=$(/Applications/Tailscale.app/Contents/MacOS/Tailscale ip -4 2>/dev/null)
-DOCUMENTED_IP="100.82.131.75"  # from cast_infra_health.md reference table
+DOCUMENTED_IP="<turtle-ssh>"  # from system/config/connections.md
 [ "$CURRENT_IP" != "$DOCUMENTED_IP" ] && echo "⚠️ Tailscale IP changed: $DOCUMENTED_IP → $CURRENT_IP"
 ```
 
@@ -27,7 +27,7 @@ DOCUMENTED_IP="100.82.131.75"  # from cast_infra_health.md reference table
 2. Update AGENTS.md (the canonical reference)
 3. Update this file's reference table
 4. Update client Obsidian LiveSync configs (if using IP instead of hostname)
-5. **Prevention:** Configure clients to use MagicDNS hostname (`turtles-mac-mini.tail433a7d.ts.net`) instead of IP
+5. **Prevention:** Configure clients to use MagicDNS hostname (`<turtle-fqdn>`) instead of IP
 
 ---
 

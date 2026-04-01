@@ -111,8 +111,8 @@ This is Cherished Dissonance made operational — each failure mode was discover
 ### 4.2 Tailscale Connectivity
 **Symptom:** SSH via Tailscale IP times out. LAN fallback works.
 **Root cause:** Coordination server unreachable, hostname changes after re-enrollment, tailscaled process stale.
-**Recovery:** Try LAN IP first (192.168.8.106). Restart tailscaled if persistent. Update CLAUDE.md with current Tailscale IP when it changes.
-**Status:** Intermittent. Current Tailscale IP: 100.110.46.104.
+**Recovery:** Try LAN IP first (`<turtle-ssh>`). Restart tailscaled if persistent. Update CLAUDE.md with current Tailscale IP when it changes.
+**Status:** Intermittent. Current Tailscale IP: see `system/config/connections.md`.
 **Recurrence signal:** SSH timeout on Tailscale IP. Try LAN.
 
 ### 4.3 LiveSync Path Mismatch

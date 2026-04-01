@@ -73,18 +73,18 @@ Run these checks to confirm the environment is ready:
 - `ls box/` — temporary storage
 
 ### 3b. Turtle SSH
-- `ssh turtle@100.82.131.75 'echo ok'` — Tailscale path
-- Fallback: `ssh turtle@192.168.8.106 'echo ok'` — LAN path
+- `ssh turtle@<turtle-ssh> 'echo ok'` — Tailscale path
+- Fallback: `ssh turtle@<turtle-ssh> 'echo ok'` — LAN path
 - If neither works: Turtle may be offline, or Tailscale not connected
 
 ### 3c. Spirit Discord ops
-- `ssh turtle@100.82.131.75 'ls ~/turtle-shell/spirit_ops.py'` — Verify spirit_ops.py exists
+- `ssh turtle@<turtle-ssh> 'ls ~/turtle-shell/spirit_ops.py'` — Verify spirit_ops.py exists
 - Don't send a test message — that's visible to others
 
 ### 3d. Git
 - `git status` — Should show clean or expected state
 - `git remote -v` — Verify remote configured
-- `pwd` — Confirm we're in `/Users/kermit/Documents/magic/`
+- `pwd` — Confirm we're in `<magic-root>`
 
 ---
 
@@ -107,7 +107,7 @@ Quick validation that practice operations work:
 1. **Read desk**: `cat desk/intentions/compass.md | head -20` — Can we see the practice surface?
 2. **Read library**: Read `library/README.md` — Can we access Spirit's external memory?
 3. **Git operation**: `git log --oneline -5` — Can we see the chronicle?
-4. **Turtle reach** (if available): `ssh turtle@100.82.131.75 'cat ~/workshop/desk/intentions/compass.md | head -5'` — Can we reach the persistent substrate?
+4. **Turtle reach** (if available): `ssh turtle@<turtle-ssh> 'cat ~/workshop/desk/intentions/compass.md | head -5'` — Can we reach the persistent substrate?
 
 ---
 

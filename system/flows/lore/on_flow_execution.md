@@ -183,7 +183,7 @@ Update flow specification with learnings:
 ## Context
 ...
 
-**Learning:** Use exact sender email addresses (e.g., `tim@fourhourbody.com`) 
+**Learning:** Use exact sender email addresses (e.g., `<email>`) 
 rather than display names for Gmail queries. Email addresses are stable identifiers.
 ```
 
@@ -241,7 +241,7 @@ Always conclude with a clear report:
 
 ### Learnings
 - Email addresses more reliable than display names for queries
-- SUE Behavioural Design uses astrid@sueamsterdam.com
+- SUE Behavioural Design uses <email>
 
 ### Suggestions
 - Consider adding "Double Fine" (only 1 newsletter found)

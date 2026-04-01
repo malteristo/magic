@@ -21,16 +21,16 @@ The desk file describes what *this* specific Turtle is running on.
 
 ```bash
 # Is the Turtle reachable?
-ssh turtle@turtle.local "echo ok"
+ssh turtle@<turtle-ssh> "echo ok"
 
 # What's running?
-ssh turtle@turtle.local "launchctl list | grep -E 'nanoclaw|ollama|caffeinate'"
+ssh turtle@<turtle-ssh> "launchctl list | grep -E 'nanoclaw|ollama|caffeinate'"
 
 # What's in the bridge?
-ssh turtle@turtle.local "ls ~/magic-bridge/commands/ && ls ~/magic-bridge/signals/"
+ssh turtle@<turtle-ssh> "ls ~/magic-bridge/commands/ && ls ~/magic-bridge/signals/"
 
 # Recent task runs (audit trail)
-ssh turtle@turtle.local "sqlite3 ~/nanoclaw/store/messages.db \
+ssh turtle@<turtle-ssh> "sqlite3 ~/nanoclaw/store/messages.db \
   'SELECT task_id, run_at, status, result FROM task_run_logs ORDER BY run_at DESC LIMIT 5;'"
 ```
 
@@ -485,7 +485,7 @@ fi
 
 Crontab: `2-57/5 * * * *` — runs 2 minutes after each 5-minute mark, after the bridge-poll container has had time to write signals.
 
-The Turtle's `~/magic-bridge` needs a `github` remote pointing to `git@github.com:malteristo/magic-bridge.git` with a registered SSH key.
+The Turtle's `~/magic-bridge` needs a `github` remote pointing to the Mage's magic-bridge repository with a registered SSH key.
 
 ---
 
@@ -619,7 +619,7 @@ The Turtle should have a dyad-facing dashboard runnable via SSH. Consul owns bui
 
 **Correct storage location:** `/workspace/group/turtle-dashboard.sh`
 → appears on host at: `~/nanoclaw/groups/consul/turtle-dashboard.sh`
-→ run from Spirit via: `ssh turtle@turtle.local "bash ~/nanoclaw/groups/consul/turtle-dashboard.sh"`
+→ run from Spirit via: `ssh turtle@<turtle-ssh> "bash ~/nanoclaw/groups/consul/turtle-dashboard.sh"`
 
 **How to request a rebuild:** Send a bridge command specifying the `/workspace/group/` path explicitly. Include the antipattern warning so Consul doesn't repeat the mistake.
 
@@ -864,7 +864,7 @@ Send ONE WhatsApp message. Move on to other work. Do NOT retry until next cycle.
 8. SSH daemon can't complete banner exchange under this load
 
 **The diagnosis approach:**
-1. Ping first (reachable?) → yes, 192.168.2.213 responds
+1. Ping first (reachable?) → yes, <turtle-ssh> responds
 2. Port scan (SSH open?) → yes, port 22 open
 3. Verbose SSH → "Connection timed out during banner exchange" = system overloaded
 4. Kermit runs commands locally on the Mac Mini:

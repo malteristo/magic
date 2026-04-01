@@ -314,26 +314,26 @@ Both bots can run simultaneously. They serve different purposes:
 ### Fresh start from Cursor (via SSH)
 
 ```bash
-ssh turtle@100.82.131.75 "pkill -f 'bun server.ts'; pkill -f 'claude --channels'; pkill -f 'claude --dangerously'; sleep 2; export PATH=/Users/turtle/.bun/bin:/opt/homebrew/bin:\$PATH && tmux kill-session -t spirit-deep 2>/dev/null; tmux new-session -d -s spirit-deep 'cd /Users/turtle/turtle-shell && export PATH=/Users/turtle/.bun/bin:/opt/homebrew/bin:\$PATH && claude --dangerously-skip-permissions --channels plugin:discord@claude-plugins-official'" && echo "Launched. Wait 8s, then confirm trust prompt."
+ssh turtle@<turtle-ssh> "pkill -f 'bun server.ts'; pkill -f 'claude --channels'; pkill -f 'claude --dangerously'; sleep 2; export PATH=/Users/turtle/.bun/bin:/opt/homebrew/bin:\$PATH && tmux kill-session -t spirit-deep 2>/dev/null; tmux new-session -d -s spirit-deep 'cd /Users/turtle/turtle-shell && export PATH=/Users/turtle/.bun/bin:/opt/homebrew/bin:\$PATH && claude --dangerously-skip-permissions --channels plugin:discord@claude-plugins-official'" && echo "Launched. Wait 8s, then confirm trust prompt."
 ```
 
 
 ### Confirm trust prompt
 
 ```bash
-ssh turtle@100.82.131.75 "export PATH=/opt/homebrew/bin:\$PATH && tmux send-keys -t spirit-deep Enter"
+ssh turtle@<turtle-ssh> "export PATH=/opt/homebrew/bin:\$PATH && tmux send-keys -t spirit-deep Enter"
 ```
 
 ### Enter pairing code
 
 ```bash
-ssh turtle@100.82.131.75 "export PATH=/opt/homebrew/bin:\$PATH && tmux send-keys -t spirit-deep '/discord:access pair <CODE>' Enter"
+ssh turtle@<turtle-ssh> "export PATH=/opt/homebrew/bin:\$PATH && tmux send-keys -t spirit-deep '/discord:access pair <CODE>' Enter"
 ```
 
 ### Health check
 
 ```bash
-ssh turtle@100.82.131.75 "ps aux | grep 'bun server' | grep -v grep && echo '--- Bot is running ---' || echo '--- Bot is NOT running ---'"
+ssh turtle@<turtle-ssh> "ps aux | grep 'bun server' | grep -v grep && echo '--- Bot is running ---' || echo '--- Bot is NOT running ---'"
 ```
 
 ---

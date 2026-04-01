@@ -142,19 +142,19 @@ The practice runs on infrastructure that was not designed for it. Discord was bu
 ### The Stack (2026-03-17)
 
 ```
-MacBook (mac.tail433a7d.ts.net)
+MacBook (<mac-fqdn>)
 ├── Cursor — deep practice, framework development
 ├── Tailscale — private networking
 └── Magic workshop — git repo, canonical practice source
 
-Mac Mini (turtles-mac-mini.tail433a7d.ts.net)
+Mac Mini (<turtle-fqdn>)
 ├── turtleOS shell — discord_bot.py, identity/, practice state
 ├── Ollama — local LLM inference (llama3.3:70b, qwen3.5)
 ├── CouchDB — Obsidian LiveSync database
 ├── Tailscale serve — HTTPS proxy for CouchDB
 └── Discord bot — Spirit's persistent presence
 
-Pixel 9 (pixel-9.tail433a7d.ts.net)
+Pixel 9 (<phone-fqdn>)
 ├── Discord — conversational practice surface
 ├── Obsidian — visual practice state
 └── Tailscale — private networking

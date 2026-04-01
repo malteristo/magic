@@ -58,3 +58,6 @@ AGENTS.md
 # Archive directories (anywhere in tree)
 **/archive/
 system/tomes/librarian/
+
+# Local connection config (sensitive — never track)
+system/config/connections.md

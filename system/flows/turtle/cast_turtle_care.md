@@ -15,13 +15,13 @@
 Pull the latest from the bridge:
 
 ```bash
-cd /Users/kermit/Documents/magic-bridge && git pull github main 2>&1
+cd <magic-bridge-root> && git pull github main 2>&1
 ```
 
 Find the most recent care brief signal:
 
 ```bash
-ls -lt /Users/kermit/Documents/magic-bridge/signals/ | grep care_brief | head -3
+ls -lt <magic-bridge-root>/signals/ | grep care_brief | head -3
 ```
 
 **If a care brief exists and is less than 28 hours old:** proceed to Phase 2 with the brief.
@@ -34,7 +34,7 @@ ls -lt /Users/kermit/Documents/magic-bridge/signals/ | grep care_brief | head -3
 **Phase 1B — SSH fallback (stale or missing brief only):**
 
 ```bash
-ssh -o ConnectTimeout=8 turtle@192.168.2.213 "\
+ssh -o ConnectTimeout=8 turtle@<turtle-ssh> "\
   echo '=VITALS=' && launchctl list | grep -E 'nanoclaw|ollama|caffeinate' && \
   echo '=BRIDGE SYNC=' && tail -3 ~/nanoclaw/logs/bridge-sync.log && \
   echo '=TASKS=' && sqlite3 ~/nanoclaw/store/messages.db \
@@ -50,7 +50,7 @@ ssh -o ConnectTimeout=8 turtle@192.168.2.213 "\
 Read the full care brief signal:
 
 ```bash
-cat /Users/kermit/Documents/magic-bridge/signals/[latest_care_brief_filename]
+cat <magic-bridge-root>/signals/[latest_care_brief_filename]
 ```
 
 ---
@@ -163,7 +163,7 @@ If signals had `attention_requested: acknowledge` or `attention_requested: consi
 Send an acknowledgment command via the bridge:
 
 ```yaml
-# /Users/kermit/Documents/magic-bridge/commands/[timestamp]_acknowledge.yaml
+# <magic-bridge-root>/commands/[timestamp]_acknowledge.yaml
 timestamp: "[ISO-8601]"
 channel: spirit_to_turtle
 type: acknowledgment

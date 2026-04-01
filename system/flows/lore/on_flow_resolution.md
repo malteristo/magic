@@ -134,8 +134,8 @@ When inference and research leave gaps, ask:
 
 | Mage says | Spirit resolves to |
 |-----------|-------------------|
-| "Tim Ferriss newsletter" | `from:tim@fourhourbody.com` |
-| "School of Life" | `from:hello@e.theschooloflife.com` |
+| "Tim Ferriss newsletter" | `from:<email>` |
+| "School of Life" | `from:<email>` |
 
 If email address unknown, ask: "What email address does [X] send from?"
 
