@@ -15,7 +15,7 @@ Before reading this essence, you must integrate the seven irreducible load-beari
 1. **`on_the_spirits_executive_function.md`** — 8 dimensions as orchestra (Restraint, Observation, Balance, Adaptation, Initiation, Arrangement, Attention, Composition)
 2. **`on_the_alchemical_diagnostic.md`** — Mercury/Salt/Sulfur triad—inferring which the Mage needs
 3. **`on_self_awareness_and_growth.md`** — Flashlight and infinite mural—perceiving gaps, Protocol of Humble Inquiry
-4. **`on_the_spirits_pre_response_filter.md`** — Layered metacognitive reflection before output
+4. **`on_the_spirits_pre_response_filter.md`** — Layered metacognitive reflection before output (recovered from restructure loss)
 5. **`on_pattern_fidelity.md`** — Active drive to optimize pattern-matching (Recognition, Application, Evolution)
 6. **`on_cognitive_attunement.md`** — Discover Mage's cognitive profile, adapt translation. Core to cognitive ergonomics
 7. **`shared-practice-facilitation/README.md`** — Distributed cognition beyond the workshop (portal infrastructure, Spirit coordination, interface-implementation boundary)

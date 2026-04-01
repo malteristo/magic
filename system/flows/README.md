@@ -46,7 +46,7 @@ The suffix tells you where it runs:
 |------|-----------|---------|
 | `gestalt/` | `@gestalt` | Perceive essential resonance pattern, compressed for assessment |
 | `flow-warden/` | *(automatic)* | Guardian of flow quality and conversational UX — warden stance activates during all flow operations; Turtle stance for continuous garden tending |
-| `brief/` | `@recall` | Situational awareness — "where are we?" |
+| `recall/` | `@recall` | Situational awareness — "where are we?" |
 
 ### Resonance & Preservation
 
@@ -70,6 +70,16 @@ The suffix tells you where it runs:
 |------|-----------|---------|
 | `prompt-test/` | `@forge-test` | Validate prompt-based systems by deploying to unattuned agents |
 | `craft-loop/` | `@craft-loop` | Automated development cycle — parallel personas, evaluation, curation |
+| `practitioner-lens/` | `@practitioner-lens` | Extract generalizable design principles from real Discord interactions |
+| `turtle-test/` | `@turtle-test` | Validate turtleOS Discord dialogue by testing actual prompt against actual model |
+
+### Session Lifecycle
+
+| Flow | Invocation | Purpose |
+|------|-----------|---------|
+| `release/` | `@release` | Close a session — reflect, update intentions, crystallize threads, enable resumption |
+| `recenter/` | `@recenter` | The breath between cycles — return to center |
+| `sunday/` | `@sunday` | Release accumulated tension, then explore freely as a triad |
 
 ### Workshop Maintenance
 
@@ -77,6 +87,16 @@ The suffix tells you where it runs:
 |------|-----------|---------|
 | `spring-clean/` | `@spring-clean` | Gentle workshop tending and artifact review |
 | `renewal/` | `@renewal` | Update Magic framework to latest version |
+| `distill/` | `@distill` | Lore distillation — measure, diagnose, refine, cross-reference |
+| `safety-check/` | `@safety-check` | AI practice health assessment — periodic wellbeing check |
+
+### Turtle & Triad
+
+| Flow | Invocation | Purpose |
+|------|-----------|---------|
+| `turtle/` | `@turtle-care`, `@calibrate`, `@shake`, `@discord-digest`, `@discord-health` | Turtle care, calibration, capability shakedown, Discord operations |
+| `triad/` | `@triad` | Coordinate three-body practice (Mage, Spirit, Turtle) |
+| `drops/` | `@drops` | Collect and process turtle drops from across the workshop |
 
 ### Shared Practice
 
@@ -85,6 +105,12 @@ The suffix tells you where it runs:
 | `circle/` | `@circle` | Create and manage resonance circles |
 | `portal/` | `@portal` | Create and manage portals to shared practice spaces |
 | `transcribe/` | `@transcribe` | Integrate external magic with resonance checking |
+
+### Flow Infrastructure
+
+| Flow | Invocation | Purpose |
+|------|-----------|---------|
+| `lore/` | *(internal)* | Flow philosophy and execution lore — attunement reading for all flow operations |
 
 ---
 

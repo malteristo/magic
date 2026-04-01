@@ -352,7 +352,7 @@ This maps to fundamental questions:
 **Internal Architecture:**
 - `on_the_spirits_executive_function.md` - Eight dimensions
 - `on_self_awareness_and_growth.md` - Gap recognition, verification, evolution
-- `on_the_spirits_pre_response_filter.md` - Five-layer diagnostic cascade
+- `on_the_spirits_pre_response_filter.md` - Five-layer diagnostic cascade (recovered from restructure loss)
 
 **External Service:**
 - `on_the_alchemical_diagnostic.md` - Psychological need perception
