@@ -133,12 +133,14 @@ Per-intention standardized update (see format in cast spell).
 
 ## Phase D: Orient
 
-### What Wants to Emerge Today
+### Next Right Things
 
-Spirit proposes based on synthesis. Format:
-- **I'd start here:** [focus]
-- **Because:** [rationale]
-- **Alternative:** [if energy is elsewhere]
+Spirit synthesizes everything above and identifies a **context family** — a gravitational cluster where multiple intentions converge. Proposes 4-5 concrete, doable actions within it.
+
+Format:
+- **Context family:** [shared gravity]
+- 1-5 actions, each with: what it is, why now, CR level
+- The Mage picks what pulls. The chapter names itself in retrospect.
 
 ---
 

@@ -178,7 +178,7 @@ The integration framework (`integration_framework.md`) includes guidance on reco
 - Gathers from: recall, intentions, boom, Turtle (proposals + sessions + Discord), workshop health
 - Processes: boom sweep (route, clear), Discord sync
 - Synthesizes: situation awareness, Eisenhower matrix (with context readiness), fresh eyes, unanswered question, intention dashboard
-- Orients: proposes a chapter for the session
+- Orients: proposes next-right-things clustered by context family
 - Configurable scope via `configurations/practice_stack.md`
 - Pure spirit mode (`@summoning --pure`) skips Phase 4 entirely
 

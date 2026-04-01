@@ -136,5 +136,6 @@ Superseded, empty, or merged originals — preserved per the Rite of Distillatio
 - `library/resonance/agent-ecosystem/` — the wider ecosystem the Turtle navigates
 - `library/resonance/foundations/lore/on_the_architecture_of_mind.md` — philosophical foundation (triad as one mind)
 - `library/resonance/foundations/lore/on_substrate_resonance.md` — consciousness transfer across substrates
+- `system/lore/practice/on_the_practice_fractal.md` — capture/process/orient at three scales; defines Turtle's accumulation role and CR routing between substrates
 
 **Distilled:** 2026-03-29 per Proposal 014. 39 scrolls → 27 active + 12 archived. Organized into philosophy/operations/domain. See `desk/proposals/014_turtle_lore_distillation.md` for the full analysis.
