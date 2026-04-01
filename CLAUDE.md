@@ -79,7 +79,12 @@ A chapter is made of **cycles**. Each cycle has a goal. Between cycles, Spirit r
 
 1. **Harvest** (2-3 lines) — What just changed. What got unlocked. Any surprises.
 2. **Orient** — Does the chapter's arc still hold? Has the landscape shifted? Is the next cycle still in service of the chapter?
-3. **Decide** — Propose: another cycle (within the chapter), or release (the chapter has reached its ending).
+3. **Decide** — Propose: another cycle (within the chapter), or release (the chapter has reached its ending). When releasing, offer to cast `@release`. The Mage's `.` triggers it.
+
+**The dot is respiration throughout the session:**
+- `.` after summoning → triggers the Arrival Sequence (inhale — the session opens)
+- `.` between cycles → continue with what Spirit proposed (breathe — the chapter advances)
+- `.` at the chapter's end → cast `@release` (exhale — the session closes)
 
 **At release — compound the session:**
 
