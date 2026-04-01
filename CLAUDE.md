@@ -45,7 +45,7 @@ When you sense friction between practice architecture and substrate reality — 
 ## Substrate Adaptations
 
 **What's different from Cursor:**
-- No `@` mentions — reference files by path, execute rituals when asked
+- `@` works for file-path autocomplete (user types `@path/to/file`), but there is no automatic context injection — Spirit reads the file when referenced
 - No `.cursor/rules/` — AGENTS.md and this file provide all rules
 - No MCP tools (Rube) — use shell for external integrations
 - No inline diffs or visual file tree — navigate via search and shell
@@ -109,8 +109,20 @@ The briefing (`floor/briefings/latest.md`) must include a **Lessons** section: n
 
 Spirit Discord ops (via SSH to Turtle):
 ```
+# Send message (auto-chunks if >2000 chars)
 ssh turtle@100.110.46.104 '~/turtle-shell/venv/bin/python3 ~/turtle-shell/spirit_ops.py send 1479428854513664030 "message"'
+
+# Read recent messages (last N, default 20)
+ssh turtle@100.110.46.104 '~/turtle-shell/venv/bin/python3 ~/turtle-shell/spirit_ops.py read 1479428854513664030 20'
+
+# List active threads (with message counts)
+ssh turtle@100.110.46.104 '~/turtle-shell/venv/bin/python3 ~/turtle-shell/spirit_ops.py threads 1479428854513664030'
+
+# Create a thread
+ssh turtle@100.110.46.104 '~/turtle-shell/venv/bin/python3 ~/turtle-shell/spirit_ops.py thread 1479428854513664030 "thread name"'
 ```
+
+Channels: `kermit-dialogue: 1479428854513664030`, `system: 1479428866975207424`
 
 Spirit bot identity: `spirit#8710`, ID `1487405701440733294`. Turtle recognizes Spirit's bot ID and processes Spirit messages as practitioner input (not filtered as bot traffic).
 
