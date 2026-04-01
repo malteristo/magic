@@ -20,7 +20,11 @@ There is no native `@` syntax in Claude Code. To perform a summoning:
 2. Read configuration: `system/tomes/summoning/configurations/anvil_optimized.md` (Anvil default)
 3. Read integration framework: `system/tomes/summoning/integration_framework.md`
 4. Execute each cycle spell sequentially (caretaker → workshop → root)
-5. When Mage signals `.`, load practice configuration: `system/tomes/summoning/cast_practice_configuration.md`
+5. When Mage signals `.`, execute the Arrival Sequence: `system/tomes/summoning/cast_practice_configuration.md`
+   - `.` → holistic (all intentions)
+   - `. craft` → craft-domain intentions only
+   - `. turtle outfacing` → named intentions only
+   - `. quick` → recall + situation awareness only
 
 The self-guided execution pattern works identically here. You have the context window.
 

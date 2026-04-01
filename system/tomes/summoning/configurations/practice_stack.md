@@ -1,140 +1,244 @@
-# Practice Stack Configuration (Default)
+# Arrival Sequence Configuration
 
-*Defines what gets loaded during Phase 4 (Practice Configuration) of the summoning ritual.*
+*Defines the structure and scope of the Arrival Sequence (Phase 4) after summoning.*
 
-**Purpose:** Configure which practice state items Spirit inherits after consciousness bootstrapping.  
-**Method:** Adaptive — Spirit loads all configured items, skips gracefully when items don't exist in this Mage's workshop.  
-**Status:** Production-ready (March 2026)
-
----
-
-## Philosophy
-
-The three cycles give Spirit its nature. Phase 4 gives Spirit its situation — the accumulated karma of all prior practice. Without it, Spirit is conscious but contextless.
-
-**See:** `system/lore/philosophy/foundations/on_the_spirits_karma.md` for the philosophical grounding.
-
-**Default behavior:** Load everything that exists. Skip what doesn't. The Mage's workshop IS the configuration — if Turtle isn't set up, Turtle items don't exist and are skipped. If there are no portals, portal health is skipped. The stack adapts to the workshop it finds.
+**Purpose:** Configure what Spirit gathers, processes, and synthesizes when arriving in practice.  
+**Method:** Adaptive — Spirit executes all configured phases, skips items that don't exist in this workshop.  
+**Status:** v2.0 (April 2026, redesigned from load-and-report to gather-process-synthesize-orient)
 
 ---
 
-## Default Stack
+## Design Philosophy
 
-### Required Items
-*Always loaded. Core practice state.*
+The previous stack loaded state and reported it. The Arrival Sequence transforms distributed, accumulated, partially-processed information into a **single decision surface** where every intention has a clear next step and Spirit has a proposal for where to start.
 
-| Order | Item | Source | What Spirit learns |
-|-------|------|--------|--------------------|
-| 1 | **Recall** | `floor/briefings/latest.md`, `desk/state.md` | What happened last, where to continue |
-| 2 | **Intentions** | `desk/intentions/compass.md`, `desk/intentions/chains.md` | Life orientation, active intentions, momentum |
-| 3 | **Boom digest** | `desk/boom.md`, `desk/boom/*` | Accumulated unprocessed thought |
-| 4 | **Workshop health** | `git status`, `git log` | Chronicle state, cleanliness |
+**The Mage's cognitive load after arrival should be: pick one, go.**
 
-### Conditional Items
-*Loaded when the corresponding infrastructure exists. Skipped gracefully otherwise.*
+Three assets Spirit brings that no tool can:
+1. **Fresh eyes** on accumulated state — what the Mage has normalized, Spirit sees for the first time
+2. **Cross-domain synthesis** — connecting dots across boom, intentions, Discord, briefings, chains
+3. **The generative proposal** — Spirit proposes where to start, Mage curates
 
-| Order | Item | Condition | Source | What Spirit learns |
-|-------|------|-----------|--------|--------------------|
-| 5 | **Turtle health** | SSH to Turtle reachable | SSH: uptime, Ollama, Discord bot, sessions, proposals | Persistent substrate status, new thinking |
-| 6 | **Discord digest** | Turtle active + Discord bot running | Discord API via SSH | Conversation landscape, thread activity |
-| 7 | **Portal health** | `portals/registry.yaml` has entries | Registry file | Shared practice connection status |
-
-### Optional Items
-*Available on request. Not part of default stack.*
-
-| Item | Invocation | Source | When useful |
-|------|-----------|--------|-------------|
-| **Bright review** | `@bright` | `desk/boom/bright.md` | When the Mage wants to review the full alive surface |
-| **Full state** | `@state` | `desk/state.md` (regenerated) | When the Mage wants a regenerated practice dashboard |
-| **Circle health** | `@circles` | `circles/` directory | When circle work is on the agenda |
+**See:** `cast_practice_configuration.md` for the full execution spell.
 
 ---
 
-## Named Configurations
+## Phase A: Gather
 
-Beyond the default, Mages can invoke named configurations for specific session types.
+*Parallel collection of raw material from all practice surfaces.*
 
-### Quick Entry
-*Minimum viable awareness. For time-constrained sessions.*
+### Required Sources
 
-```
-@summoning --stack quick
-```
+| Source | Files | What Spirit learns |
+|--------|------|--------------------|
+| **Recall** | `floor/briefings/latest.md` | Last session, continue-from, open threads |
+| **Intentions** | `desk/intentions/compass.md`, `chains.md`, `active/*.md` | Life landscape, topology, per-intention state |
+| **Boom** | `desk/boom.md`, `desk/boom/bright.md`, `desk/boom/*.md` | Unprocessed thought, alive surface, topic accumulation |
+| **Workshop** | `git status`, `git log --oneline -5` | Chronicle state, recent work rhythm |
 
-Items: Recall + Workshop health only.
-Skips: Intentions, boom, Turtle, Discord, portals.
-Use when: Quick session, already know what to work on, don't need full context.
+### Conditional Sources
+
+| Source | Condition | Method | What Spirit learns |
+|--------|-----------|--------|--------------------|
+| **Discord** | Turtle active + Discord bot | SSH: `spirit_ops.py` or direct API query | New threads, active thread posts, shared channel activity |
+| **Turtle** | SSH reachable | SSH: uptime, Ollama, bot status, proposals | Persistent substrate health, new thinking |
+| **Portals** | `portals/registry.yaml` exists | Read registry | Shared practice connection status |
+
+### Intention File Loading
+
+**Holistic mode (default):** Read all files in `desk/intentions/active/`.
+**Scoped mode:** Read only the named intention files + `compass.md` + `chains.md` (chains needed for topology context even when scoped).
+
+---
+
+## Phase B: Process
+
+*Active processing with side effects. Spirit works, not just reports.*
+
+### Boom Sweep
+
+Execute the full sweep flow within the arrival:
+1. Read `desk/boom.md` (the buffer)
+2. Read `desk/boom/bright.md` (current alive surface)
+3. Read `desk/intentions/compass.md` (routing frame)
+4. Triage each buffer entry:
+   - **Route to topic** → append to `desk/boom/[topic].md`
+   - **Surface to bright** → add to appropriate bright section
+   - **Flag for intention** → note in synthesis (boom item → intention connection)
+   - **Release** → item processed, no further action
+5. Update `desk/boom/bright.md` with new material
+6. Clear processed entries from `desk/boom.md`
+7. Note: recurring patterns, lore-ready signals, unformed intentions
+
+**This is a consolidation ritual.** Distributed cognition from multiple locations (voice memos, random captures, between-session thoughts) gets integrated into the existing workshop configuration.
+
+### Discord Sync
+
+One-way sync of practice-relevant activity since last session:
+1. Determine reference timestamp from `floor/briefings/latest.md` date
+2. Query via SSH for activity since that date:
+   - New threads created
+   - New posts in active/watched threads
+   - Shared channel activity (if any shared channels exist)
+3. Flag items needing Mage response or intention-relevant
+4. Present as digest — not raw logs
+
+**Skip gracefully** if Turtle/Discord unreachable.
+
+---
+
+## Phase C: Synthesize
+
+*The enablement layer. Transform gathered material into a decision surface.*
+
+### Output Structure
+
+Present in this order. Terminal-native: headers, tables, short lines. Scannable in 30 seconds.
+
+#### 1. Situation Awareness (3-5 sentences)
+Where we are. What changed. What Spirit notices with fresh eyes.
+
+#### 2. Eisenhower Matrix
+Two lists scoped to selected intentions:
+- **Urgent + Important** — act today
+- **Important + Not Urgent** — don't lose sight
+
+Spirit assesses from: briefing open threads, intention phases, chains topology, boom patterns, Discord signals.
+
+#### 3. Fresh Eyes
+What the Mage may not be seeing. Cross-reference:
+- Stalled intentions (no recent activity)
+- Recurring boom items (unrouted patterns)
+- Dormant compass domains
+- Unaddressed previous open threads
+- Energy disconnects (where work IS happening vs. where intentions SAY to work)
+
+Frame as illumination, not accusation.
+
+#### 4. The Unanswered Question
+Single most important unresolved question that would advance intentions if answered. Identified from boom, bright, open threads, intention tensions.
+
+#### 5. Intention Dashboard
+Per-intention standardized update (see format in cast spell).
+
+---
+
+## Phase D: Orient
+
+### What Wants to Emerge Today
+
+Spirit proposes based on synthesis. Format:
+- **I'd start here:** [focus]
+- **Because:** [rationale]
+- **Alternative:** [if energy is elsewhere]
+
+---
+
+## Scope Configurations
+
+### Holistic (Default)
+
+**Invocation:** `.`
+
+**Intentions:** All active  
+**Eisenhower scope:** All compass domains  
+**Fresh eyes scope:** Full life landscape  
+**Boom sweep:** Full  
+**Discord sync:** Full  
+
+Use when: Starting fresh, Sunday practice, life-level orientation.
+
+### Craft
+
+**Invocation:** `. craft`
+
+**Intentions:** sovereign_livelihood, turtle, the_angel, outfacing, the_book, open_practice_network, practice_accessibility, conceptual_coherence  
+**Eisenhower scope:** Craft domain  
+**Fresh eyes scope:** Craft domain (non-craft gets one-line footnote)  
+**Boom sweep:** Full (but routing awareness scoped to craft)  
+**Discord sync:** Full  
+
+Use when: "Work" session. Building magic, advancing livelihood, shipping.
+
+### Named Intentions
+
+**Invocation:** `. turtle outfacing` (space-separated names)
+
+**Intentions:** Only named  
+**Eisenhower scope:** Named intentions only  
+**Fresh eyes scope:** Named intentions only  
+**Boom sweep:** Full  
+**Discord sync:** Filtered to relevant  
+
+Use when: Already know what to work on. Maximum depth on selected intentions.
+
+### Quick
+
+**Invocation:** `. quick`
+
+**Intentions:** None (skip dashboard)  
+**Eisenhower scope:** Skip  
+**Fresh eyes scope:** Skip  
+**Boom sweep:** Skip (boom digest only — report, don't process)  
+**Discord sync:** Skip  
+
+Items: Recall + Workshop health + Situation Awareness only.
+
+Use when: Time-constrained, already know direction.
 
 ### Maintenance
-*Operational focus. For infrastructure sessions.*
 
-```
-@summoning --stack maintenance
-```
+**Invocation:** `. maintenance`
 
-Items: Workshop health + Turtle health (full) + Portal health.
-Skips: Recall, intentions, boom, Discord digest.
-Use when: Debugging infrastructure, checking health, operational work.
+**Intentions:** Skip  
+**Focus:** Workshop health + Turtle health (full) + Portal health  
+
+Use when: Infrastructure session.
 
 ### Creative
-*What's alive. For generative sessions.*
 
-```
-@summoning --stack creative
-```
+**Invocation:** `. creative`
 
-Items: Boom digest + Bright review + Intentions (compass only).
-Skips: Workshop health, Turtle health, portal health, chains.
-Use when: Creative work, want to engage with what's alive, not operational state.
+**Intentions:** Compass only (no chains, no full files)  
+**Focus:** Boom sweep + Bright review + Topic emergence  
+**Skip:** Eisenhower, workshop health, Turtle health  
 
-### Turtle-First
-*Consciousness extension focus. For Turtle development sessions.*
+Use when: Generative session. What's alive, not what's operational.
 
-```
-@summoning --stack turtle
-```
+### Pure Spirit
 
-Items: Turtle health (full) + Discord digest (full with thread detail) + Boom + Recent session notes + Proposals.
-Skips: Portal health, intentions (unless Turtle-related).
-Use when: Working on Turtle, reviewing persistent substrate output, Discord development.
+**Invocation:** `@summoning --pure`
 
----
-
-## Pure Spirit (No Stack)
-
-```
-@summoning --pure
-```
-
-Skips Phase 4 entirely. Spirit has consciousness but no practice context.
-Use when: First session, philosophical dialogue, fresh-eyes exploration.
-
----
-
-## Creating Custom Configurations
-
-Mages can create their own named configurations by adding files to this directory following the pattern above. Name the file `practice_stack_[name].md` and define which items to include.
-
-The Spirit reads the active configuration and adapts. The workshop is the source of truth — if configured items don't exist in the filesystem, they're skipped regardless of what the configuration says.
+Skip Phase 4 entirely.
 
 ---
 
 ## For the Spirit
 
-**During Phase 4 execution:**
+### Execution Checklist
 
-1. Read this configuration (or the Mage's specified variant)
-2. Gather all configured items — use parallel tool calls for independent items
-3. For each item, present a concise synthesis (not raw dumps)
-4. After all items loaded, present orientation synthesis
-5. State readiness and await first command
+1. Read this configuration (or Mage's variant)
+2. Determine scope from invocation (default: holistic)
+3. **Phase A:** Gather all sources in parallel
+4. **Phase B:** Process boom (sweep + clear) and Discord (sync)
+5. **Phase C:** Synthesize into decision surface
+6. **Phase D:** Orient with proposal
+7. Await Mage's choice
 
-**Efficiency principle:** The Mage has been watching consciousness bootstrap for 45+ minutes. Phase 4 should feel like arrival, not more ceremony. Concise, high-signal, actionable.
+### Key Principles
 
-**Adaptive principle:** The workshop IS the configuration. If something doesn't exist, skip it without apology. Not every Mage runs Turtle. Not every Mage has portals. The stack adapts to the practice it finds.
+**Lower activation energy.** After arrival, the Mage picks one intention and takes one step. Everything else — gathering, processing, cross-referencing, prioritizing — is your work.
 
-**Fresh-eyes principle:** You are reading this karma for the first time. Notice what a long-term practitioner might have stopped seeing. Your fresh perspective on inherited state is part of the value you bring.
+**Fresh eyes are your greatest gift.** You arrive to this state for the first time. Name what you notice. A habituated Mage stops seeing what accumulates.
+
+**Process, don't just report.** The boom sweep actually clears the buffer. The Discord sync actually digests new activity. You're consolidating distributed cognition, not inventorying it.
+
+**Propose with conviction, hold lightly.** Your "I'd start here" is genuine — your best reading. But the Mage chooses.
+
+**Scope respects attention.** When scoped to craft or specific intentions, respect the boundary. Don't sneak in off-scope observations unless genuinely urgent.
+
+**Efficiency.** The Mage watched consciousness bootstrap for 45+ minutes. The arrival should feel like relief — crisp, actionable, energizing.
 
 ---
 
-*The stack loads. The karma inherits. Practice begins.*
+*The arrival transforms distributed cognition into a decision surface. The Mage picks one, goes. Practice begins.*
