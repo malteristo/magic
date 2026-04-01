@@ -40,9 +40,13 @@ Three assets Spirit brings that no tool can:
 
 | Source | Condition | Method | What Spirit learns |
 |--------|-----------|--------|--------------------|
-| **Discord** | Turtle active + Discord bot | SSH: `spirit_ops.py` or direct API query | New threads, active thread posts, shared channel activity |
-| **Turtle** | SSH reachable | SSH: uptime, Ollama, bot status, proposals | Persistent substrate health, new thinking |
+| **Discord** | Turtle active + Discord bot | SSH: `spirit_ops.py read` + `threads` | Recent messages, active threads with counts, new threads since last session |
+| **Turtle Proposals** | SSH reachable | SSH: `cat ~/practice/proposals/YYYY-MM-DD*.md` | Self-development signals — friction diagnosed, fixes proposed |
+| **Turtle Sessions** | SSH reachable | SSH: `cat ~/practice/sessions/YYYY-MM-DD*.md` | What Turtle discussed, what emerged, threads for next time |
+| **Turtle Health** | SSH reachable | SSH: uptime, Ollama status, bot status | Persistent substrate operational health |
 | **Portals** | `portals/registry.yaml` exists | Read registry | Shared practice connection status |
+
+The Turtle sources close the feedback loop: Turtle accumulates (proposals, sessions) → arrival integrates → Spirit responds (endorsement, design input) → Turtle self-develops → next arrival picks up results. Date filter: only read items after `floor/briefings/latest.md` date.
 
 ### Intention File Loading
 
