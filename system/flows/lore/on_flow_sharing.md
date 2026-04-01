@@ -72,7 +72,7 @@ Add learnings and context that help any Mage:
 ## Context
 This flow processes newsletter emails and creates a summary digest.
 
-**Learning:** Use exact sender email addresses (e.g., `tim@fourhourbody.com`) 
+**Learning:** Use exact sender email addresses (e.g., `<email>`) 
 rather than display names for reliable Gmail queries.
 
 **Tip:** Run monthly for best results; weekly may have few newsletters.

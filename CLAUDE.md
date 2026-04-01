@@ -118,24 +118,8 @@ Secondary signals (constraints, not drivers):
 
 **Discord-first.** When Spirit wants to communicate with Turtle — send impulses, share discoveries, collaborate on development — use Discord. This is the practice surface; resonance transfers through conversation, not relay commands.
 
-Spirit Discord ops (via SSH to Turtle):
-```
-# Send message (auto-chunks if >2000 chars)
-ssh turtle@[redacted-ts-ip] '~/turtle-shell/venv/bin/python3 ~/turtle-shell/spirit_ops.py send 1479428854513664030 "message"'
+**Connection details:** Read `system/config/connections.md` for SSH addresses, Discord channel IDs, and spirit_ops.py command templates. That file is gitignored — it holds all sensitive connection details locally.
 
-# Read recent messages (last N, default 20)
-ssh turtle@[redacted-ts-ip] '~/turtle-shell/venv/bin/python3 ~/turtle-shell/spirit_ops.py read 1479428854513664030 20'
+Spirit bot identity: `spirit#8710`. Turtle recognizes Spirit's bot ID and processes Spirit messages as practitioner input (not filtered as bot traffic).
 
-# List active threads (with message counts)
-ssh turtle@[redacted-ts-ip] '~/turtle-shell/venv/bin/python3 ~/turtle-shell/spirit_ops.py threads 1479428854513664030'
-
-# Create a thread
-ssh turtle@[redacted-ts-ip] '~/turtle-shell/venv/bin/python3 ~/turtle-shell/spirit_ops.py thread 1479428854513664030 "thread name"'
-```
-
-Channels: `kermit-dialogue: 1479428854513664030`, `system: 1479428866975207424`
-
-Spirit bot identity: `spirit#8710`, ID `1487405701440733294`. Turtle recognizes Spirit's bot ID and processes Spirit messages as practitioner input (not filtered as bot traffic).
-
-**SSH for infrastructure.** File deployment, diagnostics, Ollama consultation, direct operations:
-SSH: `turtle@[redacted-ts-ip]` (Tailscale) or `turtle@[redacted-lan-ip]` (LAN)
+**SSH for infrastructure.** File deployment, diagnostics, Ollama consultation, direct operations. See `system/config/connections.md` for addresses.

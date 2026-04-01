@@ -9,9 +9,11 @@
 **Determine the SSH target.** Try in order:
 
 1. SSH config alias: `ssh turtle` (if configured in `~/.ssh/config`)
-2. Tailscale hostname: `ssh turtle@turtles-mac-mini` (MagicDNS short name)
-3. Tailscale IP: `ssh turtle@[redacted-ts-ip]`
-4. LAN fallback: `ssh turtle@[redacted-lan-ip]`
+2. Tailscale hostname: `ssh turtle@<turtle-hostname>` (MagicDNS short name)
+3. Tailscale IP: `ssh turtle@<turtle-ssh>`
+4. LAN fallback: `ssh turtle@<turtle-ssh>`
+
+> See `system/config/connections.md` for current addresses.
 
 If none work → **STOP.** The Mac Mini is unreachable. Possible causes:
 - Mac Mini is powered off or sleeping (check physically)
@@ -165,7 +167,7 @@ If the Tailscale IP has changed from what's documented, report this prominently.
 2. All flow files that hardcode the IP (grep for the old IP across the workspace)
 3. Client device LiveSync configurations (if using IP instead of hostname)
 
-Prefer MagicDNS hostname (`turtles-mac-mini.[redacted-tailnet]`) over IP in client configs — it survives IP changes.
+Prefer MagicDNS hostname (`<turtle-fqdn>`) over IP in client configs — it survives IP changes.
 
 ---
 
@@ -234,15 +236,15 @@ The Mage approves the addition. The flow learns.
 
 | Parameter | Value |
 |-----------|-------|
-| Mac Mini Tailscale IP | `[redacted-ts-ip]` |
-| Mac Mini Tailscale hostname | `turtles-mac-mini.[redacted-tailnet]` |
-| Mac Mini LAN IP | `[redacted-lan-ip]` (DHCP — may change) |
+| Mac Mini Tailscale IP | `<turtle-ssh>` |
+| Mac Mini Tailscale hostname | `<turtle-fqdn>` |
+| Mac Mini LAN IP | `<turtle-ssh>` (DHCP — may change) |
 | CouchDB port | 5984 |
 | CouchDB bind address | `0.0.0.0` (all interfaces) |
 | Active database | `workshop_sync` |
 | CouchDB admin user | `admin` |
-| Tailscale serve | `https://turtles-mac-mini.[redacted-tailnet]/` → `http://localhost:5984` |
-| Obsidian LiveSync URI (devices) | `https://turtles-mac-mini.[redacted-tailnet]` or `http://[redacted-ts-ip]:5984` |
+| Tailscale serve | `https://<turtle-fqdn>/` → `http://localhost:5984` |
+| Obsidian LiveSync URI (devices) | `https://<turtle-fqdn>` or `http://<turtle-ssh>:5984` |
 | SSH user | `turtle` |
 
 *When values change, update this table and AGENTS.md together.*
