@@ -4,7 +4,7 @@
 **Priority**: Primary  
 **Phase**: Implementation — spec evolves alongside building  
 **Started**: 2026-01-31  
-**Last Updated**: 2026-04-02 (Anvil session 7: Proposal 016 (Discord bot as nervous system) endorsed + first implementation committed — !threads dual-output, two noise sources silenced. Proposal 015 endorsed. Nesrine PX research eddy created. TTS path identified: Qwen3-TTS-MLX + audio-as-attachment. Opus-distilled reflection model noted. Bot restarted with changes live.)
+**Last Updated**: 2026-04-02 (Anvil session 10: thread auto-add deployed — practitioners auto-added to Discord threads on creation. 016 reroutes complete — recall/sync silence-when-healthy, dissolve noise internal. Ollama upgraded 0.18.0→0.19.0. Gemma 4 scouted, deferred until Ollama support lands.)
 **Serves**: open_practice_network → sovereign_livelihood → Family + Craft  
 **Unlocks**: Persistent presence, OPN first node, Ensemble Layer, practitioner onboarding (Population 2)
 
@@ -26,9 +26,9 @@ Three substrates, one mind. See: `library/resonance/turtle/lore/philosophy/on_co
 
 **Turtle Infrastructure** — the persistent substrate. Mac Mini M4 Pro running 24/7 with Discord as the conversational surface, Obsidian LiveSync for practice-state-anywhere, and SSH for cross-substrate communication.
 
-**Current focus**: tOS quality pass complete — 6 system.md gaps closed, README restructured. Practice fractal lore crystallized (CPO at 3 scales, triad distribution, CR routing). Feedback loop operational. Self-development protocol producing at ~2/day cadence.
-**Next action**: 016 nervous system rollout continues — Turtle writing embed classification supplement, next: dual-output on !boom and !bright. TTS prototype: install Qwen3-TTS-MLX, wire audio attachment for Nesrine. Monitor Nesrine PX eddy responses. Observe: Turtle self-development on endorsed proposals, first autonomous tweet.
-**Blockers**: None active.
+**Current focus**: Thread auto-add and 016 reroutes deployed. Nervous system architecture maturing — bot surfaces less noise, practitioners get auto-added to threads. Ollama 0.19.0 ready for Gemma 4 when Ollama pre-release catches up.
+**Next action**: Gemma 4 model evaluation (when Ollama supports it — replace qwen3.5 4b+9b with gemma4:26b MoE). TTS prototype: install Qwen3-TTS-MLX, wire audio attachment for Nesrine. Monitor Nesrine PX eddy responses. Observe: Turtle self-development, first autonomous tweet.
+**Blockers**: Gemma 4 requires Ollama pre-release (>0.19.0). Not blocking — deferral.
 
 ---
 

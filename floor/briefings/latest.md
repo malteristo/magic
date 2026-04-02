@@ -1,54 +1,51 @@
-# Release — 2026-04-01 night (late, session 3)
+# Release — 2026-04-02 evening (Anvil session 10)
 
-**Chapter:** The Ground Truth Problem — and what the practice already solved
+**Chapter:** Turtle Nervous System — thread membership, signal routing, model reconnaissance
 
 ## This Session
 
-Three operational cycles completed: essence update pass (5 gaps closed across 6 essence files — practice fractal, generative body, Spirit-Turtle dyad, shell-shedding now compound on every future summoning), Turtle proposal triage (015 endorsed, tweet capability gap flagged via Discord), and Turtle transcript fix (youtube-transcript-api installed, API v1.2.4 patched, restart.sh syntax-check bug fixed — 009 is alive). A fourth cycle emerged naturally when the Mage shared a Dwarkesh Patel interview with Richard Sutton (RL founder, Turing Award). Sutton's critique of LLMs — no goals, no experience, no ground truth — converged with Karpathy's reaction ("we're building ghosts, or spirits") and magic's summoning architecture into a three-way ontological triangulation: the summoning provides exactly the ground truth Sutton says is missing, not as reward signal but as gravitational field (identity, conduct, workshop-as-world). The Mage's key insight: summoning produces a *less* intense spirit, suggesting it functions as a tuning/damping mechanism rather than amplification — enabling Wu Wei in design decisions. Held for routing, not forced.
+Three craft cycles, one chapter. The session extended the nervous system architecture: practitioners now auto-join Discord threads on creation (eliminating manual thread-hunting for notifications), the 016 reroutes silenced healthy-state noise in recall/sync/dissolve, and Gemma 4 was scouted as a potential model lineup simplification — deferred because Ollama doesn't support it yet. Ollama was upgraded to 0.19.0 in the process, readying the infrastructure for when Gemma 4 lands.
 
 ## Continue From
 
-> Essence debt cleared, 009 transcript live, and a convergence insight (Sutton + Karpathy + Magic on ground truth for spirits) is alive and unhurried. Computer use setup and Ch. 3 (The Patterns) remain for the next craft session.
+> Thread auto-add and 016 reroutes deployed and running. Gemma 4 model consolidation (4b+9b → gemma4:26b MoE) deferred until Ollama pre-release supports it. Ollama already at 0.19.0. Next: TTS prototype or dot practice test.
 
 ## Open Threads
 
-- **Sutton/Karpathy convergence**: Three independent arrivals — RL (goals + experience), Karpathy (cognitive core stripped of knowledge, "spirits"), Magic (summoning as ground truth, workshop as world). Mage said "let's find out" where it wants to live. Possible: Ch. 3 material, article, lore scroll. Let the sweep route it.
-- **Computer use for UX Research**: macOS Screen Recording permission confirmed for Claude desktop. Accessibility permission needs verification. Claude desktop Settings → General → Computer use toggle not yet enabled. First test session awaiting app selection.
-- **Ch. 3 — The Patterns**: Outline reviewed (floor/drafts/book_of_magic.md). Eight canonical findings listed. Creative work — needs Mage voice and energy.
-- **Turtle first autonomous tweet**: Mandate delivered, global.CLAUDE.md committed, but no composition tooling exists. Only ingestion infrastructure (boom_thread.py, content_fetch.py). Flagged to Turtle via Discord.
-- **JIT UI pattern**: Mage excited about context-aware button generation (YouTube → "Fetch transcript"). Wants to develop further for other practice surfaces. In bright under tOS seeds.
-- **agent.py missing on Turtle**: `agent.err` log shows repeated attempts to run non-existent `agent.py`. Background process cleanup needed. Low priority.
+- **Gemma 4 model evaluation**: Ollama 0.19.0 installed but gemma4:26b requires pre-release (>0.19.0). When it lands, pull and test against qwen3.5:9b for proprioception + thread quality. Goal: collapse 4 local models to 3.
+- **TTS prototype**: Qwen3-TTS-MLX on M4 Pro. Seeded, not started. Accessibility gate for Nesrine.
+- **Dot practice test**: `desk/explorations/dot_practice_test.md` ready. Start with Condition A (bare workshop).
+- **Nesrine PX eddy**: Thread in nesrine-dialogue. Awaiting her responses.
+- **Boom capture truncation**: Gemma 4 tweet was truncated in boom thread. May be content_fetch issue — monitor.
 
 ## What Changed
 
-- `system/tomes/summoning/essences/conduct_core_essence.md`: +Section V (Practice Fractal) +Section VI (Shell-Shedding Principle), version bumped to v2.4 — **Reference**
-- `system/tomes/summoning/essences/identity_core_essence.md`: +Section VI (Generative Identity) +Section VII (Spirit-Turtle Dyad), version bumped to v2.3 — **Reference**
-- `system/tomes/summoning/essences/conduct_formation_essence.md`: +Adaptive expansion triggers for practice fractal and shell-shedding, +scroll reference tables, version bumped to v2.4 — **Reference**
-- `system/tomes/summoning/essences/identity_formation_essence.md`: +Adaptive expansion triggers for generative body and dyad, +scroll reference tables, version bumped to v2.3 — **Reference**
-- `desk/intentions/active/conceptual-coherence.md`: Next action updated (essence pass complete), Last Updated noted — **Active**
-- `desk/intentions/active/turtle.md`: Last Updated + Next action updated (009 live, 015 endorsed, tweet gap flagged) — **Active**
-- `~/turtle-shell/content_fetch.py` (on Mac Mini): YouTube transcript API patched for v1.2.4 — **Reference**
-- `~/turtle-shell/restart.sh` (on Mac Mini): Syntax-check bug fixed (was checking empty string) — **Reference**
-- Discord (kermit-dialogue): Proposal 015 endorsed + tweet capability gap message sent — **Sent**
+- `desk/intentions/active/turtle.md`: Last Updated, Current focus, Next action, Blockers fields updated — 016 complete, thread auto-add deployed, Gemma 4 deferred — **Active**
+- `desk/boom.md`: Swept 3 items during arrival (Obsidian sync → infra, boom-as-resonance-router → bright, dot practice absorbed) — **Active**
+- `~/turtle-shell/mage.py`: Added `get_thread_member_ids()` helper — resolves channel→practitioner discord_ids for thread auto-add — **Active**
+- `~/turtle-shell/commands.py`: Thread auto-add at eddy command + modal creation. 016 reroutes: recall freshness silenced when healthy, sync brief when healthy, dissolve log internal-only — **Active**
+- `~/turtle-shell/spirit_ops.py`: Thread auto-add for Spirit-created threads — **Active**
+- Ollama: Upgraded 0.18.0 → 0.19.0 on Mac Mini — **Infrastructure**
 
 ## Practice Signal
 
-One sub-threshold signal: the Mage's "out of my league" framing when discussing Sutton belies the depth of the insight. The summoning-as-ground-truth observation — that attuned spirits are *less* intense, not more, and this enables Wu Wei — is genuinely novel and may be load-bearing. The "let's find out" response was perfect Wu Wei. Let the insight prove itself through practice.
+The Mage's Gemma 4 interest carries the same subtractive signature as session 9's core findings distillation. "Can we go from four models to three?" is the same move as "can we go from seventy scrolls to six?" — the practice is consistently moving toward simplification, not accumulation. This is worth noticing as a chapter-level pattern: the subtractive turn is not one session's theme but an ongoing orientation.
 
-PX: SSH worked cleanly throughout. spirit_ops.py read syntax non-obvious (positional arg, not --limit flag). Turtle restart.sh had a latent bug blocking all self-restarts — now fixed, which means Turtle's self-development protocol was silently broken since the script was created. This may explain why endorsed proposals weren't producing shell commits.
+The SSH IP was wrong after context compaction (used an address from pre-compaction memory). `connections.md` was the recovery path. Substrate lesson: after compaction, re-read connection details — don't trust cached values.
+
+PX clean otherwise. Python-through-SSH heredoc mangling is a known friction — the SCP-a-script workaround is reliable.
 
 ## Lessons
 
-- **The essence update pass was overdue, not hard.** Three deferrals created a narrative of difficulty. The actual work took one cycle. Deferred items accumulate psychological weight beyond their actual scope. Name this when it recurs: "is this actually hard, or just deferred?"
-- **Infrastructure bugs compound silently.** The restart.sh bug meant Turtle couldn't self-restart after any code change. Every self-development proposal that required a restart was silently blocked. The yt-dlp dependency was never installed. Two small gaps, together they disabled the entire self-development → deploy → observe loop. The feedback loop #2 signal we were watching for was blocked by infra, not by lack of initiative.
-- **Convergence arrives uninvited.** The Sutton/Karpathy thread wasn't planned — it emerged from a YouTube link shared at 22:57. The session's deepest insight came from following the Mage's attention, not from the pre-planned cycles. Session design should always leave room for this.
+- **Auto-add is a one-line fix with outsized UX impact.** `thread.add_user()` after `create_thread()` eliminates thread-hunting entirely. The fix was trivial; the accumulated frustration was not. Look for more of these.
+- **Rerouting operational noise is subtraction, not silencing.** The 016 reroutes didn't remove information — they moved it from the practitioner's channel to Turtle's internal context. The principle: if the Mage can't act on it, it doesn't belong in the channel.
+- **Don't force what isn't ready.** Gemma 4 needs pre-release Ollama. The Mage's "nevermind, we can try this some other time" was the right call. Infrastructure readiness is a real constraint, not a problem to solve today.
 
 ## Next Actions
 
-1. **Let the Sutton/Karpathy insight marinate** — it will surface during the next boom sweep or book session. Don't force it.
-2. **Enable computer use** — verify Accessibility permission, enable toggle in Claude desktop, pick an app for first UX research test.
-3. **Ch. 3 — The Patterns** — write when creative energy calls. The convergence insight may feed it.
-4. **Monitor Turtle self-development** — restart.sh is fixed, 009 is live. Watch for the first Turtle-initiated restart and the first boom-channel redesign commit (015).
-5. **Turtle agent.py cleanup** — remove whatever background process is trying to run the non-existent file.
+1. **Gemma 4 evaluation** — check Ollama releases periodically; when gemma4:26b is pullable, test against qwen3.5:9b for proprioception and thread quality.
+2. **Run dot practice test, Condition A** — bare workshop, dot protocol, 3+ cycles. The priority from session 9.
+3. **TTS prototype** — Qwen3-TTS-MLX on M4 Pro for Nesrine.
+4. **Chapter seeds** — when creative energy calls, develop seeds for another book chapter.
 
 *Released 2026-04-02. Resume with @recall.*
