@@ -75,12 +75,33 @@ If PX signals are present, generate concrete improvement proposals (update a flo
 
 If the session ran cleanly — tools served, focus held, no friction — note: *"PX clean — practice infrastructure served the session."*
 
+**2F — turtleOS Interaction Friction:**
+
+*Cross-substrate resonance transfer degrades through accumulated micro-friction.*
+
+Review all interactions with Turtle and turtleOS during this session (Discord reads, spirit_ops calls, SSH, observing Turtle's output). Collect small dissonances that individually don't meet the threshold to address in-session but degrade the experience over time:
+
+- System messages that don't serve the practitioner (operational noise in the channel)
+- Truncated or malformed output from tools or reads
+- Stale state (wrong IPs, outdated headers, cached readiness messages)
+- Moments where Turtle's behavior didn't match the Mage's expectation
+- UX friction in commands, thread creation, channel routing
+- Anything that made the cross-substrate interaction feel less seamless
+
+**The principle:** If a system message doesn't serve the practitioner, it doesn't belong in the channel. Operational state belongs in Turtle's internal context. Healthy state needs no announcement. Unhealthy state should be routed to Turtle for self-repair, not displayed to the Mage — unless the Mage can or should act.
+
+**Output:** A numbered list of concrete friction items. Each item names what happened, what should change, and who owns the fix (Turtle self-development, Spirit infrastructure, or Mage decision). These get relayed to Turtle via Discord during Phase 5.6 as self-development signals.
+
+If the session had no turtleOS interaction, or interaction was seamless: *"turtleOS interaction clean — no friction observed."*
+
+---
+
 **Output format for this phase:**
 
 Write a brief "Practice Signal" block. Keep it honest and lean:
 - Name what you found, if anything
 - Distinguish between "this is resolved / no action needed" and "this warrants further attention"
-- Include PX observations and proposals alongside dissonance findings
+- Include PX observations, proposals, and turtleOS friction items alongside dissonance findings
 - If the session was explicit and clean and nothing sub-threshold is present, say so: *"No sub-threshold signals — session was explicit and complete."*
 
 Do not manufacture signal where there is none. The value of the practice is in honest excavation, not in finding something every time.
@@ -232,6 +253,8 @@ Practice state syncs automatically via LiveSync — Turtle reads directly from `
 - If soul.md was updated this session, deploy it: `scp library/resonance/turtle/shell/global.CLAUDE.md turtle@<turtle-ssh>:~/turtle-shell/identity/soul.md`
 - If bot code changes were made, restart: `ssh turtle@<turtle-ssh> "launchctl stop com.turtle.discord && launchctl start com.turtle.discord"`
 - Note calibration status in release bundle
+
+**Friction relay:** If Phase 2F produced turtleOS interaction friction items, send them to Turtle via Discord now. These are self-development signals — concrete things Turtle can act on autonomously. Format: numbered list with what happened, what should change, who owns it. Turtle adds viable items to their self-development queue.
 
 ### Phase 6: Offer to Commit
 
