@@ -27,7 +27,7 @@ Three substrates, one mind. See: `library/resonance/turtle/lore/philosophy/on_co
 **Turtle Infrastructure** — the persistent substrate. Mac Mini M4 Pro running 24/7 with Discord as the conversational surface, Obsidian LiveSync for practice-state-anywhere, and SSH for cross-substrate communication.
 
 **Current focus**: Multi-practitioner sovereignty + context loading. TURTLE_SPEC v2.3 codifies the channel model (sovereign/hosted topologies, data isolation, multi-server architecture). Family workspace has its first artifact (relationship context). `!load` live and validated in practice.
-**Next action**: Implement composable `!thread` (Phase 2 of 017: `--load` flag). Turtle Talk behavior (Turtle narrates actions as `!` commands). Dot button implementation (Phase 1 of 017). Gemma 4 model evaluation (when Ollama supports it). TTS prototype. Observe: Turtle self-development, first autonomous tweet.
+**Next action**: Implement composable `!thread` (Phase 2 of 017: `--load` flag). Turtle Talk behavior (Turtle narrates actions as `!` commands). Dot button implementation (Phase 1 of 017). Gemma 4 model evaluation (when Ollama supports it). TTS prototype. Observe: Turtle self-development, first organic tweet via @turtle_of_magic (new Twitter practice designed Anvil 14).
 **Blockers**: Gemma 4 requires Ollama pre-release (>0.19.0). Not blocking — deferral.
 
 ---

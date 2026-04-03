@@ -46,6 +46,8 @@
 
 **Multi-mage vision** — Turtle-to-Turtle organic discovery (like animals in the wild). P2P messaging (synchronized threads). Family HQ (shared channels, Turtle curation). Multi-server turtleOS: Discord server = circle boundary, invitation = access control. For later — family practice proves the pattern first.
 
+**Sovereign turtleOS on any laptop** — (2026-04-03) Nesrine's MacBook Air M2 16GB can run a full turtleOS node: triage (0.8b) + proprioceptor (9b) + Claude API for conversation. A mage becomes self-sufficient with just their laptop + phone + API key. That's the Pop 2 onboarding story: "You already have everything you need." More compute = buy local hardware or trusted VPS. The laptop IS the sovereignty boundary. Shared practice (family, circles) gets its own Discord server — both Turtles join, nobody hosts, the circle holds sovereignty collectively. Hosted channels remain viable for lightweight shared spaces where one person is the natural host. Two topologies for shared practice: hosted channel (lightweight, delegated sovereignty) vs dedicated server (collective sovereignty, right when the circle has its own identity — e.g. family with kids joining).
+
 **Circle/portal abstraction principle** — "Name a practice, name the people, Spirit connects them." Target abstraction.
 
 **Practice for everything / exchanging what works** — Magic as platform for "exchanging what works." Share patterns, converge wisdom. Connects to OPN, Ostrom.

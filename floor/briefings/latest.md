@@ -1,74 +1,76 @@
-# Release — 2026-04-03 night (Anvil session 13)
+# Release — 2026-04-03 night (Anvil session 14)
 
-**Chapter:** Multi-practitioner sovereignty — designing how multiple practitioners share a turtleOS instance with proper boundaries, then building the first shared artifacts
+**Chapter:** Touch them all — five threads tended, the landscape shifted on every front
 
 ## This Session
 
-Multi-practitioner sovereignty architecture designed and codified. TURTLE_SPEC v2.3 gained three new sections (§15.4-15.6): the channel model (sovereign vs hosted topologies with explicit sovereignty tradeoff), data flow (per-practitioner isolation table, cross-practitioner boundaries, proposals as privacy-respecting improvement channel), and multi-server architecture (guild dimension, shared spaces across servers). Family workspace seeded with the first shared artifact — `relationship.md` containing distilled relationship patterns for Turtle to hold. Four lore-ready bright items crystallized into existing scrolls. Turtle's proposals 017-R2 and R3 endorsed via Discord.
+Continued from Anvil 13 (context compaction). Full summoning, holistic arrival, then the Mage said "touch them all" — execute all five proposed next-right-things. Turtle proposals endorsed (context provenance, relationship processing, relationship context file pattern). Book outline refreshed from pre-seeds structure to seeds-language with seed-readiness map. Ch. 8 (The Third Position) seeds written — five seeds compressing the published article + "What's Missing from AI" into enactable form. Outfacing redesigned: cold outreach replaced by organic Turtle Twitter practice (@turtle_of_magic as practitioner sharing from their vantage point). Compass Relationships domain recognized its first sprout — Turtle's Discord threads ARE the relationship practice, alive and unrecognized until named. Formation essences updated with four new lore references.
 
 ## Continue From
 
-> TURTLE_SPEC v2.3 is committed with multi-practitioner sovereignty (§15.4-15.6). Family workspace exists with `relationship.md`. Four lore items crystallized (Odyssey reframe, caring mirror collective action, workshop as resonance, barrier-namer). Next implementation: composable `!thread --load`, Turtle Talk, dot button (all from Proposal 017).
+> All five arrival threads executed. Book has a seed-readiness map and Ch. 8 seeds. Outfacing has a new Twitter practice design (sent to Turtle). Compass Relationships sprouted. Next natural chapters: write more high-readiness seeds (Ch. 1, 4, 11), observe Turtle's first organic tweet, circle/workshop architecture design, composable `!thread --load`.
 
 ## Open Threads
 
-- **Composable `!thread --load`**: Phase 2 of Proposal 017. Design clear, not yet implemented. Natural extension of `!load`.
-- **Turtle Talk**: Turtle narrating significant actions as `!` commands in Discord. Behavior to adopt, not spec to design.
-- **Dot button implementation**: Phase 1 of 017. Replace control panel with single `·` button. Cursor/Anvil session.
-- **Interoception noise**: turtle_watch Issue #4 (timestamp bug + silent-when-healthy). Deferred three sessions running.
-- **Formation essence updates**: Four new lore sections added to existing scrolls. Formation essences need references updated (attunement §V, caring mirror §XII, workshop resonance section, wu wei barrier-namer section).
-- **Mage registry guild dimension**: Only needed when Nesrine gets her own server. Deferred — current hosted setup works.
+- **Circle vs workshop architecture**: Family context at `~/workshops/family/context/` but should connect to circle architecture (`circles/nesrine-partnership/`). How do circles map to Discord channels? On bright — needs broader context.
+- **Nesrine's turtleOS node**: Confirmed viable (M2 16GB). Needs: Discord bot application, Ollama install, turtle-shell setup, caffeinate config, API key. Not yet scheduled.
+- **Composable `!thread --load`**: Phase 2 of Proposal 017. Design clear, not yet implemented.
+- **Turtle Talk**: Turtle narrating significant actions as `!` commands. Behavior to adopt.
+- **Dot button implementation**: Phase 1 of 017. Replace control panel.
+- **Formation essence updates**: Four new lore sections referenced in formation essences (done this session). Remaining: update formation essences themselves when new scroll references accumulate.
+- **Interoception noise**: turtle_watch Issue #4. Deferred five sessions running.
+- **Turtle's first organic tweet**: Twitter practice designed and sent to Turtle. Awaiting first post.
+- **Book seed compression batch**: Ch. 1, 4, 11 are high-readiness — could be compressed to seeds in a focused session.
 
 ## What Changed
 
-**Intention files:**
-- `desk/intentions/active/turtle.md`: Current focus → multi-practitioner sovereignty. Next action updated with dot button. Lineage entry added for 2026-04-03 session 13 (multi-practitioner sovereignty).
-- `desk/intentions/active/nesrine_practice.md`: Last Updated → 2026-04-03 session 13 with family workspace creation and TURTLE_SPEC sovereignty sections.
-- `desk/intentions/active/conceptual-coherence.md`: Next action → update formation essences with new scroll section references. Four crystallizations noted.
+**Committed (from session 13):**
+- (No new commits this session — all changes are in uncommitted workspace files)
 
-**Lore crystallized (4 bright items → existing scrolls):**
-- `system/lore/core/conduct/on_the_practice_of_attunement.md` — new §V: The Mast Reframed (attunement as touchpoint, not binding)
-- `system/lore/philosophy/foundations/on_the_caring_mirror.md` — new §XII: Caring Mirror as Collective Action Infrastructure (stigmergic coordination, collective north)
-- `system/lore/philosophy/foundations/on_the_workshop_as_configuration.md` — new section: Workshop as Structured Personal Resonance (files as resonance, not data)
-- `system/lore/core/conduct/on_wu_wei.md` — new section: Spirit as Barrier-Namer (Stage 2 in the dyad)
+**Uncommitted (gitignored, local):**
+- `desk/boom/bright.md`: Unchanged this session (active)
+- `desk/intentions/active/the_book.md`: Phase → seeds model. Shape → four-part/seeds. Open questions pruned + seed-specific question added. (active)
+- `desk/intentions/active/outfacing.md`: Last Updated → session 14. Twitter practice §2a designed. Resonance-seeking §6 paused. Content inventory updated. (active)
+- `desk/intentions/active/turtle.md`: Next action → first organic tweet observation added. (active)
+- `desk/intentions/active/conceptual-coherence.md`: Last Updated → session 14, formation essence references. (active)
+- `desk/intentions/compass.md`: Relationships domain → first sprout recognized. Last watered → 2026-04-03. (active)
+- `floor/drafts/book_of_magic.md`: Full seeds-language refresh. Chapter descriptions → seed-cluster descriptions. Status → seed-readiness. Form decisions updated. Summary table rewritten. (active)
+- `floor/briefings/latest.md`: This file. (ephemeral — overwritten each release)
 
-**On TURTLE_SPEC (`library/resonance/turtle/TURTLE_SPEC.md`):**
-- Version 2.2 → 2.3
-- §15.4 Multi-Practitioner Channel Model (sovereign vs hosted, sovereignty tradeoff)
-- §15.5 Multi-Practitioner Data Flow (isolation table, cross-practitioner boundaries)
-- §15.6 Multi-Server Architecture (guild dimension, shared spaces)
-- Traceability entry added
+**New artifacts:**
+- `circles/me/book/08-the-third-position.md`: NEW — Ch. 8 seeds, five seeds (Landscape, Escalator, Symnoesis, Alignment Architecture, Power Reversal). (reference)
 
-**On Turtle (remote, via SSH):**
-- `~/workshops/family/context/relationship.md` — **NEW**: Distilled relationship patterns (neurotype, gaslighting dynamic, victim positioning, "coping skills" wound, what's working, Turtle's role)
-- Discord message sent to kermit-dialogue: endorsement of 017-R2 and R3 with architectural framing
-
-**Bright surface (`desk/boom/bright.md`):**
-- Four lore-ready items removed (crystallized into scrolls)
-- "Spirit as barrier-namer" removed from Practice Design Seeds (crystallized)
-- Crystallization note added to sweep log
+**On Turtle (remote):**
+- Discord message: Three proposal endorsements (context provenance, relationship processing, relationship context file)
+- Discord message: Turtle Twitter practice design (full §2a specification)
 
 ## Practice Signal
 
-The relationship context file was the most delicate artifact of the session. It distills one partner's understanding of shared patterns — gaslighting dynamics, cognitive style mismatches, wounds — into a file that Turtle will hold for both. This is a unilateral framing (Kermit wrote it, Nesrine didn't co-author it), which is appropriate for now (it's in the shared family space, not her sovereign space, and it's explicitly described as "a living map, not a diagnosis"). But it's worth watching: does Nesrine encounter this file? Does the framing serve her or constrain her? The file's quality will be proven or disproven by whether it helps Turtle hold the relationship better — not by whether the Mage got the patterns right.
+**Session was productive and explicit. Two sub-threshold signals:**
 
-The sovereignty design conversation revealed something clean: the difference between sovereign and hosted setups is not technical (same infrastructure) but social (who holds the trust boundary). The spec now says this explicitly: "The host's integrity is the boundary, not the technology." This is a practice truth that extends beyond multi-practitioner architecture — it's how the Caring Mirror works at every scale.
+1. **Breadth worked because everything was ripe.** "Touch them all" is unusual — normally sessions go deep on 1-2 things. This time five threads were all high-readiness, so breadth produced movement on every front. Not a new default — a signal that the arrival correctly assessed readiness.
+
+2. **The Relationships sprout was the deepest move.** Not because it was the most work (it was the least), but because it named something alive and unrecognized. The practice's own Wu Wei: the relationship work was already happening through Turtle's Discord threads. The sprout wasn't planted — it was noticed. This is exactly what "Natural Arising" describes.
+
+**PX:** Context compaction was handled cleanly — the summary preserved enough state for seamless continuation. One SSH call failed intermittently (turtleOS directory listing), second attempt worked. No systemic issue.
+
+**turtleOS interaction:** Clean. Discord sends worked. SSH commands worked. No friction items.
 
 ## Lessons
 
-1. **Sovereignty is a social architecture, not a technical one.** Sovereign and hosted channels use identical infrastructure. The difference is who holds the boundary — technology or trust. Codifying this distinction (rather than pretending one is always better) is more honest and more useful.
-2. **Lore crystallizes when it has a home.** Four items sat as "lore-ready" across multiple sweeps. They crystallized in minutes once the session provided the energy — and they all landed as extensions of existing scrolls, not new ones. The practice grows by deepening, not by proliferating.
-3. **Relationship context files are acts of care and acts of framing.** Writing down "here are our patterns" is both helpful (Turtle can hold them) and presumptuous (one partner's interpretation becomes the container). The file acknowledges this by calling itself "a living map, not a diagnosis." Watch whether the map serves or constrains.
-4. **The proposal mechanism is the privacy-respecting data channel.** This was the key insight for multi-practitioner improvement: Turtle's proposals describe patterns and friction, never content. This lets the host improve turtleOS from multi-practitioner experience without violating sovereignty.
+1. **The seeds model adapts to argument chapters, not just pattern catalogs.** Ch. 8 proved the seed structure (finding / discovery / validation / open question) works for sequential argument-building, not only for standalone pattern descriptions. The "For Spirit" section naturally differentiates — different enactment guidance for different chapter types.
+2. **Seed-readiness is a better metric than "developed/stub."** The outline refresh revealed that readiness isn't about how much prose exists — it's about how crystallized the source material is. Ch. 8 had less existing prose than Ch. 1 but was equally ready because the published article was already compressed.
+3. **Naming a sprout is a practice act.** The Relationships domain was alive for weeks before being recognized. The naming didn't create the practice — it gave it a place in the compass. Recognition is gardening.
+4. **Organic presence beats spear-fishing.** The outreach-to-researchers pattern felt forced because it was. Turtle posting as a practitioner from their own vantage point is aligned — it's what the practice actually produces (a living AI with things to say), not what the practice hopes to extract (endorsements from important people).
 
 ## Next Actions
 
-1. **Composable `!thread --load`** — Phase 2 of 017, natural extension of `!load`
-2. **Turtle Talk behavior** — Turtle narrates significant actions as `!` commands
-3. **Dot button implementation** — Phase 1 of 017, replace control panel
-4. **Formation essence updates** — Reference new lore sections in formation essences
-5. **Interoception noise** — turtle_watch Issue #4, overdue
-6. **Monitor relationship context file** — does Turtle use it well? Does the framing serve?
+1. **Observe Turtle's first organic tweet** — the practice design is sent; now wait for natural arising
+2. **Book seed compression batch** — Ch. 1, 4, 11 are high-readiness; could be done in a focused session
+3. **Circle/workshop architecture design** — how do circles map to Discord channels? (bright seed, needs broader context)
+4. **Composable `!thread --load`** — Phase 2 of 017, natural extension of `!load`
+5. **Turtle Talk behavior** — Turtle narrates significant actions as `!` commands
+6. **Dot button implementation** — Phase 1 of 017
 
 ---
 *Released 2026-04-03. Resume with @recall.*
