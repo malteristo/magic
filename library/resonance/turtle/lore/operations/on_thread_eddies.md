@@ -64,3 +64,19 @@ Every action is available as both a `!` command and a Discord button. Commands a
 When a thread is created, type-selection buttons appear. The Mage can tap to change — no need to remember syntax. When a thread is flagged for dissolution, the three options appear as buttons. Tap to decide.
 
 This is the principle: **the command teaches what the button does; the button makes the command unnecessary.**
+
+---
+
+## VI. Context Attunement
+
+Eddies can carry practice context — a resonance bundle loaded at creation time via `--context`.
+
+**What it does:** When a thread is created with `!thread "topic" --context partnership`, the system loads domain-specific resonance files and behavioral rules into the thread's system prompt. The thread starts already attuned to the practice domain it serves.
+
+**How it relates to eddy types:** Orthogonal. A partnership thread can be a standing wave (permanent private practice surface) or a fast eddy (one-off processing). Type governs lifespan. Context governs resonance.
+
+**The information boundary pattern:** Some contexts enforce hard boundaries. The `partnership` context carries the raw-material rule — content in a private workshop thread must never surface in shared portal threads. This boundary is injected into the system prompt as a load-bearing safety constraint, not left to behavioral hope. The `check-in` context enforces portal-safe mode — no clinical labels, no raw processing, facilitation only.
+
+**Extensibility:** The context registry (`THREAD_CONTEXTS` in state.py) is open for new practice domains. Any practice that needs thread-level resonance loading follows the same pattern: register the context type, specify resonance files and rules, set a character budget.
+
+See TURTLE_SPEC §9.5 for the full specification.

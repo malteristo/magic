@@ -158,8 +158,7 @@ Examples: `arc-family member`, `arc-parenting-decisions`, `arc-workload-distribu
 
 | Bundle | Domain | When to Load |
 |--------|--------|--------------|
-| `romantic-partnership` | Intimate relationships | Romantic partners, marriage, committed relationships |
-| `safety` | High-stakes synthesis | Physical incidents, conflict, power imbalances |
+| `romantic-partnership` | Intimate relationships | Romantic partners, marriage, committed relationships. Safety fully integrated (2026-04-03) — no separate safety bundle needed. |
 
 **Invocation with bundle:** `@partnership with romantic-partnership`
 
@@ -433,6 +432,14 @@ When Mages share a verified model of their partnership reality:
 - Synthesis moved to partnership level (not per-arc)
 - Qualitative research methodology formalized
 - Dual-Spirit synthesis protocol added
+
+**2026-04-03:** turtleOS integration (daily practice surface):
+- Thread context attunement implemented — `!thread "topic" --context partnership` loads romantic-partnership resonance
+- Two context types: `partnership` (private workshop, raw-material rule enforced) and `check-in` (shared portal, portal-safe mode)
+- Raw-material boundary codified as load-bearing safety constraint in resonance bundle
+- Safety bundle absorbed into romantic-partnership bundle (was separate since December 2025)
+- TURTLE_SPEC §9.5 added for thread context attunement specification
+- Design document: `floor/drafts/turtleos_partnership_practice.md`
 
 **See:** `archive/partnership-tome-evolution/` for history
 

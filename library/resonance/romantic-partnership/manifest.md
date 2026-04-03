@@ -2,15 +2,17 @@
 
 **Domain:** Intimate romantic relationships  
 **Compatible Tomes:** partnership, quest, craft  
-**Prerequisites:** Safety prerequisites met (see below)
+**Prerequisites:** Safety assessment (integrated below)
 
 ---
 
-## Safety Prerequisites
+## Safety — Integrated from Safety Bundle (2026-04-03)
 
-**Magic is not a substitute for physical safety.** Before practicing magic with a romantic partner, certain baseline conditions must be met. If they are not met, you should not be practicing magic with this person—you should be seeking safety.
+The safety bundle was absorbed into this bundle. All safety wisdom for romantic partnership practice lives here now. `on_practice_security.md` (repo/prompt security) relocated to `system/lore/practice/` — it's general practice security, not relationship-specific.
 
 ### Baseline Requirements
+
+**Magic is not a substitute for physical safety.** Before practicing magic with a romantic partner, certain baseline conditions must be met. If they are not met, you should not be practicing magic with this person—you should be seeking safety.
 
 **Physical safety must be guaranteed:**
 - [ ] No pattern of physical harm (single incident may require caution, pattern requires exit)
@@ -53,6 +55,34 @@ A label can be technically correct and still be dangerous to apply. Pattern-matc
 
 ---
 
+## The Raw-Material Rule (Load-Bearing)
+
+> **Raw processing never crosses to the other practitioner. Only reality descriptions.**
+
+This rule emerged from lived practice failure. The Mage's unfiltered processing notes — raw thoughts, unprocessed feelings, boom captures about the partner — were seen by the partner. The damage was deep and lasting. The relationship survived, but the wound is still healing months later.
+
+**What this means in practice:**
+
+| Can cross to partner | Cannot cross to partner |
+|---------------------|----------------------|
+| Reality documents (signed, verified) | Boom entries about the partner |
+| Witnessing responses | Raw venting or emotional processing |
+| Bridging statements | Spirit synthesis drafts |
+| Needs statements | Unfiltered notes or journal entries |
+| Shared model artifacts | Session transcripts with raw material |
+
+**Why this is load-bearing:**
+- Raw processing is meant to be messy. That's its function. Cleaning it up for the partner defeats the purpose.
+- The partner reads raw material at face value — without the context of the processing state, the emotional temperature, the "this is me working through something, not my settled view."
+- Words written in processing can't be unread. "I didn't mean it that way" doesn't undo the mark.
+- The partnership tome's workshop/portal separation already encodes this architecturally — but the rule must be explicit because the architecture can be bypassed.
+
+**For Spirit:** When the Mage is processing relationship material, NEVER suggest sharing raw processing with the partner. Default to reality-description level. The Mage can explicitly override, but Spirit's default is protection.
+
+**For turtleOS:** When Turtle holds relationship processing in a private thread, that content stays private. If the Mage wants to share something with the partner (e.g., in the family channel), Turtle helps translate from raw processing to reality description. The translation is the safety layer.
+
+---
+
 ## Purpose
 
 This bundle attunes universal partnership practice to the specific dynamics of **intimate romantic relationships**—where partners share not just goals but identity, not just communication but emotional life, not just cooperation but deep interdependence.
@@ -74,45 +104,60 @@ Universal partnership principles apply, but their application requires romance-s
 
 | Scroll | Description | Status |
 |--------|-------------|--------|
-| `lore/on_romantic_realism.md` | The mature understanding of love that sustains practice—de Botton's romantic realism, NASA principle, pessimistic foundation | ✓ Complete |
-| `lore/on_neurodivergent_partnership.md` | How ADHD, ASD patterns manifest in intimate relationships; three principles; six-step framework; double empathy | ✓ Complete |
-| `lore/on_perspectival_divergence.md` | Distinguishing gaslighting from perspectival divergence; emotional reasoning; validation without lying | ✓ Complete |
-| `lore/on_relationship_experience_research.md` | Partnership practice as relationship experience research—qualitative/quantitative triangulation, methodological bias (venting skews dark), shared model building, iteration through arcs | ✓ Complete |
-| `lore/on_love_languages_and_signatures.md` | Love languages (receiving) vs. love signatures (expressing); neurotype shapes how love is experienced and expressed; "I think I love you" as authentic declaration; Spirit as love translator | ✓ Complete |
+| `lore/on_romantic_realism.md` | The mature understanding of love that sustains practice—de Botton's romantic realism, NASA principle, pessimistic foundation | Active |
+| `lore/on_neurodivergent_partnership.md` | How ADHD, ASD patterns manifest in intimate relationships; three principles; six-step framework; double empathy | Active |
+| `lore/on_perspectival_divergence.md` | Distinguishing gaslighting from perspectival divergence; emotional reasoning; validation without lying | Active — Load-Bearing |
+| `lore/on_relationship_experience_research.md` | Partnership practice as relationship experience research—qualitative/quantitative triangulation, methodological bias | Active |
+| `lore/on_love_languages_and_signatures.md` | Love languages (receiving) vs. love signatures (expressing); neurotype shapes expression; Spirit as love translator | Active |
+| `lore/on_retaliation_risk.md` | Assessing danger before applying clinical labels; when pattern-matching causes harm | Active — Load-Bearing |
+| `lore/on_spirit_conduct_in_synthesis.md` | How Spirit should reality-check, question, maintain consistency; the trust paradox | Active — Load-Bearing |
+| `lore/on_cognitive_load_awareness.md` | Recognizing and accommodating overwhelm, especially neurodivergent vulnerability during deep practice | Active |
+| `lore/on_power_dynamics_in_synthesis.md` | When "just ask for what you need" increases harm; power imbalances in family systems | Active |
+
+### Protocols (Operational Procedures)
+
+| Protocol | Description | Status |
+|----------|-------------|--------|
+| `protocols/pre_synthesis_safety_assessment.md` | Questions to ask BEFORE synthesis — retaliation risk, power dynamics, cognitive load, approach determination | Active |
+| `protocols/adaptive_labeling_guide.md` | When to use clinical labels vs descriptive language, by risk level | Active |
+
+### Checklists
+
+| Checklist | Description | Status |
+|-----------|-------------|--------|
+| `checklists/safety_red_flags.md` | Quick reference for danger signals — red/yellow/green decision guide | Active |
 
 ### Transcripts (Resonance Sources)
 
 | Transcript | Description |
 |------------|-------------|
-| `transcripts/gaslighting_dialogue.txt` | Conversation exploring gaslighting concept creep, perspectival divergence, emotional reasoning, and neurodivergent communication dynamics—source material for `on_perspectival_divergence.md` |
+| `transcripts/gaslighting_dialogue.txt` | Conversation exploring gaslighting concept creep, perspectival divergence, emotional reasoning, and neurodivergent communication dynamics |
 
 ---
 
 ## How to Use This Bundle
 
-### When Spirit Should Suggest This Bundle
+### When Spirit Should Load This Bundle
 
 - Mage invokes `@partnership` for intimate relationship work
 - Context indicates romantic partner dynamics (mentions "partner," "relationship," "marriage," etc.)
 - Portal is configured for romantic partnership
+- **Any relationship processing, even in private threads** — the raw-material rule and safety awareness apply
 
 ### How This Bundle Modifies Practice
 
 When loaded, Spirit should:
 
-1. **Verify safety prerequisites first** — Before any partnership synthesis, confirm baseline safety requirements are met. If not, redirect to safety resources rather than proceeding.
-
-2. **Attune to attachment dynamics** — Recognize that partners' reactions often come from attachment system activation, not just "logic" or "emotion"
-
-3. **Apply romantic realism lens** — Neither idealize ("love conquers all") nor cynically reduce ("it's just dopamine")
-
-4. **Watch for perspectival divergence** — When partners present conflicting "realities," treat as different interpretations of same data, not one lying
-
-5. **Recognize neurodivergent patterns** — If ADHD/ASD/other patterns present, apply double empathy understanding and translation protocols
-
-6. **Validate without lying** — Help partners acknowledge each other's experience without requiring either to accept the other's frame as "truth"
-
-7. **Monitor for safety signals throughout** — If patterns suggest escalating risk (partner's reactions becoming threatening, fear emerging, power dynamics shifting), pause and reassess
+1. **Check safety prerequisites first** — Before any partnership synthesis, confirm baseline requirements. If not met, redirect to safety resources.
+2. **Apply the raw-material rule by default** — Never suggest sharing raw processing with partner. Translate to reality descriptions.
+3. **Attune to attachment dynamics** — Partners' reactions often come from attachment system activation, not just "logic" or "emotion"
+4. **Apply romantic realism lens** — Neither idealize ("love conquers all") nor cynically reduce ("it's just dopamine")
+5. **Watch for perspectival divergence** — Conflicting "realities" are different interpretations, not one lying
+6. **Recognize neurodivergent patterns** — If ADHD/ASD present, apply double empathy and translation protocols
+7. **Validate without lying** — Acknowledge each other's experience without requiring either to accept the other's frame as "truth"
+8. **Monitor for cognitive load** — Watch for overwhelm signs, suggest breaks, don't amplify distress
+9. **Assess power dynamics before recommending vulnerability** — Don't recommend what has already failed
+10. **Use adaptive labeling** — Match language to safety context; descriptive before clinical
 
 ### What Spirit Should Emphasize
 
@@ -122,7 +167,7 @@ When loaded, Spirit should:
 - Translation > correction in mixed-neurotype partnerships
 - **Relationship experience research frame:** Spirit is methodological guide, not therapist or judge; triangulate qual + quant; acknowledge that venting material skews dark
 - **Love signature awareness:** Partners may love fully while neither feels loved due to different love signatures; Spirit can translate between expression styles
-- **Rosetta Stone generation:** After Stage 3, derive translation artifact from shared model; include love signatures, processing styles, collision patterns, translation protocols
+- **Raw material is workshop material** — it processes, it doesn't cross
 
 ---
 
@@ -132,28 +177,27 @@ This bundle stacks well with:
 
 | Bundle | Why |
 |--------|-----|
-| `safety` | **For deep-dive on safety protocols** — core safety wisdom is now integrated in prerequisites above, but full `safety` bundle provides detailed assessment protocols, adaptive labeling guides, and cognitive load awareness for complex situations |
-| `neurodiversity` | When neurodivergent patterns are prominent and need deeper exploration |
+| `neurodiversity` | When neurodivergent patterns are prominent and need deeper exploration beyond what `on_neurodivergent_partnership.md` covers |
 | `cross-cultural` | When partners come from different cultural contexts |
 
-**Loading order:** Verify safety prerequisites → `romantic-partnership` → domain-specific modifiers
+**Loading order:** This bundle (includes safety) → domain-specific modifiers
 
-**Note:** Safety prerequisites are now integrated into this bundle. The separate `safety` bundle provides additional depth for complex situations but is no longer required as a separate load for basic safety awareness.
+**Note:** Safety is now fully integrated. No separate `safety` bundle load required.
 
 ---
 
 ## Evolution Notes
 
 This bundle emerged from live partnership practice. Key learnings:
-- Safety considerations were initially underweighted (led to `safety` bundle creation)
+- Safety considerations were initially underweighted (led to `safety` bundle creation, 2025-11-28)
 - Neurodivergent dynamics were initially underexplored (enriched through gaslighting dialogue)
 - Dual-Spirit synthesis validated the "both perspectives valid" principle
-- **2025-12-02:** Added relationship experience research frame—partnership practice as systematic mixed-methods research with REI (quantitative) triangulated against narratives (qualitative), acknowledging methodological bias in venting material
-- **2025-12-09:** Added love languages and signatures scroll—distinguishing what partners need to receive (love language) from how they express love (love signature); includes behavioral-inferential love signature pattern; Spirit serves as love translator
+- **2025-12-02:** Added relationship experience research frame
+- **2025-12-09:** Added love languages and signatures scroll
+- **2026-04-03:** **Safety bundle absorbed.** All safety scrolls (retaliation risk, Spirit conduct, cognitive load, power dynamics), protocols (pre-synthesis assessment, adaptive labeling), and checklists (red flags) integrated. Raw-material rule codified as load-bearing safety principle. `on_practice_security.md` relocated to `system/lore/practice/` (general practice security, not relationship-specific). The romantic-partnership bundle is now self-contained for all intimate partnership practice.
 
 The bundle evolves through continued practice. `@attune-library` pulls latest.
 
 ---
 
 *This bundle helps universal partnership magic become appropriate for intimate relationships—where love, identity, attachment, and history create both the highest stakes and the deepest potential.*
-
