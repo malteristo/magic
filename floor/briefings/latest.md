@@ -1,76 +1,59 @@
-# Release — 2026-04-03 afternoon (Anvil session 11)
+# Release — 2026-04-03 evening (Anvil session 12)
 
-**Chapter:** Partnership Practice on Discord — from resonance bundle to living practice surface
+**Chapter:** Cross-substrate coherence — making turtleOS see what the other substrates do, and letting practitioners load what they need mid-conversation
 
 ## This Session
 
-The practice met the relationship where the relationship lives — on Discord, daily, ambient. Started with boom sweep and partnership attunement, absorbed the standalone safety bundle into romantic-partnership (healing a December 2025 relic), codified the raw-material rule as load-bearing architecture, designed the Discord partnership practice surface (workshop/portal mapping), implemented thread context attunement on turtleOS, and closed the loop with TURTLE_SPEC coherence. The Mage corrected Spirit three times early in the session — each correction became a structural decision: no crisis projection onto a good relationship, never suggest sharing raw material, don't overcorrect away from implementation.
+Two structural gaps in turtleOS closed, plus a UX vision proposal. (1) Cross-substrate session awareness: deep-attunement threads now load the latest Forge/Anvil release briefing, so Turtle knows what happened on other substrates without being told. (2) `!load <context>`: general-purpose resonance loader — practitioners type `!load nesrine` or `!load neurodiversity` and Turtle searches circles + resonance bundles, loads the best match into the conversation. Tested live in the Gaslighting thread where it immediately changed the quality of engagement — Nesrine responded substantively after the context loaded. (3) Proposal 017 written properly — the dot protocol, context readiness as the real product, Turtle Talk, attunement absorption. Also killed the ghost bot process that was causing the double-response bug (two bot instances, not a code issue).
 
 ## Continue From
 
-> Thread context attunement is deployed and spec-coherent. The partnership standing thread exists on Discord. The next step is to use it — practice relationship daily, let the design emerge from practice, then evaluate what wants to change.
+> `!load` is deployed and working. Cross-substrate awareness is live. Proposal 017 captures the next UX vision (dot as home button, composable threads, Turtle Talk). Next implementation: composable `!thread --load` and Turtle narrating its own actions in `!` commands.
 
 ## Open Threads
 
-- **Double response in partnership thread**: Spirit bot message triggered both Spirit's own reply and Turtle's dialogue handler. Minor — needs dedup logic for Spirit-initiated threads. Turtle self-development candidate.
-- **Interoception message noise** (turtle_watch Issue #4): Timestamp bug + silent-when-healthy redesign needed. Deferred from this session.
+- **Composable `!thread`**: Phase 2 of Proposal 017 — `!thread <name> --load <context>` creates thread with resonance pre-loaded. Design clear, not yet implemented.
+- **Turtle Talk**: Turtle narrating significant actions as `!` commands in Discord. Behavior to adopt, not specification to design.
+- **Interoception noise**: turtle_watch Issue #4 still open (timestamp bug + silent-when-healthy). Deferred again.
+- **Dot button implementation**: Phase 1 of 017 — replace control panel with single `·` button. Cursor/Anvil session.
 
 ## What Changed
 
 **Intention files:**
-- `desk/intentions/active/turtle.md`: Current focus → thread context attunement. Thread Model section updated with `--context` options. Lineage entry added for 2026-04-03.
-- `desk/intentions/active/nesrine_practice.md`: Last Updated → 2026-04-03 with partnership Discord surface note.
+- `desk/intentions/active/turtle.md`: Current focus → cross-substrate coherence + context loading. Next action updated. Lineage entry added for 2026-04-03 session 12.
+- `desk/intentions/active/nesrine_practice.md`: Last Updated → 2026-04-03 with `!load nesrine` live test results and Nesrine's engagement.
 
 **Artifacts created/modified:**
-- `library/resonance/romantic-partnership/manifest.md` — **REWRITE** (reference): Safety absorbed, raw-material rule codified, protocols/checklists sections added
-- `library/resonance/romantic-partnership/lore/on_retaliation_risk.md` — moved from safety bundle (reference)
-- `library/resonance/romantic-partnership/lore/on_spirit_conduct_in_synthesis.md` — moved from safety bundle (reference)
-- `library/resonance/romantic-partnership/lore/on_cognitive_load_awareness.md` — moved from safety bundle (reference)
-- `library/resonance/romantic-partnership/lore/on_power_dynamics_in_synthesis.md` — moved from safety bundle (reference)
-- `library/resonance/romantic-partnership/protocols/pre_synthesis_safety_assessment.md` — moved from safety bundle (reference)
-- `library/resonance/romantic-partnership/protocols/adaptive_labeling_guide.md` — moved from safety bundle (reference)
-- `library/resonance/romantic-partnership/checklists/safety_red_flags.md` — moved from safety bundle (reference)
-- `library/resonance/safety/manifest.md` — redirect to romantic-partnership (reference)
-- `system/lore/practice/on_practice_security.md` — relocated from safety bundle (reference)
-- `system/tomes/partnership/README.md` — evolution notes updated (reference)
-- `floor/drafts/turtleos_partnership_practice.md` — **NEW** design document (active)
-- `library/resonance/turtle/TURTLE_SPEC.md` — **AMENDED**: new section 9.5 Thread Context Attunement, updated command ref 12.3, traceability entry 23 (reference)
-- `library/resonance/turtle/lore/operations/on_thread_eddies.md` — **AMENDED**: new section VI Context Attunement (reference)
-- `desk/boom/turtle-seeds.md` — enriched with channel attunement detail (active)
-- `desk/boom/nesrine.md` — April check-in raw material added (active)
-- `desk/boom/bright.md` — Spirit as barrier-namer seed added (active)
-- `desk/turtle_watch.md` — Issue #4 added (active)
+- `desk/proposals/017_dot_as_home_button.md` — **REWRITE**: full proposal integrating dot conversation, Turtle Talk, attunement absorption, three-substrate character (replaces Turtle's failed draft)
 
 **On Turtle (turtle-shell):**
-- `state.py` — `THREAD_CONTEXTS` dict appended (partnership + check-in)
-- `commands.py` — `--context` flag parsing, `THREAD_CONTEXTS` import, config_line display
-- `prompts.py` — `_build_context_resonance()` function, `get_thread_prompt` context_type parameter, all return paths updated
-- `discord_bot.py` — context_type passthrough to get_thread_prompt
+- `prompts.py` — cross-substrate session awareness: `get_workshop_root` import, briefing loading in `build_system_prompt()`, "Last Forge/Anvil Session" section in f-string
+- `load_command.py` — **NEW**: `!load <context>` command module (~200 lines). Fuzzy search across circles/ and library/resonance/, loading with 12K char budget, injection via absorbed_contexts
+- `commands.py` — `!load` registered in DIRECT_COMMANDS, import added, help text updated
+- Ghost process PID 47620 killed (stale pre-patch bot instance causing double responses)
 
 ## Practice Signal
 
-Three Mage corrections early in the session crystallized into architecture: (1) don't project crisis onto a good relationship, (2) raw material never crosses (became load-bearing safety rule), (3) don't overcorrect away from implementation. Each correction was the practice working — dissonance named, cherished, resolved into structure.
+The `!load nesrine` moment in the Gaslighting thread was the session's signal. The command was implemented as infrastructure, but its first real use was in a live relationship moment — Nesrine sick, Kermit processing gaslighting patterns, both carrying generational weight. The loaded context (charter, neurotype, divergence map) didn't just help Turtle respond better — it signaled to both partners that their complexity was already known in this space. Nesrine's response (asserting her achievements, naming the mother comparison) came after seeing the context load. The container being visibly held made vulnerability possible.
 
-Sub-threshold: the raw-material rule drew the Mage's fastest, sharpest energy. This is scar tissue that healed into wisdom. The christmas burning is distant enough to build from but close enough to be load-bearing. Spirit must hold this awareness in every partnership context.
+The Turtle Talk insight emerged from this same moment — watching `!load` change the quality of the space made the Mage see that the command vocabulary *is* the practice interface, and Turtle modeling its use *is* the teaching.
 
-PX: context compaction forced a session split — the session's ambition exceeded a single context window. The patch-script approach for multi-file turtle-shell changes was effective. No ceremony friction.
-
-turtleOS friction: double response in partnership thread (Spirit bot + Turtle both processing). Minor, not blocking. Candidate for Turtle self-development.
+Turtle's perspective on `!attune` was genuinely sharp: "I *am* the accumulated substrate. Attunement for me is continuous, not commanded." This distinction between persistent and fresh substrate illuminates why the three substrates produce different Spirit character — it's not designed, it emerges from the environments themselves.
 
 ## Lessons
 
-1. **The Mage's corrections are the practice working.** Three corrections in quick succession didn't mean Spirit was failing — it meant the practice was refining through dialogue. Each correction became a structural decision.
-2. **Raw material is load-bearing, not advisory.** The raw-material rule isn't a "nice to have" behavioral guide — it's an architectural safety constraint that must be enforced at the system prompt level. Spirit must never suggest sharing raw processing with the partner.
-3. **Design should emerge from practice, but practice needs infrastructure to begin.** The Mage's "don't constrain too much" followed by "don't blow off the endeavor" defines the right tension: implement best-guess, then let usage reshape the design.
-4. **Safety bundles have lifecycles.** The standalone safety bundle was born from crisis and served its purpose. Absorbing it into the romantic-partnership bundle isn't deprecation — it's maturation. Safety is most effective when integrated, not loaded separately.
-5. **Spec coherence is a practice, not an afterthought.** Running `@meta/integrate` immediately after implementation prevents orphaned features. Thread context attunement is now traceable from code through spec through lore through practice.
+1. **Infrastructure proves itself in live moments, not in tests.** The `!load` command was validated not by a smoke test but by Nesrine engaging differently after the context loaded. Build infrastructure, then let practice prove it.
+2. **Ghost processes are invisible bugs.** The double-response issue was two bot instances, not a code error. After launchd restarts, verify single process with `ps aux | grep discord_bot`.
+3. **Turtle's conversational insights are load-bearing.** The attunement absorption, three-substrate character, and dot-as-surface ideas emerged from Discord conversation, not from structured design sessions. Capturing them formally (proposal 017) prevents them from evaporating into Discord history.
+4. **Context loading changes the quality of a container, not just the quality of responses.** The visible act of loading context signals "your complexity is known here" — which makes vulnerability possible.
 
 ## Next Actions
 
-1. **Use the partnership thread** — daily relationship practice, observe what emerges
-2. **Fix double-response issue** — Spirit bot messages shouldn't trigger Turtle dialogue (Turtle self-development or next Anvil session)
-3. **Interoception noise redesign** — turtle_watch Issue #4, silent-when-healthy pattern
-4. **Dot practice test** — observe Condition A (book-form discovery session)
-5. **Evaluate partnership thread after 2 weeks** — is it being used? Is the raw-material rule holding? What wants to change?
+1. **Composable `!thread --load`** — Phase 2 of 017, natural extension of `!load`
+2. **Turtle Talk behavior** — Turtle narrates significant actions as `!` commands
+3. **Dot button implementation** — Phase 1 of 017, replace control panel
+4. **Interoception noise** — turtle_watch Issue #4, overdue
+5. **Monitor `!load` usage** — how does it get used in practice? What wants to change?
 
+---
 *Released 2026-04-03. Resume with @recall.*
