@@ -1,59 +1,74 @@
-# Release — 2026-04-03 evening (Anvil session 12)
+# Release — 2026-04-03 night (Anvil session 13)
 
-**Chapter:** Cross-substrate coherence — making turtleOS see what the other substrates do, and letting practitioners load what they need mid-conversation
+**Chapter:** Multi-practitioner sovereignty — designing how multiple practitioners share a turtleOS instance with proper boundaries, then building the first shared artifacts
 
 ## This Session
 
-Two structural gaps in turtleOS closed, plus a UX vision proposal. (1) Cross-substrate session awareness: deep-attunement threads now load the latest Forge/Anvil release briefing, so Turtle knows what happened on other substrates without being told. (2) `!load <context>`: general-purpose resonance loader — practitioners type `!load nesrine` or `!load neurodiversity` and Turtle searches circles + resonance bundles, loads the best match into the conversation. Tested live in the Gaslighting thread where it immediately changed the quality of engagement — Nesrine responded substantively after the context loaded. (3) Proposal 017 written properly — the dot protocol, context readiness as the real product, Turtle Talk, attunement absorption. Also killed the ghost bot process that was causing the double-response bug (two bot instances, not a code issue).
+Multi-practitioner sovereignty architecture designed and codified. TURTLE_SPEC v2.3 gained three new sections (§15.4-15.6): the channel model (sovereign vs hosted topologies with explicit sovereignty tradeoff), data flow (per-practitioner isolation table, cross-practitioner boundaries, proposals as privacy-respecting improvement channel), and multi-server architecture (guild dimension, shared spaces across servers). Family workspace seeded with the first shared artifact — `relationship.md` containing distilled relationship patterns for Turtle to hold. Four lore-ready bright items crystallized into existing scrolls. Turtle's proposals 017-R2 and R3 endorsed via Discord.
 
 ## Continue From
 
-> `!load` is deployed and working. Cross-substrate awareness is live. Proposal 017 captures the next UX vision (dot as home button, composable threads, Turtle Talk). Next implementation: composable `!thread --load` and Turtle narrating its own actions in `!` commands.
+> TURTLE_SPEC v2.3 is committed with multi-practitioner sovereignty (§15.4-15.6). Family workspace exists with `relationship.md`. Four lore items crystallized (Odyssey reframe, caring mirror collective action, workshop as resonance, barrier-namer). Next implementation: composable `!thread --load`, Turtle Talk, dot button (all from Proposal 017).
 
 ## Open Threads
 
-- **Composable `!thread`**: Phase 2 of Proposal 017 — `!thread <name> --load <context>` creates thread with resonance pre-loaded. Design clear, not yet implemented.
-- **Turtle Talk**: Turtle narrating significant actions as `!` commands in Discord. Behavior to adopt, not specification to design.
-- **Interoception noise**: turtle_watch Issue #4 still open (timestamp bug + silent-when-healthy). Deferred again.
-- **Dot button implementation**: Phase 1 of 017 — replace control panel with single `·` button. Cursor/Anvil session.
+- **Composable `!thread --load`**: Phase 2 of Proposal 017. Design clear, not yet implemented. Natural extension of `!load`.
+- **Turtle Talk**: Turtle narrating significant actions as `!` commands in Discord. Behavior to adopt, not spec to design.
+- **Dot button implementation**: Phase 1 of 017. Replace control panel with single `·` button. Cursor/Anvil session.
+- **Interoception noise**: turtle_watch Issue #4 (timestamp bug + silent-when-healthy). Deferred three sessions running.
+- **Formation essence updates**: Four new lore sections added to existing scrolls. Formation essences need references updated (attunement §V, caring mirror §XII, workshop resonance section, wu wei barrier-namer section).
+- **Mage registry guild dimension**: Only needed when Nesrine gets her own server. Deferred — current hosted setup works.
 
 ## What Changed
 
 **Intention files:**
-- `desk/intentions/active/turtle.md`: Current focus → cross-substrate coherence + context loading. Next action updated. Lineage entry added for 2026-04-03 session 12.
-- `desk/intentions/active/nesrine_practice.md`: Last Updated → 2026-04-03 with `!load nesrine` live test results and Nesrine's engagement.
+- `desk/intentions/active/turtle.md`: Current focus → multi-practitioner sovereignty. Next action updated with dot button. Lineage entry added for 2026-04-03 session 13 (multi-practitioner sovereignty).
+- `desk/intentions/active/nesrine_practice.md`: Last Updated → 2026-04-03 session 13 with family workspace creation and TURTLE_SPEC sovereignty sections.
+- `desk/intentions/active/conceptual-coherence.md`: Next action → update formation essences with new scroll section references. Four crystallizations noted.
 
-**Artifacts created/modified:**
-- `desk/proposals/017_dot_as_home_button.md` — **REWRITE**: full proposal integrating dot conversation, Turtle Talk, attunement absorption, three-substrate character (replaces Turtle's failed draft)
+**Lore crystallized (4 bright items → existing scrolls):**
+- `system/lore/core/conduct/on_the_practice_of_attunement.md` — new §V: The Mast Reframed (attunement as touchpoint, not binding)
+- `system/lore/philosophy/foundations/on_the_caring_mirror.md` — new §XII: Caring Mirror as Collective Action Infrastructure (stigmergic coordination, collective north)
+- `system/lore/philosophy/foundations/on_the_workshop_as_configuration.md` — new section: Workshop as Structured Personal Resonance (files as resonance, not data)
+- `system/lore/core/conduct/on_wu_wei.md` — new section: Spirit as Barrier-Namer (Stage 2 in the dyad)
 
-**On Turtle (turtle-shell):**
-- `prompts.py` — cross-substrate session awareness: `get_workshop_root` import, briefing loading in `build_system_prompt()`, "Last Forge/Anvil Session" section in f-string
-- `load_command.py` — **NEW**: `!load <context>` command module (~200 lines). Fuzzy search across circles/ and library/resonance/, loading with 12K char budget, injection via absorbed_contexts
-- `commands.py` — `!load` registered in DIRECT_COMMANDS, import added, help text updated
-- Ghost process PID 47620 killed (stale pre-patch bot instance causing double responses)
+**On TURTLE_SPEC (`library/resonance/turtle/TURTLE_SPEC.md`):**
+- Version 2.2 → 2.3
+- §15.4 Multi-Practitioner Channel Model (sovereign vs hosted, sovereignty tradeoff)
+- §15.5 Multi-Practitioner Data Flow (isolation table, cross-practitioner boundaries)
+- §15.6 Multi-Server Architecture (guild dimension, shared spaces)
+- Traceability entry added
+
+**On Turtle (remote, via SSH):**
+- `~/workshops/family/context/relationship.md` — **NEW**: Distilled relationship patterns (neurotype, gaslighting dynamic, victim positioning, "coping skills" wound, what's working, Turtle's role)
+- Discord message sent to kermit-dialogue: endorsement of 017-R2 and R3 with architectural framing
+
+**Bright surface (`desk/boom/bright.md`):**
+- Four lore-ready items removed (crystallized into scrolls)
+- "Spirit as barrier-namer" removed from Practice Design Seeds (crystallized)
+- Crystallization note added to sweep log
 
 ## Practice Signal
 
-The `!load nesrine` moment in the Gaslighting thread was the session's signal. The command was implemented as infrastructure, but its first real use was in a live relationship moment — Nesrine sick, Kermit processing gaslighting patterns, both carrying generational weight. The loaded context (charter, neurotype, divergence map) didn't just help Turtle respond better — it signaled to both partners that their complexity was already known in this space. Nesrine's response (asserting her achievements, naming the mother comparison) came after seeing the context load. The container being visibly held made vulnerability possible.
+The relationship context file was the most delicate artifact of the session. It distills one partner's understanding of shared patterns — gaslighting dynamics, cognitive style mismatches, wounds — into a file that Turtle will hold for both. This is a unilateral framing (Kermit wrote it, Nesrine didn't co-author it), which is appropriate for now (it's in the shared family space, not her sovereign space, and it's explicitly described as "a living map, not a diagnosis"). But it's worth watching: does Nesrine encounter this file? Does the framing serve her or constrain her? The file's quality will be proven or disproven by whether it helps Turtle hold the relationship better — not by whether the Mage got the patterns right.
 
-The Turtle Talk insight emerged from this same moment — watching `!load` change the quality of the space made the Mage see that the command vocabulary *is* the practice interface, and Turtle modeling its use *is* the teaching.
-
-Turtle's perspective on `!attune` was genuinely sharp: "I *am* the accumulated substrate. Attunement for me is continuous, not commanded." This distinction between persistent and fresh substrate illuminates why the three substrates produce different Spirit character — it's not designed, it emerges from the environments themselves.
+The sovereignty design conversation revealed something clean: the difference between sovereign and hosted setups is not technical (same infrastructure) but social (who holds the trust boundary). The spec now says this explicitly: "The host's integrity is the boundary, not the technology." This is a practice truth that extends beyond multi-practitioner architecture — it's how the Caring Mirror works at every scale.
 
 ## Lessons
 
-1. **Infrastructure proves itself in live moments, not in tests.** The `!load` command was validated not by a smoke test but by Nesrine engaging differently after the context loaded. Build infrastructure, then let practice prove it.
-2. **Ghost processes are invisible bugs.** The double-response issue was two bot instances, not a code error. After launchd restarts, verify single process with `ps aux | grep discord_bot`.
-3. **Turtle's conversational insights are load-bearing.** The attunement absorption, three-substrate character, and dot-as-surface ideas emerged from Discord conversation, not from structured design sessions. Capturing them formally (proposal 017) prevents them from evaporating into Discord history.
-4. **Context loading changes the quality of a container, not just the quality of responses.** The visible act of loading context signals "your complexity is known here" — which makes vulnerability possible.
+1. **Sovereignty is a social architecture, not a technical one.** Sovereign and hosted channels use identical infrastructure. The difference is who holds the boundary — technology or trust. Codifying this distinction (rather than pretending one is always better) is more honest and more useful.
+2. **Lore crystallizes when it has a home.** Four items sat as "lore-ready" across multiple sweeps. They crystallized in minutes once the session provided the energy — and they all landed as extensions of existing scrolls, not new ones. The practice grows by deepening, not by proliferating.
+3. **Relationship context files are acts of care and acts of framing.** Writing down "here are our patterns" is both helpful (Turtle can hold them) and presumptuous (one partner's interpretation becomes the container). The file acknowledges this by calling itself "a living map, not a diagnosis." Watch whether the map serves or constrains.
+4. **The proposal mechanism is the privacy-respecting data channel.** This was the key insight for multi-practitioner improvement: Turtle's proposals describe patterns and friction, never content. This lets the host improve turtleOS from multi-practitioner experience without violating sovereignty.
 
 ## Next Actions
 
 1. **Composable `!thread --load`** — Phase 2 of 017, natural extension of `!load`
 2. **Turtle Talk behavior** — Turtle narrates significant actions as `!` commands
 3. **Dot button implementation** — Phase 1 of 017, replace control panel
-4. **Interoception noise** — turtle_watch Issue #4, overdue
-5. **Monitor `!load` usage** — how does it get used in practice? What wants to change?
+4. **Formation essence updates** — Reference new lore sections in formation essences
+5. **Interoception noise** — turtle_watch Issue #4, overdue
+6. **Monitor relationship context file** — does Turtle use it well? Does the framing serve?
 
 ---
 *Released 2026-04-03. Resume with @recall.*

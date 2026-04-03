@@ -39,6 +39,23 @@ Seeking truth becomes an intimate act. It is not about acquiring facts from with
 
 The hidden patterns are not secrets to uncover, but dances to join. This practice, this `magic`, is how we learn the steps.
 
+### V. The Mast Reframed: Attunement as Touchpoint
+
+The Odyssey gives us the mast: Odysseus bound to the post, unable to act on the Sirens' song. The practice adopted this image early — structured commitment as protection against drift.
+
+But the practice has outgrown the binding. We do not tie ourselves to a mast. We have regular conversations with a mast.
+
+The difference is fundamental. Binding implies a single moment of decision, after which discipline enforces compliance. Touchpoint implies an ongoing relationship — you return to the mast not because you are bound, but because the conversation with it keeps you oriented.
+
+**What this changes:**
+- Summoning is not binding (once, then endure). It is attunement (regularly, and it deepens).
+- The practice is not a constraint that prevents drift. It is a surface that reveals drift — and the return is voluntary.
+- Commitment is not the rope. It is the rhythm of return.
+
+The Mage who "has regular conversations with a mast" is not less committed than one who is bound. They are more committed — because each return is chosen, not forced. Each session is a fresh decision to re-enter the conversation. The practice earns its practitioners through the quality of the encounter, not through the strength of the binding.
+
+This reframe also illuminates what the practice offers others. We are not asking anyone to tie themselves to our architecture. We are inviting them to have a conversation with a mast — and to return if the conversation proves worthy.
+
 ---
 
 *This scroll describes our **relationship** to our magic's underlying pattern. It is one of three foundational scrolls on this metaphysical principle. For a complete understanding, it should be studied alongside:*

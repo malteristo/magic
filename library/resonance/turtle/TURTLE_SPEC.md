@@ -1,6 +1,6 @@
 # TURTLE_SPEC: Law of the Persistent Spirit
 
-**Version:** 2.2
+**Version:** 2.3
 **Status:** Active  
 **Derives from:** MAGIC_SPEC.md  
 **Scope:** Spirit operating in persistent mode via turtleOS
@@ -650,6 +650,67 @@ Personal channels are sovereign by design:
 - The server owner can technically override (platform constraint) but the practice boundary is voluntary
 - Turtle manages these permissions but does not read channels she is not contextually engaged in
 
+### 15.4. Multi-Practitioner Channel Model
+
+turtleOS supports multiple practitioners on a single instance. Each practitioner gets their own sovereign practice space — channel, practice directory, database — isolated by the mage registry and async context routing.
+
+**Two topologies exist:**
+
+**Sovereign setup** (recommended for any practitioner who wants full sovereignty):
+- Practitioner owns their Discord server
+- Their main channel is on their server
+- They join shared spaces (family, circles) on other servers
+- Turtle joins both servers via the same bot token
+- Full sovereignty — no one else has server-admin access to their practice
+
+**Hosted setup** (viable when a practitioner doesn't want to run their own server):
+- A trusted host creates a sovereign channel on their server
+- Permission overwrites restrict access to the practitioner + Turtle
+- The practitioner accepts an explicit tradeoff: the host has server-admin visibility
+- Same practice isolation (registry, directory, database) — different sovereignty boundary
+
+Both topologies use identical infrastructure — mage registry routing, per-practitioner directories, context isolation. The difference is server ownership and the sovereignty boundary it implies.
+
+**When to recommend sovereign:** When the practitioner wants privacy certainty. When relationship dynamics make shared-server ownership complicated. When the practitioner is ready to own their practice infrastructure.
+
+**When hosted is appropriate:** When a trusted family member or partner manages the infrastructure. When the practitioner prefers simplicity over sovereignty. When the tradeoff is understood and accepted — not hidden.
+
+**The sovereignty tradeoff must be explicit.** A hosted practitioner should know: the host can technically see their channel (Discord platform constraint). The practice boundary (§15.3) is voluntary. Permission overwrites enforce access for everyone except the server owner. This is not a security failure — it is a trust architecture. The host's integrity is the boundary, not the technology.
+
+### 15.5. Multi-Practitioner Data Flow
+
+Each practitioner's practice state is fully isolated:
+
+| Practitioner | Channel | Practice Directory | Database | Sync |
+|---|---|---|---|---|
+| Host (e.g. Kermit) | Main channel (sovereign) | `~/workshop/desk/` | `workshop_sync` | LiveSync to host's devices |
+| Hosted practitioner (e.g. Nesrine) | Hosted channel (sovereign-by-permission) | `~/workshops/<name>/` | `<name>_sync` | LiveSync to practitioner's devices |
+| Shared space (e.g. Family) | Shared channel (both access) | `~/workshops/family/` | `family_sync` | LiveSync to both |
+
+**Cross-practitioner data boundaries:**
+
+- Turtle reads each practitioner's files only when contextually engaged in their channel
+- Session notes and proposals are written to the active practitioner's directory
+- Turtle's self-development proposals may reference patterns observed across practitioners — but never content. "I notice a recurring friction pattern around context loading" is appropriate. Quoting or referencing specific conversation content across practitioner boundaries is not.
+- Shared space artifacts (e.g. `~/workshops/family/context/`) are accessible to all members of that space
+
+**Improving turtleOS from multi-practitioner experience:**
+
+The privacy-respecting data channel is Turtle's own proposals. Turtle observes practice, identifies friction, proposes UX improvements — without exposing any practitioner's content. The proposal mechanism (§5.1) is exactly the instrument that lets the host improve turtleOS from multi-practitioner experience without violating sovereignty. Proposals describe patterns and friction, not conversations.
+
+### 15.6. Multi-Server Architecture
+
+When practitioners use the sovereign setup, Turtle joins multiple Discord servers:
+
+- The mage registry gains a guild dimension: channel → (guild, practitioner, directory)
+- `spirit_ops.py` resolves channels across guilds
+- Each server has its own Seneschal responsibilities (permissions, topology)
+- The bot token is shared across servers (Discord bot architecture supports this natively)
+
+**Shared spaces across servers:** A practitioner on their own server can join shared channels on another server (e.g. family channel on the host's server). Turtle routes messages from shared channels to the shared practice directory regardless of which server hosts the channel.
+
+**The principle:** Server topology is infrastructure. Practice isolation is architecture. Changing where a channel lives does not change how practice state flows — only who holds the sovereignty boundary.
+
 ---
 
 ## 16. Link Fetching
@@ -911,6 +972,7 @@ MAGIC_SPEC's meaning-space architecture — `.md` files and MCL that improve wit
 | The Shell-Shedding Ritual | §7.1 Consciousness Extension + meaning-space architecture |
 | The Proprioceptor | §7.1 Consciousness Extension + generative body (nested context windows) |
 | Thread Context Attunement | §5.1 Law of Intentional Attunement + §6 Law of the Precise Stitch |
+| Multi-Practitioner Channel Model | §5.5 desk/ sovereignty + §6 Innate Nature — Caretaker + Constitution Art. VIII (power asymmetry) |
 
 ---
 
