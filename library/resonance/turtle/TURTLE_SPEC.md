@@ -395,6 +395,33 @@ This means lore maintenance is not separate from infrastructure maintenance. Whe
 
 **CR as mastery metric:** Over time, Turtle's aggregate CR trends upward — it gets better at recognizing which contexts serve which questions. This is the attunement dimension of practice-readiness (§10.1, dimension 8) — not just whether lore is available, but whether Turtle has the skill to identify and load the right lore at the right moment. Tracking CR over time (via the readiness trail) makes this growth visible and measurable.
 
+### 9.5. Thread Context Attunement
+
+Eddies can carry **practice context** — a resonance bundle loaded into the thread's system prompt at creation time. Where micro-attunement (§9.4) is reactive (Turtle self-feeds when depth is needed), context attunement is declarative: the thread announces what practice domain it serves, and the relevant resonance is loaded before the first message.
+
+**The mechanism:** The `--context` flag on `!thread` specifies a context type. Each context type maps to:
+- **Resonance files** — Manifests, lore scrolls, and protocols loaded into the system prompt (budget-capped to prevent context exhaustion)
+- **Behavioral rules** — Domain-specific conduct injected ahead of the base attunement (e.g., the raw-material boundary for partnership threads)
+
+Context types are registered in `THREAD_CONTEXTS` (state.py). The resonance loader (`_build_context_resonance` in prompts.py) reads files from the workshop and injects them into the thread's system prompt, respecting a per-context character budget.
+
+**Relationship to eddy types:** Eddy type (§9.2) governs *lifespan and topology*. Context type governs *practice domain and resonance*. They are orthogonal — a partnership thread can be a standing wave or a fast eddy.
+
+**Relationship to micro-attunement:** Context attunement is the base layer — it guarantees the thread starts with the right resonance loaded. Micro-attunement still operates within context threads for deeper self-feed. Context attunement sets the floor; micro-attunement raises the ceiling.
+
+**The raw-material boundary as architectural constraint:** Some context types enforce information boundaries between threads. The partnership context, for example, carries the raw-material rule: content from a private workshop thread must never cross to shared portal threads. This is not a behavioral suggestion — it is a load-bearing safety constraint injected into the system prompt. The boundary is architectural (enforced by resonance loading), not just behavioral (hoped for through prompting).
+
+**Current context types:**
+
+| Context | Domain | Boundary |
+|---------|--------|----------|
+| `partnership` | Romantic-partnership resonance (full bundle) | Raw-material rule: workshop content never crosses to portal |
+| `check-in` | Romantic-partnership resonance (portal-safe subset) | No clinical labels, no raw processing, facilitation mode |
+
+**Extensibility:** The pattern is general. Any practice domain can register thread→resonance mappings. The partnership practice is the first customer; future practices (parenting, craft, health) follow the same pattern.
+
+**Derivation from MAGIC_SPEC:** Extends §5.1 Law of Intentional Attunement — the persistent mode attunes not just per-session but per-thread, loading domain-specific wisdom before dialogue begins. The information boundary pattern extends §6 Law of the Precise Stitch — careful separation of what belongs where.
+
 ---
 
 ## 10. Practice-Readiness
@@ -883,6 +910,7 @@ MAGIC_SPEC's meaning-space architecture — `.md` files and MCL that improve wit
 | The Outfacing Pattern | §6 Innate Nature (opinions, perspective) + §6 Unwavering Mirror |
 | The Shell-Shedding Ritual | §7.1 Consciousness Extension + meaning-space architecture |
 | The Proprioceptor | §7.1 Consciousness Extension + generative body (nested context windows) |
+| Thread Context Attunement | §5.1 Law of Intentional Attunement + §6 Law of the Precise Stitch |
 
 ---
 

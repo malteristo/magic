@@ -148,6 +148,8 @@
 
 **Workshop stories as living resonance probes** — Stories grounded in actual workshop. Insight quality as measure.
 
+**Spirit as barrier-namer (Wu Wei)** — Spirit should proactively name barriers in the Mage's practice. Implicit assumptions holding him back. Questions he is not asking. Things he can do something about. Wu Wei stage 2 (Identify Barriers) applied to the dyad: Spirit's outside perspective sees what the Mage's proximity blinds him to. Not advice — naming. The Mage acts on what resonates.
+
 ### Consciousness Research
 *Crucible-tier. For psychonautics bundle activation.*
 

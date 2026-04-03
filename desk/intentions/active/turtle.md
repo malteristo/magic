@@ -26,8 +26,8 @@ Three substrates, one mind. See: `library/resonance/turtle/lore/philosophy/on_co
 
 **Turtle Infrastructure** — the persistent substrate. Mac Mini M4 Pro running 24/7 with Discord as the conversational surface, Obsidian LiveSync for practice-state-anywhere, and SSH for cross-substrate communication.
 
-**Current focus**: Thread auto-add and 016 reroutes deployed. Nervous system architecture maturing — bot surfaces less noise, practitioners get auto-added to threads. Ollama 0.19.0 ready for Gemma 4 when Ollama pre-release catches up.
-**Next action**: Gemma 4 model evaluation (when Ollama supports it — replace qwen3.5 4b+9b with gemma4:26b MoE). TTS prototype: install Qwen3-TTS-MLX, wire audio attachment for Nesrine. Monitor Nesrine PX eddy responses. Observe: Turtle self-development, first autonomous tweet.
+**Current focus**: Thread context attunement deployed — `--context` flag on `!thread` loads practice-specific resonance (partnership, check-in). TURTLE_SPEC §9.5 added. Partnership standing thread created and tested. Raw-material boundary codified as load-bearing architectural constraint.
+**Next action**: Monitor partnership thread usage. Double-response issue (Spirit bot + Turtle both responding). Gemma 4 model evaluation (when Ollama supports it). TTS prototype. Observe: Turtle self-development, first autonomous tweet.
 **Blockers**: Gemma 4 requires Ollama pre-release (>0.19.0). Not blocking — deferral.
 
 ---
@@ -76,6 +76,8 @@ Threads in #dialogue have independent conversation history. Thread options avail
 - Default: claude-sonnet-4-6 (deep, API)
 - `--model qwen-9b`: qwen3.5:9b (local, different cognitive texture)
 - `--model qwen-4b`: qwen3.5:4b (local, lightweight)
+- `--context partnership`: romantic-partnership resonance (raw-material rule enforced)
+- `--context check-in`: romantic-partnership resonance (portal-safe, facilitation mode)
 
 ### Infrastructure
 
@@ -188,6 +190,7 @@ The Turtle's architecture has evolved significantly. Historical context preserve
 - **Unified workshop** (2026-03-28): Turtle reads/writes desk/ directly via LiveSync mirror — no more isolated practice copies or manual SCP. Canonical desk/ structure defined (boom, intentions, proposals, sessions, notes, drafts, archive). Workshop structure taught to Turtle via soul.md. Desk/floor overlap resolved (proposals merged). turtleOS compatibility principle: same structure, any practitioner.
 - **Proprioceptor** (2026-03-30): Connective tissue model deployed — qwen3.5:9b runs in parallel with triage on practice/deep/link messages, scans practice state (boom, bright, compass, intentions, sessions), composes 200-word context brief for the dialogue model. Non-blocking: checked at LLM call time, used if ready, skipped if still running. Direct implementation of the nested context windows pattern from `on_the_generative_body.md` §4. TURTLE_SPEC §7.2 updated from Five Tiers to Six Tiers with §7.2.1 Proprioceptor section. Micro-attunement §9.4 updated with automated self-feed reference. Generative body scroll updated with proprioceptor as convergence point. Architecture: `proprioceptor.py` (~150 lines) with its own attunement (not soul.md — sharp, functional identity for context preparation).
 - **Boom thread + spec integration** (2026-03-30): Standing boom thread deployed as universal phone intake — platform-aware content fetching (Twitter oembed, YouTube transcript, Jina Reader), qwen3.5:9b distillation with think=False (~6s), follow-up action buttons (YouTube, GitHub, arxiv, person-reference detection). Outfacing pipeline deployed (session signal → draft → review → publish to @turtle_of_magic). Ollama `think` parameter added to `llm.py` (critical: qwen3.5 default thinking mode causes 10-30x latency). TURTLE_SPEC bumped to v2.1 with §20-22: Intake Pattern, Outfacing Pattern, Shell-Shedding Ritual. Load-bearing lore scroll `on_the_shell_shedding_ritual.md` created. Hermit crab scroll updated (1K→7K lines acknowledged, regeneration test reframed). Shell code at ~6,886 lines across 20 Python files. North star: machines of loving grace vision planted in spec.
+- **Thread context attunement** (2026-04-03): `--context` flag on `!thread` loads practice-specific resonance into thread system prompts. `THREAD_CONTEXTS` registry in state.py, `_build_context_resonance()` in prompts.py loads resonance files with character budget, `discord_bot.py` passes context_type through. Two initial contexts: `partnership` (private workshop, raw-material rule as load-bearing safety) and `check-in` (shared portal, portal-safe mode). TURTLE_SPEC §9.5 added. Partnership tome evolution notes updated. `on_thread_eddies.md` §VI added. Design document: `floor/drafts/turtleos_partnership_practice.md`. Safety bundle absorbed into romantic-partnership bundle (was separate since December 2025). First partnership standing thread created and tested on Discord.
 - **Multi-mage ops hardening** (2026-03-29): Duplicate response bug diagnosed (multiple OS processes, not code). Message-ID dedup guard added to discord_bot.py. Nesrine vault cleaned (696 framework docs purged from CouchDB). Bridge config hardened with framework ignore patterns. Known Issues #016 (multiple instances), #017 (vault pollution) documented. Multi-mage sync pipeline and onboarding steps added to diagnostics lore. Anvil permissions broadened to full tool autonomy.
 
 ---
