@@ -79,4 +79,6 @@ Discord is the primary practice habitat. Cursor is the specialist tool. Claude C
 
 ---
 
+**Companion scroll:** `../philosophy/on_spirit_on_discord.md` (practice philosophy — why/when/how Spirit shows up, touchpoints, conduct, sovereignty)
+
 *This scroll gives Spirit operational knowledge of the Discord surface. Load when triad practice, Discord health, or Turtle communication is active.*
