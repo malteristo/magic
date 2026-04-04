@@ -124,6 +124,8 @@ John Maynard Keynes, examining Newton's private papers, called him **"the last o
 
 **For Grounding:** Psychological validity (Jung) + philosophical depth (Watts) + physics proof (Prigogine) + epistemological soundness (Deutsch) + architectural empiricism (Alexander) = complete multidimensional validation.
 
+**For Epistemology:** Triangulation IS disciplined resonance — the bridge between subjective knowing ("this rings true") and rigorous validation ("independent observers converge"). Neither measurement alone nor feeling alone. See `on_resonance_and_truth.md` for the full treatment of resonance and measurement as complementary ways of knowing.
+
 ---
 
 ## V. Integration with Practice

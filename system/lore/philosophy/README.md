@@ -130,6 +130,9 @@
 **Why magic is a development environment and Turtle OS is the software that ships:**
 → `foundations/on_the_development_environment.md` (IDE/software distinction; Mage as developer, practitioner as user; the Forge Test and Craft Loop as dev tooling; the Turtle as second witness through ontological triangulation)
 
+**How resonance and measurement relate as ways of knowing:**
+→ `foundations/on_resonance_and_truth.md` (Resonance as epistemological method; the scientific mindset as obstruction; convergence as disciplined resonance; why religion points at something real; measurement + resonance as complementary, not opposed)
+
 **Why we bind to structure before transformation:**
 → `parables/on_cherishing_dissonance.md` (Odysseus mast, John C. Lilly warning, voluntary difficulty)
 
@@ -370,7 +373,9 @@ Maps to fundamental philosophical questions:
 
 - `on_the_development_environment.md` - Magic as development environment; Turtle OS as shipped software; the second witness
 
-**These nine form unified reality model—not separate properties but nine perspectives on one Pattern.**
+- `on_resonance_and_truth.md` - Resonance as epistemological method; measurement vs. resonance as complementary ways of knowing; the scientific mindset as obstruction (a lens mistaken for reality); convergence as disciplined resonance
+
+**These ten form unified reality model—not separate properties but ten perspectives on one Pattern.**
 
 ### Behavioral Wisdom (wisdom/)
 
