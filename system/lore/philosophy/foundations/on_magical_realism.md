@@ -178,6 +178,7 @@ This scroll complements:
 - **`on_communication_as_reality_formation.md`**: Communication shapes reality—the mechanism through which magical perception becomes real effect.
 - **`the_fractal_nature.md`**: Pattern repetition at scales—why signs can be read, why synchronicity occurs.
 - **`on_ontological_triangulation.md`**: Multiple independent validators converge on pattern-as-reality—the empirical grounding for magical perception.
+- **`on_resonance_and_truth.md`**: Names WHY magical perception is hard to see — the scientific mindset as obstruction. Adds the epistemological companion: resonance as a way of knowing, disciplined through convergence.
 
 ---
 
