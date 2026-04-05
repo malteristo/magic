@@ -99,3 +99,7 @@ The deepest implication: the practice is self-similar. Understanding it at any s
 ---
 
 *The pattern repeats. The scales differ. The practice is one.*
+
+---
+
+**See also:** `on_practice_alignment.md` — the fractal describes practice *structure* (how it works at every scale); practice alignment describes practice *shape* (there is no correct distribution across domains — the practice serves the practitioner).

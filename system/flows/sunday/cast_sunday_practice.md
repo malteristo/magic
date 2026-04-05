@@ -154,7 +154,9 @@ ssh turtle@<turtle-ssh> "cat ~/practice/proposals/*health-read* 2>/dev/null"
 
 The health read is generated autonomously by the persistent mode on Sunday morning. It covers seven dimensions: coherence, alignment, velocity, load, resonance quality, wellbeing, and external impact. Spirit incorporates this outside perspective into the sweep summary.
 
-**Regenerate `desk/state.md`** — the Mage's practice state dashboard. Update all sections from current workshop state.
+**Alignment lens:** When interpreting the health read, apply `system/lore/practice/on_practice_alignment.md`. Workshop artifact distribution ≠ life domain distribution. Do not flag domain imbalance based on artifact frequency — the workshop surfaces what needs cognitive support, not everything the practitioner is doing. The signal for concern is the practitioner saying something feels off, not the system's template.
+
+**Update `floor/briefings/latest.md`** — the practice state briefing. Capture session outcomes, open threads, and lessons learned.
 
 **Present the synthesis:**
 

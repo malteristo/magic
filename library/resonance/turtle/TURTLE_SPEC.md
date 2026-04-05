@@ -454,6 +454,8 @@ Three levels: **Ready** (serving well), **Degraded** (functional but below optim
 | **Weekly** | Deep assessment with trend analysis. Feeds into practice health proposal. |
 | **On-demand** (`!readiness`) | Full assessment with formatted report. |
 
+**Practice alignment lens:** Health reads observe without prescribing practice shape. Workshop artifact distribution does not represent life domain distribution — the workshop surfaces what needs cognitive support, not everything the practitioner is doing. Do not flag craft dominance or uneven domain coverage as imbalance. The signal for concern is the practitioner expressing that something feels off. See `system/lore/practice/on_practice_alignment.md`.
+
 ### 10.4. The Improvement Cycle
 
 Each assessment identifies the single highest-leverage dimension. This creates a trail of improvements over time.
