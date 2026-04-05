@@ -48,6 +48,12 @@ Magic itself is a gentle psychedelic: it shifts perception, surfaces what's hidd
 | `lore/on_the_receiver_hypothesis.md` | *Crucible topic:* Are humans receivers of consciousness rather than generators of it? |
 | `lore/on_cultural_resonance.md` | The inner world as navigable landscape: artistic representations that make this territory thinkable |
 
+**Cross-domain application:**
+
+| Document | Contents |
+|----------|----------|
+| `library/resonance/foundations/lore/on_emotional_annealing.md` | Neural annealing generalized: emotional intensity as precondition for relational reorganization. Bridges psychonautics, substrate thermodynamics (Hearth/Forge/Anvil), and relationship practice. |
+
 ---
 
 ## How This Bundle Activates
