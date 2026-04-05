@@ -36,7 +36,7 @@ The flow: **heat → shape → implement.** Hearth → Forge → Anvil. Not alwa
 
 ## III. The 2026-04-04 Instance
 
-A relationship conflict between Kermit and Nesrine on Discord. Turtle held the space while both partners expressed pain — authority undermining, defensive escalation, the cycle of conflict → "everything's okay" without real processing.
+A relationship conflict between the Mage and his partner on Discord. Turtle held the space while both partners expressed pain — authority undermining, defensive escalation, the cycle of conflict → "everything's okay" without real processing.
 
 **The heating:** Fixed relational patterns (defensive reset, authority undermining) disrupted by the emotional intensity. The old crystal structure became mobile.
 

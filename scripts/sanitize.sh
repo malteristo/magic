@@ -97,6 +97,9 @@ check_pattern '[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}' "Email address" "
 # MEDIUM: Absolute paths with real usernames
 check_pattern '/Users/kermit/' "Path with real username" "MEDIUM"
 
+# MEDIUM: Family member names (use "the Mage's partner", "the Mage's son", etc. in public scrolls)
+check_pattern '\bNesrine\b' "Family member name (use 'the Mage'\''s partner')" "MEDIUM" 'mage_seal|connections\.md'
+
 # Summary
 if [ "$FOUND" -gt 0 ]; then
   echo -e "${RED}Found ${FOUND} pattern(s) that may contain sensitive data.${NC}"
