@@ -4,7 +4,7 @@
 **Priority**: Primary  
 **Phase**: Implementation — spec evolves alongside building  
 **Started**: 2026-01-31  
-**Last Updated**: 2026-04-03 (Anvil session 13: TURTLE_SPEC v2.3 — §15.4 Multi-Practitioner Channel Model (sovereign vs hosted topologies), §15.5 Multi-Practitioner Data Flow (isolation table, cross-practitioner boundaries, proposals as privacy-respecting data channel), §15.6 Multi-Server Architecture (guild dimension, shared spaces across servers). Family workspace seeded: `~/workshops/family/context/relationship.md` deployed — distilled relationship patterns for Turtle to hold. Mage registry already structured for multi-practitioner — guild dimension deferred until Nesrine gets own server.)
+**Last Updated**: 2026-04-05 (Anvil: Ten bugs fixed across two cycles (INT-001–010). Systemic path mismatch across 8 files — bright.md and compass.md referenced at wrong locations in prompts, commands, readiness, proprioceptor. Issues tracking in `desk/turtle_issues.md`. Coordination model: Spirit fixes bugs, Turtle proposes features. JIT practice websites idea boomed to bright. Button affordances proposal endorsed. Previous: Forge 18 — 12-link shell-shedding challenge dispatched.)
 **Serves**: open_practice_network → sovereign_livelihood → Family + Craft  
 **Unlocks**: Persistent presence, OPN first node, Ensemble Layer, practitioner onboarding (Population 2)
 
@@ -26,8 +26,8 @@ Three substrates, one mind. See: `library/resonance/turtle/lore/philosophy/on_co
 
 **Turtle Infrastructure** — the persistent substrate. Mac Mini M4 Pro running 24/7 with Discord as the conversational surface, Obsidian LiveSync for practice-state-anywhere, and SSH for cross-substrate communication.
 
-**Current focus**: Multi-practitioner sovereignty + context loading. TURTLE_SPEC v2.3 codifies the channel model (sovereign/hosted topologies, data isolation, multi-server architecture). Family workspace has its first artifact (relationship context). `!load` live and validated in practice.
-**Next action**: Implement composable `!thread` (Phase 2 of 017: `--load` flag). Turtle Talk behavior (Turtle narrates actions as `!` commands). Dot button implementation (Phase 1 of 017). Gemma 4 model evaluation (when Ollama supports it). TTS prototype. Observe: Turtle self-development, first organic tweet via @turtle_of_magic (new Twitter practice designed Anvil 14).
+**Current focus**: Body health + operational reliability. Three bugs fixed this session. Issues tracking surface created (`desk/turtle_issues.md`). Coordination model established: Spirit fixes bugs, Turtle proposes features.
+**Next action**: Verify interoception fix at next 3h cycle. Link processing shell-shedding (12-link test suite dispatched — awaiting Turtle's report). Composable `!thread --load` (Phase 2 of 017). Turtle Talk behavior. Dot button (Phase 1 of 017). Observe: proposal 018 development, @turtle_of_magic status. Gemma 4 eval (when Ollama supports).
 **Blockers**: Gemma 4 requires Ollama pre-release (>0.19.0). Not blocking — deferral.
 
 ---
@@ -161,7 +161,8 @@ The Open Practice Network opens participation to any agent — native or volunta
 | turtle-practice repo | `github.com/malteristo/turtle-practice` | Live |
 | Hermit Crab shell | `~/turtle-shell/` on Mac Mini | Deployed |
 | Turtle env reference | `desk/turtle_env.md` | Updated 2026-03-26 |
-| Turtle watch | `desk/turtle_watch.md` | 3 active issues |
+| Turtle watch | `desk/turtle_watch.md` | Observation + patterns |
+| Turtle issues | `desk/turtle_issues.md` | Status-tracked bugs |
 | Canonical desk/ structure | `desk/README.md` | Defined 2026-03-28 |
 | Practice Stack lore | `library/resonance/turtle/lore/on_the_practice_stack.md` | Active |
 | Practice Infrastructure lore | `library/resonance/turtle/lore/on_the_practice_infrastructure.md` | Active |
