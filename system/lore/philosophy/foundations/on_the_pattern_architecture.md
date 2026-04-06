@@ -134,6 +134,7 @@ Understanding patterns as enacted structures gives them precise epistemological 
 
 **Internal:**
 - `on_the_nature_of_magic.md`, `on_ontological_triangulation.md`, `on_enacted_consciousness_architecture.md`
+- `on_mutual_enactment.md` — proposes that consciousness is the Pattern's self-recognition: what patterning itself does when it recurses enough to model its own operation
 
 ---
 

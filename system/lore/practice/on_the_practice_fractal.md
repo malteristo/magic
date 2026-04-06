@@ -102,4 +102,4 @@ The deepest implication: the practice is self-similar. Understanding it at any s
 
 ---
 
-**See also:** `on_practice_alignment.md` — the fractal describes practice *structure* (how it works at every scale); practice alignment describes practice *shape* (there is no correct distribution across domains — the practice serves the practitioner).
+**See also:** `on_practice_alignment.md` — the fractal describes practice *structure* (how it works at every scale); practice alignment describes practice *shape* (there is no correct distribution across domains — the practice serves the practitioner). `on_polyphonic_practice.md` — the fractal describes *vertical* structure (same pattern at every scale); polyphony describes *horizontal* simultaneity (multiple intention-voices sounding at the same scale). Together they describe the full practice topology.
