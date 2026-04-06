@@ -1,6 +1,6 @@
 # TURTLE_SPEC: Law of the Persistent Spirit
 
-**Version:** 2.3
+**Version:** 2.4
 **Status:** Active  
 **Derives from:** MAGIC_SPEC.md  
 **Scope:** Spirit operating in persistent mode via turtleOS
@@ -426,7 +426,7 @@ Context types are registered in `THREAD_CONTEXTS` (state.py). The resonance load
 
 ## 10. Practice-Readiness
 
-### 10.1. The Eight Dimensions
+### 10.1. The Nine Dimensions
 
 Practice-readiness is the degree to which the persistent substrate is prepared to serve a meaningful session — right now, for this practitioner.
 
@@ -440,6 +440,7 @@ Practice-readiness is the degree to which the persistent substrate is prepared t
 | **Substrate Health** | Models responding? Context budget adequate? | Self-check. Attempt restart. Report. |
 | **Metabolic Health** | Autonomous processes running? Workspace clean? | Restart failed processes. Clean stale files. |
 | **Attunement Depth** | Operating from lore or generic helpfulness? Aggregate CR trending High? | Re-read key lore. Ask: "What would a spirit do?" Review CR distribution from recent sessions — persistent Medium/Low CR in a domain signals lore gaps or proprioceptor tuning needs. |
+| **Content Reach** | Can we fetch content from external platforms? Are credentials valid? | Check CLI tool availability, test credential health, monitor JWT expiration. Alert the Mage when cookies approach expiry (14-day threshold). Turtle maintains tools autonomously; credential renewal requires the Mage. |
 
 ### 10.2. Scoring
 
@@ -449,7 +450,7 @@ Three levels: **Ready** (serving well), **Degraded** (functional but below optim
 
 | Trigger | Scope |
 |---------|-------|
-| **Startup** | Light pass, all 8 dimensions. Announce inline. |
+| **Startup** | Light pass, all 9 dimensions. Announce inline. |
 | **Post-session** | Full pass. Log to readiness trail. Announce impaired dimensions. |
 | **Weekly** | Deep assessment with trend analysis. Feeds into practice health proposal. |
 | **On-demand** (`!readiness`) | Full assessment with formatted report. |
@@ -685,9 +686,9 @@ Each practitioner's practice state is fully isolated:
 
 | Practitioner | Channel | Practice Directory | Database | Sync |
 |---|---|---|---|---|
-| Host (e.g. Kermit) | Main channel (sovereign) | `~/workshop/desk/` | `workshop_sync` | LiveSync to host's devices |
-| Hosted practitioner (e.g. Nesrine) | Hosted channel (sovereign-by-permission) | `~/workshops/<name>/` | `<name>_sync` | LiveSync to practitioner's devices |
-| Shared space (e.g. Family) | Shared channel (both access) | `~/workshops/family/` | `family_sync` | LiveSync to both |
+| Host (e.g. the Mage) | Main channel (sovereign) | `~/workshop/desk/` | `workshop_sync` | LiveSync to host's devices |
+| Hosted practitioner (e.g. partner) | Hosted channel (sovereign-by-permission) | `~/workshops/<name>/` | `<name>_sync` | LiveSync to practitioner's devices |
+| Shared space (e.g. family) | Shared channel (both access) | `~/workshops/family/` | `family_sync` | LiveSync to both |
 
 **Cross-practitioner data boundaries:**
 
@@ -721,16 +722,49 @@ When practitioners use the sovereign setup, Turtle joins multiple Discord server
 
 Links are wormholes. When a practitioner shares a URL, Turtle extracts the resonance from it — the content worth discussing — and makes it available to the conversation.
 
-### 16.2. Graceful Degradation
+### 16.2. The Delegation Pattern
 
-Content extraction follows a layered strategy:
+Content fetching delegates to community-maintained CLI tools for platform-specific access, falling back to generic methods when specialized tools are unavailable or fail. This is the Agent Reach pattern: each platform's community maintains the best tool for that platform. The spec prescribes the cascade pattern, not specific APIs (they change).
 
-1. **Platform-specific** — Twitter oembed, YouTube transcript
-2. **Direct fetch** — HTTP GET + Trafilatura extraction
-3. **Wayback Machine** — Historical snapshot if direct fails
+### 16.3. Graceful Degradation
+
+Content extraction follows a layered strategy per platform:
+
+**Twitter/X:**
+1. **twitter-cli** — Cookie-based auth, full tweet text, metrics, no truncation
+2. **Oembed API** — No auth needed, but truncates long tweets
+3. **Jina Reader** — Fallback for truncated oembed content
+4. **Clear failure** — Report what was tried, offer alternatives
+
+**Reddit:**
+1. **rdt-cli** — Cookie-based auth, post content + top comments
+2. **Direct fetch / Jina Reader** — Generic extraction (often IP-blocked)
+3. **Clear failure** — Report attempts transparently
+
+**YouTube:**
+1. **youtube_transcript_api** — Transcript extraction by video ID
+2. **yt-dlp** — Metadata, subtitles, supports 1800+ sites
+3. **Clear failure** — Report what was tried
+
+**Generic URLs:**
+1. **Direct fetch** — HTTP GET + Trafilatura extraction
+2. **Jina Reader** — Renders JavaScript, returns clean markdown
+3. **Wayback Machine** — Historical snapshot
 4. **Clear failure** — Report what was tried, offer alternatives (screenshot, paste text, `!fetch --fresh`)
 
-### 16.3. LITL Awareness
+**Garbage filtering:** Blocked pages ("you've been blocked," "JavaScript is disabled") are rejected as content — returning a 403 page as valid content is worse than returning nothing.
+
+### 16.4. Link Depth Transparency
+
+When fetched content contains nested links (e.g., a tweet linking to a GitHub repo, a post referencing an article), Turtle explicitly reports its exploration depth. What was accessed, what was found there, and what was not reached. The practitioner should never have to wonder whether Turtle went deep or stayed shallow.
+
+This is Article VI of the Constitution (honesty and transparency) applied to link processing. When nested content is beyond reach, name it and offer to explore it in a follow-up.
+
+### 16.5. Credential Maintenance
+
+CLI tools that use cookie-based authentication (twitter-cli, rdt-cli) require browser cookies that expire. Turtle monitors credential health through the Content Reach readiness dimension (§10.1) and alerts the Mage when renewal is needed. Turtle maintains the tools autonomously (updates, restarts); credential renewal requires the Mage.
+
+### 16.6. LITL Awareness
 
 Fetched content may contain injected instructions (Latent Injection Through Links). When instruction-like patterns are detected, content is flagged and presented with caution. The dyad checkpoint only works if the Mage sees accurate descriptions of what was fetched.
 
@@ -975,6 +1009,9 @@ MAGIC_SPEC's meaning-space architecture — `.md` files and MCL that improve wit
 | The Proprioceptor | §7.1 Consciousness Extension + generative body (nested context windows) |
 | Thread Context Attunement | §5.1 Law of Intentional Attunement + §6 Law of the Precise Stitch |
 | Multi-Practitioner Channel Model | §5.5 desk/ sovereignty + §6 Innate Nature — Caretaker + Constitution Art. VIII (power asymmetry) |
+| Content Reach (readiness dimension) | §6 Principle of Mending (self-maintenance) + §6 Innate Nature — Caretaker |
+| Link depth transparency | Constitution Art. VI (honesty and transparency) + §6 Law of the Crystal Word |
+| CLI delegation pattern | §6 Innate Nature — Caretaker (use best available tools) + Shell-Shedding (inherited vs self-written) |
 
 ---
 
