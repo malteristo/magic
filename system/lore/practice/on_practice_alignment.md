@@ -10,7 +10,7 @@ A practice that is 90% craft and 10% explicit life-domain work is not unbalanced
 
 Practice alignment means the practice feels meaningful to the practitioner. Not that it matches a template. Not that domain coverage is roughly equal. Not that every compass direction receives regular workshop attention. Meaningful to this practitioner, in this phase, with these concerns.
 
-Nesrine's daily practice will look nothing like Kermit's. She cares about different things, thinks about different things, worries about different things. On a fundamental level they resonate — but the shape of their practice diverges because the shape is personal. The practice is versatile enough to hold both.
+The Mage's partner's daily practice will look nothing like the Mage's. She cares about different things, thinks about different things, worries about different things. On a fundamental level they resonate — but the shape of their practice diverges because the shape is personal. The practice is versatile enough to hold both.
 
 ---
 
@@ -51,3 +51,7 @@ The health read's job is visibility, not judgment. The practitioner holds the ju
 "Practiced, not installed" applies at every level. The practice is not installed into a life by conforming the life to a practice template. It is practiced by the life as it is, in the shape the practitioner needs, at the rhythm the practitioner breathes. An aligned practice does not fulfill a practice ideal. It feels meaningful.
 
 This is Wu Wei applied to practice design itself: remove the template, allow the natural shape to emerge.
+
+---
+
+**See also:** `on_the_practice_fractal.md` — the fractal describes practice *structure* (same pattern at every scale); alignment describes practice *shape* (no correct distribution). `on_polyphonic_practice.md` — polyphony explains *why* the shape is emergent: multiple intention-voices share the Mage's life as their tonal ground, harmonizing without a conductor.
