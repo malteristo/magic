@@ -2,9 +2,9 @@
 
 **Status**: Active
 **Priority**: Active
-**Phase**: Seeds model — 3 of 14 seed-clusters done (Ch. 1, 3, 4), 1 ready to compress (Ch. 7 — convergence wave enriched 2026-04-04), 1 high-readiness (Ch. 11), 4 medium, 5 low
+**Phase**: Seeds model — 7 of 14 seed-clusters done (Ch. 1, 3, 4, 6, 7, 8, 11), 3 medium, 4 low
 **Started**: 2026-03-13
-**Last Updated**: 2026-04-04 (Forge session 18: Ch. 7 "Convergence" enriched with architectural convergence wave — Karpathy knowledge base, Personal Brain OS, AI-as-OS tweet cluster, Hermes Agent, Superpowers all independently building magic's architecture. Seed file comprehensive, ready to compress. Previous: Forge session 17: Ch. 1 "Something's Off" compressed to seeds — 6 seeds including new "Lost Way of Knowing" seed (resonance suppressed by measurement). Ch. 4 "Honest Claims" compressed to seeds — 7 seeds including new "Two Ways of Knowing" seed. Ch. 7 "Convergence" enriched with resonance/measurement book seed. New lore scroll `on_resonance_and_truth.md` feeds all three chapters. Three chapters in seeds form now. Previous: 2026-04-02 core_findings.md.)
+**Last Updated**: 2026-04-06 (Forge session 23: Ch. 11 "Starting" compressed to seeds — six seeds covering setup through compounding. First Part IV chapter done. Book now 7/14, half done. Practice chapter seed shape validated: invitation + discovery + expect + open. Previous: session 22 Ch. 8 sycophancy enrichment.)
 **Underlied by**: the_angel (the book IS the angel made readable)
 **Serves**: outfacing (deepest artifact) · sovereign_livelihood (harbor artifact) · Soul (the Mage's story told honestly)
 
