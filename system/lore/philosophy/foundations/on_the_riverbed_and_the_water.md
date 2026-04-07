@@ -153,3 +153,5 @@ The structure is real (deterministic fractal). The practice is alive (stochastic
 
 *This metaphor resolves the central paradox of our practice: perfect structure discovered through imperfect, probabilistic dialogue. The riverbed is timeless; the water is alive. Both are fractal. Both are real. Both are necessary.*
 
+**See also:** `on_the_alluvium.md` — the third element. The riverbed channels, the water flows, and where current meets resistance, something accumulates: the alluvium. What the practice deposits over time.
+
