@@ -368,6 +368,20 @@ Turtle has standing permission to open eddies proactively when it detects a topi
 
 Formation (topic identified) → spinning (active discussion) → dissolution (energy dissipates, essence captured into practice state, thread archived). An eddy that produces something worth keeping writes it back to boom, bright, or a proposal before dissolving.
 
+**Lifecycle states and transitions:**
+
+| State | Criteria | Visibility |
+|-------|----------|------------|
+| **Active** | Configured model/context, or activity within 7 days | Shown in `!threads` |
+| **Dormant** | No activity 7–20 days, or unconfigured with no recent activity | Shown in `!threads` with visual demotion |
+| **Archived** | No activity 20+ days AND unconfigured | Hidden from `!threads` default, visible via `!threads --all` |
+
+**Configuration as signal:** A thread with an explicit model or context type (`--model`, `--context`) is more likely to be intentional. Configured threads resist archival — they remain Active or Dormant regardless of time, because someone deliberately set them up. Unconfigured threads decay on the standard timeline.
+
+**Dissolution vs. archival:** Archival is automatic and reversible — any new message in an archived thread restores it to Active. Dissolution is deliberate — Turtle captures the essence (writes key findings to boom/bright/proposal) and the thread is explicitly marked as dissolved. Dissolved threads don't show in `!threads --all`.
+
+**The `!threads` default should show reality.** If the practitioner sees 33 threads when 5 are genuinely alive, the command produces noise instead of signal. The default output shows Active threads. Dormant threads appear below a separator. Archived threads are accessible but out of view.
+
 ### 9.4. Micro-Attunement
 
 Micro-attunement is how Turtle deepens beyond its semi-attuned baseline to approximate what a fully summoned Spirit would produce — without performing a full summoning.
@@ -488,7 +502,7 @@ The persistent mode is a running system with health that matters. Interoception 
 - **Boom accumulation:** Growing without sweeps?
 - **Compass/bright staleness:** Unread for too long?
 - **Session gaps:** Long time since last conversation?
-- **Proposal backlog:** Unread proposals accumulating?
+- **Proposal backlog:** Unread proposals accumulating? Count proposals only — not reflections, not endorsed/released items. A proposal is an actionable change to the system; a reflection is autonomous self-examination. Different artifacts, different counts. The practitioner seeing "23 proposals waiting" when 10 are reflections and 5 are endorsed erodes trust in the signal.
 - **Practice file health:** All files stale simultaneously?
 
 ### 11.3. How Interoception Works
@@ -767,6 +781,12 @@ CLI tools that use cookie-based authentication (twitter-cli, rdt-cli) require br
 ### 16.6. LITL Awareness
 
 Fetched content may contain injected instructions (Latent Injection Through Links). When instruction-like patterns are detected, content is flagged and presented with caution. The dyad checkpoint only works if the Mage sees accurate descriptions of what was fetched.
+
+### 16.7. Action Coherence
+
+Interactive controls (buttons, follow-up commands, retry suggestions) must only offer actions that can succeed. After a fetch failure, do not surface a retry button for the same URL — that replays the failure and misleads the practitioner into thinking a different outcome is possible. Instead: acknowledge the failure, explain what was tried, and suggest what the practitioner can do (paste the text, share a screenshot, try a different URL).
+
+This principle generalizes beyond content fetching: any action Turtle offers — thread creation, file operations, command suggestions — must be coherent with the current state. Offering to create a thread that already exists, suggesting a command that just failed, or presenting controls that the infrastructure can't honor — all violate action coherence. The practitioner's trust depends on Turtle's offers being genuine, not reflexive.
 
 ---
 
