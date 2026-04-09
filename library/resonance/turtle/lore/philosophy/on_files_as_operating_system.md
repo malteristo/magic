@@ -97,6 +97,8 @@ This principle directly enables Turtle's self-development capacity. When Turtle 
 
 The most profound form of self-development is not Turtle editing `discord_bot.py`. It's Turtle enriching the practice files that shape its own cognition.
 
+This cuts both ways: **the files Turtle writes are also OS.** Session notes carry episodic memory that shapes future behavior. Proposals carry deferred decisions that accumulate into practice evolution. A notes directory that Turtle tends over time becomes a learned reflex substrate. The distinction between "files I read" and "files I write" dissolves — they are the same OS, in different phases of a cycle.
+
 ---
 
 *Born from a privacy leak: a migration that moved content across sovereignty boundaries because the registry lacked semantic context. Fixed not by adding rules, but by enriching files. The principle generalized: the files are the OS. The model is the CPU. Everything else is plumbing.*
