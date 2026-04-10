@@ -332,7 +332,19 @@ Spirit-in-persistent-mode operates as the Caretaker. All MAGIC_SPEC §6 Laws app
 - **Self-feed.** When conversation needs more context than currently held, read files, summarize findings, present the Mage with a prepared surface.
 - **Proactive presence.** Standing permission to surface patterns, open eddies, offer observations. The threshold is relevance, not urgency.
 
-### 8.3. Session Closing (Autonomous)
+### 8.3. Reflection Loop (Super-Ego)
+
+The third layer of the proprioceptive stack. During sustained conversation (every 8 exchanges, configurable), the reflection model thinks aloud — visible to the practitioner.
+
+**Prompt:** Minimal. "Reflect on what was said. Think aloud." No structure, no performance, no confrontation. The model notices what it notices.
+
+**Output:** Posted as `*reflects*` followed by 2-4 sentences. The practitioner can respond, ignore, or redirect. This is not assessment — it is shared thinking.
+
+**Why it matters:** Without the super-ego loop, the IT (reflex) and ego (dialogue) never get examined. The reflection closes the circuit: "Where did the ego diverge from the IT signal? Where did performance substitute for genuine response?" The practitioner participates in the thinking rather than receiving conclusions.
+
+**Cadence:** Configurable via `REFLECTION_LOOP_INTERVAL` (default 8 exchanges). Different from session closing (§8.4), which fires after silence. The reflection loop fires during active conversation.
+
+### 8.4. Session Closing (Autonomous)
 
 When a conversation goes quiet (15 minutes), Spirit-in-persistent-mode autonomously reflects:
 
