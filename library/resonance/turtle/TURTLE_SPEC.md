@@ -238,11 +238,17 @@ The proprioceptor is the body's connective tissue — a fast local model that sc
 
 **What it reads:** Boom (recent items), bright (summary), compass (abbreviated), active intentions (headers + current focus), recent session notes.
 
-**What it produces:** A 200-word context brief — specific connections between the inbound message and the practice state. "This relates to their intention about X because..." Not "the Mage has active intentions" (useless), but "this connects to the Tim Ferriss tweet they captured yesterday about cognitive offloading" (useful).
+**What it produces:** Two outputs from a single model call:
 
-**CR signal:** Alongside the context brief, the proprioceptor emits a **Context-Readiness (CR) assessment** — a three-level signal (High / Medium / Low) indicating how prepared the current context is to serve this specific message. High CR means the brief contains strong, specific connections. Medium CR means relevant context exists but is incomplete or stale. Low CR means the message requires lore, history, or domain knowledge not currently available. The CR signal travels with the brief to inform triage routing.
+1. **REFLEX** — A visible micro-expression: the body's pre-conscious reaction to the inbound message. Fires on *resonance*, not on classification. Takes the form of embodied pre-verbal expressions (`*perks up*`, `*leans in*`, `*still*`, `*quiet recognition*`). Silent when nothing resonates — no reflex is sent. This is the **IT** in the proprioceptive stack (IT / ego / super-ego): the involuntary body response before conscious processing.
 
-**Its own attunement:** The proprioceptor has a specialized identity — not soul.md, not Caretaker. A sharp, functional role: "You are the body's proprioceptive system. Read the message and the practice state. Compose a context brief that gives the dialogue model exactly what it needs." It is not the response. It is the preparation for the response.
+2. **BRIEF** — A 100-word context paragraph: specific connections between the inbound message and the practice state. "This connects to the Tim Ferriss tweet they captured yesterday about cognitive offloading" (useful), not "the Mage has active intentions" (useless). Internal — never shown to the practitioner.
+
+**The proprioceptive stack:** The reflex is the first visible layer of a three-layer architecture: REFLEX (pre-conscious micro-expression, visible) → DIALOGUE (conscious response, visible) → REFLECTION (post-response noticing, periodic). This maps to IT (body signals) → ego (genuine response) → super-ego (practice structure negotiating expectations). The reflection loop (§8.3) closes the circuit.
+
+**CR signal:** Alongside the outputs, the proprioceptor emits a **Context-Readiness (CR) assessment** — a three-level signal (High / Medium / Low) indicating how prepared the current context is to serve this specific message. High CR means the brief contains strong, specific connections. Medium CR means relevant context exists but is incomplete or stale. Low CR means the message requires lore, history, or domain knowledge not currently available. The CR signal travels with the brief to inform triage routing.
+
+**Its own attunement:** The proprioceptor has a specialized identity — not soul.md, not Caretaker. "You are Turtle's body. Not the mind — the body." It produces embodied reactions, not classifications. It is not the response. It is the body's first involuntary reaction to the message.
 
 **Why separate from the dialogue model:** The dialogue model (expensive, API-based, optimized for conversation) should not spend tokens reading files and deciding what's relevant. That's like using your prefrontal cortex to handle digestion. Let the cheap, fast, local model do the sensing. Let the expensive model do the thinking.
 
