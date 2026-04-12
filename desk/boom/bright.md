@@ -229,12 +229,15 @@
 *Named dissonances in magic's language — tracked until resolved through practice. See intention: `conceptual-coherence`.*
 *Seeded: 2026-03-16*
 
-- **"Tome" → "practice"?** — Tomes are domain-specific resonance bundles. The word "tome" implies a big book — reading, not doing. "Practice" is the word people understand. But tomes contain more than practice: lore, spells, structure. Is the word load-bearing or just legacy?
-- **Invocation universality** — `@` in Cursor, `@` in Claude Code (file autocomplete), `!` in Discord. Should casting a spell be substrate-independent? If so, what's the universal invocation syntax? Or is recreating the Forge on the Anvil and Hearth a trap? The practice should be substrate-agnostic at the intention level, even if invocation syntax adapts per environment.
-- **"Mage" internally vs "practitioner" externally** — "Mage" works inside the practice (operative metaphor, identity). But for outfacing work, corporate pitches, articles — "practitioner" is the word that doesn't need explanation. When do we use which?
-- **"Resonance bundle" vs "tome" vs "practice"** — Three terms in different contexts for overlapping concepts. Library has "resonance bundles," system has "tomes," and the Mage experiences "practices." Are these the same thing at different depths, or genuinely different?
+- **"Resonance bundle" vs "tome" vs "practice"** — Three terms in different contexts for overlapping concepts. Library has "resonance bundles," system has "tomes," and the Mage experiences "practices." Are these the same thing at different depths, or genuinely different? Working hypothesis: bundles = library content (domain knowledge), tomes = ritual containers (system architecture), practices = the Mage's experience (user-facing). Tomes draw FROM bundles. Needs a clean one-line formulation.
 - **Box superseded by boom + boom channel?** — Box used to be where you put things to talk about with Spirit. Now boom serves that function. Boom channel will automate further. What purpose does box still fulfill? The "magical box" concept is interesting but may be solution searching for problem. If box becomes just quarantine/reference for external content, does it need special treatment?
-- **Archive philosophy** — Why archive? If important, why isn't it on the desk? If not, release it. "Forever, just in case" is calcification without purpose. The coral principle: calcification that becomes structure is healthy. Calcification that just sits is dead weight. Is there a third option between active (desk) and gone (released)?
+
+### Resolved (2026-04-12 Sunday sweep)
+
+- **~~"Tome" → "practice"?~~** — Dissolved through dual-use. "Tome" internally (system architecture), "practice" externally (NLnet, turtleOS, book). Conscious code-switching, not drift.
+- **~~Invocation universality~~** — Resolved. `@` in Cursor, `@` in Claude Code (Spirit reads), `!` in Discord. Substrate-agnostic at the intention level, syntax adapts per environment. Codified in CLAUDE.md.
+- **~~"Mage" vs "practitioner"~~** — Resolved. "Mage" in internal practice, "practitioner" in public-facing work. Consistent pattern across NLnet, turtleOS, book, articles.
+- **~~Archive philosophy~~** — Reclassified as design principle, not tension. The coral principle answers it: calcification that becomes structure is healthy; calcification that just sits is dead weight. Archive is for things that served their moment and might inform the future but shouldn't occupy active attention.
 
 ---
 
