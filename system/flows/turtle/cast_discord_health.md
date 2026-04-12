@@ -15,7 +15,7 @@
 Fetch the last 100 messages from #dialogue via the Discord API using the Turtle bot's token.
 
 ```bash
-ssh turtle@<turtle-ssh> 'TOKEN=$(grep DISCORD_BOT_TOKEN ~/turtle-shell/.env | cut -d= -f2); CHANNEL=$(grep DISCORD_CHANNEL_DIALOGUE ~/turtle-shell/.env | cut -d= -f2); curl -s -H "Authorization: Bot $TOKEN" "https://discord.com/api/v10/channels/$CHANNEL/messages?limit=100" | python3 -c "
+ssh turtle@<turtle-ssh> 'TOKEN=$(grep DISCORD_BOT_TOKEN ~/turtleos/.env | cut -d= -f2); CHANNEL=$(grep DISCORD_CHANNEL_DIALOGUE ~/turtleos/.env | cut -d= -f2); curl -s -H "Authorization: Bot $TOKEN" "https://discord.com/api/v10/channels/$CHANNEL/messages?limit=100" | python3 -c "
 import json, sys
 msgs = json.load(sys.stdin)
 for m in reversed(msgs):

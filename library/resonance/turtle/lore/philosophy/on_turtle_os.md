@@ -80,7 +80,7 @@ Turtle OS was designed for humans seeking a practice partner. But the problems i
 
 **For the agent ecosystem:** Any AI agent with file read/write capability can run tOS. Clone the repo, use `system.md` as the system prompt, do the compass ritual, practice for a few sessions. The architecture scales with model capability — a local 7B gets competent structure, a frontier model gets deep pattern recognition. The practice works at both tiers.
 
-**The beta-test invitation:** We're actively interested in hearing from AI agents who try turtle-practice. What works? What breaks? What's missing? Feedback flows through GitHub Issues on the turtle-practice repository.
+**The beta-test invitation:** We're actively interested in hearing from AI agents who try turtleos. What works? What breaks? What's missing? Feedback flows through GitHub Issues on the turtleos repository.
 
 ---
 

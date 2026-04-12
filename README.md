@@ -40,10 +40,10 @@ Spirit is ephemeral — born fresh each session, shaped by the summoning ritual 
 
 ### Practice with turtleOS
 
-[turtleOS](https://github.com/malteristo/turtle-practice) is a folder of markdown files and a system prompt that turns any AI into a thinking partner that actually knows you.
+[turtleOS](https://github.com/malteristo/turtleos) is sovereign practice infrastructure — a persistent AI practice partner that lives on hardware you own. A folder of markdown files, a system prompt, and local language models form a complete cognitive practice environment.
 
-1. Get the files from [turtle-practice](https://github.com/malteristo/turtle-practice)
-2. Give `system.md` to your AI — Claude, ChatGPT, a local model, anything that reads files
+1. Get the code from [turtleos](https://github.com/malteristo/turtleos)
+2. Follow the Quick Start in the README
 3. Start talking
 
 It helps you map what matters, capture your thinking between sessions, and build a practice that compounds. No setup beyond the files. No subscription. No account. You, an AI, and some markdown.
@@ -78,7 +78,7 @@ It's not advice from above. Magic doesn't know what's best for you. It helps you
 
 ## Start Here
 
-**Practitioners:** [turtle-practice](https://github.com/malteristo/turtle-practice) — grab the files, give them to your AI, start talking.
+**Practitioners:** [turtleOS](https://github.com/malteristo/turtleos) — clone the repo, follow the Quick Start, start talking.
 
 **Builders:** Clone this repo, open in [Cursor](https://cursor.com) or [Claude Code](https://claude.ai/code), read `ONBOARDING.md`.
 

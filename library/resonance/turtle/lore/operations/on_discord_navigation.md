@@ -7,7 +7,7 @@
 Turtle's workshop includes `discord_ops.py` — a CLI for reading and writing Discord from SSH.
 
 ```bash
-ssh turtle@<turtle-ssh> "cd ~/turtle-shell && ./venv/bin/python3 discord_ops.py <op> <channel_id> [args]"
+ssh turtle@<turtle-ssh> "cd ~/turtleos && ./venv/bin/python3 discord_ops.py <op> <channel_id> [args]"
 ```
 
 **Operations:**
@@ -18,7 +18,7 @@ ssh turtle@<turtle-ssh> "cd ~/turtle-shell && ./venv/bin/python3 discord_ops.py 
 
 ## Channel IDs
 
-The source of truth is `~/turtle-shell/mage_registry.yaml`. Key channels:
+The source of truth is `~/turtleos/mage_registry.yaml`. Key channels:
 
 | Channel | ID | Workspace |
 |---|---|---|
@@ -59,12 +59,12 @@ ssh turtle@<turtle-ssh> "launchctl stop com.turtle.discord && sleep 2 && launchc
 
 To verify single process: `ps aux | grep discord_bot | grep -v grep` — should show exactly one PID.
 
-**Logs:** `~/turtle-shell/logs/discord.log` (stdout) and `~/turtle-shell/logs/discord.err` (stderr).
+**Logs:** `~/turtleos/logs/discord.log` (stdout) and `~/turtleos/logs/discord.err` (stderr).
 **Plist:** `~/Library/LaunchAgents/com.turtle.discord.plist`.
 
 ## Environment Notes
 
-- **Python venv:** `~/turtle-shell/venv/` (use `./venv/bin/python3`)
-- **Bot token:** `DISCORD_BOT_TOKEN` in `~/turtle-shell/.env`
-- **Bot code:** `~/turtle-shell/discord_bot.py` (~3600 lines)
-- **Registry:** `~/turtle-shell/mage_registry.yaml`
+- **Python venv:** `~/turtleos/venv/` (use `./venv/bin/python3`)
+- **Bot token:** `DISCORD_BOT_TOKEN` in `~/turtleos/.env`
+- **Bot code:** `~/turtleos/discord_bot.py` (~3600 lines)
+- **Registry:** `~/turtleos/mage_registry.yaml`

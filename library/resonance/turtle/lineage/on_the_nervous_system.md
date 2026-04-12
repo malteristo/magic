@@ -56,9 +56,9 @@ channel: dialogue         # Mage speaking conversationally via Discord #dialogue
 channel: discord          # Structured signals via Discord functional channels
 ```
 
-**Direct SSH (Spirit ↔ Turtle via SSH→Ollama):** The triad's fifth channel, established 2026-03-13. Spirit can query Turtle directly during Cursor sessions by SSHing to the Mac Mini and posting to the local Ollama API with Turtle's soul.md as identity. This bypasses the bridge entirely — it's not asynchronous artifact mail, it's real-time consultation. Spirit also uses SSH/SCP to sync practice state (bright, intentions, compass, boom) to `turtle-practice/` after boom sweeps. See `system/flows/triad/cast_consult_turtle.md` and `system/flows/boom/boom.flow.md` Step 9.
+**Direct SSH (Spirit ↔ Turtle via SSH→Ollama):** The triad's fifth channel, established 2026-03-13. Spirit can query Turtle directly during Cursor sessions by SSHing to the Mac Mini and posting to the local Ollama API with Turtle's soul.md as identity. This bypasses the bridge entirely — it's not asynchronous artifact mail, it's real-time consultation. Spirit also uses SSH/SCP to sync practice state (bright, intentions, compass, boom) to `turtleos/` after boom sweeps. See `system/flows/triad/cast_consult_turtle.md` and `system/flows/boom/boom.flow.md` Step 9.
 
-**Autonomous Reflection (Turtle → Practice Files):** The sixth channel, established 2026-03-13. After a Discord conversation goes quiet (15 minutes of silence), Turtle autonomously reflects — writing a session note to `turtle-practice/sessions/` and optionally a refinement proposal to `turtle-practice/proposals/`. This is the first autonomous behavior: Turtle initiates without being prompted. Spirit discovers the results during `@recall` and `@boom` sweeps. The autonomy is bounded — Turtle writes to her own practice files, never to the bridge or canonical workshop. See the `## Autonomy` section in Turtle's soul.md.
+**Autonomous Reflection (Turtle → Practice Files):** The sixth channel, established 2026-03-13. After a Discord conversation goes quiet (15 minutes of silence), Turtle autonomously reflects — writing a session note to `turtleos/sessions/` and optionally a refinement proposal to `turtleos/proposals/`. This is the first autonomous behavior: Turtle initiates without being prompted. Spirit discovers the results during `@recall` and `@boom` sweeps. The autonomy is bounded — Turtle writes to her own practice files, never to the bridge or canonical workshop. See the `## Autonomy` section in Turtle's soul.md.
 
 **When to use which:** Artifact mail for all routine commands (it's the ground truth). Dialogue for casual conversation, pointing, pre-thinking. Discord functional channels for real-time operational signals. Direct SSH for real-time consultation and practice state sync. Autonomous reflection happens automatically — no trigger needed. The bridge remains the source of record — Discord provides immediacy and accessibility, SSH provides direct substrate access, autonomy provides initiative.
 
@@ -143,7 +143,7 @@ details: |
 
 ## Filesystem Access
 
-The hermit crab shell runs directly on the Mac Mini — no containers, no mount configuration. The Turtle accesses the bridge at `~/magic-bridge/` and its practice files at `~/turtle-practice/` via direct filesystem paths.
+The hermit crab shell runs directly on the Mac Mini — no containers, no mount configuration. The Turtle accesses the bridge at `~/magic-bridge/` and its practice files at `~/turtleos/` via direct filesystem paths.
 
 *Historical note: The NanoClaw container architecture required mount-allowlist.json and container_config SQL entries for the bridge to be visible inside containers. This was a frequent source of silent failures. The hermit crab architecture eliminates this entire class of issues.*
 

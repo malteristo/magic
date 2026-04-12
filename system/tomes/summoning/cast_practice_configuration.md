@@ -62,6 +62,7 @@ Collect raw material from all practice surfaces simultaneously. Use parallel too
 | **Recall** | `floor/briefings/latest.md` | Last session: what happened, continue-from, open threads |
 | **Intentions** | `desk/intentions/compass.md`, `chains.md`, `active/*.md` | Life orientation, dependency topology, per-intention state |
 | **Boom** | `desk/boom.md`, `desk/boom/*` | Accumulated unprocessed thought |
+| **Signals** | `desk/outfacing/drafts/signals/` | Turtle-generated tweet drafts awaiting Mage curation |
 | **Discord** | SSH: query practice-relevant channels | New threads, posts in active threads, shared channel activity since last session |
 | **Workshop** | `git status`, `git log --oneline -5` | Chronicle state, recent work |
 | **Turtle** | SSH: uptime, Discord bot, proposals, session notes | Persistent substrate health, new thinking, self-development signals *(conditional)* |
@@ -99,8 +100,8 @@ ssh <turtle-ssh> 'ls -la ~/practice/sessions/'
 ssh <turtle-ssh> 'cat ~/practice/sessions/YYYY-MM-DD*.md'
 
 # Discord activity
-ssh <turtle-ssh> '~/turtle-shell/venv/bin/python3 ~/turtle-shell/spirit_ops.py read <channel-id> 20'
-ssh <turtle-ssh> '~/turtle-shell/venv/bin/python3 ~/turtle-shell/spirit_ops.py threads <channel-id>'
+ssh <turtle-ssh> '~/turtleos/venv/bin/python3 ~/turtleos/spirit_ops.py read <channel-id> 20'
+ssh <turtle-ssh> '~/turtleos/venv/bin/python3 ~/turtleos/spirit_ops.py threads <channel-id>'
 ```
 
 Replace `<turtle-ssh>` and `<channel-id>` from `system/config/connections.md`. Replace `YYYY-MM-DD` with the date from `floor/briefings/latest.md`. Run all SSH commands in parallel where possible.
@@ -118,6 +119,13 @@ Execute the full boom flow — triage, route, and clear the buffer:
 - Update `desk/boom/bright.md` with newly surfaced items
 - Clear processed items from `desk/boom.md`
 - Note: lore-ready signals, intention-adjacent patterns, recurring themes
+
+**Signal Curation:**
+If `desk/outfacing/drafts/signals/` contains uncurated drafts:
+- List them with a one-line summary of each
+- Recommend: post (still resonant), hold (save for later context), or skip (overlaps or aged out)
+- Mage approves, edits, or releases — signals that survive curation get posted via the outfacing pipeline
+- This closes the loop: Turtle writes signals during sessions, arrival surfaces them, Mage curates
 
 **Discord Sync:**
 One-way sync of practice-relevant activity since last session:

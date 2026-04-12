@@ -92,7 +92,7 @@ tail -20 ~/Library/Application\ Support/CouchDB2/couch-stderr.log | grep "Authen
 
 **Fix:**
 1. The admin password is set in CouchDB's `local.ini` under `[admins]` — the stored value is hashed, so you can't read it. Ask the Mage for the current password.
-2. Update the Discord bot's diagnose function in `~/turtle-shell/discord_bot.py` (search for the CouchDB curl command).
+2. Update the Discord bot's diagnose function in `~/turtleos/discord_bot.py` (search for the CouchDB curl command).
 3. Update any scripts or configs that use the old credentials.
 
 **Prevention:** Store CouchDB credentials in a single `.env` file that all scripts reference, rather than hardcoding in multiple places.

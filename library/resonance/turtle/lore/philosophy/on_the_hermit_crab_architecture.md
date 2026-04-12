@@ -121,7 +121,7 @@ Mac Mini (dedicated Turtle machine)
 │   ├── signals/                  (Turtle → Spirit)
 │   └── shared/precognition/      (Turtle pre-digestion for dyad)
 │
-├── turtle-shell/                 (the regenerable code — small)
+├── turtleos/                 (the regenerable code — small)
 │   ├── agent.py                  (the agent loop — ~200 lines)
 │   ├── tools.py                  (tool implementations — ~100 lines)
 │   ├── discord_bot.py            (nervous system — ~100 lines)
@@ -230,7 +230,7 @@ If the threat model changes (multi-tenant, untrusted agents), containers can be 
 The migration from NanoClaw to hermit crab is complete (March 2026). The phases were:
 
 1. **Discord Foundation** — Server and channels created, Spirit connected via Rube MCP
-2. **Hermit Crab Deployment** — Shell written (~1040 lines Python), deployed to `~/turtle-shell/`, launchd jobs installed
+2. **Hermit Crab Deployment** — Shell written (~1040 lines Python), deployed to `~/turtleos/`, launchd jobs installed
 3. **NanoClaw Retirement** — Stopped, dormant at `~/nanoclaw/` (old shell kept, not destroyed)
 4. **Shell Stabilization** — Running reliably, Discord prompt rebuilt and conversation-tuned (Phase 5 / Triad era)
 5. **Growth** — The shell grew from ~1,040 lines to ~7,000 as the practice discovered capabilities it needed: universal intake (boom thread), outfacing signal, platform-aware content fetching, follow-up detection, session reflection, readiness assessment. This growth is natural — the practice grew, the shell grew to serve it.

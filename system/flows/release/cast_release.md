@@ -250,7 +250,7 @@ Practice state syncs automatically via LiveSync — Turtle reads directly from `
 
 **Calibration** (see `system/flows/turtle/cast_calibrate.md`):
 - Verify bot process health: `ssh turtle@<turtle-ssh> "pgrep -f discord_bot && echo running"`
-- If soul.md was updated this session, deploy it: `scp library/resonance/turtle/shell/global.CLAUDE.md turtle@<turtle-ssh>:~/turtle-shell/identity/soul.md`
+- If soul.md was updated this session, deploy it: `scp library/resonance/turtle/shell/global.CLAUDE.md turtle@<turtle-ssh>:~/turtleos/identity/soul.md`
 - If bot code changes were made, restart: `ssh turtle@<turtle-ssh> "launchctl stop com.turtle.discord && launchctl start com.turtle.discord"`
 - Note calibration status in release bundle
 

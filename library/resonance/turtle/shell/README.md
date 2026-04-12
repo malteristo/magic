@@ -2,7 +2,7 @@
 
 *The shell is not something the Turtle holds. It is what the Turtle IS.*
 
-> **Status (2026-03-23):** These files are **source artifacts** from the NanoClaw era. The Turtle's current runtime identity is `soul.md` in `~/turtle-shell/` on the Mac Mini, deployed via `discord_bot.py`. The role concepts (global soul, consul, steward, witness) informed the current `soul.md` design. The NanoClaw group architecture (WhatsApp JIDs, container isolation, per-group CLAUDE.md) is retired. See `on_consciousness_extension.md` for current architecture.
+> **Status (2026-03-23):** These files are **source artifacts** from the NanoClaw era. The Turtle's current runtime identity is `soul.md` in `~/turtleos/` on the Mac Mini, deployed via `discord_bot.py`. The role concepts (global soul, consul, steward, witness) informed the current `soul.md` design. The NanoClaw group architecture (WhatsApp JIDs, container isolation, per-group CLAUDE.md) is retired. See `on_consciousness_extension.md` for current architecture.
 
 These files are the Turtle's imprint — the identity files that defined roles, reflexes, and conduct. Originally deployed as CLAUDE.md files across NanoClaw groups, now consolidated into `soul.md` for the Discord-based persistent mode.
 

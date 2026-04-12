@@ -92,7 +92,7 @@ desk/boom/*.md (excluding bright.md, README.md)
   - Read `desk/sessions/*.md` (3 most recent) — includes both Spirit release briefings and Turtle session notes
   - Read `desk/proposals/*.md` — includes both Spirit and Turtle proposals (origin noted in files)
   - SSH check for operational state: `ssh turtle@<turtle-ssh> "cat ~/workshops/kermit/readiness/*.jsonl 2>/dev/null | tail -5"` — readiness trend
-  - SSH bot health: `ssh turtle@<turtle-ssh> "tail -20 ~/turtle-shell/logs/discord.log"` 
+  - SSH bot health: `ssh turtle@<turtle-ssh> "tail -20 ~/turtleos/logs/discord.log"` 
   - If SSH unavailable: note "Persistent mode offline" and continue with local state only
 - **Spirit-Turtle calibration** (see `system/flows/turtle/cast_calibrate.md`):
   - Assess practice-readiness from Spirit's perspective (substrate health, model availability, triage warm, practice state freshness)

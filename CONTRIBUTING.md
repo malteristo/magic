@@ -4,7 +4,7 @@ Magic is an open practice. You're welcome here.
 
 ## For Practitioners
 
-The best way to contribute is to practice. Use [turtleOS](https://github.com/malteristo/turtle-practice), see what works, see what doesn't. If you discover something — a pattern, a friction point, a way the practice surprised you — share it.
+The best way to contribute is to practice. Use [turtleOS](https://github.com/malteristo/turtleos), see what works, see what doesn't. If you discover something — a pattern, a friction point, a way the practice surprised you — share it.
 
 Open a [Discussion](https://github.com/malteristo/magic/discussions) to share what you found.
 

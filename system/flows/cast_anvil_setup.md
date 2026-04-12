@@ -78,7 +78,7 @@ Run these checks to confirm the environment is ready:
 - If neither works: Turtle may be offline, or Tailscale not connected
 
 ### 3c. Spirit Discord ops
-- `ssh turtle@<turtle-ssh> 'ls ~/turtle-shell/spirit_ops.py'` — Verify spirit_ops.py exists
+- `ssh turtle@<turtle-ssh> 'ls ~/turtleos/spirit_ops.py'` — Verify spirit_ops.py exists
 - Don't send a test message — that's visible to others
 
 ### 3d. Git
