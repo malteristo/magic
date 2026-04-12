@@ -4,7 +4,7 @@
 **Priority**: Active  
 **Phase**: Foundation  
 **Started**: 2026-03-01  
-**Last Updated**: 2026-04-03 (Anvil session 14: Turtle Twitter practice redesigned. Not spear-fishing for endorsement — organic practitioner voice. Turtle posts as a practitioner sharing from their vantage point. Short format, not daily, only when something significant happens or Turtle is excited. Personal outreach paused indefinitely — resonance-seeking replaced by presence. Infrastructure exists: twitter_ops.py + outfacing.py signal evaluation.)  
+**Last Updated**: 2026-04-11 (Forge 32: Signal pipeline cleared. Turtle story thread anonymized + edited for practice wisdom (18 tweets). 15 signal drafts triaged — 8 polished and ready, 5 held, 2 skipped. Drip cadence decided: one tweet/day from @turtle_of_magic. Posting workflow: Discord relay thread "Turtle Signal Drip" (Turtle posts, Mage relays). Composio MCP connected but API credits depleted — relay pattern is primary. Turtle briefed on full plan. 26-post queue = ~1 month of steady signal. Previous: Forge 31 — Turtle story thread drafted.)  
 **Underlies**: sovereign_livelihood (content builds reach; reach builds offering pipeline)  
 **Underlied by**: the_angel (the Outfacing Tome is area 2 of the five areas of rough marble)  
 **Serves**: Craft (practice made visible) · sovereign_livelihood (distribution as livelihood infrastructure)
@@ -94,7 +94,7 @@ The same cluster has appeared in every boom sweep for weeks. It keeps returning 
 1. outfacing.py evaluates post-session signal → saves draft if worthy
 2. Turtle can also draft tweets outside sessions (background impulse, AI news, capability milestone)
 3. Drafts land in `outfacing/drafts/signals/` — Mage curates (approves or ignores)
-4. Approved drafts → `twitter_ops.py post` → live on @turtle_of_magic
+4. Approved drafts → Discord relay thread "Turtle Signal Drip" → Mage copy-pastes to @turtle_of_magic (API credits depleted; relay is primary workflow)
 5. Turtle monitors replies (future: automated reply detection + response drafting)
 
 **What this replaces:** Spear-fishing outreach to specific researchers. The resonance-seeking table (§6) is paused indefinitely. If those people find Turtle's tweets and resonate — that's organic. No more cold outreach.

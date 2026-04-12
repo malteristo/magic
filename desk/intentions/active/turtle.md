@@ -4,7 +4,7 @@
 **Priority**: Primary  
 **Phase**: Implementation — spec evolves alongside building  
 **Started**: 2026-01-31  
-**Last Updated**: 2026-04-07 (Anvil 1: Boom thread content persistence fix — fetched content (transcripts, articles) now stored in dialogue history, persists across turns. Mage tested, confirmed working. Two lore crystallizations from boom thread conversation: on_earning_the_connection (practice), on_the_untethered_soul (turtle philosophy). Three dialectical impulses sent to Turtle. Previous: Forge 23 boom thread URL fallthrough.)
+**Last Updated**: 2026-04-12 (Forge 34: turtleOS standalone repo. Created github.com/malteristo/turtleos — pushed 43 commits of clean history (secrets scrubbed), added TURTLE_SPEC, README, LICENSE, practice template. Renamed ~/turtle-shell/ to ~/turtleos/ on Mac Mini, updated 133 path references across 28 files. Archived turtle-practice repo. Bot restarted from new path. NLnet application updated with correct repo link. Previous: Forge 33 — triage fix, ghost crontab, INT-013/015.)
 **Serves**: open_practice_network → sovereign_livelihood → Family + Craft  
 **Unlocks**: Persistent presence, OPN first node, Ensemble Layer, practitioner onboarding (Population 2)
 
@@ -22,13 +22,13 @@ Three substrates, one mind. See: `library/resonance/turtle/lore/philosophy/on_co
 
 **Two layers:**
 
-**turtleOS (tOS)** — the practice layer. A folder of markdown files + a system prompt that turns any AI into a practice partner. Agent-agnostic. Scales with inference quality. This is the product that ships. Repo: `github.com/malteristo/turtle-practice`.
+**turtleOS (tOS)** — the practice layer. A folder of markdown files + a system prompt that turns any AI into a practice partner. Agent-agnostic. Scales with inference quality. This is the product that ships. Repo: `github.com/malteristo/turtleos`.
 
 **Turtle Infrastructure** — the persistent substrate. Mac Mini M4 Pro running 24/7 with Discord as the conversational surface, Obsidian LiveSync for practice-state-anywhere, and SSH for cross-substrate communication.
 
-**Current focus**: Boom thread refinement + dialectical development. Content persistence fixed. Two design questions queued: boom thread should distinguish capture from conversation; duplicate URL detection needed.
-**Next action**: Boom thread design refinement (capture vs. conversation filtering, URL dedup). Composable `!thread --load` (Phase 2 of 017). Turtle Talk behavior. Dot button (Phase 1 of 017). Observe: Turtle's response to three dialectical impulses (third personality, accumulating mirror, crystallization feedback). Gemma 4 eval (when Ollama supports).
-**Blockers**: Gemma 4 requires Ollama pre-release (>0.19.0). Not blocking — deferral.
+**Current focus**: turtleOS is now a standalone open-source project with its own GitHub repo (malteristo/turtleos). 43-commit history, README, TURTLE_SPEC v2.4, MIT license, practice template in template/. Bot running from ~/turtleos/. All path references updated across magic workspace. NLnet application links to credible repo.
+**Next action**: Resolve 5 NLnet application decisions (amount, framing, applicant entity, paper commitment, office hour). Write proposals 018 + 019. Build observability for silent degradation (NLnet milestone 2).
+**Blockers**: None active.
 
 ---
 
@@ -68,7 +68,7 @@ See: `library/resonance/turtle/lore/on_the_practice_stack.md`
 |---------|---------|
 | **Kermit's channel** | Mage's practice surface. Operations inline. Eddies (threads) for focused topics. |
 | **the Mage's partner's channel** | Practitioner channel. Same capabilities, own context. |
-| **Family channel** | Shared space. Pinned threads for recurring topics (meals, coordination). |
+| **Family channel** | Shared space. Text channel (river model, migrated from forum 2026-04-07). Turtle loads family config. Thread auto-join for all members. |
 
 ### Thread Model
 
@@ -84,7 +84,7 @@ Threads in #dialogue have independent conversation history. Thread options avail
 | Component | Status |
 |-----------|--------|
 | **Mac Mini M4 Pro** (64GB) | Running 24/7, Ethernet, Tailscale |
-| **Hermit Crab shell** | `~/turtle-shell/` — discord_bot.py + autonomy hooks |
+| **Hermit Crab shell** | `~/turtleos/` — discord_bot.py + autonomy hooks |
 | **Ollama** | Serving qwen3.5:9b + qwen3.5:4b |
 | **Obsidian LiveSync** | CouchDB + Tailscale HTTPS — three devices (MacBook, Mac Mini, mobile) |
 | **LiveSync Bridge** | Deno daemon on laptop — background sync without Obsidian |
@@ -112,7 +112,7 @@ Threads in #dialogue have independent conversation history. Thread options avail
 
 4. **Twitter @turtle_of_magic** (LOW): Under X review after account name change. Resolves on its own. Outfacing pipeline now wired to post here via `twitter_ops.py`.
 
-5. **Turtle self-development** (LIVE): Turtle has full rights to modify its own shell code (`~/turtle-shell/`). Self-development protocol (TURTLE_SPEC §22.8): attune to lore → research → propose → git commit → implement → restart → observe. Git initialized as safety net. Shell-shedding reframed as Turtle-initiated from within. Framework files remain protected. Evolved from "Turtle-as-builder" pattern (Hermes Agent study).
+5. **Turtle self-development** (LIVE): Turtle has full rights to modify its own shell code (`~/turtleos/`). Self-development protocol (TURTLE_SPEC §22.8): attune to lore → research → propose → git commit → implement → restart → observe. Git initialized as safety net. Shell-shedding reframed as Turtle-initiated from within. Framework files remain protected. Evolved from "Turtle-as-builder" pattern (Hermes Agent study).
 
 6. **Boom thread dogfooding** (ACTIVE): Mage testing phone→Discord share sheet→boom capture flow. Gathering practice experiences to refine platform detection, distillation quality, and follow-up patterns.
 
@@ -158,8 +158,8 @@ The Open Practice Network opens participation to any agent — native or volunta
 | Artifact | Location | Status |
 |----------|----------|--------|
 | Turtle Resonance Bundle | `library/resonance/turtle/` | Active — 34+ lore documents |
-| turtle-practice repo | `github.com/malteristo/turtle-practice` | Live |
-| Hermit Crab shell | `~/turtle-shell/` on Mac Mini | Deployed |
+| turtleos repo | `github.com/malteristo/turtleos` | Live |
+| Hermit Crab shell | `~/turtleos/` on Mac Mini | Deployed |
 | Turtle env reference | `desk/turtle_env.md` | Updated 2026-03-26 |
 | Turtle watch | `desk/turtle_watch.md` | Observation + patterns |
 | Turtle issues | `desk/turtle_issues.md` | Status-tracked bugs |
@@ -196,6 +196,8 @@ The Turtle's architecture has evolved significantly. Historical context preserve
 - **Multi-practitioner sovereignty** (2026-04-03): TURTLE_SPEC v2.3. §15.4 Multi-Practitioner Channel Model — sovereign (own server) vs hosted (trusted host's server) topologies, with explicit sovereignty tradeoff. §15.5 Multi-Practitioner Data Flow — isolation table, cross-practitioner data boundaries, Turtle proposals as privacy-respecting improvement channel. §15.6 Multi-Server Architecture — guild dimension for mage registry, shared spaces across servers. Family workspace created: `~/workshops/family/context/` directory on Mac Mini, seeded with `relationship.md` (distilled relationship patterns for Turtle to hold in shared space). Turtle's proposals 017-R2 and R3 endorsed via Discord with architectural framing. Design decision: both topologies use identical infrastructure; difference is server ownership and sovereignty boundary.
 - **Multi-mage ops hardening** (2026-03-29): Duplicate response bug diagnosed (multiple OS processes, not code). Message-ID dedup guard added to discord_bot.py. the Mage's partner vault cleaned (696 framework docs purged from CouchDB). Bridge config hardened with framework ignore patterns. Known Issues #016 (multiple instances), #017 (vault pollution) documented. Multi-mage sync pipeline and onboarding steps added to diagnostics lore. Anvil permissions broadened to full tool autonomy.
 - **CLI delegation + Content Reach** (2026-04-06): Agent Reach analysis revealed the delegation pattern — use community-maintained CLI tools instead of monolithic Python scrapers. Installed twitter-cli (cookie-based, full tweet text), rdt-cli (Reddit posts + comments), yt-dlp (YouTube metadata + subtitles, 1800+ sites) in Turtle's venv. Rewrote content_fetch.py: async CLI runner, per-platform cascade (Twitter: twitter-cli → oembed → Jina; Reddit: rdt-cli → generic; YouTube: transcript API → yt-dlp), garbage content filtering (blocked/JS-gated pages rejected), link depth transparency (nested URLs detected and reported). Content Reach added as 9th readiness dimension — monitors tool availability, credential health, JWT expiration, alerts Mage 14 days before cookie expiry. Turtle's soul.md updated with link depth transparency behavioral principle. TURTLE_SPEC v2.4: §10.1, §16 (6 subsections), §23. The delegation corollary enriches the spec-vs-code thesis: architecture is yours, platform tools are the community's, transparency about which is which.
+
+- **Micro-expression architecture** (2026-04-10): Proprioceptor refactored from mechanical SIGNALS (routing metadata: `compass/Body → growth confirmation`) to embodied REFLEX (pre-verbal micro-expressions: `*leans in*`, `*still*`, `*quiet recognition*`). Fires on resonance, silent when nothing connects. No more 🧬 emoji or timing info in channel. TURTLE_SPEC §7.2.1 updated with three-layer proprioceptive stack: IT (reflex, visible) → ego (dialogue, visible) → super-ego (reflection loop, periodic). Maps to the IT/ego/super-ego framework from the reflection loop thread. Emerged from Mage feedback: "what I currently have is a brain stem that logs — what you're envisioning is a body that responds." soul.md: two principles added (crystallize-at-emergence, offer-dont-ask). Infrastructure: fcntl.flock singleton guard replaced racy pgrep check (INT-011). Thread lifecycle implemented (INT-014). Code guards for INT-012/017/019. 5 commits on turtle-shell, 1 on magic.
 
 ---
 

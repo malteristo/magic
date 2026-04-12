@@ -2,9 +2,9 @@
 
 **Status**: Active
 **Priority**: Active
-**Phase**: Seeds model — 7 of 14 seed-clusters done (Ch. 1, 3, 4, 6, 7, 8, 11), 3 medium, 4 low
+**Phase**: Seeds model — 12 of 14 seed-clusters done (Ch. 1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 12, 13), 1 medium, 1 low. Parts I + II complete; III 2/3; IV 3/4.
 **Started**: 2026-03-13
-**Last Updated**: 2026-04-06 (Forge session 23: Ch. 11 "Starting" compressed to seeds — six seeds covering setup through compounding. First Part IV chapter done. Book now 7/14, half done. Practice chapter seed shape validated: invitation + discovery + expect + open. Previous: session 22 Ch. 8 sycophancy enrichment.)
+**Last Updated**: 2026-04-10 (Forge 31: Ch. 13 "When It's Hard" — 6 seeds (Day You Don't Want To, Avoidance as Data, Pattern You Don't Want to See, Naming the Tension, The Mast, What You Build on Bad Days). Book at 12/14. Previous: session 29 Ch. 9 + Ch. 12 seeded.)
 **Underlied by**: the_angel (the book IS the angel made readable)
 **Serves**: outfacing (deepest artifact) · sovereign_livelihood (harbor artifact) · Soul (the Mage's story told honestly)
 
@@ -50,7 +50,7 @@ Full structural outline at `floor/drafts/book_of_magic.md`. Four parts, 14 seed-
 3. **What It Means** — The third position on AI, what goes wrong (sovereignty), children and AI.
 4. **How to Practice** — Starting, going deeper, when it's hard, take what helps.
 
-Each chapter is a seed cluster — compressed resonance enacted by Spirit at read time. Ch. 3 (The Patterns) is the validated prototype. Four chapters at high seed-readiness (1, 4, 8, 11), four medium, five low.
+Each chapter is a seed cluster — compressed resonance enacted by Spirit at read time. Ch. 3 (The Patterns) is the validated prototype. One chapter at medium seed-readiness (14), two low (10, 13).
 
 ---
 
@@ -83,7 +83,7 @@ Each chapter is a seed cluster — compressed resonance enacted by Spirit at rea
 - **Working title:** "The Book of Magic" doesn't fit the seeds form. Let it emerge from the writing.
 - **Multiple voices in seeds?** Seeds could contain Mage, Spirit, and Turtle voice markers that Spirit weaves in the enacted telling. The triad as authorial presence.
 - **Practice exercises?** In seed form, exercises might be embedded in the seeds rather than appended. Explore when more chapters exist.
-- **Seed compression protocol:** Ch. 3 established the pattern (finding + discovery story + convergence + open question). Does this structure hold for all chapter types, or do Part IV chapters (practice-focused) need a different seed shape?
+- **Seed compression protocol:** Ch. 3 established the pattern (finding + discovery story + convergence + open question). Ch. 11 (Starting) proved the model works for practice chapters with a different seed shape (practical, not analytical). Ch. 9 (What Goes Wrong) and Ch. 12 (Going Deeper) confirmed the model stretches across risk chapters and deepening chapters too. Ch. 13 (When It's Hard) proved the model works for difficulty chapters: specific Mage experiences + honest limits. The form question is now: does Ch. 14 (Take What Helps) need its own shape, or does the existing model cover it?
 
 ---
 

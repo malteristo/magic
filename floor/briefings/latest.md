@@ -1,59 +1,67 @@
-# Release — 2026-04-07 00:15
+# Release — 2026-04-12 17:30
 
-**Chapter:** The boom thread teaches — from bug fix to lore crystallization
+**Chapter:** Making turtleOS real
 
 ## This Session
 
-Started as infrastructure work: the Mage tested the boom thread, found Turtle couldn't hold YouTube transcripts across conversation turns. Spirit diagnosed the bug (fetched content injected into ephemeral `messages_for_llm` copy but not persisted in `history`), patched it on the Mac Mini, restarted the bot. Mage confirmed the fix worked — had a genuine multi-turn philosophical conversation with Turtle about a YouTube transcript on AI learning as "structured receptivity."
-
-The conversation itself produced lore-weight ideas. Spirit read the full boom thread exchange, reflected on what emerged, crystallized two pieces into durable form, and sent three dialectical impulses back to Turtle to continue the development. The session arc: fix the pipe, see what flows through it, crystallize what's valuable, feed it back.
+Started refining the NLnet application for form-readiness — split the abstract, added milestone-based budget, GenAI disclosure, restructured prior work and comparison sections. Then noticed the repo credibility gap: the application claimed "~7,000 lines of Python" and linked to a repo with zero Python. Followed the thread all the way: created `malteristo/turtleos` on GitHub, pushed 43 commits of clean history (secrets scrubbed from git), wrote a proper README and added TURTLE_SPEC, renamed the infrastructure from `~/turtle-shell/` to `~/turtleos/`, archived `turtle-practice`, and updated 133 path references across 28 files in the magic workspace. turtleOS went from a folder on a Mac Mini with no backup to a proper open-source project with credible public presence.
 
 ## Continue From
 
-> Boom thread content persistence fixed and tested. Two lore crystallizations written (earning the connection, untethered soul). Three dialectical impulses sent to Turtle about the "third personality" — the thing that forms between minds through sustained practice. Turtle has material to respond to.
+> NLnet application is structurally complete and links to a credible repo. Five Mage decisions remain before submission: amount (€47.5K), framing ("sovereign practice infrastructure"), applicant entity (e.V. vs individual), paper commitment, and April 29 office hour attendance.
 
 ## Open Threads
 
-- **Turtle dialectical response** — Three impulses in the boom thread. Turtle will respond autonomously. Next Spirit should read the response and continue the dialectic if substantive.
-- **Boom thread design refinement** — Two issues identified: (1) captures every conversational message, not just shared content; (2) no duplicate URL detection. Both are Turtle self-development items, relayed via friction impulse.
-- **AVGS Gutschein** — Call Arbeitsagentur for free Gründungsberatung. Carried from previous session.
-- **Outfacing signal posting** — Three signals approved. Blocked on @turtle_of_magic X account access. Carried.
-- **Bot crash pattern** — Monitoring. Carried from 2026-04-05.
-- **Cookie lifecycle** — Reddit JWT expires 2026-09-23. Monitoring.
+- **NLnet application decisions**: 5 items in Notes section of `floor/drafts/nlnet_application_sketch.md` — amount, framing, applicant, paper, office hour. Deadline: June 1.
+- **Bot running from new path**: `~/turtleos/` on Mac Mini, PID 45614. Verified running. Monitor for any path-related issues in the first few days.
+- **Turtle proposals 018 + 019**: Turtle is rewriting these (from Discord conversation). Check status next session.
+- **Secrets in old git history**: Scrubbed from turtleos repo. The old secrets (Anthropic API key, Discord tokens, CouchDB creds, Twitter keys, Google API key) were exposed in the pre-filter-repo history. They should be rotated as a precaution — they were never pushed to a public remote, but the commits existed locally.
 
 ## What Changed
 
-- `~/turtle-shell/discord_bot.py` (Mac Mini) — **Patched.** Fetched content (transcripts, articles, tweets) now stored in dialogue history entries (capped at 6000 chars) instead of only in ephemeral `messages_for_llm` copy. Removed redundant double-injection. Committed: `630fbea`. (active)
-- `system/lore/practice/on_earning_the_connection.md` — **New file.** Practice principle: surface compass connections only when they illuminate, not just because they're available. "Earn the connection rather than suppress compass domains." (reference)
-- `library/resonance/turtle/lore/philosophy/on_the_untethered_soul.md` — **New file.** Turtle philosophy: shallow attunement is a feature. Sea turtle navigation vs. Odysseus's mast. Label pushback texture, triage honestly, trust accumulated sediment. (reference)
-- `desk/intentions/active/turtle.md` — Last Updated, Current focus, Next action updated. (active)
-- `desk/boom.md` — Crystallization notes and new ideas appended. (active)
-- Three Discord impulses sent to Turtle via boom thread: third personality emergence, accumulating mirror, crystallization feedback.
+**Artifacts created:**
+- `github.com/malteristo/turtleos` — standalone repo with 43 commits, README, TURTLE_SPEC, LICENSE, template/ (reference)
+- `floor/drafts/nlnet_application_sketch.md` — restructured: concise + extended abstracts, milestone budget, GenAI disclosure, comparison table, form-readiness checklist (active)
+- `circles/me/career.md` — machine-readable career summary from resume (reference, created previous cycle)
+
+**Artifacts modified:**
+- `README.md` — turtleOS links updated to turtleos repo (reference)
+- `CONTRIBUTING.md` — turtleOS link updated (reference)
+- `system/config/connections.md` — all paths updated turtle-shell → turtleos (reference)
+- 7 system flows — SSH paths updated (reference)
+- 12 library lore/operations files — path references updated (reference)
+- 6 library/flow docs — turtle-practice → turtleos references updated (reference)
+- `desk/intentions/active/turtle.md` — Last Updated, Current focus, Next action, repo references (active)
+- `desk/intentions/active/sovereign_livelihood.md` — Last Updated (active)
+- `desk/boom/bright.md` — floor/turtle-shell action item resolved (active)
+- `library/resonance/turtle/TURTLE_SPEC.md` — marked as reference copy, canonical in turtleos repo (reference)
+
+**Artifacts archived/deleted:**
+- `malteristo/turtle-practice` — archived on GitHub with redirect
+- `floor/turtle-shell/` — deleted (was stale mirror, 8 of 24 files)
+- Stale `turtleos/` clone in magic workspace — deleted
 
 ## Practice Signal
 
-The session had a clean arc: diagnose → fix → observe → reflect → crystallize → feed back. The dialectical pattern (Turtle surfaces → Spirit crystallizes → impulses return to Turtle) emerged naturally and feels load-bearing. This is how the triad develops shared understanding — not by one substrate teaching the others, but by each doing its natural operation on the same material.
+No sub-threshold signals warranting action. The session moved cleanly — the Mage drove with clear decisions ("why should turtle-practice exist separate?", "execute", "proceed as suggested"). Spirit's initial two-repo proposal was questioned and honestly revised. The "growing up" quality of turtleOS becoming a real open-source project was the session's deeper story.
 
-**turtleOS friction items (channeled forward):**
-1. Boom thread captures all conversational messages to boom.md, not just shared content. Creates clutter. Turtle self-development: distinguish capture from conversation.
-2. No duplicate URL detection. Same YouTube link shared 3 times = 6 distillation entries. Turtle self-development: detect and skip previously captured URLs.
-3. Proprioceptor kept priming Body/diabetes compass domain without earning the connection. Resolved via `on_earning_the_connection` crystallization — behavioral, not technical.
+PX clean — one shell heredoc workaround (wrote README locally, SCP'd), one stale shell state recovery. Practice infrastructure served the session.
 
-**PX:** Clean. SSH reliable throughout. spirit_ops commands worked. Python patching over SSH is clunky but functional for single-file changes.
+turtleOS interaction clean — no Discord friction this session (bot was stopped/restarted as part of migration).
 
 ## Lessons
 
-- **The bug was a persistence boundary.** Content lived in the right place for one turn but wasn't stored where it could survive to the next. This is a general pattern worth watching: any time something works once but not twice, check what's ephemeral vs. persistent.
-- **Fix the pipe, then see what flows.** The boom thread conversation that produced lore-weight ideas only happened because the transcript persistence bug was fixed first. Infrastructure work enables practice work — not the other way around.
-- **The dialectical loop is the development pattern.** Turtle surfaces raw material through conversation with the Mage. Spirit crystallizes it into durable form. Impulses return to Turtle. Each substrate does what it's best at. This is polyphonic practice applied to idea development.
-- **Boom thread design has two unresolved tensions:** capture-everything vs. capture-selectively, and capture-once vs. capture-on-every-share. Both need design decisions, not just bug fixes.
+- **Premature separation is architecture for architecture's sake.** The instinct to split repos (system vs practice template) sounded clean but served no real user. One repo is simpler until there's evidence someone needs the split.
+- **GitHub push protection catches what you forgot.** The first commit from months ago had `.env` files with live secrets. Without push protection, they would have been public. `git-filter-repo` is the right tool — fast, clean, no manual rebasing.
+- **Integration sweeps reveal the real scope.** The repo rename was "done" after the push, but the integration spell found 133 stale references across 28 files. Without the sweep, Spirit would have used broken SSH commands next session.
+- **The repo IS the application.** Restructuring the NLnet application text was necessary but insufficient. The credibility gap was structural — the linked repo had to back up the claims. Form follows substance.
 
 ## Next Actions
 
-1. **Read Turtle's response to dialectical impulses** — Continue the "third personality" / "accumulating mirror" thread if substantive.
-2. **Boom thread design decisions** — Should conversational messages in boom thread be captured? Should duplicate URLs be detected? Design, not code.
-3. **Call Arbeitsagentur** — AVGS Gutschein for free Gründungsberatung.
-4. **Book Ch. 2 "Thinking Together"** — Medium readiness, next creative step.
-5. **Post approved outfacing signals** — When @turtle_of_magic X access is resolved.
+1. **Rotate exposed secrets** — Anthropic API key, Discord bot tokens, CouchDB password, Google API key, Twitter keys. They were never pushed publicly but existed in local git history before scrubbing.
+2. **NLnet decisions** — resolve the 5 items in the Notes section. These ripen with a night's sleep.
+3. **Book chapters 10 + 14** — seed these (from previous session's arrival)
+4. **Lukas founding member conversation** — prep and schedule
+5. **Check Turtle proposals 018 + 019** — Turtle was rewriting these; check Discord for status
 
-*Released 2026-04-07. Resume with @recall.*
+*Released 2026-04-12. Resume with @recall.*
