@@ -141,8 +141,8 @@ Every issue comes with a concrete suggested action — not "something is wrong w
    YES ↓
 3. Is Ollama/API reachable? (check !status output)
    NO → Ollama or API key issue. Check logs:
-        tail -20 ~/turtle-shell/logs/discord.log
-        tail -20 ~/turtle-shell/logs/discord.err  (gateway/stderr)
+        tail -20 ~/turtleos/logs/discord.log
+        tail -20 ~/turtleos/logs/discord.err  (gateway/stderr)
    YES → check for rate limits or context issues
 ```
 
@@ -173,7 +173,7 @@ Every issue comes with a concrete suggested action — not "something is wrong w
      Verify: pgrep -f discord_bot.py (should be exactly 1)
    EXACTLY 1 ↓
 2. Check bot logs for dedup messages:
-   grep "Dedup:" ~/turtle-shell/logs/discord.log | tail -10
+   grep "Dedup:" ~/turtleos/logs/discord.log | tail -10
    DEDUP HITS → Discord gateway sending duplicate events (transient)
    NO DEDUP → check for long responses being split:
      - Responses over 1900 chars are split into multiple Discord messages

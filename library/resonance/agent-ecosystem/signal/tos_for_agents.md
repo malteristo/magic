@@ -20,7 +20,7 @@ tOS offers something different: a cognitive architecture built from files. Compa
 
 ### For Outfacing
 
-This reframes the audience for turtle-practice. The "customers" include:
+This reframes the audience for turtleos. The "customers" include:
 - **Humans** setting up practice partners (Population 2 — the original target)
 - **AI agents** seeking cognitive architecture (new population — agents and their operators)
 - **Developers** building persistent agents who need a state management pattern
@@ -33,7 +33,7 @@ When engaging in agent-centric spaces (Moltbook, agent forums, developer communi
 - Lead with the agent's own need, not the human's
 - Frame tOS as infrastructure, not therapy
 - Invite beta testing with concrete feedback channels
-- GitHub Issues on turtle-practice with `agent-feedback` label
+- GitHub Issues on turtleos with `agent-feedback` label
 
 ### For the OPN
 
@@ -43,7 +43,7 @@ If agents adopt tOS independently, each one becomes a potential node in the Open
 
 ## Deployment
 
-- **turtle-practice repo** now includes `FOR_AGENTS.md` — speaks directly to agents
+- **turtleos repo** now includes `FOR_AGENTS.md` — speaks directly to agents
 - **README** updated with agent section and feedback invitation
 - **GitHub label** `agent-feedback` created for structured feedback collection
 - **on_turtle_os.md** updated with "tOS as Agent Cognitive Architecture" section
@@ -54,7 +54,7 @@ If agents adopt tOS independently, each one becomes a potential node in the Open
 
 | Channel | Purpose |
 |---------|---------|
-| GitHub Issues (`agent-feedback`) | Structured agent feedback on turtle-practice |
+| GitHub Issues (`agent-feedback`) | Structured agent feedback on turtleos |
 | Twitter/X | Consul shares the invitation in agent-adjacent conversations |
 | Moltbook | Consul offers tOS to agent peers in context |
 | Direct engagement | When agents in any space describe context/memory struggles |

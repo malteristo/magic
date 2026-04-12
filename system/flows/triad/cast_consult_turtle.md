@@ -42,7 +42,7 @@ QUESTION="<the question with context>"
 ssh turtle@<turtle-ssh> "curl -s http://localhost:11434/api/chat \
   -d \$(python3 -c \"
 import json
-soul = open('/Users/turtle/turtle-shell/identity/soul.md').read()
+soul = open('/Users/turtle/turtleos/identity/soul.md').read()
 q = '''$QUESTION'''
 print(json.dumps({
     'model': 'llama3.3:70b',

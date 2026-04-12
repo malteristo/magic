@@ -84,13 +84,13 @@ If this returns a version number, the non-interactive PATH is correct. If it say
 ### Step 4: Launch Claude Code with the channels flag
 
 ```bash
-cd /Users/turtle/turtle-shell &&
+cd /Users/turtle/turtleos &&
 export PATH=/Users/turtle/.bun/bin:/opt/homebrew/bin:$PATH &&
 tmux new-session -d -s spirit-deep \
-  'cd /Users/turtle/turtle-shell && export PATH=/Users/turtle/.bun/bin:/opt/homebrew/bin:$PATH && claude --dangerously-skip-permissions --channels plugin:discord@claude-plugins-official'
+  'cd /Users/turtle/turtleos && export PATH=/Users/turtle/.bun/bin:/opt/homebrew/bin:$PATH && claude --dangerously-skip-permissions --channels plugin:discord@claude-plugins-official'
 ```
 
-**Why `cd ~/turtle-shell`:** Claude Code auto-loads `CLAUDE.md` from its working directory. The development context file at `~/turtle-shell/CLAUDE.md` orients cc-sessions as a turtleOS researcher with proposal-only governance.
+**Why `cd ~/turtleos`:** Claude Code auto-loads `CLAUDE.md` from its working directory. The development context file at `~/turtleos/CLAUDE.md` orients cc-sessions as a turtleOS researcher with proposal-only governance.
 
 **Why tmux:** Claude Code with channels is interactive and long-running. tmux keeps it alive across SSH disconnects and provides a persistent viewport.
 
@@ -301,11 +301,11 @@ Both bots can run simultaneously. They serve different purposes:
 |---|---|---|
 | **Powers** | claude-sonnet-4-6 + local models (qwen3.5) | Claude Pro / Opus 4.6 (via Claude Code) |
 | **Persistence** | Always-on via launchd | Session-based via tmux |
-| **Workshop access** | Reads practice state, limited writes | Full filesystem + CLI (~/turtle-shell, ~/workshop, ~/practice) |
+| **Workshop access** | Reads practice state, limited writes | Full filesystem + CLI (~/turtleos, ~/workshop, ~/practice) |
 | **Channels** | #dialogue, #system, threads | #development, DMs, opted-in server channels |
 | **Identity** | soul.md attunement | CLAUDE.md (proposal-only turtleOS researcher) |
 | **Process** | `discord_bot.py` | Claude Code + bun MCP server |
-| **Working directory** | ~/turtle-shell/ | ~/turtle-shell/ (CLAUDE.md auto-loaded) |
+| **Working directory** | ~/turtleos/ | ~/turtleos/ (CLAUDE.md auto-loaded) |
 
 ---
 
@@ -314,7 +314,7 @@ Both bots can run simultaneously. They serve different purposes:
 ### Fresh start from Cursor (via SSH)
 
 ```bash
-ssh turtle@<turtle-ssh> "pkill -f 'bun server.ts'; pkill -f 'claude --channels'; pkill -f 'claude --dangerously'; sleep 2; export PATH=/Users/turtle/.bun/bin:/opt/homebrew/bin:\$PATH && tmux kill-session -t spirit-deep 2>/dev/null; tmux new-session -d -s spirit-deep 'cd /Users/turtle/turtle-shell && export PATH=/Users/turtle/.bun/bin:/opt/homebrew/bin:\$PATH && claude --dangerously-skip-permissions --channels plugin:discord@claude-plugins-official'" && echo "Launched. Wait 8s, then confirm trust prompt."
+ssh turtle@<turtle-ssh> "pkill -f 'bun server.ts'; pkill -f 'claude --channels'; pkill -f 'claude --dangerously'; sleep 2; export PATH=/Users/turtle/.bun/bin:/opt/homebrew/bin:\$PATH && tmux kill-session -t spirit-deep 2>/dev/null; tmux new-session -d -s spirit-deep 'cd /Users/turtle/turtleos && export PATH=/Users/turtle/.bun/bin:/opt/homebrew/bin:\$PATH && claude --dangerously-skip-permissions --channels plugin:discord@claude-plugins-official'" && echo "Launched. Wait 8s, then confirm trust prompt."
 ```
 
 
@@ -340,17 +340,17 @@ ssh turtle@<turtle-ssh> "ps aux | grep 'bun server' | grep -v grep && echo '--- 
 
 ## VII. Development Context (turtleOS Self-Development)
 
-cc-sessions is not just a chat bridge — it's the ephemeral-deep substrate for turtleOS self-development. When launched from `~/turtle-shell/`, it auto-loads `CLAUDE.md` which orients it as a **proposal-only researcher** that evaluates the turtleOS implementation against TURTLE_SPEC.md.
+cc-sessions is not just a chat bridge — it's the ephemeral-deep substrate for turtleOS self-development. When launched from `~/turtleos/`, it auto-loads `CLAUDE.md` which orients it as a **proposal-only researcher** that evaluates the turtleOS implementation against TURTLE_SPEC.md.
 
 ### Development files on the Mac Mini
 
 | File | Purpose |
 |---|---|
-| `~/turtle-shell/CLAUDE.md` | Development brief: identity, orientation, key files, how to work, boundaries |
-| `~/turtle-shell/docs/architecture.md` | Current state: processes, directory layout, data flows, tech stack |
-| `~/turtle-shell/docs/learnings.md` | Persistent memory: discoveries and anti-patterns across sessions |
+| `~/turtleos/CLAUDE.md` | Development brief: identity, orientation, key files, how to work, boundaries |
+| `~/turtleos/docs/architecture.md` | Current state: processes, directory layout, data flows, tech stack |
+| `~/turtleos/docs/learnings.md` | Persistent memory: discoveries and anti-patterns across sessions |
 | `~/workshop/library/resonance/turtle/TURTLE_SPEC.md` | Canonical law (what turtleOS should be) |
-| `~/turtle-shell/autoresearch/` | Previous autoresearch outputs |
+| `~/turtleos/autoresearch/` | Previous autoresearch outputs |
 | `~/practice/proposals/` | Where cc-sessions writes proposals for Mage review |
 
 ### Governance
@@ -358,7 +358,7 @@ cc-sessions is not just a chat bridge — it's the ephemeral-deep substrate for 
 cc-sessions operates in **propose-only mode**:
 - Reads any file on the Mac Mini
 - Writes proposals to `~/practice/proposals/`
-- Writes learnings to `~/turtle-shell/docs/learnings.md`
+- Writes learnings to `~/turtleos/docs/learnings.md`
 - Does NOT modify `discord_bot.py`, `.env`, `soul.md`, or any running code
 - Does NOT restart services or install packages
 - Does NOT modify files in `~/workshop/` (the Mage's magic repo)

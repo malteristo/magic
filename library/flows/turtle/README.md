@@ -19,7 +19,7 @@
 
 **What Spirit needs:**
 - SSH access to the target machine (or the Mage running commands locally)
-- The magic repository cloned (for the bot code in `floor/turtle-shell/`)
+- The magic repository cloned (for the bot code in `floor/turtleos/`)
 
 ---
 
@@ -195,32 +195,32 @@ Spirit needs:
 ### 4.1 Create Directory Structure
 
 ```bash
-mkdir -p ~/turtle-shell/logs ~/turtle-shell/identity && echo "Shell directory created"
+mkdir -p ~/turtleos/logs ~/turtleos/identity && echo "Shell directory created"
 ```
 
 ### 4.2 Copy Code from Magic Repository
 
-Spirit copies the bot code from `floor/turtle-shell/` in the magic repo to the target machine. This can be done via SCP from the Mage's workstation:
+Spirit copies the bot code from `floor/turtleos/` in the magic repo to the target machine. This can be done via SCP from the Mage's workstation:
 
 ```bash
 # From the Mage's workstation (adjust SSH target as needed):
-scp floor/turtle-shell/discord_bot.py turtle@<IP>:~/turtle-shell/
-scp floor/turtle-shell/tools.py turtle@<IP>:~/turtle-shell/
-scp floor/turtle-shell/content_fetch.py turtle@<IP>:~/turtle-shell/
-scp floor/turtle-shell/requirements.txt turtle@<IP>:~/turtle-shell/
+scp floor/turtleos/discord_bot.py turtle@<IP>:~/turtleos/
+scp floor/turtleos/tools.py turtle@<IP>:~/turtleos/
+scp floor/turtleos/content_fetch.py turtle@<IP>:~/turtleos/
+scp floor/turtleos/requirements.txt turtle@<IP>:~/turtleos/
 ```
 
 Or if Spirit has SSH access:
 
 ```bash
 # On the target machine, if the magic repo is accessible:
-cp /path/to/magic/floor/turtle-shell/{discord_bot.py,tools.py,content_fetch.py,requirements.txt} ~/turtle-shell/
+cp /path/to/magic/floor/turtleos/{discord_bot.py,tools.py,content_fetch.py,requirements.txt} ~/turtleos/
 ```
 
 ### 4.3 Set Up Python Environment
 
 ```bash
-cd ~/turtle-shell
+cd ~/turtleos
 python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
@@ -233,7 +233,7 @@ Copy soul.md (the persistent attunement configuration):
 
 ```bash
 # From magic repo:
-scp floor/turtle-shell/soul.md turtle@<IP>:~/turtle-shell/identity/soul.md
+scp floor/turtleos/soul.md turtle@<IP>:~/turtleos/identity/soul.md
 ```
 
 ### 4.5 Configure Environment
@@ -241,7 +241,7 @@ scp floor/turtle-shell/soul.md turtle@<IP>:~/turtle-shell/identity/soul.md
 Create `.env` on the target machine:
 
 ```bash
-cat > ~/turtle-shell/.env << 'ENV'
+cat > ~/turtleos/.env << 'ENV'
 # turtleOS Shell — Environment Configuration
 
 # Discord
@@ -265,13 +265,13 @@ REFLECTION_MODEL=qwen3.5:14b
 # COUCHDB_DATABASE=workshop_sync
 ENV
 
-echo "Environment configured — edit ~/turtle-shell/.env to fill in values"
+echo "Environment configured — edit ~/turtleos/.env to fill in values"
 ```
 
 ### 4.6 Configure Mage Registry
 
 ```bash
-cat > ~/turtle-shell/mage_registry.yaml << 'YAML'
+cat > ~/turtleos/mage_registry.yaml << 'YAML'
 # Multi-Mage Registry
 # Maps Discord identities to practice workspaces.
 
@@ -305,7 +305,7 @@ The practice partner specification. Copy from the magic repo or from tOS distrib
 
 ```bash
 # From magic repo:
-scp floor/turtle-shell/system.md turtle@<IP>:~/workshop/desk/system.md
+scp floor/turtleos/system.md turtle@<IP>:~/workshop/desk/system.md
 ```
 
 The practice partner configuration lives in `desk/system.md`, shared between Spirit and Turtle via LiveSync.
@@ -338,24 +338,24 @@ cat > ~/Library/LaunchAgents/com.turtle.discord.plist << 'PLIST'
     <string>com.turtle.discord</string>
     <key>ProgramArguments</key>
     <array>
-        <string>/Users/turtle/turtle-shell/venv/bin/python3</string>
+        <string>/Users/turtle/turtleos/venv/bin/python3</string>
         <string>-u</string>
-        <string>/Users/turtle/turtle-shell/discord_bot.py</string>
+        <string>/Users/turtle/turtleos/discord_bot.py</string>
     </array>
     <key>WorkingDirectory</key>
-    <string>/Users/turtle/turtle-shell</string>
+    <string>/Users/turtle/turtleos</string>
     <key>KeepAlive</key>
     <true/>
     <key>RunAtLoad</key>
     <true/>
     <key>StandardOutPath</key>
-    <string>/Users/turtle/turtle-shell/logs/discord.log</string>
+    <string>/Users/turtle/turtleos/logs/discord.log</string>
     <key>StandardErrorPath</key>
-    <string>/Users/turtle/turtle-shell/logs/discord.err</string>
+    <string>/Users/turtle/turtleos/logs/discord.err</string>
     <key>EnvironmentVariables</key>
     <dict>
         <key>DOTENV_PATH</key>
-        <string>/Users/turtle/turtle-shell/.env</string>
+        <string>/Users/turtle/turtleos/.env</string>
     </dict>
 </dict>
 </plist>
@@ -379,10 +379,10 @@ launchctl load ~/Library/LaunchAgents/com.turtle.discord.plist && echo "turtleOS
 launchctl list | grep com.turtle.discord
 
 # Check logs
-tail -20 ~/turtle-shell/logs/discord.log
+tail -20 ~/turtleos/logs/discord.log
 
 # Check for errors
-tail -20 ~/turtle-shell/logs/discord.err
+tail -20 ~/turtleos/logs/discord.err
 ```
 
 ### For Linux (systemd alternative)
@@ -395,11 +395,11 @@ After=network-online.target
 
 [Service]
 Type=simple
-WorkingDirectory=/home/turtle/turtle-shell
-ExecStart=/home/turtle/turtle-shell/venv/bin/python3 -u discord_bot.py
+WorkingDirectory=/home/turtle/turtleos
+ExecStart=/home/turtle/turtleos/venv/bin/python3 -u discord_bot.py
 Restart=always
 RestartSec=5
-Environment=DOTENV_PATH=/home/turtle/turtle-shell/.env
+Environment=DOTENV_PATH=/home/turtle/turtleos/.env
 
 [Install]
 WantedBy=default.target
@@ -417,7 +417,7 @@ systemctl --user enable turtle-discord && systemctl --user start turtle-discord 
 Open the dialogue channel in Discord. Send a message: "hello"
 
 Turtle should respond. If it doesn't:
-1. Check logs: `tail -50 ~/turtle-shell/logs/discord.err`
+1. Check logs: `tail -50 ~/turtleos/logs/discord.err`
 2. Common issues: wrong bot token, bot not added to server, channel ID mismatch, missing intents
 
 ### 7.2 Verify Practice State
@@ -521,7 +521,7 @@ launchctl unload ~/Library/LaunchAgents/com.turtle.discord.plist
 launchctl load ~/Library/LaunchAgents/com.turtle.discord.plist
 
 # View live logs
-tail -f ~/turtle-shell/logs/discord.log
+tail -f ~/turtleos/logs/discord.log
 
 # Check Ollama
 curl -s http://localhost:11434/api/tags | python3 -m json.tool
@@ -538,7 +538,7 @@ When the bot code is updated in the magic repo:
 
 ```bash
 # From the Mage's workstation:
-scp floor/turtle-shell/discord_bot.py turtle@<IP>:~/turtle-shell/ && \
+scp floor/turtleos/discord_bot.py turtle@<IP>:~/turtleos/ && \
 ssh turtle@<IP> 'launchctl kickstart -k gui/$(id -u)/com.turtle.discord' && \
 echo "Code deployed and service restarted"
 ```
@@ -546,7 +546,7 @@ echo "Code deployed and service restarted"
 For soul.md updates:
 
 ```bash
-scp floor/turtle-shell/soul.md turtle@<IP>:~/turtle-shell/identity/soul.md && \
+scp floor/turtleos/soul.md turtle@<IP>:~/turtleos/identity/soul.md && \
 ssh turtle@<IP> 'launchctl kickstart -k gui/$(id -u)/com.turtle.discord' && \
 echo "Identity updated and service restarted"
 ```

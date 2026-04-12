@@ -187,7 +187,7 @@ This is Cherished Dissonance made operational — each failure mode was discover
 - **`desk/turtle_watch.md`** — Living issues tracker. This taxonomy provides the structural categories; turtle_watch tracks active instances.
 - **`on_diagnostics.md`** — Diagnostic commands and health checks. This taxonomy tells you what to look for; diagnostics tells you how to look.
 - **`on_cherishing_dissonance.md`** — The philosophical grounding. Failure is signal, not error. This scroll catalogs the signals.
-- **`ARCHITECTURE.md`** (turtle-shell) — System architecture. Failure modes map to architectural layers.
+- **`ARCHITECTURE.md`** (turtleos) — System architecture. Failure modes map to architectural layers.
 
 ---
 

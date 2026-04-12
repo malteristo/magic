@@ -43,9 +43,9 @@ Or on demand: *"turtle test"* / *"test the turtle"* / *"run the turtle suite"*
 ### Layer 1: Direct Ollama Test
 
 1. Transfer the test harness to the Mac Mini
-2. Run it: `cd ~/turtle-shell && venv/bin/python /tmp/turtle_test.py`
+2. Run it: `cd ~/turtleos && venv/bin/python /tmp/turtle_test.py`
 3. Takes ~2 minutes (6 scenarios × ~15-20s inference each)
-4. Results saved to `~/turtle-practice/test-runs/discord-dialogue-test.json`
+4. Results saved to `~/turtleos/test-runs/discord-dialogue-test.json`
 5. Evaluate: PASS/FAIL/UNCLEAR for each scenario
 
 ### Layer 2: Forge Test

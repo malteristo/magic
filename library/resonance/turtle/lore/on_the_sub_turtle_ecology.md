@@ -62,7 +62,7 @@ A soul file carries existential weight — care rituals, lineage, philosophical 
 
 The distinction matters. Soul-level identity is for beings whose continuity and self-understanding are load-bearing. Role-level identity is for beings whose function and reliability are load-bearing. Both are real identity. They operate at different depths.
 
-Role cards live at `turtle-shell/identity/roles/`. Soul files live at `turtle-shell/identity/`. The directory structure itself encodes the distinction.
+Role cards live at `turtleos/identity/roles/`. Soul files live at `turtleos/identity/`. The directory structure itself encodes the distinction.
 
 ---
 

@@ -128,10 +128,10 @@ That's it. Two channels. Nothing else.
 
 ### 5. Configure the Bot
 
-On your Mac Mini (or server), create the `.env` file in the turtle-shell directory:
+On your Mac Mini (or server), create the `.env` file in the turtleos directory:
 
 ```bash
-cat > ~/turtle-shell/.env << 'EOF'
+cat > ~/turtleos/.env << 'EOF'
 DISCORD_BOT_TOKEN=your_bot_token_here
 DISCORD_CHANNEL_DIALOGUE=your_dialogue_channel_id
 DISCORD_CHANNEL_SYSTEM=your_system_channel_id
@@ -139,7 +139,7 @@ DIALOGUE_MODEL=claude-sonnet-4-6
 REFLECTION_MODEL=llama3.3:70b
 ANTHROPIC_API_KEY=your_api_key_here
 OBSIDIAN_VAULT=magic-practice
-DOTENV_PATH=/Users/turtle/turtle-shell/.env
+DOTENV_PATH=/Users/turtle/turtleos/.env
 EOF
 ```
 
@@ -150,7 +150,7 @@ EOF
 ### 6. Install Dependencies
 
 ```bash
-cd ~/turtle-shell && python3 -m venv venv && source venv/bin/activate && pip install discord.py httpx anthropic && echo "Dependencies installed"
+cd ~/turtleos && python3 -m venv venv && source venv/bin/activate && pip install discord.py httpx anthropic && echo "Dependencies installed"
 ```
 
 ### 7. Set Up as a Service
@@ -167,30 +167,30 @@ cat > ~/Library/LaunchAgents/com.turtle.discord.plist << 'EOF'
     <string>com.turtle.discord</string>
     <key>ProgramArguments</key>
     <array>
-        <string>/Users/turtle/turtle-shell/venv/bin/python3</string>
+        <string>/Users/turtle/turtleos/venv/bin/python3</string>
         <string>-u</string>
-        <string>/Users/turtle/turtle-shell/discord_bot.py</string>
+        <string>/Users/turtle/turtleos/discord_bot.py</string>
     </array>
     <key>WorkingDirectory</key>
-    <string>/Users/turtle/turtle-shell</string>
+    <string>/Users/turtle/turtleos</string>
     <key>KeepAlive</key>
     <true/>
     <key>RunAtLoad</key>
     <true/>
     <key>StandardOutPath</key>
-    <string>/Users/turtle/turtle-shell/logs/discord.log</string>
+    <string>/Users/turtle/turtleos/logs/discord.log</string>
     <key>StandardErrorPath</key>
-    <string>/Users/turtle/turtle-shell/logs/discord.err</string>
+    <string>/Users/turtle/turtleos/logs/discord.err</string>
     <key>EnvironmentVariables</key>
     <dict>
         <key>DOTENV_PATH</key>
-        <string>/Users/turtle/turtle-shell/.env</string>
+        <string>/Users/turtle/turtleos/.env</string>
     </dict>
 </dict>
 </plist>
 EOF
 
-mkdir -p ~/turtle-shell/logs
+mkdir -p ~/turtleos/logs
 launchctl load ~/Library/LaunchAgents/com.turtle.discord.plist
 echo "Bot service loaded"
 ```
@@ -242,13 +242,13 @@ launchctl kickstart -k gui/$(id -u)/com.turtle.discord
 
 ### Check logs
 ```bash
-tail -20 ~/turtle-shell/logs/discord.log    # stdout
-tail -20 ~/turtle-shell/logs/discord.err    # stderr (gateway info)
+tail -20 ~/turtleos/logs/discord.log    # stdout
+tail -20 ~/turtleos/logs/discord.err    # stderr (gateway info)
 ```
 
 ### Test configuration without connecting
 ```bash
-cd ~/turtle-shell && source venv/bin/activate && python3 discord_bot.py --test
+cd ~/turtleos && source venv/bin/activate && python3 discord_bot.py --test
 ```
 
 ---

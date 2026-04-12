@@ -125,7 +125,7 @@ Check that the practice itself is alive (not just infrastructure):
 
 ```bash
 echo "=== Discord bot recent activity ===" && \
-tail -20 ~/turtle-shell/logs/discord.log 2>/dev/null && \
+tail -20 ~/turtleos/logs/discord.log 2>/dev/null && \
 echo "=== Session notes ===" && \
 ls -lt ~/workshops/kermit/sessions/ 2>/dev/null | head -5 && \
 echo "=== Proposals ===" && \
@@ -221,11 +221,11 @@ The Mage approves the addition. The flow learns.
 | CouchDB data | `~/Library/Application Support/CouchDB2/data/` |
 | CouchDB logs | `~/Library/Application Support/CouchDB2/couch-stderr.log` |
 | Tailscale CLI | `/Applications/Tailscale.app/Contents/MacOS/Tailscale` |
-| Discord bot | `~/turtle-shell/discord_bot.py` |
-| Discord bot logs | `~/turtle-shell/logs/discord.log` |
+| Discord bot | `~/turtleos/discord_bot.py` |
+| Discord bot logs | `~/turtleos/logs/discord.log` |
 | Workshop (Kermit) | `~/workshops/kermit/` |
 | Practice state | `~/practice/` |
-| Mage registry | `~/turtle-shell/mage_registry.yaml` |
+| Mage registry | `~/turtleos/mage_registry.yaml` |
 | SSH config (client) | `~/.ssh/config` on Mage's machine |
 
 ---

@@ -22,12 +22,12 @@
 
 ### Phase 1: Pull Messages from Both Channels + Threads
 
-Fetch from two channels. Channel IDs are stored in `~/turtle-shell/.env` on the Mac Mini.
+Fetch from two channels. Channel IDs are stored in `~/turtleos/.env` on the Mac Mini.
 
 **#dialogue** (`DISCORD_CHANNEL_DIALOGUE`) — the conversational surface:
 
 ```bash
-ssh turtle@<turtle-ssh> 'TOKEN=$(grep DISCORD_BOT_TOKEN ~/turtle-shell/.env | cut -d= -f2); CHANNEL=$(grep DISCORD_CHANNEL_DIALOGUE ~/turtle-shell/.env | cut -d= -f2); curl -s -H "Authorization: Bot $TOKEN" "https://discord.com/api/v10/channels/$CHANNEL/messages?limit=100" | python3 -c "
+ssh turtle@<turtle-ssh> 'TOKEN=$(grep DISCORD_BOT_TOKEN ~/turtleos/.env | cut -d= -f2); CHANNEL=$(grep DISCORD_CHANNEL_DIALOGUE ~/turtleos/.env | cut -d= -f2); curl -s -H "Authorization: Bot $TOKEN" "https://discord.com/api/v10/channels/$CHANNEL/messages?limit=100" | python3 -c "
 import json, sys
 msgs = json.load(sys.stdin)
 for m in reversed(msgs):
@@ -45,7 +45,7 @@ for m in reversed(msgs):
 **#system** (`DISCORD_CHANNEL_SYSTEM`) — Spirit's activity log:
 
 ```bash
-ssh turtle@<turtle-ssh> 'TOKEN=$(grep DISCORD_BOT_TOKEN ~/turtle-shell/.env | cut -d= -f2); CHANNEL=$(grep DISCORD_CHANNEL_SYSTEM ~/turtle-shell/.env | cut -d= -f2); curl -s -H "Authorization: Bot $TOKEN" "https://discord.com/api/v10/channels/$CHANNEL/messages?limit=50" | python3 -c "
+ssh turtle@<turtle-ssh> 'TOKEN=$(grep DISCORD_BOT_TOKEN ~/turtleos/.env | cut -d= -f2); CHANNEL=$(grep DISCORD_CHANNEL_SYSTEM ~/turtleos/.env | cut -d= -f2); curl -s -H "Authorization: Bot $TOKEN" "https://discord.com/api/v10/channels/$CHANNEL/messages?limit=50" | python3 -c "
 import json, sys
 msgs = json.load(sys.stdin)
 for m in reversed(msgs):
@@ -59,7 +59,7 @@ for m in reversed(msgs):
 **Threads in #dialogue** — where deep conversation happens:
 
 ```bash
-ssh turtle@<turtle-ssh> 'TOKEN=$(grep DISCORD_BOT_TOKEN ~/turtle-shell/.env | cut -d= -f2); CHANNEL=$(grep DISCORD_CHANNEL_DIALOGUE ~/turtle-shell/.env | cut -d= -f2); curl -s -H "Authorization: Bot $TOKEN" "https://discord.com/api/v10/channels/$CHANNEL/threads/active" | python3 -c "
+ssh turtle@<turtle-ssh> 'TOKEN=$(grep DISCORD_BOT_TOKEN ~/turtleos/.env | cut -d= -f2); CHANNEL=$(grep DISCORD_CHANNEL_DIALOGUE ~/turtleos/.env | cut -d= -f2); curl -s -H "Authorization: Bot $TOKEN" "https://discord.com/api/v10/channels/$CHANNEL/threads/active" | python3 -c "
 import json, sys
 data = json.load(sys.stdin)
 for t in data.get(\"threads\", []):
@@ -70,7 +70,7 @@ for t in data.get(\"threads\", []):
 For each active thread, fetch its messages:
 
 ```bash
-ssh turtle@<turtle-ssh> 'TOKEN=$(grep DISCORD_BOT_TOKEN ~/turtle-shell/.env | cut -d= -f2); curl -s -H "Authorization: Bot $TOKEN" "https://discord.com/api/v10/channels/THREAD_ID/messages?limit=50" | python3 -c "
+ssh turtle@<turtle-ssh> 'TOKEN=$(grep DISCORD_BOT_TOKEN ~/turtleos/.env | cut -d= -f2); curl -s -H "Authorization: Bot $TOKEN" "https://discord.com/api/v10/channels/THREAD_ID/messages?limit=50" | python3 -c "
 import json, sys
 msgs = json.load(sys.stdin)
 for m in reversed(msgs):
