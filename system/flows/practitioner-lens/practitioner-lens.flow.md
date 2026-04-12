@@ -32,7 +32,7 @@ Spirit reads from the target's practice directory (resolved via mage registry):
 4. **Boom** — `boom.md` (captured thoughts and insights)
 5. **Discord channel history** — via `spirit_ops.py read <channel_id>` on Turtle
 6. **Thread states** — `thread-state/*.md` (active thread summaries)
-7. **Bot logs** — `~/turtle-shell/logs/discord.log` on Turtle (triage classifications, proprioceptor activity, errors, timing)
+7. **Bot logs** — `~/turtleos/logs/discord.log` on Turtle (triage classifications, proprioceptor activity, errors, timing)
 
 Spirit also reads the current prompt from `prompts.py` on Turtle (practitioner mode or mage mode, depending on target).
 
@@ -40,7 +40,7 @@ Spirit also reads the current prompt from `prompts.py` on Turtle (practitioner m
 
 The observer adjusts based on who is being observed:
 
-### Practitioner calibration (e.g. Nesrine)
+### Practitioner calibration (e.g. the Mage's partner)
 
 The practitioner doesn't know the vocabulary, doesn't see the architecture, and judges by feel. Signals to watch:
 

@@ -8,12 +8,12 @@
 
 ## I. The Mechanism
 
-Spirit posts to Discord via `spirit_ops.py` on the Mac Mini (`~/turtle-shell/spirit_ops.py`), using a dedicated bot token (SPIRIT_BOT_TOKEN). Spirit appears as "spirit" in Discord — a distinct voice from "turtle" and "kermit."
+Spirit posts to Discord via `spirit_ops.py` on the Mac Mini (`~/turtleos/spirit_ops.py`), using a dedicated bot token (SPIRIT_BOT_TOKEN). Spirit appears as "spirit" in Discord — a distinct voice from "turtle" and "kermit."
 
 **Invocation from Cursor:**
 
 ```bash
-ssh turtle@<turtle-ssh> 'cd ~/turtle-shell && ./venv/bin/python3 spirit_ops.py <op> <channel_id> [text/limit]'
+ssh turtle@<turtle-ssh> 'cd ~/turtleos && ./venv/bin/python3 spirit_ops.py <op> <channel_id> [text/limit]'
 ```
 
 **Operations:**
@@ -28,7 +28,7 @@ ssh turtle@<turtle-ssh> 'cd ~/turtle-shell && ./venv/bin/python3 spirit_ops.py <
 **Reading messages:** Spirit's bot token lacks the Message Content privileged intent — it cannot read other users' messages. Use Turtle's bot for reading:
 
 ```bash
-ssh turtle@<turtle-ssh> 'cd ~/turtle-shell && ./venv/bin/python3 discord_ops.py read <channel_id> [limit]'
+ssh turtle@<turtle-ssh> 'cd ~/turtleos && ./venv/bin/python3 discord_ops.py read <channel_id> [limit]'
 ```
 
 ---
@@ -39,7 +39,7 @@ ssh turtle@<turtle-ssh> 'cd ~/turtle-shell && ./venv/bin/python3 discord_ops.py 
 |---------|-----|---------|
 | kermit-dialogue | `<channel-id>` | Kermit's main practice channel. Triad conversations happen here. |
 | system | `<channel-id>` | System messages, bot status. |
-| nesrine-dialogue | `<channel-id>` | Nesrine's practice channel. |
+| practitioner-dialogue | `<channel-id>` | Practitioner's practice channel. |
 | family | `<channel-id>` | Family shared space. |
 
 ---
