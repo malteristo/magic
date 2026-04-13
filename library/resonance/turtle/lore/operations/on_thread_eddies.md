@@ -18,17 +18,15 @@ The practice doesn't accumulate dead threads. It breathes.
 
 ## II. Eddy Types
 
-Not all eddies spin at the same rate.
+Three types, distinguished by how they dissolve.
 
-**Fast Eddy** (⚡ 3 days) — The default. A question, a brainstorm, a quick exploration. Most conversations are fast eddies. They form, serve their purpose, and dissolve within days.
+**Standard** (💬 default) — Most conversations. A question, a brainstorm, an exploration. Standard eddies are checked during the Sunday sweep — if quiet for 7+ days, they're flagged for dissolution. The Mage decides: archive & capture, keep spinning, or upgrade to standing wave.
 
-**Slow Whirlpool** (🌀 14 days) — A deeper exploration. Book discussions, design sessions, multi-day investigations. These need time to develop but aren't permanent fixtures.
+**Standing Wave** (🌊 permanent) — A deliberate feature of the river. Reference threads, ongoing projects, persistent eddies like the learnings journal. Standing waves never dissolve automatically — they're infrastructure, not conversation.
 
-**Confluence** (🔀 7 days) — Where two streams meet. Cross-topic threads, integrative conversations, synthesis work. A week is enough to find the pattern.
+**Manual Release** (🍃 session-end) — Ephemeral by design. When the conversation goes idle (session timeout), the thread dissolves automatically: Turtle captures the essence to boom, archives the conversation, and notifies the parent channel. No dissolution prompt — the ephemerality is the point.
 
-**Standing Wave** (🌊 never) — A permanent feature of the river. Reference threads, ongoing projects, persistent contexts. These don't dissolve automatically — they're deliberate infrastructure.
-
-The default is fast because most conversations are. Upgrading a thread's type is always available — downgrading is a Mage decision.
+The default is standard because most conversations benefit from the Sunday sweep rhythm. The type can be changed at any time via the config buttons or `!thread-type`.
 
 ---
 
@@ -69,14 +67,18 @@ This is the principle: **the command teaches what the button does; the button ma
 
 ## VI. Context Attunement
 
-Eddies can carry practice context — a resonance bundle loaded at creation time via `--context`.
+Eddies inherit practice context through a three-layer model:
 
-**What it does:** When a thread is created with `!thread "topic" --context partnership`, the system loads domain-specific resonance files and behavioral rules into the thread's system prompt. The thread starts already attuned to the practice domain it serves.
+**Layer 1: Channel defaults.** Each channel can declare a `default_context` in `mage_registry.yaml`. All threads in that channel inherit the default automatically. The family channel gets family context. The Mage's main channel has no default — general practice.
 
-**How it relates to eddy types:** Orthogonal. A partnership thread can be a standing wave (permanent private practice surface) or a fast eddy (one-off processing). Type governs lifespan. Context governs resonance.
+**Layer 2: Explicit context.** The `--context` flag on `!thread` overrides the channel default. Power-user flow for specific practice domains: `!thread "processing" --context partnership`.
 
-**The information boundary pattern:** Some contexts enforce hard boundaries. The `partnership` context carries the raw-material rule — content in a private workshop thread must never surface in shared portal threads. This boundary is injected into the system prompt as a load-bearing safety constraint, not left to behavioral hope. The `check-in` context enforces portal-safe mode — no clinical labels, no raw processing, facilitation only.
+**Layer 3: Dynamic loading.** The `!load` command searches and loads any resonance bundle from the workshop into a thread's working context, on demand.
 
-**Extensibility:** The context registry (`THREAD_CONTEXTS` in state.py) is open for new practice domains. Any practice that needs thread-level resonance loading follows the same pattern: register the context type, specify resonance files and rules, set a character budget.
+**What context does:** Loads domain-specific behavioral rules and resonance files into the thread's system prompt. Each context's rules are self-contained — resonance files enrich when available but aren't required.
+
+**The information boundary pattern:** Some contexts enforce hard boundaries. The `partnership` context carries the raw-material rule — content in a private workshop thread must never surface in shared portal threads. This boundary is injected into the system prompt as a load-bearing safety constraint, not left to behavioral hope.
+
+**How it relates to eddy types:** Orthogonal. A partnership thread can be a standing wave (permanent private practice surface) or a standard eddy (one-off processing). Type governs dissolution. Context governs resonance.
 
 See TURTLE_SPEC §9.5 for the full specification.
