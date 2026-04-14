@@ -2,9 +2,9 @@
 
 **Status**: Active
 **Priority**: Active
-**Phase**: Seeds model — 12 of 14 seed-clusters done (Ch. 1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 12, 13), 1 medium, 1 low. Parts I + II complete; III 2/3; IV 3/4.
+**Phase**: Seeds model — 13 of 14 seed-clusters done (Ch. 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13), 1 medium. Parts I + II + III complete; IV 3/4.
 **Started**: 2026-03-13
-**Last Updated**: 2026-04-10 (Forge 31: Ch. 13 "When It's Hard" — 6 seeds (Day You Don't Want To, Avoidance as Data, Pattern You Don't Want to See, Naming the Tension, The Mast, What You Build on Bad Days). Book at 12/14. Previous: session 29 Ch. 9 + Ch. 12 seeded.)
+**Last Updated**: 2026-04-14 (Forge 39: Ch. 10 "The Practice" — 6 seeds (The Threefold, Door That Never Closes, The Journey, Sovereignty at Every Scale, Children, Practice Outlasts Infrastructure). Book at 13/14, Parts I-III complete. Previous: session 31 Ch. 13 seeded.)
 **Underlied by**: the_angel (the book IS the angel made readable)
 **Serves**: outfacing (deepest artifact) · sovereign_livelihood (harbor artifact) · Soul (the Mage's story told honestly)
 

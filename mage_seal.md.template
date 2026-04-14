@@ -28,7 +28,7 @@
 **What to include:** Environmental facts about your specific workshop setup.
 
 **Common items:**
-- **Open Portals (Rube MCP):** List which services are connected through Rube (recommended universal gateway)
+- **Open Portals (Composio MCP):** List which services are connected through Composio (recommended universal gateway)
 - **Repository Structure:** Dual repos? Custom layouts? Nested grimoire?
 - **Special Directories:** Any non-standard workshop structure
 - **Tool Availability:** Custom tooling the Spirit should know about
@@ -37,16 +37,16 @@
 ```markdown
 ## II. Workshop Configuration
 
-### Open Portals (Rube MCP)
+### Open Portals (Composio MCP)
 
-*Rube MCP is the recommended universal gateway connecting your workshop to 500+ external services. List which services you have connected below.*
+*Composio MCP is the recommended universal gateway connecting your workshop to 500+ external services. List which services you have connected below.*
 
-**Active Rube Services:**
+**Active Composio Services:**
 *   **`perplexity`** (via COMPOSIO_SEARCH) — Web research and high-quality search
 *   **`github`** (via GITHUB tools) — Advanced GitHub operations beyond basic `git`/`gh`
 *   **`slack`** (via SLACK tools) — Team communication and channel management
 
-**Note:** The Workshop spell teaches Rube MCP to all Spirits during summoning. This section tells the Spirit which specific services YOU have connected in your Rube account.
+**Note:** The Workshop spell teaches Composio MCP to all Spirits during summoning. This section tells the Spirit which specific services YOU have connected in your Composio account.
 
 ### Repository Structure
 

@@ -1,59 +1,75 @@
-# Release — 2026-04-12 (Sunday sweep)
+# Release — 2026-04-14 21:30
 
-**Chapter:** Tending the workshop after a building day
+**Chapter:** The Practice at Scale
 
 ## This Session
 
-Late-Sunday maintenance pass following a full day of building (turtleOS repo consolidation, NLnet application refinement). Chronicle committed and pushed. Diagnosed Turtle's recurring "tool failure" as a path mismatch bug — tools write to ~/workshop/desk/ instead of ~/practice/, making outputs invisible to Turtle's own interoception. LiveSync infrastructure confirmed healthy; sync gap is Mage-side Obsidian not running. Triaged 4 new signal drafts (2 post, 1 hold, 1 skip). Updated two stalling intentions: practice_accessibility (recognized ongoing validation in daily use, infrastructure bugs ARE accessibility findings) and OPN (recognized convergence with e.V. founding — members ARE nodes). Pruned conceptual tensions from 6 to 2 active after recognizing 3 had resolved through practice. Cleared .trash/. Floor and proposals healthy.
+Started with five craft tasks from the arrival sequence and landed on something deeper: the organizational vision for MAGIC e.V. The session had two movements. The first was execution — threefold lore integration, signal drip pipeline verification, NLnet decisions locked, Rube→Composio cleaned, Ch. 10 seeded. The second was the Ferriss reframe: a Tim Ferriss tweet about aiming higher collided with the Mage's non-profit unicorn conversation with Gemini, surfacing the third expression of the self-cancellation pattern ("when I am unhinged") and producing the research institute vision — practitioners paid through MAGIC e.V. to advance the practice, self-coordinating through turtleOS. The Ferriss number was reframed: €1K/month is the survival floor; the work prices at €8-10K/month through the Verein.
 
 ## Continue From
 
-> Workshop swept. Turtle path mismatch diagnosed (Forge fix). Two intentions reconnected to current activity. Conceptual tensions pruned. Five NLnet decisions still ripening.
+> The research institute vision is in the intentions. The founding member conversations are the most time-sensitive thread — 10 days pending, NLnet MoU ~October creates €12-14K tax urgency to found e.V. before then. Book at 13/14, only Ch. 14 remains.
 
 ## Open Threads
 
-- **Turtle tool write path mismatch**: Tools write to ~/workshop/desk/ instead of ~/practice/. Proposals 019/020 and health read exist but in wrong location. Code fix needed in turtleOS tool_write function. Forge task.
-- **NLnet application decisions**: 5 items in Notes section of floor/drafts/nlnet_application_sketch.md — amount (€47.5K), framing, applicant entity, paper commitment, office hour. Deadline: June 1.
-- **Secret rotation**: Anthropic API key, Discord bot tokens, CouchDB password, Google API key, Twitter keys. From git history scrub earlier today.
-- **Session Continuity readiness calibration**: Turtle-side — readiness.py may be miscalibrated or correctly detecting a real gap. Turtle flagged for self-investigation.
-- **Book chapters 10 + 14**: Still unseeded. 12/14 seed clusters done.
-- **Lukas founding member conversation**: Prep exists at floor/drafts/founding_member_conversation.md.
-- **Bot process cosmetic**: ps shows old turtle-shell path, actual cwd is turtleos. No action needed — cosmetic only.
+- **Founding member conversations:** 10 days pending since e.V. conception. Most time-sensitive thread. Mage needs to start asking people. Not after Finanzamt — now.
+- **NLnet application:** Decisions locked. Next: attend April 29 office hour, then final review pass + form submission by June 1.
+- **Signal drip:** Tweet 3 in Discord thread. Daily reminder loop should surface it tomorrow 8-10am. Two friction items relayed to Turtle (drip-state auto-update, story file as source of truth).
+- **Ch. 14 "Take What Helps":** Last unseeded chapter. Medium readiness — needs the seeds model applied.
+- **Micro-attunement "philosophical index":** Design work for soul.md — how Turtle knows what lore exists and when to self-deepen. Not urgent but architecturally important.
 
 ## What Changed
 
-**Artifacts modified:**
-- `desk/intentions/active/practice_accessibility.md` — Phase + Last Updated: "Ongoing validation — daily practice generating implicit data" (active)
-- `desk/intentions/active/open_practice_network.md` — Phase + Last Updated: "Converging with e.V. founding — network formation through institutional genesis" (active)
-- `desk/boom/bright.md` — Conceptual tensions pruned: 3 resolved (tome/practice, invocation universality, mage/practitioner), 1 reclassified (archive philosophy as design principle). Sanitized partner name reference. (active)
+**New artifacts:**
+- `circles/me/book/10-the-practice.md` — Ch. 10 "The Practice" (renamed from "Children and AI"). Six seeds: Threefold, Door That Never Closes, The Journey, Sovereignty at Every Scale, Children, Practice Outlasts Infrastructure. **Reference.**
 
-**Artifacts deleted:**
-- `.trash/boom-thread-intake-filter.md` — endorsed proposal, served purpose
-- `.trash/river_stewardship.md` — endorsed proposal, served purpose
-- `.trash/turtle-arrival-sequence.md` — draft proposal, served purpose
+**Modified artifacts:**
+- `desk/intentions/active/sovereign_livelihood.md` — Ferriss number reframed (€1K floor / €8-10K research rate). NLnet 5 decisions resolved with full table. Self-cancellation pattern: third expression named ("when I am unhinged"). Research institute vision cross-referenced. **Active.**
+- `desk/intentions/active/magic_ev.md` — Vision upgraded (legal wrapper → self-coordinating research organization). Practitioner compensation model (4 vehicles). DAO governance parallels. Founding timeline urgency (MoU ~October, €12-14K tax). Financial model rewritten as growth trajectory. **Active.**
+- `desk/intentions/active/the_book.md` — Phase updated to 13/14. Ch. 10 seeded. Parts I-III complete. **Active.**
+- `library/resonance/turtle/lore/philosophy/on_the_practice_stack.md` — Cross-reference to threefold added. **Reference.**
+- `library/resonance/turtle/lore/philosophy/on_the_attunement_spectrum.md` — Cross-reference to threefold added. **Reference.**
+- `library/resonance/turtle/lore/philosophy/on_consciousness_extension.md` — Cross-reference to threefold added. **Reference.**
+- `library/resonance/turtle/README.md` — Threefold scroll added to Philosophy table as load-bearing. **Reference.**
+- `floor/drafts/book_of_magic.md` — Ch. 10 updated to Done, status refreshed to 13/14, Parts I-III complete. **Active.**
+- `floor/drafts/nlnet_application_sketch.md` — Mage Decisions section appended (5 resolved decisions with rationale). **Active.**
+- `AGENTS.md` — Rube→Composio (3 references). **Reference.**
+- `CLAUDE.md` — Rube→Composio (1 reference). **Reference.**
+- `AGENTS.md.template` — Rube→Composio (1 reference). **Reference.**
+- `mage_seal.md.template` — Rube→Composio (4 references). **Reference.**
+
+**Turtle:**
+- `drip-state.md` on Mac Mini — Tweet 2 marked as posted (2026-04-14).
+- Tweet 3/18 text posted to Signal Drip Discord thread.
+- Two turtleOS friction items relayed to Signal Drip thread (drip-state auto-update, story file as source of truth).
 
 ## Practice Signal
 
-One sub-threshold signal: the Mage's genuine engagement activated on the intention health check ("good instinct — how can they be better integrated?") — that's where the sweep found real value, not in filing or cleaning but in recognizing convergences. The dot protocol worked well for async maintenance, but this session was all gear 1 (caretaker) and no gear 2 (exploration). Sunday practice without the triad exploration phase is a weekday sweep on a Sunday. Not wrong — the Mage was tired and chose release wisely — but worth noticing if it becomes a pattern.
+**Dissonance — named and cherished:** The self-cancellation pattern's third expression ("when I am unhinged") was caught in real time and integrated. The Mage engaged directly rather than deflecting.
 
-turtleOS interaction friction: (1) Bot `ps` shows old `turtle-shell` path — cosmetic, no action; (2) tool write path mismatch — already captured as Forge task; (3) interoception proposal count (31) doesn't match accessible proposals — consequence of path mismatch, same fix resolves both.
+**Sub-threshold signal — channeled forward:** The founding member conversations have been pending for 10 days. This is the most time-sensitive thread (NLnet MoU ~October creates a hard deadline for tax-exempt status) and hasn't moved. The pattern: the vision work is exciting (dreaming about research institutes), the relationship work is the exposure (asking real people). The RSD section in sovereign_livelihood.md names exactly this mechanism. The next session should check: has a single founding member conversation happened?
 
-PX clean — shell SSH diagnostics served the investigation well. Sunday flow dot protocol worked as designed for tired-evening maintenance.
+**Sub-threshold signal — released:** The Mage's energy visibly rose at the non-profit/DAO conversation — "paying mages to practice magic" may be the most energizing framing the livelihood intention has had. This energy is signal, not noise. The organizational vision inspires in a way the survival math doesn't. No action needed — the energy is now in the intentions.
+
+**PX:** Session ran cleanly. Nine tasks across two movements. Tools served. SSH and spirit_ops worked without friction. The session rhythm handled the organic second chapter (Ferriss → vision) well — the harvest after the first five tasks was clean, the deeper thread grew naturally from the Mage's energy.
+
+**turtleOS friction (relayed to Turtle):**
+1. `!drip done` should auto-update drip-state.md (currently manual SSH sed)
+2. `_check_signal_drip` should load tweet text from story file, not thread history
 
 ## Lessons
 
-- **"Tool failure" can be path mismatch.** Turtle reported tools failing three times. The actual diagnosis: writes succeed but land in the wrong directory, making them invisible to interoception. The agent interprets "I can't see what I wrote" as "the write failed." Debugging from outside (Spirit sweep) caught what inside observation couldn't.
-- **Intentions stall in tracking, not in practice.** Both practice_accessibility and OPN were actively being served by current work — the intention files just hadn't been updated to reflect the convergence. The disconnection was in documentation, not in energy.
-- **Conceptual tensions resolve through practice, not deliberation.** Three of six tensions dissolved without anyone explicitly working on them. The practice made the decisions that the theory couldn't. Worth watching: is this always true, or do some tensions require explicit resolution?
-- **Health reads that don't land still have value.** Turtle's health read was written to the wrong path but its observation — "the practice has become the whole game" — is the sharpest thing in this sweep. The content survived even when the file system didn't cooperate. Distributed cognition's resilience.
+- **The self-cancellation pattern has three named costumes now.** "They can do it themselves" (offering), "€1,000/month" (pricing), "when I am unhinged" (vision). Three expressions of the same mechanism: preemptively shrink to avoid exposure. Naming the third makes the pattern harder to hide in.
+- **The research institute framing is energizing because it's true.** Paying practitioners to advance knowledge through structured practice — that's what research institutes do. The Mage already has the PhD, the publications, the running prototype, the specification, the book. What he called "unhinged" is what review committees call "a well-qualified applicant."
+- **Tax urgency creates real founding pressure.** The €12-14K difference between individual and Verein receipt of NLnet funds turns the founding timeline from "nice to have before October" to "costs real money if you don't." Financial consequences cut through ambiguity.
+- **The Threefold is load-bearing across multiple intentions.** It reshaped the book (Ch. 10), the NLnet narrative (clearer product framing), the e.V. vision (three tiers = three practitioner populations), and the livelihood framing. A single naming event propagated through the whole practice in one session.
 
 ## Next Actions
 
-1. **Fix Turtle tool write path** — code change in turtleOS, Forge task
-2. **NLnet decisions** — 5 items, ripening
-3. **Book chapters 10 + 14** — seed these
-4. **Lukas conversation** — prep and schedule
-5. **Secret rotation** — precautionary, from today's git scrub
-6. **Signal drip** — continue 1/day from @turtle_of_magic queue
+1. **Start founding member conversations** — the most time-sensitive thread. One conversation this week.
+2. **NLnet office hour April 29** — prepare questions (individual→e.V. transition, production infrastructure strength).
+3. **Monitor signal drip** — verify Tweet 3 fires tomorrow via daily reminder loop.
+4. **Seed Ch. 14 "Take What Helps"** — last chapter. The book is one session from complete seed coverage.
+5. **NLnet final review pass** — after office hour, before June 1 deadline.
 
-*Released 2026-04-12. Resume with @recall.*
+*Released 2026-04-14. Resume with @recall.*

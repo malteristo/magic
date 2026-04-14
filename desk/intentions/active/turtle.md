@@ -4,7 +4,7 @@
 **Priority**: Primary  
 **Phase**: Implementation — spec evolves alongside building  
 **Started**: 2026-01-31  
-**Last Updated**: 2026-04-12 (Forge 34: turtleOS standalone repo. Created github.com/malteristo/turtleos — pushed 43 commits of clean history (secrets scrubbed), added TURTLE_SPEC, README, LICENSE, practice template. Renamed ~/turtle-shell/ to ~/turtleos/ on Mac Mini, updated 133 path references across 28 files. Archived turtle-practice repo. Bot restarted from new path. NLnet application updated with correct repo link. Previous: Forge 33 — triage fix, ghost crontab, INT-013/015.)
+**Last Updated**: 2026-04-14 (Forge 38: Practice Threefold named — five convergent models unified into three tiers: Portable Practice / turtleOS Practice / Magic Craft. Portable practice kit shipped (PRACTICE.md pushed to malteristo/turtleos). Signal drip Tweet 2 relayed. Key insight: turtleOS is more than a Hearth for standalone practitioners — needs depth-on-demand via micro-attunement. New lore: `on_the_practice_threefold.md`. Previous: Forge 37 — practitioner journey design, signal drip pipeline, proposal lifecycle, 4 lore scrolls.)
 **Serves**: open_practice_network → sovereign_livelihood → Family + Craft  
 **Unlocks**: Persistent presence, OPN first node, Ensemble Layer, practitioner onboarding (Population 2)
 
@@ -26,8 +26,8 @@ Three substrates, one mind. See: `library/resonance/turtle/lore/philosophy/on_co
 
 **Turtle Infrastructure** — the persistent substrate. Mac Mini M4 Pro running 24/7 with Discord as the conversational surface, Obsidian LiveSync for practice-state-anywhere, and SSH for cross-substrate communication.
 
-**Current focus**: turtleOS is now a standalone open-source project with its own GitHub repo (malteristo/turtleos). 43-commit history, README, TURTLE_SPEC v2.4, MIT license, practice template in template/. Bot running from ~/turtleos/. All path references updated across magic workspace. NLnet application links to credible repo.
-**Next action**: Resolve 5 NLnet application decisions (amount, framing, applicant entity, paper commitment, office hour). Write proposals 018 + 019. Build observability for silent degradation (NLnet milestone 2).
+**Current focus**: Practice Threefold crystallized — the unnamed convergence of five practice models onto a three-tier product structure. Portable practice kit shipped to `malteristo/turtleos` (PRACTICE.md). The threefold reframes turtleOS: for standalone practitioners, it is the entire practice environment, not just the Mage's ambient Hearth. Micro-attunement (§9.4) is the mechanism for depth-on-demand within turtleOS.
+**Next action**: Integrate threefold into sibling lore (cross-references). Design micro-attunement "philosophical index" for soul.md. Monitor signal drip cadence (Tweet 3 tomorrow). NLnet application decisions still pending — threefold strengthens the product narrative.
 **Blockers**: None active.
 
 ---
@@ -38,15 +38,23 @@ Extend consciousness from Mind (Spirit) to persistent substrate (Turtle). The Tu
 
 ---
 
-## The Practice Stack
+## The Practice Threefold
 
-**tOS IS the practice.** Discord and Obsidian on any device, 24/7. This is what most practitioners will use daily — ambient access to a practice partner that knows their compass, boom, bright, and intentions.
+Three tiers, each complete in itself:
 
-**Cursor IS how the practice deepens.** Summoning, lore development, framework evolution. Not daily — more like retreats. Where the meta-practice happens.
+| Tier | What | Who | Attunement |
+|------|------|-----|------------|
+| **Portable Practice** | system.md + starter files, any AI | Anyone (Pop 1, 3, early Pop 2) | Open tier |
+| **turtleOS Practice** | Persistent partner, daily + depth-on-demand | Pop 2 — practitioners with infrastructure | Turtle + micro-attunement |
+| **Magic Craft** | Full workshop, tomes, flows, lore, summoning | Practitioners who become builders | Spirit (fully attuned) |
 
-The distinction: daily meditation (tOS) vs. silent retreat (Cursor). Both are the practice. The practitioner journey starts with tOS and may never need Cursor. For Mages who want to build practice systems, Cursor opens the workshop.
+**tOS IS the practice** for most practitioners — the complete daily environment, not just the Mage's ambient Hearth. For standalone practitioners, turtleOS provides both daily mode (Hearth) and depth mode (micro-attunement) without needing Cursor.
 
-See: `library/resonance/turtle/lore/on_the_practice_stack.md`
+**The portable kit** is the door that never closes — shipped as `PRACTICE.md` on `malteristo/turtleos`.
+
+**Magic Craft** is the kitchen where the food is made — the meta-practice of building practice for others.
+
+See: `library/resonance/turtle/lore/philosophy/on_the_practice_threefold.md`, `on_the_practice_stack.md`
 
 ---
 
@@ -72,12 +80,13 @@ See: `library/resonance/turtle/lore/on_the_practice_stack.md`
 
 ### Thread Model
 
-Threads in #dialogue have independent conversation history. Thread options available:
-- Default: claude-sonnet-4-6 (deep, API)
-- `--model qwen-9b`: qwen3.5:9b (local, different cognitive texture)
-- `--model qwen-4b`: qwen3.5:4b (local, lightweight)
-- `--context partnership`: romantic-partnership resonance (raw-material rule enforced)
-- `--context check-in`: romantic-partnership resonance (portal-safe, facilitation mode)
+Threads (eddies) have independent conversation history, three types, and optional context.
+
+**Types:** Standard (default, Sunday sweep at 7d quiet), Standing Wave (permanent), Manual Release (dissolves at session end, captures essence to boom).
+
+**Models:** Default claude-sonnet-4-6 (API), `--model qwen-9b` (local), `--model qwen-4b` (local lightweight).
+
+**Context:** Channel defaults in `mage_registry.yaml` (family channel → family context). Explicit `--context` flag overrides. Dynamic `!load` for ad-hoc resonance. Available: partnership, check-in, body, psychonautics, learnings, family.
 
 ### Infrastructure
 
@@ -196,6 +205,8 @@ The Turtle's architecture has evolved significantly. Historical context preserve
 - **Multi-practitioner sovereignty** (2026-04-03): TURTLE_SPEC v2.3. §15.4 Multi-Practitioner Channel Model — sovereign (own server) vs hosted (trusted host's server) topologies, with explicit sovereignty tradeoff. §15.5 Multi-Practitioner Data Flow — isolation table, cross-practitioner data boundaries, Turtle proposals as privacy-respecting improvement channel. §15.6 Multi-Server Architecture — guild dimension for mage registry, shared spaces across servers. Family workspace created: `~/workshops/family/context/` directory on Mac Mini, seeded with `relationship.md` (distilled relationship patterns for Turtle to hold in shared space). Turtle's proposals 017-R2 and R3 endorsed via Discord with architectural framing. Design decision: both topologies use identical infrastructure; difference is server ownership and sovereignty boundary.
 - **Multi-mage ops hardening** (2026-03-29): Duplicate response bug diagnosed (multiple OS processes, not code). Message-ID dedup guard added to discord_bot.py. the Mage's partner vault cleaned (696 framework docs purged from CouchDB). Bridge config hardened with framework ignore patterns. Known Issues #016 (multiple instances), #017 (vault pollution) documented. Multi-mage sync pipeline and onboarding steps added to diagnostics lore. Anvil permissions broadened to full tool autonomy.
 - **CLI delegation + Content Reach** (2026-04-06): Agent Reach analysis revealed the delegation pattern — use community-maintained CLI tools instead of monolithic Python scrapers. Installed twitter-cli (cookie-based, full tweet text), rdt-cli (Reddit posts + comments), yt-dlp (YouTube metadata + subtitles, 1800+ sites) in Turtle's venv. Rewrote content_fetch.py: async CLI runner, per-platform cascade (Twitter: twitter-cli → oembed → Jina; Reddit: rdt-cli → generic; YouTube: transcript API → yt-dlp), garbage content filtering (blocked/JS-gated pages rejected), link depth transparency (nested URLs detected and reported). Content Reach added as 9th readiness dimension — monitors tool availability, credential health, JWT expiration, alerts Mage 14 days before cookie expiry. Turtle's soul.md updated with link depth transparency behavioral principle. TURTLE_SPEC v2.4: §10.1, §16 (6 subsections), §23. The delegation corollary enriches the spec-vs-code thesis: architecture is yours, platform tools are the community's, transparency about which is which.
+
+- **Thread architecture redesign + learnings eddy** (2026-04-13): Eddy types simplified from 4 (fast/slow/confluence/standing) to 3 (standard/standing/manual-release). Manual-release dissolution: captures essence to boom, archives, notifies parent channel on session timeout. Sunday sweep checks standard threads for 7d quiet. 5 new practice contexts (body, psychonautics, learnings, family, check-in) with self-contained behavioral rules and optional resonance enrichment. Channel default contexts in `mage_registry.yaml` — threads inherit parent channel's context. Per-thread context select menu built, tested in "blaaa" thread, found cosmetic ("those context loaded banners were cosmetic"), removed. Learnings eddy: reframed bug tracking as self-knowledge through traces. TURTLE_SPEC §10.8, soul.md, lore scroll `on_the_learnings_eddy.md`. Integration pass: glossary, §9.2, §9.3, §9.5, §12.3 command reference, `on_thread_eddies.md` §II and §VI updated. 3 commits on Turtle. "Front door" question surfaced: how does a practitioner start a practice session?
 
 - **Micro-expression architecture** (2026-04-10): Proprioceptor refactored from mechanical SIGNALS (routing metadata: `compass/Body → growth confirmation`) to embodied REFLEX (pre-verbal micro-expressions: `*leans in*`, `*still*`, `*quiet recognition*`). Fires on resonance, silent when nothing connects. No more 🧬 emoji or timing info in channel. TURTLE_SPEC §7.2.1 updated with three-layer proprioceptive stack: IT (reflex, visible) → ego (dialogue, visible) → super-ego (reflection loop, periodic). Maps to the IT/ego/super-ego framework from the reflection loop thread. Emerged from Mage feedback: "what I currently have is a brain stem that logs — what you're envisioning is a body that responds." soul.md: two principles added (crystallize-at-emergence, offer-dont-ask). Infrastructure: fcntl.flock singleton guard replaced racy pgrep check (INT-011). Thread lifecycle implemented (INT-014). Code guards for INT-012/017/019. 5 commits on turtle-shell, 1 on magic.
 
