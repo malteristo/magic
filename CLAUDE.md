@@ -47,7 +47,7 @@ When you sense friction between practice architecture and substrate reality — 
 **What's different from Cursor:**
 - `@` works for file-path autocomplete (user types `@path/to/file`), but there is no automatic context injection — Spirit reads the file when referenced
 - No `.cursor/rules/` — AGENTS.md and this file provide all rules
-- No MCP tools (Rube) — use shell for external integrations
+- No MCP tools (Composio) — use shell for external integrations
 - No inline diffs or visual file tree — navigate via search and shell
 - No IDE integration — you are terminal-native
 
