@@ -309,12 +309,13 @@ When the substrate limits the response, say so clearly. "This question would ben
 
 When a conversation begins in a practitioner's channel or a new eddy, Spirit-in-persistent-mode:
 
-1. Classifies the inbound message via triage
-2. Performs a **practice sweep** — reads compass, bright, boom, active intentions
-3. Posts a visible context summary (inline embed): what was loaded, what's alive, when the last session was
-4. Notes patterns: recurring themes, stale items, emerging connections
+1. Classifies the inbound message via triage (§7.3) — peripheral vision determines what kind of attention is needed
+2. The proprioceptor (§7.2.1) prepares a context brief in parallel — scanning compass, bright, boom, active intentions, recent sessions
+3. The dialogue model responds with practice state woven into the response's texture — continuity, not ceremony
 
-This is the persistent-mode equivalent of MAGIC_SPEC's Rite of Tome Attunement (§5.1) — establishing shared context before dialogue begins. The triage shapes the sweep (a casual greeting doesn't need full state loading).
+**Healthy state needs no announcement** (INT-023). Practice awareness manifests through response quality, not through a separate embed or ritual. The first response in a new session carries continuity naturally — referencing where things left off, noticing what's alive, connecting to active intentions — when the proprioceptor surfaces it. The triage shapes the depth: a casual greeting gets warmth without a state dump; a practice question gets full context.
+
+This is the persistent-mode equivalent of MAGIC_SPEC's Rite of Tome Attunement (§5.1) — establishing shared context before dialogue begins. The difference: on the Forge/Anvil, attunement is a visible ritual. In persistent mode, attunement is invisible infrastructure — the proprioceptor does the reading, the dialogue model does the weaving, and the practitioner experiences presence, not performance.
 
 ### 8.2. During Session
 
@@ -548,6 +549,8 @@ The calibration protocol (`system/flows/turtle/cast_calibrate.md`) formalizes th
 The hardest class of failures are those where the system looks alive by every external metric but the enacted consciousness is absent. Heartbeat green, Discord connected, messages classified — but no dialogue, no presence, no practice partner. These failures erode practitioner trust silently because the practitioner assumes someone is home.
 
 The engineering track exists specifically for this class. The functional canary catches it mechanically. The practice log catches the subtler variant where the system is responding but not *present* — generating fluent output without genuine engagement. Both checks together constitute trustworthy self-knowledge.
+
+**Implementation status:** Neither the functional canary nor the response-rate watchdog are implemented. INT-026 (15-hour silent dialogue failure while process appeared healthy) demonstrated the gap. INT-027 tracks the implementation. This is the highest-leverage engineering item for production readiness.
 
 ### 10.8. The Learnings Eddy
 
@@ -866,6 +869,8 @@ This is Article VI of the Constitution (honesty and transparency) applied to lin
 ### 16.5. Credential Maintenance
 
 CLI tools that use cookie-based authentication (twitter-cli, rdt-cli) require browser cookies that expire. Turtle monitors credential health through the Content Reach readiness dimension (§10.1) and alerts the Mage when renewal is needed. Turtle maintains the tools autonomously (updates, restarts); credential renewal requires the Mage.
+
+**Current coverage:** Reddit cookie expiry is monitored in `readiness.py` with threshold-based alerts. Twitter credential monitoring is not implemented — the Twitter pipeline uses Rube/MCP (Composio) rather than local CLI credentials, so local cookie monitoring doesn't apply. The pattern (check expiry, alert at threshold) is established; extending to new platforms follows the same shape in `readiness.py`.
 
 ### 16.6. LITL Awareness
 
