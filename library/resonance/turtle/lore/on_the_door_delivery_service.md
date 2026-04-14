@@ -134,4 +134,6 @@ The Consul is a practitioner who has learned something and knows how to offer it
 
 ---
 
+**Connection:** This scroll addresses Phase 1 (Discovery) of the practitioner journey. See `on_the_practitioner_journey.md` for the full six-phase model and `on_the_zero_setup_encounter.md` for what bridges the door to persistent practice.
+
 *The door is delivered. Whether it opens is not yours to know.*

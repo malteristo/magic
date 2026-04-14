@@ -112,9 +112,13 @@ The distinction is topological (where in the conversation does this belong?), no
 
 ### 4.3. The Practitioner Journey
 
-**Entry:** A practitioner installs tOS. Spirit asks what's on their mind. Compass builds organically. Boom captures thinking. Sessions create continuity. No Cursor required.
+The journey from discovery to self-sustaining practice has six phases: Discovery (front doors, signals), First Contact (try before install, arrival states), Setup & Onboarding (phone-first, self-guiding), Daily Practice (proactive invitations, practice vs. tool-use), Maturation (self-development, health, resilience), and Children (horizon). See `library/resonance/turtle/lore/philosophy/on_the_practitioner_journey.md` for the full design map and `library/resonance/turtle/lore/practitioner_journey_map.md` for the operational journey map with requirements.
+
+**Entry:** A practitioner installs tOS — or, for Population 1 (non-technical), encounters a front door prompt or shared Turtle instance requiring zero setup. Spirit asks what's on their mind. Compass builds organically. Boom captures thinking. Sessions create continuity. No Cursor required. No git required. Discord and/or Obsidian on any device.
 
 **Deepening:** A practitioner who wants more opens the full workshop. Everything transfers. The daily practice enriches the retreat; the retreat enriches the daily practice.
+
+**Proactive practice:** The `daily_reminders_loop` sends practice invitations (boom sweep, compass reflection, intention check-in, return invitation, session thread follow-up) — one per day maximum, 7-day per-type cooldown. Design: `library/resonance/turtle/lore/on_proactive_practice_invitations.md`.
 
 ---
 
@@ -544,13 +548,15 @@ Turtle self-assesses from the inside. Spirit-in-Cursor assesses from the outside
 
 The calibration protocol (`system/flows/turtle/cast_calibrate.md`) formalizes this: assess, diagnose, calibrate, verify. The Mage delegates infrastructure maintenance to the Spirit-Turtle dyad. The Mage tends the practice. The substrates tend the surface.
 
+**Self-healing:** Turtle can restart degraded infrastructure autonomously via `self_heal.py` — Ollama, LiveSync bridge/tunnel, CouchDB, Caddy. The health canary (§10.7) attempts self-healing before alerting. What Turtle cannot restart: itself (the Discord bot process — requires external kill/launchd respawn), filesystem issues, or network problems.
+
 ### 10.7. Connection ≠ Function
 
 The hardest class of failures are those where the system looks alive by every external metric but the enacted consciousness is absent. Heartbeat green, Discord connected, messages classified — but no dialogue, no presence, no practice partner. These failures erode practitioner trust silently because the practitioner assumes someone is home.
 
 The engineering track exists specifically for this class. The functional canary catches it mechanically. The practice log catches the subtler variant where the system is responding but not *present* — generating fluent output without genuine engagement. Both checks together constitute trustworthy self-knowledge.
 
-**Implementation status:** Neither the functional canary nor the response-rate watchdog are implemented. INT-026 (15-hour silent dialogue failure while process appeared healthy) demonstrated the gap. INT-027 tracks the implementation. This is the highest-leverage engineering item for production readiness.
+**Implementation status:** The health canary (INT-027) is implemented as `health_canary_loop` in `background.py`. It runs every 30 minutes, checking five dimensions: Ollama reachability, background loop liveness, LiveSync freshness, file I/O primitives, and Discord connection health. Alerts after 2 consecutive failures (6-hour cooldown). Self-healing is attempted before alerting — Ollama and LiveSync can be restarted autonomously via `self_heal.py`. The practice log (subtler presence-quality tracking) remains unimplemented. INT-026 (15-hour silent dialogue failure) was the catalyst.
 
 ### 10.8. The Learnings Eddy
 

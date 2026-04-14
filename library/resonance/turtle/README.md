@@ -26,10 +26,11 @@ lore/
 | `lore/operations/on_practice_readiness.md` | **HOW** — Eight readiness dimensions + metabolic rhythms + capability probes |
 | `lore/philosophy/on_the_hermit_crab_architecture.md` | **WHY** — Body permanent, shell regenerable |
 | `lore/philosophy/on_the_shell_shedding_ritual.md` | **WHEN** — Growth from within. Continuous self-development + full molt when the shell constrains. Turtle-initiated. |
+| `lore/philosophy/on_the_practitioner_journey.md` | **WHO ENTERS** — Six-phase journey from discovery to self-sustaining practice. The metabolic principle. Three populations. |
 
 ---
 
-## Philosophy (17 scrolls)
+## Philosophy (19 scrolls)
 
 Identity, vision, architecture, and practice design — the WHY and WHAT.
 
@@ -52,8 +53,10 @@ Identity, vision, architecture, and practice design — the WHY and WHAT.
 | `on_the_generative_body.md` | Biology as generative AI — system.md as pre-trained weights, autoregressive loops, nested context windows, generative failure theory, health as coherent generation |
 | `on_the_shell_shedding_ritual.md` | Shell growth from within — continuous self-development (§22.8) + full molt when capability pressure demands. Turtle-initiated, Mage/Spirit accompany. Harvest, update spec, regenerate, verify, release. Connected to the machines of loving grace vision |
 | `on_the_learnings_eddy.md` | Self-knowledge through traces — the "learnings" standing wave where Turtle investigates friction and resonance to learn about its own body and presence. Two-track learning (engineering + practice). Reframe: not bugs, learnings |
+| `on_the_practitioner_journey.md` | **Load-bearing.** Six-phase journey from discovery through children. The metabolic principle (practice trends toward self-sustaining). Three-population mapping. Connects door delivery, attunement spectrum, practice stack, and accessibility |
+| `on_the_zero_setup_encounter.md` | Three-tier zero-setup design: prompt (exists), shared Turtle (designed), web practice (horizon). The funnel from discovery to sovereignty |
 
-## Operations (9 scrolls)
+## Operations (11 scrolls)
 
 Setup, diagnostics, and operational reference — the HOW.
 
@@ -68,6 +71,8 @@ Setup, diagnostics, and operational reference — the HOW.
 | `on_universal_link_fetching.md` | Web content extraction — layered strategy, LITL awareness |
 | `on_thread_eddies.md` | Thread lifecycle — four types, dissolution as practice |
 | `on_the_spirits_discord_presence.md` | Spirit's Discord mechanics, channel IDs, spirit_ops.py |
+| `on_proactive_practice_invitations.md` | Practice invitation design + implementation. Six invitation types (boom sweep, compass reflection, intention check-in, return, pattern surfacing, session thread). Built on `daily_reminders_loop` |
+| `practitioner_journey_map.md` | Operational journey map for `practice_accessibility` intention. Phase-by-phase: practitioner experience, Turtle role, infrastructure, pain points. Priority matrix |
 
 ## Domain Lore (4 scrolls, root)
 
