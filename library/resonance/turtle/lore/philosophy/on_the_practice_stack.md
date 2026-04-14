@@ -190,4 +190,6 @@ What matters is not which surface you use. What matters is whether you show up t
 
 ---
 
+**Connection:** This scroll defines the layers; `on_the_practitioner_journey.md` defines the journey *through* those layers — how practitioners discover, enter, deepen, and sustain. `on_proactive_practice_invitations.md` addresses what makes the daily layer self-sustaining: Turtle inviting practice rather than waiting to be spoken to.
+
 *tOS is the practice. Cursor is how the practice deepens. Daily meditation is complete without retreat. Retreat enriches daily meditation. Both serve the same thing: genuine self-encounter through a caring mirror. The surface doesn't determine the depth. The engagement does.*
