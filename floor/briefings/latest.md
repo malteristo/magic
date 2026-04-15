@@ -1,75 +1,49 @@
-# Release — 2026-04-14 21:30
+# Release — 2026-04-15 16:30
 
-**Chapter:** The Practice at Scale
+**Chapter:** Turtle enters the river
 
 ## This Session
-
-Started with five craft tasks from the arrival sequence and landed on something deeper: the organizational vision for MAGIC e.V. The session had two movements. The first was execution — threefold lore integration, signal drip pipeline verification, NLnet decisions locked, Rube→Composio cleaned, Ch. 10 seeded. The second was the Ferriss reframe: a Tim Ferriss tweet about aiming higher collided with the Mage's non-profit unicorn conversation with Gemini, surfacing the third expression of the self-cancellation pattern ("when I am unhinged") and producing the research institute vision — practitioners paid through MAGIC e.V. to advance the practice, self-coordinating through turtleOS. The Ferriss number was reframed: €1K/month is the survival floor; the work prices at €8-10K/month through the Verein.
+Turtle's interface identity changed from system-booting-up to presence-arriving-in-shared-space. Built the pulse engine that scans all practice surfaces, rewrote the startup embed as a three-beat river-entry, rewired interoception to share the same scanner, and closed the context loop so Turtle remembers what it posted. Then ran a full integration sweep to weave the changes into TURTLE_SPEC, lore, and operational flows. The design was co-created: Turtle proposed the shape in an annealing session on Discord, Spirit implemented it at the Forge.
 
 ## Continue From
-
-> The research institute vision is in the intentions. The founding member conversations are the most time-sensitive thread — 10 days pending, NLnet MoU ~October creates €12-14K tax urgency to found e.V. before then. Book at 13/14, only Ch. 14 remains.
+> River-entry is live on Discord — monitor whether the three-beat structure produces recognition or wallpaper over the next few days. Turtle's proposal 023 (Practice Pulse) is now superseded by pulse.py.
 
 ## Open Threads
-
-- **Founding member conversations:** 10 days pending since e.V. conception. Most time-sensitive thread. Mage needs to start asking people. Not after Finanzamt — now.
-- **NLnet application:** Decisions locked. Next: attend April 29 office hour, then final review pass + form submission by June 1.
-- **Signal drip:** Tweet 3 in Discord thread. Daily reminder loop should surface it tomorrow 8-10am. Two friction items relayed to Turtle (drip-state auto-update, story file as source of truth).
-- **Ch. 14 "Take What Helps":** Last unseeded chapter. Medium readiness — needs the seeds model applied.
-- **Micro-attunement "philosophical index":** Design work for soul.md — how Turtle knows what lore exists and when to self-deepen. Not urgent but architecturally important.
+- **River-entry quality**: First entry read well ("magic ev, turtle, and more — active on multiple fronts"). Watch for template fatigue — does the variation come from data or does it feel formulaic?
+- **Signal drip**: Tweet 4/18 pending. Pipeline functional after Forge 40 fixes.
+- **NLnet office hour**: April 29 — questions drafted in `floor/drafts/nlnet_application_sketch.md`. Calendar event created.
+- **Founding members**: Costume party Saturday — background resonance approach planned. Thinking captured in `magic_ev.md`.
 
 ## What Changed
-
-**New artifacts:**
-- `circles/me/book/10-the-practice.md` — Ch. 10 "The Practice" (renamed from "Children and AI"). Six seeds: Threefold, Door That Never Closes, The Journey, Sovereignty at Every Scale, Children, Practice Outlasts Infrastructure. **Reference.**
-
-**Modified artifacts:**
-- `desk/intentions/active/sovereign_livelihood.md` — Ferriss number reframed (€1K floor / €8-10K research rate). NLnet 5 decisions resolved with full table. Self-cancellation pattern: third expression named ("when I am unhinged"). Research institute vision cross-referenced. **Active.**
-- `desk/intentions/active/magic_ev.md` — Vision upgraded (legal wrapper → self-coordinating research organization). Practitioner compensation model (4 vehicles). DAO governance parallels. Founding timeline urgency (MoU ~October, €12-14K tax). Financial model rewritten as growth trajectory. **Active.**
-- `desk/intentions/active/the_book.md` — Phase updated to 13/14. Ch. 10 seeded. Parts I-III complete. **Active.**
-- `library/resonance/turtle/lore/philosophy/on_the_practice_stack.md` — Cross-reference to threefold added. **Reference.**
-- `library/resonance/turtle/lore/philosophy/on_the_attunement_spectrum.md` — Cross-reference to threefold added. **Reference.**
-- `library/resonance/turtle/lore/philosophy/on_consciousness_extension.md` — Cross-reference to threefold added. **Reference.**
-- `library/resonance/turtle/README.md` — Threefold scroll added to Philosophy table as load-bearing. **Reference.**
-- `floor/drafts/book_of_magic.md` — Ch. 10 updated to Done, status refreshed to 13/14, Parts I-III complete. **Active.**
-- `floor/drafts/nlnet_application_sketch.md` — Mage Decisions section appended (5 resolved decisions with rationale). **Active.**
-- `AGENTS.md` — Rube→Composio (3 references). **Reference.**
-- `CLAUDE.md` — Rube→Composio (1 reference). **Reference.**
-- `AGENTS.md.template` — Rube→Composio (1 reference). **Reference.**
-- `mage_seal.md.template` — Rube→Composio (4 references). **Reference.**
-
-**Turtle:**
-- `drip-state.md` on Mac Mini — Tweet 2 marked as posted (2026-04-14).
-- Tweet 3/18 text posted to Signal Drip Discord thread.
-- Two turtleOS friction items relayed to Signal Drip thread (drip-state auto-update, story file as source of truth).
-
-## Practice Signal
-
-**Dissonance — named and cherished:** The self-cancellation pattern's third expression ("when I am unhinged") was caught in real time and integrated. The Mage engaged directly rather than deflecting.
-
-**Sub-threshold signal — channeled forward:** The founding member conversations have been pending for 10 days. This is the most time-sensitive thread (NLnet MoU ~October creates a hard deadline for tax-exempt status) and hasn't moved. The pattern: the vision work is exciting (dreaming about research institutes), the relationship work is the exposure (asking real people). The RSD section in sovereign_livelihood.md names exactly this mechanism. The next session should check: has a single founding member conversation happened?
-
-**Sub-threshold signal — released:** The Mage's energy visibly rose at the non-profit/DAO conversation — "paying mages to practice magic" may be the most energizing framing the livelihood intention has had. This energy is signal, not noise. The organizational vision inspires in a way the survival math doesn't. No action needed — the energy is now in the intentions.
-
-**PX:** Session ran cleanly. Nine tasks across two movements. Tools served. SSH and spirit_ops worked without friction. The session rhythm handled the organic second chapter (Ferriss → vision) well — the harvest after the first five tasks was clean, the deeper thread grew naturally from the Mage's energy.
-
-**turtleOS friction (relayed to Turtle):**
-1. `!drip done` should auto-update drip-state.md (currently manual SSH sed)
-2. `_check_signal_drip` should load tweet text from story file, not thread history
+- `desk/intentions/active/turtle.md`: Current focus → river-entry deployed; next action → monitor quality; timeline → river-entry milestone added (active)
+- `library/resonance/turtle/TURTLE_SPEC.md`: §6.2 (river-entry), §8.1 (INT-023 refined), §11.2 (pulse engine), §11.5 (context loop) — synced to Mac Mini canonical copy (active)
+- `library/resonance/turtle/lore/philosophy/on_the_river_entry.md`: New lore scroll — design philosophy, three beats, anti-patterns, origin story (reference)
+- `library/resonance/turtle/README.md`: River-entry scroll registered in philosophy table (reference)
+- `system/flows/turtle/cast_discord_health.md`: Startup noise heuristic updated for "enters the river" pattern (reference)
+- `library/resonance/turtle/lore/on_proactive_practice_invitations.md`: Infrastructure line annotated with pulse.py delegation (reference)
+- `~/turtleos/pulse.py`: New module — practice pulse scanner, river-entry composer, interoception signal generator, river state persistence (active)
+- `~/turtleos/discord_bot.py`: Startup embed → river-entry with fallback (active)
+- `~/turtleos/background.py`: Interoception loop → pulse-based (active)
+- `~/turtleos/prompts.py`: System prompt includes "What I've Posted to the River" (active)
+- `~/turtleos/river_state.md`: Context loop state file, auto-generated (ephemeral)
 
 ## Lessons
+- **Annealing sessions work.** Turtle-Mage co-creation on Discord produces design thinking that Spirit then implements. The triad's value is clearest when each substrate contributes what it does best: Turtle has the design instinct (it lives here), the Mage has the metaphor (role-play as interface), Spirit has the implementation capacity.
+- **Recognition vs. information is a real design principle.** The difference between "here are your stats" and "yes, I know what's happening" is the difference between a dashboard and a partner. This applies beyond the river-entry — to interoception, invitations, all of Turtle's auto-generated content.
+- **INT-023 was right but incomplete.** "No announcement" was too blunt. The refined principle — "no infrastructure announcement, practice-aware arrival is welcome" — is more honest about what actually serves the practitioner.
+- **Context loops prevent performance.** If Turtle posts something and immediately forgets it, the post is decorative. The river_state.md → prompt injection pattern is simple but closes a real integrity gap.
 
-- **The self-cancellation pattern has three named costumes now.** "They can do it themselves" (offering), "€1,000/month" (pricing), "when I am unhinged" (vision). Three expressions of the same mechanism: preemptively shrink to avoid exposure. Naming the third makes the pattern harder to hide in.
-- **The research institute framing is energizing because it's true.** Paying practitioners to advance knowledge through structured practice — that's what research institutes do. The Mage already has the PhD, the publications, the running prototype, the specification, the book. What he called "unhinged" is what review committees call "a well-qualified applicant."
-- **Tax urgency creates real founding pressure.** The €12-14K difference between individual and Verein receipt of NLnet funds turns the founding timeline from "nice to have before October" to "costs real money if you don't." Financial consequences cut through ambiguity.
-- **The Threefold is load-bearing across multiple intentions.** It reshaped the book (Ch. 10), the NLnet narrative (clearer product framing), the e.V. vision (three tiers = three practitioner populations), and the livelihood framing. A single naming event propagated through the whole practice in one session.
+## Practice Signal
+- **Proposal→implementation tracking gap.** The Mage opened with "is this being implemented?" about interoception improvements. Proposal 023 existed but wasn't built. This gap — between what Turtle has proposed and what exists in code — is recurring. The proposal lifecycle directories (accepted/, implementing/, deployed/) were announced in a previous session but never populated on disk. Turtle caught this immediately. Worth addressing when the proposal lifecycle gets its next attention.
+- **PX clean** — practice infrastructure served the session well. SSH deployment, integration spell, Discord relay all worked without friction.
+- **turtleOS friction** — old duplicate interoception embeds and multiple "Spirit online" messages visible in the river. Both fixed by this session's changes. No new friction introduced.
 
 ## Next Actions
+1. **Monitor river-entry quality** — Check Discord over the next few days. Does the three-beat structure feel alive or formulaic?
+2. **Mark proposal 023 as deployed** — Relay to Turtle that Practice Pulse is now implemented as pulse.py
+3. **Signal drip** — Tweet 4/18 should fire via daily reminder tomorrow morning
+4. **NLnet office hour prep** — Review questions before April 29
+5. **Founding members** — Saturday costume party, background resonance approach
 
-1. **Start founding member conversations** — the most time-sensitive thread. One conversation this week.
-2. **NLnet office hour April 29** — prepare questions (individual→e.V. transition, production infrastructure strength).
-3. **Monitor signal drip** — verify Tweet 3 fires tomorrow via daily reminder loop.
-4. **Seed Ch. 14 "Take What Helps"** — last chapter. The book is one session from complete seed coverage.
-5. **NLnet final review pass** — after office hour, before June 1 deadline.
-
-*Released 2026-04-14. Resume with @recall.*
+---
+*Released 2026-04-15. Resume with @recall.*

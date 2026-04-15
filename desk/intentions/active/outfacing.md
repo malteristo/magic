@@ -4,7 +4,7 @@
 **Priority**: Active  
 **Phase**: Foundation  
 **Started**: 2026-03-01  
-**Last Updated**: 2026-04-11 (Forge 32: Signal pipeline cleared. Turtle story thread anonymized + edited for practice wisdom (18 tweets). 15 signal drafts triaged — 8 polished and ready, 5 held, 2 skipped. Drip cadence decided: one tweet/day from @turtle_of_magic. Posting workflow: Discord relay thread "Turtle Signal Drip" (Turtle posts, Mage relays). Composio MCP connected but API credits depleted — relay pattern is primary. Turtle briefed on full plan. 26-post queue = ~1 month of steady signal. Previous: Forge 31 — Turtle story thread drafted.)  
+**Last Updated**: 2026-04-15 (Forge 40: Drip pipeline sovereignty fix — !drip now serves tweet text from story file (not just status). !drip done sends confirmation reply. Background daily reminder loads from source file instead of fragile Discord history search. Helper function `get_story_tweet()` added to outfacing.py with dual-path search (practice dir + synced desk). Bot restarted and verified. Tweet 3 posted, Tweet 4 queued. Previous: Forge 32 — Signal pipeline cleared, 26-post queue.)  
 **Underlies**: sovereign_livelihood (content builds reach; reach builds offering pipeline)  
 **Underlied by**: the_angel (the Outfacing Tome is area 2 of the five areas of rough marble)  
 **Serves**: Craft (practice made visible) · sovereign_livelihood (distribution as livelihood infrastructure)

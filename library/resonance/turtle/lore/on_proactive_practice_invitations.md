@@ -3,7 +3,7 @@
 **Status:** Active — Design + Implementation  
 **Origin:** Forge 37, 2026-04-14  
 **Builds on:** `on_the_practitioner_journey.md`, `on_the_zero_setup_encounter.md`  
-**Infrastructure:** `daily_reminders_loop` in `background.py`, `interoception_loop`
+**Infrastructure:** `daily_reminders_loop` in `background.py`, `interoception_loop` (delegates to `pulse.py` for signal generation since 2026-04-15)
 
 ---
 

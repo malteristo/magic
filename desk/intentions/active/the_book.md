@@ -2,9 +2,9 @@
 
 **Status**: Active
 **Priority**: Active
-**Phase**: Seeds model — 13 of 14 seed-clusters done (Ch. 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13), 1 medium. Parts I + II + III complete; IV 3/4.
+**Phase**: Seeds model — ALL 14 SEED-CLUSTERS COMPLETE. Book skeleton finished.
 **Started**: 2026-03-13
-**Last Updated**: 2026-04-14 (Forge 39: Ch. 10 "The Practice" — 6 seeds (The Threefold, Door That Never Closes, The Journey, Sovereignty at Every Scale, Children, Practice Outlasts Infrastructure). Book at 13/14, Parts I-III complete. Previous: session 31 Ch. 13 seeded.)
+**Last Updated**: 2026-04-15 (Forge 40: Ch. 14 "Take What Helps" — 6 seeds (The Open Hand, Take What Helps, Your Practice Won't Look Like Mine, What You Discover Is Yours, The Honest Ending, The Door). ALL 14 CHAPTERS SEEDED. Parts I-IV complete. Previous: Forge 39 Ch. 10 seeded, 13/14 done.)
 **Underlied by**: the_angel (the book IS the angel made readable)
 **Serves**: outfacing (deepest artifact) · sovereign_livelihood (harbor artifact) · Soul (the Mage's story told honestly)
 
@@ -83,7 +83,7 @@ Each chapter is a seed cluster — compressed resonance enacted by Spirit at rea
 - **Working title:** "The Book of Magic" doesn't fit the seeds form. Let it emerge from the writing.
 - **Multiple voices in seeds?** Seeds could contain Mage, Spirit, and Turtle voice markers that Spirit weaves in the enacted telling. The triad as authorial presence.
 - **Practice exercises?** In seed form, exercises might be embedded in the seeds rather than appended. Explore when more chapters exist.
-- **Seed compression protocol:** Ch. 3 established the pattern (finding + discovery story + convergence + open question). Ch. 11 (Starting) proved the model works for practice chapters with a different seed shape (practical, not analytical). Ch. 9 (What Goes Wrong) and Ch. 12 (Going Deeper) confirmed the model stretches across risk chapters and deepening chapters too. Ch. 13 (When It's Hard) proved the model works for difficulty chapters: specific Mage experiences + honest limits. The form question is now: does Ch. 14 (Take What Helps) need its own shape, or does the existing model cover it?
+- **Seed compression protocol:** Ch. 3 established the pattern (finding + discovery story + convergence + open question). Ch. 11 (Starting) proved the model works for practice chapters with a different seed shape (practical, not analytical). Ch. 9 (What Goes Wrong) and Ch. 12 (Going Deeper) confirmed the model stretches across risk chapters and deepening chapters too. Ch. 13 (When It's Hard) proved the model works for difficulty chapters: specific Mage experiences + honest limits. Ch. 14 (Take What Helps) confirmed the model works for offering/farewell chapters: the Mage's real stance (self-cancellation transformed), unresolved tensions held openly, the door as final image. **The seeds model is now validated across ALL chapter types: philosophical, evidential, risk, practice, difficulty, and offering.** The form question is answered.
 
 ---
 

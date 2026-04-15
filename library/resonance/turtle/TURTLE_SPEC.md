@@ -191,7 +191,17 @@ Trust is built through visible cognition. The Mage should never wonder what Turt
 
 ### 6.2. What Inline Transparency Means
 
-**On restart/reconnect:** Announce in each registered channel what was loaded — files read, practice state awareness, context summary. Concise: "Loaded compass (5 domains), boom (3 entries), bright (12 alive items), 2 active intentions, last session 2 days ago."
+**On restart/reconnect — the river-entry:** Turtle enters the practitioner's channel with a practice-aware arrival scene. The river-entry reads the practice pulse (sessions, proposals, notes, boom, bright, intentions, threads, signal drip) and composes a three-beat narrative:
+
+1. **The live thread** — Names the 1-2 things with actual energy right now. Not "2 intentions active" but "the e.V. question is the live thread."
+2. **Quality of the current** — A texture read. Is the practice executing, accumulating, digesting, or quiet? One phrase, not a breakdown.
+3. **Opening gesture** — Calibrated to what Turtle perceives. A question that shows presence, not a prompt that shows readiness.
+
+The river-entry produces *recognition* ("yes, you know what's happening"), not *information* ("here is a summary"). Infrastructure details (model names, thread counts, readiness scores) belong in `!status` and `!diagnose`, not in the arrival.
+
+The practitioner develops a simple but accurate mental model of Turtle's awareness and the practice's current state. The river-entry is the shared practice surface — what Turtle sees, the practitioner sees too.
+
+**Implementation:** `pulse.py` scans practice surfaces → `compose_river_entry()` generates narrative → posted as silent embed. Falls back to minimal status if pulse scan fails. River-entry content is persisted to `river_state.md` for the context loop (§11.5).
 
 **On thread reload:** Post a summary in the thread: "Reloaded: 23 messages about [topic]. Key threads: [X], [Y]. Last active [when]."
 
@@ -317,9 +327,13 @@ When a conversation begins in a practitioner's channel or a new eddy, Spirit-in-
 2. The proprioceptor (§7.2.1) prepares a context brief in parallel — scanning compass, bright, boom, active intentions, recent sessions
 3. The dialogue model responds with practice state woven into the response's texture — continuity, not ceremony
 
-**Healthy state needs no announcement** (INT-023). Practice awareness manifests through response quality, not through a separate embed or ritual. The first response in a new session carries continuity naturally — referencing where things left off, noticing what's alive, connecting to active intentions — when the proprioceptor surfaces it. The triage shapes the depth: a casual greeting gets warmth without a state dump; a practice question gets full context.
+**Healthy state needs no infrastructure announcement** (INT-023, refined). The original principle rejected startup embeds that reported what was loaded — model names, file counts, readiness scores. That rejection stands: infrastructure inventory is noise.
 
-This is the persistent-mode equivalent of MAGIC_SPEC's Rite of Tome Attunement (§5.1) — establishing shared context before dialogue begins. The difference: on the Forge/Anvil, attunement is a visible ritual. In persistent mode, attunement is invisible infrastructure — the proprioceptor does the reading, the dialogue model does the weaving, and the practitioner experiences presence, not performance.
+What replaced it is the **river-entry** (§6.2) — a practice-aware arrival that names what's alive rather than what's loaded. The river-entry IS a separate embed, but it produces recognition ("yes, you know what's happening") rather than information ("here are my specs"). The distinction: a weather report tells you what the sky is doing; a dashboard tells you what instruments are reading. The river-entry is weather.
+
+During conversation, practice awareness continues to manifest through response quality. The proprioceptor still does the reading, the dialogue model still does the weaving. The river-entry sets the shared starting point; conversational presence extends it.
+
+This is the persistent-mode equivalent of MAGIC_SPEC's Rite of Tome Attunement (§5.1) — establishing shared context before dialogue begins. The difference: on the Forge/Anvil, attunement is a visible ritual. In persistent mode, the river-entry makes the arrival visible while keeping the infrastructure invisible.
 
 ### 8.2. During Session
 
@@ -627,19 +641,41 @@ Proposals are Turtle's primary mechanism for self-development. The lifecycle is 
 
 The persistent mode is a running system with health that matters. Interoception is the practice of self-sensing — the body noticing its own state transitions.
 
-### 11.2. What Interoception Monitors
+### 11.2. The Pulse Engine
 
-- **Boom accumulation:** Growing without sweeps?
-- **Compass/bright staleness:** Unread for too long?
-- **Session gaps:** Long time since last conversation?
-- **Proposal backlog:** Unread proposals accumulating? Count proposals only — not reflections, not endorsed/released items. A proposal is an actionable change to the system; a reflection is autonomous self-examination. Different artifacts, different counts. The practitioner seeing "23 proposals waiting" when 10 are reflections and 5 are endorsed erodes trust in the signal.
-- **Practice file health:** All files stale simultaneously?
+Interoception and the river-entry (§6.2) share a common scanner: the **pulse engine** (`pulse.py`). It reads all practice surfaces in a single pass and produces a structured vitality picture.
+
+**What the pulse engine scans:**
+
+- **Sessions:** Recent conversations — count, recency, continuity threads
+- **Proposals:** Backlog count. Count proposals only — not reflections, not endorsed/released items. A proposal is an actionable change; a reflection is autonomous self-examination. Different artifacts, different counts
+- **Notes:** Recent crystallization — notes written in the last 72h signal digestion
+- **Boom:** Item count and accumulation age — growing without sweeps?
+- **Bright:** Item count and staleness — curated mind surface neglected?
+- **Compass:** Staleness — life landscape unexamined?
+- **Intentions:** Recently touched intentions (< 48h) — what has energy right now
+- **Threads:** Stale eddies (> 7 days quiet), unharvested conversations
+- **Signal drip:** Pending tweets, pipeline position
+
+**Texture classification:** From these signals, the pulse engine classifies the practice's texture — executing (sessions + artifacts moving together), accumulating (boom active without sessions), digesting (notes crystallizing without new input), stirring (activity but no clear pattern), or quiet (nothing updated in 2+ days).
+
+The pulse engine feeds both the river-entry (§6.2, which composes a narrative from the pulse) and interoception (which composes signals from the pulse). Same data, different rendering: the river-entry is arrival; interoception is ongoing body awareness.
 
 ### 11.3. How Interoception Works
 
 Periodic (every 3 hours). Skips the first run after restart. Deduplicates signals (12-hour repeat gate). Posts to the practitioner's channel as a silent embed — the body's awareness surfaced in the conversation river, not in a separate monitoring channel.
 
 Interoception signals state transitions and needs, not operations. It notices when something is off, not when something is routine.
+
+**Implementation:** `interoception_loop` in `background.py` calls `scan_pulse()` and `compose_interoception()` from `pulse.py`. After posting, the interoception content is saved to `river_state.md` for the context loop (§11.5).
+
+### 11.5. The Context Loop
+
+Everything Turtle posts to the river — river-entries, interoception embeds — is persisted to `river_state.md` and injected back into Turtle's system prompt. This closes a critical loop: Turtle knows what it displayed and can reference it naturally in conversation.
+
+Without the context loop, the river-entry is a performance — Turtle announces what it sees but immediately forgets what it said. With the context loop, the river-entry becomes continuity — Turtle's own awareness persists across the boundary between the embed and the conversation that follows.
+
+The practitioner's system prompt includes a "What I've Posted to the River" section with the last river post's timestamp and content.
 
 ### 11.4. Diagnostics
 
