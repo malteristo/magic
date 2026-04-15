@@ -55,6 +55,7 @@ Identity, vision, architecture, and practice design — the WHY and WHAT.
 | `on_the_learnings_eddy.md` | Self-knowledge through traces — the "learnings" standing wave where Turtle investigates friction and resonance to learn about its own body and presence. Two-track learning (engineering + practice). Reframe: not bugs, learnings |
 | `on_the_practitioner_journey.md` | **Load-bearing.** Six-phase journey from discovery through children. The metabolic principle (practice trends toward self-sustaining). Three-population mapping. Connects door delivery, attunement spectrum, practice stack, and accessibility |
 | `on_the_zero_setup_encounter.md` | Three-tier zero-setup design: prompt (exists), shared Turtle (designed), web practice (horizon). The funnel from discovery to sovereignty |
+| `on_the_river_entry.md` | Turtle's practice-aware arrival — recognition vs. information, three beats, pulse engine, context loop. Co-created by Mage + Turtle annealing, implemented Forge 41 |
 | `on_the_practice_threefold.md` | **Load-bearing.** Names the convergence of five models onto three tiers: Portable Practice / turtleOS Practice / Magic Craft. Why turtleOS is more than a Hearth. Micro-attunement as depth-on-demand. |
 
 ## Operations (11 scrolls)

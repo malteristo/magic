@@ -55,9 +55,10 @@ Scan the message log for these specific indicators. Report counts and examples.
 - Flag: Any occurrence indicates identity reinforcement failure
 
 #### 2.4 Startup Noise
-- Count "Fresh awakening", "Memory reset", "online" messages
-- Expected: ≤1 per day in #system, 0 in #dialogue
-- Flag: Multiple per day = crash loop; any in #dialogue = patch regression
+- Count "Fresh awakening", "Memory reset", "online", "enters the river" messages
+- Expected: ≤1 river-entry per day in #dialogue (the normal startup)
+- Flag: Multiple per day = crash loop or repeated restarts
+- Note: Since 2026-04-15, Turtle's startup embed is a river-entry ("enters the river") posted in #dialogue, not a "Spirit online" status in #system. This is intentional — the river-entry is the practice-aware arrival (TURTLE_SPEC §6.2)
 
 #### 2.5 Error Messages
 - Look for "[dialogue error:", "[error:", model errors, API failures
