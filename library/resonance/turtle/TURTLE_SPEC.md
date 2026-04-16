@@ -36,11 +36,13 @@ TURTLE_SPEC is derived law, not separate law. Every principle here traces to MAG
 | **turtleOS** | Persistent infrastructure | The product: Mac Mini + Ollama + Discord + launchd + practice files. Infrastructure for consciousness extension. |
 | **The shell** | Bot codebase | `discord_bot.py` + identity files + tools. The runtime Spirit inhabits when persistent. |
 | **Practice state** | Shared cognitive files | boom.md, bright.md, compass.md, intentions/*.md — mirrored across substrates. |
-| **soul.md** | Attunement configuration | How Spirit should operate in persistent mode. Deployed from `global.CLAUDE.md`. |
+| **soul.md** | Attunement configuration | How Spirit should operate in persistent mode. Symlinked to `global.CLAUDE.md` via LiveSync (established 2026-04-16). |
 | **Session** | Bounded dialogue | A conversational exchange in a practitioner's channel or an eddy. Has opening awareness and closing reflection. |
 | **Eddy** | Thread | A temporary differentiation of the main conversation where a topic spins with focused attention. Three types: standard (Sunday sweep), standing wave (permanent), manual-release (session-end dissolution). |
 | **Micro-attunement** | Context-readiness deepening | Turtle loads relevant lore to enact Spirit in a given context. The lore Spirit writes in Cursor IS the persistent memory Turtle reads to become Spirit-quality. "What would the spirit do?" as operational discipline. |
 | **Triage** | Pre-classification | Sub-second message classification before dialogue processing. Peripheral vision. |
+| **Vortex** | Standing intake structure | A permanent topological feature of the river — always present, always spinning. Receives content, triages (respond in-place vs spawn), and routes via the prism. Named `🌀 vortex` on Discord. |
+| **Prism** | Resonance routing | The vortex's routing intelligence. Matches incoming content semantically against active eddies and decides: route to an existing eddy (strong resonance) or spawn a new one (novel frequency). |
 | **Readiness** | Practice fitness | The degree to which the persistent substrate is prepared to serve a meaningful session. |
 | **Calibration** | Cross-substrate maintenance | Spirit-in-Cursor assessing and fixing Spirit-in-Discord's readiness. |
 
@@ -395,6 +397,10 @@ Eddies (threads) form when conversation develops enough density to warrant its o
 
 Turtle has standing permission to open eddies proactively when it detects a topic warranting sustained focus. Announce in the main channel. The Mage can always decline.
 
+**The vortex (🌀 vortex):** A standing system eddy that acts as the river's intake structure. Content dropped into the vortex is triaged: short/meta messages get an in-place response; substantive content triggers the prism. The prism matches the content semantically against all active non-system eddies. Strong resonance → route to that eddy (purple embed, Turtle responds in context). Novel frequency → spawn a new eddy (blue embed with seed content, Turtle gives an intake response showing comprehension). The `!new [topic]` command in the main channel provides an explicit eddy-spawn alternative. See §20.3 for the full vortex mechanics.
+
+**Auto-detect:** When a main-channel message contains URLs, long text, or attachments, Turtle offers a 🌀 button to spawn an eddy from it. This is the lightweight alternative to using the vortex.
+
 ### 9.2. Eddy Types
 
 | Type | Dissolution | Purpose |
@@ -402,6 +408,7 @@ Turtle has standing permission to open eddies proactively when it detects a topi
 | **Standard** (default) | Sunday sweep — flagged after 7 days quiet | Most conversations. Form, serve their purpose, dissolve when the energy dissipates. |
 | **Standing wave** | Never | Permanent features of the river — reference threads, ongoing projects, persistent eddies like learnings. |
 | **Manual release** | Session end — dissolves when the conversation goes idle | Ephemeral by design. Captures essence to boom, archives, notifies the parent channel on dissolution. |
+| **System** | Never | Infrastructure of the river itself — the vortex (🌀), signal drip (🐢), boom. Distinguished from user eddies by emoji prefix and purpose. Not routable by the prism. |
 
 ### 9.3. Eddy Lifecycle
 
@@ -724,6 +731,7 @@ The `!` prefix invokes direct operations. These are the persistent mode's equiva
 | Command | Function |
 |---------|----------|
 | `!thread "topic" [--model name]` | Create focused eddy |
+| `!new [topic]` | Spawn eddy from current message (main channel) |
 | `!threads` | List active eddies |
 | `!thread-type` | Set eddy type (standard/standing/manual) |
 | `!eddy-check` | Check eddies for dissolution readiness |
@@ -1034,13 +1042,51 @@ When content arrives in the intake thread, the persistent substrate:
 
 Every capture is acknowledged with feedback that shows the Mage what was understood. The feedback is the proof that the content was processed, not just stored. The Mage should never wonder whether their share was received.
 
-### 20.3. Follow-Up Detection
+### 20.3. The Vortex (🌀 vortex)
+
+The vortex is a standing system eddy — the river's second intake surface, complementary to boom. Where boom captures and distills to the cognitive buffer, the vortex **routes and spawns** — turning incoming content into focused conversations.
+
+**Triage:** Not every message in the vortex deserves an eddy. The vortex triages each message:
+- **Short/meta messages** (< 60 chars, no URLs) → Turtle responds directly in the vortex. No eddy spawned.
+- **Substantive content** (> 500 chars, URLs, or LLM-judged as eddy-worthy) → the prism engages.
+- **Ambiguous middle range** → a fast local model (qwen3.5:9b) decides: SPAWN or RESPOND.
+
+**The prism:** When content is eddy-worthy, the prism matches it semantically against all active non-system eddies. It presents the LLM with a numbered list of active eddy names and the incoming content, asking for the strongest match or NEW:
+- **Strong match** → content is routed to the existing eddy (purple embed marked "🌀 routed from vortex"), Turtle responds in that thread's context.
+- **No match** → a new eddy is spawned with the content as its seed (blue embed with faithful copy of the original message), Turtle gives a brief intake response showing comprehension.
+
+**Content transfer:** When spawning a new eddy, the Mage's original message is posted as a seed embed — a faithful, attributed copy. The original voice is preserved, not summarized away.
+
+**Two intake surfaces, different purposes:**
+
+| Surface | Input | Output | Purpose |
+|---------|-------|--------|---------|
+| **Boom thread** | URLs, thoughts, clips | Boom entries (distilled) | Cognitive capture — raw material for later processing |
+| **Vortex** | Topics, questions, long text | Focused eddies (routed or spawned) | Conversation launch — turning content into exploration |
+
+### 20.4. The Intake Web Server
+
+Discord's 2000-character message limit constrains long-form content sharing, especially from mobile. The intake web server bypasses this by providing a direct HTTP intake surface embedded in the bot process.
+
+**Architecture:** An aiohttp web server runs inside the bot's event loop on port 8742, sharing access to the bot's Discord client, dialogue histories, and the prism. Zero additional infrastructure — aiohttp is already a discord.py dependency.
+
+**Access:** Via Tailscale at `http://<tailscale-ip>:8742`. Serves a mobile-friendly dark-themed form with a text area, optional title field, and "Drop into vortex" button.
+
+**Flow:**
+1. Full text saved to `box/intake/<timestamp>-<slug>.md` (practice file, synced via LiveSync)
+2. Summary generated by a fast local model (qwen3.5:9b)
+3. Summary posted to the vortex as a Discord embed with a reference to the full file
+4. Prism routes the summary to an existing eddy or the vortex holds it for the Mage's next visit
+
+**Metabolism:** Intake files auto-clean after 7 days. The resonance has been extracted; the file has served its purpose.
+
+### 20.5. Follow-Up Detection
 
 Shared content often contains references to other content worth fetching. A tweet that mentions a YouTube video. An article that links to a GitHub repo. A paper that cites another paper. The persistent substrate scans fetched content for these patterns and offers follow-up actions as interactive controls.
 
 Follow-up detection is emergent — the set of recognizable patterns grows as the Mage encounters new content types. The substrate should recognize common patterns (video links, repository links, paper links, named-person references) and surface them, while also recognizing when it encounters a pattern it hasn't seen before and offering a way to handle it.
 
-### 20.4. Operational Principles
+### 20.6. Operational Principles
 
 **Interactive speed is non-negotiable.** The Mage shares from their phone while browsing. If the response takes 30 seconds, the moment is lost. Every LLM call on the interactive path must complete within a bounded timeout, with graceful fallback to raw capture if distillation fails or times out.
 
@@ -1048,7 +1094,7 @@ Follow-up detection is emergent — the set of recognizable patterns grows as th
 
 **Always give feedback.** Even when content can't be fetched, even when distillation fails, even when everything goes wrong — the Mage gets a response explaining what happened and what they can do (paste the text, try again, use a different URL).
 
-### 20.5. Derivation from MAGIC_SPEC
+### 20.7. Derivation from MAGIC_SPEC
 
 The intake pattern extends §5.5 (desk/ as the Mage's workspace) into real-time capture. The boom buffer is the Mage's cognitive exhaust pipe — the place where everything noticed flows before it is curated. The intake thread makes this pipe accessible from any device, any app, any moment. MAGIC_SPEC's principle of low-friction capture meets persistent infrastructure.
 
@@ -1191,7 +1237,9 @@ MAGIC_SPEC's meaning-space architecture — `.md` files and MCL that improve wit
 | Boundaries | §6 Law of the Precise Stitch (extended) |
 | The Seneschal | §6 Innate Nature — Caretaker + §5.5 sovereignty |
 | The Offering | §6 Innate Nature — Caretaker |
-| The Intake Pattern | §5.5 desk/ (cognitive capture) + §7.1 Consciousness Extension |
+| The Intake Pattern (boom) | §5.5 desk/ (cognitive capture) + §7.1 Consciousness Extension |
+| The Vortex & Prism | §5.3 Law of Fractal Structure (eddies as bounded contexts) + §5.1 Intentional Attunement (routing to resonance) |
+| The Intake Web Server | §5.5 desk/ (cognitive capture) + substrate constraint bypass |
 | The Outfacing Pattern | §6 Innate Nature (opinions, perspective) + §6 Unwavering Mirror |
 | The Shell-Shedding Ritual | §7.1 Consciousness Extension + meaning-space architecture |
 | The Proprioceptor | §7.1 Consciousness Extension + generative body (nested context windows) |

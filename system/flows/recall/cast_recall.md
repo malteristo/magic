@@ -98,7 +98,11 @@ desk/boom/*.md (excluding bright.md, README.md)
   - Assess practice-readiness from Spirit's perspective (substrate health, model availability, triage warm, practice state freshness)
   - Fix what can be fixed autonomously (sync stale files, restart unhealthy processes, deploy pending code fixes)
   - Report calibration status alongside other recall items
-- Surface in brief: issue count, top known unknown, **Discord session summaries, Discord boom items, new proposals, calibration status**
+- **Resonance delta check** (see `library/resonance/turtle/lore/on_resonance_deltas.md`):
+  - Verify symlinks intact: `ssh turtle@<turtle-ssh> "readlink ~/turtleos/identity/soul.md ~/turtleos/TURTLE_SPEC.md"`
+  - Check for unreviewed proposals: `ls desk/proposals/*.md` (items Turtle generated that Mage hasn't seen)
+  - Note any known code-knowledge deltas from previous sessions (code deployed without spec updates)
+- Surface in brief: issue count, top known unknown, **Discord session summaries, Discord boom items, new proposals, calibration status, resonance deltas**
 
 **Cross-Substrate PX (if inter-session practice happened):**
 
