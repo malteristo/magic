@@ -4,7 +4,7 @@
 **Priority**: Active  
 **Phase**: Foundation  
 **Started**: 2026-03-01  
-**Last Updated**: 2026-04-15 (Forge 40: Drip pipeline sovereignty fix — !drip now serves tweet text from story file (not just status). !drip done sends confirmation reply. Background daily reminder loads from source file instead of fragile Discord history search. Helper function `get_story_tweet()` added to outfacing.py with dual-path search (practice dir + synced desk). Bot restarted and verified. Tweet 3 posted, Tweet 4 queued. Previous: Forge 32 — Signal pipeline cleared, 26-post queue.)  
+**Last Updated**: 2026-04-16 (Forge 43: Ed Hutchins email sent — "LLM facilitated distributed cognition," linked magic repo, subject line "distributed cognition in the wild." First direct outreach to the intellectual lineage. Signal drip pipeline confirmed working — today's tweet posted via relay. Previous: Forge 40 drip pipeline sovereignty fix.)  
 **Underlies**: sovereign_livelihood (content builds reach; reach builds offering pipeline)  
 **Underlied by**: the_angel (the Outfacing Tome is area 2 of the five areas of rough marble)  
 **Serves**: Craft (practice made visible) · sovereign_livelihood (distribution as livelihood infrastructure)
@@ -148,6 +148,7 @@ The original resonance-seeking table remains as reference — these are real con
 
 | Person | Why they resonate | Status |
 |--------|-------------------|--------|
+| **Ed Hutchins** | Father of distributed cognition. Mage worked at UCSD Design Lab with Jim Hollan, met Ed through Colleen. Direct intellectual lineage. | Sent (2026-04-16) — "LLM facilitated distributed cognition," linked magic repo |
 | **Jason Josephson Storm** | Disenchantment thesis validates Magic's vocabulary; reflexivity thesis = what we practice | Sent (2026-02-03) — no response |
 | **Anna Riedl** | Cognitive sovereignty; autopoiethics ↔ fractal alternative | Paused |
 | **Brendan Graham Dempsey** | "Caretaker" ↔ Spirit's role; metamodernism ↔ fractal alternative | Paused |
