@@ -229,12 +229,15 @@ echo "Python environment ready"
 
 ### 4.4 Deploy Identity
 
-Copy soul.md (the persistent attunement configuration):
+Symlink soul.md to the canonical source via LiveSync:
 
 ```bash
-# From magic repo:
-scp floor/turtleos/soul.md turtle@<IP>:~/turtleos/identity/soul.md
+# On the Mac Mini:
+ln -sf ~/workshop/library/resonance/turtle/shell/global.CLAUDE.md ~/turtleos/identity/soul.md
+ln -sf ~/workshop/library/resonance/turtle/TURTLE_SPEC.md ~/turtleos/TURTLE_SPEC.md
 ```
+
+LiveSync keeps `~/workshop/` current with the magic repo. The symlinks mean identity and spec updates propagate automatically — no manual SCP needed.
 
 ### 4.5 Configure Environment
 
@@ -543,12 +546,11 @@ ssh turtle@<IP> 'launchctl kickstart -k gui/$(id -u)/com.turtle.discord' && \
 echo "Code deployed and service restarted"
 ```
 
-For soul.md updates:
+For soul.md updates (identity is symlinked — just restart to pick up changes):
 
 ```bash
-scp floor/turtleos/soul.md turtle@<IP>:~/turtleos/identity/soul.md && \
 ssh turtle@<IP> 'launchctl kickstart -k gui/$(id -u)/com.turtle.discord' && \
-echo "Identity updated and service restarted"
+echo "Service restarted — symlinked identity reloaded"
 ```
 
 ---

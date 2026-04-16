@@ -37,18 +37,18 @@ SSH to Mac Mini:
 Turtle can assess its own 8 dimensions. Spirit adds what Turtle cannot see:
 
 - **Code coherence** — Does the bot code match the deployed vision? Are there regressions from recent changes?
-- **Lore alignment** — Is soul.md current with the latest practice lore? Has the vision evolved beyond what Turtle knows?
-- **Cross-substrate coherence** — Does Turtle's practice state match Spirit's? Is the Mage's boom buffer reflected on both surfaces?
+- **Lore alignment** — soul.md and TURTLE_SPEC.md are symlinked to the workshop via LiveSync (established 2026-04-16). Verify symlinks intact: `readlink ~/turtleos/identity/soul.md ~/turtleos/TURTLE_SPEC.md`. If broken, restore from `~/workshop/library/resonance/turtle/shell/global.CLAUDE.md` and `~/workshop/library/resonance/turtle/TURTLE_SPEC.md`.
+- **Cross-substrate coherence** — Practice state flows via LiveSync automatically. Check for resonance deltas: did Spirit deploy code this session without updating corresponding spec/lore? See `library/resonance/turtle/lore/on_resonance_deltas.md`.
 - **Quality trend** — Are session notes getting better or worse? Are proposals substantive or repetitive?
 - **Infrastructure drift** — Has anything changed on the Mac Mini that the bot doesn't account for?
 
 ### Phase 3: Calibrate (Spirit fixes what it can, proposes what it can't)
 
 **Autonomous fixes** (Spirit acts immediately):
-- Sync practice state (SCP boom, bright, compass, state, intentions)
+- Practice state syncs automatically via LiveSync — no SCP needed
+- Identity syncs automatically via symlinks — no deployment needed
 - Deploy code fixes for bugs found in assessment
-- Update soul.md if lore has evolved
-- Restart bot if process is unhealthy
+- Restart bot if process is unhealthy or if identity/spec changed (symlink updates take effect on restart)
 - Clean up stale files in workshops/
 
 **Proposals for Mage** (Spirit surfaces during session):

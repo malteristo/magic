@@ -250,8 +250,11 @@ Practice state syncs automatically via LiveSync — Turtle reads directly from `
 
 **Calibration** (see `system/flows/turtle/cast_calibrate.md`):
 - Verify bot process health: `ssh turtle@<turtle-ssh> "pgrep -f discord_bot && echo running"`
-- If soul.md was updated this session, deploy it: `scp library/resonance/turtle/shell/global.CLAUDE.md turtle@<turtle-ssh>:~/turtleos/identity/soul.md`
+- Identity and spec are symlinked — no manual deployment needed:
+  - `~/turtleos/identity/soul.md` → `~/workshop/.../global.CLAUDE.md` (via LiveSync)
+  - `~/turtleos/TURTLE_SPEC.md` → `~/workshop/.../TURTLE_SPEC.md` (via LiveSync)
 - If bot code changes were made, restart: `ssh turtle@<turtle-ssh> "launchctl stop com.turtle.discord && launchctl start com.turtle.discord"`
+- **Resonance delta check:** If turtleOS code was modified this session, verify corresponding spec/lore updates were made in the workshop. Code without documentation is a delta that compounds.
 - Note calibration status in release bundle
 
 **Friction relay:** If Phase 2F produced turtleOS interaction friction items, send them to Turtle via Discord now. These are self-development signals — concrete things Turtle can act on autonomously. Format: numbered list with what happened, what should change, who owns it. Turtle adds viable items to their self-development queue.

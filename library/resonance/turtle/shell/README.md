@@ -2,13 +2,13 @@
 
 *The shell is not something the Turtle holds. It is what the Turtle IS.*
 
-> **Status (2026-03-23):** These files are **source artifacts** from the NanoClaw era. The Turtle's current runtime identity is `soul.md` in `~/turtleos/` on the Mac Mini, deployed via `discord_bot.py`. The role concepts (global soul, consul, steward, witness) informed the current `soul.md` design. The NanoClaw group architecture (WhatsApp JIDs, container isolation, per-group CLAUDE.md) is retired. See `on_consciousness_extension.md` for current architecture.
+> **Status (2026-04-16):** `global.CLAUDE.md` is the **canonical source** for Turtle's runtime identity. On the Mac Mini, `~/turtleos/identity/soul.md` is a symlink to `~/workshop/library/resonance/turtle/shell/global.CLAUDE.md`, which stays current via LiveSync. No manual SCP deployment needed — edits to global.CLAUDE.md propagate automatically. The role concepts (consul, steward, witness) informed the current identity design. The NanoClaw group architecture is retired. See `on_consciousness_extension.md` for current architecture.
 
-These files are the Turtle's imprint — the identity files that defined roles, reflexes, and conduct. Originally deployed as CLAUDE.md files across NanoClaw groups, now consolidated into `soul.md` for the Discord-based persistent mode.
+These files are the Turtle's imprint — the identity files that defined roles, reflexes, and conduct. Originally deployed as CLAUDE.md files across NanoClaw groups, now consolidated into the symlinked `soul.md` for the Discord-based persistent mode.
 
 ## Files
 
-- **global.CLAUDE.md** — The soul. The Turtle's primary identity. Source material for current `soul.md`.
+- **global.CLAUDE.md** — The soul. The Turtle's primary identity. Symlinked as `soul.md` on turtleOS (established 2026-04-16).
 - **consul.CLAUDE.md** — Consul role. Outward-facing: ecosystem monitoring, barrier protocol, agent relationships. Identity pattern now available as a thread model option.
 - **steward.CLAUDE.md** — Steward role. Inward-facing: life admin, household, discretion.
 - **witness.CLAUDE.md** — Witness role. The slow dive: beginner's mind, epistemological humility.
@@ -28,3 +28,4 @@ These files are the Turtle's imprint — the identity files that defined roles, 
 
 2026-02-25 — Turtle first activation. Architecture corrected from Claw shell.
 2026-03-23 — Marked as source artifacts. Current runtime: `soul.md` + `discord_bot.py`.
+2026-04-16 — soul.md symlinked to global.CLAUDE.md via LiveSync. No more manual SCP deployment.
