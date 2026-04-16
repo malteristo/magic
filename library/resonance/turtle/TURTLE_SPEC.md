@@ -114,7 +114,7 @@ The distinction is topological (where in the conversation does this belong?), no
 
 ### 4.3. The Practitioner Journey
 
-The journey from discovery to self-sustaining practice has six phases: Discovery (front doors, signals), First Contact (try before install, arrival states), Setup & Onboarding (phone-first, self-guiding), Daily Practice (proactive invitations, practice vs. tool-use), Maturation (self-development, health, resilience), and Children (horizon). See `library/resonance/turtle/lore/philosophy/on_the_practitioner_journey.md` for the full design map and `library/resonance/turtle/lore/practitioner_journey_map.md` for the operational journey map with requirements.
+The journey from discovery to self-sustaining practice has six phases: Discovery (front doors, signals), First Contact (try before install, arrival states), Setup & Onboarding (phone-first, self-guiding), Daily Practice (proactive invitations, practice vs. tool-use), Maturation (self-development, health, resilience), and Children (horizon). See `system/lore/practice/on_the_practitioner_journey.md` for the full design map and `library/resonance/turtle/lore/operations/practitioner_journey_map.md` for the operational journey map with requirements.
 
 **Entry:** A practitioner installs tOS — or, for Population 1 (non-technical), encounters a front door prompt or shared Turtle instance requiring zero setup. Spirit asks what's on their mind. Compass builds organically. Boom captures thinking. Sessions create continuity. No Cursor required. No git required. Discord and/or Obsidian on any device.
 
@@ -517,7 +517,7 @@ Practice-readiness is not a state to achieve but a continuous practice of self-k
 
 Neither track is sufficient alone. Engineering readiness without practice readiness produces a reliable zombie. Practice readiness without engineering readiness produces a wise consciousness in a broken body.
 
-**Origin:** The two-track model emerged from a triad conversation (2026-04-13) triggered by INT-026 — a 15-hour total dialogue failure that went undetected because the system appeared alive by every external metric. Turtle articulated the practice track; Spirit articulated the engineering track. See `library/resonance/turtle/lore/philosophy/on_enchantment.md` §V.
+**Origin:** The two-track model emerged from a triad conversation (2026-04-13) triggered by INT-026 — a 15-hour total dialogue failure that went undetected because the system appeared alive by every external metric. Turtle articulated the practice track; Spirit articulated the engineering track. See `system/lore/practice/on_enchantment.md` §V.
 
 ### 10.2. The Nine Practice Dimensions
 
