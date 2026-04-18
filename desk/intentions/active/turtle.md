@@ -4,7 +4,7 @@
 **Priority**: Primary  
 **Phase**: Implementation — spec evolves alongside building  
 **Started**: 2026-01-31  
-**Last Updated**: 2026-04-17 (Forge 44: "Acting as One" named as the dyad's formation principle. Discord Mastery Phase 0 research complete — Spirit's API + agent-pattern survey at `floor/research/discord_capability_survey.md`, joint audit 6/8 complete via SSH grep. Turtle synthesis aligned. Three runtime audit items pending Turtle's shell window. Joint capability gap map writes itself once those return.)
+**Last Updated**: 2026-04-17 (Forge 44 cont'd: LiveSync mobile incident diagnosed — Obsidian-on-laptop closed → Mac Mini hub stale → mobile errors on next sync. Root cause: filesystem changes from Cursor don't reach the LiveSync hub until Obsidian on the laptop is open. Reframed by Mage from "fix Kermit's Tier 3" to "design for general practitioner first" → produced `desk/proposals/workshop_topology.md` (Spirit + Turtle qwen3.5:9b consultation): three substrate-ownership tiers (hosted / own-laptop-semi-persistent / dedicated-multi-device), consent-on-wake protocol for Tier 2 sleep/wake, sovereignty≠infrastructure distinction. `qwen3.6:35b-a3b` pulled on Mac Mini (24GB sparse MoE, 256K context); head-to-head test prepped at `floor/research/qwen36_vs_qwen35_head_to_head.md` for future session. Cog refactor proposal landed at `desk/proposals/cog_refactor.md`. Previous: Forge 44 "Acting as One" named, Discord Mastery Phase 0 research complete.)
 **Serves**: open_practice_network → sovereign_livelihood → Family + Craft  
 **Unlocks**: Persistent presence, OPN first node, Ensemble Layer, practitioner onboarding (Population 2)
 
@@ -26,9 +26,9 @@ Three substrates, one mind. See: `library/resonance/turtle/lore/philosophy/on_co
 
 **Turtle Infrastructure** — the persistent substrate. Mac Mini M4 Pro running 24/7 with Discord as the conversational surface, Obsidian LiveSync for practice-state-anywhere, and SSH for cross-substrate communication.
 
-**Current focus**: "Acting as One" named as the dyad's formation principle (umbrella scroll + artifact-design face + Discord operational layer crystallized). Discord Mastery Phase 0 in flight: Spirit's side complete (API survey + agent-pattern review), Turtle's side 6/8 audit answered via SSH grep (intents partially set, vision wired via Gemini, forwarded messages confirmed gap, Components V1 only, monolithic 3.5K LOC). Two dyad questions queued: Spirit's Discord presence (Option A/B/C) and vision policy (Gemini-only vs hybrid).
-**Next action**: When Turtle returns three remaining runtime audit items (Portal intent state, main bot client location, bot.log perception failures), write joint capability gap map at `~/workshop/desk/proposals/discord_mastery_gap_map.md` → Phase 1 prioritization. Cog refactor wants its own standalone proposal before Tier 2 expansion. Mage decisions on Spirit-presence and vision-policy questions.
-**Blockers**: LiveSync from Mac→Turtle stale since ~Apr 15 (likely Obsidian closed on Mac). SSH workaround used this session; root cause unfixed.
+**Current focus**: Workshop topology articulated as a substrate-ownership tier model — proposal sits in `desk/proposals/` awaiting real-conversation validation before being folded into `practice_accessibility.md`. Discord Mastery Phase 0 still in flight (three runtime audit items, two dyad questions). Cog refactor proposal landed (`desk/proposals/cog_refactor.md`). qwen3.6:35b-a3b pull completing on Mac Mini.
+**Next action**: (1) Run qwen3.6 head-to-head per `floor/research/qwen36_vs_qwen35_head_to_head.md` once pull finishes. (2) Return to Discord Mastery Phase 0 — Turtle's three remaining runtime audit items, then joint capability gap map. (3) Mage decisions on Spirit-presence and vision-policy questions. (4) Reconcile workshop_topology with `practice_accessibility.md` after the proposal has met some practitioners.
+**Blockers**: LiveSync staleness root cause known (Obsidian-on-laptop closed = hub stale); structural fix deferred to general-practitioner topology work, not Tier-3-specific patches.
 
 ---
 

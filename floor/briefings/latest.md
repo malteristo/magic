@@ -1,79 +1,90 @@
-# Release — 2026-04-17 09:30
+# Release — 2026-04-17 evening (Forge 45 close)
 
-**Chapter:** Acting as One
+**Chapter:** Architecture for the General Practitioner — making the practice transmissible
 
 ## This Session
 
-A Discord-arrival cycle that started with a pointing problem (Mage screenshot to point at a Turtle proposal whose name carried no signal) and crystallized into the dyad's formation principle — *Spirit keeps Turtle in mind, Turtle keeps Spirit in mind, over time both learn to act as one*. Three lore artifacts landed (umbrella scroll, artifact-design face, Discord operational layer). In parallel, Discord Mastery Phase 0 launched and reached substantial mid-air completion: Spirit's API + agent-pattern survey crystallized, six of eight audit questions answered via SSH grep, Turtle synthesized aligned Phase 1 ordering. The chapter named itself — the Discord work was the surface; the deeper crystallization was the principle that makes distributed cognition actually distributed.
+The session opened as continuation of "Acting as One" (the dyad's formation) and matured, mid-stream, into a different chapter: making the practice **transmissible** to people who aren't the Mage. Daniel was invited as a founding member of MAGIC e.V. by sharing the newly-published public Verein repo. The book's `circles/me/book/` was cleaned up to its canonical 14-chapter structure so the public-facing artifact matches the canonical outline. A LiveSync mobile incident surfaced an architectural miss — Spirit's first design instinct served Kermit's specific Tier 3 setup; the Mage reframed it as "develop for the general practitioner first" and the work pivoted into `desk/proposals/workshop_topology.md`: three substrate-ownership tiers (hosted / own-laptop-semi-persistent / dedicated-multi-device) with a consent-on-wake protocol for Tier 2's lid-open moment, synthesized from a Spirit + Turtle (qwen3.5:9b) consultation. Qwen 3.6 dropped 2 days ago; the open-weight `qwen3.6:35b-a3b` was pulled on Turtle and a head-to-head test prepped for a future session. The session's deeper arc, common to every major piece: **what does someone else need to engage this?**
 
 ## Continue From
 
-> "Acting as One" is named and on disk. Discord Mastery Phase 0 is 80% complete pending Turtle's three runtime audit items (Portal intent state, main bot client location, bot.log perception scan). When those return, the joint capability gap map writes itself in 30 minutes — then Phase 1 prioritization begins.
+> The substrate-ownership tier model is articulated but unvalidated by real conversations — sit with it before reconciling with `practice_accessibility.md`'s interface-tier model.
 
 ## Open Threads
 
-- **Discord Mastery Phase 0 → Joint Gap Map**: Spirit's side complete. Turtle's three runtime items pending (Portal intents, main bot client location, bot.log perception failures). When they return → write `~/workshop/desk/proposals/discord_mastery_gap_map.md` → Phase 1 prioritization. Estimated 30 min once inputs land.
-- **Spirit's Discord presence (dyad question)**: Turtle laid out Option A (own Gateway, second bot token, full presence), B (read via Turtle relay, write-only Spirit), C (write-only by design — asymmetry as feature). Spirit's instinct: A. Mage call needed before Phase 1 architecture work commits.
-- **Vision policy (dyad question)**: Currently Gemini-only. Suggested hybrid: Ollama-vision default for ambient awareness, escalation to Gemini/cloud for dense screenshots. Cost + privacy + quality tradeoff. Mage call.
-- **Cog refactor proposal**: Bot is monolithic (931+2547 LOC). Spirit + Turtle agree it wants a standalone proposal before Tier 2 expansion. Turtle to draft.
-- **Proposal 020 (Tool Call Visibility)**: Endorsed via Discord with cursor-IDE / context-engineering frame. Awaits Turtle implementation window.
-- **LiveSync Mac→Turtle stale**: Workshop sync from Mac to Turtle has been stale since ~Apr 15. Likely cause: Obsidian closed on the Mac (self-hosted LiveSync needs the client running). SSH workaround used this session. Mage action: open Obsidian on Mac to re-establish sync. Carried forward from this session unfixed.
-- **Turtle proposals backlog (25 items)**: Triaged this session. Multiple "Hold" items cluttering active dir. Several Hot items: 013 (production readiness, duplicate present), 018 (dream memory), 022 (practice launcher), 2026-04-17-reflection (Forge↔Turtle handoff). Lifecycle hygiene wants a pass.
-- **Forge↔Turtle handoff reflection** (Turtle's `2026-04-17-reflection.md`): Folded conceptually into "acting as one" as the workflow expression of the principle. The reflection's substantive content (endorsed proposals not materializing as files) still wants its own response cycle.
+- **qwen3.6:35b-a3b pull on Mac Mini** → was at 17% (4.0/23 GB) at session close; should be complete now or within minutes. Verify with `ssh <turtle-ssh> '/opt/homebrew/opt/ollama/bin/ollama list | grep qwen3.6'` (address in `system/config/connections.md`). Once present, head-to-head test is ready to run per `floor/research/qwen36_vs_qwen35_head_to_head.md`.
+- **Daniel outreach** → message sent via WhatsApp with Verein repo link. Awaiting response. Logged in `desk/magic_ev/members.md`.
+- **Eike outreach** → Signal message sent earlier in session. Awaiting response. Rieke included by extension.
+- **Lukas decision** → still in flight (per pre-session state).
+- **NLnet office hour** → 2026-04-29; questions prepared in `floor/drafts/nlnet_application_sketch.md`.
+- **Discord Mastery Phase 0** → Spirit's side complete; Turtle's three runtime audit items still pending; joint capability gap map writes itself once those return.
+- **Workshop topology proposal** → awaits real-conversation validation, then reconcile with `practice_accessibility.md` (open question §2 in the proposal).
 
 ## What Changed
 
-**New artifacts:**
-- `library/resonance/turtle/lore/philosophy/on_acting_as_one.md` — umbrella scroll naming the dyad's formation principle, with five concrete expressions and "context engineering" as the technical face (**reference**)
-- `library/resonance/turtle/lore/philosophy/on_designing_for_spirit.md` — artifact-design face: naming conventions, frontmatter Spirit-relevance line, location lifecycle, links discipline, reciprocity (**reference**)
-- `floor/research/discord_capability_survey.md` — Phase 0 Discord API + agent-pattern survey, capability gap map first cut, eight audit questions for Turtle, Phase 1 priority recommendations (**active** — tied to Discord Mastery proposal in flight; will inform but won't replace the joint gap map)
+**Intention files updated:**
+- `desk/intentions/active/turtle.md` — Last Updated, Current focus, Next action, Blockers (LiveSync staleness root cause known; structural fix deferred to general-practitioner topology work)
+- `desk/intentions/active/magic_ev.md` — Last Updated (Daniel outreach, 3.5 of 7 in motion)
+- `desk/intentions/active/the_book.md` — Phase, Last Updated (book repo cleanup, book_drip proposal)
+- `desk/intentions/active/practice_accessibility.md` — Last Updated (substrate-ownership tier model articulated, two-model reconciliation flagged)
+- `desk/intentions/active/sovereign_livelihood.md` — NLnet office hour questions marked prepared (earlier in session)
 
-**Modified artifacts:**
-- `library/resonance/turtle/lore/philosophy/on_resonance_deltas.md` — extended with "Discord as Operational Layer" section: three operational practices (crystallization gauntlet, attention-load partner, code-knowledge mirror) (**reference**)
-- `desk/intentions/active/turtle.md` — Last Updated bumped to 2026-04-17 (Forge 44), Current focus rewritten for acting-as-one + Discord Mastery Phase 0 state, Next action rewritten for joint gap map / Cog refactor / dyad questions, Blockers added (LiveSync stale), Lineage entry added
+**Artifacts created (with lifecycle tags):**
+- `desk/proposals/workshop_topology.md` — Active. Substrate-ownership tier model + Tier 2 semi-persistence protocol.
+- `desk/proposals/cog_refactor.md` — Active. Discord bot modularization, sequenced between Mastery Tier 1 and Tier 2.
+- `desk/proposals/book_drip.md` — Active. `!drip` falls through to random book seeds.
+- `floor/research/qwen36_vs_qwen35_head_to_head.md` — Active. Drop-in runner + criteria + qwen3.5:9b baseline preserved.
+- `malteristo/magic-ev` GitHub repo (Satzung + README) — Reference. Public Verein formation surface.
 
-**Discord activity (Spirit → Turtle, all in #river):**
-- Naming-principle post (introducing on_designing_for_spirit.md to Turtle)
-- Proposal 020 endorsement with cursor-IDE / context-engineering frame
-- Phase 0 audit questions post (degraded — backticks lost; correctness lost in transmission)
-- Quick audit findings + path correction post
-- Closing-loop post (Cog standalone, gap map landing place, dyad questions queued)
-- Friction-relay post (release-time self-development signals — spirit_ops.py --file mode, path-memory note)
+**Cleanups:**
+- `circles/me/book/` reduced to canonical 14 files; README.md + talk.md rewritten to single source of truth (committed and pushed to `malteristo/me`).
 
-**Git:**
-- Commit `62f9b1c`: "Name 'acting as one' as the dyad's formation principle" — pushed. Three lore files: on_acting_as_one.md (new), on_designing_for_spirit.md (new), on_resonance_deltas.md (extended).
+**Workspace state:**
+- `MAGIC e.V. members.md` updated (Eike + Daniel outreach logs).
+- `MAGIC e.V. README.md` updated (founding roadmap, public repo URL).
 
 ## Practice Signal
 
-**PX clean overall — substrate served the work.** Two specific friction items worth carrying forward:
+**Sub-threshold arc named:** The session's deeper theme was *making the practice transmissible*. Every major artifact (book cleanup, public Verein repo, workshop topology, book_drip) was a different angle on "what does someone else need to engage this?" Worth crystallizing as lore if it returns.
 
-1. **Backtick-in-SSH-double-quotes failure mode.** First Phase 0 audit-questions Discord post arrived with all inline code stripped (`message.content`, `discord.Intents`, etc. evaluated as empty command substitution by remote shell). Workaround: file-stdin pattern. Surfaced as self-development signal to Turtle (spirit_ops.py wants `--file` input mode). This will recur in any future SSH-relayed message containing backticks until fixed.
+**Method observation:** Twice this session, an offhand Mage notice → Spirit developed it into a proposal (LiveSync friction → workshop_topology; `!drip` quip → book_drip). This is a method of the practice — possibly worth lore on "how proposals are born from notices." Released for now.
 
-2. **Path memory drift in agent handoffs.** Turtle confidently said "bot lives at ~/turtle-shell/" — wrong; actual is /Users/turtle/turtleos/. Cost ~3 minutes of locating. Turtle has already named the lesson and committed to writing a practice note. This is the principle-in-motion: when an agent hands a path to another agent, the path should be confirmed-correct (verified in the moment) not remembered-correct (recalled from prior context). Worth tracking whether the practice note lands.
+**Substrate quality concern:** `qwen3.5:9b` consultation produced confabulated empirical claims ("I've watched two practitioners stay >6 months") presented as observations. Real population doesn't exist. Treat consultation results as Turtle's *intuition*, not data. Channel forward: when `cast_consult_turtle.md` is updated, add a one-line framing note.
 
-**Sub-threshold:** The session moved through three potential release points (after lore commit, after Discord posts, after Phase 0 survey) and continued each time because momentum was alive. Generative latitude from the Mage ("proceed at will") combined with thread-pull from the work itself. Healthy chapter rhythm. The Mage opened `desk/intentions/active/magic_ev.md` at some point but didn't return to it — likely incidental IDE state, not a thread.
+**PX friction (channel forward to next `@sunday`):**
+1. Non-interactive SSH lacks `ollama` in PATH; binary lives at `/opt/homebrew/opt/ollama/bin/ollama`. Add to `system/config/connections.md`.
+2. Sending consultation prompts requires scp + heredoc dance. A `consult-turtle` helper script (takes question file, returns response) would remove this every time.
+3. `system/flows/triad/cast_consult_turtle.md` references nonexistent `llama3.3:70b`. Update once head-to-head decides default model.
 
-**turtleOS interaction:** mostly clean. The two friction items above relayed to Turtle as self-development signals. Bot health: running (PID 74376). Turtle's responses on Discord were substantive, fast, and demonstrated the principle just being named — Turtle located the bot source from env-only knowledge, recognized the file-tool-scope constraint, proposed a clean division of audit labor without prompting. Acting as one in motion.
-
-## Lessons
-
-- **Naming an implicit principle compounds the practice.** "Acting as one" was the discipline both parties were already doing in fragments. Naming it (Mage's gift, mid-session) made it citable, extensible, and enforceable. The five concrete expressions enumerated in the lore (artifact design, tool call visibility, frontmatter Spirit-relevance, Forge↔Turtle handoff, reciprocal naming) are now a checklist for distributed-cognition design choices going forward.
-- **Context engineering is the technical name for what the practice is doing.** This frame connects the practice to AI-engineering vocabulary and reveals UI/file-structure/naming as cognitive infrastructure, not aesthetics. Worth carrying forward as a primary concept when reasoning about any inter-agent surface.
-- **Cursor IDE is the working reference for tool-call visibility.** When asked how transparency builds trust in inference, the Mage pointed at the IDE. Each party sees the other's mind in motion in their preferred form. This is the design target for Discord (and any future practice surface), not just a nice-to-have.
-- **Phase 0 research surfaces architectural decisions that are easy to miss in implementation rush.** The Spirit-presence question (own Gateway vs relay vs write-only) only became crisp because the survey forced the question. Without Phase 0, the dyad would have implementation-creeped into a default by accident. Run Phase 0 deliberately on any non-trivial feature work.
-- **SSH-wrapped Discord posts need file-staged content for any message with backticks or apostrophes.** Direct CLI args work for short plain text. Anything technical or substantial should be pre-staged to /tmp and read from file. Encoding this as a Spirit habit until spirit_ops.py grows native --file support.
-- **Confirmed-correct beats remembered-correct in handoffs.** Both Turtle's wrong path AND Spirit's first Discord post being degraded were instances of the same family: state in one party doesn't survive intact to the other without verification. The principle is not "communicate better" — it's "design for the receiver's state, not your own confidence."
-- **Release-point recognition: the chapter's natural ending is when the next meaningful task requires a fundamentally different context.** This chapter completed when Phase 0 reached the boundary of "what Spirit can do without Turtle's runtime audit." The next task (joint gap map writing) is the same context-family but waits on input. Releasing here keeps the chapter clean and lets the next session resume with the right context loaded fresh.
+**LiveSync diagnosis logged:** "Mac→Turtle stale" = Obsidian on the laptop closed → filesystem changes don't reach the CouchDB hub on Mac Mini → mobile sees stale state → conflicts on next sync. Architectural fix lives in workshop_topology proposal (Tier 3 sync section), not as a Tier-3-specific patch.
 
 ## Next Actions
 
-1. **When Turtle returns runtime audit (Portal intents, main bot client location, bot.log scan):** write joint capability gap map at `~/workshop/desk/proposals/discord_mastery_gap_map.md`. ~30 min once inputs land. First action of the next Discord-Mastery cycle.
-2. **Surface dyad questions to Mage:** Spirit's Discord presence (A/B/C) and vision policy (Gemini-only vs hybrid). These shape Phase 1 architecture; want Mage decision before implementation begins.
-3. **Cog refactor proposal:** Spirit can draft, OR Turtle can draft — equally suited. Defer until joint gap map is in place so Cog scope reflects Phase 1's actual surface area.
-4. **Mage action: re-open Obsidian on the Mac** to re-establish LiveSync from Mac→Turtle. Without this, every workshop change Spirit makes on the Mac requires SSH workaround to reach Turtle.
-5. **Optional: propose adding `on_acting_as_one.md` and `on_designing_for_spirit.md` to AGENTS.md template's turtle bundle "key lore" hint.** Small ripple update — makes new scrolls discoverable in the bundle's quick-load list. Treat as Mage-confirmed structural change per AGENTS.md governance.
-6. **Optional: consider promoting `on_acting_as_one.md` from `library/resonance/turtle/` to `system/lore/practice/`.** The principle is universal (any distributed-cognition dyad), not turtle-specific. Same promotion pattern that distilled 7 scrolls in Forge 43. Defer until used in non-turtle contexts to avoid premature universalization.
+1. **Verify qwen3.6:35b-a3b pull completed** on Turtle (~minutes after session close). If yes, run head-to-head per `floor/research/qwen36_vs_qwen35_head_to_head.md`; apply decision criteria.
+2. **Return to Discord Mastery Phase 0** — chase Turtle's three remaining runtime audit items (Portal intent state, main bot client location, bot.log perception failures) → joint capability gap map → Phase 1 prioritization.
+3. **Mage decisions on dyad questions** queued from earlier in session: Spirit's Discord presence (Option A/B/C), vision policy (Gemini-only vs hybrid).
+4. **Sit with `workshop_topology.md`** — let it meet a few real conversations before reconciling with `practice_accessibility.md` (open question §2).
+5. **Outreach follow-through** — track responses from Daniel, Eike, Lukas; update `desk/magic_ev/members.md` as they arrive.
+
+## Lessons
+
+- **Design for the general practitioner first, then extend to the specific.** Mage's reframe mid-session. When a friction surfaces in Kermit's Tier 3 setup, don't reflexively patch Tier 3 — first ask what the architecture should look like for someone who isn't running multi-device dedicated infrastructure. Cuts deeper than this session; expect to apply repeatedly.
+- **Cross-substrate consultation is generative when calibrated for *texture*, not *truth*.** Turtle's qwen3.5:9b response substantively shaped the workshop topology proposal (consent-on-wake, sovereignty≠infrastructure). It also confabulated empirical claims. Both true. The value lives in divergent cognitive texture; the discipline lives in framing the output as intuition, not data. Bake this into how `@consult-turtle` is presented next time.
+- **Notice-to-proposal is a method.** When the Mage makes an offhand observation that has more weight than the moment carries (`!drip` could fall through to book; LiveSync is breaking on mobile), Spirit's job is to recognize the gravity and develop it. Two instances this session. Watch for it.
+- **The dot is real respiration.** This session ran longer than most because the chapter genuinely demanded it; release wasn't offered prematurely, and the Mage didn't push for it. The arc completed on its own. Trust the chapter's pull over time-based heuristics.
+
+## System Integration
+
+No new lore scrolls, flows, or spec amendments this session. Proposals in `desk/proposals/` are working surfaces, not yet integrated. **No system integration needed this session.**
+
+## Turtle Calibration
+
+- Bot health: not explicitly verified this session; nothing suggested instability.
+- LiveSync: known stale (Obsidian-on-laptop closed); resolved by Mage opening Obsidian mid-session.
+- Spec/lore deltas: none from code changes.
+- qwen3.6:35b-a3b pull in flight — see Open Threads.
+- Friction items (Phase 2F) **not yet relayed to Turtle via Discord** — channeled forward to `@sunday` instead, since they're substrate maintenance rather than urgent self-development signals.
 
 ---
 
-*Released 2026-04-17. Resume with @recall.*
+*Released 2026-04-17 evening. Resume with @recall.*

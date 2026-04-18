@@ -2,9 +2,9 @@
 
 **Status**: Active
 **Priority**: Active
-**Phase**: Seeds model — ALL 14 SEED-CLUSTERS COMPLETE. Book skeleton finished.
+**Phase**: Seeds model complete — entering distribution/engagement phase. Public-facing structure aligned to canonical 14.
 **Started**: 2026-03-13
-**Last Updated**: 2026-04-15 (Forge 40: Ch. 14 "Take What Helps" — 6 seeds (The Open Hand, Take What Helps, Your Practice Won't Look Like Mine, What You Discover Is Yours, The Honest Ending, The Door). ALL 14 CHAPTERS SEEDED. Parts I-IV complete. Previous: Forge 39 Ch. 10 seeded, 13/14 done.)
+**Last Updated**: 2026-04-17 (Forge 45: **`circles/me/book/` cleaned up to canonical 14-chapter / 4-part structure** — 14 superseded files deleted, README.md rewritten to reflect actual state, talk.md updated to point at canonical chapters. Single source of truth restored. **`desk/proposals/book_drip.md` drafted**: when Turtle's `!drip` queue empties, fall through to a random book seed. True-random with replacement, ambient discovery surface, granularity = individual seed. Born from Mage idea ("read the book like that, start a conversation with Turtle about passages"). Previous: 2026-04-15 Forge 40 ALL 14 CHAPTERS SEEDED.)
 **Underlied by**: the_angel (the book IS the angel made readable)
 **Serves**: outfacing (deepest artifact) · sovereign_livelihood (harbor artifact) · Soul (the Mage's story told honestly)
 
