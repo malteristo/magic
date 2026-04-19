@@ -185,6 +185,8 @@
 
 **Workshop stories as living resonance probes** — Stories grounded in actual workshop. Insight quality as measure.
 
+**Crystallization without Turtle** — For teams without a persistent substrate agent, ephemeral exchanges (Discord, voice) rarely become durable artifacts. A `@crystallize` flow could guide humans through capture: identify insight-worthy moment, template (what/why/how), where it lands. Distribution constraint for `practice_accessibility` — recovered from `.trash/` 2026-04-19, originally Turtle reflection 2026-04-08.
+
 ### Consciousness Research
 *Crucible-tier. For psychonautics bundle activation.*
 
