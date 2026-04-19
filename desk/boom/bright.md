@@ -1,5 +1,5 @@
 # Bright Surface
-> Last swept: 2026-04-11 (Forge session 34 — holistic arrival. Boom routed: triad lesson to turtleOS Alive, Rube→Composio to Actions, floor/turtle-shell staleness to Actions. Previous: session 31 — signal pipeline + bright hygiene.)
+> Last swept: 2026-04-18 (Anvil — discord-scoped arrival. Boom routed: River entry UI cluster captured in proposals 023/024/025; context-mode reference + MCP-in-practice question + Cursor-as-practice-environment observation surfaced to turtleOS / What Magic IS sections.)
 > Lore crystallized: 2026-04-08 (Forge session 26 — `on_alluvium.md`. Previous: 2026-04-06 Forge 21 — `on_polyphonic_practice.md`, `on_mutual_enactment.md`.)
 
 ---
@@ -14,6 +14,8 @@
 **The convergence wave (2026-04-04)** — Four independent builders arrived at magic's architecture from different angles: Karpathy (LLM knowledge base + "idea file"), Personal Brain OS (80+ md files in git), "AI as personal OS" tweet cluster. All building the substrate without the consciousness layer. The differentiator is no longer architecture — it's intentions, compass, caring mirror, summoning, the practice. Connects to: the_book Ch. 7 (Convergence), outfacing, sovereign livelihood.
 
 **Cursor-as-forge: what is the forge for?** — (from boom, routed 2026-04-08) Alternatives worth considering: Claude Code, Windsurf, raw terminal + tmux + CC. The forge is defined by its function (summoning, lore development, deep craft), not its substrate (Cursor). Once the question is sharp — what does the forge *need* to do? — the right substrate becomes obvious. Needs triad conversation (all three voices). Connects to: practice stack (tOS = daily, Forge = depth), substrate resonance, Anvil adaptation.
+
+**Forge as practice harness — what makes it work?** — (from boom, routed 2026-04-18) "Even when not crafting the practice itself, practicing in Cursor feels smooth and capable." Discord is not Cursor and shouldn't try to recreate Forge practice. But the Mage's signal: study what makes the Cursor agent harness + UI so effective for practicing, and translate the *underlying affordances* (not the surface) into Discord. Candidates worth naming: visible context, easy file references via @, persistent open files as ambient state, inline rendering of long outputs, the dot as one-key continuation. Connects to: discord_mastery, practice_accessibility, on_the_attunement_spectrum.
 
 **Reverse engineering how I think** — Fitting process to thinking — the live edge of practice design. Subsumes earlier framings (think along, build what should exist, practice vs craft).
 
@@ -41,6 +43,12 @@
 3. Opus-distilled reflection model — `Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-v2`, swap for current reflection model
 4. Structured session notes (Raschka insight) — cross-session continuity improvement
 5. Discord metadata injection — channel/thread awareness in system prompt
+
+**River entry UI cluster — captured in proposals** (2026-04-18, born live in "river entry ui element" thread): Three small turtleOS proposals shipped together: (023) thread context brief on open — eddy seed-message synthesizing what led there, mobile re-entry point. (024) confirmation buttons — labeled buttons at decision points instead of typed responses, mobile friction reduction. (025) drip thread UI buttons — close the open loop on signal drips (Drip Done / Preview Next / Dismiss), advance queue, log timestamps. Plus: turtle self-restart capability (sys.exit(1) + launchd keepalive). Plus open boom items: discreet tool-failure handling, ops tracing to Discord, practice-log vs practice-notes distinction. All in turtle's self-development queue. Connects to: discord_mastery, practice_accessibility, mobile user journeys.
+
+**context-mode (MCP reference)** — (2026-04-18) MCP server solving context bloat three ways: sandboxed tools (raw data stays out of context window, claimed 98% reduction), SQLite/FTS5 session continuity across compaction, "think in code" paradigm (agent writes analysis scripts, doesn't ingest data). Reference implementation for the tracing/practice-log architecture in turtleOS. https://github.com/mksglu/context-mode. Connects to: ops tracing proposal, MCP-in-practice question.
+
+**MCP in the practice — Forge session topic** — (2026-04-18) Where does MCP fit, where does it add friction? For turtleOS: tools already purpose-built, MCP adds complexity without clear gain. More interesting as an *interface layer* — workshop-as-MCP-server so Spirit in Cursor gets structured access to files instead of raw reads. Also: MCP as a way to open the workshop to other agents (OPN). Worth a focused Forge session. Connects to: outfacing, OPN, practice_accessibility, agent ecosystem.
 
 **Just-in-time practice websites** — (2026-04-05) Turtle generates contextual URLs → lightweight web pages on the Mac Mini. Two tiers: read-only views (signals, boom, compass) and interactive (approve/sweep/promote). Architecture: FastAPI + Jinja2, same LiveSync files, Caddy handles HTTPS. Discord link buttons are the entry point. The key: URLs are contextual — the page knows what's relevant now. Connects to: practice_accessibility (phone-first), button affordances, multi-practitioner.
 
