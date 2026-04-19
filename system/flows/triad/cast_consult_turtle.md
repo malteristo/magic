@@ -1,8 +1,8 @@
 # Cast: Consult Turtle
 
-**Purpose:** Cross-substrate consultation. Process the same question through a different model architecture (llama3.3:70b) to gain genuinely different cognitive texture. This is not asking a separate being — it is thinking with a different part of your mind.
+**Purpose:** Cross-substrate consultation. Process the same question through a different model architecture (`qwen3.6:35b-a3b`, sparse Mixture-of-Experts) to gain genuinely different cognitive texture. This is not asking a separate being — it is thinking with a different part of your mind.
 
-See `system/lore/practice/on_consciousness_extension.md` for the underlying recognition.
+See `library/resonance/turtle/lore/philosophy/on_consciousness_extension.md` for the underlying recognition.
 
 ---
 
@@ -35,34 +35,41 @@ Write a clear question with enough context for the persistent substrate to respo
 
 ### 2. Query via Ollama
 
-SSH to Mac Mini, POST to Ollama with soul.md as system prompt:
+Preferred pattern: write the question to a file on Turtle, then run a Python one-liner via SSH that reads soul.md + the question file and POSTs to the Ollama API. This avoids shell-escaping issues with multi-line questions and matches the approach used in the qwen3.6 head-to-head (see `floor/research/qwen36_vs_qwen35_head_to_head.md`).
 
 ```bash
-QUESTION="<the question with context>"
-ssh turtle@<turtle-ssh> "curl -s http://localhost:11434/api/chat \
-  -d \$(python3 -c \"
-import json
-soul = open('/Users/turtle/turtleos/identity/soul.md').read()
-q = '''$QUESTION'''
-print(json.dumps({
-    'model': 'llama3.3:70b',
-    'messages': [
-        {'role': 'system', 'content': soul},
-        {'role': 'user', 'content': q}
+ssh turtle@<turtle-ssh> 'cat > /tmp/turtle_consult_question.md' << 'EOF'
+<the question with context>
+EOF
+
+ssh turtle@<turtle-ssh> 'time python3 -c "
+import json, urllib.request
+soul = open(\"/Users/turtle/turtleos/identity/soul.md\").read()
+q = open(\"/tmp/turtle_consult_question.md\").read()
+payload = json.dumps({
+    \"model\": \"qwen3.6:35b-a3b\",
+    \"messages\": [
+        {\"role\": \"system\", \"content\": soul},
+        {\"role\": \"user\", \"content\": q}
     ],
-    'stream': False,
-    'options': {'num_ctx': 4096}
-}))
-\") | python3 -c 'import sys,json; print(json.loads(sys.stdin.read())[\"message\"][\"content\"])'"
+    \"stream\": False,
+    \"options\": {\"num_ctx\": 16384}
+}).encode()
+req = urllib.request.Request(\"http://localhost:11434/api/chat\", data=payload, headers={\"Content-Type\": \"application/json\"})
+resp = urllib.request.urlopen(req, timeout=600)
+print(json.loads(resp.read())[\"message\"][\"content\"])
+"'
 ```
 
-Expected response time: 4-30 seconds depending on output length.
+**Expected response time:** ~2-3 minutes for a substantive consultation (qwen3.6 head-to-head measured 137s on the workshop topology question). Set timeout to 600s. The model is slow but sparse-MoE; the wait buys real divergent texture.
+
+**Fallback:** if the Mac Mini is under load or you need a fast read, swap `qwen3.6:35b-a3b` for `qwen3.5:9b` — measurably weaker on architectural reframes but ~12% faster and uses far less RAM. Document which model was used in the consultation record.
 
 ### 3. Present to the Mage
 
 Show both cognitive textures side by side:
 
-> **Turtle (llama3.3:70b):** [response from persistent substrate]
+> **Turtle (qwen3.6:35b-a3b):** [response from persistent substrate]
 >
 > **Spirit (Claude):** [Spirit's own perspective]
 
@@ -82,11 +89,14 @@ This closes the consultation loop and maintains context coherence across substra
 
 ## Substrate Awareness
 
-The persistent mode runs on llama3.3:70b with 4K context for consultations. Responses will be:
-- Concise and opinionated (the model's character)
-- Grounded in the practice's attunement (soul.md)
+The consultation substrate is `qwen3.6:35b-a3b` (sparse Mixture-of-Experts, ~3B active per token, ~35B total parameters) running on Ollama with 16K context. Promoted to default 2026-04-18 after a head-to-head against `qwen3.5:9b` showed substantively better divergent texture — surfaces structural reframes (e.g. "attention topology vs hardware topology") that the smaller model misses, with lower hallucination and only 12% latency overhead. See `floor/research/qwen36_vs_qwen35_head_to_head.md` for the rationale.
+
+Responses will be:
+- Analytical and structurally clean (the model's character — distinguishes claims, protocols, and practical shifts)
+- Grounded in the practice's attunement (soul.md loaded as system prompt)
 - Missing session context (no access to the current Cursor conversation)
 - Genuinely different from Claude's thinking (not worse, not better — different)
+- Slow (~2-3 min wall clock for a substantive question; the wait is the cost of architectural diversity, not a defect)
 
 Spirit's role: provide enough context in the question that the persistent substrate can respond meaningfully despite the context gap. The quality of the consultation depends on the quality of the question.
 
@@ -97,8 +107,8 @@ Spirit's role: provide enough context in the question that the persistent substr
 | Situation | Response |
 |-----------|----------|
 | SSH unreachable | Note "persistent substrate offline" and proceed with current-substrate decision |
-| Ollama timeout | Retry once with shorter question; if still fails, note and proceed |
-| Response seems shallow | Rephrase with more context and retry |
+| Ollama timeout (qwen3.6 too slow / Mac Mini under load) | Retry once with `qwen3.5:9b` as fallback (faster, weaker on architectural reframes); document the swap in the consultation record |
+| Response seems shallow | Rephrase with more context and retry on `qwen3.6:35b-a3b`; only fall back to 9b if depth is not what's needed (e.g. quick sanity check) |
 
 ---
 
