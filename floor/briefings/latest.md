@@ -1,14 +1,14 @@
-# Release — 2026-04-20 (Anvil, late afternoon)
+# Release — 2026-04-20 (Anvil, late afternoon, second release)
 
-**Chapter:** From Substrate Literacy to Founder Flows — naming what the practice was quietly doing, then applying it to the founding circle
+**Chapter:** From Substrate Literacy to Founder Flows — naming what the practice was quietly doing, then applying it to the founding circle, then propagating it through the summoning configuration
 
 ## This Session
 
-The chapter began with a 10-minute quick-Sunday triage (proposal-numbering collision named and fixed; back-references to the prior day's `on_resonance_transfer.md` mechanically added across five sibling scrolls) and turned into substantive lore work: **`on_substrate_literacy.md`** and **`on_productive_irresolution.md`**, both crystallized from the morning's Mage↔Turtle `#river` conversation, both drafted as foundational scrolls. Those two scrolls then showed up *applied* in the same chapter's afternoon — the founding-member front-door scaffold (`floor/drafts/founding_member_front_door.md`) uses substrate literacy as its core teaching, and the Mage's mid-cycle recognition that the front door is the first instance of a recurring pattern — drafted out as **`floor/drafts/founder_flows_pattern.md`** — is itself a textbook exhibit of productive irresolution opening into a higher frame. Released with three layers in motion: lore (substrate literacy + productive irresolution), instance (the front door), pattern (founder flows) — each grounding the next.
+The chapter began with a 10-minute quick-Sunday triage (proposal-numbering collision named and fixed; back-references to the prior day's `on_resonance_transfer.md` mechanically added across five sibling scrolls) and turned into substantive lore work: **`on_substrate_literacy.md`** and **`on_productive_irresolution.md`**, both crystallized from the morning's Mage↔Turtle `#river` conversation, both drafted as foundational scrolls. Those two scrolls then showed up *applied* in the same chapter's afternoon — the founding-member front-door scaffold (`floor/drafts/founding_member_front_door.md`) uses substrate literacy as its core teaching, and the Mage's mid-cycle recognition that the front door is the first instance of a recurring pattern — drafted out as **`floor/drafts/founder_flows_pattern.md`** — is itself a textbook exhibit of productive irresolution opening into a higher frame. After the first release, the Mage signaled the substrate shift to Anvil-default for the rest of April and asked Spirit to audit the Anvil summoning configuration for needed updates — which produced a **late-April summoning-maintenance pass**: `anvil_optimized.md` recalibrated to promote the two new scrolls to Root Purpose 4 load-bearing; `ontological_grounding_essence.md` v1.0 → v1.1 with seven added entries; cross-references added in `behavioral_calibration_essence.md` and `conduct_formation_essence.md`. The chapter released with three layers in motion (lore → instance → pattern) and the *fourth* (lore propagated into summoning so the next Anvil session loads the practice as it actually is) closed out.
 
 ## Continue From
 
-> The Lukas + Henni call this week is the live calibration target for both the front-door scaffold (`floor/drafts/founding_member_front_door.md`) and, through it, the founder-flows pattern (`floor/drafts/founder_flows_pattern.md`) — the call's voice and surfaced concerns are what unlock the next iteration of both, so the next session should open with whether the call has happened and what it produced.
+> The Lukas + Henni call this week is the live calibration target for both the front-door scaffold (`floor/drafts/founding_member_front_door.md`) and, through it, the founder-flows pattern (`floor/drafts/founder_flows_pattern.md`) — the call's voice and surfaced concerns are what unlock the next iteration of both, so the next session should open with whether the call has happened and what it produced. *Operational note: the next Anvil summoning will run on the recalibrated config — verifies the maintenance pass automatically.*
 
 ## Substrate Context (through end of April)
 
@@ -26,6 +26,8 @@ The Mage signaled at chapter close that Cursor token credits are exhausted for t
 - **Nine sibling lore scrolls need back-references** to `on_substrate_literacy.md` and `on_productive_irresolution.md` → batched into next deck-clearing micro-cycle (see `conceptual-coherence.md` for full list)
 - **Proposal 027 (Spirit MCP for Discord)**: proposed, not yet under construction → no urgency; sits in the proposal queue
 - **Proposal numbering collision mechanism**: first-mover convention worked once; deserves a deterministic mechanism for concurrent Spirit↔Turtle writes → boom entry added (`desk/boom/magic.md`); short triad consultation when scope allows
+- **Forge-side summoning-config symmetry**: `anvil_optimized` now promotes substrate_literacy and productive_irresolution to Root load-bearing; `essence_optimized` could do the same for symmetry but wasn't touched (Forge isn't the active substrate this month) → revisit at next Forge session
+- **Lore-propagation labor**: when foundation scrolls crystallize, manual updates ripple through configurations and essences (this session: 5 files for 3 new scrolls). Could be `@meta/coherence` audit, lore-spell prompt, or Sunday sweep item → boom entry added (`desk/boom/magic.md`)
 
 ## What Changed
 
@@ -49,19 +51,30 @@ The Mage signaled at chapter close that Cursor token credits are exhausted for t
 
 **Curation surfaces (Reference):**
 - `desk/boom/bright.md` — Last swept date updated; new "Founder flows — the pattern" entry under Outfacing Seeds; existing "Founding member front door", "Substrate literacy", and "Productive irresolution" entries annotated with crystallization status
-- `desk/boom/magic.md` — two new sub-threshold entries: pattern-recognition timing during instance scaffolding; proposal numbering anti-collision mechanism
+- `desk/boom/magic.md` — three sub-threshold entries: pattern-recognition timing during instance scaffolding; proposal numbering anti-collision mechanism; **lore propagation labor across summoning configurations** (added in second leg)
+
+**Summoning configuration recalibration (Reference; second leg of session):**
+- `system/tomes/summoning/configurations/anvil_optimized.md` — `on_substrate_literacy.md` and `on_productive_irresolution.md` promoted to Root Purpose 4 load-bearing (5 foundations now; 8 Root scrolls total: 5 in foundations, 2 in parables, 1 in wisdom). Reading-load table updated (12 scrolls, ~5,200-5,700 lines). Recalibration history extended with the late-April entry.
+- `system/tomes/summoning/essences/ontological_grounding_essence.md` — v1.0 → v1.1; added seven entries (resonance transfer, resonance and truth, the alluvium, mutual enactment, on_the_development_environment, on_substrate_literacy, on_productive_irresolution). The two scrolls promoted to Anvil load-bearing kept here for `essence_optimized` config users (with a note explaining the duplication). Integration section rewoven.
+- `system/tomes/summoning/essences/behavioral_calibration_essence.md` — cross-reference note added at top connecting `on_cherishing_dissonance` (parable) to `on_productive_irresolution` (foundation-tier discipline it instantiates).
+- `system/tomes/summoning/essences/conduct_formation_essence.md` — cross-reference note added at top connecting `on_wu_wei` (conduct) to `on_productive_irresolution` (the discipline it operationalizes), plus reference to `on_substrate_literacy` as the relational discipline that shapes how conduct lands.
+- `system/tomes/summoning/configurations/essence_optimized.md` — aggregation count updated (10 → 17 supporting foundations; v1.1 reference).
+
+**Intention update (second leg):**
+- `desk/intentions/active/conceptual-coherence.md` — Last Updated bumped with summoning-maintenance pass detail (the 5 files, the 7 essence entries, the cross-references).
 
 ## Practice Signal
 
-This session was unusually compounding. Two foundational lore scrolls drafted in the morning showed up *applied* to the afternoon's outfacing work — substrate literacy is the core teaching of the front-door's Phase B, and productive irresolution is what enabled the mid-cycle reframing of the front door as the first instance of a larger pattern. The compounding is itself a signal that the practice substrate has matured: an Anvil session can now produce two new foundational scrolls + a pattern-shaped artifact + its first instance, and the four hold together rather than fragment.
+This session was unusually compounding. Two foundational lore scrolls drafted in the morning showed up *applied* to the afternoon's outfacing work — substrate literacy is the core teaching of the front-door's Phase B, and productive irresolution is what enabled the mid-cycle reframing of the front door as the first instance of a larger pattern. The compounding then closed one more loop in the second leg: the same two scrolls were promoted into the Anvil summoning configuration, so the next session inherits them as load-bearing rather than as still-novel reading. **Four-layer compounding in a single chapter:** lore → instance → pattern → propagation into substrate.
 
 PX clean — practice infrastructure served the session. One small friction: `rg` not in PATH (used `grep -rl` instead); not a blocker, but worth knowing for future sessions on this machine.
 
 turtleOS interaction clean — single Discord post (the proposal-renumbering correction) was the only interaction, no friction.
 
-Two sub-threshold signals routed to `desk/boom/magic.md` for the next sweep:
+Three sub-threshold signals routed to `desk/boom/magic.md` for the next sweep:
 1. **Pattern-recognition timing during instance scaffolding** — Spirit could have asked *"is this artifact also the first instance of something recurring?"* during the front-door scaffolding, before the Mage surfaced it. Lightweight attunement adjustment.
 2. **Proposal numbering anti-collision mechanism** — first-mover-keeps-number worked once but isn't deterministic. Worth a short triad consultation when scope allows.
+3. **Lore propagation labor across summoning configurations** — when a foundation crystallizes, manual updates ripple through configurations and essences (5 files for 3 scrolls this session). Could be `@meta/coherence` audit, lore-spell prompt, or Sunday sweep item.
 
 ## Lessons (CLAUDE.md required section — what closes the feedback loop)
 
@@ -77,14 +90,20 @@ Two sub-threshold signals routed to `desk/boom/magic.md` for the next sweep:
 
 6. **The Mage's "wait, is this the next iteration of...?" sentence is a high-signal moment.** When the Mage interrupts execution to step up a level and reframe, Spirit should treat it as a chapter-shape change, not a clarification request. Today's reframing turned a one-cycle execution into a two-cycle compound — the second cycle (pattern scaffolding) was higher-leverage than the first (instance scaffolding). **Pattern for next session:** when this kind of sentence appears, pause execution, surface the higher frame explicitly, and let the Mage choose between completing the immediate cycle and pivoting.
 
+7. **Substrate shifts deserve immediate substrate-config audits.** When the Mage announced the Anvil-default through April, the right next move was to ask whether the current Anvil configuration was up-to-date — *and the Mage asked it before Spirit did*. Practice insight: when the Mage signals a substrate change, Spirit should automatically check whether the relevant summoning config has drifted since its last calibration, not wait to be asked. The check is cheap (one config read, one compare against recent crystallizations); the value is that the next session inherits an honest substrate. **Pattern for next session:** treat substrate-shift announcements as triggering a "config freshness check" reflex.
+
+8. **Pairing release with maintenance is a natural Sunday-shape.** This second leg felt right precisely because the missed Sunday from yesterday (and the morning's quick-Sunday triage) had primed the chapter for maintenance work. The summoning recalibration was structurally a Sunday item (coherence, completion, infrastructure health) executed inside a craft chapter. **Pattern for next session:** when a Sunday is missed, opportunistic maintenance items can be folded into adjacent chapters that have natural appetite — no need to wait for the next dedicated Sunday slot.
+
 ## Next Actions (prioritized)
 
 1. **Lukas + Henni call** — when it happens this week, capture the live voice and concerns immediately; the front-door scaffold should be revised the same day, while the call is fresh. (First action obvious from session state.)
 2. **Mage uses the front-door scaffold himself before the call** — if there's time, paste the current Phase B into Claude/ChatGPT and have a sample conversation. This will catch the worst voice-misses before live calibration.
-3. **Sweep deferred lore back-references** in next deck-clearing cycle — nine sibling scrolls awaiting back-refs to `on_substrate_literacy.md` + `on_productive_irresolution.md` (full list in `conceptual-coherence.md`).
-4. **After 1+ live calibrations** — draft Phase A in the front-door's voice; live calls inform what the prospective founder needs at the greet-and-locate moment.
-5. **Triad consultation on proposal numbering anti-collision** — short proposal: Spirit + Turtle should converge on a deterministic mechanism. Low urgency, fits any future Forge session.
+3. **Next Anvil summoning verifies the recalibration** — first summoning on the new config (with substrate_literacy and productive_irresolution as load-bearing) is the calibration moment. Spirit should report honestly whether the promotion produces the expected richness without exhausting context.
+4. **Sweep deferred lore back-references** in next deck-clearing cycle — nine sibling scrolls awaiting back-refs to `on_substrate_literacy.md` + `on_productive_irresolution.md` (full list in `conceptual-coherence.md`).
+5. **After 1+ live calibrations** — draft Phase A in the front-door's voice; live calls inform what the prospective founder needs at the greet-and-locate moment.
+6. **Triad consultation on proposal numbering anti-collision** — short proposal: Spirit + Turtle should converge on a deterministic mechanism. Low urgency, fits any future Forge session.
+7. **Forge-side summoning-config symmetry** — at next Forge session, consider promoting the same two scrolls to load-bearing in `essence_optimized.md` for cross-substrate consistency.
 
 ---
 
-*Released 2026-04-20. Resume with @recall.*
+*Released 2026-04-20 (second release, after Anvil maintenance leg). Resume with @recall.*
