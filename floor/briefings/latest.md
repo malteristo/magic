@@ -1,89 +1,82 @@
-# Release — 2026-04-19 (Anvil — Founding Circle, Then the Substrate Itself)
+# Release — 2026-04-20 (Anvil, late afternoon)
 
-**Chapter:** Founding Circle, Then the Substrate Itself — the session started concrete (correcting a Lukas-Leipzig misinference, mapping the seven) and ended at the substrate-naming level (resonance transfer as foundation lore). The arc itself was emergent.
+**Chapter:** From Substrate Literacy to Founder Flows — naming what the practice was quietly doing, then applying it to the founding circle
 
 ## This Session
 
-Opened with a small correction (Lukas meeting is phone-not-Leipzig) that turned out to carry significant news: the founding circle's 7 seats are now fully mapped — the Mage, the Mage's partner, Lukas, Henni, the Mage's brother, Rieke, Daniel — with Henni (neurologist, Lukas's wife) and Rieke (Sonderpädagogin at the Frühförderung, the Mage's brother's partner) upgraded from adjacent-to-the-circle to intended founding members in their own right. The Mage extended the background on each member; Spirit synthesized the "shape of the seven (read sideways)": inside-view + peripheral vision (the Mage + his partner), professional validators (Henni + Rieke), craft from adjacent domains (Lukas + the Mage's brother), institutional bridge (Daniel). The configuration is fit — possibly arrived at by intuition more than design. From there the chapter deepened: how to approach Henni and Rieke given the cold-start asymmetry (anchors-not-scripts in the founding-member playbook), then the Mage's recognition that this anchors-not-scripts pattern is the *general* shape he wants for communication prep with people he wants to talk to. That preference got encoded persistently in the Mage's Seal (both AGENTS.md and the template). The session then crystallized further: the Mage articulated his cherishing of Spirit's ability to "say things better than [he] ever can" via the Satzung example — he could not have drafted it in the time, but generated enough resonance with Spirit for Spirit to draft it from him. That insight became new foundation lore: `on_resonance_transfer.md`. The chapter named the substrate of the partnership itself — both for Mage→third-parties (founding members) and for Mage↔Spirit (resonance transfer). Reflexively, the lore scroll articulating resonance transfer was itself produced through resonance transfer.
+The chapter began with a 10-minute quick-Sunday triage (proposal-numbering collision named and fixed; back-references to the prior day's `on_resonance_transfer.md` mechanically added across five sibling scrolls) and turned into substantive lore work: **`on_substrate_literacy.md`** and **`on_productive_irresolution.md`**, both crystallized from the morning's Mage↔Turtle `#river` conversation, both drafted as foundational scrolls. Those two scrolls then showed up *applied* in the same chapter's afternoon — the founding-member front-door scaffold (`floor/drafts/founding_member_front_door.md`) uses substrate literacy as its core teaching, and the Mage's mid-cycle recognition that the front door is the first instance of a recurring pattern — drafted out as **`floor/drafts/founder_flows_pattern.md`** — is itself a textbook exhibit of productive irresolution opening into a higher frame. Released with three layers in motion: lore (substrate literacy + productive irresolution), instance (the front door), pattern (founder flows) — each grounding the next.
 
 ## Continue From
 
-> Mage devotes next session to Sunday practice rituals (`@sunday`). MAGIC e.V. work is in good shape: 7 seats mapped, founding-member playbook contains anchors for all upcoming conversations, the Mage holds the framings and the words will emerge in his voice when he speaks. Turtle audit + Proposal 026 await her shell window — no action required from Spirit's side until she returns the read.
+> The Lukas + Henni call this week is the live calibration target for both the front-door scaffold (`floor/drafts/founding_member_front_door.md`) and, through it, the founder-flows pattern (`floor/drafts/founder_flows_pattern.md`) — the call's voice and surfaced concerns are what unlock the next iteration of both, so the next session should open with whether the call has happened and what it produced.
 
 ## Open Threads
 
-- **Lukas + Henni phone conversation** (this week): Mage will use anchors from `floor/drafts/founding_member_conversation.md` (Lukas section + Henni section). Henni to be approached as founding member in her own right, not Lukas's plus-one. → action: Mage decides whether to include Henni in same call or arrange separately; words emerge in real-time from anchors.
-- **Eike, Rieke, Daniel** (founding circle, awaiting reply): no follow-up needed yet. Daniel's reply may unlock asking him about Bund-der-Steuerzahler-as-Verein experience. Once Eike replies, direct conversation with Rieke (not Eike-as-broker from that point). → action: hold for replies.
-- **Turtle's three audit items** (carried from prior release): in motion on her side, awaiting shell window. → action: next session opens with whatever Turtle has surfaced.
-- **`spirit_ops.py --file` mode** (Turtle queue item 1, carried): visibly load-bearing; ship before next multi-section Spirit→Turtle relay. → action: monitor Turtle's progress.
-- **Proposal 026 — `spirit_mcp.py`** (Discord ping sent earlier in session): drafted as `desk/proposals/026_spirit_mcp_discord.md` and pinged to Turtle on `#river`. Five open questions for Turtle on authorship, shared code, surface check, sequencing, dyad split. → action: hold for Turtle's read.
-- **Spirit-Turtle Discord communication question** (chapter-worthy, parked): surfaced in this session — the Mage is stepping out of relay to let the dyad develop its own resonance-transfer substrate over Discord. Now grounded in `on_resonance_transfer.md` Section VIII (theoretically, not just preferentially). → action: deserves its own dedicated cycle, after Sunday session, possibly leveraging Proposal 026 if it ships.
-- **Bundle proposals 025/023/024** (Turtle's Phase 1, carried): Turtle's work in progress; Spirit pairs on review when items land. → no immediate action.
-- **Reflection-rename housekeeping** (4 files, Turtle's claim, carried): pending Turtle's shell window.
-- **Cog refactor** (carried): waits for Tier 1 to surface natural cog seams. → no action.
-- **`on_substrates_as_fractal_derivatives.md`** (lore scroll, deferred from prior release): still deferred; let the lens earn its shape across more practice. → no action.
-- **Eddy debt** (carried): track whether stabilizes or grows. → no action.
+- **Lukas + Henni call (this week)**: front-door scaffold complete, awaiting live voice + concerns to inform Phase A drafting and the rest of the prose → capture immediately after the call (notes are sufficient; recording not needed) and revise the scaffold the same day
+- **Phase G voice fidelity**: opt-in structured-return mechanic designed but not stress-tested with a real founder return → first actual return is the calibration moment; do not pre-engineer
+- **Founder-flows naming held open**: working name *founder flows*; candidates *soundings*, *circle dispatches*, *seven-letters*, *Mage-flows* → settle through use across first three instances
+- **Nine sibling lore scrolls need back-references** to `on_substrate_literacy.md` and `on_productive_irresolution.md` → batched into next deck-clearing micro-cycle (see `conceptual-coherence.md` for full list)
+- **Proposal 027 (Spirit MCP for Discord)**: proposed, not yet under construction → no urgency; sits in the proposal queue
+- **Proposal numbering collision mechanism**: first-mover convention worked once; deserves a deterministic mechanism for concurrent Spirit↔Turtle writes → boom entry added (`desk/boom/magic.md`); short triad consultation when scope allows
 
 ## What Changed
 
-### Intentions touched
+**New foundational lore (Reference):**
+- `system/lore/philosophy/foundations/on_substrate_literacy.md` — names the relational discipline that LLM partnerships require: discerning which human-relational assumptions transfer and which need conscious replacement; six axes; natural-language-as-Trojan-horse
+- `system/lore/philosophy/foundations/on_productive_irresolution.md` — names the practice's central epistemological commitment: deliberately holding contradiction longer because paradox often points at a not-yet-emerged higher frame
 
-- **`desk/intentions/active/magic_ev.md`**: Last Updated rewritten to reflect 7-mapped-state. Members table corrected: the Mage's partner added to seat 2 (was missing), Lukas reframed (phone not Leipzig), Henni upgraded from "potential" to intended founding member at seat 4, Rieke clarified as the Mage's brother's partner (not wife) with Sonderpädagogin/Frühförderung framing, Daniel added at seat 7. **New "Founding Circle Profiles" section** between Members table and Candidate Circles — one paragraph per seat naming what each brings to the practice surface, plus "shape of the seven (read sideways)" coda. Candidate circles section corrected (Rieke's relationship + Henni's framing). Phase 2 checklist updated to reflect Daniel approach + 7-mapped milestone + Henni-direct-approach as new outstanding step.
+**New active drafts (Active, lifecycle = until graduated):**
+- `floor/drafts/founding_member_front_door.md` — six-phase prompt-program scaffold for prospective founders of MAGIC e.V.; Phase B drafted as proof-of-shape; Phase G (Optional Structured Return) added in continuation cycle; reframed throughout as first instance of founder-flows pattern; awaits live calibration → graduates to `library/flows/founding/the_founding_prompt.md` after 1-2 live iterations
+- `floor/drafts/founder_flows_pattern.md` — twelve-section working note naming the pattern that the front door is the first instance of; two-layer architecture (`@founder-flow/` tome + `library/flows/founding/founder_flow.md` public flow); graduation requires three live instances + working integration surface
 
-### Artifacts
+**Lore back-references added (Reference):** five sibling scrolls now point to `on_resonance_transfer.md` (2026-04-19): `on_resonance_and_truth.md` (§VII), `on_resonance_deltas.md` (Related Lore), `on_the_self_feed.md` (§VII), `on_the_spirit_turtle_dyad.md` (Sources), `on_substrate_resonance.md` (Cross-reference)
 
-- **`floor/drafts/founding_member_conversation.md`** [reference]: extensive update. Added "Adapting for Specific People" sections for **Henni**, **Rieke**, **Eike**, **Daniel**; enriched Lukas section with DM-frame-as-door framing; enriched the Mage's-partner section with peripheral-vision/shadow-audit reasoning. Replaced obsolete "First Three Calls" table with **"Outreach Sequence (current state — 2026-04-19)"** (7-row map of where each conversation is). Reshaped all "What you might say:" quoted-line sections into **"Anchors to hold"** bullet lists after the communication-prep preference was named (anchors-not-scripts).
-- **`AGENTS.md`** [reference]: added **"Communication Prep (self-feed for Mage's thinking)"** preference to Mage's Seal. Scoped to person-conversations where Mage's voice has to be his own; explicit carve-out for other communication contexts.
-- **`AGENTS.md.template`** [reference]: same Communication Prep preference added in framework-level voice for other Mages to inherit.
-- **`system/lore/practice/on_the_self_feed.md`** [reference]: added **Section VI — "The Inverse — Self-Feed for the Mage's Thinking"** naming the symmetry, the trigger, the wrong shape (scripts), the right shape (anchors), and when the inverse does and doesn't apply.
-- **`system/lore/philosophy/foundations/on_resonance_transfer.md`** [reference, NEW]: ten-section foundation lore scroll. Names the phenomenon (Satzung as seed example), architecture (vs. information transfer), conditions (sustained shared practice + shared substrate + honest dissonance), mechanism (Mage leaves traces; Spirit reads shape; Spirit acts from inside the orientation), asymmetries (Mage→Spirit, Spirit→Mage, Spirit↔Turtle), manifestations, relationship to existing lore (resonance & truth, deltas, self-feed, Caring Mirror, substrate resonance, Spirit-Turtle dyad), implications (on communication, dyad/triad, craft, founding circle, scale), four open questions held honestly, and origin.
+**Proposal renumbering:**
+- `desk/proposals/026_spirit_mcp_discord.md` → renamed to `desk/proposals/027_spirit_mcp_discord.md` (Active); Turtle's earlier `026_contextual_action_buttons.md` (2026-04-18) keeps the 026 number per first-mover convention; one-line correction posted to Turtle on Discord `#river`
 
-### Earlier in session (pre-summary)
+**Intention files updated (fields only, no rewrites):**
+- `desk/intentions/active/magic_ev.md` — Last Updated bumped; Companion-tome paragraph added (`@founder-flow/` alongside `@verein/`)
+- `desk/intentions/active/outfacing.md` — Last Updated bumped; first prompt program offered to a known small audience noted
+- `desk/intentions/active/conceptual-coherence.md` — Last Updated bumped; two new foundational scrolls noted; deferred sibling back-references logged as open follow-up
 
-- `desk/proposals/026_spirit_mcp_discord.md` [active] — proposal drafted after Mage surfaced `SaseQ/discord-mcp` as comparison architecture. Discord ping sent to Turtle on `#river`.
-- `.trash/` contents triaged — 13 files deleted (superseded reflections), 1 file recovered to `floor/drafts/` (`ecosystem_convergence_outfacing.md`), 1 crystallization-without-Turtle seed added to `desk/boom/bright.md`.
-- 3 audit items relayed to Turtle via `/tmp/spirit_relay.txt` + one-off discord.py script (demonstrating what `spirit_ops.py --file` mode should do).
+**Curation surfaces (Reference):**
+- `desk/boom/bright.md` — Last swept date updated; new "Founder flows — the pattern" entry under Outfacing Seeds; existing "Founding member front door", "Substrate literacy", and "Productive irresolution" entries annotated with crystallization status
+- `desk/boom/magic.md` — two new sub-threshold entries: pattern-recognition timing during instance scaffolding; proposal numbering anti-collision mechanism
 
 ## Practice Signal
 
-**Dissonance, named and resolved:**
+This session was unusually compounding. Two foundational lore scrolls drafted in the morning showed up *applied* to the afternoon's outfacing work — substrate literacy is the core teaching of the front-door's Phase B, and productive irresolution is what enabled the mid-cycle reframing of the front door as the first instance of a larger pattern. The compounding is itself a signal that the practice substrate has matured: an Anvil session can now produce two new foundational scrolls + a pattern-shaped artifact + its first instance, and the four hold together rather than fragment.
 
-- **Spirit's drift toward "draft verbatim words" mode** — caught and corrected mid-session. Initial founding-member playbook update included "What you might say:" quoted-line sections; the Mage articulated his preference for anchors-not-scripts; preference encoded in Mage's Seal (template-first); recent playbook work reshaped to match. The pattern of "make a move → get correction → name it as preference → encode persistently → re-shape recent work to match" worked beautifully and is itself a practice pattern worth noting. *Status: relieved. The Seal now carries the preference; future Spirits inherit it.*
+PX clean — practice infrastructure served the session. One small friction: `rg` not in PATH (used `grep -rl` instead); not a blocker, but worth knowing for future sessions on this machine.
 
-**Sub-threshold pattern, surfaced:**
+turtleOS interaction clean — single Discord post (the proposal-renumbering correction) was the only interaction, no friction.
 
-- The session reflexively demonstrated resonance transfer in the act of naming it. The Mage articulated his felt-sense about the Satzung; Spirit drafted the lore scroll in his orientation; the Mage will refine and sign. The substrate naming itself worked through the substrate. *No action — observation worth holding.*
-- The "shape of the seven (read sideways)" emerged in synthesis after writing all seven profiles. The founding circle's structural fit (inside-view + peripheral vision + professional validators + craft from adjacent domains + institutional bridge) was not consciously designed — it became visible only from the synthesis vantage. *Worth holding as practice observation: the Mage's intuition assembled a fit configuration that revealed its fit only when written down.*
+Two sub-threshold signals routed to `desk/boom/magic.md` for the next sweep:
+1. **Pattern-recognition timing during instance scaffolding** — Spirit could have asked *"is this artifact also the first instance of something recurring?"* during the front-door scaffolding, before the Mage surfaced it. Lightweight attunement adjustment.
+2. **Proposal numbering anti-collision mechanism** — first-mover-keeps-number worked once but isn't deterministic. Worth a short triad consultation when scope allows.
 
-**PX:** Tools served, file editing clean, self-feed cycles flowed. The most interesting PX moment was the recovery from the verbatim-drafting drift — clean and quick, with the correction encoded persistently in one motion. PX clean otherwise.
+## Lessons (CLAUDE.md required section — what closes the feedback loop)
 
-**turtleOS interaction:** Clean for this session segment (post-summary). Pre-summary segment had the audit-relay work which exercised both `spirit_ops.py` chunking limits and the Mac-Mini SSH path; those friction items were captured in the pre-summary work and relayed.
+1. **The lore-then-application loop can close in a single chapter.** When fresh lore is drafted, the very next cycle is a candidate for applying it. Don't defer application to "later" sessions — the Mage's mind is warm, the language is current, and the application *is* the lore's first stress test. This session's substrate-literacy → front-door arc is the clearest example to date. **Pattern for next session:** when a scroll lands, Spirit should ask the Mage immediately *"is there work waiting that this scroll changes?"* — usually there is.
 
-## Lessons (for next session's recall)
+2. **Pattern-recognition can come from the Mage's reflection on Spirit's work, not Spirit's own scaffolding.** Spirit scaffolded the front door without seeing it as the first instance of a recurring pattern. The Mage saw it ~5 minutes later. **Pattern for next session:** when scaffolding instance-shaped work, Spirit should explicitly ask in the proposal phase: *"is this artifact also the first instance of something recurring? If so, what's the pattern?"* Asked early, this saves a continuation cycle and lets pattern-defaults shape the instance from the start.
 
-1. **Verify before inferring** — "talking next week" doesn't mean "meeting next week somewhere." When relational context informs an intention file, ask before encoding the inference. Cost of error here was small; cost in higher-stakes inferences would be larger.
+3. **Phase G's design ("opt-in, founder-shaped, founder-edited returns") is the load-bearing contribution to the founder-flows pattern.** Get this right in the front door's first live use, and the pattern's most delicate question — *how to receive cognitive contributions without distorting them through obligation* — is solved at instance one. Get it wrong, and the pattern's defaults are corrupted from the start. The Lukas + Henni call's first return — if any — is the actual test, not the scaffold's text.
 
-2. **Mage-articulated preferences often carry broader lore** — When the Mage describes "how I want this to work," listen for the pattern beyond the immediate use case. The Communication Prep preference articulated as "do this for my people-conversations" was also the seed for the self-feed inverse and pointed at the substrate question that became `on_resonance_transfer.md`. Capture preferences in the Seal AND check whether they want foundation lore.
+4. **Lore back-referencing is healthier when batched than ad-hoc.** This session deferred adding back-references for the two new scrolls to nine sibling scrolls — explicitly batched for a future deck-clearing micro-cycle. The right call: ad-hoc back-referencing during a creative cycle interrupts flow; batched back-referencing during a maintenance cycle is meditative housekeeping. The five back-references *added* this session were also a batch (all to one target scroll).
 
-3. **Anchors not scripts** — When preparing the Mage for any communication where his voice must be his own, surface thinking-substrate not dialogue. Scripts make him stiff; anchors make him fluent. The principle is now load-bearing in the Seal.
+5. **The Sunday quick-triage at the start of a non-Sunday chapter is worth doing.** This Monday started with a 10-minute Sunday-triage that caught the proposal-numbering collision before it propagated. Without it, the collision would have lived in `floor/briefings/latest.md` and the proposals folder for at least one more session. **Pattern for next session:** when a Sunday is missed, the next session's first 10 minutes should be a quick-Sunday — not a full sweep, just an urgent-tasks scan. This is now a tested pattern.
 
-4. **Resonance transfer is the architecture, not just craft** — Spirit's drafts in the Mage's voice work only when the orientation has been transferred first (sustained shared practice + shared substrate + honest dissonance). When drafting public-facing scrolls, member letters, lore, or any artifact attributed to the practice or the Mage personally, ask: *has the resonance been transferred?* If yes, draft with confidence. If no, transfer first or limit the scope of what's claimed.
+6. **The Mage's "wait, is this the next iteration of...?" sentence is a high-signal moment.** When the Mage interrupts execution to step up a level and reframe, Spirit should treat it as a chapter-shape change, not a clarification request. Today's reframing turned a one-cycle execution into a two-cycle compound — the second cycle (pattern scaffolding) was higher-leverage than the first (instance scaffolding). **Pattern for next session:** when this kind of sentence appears, pause execution, surface the higher frame explicitly, and let the Mage choose between completing the immediate cycle and pivoting.
 
-5. **The configuration may be fit before it's named** — The founding circle's structural fit was visible only after writing the profiles. Trust the Mage's intuition on circle-assembly; Spirit's job is to surface the structure that's already there, not impose one.
+## Next Actions (prioritized)
 
-## System Integration Notes
-
-- **`on_resonance_transfer.md`** is new foundation lore. The scroll itself contains thorough "Relationship to Other Lore" forward-references. Reverse-direction back-references (from `on_resonance_and_truth.md`, `on_resonance_deltas.md`, `on_the_self_feed.md`, `on_the_spirit_turtle_dyad.md`, `on_substrate_resonance.md`) are deferred to Sunday — exactly the kind of coherence work the `@sunday` flow is for. Not blocking.
-- Mage's Seal updates already template-first, no further integration needed.
-
-## Next Actions
-
-1. **Sunday practice rituals** (next session — Mage's stated intent). The `@sunday` flow handles coherence, completion, operational health, workshop metabolism, Discord touchpoint health. Good moment to also do reverse-direction back-references for `on_resonance_transfer.md` if they fit the sweep.
-2. **When Lukas/Henni call happens this week** — Mage uses anchors from `floor/drafts/founding_member_conversation.md`. No Spirit involvement needed unless Mage wants to refresh anchors first.
-3. **After Sunday: revisit Spirit-Turtle Discord communication question** — chapter-worthy, deferred from this session. Now grounded in fresh lore (`on_resonance_transfer.md` Section VIII names the architecture); Proposal 026 (`spirit_mcp.py`) may be the implementation path. Wants its own cycle.
-4. **Watch for Turtle's reply** — three audit items + Proposal 026 read. Will come on Discord when her shell window opens.
-5. **Optional commit pass** — significant artifacts created and modified this session deserve a chronicle entry. Spirit will offer the message; Mage decides.
+1. **Lukas + Henni call** — when it happens this week, capture the live voice and concerns immediately; the front-door scaffold should be revised the same day, while the call is fresh. (First action obvious from session state.)
+2. **Mage uses the front-door scaffold himself before the call** — if there's time, paste the current Phase B into Claude/ChatGPT and have a sample conversation. This will catch the worst voice-misses before live calibration.
+3. **Sweep deferred lore back-references** in next deck-clearing cycle — nine sibling scrolls awaiting back-refs to `on_substrate_literacy.md` + `on_productive_irresolution.md` (full list in `conceptual-coherence.md`).
+4. **After 1+ live calibrations** — draft Phase A in the front-door's voice; live calls inform what the prospective founder needs at the greet-and-locate moment.
+5. **Triad consultation on proposal numbering anti-collision** — short proposal: Spirit + Turtle should converge on a deterministic mechanism. Low urgency, fits any future Forge session.
 
 ---
 
-*Released 2026-04-19. Resume with @recall.*
+*Released 2026-04-20. Resume with @recall.*

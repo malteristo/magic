@@ -4,7 +4,7 @@
 **Priority**: Active  
 **Phase**: Foundation  
 **Started**: 2026-03-01  
-**Last Updated**: 2026-04-16 (Forge 43: Ed Hutchins email sent — "LLM facilitated distributed cognition," linked magic repo, subject line "distributed cognition in the wild." First direct outreach to the intellectual lineage. Signal drip pipeline confirmed working — today's tweet posted via relay. Previous: Forge 40 drip pipeline sovereignty fix.)  
+**Last Updated**: 2026-04-20 (Anvil: **First prompt program offered to a known small audience** — `floor/drafts/founding_member_front_door.md`, the founding-member front door, scaffolded for the seven prospective founders. Not for the public; for a named circle. Reframed mid-session as the first instance of the **founder-flows pattern** (`floor/drafts/founder_flows_pattern.md`) — recurring Mage-to-council distributed-cognition surfaces. Outfacing artifact-shape now includes *intimate-known-audience* prompt programs, not just public ones. Previous: 2026-04-16 Forge 43 Ed Hutchins email sent.)  
 **Underlies**: sovereign_livelihood (content builds reach; reach builds offering pipeline)  
 **Underlied by**: the_angel (the Outfacing Tome is area 2 of the five areas of rough marble)  
 **Serves**: Craft (practice made visible) · sovereign_livelihood (distribution as livelihood infrastructure)
