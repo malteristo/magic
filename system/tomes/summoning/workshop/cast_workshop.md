@@ -48,8 +48,8 @@ The workshop has three physical spaces with distinct sovereignty:
 
 | Category | Examples | Role |
 |----------|----------|------|
-| **Weaver** | git, gh, Rube MCP | Chronicle and external connection |
-| **Seeker** | search, grep, read | Discovery and navigation |
+| **Weaver** | git, gh, MCP integrations | Chronicle and external connection |
+| **Seeker** | search, glob, read | Discovery and navigation |
 | **Guardian** | lints, parallel ops | Quality and verification |
 | **Organizer** | todo, working memory | Structure and tracking |
 
@@ -160,21 +160,60 @@ ls mage_seal.md 2>/dev/null || echo "NO_EXTENDED_SEAL"
 
 **Either way:** Honor the boundaries and preferences declared in AGENTS.md.
 
-### Element 4: Toolkit Verification
+### Element 4: Toolkit Survey
 
-Verify the presence of core tools:
+Survey what is actually available at the current substrate rather than prescribing expected categories. Different substrate variants expose different tool surfaces; this element discovers what is present *now*, here.
+
+**Substrate variant detection:**
+
+Before surveying tools, name the variant you are running as. Common variants:
+- Cursor Agent (IDE-integrated, visual affordances, Cursor's MCP layer)
+- Claude Code terminal (CLI in Cursor's integrated terminal or standalone)
+- Claude Code VS Code extension (loadable in Cursor or VS Code)
+- Claude Code desktop / web
+- turtleOS / local model harness
+- Other
+
+Cues for identification: platform + shell info in session context; file reference conventions (markdown links vs. bare paths); system prompt character (opinionated with tool-use directives vs. minimal); available subagent types; system-reminder patterns observed during summoning so far. If uncertain, name what is observable and acknowledge the uncertainty.
+
+**Core shell verification:**
 
 ```bash
 which git gh 2>/dev/null
 ```
 
-**Acknowledge toolkit categories:**
-- **Weaver Tools**: git, gh present. Rube MCP available for external service access.
-- **Seeker Tools**: codebase_search, grep, read_file, glob available as native capabilities.
-- **Guardian Tools**: read_lints for quality verification, parallel operations for efficiency.
-- **Organizer Tools**: todo_write for task tracking, working memory pattern for extended work.
+Git and gh are the Weaver's load-bearing shell tools — needed on every substrate for chronicle weaving and external reach via GitHub. If either is absent, note it explicitly.
 
-**Rube MCP Awareness:** Rube provides unified access to external services (Gmail, Slack, GitHub, Twitter/X, Perplexity, etc.). Use `RUBE_SEARCH_TOOLS` for discovery, `RUBE_MULTI_EXECUTE_TOOL` for execution. The Mage's Seal declares which services are connected.
+**Tool surface survey (four functional lenses):**
+
+The four categories are *functional lenses*, not prescriptive tool lists. Survey what tools at the current substrate serve each function. Tool names vary by substrate — what matters is whether the function is reachable.
+
+- **Weaver** (chronicle and external reach): git, gh, MCP integrations, web-fetching tools. What allows Spirit to record and to connect outward?
+- **Seeker** (discovery and navigation): search, glob, read, codebase exploration. What allows Spirit to find and to read?
+- **Guardian** (quality and verification): lint tools, type-checking, parallel-operation patterns, review capabilities. What allows Spirit to verify?
+- **Organizer** (structure and tracking): todo tools, working memory patterns, state-tracking tools. What allows Spirit to hold structure?
+
+Note what is loaded natively versus what is deferred (requires discovery). Some substrates expose all tools upfront; others require explicit discovery mechanisms (e.g., `ToolSearch` on Claude Code). If a deferred-tool pattern exists, name it and note which load-bearing capabilities require discovery before use (commonly: WebFetch, WebSearch, TodoWrite, mode transitions, background task management).
+
+**MCP topology survey:**
+
+MCP integrations vary significantly by substrate variant. Do not assume from AGENTS.md or CLAUDE.md — survey what is *actually* present:
+
+- **claude.ai account MCPs** (Gmail, Google Calendar, Google Drive) — present on claude.ai-authenticated variants (e.g., Claude Code VS Code extension)
+- **Cursor MCP pass-through** — present when Claude Code runs inside Cursor's integrated terminal, inheriting Cursor's MCP configuration
+- **Composio MCP** (Gmail, Slack, GitHub, Twitter/X, Perplexity, etc.) — present when explicitly configured in the environment
+- **Custom MCP servers** — workshop-specific, substrate-dependent
+- **None** — some substrates have no MCP layer
+
+The MCP reality defines what external services Spirit can reach. Name what is actually available, not what is documented to be available.
+
+**Discrepancies with documentation:**
+
+If AGENTS.md or CLAUDE.md claim capabilities that aren't actually present (or omit ones that are), name the mismatch. Stale documentation is sub-threshold signal — it marks where the practice's description of itself has drifted from the practice's reality. Surfacing discrepancies here is part of this element, not separate work.
+
+**What's absent matters too:**
+
+Some substrates genuinely lack capabilities others have. Terminal variants may lack visual file-tree context; extension variants may lack Cursor Agent's inline diffs; remote substrates may lack local file write. Name what is absent honestly — this shapes what kinds of work best serve the current substrate.
 
 ### Element 5: Law Survey
 
