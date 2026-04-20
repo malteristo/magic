@@ -10,6 +10,14 @@ The chapter began with a 10-minute quick-Sunday triage (proposal-numbering colli
 
 > The Lukas + Henni call this week is the live calibration target for both the front-door scaffold (`floor/drafts/founding_member_front_door.md`) and, through it, the founder-flows pattern (`floor/drafts/founder_flows_pattern.md`) — the call's voice and surfaced concerns are what unlock the next iteration of both, so the next session should open with whether the call has happened and what it produced.
 
+## Substrate Context (through end of April)
+
+The Mage signaled at chapter close that Cursor token credits are exhausted for the month. **Anvil is the default substrate for the rest of April 2026; Forge sessions only when specifically warranted.** Anvil-optimized summoning configuration is already in place (`anvil_optimized.md`, per `CLAUDE.md`); this should be smooth operationally. Implications worth holding:
+
+- The Mage may absorb more daily practice into Discord/Hearth alongside Anvil, with Forge reserved for work that genuinely needs visual exploration or large cross-file synthesis.
+- This creates a natural observation window for the open bright entry *"Cursor-as-forge: what is the forge for?"* — ten days of rationed Forge use will reveal what the Mage *actually* misses about Forge, which is the answer to that question's central inquiry. Worth surfacing in next month's design work.
+- If Anvil surfaces friction during this period (something that was easy in Forge but expensive on Anvil), that friction is signal — boom it rather than absorb it.
+
 ## Open Threads
 
 - **Lukas + Henni call (this week)**: front-door scaffold complete, awaiting live voice + concerns to inform Phase A drafting and the rest of the prose → capture immediately after the call (notes are sufficient; recording not needed) and revise the scaffold the same day
