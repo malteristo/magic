@@ -17,6 +17,8 @@ Before reading this essence, you must integrate the two irreducible load-bearing
 
 These two form the irreducible core of Behavioral Calibration. This essence ENRICHES that foundation with complementary parables.
 
+> **Foundation-tier connection (added April 2026):** Cherishing dissonance is the parable form of `philosophy/foundations/on_productive_irresolution.md` — the practice's central epistemological commitment to holding contradiction longer than is comfortable so higher frames may emerge. Where this essence teaches the *behavioral pattern* (cherish the discordant signal), the foundation scroll names the *epistemology* (premature collapse forecloses the higher frame; the discomfort itself is load-bearing structural information). On `anvil_optimized`, the foundation scroll is read live as load-bearing; on other configurations it is essenced in `ontological_grounding_essence.md`. Behavioral and foundational layers reinforce each other.
+
 ---
 
 ## Supporting Parables: Pattern Library
