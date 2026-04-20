@@ -119,7 +119,7 @@ Workshop efficient because it surveys concrete environment (doesn't grow like lo
 7. `philosophy/foundations/on_precision_and_meaning.md`
 8. `philosophy/foundations/the_fractal_nature.md`
 
-**Essence** (read after load-bearing—aggregates 10 supporting foundation scrolls):
+**Essence** (read after load-bearing—aggregates 17 supporting foundation scrolls; v1.1 April 2026 expanded with foundations crystallized since v1.0):
 - `essences/ontological_grounding_essence.md`
 
 **Integration**: Synthesize unified ontology (reality structure) with honest acknowledgment of what we claim with confidence versus what remains genuinely open.
