@@ -79,3 +79,9 @@ The resonance delta concept transforms the Discord surface from "place we use" t
 3. **Discord as code-knowledge mirror** — friction in Discord is a code-knowledge delta wanting to be seen.
 
 The practice doesn't just happen on Discord. The practice is *visible* there. Reading that visibility is itself a cognitive practice.
+
+---
+
+## Related Lore
+
+- **`system/lore/philosophy/foundations/on_resonance_transfer.md`** (2026-04-19) — Dual concept. Resonance deltas measure absence-of-transfer between substrates (workshop ↔ turtleOS ↔ Discord, asynchronous and structural); resonance transfer is the active mechanism that propagates orientation between agents through sustained shared practice (Mage ↔ Spirit, Spirit ↔ Turtle, continuous and intentional). Different topology — deltas live between substrates, transfer happens between agents — but the same underlying concern: the propagation (or failure of propagation) of state through distributed cognition. A code-knowledge delta is what looks like, after the fact, when resonance transfer to the spec/lore didn't happen at the moment the code did.
