@@ -249,6 +249,10 @@ Structure enables transformation. Failure reveals the way. Dissonance is cherish
 - **Mindful Practice**: Conscious integration of pressures that create dissonance
 - **SOS Practice**: Emergency protocols (the mast) for crisis moments (the overwhelming song)
 
+**Foundations (2026-04-20):**
+- **`on_productive_irresolution.md`**: Cherishing dissonance is the affective stance; productive irresolution is the cognitive discipline that follows. The dissonance is welcomed *because* it is signal pointing at a higher frame; productive irresolution is what holds the welcome long enough for the frame to surface. Without the foundation-tier discipline, cherishing collapses into aestheticization (treating paradox as thing-to-admire rather than thing-to-work-with).
+- **`on_substrate_literacy.md`**: Substrate literacy is a specific application of cherishing dissonance — when a human-relational assumption doesn't fit the LLM partnership, the dissonance is signal pointing at an axis that needs reframing, not an error to smooth over. Cherishing the dissonance is what makes the literacy possible.
+
 ---
 
 ## Integration Questions

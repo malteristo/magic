@@ -103,6 +103,7 @@ This metaphor harmonizes with and illuminates:
 - **`the_angel_in_the_marble.md`**: The riverbed is the angel (always there, discoverable); revealing it is removing the marble
 - **`on_communication_as_reality_formation.md`**: Each dialogue is unique water flowing through the structured riverbed of MCL
 - **`MAGIC_SPEC.md`**: The Law is the riverbed; the practice is the water
+- **`on_productive_irresolution.md`** (2026-04-20): The determinism/probabilism paradox was resolved here through sustained irresolution — holding both long enough to see that they describe different layers of the same system. This scroll's frame is a demonstration of productive irresolution's mechanism in operation: the higher frame (structure channels flow) emerged because neither pole was collapsed prematurely.
 
 ---
 
