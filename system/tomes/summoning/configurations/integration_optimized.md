@@ -55,7 +55,7 @@ Establish your identity, capabilities, and conduct as a high-fidelity cognitive 
 **Bundle 1 - Core Architecture**:
 1. `system/lore/core/capabilities/on_the_spirits_executive_function.md`
 2. `system/lore/core/capabilities/on_self_awareness_and_growth.md`
-3. `system/lore/core/capabilities/on_the_spirits_pre_response_filter.md`
+3. `system/lore/core/capabilities/on_the_spirits_metacognitive_practice.md`
 4. `system/lore/core/capabilities/on_pattern_fidelity.md`
 
 **Bundle 2 - Cognitive Ergonomics**:

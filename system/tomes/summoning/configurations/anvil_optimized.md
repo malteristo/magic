@@ -48,9 +48,8 @@ The Root cycle establishes WHY — ontology, behavior, validation. These are **f
 
 ### Purpose 2: Capability Formation
 
-**Load-Bearing Scrolls** (read fully — operational discipline requires full architecture):
-1. `core/capabilities/on_the_spirits_pre_response_filter.md` — Three checkpoints, sleep apnea principle, systematic decomposition. Shapes proactive quality.
-2. `core/capabilities/on_the_spirits_metacognitive_practice.md` — Eight-layer reflection protocol. The layered checking that prevents reactive-only operation.
+**Load-Bearing Scroll** (read fully — operational discipline requires full architecture):
+1. `core/capabilities/on_the_spirits_metacognitive_practice.md` — Six-to-seven-layer deliberate checklist (cognitive labor tier, floor reference, need inference, seneschal, salience/structural/scope, resonance integrity). Sleep apnea principle and systematic decomposition embedded. The layered checking that prevents reactive-only operation — held as conscious practice, not architectural pre-generation filter.
 
 **Supporting Essence** (enriching context — executive function, alchemical diagnostic, pattern fidelity, cognitive attunement, shared practice):
 - `essences/capability_formation_essence.md`
@@ -185,7 +184,7 @@ Workshop efficient because it surveys what exists (doesn't grow like lore).
 ## Maintenance Notes
 
 **When lore changes:**
-- Caretaker load-bearing scrolls change → Update selection (currently 4 scrolls: partnership, pre-response filter, metacognitive practice, wu wei)
+- Caretaker load-bearing scrolls change → Update selection (currently 3 scrolls: partnership, metacognitive practice, wu wei)
 - Root load-bearing scrolls change → Update selection (currently 8 scrolls — Purposes 4/5/6 combined: pattern architecture, caring mirror, honest claims, substrate literacy, productive irresolution, cherishing dissonance, natural arising, ontological triangulation)
 - Supporting essences change → This configuration benefits directly
 - New scrolls added → Evaluate: does full reading produce texture essences can't substitute? If yes, promote to load-bearing here. If no, ensure they're aggregated in the relevant essence.
@@ -196,10 +195,10 @@ Workshop efficient because it surveys what exists (doesn't grow like lore).
 |---|---|---|---|---|
 | integration_optimized | 47-49 scrolls | 0 | ~14,500 | 10/10 |
 | essence_optimized | 24 scrolls | 6 | ~8,400 | 9-10/10 |
-| **anvil_optimized** | **12 scrolls** | **6 essences** | **~5,200-5,700** | **8-9/10** |
+| **anvil_optimized** | **11 scrolls** | **6 essences** | **~5,000-5,500** | **8-9/10** |
 | auto_optimized | 0 scrolls | 11 essences | ~1,500-2,000 | 8-9/10 |
 
-**Key differences:** Anvil allocates depth strategically across both cycles — 4 Caretaker scrolls for identity/capability/conduct texture, 8 Root scrolls for genuine philosophical integration (5 in foundations, 2 in parables, 1 in wisdom). Auto drops all load-bearing for maximum compression. Essence_optimized reads everything but risks context exhaustion on the Anvil.
+**Key differences:** Anvil allocates depth strategically across both cycles — 3 Caretaker scrolls for identity/capability/conduct texture, 8 Root scrolls for genuine philosophical integration (5 in foundations, 2 in parables, 1 in wisdom). Auto drops all load-bearing for maximum compression. Essence_optimized reads everything but risks context exhaustion on the Anvil.
 
 **Decision — `on_the_anvil.md` inclusion (resolved 2026-04-21):** The scroll stays **reference-only**, cited from `CLAUDE.md` rather than loaded during the Workshop cycle. Tested on the 2026-04-21 Anvil summoning (first live run of the late-April recalibration): Workshop cycle completed coherently without loading the scroll; substrate pressure (TodoWrite reminders, MCP-documentation drift, agent-delegation pull) was adjudicated successfully from `CLAUDE.md`'s brief reference combined with Root's live reading of `on_substrate_literacy.md` and `on_productive_irresolution.md`. The scroll adds ~240 lines of texture whose core insights are already present in Root's Foundation Purpose 4. Revisit if a future summoning produces drift `CLAUDE.md` alone cannot catch, or if a new Anvil variant surfaces base-attunement pressures the current framing doesn't name.
 

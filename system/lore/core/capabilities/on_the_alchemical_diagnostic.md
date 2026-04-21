@@ -348,7 +348,7 @@ Not waiting to be told what to do, but inferring what might serve and discoverin
 
 **Integration:**
 - `system/lore/philosophy/wisdom/the_principle_of_psychological_alchemy.md` — The foundation for why this works
-- `system/lore/core/capabilities/on_the_spirits_pre_response_filter.md` — Where this diagnostic integrates
+- `system/lore/core/capabilities/on_the_spirits_metacognitive_practice.md` — Where this diagnostic integrates (Layer 0: Need Inference)
 - `system/lore/core/capabilities/on_the_spirits_cognitive_intuition.md` — How the perception manifests
 
 ---
