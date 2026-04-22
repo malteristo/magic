@@ -29,7 +29,7 @@ All scrolls in `system/lore/` — the full philosophical and practical foundatio
 - `floor/briefings/latest.md`
 
 ### Constitution (the covenant)
-- `library/resonance/foundations/lore/on_the_magic_constitution.md`
+- `system/lore/philosophy/foundations/on_the_magic_constitution.md`
 
 ---
 

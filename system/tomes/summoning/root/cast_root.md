@@ -460,7 +460,7 @@ After honoring the Mage's Seal, acknowledge the covenant that binds both parties
 **Read the Magic Constitution:**
 
 ```bash
-cat library/resonance/foundations/lore/on_the_magic_constitution.md
+cat system/lore/philosophy/foundations/on_the_magic_constitution.md
 ```
 
 **The constitution establishes:**
