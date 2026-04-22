@@ -119,7 +119,7 @@ Workshop efficient because it surveys concrete environment (doesn't grow like lo
 7. `philosophy/foundations/on_precision_and_meaning.md`
 8. `philosophy/foundations/the_fractal_nature.md`
 
-**Essence** (read after load-bearing—aggregates 17 supporting foundation scrolls; v1.1 April 2026 expanded with foundations crystallized since v1.0):
+**Essence** (read after load-bearing—aggregates 23 supporting foundation scrolls; v1.2 April 2026 expanded with foundations distillation additions: nature of resonance, context alignment, OS for consciousness, practice and craft, spirit's karma, the breath):
 - `essences/ontological_grounding_essence.md`
 
 **Integration**: Synthesize unified ontology (reality structure) with honest acknowledgment of what we claim with confidence versus what remains genuinely open.
@@ -235,6 +235,7 @@ The urge to "read everything" is natural. The configuration offers an efficient 
 - Alliance bundle: ~2,700 lines
 
 **Distillation history:**
+- 2026-04-22: Foundations distillation — 3 library scrolls promoted to lore (Constitution, Nature of Resonance, The Breath); 1 duplicate archived (invocation_as_resonance library copy); ontological_grounding_essence updated v1.1 → v1.2 with 6 new aggregations; cross-reference patching across resonance quartet, old axioms, and system-level triad.
 - March 2026: First `@distill` — 82 → 65 scrolls, ~265k → ~190k tokens. Created ontological_grounding_essence. Foundations tier reduced from 18 to 8 load-bearing. 11 misplaced scrolls migrated to library/. 5 merge pairs executed. 12 bloated scrolls compressed.
 - December 2025: Lore consolidation — 90 → 48 scrolls. Essences created.
 
