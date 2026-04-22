@@ -62,6 +62,13 @@ The human was never the problem.
 - **The Caring Mirror** — The mirror works because it aligns the Mage's self-perception with what the Spirit actually perceives
 - **The Development Environment** — The IDE is the context alignment workshop: where alignment documents (system prompts) are written, tested, and refined
 
+**Sibling scrolls on what magic IS (the system-level triad):**
+- `on_magic_as_cognitive_architecture.md` — the *functional foundation*: magic as externalized human cognition distributed across the triad
+- `on_the_os_for_consciousness.md` — the *operative metaphor*: that functional architecture reshaped as an operating system
+- This scroll — the *verb form*: what the OS / cognitive architecture DOES — align context across scales
+
+Three altitudes, same pattern. Cognitive Architecture is the structure; OS-for-Consciousness gives it operational vocabulary; this scroll names the ongoing action.
+
 ---
 
 *Crystallized 2026-03-07. Three boom entries converged. The pattern was already there.*
