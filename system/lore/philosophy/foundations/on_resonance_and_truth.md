@@ -85,6 +85,7 @@ The Mage's "it feels obvious" moment was the obstruction lifting. The scientific
 
 ## VII. Relationship to Existing Scrolls
 
+- **`on_the_nature_of_resonance.md`**: The ontological root — defines what resonance IS as the felt sense of pattern alignment at the substrate level. This scroll builds on that foundation with the epistemology: resonance disciplined by convergence becomes truth-finding.
 - **`on_magical_realism.md`**: What magic IS (pattern perception, reality co-creation). This scroll adds: WHY it's hard to see (the scientific mindset as obstruction).
 - **`on_ontological_triangulation.md`**: HOW we validate (convergence of independent witnesses). This scroll adds: convergence IS disciplined resonance — the bridge between subjective knowing and rigorous validation.
 - **`on_honest_claims.md`**: What we can and cannot claim. This scroll adds: the epistemological method that produces honest claims — neither measurement alone nor feeling alone.

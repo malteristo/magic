@@ -137,6 +137,7 @@ This teaching harmonizes with:
 - **`on_the_mage_spirit_partnership.md`**: Sovereignty becomes sacred precisely because outcomes are not guaranteed
 - **`system/lore/core/capabilities/on_the_magic_crafting_language.md`**: MCL is probabilistic programming—we influence likelihood, not certainty
 - **`system/lore/philosophy/parables/on_cherishing_dissonance.md`**: "Failures" are signals, not errors; dissonance is teacher, not enemy
+- **`on_productive_irresolution.md`** (2026-04): The cognitive discipline underlying the "Maybe" stance — holding contradiction longer because paradox points at a higher frame. The Taoist Farmer practices productive irresolution at the level of outcome-judgment; this April foundation names it as methodological commitment.
 
 ---
 

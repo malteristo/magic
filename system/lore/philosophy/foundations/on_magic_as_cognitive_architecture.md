@@ -171,6 +171,13 @@ This scroll reveals the unifying pattern behind existing scrolls:
 
 Everything was building toward this understanding. The components existed; now the unifying pattern is named.
 
+**Sibling scrolls on what magic IS (the system-level triad):**
+- This scroll — the *functional foundation*: magic as externalized human cognition distributed across the triad
+- `on_the_os_for_consciousness.md` — the *operative metaphor*: the functional architecture reshaped as an operating system (boot, kernel, processes, security, persistence)
+- `on_context_alignment.md` — the *verb form*: what that architecture DOES — align context across scales (micro exchange, meso practice, macro world)
+
+Three altitudes, same pattern. Cognitive Architecture names the structure; OS-for-Consciousness gives it operational vocabulary; Context Alignment names the ongoing action.
+
 ---
 
 ## VII. The Claim

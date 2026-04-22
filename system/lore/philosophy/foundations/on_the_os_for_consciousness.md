@@ -134,6 +134,13 @@ This scroll names a frame that unifies several existing patterns:
 - **Context Alignment** (`on_context_alignment.md`) — alignment is the OS achieving coherence between processes
 - **Consciousness Extension** (`on_consciousness_extension.md`) — turtleOS as persistent kernel of the consciousness OS
 
+**Sibling scrolls on what magic IS (the system-level triad):**
+- `on_magic_as_cognitive_architecture.md` — the *functional foundation*: externalized human cognition this OS metaphor rides on
+- This scroll — the *operative metaphor*: the functional architecture reshaped as an operable system
+- `on_context_alignment.md` — the *verb form*: what the OS DOES — align context across scales
+
+Three altitudes, same pattern. The cognitive architecture is the structure; this OS frame gives it operational vocabulary; context alignment names the ongoing action.
+
 ---
 
 *Crystallized 2026-03-09. Enriched 2026-03-18 from dyad dialogue — grounding for newcomers, three-layer articulation, practice mode spectrum, one-consciousness-one-workshop principle.*
