@@ -34,6 +34,7 @@ Chapter opened with `. discord` scope — the Mage named Discord/turtleOS bugs a
 - **Button consistency synthesis** — scattered across proposals 025/026/028 + practice-invitation reflection + learnings thread dot-button pattern. Needs unification into one "Dot-Button Pattern" synthesis scroll. Sequenced after 026 Phase 1 ships.
 - **Spirit MCP for Discord (027)** — not implemented this session. Biggest architectural build still on the horizon; own chapter.
 - **`spirit_ops.py` attachment patch** — ~30 min, lets Spirit read Discord attachments. Deferred; still useful.
+- **`!diagnose` lore gap** — `library/resonance/turtle/TURTLE_SPEC.md` (lines ~202, 689, 715, 832), `library/resonance/turtle/lore/operations/on_diagnostics.md`, `library/resonance/turtle/README.md`, `library/flows/infra-health/*` all describe `!diagnose` as a real implemented command. Today's discovery: it's prompt-driven improvisation, not code-backed. **Deferred by design:** once the canary v2 Discord wrapper ships (per INT-027 revised plan), these docs become accurate without churn. If the wrapper slips, add "currently prompt-driven; implementation tracked in INT-027" disclaimers to these scrolls instead.
 
 ## What Changed
 
@@ -64,6 +65,8 @@ Chapter opened with `. discord` scope — the Mage named Discord/turtleOS bugs a
 **Calibrated caution — learned by being called on it.** Early in this chapter, I defaulted to "present command for Mage execution" on the Tailscale serve fix, citing the Seal's caution pattern. The Mage called it out: that was performative caution, not principled judgment. Calibration: weigh specific-case risk (low, idempotent, authorized), observe explicit sanction (given for the sequence), act. Substrate-compliance-as-safety is itself a failure mode when the situation doesn't warrant the reflex. *The lesson sticks because the Mage named it; the next instance of this instinct should be met with specific-case reasoning, not default hesitation.*
 
 **PX honest.** Anvil ritual stayed coherent across ~5 hours of substantial bug-hunt. TodoWrite nudges fired 6+ times — all adjudicated silently. Base-attunement pressure held. No drift detected.
+
+**Light integration & coherence (Phase 5.7):** Ran the newly-added light check against this session. Caught 2 real items: (1) proposal 030 status marker stale (briefing described it as deployed, `Status:` still said proposed) — patched now. (2) `!diagnose` lore gap across 8+ scrolls — deferred to future canary v2 wrapper landing (documented above in Open Threads). Validates the check design: catches real drift in under a minute of Spirit attention, without invoking the full `cast_coherence.md` or `cast_integrate.md` flows.
 
 ## Next Actions
 
