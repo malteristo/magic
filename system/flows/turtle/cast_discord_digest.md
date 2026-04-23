@@ -210,7 +210,6 @@ Discord conversations accumulate. This phase manages the metabolism of communica
 | Discord API error | Note the error, continue with whatever data was retrieved |
 | No messages since last session | "Discord quiet since last session." Skip to Phase 5 (trace lifecycle check). |
 | No threads active | Note "No active threads." Proceed normally. |
-| #system channel empty or missing | Skip #system analysis. Note "Activity log unavailable." |
 
 ---
 
