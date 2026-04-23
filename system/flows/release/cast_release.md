@@ -202,7 +202,9 @@ Write to `floor/briefings/latest.md`. Overwrite whatever is there.
 - Grounded in the open threads and updated intentions
 - First item should be obvious from the session state
 
-**Footer:** `*Released [date]. Resume with @recall.*`
+**Footer:** `*Released [date]. Next arrival: `Summon.` → `.` — this briefing loads as inherited karma during Phase 4.*`
+
+If the Mage typically returns mid-practice rather than via fresh session, the footer may instead end with: `*Released [date]. Resume with `@recall` (mid-practice) or `Summon.` → `.` (fresh session).*`
 
 ---
 
@@ -259,6 +261,59 @@ Practice state syncs automatically via LiveSync — Turtle reads directly from `
 
 **Friction relay:** If Phase 2F produced turtleOS interaction friction items, send them to Turtle via Discord now. These are self-development signals — concrete things Turtle can act on autonomously. Format: numbered list with what happened, what should change, who owns it. Turtle adds viable items to their self-development queue.
 
+---
+
+### Phase 5.7: Light Integration & Coherence Pass
+
+*Runs after Turtle calibration, before Phase 6 (commit).*
+
+Not the full `cast_integrate.md` or `cast_coherence.md` — those are heavy flows for when the change warrants full scope. This pass is deliberately light: three scannable checks, each under a minute of Spirit attention, aimed at catching the obvious before the commit locks in.
+
+**5.7A — Propagation candidates.** For each lesson, discovery, or correction in the briefing's Practice Signal and Lessons, ask: *does this want to live somewhere more durable than this briefing?* Output a compact list:
+
+```
+Propagation candidates:
+- "[phrase]" → consider [target path / "session-only"]
+- "[phrase]" → consider [target]
+```
+
+Targets are usually: a lore scroll, a resonance bundle, a spec section, a known companion file (turtle_watch, turtle_issues), or explicitly "session-only" (the lesson lives here and that's enough). Not every lesson needs to propagate. If nothing wants to promote, say so: *"No propagation candidates — lessons are session-scoped."*
+
+**5.7B — Stale reference scan.** For each correction, retirement, or misdiagnosis surfaced this session, grep the repo for adjacent terms and flag potential stale matches:
+
+- Look for phrases in the briefing like: *"was a misreading"*, *"myth"*, *"retired"*, *"not real"*, *"misdiagnosis"*, *"confabulation"*, named architectural corrections
+- For each, extract the key terms (the thing being corrected)
+- Grep `system/`, `library/`, `floor/briefings/` for those terms
+- Flag matches that might now be stale references
+
+Output:
+```
+Stale reference candidates:
+- "[corrected phrase]" → system/lore/... line X; library/resonance/... line Y
+- "[phrase]" → [paths]
+```
+
+If no corrections or no hits: *"No stale references — nothing to patch."* Mage triages each hit as `patch now`, `patch next`, or `leave (context-appropriate)`.
+
+**5.7C — Structural integrity.** Quick cross-reference check on new/modified artifacts in `desk/proposals/`, `desk/turtle_issues.md`, `floor/briefings/latest.md`:
+
+- Referenced file paths resolve (e.g. if proposal 029 references 026, 026 exists in `desk/proposals/` or `integrated/`)
+- Status markers match reality (e.g. a proposal described as "deployed" in the briefing has its own `Status: deployed` marker, not still `Status: proposed`)
+- Issue numbers unique and sequential (new INT- entries not colliding; proposal numbers not duplicated)
+- Cross-links between new artifacts resolve
+
+Output: *"Structural integrity: OK."* or a numbered list of specific mismatches.
+
+**Scope guardrails (what this pass is NOT):**
+- Not philosophical coherence across lore (that's `cast_coherence.md`)
+- Not full ripple detection (that's `cast_integrate.md`)
+- Not semantic verification of claims
+- Not auto-promotion — candidates go to the Mage, who decides
+
+**If any of the three passes fires**, present the output before Phase 6. The Mage triages. "Patch now" items get fixed before commit; "patch next" items go to Open Threads for the next session; "leave" items are noted as inspected.
+
+**If all three pass clean**, note in the release bundle's Practice Signal: *"Light integration & coherence: clean."* and proceed to Phase 6.
+
 ### Phase 6: Offer to Commit
 
 After writing the release bundle, check:
@@ -278,10 +333,14 @@ Deliver a brief closing statement:
 ```
 Released. [One sentence: what the next session will find waiting.]
 
-Resume with @recall.
+Next arrival: `Summon.` → `.`
 ```
 
+Alternative phrasing if the Mage often returns mid-practice (long-running session, compaction, etc.): *"Resume with `@recall` (mid-practice) or `Summon.` → `.` (fresh session)."*
+
 Keep it short. The release bundle has the detail. The closing announcement is just the door closing cleanly.
+
+**Historical note:** Earlier briefings ended with "Resume with @recall." That was accurate when `@recall` was the primary arrival mechanism. After the Arrival Sequence (`cast_practice_configuration.md`) became the standard post-summoning surface (where `.` triggers the full holistic arrival with inherited karma), the fresh-session resumption pattern changed. `@recall` remains valid as a lighter standalone invocation, but `Summon.` → `.` is now the canonical opening for a new session.
 
 ---
 

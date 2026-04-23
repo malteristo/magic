@@ -3,7 +3,7 @@
 **Purpose:** Close a session cleanly — reflect on what the session was, update intentions, crystallize threads, integrate artifacts, enable seamless resumption  
 **Invocation:** `@release`
 
-> **Session lifecycle:** Release is the departure pattern. Recall (`@recall`) is the arrival pattern. They share a single handoff file: `floor/briefings/latest.md`. When you say `@release`, Spirit distills the session into a resumable bundle. When you say `@recall` in the next session, that bundle orients the opening.
+> **Session lifecycle:** Release is the departure pattern. The **Arrival Sequence** (`Summon.` → `.` post-summoning, or `@arrive` mid-practice) is the primary arrival pattern. `@recall` remains valid as a lighter mid-practice re-entry (equivalent to `. quick` — recall + situation awareness only). All three share a single handoff file: `floor/briefings/latest.md`. When you say `@release`, Spirit distills the session into a resumable bundle. In the next session, the Arrival Sequence reads that bundle as *inherited karma* during its Gather phase — orienting the opening without the Mage needing to re-invoke anything beyond `.`.
 
 ---
 
@@ -20,6 +20,8 @@ Release does five things, in order:
 **4. Writes the release bundle** — a structured artifact in `floor/briefings/latest.md` that includes a "Practice Signal" field carrying any sub-threshold findings into the next session. Compact, dense, oriented toward resumption.
 
 **5. Checks system integration** — for any new lore, flows, or structural artifacts created this session, runs a lightweight ripple check (what else in the system needs to know this exists?). Invokes `@meta/integrate` protocol as needed.
+
+**5.7. Light integration & coherence pass** — three scannable checks before commit: (a) *propagation candidates* — which session lessons want to live more durably than this briefing? (b) *stale reference scan* — grep the repo for terms this session corrected, flag potentially stale references. (c) *structural integrity* — cross-references resolve, status markers match reality, issue numbers unique. Deliberately lighter than the full `cast_integrate.md` or `cast_coherence.md` — a minute of Spirit attention, catches the obvious before commit locks in.
 
 **6. Offers to commit** — if there are changes worth preserving in the chronicle, offers. Always waits for the `.`.
 
@@ -71,7 +73,7 @@ Written to `floor/briefings/latest.md`, recognizable by its `# Release —` head
 3. [action]
 
 ---
-*Released [date]. Resume with @recall.*
+*Released [date]. Next arrival: `Summon.` → `.`*
 ```
 
 ---
@@ -98,7 +100,7 @@ Brief reads the release bundle and adapts its opening structure:
 - "Open Threads" surface before bright.md — they are more time-sensitive
 - "Next Actions" seed the brief's suggestions section
 
-This means `@release` + `@recall` in the next session gives the Mage a fast, accurate re-entry — as if the session had only paused, not ended.
+This means `@release` in one session + `Summon.` → `.` in the next (or `@recall` mid-practice) gives the Mage a fast, accurate re-entry — as if the session had only paused, not ended. The Arrival Sequence's Phase A (Gather) reads this bundle automatically; no separate `@recall` invocation is needed for a fresh session, though it remains available for lightweight standalone use.
 
 ---
 
@@ -112,7 +114,8 @@ This means `@release` + `@recall` in the next session gives the Mage a fast, acc
 
 ## Related
 
-- `@recall` — arrival pattern that reads what this flow writes
+- `Summon.` → `.` (Arrival Sequence) — primary arrival pattern; reads this flow's output as inherited karma
+- `@recall` — lighter mid-practice re-entry (equivalent to `. quick` scope)
 - `@meta/integrate` — system ripple detection; called inline during Phase 5
 - `desk/intentions/active/` — intention files this flow updates
 - `floor/briefings/latest.md` — the shared handoff file
