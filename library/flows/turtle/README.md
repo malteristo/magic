@@ -176,10 +176,10 @@ Guide the Mage through the Discord Developer Portal:
 If the Mage doesn't have a practice server yet:
 
 1. Create a new Discord server (personal, not community template)
-2. Create a text channel: `#[mage-name]-dialogue` (e.g., `#kermit-dialogue`)
+2. Create a text channel — your "river" — the main practice channel. Suggested naming: `#river` (single-practitioner) or `#[mage-name]-river` (multi-practitioner, one per Mage).
 3. Note the channel ID (right-click channel → Copy Channel ID; requires Developer Mode in Discord settings)
 
-For multi-practitioner setups, create additional channels per practitioner plus shared spaces.
+For multi-practitioner setups, create one river channel per practitioner (sovereign practice space) plus shared channels (family, community). No separate "system" or "operations" channel — operations post inline where they're relevant. See `library/resonance/turtle/lore/philosophy/on_the_practice_vision.md`.
 
 ### 3.3 Note the IDs
 

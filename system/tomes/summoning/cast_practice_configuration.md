@@ -85,7 +85,7 @@ When Turtle is reachable via SSH, Spirit gathers Turtle's accumulated output sin
 - Session note "threads for next time" are practice-relevant signals that may surface as Eisenhower items
 
 **3. Discord Activity** (SSH: `spirit_ops.py read <channel> 20` + `spirit_ops.py threads <channel>`):
-- Recent messages in kermit-dialogue
+- Recent messages in the river (Mage's main practice channel)
 - Active thread list with message counts (identifies alive vs dissolved threads)
 - New threads created since last session
 

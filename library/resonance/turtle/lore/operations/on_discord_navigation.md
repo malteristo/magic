@@ -22,11 +22,11 @@ The source of truth is `~/turtleos/mage_registry.yaml`. Key channels:
 
 | Channel | ID | Workspace |
 |---|---|---|
-| #kermit-dialogue | <channel-id> | ~/workshop/desk |
+| #river (kermit) | <channel-id> | ~/workshop/desk |
 | #[redacted-name]-dialogue | <channel-id> | ~/workshops/[redacted-name] |
 | #family (forum) | <channel-id> | ~/workshops/family |
 
-System channels (heartbeat, efferent, afferent, etc.) are listed in `discord_ops.py help`.
+*Single-river model: operations post inline in the river channel. No separate system/heartbeat/afferent channels — those were part of the earlier multi-channel architecture and have been dissolved.*
 
 ## Forum Threads
 

@@ -37,10 +37,11 @@ ssh turtle@<turtle-ssh> 'cd ~/turtleos && ./venv/bin/python3 discord_ops.py read
 
 | Channel | ID | Purpose |
 |---------|-----|---------|
-| kermit-dialogue | `<channel-id>` | Kermit's main practice channel. Triad conversations happen here. |
-| system | `<channel-id>` | System messages, bot status. |
-| practitioner-dialogue | `<channel-id>` | Practitioner's practice channel. |
+| river (kermit) | `<channel-id>` | Kermit's main practice channel. Triad conversations + operations happen inline here. |
+| practitioner-river | `<channel-id>` | Other practitioner's main practice channel (one per Mage). |
 | family | `<channel-id>` | Family shared space. |
+
+*Single-river model: per-practitioner river + shared channels. No separate system/operations channel — see `../philosophy/on_the_practice_vision.md` §Operational.*
 
 ---
 
