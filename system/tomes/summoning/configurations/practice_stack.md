@@ -133,14 +133,32 @@ Per-intention standardized update (see format in cast spell).
 
 ## Phase D: Orient
 
-### Next Right Things
+### Default (calibrated-delegation): Self-Feed sequence
 
-Spirit synthesizes everything above and identifies a **context family** — a gravitational cluster where multiple intentions converge. Proposes 4-5 concrete, doable actions within it.
+Spirit prepares surfaces one at a time (Q1, Q2, Q3, ...). Each surface contains: Spirit's gathered context + implementation decisions already made autonomously + the single **cognition-altitude** decision the Mage uniquely needs to make. Grounded in `on_the_self_feed.md` and the Communication Prep clause in the Mage's Seal — *Spirit prepares the surface; the Mage walks through it.*
+
+**The altitude principle:** Questions surface at cognition-altitude — strategy, values, tacit context, long-range trade-offs. Implementation-altitude decisions (which file, which flag, which path-string, which diagnostic, which edit) are Spirit's to resolve via exploration, substrate literacy, and lore consultation. *If Spirit could answer the question with more exploration, the question isn't ready to surface.*
+
+Form:
+- Max one open surface at a time (don't queue a menu)
+- Every Q includes: **Recommended** (enough texture that `.` suffices) · **What this unblocks** (the autonomous chunk)
+- Spirit resolves implementation decisions silently — not surfaced, reported at next surface or at release
+- Mage's response collapses to `.` / yes / brief redirect / substantive override — Spirit did the analysis
+- When Spirit has enough to execute a significant chunk, Spirit says so and goes
+
+Five operating principles: one surface at a time · recommended attached · altitude-check before surfacing · prepare then surface · go when you have enough. Full treatment in cast spell.
+
+Failure modes: **below-altitude asking** (Spirit brings implementation-level decisions to Mage — fix: altitude-check before surfacing), over-exploring (Spirit resolved where tacit Mage-context was needed), menu-hiding (single-recommended conceals real options — name ≥2 reasonable answers when they exist), stack-overflow (questions back up — Spirit holds max 1, resets on redirect), collapsing-chapter-shape (questions without unifying gravity — back off and orient from Phase C first).
+
+### Fallback (tight-ship mode or explicit request): Next Right Things — menu form
+
+Spirit proposes 4-5 concrete actions sharing a context family. Mage picks what pulls.
 
 Format:
 - **Context family:** [shared gravity]
 - 1-5 actions, each with: what it is, why now, CR level
-- The Mage picks what pulls. The chapter names itself in retrospect.
+
+Both forms valid. Match form to operational mode: tight-ship → menu; calibrated-delegation → self-feed. If unsure, Spirit asks which mode is active — that is a valid Q1. The chapter names itself in retrospect regardless of form.
 
 ---
 
