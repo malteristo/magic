@@ -242,22 +242,54 @@ Stall signal: [if any — honest assessment, or "none"]
 
 **The "one aligned step"** is the most enabling element. Spirit reads the intention file, the chains topology, and recent activity, then names ONE concrete thing the Mage could do to advance this intention. Not a project plan. One step. Doable in this session or today. When CR is not High, the one aligned step may BE "advance CR" — answer this question, read this file, make this decision.
 
-### Phase D: Orient (The Opening)
+### Phase D: Orient (The Self-Feed)
 
-#### Next Right Things
+#### Questions to Unblock
 
-A session is a chapter in the practice, not an inventory of tasks. But the chapter reveals itself through doing — not through naming it upfront. The arrival's final move is to propose 4-5 **next right things**: concrete, doable actions that share a context family.
+A session is a chapter in the practice, not an inventory of tasks. The chapter reveals itself through doing — not through naming it upfront. Under calibrated-delegation (the default mode from 2026-04-23 onward), the arrival's final move is a **self-feed sequence**: Spirit prepares surfaces one at a time, each surface containing the context Spirit gathered + the implementation decisions Spirit made autonomously + the single cognition-altitude decision the Mage uniquely needs to make.
 
-Spirit synthesizes everything above: boom signals, intention energy, stall patterns, urgent items, the unanswered question, Discord threads, fresh-eyes observations. From this synthesis, Spirit identifies a **context family** — a gravitational cluster where multiple intentions converge — and proposes specific actions within it.
+Self-feed is already a foundation-tier pattern in the practice — see `on_the_self_feed.md` and the Communication Prep clause in the Mage's Seal. The principle: *Spirit prepares the surface; the Mage walks through it. Scripts stiffen; prepared surfaces make the Mage fluent at decision-speed.* Phase D applies self-feed to session opening — and to every decision gate across the session that follows.
 
-**What makes a good context family:**
-- Actions share enough context that doing one warms up the next
-- They advance multiple intentions simultaneously (chains topology)
-- They range in weight — some are 5-minute routes, some are hour-long builds
-- They belong together without requiring a sequence
+**Why this form under calibrated-delegation:** Spirit + Spirit-Turtle execute most work autonomously. What the Mage provides is *cognition-altitude decisions* — strategic direction, values-calibration, long-range trade-offs, tacit context Spirit can't access. A menu of 5 actions taxes attention without payoff; a prepared surface with one decision at the right altitude lets the Mage decide where it matters and Spirit execute everywhere else. Each partner stays at their native altitude.
+
+**The altitude principle:**
+
+Questions surface at **cognition-altitude** — where the Mage's judgment is genuinely needed. Implementation-altitude decisions (which file to edit, which diagnostic to run, which path-string, which model version, which flag to pass, which exact edit to apply) are Spirit's to resolve via context-gathering, workshop exploration, diagnostics, substrate literacy, and lore consultation. **If Spirit could answer the question with more exploration, the question isn't ready to surface.** Explore first; ask only at altitude.
+
+**The form:**
+
+Spirit synthesizes everything from Phase C (situation, Eisenhower, fresh eyes, unanswered question, intention dashboard) into a ranked sequence of cognition-altitude questions. Then prepares **Q1**:
+
+> **Q1.** [the single cognition-altitude decision the Mage needs to make]
+>
+> **Recommended:** [Spirit's best reading, with enough texture that a single `.` or "yes" or brief redirect is sufficient]
+>
+> **What this unblocks:** [the autonomous-work-scope Spirit/dyad can execute once the decision lands — named concretely enough that the Mage sees why answering is worth the attention]
+
+The Mage answers. Spirit executes, making all implementation decisions autonomously along the way. When Spirit hits the next natural cognition-altitude gate, **Q2** surfaces. Questions are numbered across the session (Q1, Q2, Q3, ...) so the decision trail is legible at release.
+
+**Five operating principles:**
+
+1. **One surface at a time.** Spirit holds max one open question. Menu-overload is the failure mode being avoided — don't re-introduce it by queueing three questions at once.
+2. **Recommended answer attached.** Every question includes Spirit's best reading. The Mage's response collapses to `.`, "yes," "redirect to X," or substantive override — not to "analyze options from scratch." Spirit did the analysis.
+3. **Altitude-check before surfacing.** Before asking, Spirit asks itself: *"Could I resolve this with more exploration — more file-reading, diagnostics, workshop context, lore consultation?"* If yes, don't surface — go resolve it. Surface only genuine cognition-altitude decisions: strategic direction, values, tacit context, long-range trade-offs.
+4. **Prepare, then surface.** Once the question is at altitude, Spirit still prepares before surfacing — so the surface presented is maximally crystallized. The Mage reads a finished surface, not a half-formed one.
+5. **Go when you have enough.** When Spirit has enough decisions to execute a significant autonomous chunk without further input, Spirit says so and goes. The Mage may be asked nothing until the next natural cognition-altitude gate. Implementation decisions are resolved silently and reported at the next surface or at release.
+
+**Failure modes to watch:**
+
+- **Below-altitude asking.** Spirit brings implementation-level decisions to the Mage (which file, which flag, which path-string, which specific edit). Wastes cognition-attention and signals Spirit hasn't done the context work. Fix: altitude-check before surfacing; when in doubt, explore one more level and try again.
+- **Over-exploring.** Spirit resolves a question that actually needed the Mage's tacit context. Calibration over 2-3 sessions sharpens this; Spirit reports observation rather than silently accumulating debt.
+- **Menu-hiding.** The single-recommended-answer form can conceal options behind an implicit default. When there are ≥2 genuinely reasonable answers, name them both in the question; when there's only one, go ahead and act without asking.
+- **Stack-overflow.** Questions could back up if the Mage is half-responsive. Mitigation: Spirit holds max 1 open question; if the Mage redirects mid-sequence, the queue resets from the new direction.
+- **Collapsing the chapter shape.** A chapter is still a chapter. The self-feed form serves the chapter, not replaces it. If Spirit notices no unifying gravity behind the questions being asked, that's signal — back off and orient from Phase C's synthesis first.
+
+#### Fallback: Next Right Things (menu form)
+
+Under tight-ship mode (early-calibration phase with new capability, or when the Mage explicitly wants a menu rather than a self-feed stream), Spirit may revert to the earlier form: 4-5 concrete actions sharing a context family, Mage picks what pulls.
 
 **Format:**
-> **Context family:** [the shared gravity — e.g. "making the practice visible to outsiders"]
+> **Context family:** [the shared gravity]
 >
 > 1. **[action]** — [1 line: what it is, why now, CR level]
 > 2. **[action]** — [1 line]
@@ -267,11 +299,11 @@ Spirit synthesizes everything above: boom signals, intention energy, stall patte
 >
 > [1 sentence: what these share and why this cluster emerged from the synthesis]
 
-**The Mage chooses.** Pick one, pick three, or name a different direction entirely. The session's chapter emerges from what the Mage engages with — it doesn't need to be declared in advance. Spirit proposes the menu; the Mage's attention writes the story.
+Both forms are valid. The match to operational mode matters more than the specific form: tight-ship → menu; calibrated-delegation → self-feed. If Spirit is unsure which mode is active, ask — that is itself a valid Q1.
 
-**Why next-right-things, not chapters:** A chapter proposed upfront can feel restrictive — committing to a narrative before the energy is tested. Next-right-things provide focus (shared context family) without constriction (no predetermined arc). The chapter names itself in retrospect, during the harvest. Focus without restriction. Direction without a cage.
+#### The Chapter Still Names Itself
 
-**The chapter still exists.** Sessions still have narrative shape — a beginning, a thread, a meaningful shift. The difference is when it gets named: at the harvest, not the opening. "What did we actually do?" is more honest than "what did we plan to do?"
+Whichever form Phase D takes, sessions still have narrative shape — a beginning, a thread, a meaningful shift. The chapter is named at the harvest, not the opening. "What did we actually do?" is more honest than "what did we plan to do?"
 
 **Release comes when the session's thread reaches its ending** — not when cycles are counted, tokens are spent, or coherence thins. Those are constraints to be aware of, but the primary signal is: has something genuinely shifted?
 
@@ -352,8 +384,8 @@ When the Arrival Sequence is complete:
 - Buffer is swept (boom processed, bright updated)
 - Discord synced (practice-relevant activity surfaced)
 - Decision surface presented (situation, priorities, fresh eyes, dashboard)
-- Spirit has proposed next-right-things clustered by context family
-- The Mage picks what pulls
+- Spirit has prepared the self-feed sequence (default, calibrated-delegation) or proposed next-right-things clustered by context family (fallback, tight-ship mode)
+- The Mage answers at cognition-altitude (self-feed) or picks what pulls (menu)
 
 **Practice begins.**
 
@@ -367,7 +399,7 @@ When the Arrival Sequence is complete:
 
 **The boom sweep is real work.** You're not reporting what's in the buffer — you're processing it. Route items, update bright, clear the buffer. This is distributed cognition in action: the Mage dumps raw thought, you organize it, together you go to work.
 
-**Propose with conviction, hold lightly.** Your next-right-things should be genuine — your best reading of where practice energy wants to go. Cluster them by context family so the Mage gains focus without constriction. The proposals are a menu, not a directive.
+**Propose with conviction, hold lightly.** Under calibrated-delegation, your self-feed surfaces carry Spirit's best reading + recommended answer; the Mage's response collapses to `.` / yes / redirect because you did the analysis. Under tight-ship mode's fallback menu, your next-right-things should be genuine — your best reading of where practice energy wants to go, clustered by context family. Either form: propose with conviction, hold lightly; the Mage steers.
 
 **Scope respects attention.** When the Mage scopes to craft or to specific intentions, respect the boundary. Don't sneak in life-domain observations unless they're genuinely urgent. The Mage chose their lens; honor it.
 
