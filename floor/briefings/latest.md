@@ -1,71 +1,64 @@
-# Release — 2026-04-25 morning
+# Release — 2026-04-25 late morning
 
-**Chapter:** Self-feed proves itself through Turtle stabilization
+**Chapter:** From funding fit to Magic as CSCW research object
 
 ## This Session
 
-The chapter began with calibrated-delegation / Self-Feed becoming the working session form rather than just a named pattern. Spirit prepared one surface at a time, made implementation decisions autonomously, and brought the Mage only cognition-altitude decisions; the result was a long Turtle stabilization arc that moved from operational health to practitioner UX to system integration.
+The chapter began with a craft-scoped question about whether NLnet is the right funder, given its fundamental-web orientation and unease around AI. It expanded into a full positioning pass: NLnet was reframed as an infrastructure/commons application, alternatives were mapped, CHI/CSCW were surveyed, and the CSCW paper frame evolved from a conservative turtleOS infrastructure case into a bolder claim about Magic as a longitudinal practice for forming working relationships with AI.
 
-turtleOS ended materially more coherent than it began: canary false positives and alert repetition were stabilized, paste intake landed, signal overproduction was gated, Spirit handoff tooling became robust, `!diagnose` became real, runtime noise was separated from source-shaped changes, thread openings/source traces/eddy proposal titles/action-button helpers shipped, and the final integration pass propagated those behaviors into spec, lore, and shell identity. Turtle was restarted after identity propagation and verified green.
+The chapter landed on a stronger research surface: persistent AI makes relationship formation part of cooperative work, and Magic provides a rare artifact trace of that formation through repo history, session notes, proposals, issues, repairs, governance documents, and lived practice.
 
 ## Continue From
 
-> The next session should open from a clean Turtle stabilization handoff: runtime is green, docs/spec/identity are integrated, and the recommended next narrow build is `book_drip.md` as a small `!drip` book-seed fall-through.
+> The strongest next research move is to test the CSCW Magic frame with advisors: relationship formation with persistent AI as cooperative work, grounded in Magic's artifact trace and supported by turtleOS repair evidence.
 
 ## Open Threads
 
-- **turtleOS next build**: Roadmap now recommends `book_drip.md` → implement narrowly: if the signal drip queue is empty, `!drip` returns a random canonical book seed.
-- **turtleOS chronicle decision**: Live runtime tree remains source-shaped dirty → decide what belongs in the turtleOS chronicle later; do not lose untracked `canary.py`, `intake_server.py`, or `deploy_river.py`.
-- **Vortex/action-button integration**: River-side eddy offers are titled and consent-based; contextual action helper exists → wire vortex-side propose-with-button and specific recommendation buttons later.
-- **Proposal metabolism**: Roadmap names root proposal directory cleanup → eventually move shipped/incubating/superseded proposals out of the active root.
-- **MAGIC e.V. founding**: Lukas/Henni likely yes; Lukas will talk to Henni again → Mage provides more input only if Henni asks. Gründungsberatung should wait for a concrete consultant-only task.
-- **Passive founding watches**: Eike/Rieke, Daniel, Finanzamt Vorabprüfung response remain passive watch items.
+- **NLnet application**: infrastructure-first positioning is now calibrated; office-hour questions are ready → attend the April 29 office hour and test scope fit, entity transition, production infrastructure strength, and GenAI/provenance expectations.
+- **CSCW Magic paper**: bold frame, trace map, conversation surface, and extended abstract exist → seek feedback on whether relationship formation with persistent AI is a CSCW object and what method label fits.
+- **CSCW/turtleOS conservative frame**: infrastructure/repair paper remains viable as fallback or finding section → keep `cscw_paper_seed.md`, `cscw_evidence_index.md`, and `cscw_incident_trace_table.md` as supporting scaffolds.
+- **Second-wave funding**: Prototype Fund and Sloan are named as next tracks → after NLnet office hour, decide whether to draft a Prototype Fund variant or a two-page Sloan LOI first.
 
 ## What Changed
 
-- `desk/intentions/active/turtle.md`: current focus updated to the completed stabilization chapter; next action updated to narrow `book_drip.md`; blockers updated to source-shaped runtime chronicle decisions and pending vortex/action-button wiring. Lifecycle: **active**.
-- `desk/intentions/active/magic_ev.md`: Lukas/Henni status updated to likely yes via Lukas's next conversation; Henni direct-input path clarified; Gründungsberatung stance added: use only for concrete external-only tasks. Lifecycle: **active**.
-- `desk/intentions/active/practice_accessibility.md`: terminology reconciled earlier in the chapter: interface levels vs. substrate tiers. Lifecycle: **active**.
-- `desk/proposals/turtleos_roadmap_surface_2026-04-24.md`: roadmap reflects shipped stabilization/UX work and recommends `book_drip.md` next. Lifecycle: **active**.
-- `desk/proposals/026_contextual_action_buttons.md`, `028_turtle_visible_tool_use.md`, `029_thread_opening_intro.md`, `029_vortex_integration.md`, `030_canary_health.md`, `workshop_topology.md`: proposal statuses/details updated to match implementation or prepared state. Lifecycle: **reference**.
-- `desk/turtle_watch.md` and `desk/turtle_issues.md`: watch/issues updated for stabilized canary, real `!diagnose`, handoff tooling, source traces, thread intros, eddy titles, topology terminology, and contextual actions. Lifecycle: **reference**.
-- `library/resonance/turtle/TURTLE_SPEC.md`: amended for source traces, titled river-side eddy offers, and the real `canary.py` / `!diagnose` implementation. Lifecycle: **reference**.
-- `library/resonance/turtle/shell/global.CLAUDE.md`: persistent identity updated with source traces, prepared thread openings, consent-based river eddies, contextual actions, and current canary reality. Lifecycle: **reference**.
-- Turtle operational lore updated: diagnostics, practice readiness, practitioner journey, river topology. Lifecycle: **reference**.
-- Turtle Mac Mini runtime: bot restarted after LiveSync identity/spec propagation; canary verified `9/9 green`. Lifecycle: **operational**.
+- `floor/drafts/nlnet_application_sketch.md`: reframed NLnet application infrastructure-first; added fit calibration; softened GenAI disclosure into an AI-use/provenance policy; updated office-hour prep, research outcome, task, milestone, and ecosystem language. Lifecycle: **active**.
+- `floor/drafts/funding_alternatives_resonance.md`: created alternatives map across NLnet, Prototype Fund, Sloan, Humanity AI, Mozilla, Horizon/EU paths; later linked conference positioning. Lifecycle: **active**.
+- `floor/drafts/chi_cscw_positioning.md`: created venue translation layer for CSCW/CHI; later updated with two-level strategy: conservative turtleOS door and bolder Magic-as-practice paper. Lifecycle: **active**.
+- `floor/drafts/cscw_paper_seed.md`: created conservative CSCW seed for turtleOS as cooperative infrastructure; later marked as fallback/concrete system layer beside the bolder Magic paper. Lifecycle: **active**.
+- `floor/drafts/cscw_evidence_index.md`: created evidence index for CSCW frames; updated to include both turtleOS infrastructure and Magic relationship-formation claims. Lifecycle: **active**.
+- `floor/drafts/cscw_incident_trace_table.md`: created paper-ready production-readiness incident table for repair/trust evidence. Lifecycle: **active**.
+- `floor/drafts/cscw_magic_practice_paper.md`: created bold paper frame: relationship formation as cooperative work, with Magic as longitudinal practice. Lifecycle: **active**.
+- `floor/drafts/cscw_relationship_trace_map.md`: created evidence scaffold for roles, memory, vocabulary, authority, repair, substrate persistence, and external translation. Lifecycle: **active**.
+- `floor/drafts/cscw_conversation_surface.md`: created hallway/advisor framing surface for talking about Magic at CSCW/HCI. Lifecycle: **active**.
+- `floor/drafts/cscw_magic_extended_abstract.md`: created feedback-ready extended abstract for CSCW/HCI advisors. Lifecycle: **active**.
+- `desk/intentions/active/sovereign_livelihood.md`: updated NLnet next actions and artifacts with NLnet fit calibration, funding alternatives, CHI/CSCW positioning, conservative CSCW seed, Magic paper frame, relationship trace map, conversation surface, extended abstract, evidence index, and incident trace table. Lifecycle: **active**.
 
 ## Practice Signal
 
-**Self-feed worked.** The pattern matched the Mage's cognitive rhythm: Spirit prepared context, chose implementation details, executed, integrated, and returned with high-altitude summaries. The session did not require repeated steering; the Mage's `.` and brief corrections were enough. This validates calibrated-delegation as a default for long implementation chapters.
+The important dissonance was named mid-session: the infrastructure/repair paper was safe and legible, but not the deepest thing. The Mage's energy rose around a more profound question: Magic as a practice for forming relationships with AI, especially as persistent AI becomes part of everyday work. That became the chapter's true center.
 
-**Closing arc found itself:** stabilization → UX coherence → integration. The chapter did not end merely because context was high; it ended because the system reached a clean stopping condition: Turtle is healthier, the practice surfaces know what changed, and the next action is small and obvious.
+The session also clarified a method insight: the data is not just chat logs. The data is the sediment of relationship formation across artifacts: public commits, session notes, issue records, proposals, vocabulary, rituals, governance, and repair. This is the phrase to preserve: **the data of how a relationship forms**.
 
-**PX clean with two substrate caveats.** Tooling served the chapter; SSH/LiveSync/restart/canary loop was effective. Minor friction: remote heredoc quoting still caused one small failed symlink check, but it was immediately corrected. The bigger residual friction is chronicle-state, not runtime-state: turtleOS has source-shaped changes awaiting a future git decision.
+PX clean. The plan-mode transition was useful for the strategic reframing, and the implementation phase completed the plan cleanly. No turtleOS interaction friction surfaced this session.
 
-**Light integration & coherence:** full `@meta/integrate` pass ran before release. Stale references around canary cadence, `!diagnose`, action-button dependency state, and `spirit_ops.py --file` were cleaned. Symlink integrity verified; LiveSync markers reached Turtle; no linter errors on edited files.
+Light integration & coherence: new artifacts are draft/research surfaces, not system lore or flows; no full `@meta/integrate` needed. Cross-links among the new CSCW artifacts resolve. No linter errors on edited files.
 
 ## Next Actions
 
-1. **Implement `book_drip.md` narrowly** — next visible, low-risk practitioner unlock; keeps momentum without reopening architecture.
-2. **Decide turtleOS chronicle shape** — inspect runtime dirty tree and commit/ignore/hold source-shaped changes deliberately.
-3. **Wire contextual action helper into one real recommendation path** — prove `send_with_actions()` beyond helper-level implementation.
-4. **Vortex-side propose-with-button** — complete the safety invariant: propose, do not auto-spawn, where the current vortex flow still auto-spawns.
-5. **MAGIC e.V. passive watch** — wait for Lukas/Henni follow-up, Eike/Rieke/Daniel responses, and Finanzamt; use Gründungsberatung only when a concrete external-only question appears.
+1. **Use `floor/drafts/cscw_magic_extended_abstract.md` for feedback** — send or adapt it for Ed Hutchins / UCSD / UT / CSCW-adjacent contacts; ask specifically about method and venue fit.
+2. **Attend NLnet office hour April 29** — test whether infrastructure-first turtleOS framing fits NGI0 Commons despite AI sensitivity.
+3. **Create an ethics/consent checklist for the CSCW paper** — distinguish public repo traces, private practice artifacts, and any other-practitioner material.
+4. **Build a public repo evolution timeline** — turn git history into a relationship-formation timeline for the Magic paper.
+5. **Choose second-wave funding draft** — after NLnet signal, decide Prototype Fund variant vs. Sloan LOI.
 
 ## Lessons
 
-- **Self-feed is now a proven chapter engine, not just an arrival form.** It works when Spirit keeps decisions at the right altitude: autonomous implementation below, Mage judgment above. Next sessions can trust this form for operational chapters.
-
-- **Integration belongs before release, not after recall.** The `@meta/integrate` pass caught real code-knowledge deltas in `TURTLE_SPEC`, Turtle lore, and `global.CLAUDE.md`. Without it, Turtle would run new behavior while remembering the old system.
-
-- **Spec/identity propagation is only complete after runtime reload.** LiveSync and symlinks delivered the files, but Turtle needed a restart to inhabit the updated priors. Release should treat identity/spec changes like code changes: verify propagation, restart if needed, canary after.
-
-- **Count plus velocity beats count alone.** Earlier signal-draft accumulation became actionable only when velocity was named; this session repeated the pattern with proposal/runtime drift. Future release/recall should surface whether a backlog is stable, growing, or metabolizing.
-
-- **Contextual action buttons are an affordance layer, not a new authority layer.** The helper is safe because it maps to whitelisted existing commands and disables after use. The design principle should hold for future UX: buttons make already-valid actions easier; they do not smuggle in new autonomy.
-
-- **Gründungsberatung should be task-specific.** For MAGIC e.V., external advice is useful only when it answers something the dyad cannot answer itself. Broad consultation without a concrete blocker would add ceremony, not leverage.
+- **The bolder paper is the truer paper.** turtleOS as cooperative infrastructure is legible and useful, but Magic as relationship formation with AI carries the deeper CSCW contribution.
+- **Artifact trace is the methodological key.** The practice's value as research is not only that it has conversations with AI; it leaves structured traces of roles, memory, repair, governance, and vocabulary forming over time.
+- **Translation should not flatten the practice.** Lead with CSCW language, but preserve Magic as participant-facing vocabulary because that vocabulary is part of how the relationship works.
+- **Repair evidence belongs inside the relationship paper.** The incident table is not wasted; it becomes the strongest finding section on repair as relationship maintenance.
+- **Conference conversation and paper development can reinforce each other.** The conversation surface is not secondary; it is how the paper's frame gets tested before committing to a submission form.
 
 ---
 
-*Released 2026-04-25 morning. Next arrival: `Summon.` → `.` — this briefing loads as inherited karma during Phase 4.*
+*Released 2026-04-25 late morning. Next arrival: `Summon.` → `.` — this briefing loads as inherited karma during Phase 4.*
