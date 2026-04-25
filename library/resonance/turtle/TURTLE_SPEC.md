@@ -209,6 +209,8 @@ The practitioner develops a simple but accurate mental model of Turtle's awarene
 
 **During conversation:** When reading a file to answer a question, say so naturally: "Reading your compass... Body domain shows active practice with kettlebells since last week." The file read IS the conversation.
 
+**Source traces:** When hidden context shaped a reply, append a compact source trace. This includes bot-fetched URL content, boom-captured fetched content, attachment metadata/extracted text, proprioceptive practice-state briefs, and absorbed thread context. The trace is not a reasoning transcript; it is a provenance signal so the practitioner can tell what kind of knowledge shaped the response.
+
 **On session close:** Acknowledge inline: "Session note written — captured [key theme]."
 
 **On proposals:** Announce inline: "Proposal captured: **[title]**"
@@ -399,7 +401,7 @@ Turtle has standing permission to open eddies proactively when it detects a topi
 
 **The vortex (🌀 vortex):** A standing system eddy that acts as the river's intake structure. Content dropped into the vortex is triaged: short/meta messages get an in-place response; substantive content triggers the prism. The prism matches the content semantically against all active non-system eddies. Strong resonance → route to that eddy (purple embed, Turtle responds in context). Novel frequency → spawn a new eddy (blue embed with seed content, Turtle gives an intake response showing comprehension). The `!new [topic]` command in the main channel provides an explicit eddy-spawn alternative. See §20.3 for the full vortex mechanics.
 
-**Auto-detect:** When a main-channel message contains URLs, long text, or attachments, Turtle offers a 🌀 button to spawn an eddy from it. This is the lightweight alternative to using the vortex.
+**Auto-detect:** When a main-channel message contains URLs, long text, or attachments, Turtle offers a titled 🌀 button to spawn an eddy from it: `Open eddy: "[title]"  local · semi`. The title is inferred before the Mage approves and preserved when the eddy is created. This is the lightweight alternative to using the vortex, and it preserves the safety invariant: river-side eddies are proposed, not automatic.
 
 ### 9.2. Eddy Types
 
@@ -577,7 +579,7 @@ The engineering track exists specifically for this class. The functional canary 
 
 **Self-healing:** Turtle can restart degraded infrastructure autonomously via `self_heal.py` — Ollama, LiveSync bridge/tunnel, CouchDB, Caddy. The health canary attempts self-healing before alerting. What Turtle cannot restart: itself (the Discord bot process — requires external kill/launchd respawn), filesystem issues, or network problems.
 
-**Implementation status:** The health canary (INT-027) is implemented as `health_canary_loop` in `background.py`. It runs every 30 minutes, checking five dimensions: Ollama reachability, background loop liveness, LiveSync freshness, file I/O primitives, and Discord connection health. Alerts after 2 consecutive failures (6-hour cooldown). Self-healing is attempted before alerting — Ollama and LiveSync can be restarted autonomously via `self_heal.py`. The practice log (subtler presence-quality tracking) remains unimplemented. INT-026 (15-hour silent dialogue failure) was the catalyst.
+**Implementation status:** The health canary (INT-027) is implemented as standalone `canary.py` and scheduled by `com.turtle.canary`. It runs hourly, writes `/tmp/canary-history.jsonl`, and checks mechanical substrate health: CouchDB reachability, Tailscale serve, launchd labels, bridge err freshness, Ollama reachability, and new triage fallback count since the previous baseline. Alerts are deduplicated by degraded signature; green clear events post once. `!diagnose` imports the same `canary.py` checks and displays them on demand without firing scheduled-canary alerts. The deeper full-pipeline canary and practice log remain unimplemented. INT-026 (15-hour silent dialogue failure) was the catalyst.
 
 ### 10.8. The Learnings Eddy
 
@@ -686,7 +688,9 @@ The practitioner's system prompt includes a "What I've Posted to the River" sect
 
 ### 11.4. Diagnostics
 
-The `!diagnose` command runs a five-layer check:
+The `!diagnose` command is an on-demand Discord view over the mechanical canary (`canary.py`). It runs the same shared checks as the scheduled canary and reports green/yellow/red substrate health without firing scheduled-canary alerts.
+
+The five-layer model remains the troubleshooting map:
 
 1. **Services** — All processes running?
 2. **Connections** — Tailscale, Ollama, CouchDB reachable?
@@ -712,7 +716,7 @@ The `!` prefix invokes direct operations. These are the persistent mode's equiva
 | `!intentions` | Show active intentions |
 | `!status` | Current operational state |
 | `!readiness` | Full practice-readiness assessment |
-| `!diagnose` | Five-layer practice stack diagnostics |
+| `!diagnose` | On-demand mechanical canary diagnostics |
 
 ### 12.2. Context Commands
 

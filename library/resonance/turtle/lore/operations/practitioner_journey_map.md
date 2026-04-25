@@ -209,7 +209,7 @@ The practice is self-sustaining when:
 **Design principle:** The practitioner should never need to know what went wrong technically. They should see: "I noticed something was off — I fixed it" or "Something broke that I can't fix on my own — I've asked [Mage] to look at it."
 
 ### Current Repair Capabilities
-- Health canary runs every 30 minutes (5 checks)
+- Mechanical health canary runs hourly via launchd and backs `!diagnose`
 - Self-healing for Ollama and LiveSync restarts
 - launchd auto-restart for bot crashes
 - Readiness assessment on demand (`!readiness`)

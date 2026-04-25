@@ -87,7 +87,7 @@ Practice readiness requires functioning infrastructure. If Ollama is down, if th
 
 The persistent body has ongoing processes: session monitor, interoception, practice health reads, daily reminders, health canary (INT-027). If these are stopped or failing, the body is degraded.
 
-**Assessment:** Process liveness checks. The health canary (`health_canary_loop`, every 30 min) continuously monitors: Ollama reachability, background loop liveness, LiveSync freshness, file I/O primitives, Discord connection. Readiness assessment (`!readiness`) includes all loops in the metabolic health dimension.
+**Assessment:** Process liveness checks. The mechanical health canary (`canary.py`, launchd hourly) continuously monitors substrate reachability and stale-failure signals: CouchDB, Tailscale serve, launchd labels, bridge err freshness, Ollama, and new triage fallbacks since the previous baseline. Readiness assessment (`!readiness`) includes all loops in the metabolic health dimension.
 
 **What Turtle can do about it:** Self-heal via `self_heal.py` — restart Ollama, LiveSync bridge/tunnel, CouchDB, Caddy. The health canary attempts self-healing before alerting the Mage. Clean workspace. The five metabolic rhythms (from `on_turtle_metabolism.md`) are the body maintaining itself.
 
