@@ -26,9 +26,9 @@ Three substrates, one mind. See: `library/resonance/turtle/lore/philosophy/on_co
 
 **Turtle Infrastructure** — the persistent substrate. Mac Mini M4 Pro running 24/7 with Discord as the conversational surface, Obsidian LiveSync for practice-state-anywhere, and SSH for cross-substrate communication.
 
-**Current focus**: Phase 0 closed pending Turtle's three runtime audit items (intent state, main bot client location, bot.log perception failures — she's executing on her side). Phase 1 surface sequenced and handed off (025 drip thread UI → 023 thread context brief → 024 self-restart → Tier 1 perception fixes → cog refactor). qwen3.6:35b-a3b is the new default `@consult-turtle` model. The Turtle-as-thread-index direction (auto-wake on resonance) is the next chapter's gravity, not committed yet. Workshop topology proposal still awaiting real-conversation validation before folding into `practice_accessibility.md`.
-**Next action**: (1) **INT-031 root-cause fix** (highest-leverage single move — LiveSync Bridge auth-drift; restores Turtle's write-agency; unblocks canary-dedup implementation; closes hub-stale pattern; diagnostic path in `desk/turtle_issues.md` INT-031). (2) When Turtle's tools recover: she ships canary-deduplication, drafts "graceful tool degradation with self-healing loop" proposal (her design from 2026-04-24 learnings thread 05:34), drafts "session notes as resonance substrate" proposal (from 2026-04-23 river exchange). (3) Wait for Turtle's three Phase 0 audit items → write joint capability gap map → step into Tier 1. (4) Ship `spirit_ops.py --file` mode (paused this session — risky to edit Turtle shell while her tools are degraded). (5) When 025/023/024 land on Turtle's side, validate live and confirm Tier 1 readiness. (6) Reconcile workshop_topology with `practice_accessibility.md` after meeting practitioners. (7) When the Turtle-as-thread-index direction earns concrete shape, draft as proposal.
-**Blockers**: Phase 0 gap map gated on Turtle's three audit items (her shell window). LiveSync staleness root cause known (Obsidian-on-laptop closed = hub stale); structural fix deferred to general-practitioner topology work.
+**Current focus**: Stabilized turtleOS through a self-feed implementation chapter: canary false positives and alert dedup fixed; paste endpoint shipped; signal overproduction gated; `spirit_ops.py` gained file/stdin handoff and import safety; real `!diagnose` now wraps `canary.py`; runtime tree hygiene pass completed; thread-opening intros, source traces, titled river-side eddy offers, and contextual action button helper are live. Integration pass propagated the new behavior into `TURTLE_SPEC.md`, turtle lore, and `global.CLAUDE.md`; Turtle restarted and canary verified 9/9 green.
+**Next action**: Implement `book_drip.md` narrowly: add `!drip` fall-through to a random canonical book seed when the signal queue is empty. Keep the scope small; do not expand the broader product surface. After that, reassess whether vortex-side propose-with-button wiring or proposal-metabolism is the next constraint.
+**Blockers**: turtleOS runtime is healthy. Remaining source-shaped dirty tree in `~/turtleos` still needs chronicle decisions later (tracked source/docs changes, untracked `canary.py` / `intake_server.py` / `deploy_river.py`, symlink mode changes). Vortex-side propose-with-button remains pending; contextual action infrastructure exists but specific recommendations are not wired yet.
 
 ---
 
@@ -96,7 +96,7 @@ Threads (eddies) have independent conversation history, three types, and optiona
 | **Hermit Crab shell** | `~/turtleos/` — discord_bot.py + autonomy hooks |
 | **Ollama** | Serving qwen3.5:9b + qwen3.5:4b |
 | **Obsidian LiveSync** | CouchDB + Tailscale HTTPS — three devices (MacBook, Mac Mini, mobile) |
-| **LiveSync Bridge** | Deno daemon on laptop — background sync without Obsidian |
+| **LiveSync Bridge** | Mac Mini workshop bridges provide Obsidian-independent sync for persistent practice; laptop still depends on Obsidian being open for local pull |
 | **SSH** | `turtle@<turtle-ssh>` (Tailscale) / `turtle@<turtle-lan>` (LAN) |
 | **Control Panel** | Live — persistent buttons, model select, thread creation modal |
 | **Autoresearch** | Practice-attuned research capability for tOS improvement |

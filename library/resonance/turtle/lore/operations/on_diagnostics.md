@@ -99,13 +99,13 @@ Can devices actually reach the Mac Mini?
 
 ## The Diagnostic Command
 
-`!diagnose` in Discord checks all five layers in one pass and returns a color-coded embed:
+`!diagnose` in Discord is a grounded view over the mechanical canary (`~/turtleos/canary.py`). It runs the same shared checks as the scheduled canary and returns a color-coded embed:
 
 - **Green** — all healthy
 - **Yellow** — attention needed (stale files, warnings)
 - **Red** — issues detected (services down, sync broken)
 
-Every issue comes with a concrete suggested action — not "something is wrong with sync" but "run this command" or "check this setting."
+The important property is epistemic: `!diagnose` does not improvise a diagnostic narrative. It reports the body's actual checks. The five-layer model below remains the troubleshooting map for interpreting what a failed check means.
 
 ---
 

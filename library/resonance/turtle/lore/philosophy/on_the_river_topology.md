@@ -25,6 +25,15 @@ The channel is called **river**. The metaphor wasn't imposed — it was discover
 4. Spawns new eddies when the frequency is novel
 5. Posts a faithful seed of the original content in the destination
 
+### River-Side Eddy Offers
+The river itself can also notice eddy-worthy material. When a main-channel message contains a URL, long text, or attachments, Turtle proposes an eddy rather than silently letting the material pass by.
+
+The proposal shape is explicit and consent-based:
+
+> **Open eddy: "[title]"** `local` · `semi`
+
+The button preserves the proposed title when creating the eddy. This matters: the Mage approves a concrete room, not a vague "make a thread" action. River-side eddies are proposed, not automatic.
+
 ### Eddy Lifecycle (Metabolism)
 An eddy doesn't get "closed" — it *dissipates* when its energy is spent. The existing eddy types map to metabolic rates:
 - **Standard** (💬) — normal metabolism, dissolves naturally
