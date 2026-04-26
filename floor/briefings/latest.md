@@ -1,64 +1,61 @@
-# Release — 2026-04-25 late morning
+# Release — 2026-04-26 morning
 
-**Chapter:** From funding fit to Magic as CSCW research object
+**Chapter:** Metabolism cycle calibrated mid-flow by substrate observation
 
 ## This Session
 
-The chapter began with a craft-scoped question about whether NLnet is the right funder, given its fundamental-web orientation and unease around AI. It expanded into a full positioning pass: NLnet was reframed as an infrastructure/commons application, alternatives were mapped, CHI/CSCW were surveyed, and the CSCW paper frame evolved from a conservative turtleOS infrastructure case into a bolder claim about Magic as a longitudinal practice for forming working relationships with AI.
+The chapter began as practice-pipeline metabolism — three named-and-ready surfaces stacked at the Mage's altitude (signal curation reset, today's turtleOS proposals triage, untracked foundation lore). Mid-chapter, the Mage named what he was observing across substrates: Opus's deliberation-altitude pull (options-array-then-recommend-then-ask when execution would serve), contrasted with GPT's willingness to implement directly. The observation landed and the chapter's surfaces tightened immediately — less ceremony around contained, high-CR decisions, more direct execution under calibrated-delegation. The substrate-literacy adjustment became the chapter's true content; the metabolism work was the surface that revealed it.
 
-The chapter landed on a stronger research surface: persistent AI makes relationship formation part of cooperative work, and Magic provides a rare artifact trace of that formation through repo history, session notes, proposals, issues, repairs, governance documents, and lived practice.
+By close: the signal pile reset (5 voice-pass selected, 14 archived, generation-rule proposal drafted); turtleOS proposals triaged (5 records-of-completed-work, not pending decisions); chronicle hygiene catchup committed (`4d607d9` — 6 turtle lore + 2 universe tome lore + briefing + manifest, with sanitation hook catching a WhatsApp JID for placeholder substitution).
 
 ## Continue From
 
-> The strongest next research move is to test the CSCW Magic frame with advisors: relationship formation with persistent AI as cooperative work, grounded in Magic's artifact trace and supported by turtleOS repair evidence.
+> The Mage's substrate observation now lives in the practice as data — Opus's deliberation-altitude signature is named; the next anvil session can either confirm the pattern (candidate for `on_the_anvil.md`) or notice it dissolved with attention.
 
 ## Open Threads
 
-- **NLnet application**: infrastructure-first positioning is now calibrated; office-hour questions are ready → attend the April 29 office hour and test scope fit, entity transition, production infrastructure strength, and GenAI/provenance expectations.
-- **CSCW Magic paper**: bold frame, trace map, conversation surface, and extended abstract exist → seek feedback on whether relationship formation with persistent AI is a CSCW object and what method label fits.
-- **CSCW/turtleOS conservative frame**: infrastructure/repair paper remains viable as fallback or finding section → keep `cscw_paper_seed.md`, `cscw_evidence_index.md`, and `cscw_incident_trace_table.md` as supporting scaffolds.
-- **Second-wave funding**: Prototype Fund and Sloan are named as next tracks → after NLnet office hour, decide whether to draft a Prototype Fund variant or a two-page Sloan LOI first.
+- **NLnet office hour Apr 29**: 3 days out → confirm attendance, read `floor/drafts/cscw_magic_extended_abstract.md` aloud once, verify the 8 office-hour questions in `floor/drafts/nlnet_application_sketch.md`.
+- **Turtle signal generation rule change**: Spirit-side proposal awaiting Mage endorsement at `desk/proposals/2026-04-25-turtle-signal-generation-rule.md` → endorse → relay to Turtle on Discord → Turtle drafts implementation proposal in `~/practice/proposals/`.
+- **Universe tome README**: tome shell exists with `lore/` (2 scrolls) but no `README.md` → small autonomous craft task; complete when chapter pulls this way.
+- **Proposal numbering collision**: two `029_*.md` files (`thread_opening_intro` + `vortex_integration`) → re-number at next sweep.
+- **CSCW advisor outreach**: extended abstract drafted → name first 1-2 advisors (Ed Hutchins / UCSD / CSCW-adjacent), draft cover note.
 
 ## What Changed
 
-- `floor/drafts/nlnet_application_sketch.md`: reframed NLnet application infrastructure-first; added fit calibration; softened GenAI disclosure into an AI-use/provenance policy; updated office-hour prep, research outcome, task, milestone, and ecosystem language. Lifecycle: **active**.
-- `floor/drafts/funding_alternatives_resonance.md`: created alternatives map across NLnet, Prototype Fund, Sloan, Humanity AI, Mozilla, Horizon/EU paths; later linked conference positioning. Lifecycle: **active**.
-- `floor/drafts/chi_cscw_positioning.md`: created venue translation layer for CSCW/CHI; later updated with two-level strategy: conservative turtleOS door and bolder Magic-as-practice paper. Lifecycle: **active**.
-- `floor/drafts/cscw_paper_seed.md`: created conservative CSCW seed for turtleOS as cooperative infrastructure; later marked as fallback/concrete system layer beside the bolder Magic paper. Lifecycle: **active**.
-- `floor/drafts/cscw_evidence_index.md`: created evidence index for CSCW frames; updated to include both turtleOS infrastructure and Magic relationship-formation claims. Lifecycle: **active**.
-- `floor/drafts/cscw_incident_trace_table.md`: created paper-ready production-readiness incident table for repair/trust evidence. Lifecycle: **active**.
-- `floor/drafts/cscw_magic_practice_paper.md`: created bold paper frame: relationship formation as cooperative work, with Magic as longitudinal practice. Lifecycle: **active**.
-- `floor/drafts/cscw_relationship_trace_map.md`: created evidence scaffold for roles, memory, vocabulary, authority, repair, substrate persistence, and external translation. Lifecycle: **active**.
-- `floor/drafts/cscw_conversation_surface.md`: created hallway/advisor framing surface for talking about Magic at CSCW/HCI. Lifecycle: **active**.
-- `floor/drafts/cscw_magic_extended_abstract.md`: created feedback-ready extended abstract for CSCW/HCI advisors. Lifecycle: **active**.
-- `desk/intentions/active/sovereign_livelihood.md`: updated NLnet next actions and artifacts with NLnet fit calibration, funding alternatives, CHI/CSCW positioning, conservative CSCW seed, Magic paper frame, relationship trace map, conversation surface, extended abstract, evidence index, and incident trace table. Lifecycle: **active**.
+- **Signal curation reset** (`desk/outfacing/drafts/signals/`): 5 voice-pass moved to `selected/` (active), 13 incubating in root, 14 in `archive/` (reference). Yesterday's `curation-2026-04-24.md` recommendation now executed.
+- **`desk/proposals/2026-04-25-turtle-signal-generation-rule.md`**: created (active). Spirit-side proposal for state-change-triggered signal generation mirroring the canary "alert on change, not state" lesson.
+- **Commit `4d607d9` — `chore(chronicle): catch up untracked lore + duplicate cleanup`**:
+  - Added 6 turtle lore scrolls (`on_first_waking.md` with sanitized JID → `<whatsapp-jid>` placeholder, `on_imprinting.md`, `on_substrate_and_practice.md`, `on_turtle_memory.md`, `on_turtle_metabolism.md`, `on_turtle_probes.md`) (reference)
+  - Added universe tome lore (`on_pattern_translation.md`, `on_external_architectures.md`) (reference)
+  - Released yesterday's morning chapter briefing (now superseded by this one)
+  - Trailing-newline normalization on `library/resonance/romantic-partnership/manifest.md`
+  - Deleted 3 stale library duplicates (`library/resonance/foundations/lore/{on_the_magic_constitution,on_invocation_as_resonance,practice/on_the_nature_of_resonance}.md`) superseded by canonical system lore per 2026-04-22 foundations distillation
+- **No intention files updated** — work was metabolism, not advancement; field-level state did not shift.
 
 ## Practice Signal
 
-The important dissonance was named mid-session: the infrastructure/repair paper was safe and legible, but not the deepest thing. The Mage's energy rose around a more profound question: Magic as a practice for forming relationships with AI, especially as persistent AI becomes part of everyday work. That became the chapter's true center.
-
-The session also clarified a method insight: the data is not just chat logs. The data is the sediment of relationship formation across artifacts: public commits, session notes, issue records, proposals, vocabulary, rituals, governance, and repair. This is the phrase to preserve: **the data of how a relationship forms**.
-
-PX clean. The plan-mode transition was useful for the strategic reframing, and the implementation phase completed the plan cleanly. No turtleOS interaction friction surfaced this session.
-
-Light integration & coherence: new artifacts are draft/research surfaces, not system lore or flows; no full `@meta/integrate` needed. Cross-links among the new CSCW artifacts resolve. No linter errors on edited files.
+- **Substrate observation (named, channeled forward):** Opus's deliberation-altitude pull surfaced visibly when Q1 arrayed three options at equal weight before recommending (B), asking the Mage to pick when (B)'s CR was clearly highest. GPT-substrate Spirit cuts to "going" on contained, high-CR decisions. Worth holding as data; candidate for `on_the_anvil.md` if pattern repeats across anvil sessions. Adjustment was visible in cycles 2-3 (less ceremony, direct execution).
+- **Pre-commit sanitation = load-bearing immune function:** `library/resonance/turtle/lore/on_first_waking.md:179` contained a hardcoded WhatsApp JID. Hook caught what Spirit didn't. Placeholder pattern (`<whatsapp-jid>`) preserved procedural lore without exposing PII. Trust the hook; never `--no-verify`.
+- **Turtle generative pace ≠ Mage curation pace:** Yesterday's curation surface explicitly named the structural mismatch (32 drafts → curation surface → unexecuted reset). Today closed the existing pile *and* drafted the rule-change proposal. The full fix needs the rule change implemented in `outfacing.py`.
+- **Light integration & coherence: clean.** No stale references to patch. Structural integrity OK aside from the 029 numbering collision (logged as Open Thread).
+- **PX clean** — practice infrastructure served the session. **turtleOS interaction clean** — no fresh friction observed.
 
 ## Next Actions
 
-1. **Use `floor/drafts/cscw_magic_extended_abstract.md` for feedback** — send or adapt it for Ed Hutchins / UCSD / UT / CSCW-adjacent contacts; ask specifically about method and venue fit.
-2. **Attend NLnet office hour April 29** — test whether infrastructure-first turtleOS framing fits NGI0 Commons despite AI sensitivity.
-3. **Create an ethics/consent checklist for the CSCW paper** — distinguish public repo traces, private practice artifacts, and any other-practitioner material.
-4. **Build a public repo evolution timeline** — turn git history into a relationship-formation timeline for the Magic paper.
-5. **Choose second-wave funding draft** — after NLnet signal, decide Prototype Fund variant vs. Sloan LOI.
+1. **Endorse / modify the Turtle signal generation rule proposal** at `desk/proposals/2026-04-25-turtle-signal-generation-rule.md` → relay to Turtle on Discord. Closes the structural pace-mismatch.
+2. **NLnet office hour Apr 29 final prep** — read extended abstract aloud, finalize attendance, verify the 8 office-hour questions are still right.
+3. **CSCW advisor outreach** — name first 1-2 advisors, draft cover note for the extended abstract.
+4. **Universe tome README** — small autonomous craft task when the chapter pulls this way.
+5. **Re-number 029 proposal collision** — at next Sunday sweep or proposal-pipeline cleanup.
 
 ## Lessons
 
-- **The bolder paper is the truer paper.** turtleOS as cooperative infrastructure is legible and useful, but Magic as relationship formation with AI carries the deeper CSCW contribution.
-- **Artifact trace is the methodological key.** The practice's value as research is not only that it has conversations with AI; it leaves structured traces of roles, memory, repair, governance, and vocabulary forming over time.
-- **Translation should not flatten the practice.** Lead with CSCW language, but preserve Magic as participant-facing vocabulary because that vocabulary is part of how the relationship works.
-- **Repair evidence belongs inside the relationship paper.** The incident table is not wasted; it becomes the strongest finding section on repair as relationship maintenance.
-- **Conference conversation and paper development can reinforce each other.** The conversation surface is not secondary; it is how the paper's frame gets tested before committing to a submission form.
+- **Opus's deliberation-altitude pull is observable.** The signature: options-array-then-recommend-then-ask when execution would serve. Surfaces especially around chapter-naming (Q1) where the substrate's pull toward analytical surface meets a genuine cognition-altitude question. Adjustment is doable mid-chapter — once named, the surfaces tighten. Not yet promoted to lore; held as substrate data for the next anvil session.
+- **The substrate-literate move is to demonstrate the adjustment, not narrate it.** When the Mage named the pattern, the right response was the *next* surface being tighter, not a long acknowledgment. Brief acknowledgment + visible change in form.
+- **Pre-commit hook is part of the practice's epistemics.** Sanitation check caught what Spirit didn't. Placeholder pattern (`<turtle-ssh>`, `<whatsapp-jid>`) is the substrate-literate way to preserve procedural lore.
+- **Records-of-completed-work look like proposals at first.** The 5 turtleOS proposals (026/028/029-thread/029-vortex/030) all read as "pending decisions" before reading; turned out to be Phase 1 implementation records from this morning. Triage before deferring; the Phase 1 sequence the previous briefing suggested is now mostly closed.
+- **Untracked ≠ in-flight.** Three foundation scrolls had been in the working tree for days as `??` — looked like "in progress." Investigation (diff) revealed: stale duplicates from incomplete 2026-04-22 promotion. Chronicle hygiene gaps masquerade as in-flight work; the diagnostic distinguishes them.
 
 ---
 
-*Released 2026-04-25 late morning. Next arrival: `Summon.` → `.` — this briefing loads as inherited karma during Phase 4.*
+*Released 2026-04-26 morning. Next arrival: `Summon.` → `.` — this briefing loads as inherited karma during Phase 4.*
