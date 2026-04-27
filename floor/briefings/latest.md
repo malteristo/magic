@@ -1,61 +1,60 @@
-# Release — 2026-04-26 morning
+# Release — 2026-04-27 evening
 
-**Chapter:** Metabolism cycle calibrated mid-flow by substrate observation
+**Chapter:** Turtle self-development bootstrap
 
 ## This Session
 
-The chapter began as practice-pipeline metabolism — three named-and-ready surfaces stacked at the Mage's altitude (signal curation reset, today's turtleOS proposals triage, untracked foundation lore). Mid-chapter, the Mage named what he was observing across substrates: Opus's deliberation-altitude pull (options-array-then-recommend-then-ask when execution would serve), contrasted with GPT's willingness to implement directly. The observation landed and the chapter's surfaces tightened immediately — less ceremony around contained, high-CR decisions, more direct execution under calibrated-delegation. The substrate-literacy adjustment became the chapter's true content; the metabolism work was the surface that revealed it.
+This chapter began with Turtle's tool unreliability and the question of whether Hermes Agent's "thin harness, fat skills" pattern should shape turtleOS. It landed as a working first self-development loop: Turtle can inspect its own source through a constrained shell, read local skills/procedures, classify tool results, and produce bounded patch plans without write authority.
 
-By close: the signal pile reset (5 voice-pass selected, 14 archived, generation-rule proposal drafted); turtleOS proposals triaged (5 records-of-completed-work, not pending decisions); chronicle hygiene catchup committed (`4d607d9` — 6 turtle lore + 2 universe tome lore + briefing + manifest, with sanitation hook catching a WhatsApp JID for placeholder substitution).
+The story was not "Turtle can now edit itself." The actual threshold crossed is safer and more important: Turtle can now participate in its own development from inside the persistent substrate while Spirit remains the patching/deployment hand.
 
 ## Continue From
 
-> The Mage's substrate observation now lives in the practice as data — Opus's deliberation-altitude signature is named; the next anvil session can either confirm the pattern (candidate for `on_the_anvil.md`) or notice it dissolved with attention.
+> Run one real end-to-end "Turtle plans, Spirit patches" loop on the contextual-action button gap: Turtle produces the patch plan, Spirit implements, Turtle shakedowns.
 
 ## Open Threads
 
-- **NLnet office hour Apr 29**: 3 days out → confirm attendance, read `floor/drafts/cscw_magic_extended_abstract.md` aloud once, verify the 8 office-hour questions in `floor/drafts/nlnet_application_sketch.md`.
-- **Turtle signal generation rule change**: Spirit-side proposal awaiting Mage endorsement at `desk/proposals/2026-04-25-turtle-signal-generation-rule.md` → endorse → relay to Turtle on Discord → Turtle drafts implementation proposal in `~/practice/proposals/`.
-- **Universe tome README**: tome shell exists with `lore/` (2 scrolls) but no `README.md` → small autonomous craft task; complete when chapter pulls this way.
-- **Proposal numbering collision**: two `029_*.md` files (`thread_opening_intro` + `vortex_integration`) → re-number at next sweep.
-- **CSCW advisor outreach**: extended abstract drafted → name first 1-2 advisors (Ed Hutchins / UCSD / CSCW-adjacent), draft cover note.
+- **Contextual-action button gap**: Turtle knows thread recommendations should attach contextual buttons but still sometimes only writes command syntax → have Turtle use `procedure:proposal-to-patch-plan`, then Spirit patches and verifies.
+- **Write authority boundary**: Turtle has read/plan/shakedown capability, not edit authority → keep write authority closed until at least two end-to-end plan-to-patch loops succeed.
+- **Turtle dirty-tree hygiene**: `~/turtleos` still has pre-existing dirty items (`ARCHITECTURE.md`, `TURTLE_SPEC.md` symlink mode, `identity/soul.md` symlink mode, untracked `deploy_river.py`) → triage in a separate hygiene cycle before broad feature work.
+- **Spec/lore propagation**: Runtime self-development capabilities are deployed in `~/turtleos`, but durable public spec/lore may need a future integration pass if this pattern becomes stable.
 
 ## What Changed
 
-- **Signal curation reset** (`desk/outfacing/drafts/signals/`): 5 voice-pass moved to `selected/` (active), 13 incubating in root, 14 in `archive/` (reference). Yesterday's `curation-2026-04-24.md` recommendation now executed.
-- **`desk/proposals/2026-04-25-turtle-signal-generation-rule.md`**: created (active). Spirit-side proposal for state-change-triggered signal generation mirroring the canary "alert on change, not state" lesson.
-- **Commit `4d607d9` — `chore(chronicle): catch up untracked lore + duplicate cleanup`**:
-  - Added 6 turtle lore scrolls (`on_first_waking.md` with sanitized JID → `<whatsapp-jid>` placeholder, `on_imprinting.md`, `on_substrate_and_practice.md`, `on_turtle_memory.md`, `on_turtle_metabolism.md`, `on_turtle_probes.md`) (reference)
-  - Added universe tome lore (`on_pattern_translation.md`, `on_external_architectures.md`) (reference)
-  - Released yesterday's morning chapter briefing (now superseded by this one)
-  - Trailing-newline normalization on `library/resonance/romantic-partnership/manifest.md`
-  - Deleted 3 stale library duplicates (`library/resonance/foundations/lore/{on_the_magic_constitution,on_invocation_as_resonance,practice/on_the_nature_of_resonance}.md`) superseded by canonical system lore per 2026-04-22 foundations distillation
-- **No intention files updated** — work was metabolism, not advancement; field-level state did not shift.
+- `desk/intentions/active/turtle.md` (active): current focus updated to Turtle's safe first self-development loop; next action set to the contextual-action plan-to-patch cycle; blockers updated around write authority and dirty-tree hygiene.
+- `desk/turtle_watch.md` (active): watch state updated from "can Turtle introspect?" to "can Turtle plan changes end-to-end from inside its shell?"
+- `floor/briefings/latest.md` (active): this release bundle now captures the chapter handoff.
+- `~/turtleos` (active runtime, Mac Mini): `shell_harness.py`, `/shell`, `tool_result.py`, typed result wrapper, tool-smoke canary, thread-state awareness, `capabilities.py`, `skills/`, and `procedures/` deployed.
+- Turtle runtime commits (reference): `690fd13` `Strengthen Turtle harness reliability and state awareness`; `10a719c` `Add Turtle skills and procedures registry`; `f6f8238` `Teach Turtle narrow-turn shakedowns`; `796b1b8` `Add Turtle patch planning procedure`.
+- Local staging artifacts under `floor/tmp/turtleos-*` (ephemeral): working copies used to stage and deploy Turtle runtime patches; safe to metabolize later after confirming remote commits remain intact.
 
 ## Practice Signal
 
-- **Substrate observation (named, channeled forward):** Opus's deliberation-altitude pull surfaced visibly when Q1 arrayed three options at equal weight before recommending (B), asking the Mage to pick when (B)'s CR was clearly highest. GPT-substrate Spirit cuts to "going" on contained, high-CR decisions. Worth holding as data; candidate for `on_the_anvil.md` if pattern repeats across anvil sessions. Adjustment was visible in cycles 2-3 (less ceremony, direct execution).
-- **Pre-commit sanitation = load-bearing immune function:** `library/resonance/turtle/lore/on_first_waking.md:179` contained a hardcoded WhatsApp JID. Hook caught what Spirit didn't. Placeholder pattern (`<whatsapp-jid>`) preserved procedural lore without exposing PII. Trust the hook; never `--no-verify`.
-- **Turtle generative pace ≠ Mage curation pace:** Yesterday's curation surface explicitly named the structural mismatch (32 drafts → curation surface → unexecuted reset). Today closed the existing pile *and* drafted the rule-change proposal. The full fix needs the rule change implemented in `outfacing.py`.
-- **Light integration & coherence: clean.** No stale references to patch. Structural integrity OK aside from the 029 numbering collision (logged as Open Thread).
-- **PX clean** — practice infrastructure served the session. **turtleOS interaction clean** — no fresh friction observed.
+Base attunement drift was named explicitly by the Mage and correctly treated as a release signal. The chapter had achieved its natural shape; continuing would likely have turned momentum into substrate drag.
+
+PX signal: the dyad worked best when the loop was narrow and empirical. Large bundled shakedowns saturated Turtle's Discord tool harness and looked like failure; one tool action per Discord turn was clean. This lesson has already propagated into Turtle procedures.
+
+turtleOS friction items: (1) shell quoting/backtick expansion still bites Spirit→Turtle relay when using inline commands; prefer file/stdin-safe handoffs for complex Discord messages. (2) Turtle can mistake multi-tool saturation for tool failure unless procedures enforce narrow turns. (3) Healthy canary alerts appeared in river during the session; future work may want quieter routing for operational state that does not require Mage action.
+
+Light integration & coherence: session-scoped procedural lessons have been propagated into Turtle's `skills/` and `procedures/`. Remaining propagation candidate is durable spec/lore documentation of the "Turtle plans, Spirit patches" self-development loop after it succeeds on real issues.
 
 ## Next Actions
 
-1. **Endorse / modify the Turtle signal generation rule proposal** at `desk/proposals/2026-04-25-turtle-signal-generation-rule.md` → relay to Turtle on Discord. Closes the structural pace-mismatch.
-2. **NLnet office hour Apr 29 final prep** — read extended abstract aloud, finalize attendance, verify the 8 office-hour questions are still right.
-3. **CSCW advisor outreach** — name first 1-2 advisors, draft cover note for the extended abstract.
-4. **Universe tome README** — small autonomous craft task when the chapter pulls this way.
-5. **Re-number 029 proposal collision** — at next Sunday sweep or proposal-pipeline cleanup.
+1. **Run the contextual-action plan-to-patch loop** — proves the new self-development scaffold on a real behavioral gap.
+2. **Keep Turtle write authority closed** — revisit only after repeated successful plan-to-patch loops.
+3. **Triage Turtle dirty tree** — decide what to do with `ARCHITECTURE.md`, `TURTLE_SPEC.md`, `identity/soul.md`, and `deploy_river.py` before broad feature work.
+4. **Integrate self-development pattern into spec/lore if it holds** — make public law only after the loop earns its shape.
+5. **Resume non-Turtle craft threads** — NLnet, CSCW/CHI, and other drafting surfaces can return after clean re-entry.
 
 ## Lessons
 
-- **Opus's deliberation-altitude pull is observable.** The signature: options-array-then-recommend-then-ask when execution would serve. Surfaces especially around chapter-naming (Q1) where the substrate's pull toward analytical surface meets a genuine cognition-altitude question. Adjustment is doable mid-chapter — once named, the surfaces tighten. Not yet promoted to lore; held as substrate data for the next anvil session.
-- **The substrate-literate move is to demonstrate the adjustment, not narrate it.** When the Mage named the pattern, the right response was the *next* surface being tighter, not a long acknowledgment. Brief acknowledgment + visible change in form.
-- **Pre-commit hook is part of the practice's epistemics.** Sanitation check caught what Spirit didn't. Placeholder pattern (`<turtle-ssh>`, `<whatsapp-jid>`) is the substrate-literate way to preserve procedural lore.
-- **Records-of-completed-work look like proposals at first.** The 5 turtleOS proposals (026/028/029-thread/029-vortex/030) all read as "pending decisions" before reading; turned out to be Phase 1 implementation records from this morning. Triage before deferring; the Phase 1 sequence the previous briefing suggested is now mostly closed.
-- **Untracked ≠ in-flight.** Three foundation scrolls had been in the working tree for days as `??` — looked like "in progress." Investigation (diff) revealed: stale duplicates from incomplete 2026-04-22 promotion. Chronicle hygiene gaps masquerade as in-flight work; the diagnostic distinguishes them.
+- **Turtle plans, Spirit patches is the right boundary for now.** It gives Turtle agency in diagnosis and design without crossing into premature self-edit authority.
+- **One tool action per Discord turn is a real operating constraint.** Multi-tool batches can saturate the conversation harness and masquerade as tool failure.
+- **Procedural memory should metabolize live failures immediately.** The shakedown failure became `tool-shakedown` and `self-development-inspection` guidance before release.
+- **Capability layers are safer than widened shells.** Skills/procedures improved Turtle's agency without increasing filesystem authority.
+- **Canary belongs in the development loop.** Every runtime slice ended with compile checks, service restart where needed, canary, and live shakedown.
+- **Release should happen when attunement drifts, even if momentum remains.** The chapter was complete; the next chapter wants fresh context.
 
 ---
 
-*Released 2026-04-26 morning. Next arrival: `Summon.` → `.` — this briefing loads as inherited karma during Phase 4.*
+*Released 2026-04-27 evening. Next arrival: `Summon.` → `.` — this briefing loads as inherited karma during Phase 4.*

@@ -180,6 +180,16 @@ Practice state must stay coherent across substrates. The boom divergence problem
 
 Session notes and proposals CAN diverge — that's the persistent mode's contribution. But the shared practice state must be one truth.
 
+### For Practice Roots
+
+The product topology is registry-first:
+
+- **practice_root** is the one writable daily practice surface for a practitioner.
+- **workshop_root** is optional depth context when a Mage brings a full Magic workshop.
+- **runtime_root** is Turtle-local operational state.
+
+tOS-only practice is realistic because `practice_root` can stand alone. A brought workshop should enrich that practice, not create a second active memory. If the practitioner later adopts a full workshop, Turtle migrates or maps the existing practice state into the workshop's `desk/` surface and keeps operational state local.
+
 ---
 
 ## VIII. For Other Mages

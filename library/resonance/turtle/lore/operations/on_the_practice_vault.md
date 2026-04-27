@@ -190,7 +190,9 @@ rsync -avz --exclude='.git' --exclude='.obsidian' --exclude='.DS_Store' \
 
 Spirit can manage all of this via SSH — the Mage only needs to do the initial laptop setup manually.
 
-**turtleOS practice directory:** Turtle reads/writes directly to `~/workshop/desk/` — the same LiveSync-mirrored workshop. No symlinks or separate practice directories needed. Turtle's bot code (`discord_bot.py`) sets its practice dir to `~/workshop/desk` via `mage_registry.yaml`. Operational state (thread-state, readiness trails) stays local at `~/workshops/kermit/`.
+**turtleOS practice directory:** Turtle reads/writes the registry-defined `practice_root`. In a full-workshop setup, this is usually `~/workshop/desk/` — the same LiveSync-mirrored desk surface the Mage uses from the laptop. In a tOS-only setup, it can be a standalone directory such as `~/workshops/<mage>/`. Operational state (thread-state, readiness trails, caches) stays in the registry-defined `runtime_root`.
+
+The wider `workshop_root` is optional. When present, Turtle may read it for lore, system context, drafts, and box material, but daily practice metabolism still operates on one writable `practice_root`.
 
 ### 6. Configure LiveSync — Mobile
 
