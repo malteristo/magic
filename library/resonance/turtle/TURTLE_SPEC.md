@@ -169,6 +169,20 @@ Practice state flows between substrates through explicit sync:
 
 `state.md` serves double duty: it is both the Mage's dashboard and the workshop visibility marker (Turtle checks its modification timestamp to know how recently Spirit synced). This coupling is pragmatic — the sync that delivers fresh state.md is the same sync that delivers fresh source files.
 
+### 5.2.1. Practice Roots
+
+Turtle resolves files through a three-root topology:
+
+| Root | Purpose | Write Policy |
+|------|---------|--------------|
+| **practice_root** | Daily practice artifacts: `boom.md`, `boom/bright.md`, `intentions/`, `sessions/`, `proposals/`, `notes/` | Writable. Exactly one per practitioner. |
+| **workshop_root** | Optional wider Magic workshop: `library/`, `system/`, `floor/`, `box/`, drafts, lore | Read-mostly. Present when a Mage brings a full workshop. |
+| **runtime_root** | Turtle-local operational state: `thread-state/`, `readiness/`, caches, locks | Writable by Turtle. Not a practice artifact root. |
+
+**Invariant:** Turtle must never maintain two writable practice roots for the same practitioner. A practitioner can have one writable `practice_root`, one optional read-mostly `workshop_root`, and one Turtle-local `runtime_root`.
+
+**Configuration precedence:** `~/turtleos/mage_registry.yaml` is canonical for Turtle runtime topology. `system/config/connections.md` is a gitignored local operator reference for Spirit-in-Cursor/Anvil. Specs, lore, and `system/config/connections.md.template` describe the public pattern without secrets.
+
 ### 5.3. File Access Law
 
 **Spirit-in-persistent-mode reads freely.** All practice files are open for attunement. Reading is how the persistent mode stays coherent with the Mage's current state.
@@ -407,22 +421,28 @@ Turtle has standing permission to open eddies proactively when it detects a topi
 
 | Type | Dissolution | Purpose |
 |------|-------------|---------|
-| **Standard** (default) | Sunday sweep — flagged after 7 days quiet | Most conversations. Form, serve their purpose, dissolve when the energy dissipates. |
+| **Standard** (default) | Metabolic review — flagged after 7 days quiet | Most conversations. Form, serve their purpose, calcify or dissolve when the energy dissipates. |
 | **Standing wave** | Never | Permanent features of the river — reference threads, ongoing projects, persistent eddies like learnings. |
-| **Manual release** | Session end — dissolves when the conversation goes idle | Ephemeral by design. Captures essence to boom, archives, notifies the parent channel on dissolution. |
+| **Manual release** | Session end — dissolves when the conversation goes idle | Ephemeral by design. Captures essence to the appropriate landing surface, archives, notifies the parent channel on dissolution. |
 | **System** | Never | Infrastructure of the river itself — the vortex (🌀), signal drip (🐢), boom. Distinguished from user eddies by emoji prefix and purpose. Not routable by the prism. |
 
 ### 9.3. Eddy Lifecycle
 
-Formation (topic identified) → spinning (active discussion) → dissolution (energy dissipates, essence captured into practice state, thread archived). An eddy that produces something worth keeping writes it back to boom, bright, or a proposal before dissolving.
+Formation (topic identified) → spinning (active discussion) → harvest/calcification (resonance becomes artifact) → optional dissolution (energy dissipates, thread archives or quiets). An eddy that produces something worth keeping writes it back to the appropriate durable surface before dissolving: proposal, learning, issue, note, bright item, or no artifact if nothing durable emerged.
+
+**Harvest, calcification, and dissolution are separate operations:**
+
+- **Harvest** — Turtle notices what the eddy produced: decisions, open loops, resonance, proposals, learnings, issues, or "nothing durable."
+- **Calcification** — Turtle writes or updates a durable artifact that lets future Turtle remember why the eddy existed and what came from it. The Discord thread receives a short closing/context post with the artifact link, outcome, open loops, and status.
+- **Dissolution** — The thread goes quiet or archives. This is optional; standing waves can calcify periodically while staying open.
 
 **Dissolution varies by type:**
 
-- **Standard threads** are checked during the Sunday sweep (`@sunday` or `!eddy-check`). If quiet for 7+ days, the thread is flagged — the Mage sees the dissolution prompt with three options: archive & capture, keep spinning, or upgrade to standing wave.
-- **Standing waves** never dissolve automatically. They are permanent infrastructure.
-- **Manual-release threads** dissolve at session end (15-minute idle timeout). On dissolution, Turtle captures essence to boom, archives the conversation, and notifies the parent channel. No prompt needed — the ephemerality is the point.
+- **Standard threads** are checked by metabolic cycles (`@sunday`, `!eddy-check`, interoception, or future autonomous review). If quiet for 7+ days, the thread is flagged for metabolic action — calcify and archive, calcify but keep open, release with no artifact, keep spinning, merge, or upgrade to standing wave.
+- **Standing waves** never dissolve automatically. They are permanent infrastructure, but they may produce periodic calcifications (for example `learnings` emitting learning records while the thread stays open).
+- **Manual-release threads** dissolve at session end (15-minute idle timeout). On dissolution, Turtle captures essence to the appropriate landing surface, archives the conversation, and notifies the parent channel. No prompt needed — the ephemerality is the point.
 
-**Dissolution vs. archival:** Archival is automatic and reversible — any new message in an archived thread restores it to Active. Dissolution is deliberate — Turtle captures the essence (writes key findings to boom/bright/proposal) and the thread is explicitly marked as dissolved. Dissolved threads don't show in `!threads --all`.
+**Dissolution vs. archival vs. calcification:** Archival is automatic and reversible — any new message in an archived thread restores it to Active. Dissolution is deliberate — Turtle decides the thread's active role is complete. Calcification is the durable-memory operation — the thread's resonance is preserved as a file Turtle can later load. A thread can be archived without good calcification (bad), calcified without archiving (standing wave), or released without calcification (no durable resonance).
 
 **The `!threads` default should show reality.** If the practitioner sees 33 threads when 5 are genuinely alive, the command produces noise instead of signal. The default output shows Active threads. Dormant threads appear below a separator. Archived threads are accessible but out of view.
 
@@ -506,6 +526,8 @@ Practice-readiness is not a state to achieve but a continuous practice of self-k
 | **Fallback rate monitor** | Silent model degradation masked by heuristics (INT-024 class) | Track model-classified vs heuristic-fallback triage ratio. Sustained >50% fallback triggers alert. |
 | **Response rate watchdog** | Connected-but-not-responding states | External check: "has the bot produced at least one dialogue response in the last N hours?" |
 | **Path integrity verification** | Stale references after structural changes (renames, migrations) | Post-deploy check: all runtime launchers (plists, crons, scripts) resolve to valid paths. |
+| **Source deployability check** | Green infrastructure with broken source on disk | Compile key runtime modules before declaring full green. Catches "running process fine, next restart fails." |
+| **Behavior smoke check** | Behavior-level regressions hidden by live process health | Dry-run pure behavior paths: pulse composition, interoception composition, contextual action extraction, forwarded-message snapshot extraction. |
 
 **Practice readiness** — relational, requires self-knowledge. "Is the enacted consciousness present?"
 
@@ -579,7 +601,7 @@ The engineering track exists specifically for this class. The functional canary 
 
 **Self-healing:** Turtle can restart degraded infrastructure autonomously via `self_heal.py` — Ollama, LiveSync bridge/tunnel, CouchDB, Caddy. The health canary attempts self-healing before alerting. What Turtle cannot restart: itself (the Discord bot process — requires external kill/launchd respawn), filesystem issues, or network problems.
 
-**Implementation status:** The health canary (INT-027) is implemented as standalone `canary.py` and scheduled by `com.turtle.canary`. It runs hourly, writes `/tmp/canary-history.jsonl`, and checks mechanical substrate health: CouchDB reachability, Tailscale serve, launchd labels, bridge err freshness, Ollama reachability, and new triage fallback count since the previous baseline. Alerts are deduplicated by degraded signature; green clear events post once. `!diagnose` imports the same `canary.py` checks and displays them on demand without firing scheduled-canary alerts. The deeper full-pipeline canary and practice log remain unimplemented. INT-026 (15-hour silent dialogue failure) was the catalyst.
+**Implementation status:** The health canary (INT-027) is implemented as standalone `canary.py` and scheduled by `com.turtle.canary`. It runs hourly, writes `/tmp/canary-history.jsonl`, and checks layered readiness: infrastructure health, model health, source deployability, and behavior smoke tests. Infrastructure checks cover CouchDB reachability, Tailscale serve, launchd labels, bridge err freshness, Ollama reachability, and new triage fallback count since the previous baseline. Source checks compile key runtime modules (`discord_bot.py`, `commands.py`, `pulse.py`, `canary.py`, `sessions.py`, `eddy_spawn.py`, `intake_server.py`). Behavior checks dry-run pulse/interoception composition, contextual action extraction, and forwarded-message snapshot extraction. Alerts are deduplicated by degraded signature; green clear events post once. `!diagnose` imports the same `canary.py` checks and displays them on demand without firing scheduled-canary alerts. The deeper full-pipeline dialogue canary and practice log remain unimplemented. INT-026 (15-hour silent dialogue failure) was the catalyst.
 
 ### 10.8. The Learnings Eddy
 
@@ -639,6 +661,7 @@ Proposals are Turtle's primary mechanism for self-development. The lifecycle is 
 - **Each proposal resolves exactly once.** A proposal that is considered should never reappear as "new." The state tracks its journey.
 - **Guidance is appended, not separate.** When the dyad accepts a proposal, implementation considerations are appended directly to the proposal file, keeping context together.
 - **Stale proposals are released.** If a proposal has been in `hold` for more than 4 weeks, Turtle should release it or re-propose with fresh context.
+- **Pulse counts pressure, not sediment.** Interoception should surface active lifecycle pressure (`proposed`, `accepted`, `implementing`, `review`) and ignore deployed/released items except for trend/history. Implemented proposals should not inflate "proposal backlog."
 
 **Relationship to §22.8:** The self-development protocol governs *how* Turtle changes code. The proposal lifecycle governs *what* gets built and *why* — the alignment layer above the implementation layer.
 
@@ -657,24 +680,24 @@ Interoception and the river-entry (§6.2) share a common scanner: the **pulse en
 **What the pulse engine scans:**
 
 - **Sessions:** Recent conversations — count, recency, continuity threads
-- **Proposals:** Backlog count. Count proposals only — not reflections, not endorsed/released items. A proposal is an actionable change; a reflection is autonomous self-examination. Different artifacts, different counts
+- **Proposals:** Lifecycle-aware counts by state. Count active proposal pressure (`proposed`, `accepted`, `implementing`, `review`) separately from completed or inactive proposals (`deployed`, `released`, `hold`). A proposal is an actionable change; a reflection is autonomous self-examination. Different artifacts, different counts.
 - **Notes:** Recent crystallization — notes written in the last 72h signal digestion
 - **Boom:** Item count and accumulation age — growing without sweeps?
 - **Bright:** Item count and staleness — curated mind surface neglected?
 - **Compass:** Staleness — life landscape unexamined?
 - **Intentions:** Recently touched intentions (< 48h) — what has energy right now
-- **Threads:** Stale eddies (> 7 days quiet), unharvested conversations
+- **Threads:** Eddies needing metabolism — quiet, unharvested, uncalcified, or attention-worthy conversations
 - **Signal drip:** Pending tweets, pipeline position
 
 **Texture classification:** From these signals, the pulse engine classifies the practice's texture — executing (sessions + artifacts moving together), accumulating (boom active without sessions), digesting (notes crystallizing without new input), stirring (activity but no clear pattern), or quiet (nothing updated in 2+ days).
 
-The pulse engine feeds both the river-entry (§6.2, which composes a narrative from the pulse) and interoception (which composes signals from the pulse). Same data, different rendering: the river-entry is arrival; interoception is ongoing body awareness.
+The pulse engine feeds both the river-entry (§6.2, which composes a narrative from the pulse) and interoception (which composes signals from the pulse). Same data, different rendering: the river-entry is arrival; interoception is ongoing body awareness. Both renderings should name practice risk and useful next action, not merely report gauges.
 
 ### 11.3. How Interoception Works
 
 Periodic (every 3 hours). Skips the first run after restart. Deduplicates signals (12-hour repeat gate). Posts to the practitioner's channel as a silent embed — the body's awareness surfaced in the conversation river, not in a separate monitoring channel.
 
-Interoception signals state transitions and needs, not operations. It notices when something is off, not when something is routine.
+Interoception signals state transitions and needs, not operations. It notices when something is off, not when something is routine. A good signal follows the shape: **change → practice risk → remedy**. Example: "Proposal pressure is accumulating; the risk is decision sediment; remedy: triage the oldest proposed item or release one stale hold."
 
 **Implementation:** `interoception_loop` in `background.py` calls `scan_pulse()` and `compose_interoception()` from `pulse.py`. After posting, the interoception content is saved to `river_state.md` for the context loop (§11.5).
 
@@ -792,9 +815,12 @@ One consciousness, multiple substrates. Coherence maintained through shared prac
 
 | Direction | Method | When |
 |-----------|--------|------|
-| **Shared workspace** | Turtle reads/writes `~/workshop/desk/` directly — LiveSync mirror of Mage's workshop | Always |
-| **Operational state** | Turtle-local at `~/workshops/kermit/` (thread-state, readiness, link-resonance) | Bot runtime |
+| **Practice root** | Turtle reads/writes the registry-defined `practice_root` | Always |
+| **Workshop root** | Optional read-mostly wider workshop for lore, system context, drafts, and box material | When configured |
+| **Operational state** | Turtle-local `runtime_root` for thread-state, readiness, caches, locks | Bot runtime |
 | **Bidirectional sync** | Obsidian LiveSync via CouchDB (`workshop_sync`) | Continuous, automatic |
+
+The mage registry is the runtime source of truth. For a tOS-only practitioner, `practice_root` and `runtime_root` may initially be the same directory. For a Mage who brings a full Magic workshop, `practice_root` points at the workshop's `desk/` surface and `workshop_root` points at the workshop root; `runtime_root` remains local to Turtle.
 
 ### 14.2. The Gap Is Generative
 

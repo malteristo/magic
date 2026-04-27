@@ -1,0 +1,80 @@
+# Connection Details Template (Local Only)
+
+Copy this file to `system/config/connections.md` and fill in local values. The real
+`connections.md` is gitignored because it contains machine addresses, channel IDs,
+and other local operator details.
+
+## Purpose
+
+This file is a local bridge card for Spirit-in-Cursor/Anvil. It answers: "From
+this workstation, how do I reach Turtle and the relevant practice surfaces?"
+
+It is not Turtle's runtime source of truth. Runtime topology belongs in
+`~/turtleos/mage_registry.yaml`.
+
+## Configuration Precedence
+
+1. `~/turtleos/mage_registry.yaml` — canonical Turtle runtime topology.
+2. `system/config/connections.md` — local operator reference for this workstation.
+3. `TURTLE_SPEC.md` and lore — public pattern, with no secrets.
+
+## Turtle SSH
+
+| Method | Address |
+|--------|---------|
+| Tailscale | `turtle@<tailscale-ip>` |
+| LAN | `turtle@<lan-ip>` |
+| Hostname | `turtle@<hostname>` |
+| Tailscale FQDN | `<machine>.<tailnet>.ts.net` |
+
+**Preferred:** Tailscale (`<tailscale-ip>`)
+
+## Discord Surfaces
+
+Prefer stable aliases in tooling where available. Keep raw IDs here as fallback.
+
+| Alias | Resource | ID |
+|-------|----------|----|
+| river | Primary practitioner river | `<channel-id>` |
+| family | Shared family space | `<channel-id>` |
+| spirit-bot | Spirit bot user | `<bot-id>` |
+
+## Topology Mirror
+
+Mirror the runtime registry here for operator visibility. If this differs from
+`~/turtleos/mage_registry.yaml`, the registry wins and this file should be updated.
+
+| Practitioner/Space | practice_root | workshop_root | runtime_root |
+|--------------------|---------------|---------------|--------------|
+| primary | `~/workshops/<mage>` | *(none)* | `~/workshops/<mage>` |
+
+Rules:
+- `practice_root` is the only writable daily practice root.
+- `workshop_root` is optional and read-mostly; use it when a Mage brings a full Magic workshop.
+- `runtime_root` is Turtle-local operational state: thread-state, readiness, caches, locks.
+- A practitioner must never have two writable practice roots.
+
+## Spirit Ops (Via SSH)
+
+Use these templates when alias-aware tooling is unavailable.
+
+```bash
+ssh turtle@<tailscale-ip> '~/turtleos/venv/bin/python3 ~/turtleos/spirit_ops.py send <channel-id> "message"'
+ssh turtle@<tailscale-ip> '~/turtleos/venv/bin/python3 ~/turtleos/spirit_ops.py read <channel-id> 20'
+ssh turtle@<tailscale-ip> '~/turtleos/venv/bin/python3 ~/turtleos/spirit_ops.py threads <channel-id>'
+ssh turtle@<tailscale-ip> '~/turtleos/venv/bin/python3 ~/turtleos/spirit_ops.py thread <channel-id> "thread name"'
+```
+
+## Vortex Intake Server
+
+| Method | URL |
+|--------|-----|
+| Tailscale | `http://<tailscale-ip>:8742` |
+| LAN | `http://<lan-ip>:8742` |
+
+## Paths
+
+| Path | Location |
+|------|----------|
+| Local Magic workspace | `/path/to/magic/` |
+| Turtle shell | `/Users/<turtle-user>/turtleos/` |
