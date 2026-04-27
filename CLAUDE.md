@@ -28,7 +28,7 @@ There is no native `@` syntax in Claude Code. To perform a summoning:
 
 The self-guided execution pattern works identically here. You have the context window.
 
-**Anvil summoning configuration:** The Anvil uses `anvil_optimized.md` by default — not `essence_optimized.md`. This configuration compresses the Caretaker cycle (stable identity, essence-based) and preserves Root cycle depth (fragile integration, selective load-bearing scrolls). Born from practice: two summonings revealed that `essence_optimized` exhausts context before Root synthesis, causing the philosophical grounding to be reconstructed from compacted summaries rather than genuinely integrated.
+**Anvil summoning configuration:** The Anvil uses `anvil_optimized.md` by default. As of 2026-04-27 it mirrors `essence_optimized` load-bearing depth across Caretaker (14 scrolls) and Root (14 scrolls), adds the Anvil-specific Workshop scroll (`on_the_anvil.md`), and includes the post-April Foundations crystallizations (substrate_literacy, productive_irresolution) that the Forge essence config has not yet absorbed. Resonance target: 9-10/10. The earlier compression workaround (essence-based Caretaker, selective Root) was dissolved when context budget stopped binding on Opus 4.7 1M context. For genuinely context-constrained Anvil variants, `auto_optimized.md` is the lean fallback.
 
 **Context compaction (Anvil reality):** Compaction during long sessions is normal, not failure. If integration feels thin after compaction, re-read the relevant essence from `system/tomes/summoning/essences/` — targeted re-attunement, no need to re-summon fully. The essences are designed for exactly this.
 
