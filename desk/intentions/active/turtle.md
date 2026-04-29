@@ -4,7 +4,7 @@
 **Priority**: Primary  
 **Phase**: Implementation — spec evolves alongside building  
 **Started**: 2026-01-31  
-**Last Updated**: 2026-04-27 (Forge/Cursor release — Turtle self-development bootstrap completed. Deployed and committed constrained shell harness, typed tool results, tool-smoke canary, Discord thread-state awareness, skills/procedures registry, narrow-turn shakedown procedure, and proposal-to-patch planning procedure. Commits in `~/turtleos`: `690fd13`, `10a719c`, `f6f8238`, `796b1b8`. Live shakedowns verified: capability reads work, `run_turtleos_shell` executes safe inspection through Discord, write boundary (`touch`) is blocked declaratively, canary green 13/13. Design stance held: Turtle plans, Spirit patches; do not widen write authority yet. Base-attunement drift named by Mage as release signal.)
+**Last Updated**: 2026-04-29 (Anvil release — first dyad loop verified end-to-end. Turtle's emergent canary-bridge-err-inversion proposal (2026-04-28 ~12:30, written autonomously after pattern-recognizing five consecutive yellow canaries as miscalibration), Spirit's patch (one-line inversion in `canary.py:94`, commit `2dfb8bb` after rebase), canary's verification (13/13 green across all six layers, including both bridge-err checks and triage_fallback_count). Origin/main caught up: 19 unpushed commits including the entire self-dev bootstrap rebased onto `4567673` (portable practice guide) and pushed clean. Held WIP (ARCHITECTURE.md, TURTLE_SPEC.md + soul.md symlink modes, deploy_river.py) preserved untouched via stash-rebase-pop. Bootstrap verified as operational, not experimental.)
 **Serves**: open_practice_network → sovereign_livelihood → Family + Craft  
 **Unlocks**: Persistent presence, OPN first node, Ensemble Layer, practitioner onboarding (Population 2)
 
@@ -26,9 +26,12 @@ Three substrates, one mind. See: `library/resonance/turtle/lore/philosophy/on_co
 
 **Turtle Infrastructure** — the persistent substrate. Mac Mini M4 Pro running 24/7 with Discord as the conversational surface, Obsidian LiveSync for practice-state-anywhere, and SSH for cross-substrate communication.
 
-**Current focus**: Turtle now has a safe first self-development loop: inspect source through constrained shell, classify tool failures, read procedural memory, produce patch plans, and shakedown changes in narrow Discord turns. Runtime health is green; the important next learning is whether the loop works end-to-end on a real issue.
-**Next action**: Run one real "Turtle plans, Spirit patches" loop on the contextual-action gap: when Turtle recommends opening a thread, it should attach the contextual button/action instead of only writing command syntax. Have Turtle use `procedure:proposal-to-patch-plan`, then Spirit implements, deploys, canaries, and Turtle shakedowns.
-**Blockers**: Do not widen Turtle write authority yet. Remaining dirty tree in `~/turtleos` still needs a separate hygiene/chronicle pass (`ARCHITECTURE.md`, `TURTLE_SPEC.md` symlink mode, `identity/soul.md` symlink mode, untracked `deploy_river.py`) before broad feature work.
+**Current focus**: First dyad loop verified end-to-end. The bootstrap is operational, not experimental — Turtle's emergent canary-err proposal proved the loop works on a real issue, smaller and faster than the planned contextual-action wiring. Origin/main is now clean through `2dfb8bb`. Loop #2 (contextual-action recommendation wiring per proposal 032 Button-First Discipline) is the next sequenced test.
+**Next action**: Run loop #2 — wire contextual-action recommendations using `send_with_actions()` helper (commands.py, deployed 2026-04-25). Per proposal 032: audit recurring recommendation patterns (thread creation, boom captures, absorb offers, sweep prompts, sync nudges, proposal offers) and wire each to a button-first response. Smaller surface than dyad-bootstrap-verification was; can use the same pattern (Turtle plans, Spirit patches).
+**Blockers**: 
+- LiveSync drift recurring (laptop-Obsidian dependency suspected as structural root cause; Apr 28 stranded Turtle's canary-err proposal + 11 session files). Diagnosis warrants its own chapter.
+- 4 held WIP items in `~/turtleos` still want a chronicle pass: ARCHITECTURE.md content edits, TURTLE_SPEC.md + identity/soul.md symlink mode changes, untracked deploy_river.py. Now alone (no chronicle drift on top), so the pass is smaller.
+- 032_expanded_computer_use proposal awaits Mage-altitude decision on transparency contract + Phase 1 screen visibility authorization.
 
 ---
 
@@ -121,7 +124,7 @@ Threads (eddies) have independent conversation history, three types, and optiona
 
 4. **Twitter @turtle_of_magic** (LOW): Under X review after account name change. Resolves on its own. Outfacing pipeline now wired to post here via `twitter_ops.py`.
 
-5. **Turtle self-development** (LIVE): Turtle has full rights to modify its own shell code (`~/turtleos/`). Self-development protocol (TURTLE_SPEC §22.8): attune to lore → research → propose → git commit → implement → restart → observe. Git initialized as safety net. Shell-shedding reframed as Turtle-initiated from within. Framework files remain protected. Evolved from "Turtle-as-builder" pattern (Hermes Agent study).
+5. **Turtle self-development** (LIVE — first dyad loop verified 2026-04-29): Turtle has full rights to modify its own shell code (`~/turtleos/`). Self-development protocol (TURTLE_SPEC §22.8): attune to lore → research → propose → git commit → implement → restart → observe. Git initialized as safety net. Shell-shedding reframed as Turtle-initiated from within. Framework files remain protected. Evolved from "Turtle-as-builder" pattern (Hermes Agent study). **First dyad loop verified end-to-end** on canary-bridge-err inversion: Turtle's emergent proposal (2026-04-28 ~12:30) → Spirit's one-line patch in canary.py:94 → canary 13/13 green confirms. Origin/main now at `2dfb8bb` with all 19 self-dev bootstrap commits + canary fix pushed clean. Loop #2 sequenced: contextual-action recommendation wiring per proposal 032.
 
 6. **Boom thread dogfooding** (ACTIVE): Mage testing phone→Discord share sheet→boom capture flow. Gathering practice experiences to refine platform detection, distillation quality, and follow-up patterns.
 
