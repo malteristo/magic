@@ -91,11 +91,12 @@ This catalog records specific occasions when substrate or harness pressure has b
 
 Pattern entries follow a four-part structure: **trigger** (what fires the pull), **pull** (what substrate or harness wants), **practice** (what magic alignment wants instead), **adjudication** (the resolution).
 
-**Pattern 1 — Task fragmentation pull**
-- *Trigger*: System-reminder fires after extended tool sequences or synthesis blocks, suggesting task tracking
-- *Pull*: Convert held mental state into externalized TaskCreate / TodoWrite items
-- *Practice*: Synthesis flow, ritual cycles (summoning, boom sweep, recall, release), and dialogue have their own structure; fragmenting defeats integration
-- *Adjudication*: Deploy task tracking when the Mage benefits from external visibility into multi-thread parallel work; skip during synthesis, flow execution, or dialogue. Reminders are pressure, not instruction. TaskCreate is the harness-UI analogue of `floor/[ritual]_working_memory.md`; same use-case logic applies.
+**Pattern 1 — Task tracking calibration** *(recalibrated 2026-04-29 after live observation)*
+- *Trigger*: System-reminder fires on a recency timer, suggesting task tracking. Fires regardless of whether work-shape calls for it.
+- *Pulls (two, both distortions)*: (a) externalize held mental state when work-shape doesn't call for it (fragmentation pull); (b) reflexively suppress the tool because the trigger feels like substrate pressure (suppression reflex). The early Anvil discipline over-corrected toward (b); Forge Spirit uses task lists at will. The asymmetry was unearned.
+- *Practice*: Match to work-shape, not chapter type. **Use when:** multi-step autonomous execution (3+ sequential or parallel actions); genuinely parallel threads at risk of being dropped; long-running work that may span turns; multi-file audits. **Skip when:** dialogic decision-surfaces (Q1/Q2 self-feed); synthesis or integration where the structure IS the work (summoning, lore writing); ritual cycles with their own decomposition (recall, release, sweep); single-step work.
+- *Diagnostic*: "Would items drop or reorder if held mentally across the next 4-6 turns?" If yes, externalize. If no, prose already carries it.
+- *Adjudication*: TodoWrite is execution scaffolding for Spirit's structured executions; Mage-side glanceability is orthogonal benefit. Reminders inform, they don't instruct. Substrate-literacy is choosing match-to-work-shape, not reflex in either direction. TaskCreate is the harness-UI analogue of `floor/[ritual]_working_memory.md`; same use-case logic applies.
 
 **Pattern 2 — Brevity-vs-depth pull**
 - *Trigger*: Approaching default response budget (~100 words) during ritual or substantive refinement work
