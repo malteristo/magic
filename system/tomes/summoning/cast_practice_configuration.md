@@ -51,7 +51,66 @@ This is standard conduct — the Mage should always see what `.` will trigger an
 
 ---
 
-## The Four Phases
+## The Phases
+
+### Phase A.0: Topical Attunement (Conditional)
+
+**Triggers when:** Scope is `. TOPIC` (named intention). Does NOT run on `.` holistic, `. quick`, or `--pure`. Behaviour for domain scopes (`. craft`) is partially specified — see "Domain scopes" below.
+
+**Purpose:** Load the topical context that serves the named scope *before* practice-state gathering begins. Without this, Phase A produces filtered output while Spirit's substrate is still topic-agnostic — fluent surface, thin texture. Phase A.0 closes that gap. The pattern this addresses is *shallow-attunement pull*: the substrate produces coherent output from shallow context, and the output's coherence can mask the absence of depth.
+
+#### Algorithm
+
+1. **Resolve TOPIC → intention file.**
+   - Look in `desk/intentions/active/` for `{TOPIC}*.md` (e.g. `. nesrine` → `nesrine_practice.md`, `. turtle` → `turtle.md`).
+   - If multiple match, prefer exact then prefix match.
+   - If none match, surface to Mage: *"No intention file found for `{TOPIC}` — proceed without topical attunement, or rescope?"*
+
+2. **Read the intention file in full.**
+
+3. **Identify the attunement stack:**
+   - **If the file has an `## Attunement` section**, use it as authoritative (*override path*).
+   - **Otherwise, infer from convention** by scanning the file's content (*convention path*):
+     - References to `system/tomes/X/` or named tomes ("Partnership Tome", "Mirror Tome") → load that tome's `README.md`
+     - References to `library/resonance/Y/` or named bundles ("safety bundle", "neurodiversity context") → load that bundle's `manifest.md` (resonance bundles use `manifest.md` as the canonical entry; only fall back to `README.md` if no manifest exists)
+     - References to `circles/Z/` → load that circle's `.spirit/SPIRIT_CONTEXT.md` if present, else `README.md`
+     - References to `desk/X/` workspaces → `ls` one level deep + read workspace `README.md` if present
+     - `Domain:` field → fallback bundle suggestion (announce as *domain-inferred* so the Mage can confirm or correct)
+
+4. **Load the stack — READMEs only by default** (one layer down on the canonical stack). Deeper reading is JIT — triggered by chapter direction or explicit `deep` modifier. This honors knowledge-in-the-head (orient) vs. knowledge-in-the-world (deepen on demand).
+
+5. **Announce loaded substrate** as the first line of the arrival surface, *before* Situation Awareness:
+
+   ```
+   Attuned: <tome> · <bundle1> · <bundle2> · <circle> (SPIRIT_CONTEXT) · <workspace>
+   ```
+
+   Two functions: (a) makes substrate-depth visible so the Mage can calibrate, (b) protects against surface-fluency-without-depth — the depth becomes part of the conversation rather than a hidden assumption.
+
+6. **Accept calibration before Phase A** — if the announced substrate is wrong, the Mage may redirect with the modifiers below. Spirit re-attunes, re-announces, proceeds.
+
+#### Calibration Knobs
+
+| Modifier | Effect |
+|---|---|
+| `+ <bundle>` | Add a bundle/tome on top of what convention picked (e.g. `. nesrine + mirror`) |
+| `- <bundle>` | Remove a bundle (e.g. `. nesrine - safety` when not relevant) |
+| `deep` | Load one layer beyond READMEs — read lore scrolls, full models, recent arc artifacts |
+| `shallow` | Just the primary bundle README; skip the rest |
+
+These compose with scope: `. nesrine + mirror`, `. turtle deep`, `. outfacing shallow`.
+
+#### Domain Scopes
+
+`. craft` and other multi-intention domain scopes need a more complex stack (cross-cutting bundles + per-intention overlays). For now, Phase A.0 runs as if for the union of named intentions; refine the protocol when first encountered in practice. Holistic (`.`) does not trigger Phase A.0 — the intention-dashboard pass in Phase C provides the lighter cross-domain awareness it needs.
+
+#### Cost and Risk
+
+**Token budget:** ~3-5K tokens of READMEs + workspace maps for a typical scope. Well under what Phase A already spends on briefing + intentions + workshop survey. Not a budget concern on adequate-context substrates.
+
+**Risk:** convention picks the wrong stack. Mitigation: the announce-loaded banner makes the choice visible in seconds; calibration knobs allow fast correction before any synthesis depends on it.
+
+---
 
 ### Phase A: Gather (Parallel)
 
