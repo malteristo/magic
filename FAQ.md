@@ -52,6 +52,14 @@ No beliefs required. It works whether you engage with the theory or just use the
 
 ---
 
+## What should be public?
+
+The Magic framework is public and MIT-licensed. Your personal practice state should usually stay private: `desk/`, `floor/`, and `box/` are designed as live workshop surfaces and are normally gitignored except for README/stub files that explain the structure.
+
+Before publishing a workshop or opening a pull request, check both `git status` and the GitHub file tree. If a personal intention, draft, transcript, or session note appears in the public index, treat that as an intentional publication decision, not the default.
+
+---
+
 ## How is this different from just using ChatGPT with custom instructions?
 
 Custom instructions give you a configured AI assistant. Magic gives you a practice for thinking differently.

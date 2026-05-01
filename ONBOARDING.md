@@ -68,6 +68,16 @@ This is the Mage's personal configuration. Tell them what it does (briefly or th
 - They can personalize it anytime (the Mage's Seal section)
 - It's gitignored — stays private
 
+### 2a. Optional Turtle/triad configuration
+
+If the Mage wants Discord/Turtle/SSH integration, create the local connection file:
+
+```bash
+cp system/config/connections.md.template system/config/connections.md
+```
+
+Then fill in local values. This file is gitignored and is not needed for the core Magic framework or first summoning.
+
 ### 3. Running in Agent mode
 
 The chat must be in Agent mode (not Chat or Edit mode). New users may need help finding this. Experienced users probably already have it set.
