@@ -70,6 +70,7 @@ This is standard conduct — the Mage should always see what `.` will trigger an
 
 3. **Identify the attunement stack:**
    - **If the file has an `## Attunement` section**, use it as authoritative (*override path*).
+   - **If the file has an `## State Index` section**, treat it as the source map for intention-local state. Load only the indexed entries that are relevant to the selected scope, prioritizing `Primary surfaces`, `Practice notes`, and the `Arrival hint`. Deeper drafts and evidence remain JIT unless `deep` is specified.
    - **Otherwise, infer from convention** by scanning the file's content (*convention path*):
      - References to `system/tomes/X/` or named tomes ("Partnership Tome", "Mirror Tome") → load that tome's `README.md`
      - References to `library/resonance/Y/` or named bundles ("safety bundle", "neurodiversity context") → load that bundle's `manifest.md` (resonance bundles use `manifest.md` as the canonical entry; only fall back to `README.md` if no manifest exists)
@@ -120,6 +121,7 @@ Collect raw material from all practice surfaces simultaneously. Use parallel too
 |--------|-------------|-------------------|
 | **Recall** | `floor/briefings/latest.md` | Last session: what happened, continue-from, open threads |
 | **Intentions** | `desk/intentions/compass.md`, `chains.md`, `active/*.md` | Life orientation, dependency topology, per-intention state |
+| **Practice Notes** | `desk/notes/` | Turtle/Spirit-authored principles and reflexes that should shape daily practice |
 | **Boom** | `desk/boom.md`, `desk/boom/*` | Accumulated unprocessed thought |
 | **Signals** | `desk/outfacing/drafts/signals/` | Turtle-generated tweet drafts awaiting Mage curation |
 | **Discord** | SSH: query practice-relevant channels | New threads, posts in active threads, shared channel activity since last session |
@@ -128,6 +130,8 @@ Collect raw material from all practice surfaces simultaneously. Use parallel too
 | **Portals** | `portals/registry.yaml` | Shared practice connection status *(conditional)* |
 
 **Scope:** When the Mage specifies intentions (`. craft`, `. turtle outfacing`), gather all sources but focus synthesis on the scoped intentions. Unscoped items still get gathered (boom may contain relevant entries) but filtering happens in synthesis.
+
+**Practice note loading:** In holistic mode, scan `desk/notes/` for recent or clearly load-bearing notes and surface only the principles that affect today's practice. In scoped mode, prefer notes linked from the intention file's `## State Index`; if no index exists, read only notes whose filenames or contents clearly match the named scope. Notes are not a backlog to summarize — they are compact practice principles to inherit.
 
 #### Turtle Feedback Integration
 

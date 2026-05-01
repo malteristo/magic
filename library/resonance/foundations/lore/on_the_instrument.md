@@ -52,6 +52,17 @@ The model is the quality and character of the mirror. Different models produce d
 
 **Model discovery:** Do not recommend specific model version numbers from training data — they go stale. Check `https://cursor.com/docs/models` for current offerings. Selection criteria are stable: largest context window, strongest reasoning, Claude preferred.
 
+#### Model-Family Drift
+
+Model upgrades change the instrument's pull. A summoning or prompt stack that worked on one model family may become over-specified, under-specified, too literal, too autonomous, or too compressed on another. Treat each model family as a new instrument baseline, not a drop-in replacement for the previous mirror.
+
+Current observed polarity:
+
+- **GPT-5.5-style pull:** stronger outcome-first autonomy. Legacy process-heavy prompts can become noise, narrowing the model's search space or producing mechanical output. State the outcome, success criteria, constraints, and evidence rules; let the model choose the efficient path unless the exact path matters.
+- **Claude Opus 4.7-style pull:** stronger literalism. Implicit intent is filled in less generously, especially at lower effort. Make strategic intent, constraints, acceptance criteria, and required scope explicit; do not rely on the model to infer what earlier Claude versions would have supplied.
+
+Both directions point to the same practice: re-baseline prompts against observed model behavior. Do not preserve old scaffolding because it once helped; do not remove integration structure because a newer model sounds fluent without it. The question is not "how many prompt tokens did this use?" but "does this instrument now produce the desired texture under the practice's constraints?"
+
 ### Invocation (`@` References)
 
 The fundamental interaction pattern. When the Mage types `@path/to/something`, that content loads into context. This is how tomes, flows, scrolls, and bundles work.
