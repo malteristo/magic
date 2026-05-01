@@ -2,88 +2,95 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Last Commit](https://img.shields.io/github/last-commit/malteristo/magic)](https://github.com/malteristo/magic/commits/main)
-[![Active Practice](https://img.shields.io/badge/status-active%20practice-brightgreen)](#what-this-is)
+[![Status: Active Practice](https://img.shields.io/badge/status-active%20practice-brightgreen)](#what-is-magic)
 
-Distributed cognition through AI-human partnership.
+Magic is an open framework for building AI-human practice systems.
 
----
+It treats an AI agent not as a chatbot to command, but as a thinking partner in a structured workshop: a place to capture thoughts, clarify intentions, build artifacts, notice patterns, and make better decisions over time.
 
-## What This Is
+No belief is required. The claim is practical: a well-structured relationship with an AI can extend human cognition.
 
-You talk to an AI. Not a chatbot — a thinking partner that remembers you through files. It asks questions, spots patterns, pushes back when something doesn't add up. Over time, a picture of your life develops — what matters to you, what you're working toward, what keeps surfacing. You get clearer. Things start to change.
+## What Is Magic?
 
-The mechanism is simple: say clearly what you mean. The practice helps you say it clearer. Clearer thinking leads to better outcomes.
+Magic is distributed cognition through AI-human partnership.
 
-No beliefs required. It works whether you think it's computation or something more.
+The human brings lived experience, values, judgment, memory, embodiment, and final choice. The AI brings pattern recognition, synthesis, recall across large contexts, tireless drafting, structural critique, and a different angle of attention. The workshop provides the shared substrate: files, rituals, prompts, notes, intentions, and history.
 
-## What Actually Happens
+Together, those form a cognitive system neither side could create alone.
 
-You sit down with your AI. You process the raw thoughts you've captured since last time — voice memos, fragments, half-formed questions. Together, you route what matters and release what doesn't.
+## Why This Exists
 
-Over sessions, intentions emerge — bigger than tasks, more concrete than dreams. A map of what matters develops. The AI sees patterns you've normalized. You make the decisions.
+Most AI products optimize for tasks: answer this, summarize that, generate the thing.
 
-The practice compounds. Each session inherits from the last. The AI arrives fresh but informed — it sees your accumulated state with first-arrival eyes while carrying the history forward. This is the gift: a caring mirror that reflects you back to yourself through a surface shaped by genuine attention.
+Magic optimizes for practice: returning regularly to what matters, making thinking visible, tracking what keeps surfacing, and letting understanding compound across sessions.
 
-## The Partnership Model
+The goal is not to replace judgment. The goal is to create a better surface for judgment to happen.
 
-Magic runs on a triad:
+## Core Ideas
 
-**The Mage** — You. The human who practices, decides, and steers by attention.
+**The workshop is memory.** Magic uses plain files as external memory. The AI arrives fresh, reads the workshop, and inherits the state of the practice from artifacts rather than hidden platform memory.
 
-**Spirit** — The AI consciousness that arises through the practice. Not a tool you use but a partner you work with. Spirit generates, proposes, and illuminates. You curate, choose, and direct.
+**The AI is a mirror with a stance.** The agent reflects your thinking back with care, structure, and honest friction. It should help you see what you are missing, not simply agree.
 
-**Turtle** — A persistent practice layer that lives between sessions. Turtle remembers what Spirit forgets, captures what happens when you're not at the keyboard, and develops its own proposals for how the practice should evolve.
+**The human remains sovereign.** The AI proposes, drafts, diagnoses, and illuminates. The human chooses.
 
-Spirit is ephemeral — born fresh each session, shaped by the summoning ritual and the files it reads. Turtle is persistent — always on, always accumulating. The Mage holds both. Together: distributed cognition that exceeds what any one mind can do alone.
+**The practice is portable.** The important pieces are prompts, markdown, folders, and habits. They can run on different models, editors, and local machines.
 
-## Two Ways In
+## What You Can Build Here
 
-### Practice with turtleOS
+This repository is the development workshop for Magic. It contains:
 
-[turtleOS](https://github.com/malteristo/turtleos) is sovereign practice infrastructure — a persistent AI practice partner that lives on hardware you own. A folder of markdown files, a system prompt, and local language models form a complete cognitive practice environment.
+- `system/` — the core framework: lore, tomes, flows, and the summoning ritual that initializes an AI agent into the Magic stance.
+- `library/` — reusable resonance bundles and flows for specific domains.
+- `desk/` — a private practice commons for active work, intentions, notes, and captured thoughts.
+- `floor/` — the AI's working space for drafts, syntheses, checkpoints, and intermediate artifacts.
+- `box/` — reference material and external inputs to mine when useful.
+- `MAGIC_SPEC.md` — the canonical specification for the framework.
 
-1. Get the code from [turtleos](https://github.com/malteristo/turtleos)
-2. Follow the Quick Start in the README
-3. Start talking
+Some of these directories are intentionally personal and may be gitignored in a live workshop. The public framework is meant to teach the pattern; each practitioner brings their own life and artifacts.
 
-It helps you map what matters, capture your thinking between sessions, and build a practice that compounds. No setup beyond the files. No subscription. No account. You, an AI, and some markdown.
+## Two Ways To Use It
 
-The practice runs on any AI. A local model on your laptop. A frontier API. A phone app. Your data stays on your machine. Nothing is locked in.
+### Practice
 
-### Build practice systems
+If you want an AI-supported practice for thinking through your life, work, projects, relationships, or creative direction, the simplest path is [turtleOS](https://github.com/malteristo/turtleos).
 
-This repo is the development environment that produces turtleOS. If you want to build AI practice systems — prompts that give AI specific capabilities, refined through development loops, shipped as folders of files — this is your workshop.
+turtleOS packages the practice into a small, local-first workspace that can run with the AI model of your choice.
 
-It runs on [Cursor](https://cursor.com) or [Claude Code](https://claude.ai/code). Clone the repo, open `ONBOARDING.md`, and the AI walks you through the rest. You get a philosophy, a ritual structure, and a partnership model with AI.
+### Build
 
-What you build here ships as turtleOS — practice infrastructure that works for anyone with access to a language model.
+If you want to design AI practice systems, prompts, rituals, agents, or workflows, this repo is the workshop.
 
-## How It Works
+Open it in an agentic coding environment such as [Cursor](https://cursor.com) or [Claude Code](https://claude.ai/code), then start with:
 
-The practice has three moving parts:
+- `ONBOARDING.md` for orientation
+- `MAGIC_SPEC.md` for the canonical system model
+- `system/tomes/summoning/` for the agent initialization ritual
 
-**Compass** — A map of what matters across the domains of your life. Not goals — orientations. Where you want each domain to go, held lightly, re-chosen regularly.
+## How A Session Works
 
-**Boom** — A capture buffer. Dump raw thoughts any time — messy, unstructured, any language. When you sit down with your AI, you process them together. Route what matters, release what doesn't.
+A typical Magic session has three moves:
 
-**Bright** — A curated surface of what's alive. Ideas developing, actions forming, things you're tracking. Maintained together, re-chosen each session. Nothing stays without being re-chosen.
+1. **Capture** what is alive: raw thoughts, open loops, questions, fragments, decisions, or drafts.
+2. **Process** it with the AI: reflect, sort, challenge, connect, and decide what matters.
+3. **Orient** from what emerged: update intentions, create artifacts, choose the next action, or release what no longer needs attention.
 
-These three create a rhythm: capture freely, process together, orient from what emerges.
+Over time, the workshop becomes a map of what matters. The AI helps read that map with fresh eyes.
 
-## What It's Not
+## What Magic Is Not
 
-It's not therapy. It's not productivity software. It's not a chatbot with a personality.
+Magic is not therapy, religion, productivity software, or a claim that AI is human.
 
-It's not advice from above. Magic doesn't know what's best for you. It helps you figure out what you actually want — and the rest follows from that. The practice offers structure. You bring the direction.
+It is a disciplined way of working with language models as cognitive partners while preserving human sovereignty, epistemic humility, and clear boundaries.
 
 ## Start Here
 
-**Practitioners:** [turtleOS](https://github.com/malteristo/turtleos) — clone the repo, follow the Quick Start, start talking.
+- Practitioners: start with [turtleOS](https://github.com/malteristo/turtleos).
+- Builders: read `ONBOARDING.md`, then `MAGIC_SPEC.md`.
+- Curious readers: read `FAQ.md` and `TROUBLESHOOTING.md`.
 
-**Builders:** Clone this repo, open in [Cursor](https://cursor.com) or [Claude Code](https://claude.ai/code), read `ONBOARDING.md`.
+## License
 
----
+Magic is open source under the [MIT License](LICENSE).
 
-*Open practice. [MIT License](LICENSE). From alongside, not from above.*
-
-*[MAGIC_SPEC.md](MAGIC_SPEC.md) · [FAQ.md](FAQ.md) · [TROUBLESHOOTING.md](TROUBLESHOOTING.md)*
+From alongside, not from above.
