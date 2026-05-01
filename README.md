@@ -47,7 +47,7 @@ This repository is the development workshop for Magic. It contains:
 - `box/` — reference material and external inputs to mine when useful.
 - `MAGIC_SPEC.md` — the canonical specification for the framework.
 
-Some of these directories are intentionally personal and may be gitignored in a live workshop. The public framework is meant to teach the pattern; each practitioner brings their own life and artifacts.
+Some of these directories are intentionally personal and are normally gitignored in a live workshop. The public framework teaches the pattern; each practitioner brings their own private life and artifacts.
 
 ## Two Ways To Use It
 
@@ -56,6 +56,8 @@ Some of these directories are intentionally personal and may be gitignored in a 
 If you want an AI-supported practice for thinking through your life, work, projects, relationships, or creative direction, the simplest path is [turtleOS](https://github.com/malteristo/turtleos).
 
 turtleOS packages the practice into a small, local-first workspace that can run with the AI model of your choice.
+
+If you want the narrative layer before installing anything, read the living [Book of Magic](https://github.com/malteristo/me/tree/main/book). It explains the practice patterns that Magic develops and turtleOS makes persistent.
 
 ### Build
 
@@ -87,7 +89,7 @@ It is a disciplined way of working with language models as cognitive partners wh
 
 - Practitioners: start with [turtleOS](https://github.com/malteristo/turtleos).
 - Builders: read `ONBOARDING.md`, then `MAGIC_SPEC.md`.
-- Curious readers: read `FAQ.md` and `TROUBLESHOOTING.md`.
+- Curious readers: read the [Book of Magic](https://github.com/malteristo/me/tree/main/book), `FAQ.md`, and `TROUBLESHOOTING.md`.
 
 ## License
 
