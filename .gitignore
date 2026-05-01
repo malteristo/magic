@@ -57,6 +57,7 @@ mage_seal.md
 AGENTS.md
 # Archive directories (anywhere in tree)
 **/archive/
+.trash/
 system/tomes/librarian/
 
 # Local connection config (sensitive — never track)
