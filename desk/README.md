@@ -1,4 +1,4 @@
-# Desk: The Practitioner's Practice Space
+# Desk: The Shared Practice Commons
 
 **The shared practice surface for the triad — Mage, Spirit, and Turtle all write here.** The desk holds the practice state that the triad operates on together: cognitive workflow, direction, proposals, sessions, and notes.
 
@@ -6,11 +6,11 @@
 
 ## Purpose
 
-`desk/` is the practice workspace within the magic repository. It serves as the canonical practice directory for all triad members. On the Mac Mini, Turtle reads and writes directly to `~/workshop/desk/` via LiveSync mirror.
+`desk/` is the durable practice commons within the magic repository. It serves as the canonical shared practice directory for all triad members. On the Mac Mini, Turtle reads and writes directly to `~/workshop/desk/` via LiveSync mirror.
 
 **Key distinctions:**
-- `desk/` — Shared practice surfaces (Mage + Spirit + Turtle)
-- `floor/` — Spirit's workspace (working drafts, briefings, chronicles)
+- `desk/` — Shared durable practice surfaces (Mage + Spirit + Turtle)
+- `floor/` — Spirit's Forge/Anvil workbench (working drafts, briefings, chronicles, intermediate syntheses)
 - `box/` — Inbox (articles, transcripts, external content)
 - `library/` — Wisdom (specialized knowledge, resonance bundles)
 - `system/` — Foundation (core framework, flows, tomes)
@@ -38,7 +38,7 @@ These directories form the universal practice space. Any practitioner — whethe
 
 - **`proposals/`** — Proposals from Spirit and Turtle awaiting Mage review. Each file notes its origin. Integrated/declined proposals move to `archived/`.
 - **`sessions/`** — Session records from all substrates. Spirit writes release briefings; Turtle writes autonomous session notes. Origin noted in each file.
-- **`notes/`** — Practice notes. Timeless insights about how the practice works. Turtle-tended — they cluster, promote to principles, and prune what's been absorbed. Like coral growing its own scaffolding.
+- **`notes/`** — Practice notes. Timeless insights and reflexes about how the practice works. Turtle-tended and Spirit-read during Arrival — they cluster, promote to principles, and prune what's been absorbed. Like coral growing its own scaffolding.
 - **`drafts/`** — Mage's working drafts. Emails, letters, outfacing content in progress.
 - **`archive/`** — Archived desk items.
 
@@ -57,7 +57,7 @@ These are personal additions beyond the canonical structure:
 
 ### Personal Practice
 
-- **`partnership-process/`** — Nesrine partnership processing (private).
+- **`partnership-process/`** — the Mage's partner partnership processing (private).
 - **`psychonautics/`** — Personal psychonautics practice.
 - **`mirror/`** — Reflections (mirror tome's personal extension).
 - **`resonance/`** — Personal resonance connections.
@@ -84,4 +84,4 @@ System structures (tomes, flows) contain public practice patterns. When these re
 
 ## Git Tracking
 
-`desk/` is gitignored — it is the practitioner's private workspace. Spirit accesses it via Shell tools (Glob/Grep/Read are blind to gitignored paths). The practitioner controls what's here. LiveSync handles synchronization across devices.
+`desk/` is gitignored — it is the practitioner's private shared-practice workspace. Spirit accesses it via Shell tools (Glob/Grep/Read are blind to gitignored paths). The practitioner remains sovereign over what's here, while Spirit and Turtle may write artifacts that serve ongoing practice. LiveSync handles synchronization across devices.

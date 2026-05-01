@@ -33,6 +33,7 @@ Three assets Spirit brings that no tool can:
 |--------|------|--------------------|
 | **Recall** | `floor/briefings/latest.md` | Last session, continue-from, open threads |
 | **Intentions** | `desk/intentions/compass.md`, `chains.md`, `active/*.md` | Life landscape, topology, per-intention state |
+| **Practice Notes** | `desk/notes/` | Turtle/Spirit-authored principles and reflexes that should shape daily practice |
 | **Boom** | `desk/boom.md`, `desk/boom/bright.md`, `desk/boom/*.md` | Unprocessed thought, alive surface, topic accumulation |
 | **Workshop** | `git status`, `git log --oneline -5` | Chronicle state, recent work rhythm |
 
@@ -52,6 +53,12 @@ The Turtle sources close the feedback loop: Turtle accumulates (proposals, sessi
 
 **Holistic mode (default):** Read all files in `desk/intentions/active/`.
 **Scoped mode:** Read only the named intention files + `compass.md` + `chains.md` (chains needed for topology context even when scoped).
+
+If an intention file has a `## State Index`, use it as the source map for scoped self-feed. Load indexed practice notes and primary surfaces first; treat working drafts, proposals, and evidence as JIT context unless the scope or `deep` modifier calls for them.
+
+### Practice Note Loading
+
+`desk/notes/` is a first-class practice surface. In holistic mode, scan for recent or clearly load-bearing notes and surface only principles relevant to today's decision surface. In scoped mode, prefer notes linked from the scoped intention's `## State Index`. Do not summarize the whole notes directory by default; notes are principles to inherit, not a backlog.
 
 ---
 

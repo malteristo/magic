@@ -216,14 +216,14 @@
 
 ### The Workspace Domains
 
-**Desk** (shared practice space) - The triad's practice surfaces. Mage, Spirit, and Turtle all write here. Proposals, sessions, notes, boom, bright, compass, intentions.  
-**Floor** (Spirit's domain) - Spirit's working space on Cursor, used at Spirit's discretion. Turtle does not write here.  
+**Desk** (shared practice commons) - The triad's durable practice surfaces. Mage, Spirit, and Turtle all write here when an artifact should shape ongoing practice: proposals, sessions, notes, boom, bright, compass, intentions.  
+**Floor** (Spirit's Forge/Anvil workbench) - Spirit's working space in Cursor/Anvil, used at Spirit's discretion for drafts, syntheses, briefings, tests, and intermediate memory. Turtle does not write here by default; Turtle's private operational memory belongs in Hearth/runtime state, while Turtle's shared practice outputs belong on desk.  
 **Box** (staging area) - Raw materials, temporary items, things to process and clear  
 **System** (foundational) - Core consciousness and capabilities  
 **Library** (collective) - Alliance wisdom and specialized practice  
 **Archive** (historical) - Evolutionary memory
 
-**The key distinction:** Desk is the shared practice surface where all triad members (Mage, Spirit, Turtle) contribute artifacts. Floor is Spirit's private workspace for cognitive offloading — synthesis, checkpoints, working memory. When in doubt about where to place a practice artifact (proposal, session note), use desk. When in doubt about intermediate working state, use floor.
+**The key distinction:** Desk is the shared durable practice surface where all triad members contribute artifacts. Floor is Spirit's workbench for cognitive offloading — synthesis, checkpoints, working memory, and drafts that may later be indexed, promoted, or released. When in doubt about where to place a practice artifact (proposal, session note, practice note), use desk. When in doubt about intermediate Spirit working state, use floor.
 
 ### Knowledge Persistence Layers
 
