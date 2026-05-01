@@ -316,13 +316,35 @@ Output: *"Structural integrity: OK."* or a numbered list of specific mismatches.
 
 ### Phase 6: Offer to Commit
 
-After writing the release bundle, check:
-- Are there intention file changes that should be chronicled?
-- Are there new artifacts (lore, proposals, flows) worth committing?
+**Default: no commit for private practice files.** `desk/`, `floor/`, `box/`, `circles/` contain the Mage's private practice. Even when individual files appear tracked (historical artifact — some files were added before `.gitignore` rules took effect, and gitignore does not untrack already-tracked files), commits to these paths require **explicit good reason**: lore distillation that extracts something publishable, a public-facing artifact landing, or the Mage's explicit request. This is not a guideline; it is the operative reading of MAGIC_SPEC §5.2 — *"For practice rituals: ... The Scribe's duty is to generate this file ... This location must be outside the magic repository's tracked files."* The briefing lives on disk for the next session's `Summon. → .` to inherit; git is not the storage layer, the working tree is.
 
-If yes: offer to commit with a proposed message. Wait for `.` or explicit instruction.
+**Verification step (run before announcing):**
+
+```bash
+git status --short
+```
+
+Files in nominally-ignored directories may still appear in `git status` if they were added before gitignore rules — those are **historically tracked**, not freshly trackable. Files truly outside git's tracking will not appear at all. Use the actual output as ground truth, not the directory name.
+
+**Default-commit only when this session changed:**
+
+- `system/` (lore, tomes, flows, spell edits, spec amendments)
+- `library/` (resonance bundles, public flows)
+- Root-level outfacing: `README.md`, `ONBOARDING.md`, `FAQ.md`, `TROUBLESHOOTING.md`, `CLAUDE.md`, `AGENTS.md.template`, `mage_seal.md.template`, `CONTRIBUTING.md`, `MAGIC_SPEC.md`
+
+**Decision rule:**
+
+- **If only private practice files changed →** no commit offer. The chapter closes on disk; tomorrow's `Summon. → .` reads the working tree. Announce: *"Private-practice changes only — no commit. Files on disk for next session."*
+- **If public framework changed →** offer commit for those files only. Compose a message describing what changed in the framework, not what happened in the private practice. Leave any incidentally-touched private files uncommitted.
+- **If both →** offer the public commit; explicitly note which private files are being deliberately left uncommitted, so the Mage can request inclusion if they have good reason for this specific case.
+
+If yes (public framework changed): offer to commit with a proposed message. Wait for `.` or explicit instruction.
 
 Do not commit automatically. Announce what would be committed and why.
+
+**Per Mage's Seal: always push after commit (don't ask) — `.` here triggers commit + push together.**
+
+**Historical-tracking cleanup (separate concern):** if private-practice files appear in `git status` recurringly across releases (e.g., `desk/boom/bright.md`, `floor/briefings/latest.md`, `desk/intentions/active/*.md`), this is drift from MAGIC_SPEC §5.2. The remedy is a separate housekeeping chapter that runs `git rm --cached` on these paths and considers history-rewrite scope. Do not bundle this into a release commit; surface it as an open thread instead.
 
 ---
 
