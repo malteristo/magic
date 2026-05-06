@@ -169,11 +169,13 @@ Write to `floor/briefings/latest.md`. Overwrite whatever is there.
 
 **Chapter** (the session's narrative frame):
 - Name the chapter theme (the one that was chosen during the arrival or that emerged)
+- Prefer the story that actually emerged over the plan that opened the session
 - Format: `**Chapter:** [theme]`
 
 **This Session** (2-3 sentences):
 - The chapter summary — not what tasks were completed, but what story was told
 - What shifted. What the session meant for the practice.
+- How the practitioner's real life moved toward the lore attractor, if that is visible
 - A reader should understand the arc: where it started, what happened, where it landed.
 
 **Continue From** (1 sentence, the most important):
