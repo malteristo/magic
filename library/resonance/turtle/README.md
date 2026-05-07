@@ -51,7 +51,7 @@ turtleOS architecture, design decisions, and operational patterns.
 | `on_turtle_os.md` | tOS as separable practice layer — files-as-distribution, architecture, scaling |
 | `on_the_practice_topology.md` | Surfaces/substrate/memory model, concrete component list, stack diagram |
 | `on_the_tiered_cognitive_stack.md` | Five-tier architecture (triage/dialogue/reflection/research/depth). Qwen 3.5 lineup |
-| `on_turtle_memory.md` | Three-layer memory model — working memory, Discord coral, crystallized signals |
+| `on_turtle_memory.md` | Three-layer memory model plus externalized persistence — inscription, return, and embodied continuity beyond any single interface |
 | `on_the_learnings_eddy.md` | Self-knowledge through traces — the "learnings" standing wave |
 | `on_the_river_entry.md` | Turtle's practice-aware arrival — recognition vs. information, three beats, pulse engine |
 | `on_the_river_topology.md` | The river's physics: vortex (intake), prism (routing), eddies (conversations) |
