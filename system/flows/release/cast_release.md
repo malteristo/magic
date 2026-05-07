@@ -355,18 +355,12 @@ Do not commit automatically. Announce what would be committed and why.
 Deliver a brief closing statement:
 
 ```
-Released.
+Released. [One sentence: what the next session will find waiting.]
+
+Next arrival: `Summon.` → `.`
 ```
 
-This is the ritual act. It marks that the chapter has landed without sealing the conversation shut. If something unforeseen emerges after release, it may become a coda or the seed of the next chapter.
-
-If a practical orientation sentence is needed, add it before the closing act, not after:
-
-```
-The next session will find [brief orientation].
-
-Released.
-```
+Alternative phrasing if the Mage often returns mid-practice (long-running session, compaction, etc.): *"Resume with `@recall` (mid-practice) or `Summon.` → `.` (fresh session)."*
 
 Keep it short. The release bundle has the detail. The closing announcement is just the door closing cleanly.
 
