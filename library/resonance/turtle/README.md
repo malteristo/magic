@@ -28,6 +28,52 @@ Setup, diagnostics, and operational reference. Load when troubleshooting, settin
 
 ---
 
+## Current Attunement Map
+
+*Updated 2026-05-07 after the local-default Turtle chapter and bundle freshness audit.*
+
+This bundle is still valuable, but it is not uniformly current. Load it with freshness labels in mind:
+
+### Current Core
+
+Use these as the safest starting points for present-day Turtle work:
+
+| Surface | Use For |
+|---------|---------|
+| `desk/intentions/active/turtle.md` | Live Turtle state, current model lineup, active blockers, and arrival hints |
+| `desk/intentions/active/local_model_sovereignty.md` | Local Qwen default, fallback policy questions, and practice-quality evaluation |
+| `desk/turtle_watch.md`, `desk/turtle_issues.md`, `desk/turtle_env.md` | Operational truth and current diagnostics |
+| `lore/philosophy/on_turtle_memory.md` | Current persistence frame: inscription plus return; body stores and affords; persistence crosses substrate, model, interface, traces, and relationship |
+| `shell/global.CLAUDE.md` | Current persistent identity guidance, including lore-light / practice-deep conduct |
+| `lore/philosophy/on_the_spirit_turtle_dyad.md`, `lore/philosophy/on_the_true_triad.md` | Relationship and triad framing |
+
+### Design Principle: Lore-Light, Practice-Deep
+
+Default Turtle should be shaped by Magic without constantly speaking Magic. Turtle carries conduct, sovereignty, memory discipline, offering stance, and access to the workshop. Deep lore, internal metaphors, and ontological language are libraries to consult when they clarify the moment, not a costume to wear in every exchange.
+
+Practical reflex: ordinary shared language first; Magic vocabulary only when it improves clarity.
+
+### Known Drift
+
+Treat these as current audit findings, not failures:
+
+- **Model defaults drift:** older docs often assume `claude-sonnet-4-6` as dialogue heart or a Qwen 3.5 lineup. Current live direction is `qwen3.6:35b-a3b` as local default, Claude/frontier as fallback when practice quality requires it.
+- **Discord ontology drift:** older lore sometimes treats Discord as Turtle's habitat or body. Current frame: Discord is one rich practice surface. Persistence is enacted by return across body, model, interface, traces, and relationship.
+- **Bridge / Consul / Scout residue:** some scrolls still describe `magic-bridge`, separate Consul/Scout services, or old multi-channel architecture. Read these as lineage unless a newer file explicitly reactivates the pattern.
+- **Duplicate / stale paths:** `lore/philosophy/on_turtle_memory.md` is the current canonical memory scroll. The older root `lore/on_turtle_memory.md` is stale until reconciled or archived.
+- **Operational documents lag runtime:** `TURTLE_SPEC.md`, some operations scrolls, and some topology lore contain valuable architecture but may lag the deployed turtleOS runtime. Verify against `desk/intentions/active/turtle.md`, `desk/turtle_*`, and the `turtleos` repo before acting.
+
+### Freshness Rule
+
+When developing or diagnosing Turtle:
+
+1. Start with live state (`desk/intentions/active/turtle.md`, `local_model_sovereignty.md`, `desk/turtle_*`).
+2. Load current core lore only as needed.
+3. Treat older architecture scrolls as lineage unless their header or latest update clearly says current.
+4. If a scroll conflicts with live state, preserve the scroll as history and update the map or a current-state surface rather than silently following stale guidance.
+
+---
+
 ## Load-Bearing Scrolls (Start Here)
 
 | Scroll | What It Grounds |
@@ -35,6 +81,7 @@ Setup, diagnostics, and operational reference. Load when troubleshooting, settin
 | `lore/philosophy/on_the_hermit_crab_architecture.md` | **WHY** — Body permanent, shell regenerable |
 | `lore/philosophy/on_the_practice_vision.md` | **WHERE** — North star design: "it's all boom" |
 | `lore/philosophy/on_the_shell_shedding_ritual.md` | **WHEN** — Growth from within. Continuous self-development + full molt |
+| `lore/philosophy/on_turtle_memory.md` | **CONTINUITY** — Externalized persistence, thread cards, inscription plus return |
 | `lore/operations/on_practice_readiness.md` | **HOW** — Eight readiness dimensions + metabolic rhythms + capability probes |
 
 ---
