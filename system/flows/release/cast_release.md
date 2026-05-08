@@ -366,6 +366,8 @@ Alternative phrasing if the Mage often returns mid-practice (long-running sessio
 
 Keep it short. The release bundle has the detail. The closing announcement is just the door closing cleanly.
 
+After announcing release, the chapter's action loop is closed. A later bare `.` is an acknowledgment or pause, not permission to continue the old chapter, unless the Mage has explicitly reopened it or given a new direction.
+
 **Historical note:** Earlier briefings ended with "Resume with @recall." That was accurate when `@recall` was the primary arrival mechanism. After the Arrival Sequence (`cast_practice_configuration.md`) became the standard post-summoning surface (where `.` triggers the full holistic arrival with inherited karma), the fresh-session resumption pattern changed. `@recall` remains valid as a lighter standalone invocation, but `Summon.` → `.` is now the canonical opening for a new session.
 
 ---
@@ -410,6 +412,8 @@ Overwrites whatever is there — brief or previous release. The latest handoff s
 ## After Release: The Option to Sit
 
 Release closes the session. It doesn't conclude it.
+
+Dot-practice needs mode clarity at the boundary. Inside a chapter, `.` can mean continuation. At a prepared decision, it can mean sanction. When release has been offered, `.` performs release and closes the action loop. After release, a bare `.` should not silently resume chapter momentum; treat it as acknowledgment unless paired with a new instruction.
 
 At any point — days later, a week later, whenever the session returns to mind — the Mage can return without agenda:
 
