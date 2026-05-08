@@ -2,6 +2,7 @@
 
 > **Canonical version:** https://github.com/malteristo/turtleos/blob/main/TURTLE_SPEC.md  
 > This copy is kept for practice reference but may lag behind the canonical version.
+> **Current-state notice (2026-05-07):** Verify runtime facts against `desk/intentions/active/turtle.md`, `desk/intentions/active/local_model_sovereignty.md`, `desk/turtle_env.md`, and the live `turtleos` repo before acting. The live direction is local-default dialogue (`qwen3.6:35b-a3b`) with Claude/frontier as fallback when practice quality requires it. Some model defaults, service names, and topology details below may describe earlier runtime states.
 
 **Version:** 2.4
 **Status:** Active  

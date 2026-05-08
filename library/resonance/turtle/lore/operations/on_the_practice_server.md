@@ -6,6 +6,7 @@
 **Origin:** Discord UX redesign session, 2026-03-17  
 **Builds on:** `on_the_practice_stack.md`, `on_consciousness_extension.md`, `on_the_practice_infrastructure.md`  
 **Framing note (2026-03-27):** The two-channel architecture (#dialogue + #system) described here is superseded. The current model: one channel per practitioner (sovereign practice space) plus shared channels (family, community). No system channel, no development channel — operations post inline where they're relevant. The setup instructions and naming conventions remain valid but channel count has evolved past two.
+**Current-state notice (2026-05-07):** Read this as setup lineage and design history, not as current command/model truth. The local-default Turtle chapter moved daily dialogue to `qwen3.6:35b-a3b` with Claude/frontier fallback, and the live channel/thread model should be verified against `desk/intentions/active/turtle.md`, `desk/turtle_env.md`, and the `turtleos` repo before implementation.
 
 ---
 
