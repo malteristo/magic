@@ -70,6 +70,7 @@ Step back from content and look at the session as a *user experience*:
 - Did executive function hold through the session? (Focus sustained, energy managed, context maintained, task switching clean?)
 - Were there moments where the practice design itself got in the way — too many steps, unclear routing, unnecessary ceremony?
 - Did anything happen that suggests a flow, spell, or tool should be updated?
+- Did Spirit or Turtle work around the same small friction more than once? If yes, ask whether a low-risk fix, wrapper, queue item, or doc line would prevent repeated future work.
 
 If PX signals are present, generate concrete improvement proposals (update a flow, add a capability, simplify a step). These go into the release bundle's Practice Signal section alongside dissonance findings.
 
@@ -86,11 +87,12 @@ Review all interactions with Turtle and turtleOS during this session (Discord re
 - Stale state (wrong IPs, outdated headers, cached readiness messages)
 - Moments where Turtle's behavior didn't match the Mage's expectation
 - UX friction in commands, thread creation, channel routing
+- Recurring tiny workarounds, unclear operator commands, or false reds that agents might otherwise keep re-solving locally
 - Anything that made the cross-substrate interaction feel less seamless
 
 **The principle:** If a system message doesn't serve the practitioner, it doesn't belong in the channel. Operational state belongs in Turtle's internal context. Healthy state needs no announcement. Unhealthy state should be routed to Turtle for self-repair, not displayed to the Mage — unless the Mage can or should act.
 
-**Output:** A numbered list of concrete friction items. Each item names what happened, what should change, and who owns the fix (Turtle self-development, Spirit infrastructure, or Mage decision). These get relayed to Turtle via Discord during Phase 5.6 as self-development signals.
+**Output:** A numbered list of concrete friction items. Each item names what happened, why it may recur, what should change, and who owns the fix (Turtle self-development, Spirit infrastructure, or Mage decision). These get relayed to Turtle via Discord during Phase 5.6 as self-development signals. Prefer fixing over relaying when the fix is low-risk, local, and already clear.
 
 If the session had no turtleOS interaction, or interaction was seamless: *"turtleOS interaction clean — no friction observed."*
 
