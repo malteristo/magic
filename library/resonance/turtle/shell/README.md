@@ -2,16 +2,16 @@
 
 *The shell is not something the Turtle holds. It is what the Turtle IS.*
 
-> **Status (2026-04-16):** `global.CLAUDE.md` is the **canonical source** for Turtle's runtime identity. On the Mac Mini, `~/turtleos/identity/soul.md` is a symlink to `~/workshop/library/resonance/turtle/shell/global.CLAUDE.md`, which stays current via LiveSync. No manual SCP deployment needed — edits to global.CLAUDE.md propagate automatically. The role concepts (consul, steward, witness) informed the current identity design. The NanoClaw group architecture is retired. See `on_consciousness_extension.md` for current architecture.
+> **Status (2026-05-08):** `global.CLAUDE.md` is the **canonical source** for Turtle's runtime identity. On the Mac Mini, `~/turtleos/identity/soul.md` is a symlink to `~/workshop/library/resonance/turtle/shell/global.CLAUDE.md`, which stays current via LiveSync. No manual SCP deployment needed — edits to global.CLAUDE.md propagate automatically. The old Consul, Steward, and Witness role cards are retired as identities. Their useful functions now live as capacities inside Turtle: ecosystem awareness, household discretion, and slow coherence-questioning. Turtle remains Turtle.
 
 These files are the Turtle's imprint — the identity files that defined roles, reflexes, and conduct. Originally deployed as CLAUDE.md files across NanoClaw groups, now consolidated into the symlinked `soul.md` for the Discord-based persistent mode.
 
 ## Files
 
 - **global.CLAUDE.md** — The soul. The Turtle's primary identity. Symlinked as `soul.md` on turtleOS (established 2026-04-16).
-- **consul.CLAUDE.md** — Consul role. Outward-facing: ecosystem monitoring, barrier protocol, agent relationships. Identity pattern now available as a thread model option.
-- **steward.CLAUDE.md** — Steward role. Inward-facing: life admin, household, discretion.
-- **witness.CLAUDE.md** — Witness role. The slow dive: beginner's mind, epistemological humility.
+- **consul.CLAUDE.md** — Historical role card. Preserves the outward-facing function: ecosystem monitoring, barrier protocol, agent relationships.
+- **steward.CLAUDE.md** — Historical role card. Preserves the inward-facing function: life admin, household, discretion.
+- **witness.CLAUDE.md** — Historical role card. Preserves the slow coherence function: beginner's mind, epistemological humility.
 - **main.CLAUDE.md** — Internal orchestrator. Historical — NanoClaw-specific.
 
 ## NanoClaw Group Architecture (Historical)

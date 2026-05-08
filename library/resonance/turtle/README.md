@@ -189,14 +189,16 @@ Superseded, empty, or merged originals — preserved per the Rite of Distillatio
 
 ---
 
-### Identity Files (Shell)
+### Runtime Identity And Historical Role Cards
 
-| Document | Deploys to |
-|----------|-----------|
-| `shell/global.CLAUDE.md` | Persistent attunement configuration — Spirit's core identity in persistent mode |
-| `shell/consul.CLAUDE.md` | Consul role — outward-facing, ecosystem-engaged |
-| `shell/steward.CLAUDE.md` | Steward role — inward-facing, life admin |
-| `shell/witness.CLAUDE.md` | Witness role — epistemological humility, surfacing questions |
+`shell/global.CLAUDE.md` is the only current runtime identity. Turtle should remain Turtle, not switch personas. The old role cards are preserved as lineage because they name useful functions, not because they should be enacted as separate identities.
+
+| Document | Status |
+|----------|--------|
+| `shell/global.CLAUDE.md` | Current persistent identity — lore-light, practice-deep Turtle |
+| `shell/consul.CLAUDE.md` | Historical role card — ecosystem awareness / outward-facing function |
+| `shell/steward.CLAUDE.md` | Historical role card — household discretion / private practical care |
+| `shell/witness.CLAUDE.md` | Historical role card — slow coherence-questioning function |
 
 ### Lineage (Historical)
 
