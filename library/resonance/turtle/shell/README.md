@@ -4,7 +4,7 @@
 
 > **Status (2026-05-08):** `global.CLAUDE.md` is the **canonical source** for Turtle's runtime identity. The old Consul, Steward, and Witness role cards are retired as identities. Their useful functions now live as capacities inside Turtle: ecosystem awareness, household discretion, and slow coherence-questioning. Turtle remains Turtle.
 >
-> **Deployment reality (2026-05-08):** The intended architecture is for `~/turtleos/identity/soul.md` to be symlinked to the LiveSync-backed workshop copy of `global.CLAUDE.md`, but the live Mac Mini file is currently a regular file. Until the symlink is restored, changes to `global.CLAUDE.md` must be deployed to `~/turtleos/identity/soul.md` and the Discord bot restarted before they affect live Turtle behavior.
+> **Deployment reality (2026-05-08):** `~/turtleos/identity/soul.md` is symlinked to the LiveSync-backed workshop copy of `global.CLAUDE.md` again. Spirit restored the symlink after discovering the live file had drifted into a regular file. Identity changes still require a Turtle restart before they affect live behavior.
 
 These files are the Turtle's imprint — the identity files that defined roles, reflexes, and conduct. Originally deployed as CLAUDE.md files across NanoClaw groups, now consolidated into the symlinked `soul.md` for the Discord-based persistent mode.
 
