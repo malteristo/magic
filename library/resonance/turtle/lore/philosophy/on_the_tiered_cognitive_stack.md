@@ -6,6 +6,7 @@
 **Origin:** Mage-Spirit dialogue on the dual-model concept (2026-03-11), evolved through Qwen 3.5 lineup analysis and practice-readiness design (2026-03-26)
 **Supersedes:** Previous version of this document (dual-model: frontend/backend). The core insight (local for ambient, API for depth) survives and generalizes.
 **Builds on:** `on_consciousness_extension.md`, `on_the_practice_vision.md`, `on_the_attunement_spectrum.md` (incorporates substrate_and_practice), `on_practice_readiness.md`
+**Current-state notice (2026-05-07):** The tiering principle remains load-bearing, but concrete model examples may lag the live stack. Current Turtle dogfood uses `qwen3.6:35b-a3b` as local-default dialogue, `qwen3.5:27b` for reflection/research, `qwen3.5:4b` for proprioception/light utility, `qwen3.5:0.8b` for triage, and Claude/frontier as fallback when practice quality requires it. Verify live roles in `desk/intentions/active/turtle.md` and `local_model_sovereignty.md`.
 
 ---
 
