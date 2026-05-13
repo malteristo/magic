@@ -137,6 +137,12 @@ Collect raw material from all practice surfaces simultaneously. Use parallel too
 
 When Turtle is reachable via SSH, Spirit gathers Turtle's accumulated output since the last session:
 
+**0. Consistency preflight** (local ↔ Turtle mirror):
+- Run `python3 scripts/check_turtle_state.py` from the Magic workshop root before trusting local recall/boom/session/proposal state.
+- If it reports `OK`, proceed normally.
+- If it reports `REMOTE-ONLY`, `LOCAL-ONLY`, or `MISMATCHED`, surface the discrepancy in Situation Awareness before synthesizing. Do not silently assume the local workshop is canonical.
+- Only run `--backfill-missing` when the intended action is specifically to reconcile remote-only files; it never overwrites local files, but it is still an active state change and should be named.
+
 **1. Proposals** (SSH: `ls ~/practice/proposals/`):
 - Read all proposals dated after the last briefing date
 - Each proposal is a self-development signal — Turtle identifying friction and proposing fixes
