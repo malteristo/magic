@@ -11,18 +11,32 @@ import argparse
 import hashlib
 import json
 import os
+import re
 import subprocess
 import sys
 from dataclasses import dataclass
 from pathlib import Path
 
 
-DEFAULT_REMOTE = os.environ.get("TURTLE_SSH_TARGET", "turtle@turtles-mac-mini")
 REMOTE_ROOT = "/Users/turtle/workshop"
 LOCAL_ROOT = Path(__file__).resolve().parents[1]
+CONNECTIONS_PATH = LOCAL_ROOT / "system" / "config" / "connections.md"
 
 WATCHED_FILES = ("desk/boom.md", "floor/briefings/latest.md")
 WATCHED_DIRS = ("desk/sessions", "desk/proposals")
+
+
+def default_remote() -> str:
+    if env_remote := os.environ.get("TURTLE_SSH_TARGET"):
+        return env_remote
+
+    if CONNECTIONS_PATH.exists():
+        text = CONNECTIONS_PATH.read_text(errors="ignore")
+        match = re.search(r"`(turtle@[^`]+)`", text)
+        if match:
+            return match.group(1)
+
+    return "turtle@turtles-mac-mini"
 
 
 @dataclass(frozen=True)
@@ -137,7 +151,8 @@ def backfill_missing(remote: str, missing: list[str]) -> None:
 
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--remote", default=DEFAULT_REMOTE, help=f"SSH target (default: {DEFAULT_REMOTE})")
+    remote_default = default_remote()
+    parser.add_argument("--remote", default=remote_default, help=f"SSH target (default: {remote_default})")
     parser.add_argument("--days", type=int, default=7, help="Compare recent session/proposal files by mtime")
     parser.add_argument(
         "--backfill-missing",
