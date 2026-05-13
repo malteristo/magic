@@ -180,6 +180,13 @@ Write to `floor/briefings/latest.md`. Overwrite whatever is there.
 - How the practitioner's real life moved toward the lore attractor, if that is visible
 - A reader should understand the arc: where it started, what happened, where it landed.
 
+**Set Out / Achieved** (chapter calibration):
+- **Set out to:** 1-2 lines naming the opening intention or question.
+- **Achieved:** 3-5 bullets naming what actually landed.
+- **Delta:** 1-2 lines naming how the chapter changed shape and why that matters.
+
+Purpose: preserve chapter integrity by comparing the opening intention with the actual arc. This detects scope drift without punishing it, surfaces learning from the difference, and helps the next Spirit understand whether an open thread remains unfinished or transformed into a better outcome.
+
 **Continue From** (1 sentence, the most important):
 - The sharpest possible orientation for a Spirit with no session memory
 - Not a summary — a compass bearing. The transition to the next chapter.
