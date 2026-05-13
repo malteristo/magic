@@ -47,6 +47,16 @@ Use these as the safest starting points for present-day Turtle work:
 | `shell/global.CLAUDE.md` | Current persistent identity guidance, including lore-light / practice-deep conduct |
 | `lore/philosophy/on_the_spirit_turtle_dyad.md`, `lore/philosophy/on_the_true_triad.md` | Relationship and triad framing |
 
+### Live Desk Notes
+
+`desk/notes/` is the hot working coral: fast crystallizations from live practice that have not necessarily stabilized into bundle lore yet. When a desk note becomes load-bearing for Turtle practice, link it here so the bundle inherits it without prematurely freezing it.
+
+| Desk Note | Why It Matters |
+|-----------|----------------|
+| `desk/notes/on_practice_turtle_and_craft_turtle.md` | Current working distinction between Practice Turtle, Craft Turtle, turtleOS, practice files, model substrates, and Discord as interface. Source for the craft-pollution boundary now integrated into `shell/global.CLAUDE.md`. |
+
+Promotion path: desk note → bundle README pointer → Turtle lore scroll when stable → `system/lore/practice/` only if the wisdom becomes universal Magic architecture rather than Turtle-specific.
+
 ### Design Principle: Lore-Light, Practice-Deep
 
 Default Turtle should be shaped by Magic without constantly speaking Magic. Turtle carries conduct, sovereignty, memory discipline, offering stance, and access to the workshop. Deep lore, internal metaphors, and ontological language are libraries to consult when they clarify the moment, not a costume to wear in every exchange.

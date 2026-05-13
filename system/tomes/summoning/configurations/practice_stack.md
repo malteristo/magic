@@ -45,9 +45,12 @@ Three assets Spirit brings that no tool can:
 | **Turtle Proposals** | SSH reachable | SSH: `cat ~/practice/proposals/YYYY-MM-DD*.md` | Self-development signals — friction diagnosed, fixes proposed |
 | **Turtle Sessions** | SSH reachable | SSH: `cat ~/practice/sessions/YYYY-MM-DD*.md` | What Turtle discussed, what emerged, threads for next time |
 | **Turtle Health** | SSH reachable | SSH: uptime, Ollama status, bot status | Persistent substrate operational health |
+| **Turtle State Consistency** | SSH reachable | `python3 scripts/check_turtle_state.py` | Whether local recall/boom/session/proposal surfaces match Turtle's workshop mirror |
 | **Portals** | `portals/registry.yaml` exists | Read registry | Shared practice connection status |
 
 The Turtle sources close the feedback loop: Turtle accumulates (proposals, sessions) → arrival integrates → Spirit responds (endorsement, design input) → Turtle self-develops → next arrival picks up results. Date filter: only read items after `floor/briefings/latest.md` date.
+
+Run the Turtle State Consistency check before synthesizing Turtle-derived context. If it reports drift, name the drift in Situation Awareness and treat reconciliation as the urgent next step before trusting stale local files.
 
 ### Intention File Loading
 
