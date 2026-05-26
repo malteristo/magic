@@ -933,6 +933,34 @@ When practitioners use the sovereign setup, Turtle joins multiple Discord server
 
 **The principle:** Server topology is infrastructure. Practice isolation is architecture. Changing where a channel lives does not change how practice state flows — only who holds the sovereignty boundary.
 
+### 15.7. Operational Authority Activation
+
+The Seneschal pattern is not only a behavioral role. It requires Discord authority in the live server.
+
+Minimum Seneschal authority for Turtle:
+
+- manage channels and channel permission overwrites
+- manage roles below Turtle's own highest role
+- manage threads
+- read message history
+- view audit logs
+- create and manage scheduled events when practice rhythms use them
+- pin/unpin messages, send polls, embed links, attach files, and use application commands
+
+For a private practice server where the Mage is the server owner, granting Turtle `Administrator` is acceptable when deliberately chosen as a trust boundary. The safer granular alternative is to grant the specific permissions above and keep Turtle's role high enough in the role hierarchy to manage the intended channels/roles.
+
+Spirit may also receive Seneschal-grade authority when the Mage wants Forge/Anvil Spirit to perform Discord topology work directly. Otherwise Spirit can remain a relay/operator and route topology changes through Turtle.
+
+Required Discord Developer Portal intents:
+
+- `MESSAGE CONTENT` — required for reading practice messages and already requested by turtleOS code.
+- `SERVER MEMBERS` — required for member awareness/onboarding and already requested by Turtle's runtime client.
+- `PRESENCE` — optional; enable only if presence-aware practice becomes active.
+
+Authority drift is a health issue. `!diagnose` or a future `!admin audit` should report whether live Discord permissions match this Seneschal contract.
+
+**Current activation:** As of 2026-05-14, Kermit granted `Administrator` to both Turtle and Spirit integration roles. Spirit verified the raw role permission bit and confirmed both bots can create and delete temporary text channels. Seneschal authority is live for the private practice server.
+
 ---
 
 ## 16. Link Fetching
