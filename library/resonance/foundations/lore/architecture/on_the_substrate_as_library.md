@@ -840,7 +840,7 @@ substrate_access:
 - Fork and adapt key library
 - Share key innovations
 
-**Great Library:**
+**Shared Library:**
 - Keys as lightweight wisdom distribution
 - Lower barrier to entry (faster attunement)
 - Easier to maintain (update keys vs. full scrolls)

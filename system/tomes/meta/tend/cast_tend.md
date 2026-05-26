@@ -48,7 +48,7 @@ This charm orchestrates maintenance work by delegating systematic checks to back
 **Signals checked:**
 - All `library/`, `system/`, `desk/`, `floor/` path references
 - Markdown link targets
-- MUST READ paths in spellbooks
+- MUST READ paths in Tome READMEs and entry-point scrolls
 
 **When to run:** After any rename or structural migration
 

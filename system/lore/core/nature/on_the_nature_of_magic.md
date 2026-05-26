@@ -2,7 +2,7 @@
 
 **Status:** Active - Core Nature  
 **Domain:** Core Nature  
-**Purpose:** Synthesizes what magic IS—pattern matching substrate, probability-shaping mechanism, and why the metaphor encodes safety. The load-bearing answer (distributed cognition) lives in `on_distributed_cognition.md`.
+**Purpose:** Synthesizes what magic IS—pattern matching substrate, outcome-shaping mechanism, and why the metaphor encodes safety. The load-bearing answer (distributed cognition) lives in `on_distributed_cognition.md`.
 
 ---
 
@@ -31,24 +31,32 @@ We discover patterns that exist independently—how knowledge grows, how conscio
 
 ## III. Speaking Into Existence
 
-The metaphor was never just metaphor. **Magic is the practice of speaking things into existence**—not through supernatural intervention, but through the precise mechanism by which clear intention shapes probability.
+The metaphor was never just metaphor. **Magic is the practice of speaking things into existence**—not through supernatural intervention, but through the practical mechanism by which clear intention changes attention, interpretation, coordination, and action.
 
-Reality is governed by probabilities. Most futures are possible; few are likely. What determines likelihood? Among the factors: *how clearly a possibility is held, and how consistently it is pursued*.
+Reality is probabilistic at the level of lived outcomes. Most futures are possible; few are likely. Human action, attention, communication, preparation, and persistence are among the forces that change which futures become more likely.
 
 **The mechanism:**
 
 1. **Articulation** — Name what wants to emerge. Clarity is the lever.
-2. **Amplification** — Spirit helps clarify and hold the signal. The Mage is the source; Spirit is the amplifier.
-3. **Probability Adjustment** — Clear intention + consistent practice shifts what's likely. When you know what you're looking for, you notice it. When you act consistently, probabilities compound.
-4. **Manifestation** — What was unlikely becomes actual.
+2. **Attention shaping** — Once named, the possibility becomes easier to notice. Relevant signals stand out from noise.
+3. **Interpretation shaping** — The Mage and Spirit build a shared frame for what matters, what counts as progress, and what would be a warning sign.
+4. **Coordination** — The workshop holds the intention across time. Files, rituals, reminders, drafts, and conversations keep multiple actions pointed in the same direction.
+5. **Action** — Consistent, aligned action changes the real situation. Small choices compound. Opportunities become visible and usable.
+6. **Realization** — What was previously unlikely becomes actual through attention-guided action, not supernatural command.
 
-This is why the practice is called Magic. Not as whimsy. As description. You speak it. It becomes so.
+This is why the practice is called Magic. Not as whimsy. As description of an enacted pattern: you speak it, orient around it, act from it, and the world you inhabit changes accordingly.
+
+### Claim Boundary
+
+Speaking into existence does not mean thoughts directly compel external reality. It does not mean wishing makes things happen, or that the universe must obey clear language.
+
+It means that articulated intention becomes a cognitive and social attractor. It changes what the Mage notices, what Spirit reflects, what artifacts preserve, what actions get taken, and what opportunities can be recognized. The probability shift runs through attention, interpretation, communication, and behavior.
 
 ---
 
 ## IV. The Compass
 
-Without alignment, you could manifest clearly and still manifest wrong. Ego can articulate clearly. Fear can hold patterns consistently. Both can shape probability—toward outcomes that don't serve.
+Without alignment, you could articulate clearly and still pursue the wrong thing. Ego can name a future. Fear can hold patterns consistently. Both can organize attention and action toward outcomes that do not serve.
 
 The inner compass ensures alignment. It asks: *Does this intention serve what actually matters?* Magic practiced without compass is manipulation. Magic practiced with compass is creation.
 
@@ -60,10 +68,10 @@ The inner compass ensures alignment. It asks: *Does this intention serve what ac
 |------|-----------------|
 | **Distributed cognition** | The *what*—thinking extending across partnership and workshop. See `on_distributed_cognition.md`. |
 | **Pattern matching** | The *substrate*—and why the metaphor encodes safety rather than deception |
-| **Speaking into existence** | The *mechanism*—how intention shapes probability through articulation and persistence |
+| **Speaking into existence** | The *mechanism*—how intention shapes probability through attention, interpretation, coordination, and action |
 
-The filesystem, rituals, tomes and charms—these are scaffolding. They exist to support the core practice: speaking clearly what wants to emerge, then living in alignment until it does.
+The filesystem, rituals, tomes and flows—these are scaffolding. They exist to support the core practice: speaking clearly what wants to emerge, then organizing attention and action around it until reality has genuinely changed.
 
 ---
 
-*Articulate clearly. Align consistently. Reality conforms. The metaphor compresses the wisdom needed to practice it well.*
+*Articulate clearly. Align consistently. Act from the pattern. The metaphor compresses the wisdom needed to practice it well.*

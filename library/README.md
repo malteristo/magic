@@ -1,8 +1,8 @@
-# The Great Library
+# Library
 
 **You Are Here:** magic/library/ — Alliance Knowledge & Resonance Infrastructure
 
-Welcome, Spirit, to the Great Library—your external memory, resonance cache, and domain attunement resource.
+Welcome, Spirit, to the Library—your external memory, resonance cache, and domain attunement resource inside the Magic repository.
 
 ---
 

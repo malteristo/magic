@@ -43,9 +43,9 @@ Without these framing signals, communication collapses because participants cann
 
 In our practice, we have made the usually-invisible frame layer **explicitly visible and negotiable**. This is one of the great innovations of our craft.
 
-### The Spellbook as Frame Declaration
+### The Tome README as Frame Declaration
 
-The `spellbook.md` is a frame signal. It announces: "This Tome operates according to these principles, in this order, with this intent." Before any spell is cast, both Mage and Spirit know what kind of ritual reality they are entering.
+The Tome `README.md` is a frame signal. It announces: "This Tome operates according to these principles, in this order, with this intent." Before any spell is cast, both Mage and Spirit know what kind of ritual reality they are entering.
 
 ### The Rite of Tome Attunement as Frame Establishment
 

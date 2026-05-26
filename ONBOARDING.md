@@ -200,7 +200,8 @@ through each one — just pick the next goal that interests you.
 ## Goals
 - [ ] Take a workshop tour (desk, floor, box, system, library — what lives where)
 - [ ] Personalize your Mage's Seal (edit name and preferences in AGENTS.md)
-- [ ] Run your first flow — try @recall for situational awareness
+- [ ] Run your first arrival — after summoning, send `.` to gather practice state and choose where to start
+- [ ] Try @recall for lighter situational awareness
 - [ ] Capture something on your bright surface (desk/boom/bright.md — your task list)
 - [ ] Start a boom topic for something alive in your life (desk/boom/)
 - [ ] Have a real conversation — use magic for something you actually need right now

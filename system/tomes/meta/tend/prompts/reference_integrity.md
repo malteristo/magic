@@ -15,7 +15,7 @@ Scan all markdown files for internal path references and verify each target exis
 **Patterns to check:**
 - Paths starting with `library/`, `system/`, `desk/`, `floor/`, `box/`
 - Relative paths in markdown links: `[text](path)`
-- MUST READ declarations in spellbook files
+- MUST READ declarations in Tome READMEs and entry-point scrolls
 - Source/reference sections pointing to other scrolls
 
 ## Process

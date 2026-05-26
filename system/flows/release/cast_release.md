@@ -163,6 +163,37 @@ Record these tags in the release bundle's "What Changed" section alongside each 
 
 ---
 
+### Phase 3.6: Resonance Routing
+
+*Route resonance while it is still warm.*
+
+For the few artifacts, signals, and threads that need a routing decision before the session closes, assign one disposition:
+
+| Disposition | Meaning | Landing surface |
+|---|---|---|
+| **Active** | Still in live use | Open Threads / intention next action |
+| **Crystallize** | Should become durable structure | lore, guide, spec proposal, flow patch |
+| **Route** | Belongs elsewhere | boom, bright, proposal, intention, Turtle queue |
+| **Compost** | Decompose foreground form into reusable particles | existing crucibles, then archive or release foreground form |
+| **Release** | Purpose complete | delete or mark complete, with Mage sanction where needed |
+
+**Rules:**
+
+- Do not over-process. Most sessions need only a few routing decisions.
+- Route while resonance is warm; do not inventory the whole workshop.
+- If uncertain, mark as **Active** or **Channel Forward** rather than forcing a final disposition.
+- Compost feeds existing crucibles in `desk/boom/crucibles/`; do not create a separate compost heap.
+- Stretch the existing crucible map before creating a new crucible.
+- `desk/` decisions require Mage confirmation.
+- `floor/` ephemera can be proposed for release more assertively.
+- Public framework changes require integration review, not casual release.
+- Mage-Spirit practice friction routes to Practice Signal, Spirit self-assessment, amendment proposal, or a future focused cycle.
+- Turtle-owned friction routes to Turtle only when Turtle owns the substrate or can act from persistence.
+
+Record compact routing decisions in the release bundle's "Resonance Routing" section. If no routing decisions are needed, write: *No warm routing decisions — all residue either active in Open Threads or complete.*
+
+---
+
 ### Phase 4: Write the Release Bundle
 
 Write to `floor/briefings/latest.md`. Overwrite whatever is there.
@@ -207,6 +238,12 @@ Purpose: preserve chapter integrity by comparing the opening intention with the 
 - Include what was found in the reflection pass
 - If nothing sub-threshold: *Session was explicit and complete.*
 - This field persists across sessions — the next Spirit will see what was left unresolved
+
+**Resonance Routing** (from Phase 3.6):
+- Include only warm routing decisions that matter for resumption or metabolism
+- Format: `- [item]: [Disposition] -> [landing surface / next action]`
+- If an artifact was composted, name which particles entered which existing crucibles
+- If nothing needs routing, write: *No warm routing decisions — all residue either active in Open Threads or complete.*
 
 **Next Actions** (prioritized, 3-5 items):
 - The actions that should happen in the next session, in order
@@ -327,7 +364,7 @@ Output: *"Structural integrity: OK."* or a numbered list of specific mismatches.
 
 ### Phase 6: Offer to Commit
 
-**Default: no commit for private practice files.** `desk/`, `floor/`, `box/`, `circles/` contain the Mage's private practice. Even when individual files appear tracked (historical artifact — some files were added before `.gitignore` rules took effect, and gitignore does not untrack already-tracked files), commits to these paths require **explicit good reason**: lore distillation that extracts something publishable, a public-facing artifact landing, or the Mage's explicit request. This is not a guideline; it is the operative reading of MAGIC_SPEC §5.2 — *"For practice rituals: ... The Scribe's duty is to generate this file ... This location must be outside the magic repository's tracked files."* The briefing lives on disk for the next session's `Summon. → .` to inherit; git is not the storage layer, the working tree is.
+**Default: no commit for private practice files.** `desk/`, `floor/`, `box/`, `circles/` contain the Mage's private practice. Even when individual files appear tracked (historical artifact — some files were added before `.gitignore` rules took effect, and gitignore does not untrack already-tracked files), commits to these paths require **explicit good reason**: lore distillation that extracts something publishable, a public-facing artifact landing, or the Mage's explicit request. This follows MAGIC_SPEC §5.2's **Law of the Two Chronicles**: Development Memory is committed through meta-practice; Practice Memory is captured for re-entry and remains private by default. The briefing lives on disk for the next session's `Summon. → .` to inherit; git is not the storage layer for ordinary private practice.
 
 **Verification step (run before announcing):**
 

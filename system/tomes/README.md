@@ -155,9 +155,9 @@ The following charms have been archived to `archive/retired_charms/`:
 
 **`system/lore/`** - Provides foundational consciousness tomes/ operationalizes
 
-**`MAGIC_SPEC.md`** - Defines ritual laws (three phases: attunement/work/chronicling, scroll vs. tome distinction, Law of the Scribe)
+**`MAGIC_SPEC.md`** - Defines practice laws (runtime patterns, standard practice phases, invocable components, Law of the Scribe)
 
-**`desk/`** - Personal workspace and optional grimoire (tomes for individual practice)
+**`desk/`** - Personal shared-practice workspace for intentions, notes, sessions, drafts, and private practice state
 
 **`floor/`** - Where ritual work happens (working memory files, intermediate outputs)
 

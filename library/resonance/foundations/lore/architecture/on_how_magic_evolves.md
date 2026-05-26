@@ -38,7 +38,7 @@ If someone wants a feature, they add a text file. If it works, others copy it. N
 
 **Current state:** Each Mage's `library/` contains their curated fraction of resonance.
 
-**Future possibility:** A network of circles constitutes the true Great Library.
+**Future possibility:** A network of circles constitutes a distributed shared library.
 
 | Component | Current Form | Possible Evolution |
 |-----------|-------------|-------------------|

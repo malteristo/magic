@@ -18,7 +18,7 @@ Verify that usage throughout the repository aligns with definitions in MAGIC_SPE
 
 ### 1. Term Consistency
 
-Extract key terms from MAGIC_SPEC.md (Section 6: Lexicon, Section 7: Traceability).
+Extract key terms from MAGIC_SPEC.md (Section 2: Lexicon, Section 5: System of Magic, Section 7: Architecture & Wisdom).
 
 For each term, verify:
 - Used consistently throughout codebase
@@ -34,14 +34,14 @@ For each path, verify:
 - Target contains what spec claims
 
 **Sections to check:**
-- Section 7 (Architectural Traceability)
-- Section 8 (Wisdom-Law Traceability)
+- Section 7.1 (Key Architectural Patterns)
+- Section 7.2 (Wisdom Pointers)
 - Any inline path references
 
 ### 3. Structural Claims
 
 Verify architectural claims in MAGIC_SPEC.md match reality:
-- "Tomes contain spellbooks" — Do they?
+- "Tomes and Flows have self-contained entry points" — Do they?
 - "Flows follow cast_[name].md pattern" — Do they?
 - Listed components exist at claimed locations
 

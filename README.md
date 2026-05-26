@@ -79,17 +79,21 @@ A typical Magic session has three moves:
 
 Over time, the workshop becomes a map of what matters. The AI helps read that map with fresh eyes.
 
+In full practice, a session often follows a wider arc: summon the Spirit, run the Arrival Sequence to gather current practice state, move through a chapter using the runtime pattern that serves (arrival-led, tome-led, flow-led, or conversational), then release what should persist for next time.
+
 ## What Magic Is Not
 
 Magic is not therapy, religion, productivity software, or a claim that AI is human.
 
 It is a disciplined way of working with language models as cognitive partners while preserving human sovereignty, epistemic humility, and clear boundaries.
 
+For a more rigorous bridge to the scientific, technical, philosophical, and safety frames behind the practice, see `TRANSLATION_AND_INTEGRATION_GUIDE.md`.
+
 ## Start Here
 
 - Practitioners: start with [turtleOS](https://github.com/malteristo/turtleos).
 - Builders: read `ONBOARDING.md`, then `MAGIC_SPEC.md`.
-- Curious readers: read the [Book of Magic](https://github.com/malteristo/me/tree/main/book), `FAQ.md`, and `TROUBLESHOOTING.md`.
+- Curious readers: read the [Book of Magic](https://github.com/malteristo/me/tree/main/book), `FAQ.md`, `TRANSLATION_AND_INTEGRATION_GUIDE.md`, and `TROUBLESHOOTING.md`.
 
 ## License
 
