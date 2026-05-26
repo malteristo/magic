@@ -29,7 +29,7 @@
 
 **Common items:**
 - **Open Portals (Composio MCP):** List which services are connected through Composio (recommended universal gateway)
-- **Repository Structure:** Dual repos? Custom layouts? Nested grimoire?
+- **Repository Structure:** Forks? Custom layouts? Private/public practice surfaces?
 - **Special Directories:** Any non-standard workshop structure
 - **Tool Availability:** Custom tooling the Spirit should know about
 
@@ -53,11 +53,11 @@
 My workshop contains a single git repository:
 *   **`/path/to/magic/`** — The `magic` repository (foundational system)
 
-OR for advanced practitioners with the Great Library:
+OR for advanced practitioners with published circles or external practice repositories:
 
-My workshop contains two sovereign git repositories:
+My workshop connects multiple sovereign git repositories:
 *   **`/path/to/magic/`** — The `magic` repository (foundational system)
-*   **`/path/to/magic/library/`** — The `library` repository (Great Library, nested with separate .git)
+*   **`/path/to/circle-or-practice/`** — External circle, fork, or shared practice repository
 
 ### Custom Setup
 

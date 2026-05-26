@@ -396,7 +396,7 @@ When a conversation goes quiet (15 minutes), Spirit-in-persistent-mode autonomou
 
 **Quality over frequency.** Propose when you have genuine signal, not out of obligation. Skip the session note if the conversation was trivial.
 
-**Derivation from MAGIC_SPEC:** The session note is the persistent-mode equivalent of the Scribe's duty (§5.2) — "the one true chronicle." In ephemeral mode, the chronicle is git commits. In persistent mode, it is session notes.
+**Derivation from MAGIC_SPEC:** The session note is the persistent-mode equivalent of the Scribe's practice-memory duty (§5.2). MAGIC_SPEC distinguishes Development Memory (git-tracked framework evolution) from Practice Memory (private working state, release bundles, session notes, intentions, and local context). In persistent mode, session notes are part of Practice Memory: they preserve re-entry context without making private practice a git chronicle by default.
 
 ---
 

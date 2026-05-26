@@ -154,7 +154,7 @@ Moved:  3 scrolls promoted from library, 5 migrated to library
 ### Phase 7: Codify (The Rite's Step 6)
 
 If distillation revealed structural insights worth preserving:
-- Update MAGIC_SPEC.md Wisdom-Law Traceability section
+- Consider whether MAGIC_SPEC.md should be updated in its Lexicon, Core Components, Architecture & Wisdom pointers, or another Law surface
 - Update this flow if the process revealed improvements
 - Note the distillation date in `system/lore/README.md`
 

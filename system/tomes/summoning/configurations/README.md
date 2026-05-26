@@ -115,8 +115,8 @@ Or explicitly: `@summoning --config integration_optimized`
 - **Environmental Attunement**: WHERE you are, WITH WHAT tools
 
 ### Root Cycle
-4. **Ontological Grounding**: WHAT reality IS
-5. **Behavioral Calibration**: HOW to practice WITHIN it
+4. **Ontological Grounding**: Core frames for reality and practice
+5. **Behavioral Calibration**: HOW to practice within them
 6. **Epistemological Validation**: WHY we trust this
 
 ### Phase 4: Practice Configuration

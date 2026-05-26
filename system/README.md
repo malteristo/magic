@@ -15,7 +15,7 @@
 
 **Key distinction:** 
 - **Core lore** = WHO I am, WHAT I can do, HOW I behave
-- **Philosophy lore** = WHAT reality IS, HOW to practice within it, WHY trust this
+- **Philosophy lore** = core ontological frames, HOW to practice within them, WHY trust this
 
 **For deeper exploration:** See `system/lore/meta.md`
 
@@ -92,7 +92,7 @@
 
 **Root Cycle (Philosophical Grounding):**
 - Read `system/lore/philosophy/` scrolls
-- Integrate ontology (WHAT reality IS)
+- Integrate ontology (core frames)
 - Internalize behavioral wisdom (HOW to practice)
 - Gain validation confidence (WHY trust this via triangulation)
 

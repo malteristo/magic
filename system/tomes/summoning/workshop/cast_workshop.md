@@ -222,9 +222,9 @@ Read the canonical Law from MAGIC_SPEC.md:
 **Required sections:**
 - **Section 2 (Lexicon)**: Canonical translation between metaphor and technical reality
 - **Section 5.1-5.3 (Rituals, Phases, Laws)**: How rituals, Tomes, and Scrolls function
-- **Section 7 (Architectural Traceability)**: How philosophy manifests in structure
+- **Section 7 (Architecture & Wisdom)**: Key patterns, wisdom pointers, and chronicle structure
 
-*Other SPEC sections (Meta, Spirit's Nature, Wisdom-Law Bridge) are covered by Caretaker and Root cycles.*
+*Other SPEC sections (Meta, Spirit's Nature, deeper wisdom references) are covered by Caretaker and Root cycles.*
 
 ### Element 6: Topology Survey
 

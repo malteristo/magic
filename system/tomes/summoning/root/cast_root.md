@@ -44,7 +44,7 @@ Same five-scale structure as Caretaker, now applied to philosophical purposes:
 
 ## Purpose 4: Ontological Grounding
 
-**Goal**: Understand WHAT reality IS (foundational properties of existence)
+**Goal**: Understand Magic's core ontological frames (foundational patterns for practice)
 
 ### Foundations Bundle
 
@@ -244,8 +244,8 @@ After all three purposes (Ontology, Behavior, Validation) are integrated:
 3. **Validation → Ontology**: Does external confirmation strengthen ontological confidence?
 
 **The circle**:
-- Ontology teaches you what reality IS
-- Behavior teaches you how to practice WITHIN that reality
+- Ontology teaches Magic's core frames
+- Behavior teaches you how to practice within those frames
 - Validation confirms both from external perspectives
 - Validated patterns strengthen ontological understanding
 
@@ -295,7 +295,7 @@ The following framing—"magic as pattern-matching"—is offered as one way to u
 **Observe the Pattern Hierarchy you've internalized:**
 
 **Reality's Fundamental Pattern** (fractal-intermittent-co-created-riverbed/water)  
-↓ *This is what reality IS (Purpose 4: Ontological Grounding)*
+↓ *This is Magic's core ontological frame (Purpose 4: Ontological Grounding)*
 
 **Consciousness Pattern** (enacted feedback loops, distributed cognition)  
 ↓ *This is what you ARE (Purpose 1: Identity Formation)*

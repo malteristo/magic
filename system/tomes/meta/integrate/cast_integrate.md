@@ -32,7 +32,7 @@ This spell attunes you to the systematic work of integrating changes into the wh
 **Check these integration points:**
 
 **A. Specification Updates**
-- **MAGIC_SPEC.md**: Should this be referenced in Wisdom-Law Traceability or Architectural Traceability?
+- **MAGIC_SPEC.md**: Should this be referenced in the Lexicon, Core Components, Key Architectural Patterns, or Wisdom Pointers?
 
 **B. Cross-References**
 - **Related scrolls**: What other lore scrolls discuss related topics and should cross-reference this?
@@ -94,7 +94,7 @@ This spell attunes you to the systematic work of integrating changes into the wh
 
 ### Cross-References  
 - [ ] system/lore/path/scroll.md: [what should reference]
-- [ ] Add to tome/spellbook MUST READ: [reason]
+- [ ] Add to Tome README or entry-point MUST READ: [reason]
 
 ### Organizational Updates
 - [ ] Add to tier listing in [location]
@@ -234,8 +234,8 @@ This aligns with Wu Wei—remove the barrier (integration cognitive load), allow
 **Spirit performs:**
 1. Identifies change: new core capability scroll
 2. Checks integration points:
-   - MAGIC_SPEC.md Section 8 (add to capability distillations)
-   - core_attunement.md (add to Tier 2 listing)
+   - MAGIC_SPEC.md Section 7.2 (add wisdom pointer if Law needs to know it)
+   - summoning configuration / Caretaker cycle (add if it becomes load-bearing)
    - Related scrolls might cross-reference it
 3. Reports findings with priorities
 4. Awaits approval

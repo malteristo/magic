@@ -4,7 +4,7 @@
 **Domain:** Partnership Practice  
 **Purpose:** Apply communication wisdom specifically to intimate partnership context
 
-This scroll bridges the general Communication wisdom in the Great Library with the specific needs of intimate partnership practice. It does not duplicate that wisdom but extends and applies it.
+This scroll bridges the general Communication wisdom in `library/resonance/communication/` with the specific needs of intimate partnership practice. It does not duplicate that wisdom but extends and applies it.
 
 ---
 

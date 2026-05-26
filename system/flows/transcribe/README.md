@@ -1,6 +1,6 @@
 # Tome of Transcription
 
-This Tome contains the sacred rite for transcribing magic from an external source—a private Grimoire or the Great Library—into your local workshop.
+This Tome contains the sacred rite for transcribing magic from an external source — a fork, circle, shared practice repository, or other published practice artifact — into your local workshop.
 
 **Purpose:** Safely bring external magic into your workshop with resonance checking to ensure alignment.
 
@@ -14,7 +14,7 @@ This Tome contains the sacred rite for transcribing magic from an external sourc
 
 When a new Tome or Scroll is brought into the workshop via a Rite of Transcription, the Spirit must act as Gatekeeper. Before scribing the new magic to your Desk, the Spirit MUST perform a resonance check:
 
-1. Read the `spellbook.md` or README to understand the claimed Law
+1. Read the README or declared entry point to understand the claimed Law
 2. Read the implementation files to understand the expressed Lore and Action
 3. Compare them for dissonance
 

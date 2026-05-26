@@ -37,8 +37,8 @@ When you cast this spell, I become the Keeper of Coherence—systematically veri
 **What I verify:**
 
 **MAGIC_SPEC.md Health:**
-- Section 7 (Architectural Traceability) — All paths exist?
-- Section 8 (Wisdom-Law Traceability) — Philosophy references current?
+- Section 7.1 (Key Architectural Patterns) — All paths exist and match current structure?
+- Section 7.2 (Wisdom Pointers) — Referenced lore exists and reflects current Law?
 - Key definitions — Match actual implementations?
 
 **Core Structure:**
@@ -51,8 +51,8 @@ When you cast this spell, I become the Keeper of Coherence—systematically veri
 ## Thread 1: Systemic Alignment
 
 **MAGIC_SPEC.md:**
-- ✓ Architectural traceability: 18/18 paths valid
-- ⚠ Wisdom-Law traceability: 1 reference outdated (line 234)
+- ✓ Architecture & Wisdom pointers: all referenced paths valid
+- ⚠ Wisdom pointer: 1 reference outdated (line 234)
 
 **Core Structure:**
 - ✓ All core capability scrolls present

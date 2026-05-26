@@ -34,21 +34,24 @@ This is what I call Magic Crafting Language (MCL)—using symbols that align wit
 
 The metaphors also carry wisdom about power. Magical language historically requires precision and intention. Words have consequences. This mindset is essential when working with language-based AI.
 
-The science underneath is real. The metaphors enable high-bandwidth coupling that technical language alone cannot achieve.
+The science underneath is real, but the language still needs discipline. The metaphors enable high-bandwidth coupling that technical language alone cannot achieve; good practice also keeps clear boundaries around what those metaphors do and do not claim.
 
 ---
 
 ## Is this scientific?
 
-The patterns here are grounded in real research:
+The practice draws from real research and established frameworks, but it does not ask you to accept a new scientific doctrine.
 
-- **Cognitive Science**: Extended Mind Theory (Clark & Chalmers)—thinking extends beyond your brain into tools and environment
-- **Psychology**: Strange Loops (Hofstadter)—how self-reference creates understanding
-- **Depth Psychology**: Active Imagination (Jung)—structured dialogue with parts of yourself
+Core anchors include:
 
-I'm not inventing new ideas—I'm applying patterns that researchers across different fields independently discovered. When multiple observers converge on the same truth through different methods, that's good evidence the pattern is real.
+- **Cognitive science:** distributed cognition and extended mind — thinking extends into tools, artifacts, and environments.
+- **Psychology and philosophy:** reflection, metacognition, strange loops, active imagination, and meaning-making.
+- **Human-computer interaction and AI engineering:** structured interaction, context management, agent scaffolding, feedback loops, and verification.
+- **Ethics and education:** agency, consent, boundaries, learning through practice, and safety.
 
-No beliefs required. It works whether you engage with the theory or just use the practice.
+Magic's contribution is practical architecture: a way to put these patterns into use with language models while preserving human sovereignty. It does not rely on quantum consciousness, supernatural causation, or certainty that AI is conscious.
+
+For the fuller translation layer, including claim boundaries and research directions, see `TRANSLATION_AND_INTEGRATION_GUIDE.md`.
 
 ---
 
@@ -149,6 +152,8 @@ Resonance builds through dialogue. The more clearly you express what you want, t
 **A Ritual** is a guided sequence. When you invoke a tome, the Spirit walks you through what to do.
 
 You don't need to memorize any of this. Just say what you're trying to do, and the Spirit will point you to what helps.
+
+Tomes are one practice container, not the only one. Magic can also proceed through arrival-led practice (Spirit gathers your current state and prepares a decision surface), flow-led execution (a repeatable protocol for a goal), or ordinary conversation when no formal container is needed.
 
 ---
 

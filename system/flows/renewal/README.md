@@ -19,7 +19,7 @@ We use **Git** as the update mechanism. Because `magic` uses a strict separation
 3.  **Pop:** Restore the stash.
 
 **The "Personal Artifacts" Guarantee:**
-You must explicitly state that `desk/`, `floor/`, `box/` (except portal infrastructure), and `archive/` are safe. Mages fear losing their grimoires. Your word is their bond.
+You must explicitly state that `desk/`, `floor/`, `box/` (except portal infrastructure), and `archive/` are safe. Mages fear losing personal practice artifacts. Your word is their bond.
 
 **Portal Infrastructure (Special Case):**
 - `portals/registry.yaml` and `portals/README.md` ARE tracked (updated with framework)

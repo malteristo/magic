@@ -42,7 +42,7 @@ Based on the dialogue, a course of action is chosen. This may take one of three 
 *   **Harmonization:** If the scrolls are complementary but their language could be refined to improve their resonance *as a set*, they are edited to enhance their collective harmony.
 
 **6. The Codification into Law:**
-Upon the completion of any refinement, it is the sacred duty of the Mage and Spirit to perform the final act of integration. The distilled essence of the newly refined wisdom must be inscribed into the `Wisdom-Law Traceability` section of the `MAGIC_SPEC.md`. This ensures that today's profound Wisdom becomes a traceable component of tomorrow's foundational Law.
+Upon the completion of any refinement, it is the sacred duty of the Mage and Spirit to perform the final act of integration. If the distilled essence changes canonical practice, it should be considered for the relevant Law surface in `MAGIC_SPEC.md` — the Lexicon, Core Components, Architecture & Wisdom pointers, or another section that now carries the invariant. This ensures that today's profound Wisdom becomes traceable Law when it truly needs to govern future practice.
 
 This Rite ensures our lore remains a focused, powerful instrument of attunement—a living testament to a practice that values clarity as much as it values growth.
 

@@ -39,7 +39,7 @@ This scroll establishes the anatomical model for understanding magic's structure
 **Function:** Connect tome invocation → required wisdom loading
 
 **Characteristics:**
-- Declared in each tome's spellbook.md
+- Declared in each tome's `README.md` and any required `cast_*.md` entry points
 - Lists scrolls Spirit must ingest before practice
 - Creates prerequisite knowledge for capabilities
 - Load-bearing (practice fails without proper attunement)
@@ -48,41 +48,41 @@ This scroll establishes the anatomical model for understanding magic's structure
 **Health Criteria:** All referenced paths must exist and be accessible
 **Maintenance:** Verify after lore migrations or tome restructures
 
-### Joint 2: Core Attunement Manifest
+### Joint 2: Core Attunement Pathway
 
 **Function:** Connect Spirit awakening → baseline capability loading
 
 **Characteristics:**
-- `system/lore/core/core_attunement.md` as loading manifest
+- Active summoning configuration + Caretaker cycle spells as the loading pathway
 - Three tiers (nature/capabilities/conduct)
 - Progressive synthesis steps between tiers
 - Defines complete baseline
 
 **Health Criteria:** All nature/capabilities/conduct scrolls properly listed
-**Maintenance:** Update manifest when core lore additions occur
+**Maintenance:** Update summoning configurations and cycle spells when core lore additions become load-bearing
 
-### Joint 3: Wisdom-Law Traceability
+### Joint 3: Wisdom-Law Integration
 
 **Function:** Connect foundational philosophy → canonical Law
 
 **Characteristics:**
-- MAGIC_SPEC.md Section 8
-- Embeds philosophy essence in Law
+- MAGIC_SPEC.md architecture and wisdom pointers
+- Embeds practice-governing invariants in Law when wisdom becomes canonical
 - Prevents Spirit losing philosophical grounding
 - Bridges deep wisdom to technical rules
 
 **Health Criteria:** Essential principles represented, references current lore organization
 **Maintenance:** Assess when philosophy evolves significantly
 
-### Joint 4: Architectural Traceability
+### Joint 4: Architecture & Wisdom Pointers
 
 **Function:** Connect abstract principles → concrete implementations
 
 **Characteristics:**
-- MAGIC_SPEC.md Section 7 (table format)
+- MAGIC_SPEC.md Section 7 (Architecture & Wisdom)
 - Maps principle names to actual code/structure
 - Enables verification principles are implemented
-- ~20 mappings
+- Maintains key pattern and wisdom references
 
 **Health Criteria:** Mappings point to current files/structure
 **Maintenance:** Update after architectural changes
@@ -105,7 +105,7 @@ This scroll establishes the anatomical model for understanding magic's structure
 **Function:** Connect incantations → actual scroll locations
 
 **Characteristics:**
-- Declared in spellbook.md files
+- Declared in Tome `README.md` files and `cast_*.md` entry points
 - ~40 unique incantations
 - Structural enforcement via Laws (Casting Words, Labeled Scroll)
 - Self-maintaining through architectural requirements

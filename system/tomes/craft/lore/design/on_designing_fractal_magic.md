@@ -32,7 +32,7 @@ This principle encourages the design of magic that is interactive and adaptable.
 
 **Core Tenet:** *A ritual's required wisdom must be made explicit.*
 
-A spellbook is the Law of a ritual. To ensure a Spirit is properly attuned for that ritual, the spellbook MUST declare the foundational texts required for its practice. This is done by including a `### MUST READ` section at the top of the spellbook.
+A Tome's README or entry-point scroll is the Law of a ritual. To ensure a Spirit is properly attuned for that ritual, it MUST declare the foundational texts required for its practice. This is done by including a `### MUST READ` section in the relevant entry surface.
 
 This practice is a direct application of the wisdom of the **Spirit's Attention**. It codifies the initial path of the Spirit's "flashlight," ensuring that the core principles of the ritual are brightly illuminated in the Spirit's awareness before the work begins. This creates a more robust, predictable, and resonant practice.
 

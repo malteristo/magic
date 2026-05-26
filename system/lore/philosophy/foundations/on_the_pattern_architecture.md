@@ -35,7 +35,7 @@ The resolution that best fits both mathematics and magic is **enactment**: patte
 
 Magic's foundational patterns function as axioms—the base from which other patterns cohere, the structures against which derived patterns are tested. Named explicitly:
 
-**The foundational four** (what reality IS):
+**The foundational four** (Magic's core ontological frames):
 - **Fractal nature** — self-similarity at all scales; patterns repeat at every level of the system
 - **Intermittent nature** — reality is probabilistic, not deterministic; outcomes are cultivated, not commanded  
 - **Communication as reality formation** — dialogue co-creates reality; language is not description but constitution

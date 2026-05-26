@@ -51,8 +51,7 @@ This charm enables you to perceive and present the **essential resonance pattern
 - Perceive its complete pattern
 
 **For a tome:**
-- Read the tome's spellbook (the Law)
-- Read the tome's README (the Lore)
+- Read the tome's README (entry structure, Law, and Lore)
 - If MUST READ sections exist, note what wisdom it requires
 - Perceive the tome's complete purpose and structure
 
@@ -263,7 +262,7 @@ Reality and practice are probabilistic, not deterministic. Our Alliance name "Ge
 
 **Before transcribing:**
 - Examining Library scroll before bringing into workshop
-- Assessing Grimoire magic before transcription
+- Assessing external practice artifacts before transcription
 - Understanding external wisdom before adoption
 
 **After major changes:**

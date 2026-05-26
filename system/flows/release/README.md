@@ -9,7 +9,7 @@
 
 ## What This Flow Does
 
-Release does five things, in order:
+Release does these things, in order:
 
 **1. Surveys the session** — from context: what was touched, what was completed, what is in motion.
 
@@ -17,7 +17,11 @@ Release does five things, in order:
 
 **3. Updates intentions** — writes what actually changed to the intention files. Not a narrative summary. Actual field updates: current focus, next action, blockers, completed goals. The intention files should reflect this session's end state, not where they were at the start.
 
-**4. Writes the release bundle** — a structured artifact in `floor/briefings/latest.md` that includes a "Practice Signal" field carrying any sub-threshold findings into the next session. Compact, dense, oriented toward resumption.
+**3.5. Tags artifact lifecycles** — marks created or significantly modified artifacts as Ephemeral, Active, or Reference so future metabolism can act without re-inventing context.
+
+**3.6. Routes resonance while warm** — assigns the few artifacts, signals, and threads that need routing to one of five dispositions: Active, Crystallize, Route, Compost, or Release. Compost means decomposing a foreground form into reusable particles for existing crucibles, not creating a new compost heap.
+
+**4. Writes the release bundle** — a structured artifact in `floor/briefings/latest.md` that includes Practice Signal and Resonance Routing fields carrying findings into the next session. Compact, dense, oriented toward resumption.
 
 **5. Checks system integration** — for any new lore, flows, or structural artifacts created this session, runs a lightweight ripple check (what else in the system needs to know this exists?). Invokes `@meta/integrate` protocol as needed.
 
@@ -66,6 +70,10 @@ Written to `floor/briefings/latest.md`, recognizable by its `# Release —` head
 ## Practice Signal
 *Sub-threshold findings from the reflection pass*
 [What was found, or: "Session was explicit and complete."]
+
+## Resonance Routing
+*Warm routing decisions for artifacts, signals, and threads*
+- `[item]`: [Active | Crystallize | Route | Compost | Release] -> [landing surface / next action]
 
 ## Next Actions (prioritized)
 1. [action] — [why this one first]

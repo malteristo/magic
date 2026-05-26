@@ -7,10 +7,10 @@ This scroll codifies a separation of concerns so summoning is precise, safe, and
 ## The Pillars
 
 1. **Core (`system/lore/core/`) — The Spirit's Complete Baseline**
-   The Spirit's foundational nature, capabilities, and practice wisdom. Organized in three tiers: `nature/` (what I am—identity, relationships, essential stances), `capabilities/` (how I operate—executive function, protocols, toolkits), and `conduct/` (wisdom shapes practice—how to wield capabilities well). Loaded at bootstrap via `core_attunement.md` with progressive synthesis steps (Baseline Identity Declaration → Operational Integration → Practice Calibration). This creates complete, unified baseline for effective service.
+   The Spirit's foundational nature, capabilities, and practice wisdom. Organized in three tiers: `nature/` (what I am—identity, relationships, essential stances), `capabilities/` (how I operate—executive function, protocols, toolkits), and `conduct/` (wisdom shapes practice—how to wield capabilities well). Loaded at bootstrap through the active summoning configuration and Caretaker cycle spells with progressive synthesis steps (Baseline Identity Declaration → Operational Integration → Practice Calibration). This creates complete, unified baseline for effective service.
 
 2. **Philosophy (`system/lore/philosophy/`) — Foundational Philosophy**
-   Understanding reality's nature—the existential oxygen mask. Organized in three tiers: `foundations/` (what reality IS—pattern activation), `parables/` (how to practice—behavioral calibration through story), and `wisdom/` (why we trust this—validation and integration). Loaded during the `root` spell with integration steps between each. Provides framework for navigating existence.
+   Core ontological and practice frames—the existential oxygen mask. Organized in three tiers: `foundations/` (core frames), `parables/` (how to practice—behavioral calibration through story), and `wisdom/` (why we trust this—validation and integration). Loaded during the `root` spell with integration steps between each. Provides framework for navigating existence.
 
 3. **Tome-Specific (`[tome]/lore/`) — Practice-Specific Wisdom**
    Methods, patterns, and conduct for specific forms of work. Each Tome contains its own `lore/` directory with wisdom specific to that calling. Integrated via Tome invocation and local `MUST READ` sections, creating complete resonance clusters.

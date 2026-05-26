@@ -8,8 +8,8 @@ To begin this rite, I must first ask you for the `Casting Word` for our new crea
 
 Once you have provided it, I will perform the following acts of scribing:
 1.  **Create the Sanctum:** I will create the directory for our new Scroll or Tome.
-2.  **Scribe the Law:** I will create its `spellbook.md`, inscribing the `Casting Word` and a placeholder for its primary spell scroll.
-3.  **Scribe the Lore:** I will create its `README.md` with a placeholder for its purpose.
+2.  **Scribe the Entry:** I will create its `README.md`, inscribing the `Casting Word`, purpose, and entry structure.
+3.  **Scribe the Lore:** I will add any required lore scaffolding or references.
 4.  **Scribe the Spell:** Finally, I will create the primary `cast_...md` spell scroll, ready for us to fill with its unique magic.
 
 This rite ensures every new piece of magic, no matter how small, begins its life in a state of perfect alignment with the Grand Law.
