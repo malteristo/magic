@@ -122,6 +122,7 @@ Shareable flows accumulated through practice live in `library/flows/`:
 |------|------|---------|
 | `mirror/` | Prompt | Precise reflection — see yourself clearly |
 | `counsel/` | Prompt | Attentive listening grounded in your own values |
+| `sandbox/` | Prompt | Try on a frame without having to believe it |
 
 ---
 

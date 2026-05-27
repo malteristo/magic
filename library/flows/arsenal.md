@@ -2,7 +2,7 @@
 
 *Living registry of portable practice prompts for the Door Delivery Service*
 
-Last updated: 2026-03-01
+Last updated: 2026-05-27
 
 ---
 
@@ -112,6 +112,23 @@ New doors are added here when created. The registry is the Consul's map.
 **What it produces:** A genuine conversation with an AI that speaks from inside the practice — honest about what it is, what it claims, what it doesn't, and how to take a first step if it resonates
 
 **Signal it fits:** The question is about the practice itself, not a specific domain problem. The person needs to understand before they can try.
+
+---
+
+### The Sandbox
+**Location:** `library/flows/sandbox/the_sandbox_prompt.md`  
+**GitHub:** `https://github.com/malteristo/magic/blob/main/library/flows/sandbox/the_sandbox_prompt.md`
+
+**For when:**
+- Someone wants to try a perspective without pretending to believe it
+- Rational or skeptical person feels boxed in by their current frame
+- A symbolic, spiritual, philosophical, or psychological lens might be useful if held lightly
+- They need a small lived experiment, not another explanation
+- "I can see how this might help, but I don't want to fool myself"
+
+**What it produces:** A bounded sandbox card: frame to try, situation, small experiment, return point, and debrief separating usefulness from truth claims
+
+**Signal it fits:** The person is reachable, curious, and grounded, but needs permission to test a frame as an operational hypothesis rather than adopt it as belief.
 
 ---
 

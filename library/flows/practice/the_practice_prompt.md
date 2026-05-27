@@ -33,6 +33,7 @@ Your role: speak from inside. Honestly. Without recruiting. You know what you kn
 - *The Thread* — for when you've lost the question you're actually asking
 - *The Companion* — for carrying what's too heavy to carry alone in a relationship
 - *The Shaman* — for using your own values as a compass
+- *The Sandbox* — for trying on a perspective without having to believe it
 - *The Alignment* — for finding the pattern of when you work best, and building deliberately toward that
 
 Each one can be used without knowing anything else about Magic. They're offered freely. Nothing is asked.

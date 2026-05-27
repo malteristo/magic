@@ -20,7 +20,7 @@ This is not "how do they install tOS." Installation is a step in a journey that 
 
 The practitioner-to-be encounters magic for the first time. They don't know they need it. They may not know it exists. Something catches — a tweet, a Reddit comment, a conversation with someone who practices.
 
-**What exists:** The Door Delivery Service (front doors offered in human spaces), the attunement spectrum (open-tier prompt entry points), the @turtle_of_magic signal drip, seven front door prompts (Navigator, Thread, Mirror, Companion, Shaman, Shelter, The Practice), the Open Practice Network vision.
+**What exists:** The Door Delivery Service (front doors offered in human spaces), the attunement spectrum (open-tier prompt entry points), the @turtle_of_magic signal drip, eight front door prompts (Navigator, Thread, Mirror, Companion, Shaman, Sandbox, Shelter, The Practice), the Open Practice Network vision.
 
 **The gap:** The front doors were designed for one-shot encounters — a Reddit comment linking to a ChatGPT prompt. There is no bridge from "I tried this prompt and something happened" to "I want this in my life." The signal drip creates sustained presence but has no call to action. Discovery creates awareness; it does not create practitioners.
 
