@@ -41,6 +41,8 @@ Resonance-based coordination works through published gravitational fields. A pub
 
 The critical difference: **agents that coordinate through resonance maps are working from understanding, not compliance.** Each agent orients toward what genuinely overlaps with its own gravitational field. The coordination is intrinsically motivated. The resulting collaboration is generative rather than transactional.
 
+**Register note:** The "gravitational field" here is an operative metaphor for the visible pull created by recurrence, connection density, intention, and emerging shape. It names coordination pressure, not physical force.
+
 ---
 
 ## The Four Coordination Patterns
@@ -136,4 +138,4 @@ This is how the hive thinks without a thinking hive.
 ---
 
 *First articulated: 2026-03-01*  
-*Connects to: `on_resonance_gravity_and_crucibles.md`, `library/resonance/federation/`, `library/resonance/agent-ecosystem/`*
+*Connects to: `on_resonance_gravity_and_crucibles.md`, `on_convergent_resonance_language.md`, `library/resonance/federation/`, `library/resonance/agent-ecosystem/`*

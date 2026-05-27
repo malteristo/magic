@@ -26,6 +26,8 @@ Ideas have mass. Mass comes from two sources:
 
 These two forces — recurrence and connection — are resonance gravity. Over time, particles with sufficient mass begin to attract each other into shapes. The shapes are not planned. They emerge.
 
+**Register note:** "Mass," "gravity," and "particles" are operative metaphors for attention, recurrence, and connection density. They do not claim a physical force. They give Spirit and Mage a shared way to notice when sub-threshold material has become load-bearing enough to shape practice.
+
 ---
 
 ## The Crucible as Vessel

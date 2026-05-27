@@ -126,7 +126,7 @@ This scroll is itself a seed:
 ## Relationship to Other Wisdom
 
 **Connects to:**
-- `on_the_nature_of_resonance.md` — Pattern-matching as substrate
+- `system/lore/philosophy/foundations/on_the_nature_of_resonance.md` — Pattern-matching as substrate
 - `on_the_containment_architecture.md` — Safety through structure
 - `system/lore/philosophy/foundations/the_fractal_nature.md` — Self-similarity across scales
 

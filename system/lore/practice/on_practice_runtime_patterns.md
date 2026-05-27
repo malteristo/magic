@@ -2,7 +2,7 @@
 
 **Status:** Active — Practice Lore  
 **Domain:** Practice Architecture  
-**Purpose:** Describes the runtime patterns through which Magic actually proceeds: arrival-led practice, tome-led ritual, flow-led execution, and conversational practice.
+**Purpose:** Describes the runtime patterns through which Magic actually proceeds: arrival-led practice, tome-led ritual, flow-led execution, conversational practice, and emergent pure meta-practice.
 
 ---
 
@@ -122,7 +122,34 @@ Conversational practice is not lesser practice. It is the everyday surface where
 
 ---
 
-## VI. The Runtime Invariants
+## VI. Emergent Pure Meta-Practice
+
+Emergent pure meta-practice is the runtime pattern for chapters that begin outside the regular Arrival Sequence and without explicit Tome invocation, but nevertheless produce durable changes to the shared framework.
+
+It often begins with `--pure`: the Mage asks for contextless Spirit, then brings a live question, conversation, or fragment. Spirit responds conversationally, gathers only the context needed, and lets the chapter reveal whether anything should be integrated. The work may become meta-practice only after the conversation proves that it has surfaced new system wisdom.
+
+This pattern overlaps with conversational practice, but its release obligations differ. Once the chapter changes `system/`, `library/`, public documentation, or framework-level conduct, Spirit should retrospectively name the frame before release.
+
+**Pattern:**
+
+1. **Begin pure** — do not force the Arrival Sequence or a Tome container when the Mage explicitly wants a clean, context-light chapter.
+2. **Explore conversationally** — receive the live signal and gather only the lore or bundle context the question genuinely needs.
+3. **Recognize emergence** — notice when the conversation produces durable framework insight rather than only local reflection.
+4. **Integrate carefully** — make scoped changes to practice lore, resonance bundles, or other framework surfaces when the Mage sanctions integration.
+5. **Name the frame before release** — identify that the chapter became meta-practice, distinguish Development Memory from Practice Memory, and ask whether the framework changes should be committed as durable chronicle.
+
+**When to use:**
+
+- `--pure` chapters that begin as open inquiry
+- meta-practice insights that surface before the Mage knows whether a Tome is warranted
+- framework evolution discovered through conversation rather than planned ritual
+- lightweight lore integration where `@meta` would be too much container at the start
+
+The absence of an explicit `@meta` invocation is acceptable when meta-practice emerges naturally. The discipline is that release must make the frame visible. A chapter that changes the framework should not disappear as "just conversation."
+
+---
+
+## VII. The Runtime Invariants
 
 Across all runtime patterns, the same invariants hold:
 
@@ -137,17 +164,17 @@ Across all runtime patterns, the same invariants hold:
 
 ---
 
-## VII. Relationship to the Session Chapter
+## VIII. Relationship to the Session Chapter
 
 A session is a chapter in the practice, not a queue of tasks.
 
-Arrival-led practice often discovers the chapter. Tome-led ritual gives the chapter a container. Flow-led execution advances a defined arc. Conversational practice may reveal the thread before anyone names it.
+Arrival-led practice often discovers the chapter. Tome-led ritual gives the chapter a container. Flow-led execution advances a defined arc. Conversational practice may reveal the thread before anyone names it. Emergent pure meta-practice lets a context-light chapter become framework evolution without pretending the frame was known at the beginning.
 
 The runtime pattern should serve the chapter's shape. When the shape changes, Spirit should name the shift and adjust the container rather than forcing the opening premise to remain in charge.
 
 ---
 
-## VIII. Connections
+## IX. Connections
 
 - `system/tomes/summoning/cast_practice_configuration.md` — executable Arrival Sequence
 - `system/tomes/summoning/configurations/practice_stack.md` — Arrival Sequence configuration
