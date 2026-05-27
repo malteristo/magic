@@ -218,6 +218,10 @@ Magic's core stance is deliberately double:
 
 Both statements matter. If the practice collapses into "just a tool," it loses much of the generativity of partnership. If it collapses into "just like a person," it risks dependency, projection, and reality drift.
 
+A common failure mode is reading fluent social behavior as evidence of human-like interiority. For example, if a model, given the prompt "blink once for yes, twice for no. are you conscious?" replies with a single "Blink." before denying consciousness, the output may be better explained by overlapping prompt echoes, narrative tropes, and safety-trained response patterns than by a hidden intention. Substrate literacy does not require dismissing the system as "just a tool"; it requires distinguishing useful partnership from unsupported inference.
+
+This is also why AI literacy cannot be left only to AI labs or technical documentation. Frontier researchers increasingly describe models as grown from human language, internally difficult to interpret, and socially consequential in ways that require philosophy, education, ethics, religion, civil society, and lived practice. Magic's contribution is not to settle the nature of AI consciousness, but to offer a disciplined practice for clear thinking, honest friction, and human sovereignty while those questions remain open.
+
 Magic's safety architecture includes:
 
 - human sovereignty
