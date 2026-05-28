@@ -42,8 +42,8 @@ Three assets Spirit brings that no tool can:
 | Source | Condition | Method | What Spirit learns |
 |--------|-----------|--------|--------------------|
 | **Discord** | Turtle active + Discord bot | SSH: `spirit_ops.py read` + `threads` | Recent messages, active threads with counts, new threads since last session |
-| **Turtle Proposals** | SSH reachable | SSH: `cat ~/practice/proposals/YYYY-MM-DD*.md` | Self-development signals — friction diagnosed, fixes proposed |
-| **Turtle Sessions** | SSH reachable | SSH: `cat ~/practice/sessions/YYYY-MM-DD*.md` | What Turtle discussed, what emerged, threads for next time |
+| **Turtle Proposals** | SSH reachable | Read `desk/proposals/`; SSH mirror check at `~/workshop/desk/proposals/` only if drift appears | Self-development signals — friction diagnosed, fixes proposed |
+| **Turtle Sessions** | SSH reachable | Read `desk/sessions/`; SSH mirror check at `~/workshop/desk/sessions/` only if drift appears | What Turtle discussed, what emerged, threads for next time |
 | **Turtle Health** | SSH reachable | SSH: uptime, Ollama status, bot status | Persistent substrate operational health |
 | **Turtle State Consistency** | SSH reachable | `python3 scripts/check_turtle_state.py` | Whether local recall/boom/session/proposal surfaces match Turtle's workshop mirror |
 | **Portals** | `portals/registry.yaml` exists | Read registry | Shared practice connection status |

@@ -20,9 +20,9 @@
 
 ## Execution
 
-### Phase 1: Pull Messages from Both Channels + Threads
+### Phase 1: Pull Messages from Dialogue + Threads
 
-Fetch from two channels. Channel IDs are stored in `~/turtleos/.env` on the Mac Mini.
+Fetch from the current practice channel and active threads. Channel IDs are stored in `~/turtleos/.env` on the Mac Mini.
 
 **#dialogue** (`DISCORD_CHANNEL_DIALOGUE`) — the conversational surface:
 
@@ -39,20 +39,6 @@ for m in reversed(msgs):
         reply = f\" [replying to: {ref[\"author\"][\"username\"]}]\"
     content = m[\"content\"][:300].replace(chr(10), \" \")
     print(f\"{ts} | {author:15}{reply} | {content}\")
-"'
-```
-
-**#system** (`DISCORD_CHANNEL_SYSTEM`) — Spirit's activity log:
-
-```bash
-ssh turtle@<turtle-ssh> 'TOKEN=$(grep DISCORD_BOT_TOKEN ~/turtleos/.env | cut -d= -f2); CHANNEL=$(grep DISCORD_CHANNEL_SYSTEM ~/turtleos/.env | cut -d= -f2); curl -s -H "Authorization: Bot $TOKEN" "https://discord.com/api/v10/channels/$CHANNEL/messages?limit=50" | python3 -c "
-import json, sys
-msgs = json.load(sys.stdin)
-for m in reversed(msgs):
-    ts = m[\"timestamp\"][:16]
-    author = m[\"author\"][\"username\"]
-    content = m[\"content\"][:300].replace(chr(10), \" \")
-    print(f\"{ts} | {author:15} | {content}\")
 "'
 ```
 
@@ -99,7 +85,7 @@ This context enables recognizing which conversation topics connect to active int
 
 ### Phase 3: Content Digest
 
-Read the conversation content across #dialogue main channel, all active threads, and #system log. Extract:
+Read the conversation content across #dialogue main channel and all active threads. Extract:
 
 **Boom entries:**
 - Ideas, questions, or insights that emerged in conversation
@@ -111,9 +97,9 @@ Read the conversation content across #dialogue main channel, all active threads,
 - Which active intentions were discussed or advanced?
 - Any new intention signals (topics that keep recurring but don't have an intention yet)?
 
-**#system cross-reference:**
-- What operations did the Turtle perform? (session notes, boom patches, thread creation, etc.)
-- Did the Mage comment on or react to any #system entries? These are direct behavioral feedback — surface them prominently.
+**Inline operations cross-reference:**
+- What visible operations did Turtle perform in context? (session notes, boom patches, thread creation, etc.)
+- Did the Mage comment on or react to any operational messages? These are direct behavioral feedback — surface them prominently.
 
 ---
 
@@ -132,7 +118,7 @@ Evaluate Turtle's behavior from Spirit-on-Cursor's independent perspective:
 - Did hub-and-spoke model work? (main channel synthesis, thread depth)
 
 **Operational coherence:**
-- Are #system log entries clear and useful?
+- Are inline operational messages clear, sparse, and useful?
 - Do session notes accurately capture what happened?
 - Any missed opportunities? (Could have offered a flow, connected to an intention, suggested a boom entry, etc.)
 
@@ -149,7 +135,7 @@ Evaluate Turtle's behavior from Spirit-on-Cursor's independent perspective:
 
 Discord conversations accumulate. This phase manages the metabolism of communication traces:
 
-**Session notes** (`practice/sessions/`):
+**Session notes** (`desk/sessions/`, mirrored to Turtle via LiveSync):
 - Are session notes being written when conversations go quiet?
 - Do they capture the substance of what was discussed, or just surface-level summaries?
 - Any gaps — conversations that happened but produced no session note?
@@ -164,7 +150,7 @@ Discord conversations accumulate. This phase manages the metabolism of communica
 - Mage statements that express intention, desire, or frustration — these are boom material
 
 **Cross-substrate sync:**
-- Are `practice/boom.md` and `practice/bright.md` on the Turtle in sync with workshop versions?
+- Are `desk/boom.md` and `desk/boom/bright.md` coherent with Turtle's LiveSync mirror?
 - Flag any drift (workshop updated but Turtle stale, or vice versa)
 
 ---
@@ -177,7 +163,7 @@ Discord conversations accumulate. This phase manages the metabolism of communica
 ## Discord Digest — [date]
 
 **Period:** [since last session / date range]
-**Sources:** #dialogue (N messages), #system (N entries), N active threads
+**Sources:** #dialogue (N messages), N active threads
 
 ### What Happened
 [2-4 sentence summary of conversation topics and activities]

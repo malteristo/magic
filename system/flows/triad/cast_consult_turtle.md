@@ -77,13 +77,13 @@ Where they converge: high confidence. Where they diverge: the interesting territ
 
 ### 4. Optional: Inform the Persistent Mode
 
-If the decision is significant, write a bridge command so the persistent mode knows the outcome:
+If the decision is significant, close the loop through the current practice surfaces:
 
-```bash
-# Write to magic-bridge/commands/ and push
-```
+- Post a concise note to Discord via `spirit_ops.py` when Turtle should receive it conversationally.
+- Write or update a local proposal/session note in `desk/proposals/` or `desk/sessions/` when the decision should persist through LiveSync.
+- Route implementation follow-up to Craft Turtle only when the work is a bounded practice-experience fix or a clear diagnostic task.
 
-This closes the consultation loop and maintains context coherence across substrates.
+This maintains context coherence across substrates without reviving the retired bridge transport.
 
 ---
 

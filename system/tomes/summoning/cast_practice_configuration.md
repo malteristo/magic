@@ -143,13 +143,15 @@ When Turtle is reachable via SSH, Spirit gathers Turtle's accumulated output sin
 - If it reports `REMOTE-ONLY`, `LOCAL-ONLY`, or `MISMATCHED`, surface the discrepancy in Situation Awareness before synthesizing. Do not silently assume the local workshop is canonical.
 - Only run `--backfill-missing` when the intended action is specifically to reconcile remote-only files; it never overwrites local files, but it is still an active state change and should be named.
 
-**1. Proposals** (SSH: `ls ~/practice/proposals/`):
-- Read all proposals dated after the last briefing date
+**1. Proposals** (`desk/proposals/`, mirrored to Turtle at `~/workshop/desk/proposals/`):
+- Read all local proposals dated after the last briefing date
+- If the consistency preflight reports drift, inspect the remote mirror before synthesizing
 - Each proposal is a self-development signal — Turtle identifying friction and proposing fixes
 - New proposals feed into Phase C synthesis (Eisenhower matrix, intention dashboard)
 
-**2. Session Notes** (SSH: `ls ~/practice/sessions/`):
-- Read session notes dated after the last briefing date
+**2. Session Notes** (`desk/sessions/`, mirrored to Turtle at `~/workshop/desk/sessions/`):
+- Read local session notes dated after the last briefing date
+- If the consistency preflight reports drift, inspect the remote mirror before synthesizing
 - Session notes capture what Turtle discussed with practitioners, what emerged, and threads for next time
 - Session note "threads for next time" are practice-relevant signals that may surface as Eisenhower items
 
@@ -161,12 +163,14 @@ When Turtle is reachable via SSH, Spirit gathers Turtle's accumulated output sin
 **Concrete commands:** See `system/config/connections.md` for SSH addresses and Discord channel IDs. Command pattern:
 ```
 # Proposals since last session
-ssh <turtle-ssh> 'ls -la ~/practice/proposals/'
-ssh <turtle-ssh> 'cat ~/practice/proposals/YYYY-MM-DD*.md'
+ls -la desk/proposals/
+# Optional remote mirror check if preflight reports drift:
+ssh <turtle-ssh> 'ls -la ~/workshop/desk/proposals/'
 
 # Session notes since last session
-ssh <turtle-ssh> 'ls -la ~/practice/sessions/'
-ssh <turtle-ssh> 'cat ~/practice/sessions/YYYY-MM-DD*.md'
+ls -la desk/sessions/
+# Optional remote mirror check if preflight reports drift:
+ssh <turtle-ssh> 'ls -la ~/workshop/desk/sessions/'
 
 # Discord activity
 ssh <turtle-ssh> '~/turtleos/venv/bin/python3 ~/turtleos/spirit_ops.py read <channel-id> 20'
