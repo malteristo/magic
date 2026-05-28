@@ -149,7 +149,9 @@ After the sweep, Spirit reads the persistent mode's practice health read (if ava
 
 **Check for health read:**
 ```bash
-ssh turtle@<turtle-ssh> "cat ~/practice/proposals/*health-read* 2>/dev/null"
+ls desk/proposals/*health-read* 2>/dev/null
+# Optional remote mirror check if local/remote drift is suspected:
+ssh turtle@<turtle-ssh> "ls ~/workshop/desk/proposals/*health-read* 2>/dev/null"
 ```
 
 The health read is generated autonomously by the persistent mode on Sunday morning. It covers seven dimensions: coherence, alignment, velocity, load, resonance quality, wellbeing, and external impact. Spirit incorporates this outside perspective into the sweep summary.

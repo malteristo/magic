@@ -87,8 +87,10 @@ If something is unclear, hold it for the conversation rather than guessing.
 Before routing new boom material, check whether the persistent mode has accumulated anything since the last session:
 
 ```bash
-ssh turtle@<turtle-ssh> "ls -lt ~/practice/sessions/ | head -5"
-ssh turtle@<turtle-ssh> "cat ~/practice/proposals/*.md 2>/dev/null"
+ls -lt desk/sessions/ 2>/dev/null | head -5
+ls -lt desk/proposals/ 2>/dev/null | head -5
+# Optional remote mirror check if local/remote drift is suspected:
+ssh turtle@<turtle-ssh> "ls -lt ~/workshop/desk/sessions/ ~/workshop/desk/proposals/ 2>/dev/null | head -10"
 ```
 
 If new session notes or proposals exist:

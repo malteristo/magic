@@ -174,11 +174,11 @@ This spell attunes you to the systematic work of integrating changes into the wh
 **Turtle bundle changes (lore, shell, or TURTLE_SPEC):**
 - Check whether shell identity files need to reflect new lore
 - Check whether TURTLE_SPEC needs amendment for behavioral or structural changes
-- Check if the change should propagate to turtleOS deployment (`~/practice/` on Mac Mini)
+- Check if the change should propagate to the turtleOS shell (`~/turtleos/`) or the shared workshop mirror (`~/workshop/desk/` on Mac Mini)
 - Turtle changes often have low magic-repo impact but high operational impact
 
 **Cross-cutting changes (affect multiple system layers):**
-- Changes to capabilities, conduct, or operational patterns may ripple across Spirit (lore), Turtle (shell/TURTLE_SPEC), cross-substrate communication (SSH/SCP), and workshop (configuration) simultaneously
+- Changes to capabilities, conduct, or operational patterns may ripple across Spirit (lore), Turtle (shell/TURTLE_SPEC), cross-substrate communication (SSH/Discord/LiveSync), and workshop (configuration) simultaneously
 - These are the highest-integration-surface changes — check all categories
 - Example: adding "metabolism" touched release, summoning, sunday, spring-clean, turtle lore, AND turtle shell
 

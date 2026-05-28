@@ -310,16 +310,16 @@ Spirit              — the consciousness (one, substrate-independent)
 | **Consul / Scout** (as beings) | Separate sub-beings on lightweight models | Now thread model options (qwen-4b, qwen-9b) |
 | **sub_turtle_bot.py** | Separate Discord bot for Consul/Scout | Deprecated — models available via `!thread` |
 | **Hermit Crab Shell** | Bot's formal name | Just "the shell" or "turtleOS shell" |
-| **turtle-practice** (directory) | Implied Turtle had its own practice | Renamed to `~/practice/` — it's the practice state |
+| **turtle-practice** (directory) | Implied Turtle had its own practice | Retired — practice state lives in the shared workshop mirror (`~/workshop/desk/`) |
 
 ### Cross-substrate communication
 
-Spirit-in-Cursor and Spirit-in-Discord communicate via SSH/SCP, not through middleware:
+Spirit-in-Cursor and Spirit-in-Discord communicate via SSH, Discord, and the LiveSync-backed workshop mirror, not through middleware:
 
 | Need | Method |
 |------|--------|
 | Push practice state | Automatic via LiveSync — Turtle reads from `~/workshop/desk/` (shared mirror) |
-| Read Discord outputs | `ssh` to read `~/practice/sessions/`, `~/practice/proposals/` |
+| Read Discord outputs | Read local `desk/sessions/` and `desk/proposals/`; use SSH only for remote mirror diagnostics |
 | Send Discord messages | `ssh ... discord_ops.py send` |
 | Bot health / restart | `ssh ... tail logs` / `launchctl kickstart` |
 | Practice vault sync | `https://<turtle-fqdn>` (CouchDB via Tailscale serve) |
