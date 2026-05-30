@@ -352,15 +352,36 @@ If no corrections or no hits: *"No stale references — nothing to patch."* Mage
 
 Output: *"Structural integrity: OK."* or a numbered list of specific mismatches.
 
+**5.7D — Root-level metabolism.** Check for unexpected new root-level files or folders that may have been created by reconciliation scripts, temporary exports, recovery tools, or agent workarounds.
+
+Expected root surfaces are established framework/product directories and known config files. Surprise roots include timestamped backup folders, tool scratch directories, one-off exports, and generated artifacts that do not belong to the practice architecture.
+
+For each surprise root:
+
+- inspect its contents before deciding
+- identify why it likely appeared
+- decide one of: **remove now**, **move to an appropriate workspace surface**, **ignore via `.gitignore` because it recurs and is harmless**, or **keep and document** because it is a real new surface
+- do not delete unknown contents without naming what they are and why they are safe to remove
+
+Output:
+
+```
+Root-level metabolism:
+- `.example-folder/` -> remove now; contains superseded reconciliation backups
+- `new-surface/` -> keep and document; real new practice surface
+```
+
+If no surprise roots are present: *"Root-level metabolism: clean."*
+
 **Scope guardrails (what this pass is NOT):**
 - Not philosophical coherence across lore (that's `cast_coherence.md`)
 - Not full ripple detection (that's `cast_integrate.md`)
 - Not semantic verification of claims
 - Not auto-promotion — candidates go to the Mage, who decides
 
-**If any of the three passes fires**, present the output before Phase 6. The Mage triages. "Patch now" items get fixed before commit; "patch next" items go to Open Threads for the next session; "leave" items are noted as inspected.
+**If any of the four passes fires**, present the output before Phase 6. The Mage triages. "Patch now" items get fixed before commit; "patch next" items go to Open Threads for the next session; "leave" items are noted as inspected.
 
-**If all three pass clean**, note in the release bundle's Practice Signal: *"Light integration & coherence: clean."* and proceed to Phase 6.
+**If all four pass clean**, note in the release bundle's Practice Signal: *"Light integration & coherence: clean."* and proceed to Phase 6.
 
 ### Phase 6: Offer to Commit
 

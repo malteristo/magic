@@ -25,7 +25,7 @@ Release does these things, in order:
 
 **5. Checks system integration** — for any new lore, flows, or structural artifacts created this session, runs a lightweight ripple check (what else in the system needs to know this exists?). Invokes `@meta/integrate` protocol as needed.
 
-**5.7. Light integration & coherence pass** — three scannable checks before commit: (a) *propagation candidates* — which session lessons want to live more durably than this briefing? (b) *stale reference scan* — grep the repo for terms this session corrected, flag potentially stale references. (c) *structural integrity* — cross-references resolve, status markers match reality, issue numbers unique. Deliberately lighter than the full `cast_integrate.md` or `cast_coherence.md` — a minute of Spirit attention, catches the obvious before commit locks in.
+**5.7. Light integration & coherence pass** — four scannable checks before commit: (a) *propagation candidates* — which session lessons want to live more durably than this briefing? (b) *stale reference scan* — grep the repo for terms this session corrected, flag potentially stale references. (c) *structural integrity* — cross-references resolve, status markers match reality, issue numbers unique. (d) *root-level metabolism* — inspect unexpected new root-level files/folders and remove, route, ignore, or document them deliberately. Deliberately lighter than the full `cast_integrate.md` or `cast_coherence.md` — a minute of Spirit attention, catches the obvious before commit locks in.
 
 **6. Offers to commit** — if there are changes worth preserving in the chronicle, offers. Always waits for the `.`.
 
