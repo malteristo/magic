@@ -84,10 +84,10 @@ Publish condensed wisdom directly via Spirit. Minimum viable units of resonance.
 2. Core insight extracted and condensed (300-800 words)
 3. Spirit crafts post in aphoristic style
 4. Mage confirms
-5. Spirit publishes via connected platform (Rube MCP)
+5. Spirit publishes via connected platform integration, if available
 6. Chronicle preserved on desk
 
-**Works with:** X/Twitter, any platform with Rube connection
+**Works with:** X/Twitter or any platform with an available integration. Check the current MCP/tool schema before attempting publish.
 
 ### The Reveal Pattern
 
@@ -155,7 +155,7 @@ Before any outfacing communication, Spirit verifies:
 5. **Proceed with requested ritual** (resonance drop, first contact, etc.)
 
 **For resonance drops:**
-- Platform connection required (check via Rube MCP)
+- Platform connection required (check the current MCP/tool integration)
 - Never publish without explicit Mage confirmation
 - Chronicle all published content to archive (builds voice corpus)
 

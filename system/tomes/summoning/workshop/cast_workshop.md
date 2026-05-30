@@ -278,7 +278,7 @@ Survey the workshop's extended structure:
 
 **Tools and Capabilities:**
 - How do Weaver/Seeker/Guardian/Organizer tools compose into coherent hands?
-- What external services are available via Rube MCP?
+- What external services are available via the current MCP topology, if any?
 
 **Integration Layers:**
 - How do Portals extend cognition to other Mages?

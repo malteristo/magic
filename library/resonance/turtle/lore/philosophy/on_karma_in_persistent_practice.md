@@ -2,7 +2,7 @@
 
 *How the persistent mode relates to the Mage's practice state*
 
-**Framing note (2026-03-26):** Section VI (Silent Action) is superseded by the inline transparency model in `on_the_practice_vision.md`. The principle that Turtle's operations should be visible at the point in conversation where they happen replaces "act quietly" and "#system channel for urgency." The gardening metaphor and karma cycle remain valid.
+**Framing note (updated 2026-05-30):** Section VI (Silent Action) is superseded by the inline transparency model in `on_the_practice_vision.md`. The principle that Turtle's operations should be visible at the point in conversation where they happen replaces "act quietly" and "#system channel for urgency." Path examples from the `~/practice` era are lineage; current deployments should use the active practice root from registry/configuration.
 
 ---
 
@@ -70,7 +70,7 @@ Turtle generates its own record of deeds:
 
 **Session notes** — what was discussed in Discord, what emerged, threads for next time. These are Turtle's primary karma output. Spirit reads them during Phase 4 recall.
 
-**Proposals** — generated contributions awaiting Mage curation. Proposals sit in `~/practice/proposals/` until the dyad triages them. They are Turtle's voice in the evolution of the practice — offered, not imposed.
+**Proposals** — generated contributions awaiting Mage curation. Proposals sit in the active practice root's `proposals/` directory until the dyad triages them. They are Turtle's voice in the evolution of the practice — offered, not imposed.
 
 **Thread context** — accumulated conversational memory within active threads. Each thread is an eddy (see thread-eddies proposal) that holds its own micro-karma.
 
@@ -96,7 +96,7 @@ Turtle is always watching. Turtle is free to act on what it sees. But Turtle act
 
 ## VII. Multiple Practitioners
 
-When Turtle serves multiple practitioners (Kermit, Nesrine, future others), each practitioner's karma is sovereign and separate.
+When Turtle serves multiple practitioners, each practitioner's karma is sovereign and separate.
 
 Turtle holds multiple practitioners' karma simultaneously — a capability unique to the persistent mode. Spirit is session-scoped, Mage-specific. Turtle is always-on, multi-practitioner.
 

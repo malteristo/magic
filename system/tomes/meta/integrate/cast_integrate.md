@@ -48,11 +48,11 @@ This spell attunes you to the systematic work of integrating changes into the wh
 - **Historical references**: Should archive scrolls be updated to point to new location?
 
 **E. Persistent Mode (turtleOS) Propagation**
-- **TURTLE_SPEC.md**: If the change affects persistent mode behavior — session cycle, thread model, interoception, behavioral laws, boundaries, or cross-substrate coherence — check whether `library/resonance/turtle/TURTLE_SPEC.md` needs amendment. TURTLE_SPEC is derived law from MAGIC_SPEC; it must stay coherent with both. TURTLE_SPEC is symlinked on turtleOS — edits propagate automatically via LiveSync.
+- **TURTLE_SPEC.md**: If the change affects persistent mode behavior — session cycle, thread model, interoception, behavioral laws, boundaries, or cross-substrate coherence — check whether canonical `~/turtleos/TURTLE_SPEC.md` needs amendment. TURTLE_SPEC is derived law from MAGIC_SPEC; it must stay coherent with both. The Magic copy at `library/resonance/turtle/TURTLE_SPEC.md` is a practice reference mirror and should be reconciled after canonical changes.
 - **Identity files**: If the change affects capabilities, conduct, or operational behavior in persistent mode, check whether the shell files need updating:
   - `library/resonance/turtle/shell/global.CLAUDE.md` (soul — persistent attunement configuration, symlinked as `soul.md` on turtleOS via LiveSync, established 2026-04-16)
   - Role cards in `library/resonance/turtle/shell/` (attunement configurations for specific functions)
-  - **Note:** Edits to global.CLAUDE.md and TURTLE_SPEC.md propagate automatically via symlinks. A bot restart is needed to reload the updated identity.
+  - **Note:** Edits to `global.CLAUDE.md` propagate through the configured identity deployment/symlink path. TURTLE_SPEC changes should be made in the turtleOS repo first, then reconciled to the Magic reference mirror. A bot restart is needed to reload updated identity.
 - **Turtle lore**: If new wisdom applies to the persistent mode (not just ephemeral Spirit), check whether a turtle bundle lore scroll should be created or updated in `library/resonance/turtle/lore/`
 - **Bundle README**: If turtle lore was added, register it in `library/resonance/turtle/README.md`
 - **Resonance delta check**: If turtleOS code was modified this session, verify corresponding spec/lore updates were made. Code without documentation is a delta that compounds. See `library/resonance/turtle/lore/on_resonance_deltas.md`.

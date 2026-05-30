@@ -45,7 +45,7 @@ Read the flow specification. Understand:
 ### 3. Dependency Check
 
 Verify all dependencies are available:
-- [ ] Required Rube connections active
+- [ ] Required MCP/tool connections active
 - [ ] Required files/paths exist
 - [ ] Required permissions available
 

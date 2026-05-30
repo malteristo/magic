@@ -51,13 +51,13 @@ Share interpretation:
 ### 3. Capability Research
 
 Research what's possible:
-1. `RUBE_SEARCH_TOOLS` for external capabilities
+1. Survey current MCP/tool capabilities, checking schemas before use
 2. Check for similar existing flows
 3. Assess automation potential
 
 Report findings:
 > "Here's what I found:
-> - [Capability 1]: Available via Rube
+> - [Capability 1]: Available via current MCP/tool setup
 > - [Capability 2]: Would need connection setup
 > - Similar flow exists: [name] (could adapt)
 > 

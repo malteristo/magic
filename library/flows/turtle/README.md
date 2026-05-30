@@ -227,17 +227,16 @@ pip install -r requirements.txt
 echo "Python environment ready"
 ```
 
-### 4.4 Deploy Identity
+### 4.4 Deploy Identity And Spec
 
-Symlink soul.md to the canonical source via LiveSync:
+Deploy `soul.md` from the configured identity source. Keep `TURTLE_SPEC.md` in the turtleOS repo as canonical product law; do not assume it is symlinked from the Magic reference mirror.
 
 ```bash
 # On the Mac Mini:
 ln -sf ~/workshop/library/resonance/turtle/shell/global.CLAUDE.md ~/turtleos/identity/soul.md
-ln -sf ~/workshop/library/resonance/turtle/TURTLE_SPEC.md ~/turtleos/TURTLE_SPEC.md
 ```
 
-LiveSync keeps `~/workshop/` current with the magic repo. The symlinks mean identity and spec updates propagate automatically — no manual SCP needed.
+LiveSync keeps `~/workshop/` current with the magic repo. Identity updates propagate through the configured identity link; spec updates should be made in `~/turtleos/TURTLE_SPEC.md` and reconciled back to Magic's reference copy when needed.
 
 ### 4.5 Configure Environment
 

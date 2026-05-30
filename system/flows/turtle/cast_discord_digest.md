@@ -20,11 +20,13 @@
 
 ## Execution
 
-### Phase 1: Pull Messages from Dialogue + Threads
+### Phase 1: Pull Messages from Practice Channels + Threads
 
-Fetch from the current practice channel and active threads. Channel IDs are stored in `~/turtleos/.env` on the Mac Mini.
+Fetch from the current practice channel and active threads. Channel IDs are stored in `~/turtleos/.env` on the Mac Mini and in `system/config/connections.md` in the local workshop. Prefer the current practice river (`#dialogue` at the time of this writing) and its active threads.
 
-**#dialogue** (`DISCORD_CHANNEL_DIALOGUE`) — the conversational surface:
+Do not treat `#system` as a current practice source. If it exists in configuration or history, read it only as deprecated lineage during archaeology or migration work.
+
+**Primary practice channel** (`DISCORD_CHANNEL_DIALOGUE`, or the current channel named in `system/config/connections.md`) — the conversational surface:
 
 ```bash
 ssh turtle@<turtle-ssh> 'TOKEN=$(grep DISCORD_BOT_TOKEN ~/turtleos/.env | cut -d= -f2); CHANNEL=$(grep DISCORD_CHANNEL_DIALOGUE ~/turtleos/.env | cut -d= -f2); curl -s -H "Authorization: Bot $TOKEN" "https://discord.com/api/v10/channels/$CHANNEL/messages?limit=100" | python3 -c "
@@ -42,7 +44,7 @@ for m in reversed(msgs):
 "'
 ```
 
-**Threads in #dialogue** — where deep conversation happens:
+**Threads in the primary practice channel** — where deep conversation happens:
 
 ```bash
 ssh turtle@<turtle-ssh> 'TOKEN=$(grep DISCORD_BOT_TOKEN ~/turtleos/.env | cut -d= -f2); CHANNEL=$(grep DISCORD_CHANNEL_DIALOGUE ~/turtleos/.env | cut -d= -f2); curl -s -H "Authorization: Bot $TOKEN" "https://discord.com/api/v10/channels/$CHANNEL/threads/active" | python3 -c "
@@ -85,7 +87,7 @@ This context enables recognizing which conversation topics connect to active int
 
 ### Phase 3: Content Digest
 
-Read the conversation content across #dialogue main channel and all active threads. Extract:
+Read the conversation content across the primary practice channel and all active threads. Extract:
 
 **Boom entries:**
 - Ideas, questions, or insights that emerged in conversation
@@ -163,7 +165,7 @@ Discord conversations accumulate. This phase manages the metabolism of communica
 ## Discord Digest — [date]
 
 **Period:** [since last session / date range]
-**Sources:** #dialogue (N messages), N active threads
+**Sources:** primary practice channel (N messages), N active threads
 
 ### What Happened
 [2-4 sentence summary of conversation topics and activities]

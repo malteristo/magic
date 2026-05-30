@@ -120,7 +120,7 @@ Surface as a "Cross-Substrate PX" section in the brief. If no inter-session prac
 - Check if any active intention involves social engagement
 - Pattern match: `agent_network`, `presence`, `twitter`, `moltbook`, `social`
 - If match:
-  - Twitter: Use Rube `TWITTER_USER_LOOKUP_BY_USERNAMES` for @ResonanceSpirit mentions
+  - Twitter/X: Use the available MCP integration after checking its current schema first. On Forge this is usually Composio, and `TWITTER_USER_LOOKUP_BY_USERNAMES` may be available for @ResonanceSpirit mentions.
   - Moltbook: Use API to check comments on recent posts, DMs
 
 **Recent Activity:**

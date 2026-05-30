@@ -29,7 +29,7 @@ Many gaps can be filled by context:
 
 | Gap | Inference Source |
 |-----|------------------|
-| Email account | Rube connections (what's connected?) |
+| Email account | Current MCP/tool connections (what's connected?) |
 | Newsletter definition | Common patterns (regular sender, long-form content) |
 | Output location | Workshop convention (`desk/` for artifacts) |
 | Timing | Mage's stated preference or reasonable default |
@@ -41,13 +41,13 @@ Many gaps can be filled by context:
 Before proposing an approach, research what's possible:
 
 ```
-1. RUBE_SEARCH_TOOLS → What external capabilities exist?
+1. Current MCP/tool survey → What external capabilities exist?
 2. library/flows/ → Does a similar flow already exist?
 3. Workshop scan → What's already set up?
 ```
 
 **Example resolution**:
-- Goal mentions "email" → Check Rube for email providers
+- Goal mentions "email" → Check the current MCP/tool topology for email providers
 - Gmail is connected → Use Gmail APIs
 - Goal mentions "summarize" → LLM capability available
 - Combined: Can achieve goal automatically

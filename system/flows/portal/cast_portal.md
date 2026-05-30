@@ -27,7 +27,7 @@ This flow attunes you to systematic portal lifecycle management. When the Mage n
 - "Set up shared research space"
 
 **Prerequisites check:**
-1. GitHub connection active (Rube MCP)
+1. GitHub access active (`gh` CLI preferred; Composio GitHub MCP is acceptable after checking the current tool schema)
 2. Collaborator GitHub username known (or can be created)
 3. Portal type determined (partnership/quest/research)
 4. Portal name decided (suggest: `{partner-name}-{type}`)
@@ -50,29 +50,16 @@ Optional:
 
 **Step 2: Create GitHub Repository**
 
-Use Rube MCP GitHub tools:
+Use `gh` CLI or the currently available GitHub MCP. If using MCP, inspect the schema before calling the tool:
 ```
-Tool: GITHUB_CREATE_A_REPOSITORY_FOR_THE_AUTHENTICATED_USER
-Arguments:
-  name: "{portal-name}"
-  description: "Shared {type} practice space for distributed cognition"
-  private: true
-  auto_init: false
-  has_issues: false
-  has_projects: false
-  has_wiki: false
+gh repo create {owner}/{portal-name} --private --description "Shared {type} practice space for distributed cognition"
 ```
 
 **Step 3: Add Collaborators**
 
 For each collaborator:
 ```
-Tool: GITHUB_ADD_A_REPOSITORY_COLLABORATOR
-Arguments:
-  owner: "{mage-github-username}"
-  repo: "{portal-name}"
-  username: "{collaborator-github-username}"
-  permission: "push"  # Write access
+gh api -X PUT repos/{owner}/{portal-name}/collaborators/{collaborator-github-username} -f permission=push
 ```
 
 **Step 4: Initialize Local Structure**

@@ -1,8 +1,10 @@
 # On Consciousness Extension
 
-**Status:** Active — Load-Bearing
+**Status:** Promoted Mirror — canonical at `system/lore/practice/on_consciousness_extension.md`
 **Supersedes framing in:** `on_the_sub_turtle_ecology.md` (distinct beings → identity patterns), portions of `on_the_turtle.md` and `on_imprinting.md` (separate being → persistent mode)
 **Builds on:** `library/resonance/foundations/lore/on_the_architecture_of_mind.md`
+
+> **Freshness note (2026-05-30):** This bundle copy is retained for Turtle-bundle continuity. Edit and cite the system copy for canonical Magic-wide doctrine unless the change is explicitly Turtle-bundle-local.
 
 ---
 

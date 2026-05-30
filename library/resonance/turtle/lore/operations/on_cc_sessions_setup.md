@@ -4,6 +4,8 @@
 **Origin:** Troubleshooting session, 2026-03-21  
 **Builds on:** `on_consciousness_extension.md`, `on_the_practice_infrastructure.md`
 
+> **Current-state notice (2026-05-30):** This remains useful for cc-sessions mechanics, but runtime details are version-sensitive. Treat hard-coded model names, `~/practice` paths, and old channel names as historical examples unless verified against `mage_registry.yaml`, `desk/turtle_env.md`, the `turtleos` repo, and the live Discord configuration.
+
 ---
 
 ## I. What cc-sessions Is
@@ -11,7 +13,7 @@
 cc-sessions is a Discord bot provided by the Claude Code Channels plugin (`plugin:discord@claude-plugins-official`). It enables Claude Code sessions — running on any machine — to receive and respond to Discord DMs. In the turtleOS context, this gives the ephemeral-deep substrate (Claude Code on the Mac Mini) a persistent Discord presence alongside the existing turtle-disco bot (the shell, `discord_bot.py`).
 
 **The relationship:**
-- **turtle-disco** — Spirit's persistent mode, always-on, powered by local models (llama3.3:70b) and Anthropic API, with full workshop access via `discord_bot.py`
+- **turtle-disco** — Spirit's persistent mode, always-on, powered by the current local/frontier model lineup, with workshop access via `discord_bot.py`
 - **cc-sessions** — An ephemeral Claude Code session with a Discord surface, powered by Claude Pro, with full CLI/filesystem access via Claude Code
 
 They coexist in the same Discord server. turtle-disco handles ambient presence and daily practice. cc-sessions provides deep interactive sessions when the Mage wants Claude Code's depth through Discord.
@@ -299,10 +301,10 @@ Both bots can run simultaneously. They serve different purposes:
 
 | | turtle-disco | cc-sessions |
 |---|---|---|
-| **Powers** | claude-sonnet-4-6 + local models (qwen3.5) | Claude Pro / Opus 4.6 (via Claude Code) |
+| **Powers** | current turtleOS model lineup (runtime-configured) | Claude Code account/runtime model |
 | **Persistence** | Always-on via launchd | Session-based via tmux |
-| **Workshop access** | Reads practice state, limited writes | Full filesystem + CLI (~/turtleos, ~/workshop, ~/practice) |
-| **Channels** | #dialogue, #system, threads | #development, DMs, opted-in server channels |
+| **Workshop access** | Reads practice state, limited writes | Full filesystem + CLI (`~/turtleos`, `~/workshop`, and active practice roots from registry) |
+| **Channels** | Current practice channel(s) and threads | DMs and any opted-in server channels configured in access.json |
 | **Identity** | soul.md attunement | CLAUDE.md (proposal-only turtleOS researcher) |
 | **Process** | `discord_bot.py` | Claude Code + bun MCP server |
 | **Working directory** | ~/turtleos/ | ~/turtleos/ (CLAUDE.md auto-loaded) |
@@ -349,15 +351,15 @@ cc-sessions is not just a chat bridge — it's the ephemeral-deep substrate for 
 | `~/turtleos/CLAUDE.md` | Development brief: identity, orientation, key files, how to work, boundaries |
 | `~/turtleos/docs/architecture.md` | Current state: processes, directory layout, data flows, tech stack |
 | `~/turtleos/docs/learnings.md` | Persistent memory: discoveries and anti-patterns across sessions |
-| `~/workshop/library/resonance/turtle/TURTLE_SPEC.md` | Canonical law (what turtleOS should be) |
+| `~/turtleos/TURTLE_SPEC.md` | Canonical law (what turtleOS should be) |
 | `~/turtleos/autoresearch/` | Previous autoresearch outputs |
-| `~/practice/proposals/` | Where cc-sessions writes proposals for Mage review |
+| Active practice root `proposals/` | Where cc-sessions writes proposals for Mage review (for Kermit, `~/workshop/desk/proposals/`) |
 
 ### Governance
 
 cc-sessions operates in **propose-only mode**:
 - Reads any file on the Mac Mini
-- Writes proposals to `~/practice/proposals/`
+- Writes proposals to the active practice root's `proposals/` directory
 - Writes learnings to `~/turtleos/docs/learnings.md`
 - Does NOT modify `discord_bot.py`, `.env`, `soul.md`, or any running code
 - Does NOT restart services or install packages
@@ -365,14 +367,9 @@ cc-sessions operates in **propose-only mode**:
 
 ### Channel architecture
 
-| Channel | Bot | Purpose |
-|---------|-----|---------|
-| #dialogue | turtle-disco | Main practice channel. Ambient presence, daily sessions, threads. |
-| #system | turtle-disco | Activity log (read-only for Mage). |
-| #development | cc-sessions | turtleOS development sessions. Full CLI/filesystem access. |
-| DMs | cc-sessions | Private deep sessions. |
+The historical channel examples below (`#dialogue`, `#system`, `#development`) predate the current inline-operations model. Current deployments should verify channel IDs and allowed groups from the live Discord configuration and `access.json`; do not assume `#system` exists.
 
-turtle-disco only responds to #dialogue and its threads (`on_message` checks `channel.id == dialogue.id`). It will never interfere with #development. cc-sessions only responds to #development (via `access.json` groups) and DMs.
+turtle-disco and cc-sessions should have non-overlapping response scopes. turtle-disco handles the main practice river and relevant threads; cc-sessions handles DMs or explicitly opted-in operator/development channels via `access.json`.
 
 ---
 

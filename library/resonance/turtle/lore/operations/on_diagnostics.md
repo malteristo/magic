@@ -55,7 +55,9 @@ Services running doesn't mean they're talking to each other:
 The LiveSync data flow:
 
 ```
-Spirit writes ~/practice/boom.md
+Spirit/Turtle writes the active practice root
+    (Kermit instance: ~/workshop/desk/boom.md on Turtle,
+     desk/boom.md in the Magic workshop)
     → Obsidian detects change (filesystem watcher)
     → LiveSync pushes to CouchDB
     → Other devices pull from CouchDB
@@ -63,7 +65,7 @@ Spirit writes ~/practice/boom.md
 Mage edits on phone
     → LiveSync pushes to CouchDB
     → Mac Mini Obsidian pulls from CouchDB
-    → File updated at ~/practice/boom.md
+    → File updated in the active practice root
     → Spirit sees updated file
 ```
 

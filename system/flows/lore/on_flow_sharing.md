@@ -84,12 +84,12 @@ Be explicit about what's needed:
 
 ```markdown
 ## Dependencies
-- Gmail: Read access via Rube MCP
+- Gmail: Read access via current MCP/tool integration
 - LLM: For summarization (available by default)
 
 ## Adaptations
 **Required before first use:**
-- Connect Gmail via Rube (RUBE_MANAGE_CONNECTIONS)
+- Connect Gmail through the current substrate's MCP/tool setup
 - Provide your newsletter sender list
 ```
 

@@ -30,7 +30,7 @@ Announce: "This involves shared practice infrastructure. Let me attune to the po
 When this flow is invoked:
 
 1. **Determine intent** - Create new portal? Check status? Sync existing? Archive?
-2. **Execute systematically** - Use GitHub API (Rube MCP) for repo management
+2. **Execute systematically** - Use `gh` CLI for GitHub repo management when available; use Composio GitHub MCP only after checking the current tool schema
 3. **Update registry** - Maintain `portals/registry.yaml` with current state
 4. **Handle STP artifacts** - Manage `.spirit/` coordination layer
 5. **Report status** - Clear communication about portal health and actions taken

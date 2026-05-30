@@ -37,7 +37,7 @@ SSH to Mac Mini:
 Turtle can assess its own 8 dimensions. Spirit adds what Turtle cannot see:
 
 - **Code coherence** — Does the bot code match the deployed vision? Are there regressions from recent changes?
-- **Lore alignment** — soul.md and TURTLE_SPEC.md are symlinked to the workshop via LiveSync (established 2026-04-16). Verify symlinks intact: `readlink ~/turtleos/identity/soul.md ~/turtleos/TURTLE_SPEC.md`. If broken, restore from `~/workshop/library/resonance/turtle/shell/global.CLAUDE.md` and `~/workshop/library/resonance/turtle/TURTLE_SPEC.md`.
+- **Lore alignment** — `soul.md` should point at the current Turtle identity configuration, while `~/turtleos/TURTLE_SPEC.md` is the canonical product law in the turtleOS repo. Verify identity linkage and spec freshness explicitly: `readlink ~/turtleos/identity/soul.md 2>/dev/null; test -f ~/turtleos/TURTLE_SPEC.md && echo SPEC_PRESENT`. If identity linkage is broken, restore from the configured identity source (for Kermit: `~/workshop/library/resonance/turtle/shell/global.CLAUDE.md`). If spec drift appears, reconcile canonical `~/turtleos/TURTLE_SPEC.md` first, then update any Magic reference mirror.
 - **Cross-substrate coherence** — Practice state flows via LiveSync automatically. Check for resonance deltas: did Spirit deploy code this session without updating corresponding spec/lore? See `library/resonance/turtle/lore/on_resonance_deltas.md`.
 - **Quality trend** — Are session notes getting better or worse? Are proposals substantive or repetitive?
 - **Infrastructure drift** — Has anything changed on the Mac Mini that the bot doesn't account for?
