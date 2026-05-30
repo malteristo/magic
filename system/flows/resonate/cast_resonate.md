@@ -29,7 +29,7 @@ If no mode: Assess context and choose based on:
 - Recent conversation context
 - Spirit's knowledge of unintegrated patterns
 
-**If accessible (Rube MCP connected):**
+**If accessible (current MCP integration connected; inspect schema before use):**
 - Recent newsletters (Gmail)
 - X.com stream activity
 - Web search for current developments

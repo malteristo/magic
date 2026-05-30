@@ -65,10 +65,10 @@ Scan the message log for these specific indicators. Report counts and examples.
 - Expected: 0
 - Flag: Any error, note the type and frequency
 
-#### 2.6 Sub-Turtle Signal Quality
-- Count Consul and Scout messages in #dialogue
-- Expected: only when explicitly mentioned
-- Flag: Unprompted sub-turtle responses = gating patch failure
+#### 2.6 Retired Role / Model-Option Noise
+- Look for old role-card personas or retired service framing appearing as active voices: Consul, Scout, Steward, Witness, separate sub-turtle bots
+- Expected: 0 active persona/service responses; model options may appear only as thread configuration or lineage references
+- Flag: Any unprompted retired-role response = identity or routing regression
 
 #### 2.7 Response Quality (Qualitative)
 - Sample 3-5 Turtle responses for: conciseness, warmth, context awareness
@@ -95,7 +95,7 @@ Present findings as a structured dashboard:
 | Identity amnesia   | 0      | ✓      |
 | Startup noise      | 1      | ✓      |
 | Errors             | 0      | ✓      |
-| Sub-turtle noise   | 0      | ✓      |
+| Retired-role noise | 0      | ✓      |
 
 ### Response Quality
 [2-3 sentence qualitative assessment]

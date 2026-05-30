@@ -4,6 +4,8 @@
 **Origin:** Forge 37, 2026-04-14  
 **Builds on:** `on_the_practitioner_journey.md`, `on_the_door_delivery_service.md`, `on_the_attunement_spectrum.md`
 
+> **Current-state notice (2026-05-30):** The zero-setup design remains active, but path examples below use an older `~/practice` placeholder. Current turtleOS deployments should resolve practitioner roots through the active registry/configuration and shared workshop model, not assume this literal path.
+
 ---
 
 ## I. The Problem
@@ -39,7 +41,7 @@ A Turtle instance that multiple practitioners can talk to. Not each person's own
 
 **Architecture sketch:**
 - A single turtleOS instance on a server (the Mac Mini, or a cloud box)
-- Each practitioner gets their own directory: `~/practice/practitioners/{name}/`
+- Each practitioner gets their own active practice root (resolved by registry/configuration; path is deployment-specific)
 - Turtle loads the right practitioner's files based on who's talking
 - Access via Discord (a public server with per-practitioner threads) or a web interface
 
@@ -54,7 +56,7 @@ A Turtle instance that multiple practitioners can talk to. Not each person's own
 - Full customization — they share infrastructure
 - Privacy — the Mage (or instance operator) can see their practice files
 
-**The bridge:** After practicing on the shared instance, a practitioner who wants sovereignty can export their files and deploy their own Turtle. The file protocol makes this lossless — `compass.md` from the shared Turtle drops into their own `~/practice/` unchanged.
+**The bridge to sovereignty:** After practicing on the shared instance, a practitioner who wants sovereignty can export their files and deploy their own Turtle. The file protocol makes this lossless — `compass.md` and related practice files from the shared Turtle drop into their own active practice root unchanged.
 
 **Open questions:**
 - Cost model — API calls for multiple practitioners add up. Who pays? The non-profit?

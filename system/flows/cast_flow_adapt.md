@@ -61,12 +61,12 @@ For each marker, guide the Mage:
 
 After collecting adaptations, verify dependencies:
 
-> "You chose Gmail for email. Let me check... ✓ Gmail is connected via Rube.
+> "You chose Gmail for email. Let me check... ✓ Gmail is connected through the current tool setup.
 > 
 > You chose `desk/reports/` for output. Creating that directory..."
 
 If dependency missing:
-> "You'll need to connect [service] via Rube first. 
+> "You'll need to connect [service] through the current MCP/tool setup first.
 > Would you like to do that now?"
 
 ### 5. Personalized Specification

@@ -1021,7 +1021,7 @@ This is Article VI of the Constitution (honesty and transparency) applied to lin
 
 CLI tools that use cookie-based authentication (twitter-cli, rdt-cli) require browser cookies that expire. Turtle monitors credential health through the Content Reach readiness dimension (§10.1) and alerts the Mage when renewal is needed. Turtle maintains the tools autonomously (updates, restarts); credential renewal requires the Mage.
 
-**Current coverage:** Reddit cookie expiry is monitored in `readiness.py` with threshold-based alerts. Twitter credential monitoring is not implemented — the Twitter pipeline uses Rube/MCP (Composio) rather than local CLI credentials, so local cookie monitoring doesn't apply. The pattern (check expiry, alert at threshold) is established; extending to new platforms follows the same shape in `readiness.py`.
+**Current coverage:** Reddit cookie expiry is monitored in `readiness.py` with threshold-based alerts. Twitter credential monitoring is not implemented — the Twitter pipeline uses an MCP integration such as Composio rather than local CLI credentials, so local cookie monitoring doesn't apply. The pattern (check expiry, alert at threshold) is established; extending to new platforms follows the same shape in `readiness.py`.
 
 ### 16.6. LITL Awareness
 

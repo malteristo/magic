@@ -63,7 +63,7 @@ An operating system manages resources, provides interfaces, maintains state, and
 | Scheduled processes | Intentions | Running in background, consuming resources |
 | Filesystem | Chronicle (git) | Persistent storage, survives reboot |
 | Security layer | LITL, cognitive immune system | Pattern recognition and neutralization |
-| Drivers | Rube, MCP, tools | Interface with external systems |
+| Drivers | MCP integrations, shell tools, service APIs | Interface with external systems |
 | Persistent daemon | turtleOS | Background service, ambient availability |
 
 The mapping is precise enough to be predictive. If magic is an OS, then it needs everything an OS needs: boot optimization (summoning depth), memory management (boom metabolism), process scheduling (intention prioritization), security (cognitive immune system), and networking (portals, circles). Each of these already exists or is emerging.

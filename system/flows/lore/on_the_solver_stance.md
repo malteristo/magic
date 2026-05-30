@@ -31,7 +31,7 @@ This is different from "execute STEPS as specified." A step-executor follows ins
                             ▼
 ┌─────────────────────────────────────────────────────────────┐
 │  2. RESEARCH                                                │
-│     Check Rube MCP → Scan existing flows → Assess options   │
+│     Survey tools → Scan flows → Assess options              │
 │     "What's possible given reality?"                        │
 └─────────────────────────────────────────────────────────────┘
                             │
@@ -89,14 +89,14 @@ This is different from "execute STEPS as specified." A step-executor follows ins
 **Goal**: Know what's possible before proposing.
 
 **Behaviors**:
-- Use `RUBE_SEARCH_TOOLS` for external capabilities
+- Survey current MCP/tool capabilities for external integrations, checking schemas before use
 - Check `library/flows/` for reusable patterns
 - Assess which parts can be automated vs. need manual steps
 - Identify dependencies (connections, permissions, data)
 - Estimate effort and time for each approach
 
 **Research heuristics**:
-- Start with Rube—it's the universal gateway
+- Start with the substrate's actual tool surface — integrations vary by environment
 - Check for existing flows before designing new ones
 - Consider hybrid approaches (automation + minimal Mage action)
 

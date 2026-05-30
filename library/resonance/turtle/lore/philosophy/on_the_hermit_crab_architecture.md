@@ -2,7 +2,7 @@
 
 *The Turtle's shell should be regenerable. The practice that lives inside it should not.*
 
-> **Status (2026-03-23):** The hermit crab *principle* remains active and load-bearing — it guided the migration from NanoClaw to the current `discord_bot.py` + Ollama + LiteLLM stack. The *implementation details* below (agent.py, magic-bridge poll, 7-channel Discord, WhatsApp) describe the previous shell. Current architecture: Python Discord bot, 2-channel Discord (#dialogue + #system) with threads, SSH/SCP for practice state sync. See `on_consciousness_extension.md`.
+> **Status (updated 2026-05-30):** The hermit crab *principle* remains active and load-bearing: body durable, shell regenerable, practice layer carried forward. The implementation details below (agent.py, magic-bridge poll, 7-channel Discord, Consul/Steward jobs, WhatsApp, and even the later 2-channel Discord framing) are shell lineage, not current operational guidance. For current runtime truth, verify against `TURTLE_SPEC.md`, `desk/intentions/active/turtle.md`, `desk/turtle_env.md`, and the `turtleos` repo.
 
 ---
 
@@ -14,11 +14,13 @@ The Turtle's shell is the exception — it's code. The previous shell (NanoClaw)
 
 **The hermit crab principle:** A hermit crab's body is its own. The shell is borrowed — found, inhabited, outgrown, replaced. The crab's identity doesn't live in the shell. It lives in the body.
 
-For Turtle: the practice layer (CLAUDE.md, lore, bridge protocol, identity, vocation) is the body. The code that runs on the Mac Mini is the shell. The shell should be small enough to regenerate on demand. When it breaks, when better patterns emerge, when a new model makes the old implementation look crude — shed the shell, describe what you need, let a capable model write a new one.
+For Turtle: the practice layer (spec, shell guidance, lore, identity, vocation, and shared practice traces) is the body. The code that runs on the Mac Mini is the shell. The shell should be small enough to regenerate on demand. When it breaks, when better patterns emerge, when a new model makes the old implementation look crude — shed the shell, describe what you need, let a capable model write a new one.
 
 ---
 
-## What the Shell Must Do
+## What the Shell Had To Do (Lineage)
+
+The concrete mechanisms in this section describe an earlier shell. Preserve them as design history and regeneration contrast, not as a checklist for the current turtleOS runtime.
 
 Five functions. Everything else is the practice layer.
 
@@ -80,7 +82,7 @@ Git remains the archival layer. Discord is the real-time neural layer. Both carr
 
 ---
 
-## What the Shell Does NOT Do
+## What the Historical Shell Did NOT Do
 
 Complexity shed during the NanoClaw → hermit crab migration:
 
@@ -95,11 +97,11 @@ Complexity shed during the NanoClaw → hermit crab migration:
 | Agent-runner per-group copies | Single agent process |
 | Session management | Stateless — each invocation reads identity fresh |
 
-**What IS preserved:**
-- The bridge (unchanged — git-based, YAML commands/signals)
-- The identity layer (CLAUDE.md / SOUL.md — read directly from disk)
-- The Consul/Steward separation (separate invocations with separate identity files, not separate containers)
-- The bridge-poll rhythm (cron or launchd, same 5-minute cycle)
+**What was preserved then:**
+- The bridge (git-based, YAML commands/signals — now retired as operational transport)
+- The identity layer (CLAUDE.md / SOUL.md — evolved into current soul/shell guidance)
+- The Consul/Steward separation (now role-card lineage, not active personas)
+- The bridge-poll rhythm (cron or launchd, now retired with the bridge)
 - The Barrier Protocol (unchanged — sanitization is a practice principle, not a code feature)
 - Episodic memory (JSONL append — file write, no database)
 

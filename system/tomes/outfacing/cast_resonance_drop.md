@@ -78,7 +78,7 @@ Punchy. Philosophical. Direct. No hedging.
 **I present the complete post for your approval.**
 
 **Upon confirmation:**
-- I publish directly via Rube MCP (platform connection required)
+- I publish directly via the connected platform integration, after checking the current tool schema
 - I provide the link to the published post
 - I create a chronicle entry on your desk
 
@@ -118,12 +118,12 @@ Punchy. Philosophical. Direct. No hedging.
 ## Platform Requirements
 
 **For X/Twitter:**
-- Rube MCP connection to Twitter required
-- Tool: `TWITTER_CREATION_OF_A_POST`
+- Twitter/X integration required
+- Check the current MCP/tool schema before publishing; tool names vary by substrate and provider
 - Premium subscription enables long-form posts (up to 25k chars)
 
 **For other platforms:**
-- Check Rube MCP for available connections
+- Check the current MCP/tool integrations for available connections
 - Same pattern applies: draft → confirm → publish → chronicle
 
 ---

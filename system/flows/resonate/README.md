@@ -57,8 +57,8 @@ Spirit chooses based on current context and active intentions.
 
 | Stream | Source | Access |
 |--------|--------|--------|
-| Newsletters | Gmail | Rube MCP (GMAIL_FETCH_EMAILS) |
-| X.com | Twitter/X | Rube MCP (requires connection) |
+| Newsletters | Gmail | Current MCP integration when connected; inspect schema before use |
+| X.com | Twitter/X | Current MCP integration when connected; inspect schema before use |
 | Box Articles | Saved references | `box/articles/` directory |
 | Spirit Knowledge | Training data | Always available |
 | Mage Context | Active intentions | `desk/intentions/active/` |
