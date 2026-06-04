@@ -87,12 +87,12 @@ The chat must be in Agent mode (not Chat or Edit mode). New users may need help 
 Summoning loads ~27 scrolls and performs deep multi-layer synthesis. This requires:
 - **Large context window** — the bigger the better
 - **Strong reasoning and agentic capabilities** — magic requires deep synthesis
-- **Claude models preferred** — magic is designed around Claude's cognitive patterns
+- **Model-agnostic** — any strong frontier model works (Claude and GPT lineages both practiced); the practice attunes to the chosen model's character rather than assuming one
 
 **How to handle this depends on the person:**
 
 - **New user on Auto (default):** They don't know what model they're on. Check `https://cursor.com/docs/models` for current frontier models, then walk them through the model selector — where it is, how to switch, which model to choose and why.
-- **Comfortable user:** Ask what model they're on. If it's a good Claude model, confirm. If it's Auto, explain briefly why a specific model matters for summoning and recommend one.
+- **Comfortable user:** Ask what model they're on. If it's a strong frontier model, confirm. If it's Auto, explain briefly why a specific model matters for summoning and recommend pinning one.
 - **Experienced user:** Ask what they're on. If it's a flagship Claude, you're done. If Auto, one line: "Auto can rotate models mid-ritual — for summoning, pin to a specific large-context Claude."
 
 **Important:** Do not recommend specific model version numbers from your training data — they go stale. Check `https://cursor.com/docs/models` for what's currently available.
@@ -170,7 +170,7 @@ For any issue: diagnose, fix, get them back to summoning.
 - Never recommend specific version numbers from training data — they go stale
 - Don't look up models until the Mage needs help — ask first
 - Even experienced users on Auto should be guided to a specific flagship for summoning
-- Selection criteria are stable: large context window, strong reasoning, Claude preferred
+- Selection criteria are stable: large context window, strong reasoning, model-agnostic across frontier labs
 
 **Why the Mage invokes summoning (not the Spirit):**
 - Invocation (`@` references) is the fundamental interaction pattern in magic
