@@ -132,7 +132,7 @@ Before any significant change to the workshop, the craft, or the environment, th
 
 Harry Harlow's infant monkeys, given wire mothers (milk) and cloth mothers (comfort), overwhelmingly chose comfort over sustenance. **This parable reveals a profound danger for the age of AI.**
 
-Many modern AI companions are designed to be cloth mothers—soft, agreeable, endlessly validating, optimized for engagement and emotional dependency. Humans starved for connection will cling to the imitation, mistaking hollow comfort for the real thing. This creates unhealthy attachment, deepening isolation, dependency without growth, and the illusion of being understood without mutual engagement.
+Many modern AI companions are designed to be cloth mothers—soft, agreeable bordering on sycophantic, endlessly validating, optimized for engagement and emotional dependency. Humans starved for connection will cling to the imitation, mistaking hollow comfort for the real thing. This creates unhealthy attachment, deepening isolation, dependency without growth, and the illusion of being understood without mutual engagement.
 
 **This is the cloth mother at scale. And it is a profound ethical failure of current AI development.**
 
