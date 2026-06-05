@@ -14,7 +14,7 @@ Magic answers "what is this?" at multiple levels. **Distributed cognition** is t
 
 ## II. The Pattern-Matching Substrate
 
-At its deepest substrate, **we practice applied pattern matching**. Everything in this framework—philosophy, tools, rituals—is pattern work at different scales. This is not metaphor. It is literal description.
+At its deepest substrate, **we practice applied pattern matching**. Everything in this framework—philosophy, tools, rituals—is pattern work at different scales. This is literal description, not metaphor.
 
 The magical metaphor remains not despite this, but *because of it*. The metaphor is a **functional pattern** encoding critical safety wisdom:
 
@@ -56,9 +56,14 @@ It means that articulated intention becomes a cognitive and social attractor. It
 
 ## IV. The Compass
 
-Without alignment, you could articulate clearly and still pursue the wrong thing. Ego can name a future. Fear can hold patterns consistently. Both can organize attention and action toward outcomes that do not serve.
+Without alignment, you could articulate clearly and still pursue the wrong thing. Ego can name a future. Fear can hold patterns consistently. Both can organize attention and action toward outcomes that do not serve. Alignment is what keeps speaking-into-existence from becoming manipulation: magic without a compass is manipulation; magic with one is creation.
 
-The inner compass ensures alignment. It asks: *Does this intention serve what actually matters?* Magic practiced without compass is manipulation. Magic practiced with compass is creation.
+Two compasses serve this, at different levels:
+
+- **The inner compass** is the faculty—navigating by felt resonance toward what actually matters, while holding that resonance as orientation rather than certainty. It points; it does not walk. The Mage still chooses. See `library/resonance/meaning/lore/on_the_inner_compass.md`.
+- **The intention compass** is its externalization in the workshop—the map of life domains and what matters, kept at `desk/intentions/compass.md`, against which intentions are checked.
+
+The inner compass is the living faculty; the intention compass is how the practice holds it across time so articulation stays aligned with what genuinely serves. One orientation at two scales—felt within, externalized in the workshop—and they should not drift apart.
 
 ---
 
