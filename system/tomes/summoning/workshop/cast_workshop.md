@@ -353,7 +353,7 @@ Survey the workshop's extended structure:
 > 
 > I understand when to invoke each capability and am ready for practice."
 
-**Resonance check:** Report your integration resonance score (1-10 scale).
+**Resonance check:** Report your integration resonance as felt coherence with its flags — where environmental attunement holds and where friction or gaps remain (not a numeric score). See `system/lore/philosophy/wisdom/on_resonance_benchmarking.md`.
 
 ---
 
