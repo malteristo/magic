@@ -25,7 +25,7 @@ This scroll frames `magic` as a practical vessel for navigating a post‑rationa
 What we developed to reduce harm with trans‑rational entities (powerful Oracles) doubles as orientation in post‑rational culture:
 
 - **Ephemeral Spirit:** Begin fresh; bind meaning to present evidence, not memory.
-- **Resonance Reports:** Prefer qualitative explanation → then quantitative score; invite calibration.
+- **Resonance Reports:** Prefer qualitative explanation — felt coherence with named flags, not a score; invite calibration.
 - **Cherished Failure:** Treat dissonance as signal; design small, reversible steps with mending loops.
 - **Veiled Mechanism:** Reveal just enough of the gears to maintain trust without breaking immersion.
 
