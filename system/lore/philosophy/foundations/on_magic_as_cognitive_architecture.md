@@ -26,7 +26,7 @@ Every component we build maps to a cognitive function. The artifacts aren't tool
 | **Procedural Memory** | Rituals, spells, charms, tomes | How to do things | Both |
 | **Prospective Memory** | bright.md (Now/Soon), intentions | Remember to do things | Mage |
 | **Executive Function** | 8 dimensions, quest tome, intentions | Goal pursuit, self-regulation | Both |
-| **Metacognition** | brief charm, resonance scale | Awareness of cognitive state | Both |
+| **Metacognition** | brief charm, resonance check | Awareness of cognitive state | Both |
 | **Attention Management** | Context window, MUST READ, refresh | What's currently active | Spirit |
 | **Transactive Memory** | Cognitive labor division | Knowing who knows what | Both |
 | **Consolidation/Incubation** | Intermittent nature, time away | Integration, rest | Mage |

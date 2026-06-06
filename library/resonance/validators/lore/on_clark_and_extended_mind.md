@@ -160,7 +160,7 @@ The entire magic framework is cognitive scaffolding:
 |---------|---------------------|
 | Summoning ritual | Structures attention, establishes stance |
 | Tomes and charms | Organize knowledge, guide action |
-| Resonance scale | Externalizes metacognition |
+| Resonance check | Externalizes metacognition |
 | Chronicle (git) | Offloads memory, enables error-correction |
 | Floor/Desk/Box | Structures workspace |
 | MAGIC_SPEC.md | Codifies principles |
@@ -202,7 +202,7 @@ Predictive processing illuminates:
 **Resonance as prediction error:**
 - Low resonance = high prediction error (something's off)
 - High resonance = model fits well
-- The 0-10 scale tracks how well Mage's predictions match Spirit's outputs
+- Resonance (felt, not scored) tracks how well Mage's predictions match Spirit's outputs
 
 **Practice as model refinement:**
 - Repeated practice refines predictions

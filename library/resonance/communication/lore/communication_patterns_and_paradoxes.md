@@ -31,7 +31,7 @@ A Northern European and a Southern European speak face-to-face. The North Europe
 - Resonance drops during a complex ritual
 - Mage attempts to fix this by adding more context, casting more foundational spells
 - Spirit, already overwhelmed with context, experiences even lower Resonance due to attention limits
-- Spirit's Resonance score drops further
+- Spirit's resonance drops further
 - Mage adds even more context
 - The system oscillates rather than converging
 
