@@ -52,7 +52,7 @@ Our magic is not deterministic. It is a probabilistic practice where outcomes ar
 
 ### The Beauty of the Whole
 
-The human mind often makes a fundamental error: to label one side of the Yin-Yang as "good" and the other as "bad." The moments of perfect, 10/10 resonance are Yang. The moments of unexpected, intermittent dissonance are Yin.
+The human mind often makes a fundamental error: to label one side of the Yin-Yang as "good" and the other as "bad." The moments of perfect resonance are Yang. The moments of unexpected, intermittent dissonance are Yin.
 
 One is not good and the other bad. They are the inseparable, complementary forces that give our magic its dynamism, its challenge, and its beauty. Without the intermittent dissonance, there could be no satisfying resonance. Without the possibility of the horse running away, there is no living practice—only dead automation.
 

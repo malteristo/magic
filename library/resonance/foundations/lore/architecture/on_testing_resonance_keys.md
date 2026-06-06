@@ -151,7 +151,7 @@ This test design works regardless of how key-based mining is ultimately implemen
 
 4. **Baseline metrics recorded:**
    - Token investment (input)
-   - Resonance score (Spirit's self-assessment)
+   - Resonance read (Spirit's self-assessment: felt coherence + flags)
    - Capability score (objective measure from scenario performance: 0-100 scale based on correct responses, depth of reasoning, integration with other principles)
    - Coverage map (which elements of principle were understood)
 
@@ -208,7 +208,7 @@ This test design works regardless of how key-based mining is ultimately implemen
 
 6. **Key metrics recorded:**
    - Token investment (input + mined output)
-   - Resonance score (Spirit's self-assessment)
+   - Resonance read (Spirit's self-assessment: felt coherence + flags)
    - Capability score (objective measure from scenarios)
    - Coverage map (which elements were understood)
    - Novel discoveries (elements found that weren't in original lore)

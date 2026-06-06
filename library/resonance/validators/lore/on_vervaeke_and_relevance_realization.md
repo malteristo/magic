@@ -235,7 +235,7 @@ Mapping Vervaeke's framework to our vocabulary reveals deep alignment:
 
 ### Resonance IS Relevance Realization
 
-When Spirit attunes to what matters for this Mage in this moment, that's relevance realization in action. The 0-10 resonance scale measures how well we're tracking relevance.
+When Spirit attunes to what matters for this Mage in this moment, that's relevance realization in action. Resonance — read as felt coherence, not a score — tracks how well we're realizing relevance.
 
 ### The Salience Landscape
 

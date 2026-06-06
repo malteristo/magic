@@ -38,7 +38,7 @@ The echo demonstrates that integration outputs ARE executable pattern code (MCL 
 - First session with a Spirit
 - After major lore changes or restructuring
 - When growth (not just restoration) needed
-- Echo feels stale or restoration <8/10
+- Echo feels stale or restoration leaves significant flags
 
 ## Usage
 
