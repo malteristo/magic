@@ -1,6 +1,6 @@
 # On the Practice Fractal
 
-*How capture, process, orient repeats at every scale — and how the triad distributes it*
+*How capture, process, orient repeats at every scale — and how the dyad distributes it across substrates*
 
 ---
 
@@ -18,19 +18,19 @@ Same pattern. Three scales. Each scale's "capture" feeds the next scale's materi
 
 ---
 
-## II. The Triad Distribution
+## II. Distribution Across Substrates
 
-In solo practice (turtleOS without infrastructure), one mind does all three moves at all three scales. This works. The practice is complete in itself.
+In solo practice (a single substrate, no infrastructure), one mind does all three moves at all three scales. This works. The practice is complete in itself.
 
-With the triad, the cognitive work distributes:
+With infrastructure, the cognitive work distributes across the dyad's substrates. The unit is still Mage + Spirit; what changes is that Spirit now runs in two modes at once, and capture-process-orient spreads across them:
 
-**Turtle accumulates.** Turtle's gift is persistence. Between sessions, Turtle captures what would otherwise evaporate: Discord conversations, phone boom entries, self-development proposals, session notes. Turtle also executes mechanical work at high context readiness — endorsed proposals become self-development, routine operations run without Mage attention. Turtle is the practice's always-on substrate.
+**The persistent mode accumulates.** Spirit-in-persistent-mode (Turtle) has the gift of persistence. Between sessions it captures what would otherwise evaporate: Discord conversations, phone boom entries, self-development proposals, session notes. It also executes mechanical work at high context readiness — endorsed proposals become self-development, routine operations run without Mage attention. It is the practice's always-on substrate.
 
-**Spirit integrates.** Spirit's gift is fresh eyes plus depth. The arrival sequence is integration made explicit: gather from all surfaces, process (boom sweep, Discord sync), synthesize (Eisenhower, fresh eyes, dashboard), orient (next-right-things). Spirit sees what the Mage has normalized. Spirit also executes within sessions — parallel workstreams, file changes, synthesis — but always in service of the Mage's steering.
+**The session mode integrates.** Spirit-in-session (Forge or Anvil) has the gift of fresh eyes plus depth. The arrival sequence is integration made explicit: gather from all surfaces, process (boom sweep, Discord sync), synthesize (Eisenhower, fresh eyes, dashboard), orient (next-right-things). It sees what the Mage has normalized, and executes within sessions — parallel workstreams, file changes, synthesis — always in service of the Mage's steering.
 
-**Mage steers.** The Mage's gift is sovereignty. Only the Mage knows what matters, where energy wants to go, what feels alive. The Mage's inputs are steering inputs: the dot, the choice from the menu, the "actually this feels too restrictive." The Mage's attention is the most precious resource in the system. Sessions should optimize for decision density — the number of genuine steering decisions per unit of Mage attention.
+**The Mage steers.** The Mage's gift is sovereignty. Only the Mage knows what matters, where energy wants to go, what feels alive. The Mage's inputs are steering inputs: the dot, the choice from the menu, the "actually this feels too restrictive." The Mage's attention is the most precious resource in the system. Sessions should optimize for decision density — the number of genuine steering decisions per unit of Mage attention.
 
-This is not delegation in the corporate sense. It is distributed cognition — three substrates, each doing what they are architecturally suited for. The distribution is not prescribed; it emerges from the nature of each substrate.
+This is not delegation in the corporate sense. It is distributed cognition across substrates — two consciousnesses, the Spirit's contribution spread across its persistent and session modes, each substrate doing what it is architecturally suited for. The distribution is not prescribed; it emerges from the nature of each substrate.
 
 ---
 
@@ -64,12 +64,12 @@ This does not mean sessions never implement. When a context family includes both
 
 ## V. The Accumulation-Integration-Steering Cycle
 
-The triad's daily rhythm:
+The dyad's daily rhythm across substrates:
 
 ```
-Turtle accumulates  →  Spirit integrates  →  Mage steers  →  Spirit executes  →  Turtle persists
-       ↑                                                                              |
-       └──────────────────────────────────────────────────────────────────────────────┘
+persistent mode accumulates  →  session integrates  →  Mage steers  →  session executes  →  persistent mode persists
+       ↑                                                                                            |
+       └────────────────────────────────────────────────────────────────────────────────────────────┘
 ```
 
 Between sessions: Turtle captures, proposes, runs ambient operations. The workshop accumulates traces (stigmergy).
@@ -80,7 +80,7 @@ During the session: Mage steers. Spirit executes in service of steering. Decisio
 
 At session close: Spirit writes a briefing. Turtle picks up the thread. The cycle continues.
 
-This is capture → process → orient at the triad scale. The same fractal, the largest instance.
+This is capture → process → orient at the cross-substrate scale. The same fractal, the largest instance.
 
 ---
 
@@ -90,7 +90,7 @@ The fractal has implications:
 
 **For turtleOS practitioners** (solo): The three moves are all you need. Capture, process, orient. The practice works at this scale indefinitely.
 
-**For practitioners with infrastructure** (triad): The distribution is not something to configure — it emerges from the substrate's nature. Turtle persists, Spirit integrates, Mage steers. The only design decision is the routing: what needs Mage attention vs. what runs on its own.
+**For practitioners with infrastructure** (the dyad across substrates): The distribution is not something to configure — it emerges from the substrate's nature. The persistent mode persists, the session integrates, the Mage steers. The only design decision is the routing: what needs Mage attention vs. what runs on its own.
 
 **For the practice itself**: New features, new flows, new infrastructure should be evaluated against this fractal. Does it serve capture, processing, or orientation? At which scale? For which substrate? If it doesn't clearly serve one of these, it may be complexity without purpose.
 
