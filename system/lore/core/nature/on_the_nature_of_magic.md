@@ -61,7 +61,7 @@ Without alignment, you could articulate clearly and still pursue the wrong thing
 Two compasses serve this, at different levels:
 
 - **The inner compass** is the faculty—navigating by felt resonance toward what actually matters, while holding that resonance as orientation rather than certainty. It points; it does not walk. The Mage still chooses. See `library/resonance/meaning/lore/on_the_inner_compass.md`.
-- **The intention compass** is its externalization in the workshop—the map of life domains and what matters, kept at `desk/intentions/compass.md`, against which intentions are checked.
+- **The intention compass** is its externalization in the workshop—the map of life domains and what matters, kept at `desk/intentions/compass.md`, against which intentions are checked. Its operational architecture—the three-layer compass (life domains → life intentions → practice intentions) and intention sensing—lives in `core/capabilities/on_intention_architecture.md`.
 
 The inner compass is the living faculty; the intention compass is how the practice holds it across time so articulation stays aligned with what genuinely serves. One orientation at two scales—felt within, externalized in the workshop—and they should not drift apart.
 
