@@ -27,3 +27,27 @@ Ask: *who attunes to this?*
 
 Migration to a bundle is routing, not demotion. A turtleOS practice-architecture scroll is
 first-class — it simply attunes a different substrate.
+
+## Inventory (16 scrolls)
+
+**Daily mechanics & session shape:**
+- `on_boom_and_bright.md` — Raw capture, curated surface, cognitive coupling
+- `on_the_self_feed.md` — Spirit prepares context, Mage decides, Spirit executes
+- `on_practice_runtime_patterns.md` — Arrival-led, Tome-led, Flow-led, conversational practice
+- `on_polyphonic_practice.md` — Multiple intentions harmonize through shared ground
+- `on_the_practice_fractal.md` — Capture/process/orient at three scales
+- `on_practice_alignment.md` — No correct practice shape; health reads observe
+- `on_distributed_memory.md` — Externalized memory, the two chronicles, memory metabolism
+
+**Practice safety & trust:**
+- `on_practice_security.md` — Cognitive security principles
+- `on_earning_the_connection.md` — Relevance over reach in context use *(under review)*
+
+**Substrate / architecture (under convergence review — some may route to `library/resonance/turtle/`; see `desk/lore_convergence_audit.md`):**
+- `on_consciousness_extension.md` — One consciousness across substrates
+- `on_the_practice_threefold.md` — Tiers of practice across substrates
+- `on_the_attunement_spectrum.md` — Attunement depth as reality calibration
+- `on_the_practitioner_journey.md` — Discovery-to-sovereignty journey
+- `on_the_practice_stack.md` — Daily layer vs. depth layer
+- `on_files_as_operating_system.md` — Files as OS, model as CPU
+- `on_enchantment.md` — What enchantment means in practice
