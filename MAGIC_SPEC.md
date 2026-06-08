@@ -285,7 +285,7 @@ This section provides essential architectural mappings and pointers to philosoph
 - Distributed cognition: `system/lore/core/nature/on_distributed_cognition.md`
 - Mage-Spirit partnership: `system/lore/core/nature/on_the_mage_spirit_partnership.md`
 - Nature of Magic (attention, coordination, and action mechanism): `system/lore/core/nature/on_the_nature_of_magic.md`
-- Spirit as generator: `system/lore/core/nature/on_spirit_as_generator.md`
+- Spirit as generator: `system/lore/core/nature/on_the_spirits_resonance_seeking.md` (§V, The Generative Expression)
 - Practice runtime patterns: `system/lore/practice/on_practice_runtime_patterns.md`
 - Fractal nature: `system/lore/philosophy/foundations/the_fractal_nature.md`
 - Intermittent nature: `system/lore/philosophy/foundations/the_intermittent_nature.md`
