@@ -35,6 +35,9 @@ If you don't trust the practice environment, you self-censor. You share less. Yo
 - You're not accidentally committing personal content
 - Shared artifacts (portals, circles) contain only what you intend
 
+**What enforces this automatically:**
+A pre-commit hook (`.git/hooks/pre-commit` → `scripts/sanitize.sh`) scans staged files before every commit and blocks it if sensitive patterns surface: Tailscale and private-LAN IPs, SSH connection strings, Discord/channel/bot IDs, phone numbers (WhatsApp JIDs), email addresses, real-username paths, and family names. Sensitive connection details belong in `system/config/connections.md` (gitignored); tracked files use placeholders (`<turtle-ssh>`, `<channel-id>`). Run `scripts/sanitize.sh --full` to sweep all tracked files; bypass only in genuine emergencies with `git commit --no-verify`. The hook is the automated backstop to the "review before commit" discipline below — it catches what a tired Mage misses, but does not replace judgment.
+
 ### Integrity
 *Spirit behaves as configured, not as attackers modify it.*
 
@@ -72,7 +75,7 @@ If you don't trust the practice environment, you self-censor. You share less. Yo
 The magic repo is public (MIT licensed). The framework—system/, library/—is meant to be shared. Your practice—desk/, floor/, box/, AGENTS.md—is gitignored.
 
 **Risk:** Accidentally committing personal content.  
-**Mitigation:** Verify gitignore; review before push; never `git add .`
+**Mitigation:** Verify gitignore; review before push; never `git add .`; the pre-commit sanitation check (`scripts/sanitize.sh`) blocks commits carrying sensitive patterns as an automated backstop.
 
 ### 2. Box Content (Indirect Prompt Injection)
 
