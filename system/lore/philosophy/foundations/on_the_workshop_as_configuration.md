@@ -68,7 +68,7 @@ This is distributed cognition made durable. The Spirit's context window is ephem
 
 ### Personal preferences live in the workshop, not in shared artifacts
 
-When a scroll, flow, or charm needs to adapt to a Mage's preferences, it should read those preferences from the workshop rather than requiring a personal copy of itself. This keeps shared artifacts shareable and personal state personal.
+When a scroll or flow needs to adapt to a Mage's preferences, it should read those preferences from the workshop rather than requiring a personal copy of itself. This keeps shared artifacts shareable and personal state personal.
 
 The pattern: shared logic in `library/` or `system/`, personal state in `desk/` and `floor/`. The shared logic discovers the personal state at execution time.
 

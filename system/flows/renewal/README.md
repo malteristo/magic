@@ -1,6 +1,6 @@
 # Scroll of Renewal
 
-A charm to update the Magic framework (`system/` and root files) to the latest version while preserving personal artifacts (`desk/`, `floor/`, `box/`).
+A flow to update the Magic framework (`system/` and root files) to the latest version while preserving personal artifacts (`desk/`, `floor/`, `box/`).
 
 **Invocation:** `@renewal`
 

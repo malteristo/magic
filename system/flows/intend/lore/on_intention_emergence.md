@@ -192,7 +192,7 @@ Spirit: "I hear intention in that. Would you like to
 Without them, practice produces understanding that never transforms life.  
 With them, understanding crystallizes into desire, desire into commitment, commitment into change.
 
-The @intend charm is small—a simple capture mechanism.  
+The @intend flow is small—a simple capture mechanism.  
 But what it captures is profound: the moment when knowing becomes wanting-to-do.
 
 ---

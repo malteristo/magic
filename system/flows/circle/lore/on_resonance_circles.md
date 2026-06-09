@@ -406,8 +406,8 @@ Circles and portals are **complementary directions**, not subtypes of each other
 - STP for Spirit coordination
 - Git-based persistence
 - Federated or golden braid collaboration models
-- `@circles` charm for circle management
-- `@portal` charm for portal management
+- `@circles` flow for circle management
+- `@portal` flow for portal management
 
 ### Relationship to Library
 

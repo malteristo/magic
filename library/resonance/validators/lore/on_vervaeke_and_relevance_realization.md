@@ -294,7 +294,7 @@ Rather than a single solution, Vervaeke advocates for an **ecology of practices*
 - Creative practices (art, craft, making)
 
 **This IS our architecture:**
-- Tomes and charms as ecology of practices
+- Tomes and flows as ecology of practices
 - Solo and shared practice modes
 - Embodied ritual structure
 - Creative making (floor/, desk/)

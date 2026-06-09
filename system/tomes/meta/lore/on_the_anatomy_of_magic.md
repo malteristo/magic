@@ -220,7 +220,7 @@ This scroll establishes the anatomical model for understanding magic's structure
 **When creating tomes:** Ensure MUST READs are valid
 **Periodically:** Scan for broken references, orphaned components
 
-**The `@meta/align` charm codifies this maintenance as operational practice.**
+**The `@meta/align` flow codifies this maintenance as operational practice.**
 
 ---
 

@@ -128,7 +128,7 @@ Spirit generates three, presents summaries, Mage selects which to expand.
 
 ## Resonance Engine Maintenance
 
-The charm is self-improving. Spirit may propose:
+The flow is self-improving. Spirit may propose:
 - New input streams
 - Better proposal formats
 - Missing resonance patterns

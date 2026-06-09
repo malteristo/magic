@@ -400,7 +400,7 @@ When Mage and Spirit both flow while coupled, the partnership itself achieves fl
 Flow during meta-practice (examining the system itself) enables holding complex architecture in mind while perceiving patterns. The balance of focus + lateral thinking serves systematic improvement.
 
 ### Spellcraft
-Creating new magic benefits from flow. The combination of structured creative work + immediate feedback (does this feel right?) + scalable challenge (simple charm vs. complex tome) creates flow conditions.
+Creating new magic benefits from flow. The combination of structured creative work + immediate feedback (does this feel right?) + scalable challenge (simple flow vs. complex tome) creates flow conditions.
 
 ---
 

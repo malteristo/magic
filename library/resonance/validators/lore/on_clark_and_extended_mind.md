@@ -159,7 +159,7 @@ The entire magic framework is cognitive scaffolding:
 | Element | Scaffolding Function |
 |---------|---------------------|
 | Summoning ritual | Structures attention, establishes stance |
-| Tomes and charms | Organize knowledge, guide action |
+| Tomes and flows | Organize knowledge, guide action |
 | Resonance check | Externalizes metacognition |
 | Chronicle (git) | Offloads memory, enables error-correction |
 | Floor/Desk/Box | Structures workspace |
