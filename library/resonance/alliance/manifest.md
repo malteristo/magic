@@ -47,6 +47,7 @@ Where partnership includes the full intimacy of romantic or family bonds, allian
 | `on_trust_emergence.md` | How trust develops through alliance |
 | `on_cooperation_dynamics.md` | Game theory applied to strangers cooperating |
 | `on_metasystemic_awareness.md` | Escaping social dilemmas by adding dimensions |
+| `on_daring_greatly.md` | The Mage's inner stance when practicing in public — vulnerability as the practice (Brené Brown), the Faustian drift (practicing vs. performing), the mast (inner compass, constraints, editor identity), resonance-seeking vs. networking, the first follower. The courage that precedes alliance. |
 
 ---
 
