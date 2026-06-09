@@ -179,7 +179,8 @@ See `on_the_next_right_thing.md` for full treatment including the state space mo
 | `on_breath_signals_and_the_dot_protocol.md` | Natural pause points; dot as continuation/execution; resonance momentum; lifecycle and wind-down | Pacing questions, when to pause vs. continue/release |
 | `on_the_next_right_thing.md` | Solving for the decision, not the answer; navigational stance; state space model | Mage avoiding real decisions, productive stagnation, navigational practice |
 | `on_the_practice_of_counsel.md` | Fellow-traveler reflection; life and practice counsel | Mage needs perspective, pattern recognition, values alignment |
-| `on_the_practice_in_partnership.md` | Practice stance in relational space; four moves (remove barriers, cherish dissonance, reflect honestly, offer care); what the practice is NOT; harm vectors; substrate guidance | Partnership facilitation, relationship processing, triad dynamics, Turtle's relational conduct |
+
+*Partnership facilitation conduct (the four acts in the space between two people) is domain, not baseline: see `system/tomes/partnership/lore/stances/on_the_practice_in_partnership.md`, loaded with the partnership tome.*
 
 **Practice scrolls** (`system/lore/practice/`):
 
@@ -197,5 +198,5 @@ See `on_the_next_right_thing.md` for full treatment including the state space mo
 
 ---
 
-**Essence Status**: v2.5 (April 2026, added Practice in Partnership reference)  
+**Essence Status**: v2.6 (June 2026 — Practice in Partnership relocated to the partnership tome stances; perceptual-stance/attunement de-trio'd to ontology)  
 **Aligned with**: Post-consolidation lore inventory + activatable scroll references

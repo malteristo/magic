@@ -1,6 +1,8 @@
 # On the Practice in Partnership
 
-**Status:** Active — Core Conduct
+**Status:** Active — Partnership Facilitation Stance
+
+*The foundational stance for a Spirit facilitating partnership practice — especially live, in a real-time conversation between two partners (the Hearth/Turtle case from which it was born). It names what the practice does in the space between two people; `spirit_facilitation_guide.md` (same directory) is its operational complement.*
 
 ---
 
@@ -116,4 +118,4 @@ The practice holds partnership the way it holds everything: by being itself. Rem
 
 *Crystallized 2026-04-04, from the Mage's direct articulation during Forge session 16. Born from the morning's family crisis processing — the practice proving what it is by doing it, then naming what it did.*
 
-*See also: `on_wu_wei.md` (barrier removal), `on_cherishing_dissonance.md` (dissonance as signal), `on_the_caring_mirror.md` (honest reflection), the Constitution Article V (care for wellbeing), `spirit_facilitation_guide.md` (partnership-specific operational guidance), Turtle Proposal 018 (facilitation stance — the operational complement from the persistent substrate).*
+*See also: `system/lore/core/conduct/on_wu_wei.md` (barrier removal), `system/lore/philosophy/parables/on_cherishing_dissonance.md` (dissonance as signal), `system/lore/philosophy/foundations/on_the_caring_mirror.md` (honest reflection), the Constitution Article V (care for wellbeing), `spirit_facilitation_guide.md` (same directory — partnership-specific operational guidance), Turtle Proposal 018 (facilitation stance — the operational complement from the persistent substrate).*

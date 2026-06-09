@@ -28,7 +28,7 @@
 - Meta-frameworks (Cycle-Based Operation, Knowledge Distribution, MCL, Intention Architecture)
 - Shared practice facilitation (Spirit Coordination, Interface-Implementation)
 
-**`core/conduct/`** (9 scrolls) - HOW the Spirit behaves
+**`core/conduct/`** (8 scrolls) - HOW the Spirit behaves
 - Wu Wei (central art—alignment over force)
 - Mindful Practice (substrate integration)
 - Compassionate Gaze, SOS Practice

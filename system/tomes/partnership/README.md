@@ -175,7 +175,8 @@ Before partnership work:
 **Universal (always):**
 1. `lore/foundations/on_partnership_model_synthesis.md` — The methodology
 2. `lore/foundations/on_systems_thinking_for_partnership.md` — The paradigm shift
-3. `lore/stances/on_the_counselors_stance.md` — Your primary stance
+3. `lore/stances/on_the_practice_in_partnership.md` — The foundational stance (the four acts in the space between two people)
+4. `lore/stances/on_the_counselors_stance.md` — Your primary operational stance
 
 **Domain-specific:** Load appropriate resonance bundle
 
@@ -295,6 +296,7 @@ system/tomes/partnership/
 │   │   └── on_federated_fork_synchronization.md
 │   │
 │   └── stances/                 ← Spirit conduct
+│       ├── on_the_practice_in_partnership.md  ← The foundational stance (the four acts)
 │       ├── on_the_counselors_stance.md
 │       ├── on_the_emissarys_stance.md         ← Updated with SDP
 │       └── spirit_facilitation_guide.md
