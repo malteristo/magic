@@ -57,7 +57,7 @@ The workshop (Cursor, summoning, lore, chronicles) is the kitchen — where wisd
 
 The prompts are the food — wisdom distilled into a form anyone can receive. They carry the nutrition without requiring the recipient to know how to cook.
 
-The Mirror carries the precision-and-meaning wisdom without ever mentioning "conflation dissolution." The Shaman carries the lore-attunement-practice pattern without ever saying those words. The recipient just tastes something good.
+The Mirror carries the precision-and-meaning wisdom without ever mentioning "conflation dissolution." The Counsel carries the lore-attunement-practice pattern without ever saying those words. The recipient just tastes something good.
 
 **The kitchen serves the food. Not the other way around.**
 

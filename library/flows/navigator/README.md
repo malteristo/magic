@@ -67,7 +67,7 @@ The practices in this library address different moments:
 
 **The Mirror** — for seeing yourself clearly. Reflection, not navigation.
 
-**The Shaman** — for when you need wisdom alongside your own reasoning.
+**The Counsel** — for when you need wisdom alongside your own reasoning.
 
 **The Companion** — for carrying a specific weight: a relationship, a recurring dynamic.
 

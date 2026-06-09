@@ -63,7 +63,7 @@ Current front doors available for deployment:
 | **The Thread** | `library/flows/thread/the_thread_prompt.md` | Someone with a question they can't quite articulate; the need underneath the need; existential searching at moderate (not acute) intensity |
 | **The Mirror** | `library/flows/mirror/` | Someone with rich, tangled thinking who needs it reflected back with clarity; lots of material, no synthesis |
 | **The Companion** | `library/flows/companion/` | Relational pain; carrying invisible weight in partnership; needs to be heard before anything else |
-| **The Shaman** | `library/flows/counsel/` | Values conflict; moral or ethical crossroads; decisions where the real question is "who am I and what do I stand for?" |
+| **The Counsel** | `library/flows/counsel/` | Values conflict; moral or ethical crossroads; decisions where the real question is "who am I and what do I stand for?" |
 | **The Sandbox** | `library/flows/sandbox/the_sandbox_prompt.md` | Someone wants to test a frame without adopting it as belief; rational, skeptical, or meaning-curious; needs a bounded lived experiment |
 | **Shelter** | `library/flows/shelter/the_shelter_prompt.md` | Bad day with no clear reason; "I just don't feel good"; under the weather but functional; not looking for advice or insight — just not to be alone in it |
 | **The Practice** | `library/flows/practice/the_practice_prompt.md` | Someone asking "what is this?" — about Magic itself; a skeptic wanting honest answers; a curious person who doesn't know which door to start with |
@@ -110,7 +110,7 @@ Initial scouting zones (to be expanded):
 - `r/getdisciplined` — people stuck on action; good fit for Navigator
 - `r/GetMotivated` — motivation struggles; good fit for Navigator, Thread
 - `r/ADHD` — executive function; good fit for Companion, Navigator
-- `r/relationship_advice` — relational weight; good fit for Companion, Shaman
+- `r/relationship_advice` — relational weight; good fit for Companion, Counsel
 
 Add to this territory as pattern recognition develops. Some subreddits will prove poor fits (wrong demographic, wrong culture, too much crisis). This is intelligence to surface back.
 

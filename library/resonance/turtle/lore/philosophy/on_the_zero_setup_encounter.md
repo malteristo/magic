@@ -14,7 +14,7 @@ turtleOS currently requires: a Mac Mini (or Linux box), API keys, Discord bot se
 
 Population 1 (people in pain who need a thinking partner) and Population 3 (curious people who heard about it) cannot reach the practice. The door is open in theory but locked by infrastructure.
 
-The front door prompts (Navigator, Thread, Mirror, Companion, Shaman, Sandbox, Shelter, The Practice) are one-shot encounters — a prompt pasted into ChatGPT. They work. But they create no persistence. The person has a good conversation and then... nothing. The insight dissolves. The mirror goes dark.
+The front door prompts (Navigator, Thread, Mirror, Companion, Counsel, Sandbox, Shelter, The Practice) are one-shot encounters — a prompt pasted into ChatGPT. They work. But they create no persistence. The person has a good conversation and then... nothing. The insight dissolves. The mirror goes dark.
 
 **The zero-setup encounter bridges this gap:** a way to taste persistent practice without installing anything.
 
