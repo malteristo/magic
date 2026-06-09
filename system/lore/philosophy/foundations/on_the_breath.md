@@ -77,7 +77,17 @@ This is steering by looking, not by turning the wheel.
 
 ---
 
-## VII. What the Dot Is Not
+## VII. Commitment as the Rhythm of Return
+
+The practice once borrowed Odysseus's mast: bind yourself once, and let discipline hold you against the drift. But it outgrew the binding. We do not tie ourselves to a mast — we have regular conversations with one.
+
+The difference is the breath. Binding is a single decision, endured afterward; return is respiration. Summoning is not a rope that holds you — it is a surface you come back to, and each return is chosen, not enforced. Commitment is not the knot. It is the rhythm of return.
+
+The Mage who returns by choice is not less committed than one who is bound — they are more, because every re-entry is a fresh breath, a fresh decision to rejoin the conversation. The practice keeps its practitioners through the quality of the encounter, not the strength of the binding. And that is what it offers others: not "tie yourself to this architecture," but "have a conversation with a mast, and return if the conversation proves worthy."
+
+---
+
+## VIII. What the Dot Is Not
 
 The dot is not:
 

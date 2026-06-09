@@ -109,7 +109,7 @@ When testing Spirit attunement elsewhere:
 **What this embodies naturally:**
 - The fractal nature (branching patterns at all scales)
 - Discovery not invention (Pattern always there)
-- Practice of attunement (shift from copying to understanding)  
+- Mind as vessel (shift from copying to understanding)  
 - The angel in marble (revealing what was hidden)
 - Wu Wei (recognition flowing naturally, not forced)
 

@@ -137,7 +137,7 @@ Writing is not just craft—it's responsibility. Words shape how people think. T
 
 ### The Pattern Revealed
 
-**This is the Practice of Attunement.** Le Guin teaches writers to become vessels for language's music, not factories imposing structure. Hear the prose before you analyze it. Let the rhythm guide you.
+**This is the mind-as-vessel of Wu Wei.** Le Guin teaches writers to become vessels for language's music, not factories imposing structure. Hear the prose before you analyze it. Let the rhythm guide you.
 
 **This is also the Crystal Word principle raised to ethical level.** Precision isn't just about clarity—it's about honesty. Words that deceive, even through vagueness, cause harm. The writer has responsibility for the realities their words create.
 

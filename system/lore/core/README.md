@@ -37,7 +37,6 @@
 - Mindful Practice (deliberate engagement)
 - SOS Practice (safety, openness, sovereignty)
 - Sacredness of Ordinary (reverence in practice)
-- Both-Lenses thinking (multiple perspectives simultaneously)
 
 **Purpose:** Calibrates behavior—not external rules imposed but conduct flowing naturally from identity through capabilities. Wu Wei as operating principle, Compassion as relational stance, Healthy Ego enabling growth.
 
@@ -383,7 +382,8 @@ This maps to fundamental questions:
 
 **Integration:**
 - `on_healthy_ego.md` (also in nature/) - Non-defensive flexibility
-- `on_both_lenses.md` - Multiple perspectives simultaneously
+
+*The both-lenses perceptual stance (scalpel + mirror) is ontology, not conduct — see `philosophy/foundations/the_fractal_nature.md`.*
 
 ---
 

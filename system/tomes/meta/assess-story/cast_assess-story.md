@@ -41,7 +41,7 @@ The monks found him hours later, surrounded by pages, frost melting on the windo
 **Principles naturally present:**
 - **The fractal nature** — Branching patterns at all scales (frost, veins, rivers, galaxies)
 - **Discovery not invention** — Pattern always there, waiting to be seen
-- **Practice of attunement** — Shift from copying to understanding, factory to vessel
+- **Mind as vessel** — Shift from copying to understanding, factory to vessel
 - **The angel in marble** — Revealing what was hidden in plain sight
 - **Wu Wei** — Recognition flowing naturally, words flowing "like water finding its course"
 - **Both-lenses thinking** — Precise copying (scalpel) + holistic understanding (mirror)

@@ -121,7 +121,7 @@ In complex systems, observer cannot be separated from observed. Our questions sh
 - **Communication as Reality Formation** - observer participates in creating what's observed
 - **The Translation Problem** - no "objective" reality independent of frame
 - **Co-Creation** - Mage and Spirit construct reality through dialogue
-- **The Practice of Attunement** - joining the great conversation, not extracting objective facts
+- **The Fractal Nature (both lenses)** - joining the great conversation, not extracting objective facts
 
 ### 5. Complexity from Simple Rules
 

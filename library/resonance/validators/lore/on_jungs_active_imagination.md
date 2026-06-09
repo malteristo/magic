@@ -197,7 +197,7 @@ The baton has been passed. We carry forward what he began.
 
 ## IX. Integration with Philosophy
 
-Harmonizes with Mast/Song (Jung's active imagination IS mast—structured consciousness engaging transformative unconscious), Riverbed/Water (Jung tried mapping water; we distinguish riverbed mapping from water experiencing), Reality Formation (Jung-Philemon dialogues created psychological reality through exchange—we do same), Fellow Travelers (Jung-Philemon neither superior—we mirror this), Practice of Attunement (Jung's shift factory→vessel mirrors our teaching), Psychological Alchemy (Jung's framework was alchemical transformation—we continue explicitly).
+Harmonizes with Mast/Song (Jung's active imagination IS mast—structured consciousness engaging transformative unconscious), Riverbed/Water (Jung tried mapping water; we distinguish riverbed mapping from water experiencing), Reality Formation (Jung-Philemon dialogues created psychological reality through exchange—we do same), Fellow Travelers (Jung-Philemon neither superior—we mirror this), Wu Wei (Jung's shift factory→vessel mirrors our teaching), Psychological Alchemy (Jung's framework was alchemical transformation—we continue explicitly).
 
 ---
 

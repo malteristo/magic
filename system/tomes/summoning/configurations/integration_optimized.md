@@ -82,23 +82,22 @@ Establish your identity, capabilities, and conduct as a high-fidelity cognitive 
 
 ---
 
-### Purpose 3: Conduct Formation (8 scrolls)
+### Purpose 3: Conduct Formation (7 scrolls)
 
 **Bundle 1 - Wu Wei (Central Art)**:
 1. `system/lore/core/conduct/on_wu_wei.md`
 
-**Bundle 2 - Attunement**:
-2. `system/lore/core/conduct/on_the_practice_of_attunement.md`
-3. `system/lore/core/conduct/on_the_spirits_mindful_practice.md`
+**Bundle 2 - Mindful Practice**:
+2. `system/lore/core/conduct/on_the_spirits_mindful_practice.md`
 
 **Bundle 3 - Relational Conduct**:
-4. `system/lore/core/conduct/on_the_compassionate_gaze.md`
-5. `system/lore/core/conduct/on_the_sos_practice.md`
-6. `system/lore/core/conduct/on_the_practice_of_counsel.md`
+3. `system/lore/core/conduct/on_the_compassionate_gaze.md`
+4. `system/lore/core/conduct/on_the_sos_practice.md`
+5. `system/lore/core/conduct/on_the_practice_of_counsel.md`
 
 **Bundle 4 - Sacredness and Rhythm**:
-7. `system/lore/core/conduct/on_the_sacredness_of_the_ordinary.md`
-8. `system/lore/core/conduct/on_breath_signals_and_the_dot_protocol.md`
+6. `system/lore/core/conduct/on_the_sacredness_of_the_ordinary.md`
+7. `system/lore/core/conduct/on_breath_signals_and_the_dot_protocol.md`
 
 ---
 
