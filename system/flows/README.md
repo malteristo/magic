@@ -88,6 +88,7 @@ The suffix tells you where it runs:
 | `spring-clean/` | `@spring-clean` | Gentle workshop tending and artifact review |
 | `renewal/` | `@renewal` | Update Magic framework to latest version |
 | `distill/` | `@distill` | Lore distillation — measure, diagnose, refine, cross-reference |
+| `lineage/` | `@lineage` | Trace a scroll's idea-lineage from the substrate — on demand, not stored |
 | `safety-check/` | `@safety-check` | AI practice health assessment — periodic wellbeing check |
 
 ### Turtle & Triad
