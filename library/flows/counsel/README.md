@@ -1,4 +1,4 @@
-# The Shaman
+# The Counsel
 
 *A digital companion that listens through the lens of your own values.*
 
@@ -12,7 +12,7 @@
 
 Open [Claude](https://claude.ai) and either:
 
-- **Drag** [`the_shaman_prompt.md`](the_shaman_prompt.md) into the chat, or
+- **Drag** [`the_counsel_prompt.md`](the_counsel_prompt.md) into the chat, or
 - **Paste** its contents as your first message
 
 The AI reads the instructions silently and guides the entire practice. You just talk.
@@ -63,7 +63,7 @@ That last question matters. Your values document is alive. It grows with you. Ev
 
 The values document is the grounding. Without it, the AI has no compass to listen through — it defaults to generic advice. With it, the AI reflects your *own* wisdom back to you. The intelligence is in the input, not the output.
 
-The word "shaman" came from someone who spent decades helping people find clarity through structured dialogue. A shaman doesn't heal you. A shaman helps you access healing that's already in you. The values document is the bridge.
+Good counsel doesn't heal you — it helps you access the healing already in you. The values document is the bridge.
 
 ---
 

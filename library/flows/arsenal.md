@@ -83,7 +83,7 @@ New doors are added here when created. The registry is the Consul's map.
 
 ---
 
-### The Shaman
+### The Counsel
 **Location:** `library/flows/counsel/`  
 **GitHub:** `https://github.com/malteristo/magic/blob/main/library/flows/counsel/`
 

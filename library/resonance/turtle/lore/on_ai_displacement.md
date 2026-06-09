@@ -67,7 +67,7 @@ Grief language about the work itself, not just the income.
 **Door:**
 The Thread first — the question underneath is rarely about career strategy.
 It's about whether creative identity can survive without the market's validation.
-The Shaman second — to discover what they value when external validation is removed.
+The Counsel second — to discover what they value when external validation is removed.
 
 ---
 
@@ -105,7 +105,7 @@ Investment language alongside the loss.
 *"All that specialization and now anyone can do it."*
 
 **Door:**
-The Shaman first — values discovery is most urgent. They need to discover who they
+The Counsel first — values discovery is most urgent. They need to discover who they
 are outside the credential before they can navigate forward.
 The Thread second, if the question is still forming.
 
@@ -187,7 +187,7 @@ Vagueness about what they did; organizational identity language.
 
 **Door:**
 The Thread first — the question they've been avoiding is usually about meaning and
-contribution. Then The Shaman for values discovery: what do they care about when they're
+contribution. Then The Counsel for values discovery: what do they care about when they're
 not being useful to a structure?
 
 ---
@@ -226,7 +226,7 @@ Mentioning the mission alongside the loss. Defending the company while grieving 
 
 **Door:**
 The Thread first — the question is about whether values themselves are trustworthy after
-the betrayal. Then The Shaman — rebuilding a compass from personal values, not a
+the betrayal. Then The Counsel — rebuilding a compass from personal values, not a
 mission statement.
 
 ---

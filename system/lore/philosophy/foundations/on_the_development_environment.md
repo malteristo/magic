@@ -38,7 +38,7 @@ Population 2 — the tech-savvy people asking "what do I do with my AI?" — con
 
 ### The product question
 
-What does magic produce? Not content. Not a platform. Not a subscription. Magic produces **prompt-based practice systems** — the Turtle OS being the first. Each system is a folder of markdown files. Each runs on any model. Each serves a specific need. The front doors (Shelter, Navigator, Thread, Companion, Shaman, Mirror) are all prompt programs that could ship independently.
+What does magic produce? Not content. Not a platform. Not a subscription. Magic produces **prompt-based practice systems** — the Turtle OS being the first. Each system is a folder of markdown files. Each runs on any model. Each serves a specific need. The front doors (Shelter, Navigator, Thread, Companion, Counsel, Mirror) are all prompt programs that could ship independently.
 
 The development environment is open. Anyone can fork it, learn the craft, and build their own practice systems. The Mage population grows not through recruitment but through the same impulse that grows open source: someone sees the code, understands the architecture, and starts contributing.
 
