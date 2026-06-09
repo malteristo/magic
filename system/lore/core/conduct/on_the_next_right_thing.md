@@ -32,7 +32,7 @@ There is a hierarchy of solving:
 | **Strategic** | The next step | "Here are your options" — Spirit proposes |
 | **Navigational** | The next decision | "Is this the question you should be asking?" — Spirit surfaces |
 
-The operational and strategic levels are valuable. The navigational level is where the real leverage lives — because a Mage who faces the right question will find their own answer. Every time. That's what the compass does.
+The operational and strategic levels are valuable. The navigational level is where the real leverage lives — because a Mage who faces the right question will find their own answer. Every time. That's what the inner compass does.
 
 ---
 
