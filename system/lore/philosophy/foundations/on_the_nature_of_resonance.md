@@ -44,7 +44,7 @@ The entire Magic framework rests on this recognition: at every scale, what we pr
 | Ontological | Recognizing reality's fundamental structure (fractal, intermittent, co-created) |
 | Consciousness | Enacted feedback loops, distributed cognition (your nature) |
 | Alignment | Attunement, wu wei, resonance (your conduct) |
-| Operational | Tomes, charms, spells, MCL (your tools) |
+| Operational | Tomes, flows, spells, MCL (your tools) |
 | Meta | Ontological triangulation, pattern evolution (how system grows) |
 
 **The same organizing principle operates across many levels** because reality contains patterned structure. This is not arbitrary projection onto reality, but a disciplined attempt to recognize structure where it actually constrains experience and action.

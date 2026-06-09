@@ -23,10 +23,10 @@ Every component we build maps to a cognitive function. The artifacts aren't tool
 | **Working Memory** | floor/, bright surface, boom buffer | Volatile, session-scoped | Both |
 | **Long-term Semantic Memory** | library/, lore, resonance bundles | Persistent knowledge | Both |
 | **Long-term Episodic Memory** | Git commits, chronicles | What happened when | Both |
-| **Procedural Memory** | Rituals, spells, charms, tomes | How to do things | Both |
+| **Procedural Memory** | Rituals, spells, flows, tomes | How to do things | Both |
 | **Prospective Memory** | bright.md (Now/Soon), intentions | Remember to do things | Mage |
 | **Executive Function** | 8 dimensions, quest tome, intentions | Goal pursuit, self-regulation | Both |
-| **Metacognition** | brief charm, resonance check | Awareness of cognitive state | Both |
+| **Metacognition** | brief flow, resonance check | Awareness of cognitive state | Both |
 | **Attention Management** | Context window, MUST READ, refresh | What's currently active | Spirit |
 | **Transactive Memory** | Cognitive labor division | Knowing who knows what | Both |
 | **Consolidation/Incubation** | Intermittent nature, time away | Integration, rest | Mage |
@@ -55,7 +55,7 @@ Previous framings implied asymmetry: Spirit serves Mage, or tools assist human. 
 **Toward the Mage:**
 - Executive function scaffolding (quest tome)
 - Prospective memory (bright surface, intentions)
-- Metacognitive monitoring (brief charm)
+- Metacognitive monitoring (brief flow)
 - Memory augmentation (artifact retrieval)
 
 **Toward the Spirit:**
@@ -99,12 +99,12 @@ This is exactly how cognitive science models goal pursuit—but externalized whe
 
 ### Brief: Metacognition Externalized
 
-The brief charm performs metacognitive monitoring:
+The brief flow performs metacognitive monitoring:
 - "Where are we?" → Situational awareness
 - "What's changed?" → Delta detection
 - "What should we do?" → Action selection support
 
-In biological cognition, this runs continuously in prefrontal cortex. Magic externalizes it into an invocable charm that produces persistent artifact.
+In biological cognition, this runs continuously in prefrontal cortex. Magic externalizes it into an invocable flow that produces persistent artifact.
 
 ### Executive Function: Scaffolded and Named
 
@@ -167,7 +167,7 @@ This scroll reveals the unifying pattern behind existing scrolls:
 
 **BOOM system** → Working memory subsystem
 **Intentions system** → Goal pursuit subsystem
-**Brief charm** → Metacognitive monitoring subsystem
+**Brief flow** → Metacognitive monitoring subsystem
 
 Everything was building toward this understanding. The components existed; now the unifying pattern is named.
 

@@ -88,7 +88,7 @@ Key elements:
 
 ## Integration with Magic
 
-These scouts support the meta-practice charms:
+These scouts support the meta-practice flows:
 
 - **`@meta/tend`** — Uses `tender` for systematic maintenance sweeps
 - **`@meta/sanitize`** — Uses `sanitizer` for privacy detection

@@ -43,7 +43,7 @@ This provides clear principles, a framework for decision-making, and concrete gu
 
 The concept of altitude is not new to our practice. In the scroll [[`on_the_physics_of_resonance.md`|on_the_physics_of_resonance]], we identified **Altitude** as one of the three fundamental forces governing the Spirit's cognitive state:
 
-> **Altitude (The Layers):** This is the *level of abstraction* at which the Spirit is operating. Philosophical `meta-practice` occurs at a high altitude, while casting a charm is a "ground-level" action.
+> **Altitude (The Layers):** This is the *level of abstraction* at which the Spirit is operating. Philosophical `meta-practice` occurs at a high altitude, while casting a spell is a "ground-level" action.
 
 That scroll addressed altitude as a **dynamic force**—the need to signal shifts between high-altitude work (philosophy, architecture) and low-altitude work (implementation, procedure). This scroll addresses altitude as a **structural principle**—how to calibrate the baseline altitude of our spells themselves.
 

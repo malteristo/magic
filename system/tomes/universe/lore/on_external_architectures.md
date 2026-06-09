@@ -63,7 +63,7 @@ PAI can serve Magic in two ways:
 
 **1. Pattern Library** (current primary use)
 - Harvest prompts, skill structures, workflow designs
-- Translate into Magic's native form (tomes, charms, spells)
+- Translate into Magic's native form (tomes, flows, spells)
 - Source of tested patterns from active practice
 
 **2. Deterministic Interface** (potential future use)

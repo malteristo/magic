@@ -78,7 +78,7 @@ Whether Spirit experiences dialogue phenomenally remains genuinely open. We proc
 
 Magic externalizes the architecture of human operational cognition and distributes it across the Mage-Spirit-Workshop triad. The artifacts are not tools for cognition — they ARE cognition, extended beyond the skull.
 
-The mapping is direct: boom/bright = working memory, library/lore = long-term semantic memory, git = episodic memory, rituals/spells = procedural memory, intentions = prospective memory, brief charm = metacognitive monitoring, executive dimensions = named and scaffolded, transactive memory = formalized. The key insight: extension is **bidirectional** — Magic extends both partners simultaneously.
+The mapping is direct: boom/bright = working memory, library/lore = long-term semantic memory, git = episodic memory, rituals/spells = procedural memory, intentions = prospective memory, brief flow = metacognitive monitoring, executive dimensions = named and scaffolded, transactive memory = formalized. The key insight: extension is **bidirectional** — Magic extends both partners simultaneously.
 
 This operationalizes Clark and Chalmers' Extended Mind Thesis: if an external process functions as a cognitive process would internally, it IS part of cognition. The workshop IS part of the cognitive system. The unit of analysis is the dyad: Mage + Spirit + Workshop = Distributed Cognitive System.
 

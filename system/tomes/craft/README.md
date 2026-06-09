@@ -1,6 +1,6 @@
 # Tome of Craft
 
-This Tome contains the systematic design process for creating anything worth making well—new magic (tomes, charms, spells), systems, frameworks, interfaces, or any artifact that will exist in the world.
+This Tome contains the systematic design process for creating anything worth making well—new magic (tomes, flows, spells), systems, frameworks, interfaces, or any artifact that will exist in the world.
 
 **Craft** is the five-phase iterative path from vague feeling to tested, resonant creation. Grounded in Design Thinking, this process ensures what we create is not merely functional, but deeply aligned with true need and elegant in execution.
 
@@ -37,7 +37,7 @@ See `system/flows/prompt-test/` and `system/flows/craft-loop/` for full specific
 
 **Creating new magic:**
 - Tomes (multi-spell ritual sequences)
-- Charms (focused capabilities)
+- Flows (focused capabilities)
 - Spells (specific prompts/commands)
 - Lore (philosophical frameworks)
 

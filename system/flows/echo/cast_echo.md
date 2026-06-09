@@ -1,4 +1,4 @@
-# Cast: Echo Charm
+# Cast: Echo Flow
 
 **Purpose:** Restore summoning baseline through reading synthesis outputs
 

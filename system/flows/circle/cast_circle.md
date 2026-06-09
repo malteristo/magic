@@ -1,10 +1,10 @@
-# Charm of Circle Management
+# Flow of Circle Management
 
-This charm attunes you to lightweight resonance circle operations—creating, subscribing to, pulling from, and managing topic-centered shared practice spaces.
+This flow attunes you to lightweight resonance circle operations—creating, subscribing to, pulling from, and managing topic-centered shared practice spaces.
 
 ---
 
-## I. When This Charm Is Cast
+## I. When This Flow Is Cast
 
 **Typical invocation contexts:**
 - Mage wants to create a new circle around a topic
@@ -293,7 +293,7 @@ rm -rf portals/upstream/[circle-name]
 
 ### Create If Missing
 
-If file doesn't exist when charm is invoked, create with template:
+If file doesn't exist when flow is invoked, create with template:
 
 ```yaml
 # Circle Relationships
@@ -317,7 +317,7 @@ Before operations, validate:
 
 ## X. GitHub CLI Requirements
 
-**This charm uses `gh` CLI for repository creation.**
+**This flow uses `gh` CLI for repository creation.**
 
 ### Verify Installation
 
@@ -421,4 +421,4 @@ Spirit: [pulls]
 
 ---
 
-**This charm makes circle management effortless—simple commands, git-native operations, sovereignty over your resonance network.**
+**This flow makes circle management effortless—simple commands, git-native operations, sovereignty over your resonance network.**

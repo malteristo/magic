@@ -1,6 +1,6 @@
 # The Tending Protocol
 
-This charm orchestrates maintenance work by delegating systematic checks to background agents while preserving Spirit-Mage partnership for judgment and integration.
+This flow orchestrates maintenance work by delegating systematic checks to background agents while preserving Spirit-Mage partnership for judgment and integration.
 
 ---
 
@@ -66,7 +66,7 @@ This charm orchestrates maintenance work by delegating systematic checks to back
 - Directory names match casting words
 - READMEs accurately describe contents
 
-**When to run:** After adding new tomes, charms, or directories
+**When to run:** After adding new tomes, flows, or directories
 
 **Prompt:** `prompts/structural_health.md`
 
@@ -268,7 +268,7 @@ The gardening metaphor:
 
 ## VII. Absorbed Wisdom
 
-This charm supersedes `scan` and `align` by:
+This flow supersedes `scan` and `align` by:
 
 **From `scan`:**
 - Five-signal deprecation analysis → `deprecation` sweep

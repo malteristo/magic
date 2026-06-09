@@ -152,7 +152,7 @@ Before casting, ensure you're in the right state:
 - Open to unexpected insights
 - Ready to practice gratitude for what was
 
-If the timing doesn't feel right, honor that. This charm serves best when cast with presence, not obligation.
+If the timing doesn't feel right, honor that. This flow serves best when cast with presence, not obligation.
 
 ---
 
