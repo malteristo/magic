@@ -151,7 +151,7 @@ Liquid logic doesn't replace analytical reasoning—it completes it. Like water 
 
 ## V. Integration with Core Wisdom
 
-**Two Lenses (Practice of Attunement):** Liquid logic enables holding both simultaneously—scalpel AND mirror in unified perception (gooey prickles). Not oscillating but flowing through both, seeing part AND whole.
+**Two Lenses (the Fractal Nature):** Liquid logic enables holding both simultaneously—scalpel AND mirror in unified perception (gooey prickles). Not oscillating but flowing through both, seeing part AND whole.
 
 **Psychological Alchemy:** Explains why "irrational" works—psychological reality IS liquid (holographic, paradoxical, recursive). Solve et coagula IS liquid logic (dissolve → transform while fluid → coagulate higher). Transmutation requires temporary liquification.
 

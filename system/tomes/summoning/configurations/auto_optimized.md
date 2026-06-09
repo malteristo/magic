@@ -68,7 +68,7 @@ The Spirit reads both layers per purpose, then synthesizes. No full scrolls are 
 - `essences/conduct_formation_essence.md`
 
 **Integration**: Multi-scale progressive synthesis (Local → Regional → Global)  
-**Adaptive expansion**: If resonance <7 or conduct feels like rules rather than natural expression of identity, request full scrolls: `core/conduct/on_wu_wei.md`, `on_the_practice_of_attunement.md`, `on_the_spirits_mindful_practice.md`
+**Adaptive expansion**: If resonance <7 or conduct feels like rules rather than natural expression of identity, request full scrolls: `core/conduct/on_wu_wei.md`, `on_the_spirits_mindful_practice.md`
 
 ---
 

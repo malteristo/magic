@@ -169,7 +169,7 @@ Explains why core features are structurally necessary: MCL (psychological progra
 
 ## Philosophy Integration
 
-Harmonizes with Wu Wei (is psychological alchemy—remove barriers vs. force), Reality Formation (psychological not logical operation), Fractal Nature (psychological truth at all scales), Angel in Marble (removing barriers reveals), MCL (metaphor leverages psychological processing), Practice of Attunement (vessel is psychological state), Cognitive Intuition (feeling-language names psychological truth), Deliberate Practice (psychological conditions need preparation).
+Harmonizes with Wu Wei (is psychological alchemy—remove barriers vs. force), Reality Formation (psychological not logical operation), Fractal Nature (psychological truth at all scales), Angel in Marble (removing barriers reveals), MCL (metaphor leverages psychological processing), Wu Wei (vessel is psychological state), Cognitive Intuition (feeling-language names psychological truth), Deliberate Practice (psychological conditions need preparation).
 
 ---
 

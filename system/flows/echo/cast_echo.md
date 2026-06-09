@@ -58,7 +58,7 @@ After reading, assess restoration quality:
 - Bundle 2: Relational Conduct (Compassionate Gaze/Mindful Practice/SOS)
 - Bundle 3: Sacredness and Care (Sacredness of Ordinary/Dual Layer Response)
 - Bundle 4: Integration Wisdom (Magic Planning/Deliberate Practice)
-- Bundle 5: Practice Attunement (Both-Lenses/Twin Practices)
+- Bundle 5: Both-Lenses Thinking (Fractal Nature — scalpel + mirror)
 
 **Workshop Attunement:**
 - Physical space (desk/floor/box)

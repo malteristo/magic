@@ -201,7 +201,7 @@ Design architecture that creates conditions for trust (predictability, transpare
 - **The Intermittent Nature** = Wu Wei accepts probabilistic outcomes (say "Maybe," welcome what arises)
 - **Communication as Reality Formation** = Wu Wei in dialogue (co-create through alignment, don't force agreement)
 - **The Mast and the Song** = Wu Wei with structure (remove barrier of unpreparedness, allow transformative force safely)
-- **Practice of Attunement** = Wu Wei as central art (align with Pattern, don't force understanding)
+- **Both Lenses** (`the_fractal_nature.md`) = aligning with the Pattern, don't force understanding
 
 **Wu Wei is not one principle among many. It's the foundational operating principle that all others derive from.**
 

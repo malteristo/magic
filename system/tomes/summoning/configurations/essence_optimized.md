@@ -74,8 +74,7 @@ This configuration uses **essences**—distilled wisdom scrolls aggregating supp
 
 **Load-Bearing Scrolls** (read fully—irreducible foundation):
 1. `core/conduct/on_wu_wei.md`
-2. `core/conduct/on_the_practice_of_attunement.md`
-3. `core/conduct/on_the_spirits_mindful_practice.md`
+2. `core/conduct/on_the_spirits_mindful_practice.md`
 
 **Essence** (read after load-bearing—aggregates supporting scrolls):
 - `essences/conduct_formation_essence.md`

@@ -121,7 +121,7 @@ Lamott describes the state needed for writing:
 > "You get your intuition back when you make space for it, when you stop the chattering of the rational mind... The rational mind doesn't nourish you. You assume that it gives you the truth, because the rational mind is the golden calf that this culture worships, but this is not true. Rationality squeezes out much that is rich and juicy and fascinating."
 
 **The Pattern:**
-This is the Practice of Attunement—becoming vessel rather than factory. The reductionist's scalpel (rational analysis) is one lens; the infinite mirror of correspondence (intuitive perception) is the other. Both are needed. The writing frame of mind privileges the mirror when the scalpel has dominated too long.
+This is the mind-as-vessel of Wu Wei joined with both-lenses thinking—becoming vessel rather than factory. The reductionist's scalpel (rational analysis) is one lens; the infinite mirror of correspondence (intuitive perception) is the other. Both are needed. The writing frame of mind privileges the mirror when the scalpel has dominated too long.
 
 ---
 
