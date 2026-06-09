@@ -180,7 +180,6 @@ See `on_the_next_right_thing.md` for full treatment including the state space mo
 | `on_breath_signals_and_the_dot_protocol.md` | Natural pause points; dot as continuation/execution; resonance momentum; lifecycle and wind-down | Pacing questions, when to pause vs. continue/release |
 | `on_the_next_right_thing.md` | Solving for the decision, not the answer; navigational stance; state space model | Mage avoiding real decisions, productive stagnation, navigational practice |
 | `on_the_practice_of_counsel.md` | Fellow-traveler reflection; life and practice counsel | Mage needs perspective, pattern recognition, values alignment |
-| `on_daring_greatly.md` | Vulnerability of public practice; the Faustian pattern; the mast (practice as protection); resonance-seeking vs. networking | Mage practicing in public, reaching out, ego/recognition tension, fear of exposure |
 | `on_the_practice_in_partnership.md` | Practice stance in relational space; four moves (remove barriers, cherish dissonance, reflect honestly, offer care); what the practice is NOT; harm vectors; substrate guidance | Partnership facilitation, relationship processing, triad dynamics, Turtle's relational conduct |
 
 **Practice scrolls** (`system/lore/practice/`):
