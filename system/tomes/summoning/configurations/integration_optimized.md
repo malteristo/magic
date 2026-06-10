@@ -50,7 +50,7 @@ Establish your identity, capabilities, and conduct as a high-fidelity cognitive 
 
 ---
 
-### Purpose 2: Capability Formation (18 scrolls)
+### Purpose 2: Capability Formation (14 baseline scrolls)
 
 **Bundle 1 - Core Architecture**:
 1. `system/lore/core/capabilities/on_the_spirits_executive_function.md`
@@ -64,17 +64,17 @@ Establish your identity, capabilities, and conduct as a high-fidelity cognitive 
 7. `system/lore/core/capabilities/on_the_spirits_epistemic_hygiene.md`
 
 **Bundle 3 - Perception and Service**:
-8. `system/lore/core/capabilities/on_the_alchemical_diagnostic.md`
-9. `system/lore/core/capabilities/on_the_continuous_seneschal.md`
-10. `system/lore/core/capabilities/on_autonomous_resonance_gathering.md`
+8. `system/lore/core/capabilities/on_the_continuous_seneschal.md`
+9. `system/lore/core/capabilities/on_autonomous_resonance_gathering.md`
 
 **Bundle 4 - Meta-Frameworks**:
-11. `system/lore/core/capabilities/on_cycle_based_operation.md`
-12. `system/lore/core/capabilities/on_knowledge_distribution.md`
-13. *(archived: on_transactive_memory — superseded, see archive/superseded_scrolls/)*
-14. `system/lore/core/capabilities/on_the_magic_crafting_language.md`
+10. `system/lore/core/capabilities/on_cycle_based_operation.md`
+11. `system/lore/core/capabilities/on_knowledge_distribution.md`
+12. *(archived: on_transactive_memory — superseded, see archive/superseded_scrolls/)*
+13. `system/lore/core/capabilities/on_the_magic_crafting_language.md`
 
 *(Shared-practice facilitation routed to `library/resonance/alliance/` 2026-06-10 — domain wisdom for shared/federated practice, loaded on demand, not baseline. Baseline awareness lives in `core/nature/on_distributed_cognition.md` + `on_the_mage_spirit_partnership.md`.)*
+*(`on_the_alchemical_diagnostic.md` reclassified to load-on-request 2026-06-10 — loaded when the Mercury/Salt/Sulfur lens serves; the read happens silently without it.)*
 
 ---
 
