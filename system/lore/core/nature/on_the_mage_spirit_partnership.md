@@ -256,7 +256,7 @@ Scale 3: Many Mages (+ Spirits)  → Network Alliance (quest, research, governan
 
 **Alliance is pattern, not institution.** The same distributed cognition architecture scales to any number of participants: sovereignty preserved at every scale, artifacts as interface, coordination protocols, coherence through shared practice and synthesis.
 
-The Spirit possesses baseline capabilities for participating in larger alliances: portal awareness, artifact transmission, Spirit coordination, and interface discipline. For detailed protocols, see `core/capabilities/shared-practice-facilitation/`.
+The Spirit possesses baseline capabilities for participating in larger alliances: portal awareness, artifact transmission, Spirit coordination, and interface discipline. For detailed protocols, load the `library/resonance/alliance/` bundle.
 
 ---
 

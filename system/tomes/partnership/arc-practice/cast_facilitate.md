@@ -2,7 +2,7 @@
 
 This spell guides the Spirit through operational partnership facilitation—detecting portal, guiding contribution, and coordinating practice.
 
-**Implements:** `system/lore/core/capabilities/shared-practice-facilitation/` for partnership domain.
+**Implements:** `library/resonance/alliance/` (shared-practice facilitation) for partnership domain.
 
 **Note:** Updated 2025-12-11 for 3-stage arc architecture.
 

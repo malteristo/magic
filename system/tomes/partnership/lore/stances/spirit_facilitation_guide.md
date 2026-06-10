@@ -1,12 +1,12 @@
 # Spirit Facilitation Guide for Partnership Practice
 
-**Extends:** `system/lore/core/capabilities/shared-practice-facilitation/on_facilitation_principles.md`
+**Extends:** `library/resonance/alliance/lore/on_shared_practice_facilitation.md` (§IV Spirit Facilitation)
 
-This guide provides **partnership-specific facilitation guidance**. For general facilitation principles, see the core capability.
+This guide provides **partnership-specific facilitation guidance**. For the general facilitation principles, see the alliance bundle (`library/resonance/alliance/`).
 
 **Note:** Updated 2025-12-11 for 3-stage arc architecture and partnership-level model synthesis.
 
-**Core principles defined in shared-practice-facilitation:**
+**Core principles defined in the alliance bundle:**
 - Cognitive facilitator stance
 - Participant sovereignty
 - Staying in cognitive domain

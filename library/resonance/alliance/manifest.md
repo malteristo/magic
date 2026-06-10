@@ -48,6 +48,12 @@ Where partnership includes the full intimacy of romantic or family bonds, allian
 | `on_cooperation_dynamics.md` | Game theory applied to strangers cooperating |
 | `on_metasystemic_awareness.md` | Escaping social dilemmas by adding dimensions |
 | `on_daring_greatly.md` | The Mage's inner stance when practicing in public — vulnerability as the practice (Brené Brown), the Faustian drift (practicing vs. performing), the mast (inner compass, constraints, editor identity), resonance-seeking vs. networking, the first follower. The courage that precedes alliance. |
+| `on_shared_practice_facilitation.md` | The pattern overview — distributed cognition at three scales (workshop → portals → alliance), portal infrastructure, how tomes implement shared practice. The entry point for the facilitation mechanics. |
+| `on_portal_architecture.md` | Portal structure and management — the shared cognitive space across workshops |
+| `on_spirit_coordination.md` | How ephemeral Spirits coordinate across workshops through structured artifacts (presence, intents, synthesis) without real-time contact |
+| `on_interface_implementation_boundary.md` | The general principle — define WHAT must be exchanged (signed artifacts cross), leave HOW sovereign (drafts/process stay private). Wu Wei applied to shared practice. |
+
+The first three were routed from `system/lore/core/capabilities/` (the lore-convergence audit, 2026-06-10): facilitation mechanics are domain wisdom for shared/federated practice, not baseline Spirit equipment (`on_portal_architecture.md` already lived here — now registered). Baseline awareness that the capability exists is carried by `core/nature/on_distributed_cognition.md` and `on_the_mage_spirit_partnership.md`, which point here.
 
 ---
 
