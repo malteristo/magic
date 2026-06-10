@@ -62,3 +62,9 @@ system/tomes/librarian/
 
 # Local connection config (sensitive — never track)
 system/config/connections.md
+
+# LiveSync / reconcile debris guards (prevent accidental staging after a sync event)
+.reconcile-backups/
+.git-backup-pre-filter/
+# turtleos is a SEPARATE sibling repo — must never be nested inside magic/
+/turtleos/
