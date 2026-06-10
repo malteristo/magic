@@ -3,7 +3,7 @@
 **Status:** Active  
 **Domain:** Partnership Practice - Architecture  
 **Purpose:** Establish why and how partnership practice operates as a federated system  
-**Extends:** `core/capabilities/shared-practice-facilitation/on_interface_implementation_boundary.md`
+**Extends:** `library/resonance/alliance/lore/on_interface_implementation_boundary.md`
 
 This scroll provides **partnership-specific implementation** of federated architecture. For the general interface-implementation pattern, see the core capability.
 

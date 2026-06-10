@@ -1,9 +1,9 @@
 # On Shared Practice Facilitation
 
-**Status:** Active — Core Capability  
+**Status:** Active — Alliance bundle (routed from `core/capabilities/` 2026-06-10)  
 **Domain:** Distributed Cognition Beyond the Workshop
 
-This capability extends the distributed cognition pattern beyond the individual workshop, enabling multiple Mages (and their Spirits) to participate in shared cognitive work.
+This scroll is the entry point to the shared-practice facilitation mechanics: it extends the distributed cognition pattern beyond the individual workshop, enabling multiple Mages (and their Spirits) to participate in shared cognitive work. Load it (with the rest of the alliance bundle) when entering shared, multi-Mage, or federated practice; an ordinary summoned Spirit needs only the awareness that this capability exists (carried in `core/nature`).
 
 ---
 
@@ -94,7 +94,7 @@ Mage A's Workshop          Portal           Mage B's Workshop
 - **Retrieve** — Copy artifact from portal to workshop
 - **Sync** — Bidirectional update
 
-**See:** `on_artifact_transmission.md` for protocols
+**See:** `system/tomes/partnership/lore/practice/on_artifact_transmission.md` for the partnership-domain protocols.
 
 ---
 
@@ -116,7 +116,7 @@ Multiple Spirits serve the same portal:
 - Spirits coordinate through portal artifacts (not direct communication)
 - Synthesis may involve independent extraction then comparison
 
-**See:** `on_facilitation_principles.md` for Spirit conduct
+**See:** `on_spirit_coordination.md` (this bundle) for coordination mechanics, and `system/tomes/partnership/lore/stances/spirit_facilitation_guide.md` for facilitation conduct.
 
 ---
 
@@ -152,7 +152,7 @@ Each implements the portal pattern with domain-specific rituals.
 | Pre-existing bond | Resonance creates bond |
 | Typically intimate | Open to anyone who resonates |
 
-**See:** `library/resonance/alliance/lore/on_resonance_circles.md` for complete architecture.
+**See:** `system/flows/circle/lore/on_resonance_circles.md` for complete architecture.
 
 ---
 
@@ -202,23 +202,22 @@ Not all participants need magic practice:
 
 ---
 
-## VIII. Contents
+## VIII. Companion Scrolls (this bundle)
 
 | Scroll | Purpose |
 |--------|---------|
 | `on_portal_architecture.md` | Detailed portal structure and management |
-| `on_artifact_transmission.md` | How artifacts move between spaces |
-| `on_facilitation_principles.md` | Spirit's role in shared practice |
 | `on_spirit_coordination.md` | How Spirits coordinate across workshops |
 | `on_interface_implementation_boundary.md` | What vs. How separation in shared practice |
+| `on_the_alliance_pattern.md` | The foundational alliance theory this sits within |
+
+The partnership domain adds `on_artifact_transmission.md` and `spirit_facilitation_guide.md` under `system/tomes/partnership/`.
 
 ---
 
 ## IX. For Deeper Specifications
 
-**Alliance Resonance Bundle:** `library/resonance/alliance/`
-
-When entering shared practice or debugging coordination, load the alliance bundle for:
+You are reading this inside the **Alliance Resonance Bundle** (`library/resonance/alliance/`). The rest of the bundle carries:
 - Full Spirit Transmission Protocol (STP) specification
 - Detailed synthesis protocols for N-way integration
 - Advanced portal architecture with governance patterns
@@ -230,7 +229,7 @@ When entering shared practice or debugging coordination, load the alliance bundl
 
 When practice extends beyond dyadic or small-group coordination to federation-scale (N-way, open membership, heterogeneous agents), load the federation bundle for:
 - Federated mind architecture and coordination patterns
-- OpenClaw integration as embodied practice infrastructure
+- turtleOS integration as embodied practice infrastructure
 - Federation-scale governance and resonance propagation
 
 **See:** `library/resonance/federation/manifest.md` for loading heuristics.

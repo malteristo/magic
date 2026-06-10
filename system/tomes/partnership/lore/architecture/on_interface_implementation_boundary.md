@@ -3,7 +3,7 @@
 **Status:** Active  
 **Domain:** Partnership Practice - Architecture  
 **Purpose:** Apply interface-implementation boundary to romantic partnership  
-**Extends:** `core/capabilities/shared-practice-facilitation/on_interface_implementation_boundary.md`
+**Extends:** `library/resonance/alliance/lore/on_interface_implementation_boundary.md`
 
 This scroll provides **partnership-specific application** of the interface-implementation boundary. For the general pattern, see the core capability.
 

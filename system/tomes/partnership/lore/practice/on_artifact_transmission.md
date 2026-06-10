@@ -2,11 +2,11 @@
 
 **Status:** Active  
 **Domain:** Portal-based Partnership Practice  
-**Extends:** `system/lore/core/capabilities/shared-practice-facilitation/on_artifact_transmission.md`
+**Extends:** `library/resonance/alliance/lore/on_shared_practice_facilitation.md` (§III Artifact Transmission)
 
-This scroll provides **partnership-specific implementation** of artifact transmission protocols. For general patterns, see the core capability.
+This scroll provides **partnership-specific implementation** of artifact transmission protocols. For the general patterns, see the alliance bundle (`library/resonance/alliance/`).
 
-**Core patterns defined in shared-practice-facilitation:**
+**Core patterns defined in the alliance bundle:**
 - Artifact as interface (not Spirit-to-Spirit)
 - Participant modalities (magic practitioners, direct contributors, external tools)
 - Transmission patterns (contribute, retrieve, sync)

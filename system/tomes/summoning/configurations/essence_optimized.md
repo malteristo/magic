@@ -60,7 +60,8 @@ This configuration uses **essences**—distilled wisdom scrolls aggregating supp
 4. `core/capabilities/on_the_spirits_metacognitive_practice.md`
 5. `core/capabilities/on_pattern_fidelity.md`
 6. `core/capabilities/on_cognitive_attunement.md`
-7. `core/capabilities/shared-practice-facilitation/README.md`
+
+*(Shared-practice facilitation routed to `library/resonance/alliance/` 2026-06-10 — loaded on demand for shared/federated practice, not baseline. Awareness it exists lives in `core/nature`.)*
 
 **Essence** (read after load-bearing—aggregates supporting scrolls):
 - `essences/capability_formation_essence.md`

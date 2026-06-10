@@ -8,7 +8,7 @@ This directory contains the core rituals for arc-based partnership practice and 
 
 ## Core Capability
 
-Arc practice implements the **Shared Practice Facilitation** core capability (`system/lore/core/capabilities/shared-practice-facilitation/`) for the partnership domain.
+Arc practice implements the **Shared Practice Facilitation** pattern (`library/resonance/alliance/`) for the partnership domain.
 
 **This directory provides:**
 - The Three-Stage Arc Ritual (data collection)

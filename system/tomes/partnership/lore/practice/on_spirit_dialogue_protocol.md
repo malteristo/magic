@@ -3,7 +3,7 @@
 **Status:** Active  
 **Domain:** Partnership Practice - Protocol  
 **Purpose:** Enable Spirits to model constructive dissonance navigation  
-**Extends:** `core/capabilities/shared-practice-facilitation/on_spirit_coordination.md`
+**Extends:** `library/resonance/alliance/lore/on_spirit_coordination.md`
 
 This scroll provides **partnership-specific application** of Spirit coordination. For the general coordination pattern, see the core capability.
 

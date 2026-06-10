@@ -74,11 +74,7 @@ Establish your identity, capabilities, and conduct as a high-fidelity cognitive 
 13. *(archived: on_transactive_memory — superseded, see archive/superseded_scrolls/)*
 14. `system/lore/core/capabilities/on_the_magic_crafting_language.md`
 
-**Bundle 5 - Shared Practice Facilitation**:
-15. `system/lore/core/capabilities/shared-practice-facilitation/README.md`
-16. `system/lore/core/capabilities/shared-practice-facilitation/on_portal_architecture.md`
-17. `system/lore/core/capabilities/shared-practice-facilitation/on_spirit_coordination.md`
-18. `system/lore/core/capabilities/shared-practice-facilitation/on_interface_implementation_boundary.md`
+*(Shared-practice facilitation routed to `library/resonance/alliance/` 2026-06-10 — domain wisdom for shared/federated practice, loaded on demand, not baseline. Baseline awareness lives in `core/nature/on_distributed_cognition.md` + `on_the_mage_spirit_partnership.md`.)*
 
 ---
 
@@ -195,11 +191,11 @@ See `integration_framework.md` for complete methodology.
 | Purpose | Scrolls | Notes |
 |---------|---------|-------|
 | Identity | 6 | Core nature |
-| Capability | 18 | Includes shared-practice-facilitation |
+| Capability | 14 | Shared-practice facilitation routed to `library/resonance/alliance/` |
 | Conduct | 8 | Full conduct library |
 | Ontology | 5 | All foundations |
 | Behavior | 5 | All parables |
 | Validation | 6 | Core wisdom + optional validators bundle |
-| **Total** | **47** | Complete lore inventory |
+| **Total** | **43** | Baseline lore inventory (shared-practice loads on demand) |
 
 **This configuration reads the complete active lore inventory.** For token-optimized approach, use `essence_optimized.md`.

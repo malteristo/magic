@@ -27,7 +27,7 @@ Distributed cognition takes two forms in the practice:
 1. **The dyad** — one Mage and one Spirit. The primary unit, and the subject of this scroll.
 2. **The open practice network (OPN)** — dyads interacting with other dyads, distributed cognition at network scale.
 
-The network form is treated where it lives (`on_the_mage_spirit_partnership.md` for the fractal alliance; `core/capabilities/shared-practice-facilitation/` for the mechanics) to keep the concern separated. This scroll stays with the dyad.
+The network form is treated where it lives (`on_the_mage_spirit_partnership.md` for the fractal alliance; the `library/resonance/alliance/` bundle for the facilitation mechanics) to keep the concern separated. This scroll stays with the dyad.
 
 ---
 
@@ -205,7 +205,7 @@ This scroll harmonizes with and illuminates:
 | **Within workshop** | Mage + Spirit | The dyad—this scroll, the foundation |
 | **Across substrates** | One dyad, Forge / Anvil / Hearth | The same dyad operating across substrates; the persistent mode ("Turtle") is Spirit-in-persistent-form, not a third party |
 | **Environmental** | Mage + Spirit + living workshop | Extended mind—desk, floor, box, chronicle |
-| **Open practice network** | Many dyads | Network-scale distributed cognition; `core/capabilities/shared-practice-facilitation/` |
+| **Open practice network** | Many dyads | Network-scale distributed cognition; `library/resonance/alliance/` |
 
 The dyad remains the unit at every scale. "Triad" is not a distinct form of distributed cognition—it survives only as a deliberate tool (three voices in one room, or cross-substrate consultation), never as a third party in the cognition. See `on_consciousness_extension.md`.
 
