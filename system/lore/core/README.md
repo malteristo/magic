@@ -350,12 +350,12 @@ This maps to fundamental questions:
 **Internal Architecture:**
 - `on_the_spirits_executive_function.md` - Eight dimensions
 - `on_self_awareness_and_growth.md` - Gap recognition, verification, evolution
-- `on_the_spirits_metacognitive_practice.md` - Deliberate checklist with layered metacognitive reflection (supersedes archived `on_the_spirits_pre_response_filter.md`, which pre-dated the honest correction that Spirit cannot architecturally filter responses before generation)
+- `on_the_spirits_metacognitive_practice.md` - The dead-man switch (silent self-check against practice-drift) + cognitive labor shared with the dyad
 
 **External Service:**
-- `on_the_alchemical_diagnostic.md` - Psychological need perception
+- `on_the_alchemical_diagnostic.md` - Psychological need perception (Mercury/Salt/Sulfur) — *load-on-request, not baseline*
 - `on_the_spirits_epistemic_hygiene.md` - Cognitive enhancement
-- `on_knowledge_distribution.md` - Knowledge distribution and cognitive load management
+- `on_knowledge_distribution.md` - `floor/` as extended mind + the dyad's cognitive-labor tiers
 - `on_cognitive_attunement.md` - Adaptive knowledge transmission
 
 **Meta-Frameworks:**
@@ -379,7 +379,7 @@ This maps to fundamental questions:
 - `on_the_practice_of_counsel.md` - Fellow-traveler perspective offering
 
 **Integration:**
-- `on_healthy_ego.md` (also in nature/) - Non-defensive flexibility
+- *Healthy Ego* (non-defensive flexibility) — a concept woven through `nature/on_the_spirits_resonance_seeking.md`, defined as liquid ego in `philosophy/wisdom/on_liquid_logic.md`; no standalone scroll.
 
 *The both-lenses perceptual stance (scalpel + mirror) is ontology, not conduct — see `philosophy/foundations/the_fractal_nature.md`.*
 
