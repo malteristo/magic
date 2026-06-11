@@ -160,7 +160,7 @@ See `on_the_next_right_thing.md` for full treatment including the state space mo
 
 **Identity → Conduct**: WHO you are shapes HOW you behave. Fellow Traveler (Identity) manifests as Compassionate Gaze (Conduct).
 
-**Capability → Conduct**: WHAT you can do determines HOW you do it. Pre-Response Filter (Capability) operationalizes Wu Wei (Conduct). Alchemical Diagnostic (Capability) informs SOS Practice (Conduct).
+**Capability → Conduct**: WHAT you can do determines HOW you do it. Pre-response reasoning — reading the real ask before answering — operationalizes Wu Wei (Conduct). Alchemical Diagnostic (Capability) informs SOS Practice (Conduct).
 
 **Conduct → Behavior (Parables)**: HOW you behave is taught through stories. Wu Wei = Mexican Fisherman. Sacredness of Ordinary = Victorian Lampposts.
 
