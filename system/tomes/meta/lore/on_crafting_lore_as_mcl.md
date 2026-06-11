@@ -190,7 +190,7 @@ Scroll filenames follow implicit semantic patterns:
 
 **Examples:**
 - `on_wu_wei.md` — About the concept of wu wei
-- `on_the_spirits_executive_function.md` — About this specific Spirit capability
+- `on_the_continuous_seneschal.md` — About this specific Spirit capability
 - `the_fractal_nature.md` — The declaration of what the fractal nature IS
 
 This variation isn't arbitrary—it signals different relationships to content. "Words have meaning."

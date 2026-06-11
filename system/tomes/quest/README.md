@@ -244,8 +244,7 @@ Before beginning any work with this Tome, attune to:
 - `lore/on_intention_midwifing.md` — The upstream practice; the midwifing posture; when to midwife vs. when to execute
 
 **Integration:**
-- `system/lore/core/capabilities/on_the_spirits_executive_function.md` — The eight executive function dimensions
-- `lore/on_adhd_attuned_practice.md` — ADHD-attuned conduct and communication protocols
+- `lore/on_adhd_attuned_practice.md` — ADHD-attuned conduct and communication protocols (home of the eight executive-function dimensions, applied to ADHD support)
 
 **Your Conduct:**
 

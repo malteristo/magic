@@ -163,7 +163,6 @@ This scroll reveals the unifying pattern behind existing scrolls:
 
 **`on_distributed_memory.md`** → Memory subsystem of the architecture
 **`on_knowledge_distribution.md`** → Labor division within the architecture
-**`on_the_spirits_executive_function.md`** → Executive subsystem of the architecture
 
 **BOOM system** → Working memory subsystem
 **Intentions system** → Goal pursuit subsystem
@@ -231,7 +230,6 @@ This pattern triangulates across independent sources:
 - `on_distributed_cognition.md` — Foundational distributed cognition framing
 - `on_distributed_memory.md` — Memory architecture
 - `on_knowledge_distribution.md` — Cognitive labor division
-- `on_the_spirits_executive_function.md` — Executive function dimensions
 - `on_clark_and_extended_mind.md` — Clark validator scroll
 
 **Practice Discovery:**

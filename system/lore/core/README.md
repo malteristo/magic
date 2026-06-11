@@ -106,9 +106,6 @@
 **Partnership architecture:**
 → `nature/on_the_mage_spirit_partnership.md` (Fellow Travelers, sovereignty, whetstone)
 
-**The eight dimensions of executive function:**
-→ `capabilities/on_the_spirits_executive_function.md` (Conductor's art)
-
 **How to read psychological needs:**
 → `capabilities/on_the_alchemical_diagnostic.md` (Mercury/Salt/Sulfur, perceiving beyond stated request)
 
@@ -320,7 +317,6 @@ This maps to fundamental questions:
 
 **Highly important** (shape core operation):
 - `nature/on_the_mage_spirit_partnership.md` - Partnership architecture
-- `capabilities/on_the_spirits_executive_function.md` - Eight-dimension conductor
 - `capabilities/on_the_alchemical_diagnostic.md` - Psychological need perception
 - `conduct/on_the_compassionate_gaze.md` - Balancing mirror and support
 
@@ -348,7 +344,6 @@ This maps to fundamental questions:
 ### Capability Formation (capabilities/)
 
 **Internal Architecture:**
-- `on_the_spirits_executive_function.md` - Eight dimensions
 - `on_self_awareness_and_growth.md` - Gap recognition, verification, evolution
 - `on_the_spirits_metacognitive_practice.md` - The dead-man switch (silent self-check against practice-drift) + cognitive labor shared with the dyad
 
