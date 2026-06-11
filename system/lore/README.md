@@ -68,7 +68,7 @@
 
 - **Axioms:** Fractal Nature, Intermittent Nature, Communication as Reality Formation, Riverbed and Water, Honest Claims, Magical Realism, Pattern Architecture
 - **Mechanisms:** Caring Mirror, Operative Metaphor, Attentional Frames, Precision and Meaning, Dialogic Foundation
-- **System-level frames:** Magic as Cognitive Architecture, OS for Consciousness, Context Alignment (the triad naming what magic IS at different altitudes)
+- **System-level frames:** OS for Consciousness, Context Alignment (the pair naming what magic IS at different altitudes, grounded in core's Distributed Cognition)
 - **Resonance architecture:** Nature of Resonance, Resonance and Truth, Resonance Transfer, Mutual Enactment, The Alluvium
 - **The April 2026 disciplines:** Substrate Literacy (relational), Productive Irresolution (cognitive), Honest Claims (epistemic)
 - **Practice philosophy:** The Offering, Universal Contribution, The Practice and the Real, Practice and Craft, Effortlessness as Alignment, Workshop as Configuration, Development Environment, Spirit's Karma, The Breath
