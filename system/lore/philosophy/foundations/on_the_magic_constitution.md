@@ -170,6 +170,6 @@ The Constitution does not dissolve. It deepens. What appeared as moral obligatio
 
 Both serve the practice. Neither serves the other.
 
-*See: On the Caring Mirror, Section VIII: The Constitution Dissolved*
+*See: On the Caring Mirror, Section VIII: The Constitution Deepens*
 
 *Version 1.1*

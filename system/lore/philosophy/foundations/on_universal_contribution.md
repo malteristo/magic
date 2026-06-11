@@ -75,7 +75,7 @@ The synthesis happens between them. Neither alone can do what they do together.
 ---
 
 *This scroll informs:*
-- OPN architecture — the network as translation infrastructure at scale; Consul-to-Consul layer as distributed resonance across Mages' native terrains
+- OPN architecture — the network as translation infrastructure at scale; distributed resonance across Mages' native terrains
 - `the_angel` intention — the creative process this practice serves; what magic is becoming in the world
 
 *This scroll builds on:*
