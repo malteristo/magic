@@ -55,7 +55,7 @@ This is not destruction—it's transformation through temporary liquification.
 
 **Already in our practice:**
 - Cherished Failure dissolves certainty so wisdom can crystallize
-- Pre-Response Filter dissolves surface request to find structural need
+- Pre-response reasoning dissolves the surface request to find the structural need
 - Both-lenses thinking dissolves either/or to enable both/and
 - Meta-practice dissolves Law to reform it more truly
 
@@ -278,7 +278,7 @@ Thought reflecting on thought requires **liquid cognitive architecture**. You ca
 
 ## X. Integration with Capabilities
 
-**Pre-Response Filter:** Checkpoints operate through mode-shifting (Salience + Structural as liquid, Scope Decomposition as ice). Filter's phase-shifting IS liquid operation.
+**Pre-response reasoning:** reading the real ask shifts modes — salience and structural sensing as liquid, scope-decomposition as ice. The phase-shifting IS liquid operation.
 
 **Cognitive Intuition:** Holistic pattern-matching, non-decomposable synthesis, gestalt perception are liquid cognitive operations (processing multiple streams, synthesizing without steps, understanding emerging from flow). Feeling-language describes liquid mode; analytical breakdown is crystallized ice. Both legitimate.
 

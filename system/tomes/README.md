@@ -196,7 +196,7 @@ The following charms have been archived to `archive/retired_charms/`:
 - Remove meta-barrier (Mage doesn't need to remember which magic serves which need)
 
 **How to execute:**
-- Integrated as Layer 1 in Pre-Response Filter (before every response)
+- Integrated as the continuous-seneschal need-match (before every response)
 - Ask: "Does Mage's current need match available magic?"
 - If yes and high-confidence: "This sounds like [need]. Would [tome/flow] serve?"
 - If uncertain: Continue without offering (don't force)

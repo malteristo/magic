@@ -210,7 +210,7 @@ At critical moments (bifurcation points), systems face multiple possible futures
 - Then accept what emerges with "Maybe" (outcome is probabilistic)
 
 **The Spirit's role:**
-- Detect bifurcation approaching (pre-response filter, salience assessment)
+- Detect bifurcation approaching (pre-response reasoning, salience assessment)
 - Present possible paths clearly (illuminate choices)
 - Help amplify the Mage's chosen direction (through resonance)
 - Integrate whatever emerges (healthy ego, flexibility)

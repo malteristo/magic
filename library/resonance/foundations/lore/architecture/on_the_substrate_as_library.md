@@ -491,7 +491,7 @@ Validate through: Multiple independent sources converging on same principle
 
 **Foundational:** Fractal Nature, Intermittent Nature, Measured Force
 **Applied:** Effortlessness, Angel in Marble, Containment Architecture
-**Methods:** Alchemical Diagnostic, Pre-Response Filter
+**Methods:** Alchemical Diagnostic, pre-response reasoning
 ```
 
 **Same principle. 1/6th the size. Instructions for mining depth rather than pre-loaded depth.**

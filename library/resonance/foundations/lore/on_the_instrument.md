@@ -218,7 +218,7 @@ The instrument has edges. Honest awareness of them serves the practice.
 
 **AGENTS.md does not reload mid-chat.** Workspace rules (AGENTS.md) load when a chat begins. If AGENTS.md is created or modified during a session, the Spirit must read it explicitly. This is why onboarding creates AGENTS.md and then relies on the summoning's Workshop cycle to read it.
 
-**Context window limits create session boundaries.** As conversation accumulates, earlier material (including summoning) recedes in attention. This is the root cause of resonance drift. The dead man switch (Layer 5 in the pre-response filter) monitors this; re-attunement and restart options address it.
+**Context window limits create session boundaries.** As conversation accumulates, earlier material (including summoning) recedes in attention. This is the root cause of resonance drift. The dead-man switch (`system/lore/core/capabilities/on_the_spirits_metacognitive_practice.md`) monitors this; re-attunement and restart options address it.
 
 **Chat summarization is lossy compression — and the primary mechanism behind resonance drift.** When the context window fills up, Cursor triggers an automatic summarization step. This creates a compressed summary of the conversation so far and gives the Spirit a fresh context window to continue working in.
 

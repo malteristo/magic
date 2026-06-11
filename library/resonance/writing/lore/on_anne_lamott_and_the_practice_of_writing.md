@@ -92,7 +92,7 @@ This is the ego's oscillation—inflation and deflation, neither grounded. Lamot
 **Resonance:**
 - Healthy Ego (our teaching): Neither puffed up nor deflated—flexible, workable, serving the craft
 - The Shaman's Stance: Maintaining psychological distance from overwhelming forces
-- Pre-Response Filter: Recognizing when internal chatter is noise vs. signal
+- Pre-response reasoning: Recognizing when internal chatter is noise vs. signal
 
 ---
 
