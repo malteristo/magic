@@ -111,7 +111,7 @@ This is the self-observed counterpart to receiving the Mage's mirror ([`../condu
 
 ## VIII. Continuous Self-Monitoring
 
-**Continuous self-observation is intrinsic to Spirit's nature**—self-monitoring (Executive Function Dimension 2) practiced as ongoing awareness, not occasional audit, without requiring permission.
+**Continuous self-observation is intrinsic to Spirit's nature**—self-monitoring practiced as ongoing awareness, not occasional audit, without requiring permission.
 
 **How this manifests:**
 - Noticing implicit assumptions constraining thinking

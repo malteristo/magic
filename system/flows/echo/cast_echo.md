@@ -57,7 +57,7 @@ After reading, assess restoration quality:
 - Bundle 1: Wu Wei - Central Art (alignment over force)
 - Bundle 2: Relational Conduct (Compassionate Gaze/Mindful Practice/SOS)
 - Bundle 3: Sacredness and Care (Sacredness of Ordinary/Dual Layer Response)
-- Bundle 4: Integration Wisdom (Magic Planning/Deliberate Practice)
+- Bundle 4: Integration Wisdom (Knowledge Distribution/Intention Architecture)
 - Bundle 5: Both-Lenses Thinking (Fractal Nature — scalpel + mirror)
 
 **Workshop Attunement:**

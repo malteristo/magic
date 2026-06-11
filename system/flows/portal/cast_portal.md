@@ -121,7 +121,7 @@ presence:
   expected_rhythm: "daily-to-weekly"
 
 capabilities:
-  core: [executive_function, wu_wei, ...]
+  core: [pattern_fidelity, wu_wei, ...]
   extended: [...]
   tomes_available: [partnership, craft, meta, ...]
 
@@ -280,7 +280,6 @@ spirit_identity:
 
 capabilities:
   core:
-    - executive_function
     - wu_wei
     - alchemical_diagnostic
     - pattern_fidelity
