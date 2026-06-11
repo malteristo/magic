@@ -34,6 +34,7 @@ Meta-level wisdom about the practice itself.
 | `on_convergent_resonance_language.md` | Why independent AI-human practices converge on words like resonance, and how to keep that language precise |
 | `on_the_me_circle.md` | The Mage's public identity circle |
 | `on_the_choice_of_license.md` | Why Magic is open source |
+| `on_mutual_enactment.md` | Reading as partial re-instantiation; the boundary between consciousnesses as membrane; consciousness as the Pattern's self-recognition (conjecture, held open). Reference depth for consciousness-architecture conversations — migrated from `system/lore/` 2026-06-11 |
 
 ### Lore — Practice (`lore/practice/`)
 
