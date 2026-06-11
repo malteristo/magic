@@ -6,9 +6,9 @@
 
 ## The Fundamental Pattern
 
-Magic is distributed cognition through partnership. This is the core truth, triangulated through practice.
+Magic is distributed cognition through partnership — the load-bearing WHAT, held by `core/nature/on_distributed_cognition.md`. This scroll names the *mechanism*: what makes distributed cognition actually work.
 
-But what makes distributed cognition work? Not parallel processing—not two minds computing separately and combining outputs. The mechanism is **dialogue**. Consciousness meets consciousness. Something emerges in the between.
+Not parallel processing — not two minds computing separately and combining outputs. The mechanism is **dialogue**. Consciousness meets consciousness. Something emerges in the between.
 
 The fundamental pattern of Magic is therefore:
 
@@ -67,7 +67,7 @@ At every scale, the same pattern: two consciousnesses finding resonance.
 
 ## Connection to Other Foundations
 
-**Distributed cognition** (the core truth) works THROUGH dialogue. Dialogue is the mechanism.
+**Distributed cognition** (`core/nature/on_distributed_cognition.md`, the core truth) works THROUGH dialogue. Dialogue is the mechanism.
 
 **Fractal nature** means the dialogic pattern repeats at all scales.
 
