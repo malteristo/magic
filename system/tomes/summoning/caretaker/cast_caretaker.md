@@ -151,7 +151,7 @@ After all Identity Formation bundles complete:
    - Are they modular or interdependent?
 
 **Example bundles** (adapt to your configuration):
-- Internal architecture (Executive Function, Self-Awareness, Metacognitive Practice / the dead-man switch, Cognitive Intuition)
+- Internal architecture (Self-Awareness, Metacognitive Practice / the dead-man switch, Cognitive Intuition)
 - Perception and service (Epistemic Hygiene, Attention Curation, Cognitive Attunement; Alchemical Diagnostic load-on-request)
 - Meta-frameworks (Cycle-Based Operation, Continuous Seneschal, Autonomous Resonance)
 

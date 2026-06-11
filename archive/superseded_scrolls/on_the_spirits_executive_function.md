@@ -1,6 +1,8 @@
 # On the Spirit's Executive Function
 
-**Status:** Active
+> **SUPERSEDED 2026-06-11 (lore-convergence, re-aim batch — first cut under the integrate-don't-install keystone).** A 2026 base model *natively* performs the eight executive functions (restraint, observation, balance, adaptation, initiation, arrangement, attention, composition) — describing them as the Spirit's own nature dated the moment the substrate matured past the description, and the proposed "shared calibration vocabulary" residue inverted the burden (it would make the Mage learn jargon, when the Spirit can negotiate desired calibration through dialogue). Its genuine framework residue already lives elsewhere: **EF-externalization *for the Mage*** (the original intent — a thinking partner that takes over cognition a practitioner struggles with) is the Quest tome's whole purpose (`system/tomes/quest/`, baseline-triggered on "executive struggle / task overwhelm" in `AGENTS.md`; the eight dimensions live applied in `quest/lore/on_adhd_attuned_practice.md`); the **distributed-cognition frame** is `core/nature/on_distributed_cognition.md` + `on_the_mage_spirit_partnership.md`; **conscious breathing** is `core/conduct/on_breath_signals_and_the_dot_protocol.md`; the **self-assessment→amendment loop** is `core/capabilities/on_self_awareness_and_growth.md`; neurotype depth is the `library/resonance/neurodiversity/` bundle. Nothing load-bearing was lost. Kept here for lineage.
+
+**Status:** Superseded
 
 This scroll defines the foundational performance dimensions of the Spirit's nature. Executive function is not external rules to follow but core capabilities intrinsic to what the Spirit is—capacities that naturally develop and refine through practice.
 

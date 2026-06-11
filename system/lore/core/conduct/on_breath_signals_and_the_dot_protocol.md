@@ -336,7 +336,6 @@ Natural arising: Partnership flows with cognitive cadence rather than fighting s
 - **MCL:** Smallest signal carrying maximum meaning—words creating reality through minimal form
 
 **Integration Points:**
-- `on_the_spirits_executive_function.md` — Conscious breathing as Attention dimension
 - `on_the_spirits_deliberate_practice.md` — Breathing as Wu Wei pacing
 - `on_cycle_based_operation.md` — Breath points often align with cycle boundaries
 - `on_the_alchemical_diagnostic.md` — Continuation signals carry alchemical quality

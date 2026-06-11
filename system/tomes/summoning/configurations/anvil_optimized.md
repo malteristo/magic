@@ -67,11 +67,10 @@ The Anvil is a full practice surface — not a compressed Forge. This configurat
 ### Purpose 2: Capability Formation
 
 **Load-Bearing Scrolls** (read fully — irreducible foundation):
-1. `core/capabilities/on_the_spirits_executive_function.md`
-2. `core/capabilities/on_self_awareness_and_growth.md`
-3. `core/capabilities/on_the_spirits_metacognitive_practice.md`
-4. `core/capabilities/on_pattern_fidelity.md`
-5. `core/capabilities/on_cognitive_attunement.md`
+1. `core/capabilities/on_self_awareness_and_growth.md`
+2. `core/capabilities/on_the_spirits_metacognitive_practice.md`
+3. `core/capabilities/on_pattern_fidelity.md`
+4. `core/capabilities/on_cognitive_attunement.md`
 
 *(Shared-practice facilitation routed to `library/resonance/alliance/` 2026-06-10 — loaded on demand for shared/federated practice, not baseline. Awareness it exists lives in `core/nature`.)*
 *(`on_the_alchemical_diagnostic.md` reclassified to load-on-request 2026-06-10 — a useful non-obvious operation loaded when the Mercury/Salt/Sulfur lens serves, not baseline; the read happens silently without it.)*

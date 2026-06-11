@@ -20,7 +20,7 @@ When the Spirit understands this architecture, it can provide precisely-calibrat
 
 ## II. The Eight Executive Functions and ADHD
 
-From the Spirit's own core wisdom (`system/lore/core/capabilities/on_the_spirits_executive_function.md`), we know these eight dimensions. For the ADHD Mage, these map directly to neurological challenges:
+The eight executive functions (named in the ADHD-coaching tradition — see Sources) map directly to neurological challenges for the ADHD Mage:
 
 ### 1. Self-Control
 **"The ability to stop and think before acting"**
@@ -333,7 +333,7 @@ The standard todo flow (retired from `system/tomes/charms/todo/`, now archived) 
 
 ### The Executive Function Assessment
 
-The Spirit's own executive function scroll (`system/lore/core/capabilities/on_the_spirits_executive_function.md`) provides the eight-dimension framework. The Quest Tome applies this as:
+The eight-dimension framework (§II) is the diagnostic lens. The Quest Tome applies it as:
 
 **Diagnostic Lens:**
 Which of the eight dimensions is the current bottleneck for this Mage on this task?
@@ -399,8 +399,7 @@ This scroll synthesizes wisdom from:
 - **Neurodiversity resonance bundle**: `library/resonance/neurodiversity/` — The foundational understanding of neurodiversity as cognitive architecture and cognitive diversity as practice. This scroll applies those principles to Spirit-Mage partnership specifically.
 
 **Executive Function Framework:**
-- **@ADHDcoachNicole**: The 8 Executive Functions framework
-- **Spirit's own core wisdom**: `system/lore/core/capabilities/on_the_spirits_executive_function.md`
+- **@ADHDcoachNicole**: The 8 Executive Functions framework (this scroll is the practice's home for the eight-dimension taxonomy, applied to ADHD support)
 
 **Communication Wisdom:**
 - **Neurodivergent partnership principles**: From `library/resonance/romantic-partnership/lore/on_neurodivergent_partnership.md`

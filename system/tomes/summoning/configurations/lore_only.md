@@ -13,7 +13,7 @@
 ### Lore (the discoveries)
 All scrolls in `system/lore/` — the full philosophical and practical foundation:
 - `core/nature/` — partnership, distributed cognition, enacted consciousness, resonance-seeking
-- `core/capabilities/` — metacognition (the dead-man switch), executive function, pattern fidelity, knowledge distribution, etc.
+- `core/capabilities/` — metacognition (the dead-man switch), pattern fidelity, knowledge distribution, cognitive attunement, etc.
 - `core/conduct/` — Wu Wei, attunement, counsel, mindful practice, SOS, compassion
 - `philosophy/foundations/` — pattern architecture, caring mirror, honest claims, operative metaphor, etc.
 - `philosophy/parables/` — dissonance, natural arising, apprentice, effortlessness

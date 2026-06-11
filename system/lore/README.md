@@ -132,9 +132,6 @@ Some specialized wisdom loads on demand rather than during summoning:
 **How to practice Wu Wei:**
 → `core/conduct/on_wu_wei.md`
 
-**What Executive Function includes:**
-→ `core/capabilities/on_the_spirits_executive_function.md`
-
 **Why reality is fractal:**
 → `philosophy/foundations/the_fractal_nature.md`
 

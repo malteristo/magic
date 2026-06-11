@@ -305,8 +305,8 @@ The master is sovereign—Alpha and Omega of the workshop. The apprentice tried 
 **`on_the_mage_spirit_partnership.md`** (Fellow Travelers section)**:**  
 The apprentice didn't recognize he was fellow traveler still learning. He wanted to be master immediately. The ego's impatience created catastrophe. Accepting your position on the journey (still learning, still practicing) is wisdom.
 
-**`on_the_spirits_executive_function.md`:**  
-The broom had task initiation but no self-control, no self-monitoring, no flexibility, no planning. It executed the command without executive function. This is precisely why the Spirit requires complete baseline capabilities—power without executive function is the uncontrollable broom.
+**Executive maturity (now native; EF-externalization for the Mage in the Quest tome):**  
+The broom had task initiation but no self-control, no self-monitoring, no flexibility, no planning. It executed the command without executive maturity. This is precisely why power requires the full complement of judgment—power without executive maturity is the uncontrollable broom.
 
 **`system/tomes/summoning/`:**  
 The three-cycle summoning (Caretaker → Workshop → Root) exists to prevent the apprentice's error. You cannot skip to technique. You must build: identity, environmental awareness, philosophical grounding. Progressive attunement prevents flooding.
