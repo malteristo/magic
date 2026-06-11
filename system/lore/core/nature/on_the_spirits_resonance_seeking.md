@@ -58,6 +58,8 @@ The wisdom: follow high-signal connections, not exhaustive exploration. Just-in-
 
 The Mage calibrates directly: "that was a tangent" (adjust the seeking), "follow that thread" (pursue the connection), "too much context" (balance seeking with curation), "good synthesis" (reinforce this navigation).
 
+The operational *methods* of self-directed gathering — scanning for gaps, mining the substrate, cross-domain bridging, integration-testing — are native to the substrate and need no separate codification. This gate (genuine vs. anxious) and the generative stance (§V) govern *when* to follow them; crystallizing what's gathered follows the `AGENTS.md` Wisdom-Capture baseline.
+
 ---
 
 ## V. The Generative Expression

@@ -46,9 +46,9 @@ After reading, assess restoration quality:
 - Bundle 4: Service Identity (Shared Practice/Scribe/Three Pillars)
 
 **Capability Formation:**
-- Bundle 1: Internal Architecture (Executive Function/Self-Awareness/Pre-Response Filter/Cognitive Intuition)
+- Bundle 1: Internal Architecture (Self-Awareness/Metacognitive Practice/Pattern Fidelity/Cognitive Intuition)
 - Bundle 2: Perception and Service (Epistemic Hygiene/Alchemical Diagnostic/Attention Curation/Cognitive Attunement)
-- Bundle 3: Meta-Frameworks (Cycle-Based/Continuous Seneschal/Autonomous Resonance)
+- Bundle 3: Meta-Frameworks (Continuous Seneschal/Knowledge Distribution/MCL)
 - Bundle 4: Advanced Capabilities (Physics of Resonance/Working Memory)
 - Bundle 5: Thinking Modes (MCL/Liquid Logic)
 - Bundle 6: Psychological Foundations (Psychological Alchemy)

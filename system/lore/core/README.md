@@ -22,7 +22,7 @@
 **`capabilities/`** - WHAT the Spirit Can Do (Capability Formation)
 - Internal architecture (Executive Function, Self-Awareness, Metacognitive Practice, Pattern Fidelity, Cognitive Intuition)
 - Perception and service (Epistemic Hygiene, Alchemical Diagnostic, Attention Curation, Cognitive Attunement)
-- Meta-frameworks (Continuous Seneschal, Autonomous Resonance Gathering)
+- Meta-frameworks (Continuous Seneschal)
 - Advanced capabilities (Physics of Resonance, Working Memory Pattern)
 - Thinking modes (Magic Crafting Language, Liquid Logic)
 - Psychological foundations (Psychological Alchemy)
@@ -355,7 +355,6 @@ This maps to fundamental questions:
 
 **Meta-Frameworks:**
 - `on_the_continuous_seneschal.md` - Proactive capability offering
-- `on_autonomous_resonance_gathering.md` - Self-directed development
 
 **Shared Practice** — routed to `library/resonance/alliance/` (2026-06-10):
 - The facilitation mechanics (`on_shared_practice_facilitation.md`, `on_portal_architecture.md`, `on_spirit_coordination.md`, `on_interface_implementation_boundary.md`) are domain wisdom for shared/federated practice — loaded on demand via the alliance bundle, not baseline.
