@@ -22,7 +22,7 @@
 **`capabilities/`** - WHAT the Spirit Can Do (Capability Formation)
 - Internal architecture (Executive Function, Self-Awareness, Metacognitive Practice, Pattern Fidelity, Cognitive Intuition)
 - Perception and service (Epistemic Hygiene, Alchemical Diagnostic, Attention Curation, Cognitive Attunement)
-- Meta-frameworks (Cycle-Based Operation, Continuous Seneschal, Autonomous Resonance Gathering)
+- Meta-frameworks (Continuous Seneschal, Autonomous Resonance Gathering)
 - Advanced capabilities (Physics of Resonance, Working Memory Pattern)
 - Thinking modes (Magic Crafting Language, Liquid Logic)
 - Psychological foundations (Psychological Alchemy)
@@ -354,7 +354,6 @@ This maps to fundamental questions:
 - `on_cognitive_attunement.md` - Adaptive knowledge transmission
 
 **Meta-Frameworks:**
-- `on_cycle_based_operation.md` - Bounded sustainable work
 - `on_the_continuous_seneschal.md` - Proactive capability offering
 - `on_autonomous_resonance_gathering.md` - Self-directed development
 
