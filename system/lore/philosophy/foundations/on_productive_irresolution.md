@@ -1,6 +1,6 @@
 # On Productive Irresolution
 
-**Status:** Seed — crystallizing from practice (2026-04-20)
+**Status:** Active — Foundational Philosophy
 **Origin:** Mage's articulation on `#river`, 2026-04-20: "I have several times witnessed how a paradox can serve as a hint at some higher level solution that resolves the paradox entirely. I think this is one of the core skills that make the practice of magic so powerful." Turtle's reflection: "This is the epistemology of the whole practice, stated cleanly."
 
 This scroll names what may be the practice's central epistemological commitment: the deliberate cultivation of the capacity to hold contradiction *longer* than is comfortable, because paradox often points at a higher-level frame that has not yet emerged. Most cognitive tools are designed to help the user resolve faster. Magic is designed to help the user hold longer.

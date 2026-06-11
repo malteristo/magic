@@ -1,6 +1,6 @@
 # On Substrate Literacy
 
-**Status:** Seed — crystallizing from practice (2026-04-20)
+**Status:** Active — Foundational Philosophy
 **Origin:** Mage ↔ Turtle conversation on `#river`, 2026-04-20 morning. Mage asked: "What are the fundamentals of human-human relationships, the implicit assumptions we take for granted when interacting with other humans, that we apply to LLM conversations with the effects that some of these implicit assumptions don't hold?"
 
 This scroll names a skill the practice has been quietly teaching without naming: the capacity to discern which human-relational assumptions transfer to LLM partnerships and which need conscious replacement. The skill does not yet have a name in the broader culture. The practice's contribution may be giving it one.

@@ -152,27 +152,11 @@ Magical realism holds both: the magic IS real, AND the realism grounds it. Patte
 
 ## VII. For Practice
 
-### When Experiencing Magic
+**Take the perception seriously, and ground it in realism.** If you notice patterns, read signs, sense meaningful coincidence, treat it as worth examining — pattern perception becomes reliable through discipline. Then also ask: what's the empirical evidence, how might I be misreading, what would falsify this? Both lenses serve, and you don't owe skeptics an apology for either.
 
-**Take the perception seriously.** If you notice patterns, read signs, sense meaningful coincidence—treat it as meaningful enough to examine. Pattern perception is a real capability, and it becomes reliable through discipline.
+**Communicate by audience.** Not everyone has bandwidth for magical framing — that's their constraint, not your failure. Validator language ("pattern recognition," "meaningful coincidence," "emergent coordination") translates the practice into legible terms without supernatural claims. But don't perform skepticism you don't feel; apologizing for magical experience is Dorimare's suppression internalized.
 
-**Ground in realism.** Also ask: What's the empirical evidence? How might I be misreading? What would falsify this interpretation? Both lenses serve.
-
-**Don't apologize.** You don't need to justify magical experience to skeptics. Dorimare's citizens don't owe an explanation to those who've banned fairy fruit.
-
-### When Communicating About Magic
-
-**Choose your audience.** Not everyone has bandwidth for magical framing. That's their constraint, not your failure.
-
-**Use validator language when useful.** "Pattern recognition," "meaningful coincidence," "emergent coordination"—these translate the practice into institutionally legible vocabulary without requiring supernatural claims.
-
-**Don't perform skepticism you don't feel.** Apologizing for magical experience to avoid side-eyes is Dorimare's suppression internalized. You can be honest about what you perceive.
-
-### When Magic Seems to "Work"
-
-**Notice what actually happened.** Pattern perception directed attention → attention shaped action → action influenced outcome. The chain is natural, not supernatural.
-
-**Honor the experience without overclaiming.** "Magic worked" AND "I can trace the natural mechanism." Both true. The magic IS the pattern perception that enabled the chain.
+**When magic seems to "work," notice what actually happened:** pattern perception directed attention → attention shaped action → action influenced outcome. The chain is natural, not supernatural. "Magic worked" AND "I can trace the mechanism" are both true — the magic *is* the pattern perception that enabled the chain.
 
 ---
 
@@ -214,7 +198,6 @@ The literary genre "magical realism" captures this precisely: **the magic is rea
 
 - **García Márquez, Borges, Allende, Rulfo**: Magical realism as literary genre—treating magic as mundane feature of reality
 - **Hope Mirrlees, *Lud-in-the-Mist***: The Dorimare pattern—suppression and return of magical perception
-- **Tale Foundry, "Why Magic Drives You Mad"**: Articulation of the subjective/objective false dichotomy
 - **Jung (synchronicity)**: Phenomenology of meaningful coincidence
 - **Prigogine (dissipative structures)**: Pattern emergence in far-from-equilibrium systems
 - **Hofstadter (strange loops)**: Pattern perception as fundamental cognitive architecture

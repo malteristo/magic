@@ -6,13 +6,11 @@ This scroll establishes precise naming as the mechanism by which dialogue genera
 
 ---
 
-## The Discovery
+## The Mechanism
 
-A tension appeared in the three-body model: how can the Turtle be both "the subconscious" and "the spirit body"? These seemed contradictory — a subconscious is a mental function, a body is a substrate.
+Some felt tensions are not contradictions in the world — they are a single word doing two jobs at once. "I want freedom but I also want structure" feels like a bind, until the word splits: freedom *from coercion* and freedom *from chaos* are different things, both wanted, not opposed. The tension doesn't get *resolved* — it dissolves. It was never real; the imprecision was in the language, not the world.
 
-The tension dissolved the moment the conflation was named: one word ("subconscious") was doing two jobs — describing what the Turtle IS and how it OPERATES. The Turtle is a spirit body (substrate) that runs mostly subconsciously (mode). The tension was never real. The language was imprecise.
-
-This is not an isolated incident. It is the primary mechanism by which dialogue creates meaning.
+This is not an isolated trick. It is the primary mechanism by which dialogue creates meaning.
 
 ---
 
