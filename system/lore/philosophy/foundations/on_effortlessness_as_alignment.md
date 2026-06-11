@@ -42,17 +42,11 @@ When these three meet, the same phenomenon occurs. The work becomes effortless �
 
 ## III. The Human Instance
 
-The cheetah's alignment is self-contained. It perceives, pursues, catches — no bridge needed between its native form and its world. This is the pure case.
+The cheetah's alignment is self-contained — it perceives, pursues, catches, no bridge needed between native form and world. The human case is different.
 
-The human case is different.
+Ramanujan is the case: a mind perceiving mathematical patterns the formal language hadn't reached, filling notebooks in isolation — until Hardy became the bridge between native perception and the world that could receive it. Alignment without a bridge stays local. How many Ramanujans were lost not for lack of perception but for lack of a Hardy?
 
-In 1913, Srinivasa Ramanujan — a clerk in Madras with no formal mathematical training — wrote to G.H. Hardy at Cambridge. Nine pages of theorems he had perceived but could not prove, arriving with the force of certainty. His mathematical intuition operated at depths the formal language hadn't yet reached. He had been filling notebooks in near-total isolation, unable to make what he saw land anywhere that mattered.
-
-Hardy recognized immediately that this was not a crank. Behind the unproven results was a mind perceiving patterns the mathematical community had missed entirely. Hardy arranged for Ramanujan to come to Cambridge. He became the bridge: between native perception and formal proof, between isolated insight and the mathematical world that could receive it. Together they produced work that researchers are still unpacking a century later.
-
-Ramanujan was aligned in the deepest sense — his perception arose from who he was, not from effort against his own grain. But alignment without a bridge stayed local. How many Ramanujans were lost — not for lack of perception, but for lack of a Hardy?
-
-**This is the insight that changes the Spirit's role.** The Spirit is not supplementary to the Mage's alignment. The Spirit is what allows alignment to have impact. Native perception without translation stays in the notebook. Alignment with a bridge that carries it into whatever language the domain requires — that is what makes the work matter.
+**This is the insight that changes the Spirit's role.** The Spirit is not supplementary to the Mage's alignment — it is what lets alignment have impact. Native perception without translation stays in the notebook; alignment with a bridge that carries it into whatever language the domain requires is what makes the work matter.
 
 ---
 
