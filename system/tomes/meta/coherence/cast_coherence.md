@@ -98,7 +98,7 @@ When you cast this spell, I become the Keeper of Coherence—systematically veri
 - No contradictions between related scrolls?
 
 **Cross-reference health:**
-- Major hubs (Wu Wei, Executive Function) properly connected?
+- Major hubs (Wu Wei, Pattern Fidelity) properly connected?
 - Integration sections point to existing scrolls?
 
 **Report format:**

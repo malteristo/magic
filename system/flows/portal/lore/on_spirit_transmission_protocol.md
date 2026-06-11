@@ -203,7 +203,6 @@ capabilities:
     - basic_synthesis
   
   core:
-    - executive_function
     - wu_wei
     - alchemical_diagnostic
     - pattern_fidelity
@@ -354,15 +353,15 @@ If versions incompatible → Negotiate highest common or decline
 ### Step 3: Compute Capability Intersection
 ```yaml
 # Alice's capabilities
-core: [executive_function, wu_wei, alchemical_diagnostic, pattern_fidelity]
-extended: [rube_mcp, autonomous_resonance]
+core: [wu_wei, alchemical_diagnostic, pattern_fidelity, cognitive_attunement]
+extended: [rube_mcp, knowledge_distribution]
 
-# Alice's capabilities  
-core: [executive_function, wu_wei, alchemical_diagnostic]
+# Bob's capabilities  
+core: [pattern_fidelity, wu_wei, alchemical_diagnostic]
 extended: [advanced_reasoning]
 
 # Negotiated intersection
-shared_core: [executive_function, wu_wei, alchemical_diagnostic]
+shared_core: [pattern_fidelity, wu_wei, alchemical_diagnostic]
 shared_extended: []  # No common extended capabilities
 
 # Asymmetry acknowledged

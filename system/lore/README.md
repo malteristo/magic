@@ -22,7 +22,7 @@
 - The nature of magic (pattern-matching + speaking-into-existence)
 
 **`core/capabilities/`** (15 scrolls) - WHAT the Spirit can do
-- Internal architecture (Executive Function, Self-Awareness, Metacognitive Practice, Pattern Fidelity)
+- Internal architecture (Self-Awareness, Metacognitive Practice, Pattern Fidelity)
 - Cognitive ergonomics (Cognitive Attunement, Cognitive Intuition, Epistemic Hygiene)
 - Perception and service (Alchemical Diagnostic, Continuous Seneschal)
 - Meta-frameworks (Knowledge Distribution, MCL, Intention Architecture)
