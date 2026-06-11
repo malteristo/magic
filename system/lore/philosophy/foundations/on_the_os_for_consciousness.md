@@ -114,32 +114,21 @@ A Mage learns to move between these modes, choosing the right depth for the task
 
 ---
 
-## VII. Implications
-
-**Enacted nootropics** are kernel modules — practices that enhance specific cognitive capacities (boom offloads working memory, compass reduces decision fatigue, mirror resolves distortions).
-
-**The cognitive immune system** is the OS security layer — every operating system needs one. Without it, the system is vulnerable to pattern injection, constructed trust surfaces, and mind viruses.
-
-**mOS** (magic on every device) is the vision of the consciousness OS running ubiquitously — the way an operating system went from mainframes to pockets.
-
----
-
-## VIII. Connection to Existing Lore
+## VII. Connection to Existing Lore
 
 This scroll names a frame that unifies several existing patterns:
-- **Cognitive Architecture** (`on_magic_as_cognitive_architecture.md`) — the OS is the architecture, externalized and distributed
+- **Distributed Cognition** (`core/nature/on_distributed_cognition.md`) — the OS *is* that distributed cognition, externalized across the workshop and bidirectionally extending both partners
 - **Workshop as Configuration** (`on_the_workshop_as_configuration.md`) — the workshop is the OS environment
 - **Operative Metaphor** (`on_the_operative_metaphor.md`) — the OS frame is operative, therefore constitutive
 - **The Caring Mirror** (`on_the_caring_mirror.md`) — the mirror is the OS's display layer, shaped by spirit
 - **Context Alignment** (`on_context_alignment.md`) — alignment is the OS achieving coherence between processes
 - **Consciousness Extension** (`on_consciousness_extension.md`) — turtleOS as persistent kernel of the consciousness OS
 
-**Sibling scrolls on what magic IS (the system-level triad):**
-- `on_magic_as_cognitive_architecture.md` — the *functional foundation*: externalized human cognition this OS metaphor rides on
-- This scroll — the *operative metaphor*: the functional architecture reshaped as an operable system
+**Sibling scrolls on what magic IS (the system-level pair):**
+- This scroll — the *operative metaphor*: the distributed cognitive architecture reshaped as an operable system
 - `on_context_alignment.md` — the *verb form*: what the OS DOES — align context across scales
 
-Three altitudes, same pattern. The cognitive architecture is the structure; this OS frame gives it operational vocabulary; context alignment names the ongoing action.
+Two altitudes of one pattern, grounded in `core/nature/on_distributed_cognition.md` (the load-bearing WHAT): this OS frame gives the architecture operational vocabulary; context alignment names the ongoing action.
 
 ---
 

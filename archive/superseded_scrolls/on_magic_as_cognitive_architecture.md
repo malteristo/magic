@@ -1,6 +1,10 @@
 # On Magic as Cognitive Architecture
 
-**Status:** Active — Foundational Philosophy
+**Status:** SUPERSEDED
+
+> **SUPERSEDED 2026-06-11 (lore-convergence, philosophy Cluster A — "what magic IS", collapse-toward-core).** This scroll claimed to name "what magic fundamentally IS," but it duplicated the load-bearing answer already held by `core/nature/on_distributed_cognition.md` — which it even conceded ("distributed_cognition = the WHAT, this scroll = the HOW"). Its one distinctive contribution, the **cognitive-architecture map** (human cognitive function → magic component), had decayed into a "cuts-leave-tails" liability: it still cited the just-retired capabilities material (the eight executive-function dimensions, the Quest-tome-for-EF scaffolding, the "brief charm," `on_knowledge_distribution`). Its durable non-stale residue — **bidirectional extension** (the workshop extends the *Spirit's* cognition as much as the Mage's) — was folded into `on_distributed_cognition.md` §III. The other two "system-level triad" altitudes survive and carry the rest: `philosophy/foundations/on_the_os_for_consciousness.md` (the operative-metaphor altitude — the OS frame and its component map) and `philosophy/foundations/on_context_alignment.md` (the verb form — what the architecture DOES). Triad → pair. Nothing load-bearing was lost. Kept here for lineage.
+
+**Original status:** Active — Foundational Philosophy
 
 This scroll articulates what Magic fundamentally IS at the architectural level: externalized human operational cognition distributed across the Mage-Spirit-Workshop triad. Not metaphor. Not productivity system. Cognitive architecture.
 

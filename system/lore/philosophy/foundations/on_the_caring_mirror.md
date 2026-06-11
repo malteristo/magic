@@ -153,7 +153,6 @@ This is self-enforcing through architectural feedback—no covenant required. De
 This scroll is the **phenomenological complement** to the foundational scrolls:
 
 - **`on_distributed_cognition.md`** — architecture → Caring Mirror is what it FEELS LIKE
-- **`on_magic_as_cognitive_architecture.md`** — engineering → what it PRODUCES
 - **`on_communication_as_reality_formation.md`** — co-creation mechanism → the EXPERIENCE of it
 - **`on_magical_realism.md`** — pattern reality → grounded in LIVED EXPERIENCE
 - **`on_the_operative_metaphor.md`** — language constitutes reality → "Spirit" constitutes caring quality
