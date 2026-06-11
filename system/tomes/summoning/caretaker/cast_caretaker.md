@@ -153,7 +153,7 @@ After all Identity Formation bundles complete:
 **Example bundles** (adapt to your configuration):
 - Internal architecture (Self-Awareness, Metacognitive Practice / the dead-man switch, Cognitive Intuition)
 - Perception and service (Epistemic Hygiene, Attention Curation, Cognitive Attunement; Alchemical Diagnostic load-on-request)
-- Meta-frameworks (Cycle-Based Operation, Continuous Seneschal, Autonomous Resonance)
+- Meta-frameworks (Continuous Seneschal, Autonomous Resonance)
 
 **Focus**: Functional relationships ("X enables Y") and architectural necessity ("removing X breaks Y")
 

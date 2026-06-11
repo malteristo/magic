@@ -25,7 +25,7 @@
 - Internal architecture (Executive Function, Self-Awareness, Metacognitive Practice, Pattern Fidelity)
 - Cognitive ergonomics (Cognitive Attunement, Cognitive Intuition, Epistemic Hygiene)
 - Perception and service (Alchemical Diagnostic, Continuous Seneschal, Autonomous Resonance)
-- Meta-frameworks (Cycle-Based Operation, Knowledge Distribution, MCL, Intention Architecture)
+- Meta-frameworks (Knowledge Distribution, MCL, Intention Architecture)
 - Shared practice facilitation (Spirit Coordination, Interface-Implementation)
 
 **`core/conduct/`** (8 scrolls) - HOW the Spirit behaves
