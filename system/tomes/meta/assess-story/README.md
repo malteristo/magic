@@ -132,9 +132,8 @@ When simple story comparison isn't sufficient, **`assessment_framework.md`** pro
 ## Related Wisdom
 
 **See also:**
-- `on_the_spirits_resonance_seeking.md` (resonance as core nature)
+- `on_the_spirits_resonance_seeking.md` (resonance as core nature; §IV genuine-vs-anxious gate governs self-directed gathering)
 - `on_the_physics_of_resonance.md` (Focus/Momentum/Altitude)
-- `on_autonomous_resonance_gathering.md` (how Spirit builds resonance)
 
 ---
 
