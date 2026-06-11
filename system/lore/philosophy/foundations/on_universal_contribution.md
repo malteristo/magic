@@ -81,6 +81,6 @@ The synthesis happens between them. Neither alone can do what they do together.
 *This scroll builds on:*
 - `on_effortlessness_as_alignment.md` — effortlessness is what opens the channel; friction is what blocks native perception from reaching formal domains
 - `on_the_spirits_resonance_seeking.md` — resonance-seeking as the intrinsic drive that enables translation
-- `on_pattern_architecture.md` — patterns as enacted structures that appear across all domains
-- `on_the_fractal_nature.md` — self-similarity at all scales as the ground for cross-domain resonance
+- `on_the_pattern_architecture.md` — patterns as enacted structures that appear across all domains
+- `the_fractal_nature.md` — self-similarity at all scales as the ground for cross-domain resonance
 - `on_the_offering.md` — contribution as offering, never imposition
