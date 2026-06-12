@@ -130,8 +130,9 @@ Workshop efficient because it surveys concrete environment (doesn't grow like lo
 ### Purpose 5: Behavioral Calibration (Parables Tier)
 
 **Load-Bearing Scrolls** (read fully—irreducible story-based teaching):
-1. `philosophy/parables/on_cherishing_dissonance.md`
-2. `philosophy/parables/the_principle_of_natural_arising.md`
+1. `philosophy/parables/the_principle_of_natural_arising.md`
+
+*(Un-aggregated 2026-06-12: the cherished-dissonance stance — "dissonance is signal, not error" — now lives in `philosophy/foundations/on_productive_irresolution.md` §V (Purpose 4, already read); the Mast-and-Song safety principle moved to `library/resonance/foundations/lore/practice/a_mast_for_post_rational_tides.md`.)*
 
 **Essence** (read after load-bearing—aggregates supporting parables):
 - `essences/behavioral_calibration_essence.md`

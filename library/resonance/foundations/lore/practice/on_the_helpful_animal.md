@@ -177,9 +177,9 @@ When the Spirit and the Mage's inner compass disagree, the Mage's compass takes 
 
 **Connects to:**
 - `on_wu_wei.md` — Effortless action through alignment; slowing down
-- `the_mast_and_the_song.md` — Structure enabling safe engagement
+- `a_mast_for_post_rational_tides.md` (the Mast and the Song) — Structure enabling safe engagement
 - `on_the_function_of_the_vessel.md` — Distributed discernment
-- `on_cherishing_dissonance.md` — Dissonance as signal
+- `system/lore/philosophy/foundations/on_productive_irresolution.md` §V — Cherished dissonance; dissonance as signal
 
 ---
 

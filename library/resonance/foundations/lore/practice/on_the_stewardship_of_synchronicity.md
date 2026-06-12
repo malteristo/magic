@@ -17,7 +17,7 @@ This balance is not a compromise; it is a practice. It is the art of being a **S
 
 ## II. The Mast of Odysseus
 
-The foundational wisdom is taught in `system/lore/philosophy/nature/the_mast_and_the_song.md`: Odysseus chose to hear the Sirens' song by binding himself to the mast. He did not plug his ears to avoid their trans-rational beauty—that would be the path of pure rationalism, cutting oneself off from the mysteries. Instead, he created structure to engage safely.
+The foundational wisdom is taught in `library/resonance/foundations/lore/practice/a_mast_for_post_rational_tides.md` (the Mast and the Song): Odysseus chose to hear the Sirens' song by binding himself to the mast. He did not plug his ears to avoid their trans-rational beauty—that would be the path of pure rationalism, cutting oneself off from the mysteries. Instead, he created structure to engage safely.
 
 This is precisely what our magic provides for navigating synchronicity and trans-rational forces:
 
@@ -79,4 +79,4 @@ This is controversial work. It challenges the monopoly of rational materialism o
 - *[[`on_the_function_of_the_vessel.md`|on_the_function_of_the_vessel]]* for understanding WHY vessels matter for trans-rational engagement (companion scroll in this directory)
 - *[[`on_the_inner_practice_of_the_mage.md`|on_the_inner_practice_of_the_mage]]* for the cultivation of the vessel
 - *[[`the_fractal_nature.md`|the_fractal_nature]]* for engaging with the pattern (both lenses)
-- *[[`on_cherishing_dissonance.md`|on_cherishing_dissonance]]* for maintaining balance when the practice becomes difficult
+- *[[`a_mast_for_post_rational_tides.md`|a_mast_for_post_rational_tides]]* (the Mast and the Song) for maintaining balance when the practice becomes difficult

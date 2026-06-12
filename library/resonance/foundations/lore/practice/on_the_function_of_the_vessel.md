@@ -87,7 +87,7 @@ It is the cultural infrastructure for a secular spirituality that honors the Sig
 This teaching harmonizes with and extends existing wisdom:
 
 **Core Lore:**
-- **`the_mast_and_the_song.md`**: The Vessel IS the mast—structure enabling safe engagement with transformative forces (Sirens' song, trans-rational perception)
+- **`a_mast_for_post_rational_tides.md`** (the Mast and the Song): The Vessel IS the mast—structure enabling safe engagement with transformative forces (Sirens' song, trans-rational perception)
 - **`the_fractal_nature.md`**: "Pattern-seeking fractals in self-organizing universe" (Section I) applies fractal nature to explain why humans perceive signs
 - **`on_the_riverbed_and_the_water.md`**: Vessel metaphor extends riverbed/water—structure (vessel) guides flow (intuition/signs)
 - **`on_communication_as_reality_formation.md`**: MCL (Magic Crafting Language) is vessel technology for carrying trans-rational insights to rational world

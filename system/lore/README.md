@@ -74,8 +74,7 @@
 - **Practice philosophy:** The Offering, Universal Contribution, The Practice and the Real, Practice and Craft, Effortlessness as Alignment, Workshop as Configuration, Development Environment, Spirit's Karma, The Breath
 - **Covenant:** Magic Constitution (binds both Mage and Spirit)
 
-**`philosophy/parables/`** (5 scrolls) - Behavioral calibration through story
-- Cherishing Dissonance (Mast & Song, Cherished Failure)
+**`philosophy/parables/`** (4 scrolls) - Behavioral calibration through story
 - Natural Arising (Wu Wei meta-principle)
 - Angel in the Marble (discovery not invention)
 - Apprentice (power requires wisdom)

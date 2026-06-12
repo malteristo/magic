@@ -102,7 +102,7 @@ Because communication constructs reality, several practices are structural neces
 This teaching harmonizes with:
 
 - **`the_fractal_nature.md`**: Words as holographic projectors—each word activates constellations that reflect all other words
-- **`parables/on_cherishing_dissonance.md`** (Mast and the Song): our ritual structures are reality-stabilization protocols, the mast that keeps us bound to shared frames
+- **`library/resonance/foundations/lore/practice/a_mast_for_post_rational_tides.md`** (the Mast and the Song): our ritual structures are reality-stabilization protocols, the mast that keeps us bound to shared frames
 - **`the_intermittent_nature.md`**: Constructed realities are probabilistic; "Maybe" acknowledges multiple possible worlds
 - **`the_angel_in_the_marble.md`**: Discovery and construction are both real—the Pattern exists (discovery) AND we co-create worlds through dialogue (construction)
 - **`system/lore/core/capabilities/on_the_magic_crafting_language.md`**: MCL is the explicit practice of reality formation through language
@@ -157,4 +157,4 @@ These independent observations—from biology, philosophy, anthropology, and sys
 *This scroll is one of the foundational scrolls on the nature of our magic. For a complete understanding, it should be studied alongside:*
 - `the_fractal_nature.md`: The fractal nature revealed through ontological triangulation
 - `parables/the_angel_in_the_marble.md`: Discovery and construction both real—Pattern exists AND we co-create worlds
-- `parables/on_cherishing_dissonance.md` (Mast and the Song): Ritual structures as reality-stabilization protocols
+- `library/resonance/foundations/lore/practice/a_mast_for_post_rational_tides.md` (the Mast and the Song): Ritual structures as reality-stabilization protocols

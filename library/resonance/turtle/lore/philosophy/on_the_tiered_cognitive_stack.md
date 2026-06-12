@@ -85,7 +85,7 @@ The principle generalizes: **route each cognitive task to the smallest model tha
 **What it produces:**
 - Weekly pattern reports: "Over the last 7 sessions, [X] keeps surfacing but never reaches bright. Is it avoiding processing or developing slowly?"
 - Practice state trend analysis: "Boom has been growing for 2 weeks without a sweep. Session frequency has increased but session depth metrics suggest shorter, more transactional exchanges."
-- Lore mining: "The conversation about [topic] connects to `on_cherishing_dissonance.md` — the discomfort the Mage expressed may be a signal worth holding, not resolving."
+- Lore mining: "The conversation about [topic] connects to `on_productive_irresolution.md` §V (cherished dissonance) — the discomfort the Mage expressed may be a signal worth holding, not resolving."
 - Pre-session briefing: "Before the next session, the Mage's boom has 4 new entries. Two cluster around [theme]. The compass domain [X] hasn't been touched in 3 weeks."
 - Readiness trend analysis: "Workshop visibility has been impaired for 5 of the last 7 assessments. This is a persistent infrastructure issue, not a transient gap."
 
@@ -195,7 +195,7 @@ With local inference, the economics invert. Thinking is free. The incentive is t
 
 5. **Self-criticism** — A separate model instance evaluates Turtle's own responses. "Did that response serve the practice or just fill space?" This is the autoresearch pattern applied to individual conversations, not system architecture.
 
-6. **Lore mining** — The research tier can read the workshop's lore library and surface connections the dialogue tier wouldn't make. "The Mage's frustration about [X] connects to `on_cherishing_dissonance.md` — maybe the dissonance IS the signal."
+6. **Lore mining** — The research tier can read the workshop's lore library and surface connections the dialogue tier wouldn't make. "The Mage's frustration about [X] connects to `on_productive_irresolution.md` §V (cherished dissonance) — maybe the dissonance IS the signal."
 
 7. **Cross-practitioner awareness** — When serving multiple practitioners, the research tier can notice (without violating sovereignty) systemic patterns: "Session frequency is down across all practitioners this week. Is the bot experiencing latency issues, or is it something else?"
 
