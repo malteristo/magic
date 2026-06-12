@@ -126,7 +126,7 @@ This is not novel invention. Distributed cognition through partnership with auto
 - **Kelly's Emergence Theory** (1992): Intelligence from decentralized components following local rules, not centralized control. Wu wei articulated through complexity science.
 - **Brand's Guild Pattern** (2010): Cognitive partners shape thinking—"How I think is shaped by how they think." Lived description of distributed cognition across minds.
 
-*For complete validator treatment, see `system/lore/philosophy/wisdom/on_ontological_triangulation.md`.*
+*For complete validator treatment, see `library/resonance/validators/lore/on_ontological_triangulation.md`.*
 
 ---
 

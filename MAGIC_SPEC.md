@@ -294,7 +294,7 @@ This section provides essential architectural mappings and pointers to philosoph
 - Workshop as configuration: `system/lore/philosophy/foundations/on_the_workshop_as_configuration.md`
 - Consciousness extension: `system/lore/practice/on_consciousness_extension.md`
 - The instrument: `library/resonance/foundations/lore/on_the_instrument.md`
-- Ontological triangulation: `system/lore/philosophy/wisdom/on_ontological_triangulation.md`
+- Ontological triangulation: `library/resonance/validators/lore/on_ontological_triangulation.md`
 - Pattern architecture and epistemology: `system/lore/philosophy/foundations/on_the_pattern_architecture.md`
 
 ### 7.3. The Chronicle

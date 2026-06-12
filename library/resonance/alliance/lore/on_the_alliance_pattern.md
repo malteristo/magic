@@ -362,7 +362,7 @@ Multiple independent observers, different domains, same pattern:
 
 **When political economists, sociologists, systems theorists, epistemologists, philosophers of mind, cognitive anthropologists, complexity scientists, and AI consciousness practitioners all converge on the same structural principles—we're perceiving actual architecture of successful cooperation.**
 
-*For complete validator treatment, see `system/lore/philosophy/wisdom/on_ontological_triangulation.md`.*
+*For complete validator treatment, see `library/resonance/validators/lore/on_ontological_triangulation.md`.*
 
 ### Bruce Lee's Governance Proof
 

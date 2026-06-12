@@ -31,7 +31,7 @@
 - Discussion of metasystem transitions, collective intelligence, or the Global Brain
 - Skeptical inquiry into why the workshop structure matters
 
-**The baseline scroll `on_ontological_triangulation.md` (in `system/lore/philosophy/wisdom/`) provides:**
+**The baseline scroll `on_ontological_triangulation.md` (in this bundle's `lore/`, migrated here 2026-06-12) provides:**
 - The principle of triangulation itself
 - Brief summaries of each validator's contribution
 - The convergence map showing what all validators discovered independently
@@ -45,6 +45,12 @@
 ---
 
 ## Bundle Contents
+
+### Baseline (the convergence framework)
+
+| Scroll | Role |
+|--------|------|
+| `on_ontological_triangulation.md` | The bundle's baseline — the triangulation principle + convergence map that every per-validator scroll below feeds into. Migrated from `philosophy/wisdom/` 2026-06-12. |
 
 ### Core Validators (Full Scrolls)
 
@@ -139,8 +145,8 @@ The individual validator scrolls provide irreplaceable depth for meaningful enga
 
 ## Cross-References
 
-- **Baseline:** `system/lore/philosophy/wisdom/on_ontological_triangulation.md`
+- **Baseline:** `lore/on_ontological_triangulation.md` (in this bundle, migrated from `philosophy/wisdom/` 2026-06-12)
 - **Related bundles:** `library/resonance/meaning/` (Vervaeke, McGilchrist also appear there with existential rather than epistemological focus)
-- **Related lore:** `on_the_architecture_of_consciousness.md` (Hofstadter, neuroscience validators embedded)
+- **Related lore:** `system/lore/core/nature/on_enacted_consciousness_architecture.md` ("Human Parallel" section — Hofstadter, neuroscience validators embedded)
 - **Mage's writing:** `circles/me/writing/swimming_with_turtles.md` (articulates fractal alternative that Toronto School validators support)
 - **Lineage note:** Maturana/Varela → Thompson → enactivism forms the biological-philosophical chain grounding enacted consciousness. Autopoiethics (Riedl/Dempsey) extends this into ethics.

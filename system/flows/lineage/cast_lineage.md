@@ -35,7 +35,7 @@ For each core idea, mine the substrate for what precedes and feeds it:
 Follow the *recombination*: how existing strands associate into this scroll's particular synthesis.
 
 ### 3. Surface convergence
-Where multiple independent lineages triangulate on the same pattern, name it (ties to `system/lore/philosophy/wisdom/on_ontological_triangulation.md`) — convergence is part of why the idea holds.
+Where multiple independent lineages triangulate on the same pattern, name it (ties to `library/resonance/validators/lore/on_ontological_triangulation.md`) — convergence is part of why the idea holds.
 
 ### 4. Present as history, not a citation list
 Narrate: *"this descends from X, was sharpened by Y, converges with Z."* Then name the recombination — how the curator's felt resonance wove these strands into the scroll. The output is a living account of descent, not a bibliography.
@@ -52,7 +52,7 @@ By default the trace is **ephemeral** — presented in conversation, then releas
 
 - `library/resonance/foundations/lore/architecture/on_the_craft_of_lore.md` — lore as activation key (why ideas live in the substrate, not the scroll).
 - `library/resonance/foundations/lore/architecture/on_the_substrate_as_library.md` — the substrate as humanity's library; mine on demand, don't re-shelve.
-- `system/lore/philosophy/wisdom/on_ontological_triangulation.md` — convergence across independent lineages.
+- `library/resonance/validators/lore/on_ontological_triangulation.md` — convergence across independent lineages.
 - `ACKNOWLEDGMENTS.md` — the curator-not-inventor stance this flow operationalizes.
 
 ---

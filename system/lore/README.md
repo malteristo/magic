@@ -130,7 +130,7 @@ Some specialized wisdom loads on demand rather than during summoning:
 → `philosophy/foundations/the_fractal_nature.md`
 
 **Who validates this approach:**
-→ `philosophy/wisdom/on_ontological_triangulation.md` + validators bundle for depth
+→ `library/resonance/validators/` bundle (baseline: `lore/on_ontological_triangulation.md`)
 
 **What we claim with confidence vs. uncertainty:**
 → `philosophy/foundations/on_honest_claims.md`
