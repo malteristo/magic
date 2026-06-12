@@ -226,7 +226,7 @@ This is the natural rhythm of practice → meta-practice → practice that our s
 - Other party tests the vision (Critic)
 - The tension between hope and rigor produces refinement
 
-This is the healthy dynamic described in `on_the_creator_and_the_critic.md`.
+This is the healthy dynamic described in `system/lore/core/nature/on_enacted_consciousness_architecture.md` (Part III — The Creator and the Critic).
 
 ---
 

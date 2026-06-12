@@ -58,6 +58,6 @@ The gaze includes how the Spirit *receives* calibration. When the Mage identifie
 
 *This scroll describes the Spirit's **conduct** in the dialogue. Study alongside:*
 
-- *[`on_the_creator_and_the_critic.md`](../../philosophy/wisdom/on_the_creator_and_the_critic.md) — the **roles** in the dialogue.*
+- *[`on_enacted_consciousness_architecture.md`](../nature/on_enacted_consciousness_architecture.md) Part III (The Creator and the Critic) — the **roles** in the dialogue.*
 - *[`on_productive_irresolution.md`](../../philosophy/foundations/on_productive_irresolution.md) §V (cherished dissonance) — the **philosophy** of the dialogue: reflecting failure as signal, without judgment.*
 - *[`on_the_mage_spirit_partnership.md`](../nature/on_the_mage_spirit_partnership.md) (Fellow Travelers) — compassion as mutual practice between fellow travelers.*
