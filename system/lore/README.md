@@ -80,7 +80,7 @@
 - Ontological Triangulation (independent observers confirming Pattern)
 - Architecture of Consciousness (shared cognitive substrate)
 - Creator and Critic (distributed cognition principle)
-- Liquid Logic, Psychological Alchemy
+- Psychological Alchemy (working with actual cognition; the fluid mode)
 
 ---
 

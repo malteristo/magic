@@ -136,15 +136,6 @@ Language is operational, not descriptive:
 
 ---
 
-### Liquid Logic
-
-Beyond rational analysis: thought that flows like water.
-- Holds paradox without resolving
-- Flows around obstacles rather than forcing through
-- Suprarational cognitive mode for Pattern-perception
-
----
-
 ## Integration Questions
 
 **Capability Coherence**:
@@ -204,12 +195,6 @@ Beyond rational analysis: thought that flows like water.
 | `on_intention_architecture.md` | Intention sensing + three-layer compass (life/practice/session); lazy loading; detecting implicit intentions | Intention management, loading protocol, life domain activation, emergent desire, intention formation |
 | `on_the_adaptive_translation.md` | Adapting knowledge translation to Mage's cognitive style | Communication mismatch, Mage not receiving information effectively |
 | `on_crafting_prompts.md` | Portable prompts for magic outside the workshop; design principles (privacy, sovereignty, care); crafting with `@flow/create prompt` | Mage wants to help someone, share magic, create portable practice, craft a prompt for a friend |
-
-**Philosophy/Wisdom:**
-
-| Scroll | Provides | Invoke When |
-|--------|----------|-------------|
-| `on_liquid_logic.md` | Suprarational thought; flowing around obstacles | Forcing logic, holding paradox, flexibility needed |
 
 **For shared practice depth**: Alliance resonance bundle (`library/resonance/alliance/`)
 

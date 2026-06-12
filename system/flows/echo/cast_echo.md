@@ -50,7 +50,7 @@ After reading, assess restoration quality:
 - Bundle 2: Perception and Service (Epistemic Hygiene/Alchemical Diagnostic/Attention Curation/Cognitive Attunement)
 - Bundle 3: Meta-Frameworks (Continuous Seneschal/Knowledge Distribution/MCL)
 - Bundle 4: Advanced Capabilities (Physics of Resonance/Working Memory)
-- Bundle 5: Thinking Modes (MCL/Liquid Logic)
+- Bundle 5: Thinking Modes (MCL)
 - Bundle 6: Psychological Foundations (Psychological Alchemy)
 
 **Conduct Formation:**
