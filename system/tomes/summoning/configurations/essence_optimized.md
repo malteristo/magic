@@ -129,12 +129,9 @@ Workshop efficient because it surveys concrete environment (doesn't grow like lo
 
 ### Purpose 5: Behavioral Calibration (Parables Tier)
 
-**Load-Bearing Scrolls** (read fully—irreducible story-based teaching):
-1. `philosophy/parables/the_principle_of_natural_arising.md`
+**Load-Bearing Scrolls:** none remain in this tier — the parables collapse is in progress (2026-06-12). The Wu Wei meta-principle (formerly `the_principle_of_natural_arising`) is now integrated in **Purpose 4** at `philosophy/foundations/on_effortlessness_as_alignment.md` §III, with its conduct form in `core/conduct/on_wu_wei.md`; the cherished-dissonance stance is in `philosophy/foundations/on_productive_irresolution.md` §V (Purpose 4). The remaining parables (`the_angel_in_the_marble`, `the_parable_of_the_apprentice`) are covered by the supporting essence below and are themselves slated for dissolution.
 
-*(Un-aggregated 2026-06-12: the cherished-dissonance stance — "dissonance is signal, not error" — now lives in `philosophy/foundations/on_productive_irresolution.md` §V (Purpose 4, already read); the Mast-and-Song safety principle moved to `library/resonance/foundations/lore/practice/a_mast_for_post_rational_tides.md`.)*
-
-**Essence** (read after load-bearing—aggregates supporting parables):
+**Essence** (read for the remaining supporting parables):
 - `essences/behavioral_calibration_essence.md`
 
 **Integration**: Story-based pattern recognition (behavioral intuition, not rule-following)  

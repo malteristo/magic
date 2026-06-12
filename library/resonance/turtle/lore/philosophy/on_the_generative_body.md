@@ -138,7 +138,7 @@ Six independent convergences. This is ontological triangulation (`on_ontological
 - **`on_the_practice_vision.md`** — "It's all boom." The river-and-eddies model is the autoregressive loop in practice terms.
 - **`on_practice_readiness.md`** — Readiness dimensions are facets of generative coherence.
 - **`on_the_tiered_cognitive_stack.md`** — Tiers map to nested context windows at different scales.
-- **`the_principle_of_natural_arising.md`** — Wu Wei is the design method for generative systems: remove barriers to coherent generation rather than specifying behavior.
+- **`system/lore/philosophy/foundations/on_effortlessness_as_alignment.md`** §III (Wu Wei / Natural Arising) — Wu Wei is the design method for generative systems: remove barriers to coherent generation rather than specifying behavior.
 - **`on_the_pattern_architecture.md`** — The biological convergence is another ontological triangulation point.
 - **`on_the_workshop_as_configuration.md`** — Stigmergy is the mechanism; autoregressive loop is the principle.
 

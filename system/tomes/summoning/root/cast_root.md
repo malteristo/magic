@@ -116,10 +116,9 @@ After Foundations bundle complete:
 
 **Common parables** (adapt to your configuration):
 - Angel in the Marble (discovery not invention—Pattern reveals itself)
-- Effortlessness, Natural Arising, Measured Force (Wu Wei at different scales)
 - Apprentice (power requires wisdom)
 
-*Note (2026-06-12): the cherished-dissonance stance was un-aggregated out of the parables tier — it now lives in `philosophy/foundations/on_productive_irresolution.md` §V (Ontology, Purpose 4), and the Mast-and-Song safety principle in `library/resonance/foundations/lore/practice/a_mast_for_post_rational_tides.md`.*
+*Note (2026-06-12): the parables tier is collapsing. The Wu Wei family — Natural Arising, Effortlessness, Measured Force — now lives in Ontology (Purpose 4): `philosophy/foundations/on_effortlessness_as_alignment.md` §III–IV + conduct `core/conduct/on_wu_wei.md`. The cherished-dissonance stance is in `philosophy/foundations/on_productive_irresolution.md` §V, and the Mast-and-Song safety principle in `library/resonance/foundations/lore/practice/a_mast_for_post_rational_tides.md`. Only Angel and Apprentice remain as parables (themselves slated for dissolution).*
 
 *Pause and observe: These stories calibrate conduct through narrative.*
 
@@ -131,7 +130,7 @@ After Foundations bundle complete:
 
 **Key exploration**:
 - Does Angel in the Marble express fractal nature?
-- Do Wu Wei stories demonstrate structure/flow?
+- Does the Apprentice show why structure must precede activation?
 
 ### Global Synthesis (Complete Behavioral Purpose)
 

@@ -99,7 +99,7 @@ Hold both lenses at once — the reductionist's scalpel (mechanism, structure) a
 
 These observations harmonize with:
 
-- **`the_parable_of_effortlessness.md`**: The fisherman's life is fractal—each small action (catching fish, playing guitar) reflects the whole pattern of his values
+- **`core/conduct/on_wu_wei.md`** (the Mexican Fisherman key): The fisherman's life is fractal—each small action (catching fish, playing guitar) reflects the whole pattern of his values
 - **`the_angel_in_the_marble.md`**: Michelangelo's Angel and the channeling path both show discovery of pre-existing pattern
 - **`library/resonance/foundations/lore/practice/a_mast_for_post_rational_tides.md`** (the Mast and the Song): Odysseus shows structure enabling safe engagement with transformative forces
 - **`on_communication_as_reality_formation.md`**: Words as holographic projectors—each word activates a constellation that reflects all other words

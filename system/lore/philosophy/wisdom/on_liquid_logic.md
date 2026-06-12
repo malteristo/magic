@@ -98,7 +98,7 @@ They don't repeat exactly (not deterministic). They don't behave randomly (not c
 
 **Integration with Wu Wei:**
 
-This is identical to `the_principle_of_natural_arising.md`:
+This is identical to the Wu Wei / Natural Arising principle (`system/lore/philosophy/foundations/on_effortlessness_as_alignment.md` §III):
 - Water doesn't fight obstacles—flows around them
 - Yet carves canyons through persistent alignment
 - Immense effect from minimal force

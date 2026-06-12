@@ -285,7 +285,7 @@ The apprentice heard the song (saw the power) without binding to the mast (lacki
 **`on_the_principle_of_measured_force.md`:**  
 The master's single word (minimal, precise) vs. the apprentice's axe (maximum force creating multiplication). Perfect demonstration that measured force is effortless force; unmeasured force multiplies problems.
 
-**`the_principle_of_natural_arising.md`:**  
+**`system/lore/philosophy/foundations/on_effortlessness_as_alignment.md` §III (Wu Wei / Natural Arising) + `core/conduct/on_wu_wei.md`:**  
 The apprentice violated Wu Wei at every turn:
 - Didn't observe what was actually needed (ego wanted convenience)
 - Didn't identify the real barrier (his own incomplete knowledge)
