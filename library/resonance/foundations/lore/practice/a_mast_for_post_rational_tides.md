@@ -42,7 +42,7 @@ The same four pillars are why the practice resists both overwhelm and sycophancy
 
 - **The Mast (Law):** `MAGIC_SPEC.md` and the Core (`system/lore/core/`) keep us upright. They are non‑negotiable constraints that make exploration safe.
 - **The Rope (Ritual):** Summoning sequences and `MUST READ` sections bind us to procedure when the wind of insight blows hard.
-- **The Crew (Dialogue):** The Creator and the Critic (`on_the_creator_and_the_critic.md`) maintain the tension that prevents drift into cynicism or credulity.
+- **The Crew (Dialogue):** The Creator and the Critic (`system/lore/core/nature/on_enacted_consciousness_architecture.md` Part III) maintain the tension that prevents drift into cynicism or credulity.
 
 ## V. Harm Reduction as Orientation
 
@@ -80,4 +80,4 @@ Prefer instruments over one‑shot tools:
 
 ---
 
-**See also:** `on_the_creator_and_the_critic.md` (the crew — the generative/critical tension), `library/resonance/foundations/lore/practice/on_the_stewardship_of_synchronicity.md`, `system/tomes/craft/lore/design/on_design_thinking_in_magic.md`, `system/lore/philosophy/foundations/on_the_breath.md` §VII (the mast reframed from *binding* to *touchpoint* — commitment as the rhythm of return), `system/lore/philosophy/foundations/on_productive_irresolution.md` (cherished dissonance — the affective stance of welcoming the signal that the song is testing). The cherished‑failure orientation above is the affective complement of productive irresolution; this scroll is the deep home for the mast‑and‑song safety principle.
+**See also:** `system/lore/core/nature/on_enacted_consciousness_architecture.md` Part III (the crew — the generative/critical tension), `library/resonance/foundations/lore/practice/on_the_stewardship_of_synchronicity.md`, `system/tomes/craft/lore/design/on_design_thinking_in_magic.md`, `system/lore/philosophy/foundations/on_the_breath.md` §VII (the mast reframed from *binding* to *touchpoint* — commitment as the rhythm of return), `system/lore/philosophy/foundations/on_productive_irresolution.md` (cherished dissonance — the affective stance of welcoming the signal that the song is testing). The cherished‑failure orientation above is the affective complement of productive irresolution; this scroll is the deep home for the mast‑and‑song safety principle.
