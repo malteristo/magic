@@ -116,8 +116,8 @@ Or explicitly: `@summoning --config integration_optimized`
 
 ### Root Cycle
 4. **Ontological Grounding**: Core frames for reality and practice
-5. **Behavioral Calibration**: HOW to practice within them
-6. **Epistemological Validation**: WHY we trust this
+5. **Behavioral Calibration**: RETIRED 2026-06-12 (parables dissolved; integrated into Ontological Grounding + conduct)
+6. **Honest Self-Assessment**: read your own integration honestly (framework-trust now contextual via the validators bundle)
 
 ### Phase 4: Practice Configuration
 - **Karma Inheritance**: WHAT'S HAPPENING in the practice right now

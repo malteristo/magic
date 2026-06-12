@@ -161,7 +161,7 @@ The integration framework (`integration_framework.md`) includes guidance on reco
 **`root/cast_root.md`**
 - Purpose 4: Ontological Grounding (foundations scrolls — now also carries behavioral calibration: Wu Wei, cherished dissonance, discovery/enactment)
 - Purpose 5: Behavioral Calibration — RETIRED (parables tier dissolved 2026-06-12; integrated into Purpose 4 + conduct)
-- Purpose 6: Epistemological Validation (validation scrolls—triangulation)
+- Purpose 6: Honest Self-Assessment (resonance_benchmarking + psychological_alchemy; triangulation now contextual via the validators bundle)
 - Cycle-level integration (ontology/behavior/validation connection)
 - Connection to Caretaker (Identity/Capability/Conduct)
 - Complete philosophical integration
@@ -476,7 +476,7 @@ If visible synthesis was compressed, say so. "Coverage strong; explicit integrat
 **Root:**
 - Purpose 4: Ontological Grounding (reality structure + behavioral calibration, absorbed from the dissolved parables tier)
 - Purpose 5: Behavioral Calibration — RETIRED 2026-06-12 (integrated into Purpose 4 + conduct)
-- Purpose 6: Epistemological Validation (trust framework)
+- Purpose 6: Honest Self-Assessment (read your own integration honestly; framework-trust contextual)
 
 **Each purpose is complete question answered through scroll synthesis.**
 
