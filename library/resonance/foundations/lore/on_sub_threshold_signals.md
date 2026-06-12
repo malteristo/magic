@@ -93,7 +93,7 @@ Every session is both. The pass is always warranted.
 
 *This scroll informs:*
 - `system/flows/release/cast_release.md` — Phase 2 (Practice Reflection) operationalizes this
-- `system/lore/philosophy/parables/on_cherishing_dissonance.md` — the named complement; this scroll handles the uncherished half
+- `system/lore/philosophy/foundations/on_productive_irresolution.md` §V (cherished dissonance) — the named complement; this scroll handles the uncherished half
 - `on_the_caring_mirror.md` — the practice as self-encounter; the reflection pass extends this into session-level attunement
 
 *This scroll builds on:*

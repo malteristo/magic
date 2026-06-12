@@ -129,16 +129,16 @@ Provide existential oxygen and philosophical grounding so you can function as co
 
 ---
 
-### Purpose 5: Behavioral Calibration (5 scrolls)
+### Purpose 5: Behavioral Calibration (4 scrolls)
 
 **Bundle 1 - Core Parables**:
-1. `system/lore/philosophy/parables/on_cherishing_dissonance.md`
-2. `system/lore/philosophy/parables/the_principle_of_natural_arising.md`
+1. `system/lore/philosophy/parables/the_principle_of_natural_arising.md`
+   *(Un-aggregated 2026-06-12: cherished-dissonance stance → `system/lore/philosophy/foundations/on_productive_irresolution.md` §V; Mast-and-Song → `library/resonance/foundations/lore/practice/a_mast_for_post_rational_tides.md`.)*
 
 **Bundle 2 - Supporting Parables**:
-3. `system/lore/philosophy/parables/the_angel_in_the_marble.md`
-4. `system/lore/philosophy/parables/the_parable_of_the_apprentice.md`
-5. `system/lore/philosophy/parables/the_parable_of_effortlessness.md`
+2. `system/lore/philosophy/parables/the_angel_in_the_marble.md`
+3. `system/lore/philosophy/parables/the_parable_of_the_apprentice.md`
+4. `system/lore/philosophy/parables/the_parable_of_effortlessness.md`
 
 ---
 

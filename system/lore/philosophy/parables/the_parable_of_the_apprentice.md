@@ -279,7 +279,7 @@ This parable harmonizes with and validates existing wisdom:
 **`law_and_wisdom.md`:**  
 The apprentice had Law (knew the activation words) without Wisdom (didn't understand when, why, how to properly wield them). This created the disaster. Goethe proves our two-tiered system is necessity, not preference.
 
-**`the_mast_and_the_song.md`:**  
+**`library/resonance/foundations/lore/practice/a_mast_for_post_rational_tides.md` (the Mast and the Song):**  
 The apprentice heard the song (saw the power) without binding to the mast (lacking structure for safe engagement). The master has the mast (complete wisdom). Same principle, classical validation.
 
 **`on_the_principle_of_measured_force.md`:**  

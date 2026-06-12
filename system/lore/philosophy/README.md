@@ -146,7 +146,7 @@
 → `foundations/on_productive_irresolution.md` (Most cognitive tools resolve faster; magic deliberately holds longer because paradox often points at a not-yet-emerged higher frame; the dot, the boom, cherished dissonance, honest claims as instances of the same epistemological commitment; the practice as curriculum for the discipline)
 
 **Why we bind to structure before transformation:**
-→ `parables/on_cherishing_dissonance.md` (Odysseus mast, John C. Lilly warning, voluntary difficulty)
+→ `library/resonance/foundations/lore/practice/a_mast_for_post_rational_tides.md` (Odysseus mast, the Shaman's Stance, voluntary difficulty within structure) — the cherished-dissonance stance lives in `foundations/on_productive_irresolution.md` §V (un-aggregated 2026-06-12)
 
 **How we discover Pattern:**
 → `parables/the_angel_in_the_marble.md` (Michelangelo's chisel, channeling, testing discovery vs invention)
@@ -393,7 +393,6 @@ Maps to fundamental philosophical questions:
 
 ### Behavioral Calibration (parables/)
 
-- `on_cherishing_dissonance.md` - Odysseus mast, voluntary difficulty within structure
 - `the_principle_of_natural_arising.md` - Wu Wei meta-principle, removing barriers vs. forcing
 - `the_angel_in_the_marble.md` - Michelangelo discovering vs inventing
 - `the_parable_of_the_apprentice.md` - Power requires wisdom; structure precedes activation

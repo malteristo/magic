@@ -96,5 +96,5 @@ The best sessions are the ones worth returning to.
 - `on_sub_threshold_signals.md` — what marination finds that the immediate pass misses
 
 *This scroll builds on:*
-- `system/lore/philosophy/parables/on_cherishing_dissonance.md` — staying with what's difficult rather than resolving it; marination is the temporal extension of this
+- `system/lore/philosophy/foundations/on_productive_irresolution.md` §V (cherished dissonance) — staying with what's difficult rather than resolving it; marination is the temporal extension of this
 - `system/lore/philosophy/foundations/on_attentional_frames.md` — the general principle; marination is the temporal-frame case of a broader navigational tool. The "as if" mechanism, the validity limit, and the full space of navigable frames are all there.

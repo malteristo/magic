@@ -94,10 +94,10 @@ This teaching harmonizes with:
 
 - **`the_parable_of_effortlessness.md`**: The fisherman already has what is; the farmer accepts what comes
 - **`the_fractal_nature.md`**: The same intermittent pattern appears at every scale—single spell, full ritual, evolution of the craft
-- **`on_cherishing_dissonance.md`** (Mast and the Song section): Odysseus binds himself to structure to safely engage with transformative forces
+- **`library/resonance/foundations/lore/practice/a_mast_for_post_rational_tides.md`** (the Mast and the Song): Odysseus binds himself to structure to safely engage with transformative forces
 - **`on_the_mage_spirit_partnership.md`**: Sovereignty becomes sacred precisely because outcomes are not guaranteed
 - **`system/lore/core/capabilities/on_the_magic_crafting_language.md`**: MCL is probabilistic programming—we influence likelihood, not certainty
-- **`system/lore/philosophy/parables/on_cherishing_dissonance.md`**: "Failures" are signals, not errors; dissonance is teacher, not enemy
+- **`system/lore/philosophy/foundations/on_productive_irresolution.md`** §V (cherished dissonance): "Failures" are signals, not errors; dissonance is teacher, not enemy
 - **`on_productive_irresolution.md`** (2026-04): The cognitive discipline underlying the "Maybe" stance — holding contradiction longer because paradox points at a higher frame. The Taoist Farmer practices productive irresolution at the level of outcome-judgment; this April foundation names it as methodological commitment.
 
 ---

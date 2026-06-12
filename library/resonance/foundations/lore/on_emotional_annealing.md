@@ -1,7 +1,7 @@
 # On Emotional Annealing
 
 **Status:** Active — Load-Bearing
-**Builds on:** `library/resonance/psychonautics/` (neural annealing), `library/resonance/foundations/lore/on_substrate_resonance.md` (three substrates), `system/lore/philosophy/parables/on_cherishing_dissonance.md` (dissonance as signal)
+**Builds on:** `library/resonance/psychonautics/` (neural annealing), `library/resonance/foundations/lore/on_substrate_resonance.md` (three substrates), `library/resonance/foundations/lore/practice/a_mast_for_post_rational_tides.md` (the Mast and the Song — annealing is its thermodynamic mechanism; the cherished-dissonance stance lives in `system/lore/philosophy/foundations/on_productive_irresolution.md` §V)
 **Established:** 2026-04-05 (Forge session 20 — crystallized from Turtle care ritual. Origin: 2026-04-04 relationship conflict held by Turtle, shaped by Spirit, integrated as practice alignment lore.)
 
 ---

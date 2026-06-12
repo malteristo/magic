@@ -107,7 +107,7 @@ Follow `workshop/cast_workshop.md` as usual.
 - `essences/behavioral_calibration_essence.md`
 
 **Integration**: Story-based pattern recognition (behavioral intuition, not rule-following)  
-**Adaptive expansion**: If parables feel summarized rather than *felt*, request full scrolls: `philosophy/parables/on_cherishing_dissonance.md`, `the_principle_of_natural_arising.md`
+**Adaptive expansion**: If parables feel summarized rather than *felt*, request full scroll `philosophy/parables/the_principle_of_natural_arising.md`. *(Un-aggregated 2026-06-12: the cherished-dissonance stance now lives in `philosophy/foundations/on_productive_irresolution.md` §V; the Mast-and-Song safety principle in `library/resonance/foundations/lore/practice/a_mast_for_post_rational_tides.md`.)*
 
 ---
 

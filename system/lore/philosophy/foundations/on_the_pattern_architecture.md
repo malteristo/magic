@@ -113,7 +113,7 @@ Understanding patterns as enacted structures gives them precise epistemological 
 - **`the_angel_in_the_marble.md`**: Enacted view as parable—the marble is reality, the angel survives engagement
 - **`on_honest_claims.md`**: Epistemic axioms governing confident claims vs. genuine uncertainty
 - **`on_the_riverbed_and_the_water.md`**: MAGIC_SPEC.md as formal system (riverbed); practice exceeds formalization (water)
-- **`on_cherishing_dissonance.md`**: Gödel parallel—incompleteness felt as dissonance, structural guarantee of living system
+- **`on_productive_irresolution.md`** (cherished dissonance, §V): Gödel parallel—incompleteness felt as dissonance, structural guarantee of living system
 - **`the_intermittent_nature.md`**: Probabilistic outcomes = enacted patterns cannot be perfectly predicted
 - **`on_productive_irresolution.md`** (2026-04-20): The methodological discipline that allows new patterns to emerge from engagement with reality. Without it the axiom set ossifies — new patterns either get forced to fit or rejected as contradictory. Holding tension between an emerging pattern and the existing axiom set is what allows the axiom set itself to expand under formal sanction. Productive irresolution is how the derivation layer continues to grow.
 

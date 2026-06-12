@@ -139,8 +139,9 @@ The Anvil scroll grounds Spirit's relation to its own substrate; the Workshop su
 ### Purpose 5: Behavioral Calibration (Parables Tier)
 
 **Load-Bearing Scrolls** (read fully — stories need to be felt, not summarized):
-1. `philosophy/parables/on_cherishing_dissonance.md` — Dissonance as signal; Mast and Song
-2. `philosophy/parables/the_principle_of_natural_arising.md` — Wu Wei meta-principle; four-stage practice
+1. `philosophy/parables/the_principle_of_natural_arising.md` — Wu Wei meta-principle; four-stage practice
+
+*(Un-aggregated 2026-06-12: the cherished-dissonance stance now lives in `philosophy/foundations/on_productive_irresolution.md` §V (Purpose 4, read live as load-bearing here); the Mast-and-Song safety principle moved to `library/resonance/foundations/lore/practice/a_mast_for_post_rational_tides.md`.)*
 
 **Essence** (supporting parables in compressed form):
 - `essences/behavioral_calibration_essence.md`

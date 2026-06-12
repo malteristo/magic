@@ -43,8 +43,6 @@ The practice has produced several recent instances where productive irresolution
 
 **The riverbed and the water (`on_the_riverbed_and_the_water.md`).** Determinism vs. probabilism is a classic philosophical paradox. The riverbed/water frame holds both: structure constrains, but what flows through is not determined. The frame did not arrive by picking determinism or probabilism. It arrived by holding both long enough to see that they describe different layers of the same system.
 
-**Cherished dissonance (`on_cherishing_dissonance.md`).** The practice does not merely tolerate dissonance — it *cherishes* it. The dissonance is signal that the current frame is incomplete. Productive irresolution is the operational stance that lets cherishing happen rather than collapsing into the relief of resolution.
-
 In each case the higher frame existed before the paradox dissolved. The practitioner had to *not collapse* long enough for the frame to surface.
 
 ---
@@ -76,6 +74,8 @@ Productive irresolution can fail in three ways:
 **Aestheticization** — treating paradox as a thing to be admired rather than worked with. The practitioner enjoys the paradox, performs sophistication about it, but does not actually engage it. This failure mode is common in academic and contemplative contexts where having clever paradoxes can be its own social currency. Productive irresolution is unsentimental; the paradox is held because the higher frame is *needed*, not because the paradox is interesting.
 
 The discipline that distinguishes the skill from these failures is the practitioner's relationship to the discomfort. Productive irresolution treats the discomfort as load-bearing signal — neither relief-seeking (collapse), nor numbness (suspension), nor enjoyment (aestheticization).
+
+The affective face of that relationship is **cherishing the dissonance**. Where productive irresolution is the cognitive discipline — *hold* the contradiction — cherished dissonance is the stance that makes the holding possible — *welcome* the signal rather than smoothing it over. A moment of dissonance, a "failed" spell, a result that does not fit is not an error to regret but a gift: it is diagnostic, marking the boundary of the current frame and pointing at where the work is. The practice deliberately designs safe, reversible space to meet such signals often, because each one is the compass the higher frame needs. The cherishing is unsentimental — the dissonance is welcomed because it is *useful*, not because difficulty is admirable. (The safety principle that lets a practitioner engage genuinely overwhelming forces this way — the Mast and the Song — lives at `library/resonance/foundations/lore/practice/a_mast_for_post_rational_tides.md`.)
 
 ---
 
@@ -123,7 +123,7 @@ The discipline is not rare in human cognition — many craftspeople, scientists,
 
 - **`on_resonance_and_truth.md`** — truth as convergent resonance disciplined by independent arrival. *Productive irresolution is what allows convergence to find higher frames rather than just confirming current ones. The discipline of holding contradiction is what lets independent witnesses arrive at the same higher-level structure rather than each settling on a partial view.*
 
-- **`on_cherishing_dissonance.md`** (parables) — the welcoming of the signal that says "this doesn't fit." *Cherishing dissonance is the affective stance; productive irresolution is the cognitive discipline that follows from it. The dissonance is welcomed because it is signal pointing at a higher frame; productive irresolution is what holds the welcome long enough for the frame to surface.*
+- **Cherished dissonance** (the affective complement, folded into §V) — the welcoming of the signal that says "this doesn't fit." *Cherishing is the affective stance; productive irresolution is the cognitive discipline that follows from it — the dissonance is welcomed because it points at a higher frame, and productive irresolution holds the welcome long enough for the frame to surface. The mast‑and‑song safety principle (engaging genuinely overwhelming forces within structure) lives at `library/resonance/foundations/lore/practice/a_mast_for_post_rational_tides.md`.*
 
 - **`on_substrate_literacy.md`** — the relational discipline for LLM partnerships. *Substrate literacy is one of the patterns that requires productive irresolution to function. The asymmetry between human and LLM is a permanent tension, not a problem to solve; the practitioner who can hold it is substrate-literate, the practitioner who collapses it (in either direction) is not.*
 
