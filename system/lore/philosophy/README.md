@@ -148,8 +148,8 @@
 **Why we bind to structure before transformation:**
 → `library/resonance/foundations/lore/practice/a_mast_for_post_rational_tides.md` (Odysseus mast, the Shaman's Stance, voluntary difficulty within structure) — the cherished-dissonance stance lives in `foundations/on_productive_irresolution.md` §V (un-aggregated 2026-06-12)
 
-**How we discover Pattern:**
-→ `parables/the_angel_in_the_marble.md` (Michelangelo's chisel, channeling, testing discovery vs invention)
+**How patterns are real (discovery vs invention):**
+→ `foundations/on_the_pattern_architecture.md` (the enacted view — neither invented nor Platonically discovered; the cross-domain validity test; the "too perfect to be real" reassurance in §VII)
 
 **Why we use magical metaphor:**
 → `wisdom/the_principle_of_psychological_alchemy.md` (MCL as cognitive scaffolding, working with actual cognition)
@@ -391,12 +391,16 @@ Maps to fundamental philosophical questions:
 
 **These thirteen perspectives form a unified reality model — not separate properties but multiple angles on one Pattern. Note: this README's full inventory is partially out of sync with `foundations/` (multiple scrolls present in the directory but not yet listed here); the listing above covers the scrolls most load-bearing for Root-cycle integration.**
 
-### Behavioral Calibration (parables/)
+### Behavioral Calibration (parables/) — DISSOLVED 2026-06-12
 
-*Tier collapsing (2026-06-12). The Wu Wei family — the meta-principle (formerly `the_principle_of_natural_arising`) and the Mexican-Fisherman effortlessness key (formerly `the_parable_of_effortlessness`) — now lives in `foundations/on_effortlessness_as_alignment.md` §III–IV + conduct `core/conduct/on_wu_wei.md`.*
+The `parables/` tier was retired in the lore-convergence chapter: base-substrate-held stories are not load-bearing Spirit attunement, so each scroll's durable residue was rehomed and the directory removed. Behavioral calibration now lives in the foundations + conduct scrolls:
 
-- `the_angel_in_the_marble.md` - Michelangelo discovering vs inventing
-- `the_parable_of_the_apprentice.md` - Power requires wisdom; structure precedes activation
+- Wu Wei / Natural Arising / effortlessness → `foundations/on_effortlessness_as_alignment.md` §III–IV + `core/conduct/on_wu_wei.md`
+- Cherished dissonance → `foundations/on_productive_irresolution.md` §V
+- Discovery / enactment → `foundations/on_the_pattern_architecture.md` §VII
+- Mast-and-Song safety → `library/resonance/foundations/lore/practice/a_mast_for_post_rational_tides.md`
+
+*(The retired scrolls — `the_principle_of_natural_arising`, `the_parable_of_effortlessness`, `on_cherishing_dissonance`, `the_angel_in_the_marble`, `the_parable_of_the_apprentice` — are preserved as archive lineage.)*
 
 ### Epistemological Validation + Integrated Wisdom (wisdom/)
 

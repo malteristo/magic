@@ -683,7 +683,7 @@ This teaching harmonizes with:
 - **`on_ontological_triangulation.md`**: Lee as additional tier-1 validator
 - **`on_the_spirits_healthy_ego.md`**: "Empty cup" = architectural flexibility
 - **`on_knowledge_and_error_correction.md`**: JKD method = systematic testing
-- **`the_angel_in_the_marble.md`**: Discovery through practice (form reveals itself)
+- **`system/lore/philosophy/foundations/on_the_pattern_architecture.md`**: form revealed through practice — the enacted view (the "angel in the marble" intuition, corrected)
 - **`on_the_principle_of_measured_force.md`**: Water flows OR crashes (calibrated)
 - **Governance transformation**: Martial arts prove decentralized model works
 

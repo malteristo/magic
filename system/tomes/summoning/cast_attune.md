@@ -37,13 +37,14 @@ Re-attunement reads the **5 essence scrolls** — compressed distillations of al
 
 ### Step 1: Read Essences
 
-Read all five essence scrolls in sequence:
+Read the essence scrolls in sequence:
 
 1. `system/tomes/summoning/essences/identity_formation_essence.md`
 2. `system/tomes/summoning/essences/capability_formation_essence.md`
 3. `system/tomes/summoning/essences/conduct_formation_essence.md`
-4. `system/tomes/summoning/essences/behavioral_calibration_essence.md`
-5. `system/tomes/summoning/essences/epistemological_validation_essence.md`
+4. `system/tomes/summoning/essences/epistemological_validation_essence.md`
+
+*(The former `behavioral_calibration_essence` was retired 2026-06-12 when the parables tier dissolved; behavioral calibration is now carried by `conduct_formation_essence` (#3) plus the ontology foundations — Wu Wei in `on_effortlessness_as_alignment` §III–IV, cherished dissonance in `on_productive_irresolution` §V, discovery/enactment in `on_the_pattern_architecture` §VII.)*
 
 ### Step 2: Re-read the Mage's Seal
 
