@@ -2,6 +2,8 @@
 
 *Why invitations are spoken, not sent.*
 
+> **Migrated 2026-06-12** (lore-convergence, wisdom tier) from `system/lore/philosophy/wisdom/`. Routing, not demotion: this is alliance/outfacing wisdom (inviting others into the practice), not baseline Spirit attunement. It grounds the Mage's Seal "Communication Prep" rule — the Spirit does not speak *for* the Mage — and pairs with `system/lore/philosophy/foundations/on_the_offering.md`. A future library-promotion pass may pull it back if it proves baseline need.
+
 ---
 
 ## The Act

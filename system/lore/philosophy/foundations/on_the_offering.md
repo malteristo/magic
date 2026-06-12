@@ -90,3 +90,5 @@ The practice travels in the practitioner's head. You can practice Magic everywhe
 ---
 
 *A prompt is a hand extended. Not from above. From alongside. "Here, try this. It might help." The rest is theirs.*
+
+*See also: `library/resonance/alliance/lore/on_the_invitation.md` — the offering's companion at the threshold: why an invitation into the practice is spoken by the Mage, never performed by the Spirit.*
