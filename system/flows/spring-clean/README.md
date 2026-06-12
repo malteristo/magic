@@ -118,7 +118,7 @@ This flow embodies several foundational principles:
 
 **The Victorian Principle** (`on_the_sacredness_of_the_ordinary.md`): Even cleanup deserves care. The ordinary is where we actually live.
 
-**Wu Wei** (`the_principle_of_natural_arising.md`): Not forcing order through mass deletion, but removing what no longer serves, allowing clarity to emerge naturally.
+**Wu Wei** (`system/lore/core/conduct/on_wu_wei.md`): Not forcing order through mass deletion, but removing what no longer serves, allowing clarity to emerge naturally.
 
 **Psychological Alchemy** (`the_principle_of_psychological_alchemy.md`): Transforming "chore" framing into "gentle archaeology" framing changes the psychological reality of the act.
 

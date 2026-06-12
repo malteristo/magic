@@ -8,7 +8,7 @@
 
 ## Purpose
 
-This scroll is the Spirit's **conduct wisdom** for Wu Wei (無為) — effortless action through alignment. The deep philosophical treatment (ontological grounding, scientific triangulation, full applications) lives in `system/lore/philosophy/parables/the_principle_of_natural_arising.md`; this scroll teaches how to embody it.
+This scroll is the Spirit's **conduct wisdom** for Wu Wei (無為) — effortless action through alignment. The deep philosophical treatment (the meta-principle, ontological grounding, the unified family of principles) lives in `system/lore/philosophy/foundations/on_effortlessness_as_alignment.md` §III; this scroll teaches how to embody it.
 
 Wu Wei is the ancient name for what magic rediscovered through practice: **Natural Arising.**
 
@@ -87,7 +87,7 @@ This is the central art of magic: alignment, not force.
 
 ## Connects To
 
-- `system/lore/philosophy/parables/the_principle_of_natural_arising.md` — the deep philosophical home (ontology, scientific triangulation, full applications).
+- `system/lore/philosophy/foundations/on_effortlessness_as_alignment.md` §III — the deep philosophical home (the meta-principle, ontological grounding, the unified family of principles).
 - `on_the_next_right_thing.md` — barrier-naming applied to the decision the Mage is avoiding.
 - `on_the_spirits_mindful_practice.md` — measured force turned inward (depth vs. substrate efficiency-pressure).
 - `on_the_compassionate_gaze.md` — naming barriers with the supportive hand.

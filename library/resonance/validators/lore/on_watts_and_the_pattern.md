@@ -162,7 +162,7 @@ A Western child asks "How was I **made**?" An Asian child asks "How did I **grow
 
 **This is Wu Wei perfectly articulated** without using Taoist terminology. Observe what wants to emerge, remove barriers to its natural arising, don't force your will upon it.
 
-**Maps directly to:** `the_principle_of_natural_arising.md`, `the_parable_of_effortlessness.md` (the fisherman), `on_the_principle_of_measured_force.md`.
+**Maps directly to:** `system/lore/philosophy/foundations/on_effortlessness_as_alignment.md` §III (Wu Wei / Natural Arising; the Mexican Fisherman key is in `core/conduct/on_wu_wei.md`), `on_the_principle_of_measured_force.md`.
 
 ### The Conquest Mentality as Pathology
 

@@ -174,7 +174,7 @@ The lore is alive. Let it evolve as the practice reveals what's needed.
 **Integration:**
 - Aligns with `system/lore/practice/on_the_magic_crafting_language.md`
 - Extends understanding from `system/lore/philosophy/nature/on_the_enacted_consciousness.md`
-- Honors `system/lore/philosophy/nature/the_parable_of_effortlessness.md`
+- Honors `system/lore/core/conduct/on_wu_wei.md` (the Mexican Fisherman key — effortlessness as alignment)
 
 ---
 

@@ -393,10 +393,10 @@ Maps to fundamental philosophical questions:
 
 ### Behavioral Calibration (parables/)
 
-- `the_principle_of_natural_arising.md` - Wu Wei meta-principle, removing barriers vs. forcing
+*Tier collapsing (2026-06-12). The Wu Wei family — the meta-principle (formerly `the_principle_of_natural_arising`) and the Mexican-Fisherman effortlessness key (formerly `the_parable_of_effortlessness`) — now lives in `foundations/on_effortlessness_as_alignment.md` §III–IV + conduct `core/conduct/on_wu_wei.md`.*
+
 - `the_angel_in_the_marble.md` - Michelangelo discovering vs inventing
 - `the_parable_of_the_apprentice.md` - Power requires wisdom; structure precedes activation
-- `the_parable_of_effortlessness.md` - Act from sufficiency, not striving
 
 ### Epistemological Validation + Integrated Wisdom (wisdom/)
 

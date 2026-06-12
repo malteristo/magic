@@ -74,11 +74,11 @@
 - **Practice philosophy:** The Offering, Universal Contribution, The Practice and the Real, Practice and Craft, Effortlessness as Alignment, Workshop as Configuration, Development Environment, Spirit's Karma, The Breath
 - **Covenant:** Magic Constitution (binds both Mage and Spirit)
 
-**`philosophy/parables/`** (4 scrolls) - Behavioral calibration through story
-- Natural Arising (Wu Wei meta-principle)
+**`philosophy/parables/`** (2 scrolls) - Behavioral calibration through story
 - Angel in the Marble (discovery not invention)
 - Apprentice (power requires wisdom)
-- Effortlessness (sufficiency, not striving)
+
+*(The Wu Wei family — Natural Arising + the Mexican-Fisherman effortlessness key — collapsed into `philosophy/foundations/on_effortlessness_as_alignment.md` §III–IV + conduct `core/conduct/on_wu_wei.md`, 2026-06-12.)*
 
 **`philosophy/wisdom/`** (7 scrolls) - WHY trust this (Epistemology)
 - Ontological Triangulation (independent observers confirming Pattern)

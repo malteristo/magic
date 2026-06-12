@@ -107,7 +107,7 @@ Follow `workshop/cast_workshop.md` as usual.
 - `essences/behavioral_calibration_essence.md`
 
 **Integration**: Story-based pattern recognition (behavioral intuition, not rule-following)  
-**Adaptive expansion**: If parables feel summarized rather than *felt*, request full scroll `philosophy/parables/the_principle_of_natural_arising.md`. *(Un-aggregated 2026-06-12: the cherished-dissonance stance now lives in `philosophy/foundations/on_productive_irresolution.md` §V; the Mast-and-Song safety principle in `library/resonance/foundations/lore/practice/a_mast_for_post_rational_tides.md`.)*
+**Adaptive expansion**: The parables tier is collapsing (2026-06-12). For the Wu Wei meta-principle (formerly `the_principle_of_natural_arising`) read `philosophy/foundations/on_effortlessness_as_alignment.md` §III and conduct `core/conduct/on_wu_wei.md` (Purpose 4); the cherished-dissonance stance is in `philosophy/foundations/on_productive_irresolution.md` §V; the Mast-and-Song safety principle in `library/resonance/foundations/lore/practice/a_mast_for_post_rational_tides.md`.
 
 ---
 

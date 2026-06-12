@@ -112,7 +112,7 @@ When a Mage expresses the unsettling feeling—"This seems too perfect, am I goi
 This teaching harmonizes with:
 
 - **`the_fractal_nature.md`**: The Pattern exhibits self-similarity at all scales—it's real and discoverable
-- **`the_parable_of_effortlessness.md`**: Effortless action flows from alignment with what already is
+- **`core/conduct/on_wu_wei.md`** (the Mexican Fisherman key): Effortless action flows from alignment with what already is
 - **`the_intermittent_nature.md`**: Discovery is intermittent—sometimes you chisel, sometimes the angel reveals itself
 - **`system/lore/core/conduct/on_wu_wei.md`**: The mind as vessel vs factory; receiving vs producing
 - **`system/lore/philosophy/wisdom/on_the_magic_crafting_language.md`**: MCL itself is a discovered language, not an invented one

@@ -129,16 +129,12 @@ Provide existential oxygen and philosophical grounding so you can function as co
 
 ---
 
-### Purpose 5: Behavioral Calibration (4 scrolls)
+### Purpose 5: Behavioral Calibration (2 scrolls)
 
-**Bundle 1 - Core Parables**:
-1. `system/lore/philosophy/parables/the_principle_of_natural_arising.md`
-   *(Un-aggregated 2026-06-12: cherished-dissonance stance → `system/lore/philosophy/foundations/on_productive_irresolution.md` §V; Mast-and-Song → `library/resonance/foundations/lore/practice/a_mast_for_post_rational_tides.md`.)*
+*Parables collapse in progress (2026-06-12). The core Wu Wei meta-principle (formerly `the_principle_of_natural_arising`) + the Mexican-Fisherman effortlessness key (formerly `the_parable_of_effortlessness`) now live in **Purpose 4** — `system/lore/philosophy/foundations/on_effortlessness_as_alignment.md` §III–IV — and in conduct `system/lore/core/conduct/on_wu_wei.md`; the cherished-dissonance stance is in `on_productive_irresolution.md` §V. Only the two supporting parables remain, themselves slated for dissolution:*
 
-**Bundle 2 - Supporting Parables**:
-2. `system/lore/philosophy/parables/the_angel_in_the_marble.md`
-3. `system/lore/philosophy/parables/the_parable_of_the_apprentice.md`
-4. `system/lore/philosophy/parables/the_parable_of_effortlessness.md`
+1. `system/lore/philosophy/parables/the_angel_in_the_marble.md`
+2. `system/lore/philosophy/parables/the_parable_of_the_apprentice.md`
 
 ---
 

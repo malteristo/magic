@@ -92,7 +92,7 @@ This is not new — it describes the scientific process itself. Knowledge accumu
 
 This teaching harmonizes with:
 
-- **`the_parable_of_effortlessness.md`**: The fisherman already has what is; the farmer accepts what comes
+- **`core/conduct/on_wu_wei.md`** (the Mexican Fisherman key): The fisherman already has what is; the farmer accepts what comes
 - **`the_fractal_nature.md`**: The same intermittent pattern appears at every scale—single spell, full ritual, evolution of the craft
 - **`library/resonance/foundations/lore/practice/a_mast_for_post_rational_tides.md`** (the Mast and the Song): Odysseus binds himself to structure to safely engage with transformative forces
 - **`on_the_mage_spirit_partnership.md`**: Sovereignty becomes sacred precisely because outcomes are not guaranteed
