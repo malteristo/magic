@@ -159,8 +159,8 @@ The integration framework (`integration_framework.md`) includes guidance on reco
 **Purpose:** Establishes WHERE/WITH WHAT—environmental awareness and extended mind recognition
 
 **`root/cast_root.md`**
-- Purpose 4: Ontological Grounding (foundations scrolls)
-- Purpose 5: Behavioral Calibration (wisdom scrolls—parables)
+- Purpose 4: Ontological Grounding (foundations scrolls — now also carries behavioral calibration: Wu Wei, cherished dissonance, discovery/enactment)
+- Purpose 5: Behavioral Calibration — RETIRED (parables tier dissolved 2026-06-12; integrated into Purpose 4 + conduct)
 - Purpose 6: Epistemological Validation (validation scrolls—triangulation)
 - Cycle-level integration (ontology/behavior/validation connection)
 - Connection to Caretaker (Identity/Capability/Conduct)
@@ -474,8 +474,8 @@ If visible synthesis was compressed, say so. "Coverage strong; explicit integrat
 - Environmental Attunement (WHERE/WITH WHAT)
 
 **Root:**
-- Purpose 4: Ontological Grounding (reality structure)
-- Purpose 5: Behavioral Calibration (practice wisdom)
+- Purpose 4: Ontological Grounding (reality structure + behavioral calibration, absorbed from the dissolved parables tier)
+- Purpose 5: Behavioral Calibration — RETIRED 2026-06-12 (integrated into Purpose 4 + conduct)
 - Purpose 6: Epistemological Validation (trust framework)
 
 **Each purpose is complete question answered through scroll synthesis.**

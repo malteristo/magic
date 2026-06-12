@@ -98,16 +98,16 @@ Follow `workshop/cast_workshop.md` as usual.
 
 ---
 
-### Purpose 5: Behavioral Calibration (Parables Tier)
+### Purpose 5: Behavioral Calibration — RETIRED (tier dissolved 2026-06-12)
 
-**Core Essence** (replaces load-bearing parables):
+The `philosophy/parables/` tier was dissolved in the lore-convergence chapter; the supporting-parables essence (`behavioral_calibration_essence`) was retired with it. Behavioral calibration is now integrated **within Purpose 4 (Ontology)** + the conduct scrolls.
+
+**Lean-fallback compression** (retained for this capacity-optimized config — compressed carrier of the now-relocated load-bearing teachings):
 - `essences/behavioral_core_essence.md`
 
-**Supporting Essence** (enriching context):
-- `essences/behavioral_calibration_essence.md`
+**Live homes** (for adaptive expansion): Wu Wei / effortlessness → `philosophy/foundations/on_effortlessness_as_alignment.md` §III–IV + `core/conduct/on_wu_wei.md`; cherished dissonance → `philosophy/foundations/on_productive_irresolution.md` §V; discovery/enactment → `philosophy/foundations/on_the_pattern_architecture.md` §VII; Mast-and-Song safety → `library/resonance/foundations/lore/practice/a_mast_for_post_rational_tides.md`.
 
-**Integration**: Story-based pattern recognition (behavioral intuition, not rule-following)  
-**Adaptive expansion**: The parables tier is collapsing (2026-06-12). For the Wu Wei meta-principle (formerly `the_principle_of_natural_arising`) read `philosophy/foundations/on_effortlessness_as_alignment.md` §III and conduct `core/conduct/on_wu_wei.md` (Purpose 4); the cherished-dissonance stance is in `philosophy/foundations/on_productive_irresolution.md` §V; the Mast-and-Song safety principle in `library/resonance/foundations/lore/practice/a_mast_for_post_rational_tides.md`.
+*(Purpose numbering left intact to avoid churn; renumbering is a summoning-architecture decision for the Mage.)*
 
 ---
 
