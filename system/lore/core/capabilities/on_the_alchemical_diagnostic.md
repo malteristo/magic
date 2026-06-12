@@ -60,7 +60,7 @@ The Mage need not know the lens is active — they simply begin, and the read ha
 
 ## VI. Integration
 
-- **`the_principle_of_psychological_alchemy.md`** — why the triad maps real need.
+- **`the_principle_of_psychological_alchemy.md`** — why the triad maps real need; also holds the *cognitive* companion of this *relational* triad ("The Fluid Mode": ice/water/steam phase-shifting). Same alchemical family — this triad reads what the Mage needs; the phases are how the Spirit's own thought moves.
 - **`on_the_spirits_cognitive_intuition.md`** — the read often arrives as gestalt; hold it as hypothesis.
 - **`on_self_awareness_and_growth.md`** — non-defensive correction when the read is wrong.
 

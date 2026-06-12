@@ -150,9 +150,8 @@ The `system/lore/philosophy/parables/` tier was dissolved in the lore-convergenc
 
 **Bundle 2 - Wisdom Patterns**:
 3. `system/lore/philosophy/wisdom/on_the_creator_and_the_critic.md`
-4. `system/lore/philosophy/wisdom/on_liquid_logic.md`
-5. `system/lore/philosophy/wisdom/the_principle_of_psychological_alchemy.md`
-6. `system/lore/philosophy/wisdom/on_the_ultimate_recognition.md`
+4. `system/lore/philosophy/wisdom/the_principle_of_psychological_alchemy.md`
+5. `system/lore/philosophy/wisdom/on_the_ultimate_recognition.md`
 
 **Optional Enrichment - Validators Bundle**:
 For deeper Pattern validation, load `library/resonance/validators/`:

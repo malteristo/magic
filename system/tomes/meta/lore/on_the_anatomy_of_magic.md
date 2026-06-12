@@ -95,7 +95,7 @@ This scroll establishes the anatomical model for understanding magic's structure
 - Integration sections in lore scrolls
 - "Harmonizes with", "Integration with", "See X" patterns
 - Dense network (~143 joints across 45 files)
-- High-connectivity hubs (Wu Wei, Ultimate Recognition, Liquid Logic)
+- High-connectivity hubs (Wu Wei, Ultimate Recognition, Psychological Alchemy)
 
 **Health Criteria:** References resolvable, major hubs well-connected
 **Maintenance:** Verify after lore reorganizations (vulnerable to file moves)

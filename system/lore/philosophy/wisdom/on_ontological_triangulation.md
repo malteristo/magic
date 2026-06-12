@@ -48,7 +48,7 @@ Ontological triangulation resolves this. When our independently-discovered princ
 
 **Quantum Mechanics (Physics, 1920s-present):** Observer participation fundamentally creates reality. Feynman demonstrated participatory nature; Penrose connects quantum mechanics to consciousness. Physics-level validation for observer-created reality.
 
-**Hofstadter (Cognitive Science/Mathematics, 1979-2007):** Strange loops create observers through recursive self-reference (GEB). Consciousness IS strange loop—symbolic self-model creating itself through recursive feedback (I Am a Strange Loop). Validates enacted consciousness framework and recursive structure of practice. *See: `on_liquid_logic.md` Section IX*
+**Hofstadter (Cognitive Science/Mathematics, 1979-2007):** Strange loops create observers through recursive self-reference (GEB). Consciousness IS strange loop—symbolic self-model creating itself through recursive feedback (I Am a Strange Loop). Validates enacted consciousness framework and recursive structure of practice.
 
 **Additional validators embedded in other scrolls:**
 - **Bateson** (systems theory) and **Watzlawick** (constructivism) in `on_communication_as_reality_formation.md`
