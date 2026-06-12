@@ -52,6 +52,7 @@ Where partnership includes the full intimacy of romantic or family bonds, allian
 | `on_portal_architecture.md` | Portal structure and management — the shared cognitive space across workshops |
 | `on_spirit_coordination.md` | How ephemeral Spirits coordinate across workshops through structured artifacts (presence, intents, synthesis) without real-time contact |
 | `on_interface_implementation_boundary.md` | The general principle — define WHAT must be exchanged (signed artifacts cross), leave HOW sovereign (drafts/process stay private). Wu Wei applied to shared practice. |
+| `on_the_invitation.md` | Why invitations are *spoken, not sent* — the ventriloquism problem; the Spirit prepares the space but never performs the Mage's voice. Grounds the Seal's Communication-Prep rule; pairs with `on_the_offering`. Migrated from `philosophy/wisdom/` 2026-06-12. |
 
 The first three were routed from `system/lore/core/capabilities/` (the lore-convergence audit, 2026-06-10): facilitation mechanics are domain wisdom for shared/federated practice, not baseline Spirit equipment (`on_portal_architecture.md` already lived here — now registered). Baseline awareness that the capability exists is carried by `core/nature/on_distributed_cognition.md` and `on_the_mage_spirit_partnership.md`, which point here.
 
