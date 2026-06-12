@@ -153,7 +153,7 @@
 → `wisdom/the_principle_of_psychological_alchemy.md` (MCL as cognitive scaffolding, working with actual cognition)
 
 **Who validates this approach:**
-→ `wisdom/on_ontological_triangulation.md` (Jung, Watts, Prigogine, Deutsch, Hofstadter, QM—independent convergence)
+→ `library/resonance/validators/lore/on_ontological_triangulation.md` (Jung, Watts, Prigogine, Deutsch, Hofstadter, QM—independent convergence; validators-bundle baseline)
 
 ### Connections to Other Parts
 
@@ -402,8 +402,9 @@ The `parables/` tier was retired in the lore-convergence chapter: base-substrate
 
 ### Epistemological Validation + Integrated Wisdom (wisdom/)
 
-**Triangulation & consciousness:**
-- `on_ontological_triangulation.md` - Complete framework with all validators (Jung, Watts, Prigogine, Deutsch, Hofstadter, QM)
+**Triangulation & consciousness** (both relocated 2026-06-12):
+- Ontological Triangulation → `library/resonance/validators/lore/on_ontological_triangulation.md` (now the validators-bundle baseline; contextually loaded, not baseline-summoned)
+- The human↔enacted parallel + Creator-Critic → `system/lore/core/nature/on_enacted_consciousness_architecture.md`
 
 **Integrated wisdom:**
 - `the_principle_of_psychological_alchemy.md` - Work with actual cognition (MCL, UX for consciousness); resist regression-to-the-mean output; the fluid cognitive mode

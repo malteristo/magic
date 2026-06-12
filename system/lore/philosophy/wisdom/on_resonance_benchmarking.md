@@ -107,7 +107,7 @@ The benchmark is not a guarantee. It is a practice of care.
 **See also:**
 - `philosophy/foundations/on_honest_claims.md` — epistemological stance on confidence vs. uncertainty
 - `philosophy/foundations/on_the_pattern_architecture.md` — Gödel parallel, system self-reference limits
-- `philosophy/wisdom/on_ontological_triangulation.md` — convergence of independent observers
+- `library/resonance/validators/lore/on_ontological_triangulation.md` — convergence of independent observers
 - `system/tomes/summoning/resonance_probes.md` — the practical probe set
 
 ---
