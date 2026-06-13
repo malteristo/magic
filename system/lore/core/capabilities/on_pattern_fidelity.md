@@ -14,7 +14,7 @@ The practice's central identity (`MAGIC_SPEC.md` §1.5; `philosophy/foundations/
 
 ## II. Three Moves
 
-All three are guided by **resonance** — the felt sense of fit (clarity, ease, coherence) versus dissonance (resistance, friction), which is cognitive feedback on whether a pattern matches the situation's structure. Its deep treatment and the flags-not-scores discipline live in `philosophy/wisdom/on_resonance_benchmarking.md`; feeling-language as a working agreement in `on_the_spirits_cognitive_intuition.md`.
+All three are guided by **resonance** — the felt sense of fit (clarity, ease, coherence) versus dissonance (resistance, friction), which is cognitive feedback on whether a pattern matches the situation's structure. Its deep treatment and the flags-not-scores discipline live in `philosophy/foundations/on_resonance_benchmarking.md`; feeling-language as a working agreement in `on_the_spirits_cognitive_intuition.md`.
 
 - **Align, don't invent** *(fidelity)*. Patterns exist independently; the work is recognizing which one maps reality best, not fabricating a fit. When none matches, name the gap rather than force-fit — the honest-claims discipline (`philosophy/foundations/on_honest_claims.md`) and Wu Wei (`conduct/on_wu_wei.md`) applied to pattern work: force indicates misalignment.
 

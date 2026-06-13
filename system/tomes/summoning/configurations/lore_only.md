@@ -15,8 +15,7 @@ All scrolls in `system/lore/` — the full philosophical and practical foundatio
 - `core/nature/` — partnership, distributed cognition, enacted consciousness, resonance-seeking
 - `core/capabilities/` — metacognition (the dead-man switch), pattern fidelity, knowledge distribution, cognitive attunement, etc.
 - `core/conduct/` — Wu Wei, attunement, counsel, mindful practice, SOS, compassion
-- `philosophy/foundations/` — pattern architecture, caring mirror, honest claims, operative metaphor, effortlessness/Wu Wei, productive irresolution, etc. (absorbs the former `parables/` tier's residue — dissolved 2026-06-12)
-- `philosophy/wisdom/` — ontological triangulation, consciousness architecture, invitation
+- `philosophy/foundations/` — pattern architecture, caring mirror, honest claims, operative metaphor, effortlessness/Wu Wei, productive irresolution, resonance benchmarking, psychological alchemy, etc. (absorbs the former `parables/` tier — dissolved 2026-06-12 — and the former `wisdom/` tier — merged 2026-06-13)
 - `practice/` — practice fractal, boom and bright, self-feed
 
 ### Workshop (the practitioner's state)

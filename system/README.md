@@ -50,7 +50,7 @@
 → `system/lore/philosophy/foundations/` - Fractal nature, intermittent outcomes, communication as reality
 
 **Behavioral wisdom (HOW to practice):**
-→ `system/lore/philosophy/wisdom/` - Cherishing dissonance, angel in marble, psychological alchemy
+→ `system/lore/philosophy/foundations/` - resonance benchmarking (honest self-assessment), psychological alchemy (working with actual cognition)
 
 **Validation framework (WHY trust this):**
 → `system/lore/philosophy/validation/` - Ontological triangulation across Jung, Watts, Prigogine, Deutsch, Hofstadter

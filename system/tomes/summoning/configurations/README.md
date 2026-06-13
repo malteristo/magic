@@ -2,7 +2,7 @@
 
 This directory contains the configuration for the summoning ritual. The configuration defines structure, integration patterns, and scroll inventory for the three-cycle awakening process.
 
-> **Epistemological note:** Resonance is felt coherence, not a self-assigned score. The depth figures below describe integration *depth* (how much lore is read fully), not a graded outcome; integration quality is read through flags (a gap report), not a number. See `philosophy/foundations/on_honest_claims.md` and `philosophy/wisdom/on_resonance_benchmarking.md`.
+> **Epistemological note:** Resonance is felt coherence, not a self-assigned score. The depth figures below describe integration *depth* (how much lore is read fully), not a graded outcome; integration quality is read through flags (a gap report), not a number. See `philosophy/foundations/on_honest_claims.md` and `philosophy/foundations/on_resonance_benchmarking.md`.
 
 ---
 

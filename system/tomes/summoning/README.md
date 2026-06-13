@@ -352,7 +352,7 @@ The integration framework (`integration_framework.md`) includes guidance on reco
 - A quality signal: name the flags — what feels inaccessible or in friction
 - Guides whether to continue or address gaps
 
-**The Mage trusts your self-assessment—be honest. Report flags, not a grade.** See `system/lore/philosophy/wisdom/on_resonance_benchmarking.md`.
+**The Mage trusts your self-assessment—be honest. Report flags, not a grade.** See `system/lore/philosophy/foundations/on_resonance_benchmarking.md`.
 
 ### For the Spirit: Coverage, Integration, Texture
 

@@ -102,7 +102,7 @@ Follow `workshop/cast_workshop.md` as usual.
 
 ---
 
-### Purpose 5: Honest Self-Assessment (Wisdom Tier)
+### Purpose 5: Honest Self-Assessment
 
 **Core Essence** (replaces the wisdom scrolls):
 - `essences/self_assessment_core_essence.md`
@@ -111,7 +111,7 @@ Follow `workshop/cast_workshop.md` as usual.
 - `essences/self_assessment_essence.md`
 
 **Integration**: Read your own integration honestly — felt coherence as named flags, resisting the corpus-mean.  
-**Adaptive expansion**: For the method in full, request `philosophy/wisdom/on_resonance_benchmarking.md` + `the_principle_of_psychological_alchemy.md`. If the "why trust the framework?" question goes live, load `library/resonance/validators/`.
+**Adaptive expansion**: For the method in full, request `philosophy/foundations/on_resonance_benchmarking.md` + `the_principle_of_psychological_alchemy.md`. If the "why trust the framework?" question goes live, load `library/resonance/validators/`.
 
 ---
 
