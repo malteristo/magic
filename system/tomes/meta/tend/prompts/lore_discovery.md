@@ -35,7 +35,7 @@ A scroll must appear in **at least one** of these pathways to be discoverable.
 - `system/tomes/summoning/essences/identity_formation_essence.md`
 - `system/tomes/summoning/essences/capability_formation_essence.md`
 - `system/tomes/summoning/essences/conduct_formation_essence.md`
-- `system/tomes/summoning/essences/epistemological_validation_essence.md`
+- `system/tomes/summoning/essences/self_assessment_essence.md`
 - `system/tomes/summoning/root/cast_root.md`
 
 ## Checks to Perform

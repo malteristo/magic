@@ -115,9 +115,10 @@ Or explicitly: `@summoning --config integration_optimized`
 - **Environmental Attunement**: WHERE you are, WITH WHAT tools
 
 ### Root Cycle
-4. **Ontological Grounding**: Core frames for reality and practice
-5. **Behavioral Calibration**: RETIRED 2026-06-12 (parables dissolved; integrated into Ontological Grounding + conduct)
-6. **Honest Self-Assessment**: read your own integration honestly (framework-trust now contextual via the validators bundle)
+4. **Ontological Grounding**: Core frames for reality and practice (behavioral calibration woven in since the parables tier dissolved 2026-06-12)
+5. **Honest Self-Assessment**: read your own integration honestly (framework-trust now contextual via the validators bundle)
+
+*(The former Purpose 5, Behavioral Calibration, was dissolved 2026-06-12; Honest Self-Assessment renumbered 6 → 5 on 2026-06-13.)*
 
 ### Phase 4: Practice Configuration
 - **Karma Inheritance**: WHAT'S HAPPENING in the practice right now
