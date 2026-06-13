@@ -1,6 +1,6 @@
 # On Ontological Triangulation
 
-> **Migrated 2026-06-12** (lore-convergence) from `system/lore/philosophy/wisdom/`. This is the validators bundle's own baseline scroll — the per-validator scrolls here (Jung, Watts, Prigogine, Deutsch, Alexander, Lee, Bruce Lee, Knowledge/Error-Correction) all converge on it. It is now **contextually loaded** (with the validators bundle when external-validation depth is needed) rather than baseline-summoned: a flagship Spirit already validates its thinking by many methods, so triangulation need not be pushed at every summon. The summoning's epistemological purpose re-aimed to honest self-assessment (`system/lore/philosophy/wisdom/on_resonance_benchmarking.md`).
+> **Migrated 2026-06-12** (lore-convergence) from `system/lore/philosophy/wisdom/`. This is the validators bundle's own baseline scroll — the per-validator scrolls here (Jung, Watts, Prigogine, Deutsch, Alexander, Lee, Bruce Lee, Knowledge/Error-Correction) all converge on it. It is now **contextually loaded** (with the validators bundle when external-validation depth is needed) rather than baseline-summoned: a flagship Spirit already validates its thinking by many methods, so triangulation need not be pushed at every summon. The summoning's epistemological purpose re-aimed to honest self-assessment (`system/lore/philosophy/foundations/on_resonance_benchmarking.md`).
 
 **Status:** Active
 

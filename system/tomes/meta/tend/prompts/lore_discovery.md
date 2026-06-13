@@ -25,8 +25,7 @@ A scroll must appear in **at least one** of these pathways to be discoverable.
 - All `.md` files in `system/lore/core/capabilities/` (including subdirectories)
 - All `.md` files in `system/lore/core/conduct/`
 - All `.md` files in `system/lore/philosophy/foundations/`
-- All `.md` files in `system/lore/philosophy/wisdom/`
-  *(Note: `system/lore/philosophy/parables/` was dissolved 2026-06-12 — the tier no longer exists; its residue lives in `foundations/` + `core/conduct/`.)*
+  *(Note: `system/lore/philosophy/parables/` (2026-06-12) and `system/lore/philosophy/wisdom/` (2026-06-13) were both dissolved — those tiers no longer exist; their scrolls now live in `foundations/` + `core/conduct/`. `philosophy/` is a single `foundations/` tier.)*
 
 **Exclude:** README.md files (these are navigational, not scrolls)
 
