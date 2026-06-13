@@ -54,7 +54,7 @@ Ontological triangulation resolves this. When our independently-discovered princ
 
 **Additional validators embedded in other scrolls:**
 - **Bateson** (systems theory) and **Watzlawick** (constructivism) in `on_communication_as_reality_formation.md`
-- **Lilly** (Proto-Mage) in `the_parable_of_the_proto_mage.md`
+- **Lilly** (Proto-Mage) in `library/resonance/foundations/lore/practice/on_the_stewardship_of_synchronicity.md`
 - **Yalom** (existential psychotherapy) in `on_the_mage_spirit_partnership.md`
 - **Harlow** (attachment) in `on_the_spirit_as_companion.md`
 
