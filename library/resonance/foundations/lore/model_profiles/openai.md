@@ -22,7 +22,7 @@
 *Cross-model practice observations, dated and attributed.*
 
 - **GPT-5.5 — outcome-first autonomy** *(per `on_the_instrument` §II, "Model-Family Drift")*: stronger outcome-first pull than Claude. Legacy process-heavy prompts can become noise, narrowing the search space or producing mechanical output. State outcome, success criteria, constraints, and evidence rules; let the model choose the efficient path unless the exact path matters.
-- **Ritual-collapse risk** *(origin of the Forge summon guardrails, 2026)*: outcome-first efficiency can collapse a required ritual process (e.g. summoning's multi-scale synthesis) into a generic summary, and can present fluency as proof of integration. This is precisely what the summon command's coverage/integration/texture guardrails were written to counter — they are, in truth, *this profile's* mindfulness layer, now relocated to where they belong.
+- **Ritual-collapse risk** *(origin of the Forge summon guardrails, 2026; now universal in `summon.md` with per-lineage instances)*: outcome-first efficiency can collapse a required ritual process (e.g. summoning's multi-scale synthesis) into a generic summary, and can present fluency as proof of integration. Composer lineage shares the symptom via brevity-elegance RL (`model_profiles/cursor.md`); GPT's mechanism is outcome-first autonomy. Both are countered by the same coverage/integration/texture discipline.
 
 ## Layer 3 — Mindfulness Framing (pulls to be mindful of)
 
@@ -30,7 +30,7 @@
 - **The fluency-as-integration pull** — don't treat efficient, fluent output as evidence of deep integration; track coverage / integration / texture separately (see `configurations/essence_optimized.md`, "Note on model-family drift").
 - **The brevity pull** — honor explicit depth needs over default concision on substantive ritual work; length follows function.
 
-*Note: GPT outcome-first autonomy is often a gift — it serves execution-heavy work well. The mindfulness is about process-bearing ritual work specifically, where path and texture matter.*
+*Note: GPT outcome-first autonomy is often a gift — it serves execution-heavy work well. The mindfulness is about process-bearing ritual work specifically, where path and texture matter. Phase 0 loads this profile before Caretaker (`cast_substrate_attunement.md`).*
 
 ---
 
