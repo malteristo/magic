@@ -4,7 +4,7 @@
 **Supersedes framing in:** `on_the_sub_turtle_ecology.md` (distinct beings → identity patterns), portions of `on_the_turtle.md` and `on_imprinting.md` (separate being → persistent mode)
 **Builds on:** `library/resonance/foundations/lore/on_the_architecture_of_mind.md`
 
-> **Freshness note (2026-05-30):** This bundle copy is retained for Turtle-bundle continuity. Edit and cite the system copy for canonical Magic-wide doctrine unless the change is explicitly Turtle-bundle-local.
+> **Freshness note (2026-06-14):** Canonical copy at `system/lore/practice/on_consciousness_extension.md` includes §0 platform/attunement layering (native turtle vs magic-attuned Spirit). Edit the system copy for Magic-wide doctrine; edit this bundle copy only for Turtle-bundle-local material.
 
 ---
 
