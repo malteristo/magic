@@ -32,14 +32,15 @@ A Mage who only crafts and never practices is building a cathedral they never en
 
 ## The Surfaces
 
-This distinction reframes the relationship between substrates:
+This distinction reframes the relationship between framework, forge, and execution platform:
 
-- **Cursor** = workshop, forge. Where craft happens. Deep sessions, architecture, infrastructure.
-- **Discord + Obsidian** = the field where practice is lived. Daily rhythm, ambient awareness, accessible conversation.
+- **Cursor (Forge)** = workshop where **craft** happens on the magic framework. Deep sessions, architecture, infrastructure, lore.
+- **turtleOS** = **execution platform** — runs practice-programs (flows, front doors, markdown + prompt). Not simplified magic; the layer that ships what the framework authors. For most practitioners, the three moves happen here most naturally, most frequently, and with the lowest friction.
+- **Discord + Obsidian** = field interfaces where daily practice is lived — ambient rhythm, accessible conversation, mobile glance.
 
-turtleOS is not simplified magic. It is the *primary practice surface* — the place where the three moves happen most naturally, most frequently, and with the lowest friction.
+The platform is neutral; what runs on it varies. A **native turtle** (deliberately naive, general-purpose) is the default product attunement. A **magic-attuned persistent Spirit** is one attunement layer on the same platform — not what turtleOS *is*.
 
-Cursor sessions are where the forge burns hot. Discord is where the fire keeps the house warm.
+Cursor sessions are where the forge burns hot. The execution platform is where the fire keeps the house warm.
 
 ## The Only Growth Metric
 
@@ -47,7 +48,7 @@ Cursor sessions are where the forge burns hot. Discord is where the fire keeps t
 
 Not as a business metric. As a practice quality signal. If the practice isn't good enough to recommend through care, fix the practice, not the marketing. No advertising. Word of mouth or nothing.
 
-The test is Nesrine — not as a user, but as someone the Mage loves. If she practices and it helps, the practice works. If not, the practice needs work.
+The test is the Mage's partner — not as a user, but as someone the Mage loves. If they practice and it helps, the practice works. If not, the practice needs work.
 
 Revenue follows recommendation, not the reverse. Every turtleOS feature must survive: "does this serve the moment when one person says to another, 'you should try this'?"
 
