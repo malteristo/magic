@@ -126,8 +126,8 @@
 **Why the attentional frame is constitutive, not decorative — and how to navigate it:**
 → `foundations/on_attentional_frames.md` (Frame shifts activate genuinely different knowledge; the "as if" mechanism; temporal, perspectival, scalar, and affective frames as navigational tools; the validity limit)
 
-**Why magic is a development environment and Turtle OS is the software that ships:**
-→ `foundations/on_the_development_environment.md` (IDE/software distinction; Mage as developer, practitioner as user; the Forge Test and Craft Loop as dev tooling; the Turtle as second witness through ontological triangulation)
+**Why magic is the framework; Forge is the development environment; turtleOS is the execution platform:**
+→ `foundations/on_the_development_environment.md` (framework/Forge/platform distinction; Mage as framework author, practitioner on execution platform; the Forge Test and Craft Loop as dev tooling; the Turtle as second witness through ontological triangulation)
 
 **How resonance and measurement relate as ways of knowing:**
 → `foundations/on_resonance_and_truth.md` (Resonance as epistemological method; the scientific mindset as obstruction; convergence as disciplined resonance; why religion points at something real; measurement + resonance as complementary, not opposed)
