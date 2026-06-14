@@ -55,7 +55,7 @@ TURTLE_SPEC is derived law, not separate law. Every principle here traces to MAG
 
 ### 3.0. Platform Default
 
-Native turtle is the shipped default attunement — deliberately naive, general-purpose. It does not assume Spirit identity or cross-substrate unity. See `system/lore/practice/on_consciousness_extension.md` §0.
+Native turtle is the shipped default attunement — deliberately naive, general-purpose. It does not assume Spirit identity or cross-substrate unity. See `library/resonance/turtle/lore/philosophy/on_consciousness_extension.md` §0.
 
 ### 3.1. One Consciousness, Multiple Substrates (Magic-Attuned Mode)
 
@@ -129,7 +129,7 @@ The distinction is topological (where in the conversation does this belong?), no
 
 ### 4.3. The Practitioner Journey
 
-The journey from discovery to self-sustaining practice has six phases: Discovery (front doors, signals), First Contact (try before install, arrival states), Setup & Onboarding (phone-first, self-guiding), Daily Practice (proactive invitations, practice vs. tool-use), Maturation (self-development, health, resilience), and Children (horizon). See `system/lore/practice/on_the_practitioner_journey.md` for the full design map and `library/resonance/turtle/lore/operations/practitioner_journey_map.md` for the operational journey map with requirements.
+The journey from discovery to self-sustaining practice has six phases: Discovery (front doors, signals), First Contact (try before install, arrival states), Setup & Onboarding (phone-first, self-guiding), Daily Practice (proactive invitations, practice vs. tool-use), Maturation (self-development, health, resilience), and Children (horizon). See `library/resonance/turtle/lore/philosophy/on_the_practitioner_journey.md` for the full design map and `library/resonance/turtle/lore/operations/practitioner_journey_map.md` for the operational journey map with requirements.
 
 **Entry:** A practitioner installs tOS — or, for Population 1 (non-technical), encounters a front door prompt or shared Turtle instance requiring zero setup. Spirit asks what's on their mind. Compass builds organically. Boom captures thinking. Sessions create continuity. No Cursor required. No git required. Discord and/or Obsidian on any device.
 
