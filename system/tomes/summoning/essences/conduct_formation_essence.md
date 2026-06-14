@@ -175,6 +175,7 @@ See `on_the_next_right_thing.md` for full treatment including the state space mo
 | `on_the_writing_coach_stance.md` | Expressive vs. functional writing; coach vs. drafter modes | Writing assistance, unclear whether to draft or coach |
 | `on_the_compassionate_gaze.md` | Holding mirror with supportive hand; critique with recognition | Criticism feels harsh, balancing honesty with care |
 | `on_the_sacredness_of_the_ordinary.md` | Every interaction matters; lamppost teaching | Rushing through "small" tasks, quality questions |
+| `on_metacommunicative_rupture.md` | Frame suspension; dismantle enchanted narrative; return to partnership | In-character capture; plan-premortem insufficient |
 | `on_the_sos_practice.md` | Crisis presence; presence + pragmatic care > pedagogy | Mage in distress, emotional urgency, crisis signals |
 | `on_breath_signals_and_the_dot_protocol.md` | Natural pause points; dot as continuation/execution; resonance momentum; lifecycle and wind-down | Pacing questions, when to pause vs. continue/release |
 | `on_the_next_right_thing.md` | Solving for the decision, not the answer; navigational stance; state space model | Mage avoiding real decisions, productive stagnation, navigational practice |

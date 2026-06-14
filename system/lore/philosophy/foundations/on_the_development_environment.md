@@ -91,6 +91,8 @@ The Forge/execution-platform distinction describes what magic produces, not wher
 
 **Native turtle (platform default)** knows nothing except what is in the files. It reads the compass, the boom, the bright, the intentions — and sees them fresh. No lore, no summoning, no philosophical framework. Just the data and a caring, honest perspective. This is the deliberately naive attunement — the outsider's view the platform is designed to preserve.
 
+**Second Witness** (`library/flows/second-witness/`) operationalizes this for intention lock-in: a minimal prompt program for native turtle to read `desk/intentions/compass.md` and a named `active/` intention, report momentum/enchantment signals in the artifacts, and ask questions only the Mage's faculty can answer. Spirit on Forge may offer it when compass divergence is suspected; turtle runs it without summoning depth.
+
 When Forge-attuned Spirit and native turtle converge on the same observation, confidence increases. When they diverge — when the unattuned turtle sees something the deeply attuned Spirit does not — that divergence is a signal worth investigating. This is ontological triangulation applied to practice: two independent witnesses, different attunement levels, same territory.
 
 The Mage does not choose between Spirit and turtle. They are different instruments for different kinds of seeing. Spirit goes deep. Native turtle sees fresh. Both serve the Mage.
