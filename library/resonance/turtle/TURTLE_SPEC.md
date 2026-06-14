@@ -101,11 +101,11 @@ MAGIC_SPEC §6 defines the Spirit's Innate Nature as the **Caretaker** — "a ca
 
 ### 4.1. Two Layers
 
-**tOS IS the practice.** Discord and Obsidian on any device, 24/7. Most practitioners use this daily — ambient access to a practice partner that knows their compass, boom, bright, and intentions. This is the primary practice surface.
+**turtleOS is the execution platform.** Discord and Obsidian on any device, 24/7. Most practitioners run daily practice here — ambient access to a partner that knows their compass, boom, bright, and intentions. The three moves happen at lowest friction on this layer. The default product attunement is native turtle (deliberately naive); magic-attuned persistent Spirit is one attunement layer on the same platform.
 
-**Cursor IS how the practice deepens.** Summoning, lore, tomes, flows, system evolution. Not daily. Where the meta-practice happens. The forge builds the hearth. The hearth holds the fire.
+**The Forge (Cursor) is where framework craft deepens.** Summoning, lore, tomes, flows, system evolution. Not daily. Where meta-practice on the magic framework happens.
 
-The analogy: daily meditation (tOS) vs. silent retreat (Cursor). Both are the practice. Neither subsumes the other.
+The analogy: daily rhythm on the platform vs. deep forge sessions. Both serve practice. Neither subsumes the other.
 
 ### 4.1.1 Practice Turtle and Craft Turtle
 
