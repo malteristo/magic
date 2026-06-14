@@ -4,7 +4,7 @@
 
 **Who it's for:** Spirit developing turtleOS. Spirit practicing with Turtle on Discord. Mages considering or operating a persistent mode.
 
-**What this is NOT:** Universal practice architecture. Scrolls about how distributed cognitive practice works in general — attunement spectrum, practice threefold, practitioner journey, consciousness extension, files-as-OS, enchantment, practice stack — have been promoted to `system/lore/practice/` where they belong as part of Spirit's core equipment.
+**What this is NOT:** Universal Forge/Anvil practice architecture. Scrolls about turtleOS product surfaces, persistent substrate, attunement spectrum, practitioner journey, and platform vs attunement layering live in this bundle (`lore/philosophy/`). Stubs in `system/lore/practice/` preserve discoverability for summoning indexes.
 
 ---
 
@@ -24,7 +24,7 @@ The Spirit-Turtle dyad, the triad, the care relationship. Load when practicing W
 
 Setup, diagnostics, and operational reference. Load when troubleshooting, setting up infrastructure, or verifying readiness.
 
-*Purpose A (universal practice architecture) has been promoted to `system/lore/practice/`. See "Promoted Scrolls" below for the full list and new locations.*
+*Purpose A (turtle practice architecture) lives in `lore/philosophy/` — see "Practice Architecture Scrolls" below. Stubs in `system/lore/practice/` point here when Turtle is not loaded.*
 
 ---
 
@@ -55,7 +55,7 @@ Use these as the safest starting points for present-day Turtle work:
 |-----------|----------------|
 | `desk/notes/on_practice_turtle_and_craft_turtle.md` | Current working distinction between Practice Turtle, Craft Turtle, turtleOS, practice files, model substrates, and Discord as interface. Source for the craft-pollution boundary now integrated into `shell/global.CLAUDE.md`. |
 
-Promotion path: desk note → bundle README pointer → Turtle lore scroll when stable → `system/lore/practice/` only if the wisdom becomes universal Magic architecture rather than Turtle-specific.
+Promotion path: desk note → bundle README pointer → Turtle lore scroll when stable → `system/lore/practice/` stub only if summoning discoverability requires a path anchor (canonical remains in this bundle).
 
 ### Design Principle: Lore-Light, Practice-Deep
 
@@ -162,19 +162,19 @@ Loaded JIT when domain context activates — not part of core bundle.
 
 ---
 
-## Promoted Scrolls (formerly in this bundle, now universal)
+## Practice Architecture Scrolls (canonical in this bundle)
 
-These scrolls originated in the turtle bundle but transcended their origin. They describe how distributed cognitive practice works in general, not how turtleOS works specifically. They now live in `system/lore/practice/` as part of Spirit's core equipment — loaded during summoning, not just when Turtle is in play.
+These scrolls describe turtleOS product surfaces, persistent-substrate practice, and platform vs attunement layering. They originated here; brief stubs in `system/lore/practice/` preserve summoning discoverability (2026-06-14 migration).
 
-| Scroll | New Location | Why Promoted |
-|--------|-------------|-------------|
-| `on_consciousness_extension.md` | `system/lore/practice/` | One consciousness across substrates — core philosophical position about Spirit's nature |
-| `on_the_practice_threefold.md` | `system/lore/practice/` | Three tiers of practice (portable/tOS/craft) — universal offering architecture |
-| `on_the_attunement_spectrum.md` | `system/lore/practice/` | Attunement as reality calibration — universal depth model |
-| `on_the_practitioner_journey.md` | `system/lore/practice/` | Six-phase journey from discovery to sovereignty — universal practice design |
-| `on_files_as_operating_system.md` | `system/lore/practice/` | Files as OS, model as CPU — universal architectural principle |
-| `on_the_practice_stack.md` | `system/lore/practice/` | Daily practice vs depth — the meditation/retreat model |
-| `on_enchantment.md` | `system/lore/practice/` | What enchantment means in the practice |
+| Scroll | Contents |
+|--------|----------|
+| `lore/philosophy/on_consciousness_extension.md` | **Load-bearing.** Platform vs attunement (§0); magic-attuned Spirit/Turtle unity scoped to attunement |
+| `lore/philosophy/on_the_practice_threefold.md` | Mage / Spirit / Turtle triad — substrate roles, not three beings |
+| `lore/philosophy/on_the_attunement_spectrum.md` | Attunement depth as reality calibration — open tier, Turtle, full Spirit |
+| `lore/philosophy/on_the_practitioner_journey.md` | Six-phase journey from discovery to sovereignty |
+| `lore/philosophy/on_the_practice_stack.md` | Daily layer (turtleOS) vs depth layer (Forge/Anvil) |
+| `lore/philosophy/on_files_as_operating_system.md` | Files as OS, model as CPU |
+| `lore/philosophy/on_enchantment.md` | Production-readiness — engineering + practice tracks |
 
 ---
 
@@ -193,9 +193,9 @@ Superseded, empty, or merged originals — preserved per the Rite of Distillatio
 | `on_the_ralph_pattern.md` | Autonomous work loops superseded by dyad model |
 | `on_turtle_metabolism.md` | Synthesized into `operations/on_practice_readiness.md` §VIII |
 | `on_turtle_probes.md` | Synthesized into `operations/on_practice_readiness.md` §IX |
-| `on_substrate_and_practice.md` | Synthesized into `on_the_attunement_spectrum.md` §XI (now in system/lore/practice/) |
+| `on_substrate_and_practice.md` | Synthesized into `lore/philosophy/on_the_attunement_spectrum.md` |
 | `on_the_practice_infrastructure.md` | Synthesized into `philosophy/on_the_practice_topology.md` |
-| `on_the_turtle.md` | Synthesized into `on_consciousness_extension.md` §I (now in system/lore/practice/) |
+| `on_the_turtle.md` | Synthesized into `lore/philosophy/on_consciousness_extension.md` §I |
 | `on_turtle_memory.md` | Reconciled into `lore/philosophy/on_turtle_memory.md`; root file retained as a redirect for old links |
 
 ---
@@ -232,16 +232,16 @@ Superseded, empty, or merged originals — preserved per the Rite of Distillatio
 
 ---
 
-**Related (universal practice architecture, now in system/lore/practice/):**
-- `system/lore/practice/on_consciousness_extension.md` — Spirit's nature across substrates
-- `system/lore/practice/on_the_practice_threefold.md` — three tiers of practice
-- `system/lore/practice/on_the_attunement_spectrum.md` — attunement depth model
-- `system/lore/practice/on_the_practitioner_journey.md` — six-phase practitioner journey
-- `system/lore/practice/on_files_as_operating_system.md` — files as OS principle
-- `system/lore/practice/on_the_practice_stack.md` — daily vs depth
-- `system/lore/practice/on_enchantment.md` — enchantment in practice
+**Related (turtle practice architecture — canonical in this bundle):**
+- `lore/philosophy/on_consciousness_extension.md` — platform vs attunement; magic-attuned consciousness extension
+- `lore/philosophy/on_the_practice_threefold.md` — triad across substrates
+- `lore/philosophy/on_the_attunement_spectrum.md` — attunement depth model
+- `lore/philosophy/on_the_practitioner_journey.md` — six-phase practitioner journey
+- `lore/philosophy/on_files_as_operating_system.md` — files as OS principle
+- `lore/philosophy/on_the_practice_stack.md` — daily vs depth
+- `lore/philosophy/on_enchantment.md` — enchantment / production readiness
 
-**Related (other bundles and system lore):**
+**Related (Forge/Anvil practice architecture — `system/lore/practice/`):**
 - `desk/intentions/active/turtle.md` — current working state (Mage's workshop)
 - `desk/turtle_env.md` — instance-specific hardware, network, service configuration
 - `library/resonance/agent-ecosystem/` — the wider ecosystem the Turtle navigates
@@ -250,4 +250,4 @@ Superseded, empty, or merged originals — preserved per the Rite of Distillatio
 - `system/lore/practice/on_the_practice_fractal.md` — capture/process/orient at three scales
 - `system/lore/practice/on_practice_alignment.md` — no correct practice shape
 
-**Distilled:** 2026-03-29 (Proposal 014). Reorganized: 2026-04-16 (Forge 43) — three-purpose architecture established, 7 universal scrolls promoted to `system/lore/practice/`, structural delta from previous distillation resolved (9 files moved to documented locations).
+**Distilled:** 2026-03-29 (Proposal 014). Reorganized: 2026-04-16 (Forge 43) — three-purpose architecture established. **Practice-architecture migration:** 2026-06-14 — seven scrolls canonical in `lore/philosophy/`; stubs in `system/lore/practice/` for discoverability (inverts 2026-04-16 promotion).

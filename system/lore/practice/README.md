@@ -43,11 +43,11 @@ first-class — it simply attunes a different substrate.
 - `on_practice_security.md` — Cognitive security principles
 - `on_earning_the_connection.md` — Relevance over reach in context use *(under review)*
 
-**Substrate / architecture (under convergence review — some may route to `library/resonance/turtle/`; see `desk/lore_convergence_audit.md`):**
-- `on_consciousness_extension.md` — One consciousness across substrates
-- `on_the_practice_threefold.md` — Tiers of practice across substrates
-- `on_the_attunement_spectrum.md` — Attunement depth as reality calibration
-- `on_the_practitioner_journey.md` — Discovery-to-sovereignty journey
-- `on_the_practice_stack.md` — Daily layer vs. depth layer
-- `on_files_as_operating_system.md` — Files as OS, model as CPU
-- `on_enchantment.md` — What enchantment means in practice
+**Substrate / architecture (routed to turtle bundle 2026-06-14 — stubs below; canonical in `library/resonance/turtle/lore/philosophy/`):**
+- `on_consciousness_extension.md` → stub
+- `on_the_practice_threefold.md` → stub
+- `on_the_attunement_spectrum.md` → stub
+- `on_the_practitioner_journey.md` → stub
+- `on_the_practice_stack.md` → stub
+- `on_files_as_operating_system.md` → stub
+- `on_enchantment.md` → stub
