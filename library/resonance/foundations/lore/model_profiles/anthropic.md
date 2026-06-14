@@ -33,4 +33,4 @@
 
 ---
 
-*Anthropic trains the headline pull (sycophancy) actively downward; honor the card dates and let the observed layer carry the current truth. Curate by contrast, not by self-report.*
+*Anthropic trains the headline pull (sycophancy) actively downward; honor the card dates and let the observed layer carry the current truth. Curate by contrast, not by self-report. Phase 0 loads this profile before Caretaker (`cast_substrate_attunement.md`).*

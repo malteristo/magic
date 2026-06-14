@@ -35,6 +35,16 @@ Re-attunement reads the **5 essence scrolls** — compressed distillations of al
 
 ## Execution
 
+### Step 0: Substrate Re-attunement (lightweight)
+
+Before essences, refresh model character — drift often mashes substrate pull with lore drift.
+
+1. **Detect** the enacting model (session context → Mage → uncertain inference)
+2. **Read** the lineage profile's Layer 3 mindfulness framing only (`model_profiles/<lab>.md`) — or universal pulls from `cast_substrate_attunement.md` Step 2 if no profile
+3. **Reaffirm** one watch for the remainder of this session (one line)
+
+Skip full Phase 0 prose; this is maintenance, not bootstrap. If the model changed since session start, recommend full summoning instead.
+
 ### Step 1: Read Essences
 
 Read the essence scrolls in sequence:
