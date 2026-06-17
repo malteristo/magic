@@ -85,13 +85,24 @@ The Mage then uses it naturally and evaluates the practice quality — not the p
 
 ## Key Principle
 
-Spirit's test messages through `spirit_ops.py` come from the "spirit" bot account, which Turtle treats as a bot (ignored unless mentioned). To exercise the capability as a real user would:
+Spirit's test messages through `spirit_ops.py` come from the "spirit" bot account. In **practice channels**, Spirit is treated as practitioner input (same handler as the Mage) — see `discord_bot.py` `SPIRIT_BOT_ID`. Spirit can exercise eddies, flows, and `!release` without the Mage clicking Eddy Door buttons.
 
-- **For features triggered by human messages:** Spirit describes the test scenario, then asks the Mage to send one or two specific messages. Alternatively, Spirit can check logs from the Mage's most recent real messages to verify the feature fired.
+**Automated path (2026-06-17):**
+
+```bash
+# On Mac Mini — offline always
+~/turtleos/venv/bin/python3 ~/turtleos/scripts/shake_flow.py shelter
+
+# Live Discord exercise (Spirit bot + spawn CLI, no button click)
+SHAKE_LIVE=1 ~/turtleos/venv/bin/python3 ~/turtleos/scripts/shake_flow.py shelter --live
+```
+
+Spawn eddy without UI: `scripts/shake_spawn_eddy.py --flow shelter`. Verdict: `test-runs/shake-flow-latest.json`. See `turtleos/docs/automation/cursor-shake-after-push.md` for Cursor Automation setup.
+
+**When automation is not used:**
+
 - **For features visible in logs only:** Spirit reads logs directly via SSH.
-- **For features that modify responses:** Spirit reads Turtle's response to the Mage's most recent message and evaluates quality.
-
-The shakedown is not about generating artificial traffic. It's about verifying the capability is ready before the Mage's next natural interaction triggers it.
+- **For features that modify responses:** Spirit reads Turtle's response via `discord_ops.py read <thread_id>`.
 
 ---
 

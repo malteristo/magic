@@ -20,12 +20,16 @@ ssh turtle@<turtle-ssh> 'cd ~/turtleos && ./venv/bin/python3 spirit_ops.py <op> 
 
 | Command | Purpose |
 |---------|---------|
-| `send <channel_id> <text>` | Post a message (auto-chunks if >2000 chars) |
-| `thread <channel_id> <title>` | Create a thread from a message |
-| `threads <channel_id>` | List active threads |
+| `send` | Post a message (auto-chunks if >2000 chars) |
+| `read` | Read recent messages (delegates to discord_ops.py) |
+| `fetch` | Fetch one message by id |
+| `thread` | Create a thread from a message |
+| `threads` | List active threads |
 | `help` | Show usage and channel IDs |
 
-**Reading messages:** Spirit's bot token lacks the Message Content privileged intent — it cannot read other users' messages. Use Turtle's bot for reading:
+**Spirit as practitioner:** In practice channels, Turtle processes Spirit messages like Mage input (not ignored). Spirit can open shake eddies via `scripts/shake_spawn_eddy.py` and exercise flows without the Mage present in Discord.
+
+**Reading messages:** Prefer `spirit_ops.py read` (delegates to `discord_ops.py`) or call `discord_ops.py` directly:
 
 ```bash
 ssh turtle@<turtle-ssh> 'cd ~/turtleos && ./venv/bin/python3 discord_ops.py read <channel_id> [limit]'
