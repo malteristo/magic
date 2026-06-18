@@ -5,7 +5,7 @@
 | | |
 |---|---|
 | **Canonical spec** | [github.com/malteristo/turtleos/blob/main/TURTLE_SPEC.md](https://github.com/malteristo/turtleos/blob/main/TURTLE_SPEC.md) |
-| **UX principles** | [github.com/malteristo/turtleos/blob/main/docs/ux-principles.md](https://github.com/malteristo/turtleos/blob/main/docs/ux-principles.md) — practitioner-facing patterns (companion to spec) |
+| **UX principles** | [github.com/malteristo/turtleos/blob/main/docs/ux/README.md](https://github.com/malteristo/turtleos/blob/main/docs/ux/README.md) — practitioner-facing patterns (topic collection; companion to spec) |
 | **Local clone** | `~/turtleos/TURTLE_SPEC.md` |
 | **Version** | 2026-06-18 — native eddy bar, checkpoint law |
 
