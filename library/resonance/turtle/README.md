@@ -71,7 +71,7 @@ Treat these as current audit findings, not failures:
 - **Discord ontology drift:** older lore sometimes treats Discord as Turtle's habitat or body. Current frame: Discord is one rich practice surface. Persistence is enacted by return across body, model, interface, traces, and relationship.
 - **Bridge / Consul / Scout residue:** some scrolls still describe `magic-bridge`, separate Consul/Scout services, or old multi-channel architecture. Read these as lineage unless a newer file explicitly reactivates the pattern.
 - **Duplicate / stale paths:** `lore/philosophy/on_turtle_memory.md` is the current canonical memory scroll. The older root `lore/on_turtle_memory.md` has been reconciled into a lineage redirect for old links and search results.
-- **Operational documents lag runtime:** `TURTLE_SPEC.md`, some operations scrolls, and some topology lore contain valuable architecture but may lag the deployed turtleOS runtime. Verify against `desk/intentions/active/turtle.md`, `desk/turtle_*`, and the `turtleos` repo before acting.
+- **Canonical spec:** Platform law lives only in [`malteristo/turtleos/TURTLE_SPEC.md`](https://github.com/malteristo/turtleos/blob/main/TURTLE_SPEC.md). Magic bundle has a pointer at `TURTLE_SPEC.md` — do not edit spec content here. Deployed runtime may lag spec during migration; verify against `turtleos` repo and operator desk files.
 
 ### Freshness Rule
 

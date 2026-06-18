@@ -99,10 +99,87 @@ SHAKE_LIVE=1 ~/turtleos/venv/bin/python3 ~/turtleos/scripts/shake_flow.py shelte
 
 Spawn eddy without UI: `scripts/shake_spawn_eddy.py --flow shelter`. Verdict: `test-runs/shake-flow-latest.json`. See `turtleos/docs/automation/cursor-shake-after-push.md` for Cursor Automation setup.
 
+**After Shake Pass — Mage UX dogfood:** see **Appendix: Mage UX Dogfood Capture** below (screenshot + felt-sense in Forge).
+
 **When automation is not used:**
 
 - **For features visible in logs only:** Spirit reads logs directly via SSH.
 - **For features that modify responses:** Spirit reads Turtle's response via `discord_ops.py read <thread_id>`.
+
+---
+
+## Appendix: Mage UX Dogfood Capture
+
+*Spirit verifies plumbing; the Mage verifies practice feel. This appendix closes the loop when screenshots and felt-sense matter more than logs.*
+
+### When to use
+
+After **Shake Pass** — Spirit has exercised the capability; the Mage uses it naturally on Discord (river, eddy, flow). Use this when:
+
+- UX is the question (buttons, thread naming, presence, question discipline)
+- Automated shake passed but something still felt off in real use
+- Spirit needs visual context that logs and transcripts omit
+
+Spirit's automated shake (`shake_flow.py`, `spirit_ops.py`) cannot replace this. It scripts turns; it does not sit in the practitioner's chair.
+
+### The capture ritual (Mage → Forge)
+
+1. **Use it naturally** — one real moment, not a test script. A heavy day, a dot on the river, whatever you'd actually do.
+2. **Screenshot what matters** — one frame is often enough; two if before/after (e.g. button → thread indicator). Crop to the relevant region.
+3. **Paste into Forge chat** with a short felt-sense block:
+
+```
+dogfood: [capability — e.g. river materialize / Shelter flow]
+
+expected: [what you thought would happen]
+saw: [what the UI actually did]
+felt: [practice-level verdict — landed / friction / abort]
+```
+
+4. **Optional Discord trace** — if Spirit should pull the thread transcript, add `thread: <id>` or the thread name + rough time. Spirit can `discord_ops.py read` on the Mini.
+
+That's the whole handoff. No special tooling required on Forge — pasted screenshots are first-class input.
+
+### Spirit's read (Forge)
+
+When the Mage posts a dogfood capture, Spirit:
+
+1. Reads screenshots with independent eyes (layout, orphan messages, edited labels, duplicate seeds).
+2. Pulls transcript/session notes from the Mini if a thread ID or time window was given.
+3. Separates **plumbing** (ship-ready?) from **practice feel** (would I reach for this again?).
+4. Proposes targeted fixes or proposals — not a redesign lecture.
+
+Spirit acts as UX researcher here: name the flaws visible in the frame, map them to code paths, ask one clarifying felt-sense question if the transcript and screenshot diverge.
+
+### What not to use (for now)
+
+| Approach | Why skip for Discord dogfood |
+|----------|------------------------------|
+| Cloud Agent screen recording | Proves web apps the agent built — not live Discord on the Mini |
+| SSH screencapture on Mini | Invasive; Discord client may not render usefully |
+| Browser automation on Discord web | Fragile, separate session from the Mage's native client |
+
+Revisit when turtleOS has a **web surface** worth Cloud Agent demo. Until then: **screenshot + felt-sense in Forge** is canonical.
+
+### Compounding
+
+Worth filing when the insight is durable:
+
+- **Proposal** → `desk/proposals/` (plumbing or UX)
+- **Session note** → already written by Turtle for eddy conversations; Spirit may supplement with UX verdict
+- **Briefing Lessons** → at `@release`, if the dogfood changed how we ship or test
+
+### Example (2026-06-17 river + Shelter)
+
+```
+dogfood: river materialize + Shelter flow
+
+expected: dot on river → materialize button → quiet eddy; Shelter holds without questions
+saw: orphan button message, check-in naming, seed duplicate; Shelter asked at closure
+felt: session 1 abort (misroute); session 2 partially helpful but over-conversational
+```
+
+Spirit mapped: orphan reply → reply+delete; seed embed → removed; generic title → `new eddy` + rename on first in-eddy message.
 
 ---
 
