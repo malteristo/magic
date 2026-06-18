@@ -5,8 +5,9 @@
 | | |
 |---|---|
 | **Canonical spec** | [github.com/malteristo/turtleos/blob/main/TURTLE_SPEC.md](https://github.com/malteristo/turtleos/blob/main/TURTLE_SPEC.md) |
+| **UX principles** | [github.com/malteristo/turtleos/blob/main/docs/ux-principles.md](https://github.com/malteristo/turtleos/blob/main/docs/ux-principles.md) — practitioner-facing patterns (companion to spec) |
 | **Local clone** | `~/turtleos/TURTLE_SPEC.md` |
-| **Version** | 2026-06-14 — *Law of the Platform* (platform rewrite + resonance pass) |
+| **Version** | 2026-06-18 — native eddy bar, checkpoint law |
 
 When working on turtleOS product law, read and amend the canonical file in `malteristo/turtleos`. Update this pointer only if the canonical location changes.
 
