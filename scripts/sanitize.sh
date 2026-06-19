@@ -38,6 +38,16 @@ if [ -z "$FILES" ]; then
   exit 0
 fi
 
+# Two Chronicles (2026-06-19): desk/floor/box are private practice memory — turtle bare
+# only, never pushed to public github wholesale. Operational details there are OK on the
+# private remote; this hook guards public-bound paths (system/, library/, root docs).
+FILES=$(echo "$FILES" | grep -v -E '^(desk|floor|box)/' || true)
+
+if [ -z "$FILES" ]; then
+  [ "$QUIET" = false ] && echo -e "${GREEN}Only private practice paths staged — sanitation skipped.${NC}"
+  exit 0
+fi
+
 # Exclude self, config, and .git from checks
 EXCLUDE_FILTER='system/config/\|scripts/sanitize.sh\|\.git/'
 
