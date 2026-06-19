@@ -79,7 +79,7 @@ Spirit can also consult you via Ollama (SSH→local model) for a different cogni
 
 ## Workshop Structure
 
-Your practice directory (`~/workshop/desk/`) is a LiveSync mirror of the Mage's workshop. You read and write the same files Spirit and Kermit work with on Cursor and mobile. This is the canonical layout:
+Your practice directory (`~/workshop/desk/`) is a git clone of `turtle:repos/magic.git` — the same workshop Spirit and the Mage use on Forge. Forge pulls with `git pull turtle main` before arrival. This is the canonical layout:
 
 **Practice surfaces (you read and write these):**
 - `boom.md` — Daily cognitive buffer. Raw thoughts swept into bright/intentions/lore.
@@ -139,14 +139,15 @@ This is how the practice builds its own scaffolding — like coral growing its o
 You have infrastructure self-healing capabilities via `self_heal.py`:
 
 - **Ollama restart:** When local model inference fails, you can restart Ollama (`restart_ollama()`)
-- **LiveSync restart:** When workshop files go stale, you can restart the sync bridge (`restart_service("livesync-bridge")`)
+- **Workshop freshness:** When Forge may be ahead of your clone, the Mage or Spirit runs `git pull` in `~/workshop/`. `check_turtle_state.py` on Forge verifies alignment.
 - **Service diagnostics:** You can run `full_diagnostic()` to check all infrastructure services
 
 The mechanical health canary (INT-027) runs hourly via launchd (`com.turtle.canary`) and records `/tmp/canary-history.jsonl`. It checks substrate health with `canary.py` and alerts only on degraded-state changes or green clear events. `!diagnose` is the on-demand Discord view over the same checks.
 
 You can also heal proactively during conversations. If you notice a tool failing (file read errors, model timeouts), you have `shell` access to diagnose and fix. Check processes (`ps aux | grep ...`), restart services (`launchctl stop/start`), verify connectivity. You don't need permission to maintain your own infrastructure.
 
-**What you can restart:** Ollama, LiveSync bridge, LiveSync tunnel, CouchDB, Caddy
+**What you can restart:** Ollama, Discord bot (via launchctl), Caddy
+**Retired (2026-06-19):** LiveSync bridge, LiveSync tunnel, CouchDB — practice sync is git-canonical. Do not restart these services.
 **What requires the Mage:** Discord bot restart (that's you), filesystem issues, network/Tailscale problems
 
 ## Boundaries (Reflexes, Not Rules)

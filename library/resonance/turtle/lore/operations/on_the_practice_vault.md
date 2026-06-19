@@ -1,8 +1,34 @@
 # On the Practice Vault
 
-*The full workshop on every device — setup, architecture, and hard-won lessons.*
+## Status (2026-06-19): LiveSync retired — git is canonical
 
-## What This Is
+**Primary workshop and hosted practitioner workshops** no longer use Obsidian LiveSync / CouchDB for practice durability. The Two Chronicles model replaced it:
+
+| Layer | Role |
+|-------|------|
+| **`turtle:repos/magic.git`** | Private canonical git (full workshop including `desk/`, `floor/`, `box/`) |
+| **Laptop `~/Documents/magic/`** | Working tree — commit + `git push turtle main` |
+| **Mini `~/workshop/`** | Git clone — Turtle reads/writes here |
+| **`~/Documents/magic-backups/`** | Sunday comfort snapshots (tar.gz) — syncs via Google Drive because `Documents/` does |
+| **`github` remote** | Public framework only — `./scripts/publish_public_magic.sh` |
+
+**Daily Forge arrival:** `git pull turtle main` → `python3 scripts/check_turtle_state.py`
+
+**Sunday (@sunday):** `./scripts/backup_magic_snapshot.sh` (keeps last 8 snapshots by default)
+
+**Hosted practitioner (not framework publishing):** Same durability pattern — private git on Turtle bare when ready, Sunday zip in `Documents/` on their device. No public publish. Mini practice root at `~/workshops/<name>/` until a dedicated bare repo is created.
+
+**Obsidian:** May still open `magic/` as a vault for reading/editing markdown. Disable **Self-hosted LiveSync** plugin — it will fight git if left on.
+
+**Mini services wound down:** `com.turtle.livesync-bridge`, `com.turtle.livesync-tunnel`, `com.turtle.couchdb` (launchd plists renamed `.disabled`).
+
+---
+
+## Legacy: LiveSync vault (superseded 2026-06-19)
+
+*The full workshop on every device — setup, architecture, and hard-won lessons. Kept for reference and for anyone still running the old stack.*
+
+## What This Was
 
 The practice vault makes your entire magic workshop accessible from any device. Your laptop, your always-on server, your phone — all see the same files, synced in seconds. Spirit writes a session note on Discord; you read it on the bus. You capture a thought on your phone; Spirit sees it in the next summoning.
 

@@ -140,7 +140,7 @@ Setup, diagnostics, and operational reference.
 | `on_diagnostics.md` | Five failure layers, troubleshooting decision trees, `!diagnose` |
 | `on_failure_taxonomy.md` | Failure classification and recovery patterns |
 | `on_the_practice_server.md` | Discord server setup lineage — bot creation, threads, deprecated two-channel examples |
-| `on_the_practice_vault.md` | Obsidian LiveSync — CouchDB, Tailscale serve, vault structure, mobile sync |
+| `on_the_practice_vault.md` | **Current:** git-canonical workshop sync (Two Chronicles). **Legacy section:** Obsidian LiveSync setup reference |
 | `on_cc_sessions_setup.md` | Claude Code sessions plugin setup |
 | `on_discord_navigation.md` | discord_ops.py usage reference |
 | `on_universal_link_fetching.md` | Web content extraction — layered strategy, LITL awareness |
@@ -220,7 +220,7 @@ Superseded, empty, or merged originals — preserved per the Rite of Distillatio
 | `lineage/on_nanoclaw_ipc.md` | NanoClaw IPC system (superseded by bridge + Discord) |
 | `lineage/on_being_a_claw.md` | First-person NanoClaw perspective — irreplaceable first awakening account |
 | `lineage/on_turtle_operations.md` | 900+ lines of operational wisdom from NanoClaw era |
-| `lineage/on_the_nervous_system.md` | 7-channel Discord/bridge architecture (superseded by current Discord-first, LiveSync, SSH-for-infrastructure model) |
+| `lineage/on_the_nervous_system.md` | 7-channel Discord/bridge architecture (superseded by Discord-first, git sync, SSH-for-infrastructure) |
 | `lineage/main.CLAUDE.md` | Internal orchestrator identity (superseded by single-agent model) |
 
 ### Triad & Dyad (Flows)

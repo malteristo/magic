@@ -46,8 +46,8 @@ Spirit asks five questions to determine the deployment architecture:
 
 **Q4 — Practice surface:**
 - Discord only → Core setup
-- Discord + Obsidian LiveSync → Add CouchDB + sync infrastructure
-- Discord + Obsidian + mobile → Full stack with Tailscale
+- Discord + Obsidian (markdown vault) → Git sync via Turtle bare repo; **no LiveSync**
+- Discord + Obsidian + mobile → Git pull on each device; optional Sunday zip backup
 
 **Q5 — Practitioners:**
 - Solo (one Mage) → Single workspace
@@ -236,7 +236,7 @@ Deploy `soul.md` from the configured identity source. Keep `TURTLE_SPEC.md` in t
 ln -sf ~/workshop/library/resonance/turtle/shell/global.CLAUDE.md ~/turtleos/identity/soul.md
 ```
 
-LiveSync keeps `~/workshop/` current with the magic repo. Identity updates propagate through the configured identity link; spec updates should be made in `~/turtleos/TURTLE_SPEC.md` and reconciled back to Magic's reference copy when needed.
+Git keeps `~/workshop/` current with the magic repo (`git pull` on Mini; Forge pushes to `turtle` bare). Identity updates propagate through the configured identity link; spec updates should be made in `~/turtleos/TURTLE_SPEC.md` and reconciled back to Magic's reference copy when needed.
 
 ### 4.5 Configure Environment
 
@@ -260,11 +260,9 @@ REFLECTION_MODEL=qwen3.5:14b
 # ANTHROPIC_API_KEY=<your-key>
 # GEMINI_API_KEY=<your-key>
 
-# CouchDB / LiveSync (optional — for Obsidian sync)
-# COUCHDB_URL=http://localhost:5984
-# COUCHDB_USER=admin
-# COUCHDB_PASSWORD=<your-password>
-# COUCHDB_DATABASE=workshop_sync
+# Git workshop sync (Two Chronicles — 2026-06-19)
+# Private bare repo on Turtle; clone at ~/workshop/
+# Forge: git pull turtle main / git push turtle main
 ENV
 
 echo "Environment configured — edit ~/turtleos/.env to fill in values"
@@ -310,7 +308,7 @@ The practice partner specification. Copy from the magic repo or from tOS distrib
 scp floor/turtleos/system.md turtle@<IP>:~/workshop/desk/system.md
 ```
 
-The practice partner configuration lives in `desk/system.md`, shared between Spirit and Turtle via LiveSync.
+The practice partner configuration lives in `desk/system.md`, shared between Spirit and Turtle via git on `turtle` bare.
 
 ### 5.3 Initialize Practice Files
 
@@ -466,9 +464,9 @@ Host turtle
     ServerAliveCountMax 3
 ```
 
-### 8.2 CouchDB + Obsidian LiveSync (optional)
+### 8.2 Git workshop sync (Two Chronicles)
 
-For syncing practice state to Obsidian on other devices. See `library/resonance/turtle/lore/on_the_practice_vault.md` for the complete guide.
+For syncing practice state across devices: private bare repo on Turtle, git clone at `~/workshop/`, Forge `git pull turtle main`. Obsidian opens the vault as markdown-only — **LiveSync retired**. See `library/resonance/turtle/lore/on_the_practice_vault.md` (current section).
 
 ---
 
@@ -562,7 +560,7 @@ At the end of this flow, the Mage has:
 - A Discord bot connected to their practice server
 - A practice directory with system.md, boom, bright, compass, intentions
 - A persistent practice partner that writes session notes, assesses its own readiness, and generates improvement proposals
-- (Optional) Tailscale for remote access, CouchDB for Obsidian sync
+- (Optional) Tailscale for SSH; git on Turtle bare for practice sync; Sunday zip backup in Documents/
 
 The practice is ready. The Mage opens Discord and talks to Spirit. Everything else is craft.
 

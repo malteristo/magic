@@ -1,5 +1,7 @@
 # On Diagnostics
 
+> **Sync layer (2026-06-19):** Layer 3 CouchDB/LiveSync diagnostics are **legacy**. Current practice sync is git on `turtle` bare — use `check_turtle_state.py`, `git -C ~/workshop status`, and `canary.py` (`workshop_git_clone` check).
+
 *Knowing what's healthy, what's broken, and where to look.*
 
 **Status:** Active — Load-Bearing  

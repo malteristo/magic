@@ -170,9 +170,9 @@ Empty `desk/boom.md`. The Mage always knows: if it's in the buffer, it hasn't be
 
 ### 9. Triad Sync
 
-Practice state syncs automatically via LiveSync — Turtle reads directly from `~/workshop/desk/` on the Mac Mini, which mirrors the Mage's workshop. No manual SCP needed.
+Practice state syncs via git — Turtle reads/writes `~/workshop/desk/` on the Mac Mini (clone of `turtle:repos/magic.git`). Forge: `git pull turtle main` before recall.
 
-Turtle's proposals, session notes, and practice notes are written directly to `desk/proposals/`, `desk/sessions/`, and `desk/notes/` respectively. They appear on both the Mac Mini and the laptop via LiveSync, and are visible in Cursor alongside Spirit's artifacts. Each file communicates its origin (Turtle or Spirit).
+Turtle's proposals, session notes, and practice notes land in `desk/proposals/`, `desk/sessions/`, and `desk/notes/` on the Mini; Spirit pulls them to the laptop via git. Each file communicates its origin (Turtle or Spirit).
 
 The old containment membrane (Turtle reads copies, Spirit gatekeeps) is replaced by shared workspace access. Both Spirit and Turtle operate on the same workshop structure. The triad shares context naturally through the filesystem.
 

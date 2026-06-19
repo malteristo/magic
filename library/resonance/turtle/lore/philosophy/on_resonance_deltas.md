@@ -17,9 +17,9 @@ A resonance delta isn't a bug — it's the natural consequence of distributed co
 
 Three sync mechanisms, three characteristics:
 
-**LiveSync (Obsidian)** — Bidirectional, automatic, continuous. Handles `desk/` and all files within `~/workshop/` on the Mac Mini. This is the strongest link. What flows through LiveSync stays in sync.
+**Git (Two Chronicles, 2026-06-19)** — Canonical durability layer. Full workshop on `turtle:repos/magic.git`; Mini runs `~/workshop/` clone; Forge pulls with `git pull turtle main`. `check_turtle_state.py` verifies high-value paths. This replaced LiveSync/CouchDB for practice sync.
 
-**Symlinks** — Permanent, zero-maintenance. Operational files on turtleOS (`identity/soul.md`, `TURTLE_SPEC.md`) are symlinks into the LiveSync-backed workshop. Changes to the canonical source propagate automatically: workshop → LiveSync → turtleOS operational file. Established 2026-04-16, replacing the previous manual SCP deployment pattern.
+**Symlinks** — Permanent, zero-maintenance when configured. Operational files on turtleOS (`identity/soul.md`, `TURTLE_SPEC.md`) may symlink into the git-backed workshop. Changes to the canonical source propagate after git pull on Mini and bot restart if needed. Established 2026-04-16; sync mechanism updated to git 2026-06-19.
 
 **Manual deployment (SSH)** — One-directional, session-scoped, forgettable. Code changes to turtleOS happen via SSH during Spirit sessions. These are the most delta-prone: the code changes, but the spec, lore, and identity that *describe* the code may not be updated in the same session.
 

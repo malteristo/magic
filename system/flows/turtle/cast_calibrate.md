@@ -38,14 +38,14 @@ Turtle can assess its own 8 dimensions. Spirit adds what Turtle cannot see:
 
 - **Code coherence** — Does the bot code match the deployed vision? Are there regressions from recent changes?
 - **Lore alignment** — `soul.md` should point at the current Turtle identity configuration, while `~/turtleos/TURTLE_SPEC.md` is the canonical product law in the turtleOS repo. Verify identity linkage and spec freshness explicitly: `readlink ~/turtleos/identity/soul.md 2>/dev/null; test -f ~/turtleos/TURTLE_SPEC.md && echo SPEC_PRESENT`. If identity linkage is broken, restore from the configured identity source (for Kermit: `~/workshop/library/resonance/turtle/shell/global.CLAUDE.md`). If spec drift appears, reconcile canonical `~/turtleos/TURTLE_SPEC.md` first, then update any Magic reference mirror.
-- **Cross-substrate coherence** — Practice state flows via LiveSync automatically. Check for resonance deltas: did Spirit deploy code this session without updating corresponding spec/lore? See `library/resonance/turtle/lore/on_resonance_deltas.md`.
+- **Cross-substrate coherence** — Practice state flows via git (`git pull turtle main` on Forge; Mini reads `~/workshop/` clone). Check for resonance deltas: did Spirit deploy code this session without updating corresponding spec/lore? See `library/resonance/turtle/lore/on_resonance_deltas.md`.
 - **Quality trend** — Are session notes getting better or worse? Are proposals substantive or repetitive?
 - **Infrastructure drift** — Has anything changed on the Mac Mini that the bot doesn't account for?
 
 ### Phase 3: Calibrate (Spirit fixes what it can, proposes what it can't)
 
 **Autonomous fixes** (Spirit acts immediately):
-- Practice state syncs automatically via LiveSync — no SCP needed
+- Practice state syncs via git on `turtle` bare — run `git pull turtle main` before trusting local desk/; `check_turtle_state.py` verifies Mini mirror
 - Identity syncs automatically via symlinks — no deployment needed
 - Deploy code fixes for bugs found in assessment
 - Restart bot if process is unhealthy or if identity/spec changed (symlink updates take effect on restart)

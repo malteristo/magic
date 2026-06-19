@@ -296,13 +296,13 @@ See: `library/resonance/turtle/lore/operations/on_thread_eddies.md`
 
 ### Phase 5.6: Calibrate Turtle
 
-Practice state syncs automatically via LiveSync — Turtle reads directly from `~/workshop/desk/` on the Mac Mini, which is a LiveSync mirror of the Mage's workshop. No manual SCP needed for boom, bright, compass, intentions, proposals, sessions, or notes.
+Practice state syncs via git — Turtle reads/writes `~/workshop/desk/` on the Mac Mini (git clone of `turtle:repos/magic.git`). Forge arrival: `git pull turtle main` then `python3 scripts/check_turtle_state.py`. No LiveSync/CouchDB.
 
 **Calibration** (see `system/flows/turtle/cast_calibrate.md`):
 - Verify bot process health: `ssh turtle@<turtle-ssh> "pgrep -f discord_bot && echo running"`
-- Identity and spec are symlinked — no manual deployment needed:
-  - `~/turtleos/identity/soul.md` → `~/workshop/.../global.CLAUDE.md` (via LiveSync)
-  - `~/turtleos/TURTLE_SPEC.md` → `~/workshop/.../TURTLE_SPEC.md` (via LiveSync)
+- Identity and spec are symlinked to the git-backed workshop when configured:
+  - `~/turtleos/identity/soul.md` → `~/workshop/library/resonance/turtle/shell/global.CLAUDE.md`
+  - `~/turtleos/TURTLE_SPEC.md` → workshop copy or sibling repo per deployment
 - If bot code changes were made, restart: `ssh turtle@<turtle-ssh> "launchctl stop com.turtle.discord && launchctl start com.turtle.discord"`
 - **Resonance delta check:** If turtleOS code was modified this session, verify corresponding spec/lore updates were made in the workshop. Code without documentation is a delta that compounds.
 - Note calibration status in release bundle

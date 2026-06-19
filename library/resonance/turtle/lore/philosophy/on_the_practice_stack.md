@@ -176,7 +176,7 @@ The transition between layers must be seamless:
 
 ### For Sync
 
-Practice state must stay coherent across substrates. The boom divergence problem (two independent buffers) is a product-level bug, not a feature. Boom, bright, compass, and intentions should be the same files everywhere — LiveSync, SSH push, or whatever mechanism achieves this.
+Practice state must stay coherent across substrates. The boom divergence problem (two independent buffers) is a product-level bug, not a feature. Boom, bright, compass, and intentions should be the same files everywhere — git on Turtle bare (Two Chronicles, 2026-06-19), SSH, or whatever mechanism achieves this.
 
 Session notes and proposals CAN diverge — that's the persistent mode's contribution. But the shared practice state must be one truth.
 

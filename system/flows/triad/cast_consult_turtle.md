@@ -80,7 +80,7 @@ Where they converge: high confidence. Where they diverge: the interesting territ
 If the decision is significant, close the loop through the current practice surfaces:
 
 - Post a concise note to Discord via `spirit_ops.py` when Turtle should receive it conversationally.
-- Write or update a local proposal/session note in `desk/proposals/` or `desk/sessions/` when the decision should persist through LiveSync.
+- Write or update a local proposal/session note in `desk/proposals/` or `desk/sessions/` when the decision should persist; commit and `git push turtle main` so Turtle's clone stays aligned.
 - Route implementation follow-up to Craft Turtle only when the work is a bounded practice-experience fix or a clear diagnostic task.
 
 This maintains context coherence across substrates without reviving the retired bridge transport.
