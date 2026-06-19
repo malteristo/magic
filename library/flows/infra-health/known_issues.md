@@ -1,5 +1,7 @@
 # Known Issues Registry
 
+> **Status (2026-06-19):** Entries below describe the **retired CouchDB/LiveSync stack**. Current sync issues → git drift (`git pull turtle main`, `check_turtle_state.py`). Keep this registry for historical troubleshooting only.
+
 *The flow's growing memory. Each entry is a diagnosed issue that the flow can now detect and fix automatically.*
 
 **How entries are added:** When `@infra-health` encounters a novel issue and Spirit resolves it through extended troubleshooting, the solution is proposed as a new entry here. Mage approves. Next occurrence → automatic detection and fix.

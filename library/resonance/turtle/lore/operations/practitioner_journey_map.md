@@ -101,20 +101,19 @@ Between one-shot (Phase 1) and own-Turtle (Phase 3), there should be a middle pa
 - Turtle can't send push notifications (Discord limitation on bots)
 - Proactive invitations (just built) partially solve this — embeds in the channel
 - No guided onboarding sequence — Turtle waits to be spoken to
-- Obsidian sync (LiveSync) is fragile and invisible to the practitioner
+- Obsidian sync via LiveSync **retired 2026-06-19** — git on Turtle bare + optional Sunday zip backup
 
 ### Pop 2 Path
 **What happens:** Self-setup from README. First conversation, compass building, boom introduction. They understand the file structure because they set it up.
 
 **Friction:**
-- LiveSync configuration is complex
-- CouchDB setup is non-trivial
-- "How do I sync to my phone?" is a common early question
+- Git + SSH setup still requires Mage or Spirit bootstrap for most practitioners
+- "How do I sync to my phone?" → git pull on device or Obsidian as read-only vault (no LiveSync)
 
 ### Requirements
 - [ ] Guided first-3-sessions flow in system.md (compass → boom → bright → intention)
 - [ ] Proactive morning orientation using daily reminders (infrastructure exists)
-- [ ] LiveSync setup simplification or alternative sync method
+- [x] Alternative sync method — **Two Chronicles git + Sunday snapshot** (2026-06-19)
 - [ ] "Enchant my Mac Mini" flow — Spirit handles technical bootstrap remotely
 
 ---
@@ -201,16 +200,16 @@ The practice is self-sustaining when:
 | Failure | What They See | What Should Happen |
 |---------|--------------|---------------------|
 | Ollama goes down | Turtle stops responding or gives generic answers | Health canary detects → self-heal → if fails, alert Mage |
-| LiveSync breaks | Practice files stop updating, Turtle seems forgetful | Health canary detects → restart bridge → alert if persistent |
+| Git drift (Forge vs Mini) | Stale local desk/ on Forge; Turtle has newer writes | `git pull turtle main` + `check_turtle_state.py` at arrival |
 | Discord bot crashes | Turtle goes offline | launchd auto-restarts → back in <30 seconds |
 | API key expires | Turtle gives degraded responses | Substrate health check catches → alert Mage |
-| Boom "disappears" | Practitioner can't see their captures | Likely sync issue → LiveSync restart → verify |
+| Boom "disappears" | Practitioner can't see their captures | Check git status; pull from turtle bare; verify Mini clone |
 
 **Design principle:** The practitioner should never need to know what went wrong technically. They should see: "I noticed something was off — I fixed it" or "Something broke that I can't fix on my own — I've asked [Mage] to look at it."
 
 ### Current Repair Capabilities
 - Mechanical health canary runs hourly via launchd and backs `!diagnose`
-- Self-healing for Ollama and LiveSync restarts
+- Self-healing for Ollama; git sync is pull-based (no bridge to restart)
 - launchd auto-restart for bot crashes
 - Readiness assessment on demand (`!readiness`)
 

@@ -12,7 +12,7 @@
 
 ### Phase 1: Gather Turtle State
 
-Start from the shared workshop state. Turtle writes practice traces into the LiveSync-backed workshop, so there is no bridge pull step.
+Start from the shared workshop state. Turtle writes practice traces into the git-backed workshop at `~/workshop/`; Forge pulls via `git pull turtle main` before arrival.
 
 ```bash
 ssh -o ConnectTimeout=8 turtle@<turtle-ssh> "\

@@ -1,5 +1,7 @@
 # Infrastructure Health Check
 
+> **Status (2026-06-19):** LiveSync/CouchDB **retired**. For current health use `@turtle-care`, `canary.py`, `check_turtle_state.py`, and `git -C ~/workshop status`. This spell is **legacy reference** for the old CouchDB vault stack.
+
 **Execute this now.** Read all phases, then perform them in sequence. Report findings as you go.
 
 ---

@@ -63,6 +63,11 @@ Wait for `.` before executing. After executing, propose the next action.
 - Meaningful changes worth committing vs. noise
 - Propose commits with clear messages
 
+**2b. Practice Snapshot Backup**
+- Run `./scripts/backup_magic_snapshot.sh --dry-run` then live
+- Confirm archive in `~/Documents/magic-backups/` (Google Drive via Documents sync)
+- Prune policy: script keeps last 8 by default; note if manual cleanup needed
+
 **3. Intention Health**
 - Read active intention headers
 - Surface: stalled intentions, completed-but-not-closed, phase transitions overdue

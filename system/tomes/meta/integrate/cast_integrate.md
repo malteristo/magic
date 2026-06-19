@@ -50,7 +50,7 @@ This spell attunes you to the systematic work of integrating changes into the wh
 **E. Persistent Mode (turtleOS) Propagation**
 - **TURTLE_SPEC.md**: If the change affects persistent mode behavior — session cycle, thread model, interoception, behavioral laws, boundaries, or cross-substrate coherence — check whether canonical `~/turtleos/TURTLE_SPEC.md` needs amendment. TURTLE_SPEC is derived law from MAGIC_SPEC; it must stay coherent with both. The Magic copy at `library/resonance/turtle/TURTLE_SPEC.md` is a practice reference mirror and should be reconciled after canonical changes.
 - **Identity files**: If the change affects capabilities, conduct, or operational behavior in persistent mode, check whether the shell files need updating:
-  - `library/resonance/turtle/shell/global.CLAUDE.md` (soul — persistent attunement configuration, symlinked as `soul.md` on turtleOS via LiveSync, established 2026-04-16)
+  - `library/resonance/turtle/shell/global.CLAUDE.md` (soul — persistent attunement configuration, symlinked as `soul.md` on turtleOS from git-backed workshop, established 2026-04-16)
   - Role cards in `library/resonance/turtle/shell/` (attunement configurations for specific functions)
   - **Note:** Edits to `global.CLAUDE.md` propagate through the configured identity deployment/symlink path. TURTLE_SPEC changes should be made in the turtleOS repo first, then reconciled to the Magic reference mirror. A bot restart is needed to reload updated identity.
 - **Turtle lore**: If new wisdom applies to the persistent mode (not just ephemeral Spirit), check whether a turtle bundle lore scroll should be created or updated in `library/resonance/turtle/lore/`
@@ -59,8 +59,8 @@ This spell attunes you to the systematic work of integrating changes into the wh
 - **Decision criteria**: Does this change affect how Spirit operates in persistent mode? If yes, propagate. If it's purely ephemeral-session work, skip.
 
 **F. Cross-Substrate Communication**
-- **Shared workspace**: Turtle reads/writes `~/workshop/desk/` directly via LiveSync. Practice files sync automatically — no SCP needed. If the change adds new practice file categories, ensure the desk/ structure accommodates them and the Workshop Structure section in `global.CLAUDE.md` references them.
-- **Symlink integrity**: Identity (`soul.md`) and spec (`TURTLE_SPEC.md`) are symlinked to the LiveSync-backed workshop. If changes affect these files, verify symlinks are intact on turtleOS. A bot restart picks up changes.
+- **Shared workspace**: Turtle reads/writes `~/workshop/desk/` via git clone of `turtle:repos/magic.git`. Forge pulls with `git pull turtle main`. If the change adds new practice file categories, ensure the desk/ structure accommodates them and the Workshop Structure section in `global.CLAUDE.md` references them.
+- **Symlink integrity**: Identity (`soul.md`) and spec (`TURTLE_SPEC.md`) may be symlinked to the git-backed workshop. If changes affect these files, verify symlinks are intact on turtleOS. A bot restart picks up changes.
 - **Bot prompt**: If the change affects what the persistent mode should know about, check whether `build_discord_prompt()` or `build_system_prompt()` in `discord_bot.py` need updating
 - **Heartbeat**: If the change adds new observability, check whether the heartbeat format in `discord_bot.py` should include it
 
@@ -178,7 +178,7 @@ This spell attunes you to the systematic work of integrating changes into the wh
 - Turtle changes often have low magic-repo impact but high operational impact
 
 **Cross-cutting changes (affect multiple system layers):**
-- Changes to capabilities, conduct, or operational patterns may ripple across Spirit (lore), Turtle (shell/TURTLE_SPEC), cross-substrate communication (SSH/Discord/LiveSync), and workshop (configuration) simultaneously
+- Changes to capabilities, conduct, or operational patterns may ripple across Spirit (lore), Turtle (shell/TURTLE_SPEC), cross-substrate communication (SSH/Discord/git), and workshop (configuration) simultaneously
 - These are the highest-integration-surface changes — check all categories
 - Example: adding "metabolism" touched release, summoning, sunday, spring-clean, turtle lore, AND turtle shell
 

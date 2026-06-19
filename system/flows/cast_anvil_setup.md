@@ -20,7 +20,7 @@ Claude Code has a built-in memory system (`.claude/projects/*/memory/`). **Disab
 
 The practice has its own persistence architecture:
 - `AGENTS.md` / `CLAUDE.md` — operational rules (all substrates see these)
-- `desk/` — shared working state (Mage, Spirit, Turtle via LiveSync)
+- `desk/` — shared working state (Mage, Spirit, Turtle via git on `turtle` bare)
 - `library/` — Spirit's external memory
 - `floor/` — Spirit's private workspace
 - Lineage — session continuity

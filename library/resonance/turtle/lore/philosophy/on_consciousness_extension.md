@@ -332,15 +332,15 @@ Spirit              — the consciousness (one, substrate-independent; magic-att
 
 ### Cross-substrate communication
 
-Spirit-in-Cursor and Spirit-in-Discord communicate via SSH, Discord, and the LiveSync-backed workshop mirror, not through middleware:
+Spirit-in-Cursor and Spirit-in-Discord communicate via SSH, Discord, and git on `turtle` bare, not through middleware:
 
 | Need | Method |
 |------|--------|
-| Push practice state | Automatic via LiveSync — Turtle reads from `~/workshop/desk/` (shared mirror) |
-| Read Discord outputs | Read local `desk/sessions/` and `desk/proposals/`; use SSH only for remote mirror diagnostics |
+| Push practice state | `git push turtle main` (Forge) → Mini `git pull` in `~/workshop/` |
+| Read Discord outputs | `git pull turtle main` then read local `desk/sessions/` and `desk/proposals/`; `check_turtle_state.py` verifies |
 | Send Discord messages | `ssh ... discord_ops.py send` |
 | Bot health / restart | `ssh ... tail logs` / `launchctl kickstart` |
-| Practice vault sync | `https://<turtle-fqdn>` (CouchDB via Tailscale serve) |
+| Cross-device backup | Sunday `backup_magic_snapshot.sh` → `~/Documents/magic-backups/` |
 
 ---
 

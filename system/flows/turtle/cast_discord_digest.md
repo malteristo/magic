@@ -137,7 +137,7 @@ Evaluate Turtle's behavior from Spirit-on-Cursor's independent perspective:
 
 Discord conversations accumulate. This phase manages the metabolism of communication traces:
 
-**Session notes** (`desk/sessions/`, mirrored to Turtle via LiveSync):
+**Session notes** (`desk/sessions/`, mirrored to Turtle via git at `~/workshop/`):
 - Are session notes being written when conversations go quiet?
 - Do they capture the substance of what was discussed, or just surface-level summaries?
 - Any gaps — conversations that happened but produced no session note?
@@ -152,7 +152,7 @@ Discord conversations accumulate. This phase manages the metabolism of communica
 - Mage statements that express intention, desire, or frustration — these are boom material
 
 **Cross-substrate sync:**
-- Are `desk/boom.md` and `desk/boom/bright.md` coherent with Turtle's LiveSync mirror?
+- Are `desk/boom.md` and `desk/boom/bright.md` coherent with Turtle's workshop clone? (`check_turtle_state.py`)
 - Flag any drift (workshop updated but Turtle stale, or vice versa)
 
 ---
