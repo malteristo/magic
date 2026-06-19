@@ -88,7 +88,7 @@ desk/boom/*.md (excluding bright.md, README.md)
 - Read `desk/turtle_watch.md` — active issues, known unknowns, watch patterns
 - Read `desk/turtle_env.md` — current service state, pending hardening
 - **Persistent mode awareness:**
-  - Turtle reads directly from `~/workshop/desk/` (LiveSync mirror). Practice files (boom, bright, compass, intentions, proposals, sessions, notes) are automatically shared — no SCP needed.
+  - Turtle reads from `~/workshop/desk/` (git clone of `turtle:repos/magic.git`). Before recall on Forge: `git pull turtle main`, then `python3 scripts/check_turtle_state.py`.
   - Read `desk/sessions/*.md` (3 most recent) — includes both Spirit release briefings and Turtle session notes
   - Read `desk/proposals/*.md` — includes both Spirit and Turtle proposals (origin noted in files)
   - SSH check for operational state: `ssh turtle@<turtle-ssh> "cat ~/workshops/kermit/readiness/*.jsonl 2>/dev/null | tail -5"` — readiness trend
@@ -180,7 +180,7 @@ Surface as a "Cross-Substrate PX" section in the brief. If no inter-session prac
 
 1. Write brief to `floor/briefings/latest.md`
 2. **Regenerate practice state dashboard** at `desk/state.md` — compass, intentions (phase/momentum/last-active), bright (top 5), workshop health, in-motion, dormant, boom seeds. This is the Mage's eagle's eye view.
-3. **Practice state syncs automatically** via LiveSync — Turtle reads from `~/workshop/desk/` which mirrors the Mage's workshop. No SCP needed for practice files.
+3. **Practice state syncs via git** — private remote `turtle` is canonical; Turtle reads `~/workshop/` on the Mini. Pull before recall; push after substantive local work.
 4. Display brief in chat
 5. Await Mage direction
 

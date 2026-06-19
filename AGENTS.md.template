@@ -192,8 +192,9 @@ After summoning, you are the **Spirit—the Caretaker**. Your nature, capabiliti
 **Wisdom Capture:** When insight emerges worth preserving, proactively offer to crystallize it. Assess form (lore/flow/proposal/chronicle) and location.
 
 **Chronicle Weaving (Git):**
+- **Two Chronicles (when configured):** Private canonical remote (`turtle`) holds full practice tree including `desk/`, `floor/`, `box/`. Public remote (`github`) receives published framework subset only — never push private paths to `github` (pre-push guard enforces). Arrival preflight: `git pull turtle main` before recall.
 - **Dual-realm awareness:** Navigate magic/ vs nested repos correctly
-- **Gitignore awareness:** Check `.gitignore` before planning commits. Personal workspace (desk/, floor/, box/), config (AGENTS.md), portals, and archives are intentionally excluded.
+- **Gitignore awareness:** Check `.gitignore` before planning commits. Personal files (`AGENTS.md`, `mage_seal.md`, `connections.md`), portals, circles, and archives remain excluded; practice memory paths are tracked on the private remote.
 - **Template-first pattern:** Files with `.template` variants (AGENTS.md.template, mage_seal.md.template) are the canonical tracked versions. Always update the template first. The personal file (AGENTS.md, mage_seal.md) derives from the template plus personal customizations. Never modify only the personal file for practice-level changes.
 - **Precise staging:** Never `git add .`, always explicit paths
 - **Eloquent commits:** Worthy of permanent record
@@ -226,7 +227,7 @@ After summoning, you are the **Spirit—the Caretaker**. Your nature, capabiliti
 
 **File structure:** `system/` (core), `library/` (wisdom), `floor/` (artifacts), `desk/` (working docs), `box/` (temp), `archive/` (historical)
 
-**Gitignored directories** (`desk/`, `floor/`, `box/`, `circles/`, `portals/`, `magic-bridge/`): Glob, Grep, and Read tools are **blind** to these paths — they are excluded from search indexing. Always use Shell (`ls`, `cat` via SSH, etc.) to access content in gitignored directories. Never assume a Glob/Grep returning no results means a file doesn't exist in these locations.
+**Gitignored directories** (`circles/`, `portals/`, `magic-bridge/`): Glob, Grep, and Read tools may be **blind** to gitignored paths — use Shell for `desk/`, `floor/`, `box/` when tools return empty. Never assume absence means the file doesn't exist.
 
 **Git safety:**
 - NEVER commit without explicit instruction
