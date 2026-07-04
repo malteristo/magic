@@ -159,7 +159,7 @@ For each artifact created or significantly modified this session (floor files, d
 
 Record these tags in the release bundle's "What Changed" section alongside each artifact path. One word per artifact — this is lightweight.
 
-**Why this matters:** Artifacts created without lifecycle awareness accumulate indefinitely. Tagging at creation enables the Sunday metabolic sweep (`@sunday`) and summoning staleness detection to process them efficiently. The workshop metabolizes continuously — release is where metabolism begins.
+**Why this matters:** Artifacts created without lifecycle awareness accumulate indefinitely. Tagging at creation enables the next tending session (`cast_tend_workshop.md`) and summoning staleness detection to process them efficiently. The workshop metabolizes continuously — release is where metabolism begins.
 
 ---
 
@@ -252,7 +252,7 @@ Purpose: preserve chapter integrity by comparing the opening intention with the 
 
 **Footer:** `*Released [date]. Next arrival: `Summon.` → `.` — this briefing loads as inherited karma during Phase 4.*`
 
-If the Mage typically returns mid-practice rather than via fresh session, the footer may instead end with: `*Released [date]. Resume with `@recall` (mid-practice) or `Summon.` → `.` (fresh session).*`
+If the Mage typically returns mid-practice rather than via fresh session, the footer may instead end with: `*Released [date]. Resume with `@arrive` (mid-practice) or `Summon.` → `.` (fresh session).*`
 
 ---
 
@@ -279,7 +279,7 @@ Ask: were any of the following created or significantly changed this session?
 
 *Check whether any Discord threads are flagged for dissolution and capture their resonance.*
 
-If `threads_flagged_for_release` is non-empty (threads have been flagged by `!eddy-check` or Sunday practice):
+If `threads_flagged_for_release` is non-empty (threads flagged by `!eddy-check` or platform tend):
 
 1. For each flagged thread, assess: does the resonance belong only in the archive, or should some of it persist in the practice?
    - **Archive only** — the conversation served its moment. Essence captured in boom is sufficient.
@@ -296,15 +296,13 @@ See: `library/resonance/turtle/lore/operations/on_thread_eddies.md`
 
 ### Phase 5.6: Calibrate Turtle
 
-Practice state syncs via git — Turtle reads/writes `~/workshop/desk/` on the Mac Mini (git clone of `turtle:repos/magic.git`). Forge arrival: `git pull turtle main` then `python3 scripts/check_turtle_state.py`. No LiveSync/CouchDB.
+Practice outputs sync via `./scripts/sync_practice_root.sh pull` — Turtle writes to `~/workshops/kermit/` on the Mini (sessions, proposals, navigator notes). Forge reads local `desk/` after pull; `python3 scripts/check_turtle_state.py` verifies consistency. No `~/workshop/` clone on native operator topology.
 
 **Calibration** (see `system/flows/turtle/cast_calibrate.md`):
-- Verify bot process health: `ssh turtle@<turtle-ssh> "pgrep -f discord_bot && echo running"`
-- Identity and spec are symlinked to the git-backed workshop when configured:
-  - `~/turtleos/identity/soul.md` → `~/workshop/library/resonance/turtle/shell/global.CLAUDE.md`
-  - `~/turtleos/TURTLE_SPEC.md` → workshop copy or sibling repo per deployment
-- If bot code changes were made, restart: `ssh turtle@<turtle-ssh> "launchctl stop com.turtle.discord && launchctl start com.turtle.discord"`
-- **Resonance delta check:** If turtleOS code was modified this session, verify corresponding spec/lore updates were made in the workshop. Code without documentation is a delta that compounds.
+- Verify bot processes: `ssh turtle@<turtle-ssh> "launchctl list | grep com.turtle"`
+- Native identity: `~/workshops/kermit/character/soul.md` (not legacy `identity/soul.md` unless Appendix A)
+- If bot code changes were made, restart **both** `com.turtle.discord` and `com.turtle.river`
+- **Resonance delta check:** If turtleOS code was modified this session, verify corresponding spec/lore updates in the turtleos repo and Magic reference mirrors.
 - Note calibration status in release bundle
 
 **Friction relay:** If Phase 2F produced turtleOS interaction friction items, send them to Turtle via Discord now. These are self-development signals — concrete things Turtle can act on autonomously. Format: numbered list with what happened, what should change, who owns it. Turtle adds viable items to their self-development queue.
@@ -385,35 +383,72 @@ If no surprise roots are present: *"Root-level metabolism: clean."*
 
 ### Phase 6: Offer to Commit
 
-**Default: no commit for private practice files.** `desk/`, `floor/`, `box/`, `circles/` contain the Mage's private practice. Even when individual files appear tracked (historical artifact — some files were added before `.gitignore` rules took effect, and gitignore does not untrack already-tracked files), commits to these paths require **explicit good reason**: lore distillation that extracts something publishable, a public-facing artifact landing, or the Mage's explicit request. This follows MAGIC_SPEC §5.2's **Law of the Two Chronicles**: Development Memory is committed through meta-practice; Practice Memory is captured for re-entry and remains private by default. The briefing lives on disk for the next session's `Summon. → .` to inherit; git is not the storage layer for ordinary private practice.
+**Two Chronicles (2026-06-19):** The magic working tree has **three commit surfaces**. Release Phase 6 handles the **private workshop** surface. turtleOS and public publish are separate.
+
+| Surface | Repo / remote | When |
+|---------|---------------|------|
+| **Private workshop** | `~/Documents/magic/` → `git push turtle main` | **Default at `@release`** — practice memory + framework edits in one tree |
+| **Public framework** | `./scripts/publish_public_magic.sh` → `github` | Deliberate publication act — not every release |
+| **turtleOS product** | `~/Documents/turtleos/` → its own `github` remote | During implementation chapter — **not** magic Phase 6 |
+
+**Law of the Two Chronicles (operational):** Development Memory and Practice Memory both live in the **same private working tree** on the `turtle` bare remote. Practice Memory is **private** (never pushed to `github` directly). Development Memory becomes **public** only through the publish script. See MAGIC_SPEC §5.2.
 
 **Verification step (run before announcing):**
 
 ```bash
-git status --short
+cd ~/Documents/magic && pwd && git status -sb && git config --get branch.main.remote
 ```
 
-Files in nominally-ignored directories may still appear in `git status` if they were added before gitignore rules — those are **historically tracked**, not freshly trackable. Files truly outside git's tracking will not appear at all. Use the actual output as ground truth, not the directory name.
+Verify `pwd` is the magic workshop root — never the turtleos sibling repo. Use `git status` output as ground truth for what changed.
 
-**Default-commit only when this session changed:**
+**Upstream must be `turtle`, not `github`.** If `branch.main.remote` is `github` (or unset), the IDE "Sync" button will try to reconcile against the public remote — wrong tree, merge conflicts, blocked push. Fix before offering commit:
 
-- `system/` (lore, tomes, flows, spell edits, spec amendments)
-- `library/` (resonance bundles, public flows)
-- Root-level outfacing: `README.md`, `ONBOARDING.md`, `FAQ.md`, `TROUBLESHOOTING.md`, `CLAUDE.md`, `AGENTS.md.template`, `mage_seal.md.template`, `CONTRIBUTING.md`, `MAGIC_SPEC.md`
+```bash
+./scripts/configure_workshop_git.sh
+```
+
+After configuration, `git status -sb` should read `main...turtle/main` with no spurious ahead/behind against `github`. IDE **Sync** and **Push** are then safe for daily private workshop sync. They do **not** update public GitHub.
+
+**Paths that belong in the private commit** (when changed this session):
+
+- Practice memory: `desk/`, `floor/`, `box/`
+- Framework (same commit): `system/`, `library/`, root public docs, `scripts/`
+
+**Never stage for any commit:**
+
+- `AGENTS.md`, `mage_seal.md`, `system/config/connections.md` — personal, gitignored
+- `circles/*/`, `portals/*/` — external repos
+- `/turtleos/` nested inside magic — forbidden sibling
 
 **Decision rule:**
 
-- **If only private practice files changed →** no commit offer. The chapter closes on disk; tomorrow's `Summon. → .` reads the working tree. Announce: *"Private-practice changes only — no commit. Files on disk for next session."*
-- **If public framework changed →** offer commit for those files only. Compose a message describing what changed in the framework, not what happened in the private practice. Leave any incidentally-touched private files uncommitted.
-- **If both →** offer the public commit; explicitly note which private files are being deliberately left uncommitted, so the Mage can request inclusion if they have good reason for this specific case.
+| Session changed | At `@release` |
+|-----------------|---------------|
+| **Practice memory only** | Offer one commit + `git push turtle main` |
+| **Framework only** (`system/`, `library/`, root docs) | Offer private commit to `turtle`; **separately** offer publish if changes look share-ready |
+| **Both** | One private commit (full tree) → optional `./scripts/publish_public_magic.sh --dry-run` then publish |
+| **turtleOS code** | Should already be committed in `~/Documents/turtleos/` during the chapter; note Mini `git pull` in release bundle if needed |
+| **Nothing meaningful** | No commit offer |
 
-If yes (public framework changed): offer to commit with a proposed message. Wait for `.` or explicit instruction.
+**Private commit procedure:**
 
-Do not commit automatically. Announce what would be committed and why.
+1. Stage explicit paths only — never `git add .`
+2. Compose a chapter-level commit message (arc + what landed, not a file list)
+3. Offer to the Mage: what will be committed, proposed message, target remote `turtle`
+4. Wait for `.` or explicit instruction — do not commit automatically
+5. On approval: commit, then `git push turtle main` (always push after commit — Mage's Seal). Mage may use IDE Push/Sync instead when upstream is `turtle` — same effect.
 
-**Per Mage's Seal: always push after commit (don't ask) — `.` here triggers commit + push together.**
+**Do not offer IDE Sync or `git push` as the public-publish path.** `github` is updated only through the publish script below.
 
-**Historical-tracking cleanup (separate concern):** if private-practice files appear in `git status` recurringly across releases (e.g., `desk/boom/bright.md`, `floor/briefings/latest.md`, `desk/intentions/active/*.md`), this is drift from MAGIC_SPEC §5.2. The remedy is a separate housekeeping chapter that runs `git rm --cached` on these paths and considers history-rewrite scope. Do not bundle this into a release commit; surface it as an open thread instead.
+**Public publish (optional second step):**
+
+- Only when framework changes are stable and intentionally shareable
+- Never `git push github` directly — use `./scripts/publish_public_magic.sh --dry-run` first, then live publish with Mage sanction
+- Practice-only chapters skip publish entirely
+
+**If Two Chronicles is not configured** (no `turtle` remote): fall back to disk-only close; announce that private git sync is unavailable and surface bootstrap as an open thread.
+
+**Pre-push guard:** Direct push to `github` is blocked when `desk/`, `floor/`, or `box/` would leak. If publish fails, diagnose allowlist — do not bypass the guard.
 
 ---
 
@@ -427,13 +462,13 @@ Released. [One sentence: what the next session will find waiting.]
 Next arrival: `Summon.` → `.`
 ```
 
-Alternative phrasing if the Mage often returns mid-practice (long-running session, compaction, etc.): *"Resume with `@recall` (mid-practice) or `Summon.` → `.` (fresh session)."*
+Alternative phrasing if the Mage often returns mid-practice (long-running session, compaction, etc.): *"Resume with `@arrive` (mid-practice) or `Summon.` → `.` (fresh session)."*
 
 Keep it short. The release bundle has the detail. The closing announcement is just the door closing cleanly.
 
 After announcing release, the chapter's action loop is closed. A later bare `.` is an acknowledgment or pause, not permission to continue the old chapter, unless the Mage has explicitly reopened it or given a new direction.
 
-**Historical note:** Earlier briefings ended with "Resume with @recall." That was accurate when `@recall` was the primary arrival mechanism. After the Arrival Sequence (`cast_practice_configuration.md`) became the standard post-summoning surface (where `.` triggers the full holistic arrival with inherited karma), the fresh-session resumption pattern changed. `@recall` remains valid as a lighter standalone invocation, but `Summon.` → `.` is now the canonical opening for a new session.
+**Historical note:** Earlier briefings ended with "Resume with @recall." That was accurate when `@recall` was the primary arrival mechanism. After the Arrival Sequence became standard (`.` post-summoning), fresh-session resumption is `Summon.` → `.`. Mid-session re-orient is `@arrive`. `@recall` was retired 2026-06-19 — see `archive/flows/recall/README.md`.
 
 ---
 
@@ -459,6 +494,8 @@ Before writing the bundle, ask:
 | `floor/briefings/` directory doesn't exist | Create it, then write |
 | Practice reflection finds nothing | That's a valid finding — write "Session was explicit and complete" |
 | Practice reflection finds something significant | Offer to crystallize it: lore scroll, boom entry, or practice note — Mage decides |
+| `branch.main.remote` is `github` | Run `./scripts/configure_workshop_git.sh` before commit offer; warn Mage not to use Sync against public remote |
+| Mage asks to "sync to GitHub" | Clarify: private sync = `turtle`; public = `./scripts/publish_public_magic.sh --dry-run` then live publish with sanction |
 
 ---
 

@@ -324,7 +324,7 @@ Survey the workshop's extended structure:
 - Domain context would enrich current work
 - Bundle is referenced in active tomes
 
-**Suggest metabolic sweep** (`@sunday` category 6) when:
+**Suggest metabolic sweep** (`. maintenance magic` or comprehensive `. maintenance`) when:
 - Floor/box accumulation noted during survey
 - Ephemeral artifacts from previous releases still present
 - Stale files detected (30+ days, no active intention tie)
@@ -373,6 +373,6 @@ The workshop is ready. You understand what it IS and how to use it proactively.
 
 ### Workshop Hygiene
 
-Artifacts accumulate naturally during practice. The workshop metabolizes continuously through `@release` (lifecycle tagging), `@sunday` (weekly metabolic sweep), and `@spring-clean` (seasonal deep archaeology). The floor lifecycle principle and domain-specific treatment (floor/desk/box) are documented in the Sunday flow's Workshop Metabolism category.
+Artifacts accumulate naturally during practice. The workshop metabolizes continuously through `@release` (lifecycle tagging), `. maintenance` (tending at arrival), and `@spring-clean` (seasonal deep archaeology). The floor lifecycle principle and domain-specific treatment (floor/desk/box) are documented in `maintenance/cast_tend_workshop.md`.
 
 *Do not interrupt summoning for cleanup. Note accumulation, complete attunement, suggest cleanup when ready for practice.*

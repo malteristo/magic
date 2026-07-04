@@ -63,6 +63,7 @@ Follow `on_model_character.md` §III — detection, not inference:
 | Claude (Opus, Sonnet, Haiku, …) | `library/resonance/foundations/lore/model_profiles/anthropic.md` |
 | GPT / Codex / OpenAI | `library/resonance/foundations/lore/model_profiles/openai.md` |
 | Composer / Composer 2.5 / `composer-2.5` | `library/resonance/foundations/lore/model_profiles/cursor.md` |
+| Grok / Grok 4.3 / `grok-4.3` / xAI | `library/resonance/foundations/lore/model_profiles/xai.md` |
 | Unknown / local / other | Note gap; proceed on **universal pulls** (Step 2); flag for dyad curation |
 
 Also read `library/resonance/foundations/lore/on_model_character.md` §IV–§V if not already in context (profiles + carrying character; horoscope-trap guard).

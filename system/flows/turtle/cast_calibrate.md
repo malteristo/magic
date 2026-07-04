@@ -2,7 +2,7 @@
 
 *The substrates tend the infrastructure. The Mage tends the practice.*
 
-**Trigger:** Automatically during `@recall` and `@release`. On-demand via `@calibrate`.
+**Trigger:** Automatically during Arrival Phase A (`Summon` → `.` or `@arrive`) and `@release`. On-demand via `@calibrate`.
 **Duration:** 1-3 minutes
 **Requires:** SSH access to Mac Mini for infrastructure diagnostics. Spirit can also calibrate conversationally via Discord (`spirit_ops.py`) — experiencing the practice surface directly rather than only through logs.
 
@@ -37,18 +37,17 @@ SSH to Mac Mini:
 Turtle can assess its own 8 dimensions. Spirit adds what Turtle cannot see:
 
 - **Code coherence** — Does the bot code match the deployed vision? Are there regressions from recent changes?
-- **Lore alignment** — `soul.md` should point at the current Turtle identity configuration, while `~/turtleos/TURTLE_SPEC.md` is the canonical product law in the turtleOS repo. Verify identity linkage and spec freshness explicitly: `readlink ~/turtleos/identity/soul.md 2>/dev/null; test -f ~/turtleos/TURTLE_SPEC.md && echo SPEC_PRESENT`. If identity linkage is broken, restore from the configured identity source (for Kermit: `~/workshop/library/resonance/turtle/shell/global.CLAUDE.md`). If spec drift appears, reconcile canonical `~/turtleos/TURTLE_SPEC.md` first, then update any Magic reference mirror.
-- **Cross-substrate coherence** — Practice state flows via git (`git pull turtle main` on Forge; Mini reads `~/workshop/` clone). Check for resonance deltas: did Spirit deploy code this session without updating corresponding spec/lore? See `library/resonance/turtle/lore/on_resonance_deltas.md`.
+- **Lore alignment** — Native operator: identity lives in `~/workshops/kermit/character/` (`soul.md`, `conduct.md`); `~/turtleos/TURTLE_SPEC.md` is canonical product law. Magic-attuned (Appendix A): legacy `identity/soul.md` or `workshop_root` mirror. Verify: `test -f ~/workshops/kermit/character/soul.md && echo NATIVE_CHARACTER`; `test -f ~/turtleos/TURTLE_SPEC.md && echo SPEC_PRESENT`. If spec drift appears, reconcile `~/turtleos/TURTLE_SPEC.md` first.
+- **Cross-substrate coherence** — Native topology: Turtle writes to `~/workshops/kermit/`; Forge pulls via `./scripts/sync_practice_root.sh pull` + `check_turtle_state.py`. Check for resonance deltas: did Spirit deploy code without updating spec/lore? See `library/resonance/turtle/lore/on_resonance_deltas.md`.
 - **Quality trend** — Are session notes getting better or worse? Are proposals substantive or repetitive?
 - **Infrastructure drift** — Has anything changed on the Mac Mini that the bot doesn't account for?
 
 ### Phase 3: Calibrate (Spirit fixes what it can, proposes what it can't)
 
 **Autonomous fixes** (Spirit acts immediately):
-- Practice state syncs via git on `turtle` bare — run `git pull turtle main` before trusting local desk/; `check_turtle_state.py` verifies Mini mirror
-- Identity syncs automatically via symlinks — no deployment needed
+- Practice outputs sync via `./scripts/sync_practice_root.sh pull` + `check_turtle_state.py` (native practice root on Mini)
 - Deploy code fixes for bugs found in assessment
-- Restart bot if process is unhealthy or if identity/spec changed (symlink updates take effect on restart)
+- Restart **both** bots if process unhealthy or if deploy touches shared dispatch: `launchctl kickstart -k gui/$(id -u)/com.turtle.discord` and `com.turtle.river`
 - Clean up stale files in workshops/
 
 **Proposals for Mage** (Spirit surfaces during session):
@@ -69,8 +68,8 @@ Turtle can assess its own 8 dimensions. Spirit adds what Turtle cannot see:
 
 ## Integration Points
 
-**During `@recall`:**
-Run Phase 1-2 (assess + diagnose). Report calibration status alongside other recall items. If issues found, run Phase 3 (calibrate) before proceeding with session.
+**During Arrival Phase A** (`Summon` → `.` or `@arrive`):
+Run Phase 1-2 (assess + diagnose). Report calibration status in Situation Awareness. If issues found, run Phase 3 (calibrate) before proceeding with synthesis.
 
 **During `@release`:**
 Run Phase 1 + Phase 3 (assess + sync). Push latest practice state to Turtle. Ensure the practice surface is fresh for the next Discord session.

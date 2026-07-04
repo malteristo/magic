@@ -1,8 +1,11 @@
 #!/usr/bin/env python3
-"""Compare high-value local practice state with Turtle's workshop mirror.
+"""Compare Magic desk practice outputs with turtleOS native practice root on Mini.
 
 Default mode is report-only. Use --backfill-missing to copy files that exist on
 Turtle but do not exist locally. Existing local files are never overwritten.
+
+Sync direction: Mini (turtleOS writes) → Forge (Spirit reads at arrival).
+Does not compare boom, briefings, or intentions.
 """
 
 from __future__ import annotations
@@ -17,13 +20,15 @@ import sys
 from dataclasses import dataclass
 from pathlib import Path
 
-
-REMOTE_ROOT = "/Users/turtle/workshop"
+REMOTE_PRACTICE_ROOT = "/Users/turtle/workshops/kermit"
 LOCAL_ROOT = Path(__file__).resolve().parents[1]
 CONNECTIONS_PATH = LOCAL_ROOT / "system" / "config" / "connections.md"
 
-WATCHED_FILES = ("desk/boom.md", "floor/briefings/latest.md")
-WATCHED_DIRS = ("desk/sessions", "desk/proposals")
+# Remote path → local path
+PATH_MAP: tuple[tuple[str, str], ...] = (
+    ("sessions", "desk/sessions"),
+    ("proposals", "desk/proposals"),
+)
 
 
 def default_remote() -> str:
@@ -57,15 +62,8 @@ def sha256(path: Path) -> str:
 
 def collect_local() -> dict[str, FileInfo]:
     files: dict[str, FileInfo] = {}
-
-    for relpath in WATCHED_FILES:
-        path = LOCAL_ROOT / relpath
-        if path.exists():
-            stat = path.stat()
-            files[relpath] = FileInfo(relpath, sha256(path), stat.st_size, stat.st_mtime)
-
-    for rel_dir in WATCHED_DIRS:
-        directory = LOCAL_ROOT / rel_dir
+    for remote_sub, local_sub in PATH_MAP:
+        directory = LOCAL_ROOT / local_sub
         if not directory.exists():
             continue
         for path in directory.glob("*.md"):
@@ -73,17 +71,23 @@ def collect_local() -> dict[str, FileInfo]:
             relpath = path.relative_to(LOCAL_ROOT).as_posix()
             files[relpath] = FileInfo(relpath, sha256(path), stat.st_size, stat.st_mtime)
 
+    notes_dir = LOCAL_ROOT / "desk" / "notes"
+    if notes_dir.exists():
+        for path in notes_dir.glob("navigator-*.md"):
+            stat = path.stat()
+            relpath = path.relative_to(LOCAL_ROOT).as_posix()
+            files[relpath] = FileInfo(relpath, sha256(path), stat.st_size, stat.st_mtime)
     return files
 
 
 def collect_remote(remote: str) -> dict[str, FileInfo]:
-    remote_script = r"""
+    path_map_json = json.dumps(list(PATH_MAP))
+    remote_script = f"""
 from pathlib import Path
-import hashlib, json, sys
+import hashlib, json
 
-root = Path(sys.argv[1])
-watched_files = ("desk/boom.md", "floor/briefings/latest.md")
-watched_dirs = ("desk/sessions", "desk/proposals")
+root = Path({REMOTE_PRACTICE_ROOT!r})
+path_map = json.loads({path_map_json!r})
 
 def sha256(path):
     digest = hashlib.sha256()
@@ -93,25 +97,26 @@ def sha256(path):
     return digest.hexdigest()
 
 rows = []
-for relpath in watched_files:
-    path = root / relpath
-    if path.exists():
-        stat = path.stat()
-        rows.append({"relpath": relpath, "sha256": sha256(path), "size": stat.st_size, "mtime": stat.st_mtime})
-
-for rel_dir in watched_dirs:
-    directory = root / rel_dir
+for remote_sub, local_sub in path_map:
+    directory = root / remote_sub
     if not directory.exists():
         continue
     for path in directory.glob("*.md"):
         stat = path.stat()
-        relpath = path.relative_to(root).as_posix()
-        rows.append({"relpath": relpath, "sha256": sha256(path), "size": stat.st_size, "mtime": stat.st_mtime})
+        relpath = f"{{local_sub}}/" + path.name
+        rows.append({{"relpath": relpath, "sha256": sha256(path), "size": stat.st_size, "mtime": stat.st_mtime}})
+
+notes = root / "state" / "notes"
+if notes.exists():
+    for path in notes.glob("navigator-*.md"):
+        stat = path.stat()
+        relpath = f"desk/notes/{{path.name}}"
+        rows.append({{"relpath": relpath, "sha256": sha256(path), "size": stat.st_size, "mtime": stat.st_mtime}})
 
 print(json.dumps(rows))
 """
     proc = subprocess.run(
-        ["ssh", "-o", "ConnectTimeout=8", remote, "python3", "-", REMOTE_ROOT],
+        ["ssh", "-o", "ConnectTimeout=8", remote, "python3", "-"],
         input=remote_script,
         text=True,
         capture_output=True,
@@ -144,7 +149,17 @@ def backfill_missing(remote: str, missing: list[str]) -> None:
             continue
 
         local_path.parent.mkdir(parents=True, exist_ok=True)
-        remote_path = f"{remote}:{REMOTE_ROOT}/{relpath}"
+
+        if relpath.startswith("desk/sessions/"):
+            remote_rel = "sessions/" + Path(relpath).name
+        elif relpath.startswith("desk/proposals/"):
+            remote_rel = "proposals/" + Path(relpath).name
+        elif relpath.startswith("desk/notes/"):
+            remote_rel = "state/notes/" + Path(relpath).name
+        else:
+            raise ValueError(f"unknown mapped path: {relpath}")
+
+        remote_path = f"{remote}:{REMOTE_PRACTICE_ROOT}/{remote_rel}"
         subprocess.run(["scp", "-q", remote_path, str(local_path)], check=True)
         print(f"COPIED {relpath}")
 
@@ -174,8 +189,6 @@ def main() -> int:
         return info.mtime >= cutoff
 
     def should_report(path: str) -> bool:
-        if path in WATCHED_FILES:
-            return True
         local_info = local.get(path)
         remote_info = remote.get(path)
         return any(info and is_recent(info) for info in (local_info, remote_info))
@@ -188,13 +201,16 @@ def main() -> int:
         if local[path].sha256 != remote[path].sha256 and should_report(path)
     )
 
-    print("Turtle state consistency")
-    print(f"remote: {args.remote}:{REMOTE_ROOT}")
-    print(f"window: {args.days} days for sessions/proposals")
+    print("Turtle practice root consistency")
+    print(f"remote: {args.remote}:{REMOTE_PRACTICE_ROOT}")
+    print(f"window: {args.days} days for sessions/proposals/notes")
     print()
 
-    if not remote_only and not local_only and not mismatched:
-        print("OK: local and Turtle high-value state match.")
+    if not remote_only and not mismatched:
+        if local_only:
+            print("OK: no remote drift (local-only = historical Forge copies).")
+        else:
+            print("OK: local desk outputs match turtleOS practice root.")
         return 0
 
     if remote_only:
@@ -204,10 +220,12 @@ def main() -> int:
             print(f"  {path} {info.sha256[:16]} {info.size} bytes")
 
     if local_only:
-        print("LOCAL-ONLY:")
-        for path in local_only:
+        print("LOCAL-ONLY (informational — Forge history not mirrored on Mini):")
+        for path in local_only[:8]:
             info = local[path]
             print(f"  {path} {info.sha256[:16]} {info.size} bytes")
+        if len(local_only) > 8:
+            print(f"  ... and {len(local_only) - 8} more")
 
     if mismatched:
         print("MISMATCHED:")

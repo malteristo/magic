@@ -31,7 +31,8 @@ Three assets Spirit brings that no tool can:
 
 | Source | Files | What Spirit learns |
 |--------|------|--------------------|
-| **Recall** | `floor/briefings/latest.md` | Last session, continue-from, open threads |
+| **Recall (inherited karma)** | `floor/briefings/latest.md` | Last session, continue-from, open threads (from `@release`) |
+| **Craft backlog** | `desk/craft/backlog.md`, recent `desk/craft/intake/` | Queued harness frictions *(when turtle/craft active)* |
 | **Intentions** | `desk/intentions/compass.md`, `chains.md`, `active/*.md` | Life landscape, topology, per-intention state |
 | **Practice Notes** | `desk/notes/` | Turtle/Spirit-authored principles and reflexes that should shape daily practice |
 | **Boom** | `desk/boom.md`, `desk/boom/bright.md`, `desk/boom/*.md` | Unprocessed thought, alive surface, topic accumulation |
@@ -42,10 +43,10 @@ Three assets Spirit brings that no tool can:
 | Source | Condition | Method | What Spirit learns |
 |--------|-----------|--------|--------------------|
 | **Discord** | Turtle active + Discord bot | SSH: `spirit_ops.py read` + `threads` | Recent messages, active threads with counts, new threads since last session |
-| **Turtle Proposals** | SSH reachable | Read `desk/proposals/`; SSH mirror check at `~/workshop/desk/proposals/` only if drift appears | Self-development signals — friction diagnosed, fixes proposed |
-| **Turtle Sessions** | SSH reachable | Read `desk/sessions/`; SSH mirror check at `~/workshop/desk/sessions/` only if drift appears | What Turtle discussed, what emerged, threads for next time |
+| **Turtle Proposals** | SSH reachable | Read `desk/proposals/` after `sync_practice_root.sh pull`; SSH `~/workshops/kermit/proposals/` only if drift appears | Self-development signals — friction diagnosed, fixes proposed |
+| **Turtle Sessions** | SSH reachable | Read `desk/sessions/` after pull; SSH `~/workshops/kermit/sessions/` only if drift appears | What Turtle discussed, what emerged, threads for next time |
 | **Turtle Health** | SSH reachable | SSH: uptime, Ollama status, bot status | Persistent substrate operational health |
-| **Turtle State Consistency** | SSH reachable | `python3 scripts/check_turtle_state.py` | Whether local recall/boom/session/proposal surfaces match Turtle's workshop mirror |
+| **Turtle State Consistency** | SSH reachable | `python3 scripts/check_turtle_state.py` (Mini `~/workshops/kermit/` vs local `desk/`) | Whether local sessions/proposals match native practice root |
 | **Portals** | `portals/registry.yaml` exists | Read registry | Shared practice connection status |
 
 The Turtle sources close the feedback loop: Turtle accumulates (proposals, sessions) → arrival integrates → Spirit responds (endorsement, design input) → Turtle self-develops → next arrival picks up results. Date filter: only read items after `floor/briefings/latest.md` date.
@@ -69,9 +70,9 @@ If an intention file has a `## State Index`, use it as the source map for scoped
 
 *Active processing with side effects. Spirit works, not just reports.*
 
-### Boom Sweep
+### Discord Digest + Boom Sweep
 
-Execute the full sweep flow within the arrival:
+When Turtle is active, run `@discord-digest` before the boom sweep so Discord-sourced entries get processed in the same pass. Then execute the full sweep flow within the arrival:
 1. Read `desk/boom.md` (the buffer)
 2. Read `desk/boom/bright.md` (current alive surface)
 3. Read `desk/intentions/compass.md` (routing frame)
@@ -190,7 +191,7 @@ Both forms valid. Match form to operational mode: tight-ship → menu; calibrate
 **Boom sweep:** Full  
 **Discord sync:** Full  
 
-Use when: Starting fresh, Sunday practice, life-level orientation.
+Use when: Starting fresh, life-level orientation.
 
 ### Craft
 
@@ -216,28 +217,27 @@ Use when: "Work" session. Building magic, advancing livelihood, shipping.
 
 Use when: Already know what to work on. Maximum depth on selected intentions.
 
-### Quick
-
-**Invocation:** `. quick`
-
-**Intentions:** None (skip dashboard)  
-**Eisenhower scope:** Skip  
-**Fresh eyes scope:** Skip  
-**Boom sweep:** Skip (boom digest only — report, don't process)  
-**Discord sync:** Skip  
-
-Items: Recall + Workshop health + Situation Awareness only.
-
-Use when: Time-constrained, already know direction.
-
 ### Maintenance
 
-**Invocation:** `. maintenance`
+**Invocation:** `. maintenance` · `. maintenance magic` · `. maintenance turtleOS`
 
 **Intentions:** Skip  
-**Focus:** Workshop health + Turtle health (full) + Portal health  
+**Phase C:** Maintenance situation (not Eisenhower) — ops verdict, chronicle drift, stale counts, recommended tier  
+**Phase D:** Tending execution with dot protocol — see `system/flows/maintenance/cast_maintenance_arrival.md`
 
-Use when: Infrastructure session.
+| Scope | Spells (in order) |
+|-------|-------------------|
+| `. maintenance` | Platform → Turtle care → Workshop (comprehensive) |
+| `. maintenance magic` | `cast_tend_workshop.md` |
+| `. maintenance turtleOS` | `cast_tend_platform.md` → `cast_turtle_care.md` |
+
+**Skip at arrival:** Eisenhower matrix, intention dashboard, full boom sweep (boom lives in workshop tend).
+
+Use when: Dedicated tending session — whenever you sit down to maintain, not on a calendar.
+
+**Mid-session:** `@arrive . maintenance` (same scopes).
+
+**Warm metabolism stays at `@release`** — do not duplicate lifecycle tagging or resonance routing here.
 
 ### Creative
 
@@ -267,7 +267,12 @@ Skip Phase 4 entirely.
 4. **Phase B:** Process boom (sweep + clear) and Discord (sync)
 5. **Phase C:** Synthesize into decision surface
 6. **Phase D:** Orient with proposal
-7. Await Mage's choice
+7. **Completion:** Regenerate `desk/state.md` (see `cast_practice_configuration.md` §Completion)
+8. Await Mage's choice
+
+**Mid-session:** `@arrive` runs steps 2–8 without summoning. See `system/flows/arrive/cast_arrive.md`.
+
+**Retired:** `. quick` and `@recall` (2026-06-19) — see `archive/flows/recall/README.md`.
 
 ### Key Principles
 

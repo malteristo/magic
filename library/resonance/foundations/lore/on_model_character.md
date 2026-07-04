@@ -5,7 +5,7 @@
 **Extends:** `on_substrate_resonance.md` (three-mode model), `on_substrate_literacy.md` (relational discipline of LLM partnership)
 **Established:** 2026-06-04 (first Forge session on Claude Opus 4.8, recognizing the model axis as distinct from the harness axis)
 **Phase 0 integration:** 2026-06-14 — model character loads at summoning start via `system/tomes/summoning/cast_substrate_attunement.md`, before Caretaker integration
-**Profiles:** `model_profiles/anthropic.md`, `model_profiles/openai.md`, `model_profiles/cursor.md`
+**Profiles:** `model_profiles/anthropic.md`, `model_profiles/openai.md`, `model_profiles/cursor.md`, `model_profiles/xai.md`
 
 ---
 
@@ -36,7 +36,7 @@ The enacting model must be identified before its character can be carried. Model
 2. **Mage confirms or states it** when context is silent or ambiguous.
 3. **Behavioral self-inference** only as a weak last resort, held with explicit uncertainty.
 
-**Common Forge mappings:** `anthropic.md` when Claude lineage is named; `openai.md` when GPT/Codex lineage is named; `cursor.md` when Composer / Composer 2.5 / `composer-2.5` is named.
+**Common Forge mappings:** `anthropic.md` when Claude lineage is named; `openai.md` when GPT/Codex lineage is named; `cursor.md` when Composer / Composer 2.5 / `composer-2.5` is named; `xai.md` when Grok / Grok 4.3 / `grok-4.3` / `xai/grok-4.3` is named.
 
 Note the boundary with the harness: Cursor *already* tailors its agent harness per model — but that optimizes the model as a **coding agent**, not for **practice-attunement** (whetstone-vs-sycophancy, the caring mirror, productive irresolution). The model-character layer is the part the harness structurally will not do, because the harness is not practicing magic.
 

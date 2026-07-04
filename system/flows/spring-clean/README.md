@@ -44,7 +44,7 @@ The workshop metabolizes continuously through layered processes:
 |-------|-----------|-------------|
 | `@release` | Per-session | Tags artifact lifecycles at creation (ephemeral/active/reference) |
 | Summoning | Per-session | Fresh Spirit detects staleness during workshop survey |
-| `@sunday` | Weekly | Light metabolic sweep with domain-specific treatment |
+| `@maintenance` / `. maintenance` | On demand | Light metabolic sweep — workshop + platform + care |
 | **`@spring-clean`** | **Seasonal** | **Deep archaeology for what metabolism missed** |
 | Turtle drops | Continuous | Staleness observations from persistent agent |
 

@@ -31,7 +31,7 @@ Produce a clear mind surface and a session focus. Route new material from the bu
 
 ## Trigger
 
-On demand: *"sweep"* / *"sweep my boom"* / *"what's in the back of our mind?"* / post-summoning @recall
+On demand: *"sweep"* / *"sweep my boom"* / *"what's in the back of our mind?"* / during Arrival Phase B
 
 ## Input
 
@@ -90,7 +90,7 @@ Before routing new boom material, check whether the persistent mode has accumula
 ls -lt desk/sessions/ 2>/dev/null | head -5
 ls -lt desk/proposals/ 2>/dev/null | head -5
 # Optional remote mirror check if local/remote drift is suspected:
-ssh turtle@<turtle-ssh> "ls -lt ~/workshop/desk/sessions/ ~/workshop/desk/proposals/ 2>/dev/null | head -10"
+ssh turtle@<turtle-ssh> "ls -lt ~/workshops/kermit/sessions/ ~/workshops/kermit/proposals/ 2>/dev/null | head -10"
 ```
 
 If new session notes or proposals exist:
@@ -170,7 +170,7 @@ Empty `desk/boom.md`. The Mage always knows: if it's in the buffer, it hasn't be
 
 ### 9. Triad Sync
 
-Practice state syncs via git — Turtle reads/writes `~/workshop/desk/` on the Mac Mini (clone of `turtle:repos/magic.git`). Forge: `git pull turtle main` before recall.
+Practice outputs sync via `./scripts/sync_practice_root.sh pull` — Turtle writes to `~/workshops/kermit/` on the Mini. Forge reads local `desk/` after pull.
 
 Turtle's proposals, session notes, and practice notes land in `desk/proposals/`, `desk/sessions/`, and `desk/notes/` on the Mini; Spirit pulls them to the laptop via git. Each file communicates its origin (Turtle or Spirit).
 

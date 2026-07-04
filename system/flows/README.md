@@ -46,7 +46,6 @@ The suffix tells you where it runs:
 |------|-----------|---------|
 | `gestalt/` | `@gestalt` | Perceive essential resonance pattern, compressed for assessment |
 | `flow-warden/` | *(automatic)* | Guardian of flow quality and conversational UX — warden stance activates during all flow operations; Turtle stance for continuous garden tending |
-| `recall/` | `@recall` | Situational awareness — "where are we?" |
 
 ### Resonance & Preservation
 
@@ -78,8 +77,10 @@ The suffix tells you where it runs:
 | Flow | Invocation | Purpose |
 |------|-----------|---------|
 | `release/` | `@release` | Close a session — reflect, update intentions, crystallize threads, enable resumption |
+| `arrive/` | `@arrive` | Mid-session Arrival — inherited karma + decision surface without summoning |
 | `recenter/` | `@recenter` | The breath between cycles — return to center |
-| `sunday/` | `@sunday` | Release accumulated tension, then explore freely as a triad |
+| `maintenance/` | `. maintenance` · `@sunday` | Calendar-free workshop + platform tending at arrival |
+| `sunday/` | `@sunday` | Alias → comprehensive `. maintenance` |
 
 ### Workshop Maintenance
 

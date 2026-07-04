@@ -73,7 +73,7 @@ The format itself — raw, unstructured, stream-of-consciousness — is what mak
 The boom/bright system connects to everything:
 
 - **Intentions** — Alive items that persist across sweeps may signal new intentions. The `@intend` flow draws from bright's Alive section.
-- **Recall** — The `@recall` flow reads bright.md as current state. It's the fastest way to know what's on the Mage's mind.
+- **Arrival** — Phase A reads `bright.md` as current state. It's the fastest structured way to know what's on the Mage's mind at session open.
 - **Turtle** — The Claw section is the interface between Mage attention and Turtle operations.
 - **Context alignment** — The boom is unaligned context. The sweep aligns it. The bright is aligned context ready for action.
 - **Release** — The `@release` flow reads bright to identify open threads worth preserving across sessions.

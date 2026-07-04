@@ -137,6 +137,7 @@ Setup, diagnostics, and operational reference.
 | Scroll | Contents |
 |--------|----------|
 | `on_practice_readiness.md` | **Load-bearing.** Eight readiness dimensions + metabolic rhythms + capability probes |
+| `on_the_sovereign_ops_plane.md` | **Current.** Mini ops vs Cursor cloud agents — three planes, complement not competition (2026-06-26) |
 | `on_diagnostics.md` | Five failure layers, troubleshooting decision trees, `!diagnose` |
 | `on_failure_taxonomy.md` | Failure classification and recovery patterns |
 | `on_the_practice_server.md` | Discord server setup lineage — bot creation, threads, deprecated two-channel examples |

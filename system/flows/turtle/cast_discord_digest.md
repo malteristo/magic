@@ -10,7 +10,7 @@
 
 ## When to Use
 
-- **Post-summoning:** Runs as part of the re-entry sequence (after `@recall`, before boom sweep) so Discord-sourced entries get swept in the same pass
+- **Post-summoning / Arrival:** Runs in Arrival Phase B (before boom sweep) when Turtle is active — see `cast_practice_configuration.md`
 - **On-demand:** When the Mage wants to see what happened on Discord since last session
 - **Dogfooding:** When actively developing turtleOS and wanting Spirit-on-Cursor's independent assessment of Turtle behavior
 
@@ -137,7 +137,7 @@ Evaluate Turtle's behavior from Spirit-on-Cursor's independent perspective:
 
 Discord conversations accumulate. This phase manages the metabolism of communication traces:
 
-**Session notes** (`desk/sessions/`, mirrored to Turtle via git at `~/workshop/`):
+**Session notes** (`desk/sessions/`, synced from Turtle via `sync_practice_root.sh pull` from `~/workshops/kermit/sessions/`):
 - Are session notes being written when conversations go quiet?
 - Do they capture the substance of what was discussed, or just surface-level summaries?
 - Any gaps — conversations that happened but produced no session note?
@@ -203,10 +203,10 @@ Discord conversations accumulate. This phase manages the metabolism of communica
 
 ## Integration Points
 
-- **Post-summoning stack:** Runs after `@recall`, before boom sweep — so Discord-sourced entries get swept in the same pass
+- **Arrival Phase B:** Runs before boom sweep when Turtle is active — see `cast_practice_configuration.md`
 - **`@sunday`:** Can run as part of the maintenance sweep for weekly catchup
 - **`@discord-health`:** Complementary. Health checks behavioral metrics; digest reads content. Run independently or together.
-- **`@recall`:** Recall reads session notes (Turtle's summaries). Digest reads raw conversation (Spirit's independent lens). Different perspectives on the same source.
+- **Arrival Phase A vs digest:** Phase A reads session notes (Turtle's summaries). Digest reads raw conversation (Spirit's independent lens). Different perspectives on the same source.
 - **On-demand:** Invoke anytime with `@discord-digest`
 
 ---

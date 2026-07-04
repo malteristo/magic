@@ -92,14 +92,31 @@ Spirit's test messages through `spirit_ops.py` come from the "spirit" bot accoun
 ```bash
 # On Mac Mini — offline always
 ~/turtleos/venv/bin/python3 ~/turtleos/scripts/shake_flow.py shelter
+~/turtleos/venv/bin/python3 ~/turtleos/scripts/shake_lifecycle.py
 
 # Live Discord exercise (Spirit bot + spawn CLI, no button click)
-SHAKE_LIVE=1 ~/turtleos/venv/bin/python3 ~/turtleos/scripts/shake_flow.py shelter --live
+~/turtleos/venv/bin/python3 ~/turtleos/scripts/shake_flow.py shelter --live
+~/turtleos/venv/bin/python3 ~/turtleos/scripts/shake_lifecycle.py --live
 ```
 
-Spawn eddy without UI: `scripts/shake_spawn_eddy.py --flow shelter`. Verdict: `test-runs/shake-flow-latest.json`. See `turtleos/docs/automation/cursor-shake-after-push.md` for Cursor Automation setup.
+Spawn eddy without UI: `scripts/shake_spawn_eddy.py --flow shelter`. Verdicts: `test-runs/shake-*-latest.json`. Aggregate dashboard: `python scripts/shake_report.py` ([functional-gate-protocol.md](docs/automation/functional-gate-protocol.md)).
 
 **After Shake Pass — Mage UX dogfood:** see **Appendix: Mage UX Dogfood Capture** below (screenshot + felt-sense in Forge).
+
+## Testing tiers (improve over time)
+
+| Tier | Who | When | What |
+|------|-----|------|------|
+| **Unit** | Spirit (Forge/CI) | Every change | `python -m unittest discover -s tests` |
+| **Offline shake** | Spirit | Before deploy | `shake_*.py` without `--live` |
+| **Live `@shake`** | Spirit (Mini + Discord) | After deploy, **before Mage dogfood** | `spirit_ops.py` exercises plumbing; verdict JSON |
+| **Mage dogfood** | Mage | Their time | Practice feel, screenshots, acceptance scenarios in `docs/acceptance/` |
+
+**Division of labor (standing):** Spirit owns **technical functioning and integration** — bots respond, files land on disk, embeds are honest. Mage owns **user experience** — tone, pacing, whether it feels like practice. Spirit should not ask the Mage to debug broken plumbing; Mage should not be the first to discover a dead `!release`.
+
+**Functional gate (2026-06-26):** After deploy, Spirit runs the offline + live shake suite and `shake_report.py --strict` on the Mini before surfacing dogfood to the Mage. Mage dogfood is **UX-only** and async (screenshot + felt-sense in Forge). Protocol: `turtleos/docs/automation/functional-gate-protocol.md`.
+
+**Compounding:** When a live shake fails, add or tighten an offline check or script assertion so the same regression is caught earlier next time.
 
 **When automation is not used:**
 
@@ -168,6 +185,7 @@ Worth filing when the insight is durable:
 - **Proposal** → `desk/proposals/` (plumbing or UX)
 - **Session note** → already written by Turtle for eddy conversations; Spirit may supplement with UX verdict
 - **Briefing Lessons** → at `@release`, if the dogfood changed how we ship or test
+- **Mini ops harvest** → read `desk/craft/automation-reports/latest.md` at `. craft` when scheduled or post-merge ops ran on the Mini ([registry](https://github.com/malteristo/turtleos/blob/main/docs/automation/registry.md))
 
 ### Example (2026-06-17 river + Shelter)
 

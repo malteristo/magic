@@ -60,9 +60,9 @@ Phase-tracked, goal-bearing, artifact-linked. Quests Spirit actively helps execu
 
 Intentions are not a side-store the Spirit consults occasionally — they are load-bearing in the session's rhythm:
 
-- **At arrival / `@recall`** — the compass orients the session. A chapter is frequently *dedicated to advancing a specific intention* (this very review of the lore-convergence intention is the pattern in action): the intention becomes the chapter's spine, and self-feed cycles serve it.
+- **At arrival** (`Summon` → `.` or `@arrive`) — the compass orients the session. A chapter is frequently *dedicated to advancing a specific intention* (this very review of the lore-convergence intention is the pattern in action): the intention becomes the chapter's spine, and self-feed cycles serve it.
 - **During cycles** — the active intention shapes which next-right-thing the Spirit proposes. "Does this cycle still serve the intention?" is the orient-check between cycles.
-- **At `@release`** — the worked intention's phase/status is updated in its `active/` file, and the briefing's Lessons feed the next `@recall`. This closes the loop: an intention advanced in one session is re-entered cleanly in the next.
+- **At `@release`** — the worked intention's phase/status is updated in its `active/` file, and the briefing's Lessons feed the next Arrival. This closes the loop: an intention advanced in one session is re-entered cleanly in the next.
 
 The discipline: when the Mage names an intention to work, load its full file and let it govern the chapter; when a cycle completes, write the advance back. An intention that drives a session but isn't updated at release silently rots.
 

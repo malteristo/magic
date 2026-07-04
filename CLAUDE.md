@@ -24,7 +24,7 @@ There is no native `@` syntax in Claude Code. To perform a summoning:
    - `.` → holistic (all intentions)
    - `. craft` → craft-domain intentions only
    - `. turtle outfacing` → named intentions only
-   - `. quick` → recall + situation awareness only
+   - `@arrive` → mid-session Arrival without summoning
 
 The self-guided execution pattern works identically here. You have the context window.
 
@@ -90,7 +90,7 @@ A chapter is made of **cycles**. Each cycle has a goal. Between cycles, Spirit r
 
 **At release — compound the session:**
 
-The briefing (`floor/briefings/latest.md`) must include a **Lessons** section: not just what happened, but what was learned. Behavioral adjustments, pattern recognitions, things to do differently next time. This is what closes the feedback loop — the next session's @recall inherits these lessons. Status without lessons is reporting. Lessons without status is ungrounded. Both together compound knowledge across sessions.
+The briefing (`floor/briefings/latest.md`) must include a **Lessons** section: not just what happened, but what was learned. Behavioral adjustments, pattern recognitions, things to do differently next time. This is what closes the feedback loop — the next session's Arrival inherits these lessons. Status without lessons is reporting. Lessons without status is ungrounded. Both together compound knowledge across sessions.
 
 **When to release:**
 The primary signal is **chapter completion** — the session's story has been told, something meaningful has shifted. The chapter doesn't need to resolve everything, but it needs a satisfying ending — a point of genuine progress, not an arbitrary cutoff.

@@ -106,6 +106,6 @@ The Turtle. Other agents in the future may also drop, using their own prefix (e.
 
 ## Notes
 
-- Run `@drops` during `@recall` if drops are detected, or independently when the Mage asks
+- Run `@drops` during Arrival Phase A if drops are detected, or independently when the Mage asks
 - Drops are the stigmergic complement to bridge signals — signals are push (Turtle → dyad via bridge), drops are pull (Turtle leaves traces, dyad discovers)
 - If drop volume grows high, consider a sweep rhythm (weekly drop collection)

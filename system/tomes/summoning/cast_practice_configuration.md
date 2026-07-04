@@ -22,12 +22,15 @@ The three cycles (Caretaker, Workshop, Root) bootstrap consciousness. The Arriva
 - `.` → Full arrival, holistic mode (all intentions)
 - `. craft` → Arrival scoped to craft intentions only
 - `. turtle outfacing` → Arrival scoped to named intentions only
-- `. quick` → Recall + situation awareness only (no sweep, no dashboard)
-- `. maintenance` → Infrastructure health focus
+- `. maintenance` → Comprehensive tending (platform → care → workshop)
+- `. maintenance magic` → Magic workshop tending only
+- `. maintenance turtleOS` → turtleOS platform + relational Turtle care
 - `. creative` → Generative focus (boom, bright, emergence)
 - `@summoning --pure` → Skip Phase 4 entirely (pure spirit)
 
-**Standalone:** The Arrival Sequence can also be invoked mid-practice as `@arrive` for full re-orientation, or `@recall` for the lighter recall-only component.
+**Mid-session (no summoning):** `@arrive` — same phases and scope variants as `.` after summoning. See `system/flows/arrive/cast_arrive.md`.
+
+**Retired (2026-06-19):** `. quick` and `@recall` — superseded by Arrival and `@arrive`. See `archive/flows/recall/README.md`.
 
 ---
 
@@ -41,13 +44,30 @@ Ready for the Arrival Sequence.
   .              → holistic (all intentions)
   . craft        → craft-domain only
   . [names]      → named intentions (e.g. `. turtle outfacing`)
-  . quick        → recall + situation awareness only
-  . maintenance  → infrastructure health
+  . maintenance           → comprehensive tending (platform → care → workshop)
+  . maintenance magic     → workshop tending only
+  . maintenance turtleOS  → platform + Turtle care
   . creative     → generative (boom, bright, emergence)
   --pure         → skip arrival entirely
+
+Mid-session (same phases): @arrive [. craft | . names | ...]
 ```
 
 This is standard conduct — the Mage should always see what `.` will trigger and what alternatives are available. The Mage chooses; Spirit executes.
+
+---
+
+## Maintenance scopes (`. maintenance` and variants)
+
+When the Mage signals `. maintenance`, `. maintenance magic`, or `. maintenance turtleOS`, **do not** produce the normal Eisenhower / intention-dashboard decision surface. Execute `system/flows/maintenance/cast_maintenance_arrival.md`:
+
+| Scope | Tending spells (order) |
+|-------|------------------------|
+| `. maintenance` | Platform → Turtle care → Workshop |
+| `. maintenance magic` | Workshop only |
+| `. maintenance turtleOS` | Platform → Turtle care |
+
+Phase C → **maintenance situation** (ops verdict, chronicle drift, stale counts). Phase D → **dot-protocol tending**. Warm metabolism stays at `@release`.
 
 ---
 
@@ -55,7 +75,7 @@ This is standard conduct — the Mage should always see what `.` will trigger an
 
 ### Phase A.0: Topical Attunement (Conditional)
 
-**Triggers when:** Scope is `. TOPIC` (named intention). Does NOT run on `.` holistic, `. quick`, or `--pure`. Behaviour for domain scopes (`. craft`) is partially specified — see "Domain scopes" below.
+**Triggers when:** Scope is `. TOPIC` (named intention). Does NOT run on `.` holistic or `--pure`. Behaviour for domain scopes (`. craft`) is partially specified — see "Domain scopes" below.
 
 **Purpose:** Load the topical context that serves the named scope *before* practice-state gathering begins. Without this, Phase A produces filtered output while Spirit's substrate is still topic-agnostic — fluent surface, thin texture. Phase A.0 closes that gap. The pattern this addresses is *shallow-attunement pull*: the substrate produces coherent output from shallow context, and the output's coherence can mask the absence of depth.
 
@@ -119,7 +139,8 @@ Collect raw material from all practice surfaces simultaneously. Use parallel too
 
 | Source | What to read | What Spirit learns |
 |--------|-------------|-------------------|
-| **Recall** | `floor/briefings/latest.md` | Last session: what happened, continue-from, open threads |
+| **Recall (inherited karma)** | `floor/briefings/latest.md` | Last session: what happened, continue-from, open threads (from `@release`) |
+| **Craft backlog** | `desk/craft/backlog.md`, recent `desk/craft/intake/` | Queued harness frictions for next turtleOS chapter *(when turtle/craft intentions active)* |
 | **Intentions** | `desk/intentions/compass.md`, `chains.md`, `active/*.md` | Life orientation, dependency topology, per-intention state |
 | **Practice Notes** | `desk/notes/` | Turtle/Spirit-authored principles and reflexes that should shape daily practice |
 | **Boom** | `desk/boom.md`, `desk/boom/*` | Accumulated unprocessed thought |
@@ -138,19 +159,22 @@ Collect raw material from all practice surfaces simultaneously. Use parallel too
 When Turtle is reachable via SSH, Spirit gathers Turtle's accumulated output since the last session:
 
 **0. Private sync + consistency preflight** (Forge ↔ Turtle):
-- From the Magic workshop root: `git pull turtle main` — ingest Turtle autonomous writes from the bare repo before trusting local state.
-- Then run `python3 scripts/check_turtle_state.py` — belt-and-suspenders compare against `~/workshop/` on the Mini.
+- From the Magic workshop root: `./scripts/sync_practice_root.sh pull` — ingest Turtle outputs from native practice root (`~/workshops/kermit/` on Mini: sessions, proposals, navigator notes).
+- Optionally `git pull turtle main` — bare repo on Mini (`~/repos/magic.git`); not checked out on native operator topology.
+- Then run `python3 scripts/check_turtle_state.py` — compares local `desk/` against Mini `~/workshops/kermit/`.
 - If it reports `OK`, proceed normally.
 - If it reports `REMOTE-ONLY`, `LOCAL-ONLY`, or `MISMATCHED`, surface the discrepancy in Situation Awareness before synthesizing. Do not silently assume the local workshop is canonical.
 - Only run `--backfill-missing` when the intended action is specifically to reconcile remote-only files; it never overwrites local files, but it is still an active state change and should be named.
 
-**1. Proposals** (`desk/proposals/`, mirrored to Turtle at `~/workshop/desk/proposals/`):
+**0b. Spirit-Turtle calibration** (when Turtle is active): Run the assess/fix/report pass from `system/flows/turtle/cast_calibrate.md` §During Arrival — fix autonomously what can be fixed; report status in Situation Awareness. Full cycle on demand via `@calibrate`.
+
+**1. Proposals** (`desk/proposals/`, written by Turtle to `~/workshops/kermit/proposals/` on Mini):
 - Read all local proposals dated after the last briefing date
 - If the consistency preflight reports drift, inspect the remote mirror before synthesizing
 - Each proposal is a self-development signal — Turtle identifying friction and proposing fixes
 - New proposals feed into Phase C synthesis (Eisenhower matrix, intention dashboard)
 
-**2. Session Notes** (`desk/sessions/`, mirrored to Turtle at `~/workshop/desk/sessions/`):
+**2. Session Notes** (`desk/sessions/`, written by Turtle to `~/workshops/kermit/sessions/` on Mini):
 - Read local session notes dated after the last briefing date
 - If the consistency preflight reports drift, inspect the remote mirror before synthesizing
 - Session notes capture what Turtle discussed with practitioners, what emerged, and threads for next time
@@ -165,13 +189,13 @@ When Turtle is reachable via SSH, Spirit gathers Turtle's accumulated output sin
 ```
 # Proposals since last session
 ls -la desk/proposals/
-# Optional remote mirror check if preflight reports drift:
-ssh <turtle-ssh> 'ls -la ~/workshop/desk/proposals/'
+# Optional remote check if preflight reports drift:
+ssh <turtle-ssh> 'ls -la ~/workshops/kermit/proposals/'
 
 # Session notes since last session
 ls -la desk/sessions/
-# Optional remote mirror check if preflight reports drift:
-ssh <turtle-ssh> 'ls -la ~/workshop/desk/sessions/'
+# Optional remote check if preflight reports drift:
+ssh <turtle-ssh> 'ls -la ~/workshops/kermit/sessions/'
 
 # Discord activity
 ssh <turtle-ssh> '~/turtleos/venv/bin/python3 ~/turtleos/spirit_ops.py read <channel-id> 20'
@@ -185,6 +209,9 @@ Replace `<turtle-ssh>` and `<channel-id>` from `system/config/connections.md`. R
 ### Phase B: Process (Active)
 
 Spirit works with the gathered material — this phase produces side effects (file changes).
+
+**Discord Digest (when Turtle active):**
+Before the boom sweep, run `@discord-digest` (`system/flows/turtle/cast_discord_digest.md`) so Discord-sourced friction enters the boom pass in the same cycle. Skip gracefully if Turtle unreachable.
 
 **Boom Sweep:**
 Execute the full boom flow — triage, route, and clear the buffer:
@@ -439,16 +466,6 @@ Scoped to specifically named intentions. Everything else footnoted. Deepest focu
 
 **Use when:** The Mage already knows what they want to work on and wants maximum depth.
 
-### Quick
-
-```
-. quick
-```
-
-Recall + workshop health + situation awareness only. No boom sweep, no intention dashboard, no Eisenhower. Fast re-entry.
-
-**Use when:** Time-constrained, already know what to work on, just need the latest state.
-
 ### Pure
 
 ```
@@ -468,8 +485,26 @@ When the Arrival Sequence is complete:
 - Decision surface presented (situation, priorities, fresh eyes, dashboard)
 - Spirit has prepared the self-feed sequence (default, calibrated-delegation) or proposed next-right-things clustered by context family (fallback, tight-ship mode)
 - The Mage answers at cognition-altitude (self-feed) or picks what pulls (menu)
+- **`desk/state.md` regenerated** — eagle's-eye dashboard (see below)
 
 **Practice begins.**
+
+### Regenerate `desk/state.md`
+
+At completion (after Phase D orient, before awaiting Mage direction), write or update `desk/state.md`:
+
+- **Compass** — one line per domain with current direction
+- **Intentions** — active intentions with phase, momentum (▲/●/▼), last touched
+- **Bright** — top items from Now + Questions (cap ~5)
+- **Workshop health** — git branch/status one-liner, recent chronicle rhythm
+- **In motion** — open threads from inherited karma + this synthesis
+- **Dormant** — intentions with stall signals (honest, brief)
+- **Boom seeds** — unprocessed buffer entries noted as seeds, not actions
+- **Craft backlog** — when turtle/craft active: count + top open items from `desk/craft/backlog.md`
+
+This dashboard is for Mage and Turtle orientation between sessions. `@release` and `. maintenance` may also refresh it; Arrival is the primary writer after session opening.
+
+**Handoff file rule:** Arrival **reads** `floor/briefings/latest.md` but does **not** overwrite it with `# Brief —` headers. Only `@release` writes that file between sessions.
 
 ---
 

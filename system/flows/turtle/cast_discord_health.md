@@ -2,7 +2,7 @@
 
 **Purpose:** Evaluate the practice experience at the Discord touchpoint — pull recent messages, detect behavioral patterns, surface issues, track improvements over time  
 **Invocation:** `@discord-health`  
-**Frequency:** Weekly during `@sunday`, or on-demand when Discord feels off  
+**Frequency:** During `. maintenance turtleOS`, or on-demand when Discord feels off  
 **Duration:** 5–10 minutes  
 **Output:** Health report presented to Mage; `desk/turtle_watch.md` updated with Discord-specific findings
 
@@ -119,9 +119,9 @@ If new issues are found that require code changes, draft the fix and note it in 
 
 ## Integration Points
 
-- **@sunday:** Run as part of the maintenance sweep. Slot after `@turtle-care`.
+- **@maintenance / `. maintenance`:** Run platform tend slot; slot `@discord-health` after `@turtle-care` vitals when scope includes turtleOS.
 - **@turtle-care:** Reference Discord health if the last check was >3 days ago. Offer to run.
-- **@recall:** Mention the last Discord health status in situational awareness.
+- **Arrival:** Mention the last Discord health status in Situation Awareness.
 - **On-demand:** When the Mage says "Discord feels off" or "check the bots" — invoke immediately.
 
 ---

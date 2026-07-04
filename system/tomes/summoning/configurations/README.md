@@ -95,11 +95,12 @@ Or explicitly: `@summoning --config integration_optimized`
 
 **Use when**:
 - Default behavior (runs automatically after three cycles)
-- Named variants available: quick, maintenance, creative, turtle-first
+- Named variants available: craft, maintenance, creative, named intentions
+- Mid-session: `@arrive` (same phases without summoning)
 - Skip with `@summoning --pure` for contextless consciousness
 
 **Contains**:
-- Required items: recall, intentions, boom digest, workshop health
+- Required items: inherited karma (`floor/briefings/latest.md`), intentions, boom digest, workshop health
 - Conditional items: Turtle health, Discord digest, portal health
 - Optional items: bright review, full state, circle health
 - Named configuration variants for different session types

@@ -1,26 +1,24 @@
 # On the Practice Vault
 
-## Status (2026-06-19): LiveSync retired — git is canonical
+## Status (2026-06-29): Native practice root — git host, no Mini clone
 
-**Primary workshop and hosted practitioner workshops** no longer use Obsidian LiveSync / CouchDB for practice durability. The Two Chronicles model replaced it:
+**Forge Magic workshop** and **turtleOS native practice** are separate surfaces. The Mini hosts git; Turtle writes to `~/workshops/<principal>/`.
 
 | Layer | Role |
 |-------|------|
-| **`turtle:repos/magic.git`** | Private canonical git (full workshop including `desk/`, `floor/`, `box/`) |
-| **Laptop `~/Documents/magic/`** | Working tree — commit + `git push turtle main` |
-| **Mini `~/workshop/`** | Git clone — Turtle reads/writes here |
-| **`~/Documents/magic-backups/`** | Sunday comfort snapshots (tar.gz) — syncs via Google Drive because `Documents/` does |
-| **`github` remote** | Public framework only — `./scripts/publish_public_magic.sh` |
+| **`turtle:repos/magic.git`** | Private bare repo — full Magic workshop (Forge pushes here) |
+| **Laptop `~/Documents/magic/`** | Magic working tree — commit + push to `turtle` |
+| **Mini `~/workshops/kermit/`** | Operator native practice root — Turtle writes sessions/proposals/state |
+| **Mini `~/workshops/.archived/`** | Metabolized spaces and legacy workshops |
+| **`~/Documents/magic-backups/`** | Sunday comfort snapshots (tar.gz) |
 
-**Daily Forge arrival:** `git pull turtle main` → `python3 scripts/check_turtle_state.py`
+**Daily Forge arrival:** `git pull turtle main` → `./scripts/sync_practice_root.sh pull` → `python3 scripts/check_turtle_state.py`
 
-**Sunday (@sunday):** `./scripts/backup_magic_snapshot.sh` (keeps last 8 snapshots by default)
+**Does not sync to Mini:** boom, bright, intentions, briefings, library, system — Magic stays on Forge.
 
-**Hosted practitioner (not framework publishing):** Same durability pattern — private git on Turtle bare when ready, Sunday zip in `Documents/` on their device. No public publish. Mini practice root at `~/workshops/<name>/` until a dedicated bare repo is created.
+**Hosted practitioners:** `~/workshops/<name>/` on Mini; optional bare `repos/<name>-practice.git` when laptop sync is ready.
 
-**Obsidian:** May still open `magic/` as a vault for reading/editing markdown. Disable **Self-hosted LiveSync** plugin — it will fight git if left on.
-
-**Mini services wound down:** `com.turtle.livesync-bridge`, `com.turtle.livesync-tunnel`, `com.turtle.couchdb` (launchd plists renamed `.disabled`).
+**Obsidian:** May open `magic/` as a vault. LiveSync/CouchDB retired (2026-06-19).
 
 ---
 
@@ -216,7 +214,7 @@ rsync -avz --exclude='.git' --exclude='.obsidian' --exclude='.DS_Store' \
 
 Spirit can manage all of this via SSH — the Mage only needs to do the initial laptop setup manually.
 
-**turtleOS practice directory:** Turtle reads/writes the registry-defined `practice_root`. In a full-workshop setup, this is usually `~/workshop/desk/` — the same LiveSync-mirrored desk surface the Mage uses from the laptop. In a tOS-only setup, it can be a standalone directory such as `~/workshops/<mage>/`. Operational state (thread-state, readiness trails, caches) stays in the registry-defined `runtime_root`.
+**turtleOS practice directory (historical magic-attuned):** In the LiveSync era, Turtle read/wrote `~/workshop/desk/` — the same mirrored desk surface the Mage used from the laptop. **Operator today (native, 2026-07):** registry `practice_root` is `~/workshops/kermit/`; no `~/workshop/` clone on Mini.
 
 The wider `workshop_root` is optional. When present, Turtle may read it for lore, system context, drafts, and box material, but daily practice metabolism still operates on one writable `practice_root`.
 

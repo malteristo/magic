@@ -119,7 +119,7 @@ Adapt the framing to their level — a new user needs more context about what's 
 
 Once summoning completes:
 
-1. **Offer `@recall`** for situational awareness (the workspace is new, so the brief will be short)
+1. **Offer `@arrive`** or proceed to `Summon` → `.` for situational awareness (the workspace is new, so inherited karma may be thin)
 2. **Offer two intentions** — explain what intentions are ("structured goals that track your progress"), then offer:
    - **Learn the Basics** — guided exploration of the practice
    - **Workshop Setup** — configuring git, forking, model preferences, and other tools
@@ -201,7 +201,7 @@ through each one — just pick the next goal that interests you.
 - [ ] Take a workshop tour (desk, floor, box, system, library — what lives where)
 - [ ] Personalize your Mage's Seal (edit name and preferences in AGENTS.md)
 - [ ] Run your first arrival — after summoning, send `.` to gather practice state and choose where to start
-- [ ] Try @recall for lighter situational awareness
+- [ ] Try `@arrive` for mid-session re-orientation (or `Summon` → `.` for full opening)
 - [ ] Capture something on your bright surface (desk/boom/bright.md — your task list)
 - [ ] Start a boom topic for something alive in your life (desk/boom/)
 - [ ] Have a real conversation — use magic for something you actually need right now

@@ -3,7 +3,7 @@
 **Purpose:** Close a session cleanly — reflect on what the session was, update intentions, crystallize threads, integrate artifacts, enable seamless resumption  
 **Invocation:** `@release`
 
-> **Session lifecycle:** Release is the departure pattern. The **Arrival Sequence** (`Summon.` → `.` post-summoning, or `@arrive` mid-practice) is the primary arrival pattern. `@recall` remains valid as a lighter mid-practice re-entry (equivalent to `. quick` — recall + situation awareness only). All three share a single handoff file: `floor/briefings/latest.md`. When you say `@release`, Spirit distills the session into a resumable bundle. In the next session, the Arrival Sequence reads that bundle as *inherited karma* during its Gather phase — orienting the opening without the Mage needing to re-invoke anything beyond `.`.
+> **Session lifecycle:** Release is the departure pattern. The **Arrival Sequence** (`Summon.` → `.` post-summoning, or `@arrive` mid-practice) is the primary arrival pattern. All share a single handoff file: `floor/briefings/latest.md`. When you say `@release`, Spirit distills the session into a resumable bundle. In the next session, the Arrival Sequence reads that bundle as *inherited karma* during its Gather phase — orienting the opening without the Mage needing to re-invoke anything beyond `.`.
 
 ---
 
@@ -27,7 +27,7 @@ Release does these things, in order:
 
 **5.7. Light integration & coherence pass** — four scannable checks before commit: (a) *propagation candidates* — which session lessons want to live more durably than this briefing? (b) *stale reference scan* — grep the repo for terms this session corrected, flag potentially stale references. (c) *structural integrity* — cross-references resolve, status markers match reality, issue numbers unique. (d) *root-level metabolism* — inspect unexpected new root-level files/folders and remove, route, ignore, or document them deliberately. Deliberately lighter than the full `cast_integrate.md` or `cast_coherence.md` — a minute of Spirit attention, catches the obvious before commit locks in.
 
-**6. Offers to commit** — if there are changes worth preserving in the chronicle, offers. Always waits for the `.`.
+**6. Offers to commit** — Two Chronicles: default offer is private workshop commit + push to `turtle` (`git push turtle main`, or IDE Push/Sync when `main` tracks `turtle/main` — verify with `./scripts/configure_workshop_git.sh` if unsure). Public `github` publish via `./scripts/publish_public_magic.sh` is a separate optional step; never use IDE Sync for that. turtleOS commits happen in `~/Documents/turtleos/` during implementation chapters, not here. Always waits for the `.`.
 
 ---
 
@@ -108,7 +108,7 @@ Brief reads the release bundle and adapts its opening structure:
 - "Open Threads" surface before bright.md — they are more time-sensitive
 - "Next Actions" seed the brief's suggestions section
 
-This means `@release` in one session + `Summon.` → `.` in the next (or `@recall` mid-practice) gives the Mage a fast, accurate re-entry — as if the session had only paused, not ended. The Arrival Sequence's Phase A (Gather) reads this bundle automatically; no separate `@recall` invocation is needed for a fresh session, though it remains available for lightweight standalone use.
+This means `@release` in one session + `Summon.` → `.` in the next (or `@arrive` mid-practice) gives the Mage a fast, accurate re-entry — as if the session had only paused, not ended. The Arrival Sequence's Phase A (Gather) reads this bundle automatically.
 
 ---
 
@@ -123,7 +123,7 @@ This means `@release` in one session + `Summon.` → `.` in the next (or `@recal
 ## Related
 
 - `Summon.` → `.` (Arrival Sequence) — primary arrival pattern; reads this flow's output as inherited karma
-- `@recall` — lighter mid-practice re-entry (equivalent to `. quick` scope)
+- `@arrive` — mid-session Arrival (same phases as `.`, without summoning)
 - `@meta/integrate` — system ripple detection; called inline during Phase 5
 - `desk/intentions/active/` — intention files this flow updates
 - `floor/briefings/latest.md` — the shared handoff file

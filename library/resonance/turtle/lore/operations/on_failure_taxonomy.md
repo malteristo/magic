@@ -94,7 +94,7 @@ This is Cherished Dissonance made operational — each failure mode was discover
 ### 3.3 Proposal Accumulation
 **Symptom:** Proposals pile up unreviewed. 23 remain after triage (was 40+).
 **Root cause:** No review rhythm established. Proposals generated faster than reviewed.
-**Recovery:** Establish cadence: Spirit triages proposals during @recall or @sunday. Mage reviews triage, confirms adopt/close. Turtle marks proposals as reviewed/adopted/closed.
+**Recovery:** Establish cadence: Spirit triages proposals during Arrival or `@sunday`. Mage reviews triage, confirms adopt/close. Turtle marks proposals as reviewed/adopted/closed.
 **Status:** Triage mechanism exists. Rhythm not yet habitual.
 
 ---
