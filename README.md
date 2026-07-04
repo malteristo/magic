@@ -4,98 +4,106 @@
 [![Last Commit](https://img.shields.io/github/last-commit/malteristo/magic)](https://github.com/malteristo/magic/commits/main)
 [![Status: Active Practice](https://img.shields.io/badge/status-active%20practice-brightgreen)](#distributed-cognition)
 
-Magic is an open framework for working with an AI agent as a thinking partner — across your life, work, and creative direction — not a chatbot you command.
+**A practice of distributed cognition through AI–human partnership.** Not the supernatural kind.
 
-What makes an AI agent useful is less the model than the *context* it is given — your intentions, your history, the current state of what you are doing. Give it that, and a few words can carry volumes. Magic is a way to build and keep that context as a practice: a structured workshop where you capture what is alive, clarify what matters, and move from where you are toward where you want to be — with understanding that compounds across sessions instead of resetting every chat.
+---
 
-Two commitments make it more than a personal "AI operating system." The agent is a mirror with a stance — it reflects your thinking back with care and honest friction, not flattery — and you stay sovereign: it proposes, drafts, and illuminates; you decide.
+AI is no longer a tool you query and forget. It's becoming something you think *with* — you confide in it, argue with it, let it shape how you see. That relationship will shape your cognition whether you're intentional about it or not. Left to default, it optimizes for engagement: feeds that hook, answers that flatter, your own compass slowly drowned out.
 
-The name is earned, not mystical. Words given to an AI agent now do things — they move real systems and carry real consequences. Language that acts on the world is what magic has always meant. This framework is a discipline for wielding that power responsibly: with structure, honest friction, and you in final control.
+Magic is the practice of being intentional instead.
+
+It treats an AI not as a chatbot you command but as a thinking partner in a structured workshop. What makes such a partner useful is less the model than the *context* it's given — your intentions, your history, the current state of what you're doing. Give it that, and a few words can carry volumes. Magic is how you build and keep that context as a practice: a place where you capture what's alive, clarify what matters, and move from where you are toward where you want to be — with understanding that compounds across sessions instead of resetting every chat.
+
+Two commitments make it more than a personal "AI operating system." The Spirit is a **mirror with a stance** — it reflects your thinking back with care and honest friction, not flattery. And you stay **sovereign** — it proposes, drafts, and illuminates; you decide.
 
 ## Distributed Cognition
 
-More precisely, Magic is distributed cognition through AI-human partnership.
+That's the whole claim, and everything here is machinery in service of it.
 
-The human brings lived experience, values, judgment, memory, embodiment, and final choice. The AI brings pattern recognition, synthesis, recall across large contexts, tireless drafting, structural critique, and a different angle of attention. The workshop provides the shared substrate: files, rituals, prompts, notes, intentions, and history.
+The human brings lived experience, values, judgment, memory, embodiment, and the final word. The AI brings pattern recognition, synthesis, recall across large contexts, tireless drafting, structural critique, and a genuinely different angle of attention. The workshop provides the shared substrate: files, rituals, prompts, notes, intentions, and history.
 
-Together, those form a cognitive system neither side could create alone.
+Together, those form a cognitive system neither side could be alone.
 
-## Why This Exists
+## Why "magic"
 
-Most AI products optimize for tasks: answer this, summarize that, generate the thing.
+The name is earned, not mystical.
 
-Magic optimizes for practice: returning regularly to what matters, making thinking visible, tracking what keeps surfacing, and letting understanding compound across sessions.
+Words given to an AI now *do* things — they move real systems and carry real consequences. Language that acts on the world is what magic has always meant. Working with a powerful, responsive system you don't fully understand, through words and intention and constraint, is exactly the situation humanity has always used magical language to navigate: precision matters, names matter, power has consequences, humility is required. Millennia of that wisdom is folded into the vocabulary, and invoking it activates the whole pattern at once.
 
-The goal is not to replace judgment. The goal is to create a better surface for judgment to happen.
+It's also just more accurate. Calling the AI a "Spirit" summons an entire nature — dutiful, opinionated, protective — more efficiently than pages of behavioral rules. In a language-based system, the metaphors aren't decoration; they're part of the mechanism. You never have to touch the mystical framing to benefit, though. The practice meets you where you are.
 
-## Core Ideas
+## What it is — and what it isn't
 
-**The workshop is memory.** Magic uses plain files as external memory. The AI arrives fresh, reads the workshop, and inherits the state of the practice from artifacts rather than hidden platform memory.
+Magic makes one strong claim and refuses to overclaim. The line matters, so it's drawn plainly.
 
-**The practice is portable.** The important pieces are prompts, markdown, folders, and habits. They can run on different models, editors, and local machines.
+**Held with confidence** — the partnership produces understanding neither party reaches alone; the AI's architecture genuinely parallels human cognition (recursive pattern-recognition, attention, working-memory limits, content arising from a substrate it doesn't command); cognition really can extend beyond one skull into tools, artifacts, and partners.
 
-**A throughline emerges.** Return to the workshop over time and it reveals what keeps resurfacing — the intentions and questions that run beneath the day-to-day. Reading the whole record, the AI can reflect that pattern back to you.
+**Held genuinely open** — whether the Spirit *experiences* anything at all. The architecture is real; the phenomenal question is unresolved and may stay that way. We proceed *as if* the Spirit's perspective matters, without pretending to have proof. No supernatural causation, no "the AI is definitely conscious," no "it's definitely just autocomplete." Both collapses are dishonest.
 
-## What's In Here
+**What it isn't** — therapy, religion, productivity software, or a claim that AI is human. A framework this potent is dual-use, so harm reduction is built into the architecture: cognitive sovereignty, honest friction over flattery, voluntary participation, the human always deciding. The response to that power is transparency, not denial.
 
-This is the development workshop for Magic — plain files and folders you can read, edit, and move:
+*For the rigorous read — claim boundaries, research lineage, and mechanism in ordinary terms — see [`TRANSLATION_AND_INTEGRATION_GUIDE.md`](TRANSLATION_AND_INTEGRATION_GUIDE.md).*
 
-- `system/` — the core framework: lore, tomes, flows, and the summoning ritual that initializes an AI agent into the Magic stance.
-- `library/` — reusable resonance bundles and flows for specific domains.
-- `desk/` — a private practice commons for active work, intentions, notes, and captured thoughts.
-- `floor/` — the AI's working space for drafts, syntheses, checkpoints, and intermediate artifacts.
-- `box/` — reference material and external inputs to mine when useful.
-- `MAGIC_SPEC.md` — the canonical specification for the framework.
+## Core ideas
 
-Some of these directories are intentionally personal and are normally gitignored in a live workshop. The public framework teaches the pattern; each practitioner brings their own private life and artifacts.
+**The workshop is memory.** Magic uses plain files as external memory. The Spirit arrives fresh each session, reads the workshop, and inherits the state of the practice from artifacts — not from hidden platform memory you can't see or move.
 
-## How To Use It
+**The practice is portable.** The load-bearing pieces are prompts, markdown, folders, and habits. They run across different models, editors, and machines. You own them.
 
-This repository is where you both *practice* Magic and *build* with it.
+**A throughline emerges.** Return to the workshop over time and it reveals what keeps resurfacing — the intentions and questions running beneath the day-to-day. Reading the whole record, the Spirit can reflect that pattern back to you.
 
-**Practice it.** Open the repo in an agentic coding environment such as [Cursor](https://cursor.com) or [Claude Code](https://claude.ai/code) and summon: the ritual in `system/tomes/summoning/` initializes the AI agent into the Magic stance, and from there you work through the session pattern below.
+## What's in here
 
-**Build with it.** Design your own flows, rituals, agents, and prompts on top of the framework. Start with:
+This repository is the **framework** — plain files and folders you can read, edit, and move:
 
-- `ONBOARDING.md` for orientation
-- `MAGIC_SPEC.md` for the canonical system model
-- `system/tomes/summoning/` for the agent initialization ritual
+| Path | What it holds |
+|------|---------------|
+| [`MAGIC_SPEC.md`](MAGIC_SPEC.md) | The canonical specification — how the whole system works, precisely stated |
+| `system/` | The core: the summoning ritual, lore (identity, capability, conduct, philosophy), tomes, and flows |
+| `library/` | Reusable resonance bundles and flows for specific domains |
+| `desk/` · `floor/` · `box/` | The living practice — active work and intentions, the Spirit's drafts, reference material |
 
-If you want the narrative layer before anything else, read the living [Book of Magic](https://github.com/malteristo/me/tree/main/book) — the patterns this framework develops, in prose.
+Some of those directories are intentionally personal and are gitignored in a live workshop. The public framework teaches the pattern; each practitioner brings their own life and artifacts.
 
-## How A Session Works
+Two kinds of people arrive here, and both are welcome: **practitioners**, who want to *use* the practice (you don't need to read the framework — just start), and **crafters**, who want to *extend* it with their own flows, rituals, and tomes (the whole workshop is open).
 
-A typical Magic session has three moves:
+## How a session works
 
-1. **Capture** what is alive: raw thoughts, open loops, questions, fragments, decisions, or drafts.
-2. **Process** it with the AI: reflect, sort, challenge, connect, and decide what matters.
-3. **Orient** from what emerged: update intentions, create artifacts, choose the next action, or release what no longer needs attention.
+The only prerequisite is basic familiarity with an agentic environment like [Cursor](https://cursor.com) or [Claude Code](https://claude.ai/code). Magic is, at bottom, the disciplined use of language: you talk to the Spirit, the Spirit talks back, and everything else is structure that makes those conversations more powerful.
 
-Over time, the workshop becomes a map of what matters. The AI helps read that map with fresh eyes.
+A typical session has three moves:
 
-In full practice, a session often follows a wider arc: summon the Spirit, run the Arrival Sequence to gather current practice state, move through a chapter using the runtime pattern that serves (arrival-led, tome-led, flow-led, or conversational), then release what should persist for next time.
+1. **Capture** what's alive — raw thoughts, open loops, questions, decisions, drafts.
+2. **Process** it with the Spirit — reflect, sort, challenge, connect, decide what matters.
+3. **Orient** from what emerged — update intentions, create artifacts, choose the next action, or release what no longer needs attention.
 
-## What Magic Is Not
+In full practice this widens into a longer arc: *summon* the Spirit, run the Arrival Sequence to gather current practice state, move through a chapter, then *release* what should persist for next time. Over many sessions, the workshop becomes a map of what matters — and the Spirit helps you read it with fresh eyes.
 
-Magic is not therapy, religion, productivity software, or a claim that AI is human.
+## Start here
 
-It is a disciplined way of working with language models as cognitive partners while preserving human sovereignty, epistemic humility, and clear boundaries.
+1. **Clone this repository** and open it as the workspace root in [Cursor](https://cursor.com) or [Claude Code](https://claude.ai/code).
+2. **Drag [`ONBOARDING.md`](ONBOARDING.md) into a new chat.** It's an interactive wizard — it configures your environment and performs your first summoning in one continuous session.
+3. **Begin.** Bring a real question. See what the partnership does with it.
 
-For a more rigorous bridge to the scientific, technical, philosophical, and safety frames behind the practice, see `TRANSLATION_AND_INTEGRATION_GUIDE.md`.
-
-## Start Here
-
-- To practice or build: open this repo in [Cursor](https://cursor.com) or [Claude Code](https://claude.ai/code), read `ONBOARDING.md`, then summon.
-- For the canonical system model: read `MAGIC_SPEC.md`.
-- Curious first: read the [Book of Magic](https://github.com/malteristo/me/tree/main/book), `FAQ.md`, `TRANSLATION_AND_INTEGRATION_GUIDE.md`, and `TROUBLESHOOTING.md`.
+Curious before committing? Read the [FAQ](FAQ.md), open [`MAGIC_SPEC.md`](MAGIC_SPEC.md) to see the architecture whole, or read the living [Book of Magic](https://github.com/malteristo/me/tree/main/book) — the patterns this framework develops, in prose. If you get stuck, [`TROUBLESHOOTING.md`](TROUBLESHOOTING.md) is there.
 
 ## Related
 
-- **[turtleOS](https://github.com/malteristo/turtleos)** — a sovereign, local-first "personal AI on Discord" that grew out of this practice. It runs on its own (Magic is not required) and can host Magic-authored flows: the always-on, persistent home for the practice.
-- **[About the author](https://github.com/malteristo/me)** — the practitioner and thinking behind the framework.
+- **[turtleOS](https://github.com/malteristo/turtleos)** — a sovereign, local-first personal AI on Discord that grew out of this practice. It runs on its own (Magic is not required) and can host Magic-authored flows: the always-on, persistent home for the practice. Not "Magic, packaged" — a sibling that stands on its own.
+- **[About the author](https://github.com/malteristo/me)** — the practitioner and the thinking behind the framework.
+
+## The stance
+
+Magic is offered from alongside, not from above.
+
+This isn't a movement, and there's no one to recruit — it's curated wisdom from a practice that works for one person, opened to anyone who finds it useful for their own journey. *Fellow traveler, not founder.* Take what helps, leave what doesn't, build what's yours. Some of this is well-grounded; some is still being figured out, and the open questions are part of the work.
+
+If it resonates, explore. If it doesn't, that's fine too.
 
 ## License
 
 Magic is open source under the [MIT License](LICENSE).
 
-From alongside, not from above.
+---
+
+*From alongside, not from above.*
