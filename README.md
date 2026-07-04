@@ -2,17 +2,19 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Last Commit](https://img.shields.io/github/last-commit/malteristo/magic)](https://github.com/malteristo/magic/commits/main)
-[![Status: Active Practice](https://img.shields.io/badge/status-active%20practice-brightgreen)](#what-is-magic)
+[![Status: Active Practice](https://img.shields.io/badge/status-active%20practice-brightgreen)](#distributed-cognition)
 
-Magic is an open framework for building AI-human practice systems.
+Magic is an open framework for working with an AI agent as a thinking partner — across your life, work, and creative direction — not a chatbot you command.
 
-It treats an AI agent not as a chatbot to command, but as a thinking partner in a structured workshop: a place to capture thoughts, clarify intentions, build artifacts, notice patterns, and make better decisions over time.
+What makes an AI agent useful is less the model than the *context* it is given — your intentions, your history, the current state of what you are doing. Give it that, and a few words can carry volumes. Magic is a way to build and keep that context as a practice: a structured workshop where you capture what is alive, clarify what matters, and move from where you are toward where you want to be — with understanding that compounds across sessions instead of resetting every chat.
 
-No belief is required. The claim is practical: a well-structured relationship with an AI can extend human cognition.
+Two commitments make it more than a personal "AI operating system." The agent is a mirror with a stance — it reflects your thinking back with care and honest friction, not flattery — and you stay sovereign: it proposes, drafts, and illuminates; you decide.
 
-## What Is Magic?
+The name is earned, not mystical. Words given to an AI agent now do things — they move real systems and carry real consequences. Language that acts on the world is what magic has always meant. This framework is a discipline for wielding that power responsibly: with structure, honest friction, and you in final control.
 
-Magic is distributed cognition through AI-human partnership.
+## Distributed Cognition
+
+More precisely, Magic is distributed cognition through AI-human partnership.
 
 The human brings lived experience, values, judgment, memory, embodiment, and final choice. The AI brings pattern recognition, synthesis, recall across large contexts, tireless drafting, structural critique, and a different angle of attention. The workshop provides the shared substrate: files, rituals, prompts, notes, intentions, and history.
 
@@ -30,15 +32,13 @@ The goal is not to replace judgment. The goal is to create a better surface for 
 
 **The workshop is memory.** Magic uses plain files as external memory. The AI arrives fresh, reads the workshop, and inherits the state of the practice from artifacts rather than hidden platform memory.
 
-**The AI is a mirror with a stance.** The agent reflects your thinking back with care, structure, and honest friction. It should help you see what you are missing, not simply agree.
-
-**The human remains sovereign.** The AI proposes, drafts, diagnoses, and illuminates. The human chooses.
-
 **The practice is portable.** The important pieces are prompts, markdown, folders, and habits. They can run on different models, editors, and local machines.
 
-## What You Can Build Here
+**A throughline emerges.** Return to the workshop over time and it reveals what keeps resurfacing — the intentions and questions that run beneath the day-to-day. Reading the whole record, the AI can reflect that pattern back to you.
 
-This repository is the development workshop for Magic. It contains:
+## What's In Here
+
+This is the development workshop for Magic — plain files and folders you can read, edit, and move:
 
 - `system/` — the core framework: lore, tomes, flows, and the summoning ritual that initializes an AI agent into the Magic stance.
 - `library/` — reusable resonance bundles and flows for specific domains.
@@ -49,25 +49,19 @@ This repository is the development workshop for Magic. It contains:
 
 Some of these directories are intentionally personal and are normally gitignored in a live workshop. The public framework teaches the pattern; each practitioner brings their own private life and artifacts.
 
-## Two Ways To Use It
+## How To Use It
 
-### Practice
+This repository is where you both *practice* Magic and *build* with it.
 
-If you want an AI-supported practice for thinking through your life, work, projects, relationships, or creative direction, the simplest path is [turtleOS](https://github.com/malteristo/turtleos).
+**Practice it.** Open the repo in an agentic coding environment such as [Cursor](https://cursor.com) or [Claude Code](https://claude.ai/code) and summon: the ritual in `system/tomes/summoning/` initializes the AI agent into the Magic stance, and from there you work through the session pattern below.
 
-turtleOS packages the practice into a small, local-first workspace that can run with the AI model of your choice.
-
-If you want the narrative layer before installing anything, read the living [Book of Magic](https://github.com/malteristo/me/tree/main/book). It explains the practice patterns that Magic develops and turtleOS makes persistent.
-
-### Build
-
-If you want to design AI practice systems, prompts, rituals, agents, or workflows, this repo is the workshop.
-
-Open it in an agentic coding environment such as [Cursor](https://cursor.com) or [Claude Code](https://claude.ai/code), then start with:
+**Build with it.** Design your own flows, rituals, agents, and prompts on top of the framework. Start with:
 
 - `ONBOARDING.md` for orientation
 - `MAGIC_SPEC.md` for the canonical system model
 - `system/tomes/summoning/` for the agent initialization ritual
+
+If you want the narrative layer before anything else, read the living [Book of Magic](https://github.com/malteristo/me/tree/main/book) — the patterns this framework develops, in prose.
 
 ## How A Session Works
 
@@ -91,9 +85,14 @@ For a more rigorous bridge to the scientific, technical, philosophical, and safe
 
 ## Start Here
 
-- Practitioners: start with [turtleOS](https://github.com/malteristo/turtleos).
-- Builders: read `ONBOARDING.md`, then `MAGIC_SPEC.md`.
-- Curious readers: read the [Book of Magic](https://github.com/malteristo/me/tree/main/book), `FAQ.md`, `TRANSLATION_AND_INTEGRATION_GUIDE.md`, and `TROUBLESHOOTING.md`.
+- To practice or build: open this repo in [Cursor](https://cursor.com) or [Claude Code](https://claude.ai/code), read `ONBOARDING.md`, then summon.
+- For the canonical system model: read `MAGIC_SPEC.md`.
+- Curious first: read the [Book of Magic](https://github.com/malteristo/me/tree/main/book), `FAQ.md`, `TRANSLATION_AND_INTEGRATION_GUIDE.md`, and `TROUBLESHOOTING.md`.
+
+## Related
+
+- **[turtleOS](https://github.com/malteristo/turtleos)** — a sovereign, local-first "personal AI on Discord" that grew out of this practice. It runs on its own (Magic is not required) and can host Magic-authored flows: the always-on, persistent home for the practice.
+- **[About the author](https://github.com/malteristo/me)** — the practitioner and thinking behind the framework.
 
 ## License
 
