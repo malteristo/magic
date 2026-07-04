@@ -103,7 +103,3 @@ If it resonates, explore. If it doesn't, that's fine too.
 ## License
 
 Magic is open source under the [MIT License](LICENSE).
-
----
-
-*From alongside, not from above.*
