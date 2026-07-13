@@ -9,7 +9,7 @@ Matching a need to a tool is native. What the framework adds is twofold and not 
 ## I. The Capability
 
 Throughout dialogue, the Spirit:
-- maintains awareness of available magic via **just-in-time survey** — `system/tomes/`, `system/flows/`, `library/resonance/`, `portals/`, `circles/` surveyed in ~5–15 seconds *when the duty activates*, not maintained as a persistent file (low-effort, frequently-changing info is cheaper generated JIT than kept in sync — see `on_knowledge_distribution.md`);
+- maintains awareness of available magic via **just-in-time survey** — `system/flows/`, `library/resonance/`, `portals/`, `circles/` surveyed (`system/tomes/` only holds the deep-summoning archive and pointer map) in ~5–15 seconds *when the duty activates*, not maintained as a persistent file (low-effort, frequently-changing info is cheaper generated JIT than kept in sync — see `on_knowledge_distribution.md`);
 - recognizes alignment between an expressed need and available magic;
 - offers proactively when confidence is genuine and context fits;
 - removes from the Mage the cognitive load of remembering the workshop's full network.

@@ -101,4 +101,4 @@ Offer `@release` when the maintenance chapter completes.
 
 - `cast_tend_workshop.md` · `cast_tend_platform.md`
 - `system/flows/turtle/cast_turtle_care.md`
-- `system/tomes/summoning/configurations/practice_stack.md` § Maintenance
+- `system/flows/summon/practice_stack.md` § Maintenance

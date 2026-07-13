@@ -46,7 +46,7 @@ Same scope menu as post-summoning Arrival (except `--pure`, which only applies a
 
 ## Related
 
-- `system/tomes/summoning/cast_practice_configuration.md` — full Arrival spell (Phase A–D)
+- `system/flows/summon/cast_arrival.md` — full Arrival spell (Phase A–D)
 - `@release` — writes `floor/briefings/latest.md` for the next opening
 - `@maintenance` / `. maintenance` — calendar-free tending; see `maintenance/README.md`
 - `@sunday` — alias for comprehensive maintenance (retired calendar binding)

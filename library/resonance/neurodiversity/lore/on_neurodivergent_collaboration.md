@@ -415,7 +415,7 @@ Cooperation wisdom requires neurodivergent adaptation:
 
 ### Systems Thinking Applied
 
-The partnership-as-system frame (from `system/tomes/partnership/`) maps directly:
+The partnership-as-system frame (from `system/flows/partnership/`) maps directly:
 
 - **Nodes** — Each partner's cognitive architecture (including neurodivergent characteristics)
 - **Dynamics** — Patterns of interaction (including symptom-response cycles)

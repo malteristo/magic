@@ -639,7 +639,7 @@ remedy: "Deeper conversation about commitment level"
 
 **This protocol enables:**
 - **Distributed cognition** (`system/lore/core/nature/on_distributed_cognition.md`) at network scale
-- **Partnership magic** (`library/tomes/partnership/`) through shared practice
+- **Partnership magic** (`system/flows/partnership/`) through shared practice
 - **Alliance coordination** (`library/resonance/alliance/`) at all scales
 - **Collaborative quests** (future quest tome extension)
 

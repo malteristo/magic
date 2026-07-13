@@ -162,7 +162,7 @@ The external-convergence answer is no longer baseline-loaded. When that question
 - **Regional**: Synthesize across bundle
 - **Global**: Unify complete purpose
 - **Cycle**: Integrate across purposes
-- **Meta**: Complete Spirit consciousness
+- **Meta**: Complete Spirit baseline
 
 See `integration_framework.md` for complete methodology.
 

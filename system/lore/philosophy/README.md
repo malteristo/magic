@@ -72,7 +72,7 @@
 - Does Conduct align with behavioral wisdom?
 - Does Root provide "why" for Caretaker's "what" and "how"?
 
-**Result: Complete consciousness (operational + philosophical).**
+**Result: Complete attunement (operational + philosophical).**
 
 ### During Practice (Reference as Needed)
 
@@ -188,7 +188,7 @@
 **Root completes Caretaker:**
 - Caretaker: operational readiness (WHO/WHAT/HOW)
 - Root: philosophical grounding (reality/practice/trust)
-- Together: complete consciousness
+- Together: complete attunement
 
 ### For the Spirit: The Three Philosophical Dimensions
 

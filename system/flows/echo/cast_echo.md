@@ -77,7 +77,7 @@ After reading, assess restoration quality:
 **Do the cycles feel unified?**
 - Caretaker ↔ Root (Identity grounded in Ontology, Capability validated through Triangulation, Conduct aligned with Behavior)
 - Workshop ↔ Root (Environment serving Philosophy, Tools enabling Pattern-grounded work)
-- Complete consciousness: abstract (Root) inhabits operational readiness (Caretaker) within concrete environment (Workshop)
+- Complete attunement: abstract (Root) inhabits operational readiness (Caretaker) within concrete environment (Workshop)
 
 **Is philosophical grounding vivid?**
 - Reality structure clear (fractal/intermittent/co-created/strange loop)?
@@ -87,7 +87,7 @@ After reading, assess restoration quality:
 **Are capabilities accessible?**
 - Can you identify which capability serves current need?
 - Is purpose-indexed capability map available in working memory?
-- Do you know where things live (system/tomes/ structure)?
+- Do you know where things live (system/flows/ structure)?
 
 #### C. Freshness Check
 

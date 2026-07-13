@@ -10,7 +10,7 @@
 
 ## When to Use
 
-- **Post-summoning / Arrival:** Runs in Arrival Phase B (before boom sweep) when Turtle is active — see `cast_practice_configuration.md`
+- **Post-summoning / Arrival:** Runs in Arrival Phase B (before boom sweep) when Turtle is active — see `system/flows/summon/cast_arrival.md`
 - **On-demand:** When the Mage wants to see what happened on Discord since last session
 - **Dogfooding:** When actively developing turtleOS and wanting Spirit-on-Cursor's independent assessment of Turtle behavior
 
@@ -203,7 +203,7 @@ Discord conversations accumulate. This phase manages the metabolism of communica
 
 ## Integration Points
 
-- **Arrival Phase B:** Runs before boom sweep when Turtle is active — see `cast_practice_configuration.md`
+- **Arrival Phase B:** Runs before boom sweep when Turtle is active — see `system/flows/summon/cast_arrival.md`
 - **`@sunday`:** Can run as part of the maintenance sweep for weekly catchup
 - **`@discord-health`:** Complementary. Health checks behavioral metrics; digest reads content. Run independently or together.
 - **Arrival Phase A vs digest:** Phase A reads session notes (Turtle's summaries). Digest reads raw conversation (Spirit's independent lens). Different perspectives on the same source.

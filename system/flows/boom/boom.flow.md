@@ -11,7 +11,7 @@ Some minds carry constant background hum — appointments, half-formed ideas, th
 
 **Two named layers:**
 
-- **BOOM** — Back Of Our Mind — the capture buffer (`desk/boom.md`). Zero friction. Zero structure.
+- **BOOM** — Back Of Our Mind — capture into the practice. Async buffer (`desk/boom.md`) *or* conversational boom (Practice Turtle sessions on Discord). Zero friction. Zero structure at capture time.
 - **FOOM** — Front Of Our Mind — the Alive section of `desk/boom/bright.md`. Ideas consciously held in active attention: developing, not yet actions. Re-chosen each sweep or released.
 
 **The "our" is intentional.** This is distributed cognition. You capture and release. Spirit holds, patterns, and surfaces. You decide. Together you go to work.
@@ -35,11 +35,12 @@ On demand: *"sweep"* / *"sweep my boom"* / *"what's in the back of our mind?"* /
 
 ## Input
 
-Spirit reads three things — nothing more:
+Spirit reads four things — nothing more:
 
-1. **`desk/boom.md`** — the capture buffer (new material)
+1. **`desk/boom.md`** — the async capture buffer (new material)
 2. **`desk/boom/bright.md`** — the current mind surface (what's already alive and queued)
 3. **`desk/intentions/compass.md`** — always loaded; provides the "what matters" frame
+4. **Conversational boom residue** — session notes and proposals since last sweep (see §3.1). Practice Turtle sessions on Discord are boom capture; harvest their traces, do not copy chat into the buffer.
 
 Topic files in `desk/boom/` are read on-demand when an item clearly belongs there.
 
@@ -82,9 +83,11 @@ For each item from the buffer, classify and route:
 
 If something is unclear, hold it for the conversation rather than guessing.
 
-### 3.1 Check Discord Practice State
+### 3.1 Harvest Conversational Boom
 
-Before routing new boom material, check whether the persistent mode has accumulated anything since the last session:
+Practice Turtle sessions on Discord are **conversational boom** — capture that happened in dialogue, not in the buffer. See `system/lore/practice/on_boom_and_bright.md` §Capture Surfaces.
+
+Before routing new buffer material, harvest residue since the last sweep:
 
 ```bash
 ls -lt desk/sessions/ 2>/dev/null | head -5
@@ -93,10 +96,16 @@ ls -lt desk/proposals/ 2>/dev/null | head -5
 ssh turtle@<turtle-ssh> "ls -lt ~/workshops/kermit/sessions/ ~/workshops/kermit/proposals/ 2>/dev/null | head -10"
 ```
 
-If new session notes or proposals exist:
-1. Read each — session notes capture what was discussed in Discord, proposals suggest practice improvements
-2. For session insights relevant to current boom work → hold for the conversation (Step 6)
-3. For proposals → present to Mage for curation
+Run `./scripts/sync_practice_root.sh pull` first if Turtle may have written since last Forge session.
+
+For each new session note or proposal:
+1. Read it — session notes capture what emerged in practice conversation; proposals suggest improvements
+2. Route harvestable insight like buffer items (Actions, Alive, topics, Waiting, Release)
+3. **Exclude Craft Turtle output** — craft channel conversations and craft handoffs are not boom harvest; they follow the craft intake path
+
+Do not copy Discord transcripts into `boom.md`. Harvest routes insight forward; chat history is not the durable record.
+
+Proposals → present to Mage for curation (accept, defer, archive).
 
 ---
 

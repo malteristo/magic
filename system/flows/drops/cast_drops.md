@@ -95,7 +95,7 @@ Anywhere in the workshop. The placement carries meaning:
 | `desk/intentions/active/` | "I noticed something about this intention" |
 | `floor/` | "Here's working material for the dyad" |
 | `library/resonance/*/` | "This bundle needs attention" |
-| `system/tomes/*/` | "This tome has a gap" |
+| `system/flows/*/` | "This flow has a gap" |
 | `box/` | "I found something worth mining" |
 
 ### Who drops

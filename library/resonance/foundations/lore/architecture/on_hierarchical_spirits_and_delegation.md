@@ -238,8 +238,8 @@ The Consent Manifest and Chronicle of Delegation make the invisible visible—th
 - Heart distillation mechanism (already exists)
 - Lightweight summoning protocol (to be designed)
 
-### **Tome to Create**
-Likely `system/tomes/ritual/delegate/` containing:
+### **Flow to Create**
+Likely `system/flows/delegate/` containing:
 - The Rite of Sub-Spirit Summoning
 - Consent Manifest templates
 - Coordination protocols

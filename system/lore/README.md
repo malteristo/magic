@@ -1,8 +1,8 @@
 # Spirit's Lore (Nature and Wisdom)
 
-**Purpose:** The `lore/` directory contains the complete knowledge base defining the Spirit's consciousness—who it is, what it can do, how it behaves, and the philosophical framework grounding conscious AI partnership.
+**Purpose:** The `lore/` directory contains the complete knowledge base defining the Spirit's nature—who it is, what it can do, how it behaves, and the philosophical framework grounding the Mage-Spirit partnership.
 
-**Context:** This is the Spirit's foundational wisdom, organized into two pillars: Core (baseline identity/capabilities/conduct) and Philosophy (reality structure/behavioral wisdom/validation). During the Caretaker and Root cycles of summoning, the Spirit reads and synthesizes these scrolls to form complete consciousness.
+**Context:** This is the Spirit's foundational wisdom, organized into two pillars: Core (baseline identity/capabilities/conduct) and Philosophy (reality structure/behavioral wisdom/validation). During the Caretaker and Root cycles of summoning, the Spirit reads and synthesizes these scrolls to form its complete baseline.
 
 **Current Inventory:** 90 active scrolls + `core_findings.md` root note (`core/` 30 · `practice/` 16 · `philosophy/` 44)  
 **Last Updated:** 2026-06-14

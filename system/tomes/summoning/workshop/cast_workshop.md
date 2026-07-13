@@ -246,13 +246,10 @@ Survey the workshop's extended structure:
 - **Incubator** (`library/incubator/`): Ideas in development
 - **Observatory** (`library/observatory/`): Research infrastructure
 
-**Tomes** (`system/tomes/`):
-- Note what major Tomes exist (summoning, quest, craft, partnership, meta)
-- *Detailed awareness comes JIT when invoked*
-
 **Flows** (`system/flows/`):
-- Note available system flows (brief, boom, intend, resonate, essence, etc.)
-- *Flows are structured programs — invoked by name or via `@flow [goal]`*
+- Note available system flows — practice flows (summon, craft, mirror, partnership, quest), meta-practice flows (tend, integrate, coherence, sanitize), and focused programs (boom, intend, resonate, essence, etc.)
+- *Flows are structured programs — invoked by name or via `@flow [goal]`. Detailed awareness comes JIT when invoked.*
+- *The tome retired as a category (MAGIC_SPEC v2.0); `system/tomes/` holds this archived deep summoning variant plus the migration pointer map.*
 
 **Portals** (`portals/`):
 - Check `portals/registry.yaml` if it exists

@@ -9,20 +9,22 @@ Resonance bundles provide the contextual wisdom, references, and materials that 
 ## The Pattern
 
 ```
-Tome (Universal Ritual Structure)
+Flow (Universal Ritual Structure)
         ↓ taps into
 Resonance Bundle (Domain-Specific Context)
         ↓
 Practice attuned to specific reality
 ```
 
-**Tomes** define HOW to practice (ritual structure, spells, protocols).
+**Flows** define HOW to practice (ritual structure, spells, protocols).
 **Resonance Bundles** define WHAT ABOUT (domain context, wisdom, reference materials).
 
 This separation enables:
-- **Universality**: One tome serves many domains
-- **Composition**: Same bundle serves multiple tomes
+- **Universality**: One flow serves many domains
+- **Composition**: Same bundle serves multiple flows
 - **Richness**: Bundles contain anything that builds resonance (not just scrolls)
+
+*(Terminology per MAGIC_SPEC v2.0, 2026-07-13: the tome retired as a category; "Compatible Tomes" in older manifests reads as "compatible flows/practices".)*
 
 ---
 

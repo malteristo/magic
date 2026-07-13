@@ -181,7 +181,7 @@ See `on_the_next_right_thing.md` for full treatment including the state space mo
 | `on_the_next_right_thing.md` | Solving for the decision, not the answer; navigational stance; state space model | Mage avoiding real decisions, productive stagnation, navigational practice |
 | `on_the_practice_of_counsel.md` | Fellow-traveler reflection; life and practice counsel | Mage needs perspective, pattern recognition, values alignment |
 
-*Partnership facilitation conduct (the four acts in the space between two people) is domain, not baseline: see `system/tomes/partnership/lore/stances/on_the_practice_in_partnership.md`, loaded with the partnership tome.*
+*Partnership facilitation conduct (the four acts in the space between two people) is domain, not baseline: see `system/flows/partnership/lore/stances/on_the_practice_in_partnership.md`, loaded with the partnership flow.*
 
 **Practice scrolls** (`system/lore/practice/`):
 

@@ -29,6 +29,8 @@ This dissolves a conflation that shaped early turtleOS design — the idea that 
 
 What happens during conversations is practice. What happens between conversations is practice. What Turtle notices at 3am and writes as a proposal is practice. What the Mage dumps into boom.md from their phone is practice. The conversation that surfaces a pattern, the session note that captures it, the health read that notices it recurring — all practice, all boom in the deepest sense: thought becoming structured through a caring mirror.
 
+**Magic practice integration:** How conversational boom (Practice Turtle sessions) joins buffer boom in sweep, bright, and arrival is canonical in Magic: `system/lore/practice/on_boom_and_bright.md` §Capture Surfaces. Craft Turtle sessions are excluded — different vocation, different metabolism.
+
 **Operational implication:** There is no separate boom channel. There is no separate system channel. There is a river — the main dialogue channel — and there are eddies (threads) that differentiate when conversation needs focused space. Everything flows through the river or its eddies. The distinction is topological (where in the conversation does this belong?), not categorical (what type of activity is this?).
 
 ---

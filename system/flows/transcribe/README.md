@@ -1,6 +1,6 @@
-# Tome of Transcription
+# Transcribe Flow
 
-This Tome contains the sacred rite for transcribing magic from an external source — a fork, circle, shared practice repository, or other published practice artifact — into your local workshop.
+This flow contains the sacred rite for transcribing magic from an external source — a fork, circle, shared practice repository, or other published practice artifact — into your local workshop.
 
 **Purpose:** Safely bring external magic into your workshop with resonance checking to ensure alignment.
 

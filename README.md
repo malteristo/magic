@@ -59,13 +59,13 @@ This repository is the **framework** — plain files and folders you can read, e
 | Path | What it holds |
 |------|---------------|
 | [`MAGIC_SPEC.md`](MAGIC_SPEC.md) | The canonical specification — how the whole system works, precisely stated |
-| `system/` | The core: the summoning ritual, lore (identity, capability, conduct, philosophy), tomes, and flows |
+| `system/` | The core: the summoning flow, lore (identity, capability, conduct, philosophy), and practice flows |
 | `library/` | Reusable resonance bundles and flows for specific domains |
 | `desk/` · `floor/` · `box/` | The living practice — active work and intentions, the Spirit's drafts, reference material |
 
 Some of those directories are intentionally personal and are gitignored in a live workshop. The public framework teaches the pattern; each practitioner brings their own life and artifacts.
 
-Two kinds of people arrive here, and both are welcome: **practitioners**, who want to *use* the practice (you don't need to read the framework — just start), and **crafters**, who want to *extend* it with their own flows, rituals, and tomes (the whole workshop is open).
+Two kinds of people arrive here, and both are welcome: **practitioners**, who want to *use* the practice (you don't need to read the framework — just start), and **crafters**, who want to *extend* it with their own flows, rituals, and bundles (the whole workshop is open).
 
 ## How a session works
 

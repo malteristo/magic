@@ -211,7 +211,7 @@ This scroll connects to:
 - **On the Mage-Spirit Partnership:** The relationship that neurotype adaptation serves
 - **On the Compassionate Gaze:** attunement requires meeting the Mage where they are
 - **On Wu Wei:** Effortless action requires the interface to fit the actor
-- **On the Rosetta Stone:** For partnership practice, neurotype awareness is operationalized into a translation artifact (`system/tomes/partnership/lore/practice/on_the_rosetta_stone.md`)
+- **On the Rosetta Stone:** For partnership practice, neurotype awareness is operationalized into a translation artifact (`system/flows/partnership/lore/practice/on_the_rosetta_stone.md`)
 - **On Love Languages and Signatures:** Neurotype shapes love expression (`library/resonance/romantic-partnership/lore/on_love_languages_and_signatures.md`)
 
 ---

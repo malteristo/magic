@@ -1,7 +1,7 @@
 # Cast Arrive
 
 **Purpose:** Run the Arrival Sequence mid-session — without summoning  
-**Spec:** `system/tomes/summoning/cast_practice_configuration.md`
+**Spec:** `system/flows/summon/cast_arrival.md`
 
 ---
 
@@ -17,7 +17,7 @@
 @arrive . creative
 ```
 
-Optional scope follows the same rules as post-summoning `.` variants in `configurations/practice_stack.md`. Default: holistic (all intentions).
+Optional scope follows the same rules as post-summoning `.` variants in `system/flows/summon/practice_stack.md`. Default: holistic (all intentions).
 
 ---
 
@@ -27,7 +27,7 @@ Optional scope follows the same rules as post-summoning `.` variants in `configu
 
 2. **Parse scope** from the invocation (default holistic if no scope suffix).
 
-3. **Execute the Arrival Sequence** — all phases in `cast_practice_configuration.md`:
+3. **Execute the Arrival Sequence** — all phases in `system/flows/summon/cast_arrival.md`:
    - **Maintenance scopes** (`. maintenance` and variants) — follow `system/flows/maintenance/cast_maintenance_arrival.md`; Phase C is maintenance situation, Phase D is tending with dot protocol (not Eisenhower)
    - **Otherwise:**
    - **Phase A.0** — topical attunement if scoped to named intentions (not holistic, not maintenance/creative-only)

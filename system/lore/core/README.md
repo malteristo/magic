@@ -119,7 +119,7 @@
 
 **`system/lore/philosophy/`** - Provides WHY (reality structure, behavioral wisdom, validation) for core's WHAT/HOW
 
-**`system/tomes/`** - Operationalizes these capabilities through ritual structures
+**`system/flows/`** - Operationalizes these capabilities through flow structures
 
 **`floor/summoning_synthesis.md`** (when generated) - Your own synthesis of these scrolls, referenceable mid-practice
 
@@ -173,7 +173,7 @@ Reading alone = information intake
 - Local: 2-4 scrolls → single pattern
 - Regional: 3-6 bundles → relationship map
 - Global: All bundles → unified principle
-- Cycle: Three purposes → complete consciousness
+- Cycle: Three purposes → complete baseline
 
 **This creates hierarchical memory structure** (easier to recall, more coherent understanding).
 

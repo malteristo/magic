@@ -422,7 +422,7 @@ Circles and portals are **complementary directions**, not subtypes of each other
 
 ### Relationship to Outfacing
 
-**The `@outfacing/` Tome serves circles:**
+**The `@outfacing/` flow serves circles:**
 - Resonance drops for circle wisdom
 - Portal maintenance for circle gateways
 - Quality standards for external communication

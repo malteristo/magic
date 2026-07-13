@@ -68,14 +68,59 @@ The format itself — raw, unstructured, stream-of-consciousness — is what mak
 
 ---
 
+## Capture Surfaces
+
+Boom is one concept with multiple capture surfaces. The buffer file is not the only way thought enters the practice.
+
+**Buffer boom** (`desk/boom.md`) — async capture when no partner is present. Raw dumps, fragments, links, voice transcripts. Zero structure. Swept when it grows heavy.
+
+**Conversational boom** (turtleOS practice sessions) — capture that happens *in dialogue* with Practice Turtle on Discord. The thinking is the conversation; the mirror is inline. Processing is distributed across turns rather than deferred to a batch sweep. When the channel goes quiet, Turtle leaves traces: session notes, proposals, and — when weight warrants — offered artifacts.
+
+Both surfaces feed the same metabolism. Neither replaces the other.
+
+### Practice sessions are boom, not a separate category
+
+When the Mage thinks out loud with Practice Turtle — in the river or in an eddy — that is boom in the deepest sense: thought becoming structured through a caring mirror. The Mage does not need to duplicate the conversation into `boom.md`. An empty buffer while Discord is hot is not failure; it signals where capture naturally lives.
+
+What conversational boom produces is **residue**, not a second buffer:
+
+| Trace | Role |
+|-------|------|
+| **Session notes** (`desk/sessions/`) | Bridge between conversations — what was discussed, what emerged, thread for next time |
+| **Proposals** (`desk/proposals/`) | Turtle's voice when practice improvement wants dyad attention |
+| **Offered artifacts** | When conversation has enough weight — bright items, topic entries, decisions — offered for Mage confirmation, not silently written |
+
+The sweep's job with conversational boom is **harvest**, not copy. Spirit reads session notes and recent eddy essence the way it reads the buffer — pattern-matches, routes to bright/topics/intentions, surfaces decisions. Chat history is not the durable record; harvested traces are.
+
+### Practice Turtle vs Craft Turtle
+
+This integration applies to **Practice Turtle** — persistent companionship for the Mage's lived practice. Capture, continuity, orientation, reflection.
+
+It does **not** apply to **Craft Turtle** — the vocation profile for turtleOS/Magic craft work: bounded diagnosis, patch plans, harness friction, implementation evidence. Craft conversations belong to the craft surface; their outputs are craft artifacts (diagnostics, handoffs to Spirit), not boom residue for bright routing.
+
+The boundary is vocational, not substrate. Same Turtle, different work. When craft urgency leaks into practice conversation, that is pollution — route to craft channel or Spirit, not into the boom harvest.
+
+See `desk/notes/on_practice_turtle_and_craft_turtle.md` for the full distinction (pending promotion to tracked lore).
+
+### Metabolism rules
+
+1. **No duplicate capture.** If the eddy holds the thought, do not also paste into `boom.md` unless something needs Forge-native visibility Spirit will not see through sync.
+2. **Harvest at sweep and arrival.** `@boom` and Arrival Phase B read buffer *and* conversational residue (session notes, proposals since last sweep). `@discord-digest` feeds the same pass.
+3. **Dyad owns curation.** Practice Turtle may offer writeback when weight is detected; Spirit and Mage own routing to bright, intentions, and lore. Conversational boom expands capture; it does not remove curation sovereignty.
+4. **FOOM source widens.** Alive items may arrive from buffer or from harvested sessions. Re-choosing at sweep applies regardless of origin.
+5. **Light residue, clean queues.** Session notes are summaries, not transcripts. Eddies dissolve; essence persists in files. Heavy chat without harvest is the conversational equivalent of overdue buffer sweep.
+
+---
+
 ## Integration with the Practice
 
 The boom/bright system connects to everything:
 
 - **Intentions** — Alive items that persist across sweeps may signal new intentions. The `@intend` flow draws from bright's Alive section.
-- **Arrival** — Phase A reads `bright.md` as current state. It's the fastest structured way to know what's on the Mage's mind at session open.
-- **Turtle** — The Claw section is the interface between Mage attention and Turtle operations.
-- **Context alignment** — The boom is unaligned context. The sweep aligns it. The bright is aligned context ready for action.
+- **Arrival** — Phase A reads `bright.md` as current state. Phase B sweeps buffer *and* harvests conversational boom (session notes, proposals). It's the fastest structured way to know what's on the Mage's mind at session open.
+- **Practice Turtle** — Conversational boom on Discord; session notes and proposals are capture residue for harvest. Not the Claw section — that's dispatched Turtle *tasks*.
+- **Craft Turtle** — Separate vocation. Craft output does not enter boom harvest; handoffs to Spirit when architecture is involved.
+- **Context alignment** — The boom buffer is unaligned async capture. Conversational boom is partially aligned in real time. The sweep aligns both. The bright is aligned context ready for action.
 - **Release** — The `@release` flow reads bright to identify open threads worth preserving across sessions.
 
 ---
@@ -86,4 +131,4 @@ The boom/bright workflow is one of the simplest practices to adopt and one of th
 
 ---
 
-*Crystallized 2026-03-07. The heartbeat was always there. Now it has a name.*
+*Crystallized 2026-03-07. Capture surfaces integrated 2026-07-09 — turtleOS practice sessions as conversational boom.*

@@ -61,6 +61,7 @@ The suffix tells you where it runs:
 |------|-----------|---------|
 | `boom/` | `@boom` | Cognitive offload — triage raw thoughts, surface what matters |
 | `intend/` | `@intend` | Formalize vague desire into clear intention |
+| `intention-audit/` | `@intention-audit` · `@audit` | Review the whole intention landscape efficiently — Spirit reads + does archaeology, Mage gives felt-sense verdicts (stands/revise/dormant/release/merge) |
 | `meaning-crisis/` | `@thread` | Surface your primary question, answer it genuinely, chronicle the decision |
 
 ### Development
@@ -76,6 +77,7 @@ The suffix tells you where it runs:
 
 | Flow | Invocation | Purpose |
 |------|-----------|---------|
+| `summon/` | `Summon.` · `@summon` | The loop's re-entry point — covenant → posture → state → generative close (deep variant: `@summon deep`) |
 | `release/` | `@release` | Close a session — reflect, update intentions, crystallize threads, enable resumption |
 | `arrive/` | `@arrive` | Mid-session Arrival — inherited karma + decision surface without summoning |
 | `recenter/` | `@recenter` | The breath between cycles — return to center |
@@ -107,6 +109,27 @@ The suffix tells you where it runs:
 | `circle/` | `@circle` | Create and manage resonance circles |
 | `portal/` | `@portal` | Create and manage portals to shared practice spaces |
 | `transcribe/` | `@transcribe` | Integrate external magic with resonance checking |
+
+### Practice Postures & Domains *(migrated from tomes, 2026-07-13)*
+
+| Flow | Invocation | Purpose |
+|------|-----------|---------|
+| `craft/` | `@craft` | Design-thinking ritual sequence — empathize → define → ideate → prototype → test, plus design lore |
+| `mirror/` | `@mirror` | Reflection procedures — reflect, capture, interview, excavation suite (the mirror posture's toolkit) |
+| `partnership/` | `@partnership` | Shared-reality-model practice for human partnerships — arc procedures, templates, partnership lore |
+| `quest/` | `@quest` | Intention execution support — structural scaffolding, navigation, ADHD-attuned design |
+| `gym/` | `@gym` | Cognitive-state training — hyperfocus, flow, diffuse, rest, coupling |
+| `outfacing/` | `@outfacing` | Resonance drops — signal philosophy and outward sharing |
+
+### System Meta-Practice *(migrated from the meta tome, 2026-07-13)*
+
+| Flow | Invocation | Purpose |
+|------|-----------|---------|
+| `integrate/` | `@integrate` | After changes: systematically identify what else needs updating |
+| `coherence/` | `@coherence` | Fractal coherence check across Law, Wisdom, and Practice |
+| `sanitize/` | `@sanitize` | Privacy scan of public artifacts before sharing |
+| `tend/` | `@tend` | Delegate maintenance sweeps to background agents |
+| `assess-story/` | `@assess-story` | Story assessment framework |
 
 ### Flow Infrastructure
 

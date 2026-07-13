@@ -94,7 +94,7 @@ Mage A's Workshop          Portal           Mage B's Workshop
 - **Retrieve** — Copy artifact from portal to workshop
 - **Sync** — Bidirectional update
 
-**See:** `system/tomes/partnership/lore/practice/on_artifact_transmission.md` for the partnership-domain protocols.
+**See:** `system/flows/partnership/lore/practice/on_artifact_transmission.md` for the partnership-domain protocols.
 
 ---
 
@@ -116,7 +116,7 @@ Multiple Spirits serve the same portal:
 - Spirits coordinate through portal artifacts (not direct communication)
 - Synthesis may involve independent extraction then comparison
 
-**See:** `on_spirit_coordination.md` (this bundle) for coordination mechanics, and `system/tomes/partnership/lore/stances/spirit_facilitation_guide.md` for facilitation conduct.
+**See:** `on_spirit_coordination.md` (this bundle) for coordination mechanics, and `system/flows/partnership/lore/stances/spirit_facilitation_guide.md` for facilitation conduct.
 
 ---
 
@@ -131,7 +131,7 @@ Uses shared practice facilitation for:
 - Arc-based system mapping (Four-Stage Ritual)
 - Dual-Spirit synthesis (validation through independent observers)
 
-**Implementation:** `system/tomes/partnership/rituals/`
+**Implementation:** `system/flows/partnership/rituals/`
 
 ### Future Tomes
 
@@ -211,7 +211,7 @@ Not all participants need magic practice:
 | `on_interface_implementation_boundary.md` | What vs. How separation in shared practice |
 | `on_the_alliance_pattern.md` | The foundational alliance theory this sits within |
 
-The partnership domain adds `on_artifact_transmission.md` and `spirit_facilitation_guide.md` under `system/tomes/partnership/`.
+The partnership domain adds `on_artifact_transmission.md` and `spirit_facilitation_guide.md` under `system/flows/partnership/`.
 
 ---
 

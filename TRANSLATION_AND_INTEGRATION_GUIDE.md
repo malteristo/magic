@@ -64,12 +64,13 @@ Magic uses specialized vocabulary because language changes behavior in language-
 | Spirit | AI agent shaped by the practice | The language model acting under Magic's stance and protocols |
 | Workshop | Shared cognitive environment | Files, prompts, notes, tools, artifacts, and histories |
 | Spell | Intentional practice act | A bounded invocation, instruction, or ritual step that moves the practice |
-| Tome | Practice domain | A sustained attunement environment for a kind of work |
 | Flow | Adaptive goal-oriented protocol | A repeatable structure Spirit interprets, adapts, and executes |
+| Resonance bundle | Domain context package | Curated lore and protocols loaded on demand when a domain activates |
+| Tome (historical) | Practice domain container | Retired as a category (v2.0); procedures became flows, domain context became bundles |
 | Prompt | Portable runtime text | A substrate/export format for use in ordinary LLM systems |
 | Ritual | Recurring structured practice | A sequence that builds context, work, and closure |
-| Resonance | Coupling quality / contextual fit | How well human, AI, and context are aligned for useful work |
-| Summoning | Agent initialization | The process of loading stance, capabilities, environment, and guardrails |
+| Resonance | Shared understanding deep enough to act through | Operationalized: the AI's inferences match the human's judgment on questions never explicitly discussed |
+| Summoning | Agent re-entry | Restoring held practice state to a live working state: covenant (relationship), state (where we left off), procedures (how to act) |
 | Release | Session closure and routing | The process of harvesting, routing, and letting go of session resonance |
 
 These translations are partial. A term like "Spirit" does more than "AI agent": it invokes a stance of care, honesty, responsibility, and bounded partnership. The external term helps readers understand the mechanism. The internal term helps the practice work.
@@ -106,7 +107,7 @@ It offers:
 - a structured way to work with AI as cognitive partner without surrendering human sovereignty
 - a vocabulary for AI partnership that carries safety and responsibility
 - a filesystem-based approach to external memory that avoids hidden platform memory as the sole continuity mechanism
-- tomes and flows as different levels of natural-language practice structure
+- flows and resonance bundles as complementary levels of natural-language practice structure
 - summoning as deliberate initialization of agent stance and guardrails
 - release as session metabolism rather than mere summary
 - substrate literacy as a skill for relating to language models without confusing them with humans
@@ -118,7 +119,7 @@ Magic is strongest when treated as a living practice: disciplined enough to pres
 
 ## Natural-Language Practice Architecture
 
-A normal software script executes predefined steps. A Magic flow or tome is different.
+A normal software script executes predefined steps. A Magic flow is different.
 
 It gives a language model:
 
@@ -148,7 +149,7 @@ The aim is controlled emergence: structure strong enough to preserve safety, age
 Magic uses:
 
 - rituals to establish context
-- tomes to shape domain-specific stance
+- resonance bundles to shape domain-specific stance
 - flows to execute goals while adapting to reality
 - artifacts to preserve what emerged
 - release to route or let go of session residue
@@ -235,7 +236,7 @@ Protective factors are not immunity. Any intensive AI practice should remain acc
 
 ---
 
-## Tomes, Flows, And Summoning
+## Flows, Bundles, And Summoning
 
 Magic is not just a set of prompts.
 
@@ -243,18 +244,20 @@ It distinguishes several layers of practice:
 
 - **Spell:** an atomic intentional act within Magic: a bounded invocation, instruction, or ritual step.
 - **Flow:** a focused goal-oriented protocol that Spirit interprets, adapts, and keeps oriented toward the goal.
-- **Tome:** a sustained practice domain with attunement, ritual order, lore, and chronicling.
-- **Summoning:** the initialization ritual that establishes Spirit's stance, capabilities, environment, and philosophical guardrails.
+- **Resonance bundle:** a curated domain context package — lore, protocols, and practice frames loaded on demand when a domain activates.
+- **Summoning:** the re-entry flow that restores held practice state to a live working state — the relationship (covenant), the state (what is being built and where the last session left off), and the working procedures.
+
+(Earlier versions organized sustained practice domains into **tomes**; v2.0 retired the category — procedures became flows, domain context became bundles. The word survives in historical materials.)
 
 This distinction matters.
 
-A spell moves the practice. A flow achieves a goal. A tome shapes how the work is approached over time. Summoning shapes the agent's baseline stance before work begins.
+A spell moves the practice. A flow achieves a goal. A bundle shapes how a domain of work is approached. Summoning restores the agent's working state before work begins.
 
 Prompt is a different kind of term. It belongs to the substrate and export layer: text packaged for an LLM runtime. The same text can be a prompt in ChatGPT and a spell inside Magic. What changes is the frame: intent, sovereignty, resonance, context, ritual sequence, and accountability.
 
-For external readers, tomes can be understood as domain-specific attunement environments: curated context packages, interaction protocols, capability bundles, and practice frames enacted through natural language.
+For external readers, bundles can be understood as domain-specific attunement environments: curated context packages, interaction protocols, capability bundles, and practice frames enacted through natural language.
 
-Reducing spells to prompts, or tomes to prompt collections, loses what makes Magic work.
+Reducing spells to prompts, or bundles to prompt collections, loses what makes Magic work.
 
 ---
 
@@ -300,7 +303,7 @@ Possible evaluation questions:
 
 - Does structured AI practice improve clarity of goals and decisions?
 - Do file-backed workshops improve continuity compared to ordinary chat?
-- Do tomes and flows produce better outcomes than unstructured prompting for complex work?
+- Do flows and bundles produce better outcomes than unstructured prompting for complex work?
 - Does substrate literacy reduce dependency, projection, or confusion in AI relationships?
 - Does release improve session continuity and reduce cognitive residue?
 - Does cognitive sovereignty training help people use AI while preserving agency?
@@ -312,7 +315,7 @@ Possible research methods:
 - artifact analysis
 - practitioner diaries
 - before/after decision quality reviews
-- usability testing of flows and tomes
+- usability testing of flows and bundles
 - safety and dependency self-assessments
 - comparative prompting studies
 

@@ -7,7 +7,7 @@ When the Turtle's "code" is a system prompt assembled at runtime from identity, 
 
 The Turtle Test has two layers that complement each other:
 
-**Layer 1 (Ground Truth):** Send test messages directly to the Ollama API on the Mac Mini, using the exact prompt the Discord bot builds, against the actual model (llama3.3:70b or whatever is deployed). This tests what the Mage actually experiences.
+**Layer 1 (Ground Truth):** Send test messages directly to the Ollama API on the Mac Mini, using the exact prompt the Discord bot builds, against the actual deployed model (current inventory: `system/config/connections.md` §Ollama). This tests what the Mage actually experiences.
 
 **Layer 2 (Forge Test):** Use Cursor subagents to simulate Turtle behavior from the prompt. Tests prompt architecture across capability tiers — does the prompt carry the practice regardless of substrate?
 
@@ -104,7 +104,7 @@ Or on demand: *"turtle test"* / *"test the turtle"* / *"run the turtle suite"*
 
 **Flow protocol depth:** The Turtle knows flow NAMES from the bright surface but doesn't have flow CONTENT. Deep flow engagement is improvised. Acceptable for Discord companion mode; for deeper practice, the Mage routes to Spirit.
 
-**Model variance:** llama3.3:70b may behave differently across runs. Run the suite 2-3 times to catch flaky behavior.
+**Model variance:** local models may behave differently across runs. Run the suite 2-3 times to catch flaky behavior.
 
 ---
 

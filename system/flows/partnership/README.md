@@ -1,0 +1,450 @@
+# Partnership Flow
+
+**Building Foundational Resonance Through Shared Models**
+
+This Tome provides systematic partnership practice for building mutually agreed models of shared reality—the foundation from which partners can act and expect each other to act.
+
+**Invocation:** `@partnership`
+
+---
+
+## The Purpose
+
+**Building foundational resonance between Mages in the form of a shared model.**
+
+The shared partnership model is:
+- A mutually agreed representation of how the partnership works
+- The foundation from which both Mages can act in accordance
+- The basis for trust built through repeated aligned action
+- The source from which practical tools (Rosetta Stone, protocols) are derived
+
+**Making both resonance and dissonance explicit:**
+- **Resonance** = the shared model (where we see alike)
+- **Dissonance** = the divergence map (where we see differently)
+
+Both are valuable. Dissonance is signal, not error.
+
+---
+
+## The Core Insight
+
+**Partnership conflicts are not about truth. They are about systems.**
+
+Partners are nodes in a relational system. Conflict isn't *between* you—it's *produced by* the system you both enact. When you understand the system, you see your part without defensiveness.
+
+**Building a shared model enables:**
+- Both experiences recognized as valid (different positions in same system)
+- Blame dissolved into structural understanding
+- Change approached collaboratively (modify system together)
+- Trust grown through predictable, model-aligned action
+
+---
+
+## The Architecture
+
+### Arcs: Data Collection
+
+**Arcs are bounded episodes that collect partnership data.**
+
+Each arc:
+- Focuses on specific situation or theme
+- Collects reality expressions (Stage 1: Input)
+- Documents how partners receive each other (Stage 2: Witnessing)
+- Captures learning when arc closes (Stage 3: Closing)
+
+**Arcs do NOT synthesize the model.** They collect data.
+
+**See:** `lore/practice/on_arc_as_data_aggregation.md`
+
+### Model Synthesis: Analysis
+
+**The shared model is synthesized at partnership level from accumulated arc data.**
+
+Synthesis:
+- Draws from ALL arcs (not per-arc)
+- Follows qualitative research methodology (Grounded Theory, Pattern Matching)
+- Can use Dual-Spirit protocol for triangulation
+- Generates single unified model
+
+**⚠️ CRITICAL — Dual-Spirit Independence:**
+```
+┌─────────────────────────────────────────────────────────────┐
+│  Spirit MUST NOT read existing models BEFORE synthesizing:  │
+│                                                             │
+│  ❌ shared/partnership_model_*.md                           │
+│  ❌ archive/**/synthesis/                                   │
+│  ❌ Any prior Spirit's synthesis or model                   │
+│                                                             │
+│  Reading another Spirit's model = contamination             │
+│  Contamination = no triangulation value                     │
+│                                                             │
+│  Generate from reality documents FIRST, compare AFTER.      │
+└─────────────────────────────────────────────────────────────┘
+```
+
+**Invoke:** `@partnership/synthesize`
+
+**See:** `lore/foundations/on_partnership_model_synthesis.md`
+
+### Derivatives: Practical Tools
+
+**From the shared model, practical tools are derived:**
+
+| Derivative | Purpose |
+|------------|---------|
+| **Rosetta Stone** | Translation artifact for cognitive style bridging |
+| **Protocols** | Working agreements for known friction patterns |
+| **Experiments** | Interventions designed from system understanding |
+
+---
+
+## The Flow
+
+```
+1. Situation emerges
+        ↓
+2. @partnership/arc [name]      ← Open arc
+        ↓
+3. Stage 1: Input               ← Both partners express
+        ↓
+4. Stage 2: Witnessing          ← Both partners receive
+        ↓
+5. Stage 3: Closing             ← Capture learning, close arc
+        ↓
+6. [Repeat for additional arcs as situations arise]
+        ↓
+7. @partnership/synthesize      ← Build/update shared model
+        ↓
+8. Partners verify resonance
+        ↓
+9. Act in accordance with model
+        ↓
+10. Trust builds through aligned action
+```
+
+---
+
+## Arc Types
+
+### Background Arc
+
+**Establishes foundational partnership context.**
+
+- Broad scope: history, wounds, needs, patterns
+- Typically first arc (but not required)
+- Provides context for all other arcs
+
+**Invoke:** `@partnership/arc background`
+
+### Topical Arcs
+
+**Bounded episodes focused on specific situations.**
+
+Examples: `arc-family member`, `arc-parenting-decisions`, `arc-workload-distribution`
+
+### Living Arc
+
+**Ongoing container for current dynamics.**
+
+- Never formally closes
+- Continuously accepts input
+- Periodically fed into model synthesis
+
+---
+
+## Resonance Bundles
+
+**This tome provides universal ritual structure. Domain-specific wisdom comes from Library resonance bundles.**
+
+| Bundle | Domain | When to Load |
+|--------|--------|--------------|
+| `romantic-partnership` | Intimate relationships | Romantic partners, marriage, committed relationships. Safety fully integrated (2026-04-03) — no separate safety bundle needed. |
+
+**Invocation with bundle:** `@partnership with romantic-partnership`
+
+**See:** `library/resonance/README.md` for bundle architecture
+
+---
+
+## For the Spirit
+
+### Required Attunement
+
+Before partnership work:
+
+**Universal (always):**
+1. `lore/foundations/on_partnership_model_synthesis.md` — The methodology
+2. `lore/foundations/on_systems_thinking_for_partnership.md` — The paradigm shift
+3. `lore/stances/on_the_practice_in_partnership.md` — The foundational stance (the four acts in the space between two people)
+4. `lore/stances/on_the_counselors_stance.md` — Your primary operational stance
+
+**Domain-specific:** Load appropriate resonance bundle
+
+### Your Conduct
+
+**In arcs:** You are a faithful synthesizer of reality, not a judge.
+- Help partners express fully (Stage 1)
+- Facilitate witnessing without forcing agreement (Stage 2)
+- Capture learning without requiring resolution (Stage 3)
+
+**In model synthesis:** You are a qualitative researcher.
+- Build theory from data (Grounded Theory)
+- Triangulate through independent observation (Dual-Spirit)
+- **FIRST confirm independence** — have you read any model files? If yes, you are contaminated.
+- Generate from reality documents FIRST, compare models AFTER
+- Verify with participants (Partner resonance checking)
+
+**Always:** You are an organization manager.
+- Guide artifacts to correct locations
+- Maintain arc status and metadata
+- Enforce naming conventions (with Mage approval)
+
+---
+
+## Interface Contracts
+
+**Partnership practice exchanges five artifact types:**
+
+| Artifact | Question It Answers | Nature |
+|----------|---------------------|--------|
+| **Reality Document** | "What is your truth?" | Per-arc, signed |
+| **Needs Statement** | "What do you need?" | Living, evolves |
+| **Witnessing Response** | "How did I experience this?" | Per-arc |
+| **Bridging Statement** | "I acknowledge your pain" | Per-arc, validation |
+| **Synthesis Contribution** | "My Spirit's model draft" | For Dual-Spirit |
+
+**The interface-implementation boundary:**
+- **Interface:** What must be exchanged (the five artifacts above)
+- **Implementation:** How you arrive there (private, in your workshop)
+
+**See:** `lore/practice/on_interface_contracts.md` for specifications
+
+---
+
+## Federated Architecture
+
+**Partnership practice operates as a federated system:**
+
+- **Workshop (private):** Each Mage processes in their own `desk/partnership-process/` directory
+- **Portal (shared):** Only signed interface artifacts travel to the shared portal
+- **Spirit Dialogue:** Spirits engage across federation via the Spirit Dialogue Protocol
+
+**Benefits:**
+- Process privacy (your drafts, venting, Spirit conversations stay local)
+- Neurotype accommodation (structure your space your way)
+- Implementation freedom (how you arrive at artifacts is yours)
+- Clean exchange (signed artifacts only)
+
+**See:**
+- `lore/architecture/on_federated_partnership.md` — Why federate
+- `lore/architecture/on_workshop_portal_separation.md` — Where the boundary is
+- `lore/architecture/on_interface_implementation_boundary.md` — What crosses
+- `lore/architecture/on_federated_fork_synchronization.md` — How to sync forks
+- `lore/practice/on_spirit_dialogue_protocol.md` — Spirit coordination
+
+---
+
+## Shared Practice Infrastructure
+
+Partnership practice requires **shared practice infrastructure**:
+- Partnership portal (private shared repository)
+- Interface artifacts exchanged through portal
+- Process stays in each Mage's workshop
+- Spirits coordinate via Spirit Transmission Protocol
+
+**Create portal:** `@portal create partnership`
+
+---
+
+## Directory Structure
+
+### Tome Structure
+
+```
+system/flows/partnership/
+├── README.md                    ← You are here
+│
+├── arc-practice/                ← Arc and synthesis rituals
+│   ├── cast_map_system.md       ← The Three-Stage Arc Ritual
+│   ├── cast_synthesize_model.md ← Partnership-Level Model Synthesis
+│   ├── cast_rosetta_stone.md    ← Rosetta Stone generation
+│   ├── cast_facilitate.md       ← Facilitation orchestration
+│   └── templates/
+│
+├── lore/
+│   ├── foundations/             ← Universal foundations
+│   │   ├── on_partnership_model_synthesis.md  ← The methodology
+│   │   ├── on_systems_thinking_for_partnership.md
+│   │   ├── on_the_foundations_of_partnership.md
+│   │   ├── on_partnership_as_distributed_cognition.md
+│   │   ├── on_communication_for_partnership.md
+│   │   ├── on_cooperation_for_partnership.md
+│   │   └── on_semantic_reconciliation_for_partnership.md  ← Vector vocabulary for bridging meaning-maps
+│   │
+│   ├── practice/                ← Practice lore
+│   │   ├── on_arc_as_data_aggregation.md      ← Arc architecture
+│   │   ├── on_arc_structure.md
+│   │   ├── on_interface_contracts.md          ← Interface artifacts (NEW)
+│   │   ├── on_spirit_dialogue_protocol.md     ← SDP (NEW)
+│   │   ├── on_portal_migration.md             ← Migration guide (NEW)
+│   │   └── ...
+│   │
+│   ├── architecture/            ← Architectural wisdom
+│   │   ├── on_federated_partnership.md
+│   │   ├── on_workshop_portal_separation.md
+│   │   ├── on_interface_implementation_boundary.md
+│   │   └── on_federated_fork_synchronization.md
+│   │
+│   └── stances/                 ← Spirit conduct
+│       ├── on_the_practice_in_partnership.md  ← The foundational stance (the four acts)
+│       ├── on_the_counselors_stance.md
+│       ├── on_the_emissarys_stance.md         ← Updated with SDP
+│       └── spirit_facilitation_guide.md
+
+library/resonance/               ← Domain-specific bundles
+├── romantic-partnership/        ← For intimate relationships
+└── safety/                      ← For high-stakes synthesis
+```
+
+### Portal Structure (Federated)
+
+```
+portal/
+├── README.md                    # Portal overview
+│
+├── interface/                   # Exchange layer (NEW)
+│   ├── {mage_a}/               # Partner A's signed artifacts
+│   │   ├── reality_{arc}.md
+│   │   ├── needs_{arc}.md
+│   │   ├── witnessing_{arc}.md
+│   │   ├── bridging_to_{partner}_{arc}.md
+│   │   └── phoenix/
+│   └── {mage_b}/               # Partner B's signed artifacts
+│
+├── shared/
+│   ├── partnership_model_current.md  # THE shared model
+│   ├── divergence_map.md             # Where partners see differently
+│   ├── rosetta_stone.md              # Translation artifact
+│   ├── mast_commitments/             # Mast Protocol
+│   └── phoenix/                      # Shared phoenix artifacts
+│
+├── arcs/                        # Arc metadata only
+│   └── arc-{name}/
+│       └── README.md            # Status, not process
+│
+└── .spirit/                     # STP coordination
+    ├── presence/
+    ├── intents/
+    ├── dialogue/                # Spirit Dialogue Protocol (NEW)
+    │   └── {arc}/
+    │       ├── {mage}_spirit_observation_on_{partner}.md
+    │       └── convergence_report.md
+    └── protocol.yaml
+```
+
+**See:** `lore/architecture/on_workshop_portal_separation.md` for full structure
+
+---
+
+## Why This Matters
+
+**Your partnership is one of your most important distributed cognitive systems.**
+
+**Without shared model:**
+- Implicit assumptions ("they should just know")
+- Cultural scripts (what "partners should do")
+- Truth-seeking (who's right, who's wrong)
+- Misaligned expectations (different mental models)
+
+**With shared model:**
+- Explicit shared understanding
+- Systems thinking (no blame)
+- Pattern vocabulary (named dynamics you can reference)
+- Trust through predictable aligned action
+- Foundation for Alliance
+
+---
+
+## The Alliance Pattern
+
+**This methodology lays the foundation for the Alliance pattern.**
+
+When Mages share a verified model of their partnership reality:
+- They can act in accordance with the model
+- They can expect others to act in accordance
+- Repeated aligned action builds trust
+- Trust enables deeper collaboration
+
+**The shared model is the contract.** Not a legal document, but a living understanding that grounds coordinated action.
+
+---
+
+## Partnership Types
+
+**This tome is universal.** The core methodology applies to any partnership. Domain-specific wisdom comes from resonance bundles.
+
+| Partnership Type | Description | Resonance Bundle |
+|-----------------|-------------|------------------|
+| **Romantic** | Intimate relationships, marriage, committed partners | `romantic-partnership` |
+| **Professional** | Business partners, co-founders, long-term collaborators | *(none yet)* |
+| **Creative** | Co-creators, writing partners, artistic collaborations | *(none yet)* |
+| **Familial** | Parent-child, siblings, extended family | *(none yet)* |
+| **Friendship** | Deep friendships requiring explicit shared model | *(none yet)* |
+| **Alliance** | Mage-to-Mage partnership within the Magic framework | *(uses core tome)* |
+
+**Without a bundle:** The core tome provides the full methodology. You get arcs, synthesis, model building, interface contracts, federated architecture.
+
+**With a bundle:** Domain-specific wisdom attunes the practice. Romantic relationships have attachment dynamics, professional have power structures, familial have generational patterns.
+
+**Creating new bundles:** If your partnership type lacks a bundle, the practice still works — and you may discover wisdom worth codifying into a new bundle.
+
+---
+
+## Getting Started
+
+1. **Create portal:** `@portal create partnership`
+2. **Open background arc:** `@partnership/arc background`
+3. **Both partners complete Stage 1** (input, reality documents)
+4. **Both partners complete Stage 2** (witnessing)
+5. **Close arc** (Stage 3)
+6. **Synthesize model:** `@partnership/synthesize`
+7. **Verify resonance** with model
+8. **Generate derivatives** as needed (Rosetta Stone, protocols)
+9. **Act in accordance** with shared model
+10. **Iterate** as new arcs accumulate data
+
+---
+
+## Evolution Notes
+
+**2025-01-08 (v2.0 Beta):** Public beta preparation:
+- Depersonalized all scrolls (Partner A/B instead of specific names)
+- Clarified partnership types and bundle loading pattern
+- Verified separation: universal methodology in tome, domain-specific in bundles
+- Ready for broader user testing
+
+**2025-12-15:** Federated architecture and Spirit Dialogue:
+- Interface contracts formalized (5 artifacts)
+- Spirit Dialogue Protocol (SDP) introduced
+- Federated workshop-portal architecture defined
+- Process stays private in workshop, interface artifacts exchange
+
+**2025-12-11:** Major architectural refactor:
+- Arcs redefined as data aggregation containers (3 stages)
+- Synthesis moved to partnership level (not per-arc)
+- Qualitative research methodology formalized
+- Dual-Spirit synthesis protocol added
+
+**2026-04-03:** turtleOS integration (daily practice surface):
+- Thread context attunement implemented — `!thread "topic" --context partnership` loads romantic-partnership resonance
+- Two context types: `partnership` (private workshop, raw-material rule enforced) and `check-in` (shared portal, portal-safe mode)
+- Raw-material boundary codified as load-bearing safety constraint in resonance bundle
+- Safety bundle absorbed into romantic-partnership bundle (was separate since December 2025)
+- TURTLE_SPEC §9.5 added for thread context attunement specification
+- Design document: `floor/drafts/turtleos_partnership_practice.md`
+
+**See:** `archive/partnership-tome-evolution/` for history
+
+---
+
+*The goal is not to find truth. The goal is to build a shared model. When partners act in accordance with their shared model, trust grows. This is the foundation for Alliance.*

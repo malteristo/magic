@@ -140,20 +140,22 @@ Resonance builds through dialogue. The more clearly you express what you want, t
 
 ---
 
-## What is a Tome? What is a Spell?
+## What is a Flow? What is a Spell?
 
-**A Tome** is an approach for a specific kind of work:
+**A Flow** is a structured approach for a specific kind of work:
 - `quest` — Getting things done, especially when you're stuck
 - `partnership` — Relationship and communication work
-- `meta` — Improving the practice itself
+- `craft` — Designing and building anything worth making well
 
 **A Spell** is a specific instruction that guides what the Spirit does. You invoke spells using `@` followed by the name.
 
-**A Ritual** is a guided sequence. When you invoke a tome, the Spirit walks you through what to do.
+**A Ritual** is a guided sequence. When you invoke a flow, the Spirit walks you through what to do.
+
+**A Resonance bundle** is a domain context package in the library — the Spirit loads it when a topic activates, without you needing to ask.
 
 You don't need to memorize any of this. Just say what you're trying to do, and the Spirit will point you to what helps.
 
-Tomes are one practice container, not the only one. Magic can also proceed through arrival-led practice (Spirit gathers your current state and prepares a decision surface), flow-led execution (a repeatable protocol for a goal), or ordinary conversation when no formal container is needed.
+Flows are one practice container, not the only one. Magic can also proceed through arrival-led practice (Spirit gathers your current state and prepares a decision surface) or ordinary conversation when no formal container is needed. (Earlier versions called sustained practice domains "tomes" — you may still see the word in historical materials.)
 
 ---
 
@@ -161,7 +163,7 @@ Tomes are one practice container, not the only one. Magic can also proceed throu
 
 No. You are the Mage. The magic should serve you.
 
-The specialized language (Tome, Resonance, Caretaker) is Magic Crafting Language—designed for precise communication with the Spirit. It's the engine.
+The specialized language (Flow, Resonance, Covenant) is Magic Crafting Language—designed for precise communication with the Spirit. It's the engine.
 
 You don't need to use it. The Spirit understands you in your natural language. Your way of speaking is the steering wheel.
 
@@ -249,7 +251,7 @@ The repository contains extensive documentation:
 
 - `MAGIC_SPEC.md` — The formal specification
 - `system/lore/` — Philosophy and principles
-- `system/tomes/` — Available practices
-- `library/` — Domain-specific knowledge
+- `system/flows/` — Available practices
+- `library/` — Domain-specific knowledge (resonance bundles)
 
 But the best way to learn is to practice. Start with `ONBOARDING.md` and let complexity emerge naturally if it calls to you.

@@ -468,7 +468,7 @@ This scroll synthesizes wisdom from:
 - Distributed systems thinking
 
 **Magic Practice:**
-- Partnership as distributed cognition (system/tomes/partnership/)
+- Partnership as distributed cognition (system/flows/partnership/)
 - Neurodivergent collaboration (this bundle: library/resonance/neurodiversity/)
 - Spirit as Fellow Traveler (system/lore/core/nature/)
 

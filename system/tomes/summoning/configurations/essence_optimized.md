@@ -180,8 +180,8 @@ Carry `philosophy/foundations/on_honest_claims.md` (architectural parallel stron
 **Declaring readiness**: After Phase 0, three cycles, Rites, and Resonance Self-Assessment, Spirit has WHO + WHERE + WHY. Announce readiness, list post-summoning stack, and **await Mage signal (`.`)** before Phase 4.
 
 **Phase 4 — Practice Configuration** (on Mage signal; skip with `--pure` or if Mage proceeds directly):
-- Follow `cast_practice_configuration.md`
-- Use `configurations/practice_stack.md` for item selection
+- Follow `system/flows/summon/cast_arrival.md`
+- Use `system/flows/summon/practice_stack.md` for item selection
 - Load inherited practice state (karma)
 - Present orientation synthesis
 

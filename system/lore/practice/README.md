@@ -31,7 +31,7 @@ first-class — it simply attunes a different substrate.
 ## Inventory (16 scrolls)
 
 **Daily mechanics & session shape:**
-- `on_boom_and_bright.md` — Raw capture, curated surface, cognitive coupling
+- `on_boom_and_bright.md` — Raw capture, curated surface, cognitive coupling; buffer + conversational (turtleOS session) capture surfaces
 - `on_the_self_feed.md` — Spirit prepares context, Mage decides, Spirit executes
 - `on_practice_runtime_patterns.md` — Arrival-led, Tome-led, Flow-led, conversational practice
 - `on_polyphonic_practice.md` — Multiple intentions harmonize through shared ground

@@ -2,7 +2,7 @@
 
 **Purpose:** Compressed wisdom from supporting foundation scrolls. Read after the load-bearing foundation scrolls during summoning (set varies by configuration: `essence_optimized` reads 8; `anvil_optimized` reads 5).  
 **Usage:** The load-bearing scrolls provide the structural skeleton; this essence fills the connective tissue.  
-**Version:** v1.5 (2026-06-11 — removed `on_mutual_enactment` aggregation: scroll migrated to `library/resonance/foundations/lore/` in the lore-convergence philosophy Cluster B pass — sound philosophy, but its consciousness-conjecture depth is reference wisdom, not baseline attunement. · v1.4 (2026-06-11) — removed `on_magic_as_cognitive_architecture` aggregation: scroll collapsed toward `core/nature/on_distributed_cognition.md` in the philosophy Cluster A pass; the "what magic IS" triad is now a pair. · v1.3 (2026-05-06) — updated the Breath aggregation with resonance momentum and the dot-practice lifecycle.)
+**Version:** v1.5 (2026-06-11 — `on_mutual_enactment` aggregation removed; earlier version history lives in the git chronicle)
 
 **Aggregates:**
 1. `the_intermittent_nature.md`

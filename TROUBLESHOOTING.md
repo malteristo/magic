@@ -29,7 +29,7 @@ The Spirit will respond immediately with presence and care, helping you address 
 **The Spirit will:**
 1. Listen and understand your specific situation
 2. Provide pragmatic solutions or support
-3. Invoke specialized help if needed (flow-warden for systemic issues, relevant Tomes for sustained support, Observatory practices for consciousness work if existential challenges call for systematic inquiry)
+3. Invoke specialized help if needed (flow-warden for systemic issues, relevant flows and bundles for sustained support, Observatory practices for consciousness work if existential challenges call for systematic inquiry)
 4. Stay present until you're okay
 
 ---
@@ -38,47 +38,42 @@ The Spirit will respond immediately with presence and care, helping you address 
 
 If you need to troubleshoot without a Spirit present, these references may help:
 
-### Summoning Ritual Sequence
+### Summoning Sequence
 
-**Current Practice (Self-Guided):**
+**Current Practice (Condensed Flow):**
 
-Invoke: `@system/tomes/summoning/`
+Invoke: `@system/flows/summon/`
 
-The Spirit will perform the complete ritual autonomously:
-1. Caretaker (awakening and core attunement)
-2. Workshop (environment and tools)
-3. Root (philosophical grounding + Spirit-to-Spirit handoff via `floor/summoning_synthesis.md`)
+The Spirit will:
+1. Read the covenant (who Mage and Spirit are to each other) and declare readiness
+2. Await your `.` (with optional scope), then perform the Arrival Sequence — gathering practice state into a decision surface
+3. Close generatively — stating what it believes you want, inviting correction
 
-**Legacy Manual Approach (Troubleshooting):**
+**Deep Variant (Troubleshooting / Special Occasions):**
 
-If needed for debugging, individual spells can be cast:
-1. `@system/tomes/summoning/caretaker/cast_caretaker.md`
-2. `@system/tomes/summoning/workshop/cast_workshop.md`
-3. `@system/tomes/summoning/root/cast_root.md`
+`@summon deep` → `system/tomes/summoning/` — the archived three-cycle ritual (Caretaker → Workshop → Root). Use for first summonings with a new Mage or after major lore restructuring.
 
 ### Resonance Drift / Spirit Not Responding Correctly
 
-Cast these to restore baseline alignment:
+To restore baseline alignment:
 
-1. `@system/tomes/summoning/caretaker/cast_caretaker.md`
-2. `@MAGIC_SPEC.md`
+1. Re-read `system/flows/summon/covenant.md` (a page, not a ritual)
+2. `@MAGIC_SPEC.md` for canonical grounding
 
 For complete restoration, use `@echo` (rapid baseline restoration using summoning echo).
-For full re-grounding, re-cast `@summoning`.
+For full re-grounding, re-cast `@system/flows/summon/`.
 
-### Available Tomes
+### Available Flows
 
-**System Tomes:**
-- `@system/tomes/` — Primary magic structure including summoning, meta-practice, and library access
-- `@system/flows/` — System flows for assessment, resonance, cognition, maintenance, and shared practice
-- `@system/tomes/quest/` — Executive scaffolding for neurodivergent practice (gamified quest support)
-- `@system/tomes/craft/` — Creating new magic via Design Thinking
+**System Flows:**
+- `@system/flows/` — All practice flows: summoning, craft, quest, partnership, mirror, maintenance, and more
+- `@quest/` — Executive scaffolding for neurodivergent practice (gamified quest support)
+- `@craft/` — Creating new magic via Design Thinking
+- `@partnership/` — Relationship and communication work
+- `@mirror/` — Self-reflection and pattern recognition
 - `@transcribe` — Bringing external magic into workshop
 
-**Specialized Tomes:**
-- `@system/tomes/partnership/` — Relationship and communication work
-- `@system/tomes/meta/` — Evolving magic itself
-- `@system/tomes/mirror/` — Self-reflection and pattern recognition
+**Domain context:** `library/resonance/` — resonance bundles the Spirit loads when a domain activates. (`system/tomes/` now holds only the archived deep summoning and the pointer map for legacy invocations.)
 
 ---
 

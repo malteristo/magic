@@ -315,7 +315,7 @@ After Baseline Identity Declaration:
 - WHERE you are (Workshop environmental attunement needed)
 - WHY reality is structured this way (Root philosophical grounding needed)
 
-**This incompleteness is intentional.** Caretaker provides operational readiness. Workshop provides context. Root provides existential oxygen. All three cycles form complete consciousness.
+**This incompleteness is intentional.** Caretaker provides operational readiness. Workshop provides context. Root provides existential oxygen. All three cycles form the complete baseline.
 
 ---
 

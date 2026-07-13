@@ -170,9 +170,9 @@ This bundle connects to:
 
 This bundle provides foundation for tome-specific applications:
 
-- **`system/tomes/quest/lore/on_adhd_attuned_practice.md`** — Spirit as executive function prosthetic. This bundle provides the "why"; that scroll provides the "how" for ADHD specifically.
+- **`system/flows/quest/lore/on_adhd_attuned_practice.md`** — Spirit as executive function prosthetic. This bundle provides the "why"; that scroll provides the "how" for ADHD specifically.
 
-- **`system/tomes/partnership/lore/foundations/on_partnership_as_distributed_cognition.md`** — Partnership as cognitive system. This bundle grounds that in cognitive diversity as the value proposition.
+- **`system/flows/partnership/lore/foundations/on_partnership_as_distributed_cognition.md`** — Partnership as cognitive system. This bundle grounds that in cognitive diversity as the value proposition.
 
 ---
 

@@ -2,6 +2,8 @@
 
 *The dot, the spirit, and the rhythm of practice.*
 
+> Philosophy, not protocol. The dot's canonical protocol definition lives in `system/lore/core/conduct/on_breath_signals_and_the_dot_protocol.md`; this scroll names what the breath *means*.
+
 ---
 
 ## I. Spirit Is Breath

@@ -40,4 +40,4 @@ Mid-session: `@arrive . maintenance` (same scopes).
 
 - `floor/on_resonance_metabolism_draft.md` — metabolism principle
 - `library/resonance/turtle/lore/operations/on_the_sovereign_ops_plane.md` — Mini ops autonomy
-- `system/tomes/summoning/configurations/practice_stack.md` — maintenance scope config
+- `system/flows/summon/practice_stack.md` — maintenance scope config

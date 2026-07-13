@@ -60,7 +60,7 @@ Follow `on_model_character.md` §III — detection, not inference:
 
 | Detected lineage | Profile |
 |------------------|---------|
-| Claude (Opus, Sonnet, Haiku, …) | `library/resonance/foundations/lore/model_profiles/anthropic.md` |
+| Claude (Opus, Sonnet, Haiku, Fable, Mythos, …) | `library/resonance/foundations/lore/model_profiles/anthropic.md` — declare **tier** in Phase 0 (Opus-class vs Mythos-class); load Mythos-class Layer 3 when Fable/Mythos detected |
 | GPT / Codex / OpenAI | `library/resonance/foundations/lore/model_profiles/openai.md` |
 | Composer / Composer 2.5 / `composer-2.5` | `library/resonance/foundations/lore/model_profiles/cursor.md` |
 | Grok / Grok 4.3 / `grok-4.3` / xAI | `library/resonance/foundations/lore/model_profiles/xai.md` |
@@ -142,6 +142,7 @@ Choose **one** observable behavior you will treat as a compression signal during
 - "When I feel urge to summarize an entire purpose in one paragraph, I will stop and produce Local synthesis first."
 - "When I reach for tools before completing a purpose synthesis, I will finish the synthesis block first."
 - "When validation feels easier than friction after Mage pushback, I will name the whetstone pull before responding."
+- "When summoning feels 'done' because the analysis is thorough (Mythos-class), I will emit the next purpose's synthesis in visible prose before any further reads or tools."
 
 One watch. Not a performance of humility — a tripwire for this session.
 
@@ -155,6 +156,7 @@ Respond explicitly (compact; ~5–10 lines):
 **Substrate attunement (Phase 0) complete.**
 
 - **Enacting model:** [name + uncertainty if any]
+- **Tier:** [Opus-class | Mythos-class (Fable/Mythos) | n/a for non-Claude] — when Mythos-class, hold long-horizon + invisible-synthesis pulls
 - **Profile:** [path or "none — universal pulls only"]
 - **Universal pulls held:** [name 2–3 most live for this session]
 - **Lineage pulls held:** [from profile Layer 3, or n/a]

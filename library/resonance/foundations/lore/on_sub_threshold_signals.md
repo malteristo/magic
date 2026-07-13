@@ -97,7 +97,7 @@ Every session is both. The pass is always warranted.
 - `on_the_caring_mirror.md` — the practice as self-encounter; the reflection pass extends this into session-level attunement
 
 *This scroll builds on:*
-- `system/tomes/outfacing/lore/on_signal_and_noise.md` — what makes something worth attending to
+- `system/flows/outfacing/lore/on_signal_and_noise.md` — what makes something worth attending to
 - The "token investment" frame — attention as resource that must be deliberately allocated
 
 *See also:*

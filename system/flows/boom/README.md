@@ -9,7 +9,8 @@
 
 BOOM (Back Of Our Mind) inverts the cognitive burden. Instead of organizing thoughts for a system, you dump them raw — voice memos, scribbled notes, stream-of-consciousness — and Spirit organizes for you.
 
-**Buffer** → `desk/boom.md` (capture anything, any format)  
+**Buffer** → `desk/boom.md` (async capture, any format)  
+**Conversational** → Practice Turtle sessions on Discord; harvest via session notes and proposals  
 **Surface** → `desk/boom/bright.md` (curated, triaged, actionable)  
 **Topics** → `desk/boom/*.md` (living documents that accumulate over time)
 

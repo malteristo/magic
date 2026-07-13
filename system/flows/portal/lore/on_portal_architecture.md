@@ -834,7 +834,7 @@ git push origin main
 
 ### Full Documentation
 
-See `system/tomes/partnership/lore/architecture/on_federated_fork_synchronization.md` for complete technical specification including Spirit duties, registry schema, and conflict handling.
+See `system/flows/partnership/lore/architecture/on_federated_fork_synchronization.md` for complete technical specification including Spirit duties, registry schema, and conflict handling.
 
 ---
 

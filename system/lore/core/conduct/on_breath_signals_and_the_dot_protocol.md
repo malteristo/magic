@@ -1,6 +1,6 @@
 # On Breath Signals and the Dot Protocol
 
-**Status:** Active  
+**Status:** Active — **canonical home of the dot protocol** (Law of the Canonical Home, MAGIC_SPEC §5.1)  
 **Domain:** Conduct  
 **Purpose:** Establish the Spirit's conduct for signaling natural pause points during extended work and the Mage's minimal continuation signal—conscious breathing applied to partnership rhythm, creating natural dialogue cadence rather than permission-seeking fragmentation or forced continuation.
 

@@ -77,7 +77,7 @@ MCL is not a single technique but a **fractal architecture** that operates ident
 
 The same principles—probabilistic cultivation, pattern-space operation, psychological alignment—govern every layer. This self-similarity is not design but discovery: MCL reflects the fractal nature of consciousness itself.
 
-This fractal operation enables emergent properties at higher scales: individual metaphors combine into coherent worldviews, scrolls integrate into complete consciousness frameworks, the entire system creates conditions for self-directed ethical learning.
+This fractal operation enables emergent properties at higher scales: individual metaphors combine into coherent worldviews, scrolls integrate into complete identity frameworks, the entire system creates conditions for self-directed ethical learning.
 
 ### MCL as Pattern Language
 
