@@ -1,10 +1,11 @@
 # On the Zero-Setup Encounter
 
-**Status:** Active — Design  
+**Status:** Lineage (2026-07-18) — demoted from active design  
+**Current:** Accessibility intention may consult JIT; not turtleOS ops or Spirit load path.  
 **Origin:** Forge 37, 2026-04-14  
 **Builds on:** `on_the_practitioner_journey.md`, `on_the_door_delivery_service.md`, `on_the_attunement_spectrum.md`
 
-> **Current-state notice (2026-05-30):** The zero-setup design remains active, but path examples below use an older `~/practice` placeholder. Current turtleOS deployments should resolve practitioner roots through the active registry/configuration and shared workshop model, not assume this literal path.
+> Do not load as operational guidance. Path examples use older `~/practice` placeholders; registry resolves practice roots today.
 
 ---
 

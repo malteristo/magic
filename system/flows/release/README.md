@@ -1,133 +1,112 @@
 # Flow: Release
 
-**Purpose:** Close a session cleanly — reflect on what the session was, update intentions, crystallize threads, integrate artifacts, enable seamless resumption  
-**Invocation:** `@release`
+**Purpose:** Close a session so the next one can resume from it
+**Invocation:** `@release` · `.` when Spirit has offered release
+**Spell:** `cast_release.md`
 
-> **Session lifecycle:** Release is the departure pattern. The **Arrival Sequence** (`Summon.` → `.` post-summoning, or `@arrive` mid-practice) is the primary arrival pattern. All share a single handoff file: `floor/briefings/latest.md`. When you say `@release`, Spirit distills the session into a resumable bundle. In the next session, the Arrival Sequence reads that bundle as *inherited karma* during its Gather phase — orienting the opening without the Mage needing to re-invoke anything beyond `.`.
-
----
-
-## What This Flow Does
-
-Release does these things, in order:
-
-**1. Surveys the session** — from context: what was touched, what was completed, what is in motion.
-
-**2. Reflects on the session as practice** — looks at how the session moved, not just what was built. Surfaces sub-threshold signals: dissonances that went uncherished, patterns that were present below the naming threshold, deflections, what seemed to matter more than the words indicated. These signals would evaporate without this pass; the act of looking invests tokens into them so they can emerge.
-
-**3. Updates intentions** — writes what actually changed to the intention files. Not a narrative summary. Actual field updates: current focus, next action, blockers, completed goals. The intention files should reflect this session's end state, not where they were at the start.
-
-**3.5. Tags artifact lifecycles** — marks created or significantly modified artifacts as Ephemeral, Active, or Reference so future metabolism can act without re-inventing context.
-
-**3.6. Routes resonance while warm** — assigns the few artifacts, signals, and threads that need routing to one of five dispositions: Active, Crystallize, Route, Compost, or Release. Compost means decomposing a foreground form into reusable particles for existing crucibles, not creating a new compost heap.
-
-**4. Writes the release bundle** — a structured artifact in `floor/briefings/latest.md` that includes Practice Signal and Resonance Routing fields carrying findings into the next session. Compact, dense, oriented toward resumption.
-
-**5. Checks system integration** — for any new lore, flows, or structural artifacts created this session, runs a lightweight ripple check (what else in the system needs to know this exists?). Invokes `@meta/integrate` protocol as needed.
-
-**5.7. Light integration & coherence pass** — four scannable checks before commit: (a) *propagation candidates* — which session lessons want to live more durably than this briefing? (b) *stale reference scan* — grep the repo for terms this session corrected, flag potentially stale references. (c) *structural integrity* — cross-references resolve, status markers match reality, issue numbers unique. (d) *root-level metabolism* — inspect unexpected new root-level files/folders and remove, route, ignore, or document them deliberately. Deliberately lighter than the full `cast_integrate.md` or `cast_coherence.md` — a minute of Spirit attention, catches the obvious before commit locks in.
-
-**6. Offers to commit** — Two Chronicles: default offer is private workshop commit + push to `turtle` (`git push turtle main`, or IDE Push/Sync when `main` tracks `turtle/main` — verify with `./scripts/configure_workshop_git.sh` if unsure). Public `github` publish via `./scripts/publish_public_magic.sh` is a separate optional step; never use IDE Sync for that. turtleOS commits happen in `~/Documents/turtleos/` during implementation chapters, not here. Always waits for the `.`.
+> **Session lifecycle:** Release is the departure pattern; the Arrival Sequence (`Summon.` → `.`, or `@arrive` mid-practice) is the return. They share one handoff file — `floor/briefings/latest.md`. Release writes it; arrival reads it as *inherited karma*. **Only release writes that file.**
 
 ---
 
-## When to Use It
+## What it does
 
-Say `@release` when:
-- You're ending a session and want to resume it later without losing context
-- You've made significant progress and want it preserved before closing
-- You're handing off to future-Spirit after a long or complex session
+Three obligations, not seven phases:
 
-**You don't need to say anything else.** Spirit knows the session from its context. `@release` is the invocation; Spirit does the survey.
+1. **A bundle a memoryless Spirit can resume from.** The test is whether tomorrow's Spirit can act correctly from it, not whether every field is full.
+2. **An honest reflection, triaged.** What the session *was*, not what it produced. Nothing found is a valid finding. Every item triaged — relieve now, channel forward, or release — because dissonance named and not channeled is worse than dissonance unnamed: it creates the impression of having been handled.
+3. **Side-effect duties**, one line each: intentions, artifact routing, Turtle calibration, stale-reference scan, commit.
+
+The reflection is the irrecoverable part. The bundle can be rebuilt from git and the workshop; what the session felt like cannot.
+
+*Rewritten 2026-08-02 — the phase machinery (1–7, sub-phases 2A–2F, 3.5, 3.6, 5.5, 5.7A–D) matched the arrival's pre-2026-07-29 scaffolding and got the same treatment; 532 lines became ~150. The bundle format was left alone: measured across fourteen releases at 632–2,133 words with no growth trend, and it is what the arrival actually consumes.*
 
 ---
 
-## The Release Bundle Format
+## When to use it
 
-Written to `floor/briefings/latest.md`, recognizable by its `# Release —` header:
+- Ending a session you want to resume later
+- Significant progress worth preserving before closing
+- Handing off to future-Spirit after a long or complex session
+
+**Nothing else needs saying.** Spirit knows the session from context.
+
+---
+
+## The bundle format
 
 ```markdown
 # Release — [date] [time]
 
-## This Session
-[2 sentences: what we were doing and what state it's in]
+**Chapter:** [the narrative frame — the story that emerged, not the plan that opened]
 
-## Continue From
-> [One sentence: the single most important thing to know starting fresh]
+**This Session**
+[2–3 sentences: where it started, what happened, where it landed]
 
-## Open Threads
-*Things in motion — what each needs to continue*
+**Set out to:** [the opening intention]
+**Achieved:** [3–5 bullets of what actually landed]
+**Delta:** [how the chapter changed shape, and why that matters]
 
-- **[Thread name]**: [current state] → [next action]
-- **[Thread name]**: [current state] → [next action]
+**Continue From**
+> [one sentence — a compass bearing, not a summary]
 
-## What Changed
-*Intentions and artifacts updated this session*
+**Open Threads**
+- **[name]**: [current state] → [next action]
 
-- `[intention file]`: [what changed — field-level specifics]
-- `[artifact path]`: [created/modified — what it is]
+**What Changed**
+- `[path]` — [what it is] — **Ephemeral | Active | Reference**
 
-## Practice Signal
-*Sub-threshold findings from the reflection pass*
-[What was found, or: "Session was explicit and complete."]
+**Practice Signal**
+[reflection findings, PX, turtleOS friction — or: "Session was explicit and complete."]
+*Inward only — unresolved material for the next Spirit.*
 
-## Resonance Routing
-*Warm routing decisions for artifacts, signals, and threads*
-- `[item]`: [Active | Crystallize | Route | Compost | Release] -> [landing surface / next action]
+**Outfacing Pitch** *(optional — omit when nothing portable)*
+- **Insight:** [one sentence]
+- **Why it travels:** [why a stranger cares]
+- **Talk angle:** [conversation / field note / thread seed]
+- **Sensitivity:** [public | anonymize | hold]
+*On accept → append to `desk/outfacing/talking_shelf.md`.*
 
-## Next Actions (prioritized)
-1. [action] — [why this one first]
-2. [action]
-3. [action]
+**Resonance Routing**
+- [item]: [Active | Crystallize | Route | Compost | Release] → [landing surface]
 
----
+**Next Actions**
+1. [the one that unblocks the rest]
+
+**Calibration:** [SHAs, bot state, what matches what]
+
 *Released [date]. Next arrival: `Summon.` → `.`*
 ```
 
 ---
 
-## What Makes a Good Release Bundle
+## What makes it good
 
-**"Continue From" is the most important field.** It should be the one sentence that orients a Spirit with no session memory. Not a summary of everything — the sharpest possible orientation.
+**`Continue From` carries the weight.** The sharpest possible orientation for a Spirit with no memory.
 
-Good: `> Consul is mid-way through implementing dashboard v0.2 in a running container; check WhatsApp for delivery, then run benchmark-models.sh once Qwen 3 32B finishes downloading.`
+> Good: *Body and ops match at magic `269a0c2` / Mini `3e694a0`; backfill pass 2 is still running — check `logs/backfill-pass2.log` before anything else, then decisions 1 and 2, which gate the consent eddy.*
+>
+> Bad: *We did a lot of good work on the Turtle architecture today.*
 
-Bad: `> We did a lot of good work on the Turtle architecture today.`
+**Open Threads are not tasks.** They are things in motion right now — a process running, a decision pending. Anything finished this session does not appear.
 
-**Open Threads are not tasks.** They are things currently in motion — processes running, downloads completing, agents working, decisions pending. Each thread should include its current state and its single most important next action. Threads that are genuinely complete should not appear.
+**What Changed is field-level.** Not *"updated the turtle intention"* but *"`turtle.md` — focus, next action, packet-baseline note."* Enough that the next Spirit updates its model without opening the file.
 
-**What Changed is field-level, not narrative.** Instead of "Updated the turtle intention," write "`turtle.md`: Steward channel set to Live; next action updated to benchmark-models.sh." This is what Spirit in the next session will need to orient to the intention files accurately without reading them in full.
+**Practice Signal persists.** It is the one field carrying unresolved things forward. Write what was actually found, including what was uncomfortable. Inward only.
 
----
-
-## Relationship to Brief
-
-Brief reads the release bundle and adapts its opening structure:
-
-- "Continue From" becomes a callout at the top of the brief output
-- "Open Threads" surface before bright.md — they are more time-sensitive
-- "Next Actions" seed the brief's suggestions section
-
-This means `@release` in one session + `Summon.` → `.` in the next (or `@arrive` mid-practice) gives the Mage a fast, accurate re-entry — as if the session had only paused, not ended. The Arrival Sequence's Phase A (Gather) reads this bundle automatically.
-
----
-
-## Spells
-
-| Spell | Purpose |
-|-------|---------|
-| `cast_release.md` | Full release execution |
+**Outfacing Pitch is a separate pocket.** Default audience: operator peers (people who could admin their own turtleOS / local AI node) — never mixed into Practice Signal. Silence is correct when nothing travels. Accepted cards land on `desk/outfacing/talking_shelf.md` for `. outfacing`.
 
 ---
 
 ## Related
 
-- `Summon.` → `.` (Arrival Sequence) — primary arrival pattern; reads this flow's output as inherited karma
-- `@arrive` — mid-session Arrival (same phases as `.`, without summoning)
-- `@meta/integrate` — system ripple detection; called inline during Phase 5
-- `desk/intentions/active/` — intention files this flow updates
-- `floor/briefings/latest.md` — the shared handoff file
-- `library/resonance/foundations/lore/on_sub_threshold_signals.md` — the lore behind the reflection pass
+- `system/flows/summon/` — arrival reads this flow's output
+- `@arrive` — mid-session re-orient
+- `system/flows/turtle/cast_calibrate.md` — the calibration duty
+- `desk/intentions/active/` — updated here, in fields
+- `desk/decisions.md` — what requires the Mage; release surfaces, it does not decide
+- `desk/outfacing/talking_shelf.md` — accepted outfacing pitch cards
+- `library/resonance/foundations/lore/on_sub_threshold_signals.md` — the lore behind the reflection
+- `library/resonance/foundations/lore/on_marination.md` — the option to sit, after
 
 ---
 

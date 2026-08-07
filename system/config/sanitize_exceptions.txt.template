@@ -1,0 +1,32 @@
+# sanitize_exceptions.txt — findings you have decided to keep.
+#
+#   cp system/config/sanitize_exceptions.txt.template system/config/sanitize_exceptions.txt
+#
+# One extended-regex per line, matched against the guard's OUTPUT lines, which
+# have the form  path/to/file.md:123:the matching text
+# Blank lines and # comments ignored. The copy you create is gitignored.
+#
+# Why this file exists at all: a guard that fires on something correct teaches
+# you to pass --no-verify, and a practitioner who has learned --no-verify has no
+# guard. The honest fix is to record the decision, not to weaken the rule.
+#
+# Why it is not simply a list inside scripts/sanitize.sh: the exceptions name
+# the very strings being protected. Writing them into tracked source would
+# publish them — which is the defect the name check itself was rewritten to
+# remove. Keep decisions here, mechanism there.
+#
+# Every run prints how many exceptions are active. That count is the thing to
+# watch: it should be small, and each line should be a decision you remember
+# making. Review it whenever it grows.
+#
+# WRITE THE PATTERN AGAINST THE TEXT, NOT THE WHOLE LINE. The path is part of
+# every output line, so a bare token also matches any file whose *name* contains
+# it — and then every finding in that file is exempt, including ones you never
+# decided about. Require the match to fall after the line number:
+#
+#   ^[^:]*:[0-9]+:.*legacy-id          # the id, wherever it is mentioned
+#   ^LICENSE:[0-9]+:Copyright          # or anchor to one path deliberately
+#
+# Prefer fixing the finding. Reach for this only when the finding is correct
+# and the cost of changing it is real — a published identifier, a filename with
+# inbound links, an artifact already in someone else's hands.

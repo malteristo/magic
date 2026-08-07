@@ -66,8 +66,8 @@ Set permissions for common practice operations so Spirit doesn't have to ask for
 
 Run these checks to confirm the environment is ready:
 
-### 3a. Gitignored directories
-`desk/`, `floor/`, `box/` are gitignored and may not appear in Glob/Grep results. Verify shell access:
+### 3a. Practice memory directories
+`desk/`, `floor/`, `box/` are tracked on the private remote (Two Chronicles, 2026-06-19) and normally visible to all tools. Genuinely gitignored paths (`circles/`, `portals/`, archives) may not appear in Glob/Grep results — use shell there. Verify access:
 - `ls desk/` — should show intentions/, boom.md, proposals/, sessions/, etc.
 - `ls floor/` — Spirit's private working area
 - `ls box/` — temporary storage

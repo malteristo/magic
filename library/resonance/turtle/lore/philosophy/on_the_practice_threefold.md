@@ -1,9 +1,12 @@
 # On the Practice Threefold
 
-**Status:** Active — Load-Bearing  
+**Status:** Lineage (2026-07-18) — demoted from load-bearing  
+**Current:** Product tiers live in rewritten `on_the_practice_stack.md` + turtleos `TURTLE_SPEC`; Spirit↔Turtle integration in `on_integrating_turtleos.md`.  
 **Origin:** Forge 38, 2026-04-14  
 **Builds on:** `on_the_practice_stack.md`, `on_the_attunement_spectrum.md`, `on_the_practitioner_journey.md`, `on_consciousness_extension.md`  
 **Resolves:** The unnamed convergence of five independent models onto one three-tier pattern
+
+> Do not load as operational guidance. Preserved as the five-model convergence that named the threefold pattern.
 
 ---
 

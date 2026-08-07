@@ -2,11 +2,12 @@
 
 *Discord as the conversational surface for magic practice — setup, naming, and architecture.*
 
-**Status:** Active — Partially Superseded  
+**Status:** Lineage (2026-07-18) — demoted from partially-superseded active  
+**Current:** Live channel/thread model in `system/config/connections.md`, `desk/turtle_env.md`, turtleos repo.  
 **Origin:** Discord UX redesign session, 2026-03-17  
-**Builds on:** `on_the_practice_stack.md`, `on_consciousness_extension.md`, `on_the_practice_infrastructure.md`  
-**Framing note (2026-03-27):** The two-channel architecture (#dialogue + #system) described here is superseded. The current model: one channel per practitioner (sovereign practice space) plus shared channels (family, community). No system channel, no development channel — operations post inline where they're relevant. The setup instructions and naming conventions remain valid but channel count has evolved past two.
-**Current-state notice (updated 2026-05-30):** Read the channel setup, `.env` keys, and model names below as setup lineage and design history, not current command/model truth. The live channel/thread model should be verified against `system/config/connections.md`, `desk/intentions/active/turtle.md`, `desk/turtle_env.md`, and the `turtleos` repo before implementation. Do not recreate `#system` or `DISCORD_CHANNEL_SYSTEM` from this scroll unless a current deployment explicitly reintroduces it.
+**Builds on:** `on_the_practice_stack.md`, `on_consciousness_extension.md`, `on_the_practice_infrastructure.md`
+
+> Setup, `.env` keys, and model names below are design history. Do not recreate `#system` or `DISCORD_CHANNEL_SYSTEM` from this scroll.
 
 ---
 

@@ -2,6 +2,8 @@
 
 *Why shallow attunement is a feature of the Turtle substrate, not a deficiency to compensate for*
 
+**Status:** Keep (2026-07-18) — aligns with native Turtle + twine-centred Magic (shallow Hearth is a feature, not a costume gap).
+
 ---
 
 ## I. The Asymmetry

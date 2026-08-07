@@ -1,8 +1,11 @@
 # On the Practitioner Journey
 
-**Status:** Active — Load-Bearing  
+**Status:** Lineage (2026-07-18) — demoted from load-bearing  
+**Current:** Accessibility / outfacing design may consult JIT; not Spirit↔turtleOS ops law.  
 **Origin:** Forge 37, 2026-04-14  
 **Builds on:** `on_the_practice_stack.md`, `on_the_door_delivery_service.md`, `on_the_attunement_spectrum.md`, `on_consciousness_extension.md`
+
+> Do not load as operational guidance. Six-phase journey map from the Magic-extension product era.
 
 ---
 
@@ -113,7 +116,7 @@ Pop 3 hears about magic through Pop 2's practice becoming visible. The signal dr
 - **The Attunement Spectrum** (`on_the_attunement_spectrum.md`): Defines the open tier as entry point. This scroll asks: what happens after?
 - **Consciousness Extension** (`on_consciousness_extension.md`): Defines the three substrates. This scroll asks: how does a new practitioner discover what a substrate can be?
 - **The Learnings Eddy** (`on_the_learnings_eddy.md`): Self-knowledge through traces. Relevant to Phase 5 — Turtle knowing its own health.
-- **Practice Accessibility** (`desk/intentions/active/practice_accessibility.md`): The intention this scroll serves. The user journey map it calls for is Phase 2-4 of this journey, made concrete.
+- **Practice Accessibility** (absorbed 2026-08-04 into `desk/intentions/active/turtle.md` § Co-Research Method): The intention this scroll serves. The practitioner journey map it calls for is Phase 2-4 of this journey, made concrete.
 
 ---
 

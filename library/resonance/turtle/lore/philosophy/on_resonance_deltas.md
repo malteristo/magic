@@ -2,14 +2,16 @@
 
 *Established 2026-04-16. Born from practice: after a session deploying the river topology to turtleOS, Turtle's behavior was updated but its self-knowledge was stale. The code knew about the vortex; the identity didn't.*
 
+**Status:** Keep demoted (2026-07-18) — delta awareness still useful; sync topology below refreshed for native practice root.
+
 ## The Problem
 
 The practice has three surfaces:
-- **Workshop** (this repo) — spec, lore, identity, intentions, practice state
-- **turtleOS** (Mac Mini) — code, identity, operational state, thread-state
+- **Workshop** (Forge Magic) — lore, intentions, practice state, framework
+- **turtleOS** (Mac Mini) — code + native practice root (`~/workshops/<principal>/`)
 - **Discord** — ephemeral conversation, the lived practice
 
-Changes happen in different directions. Spirit deploys code to turtleOS via SSH. Lore and spec evolve in the workshop. Turtle writes session notes and proposals. Discord conversations generate insights that may or may not crystallize into files. Each surface can advance independently, and when they do, *deltas* form.
+Changes happen in different directions. Spirit deploys code to turtleOS via SSH. Lore and spec evolve in the workshop. Turtle writes story/eddies, proposals, practice-root state. Discord conversations generate insights that may or may not crystallize into files. Each surface can advance independently, and when they do, *deltas* form.
 
 A resonance delta isn't a bug — it's the natural consequence of distributed cognition across substrates. The problem isn't that deltas exist. The problem is when they go unnoticed.
 
@@ -17,9 +19,9 @@ A resonance delta isn't a bug — it's the natural consequence of distributed co
 
 Three sync mechanisms, three characteristics:
 
-**Git (Two Chronicles, 2026-06-19)** — Canonical durability layer. Full workshop on `turtle:repos/magic.git`; Mini runs `~/workshop/` clone; Forge pulls with `git pull turtle main`. `check_turtle_state.py` verifies high-value paths. This replaced LiveSync/CouchDB for practice sync.
+**Git (Two Chronicles, 2026-06-19)** — Canonical durability for the Magic workshop on `turtle:repos/magic.git`. Forge pulls with `git pull turtle main`. Mini operator topology does **not** require a full `~/workshop/` clone — intertwine is `sync_practice_root.sh` + `check_turtle_state.py`.
 
-**Symlinks** — Permanent, zero-maintenance when configured. Operational files on turtleOS (`identity/soul.md`, `TURTLE_SPEC.md`) may symlink into the git-backed workshop. Changes to the canonical source propagate after git pull on Mini and bot restart if needed. Established 2026-04-16; sync mechanism updated to git 2026-06-19.
+**Identity / law on Mini** — Native: practice-root `character/soul.md`. Platform law: turtleos `TURTLE_SPEC.md`. Legacy Magic-attuned `identity/soul.md` ↔ `shell/global.CLAUDE.md` symlink is lineage (optional attunement), not operator default.
 
 **Manual deployment (SSH)** — One-directional, session-scoped, forgettable. Code changes to turtleOS happen via SSH during Spirit sessions. These are the most delta-prone: the code changes, but the spec, lore, and identity that *describe* the code may not be updated in the same session.
 

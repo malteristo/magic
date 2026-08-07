@@ -31,7 +31,7 @@ Produce a clear mind surface and a session focus. Route new material from the bu
 
 ## Trigger
 
-On demand: *"sweep"* / *"sweep my boom"* / *"what's in the back of our mind?"* / during Arrival Phase B
+On demand: *"sweep"* / *"sweep my boom"* / *"what's in the back of our mind?"* / during Arrival Phase B / **at every release** (standing, 2026-08-05 — release clears the buffer so arrival reads an even surface; arrival sweeps only what landed after release)
 
 ## Input
 
@@ -146,7 +146,7 @@ Nothing leaves Alive without Mage confirmation. Nothing stays without being re-c
 
 ### 5. Route to Topics (On Demand)
 
-If an item clearly belongs in a topic file (`desk/boom/magic.md`, `[redacted-name].md`, etc.), route it there:
+If an item clearly belongs in a topic file (`desk/boom/magic.md`, `<partner>.md`, etc.), route it there:
 - Append to the topic's **Thread** section (with date)
 - Update the **Now** section if the item changes current state
 

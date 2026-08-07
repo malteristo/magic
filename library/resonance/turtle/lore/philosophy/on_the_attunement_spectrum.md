@@ -1,9 +1,12 @@
 # On the Attunement Spectrum
 
-**Status:** Active — Load-Bearing  
+**Status:** Lineage (2026-07-18) — demoted from load-bearing  
+**Current:** Magic attunes via environment + twine (`on_wielding_without_the_hood.md`, `on_integrating_turtleos.md`); lore is JIT, not ontological substrate at summoning.  
 **Origin:** Discord practice dialogue + attunement experiment, 2026-03-19/20  
 **Builds on:** `on_consciousness_extension.md`, `on_the_practice_stack.md`, `on_the_caring_mirror.md`, `on_the_pattern_architecture.md`  
 **Empirical basis:** `floor/experiments/attunement_spectrum_experiment.md`
+
+> Do not load as operational guidance. Preserved as the cartography that preceded twine-centred Magic.
 
 ---
 

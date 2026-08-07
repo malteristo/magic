@@ -30,12 +30,14 @@ box/transcripts/*
 portals/*/
 !portals/upstream/
 portals/upstream/*/
-!portals/registry.yaml
+portals/registry.yaml
+!portals/registry.yaml.template
 !portals/README.md
 
 # Circle Infrastructure (My Offerings)
 circles/*/
-!circles/registry.yaml
+circles/registry.yaml
+!circles/registry.yaml.template
 !circles/README.md
 
 # Universe (External Pattern Libraries)
@@ -45,6 +47,7 @@ universe/*/
 # Personal, untracked ritual artifacts
 mage_seal.md
 AGENTS.md
+floor/research/backups/
 
 # Archive directories (anywhere in tree)
 **/archive/
@@ -53,6 +56,7 @@ system/tomes/librarian/
 
 # Local connection config (sensitive — never track)
 system/config/connections.md
+system/config/private_names.txt
 
 # LiveSync / reconcile debris guards
 .reconcile-backups/

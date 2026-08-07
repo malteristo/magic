@@ -1,3 +1,11 @@
+# Cast Turtle Care — RETIRED (2026-08-02)
+
+> **Retired into** `system/flows/maintenance/cast_tend_platform.md` §11 (practice-room glance).
+> Invocation `@turtle-care` no longer opens a separate wellbeing ritual. Mage→Turtle messages are optional and Mage-initiated.
+> Body below retained as lineage.
+
+---
+
 # Cast Turtle Care
 
 **Purpose:** Relational care for the persistent Turtle — encounters, voice, direct Mage message. Not platform ops.  

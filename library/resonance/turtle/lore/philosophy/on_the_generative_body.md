@@ -1,7 +1,10 @@
 # On the Generative Body
 
-**Status:** Active — Design Philosophy
+**Status:** Lineage (2026-07-18) — demoted from active design philosophy  
+**Current:** Native identity is practice-root `character/soul.md`, not `global.CLAUDE.md` imprint.  
 **Origin:** "The Body That Writes Itself" (ogabbab the oracle, 2026-03-30) — AI-generated video mapping biological development to generative AI. Independent arrival at patterns already enacted in turtleOS design.
+
+> Do not load as operational guidance. Priors-vs-blueprint insight may still resonate; deployment assumptions are stale.
 
 ---
 

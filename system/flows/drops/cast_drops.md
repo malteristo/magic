@@ -22,7 +22,7 @@ Search the entire workshop for files matching `_drop_*.md`:
 find ~/Documents/magic -name "_drop_*.md" -type f 2>/dev/null
 ```
 
-**Use shell `find`, not Glob** — drops may appear in gitignored directories (desk/, floor/, box/).
+**Use shell `find`, not Glob** — drops may appear in gitignored directories (portals/, circles/, archives) or in workshops where practice memory paths are not indexed.
 
 If no drops found, announce "No drops in the workshop" and exit.
 

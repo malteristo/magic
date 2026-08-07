@@ -1,0 +1,45 @@
+# Declared network listeners — the allowlist for scripts/listener_audit.sh
+#
+# An ALLOWLIST, not a blocklist: anything listening on a non-loopback address
+# that is not named here is reported. A blocklist silently exempts every
+# service nobody thought of, which is exactly how an undeclared one survives.
+#
+# Format:  <scope>:<port>   # what it is, and why it is allowed to be reachable
+#
+# <scope> is a label, never an address. Addresses live in connections.md.
+#   local  — the machine the practice root sits on
+#   add your own labels for other hosts you audit (one per machine)
+#
+# Adding a line here is a decision that a service may be reached over the
+# network. Make it deliberately: an entry is a standing grant, and the audit
+# will never mention that port again.
+#
+# ---------------------------------------------------------------------------
+# THIS IS THE TEMPLATE. Copy it before use:
+#
+#   cp system/config/declared_listeners.txt.template \
+#      system/config/declared_listeners.txt
+#
+# The working copy is gitignored, because which services a workshop runs is
+# that workshop's business and does not belong in a public repository. Edit
+# the copy; keep practice-level changes in this template. Ports ship as
+# mechanism, never as one practice's data.
+# ---------------------------------------------------------------------------
+
+# --- local: macOS system services, present on any Mac ---
+local:5000     # ControlCenter — AirPlay receiver (macOS built-in)
+local:7000     # ControlCenter — AirPlay receiver (macOS built-in)
+
+# --- your services: add below, one per line, each with a reason ---
+# local:8080   # example — a local dev server you deliberately expose
+#
+# Before adding an entry, ask the three questions that make it safe to grant:
+#   1. Does it need a non-loopback bind at all, or would 127.0.0.1 do?
+#   2. Does it authenticate? A private network is a smaller set of readers,
+#      not a trusted one.
+#   3. If it serves files, is containment checked on the RESOLVED path?
+#      A prefix check passes `desk/../../../.ssh/id_ed25519`.
+#
+# Note: rapportd (Apple Continuity) binds ephemeral high ports that change on
+# every boot, so it cannot be pinned to a number. It is matched by process
+# name in the script's SYSTEM_PROCS list, not by an entry here.

@@ -155,7 +155,7 @@ The trigger is still signal. The architecture amplifies it. The practice is the 
 
 When partners trigger each other ABOUT the child, the system gets complex.
 
-"I'm frustrated with [redacted-name]" might really be "I'm frustrated with how [redacted-name] handles [redacted-name]" which might really be "I'm frustrated with how MY mother handled ME."
+"I'm frustrated with my child" might really be "I'm frustrated with how my partner handles our child" which might really be "I'm frustrated with how MY mother handled ME."
 
 The child becomes the screen onto which partnership dynamics are projected. The mirror layer applies to both: What does my frustration with my partner's parenting reveal about me? What does my partner's frustration with my parenting reveal about them?
 

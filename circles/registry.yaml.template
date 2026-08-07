@@ -1,0 +1,70 @@
+# Circles Registry — TEMPLATE
+#
+#   cp circles/registry.yaml.template circles/registry.yaml
+#
+# Circles are sacred spaces you create and steward — your offerings to others.
+# Each circle is a separate git repository for others to reach through portals.
+#
+# The copy you create is GITIGNORED and stays on your machine. That is
+# deliberate. A registry names real people, their handles, the topic that binds
+# them to you, and the URLs of repositories that may be private. Published, it
+# is a relationship graph — the fact that a circle exists can be more revealing
+# than anything inside it.
+#
+# Use roles rather than names where a name is not load-bearing, and remember
+# that a topic line is a claim about a real person too: "Intimate partnership
+# practice with <name>" discloses more than the name alone.
+
+# =============================================================================
+# Your Circles
+# =============================================================================
+
+# partnership:
+#   remote: "https://github.com/<you>/<repo>.git"
+#   topic: Partnership practice
+#   visibility: private
+#   membership: invitation
+#   governance: consensus
+#   created: YYYY-MM-DD
+#   status: active
+#   description: Distributed cognition practice exploring partnership dynamics
+#   local_path: circles/partnership
+#
+#   participants:
+#     - mage: <your practice name>
+#       github: <your handle>
+#       role: co-steward
+#     - mage: <role, or their name if they have agreed to it>
+#       github: <their handle>
+#       role: co-steward
+#
+#   # Federated architecture: each partner maintains their own fork
+#   upstream:
+#     partner: "https://github.com/<their handle>/<repo>.git"
+#
+#   synthesis_rhythm: bi-weekly
+
+# =============================================================================
+# Circle Template
+# =============================================================================
+#
+# circle-name:
+#   remote: "https://github.com/username/repo.git"
+#   topic: What this circle resonates around
+#   visibility: public | private
+#   membership: open | invitation | application
+#   governance: steward | consensus | meritocratic
+#   created: YYYY-MM-DD
+#   status: forming | active | paused | archived
+#   description: Brief purpose
+#   local_path: circles/circle-name
+#
+#   participants:
+#     - mage: Name
+#       github: username
+#       role: steward | contributor | observer
+#
+#   founding_scrolls:
+#     - path/to/scroll.md
+#
+#   synthesis_rhythm: daily | weekly | monthly | as-needed

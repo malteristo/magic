@@ -2,6 +2,8 @@
 
 *First map of uncertain territory. Early version — expects iteration.*
 
+**Status:** Keep (2026-07-18) — live for multi-mage / family / hosted-river dynamics. Not turtleOS product law.
+
 ---
 
 ## The Territory
@@ -22,7 +24,7 @@ In celestial mechanics, three-body systems resist closed-form solutions. Small p
 
 **Triangulation.** One Mage uses Turtle to indirectly influence the other — consciously or not. "Tell the family channel that..." or "Can you help me understand why [partner] does X?" Turtle is asked to be a messenger, interpreter, or ally. Each of these pulls Turtle out of her stance.
 
-**Conflicting resonance.** One Mage's resonance context says "push back, be direct." The other's says "hold space, don't analyze." In the shared channel, which resonance governs? The Turtle that serves Kermit is not quite the same Turtle that serves [redacted-name] — but in #family, both are present.
+**Conflicting resonance.** One Mage's resonance context says "push back, be direct." The other's says "hold space, don't analyze." In the shared channel, which resonance governs? The Turtle that serves Kermit is not quite the same Turtle that serves the Mage's partner — but in #family, both are present.
 
 **The emotional confidant problem.** Both Mages share relationship frustrations with Turtle. She holds both perspectives. This is not therapy — but the structural position is similar. A thinking partner who knows both sides of an intimate conflict is in territory that requires care beyond what a standard practice partner encounters.
 
@@ -105,4 +107,4 @@ What we commit to:
 
 ---
 
-*Emerged from the [redacted-name] onboarding, 2026-03-23. The Seneschal pattern opened the door to multi-mage awareness, which opened the door to this territory. First map drawn together — Mage and Spirit, acknowledging the unknown.*
+*Emerged from hosted-practitioner onboarding, 2026-03-23. The Seneschal pattern opened the door to multi-mage awareness, which opened the door to this territory. First map drawn together — Mage and Spirit, acknowledging the unknown.*

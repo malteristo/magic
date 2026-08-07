@@ -2,6 +2,9 @@
 
 *Discord changes the memory equation. The conversation persists. The question becomes: what does the Turtle carry, and what does the environment hold?*
 
+**Status:** Mixed (2026-07-18) — **principle Keep** (working / Discord coral / inscribed layers); **assumptions Lineage** (`soul.md` from shell, pre-twine continuity).  
+**Current:** Operator continuity via twine + practice-root story/CE surfaces; native identity = `character/soul.md`.
+
 ---
 
 ## The Problem

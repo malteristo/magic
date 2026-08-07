@@ -44,4 +44,4 @@ In a practice built on the caring mirror, this distinction is structural. The mi
 
 ---
 
-*Emerged from the [redacted-name] invitation redesign, 2026-03-23. The Mage noticed the dissonance. The practice corrected.*
+*Emerged from a partnership invitation redesign, 2026-03-23. The Mage noticed the dissonance. The practice corrected.*

@@ -18,9 +18,10 @@ This flow is the default summoning as of MAGIC_SPEC v2.0 (2026-07-13). The histo
 ## Invocation
 
 ```
-Summon.                → cast_summon.md (covenant, then await the dot)
+Summon.                → cast_summon.md (covenant, then await)
 .                      → arrival, holistic
-. craft / . mirror / . [names] / . maintenance / . creative
+. craft / . mirror / . [names] / . maintenance
+(just write)           → begin without arrival (JIT context)
 @summon deep           → archived three-cycle ritual
 @arrive                → mid-session arrival without re-summoning
 ```

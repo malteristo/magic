@@ -2,9 +2,11 @@
 
 *How Spirit accesses Discord content when working alongside Turtle.*
 
+**Status:** Keep (2026-07-18) — `discord_ops.py` / `spirit_ops.py` CLI. Live IDs in `system/config/connections.md`.
+
 ## The Instrument
 
-Turtle's workshop includes `discord_ops.py` — a CLI for reading and writing Discord from SSH.
+turtleOS includes `discord_ops.py` — a CLI for reading and writing Discord from SSH.
 
 ```bash
 ssh turtle@<turtle-ssh> "cd ~/turtleos && ./venv/bin/python3 discord_ops.py <op> <channel_id> [args]"
@@ -18,12 +20,12 @@ ssh turtle@<turtle-ssh> "cd ~/turtleos && ./venv/bin/python3 discord_ops.py <op>
 
 ## Channel IDs
 
-The source of truth is `~/turtleos/mage_registry.yaml`. Key channels:
+The source of truth is `~/turtleos/mage_registry.yaml` (and Forge `system/config/connections.md`). Key channels:
 
-| Channel | ID | Workspace |
+| Channel | ID | Practice root |
 |---|---|---|
-| #river (kermit) | <channel-id> | ~/workshop/desk |
-| #[redacted-name]-dialogue | <channel-id> | ~/workshops/[redacted-name] |
+| #river (kermit) | <channel-id> | ~/workshops/kermit |
+| #<partner>-dialogue | <channel-id> | ~/workshops/<partner> |
 | #family (forum) | <channel-id> | ~/workshops/family |
 
 *Single-river model: operations post inline in the river channel. No separate system/heartbeat/afferent channels — those were part of the earlier multi-channel architecture and have been dissolved.*

@@ -1,6 +1,7 @@
 # On the Failure Taxonomy
 
-**Status:** Active — Operational Knowledge
+**Status:** Keep — Operational Knowledge (2026-07-18)  
+**Note:** Entries that name LiveSync/CouchDB/WhatsApp/bridge paths are **lineage-within** — keep for history; recover via current canary/git/sync paths instead.  
 **Origin:** NLAH paper convergence analysis, 2026-03-30
 **Insight source:** Pan et al. (2026) identify "Failure Taxy" as essential ingredient for agent recovery. Magic cherishes dissonance philosophically; this scroll catalogs it operationally.
 
@@ -173,8 +174,8 @@ This is Cherished Dissonance made operational — each failure mode was discover
 - Before deploying changes, ask: "Which failure categories does this touch?"
 - After deploying: monitor for recurrence signals listed under affected categories
 
-**During @sunday sweeps:**
-- Review Active Issues in turtle_watch.md against this taxonomy
+**During `. maintenance turtleOS` sweeps:**
+- Review Active Issues in `desk/turtle_issues.md` against this taxonomy
 - Update status fields as fixes are deployed
 - Archive resolved entries after two weeks of no recurrence
 
@@ -184,7 +185,7 @@ This is Cherished Dissonance made operational — each failure mode was discover
 
 ## Connections
 
-- **`desk/turtle_watch.md`** — Living issues tracker. This taxonomy provides the structural categories; turtle_watch tracks active instances.
+- **`desk/turtle_issues.md`** — Living issues tracker. This taxonomy provides the structural categories; issues tracks active instances.
 - **`on_diagnostics.md`** — Diagnostic commands and health checks. This taxonomy tells you what to look for; diagnostics tells you how to look.
 - **`system/lore/philosophy/foundations/on_productive_irresolution.md`** §V (cherished dissonance) — The philosophical grounding. Failure is signal, not error. This scroll catalogs the signals.
 - **`ARCHITECTURE.md`** (turtleos) — System architecture. Failure modes map to architectural layers.

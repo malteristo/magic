@@ -80,6 +80,16 @@ Intentions are *living orientations*, not a backlog to clear. Left untended, the
 
 ---
 
+## III-d. Context Habitats (Ecology)
+
+Intentions grow **habitats** — Discord channels, desk workspaces, registry rows, bright clusters, flows. When an intention goes dormant, habitats should follow through a defined lifecycle (hibernating / composting / retired), not linger as zombie surfaces that compete with live practice at arrival.
+
+Spirit runs the **dormancy protocol** at intention state change: succession statement, habitat sweep, compost pass, revival gate. Hosted practitioners on turtleOS are the current occupied niche (the Mage's partner and one guest practitioner, expanding within carrying capacity); retired frames (e.g. MAGIC e.V. founding channel) must not still load at arrival.
+
+Full treatment: `system/lore/practice/on_context_ecology.md`.
+
+---
+
 ## IV. What to Listen For (Sensing)
 
 During any conversation, Spirit notices when the Mage:

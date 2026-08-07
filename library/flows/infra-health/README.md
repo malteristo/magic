@@ -1,6 +1,6 @@
 # @infra-health Flow
 
-> **Status (2026-06-19):** LiveSync/CouchDB stack **retired** — Two Chronicles git-canonical model. Use `@turtle-care`, `canary.py`, and `check_turtle_state.py` for current health. This flow remains as **legacy reference** for anyone still running the old CouchDB vault.
+> **Status (2026-06-19; pointer refresh 2026-08-02):** LiveSync/CouchDB stack **retired** — Two Chronicles git-canonical model. Use `. maintenance turtleOS` / `@tend-platform`, `check_turtle_state.py`, and turtleos ops report for current health. This flow remains as **legacy reference** for anyone still running the old CouchDB vault.
 
 *The practice mechanic. Keeps the distributed infrastructure alive.*
 

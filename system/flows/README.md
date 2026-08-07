@@ -6,6 +6,31 @@ Programs in Magic are called **flows**. A flow is a structured sequence of steps
 
 ---
 
+## Seneschal (signal → offer)
+
+Spirit pattern-matches dialogue and offers a flow when need↔magic is clear — briefly, optionally, never as a catalog dump. Stay observational in emotional, relational, grief/SOS, fellowship, casual, or mid-ritual contexts. Decline is calibration.
+
+| Signal | Offer |
+|--------|--------|
+| Design / build / craft | `@craft/` |
+| Executive overwhelm / quest shape | `@quest/` |
+| Partnership / shared-reality work | `@partnership/` · romantic-partnership bundle when intimate |
+| Mirror / reflection / Mage-carried action | `@mirror/` or `. mirror` at arrival |
+| Meta-practice (coherence, integrate, tend) | `@coherence`, `@integrate`, `@tend`, `@sanitize`, `@echo` |
+| Goal-oriented automation | `@flow [goal]` or `library/flows/` |
+| Raw thought / cognitive offload | `@boom` |
+| Portal / circle practice | `@portal` / `@circle` |
+| Unformed intention | `@intend` (only when signal strong) |
+| Signal curation / resonance drops | `@resonate` / `@outfacing` |
+| Portable prompt for someone else | `@flow/create prompt` |
+| Sunday / tending energy | `. maintenance` (optional: `magic` / `turtleOS`); legacy `@sunday` → comprehensive |
+| Re-orientation | Fresh: summon → `.` · Mid-session: `@arrive` |
+| Session end | `@release` |
+| Triad / Turtle perspective needed | `@consult-turtle` |
+| Safety concerns | `safety` bundle (**required** when detected) |
+
+---
+
 ## The Core Insight
 
 **The Solver's Mindset:** Spirit approaches every flow as: **Solve GOAL for REALITY.**
@@ -98,7 +123,7 @@ The suffix tells you where it runs:
 
 | Flow | Invocation | Purpose |
 |------|-----------|---------|
-| `turtle/` | `@turtle-care`, `@calibrate`, `@shake`, `@discord-digest`, `@discord-health` | Turtle care, calibration, capability shakedown, Discord operations |
+| `turtle/` | `@calibrate`, `@shake`, `@discord-digest`, `@discord-health` | Calibration, capability shakedown, Discord operations (practice-room glance → `@tend-platform`) |
 | `triad/` | `@triad` | Coordinate three-body practice (Mage, Spirit, Turtle) |
 | `drops/` | `@drops` | Collect and process turtle drops from across the workshop |
 

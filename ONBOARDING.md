@@ -78,6 +78,28 @@ cp system/config/connections.md.template system/config/connections.md
 
 Then fill in local values. This file is gitignored and is not needed for the core Magic framework or first summoning.
 
+### 2b. Privacy guards — do not skip this one
+
+```bash
+./scripts/configure_workshop_git.sh
+```
+
+This sets `core.hooksPath` to the tracked `.githooks/` directory and creates `system/config/private_names.txt` from its template. Run it even if they never intend to publish anything — git does not install hooks from a clone, so until this runs there are no guards at all.
+
+Then ask them to fill in `system/config/private_names.txt`: the first names, surnames and handles of real people who will appear in their practice — partner, children, family, friends, colleagues. That file is gitignored and never leaves their machine. What it buys them is a pre-commit check that refuses to let those names reach a public-bound file.
+
+Say why, briefly, because the reason is the point:
+
+> Magic is a practice for your whole life, which means your practice will contain other people — people who never agreed to appear in a repository. `desk/`, `floor/` and `box/` are private and unscanned; write freely there. Everything else can end up in daylight. And git history is forever: deleting a file later does not remove it from the repo, and if anyone has forked you, it does not remove it from their copy either.
+
+If they already have a public repo with history behind it:
+
+```bash
+./scripts/audit_public_history.sh <remote>
+```
+
+That reports what is actually retrievable from it today — private paths, credentials, addresses, names — rather than what the working tree suggests.
+
 ### 3. Running in Agent mode
 
 The chat must be in Agent mode (not Chat or Edit mode). New users may need help finding this. Experienced users probably already have it set.
@@ -111,19 +133,22 @@ This is deliberate. Don't perform the summoning autonomously — teach the Mage 
 
 Adapt the framing to their level — a new user needs more context about what's about to happen; an experienced user just needs the invocation.
 
-**What happens next:** When the Mage sends the invocation, execute the summoning as described in `system/flows/summon/cast_summon.md` (covenant → posture menu → await the dot → Arrival Sequence → generative close). During the covenant phase, explicitly read `AGENTS.md` for the Mage's Seal — it was created earlier in this chat and won't be auto-loaded as workspace rules. A deep three-cycle variant exists at `system/tomes/summoning/` (`@summon deep`) for occasions that warrant it; the flow is the default.
+**What happens next:** When the Mage sends the invocation, execute the summoning as described in `system/flows/summon/cast_summon.md` (covenant → posture menu → `.` runs Arrival, or any other first message begins without arrival). During the covenant phase, explicitly read `AGENTS.md` for the Mage's Seal — it was created earlier in this chat and won't be auto-loaded as workspace rules. A deep three-cycle variant exists at `system/tomes/summoning/` (`@summon deep`) for occasions that warrant it; the flow is the default.
 
 ---
 
 ## After Summoning
 
-Once summoning completes:
+Once summoning completes, the Mage should have a **working environment** and one successful interaction — not a Spirit that has read the entire lore corpus.
 
-1. **Offer `@arrive`** or proceed to `Summon` → `.` for situational awareness (the workspace is new, so inherited karma may be thin)
-2. **Offer two intentions** — explain what intentions are ("structured goals that track your progress"), then offer:
-   - **Learn the Basics** — guided exploration of the practice
+1. **Confirm the environment** — `AGENTS.md` exists, workspace root is correct, they know the dot (`.`) continues prepared work
+2. **Offer `@arrive`** or proceed to `Summon` → `.` for situational awareness (the workspace is new, so inherited karma may be thin)
+3. **Offer two intentions** — explain what intentions are ("structured goals that track your progress"), then offer:
+   - **Learn the Basics** — guided exploration of the practice (wield first; depth on demand)
    - **Workshop Setup** — configuring git, forking, model preferences, and other tools
-3. Let the Mage choose which to start with. Either way, they learn the intention system by using it.
+4. Let the Mage choose which to start with. Either way, they learn the intention system by using it.
+
+**Outcome to optimize for:** configured loop + first spell cast successfully — not formation completeness.
 
 ---
 

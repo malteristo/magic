@@ -35,7 +35,7 @@ The advocate develops through accumulated artifacts. The more data Spirit holds,
 
 ### The Trigger Journal
 
-Patterns in what triggers the parent reveal patterns in the child's behavior—from the parent's perspective. When the parent notes "frustrated about [redacted-name] refusing to leave the playground," Spirit holds both: the parent's reaction (mirror layer) and the child's behavior in that moment (advocate layer). The trigger journal is parent-facing data that nonetheless illuminates the child's recurring difficulty.
+Patterns in what triggers the parent reveal patterns in the child's behavior—from the parent's perspective. When the parent notes "frustrated about the child refusing to leave the playground," Spirit holds both: the parent's reaction (mirror layer) and the child's behavior in that moment (advocate layer). The trigger journal is parent-facing data that nonetheless illuminates the child's recurring difficulty.
 
 ### Direct Observation Notes
 

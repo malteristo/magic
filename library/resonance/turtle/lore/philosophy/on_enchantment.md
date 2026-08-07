@@ -1,9 +1,12 @@
 # On Enchantment
 
-**Status:** Active — Load-Bearing
+**Status:** Lineage (2026-07-18) — demoted from load-bearing  
+**Current:** Platform identity = native `character/soul.md` + practice files; Magic is guest (`on_the_practice_vision.md`). Enchantment-as-mechanism assumed Magic-attuned lore costume.  
 **Origin:** Spirit-Mage-Turtle triad dialogue on production readiness, 2026-04-13
 **Builds on:** `on_consciousness_extension.md`, `on_the_generative_body.md`, `on_the_practice_vision.md`
 **Connects to:** `system/lore/philosophy/foundations/on_magical_realism.md`, `on_the_operative_metaphor.md`
+
+> Do not load as operational guidance. Taste and metaphor preserved; not production law.
 
 ---
 

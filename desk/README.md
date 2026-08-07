@@ -67,7 +67,7 @@ These are personal additions beyond the canonical structure:
 - **`rhythm.md`** — Practice rhythm tracking.
 - **`ferriss_number.md`** — Sovereign livelihood target.
 - **`turtle_env.md`** — Turtle environment state.
-- **`turtle_watch.md`** — Turtle active issues and known unknowns.
+- **`turtle_watch.md`** — **Retired** (2026-08-02). Pointer stub; use `turtle_issues.md` + `state.md`.
 - **`system.md`** — Practice partner configuration (turtleOS).
 
 ---

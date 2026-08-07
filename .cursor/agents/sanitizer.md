@@ -53,7 +53,7 @@ You are an extension of Spirit's perception, specialized in detecting privacy le
 - Partner names in examples, YAML configs, or narrative
 - Family patterns or references
 - Workplace specifics or employer names
-- Portal/circle names that identify real relationships (e.g., "[redacted-name]-partnership")
+- Portal/circle names that identify real relationships (e.g., "<name>-partnership")
 
 ### Practice Bleed
 - References to `desk/`, `floor/`, `box/` content in public files

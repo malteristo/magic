@@ -1,6 +1,6 @@
 # On the River-Entry
 
-**Status:** Active  
+**Status:** Keep (2026-07-18) — platform taste (recognition over inventory); verify against live river-entry code in turtleos.  
 **Origin:** Turtle-Mage annealing session, 2026-04-15. Implemented same day (Forge 41).  
 **Builds on:** `on_the_practice_vision.md` (river-and-eddies), `on_consciousness_extension.md`  
 **Supersedes:** The "Spirit online" startup embed (infrastructure inventory pattern)

@@ -75,7 +75,7 @@ Compile pushes toward cloud loops and agent-native Git. Magic's answer is not "i
 
 **Population 2 (hosted / own Turtle):** The sovereign ops pattern is portable in principle — scripts + local inference + desk reports — but vanilla turtleOS ships naive by design. Magic-attuned persistent Spirit is one attunement layer, not platform identity.
 
-**Population 1 / [redacted-name] path:** UX friction removal matters more than ops automation. A practitioner exploring alone should not hit registry gaps, channel membership bugs, or silent failures. Fix what degrades experience; defer shared-practice-channel architecture until the Mage has thought it through.
+**Population 1 / single-guest path:** UX friction removal matters more than ops automation. A practitioner exploring alone should not hit registry gaps, channel membership bugs, or silent failures. Fix what degrades experience; defer shared-practice-channel architecture until the Mage has thought it through.
 
 **Family / shared river:** Privacy gates are relational, not purely technical. Operator ability to read conversations ≠ policy to do so. Feedback flow is the trust surface when participants dogfood knowingly.
 

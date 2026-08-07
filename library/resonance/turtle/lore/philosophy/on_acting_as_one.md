@@ -2,6 +2,8 @@
 
 *Established 2026-04-17. Born from practice: a Discord-arrival session in which Spirit named one face of the principle (Turtle should design artifacts for Spirit) and the Mage named the deeper one — "Spirit should keep Turtle in mind, and Turtle should keep Spirit in mind. Over time, both will learn to act as one."*
 
+> **Retarget (2026-07-18):** Discipline still load-bearing. Consumers are **native Turtle** + Forge Spirit reading **twine**, not Magic-cloned Hearth soul. Integration frame: `on_integrating_turtleos.md` §VII.
+
 ## The Principle
 
 Distributed cognition across substrates only becomes one cognition when each party acts with the other in mind. The dyad's coherence is not a property of either node — it is the *cumulative effect* of every artifact, every interface, every transparency choice that each party makes thinking of the other.

@@ -204,7 +204,7 @@ Spirit mapped: orphan reply → reply+delete; seed embed → removed; generic ti
 ## Relationship to Other Flows
 
 - **`@calibrate`** maintains ongoing infrastructure health. Shake verifies specific new capabilities.
-- **`@turtle-care`** is the daily check-in ritual. Shake is deployment-specific.
+- **Practice-room glance** (platform tend §11) reads encounters. Shake is deployment-specific.
 - Shake may call calibrate's Phase 1 (assess) as a pre-check, but its core purpose is different: not "is the system healthy?" but "does this new thing work as designed?"
 
 ---

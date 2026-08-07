@@ -2,7 +2,7 @@
 
 *How the enchanted body learns about itself through traces of friction and resonance.*
 
-**Status:** Active
+**Status:** Keep demoted (2026-07-18) — friction→learning pattern may hold; “enchanted body” framing rides Lineage `on_enchantment.md`. Prefer turtleos `docs/learnings.md` for live harvest.  
 **Origin:** Spirit-Mage dialogue on bug tracking → learning reframe, 2026-04-13
 **Builds on:** `on_enchantment.md`, `on_the_practice_vision.md`, `on_practice_readiness.md`, `on_thread_eddies.md`
 **Connected to:** Two-track readiness model (TURTLE_SPEC §10), shell-shedding ritual

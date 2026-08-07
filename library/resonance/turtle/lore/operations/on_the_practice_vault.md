@@ -1,5 +1,7 @@
 # On the Practice Vault
 
+**Status:** Mixed (2026-07-18) — **native git topology Keep** (section below); **LiveSync body Lineage** (from “Legacy: LiveSync vault” onward).
+
 ## Status (2026-06-29): Native practice root — git host, no Mini clone
 
 **Forge Magic workshop** and **turtleOS native practice** are separate surfaces. The Mini hosts git; Turtle writes to `~/workshops/<principal>/`.

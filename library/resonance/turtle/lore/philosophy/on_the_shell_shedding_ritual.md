@@ -1,9 +1,12 @@
 # On the Shell-Shedding Ritual
 
-**Status:** Active — Load-Bearing
+**Status:** Lineage (2026-07-18) — demoted from load-bearing  
+**Current:** Shell/source change authority is turtleos `TURTLE_SPEC.md` §20 (self-development). Hermit-crab *principle* remains in `on_the_hermit_crab_architecture.md`.  
 **Origin:** Anvil session, 2026-03-30. Reframed 2026-03-31: shedding initiated from within, not imposed from without.
 **Builds on:** `on_the_hermit_crab_architecture.md`, `on_the_practice_stack.md`
 **Connected to:** `circles/me/writing/machines_of_loving_grace.md` (the north star vision)
+
+> Do not load as operational guidance. Ritual narrative preserved; do not treat as platform law.
 
 ---
 

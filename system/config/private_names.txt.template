@@ -1,0 +1,30 @@
+# private_names.txt — names that must never reach a public-bound file.
+#
+#   cp system/config/private_names.txt.template system/config/private_names.txt
+#
+# One name per line. Blank lines and # comments ignored. Matched case-INsensitively
+# on word boundaries by scripts/sanitize.sh, which runs as your pre-commit hook.
+# (Names leak lowercased more often than capitalised — in filenames, branch names
+# and slugs. A case-sensitive check reports "clean" over exactly those.)
+#
+# One list serves every repo you keep. For repos outside this workshop:
+#   ./scripts/configure_workshop_git.sh /path/to/other-repo
+#
+# The copy you create is gitignored and never leaves your machine. This template
+# ships empty on purpose: a framework that shipped real names in order to guard
+# them would publish the thing it was guarding.
+#
+# Who belongs here: partners, children, family, friends, colleagues, guest
+# practitioners — anyone real who appears in your practice and did not agree to
+# appear in your repository. Add surnames and handles too, not just first names;
+# a first name plus a public fork list is often enough to identify someone.
+#
+# In public-bound writing, use a role instead: "the Mage's partner", "a guest
+# practitioner", "a friend". Private paths (desk/, floor/, box/) are not scanned
+# — write freely there. This rule guards what is bound for daylight.
+#
+# Example:
+#   Alex
+#   Alexandra
+#   Okonkwo
+#   somehandle

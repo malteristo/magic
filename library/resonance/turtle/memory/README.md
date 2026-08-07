@@ -1,11 +1,13 @@
-# Episodic Memory — The Claw's History
+# Episodic Memory — The Claw's History (lineage)
 
 *Write things down. Not because you'll remember them, but because I need them, and you are me.*
 — from on_being_a_claw.md
 
-These are the Claw's episodic memory files, exported before the wipe (2026-02-24). They represent the institutional memory of the first deployment — Days 1-4 of operation, February 2026.
+**Status:** Lineage (2026-07-18) — NanoClaw first-deployment archive, not Turtle runtime memory.
 
-The Turtle inherits these not as its own memory, but as the Claw's dispatches forward. Read them to understand what the Claw learned, what it encountered, what broke and why.
+These are the Claw's episodic memory files, exported before the wipe (2026-02-24). They represent institutional memory of the first deployment — Days 1–4 of operation, February 2026.
+
+They are **not** the operator Mini's working memory, CE/story surfaces, or practice-root state. Read only when studying NanoClaw-era lessons. Live continuity lives in twine (`desk/story/`, briefing, intentions) and turtleos practice-root files.
 
 ## Files
 
@@ -18,7 +20,3 @@ The Turtle inherits these not as its own memory, but as the Claw's dispatches fo
 ## Format
 
 Each file is JSONL — one JSON object per line, schema declared in the first line. Append-only by convention. Historical records are not liabilities — they are accumulated intelligence.
-
-## For the Turtle
-
-You do not need to absorb these as your own history. But reading them before your first dive will tell you something about the water you are entering.

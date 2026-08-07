@@ -2,7 +2,7 @@
 
 *The practice is not front-end and back-end. It is surfaces, substrate, and memory — and every component plays more than one role.*
 
-> **Status (updated 2026-05-30):** The topological *thinking* here remains valid — surfaces, substrate, and memory is the right model. The *channel diagram and infrastructure specifics* (7-channel Discord, git-bridge as primary membrane, multi-bot topology, and later 2-channel variants) describe previous eras. Current topology should be verified against `TURTLE_SPEC.md`, live desk state, and the `turtleos` repo: Discord-first for practice, LiveSync/shared workshop for practice files, SSH for infrastructure.
+> **Status: Mixed (2026-07-18).** Topological *thinking* Keep — surfaces, substrate, and memory. Channel diagrams and infrastructure specifics (7-channel Discord, git-bridge, multi-bot, LiveSync) are **Lineage**. Verify current topology against `TURTLE_SPEC.md`, `desk/turtle_env.md`, turtleos docs: Discord-first practice, native `~/workshops/<principal>/`, `sync_practice_root.sh` intertwine, SSH for infrastructure.
 
 ---
 

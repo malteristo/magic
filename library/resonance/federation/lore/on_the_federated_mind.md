@@ -413,7 +413,7 @@ When Kermit says "brief me," Spirit doesn't just check files. It pulls from what
 OVERNIGHT ACTIVITY:
 
 Portals:
-- [redacted-name]-partnership: New reflection from [redacted-name] (personal, recommend reading)
+- partnership-circle: New reflection from the other Mage (personal, recommend reading)
 - containment-architecture: Convergence flagged—3 Mages independently noted 
   same failure mode in reward modeling. Draft synthesis awaiting review.
 - consciousness-research: Quiet night, no updates
@@ -432,7 +432,7 @@ Signals:
 
 Recommended actions:
 1. Review containment-architecture synthesis draft
-2. Read [redacted-name]'s reflection
+2. Read the partner's reflection
 3. Decide on @thoughtful_stranger—subscribe/ignore/engage?
 4. Approve/reject Tokyo introduction
 ```

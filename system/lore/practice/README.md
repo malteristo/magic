@@ -28,9 +28,11 @@ Ask: *who attunes to this?*
 Migration to a bundle is routing, not demotion. A turtleOS practice-architecture scroll is
 first-class — it simply attunes a different substrate.
 
-## Inventory (16 scrolls)
+## Inventory (18 scrolls)
 
 **Daily mechanics & session shape:**
+- `on_wielding_without_the_hood.md` — Post-Run 4 centre of gravity: word-power through crafted environment; experience forms wisdom; summoning as re-entry
+- `on_context_ecology.md` — Intention habitats, dormancy protocol, hosted-practitioner carrying capacity; succession from magic_ev founding
 - `on_boom_and_bright.md` — Raw capture, curated surface, cognitive coupling; buffer + conversational (turtleOS session) capture surfaces
 - `on_the_self_feed.md` — Spirit prepares context, Mage decides, Spirit executes
 - `on_practice_runtime_patterns.md` — Arrival-led, Tome-led, Flow-led, conversational practice
@@ -38,6 +40,11 @@ first-class — it simply attunes a different substrate.
 - `on_the_practice_fractal.md` — Capture/process/orient at three scales
 - `on_practice_alignment.md` — No correct practice shape; health reads observe
 - `on_distributed_memory.md` — Externalized memory, the two chronicles, memory metabolism
+
+**Design discipline** *(indexed 2026-08-06 — the first two had been written and never listed here, which is the shape all three describe):*
+- `on_wire_before_mechanism.md` — Before adding a gate, check what already written is going unread
+- `on_what_a_rule_does_not_cover.md` — Name the occasion, name the class, run a positive control
+- `on_evaluating_design.md` — What testing is for code, evaluations are for design; an evaluation without a named reader is another unread artifact
 
 **Practice safety & trust:**
 - `on_practice_security.md` — Cognitive security principles

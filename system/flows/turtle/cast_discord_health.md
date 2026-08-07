@@ -4,7 +4,7 @@
 **Invocation:** `@discord-health`  
 **Frequency:** During `. maintenance turtleOS`, or on-demand when Discord feels off  
 **Duration:** 5–10 minutes  
-**Output:** Health report presented to Mage; `desk/turtle_watch.md` updated with Discord-specific findings
+**Output:** Health report presented to Mage; findings land in `desk/turtle_issues.md` (bugs) or `desk/state.md` (session note) when they matter
 
 ---
 
@@ -109,19 +109,20 @@ Present findings as a structured dashboard:
 
 ---
 
-### Phase 4: Update turtle_watch.md
+### Phase 4: Record what matters
 
-Append Discord health findings to `desk/turtle_watch.md` under a dated section. Keep historical entries for trend tracking.
+- New bugs → `desk/turtle_issues.md`
+- Session-relevant status → one line in `desk/state.md` when maintenance is open
+- Code-shaped friction → `desk/proposals/` or craft backlog
 
-If new issues are found that require code changes, draft the fix and note it in `desk/proposals/` for next action.
+Do not maintain a separate Discord health log.
 
 ---
 
 ## Integration Points
 
-- **@maintenance / `. maintenance`:** Run platform tend slot; slot `@discord-health` after `@turtle-care` vitals when scope includes turtleOS.
-- **@turtle-care:** Reference Discord health if the last check was >3 days ago. Offer to run.
-- **Arrival:** Mention the last Discord health status in Situation Awareness.
+- **@maintenance / `. maintenance`:** Platform-tend slot when scope includes turtleOS.
+- **Arrival:** Mention Discord health only if last check found something open.
 - **On-demand:** When the Mage says "Discord feels off" or "check the bots" — invoke immediately.
 
 ---

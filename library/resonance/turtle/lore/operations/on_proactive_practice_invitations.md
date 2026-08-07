@@ -1,9 +1,10 @@
 # On Proactive Practice Invitations
 
-**Status:** Active — Design + Implementation  
+**Status:** Lineage (2026-07-18) — demoted from active design  
+**Current:** Native river retired pulse/interoception proactive embeds (`background.py` stubs). Do not treat as live product behavior.  
 **Origin:** Forge 37, 2026-04-14  
 **Builds on:** `on_the_practitioner_journey.md`, `on_the_zero_setup_encounter.md`  
-**Infrastructure:** `daily_reminders_loop` in `background.py`, `interoception_loop` (delegates to `pulse.py` for signal generation since 2026-04-15)
+**Infrastructure (era):** `daily_reminders_loop` / `interoception_loop` — retired for native operator path
 
 ---
 

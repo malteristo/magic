@@ -16,7 +16,7 @@
 
 `@flow/dnd_dm`
 
-- Must be invoked inside the target eddy (e.g., [redacted-name]-sandbox).
+- Must be invoked inside the target eddy (e.g., <practitioner>-sandbox).
 - The flow detects its own eddy context and scopes all behavior to it.
 - Subsequent messages in that eddy are processed under the DM persona until the flow is explicitly ended or the eddy is abandoned.
 
@@ -32,7 +32,7 @@ campaign/
 ├── current_scene.md         # Live scene (location, NPCs, tension, sensory details)
 ├── player_knowledge/
 │   ├── kermit.md
-│   └── [redacted-name].md
+│   └── <practitioner>.md
 ├── consequences.md          # Ledger of player actions with lasting effects
 ├── checkpoints/
 │   ├── <timestamp>_<label>.md

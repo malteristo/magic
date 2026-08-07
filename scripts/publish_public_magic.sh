@@ -47,46 +47,21 @@ if ! git remote get-url "$REMOTE" >/dev/null 2>&1; then
   exit 1
 fi
 
-ALLOWLIST_DIRS=(
-  system
-  library
-  scripts
-  .claude
-  .cursor
-)
+# What may be public is defined once, in scripts/public_surface.conf, and shared
+# with the pre-push guard and the sanitiser. This script used to carry four of
+# its own lists (ALLOWLIST_DIRS / ROOT_FILES / REGISTRY_FILES / RSYNC_EXCLUDES)
+# plus a BLOCKED regex, and they had drifted: `system/config/sanitize_exceptions.txt`
+# and `declared_listeners.txt` were created 2026-08-01, marked sensitive in
+# .gitignore, and named in none of them — `system/` is rsync'd wholesale from the
+# working tree, and rsync does not read .gitignore.
+# shellcheck source=/dev/null
+. "$ROOT/scripts/public_surface.sh"
 
-ROOT_FILES=(
-  README.md
-  MAGIC_SPEC.md
-  ONBOARDING.md
-  CLAUDE.md
-  CONTRIBUTING.md
-  FAQ.md
-  LICENSE
-  ACKNOWLEDGMENTS.md
-  TROUBLESHOOTING.md
-  TRANSLATION_AND_INTEGRATION_GUIDE.md
-  AGENTS.md.template
-  mage_seal.md.template
-  .gitmodules
-)
-
-REGISTRY_FILES=(
-  portals/registry.yaml
-  portals/README.md
-  circles/registry.yaml
-  circles/README.md
-  universe/README.md
-)
-
-RSYNC_EXCLUDES=(
-  --exclude '.DS_Store'
-  --exclude '.obsidian/'
-  --exclude '.trash/'
-  --exclude 'system/config/connections.md'
-  --exclude 'mage_seal.md'
-  --exclude 'AGENTS.md'
-)
+echo "Resolving public surface..."
+SURFACE="$(mktemp)"
+trap 'rm -f "$SURFACE"' EXIT
+ps_list_surface | sort > "$SURFACE"
+echo "  $(wc -l < "$SURFACE" | tr -d ' ') path(s) on the public surface"
 
 echo "Fetching $REMOTE..."
 git fetch "$REMOTE" "$BRANCH"
@@ -105,42 +80,41 @@ else
   git -C "$WORKTREE" reset -q --hard "$REMOTE/$BRANCH"
 fi
 
-echo "Syncing allowlisted paths..."
-for dir in "${ALLOWLIST_DIRS[@]}"; do
-  if [ ! -d "$ROOT/$dir" ]; then
-    echo "  skip missing dir: $dir"
-    continue
-  fi
-  mkdir -p "$WORKTREE/$dir"
-  rsync -a --delete "${RSYNC_EXCLUDES[@]}" "$ROOT/$dir/" "$WORKTREE/$dir/"
-done
+echo "Deriving worktree from the surface..."
+# A derivation, not an accumulation. The previous version rsync'd five
+# directories and copied some root files; anything already in the public repo
+# but no longer intended simply stayed there forever, which is why `archive/`
+# and two live registry.yaml files are in the public tree today while
+# public.gitignore claims to exclude them. Now the worktree is emptied of
+# tracked content and rebuilt from the surface, so what is published is exactly
+# what the config says. Removals show up in the diff below like any other change.
+find "$WORKTREE" -mindepth 1 -path "$WORKTREE/.git" -prune -o -type f -print0 \
+  | xargs -0 rm -f 2>/dev/null || true
 
-for file in "${ROOT_FILES[@]}"; do
-  if [ -f "$ROOT/$file" ]; then
-    cp "$ROOT/$file" "$WORKTREE/$file"
-  fi
-done
-
-for file in "${REGISTRY_FILES[@]}"; do
-  if [ -f "$ROOT/$file" ]; then
-    mkdir -p "$WORKTREE/$(dirname "$file")"
-    cp "$ROOT/$file" "$WORKTREE/$file"
-  fi
-done
+while IFS= read -r rel; do
+  [ -z "$rel" ] && continue
+  mkdir -p "$WORKTREE/$(dirname "$rel")"
+  cp "$ROOT/$rel" "$WORKTREE/$rel"
+done < "$SURFACE"
 
 cp "$ROOT/scripts/public.gitignore" "$WORKTREE/.gitignore"
 
 cd "$WORKTREE"
 git add -A
 
-BLOCKED=$(
-  git diff --cached --name-only --diff-filter=ACM \
-    | grep -E '^(desk|floor|box)/|(^|/)connections\.md$|^AGENTS\.md$|^mage_seal\.md$' \
-    || true
-)
+# Backstop. The staged tree is built from the surface, so this should never
+# fire — which is the point: it is the check that proves the derivation, and a
+# hit means the surface config and this script disagree about a path.
+BLOCKED=""
+while IFS= read -r path; do
+  [ -z "$path" ] && continue
+  [ "$path" = ".gitignore" ] && continue
+  is_public_surface "$path" || BLOCKED="${BLOCKED}${path}"$'\n'
+done < <(git diff --cached --name-only --diff-filter=ACM)
+
 if [ -n "$BLOCKED" ]; then
-  echo -e "${RED}BLOCKED: private paths would be published:${NC}" >&2
-  echo "$BLOCKED" >&2
+  echo -e "${RED}BLOCKED: staged paths are not on the public surface:${NC}" >&2
+  echo "$BLOCKED" | grep . | head -20 >&2
   exit 1
 fi
 

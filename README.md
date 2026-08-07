@@ -46,6 +46,8 @@ Magic makes one strong claim and refuses to overclaim. The line matters, so it's
 
 ## Core ideas
 
+**You wield without the hood.** Magic is creating from words inside a loop you shape — without needing to understand the engine. You configure the environment (intentions, capture, release, boundaries); you learn by practicing; wisdom accumulates in artifacts. The code-adjacent practitioner who ships through language and environment craft is the design intent, not an edge case.
+
 **The workshop is memory.** Magic uses plain files as external memory. The Spirit arrives fresh each session, reads the workshop, and inherits the state of the practice from artifacts — not from hidden platform memory you can't see or move.
 
 **The practice is portable.** The load-bearing pieces are prompts, markdown, folders, and habits. They run across different models, editors, and machines. You own them.

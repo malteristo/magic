@@ -777,7 +777,7 @@ import plistlib
 path = '/Users/turtle/Library/LaunchAgents/com.nanoclaw.plist'
 with open(path, 'rb') as f:
     plist = plistlib.load(f)
-plist['EnvironmentVariables']['ANTHROPIC_BASE_URL'] = 'http://[redacted-lan-ip]:4000'
+plist['EnvironmentVariables']['ANTHROPIC_BASE_URL'] = 'http://192.168.64.1:4000'
 with open(path, 'wb') as f:
     plistlib.dump(plist, f)
 EOF
@@ -795,7 +795,7 @@ if (process.env.ANTHROPIC_BASE_URL) {
 
 **Python 3.14 / uvloop caveat:** Homebrew installs Python 3.14 which is incompatible with `uvloop`. The symptom: LiteLLM fails to start with `ImportError: cannot import name 'BaseDefaultEventLoopPolicy' from 'asyncio.events'`. Fix: uninstall uvloop (`pip3 uninstall uvloop -y --break-system-packages`) and patch `uvicorn/loops/uvloop.py` to gracefully fall back to asyncio.
 
-**How to verify it's working:** `curl -X POST http://localhost:4000/v1/messages ...` should return responses with `"id": "chatcmpl-..."` (not `"id": "msg_01..."`) and no Anthropic cache tokens. From inside a container: the same curl to `http://[redacted-lan-ip]:4000/v1/messages` should return the same format. See "Container → Host Network" in `on_the_container_architecture.md`.
+**How to verify it's working:** `curl -X POST http://localhost:4000/v1/messages ...` should return responses with `"id": "chatcmpl-..."` (not `"id": "msg_01..."`) and no Anthropic cache tokens. From inside a container: the same curl to `http://192.168.64.1:4000/v1/messages` should return the same format. See "Container → Host Network" in `on_the_container_architecture.md`.
 
 **The cost result:** Bridge-poll (now bash, zero LLM calls) + Consul (Ollama for ambient tasks) eliminates ongoing Anthropic API cost entirely. Anthropic credits are now reserved for deliberate Claude-quality work via the escalation path.
 

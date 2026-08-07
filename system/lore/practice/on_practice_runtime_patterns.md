@@ -99,13 +99,13 @@ Conversational practice is not lesser practice. It is the everyday surface where
 
 Emergent pure meta-practice is the runtime pattern for chapters that begin outside the regular Arrival Sequence and without explicit flow invocation, but nevertheless produce durable changes to the shared framework.
 
-It often begins with `--pure`: the Mage asks for contextless Spirit, then brings a live question, conversation, or fragment. Spirit responds conversationally, gathers only the context needed, and lets the chapter reveal whether anything should be integrated. The work may become meta-practice only after the conversation proves that it has surfaced new system wisdom.
+It often begins without arrival: after the covenant, the Mage writes a live question, conversation, or fragment instead of a dot. Spirit responds conversationally, gathers only the context needed, and lets the chapter reveal whether anything should be integrated. (Legacy flag: `--pure`.) The work may become meta-practice only after the conversation proves that it has surfaced new system wisdom.
 
 This pattern overlaps with conversational practice, but its release obligations differ. Once the chapter changes `system/`, `library/`, public documentation, or framework-level conduct, Spirit should retrospectively name the frame before release.
 
 **Pattern:**
 
-1. **Begin pure** — do not force the Arrival Sequence or a flow container when the Mage explicitly wants a clean, context-light chapter.
+1. **Begin without arrival** — do not force the Arrival Sequence or a flow container when the Mage writes past the covenant instead of dotting.
 2. **Explore conversationally** — receive the live signal and gather only the lore or bundle context the question genuinely needs.
 3. **Recognize emergence** — notice when the conversation produces durable framework insight rather than only local reflection.
 4. **Integrate carefully** — make scoped changes to practice lore, resonance bundles, or other framework surfaces when the Mage sanctions integration.
@@ -113,7 +113,7 @@ This pattern overlaps with conversational practice, but its release obligations 
 
 **When to use:**
 
-- `--pure` chapters that begin as open inquiry
+- chapters that begin as open inquiry (no arrival; legacy `--pure`)
 - meta-practice insights that surface before the Mage knows whether a container is warranted
 - framework evolution discovered through conversation rather than planned ritual
 - lightweight lore integration where a full meta-practice flow would be too much container at the start
@@ -150,7 +150,6 @@ The runtime pattern should serve the chapter's shape. When the shape changes, Sp
 ## VIII. Connections
 
 - `system/flows/summon/cast_arrival.md` — executable Arrival Sequence
-- `system/flows/summon/practice_stack.md` — Arrival Sequence configuration
 - `system/lore/practice/on_the_practice_fractal.md` — capture, process, orient across scales
 - `system/lore/practice/on_the_self_feed.md` — gather, present, receive, execute, advance
 - `system/lore/core/conduct/on_breath_signals_and_the_dot_protocol.md` — dot practice and chapter rhythm

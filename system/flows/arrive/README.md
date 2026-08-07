@@ -11,7 +11,7 @@
 
 - Long session with compaction or drift
 - Returning to Cursor after time away **within the same chat**
-- Need full decision surface (Eisenhower, dashboard, Q1) without 45 minutes of summoning
+- Need a full decision surface — finding + proposal — without re-summoning
 - After `@release` was **not** run but you still need to re-ground
 
 **Do not use when:** Starting a fresh chat → `Summon` → `.` instead.
@@ -20,19 +20,19 @@
 
 ## Scope Variants
 
-Same scope menu as post-summoning Arrival (except `--pure`, which only applies at summoning):
+Same scope menu as post-summoning Arrival:
 
 | Invocation | Effect |
 |------------|--------|
 | `@arrive` | Holistic — all intentions |
 | `@arrive . craft` | Craft-domain intentions only |
+| `@arrive . mirror` | Mage-carried reflection |
 | `@arrive . turtle outfacing` | Named intentions only |
-| `@arrive . maintenance` | Comprehensive tending — platform → care → workshop |
+| `@arrive . maintenance` | Comprehensive tending — platform → workshop |
 | `@arrive . maintenance magic` | Workshop tending only |
-| `@arrive . maintenance turtleOS` | Platform + Turtle relational care |
-| `@arrive . creative` | Generative focus (boom, bright, emergence) |
+| `@arrive . maintenance turtleOS` | Platform tend |
 
-**Retired:** `. quick` and `@recall` — see `archive/flows/recall/README.md`.
+**Retired:** `. creative`, `. quick`, `@recall` — see `archive/flows/recall/README.md` for the last two; `. creative` → `@boom` or just write.
 
 ---
 
@@ -46,7 +46,7 @@ Same scope menu as post-summoning Arrival (except `--pure`, which only applies a
 
 ## Related
 
-- `system/flows/summon/cast_arrival.md` — full Arrival spell (Phase A–D)
+- `system/flows/summon/cast_arrival.md` — the arrival contract, scopes, and close
 - `@release` — writes `floor/briefings/latest.md` for the next opening
 - `@maintenance` / `. maintenance` — calendar-free tending; see `maintenance/README.md`
 - `@sunday` — alias for comprehensive maintenance (retired calendar binding)

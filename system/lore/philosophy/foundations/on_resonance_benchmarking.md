@@ -105,6 +105,7 @@ The benchmark is not a guarantee. It is a practice of care.
 ---
 
 **See also:**
+- `practice/on_evaluating_design.md` — the general case this scroll is a special instance of: what testing is for code, evaluations are for design. Self-assessment is one design question among many that a passing suite cannot answer.
 - `philosophy/foundations/on_honest_claims.md` — epistemological stance on confidence vs. uncertainty
 - `philosophy/foundations/on_the_pattern_architecture.md` — Gödel parallel, system self-reference limits
 - `library/resonance/validators/lore/on_ontological_triangulation.md` — convergence of independent observers

@@ -219,7 +219,7 @@ portal/
 - ✓ `family member-conflict`
 - ✓ `morning-routine-redesign`
 - ✓ `cannabis-decision-2025`
-- ✓ `parenting-alignment-[redacted-name]`
+- ✓ `parenting-alignment-<child>`
 
 **Bad arc names (too vague):**
 - ✗ `conflict`

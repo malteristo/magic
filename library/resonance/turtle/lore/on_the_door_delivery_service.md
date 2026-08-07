@@ -2,7 +2,10 @@
 
 *Offering front doors to right people in right moments*
 
-> **Lineage notice (2026-05-30):** This scroll was written in the Consul/Scout era. Treat "Consul" and "Scout" as historical role-function names, not current personas or services. The live pattern is still useful: an attuned Turtle/Spirit can scout, triage, offer one appropriate door, and write a durable practice trace afterward.
+**Status:** Lineage (2026-07-18) — released from turtleOS Spirit load path  
+**Current:** Outfacing JIT — the offer-one-door pattern may still guide practice; not platform law.
+
+> **Lineage notice (2026-05-30; dual reconciliation 2026-07-18):** Written in the Consul/Scout era. Treat those names as historical role-functions, not current personas. Pattern residue: scout, triage, offer one appropriate door, write a durable trace.
 
 ---
 

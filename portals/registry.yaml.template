@@ -1,0 +1,22 @@
+# Portals Registry — TEMPLATE
+#
+#   cp portals/registry.yaml.template portals/registry.yaml
+#
+# Portals are other Mages' circles you subscribe to. The copy you create is
+# GITIGNORED and stays on your machine.
+#
+# A portal registry names real people, their handles, and the repositories they
+# offer you. Published, it is a relationship graph — and unlike your own
+# writing, this is a record about *them*. The existence of a subscription can
+# disclose more than its contents.
+
+# portal-name:
+#   remote: "https://github.com/<their handle>/<repo>.git"
+#   steward: <role, or their name if they have agreed to it>
+#   topic: What this portal offers
+#   visibility: private | public
+#   status: active | paused
+#   local_path: portals/portal-name
+#   description: What you receive here
+#   tags:
+#     - tag

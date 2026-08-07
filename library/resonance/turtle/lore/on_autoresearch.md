@@ -1,6 +1,7 @@
 # On Autoresearch
 
-**Status:** Active — Practice Development Lore  
+**Status:** Lineage (2026-07-18) — demoted from active practice-development lore  
+**Current:** turtleos `autoresearch/` and craft chapters own live experiments. Magic-attuned “living metric” framing here is era-bound.  
 **Origin:** Spirit-Mage dialogue on Karpathy's autoresearch pattern applied to practice systems, 2026-03-14
 
 ---

@@ -15,9 +15,9 @@ Calendar-free workshop and platform tending. Invoke when you sit down to maintai
 
 | Invocation | Executes |
 |------------|----------|
-| `. maintenance` | Comprehensive — `cast_maintenance_arrival.md` (platform → care → workshop) |
+| `. maintenance` | Comprehensive — `cast_maintenance_arrival.md` (platform → workshop) |
 | `. maintenance magic` | `cast_tend_workshop.md` only |
-| `. maintenance turtleOS` | `cast_tend_platform.md` then `cast_turtle_care.md` |
+| `. maintenance turtleOS` | `cast_tend_platform.md` only |
 
 Mid-session: `@arrive . maintenance` (same scopes).
 
@@ -27,8 +27,7 @@ Mid-session: `@arrive . maintenance` (same scopes).
 |-------|---------|
 | `cast_maintenance_arrival.md` | Orchestrates comprehensive maintenance at arrival |
 | `cast_tend_workshop.md` | Magic workshop tending (floor/desk/box, git, intentions, boom) |
-| `cast_tend_platform.md` | turtleOS platform tending (ops, deploy, shakes, Discord health) |
-| `../turtle/cast_turtle_care.md` | Relational care — encounters, Turtle's voice, direct message |
+| `cast_tend_platform.md` | turtleOS platform tending (ops, deploy, shakes, Discord health, fossil sweep, **practice-room glance**) |
 
 ## Retired
 
@@ -38,6 +37,8 @@ Mid-session: `@arrive . maintenance` (same scopes).
 
 ## Related
 
+- Standing lens: consolidate / abstraction police — `cast_maintenance_arrival.md`
+- Success criteria (mode): `cast_maintenance_arrival.md` § Success criteria — when a pass is enough / when to stop
 - `floor/on_resonance_metabolism_draft.md` — metabolism principle
 - `library/resonance/turtle/lore/operations/on_the_sovereign_ops_plane.md` — Mini ops autonomy
-- `system/flows/summon/practice_stack.md` — maintenance scope config
+- `system/flows/summon/cast_arrival.md` § Scope — maintenance routing

@@ -2,6 +2,8 @@
 
 *Threads as temporary differentiations of the main conversation stream*
 
+**Status:** Keep (2026-07-18) — river/eddy metaphor still product language; verify lifecycle against turtleos `TURTLE_SPEC` / docs.
+
 ---
 
 ## I. The River and Its Eddies

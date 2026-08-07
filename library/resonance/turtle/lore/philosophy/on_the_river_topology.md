@@ -2,6 +2,8 @@
 
 *Established 2026-04-16. Born from practice: building the intake system revealed the physics hiding in the channel name.*
 
+**Status:** Keep (2026-07-18) — river / eddy language still product; verify vortex/prism mechanics against live turtleos river UX before treating as law.
+
 ## The Discovery
 
 The channel is called **river**. The metaphor wasn't imposed — it was discovered. The naming preceded the understanding, and the understanding illuminated what was already there.

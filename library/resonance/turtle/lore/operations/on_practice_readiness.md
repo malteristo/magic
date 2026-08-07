@@ -2,7 +2,8 @@
 
 *How the persistent substrate knows whether it's ready to serve — and how it gets better at serving over time.*
 
-**Status:** Active — Load-Bearing
+**Status:** Keep — Ops reference (2026-07-18); demoted from Load-Bearing  
+**Current:** Verify dimensions and rhythms against turtleos `readiness.py`, `TURTLE_SPEC.md`, and live canary — do not treat this scroll as law.  
 **Origin:** Spirit-Mage dialogue on Discord interaction quality and self-improvement through reflection, 2026-03-26
 **Builds on:** `on_the_practice_vision.md`, `on_consciousness_extension.md`, `on_autoresearch.md`
 **Incorporates:** `on_turtle_metabolism.md` (§VIII) and `on_turtle_probes.md` (§IX) — synthesized during distillation

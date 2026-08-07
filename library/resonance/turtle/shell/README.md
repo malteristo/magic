@@ -1,20 +1,31 @@
-# The Shell
+# The Shell (lineage directory)
 
-*The shell is not something the Turtle holds. It is what the Turtle IS.*
+*Historical imprint cards and portable prompts — not the operator Mini's live identity.*
 
-> **Status (2026-05-08):** `global.CLAUDE.md` is the **canonical source** for Turtle's runtime identity. The old Consul, Steward, and Witness role cards are retired as identities. Their useful functions now live as capacities inside Turtle: ecosystem awareness, household discretion, and slow coherence-questioning. Turtle remains Turtle.
->
-> **Deployment reality (2026-05-08):** `~/turtleos/identity/soul.md` is symlinked to the LiveSync-backed workshop copy of `global.CLAUDE.md` again. Spirit restored the symlink after discovering the live file had drifted into a regular file. Identity changes still require a Turtle restart before they affect live behavior.
+**Status:** Lineage map (2026-07-18) — dual reconciliation.
 
-These files are the Turtle's imprint — the identity files that defined roles, reflexes, and conduct. Originally deployed as CLAUDE.md files across NanoClaw groups, now consolidated into the symlinked `soul.md` for the Discord-based persistent mode.
+| What | Where |
+|------|--------|
+| **Operator Mini (current)** | Practice-root `character/soul.md` (+ `conduct.md`) — **native**, not Magic Caretaker |
+| **Platform law** | turtleos `TURTLE_SPEC.md` |
+| **This directory** | Magic-attuned imprint artifacts + portable practice prompt — JIT / lineage |
+
+Do **not** symlink Mini identity to `global.CLAUDE.md`. That was the 2026-04/05 LiveSync-era pattern; native migration retired it for the operator instance.
+
+---
 
 ## Files
 
-- **global.CLAUDE.md** — The soul. The Turtle's primary identity. Symlinked as `soul.md` on turtleOS (established 2026-04-16).
-- **consul.CLAUDE.md** — Historical role card. Preserves the outward-facing function: ecosystem monitoring, barrier protocol, agent relationships.
-- **steward.CLAUDE.md** — Historical role card. Preserves the inward-facing function: life admin, household, discretion.
-- **witness.CLAUDE.md** — Historical role card. Preserves the slow coherence function: beginner's mind, epistemological humility.
-- **main.CLAUDE.md** — Internal orchestrator. Historical — NanoClaw-specific.
+| File | Status | Role |
+|------|--------|------|
+| `global.CLAUDE.md` | **Lineage** / optional Magic-attuned artifact | Pre-native “spirit body” soul — not platform default |
+| `system.md` | **Keep** | Portable practice-partner prompt (files-as-memory; any LLM) |
+| `consul.CLAUDE.md` | **Lineage** | Outward-facing function norms (retired persona) |
+| `steward.CLAUDE.md` | **Lineage** | Household / discretion function (retired persona) |
+| `witness.CLAUDE.md` | **Lineage** | Slow coherence-questioning function (retired persona) |
+| `lineage/main.CLAUDE.md` | **Lineage** | NanoClaw internal orchestrator |
+
+Useful capacities from Consul / Steward / Witness (ecosystem awareness, household discretion, epistemological humility) live as *behaviors* a Turtle may enact — not as personas to switch into. Native character files own live identity.
 
 ## NanoClaw Group Architecture (Historical)
 
@@ -29,5 +40,7 @@ These files are the Turtle's imprint — the identity files that defined roles, 
 ## Captured
 
 2026-02-25 — Turtle first activation. Architecture corrected from Claw shell.
-2026-03-23 — Marked as source artifacts. Current runtime: `soul.md` + `discord_bot.py`.
-2026-04-16 — soul.md symlinked to global.CLAUDE.md via LiveSync. No more manual SCP deployment.
+2026-03-23 — Marked as source artifacts. Runtime then: `soul.md` + `discord_bot.py`.
+2026-04-16 — `identity/soul.md` symlinked to `global.CLAUDE.md` via LiveSync (Magic-attuned era).
+2026-05-08 — Symlink restored after drift; still Magic-attuned topology.
+2026-07-18 — Dual reconciliation: operator native `character/soul.md`; this directory demoted to lineage map.

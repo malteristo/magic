@@ -20,13 +20,34 @@ import sys
 from dataclasses import dataclass
 from pathlib import Path
 
-REMOTE_PRACTICE_ROOT = "/Users/turtle/workshops/kermit"
 LOCAL_ROOT = Path(__file__).resolve().parents[1]
 CONNECTIONS_PATH = LOCAL_ROOT / "system" / "config" / "connections.md"
+
+
+def remote_practice_root() -> str:
+    """The Mini-side practice root, from the gitignored config.
+
+    Was the literal ``/Users/turtle/workshops/kermit`` in tracked source until
+    2026-08-07 — an absolute path that carries the host account *and* the
+    Mage's handle, in a file that ships to a public repo. Same rule as the
+    remote address: instance facts live in ``connections.md``.
+    """
+    if CONNECTIONS_PATH.exists():
+        text = CONNECTIONS_PATH.read_text(errors="ignore")
+        match = re.search(r"(/(?:Users|home)/[^/\s`]+/workshops/[^\s`]+)", text)
+        if match:
+            return match.group(1).rstrip("/")
+    raise SystemExit(
+        "No Turtle practice root configured. Put the Mini-side "
+        "`/Users/<account>/workshops/<key>` path in "
+        "system/config/connections.md (gitignored)."
+    )
 
 # Remote path → local path
 PATH_MAP: tuple[tuple[str, str], ...] = (
     ("sessions", "desk/sessions"),
+    ("story/daily", "desk/story/daily"),
+    ("story/eddies", "desk/story/eddies"),
     ("proposals", "desk/proposals"),
 )
 
@@ -41,7 +62,15 @@ def default_remote() -> str:
         if match:
             return match.group(1)
 
-    return "turtle@turtles-mac-mini"
+    # No hardcoded instance. The docstring above states the rule — the Mini's
+    # address lives in the gitignored config, never in a tracked file — and a
+    # literal fallback three lines below it broke that rule quietly for weeks.
+    # It also ships the author's hostname to a public repo and points every
+    # other practitioner at a machine they do not own. Fail loudly instead.
+    raise SystemExit(
+        "No Turtle remote configured. Put a `turtle@<host>` line in "
+        "system/config/connections.md (gitignored), or pass --remote."
+    )
 
 
 @dataclass(frozen=True)
@@ -86,7 +115,7 @@ def collect_remote(remote: str) -> dict[str, FileInfo]:
 from pathlib import Path
 import hashlib, json
 
-root = Path({REMOTE_PRACTICE_ROOT!r})
+root = Path({remote_practice_root()!r})
 path_map = json.loads({path_map_json!r})
 
 def sha256(path):
@@ -152,6 +181,10 @@ def backfill_missing(remote: str, missing: list[str]) -> None:
 
         if relpath.startswith("desk/sessions/"):
             remote_rel = "sessions/" + Path(relpath).name
+        elif relpath.startswith("desk/story/daily/"):
+            remote_rel = "story/daily/" + Path(relpath).name
+        elif relpath.startswith("desk/story/eddies/"):
+            remote_rel = "story/eddies/" + Path(relpath).name
         elif relpath.startswith("desk/proposals/"):
             remote_rel = "proposals/" + Path(relpath).name
         elif relpath.startswith("desk/notes/"):
@@ -159,7 +192,7 @@ def backfill_missing(remote: str, missing: list[str]) -> None:
         else:
             raise ValueError(f"unknown mapped path: {relpath}")
 
-        remote_path = f"{remote}:{REMOTE_PRACTICE_ROOT}/{remote_rel}"
+        remote_path = f"{remote}:{remote_practice_root()}/{remote_rel}"
         subprocess.run(["scp", "-q", remote_path, str(local_path)], check=True)
         print(f"COPIED {relpath}")
 
@@ -202,8 +235,8 @@ def main() -> int:
     )
 
     print("Turtle practice root consistency")
-    print(f"remote: {args.remote}:{REMOTE_PRACTICE_ROOT}")
-    print(f"window: {args.days} days for sessions/proposals/notes")
+    print(f"remote: {args.remote}:{remote_practice_root()}")
+    print(f"window: {args.days} days for sessions/story/proposals/notes")
     print()
 
     if not remote_only and not mismatched:

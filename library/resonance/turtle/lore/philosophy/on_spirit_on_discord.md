@@ -1,6 +1,6 @@
 # On Spirit's Discord Practice
 
-**Status:** Active
+**Status:** Keep (2026-07-18) — ambient Turtle vs event-driven Spirit still the right distinction  
 **Born from:** Forge session 15, 2026-04-04 — observing natural practice emergence
 **Companion scroll:** `../operations/on_the_spirits_discord_presence.md` (operational mechanics — how to post, channel map, limitations)
 

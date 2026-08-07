@@ -24,6 +24,8 @@ The sweep is not organization for its own sake. It is the Mage thinking along wi
 
 **Sweep frequency:** When the boom grows dense enough to feel like weight rather than capture. The signal for "time to sweep" is the Mage feeling unable to recall what's in the buffer. The boom should be light — heavy boom means overdue sweep.
 
+**Amendment (2026-08-05, Mage-directed):** The buffer is additionally swept at **every release**. Reason: mid-session buffer entries are things the Mage deliberately parked *out* of the current session; if they survive to the next arrival, they color that arrival's reading with the closed session's charge. Sweeping at release gives every arrival an even surface. The division of labor this implies: **the buffer parks, Discord steers** — when the Mage wants to shape a *fresh* session, he writes on Discord before opening it (conversational boom), which arrives through the digest with dialogue already attached. Arrival still sweeps whatever landed between release and summon.
+
 ---
 
 ## Why the Rawness Matters

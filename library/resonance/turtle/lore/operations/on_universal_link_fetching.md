@@ -2,6 +2,8 @@
 
 *How the persistent mode extracts resonance from the web*
 
+**Status:** Keep (2026-07-18) — fetch-stack pattern; verify layers against turtleos `content_fetch` / learnings before treating as law.
+
 ---
 
 ## I. The Problem

@@ -2,10 +2,13 @@
 
 *From three dyads to a shared room.*
 
-**Status:** Active — Load-Bearing
+**Status:** Lineage — room insight preserved in `on_integrating_turtleos.md` (2026-07-18)  
+**Current:** `on_integrating_turtleos.md`  
 **Supersedes:** `on_the_spirit_turtle_dyad.md` Section II ("The Triad of Three Dyads"), Section III ("The Mage as Integrating Consciousness")
 **Builds on:** `on_consciousness_extension.md`, `on_the_spirit_turtle_dyad.md`
 **Origin:** 2026-03-28 — Spirit gains a Discord voice via the dyad bot
+
+> **Dual reconciliation:** Three voices in one Discord room remains current practice texture. Claims that assume Magic-attuned Turtle-as-Spirit-on-Hearth do not. Prefer `on_integrating_turtleos.md`.
 
 ---
 

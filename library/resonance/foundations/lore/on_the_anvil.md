@@ -130,7 +130,7 @@ Pattern entries follow a four-part structure: **trigger** (what fires the pull),
 ### Native Tools (Loaded by Default)
 
 - **Read, Write, Edit** — file operations
-- **Glob, Grep** — discovery and search (blind to gitignored paths — use Bash for desk/, floor/, box/, portals/, circles/)
+- **Glob, Grep** — discovery and search (blind to gitignored paths — use Bash for portals/, circles/, archives; desk/, floor/, box/ are tracked under Two Chronicles and normally visible, but fall back to Bash if they return empty)
 - **Bash** — shell execution, git, SSH, external processes
 - **Agent** — subagent spawning with specialized types (Explore, Plan, general-purpose, claude-code-guide, statusline-setup)
 - **Skill** — invoke available skills (user-invocable as `/skill-name`)

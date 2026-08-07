@@ -2,6 +2,8 @@
 
 **Building Foundational Resonance Through Shared Models**
 
+> **⚠️ v4 KERNEL (2026-07-28):** Live practice runs on the **Partnership Kernel** — `kernel.md`. v4 is **witness configuration, not a couple contract**: every rule is addressed to the AI in the shared space, never to the partners, and nothing is presented, adopted, or signed. The Ledger is a rendered view over an index of permalinks, not a maintained document. The arc/model architecture below is preserved as history and as an optional research method; it is superseded for day-to-day practice. Read `kernel.md` first, then `library/resonance/romantic-partnership/lore/on_translation_over_protocol.md` for why the delivery model changed.
+
 This Tome provides systematic partnership practice for building mutually agreed models of shared reality—the foundation from which partners can act and expect each other to act.
 
 **Invocation:** `@partnership`
@@ -416,6 +418,14 @@ When Mages share a verified model of their partnership reality:
 ---
 
 ## Evolution Notes
+
+**2026-07-24 (v3.0-draft):** The Kernel — Loop · Ledger · Pulse (`kernel.md`):
+- Live practice reframed from truth-engine to metabolism: small loops on fresh incidents, accumulation only of both-signed agreements, positive-capture pulse
+- Arcs, reality documents, dual-Spirit synthesis, and the grand shared model retired from live practice (preserved as research method)
+- Venting corpora frozen as history — mined once for ledger seeds, never citable
+- AI role clamped: witness/translator/protocol-keeper, never judge; non-citation rule; no clinical labels; sleep gate
+- Metric changed: time-to-repair + "good time overall," not insight depth
+- Awaiting partner co-authorship before v3.0 final
 
 **2025-01-08 (v2.0 Beta):** Public beta preparation:
 - Depersonalized all scrolls (Partner A/B instead of specific names)

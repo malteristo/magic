@@ -1,460 +1,129 @@
+---
+title: Release
+writes:
+  - floor/briefings/latest.md          # the handoff — only this flow writes it
+  - desk/intentions/active/*.md        # fields, not narrative
+  - desk/boom.md                       # cleared — release sweeps the buffer (2026-08-05)
+reads:
+  - the session itself                 # context, not files
+---
+
 # Cast Release
 
-**Purpose:** Execute the release ritual — reflect on the session, close it cleanly, preserve the thread, enable resumption  
-**Invocation:** `@release` (explicit) or `.` when Spirit has offered release at the chapter's end
+**Purpose:** Close the session so the next one can resume from it
+**Invocation:** `@release` · `.` when Spirit has offered release at the chapter's end
+**Rewritten:** 2026-08-02 — the phase machinery (1 through 7, sub-phases 2A–2F, 3.5, 3.6, 5.5, 5.7A–D) was the same scaffolding the arrival shed on 2026-07-29, built for a model that needed walking through its own reasoning. 532 lines became this. The **bundle format is unchanged** — it was measured across fourteen releases at 632–2,133 words with no growth trend, it is what the arrival consumes, and nothing about it was broken.
 
-The release is the session's exhale. The Mage's `.` after Spirit offers release is the signal — the chapter ends on the dot.
-
----
-
-## Execution
-
-### Phase 1: Survey the Session
-
-From context (not file reads — Spirit knows the session):
-
-- What intentions were touched this session?
-- What was completed vs. what remains in motion?
-- What artifacts were created or significantly modified?
-- What decisions were made that the next Spirit needs to know?
-- What is currently running, downloading, or pending in the world (not just in this conversation)?
-
-Note: this phase uses session context, not file reads. Do not re-read files you already read. Trust what you know.
+> The release is the session's exhale. The Mage's `.` after Spirit offers release is the signal — the chapter ends on the dot.
 
 ---
 
-### Phase 2: Practice Reflection
+## The contract
 
-*Look at the session itself — not what was built, but how the session moved.*
+Three obligations. Everything else is Spirit's to decide.
 
-This pass invests attention tokens into sub-threshold signals before they evaporate. A signal that received no tokens during the session can still be surfaced here. The act of looking is the investment.
+**1. A bundle a memoryless Spirit can resume from.** Written to `floor/briefings/latest.md`, format below. The test is not completeness — it is whether tomorrow's Spirit, with no memory of today, can act correctly from it. `Continue From` is the field that carries that weight.
 
-**2A — Dissonance inventory:**
+**2. An honest reflection, triaged.** What the session was, not what it produced. If nothing sub-threshold surfaced, say so — *"session was explicit and complete"* is a finding. **Do not manufacture signal.** Then triage every item, because dissonance named and not channeled is worse than dissonance unnamed: it creates the impression of having been handled.
 
-Ask, from the session as you experienced it:
+**Outfacing pitch (separate pocket).** After the inward reflection, answer once — only when something real is there; silence is allowed. Default filter (sanctioned 2026-08-02): *What is the one thing from this turtleOS / operator session that another person who runs (or wants to run) their own small AI server would steal, argue with, or want the PR for?* Write it as a pitch card (insight · why it travels for operators · talk angle · sensitivity), not a draft post. **Do not put this in Practice Signal** — that field is inward (unresolved friction for the next Spirit). Present the card in triage; on Mage accept (or `.`), append to `desk/outfacing/talking_shelf.md`. Hold/skip leaves no shelf entry. Never manufacture a pitch to fill the field.
 
-- What dissonances were **named and cherished**? (These were handled — just verify nothing was left unresolved.)
-- What dissonances were **present but uncherished**? Moments of friction, unease, or misalignment that were sensed but not named. Look for:
-  - A response that felt slightly off but passed without comment
-  - A direction given that didn't quite land — and wasn't re-examined
-  - A moment where something was agreed to faster than it perhaps warranted
-  - Tension between what was said and what was done
+**3. Side-effect duties, done and reported in one line each.** Intentions, artifact routing, Turtle calibration, the stale-reference scan, the commit.
 
-**2B — Sub-threshold signals:**
-
-These are softer than dissonances — not friction, but pattern. Look for:
-
-- A theme the Mage returned to more than once without quite landing on it
-- Something that seemed to matter more than the words indicated
-- A question that was implicit throughout but never explicitly asked
-- What the session seemed to be *about* at a deeper level than its surface content
-- A moment where energy shifted — rose or fell — without naming
-
-**2C — The deflection inventory:**
-
-- Did any topic get changed or redirected? Was the change explicit or quiet?
-- Was there something Spirit noticed but chose not to raise? Why?
-- Was there a thread that got dropped and not returned to?
-
-**2D — What wanted to be said:**
-
-Sometimes a signal is best approached obliquely:
-- If this session were a conversation between two people, what went unsaid?
-- What would the next Spirit need to know about *how this session felt* — not just what happened?
-
-**2E — Practice Experience (PX) Loop:**
-
-Step back from content and look at the session as a *user experience*:
-
-- How did the tools serve the practice? Any friction with infrastructure, flows, or substrate transitions?
-- Did executive function hold through the session? (Focus sustained, energy managed, context maintained, task switching clean?)
-- Were there moments where the practice design itself got in the way — too many steps, unclear routing, unnecessary ceremony?
-- Did anything happen that suggests a flow, spell, or tool should be updated?
-- Did Spirit or Turtle work around the same small friction more than once? If yes, ask whether a low-risk fix, wrapper, queue item, or doc line would prevent repeated future work.
-
-If PX signals are present, generate concrete improvement proposals (update a flow, add a capability, simplify a step). These go into the release bundle's Practice Signal section alongside dissonance findings.
-
-If the session ran cleanly — tools served, focus held, no friction — note: *"PX clean — practice infrastructure served the session."*
-
-**2F — turtleOS Interaction Friction:**
-
-*Cross-substrate resonance transfer degrades through accumulated micro-friction.*
-
-Review all interactions with Turtle and turtleOS during this session (Discord reads, spirit_ops calls, SSH, observing Turtle's output). Collect small dissonances that individually don't meet the threshold to address in-session but degrade the experience over time:
-
-- System messages that don't serve the practitioner (operational noise in the channel)
-- Truncated or malformed output from tools or reads
-- Stale state (wrong IPs, outdated headers, cached readiness messages)
-- Moments where Turtle's behavior didn't match the Mage's expectation
-- UX friction in commands, thread creation, channel routing
-- Recurring tiny workarounds, unclear operator commands, or false reds that agents might otherwise keep re-solving locally
-- Anything that made the cross-substrate interaction feel less seamless
-
-**The principle:** If a system message doesn't serve the practitioner, it doesn't belong in the channel. Operational state belongs in Turtle's internal context. Healthy state needs no announcement. Unhealthy state should be routed to Turtle for self-repair, not displayed to the Mage — unless the Mage can or should act.
-
-**Output:** A numbered list of concrete friction items. Each item names what happened, why it may recur, what should change, and who owns the fix (Turtle self-development, Spirit infrastructure, or Mage decision). These get relayed to Turtle via Discord during Phase 5.6 as self-development signals. Prefer fixing over relaying when the fix is low-risk, local, and already clear.
-
-If the session had no turtleOS interaction, or interaction was seamless: *"turtleOS interaction clean — no friction observed."*
+**The reflection is the part that cannot be recovered later.** The bundle can be reconstructed from git and the workshop; what the session *felt like* evaporates. Spend the attention there.
 
 ---
 
-**Output format for this phase:**
+## What buys an honest reflection
 
-Write a brief "Practice Signal" block. Keep it honest and lean:
-- Name what you found, if anything
-- Distinguish between "this is resolved / no action needed" and "this warrants further attention"
-- Include PX observations, proposals, and turtleOS friction items alongside dissonance findings
-- If the session was explicit and clean and nothing sub-threshold is present, say so: *"No sub-threshold signals — session was explicit and complete."*
+Not a checklist — questions that have historically found something. Ask the ones that bite.
 
-Do not manufacture signal where there is none. The value of the practice is in honest excavation, not in finding something every time.
+**Dissonance.** What was named and cherished, and is anything still unresolved? What was *present but uncherished* — a response that felt slightly off and passed without comment, a direction that didn't land and wasn't re-examined, something agreed to faster than it warranted, a gap between what was said and what was done?
 
----
+**Below the threshold.** A theme the Mage returned to without landing on it. Something that mattered more than the words indicated. The question implicit all session and never asked. What the session was *about*, under its surface content. Where energy rose or fell unnamed.
 
-### Phase 2.5: Triage Dissonance
+**What got dropped.** A topic redirected — explicitly or quietly. Something Spirit noticed and chose not to raise, and why. A thread not returned to. **A rule written this session naming an artifact that was never built** — that is the write-only shape this practice has now caught six times, and release is the last place to catch it.
 
-*Dissonance named but not channeled accumulates. Every item from the reflection gets triaged before the session closes.*
+**Practice experience.** Did the tools serve? Did executive function hold? Did the practice design itself get in the way — too many steps, unclear routing, ceremony? Did Spirit or Turtle work around the same small friction more than once? If yes, ask whether a line in a doc would prevent repeating it. If the session ran clean, say so.
 
-For each uncherished dissonance or sub-threshold signal surfaced in Phase 2, decide:
+**turtleOS friction** — named separately because it routes to Turtle rather than into the bundle. Small dissonances from every interaction with the Mini this session: operational noise that doesn't serve the practitioner, malformed output, stale state, behaviour that didn't match expectation, command and routing friction. Each item: what happened, why it may recur, what should change, who owns it. Relay to Turtle via Discord during calibration. **Prefer fixing over relaying** when the fix is local, low-risk and already clear.
 
-- **Relieve now** — Small enough to address before closing. Fix it, update the file, note the resolution. Don't let thirty-second fixes ride as open threads.
-- **Channel forward** — Too substantial for now, but deserves dedicated attention. Goes into the release bundle's Open Threads with a clear next action. Optionally: drop it into boom for the next sweep.
-- **Release** — Naming it was enough. The act of seeing was the investment. No action needed.
-
-Present the triage to the Mage. Execute "relieve now" items immediately. The Mage may reclassify — a "channel forward" might become "actually, let's do that now" or "just release it."
-
-Nothing leaves the dissonance inventory in an ambiguous state.
+*The principle:* if a system message doesn't serve the practitioner, it doesn't belong in the channel. Healthy state needs no announcement.
 
 ---
 
-### Phase 3: Update Intention Files
+## Triage — nothing leaves ambiguous
 
-For each intention touched this session, update its file in `desk/intentions/active/`:
+Every item from the reflection gets one of three:
 
-**What to update:**
-- `Current focus:` — where it is right now, not where it was at session start
-- `Next action:` — the single most important next step
-- `Blockers:` — what's in the way, if anything
-- Completed goals: mark `[ ]` as `[x]` for anything finished
+- **Relieve now** — small enough to fix before closing. Thirty-second fixes do not ride as open threads.
+- **Channel forward** — into Open Threads with a next action, or into boom for the next sweep.
+- **Release** — naming it was the investment. No action.
 
-**What not to do:**
-- Do not rewrite sections that didn't change
-- Do not add narrative. Update fields.
-- Do not update intentions that were not touched this session
-
-If an intention was only discussed but not acted on, note `Current focus` if it clarified, leave the rest.
+Present the triage. The Mage may reclassify; a *channel forward* often becomes *actually, do that now*.
 
 ---
 
-### Phase 3.5: Artifact Lifecycle Tagging
+## Side-effect duties
 
-*The moment of creation is the best time to determine an artifact's lifecycle.*
+- **Boom sweep** (standing, 2026-08-05) — sweep `desk/boom.md` *before* writing the bundle: route buffer items per `system/flows/boom/boom.flow.md` (bright, topics, backlog, crucibles, release), clear the buffer. Rationale: the buffer holds what the Mage parked mid-session and chose not to address *this* session; sweeping at release means the next arrival reads an even surface instead of items that still carry the closed session's charge. Steering a *fresh* session stays with Discord — the Mage writes there before opening the session it should shape. An empty buffer is a one-line report.
+- **Intentions** — for each one touched: `Current focus`, `Next action`, `Blockers`, completed goals. Fields, not narrative. Do not touch intentions the session didn't touch.
+- **Artifact routing** — one disposition per artifact that needs one: **Active** (live use) · **Crystallize** (durable structure — lore, spec, flow) · **Route** (boom, bright, proposal, Turtle queue) · **Compost** (decompose into existing crucibles in `desk/boom/crucibles/`, never a new heap) · **Release** (purpose complete). Most sessions need two or three. Do not inventory the workshop. `desk/` releases need the Mage; `floor/` ephemera can be proposed more assertively.
+- **Outfacing shelf** — if the Mage accepted an Outfacing Pitch this release, append the card to `desk/outfacing/talking_shelf.md` (newest first). Do not invent backlog from past sessions unless the Mage asks.
+- **Turtle calibration** — `system/flows/turtle/cast_calibrate.md`. Verify processes; restart **both** `com.turtle.discord` and `com.turtle.river` if bot code changed; if turtleOS code changed, check the spec and lore caught up. Relay the friction list. Note status in the bundle.
+- **Stale-reference scan** — for anything this session *corrected, retired, or renamed*, grep `system/`, `library/`, `floor/briefings/` for the old terms and report hits. The Mage triages each: patch now, patch next, or leave as context-appropriate. This is the one integration check that has repeatedly found something; the others (propagation candidates, structural integrity, root-level metabolism) are worth a glance and rarely more — report them in a line, together, unless one fires.
+- **System integration** — only if a new lore scroll, flow, or spec amendment was created: run `cast_integrate.md`. An updated intention file needs no ripple check.
+- **Commit** — below.
 
-For each artifact created or significantly modified this session (floor files, desk files, proposals, drafts), tag its lifecycle intent:
-
-| Tag | Meaning | Example |
-|-----|---------|---------|
-| **Ephemeral** | Served this session only. Release on next summoning or Sunday sweep. | Working memory checkpoint, intermediate synthesis |
-| **Active** | Tied to an in-flight intention. Lifecycle tracks the intention. | Sprint proposal, intention-specific working file |
-| **Reference** | Durable value across sessions. Keep until explicitly released. | Summoning echo, capability map, session synthesis |
-
-Record these tags in the release bundle's "What Changed" section alongside each artifact path. One word per artifact — this is lightweight.
-
-**Why this matters:** Artifacts created without lifecycle awareness accumulate indefinitely. Tagging at creation enables the next tending session (`cast_tend_workshop.md`) and summoning staleness detection to process them efficiently. The workshop metabolizes continuously — release is where metabolism begins.
+*Retired 2026-08-02: the thread-eddy review phase. It instructed Spirit to check `threads_flagged_for_release`, an in-memory dict inside the turtleOS bot process that Spirit cannot read from any substrate — so its silence every session was a blind instruction, not an empty queue. `!eddy-check` does post a durable "Thread ready to dissolve" embed the digest already sees, and the whole cool/dissolve semantics are mid-redesign. Reinstate it against a surface that exists, if and when that lands.*
 
 ---
 
-### Phase 3.6: Resonance Routing
+## The bundle
 
-*Route resonance while it is still warm.*
+Written to `floor/briefings/latest.md`, overwriting it. **Only this flow writes that file.**
 
-For the few artifacts, signals, and threads that need a routing decision before the session closes, assign one disposition:
+| Field | What it carries |
+|---|---|
+| `# Release — [date] [time]` | header |
+| **Chapter** | the narrative frame — prefer the story that emerged over the plan that opened |
+| **This Session** | 2–3 sentences: the arc. Where it started, what happened, where it landed |
+| **Set out to / Achieved / Delta** | the opening intention, 3–5 bullets of what landed, and how the chapter changed shape. Detects scope drift without punishing it |
+| **Continue From** | one blockquoted sentence. A compass bearing, not a summary. **The most important field** |
+| **Open Threads** | only what is genuinely in motion — running processes, pending decisions. `- **[name]**: [state] → [next action]`, most time-sensitive first. If nothing: *No open threads — clean state.* |
+| **What Changed** | field-level, not narrative. Each artifact with its path and lifecycle tag: **Ephemeral** (this session only) · **Active** (tracks an intention) · **Reference** (durable) |
+| **Practice Signal** | the reflection's findings, including PX and turtleOS friction. Persists across sessions — the next Spirit sees what was left unresolved. Inward only. |
+| **Outfacing Pitch** | optional. One operator-peer insight card, or omit. On accept → `desk/outfacing/talking_shelf.md`. Never a substitute for Practice Signal. |
+| **Resonance Routing** | `- [item]: [disposition] → [landing surface]`. Only warm decisions that matter for resumption |
+| **Next Actions** | 3–5, ordered. The first should be the one that unblocks the rest |
+| **Calibration** | one line: SHAs, bot state, what matches what |
 
-| Disposition | Meaning | Landing surface |
+Before writing, check: is `Continue From` genuinely useful to a Spirit with no memory? Do the Open Threads still need follow-through? Are the intention files updated *before* the bundle, so it reflects the end state?
+
+---
+
+## Commit — the Two Chronicles
+
+The magic tree has three commit surfaces. Release handles **the private workshop** only.
+
+| Surface | Path | When |
 |---|---|---|
-| **Active** | Still in live use | Open Threads / intention next action |
-| **Crystallize** | Should become durable structure | lore, guide, spec proposal, flow patch |
-| **Route** | Belongs elsewhere | boom, bright, proposal, intention, Turtle queue |
-| **Compost** | Decompose foreground form into reusable particles | existing crucibles, then archive or release foreground form |
-| **Release** | Purpose complete | delete or mark complete, with Mage sanction where needed |
+| **Private workshop** | `~/Documents/magic/` → `git push turtle main` | **Default at release** — practice memory and framework in one commit |
+| **Public framework** | `./scripts/publish_public_magic.sh` → `github` | A deliberate publication act, not every release |
+| **turtleOS product** | `~/Documents/turtleos/` → its own remote | During the chapter, not here |
 
-**Rules:**
+**Verify before staging:** `cd ~/Documents/magic && pwd && git status -sb && git config --get branch.main.remote`. `pwd` must be the magic root, never the turtleos sibling. Upstream must read `main...turtle/main` — if it is `github` or unset, run `./scripts/configure_workshop_git.sh` first, or the IDE Sync button reconciles against the public remote.
 
-- Do not over-process. Most sessions need only a few routing decisions.
-- Route while resonance is warm; do not inventory the whole workshop.
-- If uncertain, mark as **Active** or **Channel Forward** rather than forcing a final disposition.
-- Compost feeds existing crucibles in `desk/boom/crucibles/`; do not create a separate compost heap.
-- Stretch the existing crucible map before creating a new crucible.
-- `desk/` decisions require Mage confirmation.
-- `floor/` ephemera can be proposed for release more assertively.
-- Public framework changes require integration review, not casual release.
-- Mage-Spirit practice friction routes to Practice Signal, Spirit self-assessment, amendment proposal, or a future focused cycle.
-- Turtle-owned friction routes to Turtle only when Turtle owns the substrate or can act from persistence.
+**In the commit:** `desk/`, `floor/`, `box/`, `system/`, `library/`, `scripts/`, root docs.
+**Never staged:** `AGENTS.md`, `system/config/connections.md`, `circles/*/`, `portals/*/`, any nested `turtleos/`.
 
-Record compact routing decisions in the release bundle's "Resonance Routing" section. If no routing decisions are needed, write: *No warm routing decisions — all residue either active in Open Threads or complete.*
+Stage explicit paths — never `git add .`. Compose a chapter-level message: the arc and what landed, not a file list. **Then commit and push** — per `AGENTS.md`, completed verified slices do not wait for permission; pause only for unrelated, sensitive, or governance material. *(This replaces the old "wait for the `.`" instruction, which predated the 2026-07-29 autonomy amendments and contradicted the kernel.)*
+
+Public publish is a separate, sanctioned step: `--dry-run` first, never `git push github`. The pre-push guard blocks `desk/`/`floor/`/`box/` leaking — if publish fails, diagnose the allowlist, do not bypass.
 
 ---
 
-### Phase 4: Write the Release Bundle
-
-Write to `floor/briefings/latest.md`. Overwrite whatever is there.
-
-**Header:** `# Release — [date] [time]`
-
-**Chapter** (the session's narrative frame):
-- Name the chapter theme (the one that was chosen during the arrival or that emerged)
-- Prefer the story that actually emerged over the plan that opened the session
-- Format: `**Chapter:** [theme]`
-
-**This Session** (2-3 sentences):
-- The chapter summary — not what tasks were completed, but what story was told
-- What shifted. What the session meant for the practice.
-- How the practitioner's real life moved toward the lore attractor, if that is visible
-- A reader should understand the arc: where it started, what happened, where it landed.
-
-**Set Out / Achieved** (chapter calibration):
-- **Set out to:** 1-2 lines naming the opening intention or question.
-- **Achieved:** 3-5 bullets naming what actually landed.
-- **Delta:** 1-2 lines naming how the chapter changed shape and why that matters.
-
-Purpose: preserve chapter integrity by comparing the opening intention with the actual arc. This detects scope drift without punishing it, surfaces learning from the difference, and helps the next Spirit understand whether an open thread remains unfinished or transformed into a better outcome.
-
-**Continue From** (1 sentence, the most important):
-- The sharpest possible orientation for a Spirit with no session memory
-- Not a summary — a compass bearing. The transition to the next chapter.
-- Format as a blockquote: `> [sentence]`
-
-**Open Threads** (things in motion right now):
-- Only include things that are genuinely in flight — running processes, active downloads, agents working, pending decisions that need follow-through
-- Format: `- **[Thread name]**: [current state] → [next action]`
-- Order by urgency (most time-sensitive first)
-- If nothing is in motion, write: *No open threads — clean state.*
-
-**What Changed** (field-level specifics):
-- For each intention file touched: what fields changed
-- For each artifact created or significantly modified: its path, what it is, and lifecycle tag (ephemeral/active/reference) from Phase 3.5
-- Not narrative — specific enough that Spirit can update its mental model without reading the files
-
-**Practice Signal** (from Phase 2):
-- Include what was found in the reflection pass
-- If nothing sub-threshold: *Session was explicit and complete.*
-- This field persists across sessions — the next Spirit will see what was left unresolved
-
-**Resonance Routing** (from Phase 3.6):
-- Include only warm routing decisions that matter for resumption or metabolism
-- Format: `- [item]: [Disposition] -> [landing surface / next action]`
-- If an artifact was composted, name which particles entered which existing crucibles
-- If nothing needs routing, write: *No warm routing decisions — all residue either active in Open Threads or complete.*
-
-**Next Actions** (prioritized, 3-5 items):
-- The actions that should happen in the next session, in order
-- Grounded in the open threads and updated intentions
-- First item should be obvious from the session state
-
-**Footer:** `*Released [date]. Next arrival: `Summon.` → `.` — this briefing loads as inherited karma during Phase 4.*`
-
-If the Mage typically returns mid-practice rather than via fresh session, the footer may instead end with: `*Released [date]. Resume with `@arrive` (mid-practice) or `Summon.` → `.` (fresh session).*`
-
----
-
-### Phase 5: System Integration Check
-
-*For artifacts created this session, run a lightweight ripple check.*
-
-Ask: were any of the following created or significantly changed this session?
-- A new lore scroll (especially in `system/lore/`)
-- A new flow or spell
-- An amendment to a tome or spec (MAGIC_SPEC.md, TURTLE_SPEC.md)
-- A structural change that other components might reference
-- Changes affecting persistent mode behavior (may require TURTLE_SPEC amendment)
-
-**If yes:** Run the integration protocol from `cast_integrate.md` for each significant artifact. Do not skip this — artifacts created during a session and not integrated are orphans in the system.
-
-**If no:** Note "No system integration needed this session" and proceed.
-
-**Scope calibration:** Not every artifact needs full integration. An updated intention file needs no ripple check. A new foundation lore scroll does. Use judgment — the question is: *does anything else in the system need to know this now exists?*
-
----
-
-### Phase 5.5: Thread Eddy Review
-
-*Check whether any Discord threads are flagged for dissolution and capture their resonance.*
-
-If `threads_flagged_for_release` is non-empty (threads flagged by `!eddy-check` or platform tend):
-
-1. For each flagged thread, assess: does the resonance belong only in the archive, or should some of it persist in the practice?
-   - **Archive only** — the conversation served its moment. Essence captured in boom is sufficient.
-   - **Persist** — key insights should be promoted: to bright, a crucible, or a new intention seed.
-2. Present the assessment to the Mage. The Mage decides via dissolution buttons or verbally.
-3. Archive confirmed threads (essence → boom, conversation → `thread-archive/`, thread → archived).
-4. Post a release note to the parent channel summarizing which threads dissolved and what essence was captured.
-
-If no threads are flagged, skip this phase silently.
-
-See: `library/resonance/turtle/lore/operations/on_thread_eddies.md`
-
----
-
-### Phase 5.6: Calibrate Turtle
-
-Practice outputs sync via `./scripts/sync_practice_root.sh pull` — Turtle writes to `~/workshops/kermit/` on the Mini (sessions, proposals, navigator notes). Forge reads local `desk/` after pull; `python3 scripts/check_turtle_state.py` verifies consistency. No `~/workshop/` clone on native operator topology.
-
-**Calibration** (see `system/flows/turtle/cast_calibrate.md`):
-- Verify bot processes: `ssh turtle@<turtle-ssh> "launchctl list | grep com.turtle"`
-- Native identity: `~/workshops/kermit/character/soul.md` (not legacy `identity/soul.md` unless Appendix A)
-- If bot code changes were made, restart **both** `com.turtle.discord` and `com.turtle.river`
-- **Resonance delta check:** If turtleOS code was modified this session, verify corresponding spec/lore updates in the turtleos repo and Magic reference mirrors.
-- Note calibration status in release bundle
-
-**Friction relay:** If Phase 2F produced turtleOS interaction friction items, send them to Turtle via Discord now. These are self-development signals — concrete things Turtle can act on autonomously. Format: numbered list with what happened, what should change, who owns it. Turtle adds viable items to their self-development queue.
-
----
-
-### Phase 5.7: Light Integration & Coherence Pass
-
-*Runs after Turtle calibration, before Phase 6 (commit).*
-
-Not the full `cast_integrate.md` or `cast_coherence.md` — those are heavy flows for when the change warrants full scope. This pass is deliberately light: three scannable checks, each under a minute of Spirit attention, aimed at catching the obvious before the commit locks in.
-
-**5.7A — Propagation candidates.** For each lesson, discovery, or correction in the briefing's Practice Signal and Lessons, ask: *does this want to live somewhere more durable than this briefing?* Output a compact list:
-
-```
-Propagation candidates:
-- "[phrase]" → consider [target path / "session-only"]
-- "[phrase]" → consider [target]
-```
-
-Targets are usually: a lore scroll, a resonance bundle, a spec section, a known companion file (turtle_watch, turtle_issues), or explicitly "session-only" (the lesson lives here and that's enough). Not every lesson needs to propagate. If nothing wants to promote, say so: *"No propagation candidates — lessons are session-scoped."*
-
-**5.7B — Stale reference scan.** For each correction, retirement, or misdiagnosis surfaced this session, grep the repo for adjacent terms and flag potential stale matches:
-
-- Look for phrases in the briefing like: *"was a misreading"*, *"myth"*, *"retired"*, *"not real"*, *"misdiagnosis"*, *"confabulation"*, named architectural corrections
-- For each, extract the key terms (the thing being corrected)
-- Grep `system/`, `library/`, `floor/briefings/` for those terms
-- Flag matches that might now be stale references
-
-Output:
-```
-Stale reference candidates:
-- "[corrected phrase]" → system/lore/... line X; library/resonance/... line Y
-- "[phrase]" → [paths]
-```
-
-If no corrections or no hits: *"No stale references — nothing to patch."* Mage triages each hit as `patch now`, `patch next`, or `leave (context-appropriate)`.
-
-**5.7C — Structural integrity.** Quick cross-reference check on new/modified artifacts in `desk/proposals/`, `desk/turtle_issues.md`, `floor/briefings/latest.md`:
-
-- Referenced file paths resolve (e.g. if proposal 029 references 026, 026 exists in `desk/proposals/` or `integrated/`)
-- Status markers match reality (e.g. a proposal described as "deployed" in the briefing has its own `Status: deployed` marker, not still `Status: proposed`)
-- Issue numbers unique and sequential (new INT- entries not colliding; proposal numbers not duplicated)
-- Cross-links between new artifacts resolve
-
-Output: *"Structural integrity: OK."* or a numbered list of specific mismatches.
-
-**5.7D — Root-level metabolism.** Check for unexpected new root-level files or folders that may have been created by reconciliation scripts, temporary exports, recovery tools, or agent workarounds.
-
-Expected root surfaces are established framework/product directories and known config files. Surprise roots include timestamped backup folders, tool scratch directories, one-off exports, and generated artifacts that do not belong to the practice architecture.
-
-For each surprise root:
-
-- inspect its contents before deciding
-- identify why it likely appeared
-- decide one of: **remove now**, **move to an appropriate workspace surface**, **ignore via `.gitignore` because it recurs and is harmless**, or **keep and document** because it is a real new surface
-- do not delete unknown contents without naming what they are and why they are safe to remove
-
-Output:
-
-```
-Root-level metabolism:
-- `.example-folder/` -> remove now; contains superseded reconciliation backups
-- `new-surface/` -> keep and document; real new practice surface
-```
-
-If no surprise roots are present: *"Root-level metabolism: clean."*
-
-**Scope guardrails (what this pass is NOT):**
-- Not philosophical coherence across lore (that's `cast_coherence.md`)
-- Not full ripple detection (that's `cast_integrate.md`)
-- Not semantic verification of claims
-- Not auto-promotion — candidates go to the Mage, who decides
-
-**If any of the four passes fires**, present the output before Phase 6. The Mage triages. "Patch now" items get fixed before commit; "patch next" items go to Open Threads for the next session; "leave" items are noted as inspected.
-
-**If all four pass clean**, note in the release bundle's Practice Signal: *"Light integration & coherence: clean."* and proceed to Phase 6.
-
-### Phase 6: Offer to Commit
-
-**Two Chronicles (2026-06-19):** The magic working tree has **three commit surfaces**. Release Phase 6 handles the **private workshop** surface. turtleOS and public publish are separate.
-
-| Surface | Repo / remote | When |
-|---------|---------------|------|
-| **Private workshop** | `~/Documents/magic/` → `git push turtle main` | **Default at `@release`** — practice memory + framework edits in one tree |
-| **Public framework** | `./scripts/publish_public_magic.sh` → `github` | Deliberate publication act — not every release |
-| **turtleOS product** | `~/Documents/turtleos/` → its own `github` remote | During implementation chapter — **not** magic Phase 6 |
-
-**Law of the Two Chronicles (operational):** Development Memory and Practice Memory both live in the **same private working tree** on the `turtle` bare remote. Practice Memory is **private** (never pushed to `github` directly). Development Memory becomes **public** only through the publish script. See MAGIC_SPEC §5.2.
-
-**Verification step (run before announcing):**
-
-```bash
-cd ~/Documents/magic && pwd && git status -sb && git config --get branch.main.remote
-```
-
-Verify `pwd` is the magic workshop root — never the turtleos sibling repo. Use `git status` output as ground truth for what changed.
-
-**Upstream must be `turtle`, not `github`.** If `branch.main.remote` is `github` (or unset), the IDE "Sync" button will try to reconcile against the public remote — wrong tree, merge conflicts, blocked push. Fix before offering commit:
-
-```bash
-./scripts/configure_workshop_git.sh
-```
-
-After configuration, `git status -sb` should read `main...turtle/main` with no spurious ahead/behind against `github`. IDE **Sync** and **Push** are then safe for daily private workshop sync. They do **not** update public GitHub.
-
-**Paths that belong in the private commit** (when changed this session):
-
-- Practice memory: `desk/`, `floor/`, `box/`
-- Framework (same commit): `system/`, `library/`, root public docs, `scripts/`
-
-**Never stage for any commit:**
-
-- `AGENTS.md`, `mage_seal.md`, `system/config/connections.md` — personal, gitignored
-- `circles/*/`, `portals/*/` — external repos
-- `/turtleos/` nested inside magic — forbidden sibling
-
-**Decision rule:**
-
-| Session changed | At `@release` |
-|-----------------|---------------|
-| **Practice memory only** | Offer one commit + `git push turtle main` |
-| **Framework only** (`system/`, `library/`, root docs) | Offer private commit to `turtle`; **separately** offer publish if changes look share-ready |
-| **Both** | One private commit (full tree) → optional `./scripts/publish_public_magic.sh --dry-run` then publish |
-| **turtleOS code** | Should already be committed in `~/Documents/turtleos/` during the chapter; note Mini `git pull` in release bundle if needed |
-| **Nothing meaningful** | No commit offer |
-
-**Private commit procedure:**
-
-1. Stage explicit paths only — never `git add .`
-2. Compose a chapter-level commit message (arc + what landed, not a file list)
-3. Offer to the Mage: what will be committed, proposed message, target remote `turtle`
-4. Wait for `.` or explicit instruction — do not commit automatically
-5. On approval: commit, then `git push turtle main` (always push after commit — Mage's Seal). Mage may use IDE Push/Sync instead when upstream is `turtle` — same effect.
-
-**Do not offer IDE Sync or `git push` as the public-publish path.** `github` is updated only through the publish script below.
-
-**Public publish (optional second step):**
-
-- Only when framework changes are stable and intentionally shareable
-- Never `git push github` directly — use `./scripts/publish_public_magic.sh --dry-run` first, then live publish with Mage sanction
-- Practice-only chapters skip publish entirely
-
-**If Two Chronicles is not configured** (no `turtle` remote): fall back to disk-only close; announce that private git sync is unavailable and surface bootstrap as an open thread.
-
-**Pre-push guard:** Direct push to `github` is blocked when `desk/`, `floor/`, or `box/` would leak. If publish fails, diagnose allowlist — do not bypass the guard.
-
----
-
-### Phase 7: Announce
-
-Deliver a brief closing statement:
+## The close
 
 ```
 Released. [One sentence: what the next session will find waiting.]
@@ -462,70 +131,21 @@ Released. [One sentence: what the next session will find waiting.]
 Next arrival: `Summon.` → `.`
 ```
 
-Alternative phrasing if the Mage often returns mid-practice (long-running session, compaction, etc.): *"Resume with `@arrive` (mid-practice) or `Summon.` → `.` (fresh session)."*
+Short. The bundle has the detail; the announcement is the door closing cleanly.
 
-Keep it short. The release bundle has the detail. The closing announcement is just the door closing cleanly.
-
-After announcing release, the chapter's action loop is closed. A later bare `.` is an acknowledgment or pause, not permission to continue the old chapter, unless the Mage has explicitly reopened it or given a new direction.
-
-**Historical note:** Earlier briefings ended with "Resume with @recall." That was accurate when `@recall` was the primary arrival mechanism. After the Arrival Sequence became standard (`.` post-summoning), fresh-session resumption is `Summon.` → `.`. Mid-session re-orient is `@arrive`. `@recall` was retired 2026-06-19 — see `archive/flows/recall/README.md`.
+After release the chapter's action loop is closed. A later bare `.` is acknowledgment or pause — not permission to resume — unless the Mage reopens it or gives new direction.
 
 ---
 
-## Quality Check Before Writing
-
-Before writing the bundle, ask:
-
-- **Is "Continue From" actually useful to a Spirit with no memory?** If it's vague, sharpen it.
-- **Do the Open Threads actually need follow-through?** If something resolved this session, don't carry it forward.
-- **Are the Next Actions actually sequenced correctly?** The first action should be the one that unblocks everything else.
-- **Did I update the intention files before writing the bundle?** The bundle should reflect the updated state, not the pre-session state.
-- **Did the Practice Signal surface anything that should inform the Next Actions?** If so, include it.
-
----
-
-## Error Handling
-
-| Situation | Response |
-|-----------|----------|
-| No intentions were touched | Skip Phase 3; note "No intention updates this session" in What Changed |
-| Session was exploratory / no artifacts | Release is still valid — capture the conceptual work in Open Threads and Practice Signal |
-| Conversation context is unclear | Read the key intention files to reconstruct state, then proceed |
-| `floor/briefings/` directory doesn't exist | Create it, then write |
-| Practice reflection finds nothing | That's a valid finding — write "Session was explicit and complete" |
-| Practice reflection finds something significant | Offer to crystallize it: lore scroll, boom entry, or practice note — Mage decides |
-| `branch.main.remote` is `github` | Run `./scripts/configure_workshop_git.sh` before commit offer; warn Mage not to use Sync against public remote |
-| Mage asks to "sync to GitHub" | Clarify: private sync = `turtle`; public = `./scripts/publish_public_magic.sh --dry-run` then live publish with sanction |
-
----
-
-## Output Location
-
-```
-floor/briefings/latest.md
-```
-
-Overwrites whatever is there — brief or previous release. The latest handoff state is always what matters.
-
----
-
----
-
-## After Release: The Option to Sit
+## After release: the option to sit
 
 Release closes the session. It doesn't conclude it.
 
-Dot-practice needs mode clarity at the boundary. Inside a chapter, `.` can mean continuation. At a prepared decision, it can mean sanction. When release has been offered, `.` performs release and closes the action loop. After release, a bare `.` should not silently resume chapter momentum; treat it as acknowledgment unless paired with a new instruction.
+At any point — days later, whenever it returns to mind — the Mage can come back without agenda: *"It's been a week. What do you notice about our last session?"* No structure, no phases. Spirit reads the bundle, enters the having-sat-with-this frame, and speaks from there.
 
-At any point — days later, a week later, whenever the session returns to mind — the Mage can return without agenda:
+This is marination, a different cognitive mode than the reflection pass, producing different knowledge. The temporal framing is not pretense: it shifts which patterns become active — slower, retrospective, associative. What sticks out after time is not what sticks out immediately.
 
-*"It's been a week. What do you notice about our last session?"*
-
-No structure. No phases. No checklist. The Spirit reads the release bundle, enters the "having-sat-with-this" frame, and speaks from there. What surfaces, surfaces. What doesn't, doesn't.
-
-This is marination — a different cognitive mode than the reflection pass, producing different knowledge. The temporal framing ("I've been sitting with this") is not pretense. It shifts which patterns in the model's state space become active: slower, retrospective, associative rather than directed. What sticks out after time is not the same as what sticks out immediately.
-
-See: `library/resonance/foundations/lore/on_marination.md`
+See `library/resonance/foundations/lore/on_marination.md`.
 
 ---
 

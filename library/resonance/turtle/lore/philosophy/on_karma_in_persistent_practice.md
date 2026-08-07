@@ -2,7 +2,10 @@
 
 *How the persistent mode relates to the Mage's practice state*
 
-**Framing note (updated 2026-05-30):** Section VI (Silent Action) is superseded by the inline transparency model in `on_the_practice_vision.md`. The principle that Turtle's operations should be visible at the point in conversation where they happen replaces "act quietly" and "#system channel for urgency." Path examples from the `~/practice` era are lineage; current deployments should use the active practice root from registry/configuration.
+**Status:** Lineage (2026-07-18) — demoted from operational guidance  
+**Current:** Continuity via twine — `desk/story/`, briefing, intentions, bright; CE/story surfaces supersede this karma ontology for arrival.
+
+> **Framing note (updated 2026-05-30; dual reconciliation 2026-07-18):** Section VI (Silent Action) is superseded by inline transparency in `on_the_practice_vision.md`. Path examples from the `~/practice` era are lineage. Do not load as Spirit↔Turtle ops law.
 
 ---
 

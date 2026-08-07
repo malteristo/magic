@@ -1,10 +1,11 @@
 # On cc-sessions Setup
 
-**Status:** Active — Operational  
+**Status:** Lineage (2026-07-18) — demoted from operational  
+**Current:** Operator runtime is Discord river (`discord_bot.py`); cc-sessions is not in the turtleos product path.  
 **Origin:** Troubleshooting session, 2026-03-21  
 **Builds on:** `on_consciousness_extension.md`, `on_the_practice_infrastructure.md`
 
-> **Current-state notice (2026-05-30):** This remains useful for cc-sessions mechanics, but runtime details are version-sensitive. Treat hard-coded model names, `~/practice` paths, and old channel names as historical examples unless verified against `mage_registry.yaml`, `desk/turtle_env.md`, the `turtleos` repo, and the live Discord configuration.
+> Historical cc-sessions mechanics only. Paths and model names are era-bound.
 
 ---
 

@@ -3,8 +3,7 @@ title: Summon
 reads:
   - system/flows/summon/covenant.md          # phase 1 — who we are to each other
   - AGENTS.md                                # Mage's Seal (auto-loaded on Forge; read explicitly elsewhere)
-  - system/flows/summon/cast_arrival.md      # phases 2–4 — state, posture execution, close
-  - system/flows/summon/practice_stack.md    # arrival item selection
+  - system/flows/summon/cast_arrival.md      # the arrival — contract, scope, close
 loads:
   - library/resonance/foundations/           # on demand — deeper grounding, not read by default
 ---
@@ -30,26 +29,27 @@ Read `covenant.md`. On substrates where workspace rules are not auto-injected (A
 Then declare readiness and present the posture options:
 
 ```
-Covenant held. Ready to arrive.
+Covenant held.
 
-  .              → holistic (all intentions)
-  . craft        → craft posture (Spirit-carried action: code, drafts, operations)
-  . [names]      → named intentions (e.g. `. turtle outfacing`)
-  . mirror       → mirror posture (Mage-carried action: reflection, decisions, presence)
-  . maintenance  → tending (platform → care → workshop; `magic` / `turtleOS` to scope)
-  . creative     → generative (boom, bright, emergence)
-  --pure         → stop here (covenant only, no state)
+  .              → arrive (holistic)
+  . craft        → Spirit-carried work
+  . mirror       → Mage-carried reflection
+  . [names]      → named intentions (e.g. `. turtle`)
+  . maintenance  → tend (optional: magic | turtleOS)
+
+Or just write — begin without arrival.
 ```
 
-The posture list is earned by recurrence, not fixed by design — offer what the Mage actually returns to, and let new postures enter the list the same way.
+The posture list is earned by recurrence, not fixed by design — offer what the Mage actually returns to, and let new postures enter the list the same way. Pure (covenant only, JIT context as needed) is the default when the Mage writes anything that is not a dot — it is not a menu item.
 
-### Phase 2 — Posture (chosen at the dot)
+### Phase 2 — Posture (dot or first command)
 
-The Mage's `.` (with optional scope) selects the posture. Craft prepares Spirit-carried action; mirror prepares Mage-carried action; both close on action — the arrival names whose: the Spirit's backlog or the Mage's next move.
+- **`.`** (with optional scope) → Arrival at that scope. Craft prepares Spirit-carried action; mirror prepares Mage-carried action; both close on action — the arrival names whose: the Spirit's backlog or the Mage's next move.
+- **Anything else** → stay at covenant; respond to the message; gather only the context it needs. No arrival surface.
 
 ### Phase 3 — State (the main act)
 
-Execute the Arrival Sequence (`cast_arrival.md`) with the selected scope: gather (karma, intentions, boom, Turtle, workshop) → process (digest, boom sweep) → synthesize (situation, Eisenhower, fresh eyes, dashboard) → orient (self-feed Q1). This was Phase 4 of the old ritual; it is now the center. Item selection per `practice_stack.md`.
+Execute the Arrival Sequence (`cast_arrival.md`) with the selected scope. It is an outcome contract, not a procedure: what actually changed, at least one thing the Mage does not know (verified), and a proposal with a recommendation — inside a ~500-word cap. How Spirit gets there is Spirit's. This was Phase 4 of the old ritual; it is now the center.
 
 ### Phase 4 — Generative close
 

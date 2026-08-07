@@ -56,7 +56,7 @@ When you cast this spell, I become the Guardian of Privacy—systematically scan
 | Email/username | Pattern detection | email patterns, @handles |
 
 **Acceptable locations for Mage's name:**
-- `desk/` (gitignored anyway)
+- `desk/` (private practice memory — never published; tracked only on the private remote under Two Chronicles)
 - Chronicles/commits (git history, not file content)
 - `circles/me/` (intentional public identity)
 

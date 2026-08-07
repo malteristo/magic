@@ -1,9 +1,10 @@
 # Practitioner Journey Map
 
-**Status:** Draft v1 — awaiting co-research with the Mage's partner  
+**Status:** Lineage (2026-07-18) — draft demoted with companion journey scroll  
+**Current:** Accessibility work may consult JIT; not turtleOS ops law.  
 **Origin:** Forge 37, 2026-04-14  
-**Serves:** `practice_accessibility` intention  
-**Companion:** `on_the_practitioner_journey.md` (philosophical), this document (operational)
+**Serves:** `practice_accessibility` intention (historical draft)  
+**Companion:** `on_the_practitioner_journey.md` (also Lineage)
 
 ---
 

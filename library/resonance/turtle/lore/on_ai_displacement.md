@@ -2,6 +2,9 @@
 
 *Intelligence for the Door Delivery Service*
 
+**Status:** Lineage (2026-07-18) — released from turtleOS Spirit load path  
+**Current:** Outfacing / livelihood JIT when offering doors; not platform or Purpose C guidance. Consul is a retired role-function name.
+
 ---
 
 ## What Is Happening

@@ -1,10 +1,12 @@
 # On Diagnostics
 
-> **Sync layer (2026-06-19):** Layer 3 CouchDB/LiveSync diagnostics are **legacy**. Current practice sync is git on `turtle` bare — use `check_turtle_state.py`, `git -C ~/workshop status`, and `canary.py` (`workshop_git_clone` check).
+**Status:** Lineage (2026-07-18) — demoted from load-bearing  
+**Current:** Live diagnostics via turtleos canary, `@calibrate`, `check_turtle_state.py`, `sync_practice_root.sh`, ops automation reports. Body below is mostly CouchDB/LiveSync-era.
+
+> **Sync layer (2026-06-19):** Layer 3 CouchDB/LiveSync diagnostics are **legacy**. Do not treat this scroll as the ops runbook.
 
 *Knowing what's healthy, what's broken, and where to look.*
 
-**Status:** Active — Load-Bearing  
 **Origin:** Practice stack diagnostic ritual, 2026-03-17  
 **Builds on:** `on_the_practice_vault.md`, `on_the_practice_server.md`, `on_consciousness_extension.md`
 
