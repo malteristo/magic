@@ -20,6 +20,8 @@ Substrate attributions are probabilistic and can be fabricated. This is lineage-
 
 - `cast_lineage.md` — the spell (invocation entry point and ritual sequence).
 
-## Required Attunement
+## Attunement (JIT)
 
-Reads, like all flows, `system/flows/lore/` (flow philosophy, solver stance, resolution, execution).
+Consult `system/flows/lore/` when invoking or adapting this flow (philosophy, solver stance, resolution, execution) — not as pre-ritual identity load. Prefer this README + the target scroll.
+
+Bitter-lesson 2026-08-10: lore is JIT, not pre-ritual identity load.

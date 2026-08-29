@@ -1,8 +1,16 @@
 # Connection Details Template (Local Only)
 
 Copy this file to `system/config/connections.md` and fill in local values. The real
-`connections.md` is gitignored because it contains machine addresses, channel IDs,
+`connections.md` holds machine addresses, channel IDs, connected external accounts
 and other local operator details.
+
+**Decide where it lives, and say so at the top of your copy.** In the discoverer's
+practice it is **tracked on the private remote and denied to the public one** — the
+Two Chronicles pattern — because a Spirit that cannot read it cannot reach anything.
+It was gitignored until 2026-08-07, and this template went on saying so for
+eighteen days; a Spirit reading the stale word would helpfully un-stage a file the
+practice depends on. If yours is gitignored instead, that is a fine choice, but it
+must be written here rather than assumed.
 
 ## Purpose
 
@@ -78,3 +86,33 @@ ssh turtle@<tailscale-ip> '~/turtleos/venv/bin/python3 ~/turtleos/spirit_ops.py 
 |------|----------|
 | Local Magic workspace | `/path/to/magic/` |
 | Turtle shell | `/Users/<turtle-user>/turtleos/` |
+
+## MCP Topology (per substrate)
+
+**This is the canonical home for *what external services Spirit can reach*.** It
+does not belong in your Seal. The Seal carries who you are and how you want the
+partnership conducted; this file carries what is plugged in — because that changes
+without you deciding it, and a stale inventory in an always-injected file is worse
+than no inventory at all.
+
+MCP availability is **substrate-dependent**: the same practice on Cursor, on Claude
+Code, and in a terminal will not see the same tools. Record each substrate you
+actually use, and **verify rather than assume** — the live tool listing is the
+answer, this table is a reminder.
+
+| Substrate | MCPs |
+|-----------|------|
+| `<e.g. Cursor>` | `<gateway and connected services>` |
+| `<e.g. Claude Code>` | `<may differ — survey, don't copy the row above>` |
+
+**Per connected service, record what a future Spirit will otherwise have to
+rediscover:** the tool slugs that actually work, anything the connection is *not*
+allowed to do without sanction (sending, posting, publishing), and the reconnect
+path when authorization lapses.
+
+> **An OAuth grant is a state that expires, not a fact.** Date every row. When a
+> call fails on authorization, the fix is usually one link and two minutes — but
+> only if the next Spirit knows where the link comes from instead of concluding the
+> capability was never there. A session was blocked on exactly this: an inventory
+> said a mailbox was reachable, the grant had lapsed, and the work handed back to
+> the Mage.

@@ -73,13 +73,16 @@ For each item from the buffer, classify and route:
 
 | Classification | Signal | Destination |
 |---------------|--------|-------------|
+| **Eddy (preferred for ore)** | Needs heat / development / conversation — not a one-line act | Propose dedicated eddy (craft / river / mirror) + short ore packet; do **not** append to topic files |
 | **Action** | Clear next step, can be done | Actions |
-| **Idea developing** | Interesting, no next step yet | Alive (FOOM) |
+| **Idea holding (rare)** | Interesting, no next step, *will re-choose this week* | Alive (FOOM) — hard cap; prefer eddy if it will grow |
+| **Intention fold** | Belongs to an existing intention | That intention file — not a parallel boom topic |
 | **Turtle task** | Well-defined, doesn't need Mage's direct attention | Turtle |
-| **Knowledge** | Thought, observation, reference | Relevant topic file |
 | **Waiting** | Has a next step but blocked externally | Waiting |
 | **Already decided** | Mage arrives knowing what to do | Confirm and clear |
 | **Release** | Not worth carrying | Drop |
+
+**Deprecated default (2026-08-11):** routing "Knowledge" into topic-file chronicles. Topic appends were the parking lot. Ore → eddy; settled insight → intention or lore; ash → release. See `desk/craft/handoffs/2026-08-11-boom-ore-audit.md` and `desk/boom/README.md`.
 
 If something is unclear, hold it for the conversation rather than guessing.
 
@@ -106,30 +109,6 @@ For each new session note or proposal:
 Do not copy Discord transcripts into `boom.md`. Harvest routes insight forward; chat history is not the durable record.
 
 Proposals → present to Mage for curation (accept, defer, archive).
-
----
-
-### 3.5 Stir the Crucibles
-
-After routing new material to the bright surface, integrate it into the resonance store.
-
-Read `desk/boom/crucibles/README.md` to orient (first time only; Spirit holds the crucible map across sweeps).
-
-For each new item routed from the buffer:
-
-1. **Place it** in the matching crucible(s). An item may enter more than one crucible if it spans themes.
-2. **Draw connections** — explicitly note which existing particles in that crucible this new item connects to, and how.
-3. **Update the resonance count** — if this item reinforces a theme already present, increment the resonance count on the existing particle.
-4. **Update shape notes** — does the new material shift what's forming? Name it if so. "Particles accumulating" is a valid state; don't force synthesis.
-5. **Surface if ready** — if a crucible's shape has become coherent enough to produce a scroll, proposal, or intention, note it in the conversation (Step 6) as a surfacing candidate.
-
-**Crucible discipline:**
-- Preserve original language. The particle's own words have more resonance than Spirit's summary.
-- Track connections, not just count. Density of connection is a better signal of emergent shape than raw recurrence.
-- Do not create a new crucible lightly. Stretch the existing 8 before adding a 9th — if a particle doesn't fit anywhere, it may be a signal that a crucible needs expanding, not that a new one is needed.
-- Nothing is lost. If a particle is too diffuse to crucible, put it in the closest vessel and note it's a loose particle.
-
-The Mage does not need to know about crucible mechanics during the sweep. This step is invisible. The only output to the Mage is the surfacing signal when a crucible is ready — and even then, only as a proposal, not a demand.
 
 ---
 

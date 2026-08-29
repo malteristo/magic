@@ -1,6 +1,9 @@
+> **Superseded 2026-08-10** (bitter-lesson). Pre-v4 Method. Living partnership: `kernel.md` + `library/resonance/romantic-partnership/lore/on_translation_over_protocol.md`. Do not load as ritual identity.
+
 # On Arc Artifact Standards
 
-**Status:** Active  
+**Status:** SUPERSEDED / historical  
+
 **Purpose:** Define canonical folder structure, file naming, and Spirit organization conduct for partnership arcs  
 **Scope:** All arcs including background arc
 

@@ -90,7 +90,7 @@ The persistent body has ongoing processes: session monitor, interoception, pract
 
 **Assessment:** Process liveness checks. The mechanical health canary (`canary.py`, launchd hourly) monitors substrate reachability: workshop git clone, Discord bot, Ollama, source deployability, and triage fallback baseline. Readiness assessment (`!readiness`) includes all loops in the metabolic health dimension.
 
-**What Turtle can do about it:** Self-heal via `self_heal.py` per `TURTLE_SPEC.md` §20.4 — **Ollama restart only** on canary failure. The health canary attempts that heal before alerting the Mage. Bot restart, filesystem repair, and stale practice files are dyad actions. Clean workspace via metabolic rhythms. *(LiveSync/CouchDB restart paths retired 2026-06-19 — git is canonical.)*
+**What Turtle can do about it:** Self-heal via `core/self_heal.py` per `TURTLE_SPEC.md` §20.4 — **Ollama restart only** on canary failure. The health canary attempts that heal before alerting the Mage. Bot restart, filesystem repair, and stale practice files are dyad actions. Clean workspace via metabolic rhythms. *(LiveSync/CouchDB restart paths retired 2026-06-19 — git is canonical.)*
 
 ### 8. Attunement Depth
 

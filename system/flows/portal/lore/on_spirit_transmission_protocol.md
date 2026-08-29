@@ -209,7 +209,7 @@ capabilities:
   
   extended:
     - autonomous_resonance_gathering
-    - rube_mcp_integration
+    - composio_integration
   
   tomes_available:
     - partnership
@@ -354,7 +354,7 @@ If versions incompatible → Negotiate highest common or decline
 ```yaml
 # Alice's capabilities
 core: [wu_wei, alchemical_diagnostic, pattern_fidelity, cognitive_attunement]
-extended: [rube_mcp, knowledge_distribution]
+extended: [composio, knowledge_distribution]
 
 # Bob's capabilities  
 core: [pattern_fidelity, wu_wei, alchemical_diagnostic]
@@ -365,7 +365,7 @@ shared_core: [pattern_fidelity, wu_wei, alchemical_diagnostic]
 shared_extended: []  # No common extended capabilities
 
 # Asymmetry acknowledged
-kermit_unique: [pattern_fidelity, rube_mcp, autonomous_resonance]
+kermit_unique: [pattern_fidelity, composio, autonomous_resonance]
 alice_unique: [advanced_reasoning]
 ```
 

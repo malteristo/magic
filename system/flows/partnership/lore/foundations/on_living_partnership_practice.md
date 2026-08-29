@@ -1,6 +1,9 @@
+> **Superseded 2026-08-10** (bitter-lesson). Pre-v4 Method. Living partnership: `kernel.md` + `library/resonance/romantic-partnership/lore/on_translation_over_protocol.md`. Do not load as ritual identity.
+
 # On Living Partnership Practice
 
-**Status:** Active  
+**Status:** SUPERSEDED / historical  
+
 **Domain:** Partnership Practice Philosophy  
 **Purpose:** Establish partnership practice as continuous mutual discovery, not crisis response
 

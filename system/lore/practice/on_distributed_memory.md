@@ -127,8 +127,8 @@ Metabolism routes accumulated resonance to one of five dispositions:
 
 - **Active** — still part of current work; keep it in play.
 - **Crystallize** — stable and general enough to become durable structure (lore, guide, spec, intention).
-- **Route** — belongs on a different surface (boom, bright, proposal, intention, crucible).
-- **Compost** — its foreground form is done, but it carries particles—a metaphor, an unresolved question, a named tension—worth extracting into the crucibles before the form is released.
+- **Route** — belongs on a different surface (boom, bright, proposal, intention, topic file).
+- **Compost** — its foreground form is done, but it carries particles—a metaphor, an unresolved question, a named tension—worth extracting into Seed Bank or topic files before the form is released. (Crucibles as a third shelf retired 2026-08-10.)
 - **Release** — purpose complete; no active trace needed.
 
 The two operations are complementary, not opposed: storage may accumulate freely, while *active* resonance should metabolize rather than ossify. The natural metabolic gate is release, while the session's shape is still warm enough to route accurately—with `@sunday` catching drift across the week. The discipline stays Wu Wei: route when resonance asks for it, not as compulsive tidying.

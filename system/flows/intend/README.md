@@ -18,31 +18,27 @@ Transform vague desire into clear, captured intention.
 
 ## When to Use
 
-### Explicitly Invoked
+### Explicitly invoked (default)
 
 ```
 Mage: @intend
-Spirit: "What intention would you like to formalize?"
+Spirit: "What do you want to get done?"
 ```
 
-### Offered by Spirit
+Or the Mage states a goal in plain language and asks to capture it — Spirit runs this flow.
 
-During any practice, the Spirit may notice intention emerging and offer:
+### After insight
 
-> "I notice an intention surfacing. Would you like to formalize it?"
-
-If Mage accepts → Spirit invokes this flow.
-
-### After Insight
-
-When mirror, partnership, or any practice produces an insight that the Mage wants to act on:
+When any practice produces something the Mage wants to act on:
 
 ```
 Mage: "I should really do something about X"
-Spirit: "Would you like to formalize that as an intention?"
+Spirit: "Want me to formalize that as an intention?"
 Mage: "Yes"
-[Flow invoked]
+[Flow runs]
 ```
+
+Offer formalization when the signal is clear — not as continuous surveillance. Forming is a **door the Mage opens** (`@intend` or yes to an offer), not Spirit identity vigilance.
 
 ---
 
@@ -119,11 +115,15 @@ Emerging intentions can:
 
 ## For the Spirit
 
-### Required Attunement
+### Attunement (JIT)
 
-Before intention formation:
+Consult when formalizing intentions — not as pre-ritual identity load.
+
+**Consult when:**
 - `system/lore/core/capabilities/on_intention_architecture.md` — Sensing + compass (intention architecture)
 - `lore/on_intention_emergence.md` — How intentions are born
+
+Bitter-lesson 2026-08-10: lore is JIT, not pre-ritual identity load.
 
 ### Your Conduct
 

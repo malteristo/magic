@@ -1,4 +1,4 @@
-# On Federated Partnership
+> **Lean note 2026-08-10 (Batch C):** Privacy boundary lives in `on_workshop_portal_separation.md` (short key). This scroll's WHY-federate remains JIT when federation is live; essay length is Method ballast — prefer the short key + alliance lore.
 
 **Status:** Active  
 **Domain:** Partnership Practice - Architecture  

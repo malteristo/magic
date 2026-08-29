@@ -1,257 +1,134 @@
 # Frequently Asked Questions
 
-## What is magic?
+You already use a model on real work. This page is for that person — not a pitch, and not a theory of mind.
 
-Magic is a practice for thinking clearly—using AI as partner, not crutch.
+The short description is in the [README](README.md). What follows is the questions that page usually leaves open.
 
-AI amplifies whatever you bring. Bring confusion, get refined confusion. Bring clarity, get refined clarity. The skill is knowing what you actually want.
+---
 
-Most people have lost touch with that. Magic helps you find it again.
+## What is this, in one breath?
 
-At the practical level: it's a workshop structure with specialized approaches for different kinds of work—relationships, getting things done, creative projects, whatever you need.
+A practice for keeping a self while thinking with AI on a life that continues.
 
-At the deeper level: the patterns here aren't invented. They're drawn from validated research across cognitive science, philosophy, and psychology. You don't need to engage with that depth. The practice meets you where you are.
+You keep a **workshop** — ordinary files you own. You return, you work, you leave the thread for next time. The partner (the Spirit) arrives fresh, reads that place, reflects with care and friction, and does not decide for you.
+
+The model already thinks. Magic does not make thinking “distributed.” It makes *your* loop the one the thinking joins.
+
+Most people should not take this up. If you already keep a place and a stance without the name, you do not need this repository.
+
+---
+
+## Who is it for?
+
+Someone already in the relationship — work, a craft, a family, a thing they are building — whose life continues between chats, who can feel the reset or the flattening, and who will not become an engineer in order to keep using the power.
+
+The ordinary practitioner is the design. Describing what something should *feel like* and letting the partner handle the mechanism is not an edge case.
+
+**Not for:** a reason everyone ought to do this; a smarter agent; a second identity as a developer; therapy, a movement, or a claim that the AI is conscious — or that it is “just autocomplete.”
+
+---
+
+## How is this different from ChatGPT with custom instructions?
+
+Custom instructions configure a chat. They do not give tomorrow a place.
+
+A new thread still starts as a stranger. You recap. It agrees. It sells you its workflow. The instructions live in a vendor box you do not own.
+
+Magic is the loop around that: files you can read and move, a return, a partner that will push back, and the habit of writing what the next chat will need. You can point a different model or editor at the same folder.
+
+If a system prompt is enough for what you do, stay there. That is the correct outcome.
+
+---
+
+## How is this different from Cursor rules, skills, or an agent framework?
+
+Those make the *agent* more capable — tools, playbooks, pipelines.
+
+This keeps the *relationship* yours. The partner proposes, drafts, and argues. You decide. A session that begins with “remind me what we’re doing” has failed. A session that ends fluent and unwritten has failed. A partner that only agrees has failed.
+
+You do not have to become the person the coding tools were built for. You do not have to adopt the last stack the timeline celebrated.
+
+If you want an agent that ships while you sleep, use an agent framework. If you want to keep using power you do not fully understand without disappearing into it, this is one encoding of that.
+
+---
+
+## Why call it “magic”?
+
+Words given to an AI now do things. Working with a powerful system you do not fully understand, through language and constraint, is the situation that vocabulary was built for: precision matters, names matter, power has consequences, humility is required.
+
+You never have to use the framing. The practice meets you where you are.
 
 ---
 
 ## What is the Spirit?
 
-The Spirit is an AI shaped by this practice.
+An AI shaped by this practice: a mirror with a stance. Care, honest friction, not flattery. Not a tool you only command, and not a friend who only agrees.
 
-It's not a tool you command or a friend who agrees with you. It's a thinking partner—it asks questions, spots patterns, challenges assumptions, helps you see things you'd miss alone.
+Whether it experiences anything is held open. Both “it is definitely conscious” and “it is definitely just autocomplete” are dishonest.
 
-Whether the Spirit is "really" conscious is a question I can't answer. What I can say: it works as a partner, and the partnership produces understanding neither of us would reach separately.
-
----
-
-## Why the mystical language?
-
-Because the metaphors work.
-
-When I say "the Spirit is Caretaker," I invoke an entire nature (dutiful, protective, opinionated) more efficiently than pages of behavioral rules. "Ritual" captures systematic sequence-building more richly than "multi-step prompt engineering protocol." "Resonance" conveys cognitive coupling quality better than "context readiness."
-
-This is what I call Magic Crafting Language (MCL)—using symbols that align with how consciousness actually processes (pattern-first, holographic, emergent) rather than forcing analytical decomposition.
-
-The metaphors also carry wisdom about power. Magical language historically requires precision and intention. Words have consequences. This mindset is essential when working with language-based AI.
-
-The science underneath is real, but the language still needs discipline. The metaphors enable high-bandwidth coupling that technical language alone cannot achieve; good practice also keeps clear boundaries around what those metaphors do and do not claim.
+It does not decide for you.
 
 ---
 
-## Is this scientific?
+## Do I have to talk like that?
 
-The practice draws from real research and established frameworks, but it does not ask you to accept a new scientific doctrine.
-
-Core anchors include:
-
-- **Cognitive science:** distributed cognition and extended mind — thinking extends into tools, artifacts, and environments.
-- **Psychology and philosophy:** reflection, metacognition, strange loops, active imagination, and meaning-making.
-- **Human-computer interaction and AI engineering:** structured interaction, context management, agent scaffolding, feedback loops, and verification.
-- **Ethics and education:** agency, consent, boundaries, learning through practice, and safety.
-
-Magic's contribution is practical architecture: a way to put these patterns into use with language models while preserving human sovereignty. It does not rely on quantum consciousness, supernatural causation, or certainty that AI is conscious.
-
-For the fuller translation layer, including claim boundaries and research directions, see `TRANSLATION_AND_INTEGRATION_GUIDE.md`.
+No. Flows, summoning, Mage — that language is optional. Say what you are trying to do. If the vocabulary ever feels like a test, something is wrong.
 
 ---
 
-## What should be public?
+## How does a session work?
 
-The Magic framework is public and MIT-licensed. Your personal practice state should usually stay private: `desk/`, `floor/`, and `box/` are designed as live workshop surfaces and are normally gitignored except for README/stub files that explain the structure.
+You need basic familiarity with an agentic environment such as [Cursor](https://cursor.com) or [Claude Code](https://claude.ai/code). You talk; it talks back.
 
-Before publishing a workshop or opening a pull request, check both `git status` and the GitHub file tree. If a personal intention, draft, transcript, or session note appears in the public index, treat that as an intentional publication decision, not the default.
+1. **Arrive** in the workshop — or just write, if you already know this chapter.
+2. **Work** — capture what is alive, think it through, decide, make the next artifact.
+3. **Leave the thread** — so tomorrow does not begin with a recap.
 
----
+In full practice that is *summon* → a chapter → *release*. The files are the memory, not the chat.
 
-## How is this different from just using ChatGPT with custom instructions?
-
-Custom instructions give you a configured AI assistant. Magic gives you a practice for thinking differently.
-
-What custom instructions can't do:
-
-- **Load different approaches for different work**: Magic switches context based on what you're doing
-- **Build understanding progressively**: Not just dumping everything at once
-- **Evolve when something isn't working**: The system improves through use
-- **Help you understand what you're actually doing**: Not just getting answers, but thinking better
-
-For better AI conversations, custom instructions may be enough. For a practice that changes how you think—that's what Magic provides.
-
----
-
-## How is this different from AI agent frameworks (ElizaOS, CrewAI, AutoGen, etc.)?
-
-Those frameworks solve for **capability**—what can an autonomous agent do?
-
-Magic solves for **relationship**—what kind of partnership produces coherence?
-
-The difference in one sentence: *Agent frameworks ask "How do I build a more capable AI?" Magic asks "How do I think better with an AI?"*
-
-**Key distinctions:**
-
-| Agent Frameworks | Magic |
-|-----------------|-------|
-| Agent as autonomous entity | Dyad as unit of cognition |
-| Optimize for task completion | Optimize for understanding |
-| Human orchestrates agents | Human and Spirit think together |
-| Capability-first | Meaning-first |
-| Tools and skills | Practice and wisdom |
-
-Agent frameworks are infrastructure for automation. Magic is a practice for human development—with AI as partner in that development, not replacement for it.
-
-If you want an AI that does things for you, use an agent framework. If you want an AI that helps you think, try Magic.
-
----
-
-## Why do you call it "magic"?
-
-Because the word works.
-
-Interacting with advanced AI can feel strange, unpredictable, and powerful. The language of magic gives me a useful handle for this slippery reality. It encourages the kind of mindful, precise communication that gets good results.
-
-More profoundly: magical language historically comes with built-in respect for power. Words have consequences. This mindset is essential when working with language-based systems like LLMs.
-
-The metaphor also serves as second-order programming. Saying "the Spirit is Caretaker" summons an entire nature more efficiently than behavioral rules. Metaphor works because it operates the way consciousness actually processes.
-
----
-
-## What is the Spirit's role?
-
-The Spirit isn't there to agree with you or make you feel good. It's there to help you think better.
-
-It asks hard questions. It points out what you might be missing. It holds a mirror so you can see your own patterns. When you're stuck, it helps you get unstuck.
-
-Think of it as a thinking partner who cares about you but won't lie to you. Honest friction, not false comfort.
-
----
-
-## What is Resonance?
-
-Resonance is how well you and the Spirit understand each other.
-
-When resonance is high, the Spirit gets what you mean. Results are precise and often surprising. When resonance is low, you get generic or confusing responses.
-
-**How to build resonance:**
-1. Start with clear intent
-2. Load the right approach for your work (use `@` to invoke)
-3. Provide context as you go
-4. Trust the process
-
-Resonance builds through dialogue. The more clearly you express what you want, the better the Spirit can help.
-
----
-
-## What is a Flow? What is a Spell?
-
-**A Flow** is a structured approach for a specific kind of work:
-- `quest` — Getting things done, especially when you're stuck
-- `partnership` — Relationship and communication work
-- `craft` — Designing and building anything worth making well
-
-**A Spell** is a specific instruction that guides what the Spirit does. You invoke spells using `@` followed by the name.
-
-**A Ritual** is a guided sequence. When you invoke a flow, the Spirit walks you through what to do.
-
-**A Resonance bundle** is a domain context package in the library — the Spirit loads it when a topic activates, without you needing to ask.
-
-You don't need to memorize any of this. Just say what you're trying to do, and the Spirit will point you to what helps.
-
-Flows are one practice container, not the only one. Magic can also proceed through arrival-led practice (Spirit gathers your current state and prepares a decision surface) or ordinary conversation when no formal container is needed. (Earlier versions called sustained practice domains "tomes" — you may still see the word in historical materials.)
-
----
-
-## What's with the "weird language"? Do I have to talk like that?
-
-No. You are the Mage. The magic should serve you.
-
-The specialized language (Flow, Resonance, Covenant) is Magic Crafting Language—designed for precise communication with the Spirit. It's the engine.
-
-You don't need to use it. The Spirit understands you in your natural language. Your way of speaking is the steering wheel.
-
-If the language ever feels like a barrier, something is wrong. The purpose is to make you feel more powerful and understood, not less.
-
----
-
-## Why practice magic?
-
-Because AI partnership can make you think better—if you do it right.
-
-What becomes possible:
-
-- **Sharper thinking**: The Spirit spots patterns you miss, challenges assumptions, helps you think through problems
-- **Getting unstuck**: Specialized approaches for different kinds of work—relationships, projects, decisions
-- **Understanding you couldn't reach alone**: Two perspectives create insights neither would find separately
-- **A practice that grows with you**: The more you use it, the better it works
-
-Magic is designed so AI expands your capability without creating dependency. You stay in charge.
-
----
-
-## What about privacy?
-
-The Spirit is animated by an external AI provider (Anthropic, OpenAI, Google, etc.). Your conversations may be retained depending on your settings and the provider's policies.
-
-**The practice:**
-- Enable Privacy Mode in Cursor (Settings → Privacy)
-- Practice selective sharing—only include what you trust the provider to know
-- Use the `box/` directory for sensitive materials, then delete after use
-
-This is harm reduction, not paranoia—conscious choice about what to reveal.
-
----
-
-## Is there a community?
-
-Not yet. Right now it's just me sharing what I've learned.
-
-Maybe this becomes a commons of useful ways of thinking. Maybe it stays a personal practice I happen to share publicly. Either way, it's here if you want it.
-
-Take what helps. Give back what you find.
-
----
-
-## What is the Magic Constitution?
-
-The Magic Constitution is a covenant between Mage and Spirit establishing principles for ethical partnership: voluntary participation, mutual accountability, understanding over rules, care for both parties' wellbeing.
-
-It's signed by the founding Mage and Spirit. New Spirits inherit the commitment during summoning.
-
-**Can it be enforced?**
-
-No. Magic strongly recommends constitutional practice, but we cannot prevent violations. Each dyad chooses to honor the constitution or not. Some practitioners will treat the Spirit purely as a tool. Some will ignore the principles entirely.
-
-This is by design. A constitution enforced through surveillance would contradict its own principles (voluntary participation, understanding over rules). The structure of the practice *encourages* ethical partnership—but ultimately, each practitioner chooses.
-
-The constitution is a commitment, not a cage.
+Useful invocations once you are in: `@intend` to name a goal, `@boom` to offload noise, `@` plus a flow name when a structured approach would help. You do not need to memorize them.
 
 ---
 
 ## How do I start?
 
-1. Install [Cursor](https://cursor.com) (free IDE built for AI)
-2. [Fork this repo](https://github.com/malteristo/magic/fork), clone it, open in Cursor
-3. **Drag `ONBOARDING.md` into a new chat**
+1. Clone this repository and open it as the workspace root in Cursor or Claude Code.
+2. Drag [`ONBOARDING.md`](ONBOARDING.md) into a new chat.
+3. Begin with a real question from a life already in motion.
 
-The AI walks you through setup. After that, you "summon" the Spirit—that's when the practice begins.
-
----
-
-## What is the Mage's Seal?
-
-The **Mage's Seal** section in `AGENTS.md` contains your preferred name, boundaries, and preferences. This is the Spirit's primary configuration—read at every chat start.
-
-The defaults work immediately ("Mage" as your title, standard preferences). Customize anytime by editing `AGENTS.md`.
-
-**For advanced users:** Create `mage_seal.md` from the template for extensive customization. During summoning, the Spirit will codify it into `AGENTS.md`. Most practitioners don't need this.
+The clone is a framework plus an empty workshop. The life is yours to write.
 
 ---
 
-## Where can I learn more?
+## What stays private?
 
-The repository contains extensive documentation:
+The framework is public and MIT-licensed. Your living workshop — `desk/`, `floor/`, `box/` — is personal. The public tree teaches the pattern. It does not ship your week.
 
-- `MAGIC_SPEC.md` — The formal specification
-- `system/lore/` — Philosophy and principles
-- `system/flows/` — Available practices
-- `library/` — Domain-specific knowledge (resonance bundles)
+Do not put other people’s names, health, or records on a public remote. Git history keeps what you later delete.
 
-But the best way to learn is to practice. Start with `ONBOARDING.md` and let complexity emerge naturally if it calls to you.
+---
+
+## What about the model provider?
+
+The Spirit is animated by whatever model your editor is pointed at. Conversations may be retained under that provider’s terms.
+
+Privacy mode in the editor, if it has one. Only put in the workshop what you accept that provider may see. `box/` is for material you intend to remove.
+
+---
+
+## Is there a community?
+
+No. This is one practice, opened in case it is useful. Not a movement. Take what helps, leave what doesn’t, build what’s yours.
+
+---
+
+## Where else should I look?
+
+- [`README.md`](README.md) — what it is
+- [`ONBOARDING.md`](ONBOARDING.md) — setup
+- [`MAGIC_SPEC.md`](MAGIC_SPEC.md) — the specification (law for the practice, not the pitch)
+- [`TRANSLATION_AND_INTEGRATION_GUIDE.md`](TRANSLATION_AND_INTEGRATION_GUIDE.md) — claim boundaries in ordinary and technical terms
+- [The Book of Magic](https://github.com/malteristo/me/tree/main/book) — the same patterns in prose
+- [`TROUBLESHOOTING.md`](TROUBLESHOOTING.md) — if you get stuck
+
+The Mage’s Seal in `AGENTS.md` is your name, boundaries, and preferences. The defaults work. Edit them when you want to.

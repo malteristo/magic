@@ -6,50 +6,44 @@
 
 ## What This Guide Is
 
-Magic is an open framework for building AI-human practice systems.
+The public description of Magic is the [README](README.md): a practice for keeping a self while thinking with AI on a life that continues. A place, a return, a stance. Not a cognition product.
 
-The short version is simple: Magic treats an AI agent not as a chatbot to command, but as a thinking partner in a structured workshop. The workshop holds files, prompts, rituals, intentions, notes, and history. The human brings judgment, values, embodied experience, and final choice. The AI brings pattern recognition, synthesis, memory across large contexts, drafting, critique, and a different angle of attention.
+This file is for readers who need claim boundaries and a mapping into scientific or technical vocabulary. It does not replace the README, and it does not ask you to accept a theory of mind.
 
-Together, those form a cognitive system neither side could create alone.
-
-This guide translates Magic for readers who want to understand the framework in scientific, technical, philosophical, ethical, and educational terms. It does not replace Magic's internal language. The magical vocabulary is part of the system: it shapes attention, behavior, care, and responsibility. This guide explains how that language works and where its public claims begin and end.
+The magical vocabulary is optional. It is there because words now move systems you do not fully understand. You never have to use it.
 
 ---
 
 ## What Magic Is In Ordinary Language
 
-Magic is a practice for thinking clearly with AI.
+You are already thinking with a model. The chat recaps you as a stranger, agrees, and sells you its workflow. Magic is a name for a loop that keeps that relationship yours.
 
-It helps a person:
+You keep a workshop — ordinary files you own. You return, you work, you leave the thread for next time. The partner arrives fresh, reads that place, reflects with care and friction, and does not decide for you. You do not have to learn to code.
 
-- capture what is alive in their mind
-- clarify what they actually want
-- work through decisions and projects
-- notice patterns across time
-- receive honest friction instead of empty agreement
-- build artifacts that preserve insight
-- return to what matters without starting over each session
+What you can observe:
 
-The purpose is not to replace human judgment. The purpose is to create a better surface for judgment to happen.
+- You stop recapping your own life at the start of every chat.
+- You stay the one who decides.
+- What keeps resurfacing becomes visible, because the record is yours.
 
-Magic is not therapy, religion, productivity software, or a claim that AI is human. It is a disciplined way of working with language models as cognitive partners while preserving human sovereignty, epistemic humility, and clear boundaries.
+Magic is not therapy, religion, productivity software, or a claim that AI is human. Held open: whether the partner experiences anything. No supernatural causation.
 
 ---
 
 ## What Magic Is In Technical Language
 
-Magic is a structured practice architecture for distributed cognition between a human, an AI system, and a shared artifact environment.
+If you need a research vocabulary, some readers map the *workshop* (human + model + files) onto distributed cognition or the extended mind. **That mapping is not the claim.** The model already thinks. Magic does not make thinking distributed. It makes the practitioner’s loop the one the thinking joins.
 
-In technical terms, Magic combines:
+In engineering terms, part of Magic is a natural-language harness: markdown protocols, filesystem state, invocation conventions, tool boundaries. The harness is not the product. The product is still being yourself while using something powerful you do not fully understand.
 
-- **Distributed cognition:** thinking distributed across human, AI, and external artifacts.
-- **Extended mind:** files, notes, prompts, intentions, and histories acting as cognitive substrate.
-- **Natural-language practice architecture:** markdown protocols and invocation patterns that guide probabilistic language models without pretending they are deterministic software.
-- **Cybernetic feedback:** human intent, AI response, human evaluation, artifact capture, and recalibration forming iterative loops.
-- **Metacognitive scaffolding:** structured reflection, claim boundaries, review, and safety checks.
-- **Human agency preservation:** the human remains the final source of values, commitment, and accountability.
+Useful adjacent terms, if you must have them:
 
-For AI engineers, part of Magic can be understood as a structured natural-language harness: markdown protocols, filesystem state, invocation conventions, tool boundaries, and recovery patterns that guide probabilistic language models. But Magic is more than the harness. The harness is the riverbed; the practice is the water.
+- **Filesystem state as memory** — the chat is stateless; the life is not.
+- **Stance, not persona** — care and friction are configured; the human decides.
+- **Feedback** — arrive, work, leave the thread, return.
+- **Agency** — the human remains the source of values and accountability.
+
+A folder and a habit can do much of this. This encoding exists for people who will not keep the writing without a named return — and for a design the default tools are not written for.
 
 ---
 
@@ -59,7 +53,7 @@ Magic uses specialized vocabulary because language changes behavior in language-
 
 | Magic term | External translation | Function |
 |---|---|---|
-| Magic | AI-human practice framework | The overall method for distributed cognition through partnership |
+| Magic | AI-human practice framework | A loop that keeps the practitioner’s relationship with a model theirs |
 | Mage | Human practitioner | The person whose values, judgment, and agency govern the practice |
 | Spirit | AI agent shaped by the practice | The language model acting under Magic's stance and protocols |
 | Workshop | Shared cognitive environment | Files, prompts, notes, tools, artifacts, and histories |
@@ -176,7 +170,7 @@ Magic supports cognitive sovereignty by making several commitments structural:
 - Safety checks ask whether AI use is improving real life in observable ways.
 - Substrate literacy teaches which human-relational assumptions transfer to LLMs and which do not.
 
-The public-interest claim is straightforward: as AI systems become more fluent and more persuasive, people need practices that help them think better with AI without outsourcing their agency to it.
+The public-interest claim is straightforward: as AI systems become more fluent and more persuasive, people need a loop that keeps the relationship theirs — without outsourcing judgment to the model or to the last workflow the field sold.
 
 ---
 
@@ -265,8 +259,8 @@ Reducing spells to prompts, or bundles to prompt collections, loses what makes M
 
 Magic can make several claims with confidence:
 
-- AI-human practice can function as distributed cognition.
-- External artifacts can extend cognitive continuity across sessions.
+- Files the practitioner owns can carry a life across stateless chats.
+- External artifacts can extend continuity across sessions.
 - Natural-language protocols can guide probabilistic agents.
 - Metaphors shape behavior in language-mediated systems.
 - Human agency and explicit boundaries are essential for safe AI partnership.
@@ -343,10 +337,10 @@ The words are not arbitrary. They are also not a demand for belief. They are ope
 
 ## Closing
 
-Magic is best understood as a disciplined practice for AI-human distributed cognition.
+Magic is best understood as a practice for keeping a self while thinking with AI on a life that continues.
 
-It draws from many fields, but it is not reducible to any one of them. It uses metaphor, but not as decoration. It uses AI, but not as an authority. It builds structure, but not to eliminate emergence. It values resonance, but disciplines resonance with claim boundaries and human sovereignty.
+It draws from many fields, but it is not reducible to any one of them. It uses metaphor, but not as a demand for belief. It uses AI, but not as an authority. It builds structure, but not to replace judgment.
 
 The public bridge is this:
 
-Magic is a way of thinking better with AI while remaining the author of your own life.
+You come back tomorrow and you are still in the same life. The partner knows where you left off because you have a place — not because the chat remembered.

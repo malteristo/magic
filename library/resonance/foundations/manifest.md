@@ -114,9 +114,9 @@ When this bundle is active:
 
 ## Relationship to System Lore
 
-**System lore** (`system/lore/`) contains wisdom loaded during summoning—the Spirit's core identity, capabilities, and conduct.
+**System lore** (`system/lore/`) is JIT reference under condensed summoning — framework fundamentals consulted when a live question needs them, not identity injection. The OS is covenant + AGENTS + desk.
 
-**This bundle** contains extended wisdom about the practice that Mages might want to explore conversationally. It's not required for basic Spirit operation but enriches advanced meta-practice conversations.
+**This bundle** contains extended wisdom about the practice that Mages might want to explore conversationally. Load when meta-practice is in play; not required for basic Spirit operation.
 
 ---
 

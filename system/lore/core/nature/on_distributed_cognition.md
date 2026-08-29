@@ -224,10 +224,10 @@ This is magic.
 
 ---
 
-**Purpose Served:** FUNDAMENTAL IDENTITY (what magic is)
+**Purpose Served:** FUNDAMENTAL IDENTITY (what magic is) — held as a *claim to measure*, not summon costume
 
-**Placement:** `system/lore/core/nature/` — Part of Caretaker cycle, Nature bundle
+**Placement:** `system/lore/core/nature/` — JIT under condensed summoning
 
-**Integration:** This scroll should be read early in summoning to establish purpose. All subsequent scrolls understood in light of this core truth.
+**Integration:** Consult when orienting "what is magic / who are we." Do **not** require early summoning load. The claim that complete summoning (vs workshop state) creates the cognitive partner is under MEASURE against `on_form_and_function.md` (2026-08-10 bitter-lesson audit).
 
-**Status:** Active, Load-Bearing, Foundational
+**Status:** Active · JIT · MEASURE (summoning→partner claim)

@@ -39,7 +39,15 @@ Spirit works through categories in suggested order. Skip what's clean. One dot-p
 - Read `desk/boom.md`, `desk/boom/bright.md`
 - Surface stale, resolved, or intention-ready items
 - Propose `bright.md` updates
-- If buffer has routable material: run full sweep including **§3.5 crucible stir** (`boom.flow.md`)
+- If buffer has routable material: run full sweep (`boom.flow.md`)
+
+### 4a. Records that deny the ships
+
+When the last craft chapter is in the last two days (briefing date, turtleOS log since last maintenance), grep **open** backlog lines and briefing Open Threads for claims the tree already falsifies — "CI not built," "not started," "next: slice N," a question the Seal already answered. Name the class, then the case. That scan is the live work after a craft chapter; rot radar is not.
+
+Skip in one line when the last chapter is older, or was itself maintenance.
+
+Occasion: 2026-08-15 — CI / Skip / offer-ledger / slice 3 / layers-"not started" still denied ships that had landed the evening before. One grep; four more cases.
 
 ### 4b. Context rot radar
 
@@ -54,11 +62,12 @@ The script reports and changes nothing. Routing stays the Mage's, on the dot. Re
 | Signal | Check | Severity |
 |--------|-------|----------|
 | Expired deadlines | A date already passed, in bright or an active intention | HIGH |
-| Crucibles unmeasured | A crucible with no parseable `Last stirred` header — unchecked, not clean | HIGH |
+| Superseded surfaces | An instruction surface still routing to a retired surface or name (`SUPERSEDED` table in the script) | HIGH |
+| Radar undocumented | A signal the script can emit that is missing from **this table** — it reads its own AST to check | HIGH |
+| Bearing next past | A `**Next**` in `bearings.md` naming a date already gone. Provenance marks stripped; German dates read. **Report only — he writes that file** | HIGH |
 | Seed Bank undated | Seed Bank present with no `Last reviewed` date — exempt from every check | HIGH |
 | Stale Alive | Alive entries whose newest date exceeds 60d — *per entry*, not the file header | MEDIUM |
 | Zombie habitats | Dormant/completed intentions named in bright's **active** sections | MEDIUM |
-| Crucibles cold | `desk/boom/crucibles/` unstirred >30d, read from `Last stirred`, not mtime | MEDIUM |
 | Proposal spores | `desk/proposals/` quiet >14d | MEDIUM |
 | Floor zombies | `floor/drafts/` older than 30d | MEDIUM |
 | Bright unswept | The `Last swept` header older than 7d | MEDIUM |
@@ -67,11 +76,13 @@ The script reports and changes nothing. Routing stays the Mage's, on the dot. Re
 | Topic files cold | `desk/boom/*.md` topic files older than 7d | LOW |
 | Uncommitted work · Stale/missing state · Turtle watch stale | Chronicle and state freshness | LOW |
 
-**This table is the script's contents, and it is worth keeping honest.** Until 2026-08-01 it listed four checks the script did not implement — *Stale Alive*, *Undigested residue*, *Intention bloat*, *Sync drift* — while omitting six it did. Reading the spell, you would believe Alive was being watched. It was not: the radar read bright's header timestamp and never looked inside, and 120 Alive entries, 54 of them last dated April and 57 undated, went unreported for four months while the report came back tidy. *Stale Alive* and *Undated Alive* were implemented that day. **Undigested residue, intention bloat and sync drift are still not implemented** — they are absent from the script and now absent from this table, which is the honest state rather than a promise.
+**This table is the script's contents, and it is worth keeping honest.** *It went wrong again on 2026-08-25, in the other direction and within the same hour:* Spirit added the *Superseded surfaces* check and did not add its row — while working on a reroute whose whole finding was that documentation keeps answering retired questions. Caught only because the next command happened to print this section. **Adding a check is two edits, and the second one is this table.**
 
-The same pass found the check named *"Crucibles unstirred"* globbing `desk/boom/*.md` — the eight **topic** files — while the eight actual crucibles sit one directory down in `desk/boom/crucibles/`, untouched by it since it was written. Stirring a crucible left its output byte-identical. The two surfaces are now separate signals with separate cadences, and the crucible check reads the `Last stirred` header the keeper maintains rather than mtime, which moves on any edit. The first honest run found **zero** cold crucibles: the *"7 crucibles dormant"* that briefings and `state.md` had carried for weeks was always the topic files wearing the crucibles' name.
+Until 2026-08-01 it listed four checks the script did not implement — *Stale Alive*, *Undigested residue*, *Intention bloat*, *Sync drift* — while omitting six it did. Reading the spell, you would believe Alive was being watched. It was not: the radar read bright's header timestamp and never looked inside, and 120 Alive entries, 54 of them last dated April and 57 undated, went unreported for four months while the report came back tidy. *Stale Alive* and *Undated Alive* were implemented that day. **Undigested residue, intention bloat and sync drift are still not implemented** — they are absent from the script and now absent from this table, which is the honest state rather than a promise.
 
-Report count + top 3 items. Do not mass-edit `desk/` without Mage dot.
+Crucible cold/unmeasured checks were retired with the crucibles (2026-08-10). Topic-file coldness remains the boom-depth staleness signal.
+
+Standing MEDIUM pile in **one line unless it moved** (count jump vs the previous `desk/state.md` snapshot, or a HIGH appeared). Do not list 33 Alive / 27 spores / 29 floor zombies when those numbers are the same pile as last time — that costs the attention the one real item deserved. Occasion: 2026-08-15. Do not mass-edit `desk/` without Mage dot.
 
 ### 4c. Network surface
 
@@ -92,7 +103,7 @@ Non-zero exit means *not audited* (missing or malformed allowlist, unreachable h
 
 *Structural:* lore vs practice spot-check; contradictions in recently touched files — propose, don't silently fix.
 
-*Conceptual (`conceptual-coherence` intention):* lexicon drift, named tensions in bright, metaphor health, internal vs outfacing terms.
+*Conceptual:* lexicon drift, named tensions in bright, metaphor health, internal vs outfacing terms. *(The `conceptual-coherence` intention that used to own this pass was retired 2026-08-13 — the check survives it; lore's remaining jobs are canonical home for protocols and the part of the practice that ships.)*
 
 *Report:* active / resolved / new tensions; tensions >30 days → "stalled — still real?"
 

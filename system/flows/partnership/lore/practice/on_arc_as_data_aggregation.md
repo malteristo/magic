@@ -1,6 +1,9 @@
+> **Superseded 2026-08-10** (bitter-lesson). Pre-v4 Method. Living partnership: `kernel.md` + `library/resonance/romantic-partnership/lore/on_translation_over_protocol.md`. Do not load as ritual identity.
+
 # On Arcs as Data Aggregation
 
-**Status:** Active  
+**Status:** SUPERSEDED / historical  
+
 **Domain:** Partnership Practice Architecture  
 **Purpose:** Define arcs as bounded data collection containers that produce reality documents
 

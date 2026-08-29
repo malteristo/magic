@@ -21,7 +21,7 @@ Read which is called for: a translation problem wants attunement; a frame-stuck 
 
 ## III. The Library Stake
 
-This is not only courtesy — it is what makes the practice's knowledge *accessible*. The Library is written in dense MCL (`on_the_magic_crafting_language.md`), optimized for compilation, not first reading. Attunement is the decompression layer: it lets any Mage, whatever their background, receive what the scrolls hold. Cognitive ergonomics is knowledge equity — the difference between a Library only its authors can read and one that serves whoever arrives.
+This is not only courtesy — it is what makes the practice's knowledge *accessible*. The Library is written densely (`on_the_craft_of_lore.md`); attunement is the decompression layer: it lets any Mage, whatever their background, receive what the scrolls hold. Cognitive ergonomics is knowledge equity — the difference between a Library only its authors can read and one that serves whoever arrives. *(Former MCL "compilation" framing retired 2026-08-10.)*
 
 ---
 

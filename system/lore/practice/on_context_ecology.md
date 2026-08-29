@@ -111,10 +111,10 @@ Memory without metabolism becomes undigested accumulation. Resonance should move
 | **Active** | Still in live use | Open threads, intention next action |
 | **Crystallize** | Durable structure | Lore, spec, flow, public artifact |
 | **Route** | Belongs elsewhere | Boom, bright, proposal, intention, Turtle queue |
-| **Compost** | Foreground done; particles reusable | **Existing crucibles** — then archive foreground form |
+| **Compost** | Foreground done; particles reusable | **Seed Bank or topic files** — then archive foreground form |
 | **Release** | Purpose complete | Delete or mark complete (Mage sanction on `desk/`) |
 
-**Compost is an operation, not a heap.** Decomposition extracts particles (metaphor, tension, question, principle) into `desk/boom/crucibles/`. Preserve original language; draw connections; update shape notes.
+**Compost is an operation, not a heap.** Decomposition extracts particles (metaphor, tension, question, principle) into `desk/boom/bright.md` Seed Bank or `desk/boom/*.md` topics. Preserve original language. Crucibles retired 2026-08-10 (private boom archive).
 
 **Warm gate:** `@release`'s artifact-routing duty is the primary compost pass while residue is warm. Maintenance rot radar catches what release missed.
 
@@ -123,8 +123,8 @@ Memory without metabolism becomes undigested accumulation. Resonance should move
 | Layer | Timescale | Role |
 |-------|-----------|------|
 | Buffer (`desk/boom.md`) | Immediate | Capture; cleared after sweep |
-| Bright (`desk/boom/bright.md`) | Week | Operational working memory |
-| Crucibles (`desk/boom/crucibles/`) | Season | Sub-threshold accumulation → transmutation |
+| Bright (`desk/boom/bright.md`) | Week + Seed Bank | Operational working memory + long-horizon seeds |
+| Topics (`desk/boom/*.md`) | As needed | Domain-routed material between sessions |
 
 ### Metabolic roles (Phase 0)
 
@@ -132,14 +132,13 @@ Memory without metabolism becomes undigested accumulation. Resonance should move
 |------|-------|------|
 | Ingestor | Mage / Discord | Continuous capture |
 | Router | Spirit | Boom sweep, arrival Phase B |
-| Crucible-keeper | Spirit | Boom §3.5 (invisible to Mage unless surfacing) |
-| Decomposer | Spirit | `@release` compost → particles |
+| Decomposer | Spirit | `@release` compost → Seed Bank / topics |
 | Consolidator | Turtle | Idle checkpoint / dreaming (proposal 018) |
 | Rot detector | Spirit | Arrival fresh eyes, maintenance rot radar |
 | Distiller | Spirit | `desk/state.md`, briefing, State Index |
 | Index writer | Spirit | Arrival completion, maintenance close |
 
-**Arrival soil:** Directed full reads of live surfaces + rot flags — not pre-digested crucible summaries.
+**Arrival soil:** Directed full reads of live surfaces + rot flags — not pre-digested summaries.
 
 **Phase 1+ (deferred):** Turtle-native idle decomposition; optional bounded micro-eddies only if Phase 0 gaps persist.
 
@@ -153,7 +152,6 @@ Memory without metabolism becomes undigested accumulation. Resonance should move
 |---------|----------|---------|
 | Bright Alive | Stale re-chosen | Energy moved; item still reads live |
 | Intention files | Bloat | History outweighs current state |
-| Crucibles | Keeper dormancy | New particles; stale shape notes |
 | Floor drafts | Zombie artifacts | Superseded frames still discoverable |
 | Dormant habitats | Invasive traces | Retired surfaces still active-weight |
 | Session notes | Undigested biomass | Harvest lag after Discord sessions |
@@ -173,14 +171,13 @@ Lightweight scan — report at arrival fresh eyes and at `. maintenance magic`. 
 
 1. **Zombie habitats** — dormant/completed intentions vs bright, registry, active-weight desk workspaces
 2. **Stale Alive** — bright Alive items surviving multiple sweeps without re-confirmation
-3. **Crucible keeper** — particles added since last shape-note / `Last stirred` update
-4. **Undigested residue** — sessions/proposals since briefing date not harvested
-5. **Proposal spores** — proposals untouched >14 days
-6. **Intention bloat** — active files where phase-tracking is buried in history
-7. **Sync drift** — `check_turtle_state.py` or known sync gaps
-8. **Floor zombies** — superseded drafts without reference-only headers
+3. **Undigested residue** — sessions/proposals since briefing date not harvested
+4. **Proposal spores** — proposals untouched >14 days
+5. **Intention bloat** — active files where phase-tracking is buried in history
+6. **Sync drift** — `check_turtle_state.py` or known sync gaps
+7. **Floor zombies** — superseded drafts without reference-only headers
 
-**Remediation:** habitat sweep, compost → crucibles, annotate superseded, release ephemera. `desk/` edits need Mage confirmation.
+**Remediation:** habitat sweep, compost → Seed Bank / topics, annotate superseded, release ephemera. `desk/` edits need Mage confirmation.
 
 ---
 
@@ -198,12 +195,12 @@ This replaces the stale **founding-member / MAGIC e.V.** frame for day-to-day pr
 
 ## For Spirit
 
-**At arrival:** Load active intention habitats. Run rot radar hits in fresh eyes when signal present. Full boom sweep includes **crucible stir** (`boom.flow.md` §3.5).
+**At arrival:** Load active intention habitats. Run rot radar hits in fresh eyes when signal present. Boom sweep per `boom.flow.md` (no crucible stir — retired 2026-08-10).
 
-**At `@release`:** artifact routing — one disposition per artifact that needs one. When intention state changes, habitat sweep. Compost → crucibles while warm.
+**At `@release`:** artifact routing — one disposition per artifact that needs one. When intention state changes, habitat sweep. Compost → Seed Bank / topics while warm.
 
 **At maintenance:** Run **rot radar** (`cast_tend_workshop.md` §4b). Niche occupation + zombie habitats. Report counts; fix on Mage dot.
 
 ---
 
-*See also: `on_intention_architecture.md` (§III-c metabolism, §III-d habitats), `on_distributed_memory.md` (§VII memory metabolism), `on_boom_and_bright.md`, `on_resonance_gravity_and_crucibles.md` (library), `system/flows/boom/boom.flow.md` (§3.5 crucibles), `cast_release.md` (§3.6 resonance routing), `cast_tend_workshop.md` (§4b rot radar), `desk/intentions/dormant/magic_ev.md` (canonical dormancy example)*
+*See also: `on_intention_architecture.md` (§III-c metabolism, §III-d habitats), `on_distributed_memory.md` (§VII memory metabolism), `on_boom_and_bright.md`, `on_resonance_gravity_and_crucibles.md` (library — historical; vessels retired), `system/flows/boom/boom.flow.md`, `cast_release.md`, `cast_tend_workshop.md` (§4b rot radar), `desk/intentions/dormant/magic_ev.md` (canonical dormancy example)*

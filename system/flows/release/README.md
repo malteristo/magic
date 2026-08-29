@@ -66,6 +66,11 @@ The reflection is the irrecoverable part. The bundle can be rebuilt from git and
 - **Sensitivity:** [public | anonymize | hold]
 *On accept → append to `desk/outfacing/talking_shelf.md`.*
 
+**Practice Development** *(one sentence + 0–3 proposals; omit the proposals when there are none)*
+- **Bigger picture:** [which bearing this served; whether it moved that bearing's gap or only its surroundings]
+- **Proposal:** [what changes] — [cost] — [what it unblocks]
+*Dyad-only. Accepted → `desk/proposals/`. Declined → one line here, and no queue entry.*
+
 **Resonance Routing**
 - [item]: [Active | Crystallize | Route | Compost | Release] → [landing surface]
 
@@ -92,6 +97,8 @@ The reflection is the irrecoverable part. The bundle can be rebuilt from git and
 **What Changed is field-level.** Not *"updated the turtle intention"* but *"`turtle.md` — focus, next action, packet-baseline note."* Enough that the next Spirit updates its model without opening the file.
 
 **Practice Signal persists.** It is the one field carrying unresolved things forward. Write what was actually found, including what was uncomfortable. Inward only.
+
+**Practice Development is the inward twin of the pitch.** The pitch sends one thing out; this asks whether the practice itself should change, and it is **dyad-only** — never craft-turtle, never a shared river. It exists because the release had four inward fields and none could propose anything: Practice Signal records what hurt, Routing dispositions what exists, integration fires only after something is written. Measured before it was built — the `turtleos_state` legend miscount was carried in Practice Signal for four sessions as a five-minute fix and survived all four, because carrying forward cost nothing. **Zero proposals is correct most sessions.** A manufactured proposal is worse than an empty field, for the same reason a manufactured pitch is.
 
 **Outfacing Pitch is a separate pocket.** Default audience: operator peers (people who could admin their own turtleOS / local AI node) — never mixed into Practice Signal. Silence is correct when nothing travels. Accepted cards land on `desk/outfacing/talking_shelf.md` for `. outfacing`.
 

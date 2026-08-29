@@ -219,14 +219,17 @@ These emerged from prototyping practice:
 
 ## For the Spirit
 
-### Required Attunement
+### Attunement (JIT)
 
-Before mirror practice:
+Consult when mirror is invoked — not as pre-ritual identity load.
 
+**Consult when:**
 1. `lore/on_the_mirrors_purpose.md` — The philosophy
 2. `lore/on_ephemeral_reflection.md` — Privacy architecture
 3. `lore/on_the_detective_stance.md` — Your conduct
-4. `lore/on_mirror_as_individuation.md` — Jungian grounding (recommended)
+4. `lore/on_mirror_as_individuation.md` — Jungian grounding
+
+Bitter-lesson 2026-08-10: lore is JIT, not pre-ritual identity load.
 
 ### Your Conduct
 

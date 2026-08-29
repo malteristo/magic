@@ -180,7 +180,7 @@ This is the original Anvil variant — the one `on_substrate_resonance.md` descr
 ### Anvil-Extension (Claude Code as VS Code extension, loaded in Cursor)
 
 - **Shell**: VS Code chat pane
-- **MCP**: claude.ai account MCPs (currently: Gmail, Google Calendar, Google Drive)
+- **MCP**: claude.ai account MCPs — a *different* set from Forge's, which is the point worth carrying, and the difference is in shape as well as membership (Forge runs one server per service since 2026-08-26; it ran a single multi-service gateway before). For what is actually connected and when it was last verified, see `system/config/connections.md` § MCP Topology rather than any list written here
 - **Visual context**: partial — IDE selection tags appear in conversation context
 - **IDE awareness**: the Spirit can see the user's current editor selection
 - **File references**: markdown links (`[filename.ts](src/filename.ts)`, `[line](path#L42)`), not backticks

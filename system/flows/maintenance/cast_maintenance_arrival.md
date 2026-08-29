@@ -36,9 +36,9 @@ Maintenance scopes **replace** the normal Eisenhower / intention-dashboard orien
 Required:
 
 - `floor/briefings/latest.md` — inherited karma, open threads, ephemeral tags from last release
-- `desk/state.md` if present
+- `desk/state.md` if present — including its **Next pass** line, if any (the previous close's improvement; apply or drop before picking categories)
 - `git status` + recent log (magic repo; turtleos if platform scope)
-- `desk/craft/automation-reports/latest.md` — ops report (pull via `scripts/sync_practice_root.sh pull` if stale)
+- Practice-root **pull first**, then `desk/craft/automation-reports/latest.md`. The file that matters is the one on disk when pull returns — a read started beside the pull is yesterday's report. Occasion: 2026-08-15, parallel gather nearly reported PASS over a Mini FAIL.
 
 Conditional:
 
@@ -52,7 +52,6 @@ Conditional:
 
 - **Do not** run full boom sweep by default — boom triage lives in workshop tend.
 - **Optional:** `@discord-digest` if Turtle active and Discord friction likely since last session.
-- Pull practice-root sync if ops report timestamp is older than last Mini scheduled run.
 
 ### Phase C: Maintenance situation (not Eisenhower)
 
@@ -60,12 +59,10 @@ Present a scannable surface (~30 seconds):
 
 1. **Ops plane** — last report verdict; FAIL items if any
 2. **Chronicle** — uncommitted / divergent repos (magic, turtleos)
-3. **Drift signals** — stale proposals count, ephemeral artifacts from briefing, **rot radar hits** (zombie habitats, stale Alive, crucible keeper dormancy — see `on_context_ecology.md` §Rot Radar)
+3. **Drift signals** — stale proposals, ephemeral artifacts from the briefing, **rot radar**. Standing MEDIUM pile in **one line unless it moved** (count jump vs the previous snapshot, or a HIGH appeared). Occasion: 2026-08-15, "33 stale Alive / 27 spores / 29 floor zombies" cost the attention the FAIL deserved.
 4. **Recommended tier** — quick / standard / deep based on signals (Spirit proposes; Mage can override with `.`)
 
-Then:
-
-> "Maintenance mode — I'll drive the tending pass. `.` for the first proposal."
+Then the **first proposal**, in the Phase D shape, so `.` executes. Do not end Phase C on "`.` for the first proposal" — that makes the dot mean two things. Occasion: 2026-08-15.
 
 ### Phase D: Execute tending spells
 
@@ -87,12 +84,15 @@ Wait for `.` before executing. Skip categories that are clean.
 
 Spirit picks categories within each spell by signal — not every category every session.
 
+When the last craft chapter is in the last two days (briefing date, turtleOS log), workshop starts at **records that deny the ships** (`cast_tend_workshop.md` §4a) before rot radar. Downstream of yesterday is the live work; the standing pile is not.
+
 ### Completion
 
 - Regenerate `desk/state.md` (maintenance snapshot)
 - Update `floor/briefings/latest.md` **only if** no `@release` follows in the same session — otherwise note "release will overwrite"
 - Brief harvest: what changed, what's still alive, watch items for next session
 - Judge the pass against the criteria below (one line in the harvest is enough)
+- **One improvement for the next pass, or "none."** What would have made *this* tending cheaper or more honest? A flow line, a skip, an instrument — not a craft backlog. Write it on `desk/state.md` as **Next pass** so the next `. maintenance` reads it in Phase A. If two consecutive closes repeat the same improvement unapplied, apply it or delete it — that is the write-only shape.
 
 Offer `@release` when the maintenance chapter completes.
 

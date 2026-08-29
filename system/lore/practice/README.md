@@ -45,6 +45,7 @@ first-class — it simply attunes a different substrate.
 - `on_wire_before_mechanism.md` — Before adding a gate, check what already written is going unread
 - `on_what_a_rule_does_not_cover.md` — Name the occasion, name the class, run a positive control
 - `on_evaluating_design.md` — What testing is for code, evaluations are for design; an evaluation without a named reader is another unread artifact
+- `on_the_unenforced_declaration.md` — Building in plain English produces declarations faster than enforcement; the Mage reviews the one layer that cannot be wrong. Load with craft work. *(2026-08-14 — carries the currency/drift exception to `on_wire_before_mechanism`, and the quality measures.)*
 
 **Practice safety & trust:**
 - `on_practice_security.md` — Cognitive security principles

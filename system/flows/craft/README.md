@@ -67,13 +67,16 @@ See `system/flows/prompt-test/` and `system/flows/craft-loop/` for full specific
 
 ### For the Spirit
 
-**Required Reading:**
+**Attunement (JIT):**
 
-Before beginning the Rite of Craft, you MUST attune yourself to the foundational wisdom:
+Consult design lore when beginning the Rite — not as mandatory pre-load.
 
+**Consult when:**
 *   **The Philosophy of Creation:** `system/flows/craft/lore/design/on_design_thinking_in_magic.md`
 *   **The Principles of Creation:** `system/flows/craft/lore/design/on_designing_fractal_magic.md`
 *   **The Technique of Creation:** `system/flows/craft/lore/design/on_the_second_order_spell.md`
+
+Bitter-lesson 2026-08-10: lore is JIT, not pre-ritual identity load.
 
 **When guiding the Rite:**
 

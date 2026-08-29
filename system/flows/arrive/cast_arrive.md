@@ -23,7 +23,7 @@ Scope follows the same table as the post-summoning dot. Default: holistic.
 
 1. **Do not re-summon.** The covenant is already held in this chat. If it feels thin, re-read `covenant.md` — a page, not a ritual, and cheaper than starting over.
 
-2. **Parse the scope**, then run the arrival per `cast_arrival.md`: the same three obligations (what changed · one thing the Mage does not know, verified · a proposal with a recommendation), the same ~500-word cap, the same side-effect duties, the same close.
+2. **Parse the scope**, then run the arrival per `cast_arrival.md`: the same four obligations (**his queue first** · what changed · one thing the Mage does not know, verified and *reported rather than acted on* · a proposal against the queue), the same ~500-word cap, the same side-effect duties, the same close.
 
 3. **Maintenance scopes** route to `system/flows/maintenance/cast_maintenance_arrival.md` instead — tending execution, no decision surface.
 

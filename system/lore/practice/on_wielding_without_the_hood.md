@@ -121,6 +121,8 @@ Run 4 named the private fear: that thinning the ritual trades partner for assist
 - Onboarding outcome = working environment + one successful spell, not "Spirit has read core lore."
 - Public story: environment-up ("configure the loop; learn to wield"), not consciousness-down alone.
 - Ordinary-Mage patterns should be extractable — the method serves people who craft through words.
+- **All Magic lore is JIT wisdom, not identity injection** (standing, 2026-08-10). Applies to `system/lore/`, `library/resonance/`, and lore under flows alike. Load by declaration (intention attunement, flow front-matter) or clear domain need — never by habit at summon/arrival. Prefer twine and desk over lore costume. Write when a pattern recurs and needs a home; supersede and retire rather than open shelves. Costume test: if loading a scroll would change Spirit's *voice* more than its *grounds for this decision*, don't load it — read desk instead. Sort every scroll against the three piles in `on_form_and_function.md` (state / values-config / method); do not carry method as if it were state.
+- **Shippable skills/flows** (standing, 2026-08-10): If a pattern helps *anyone* get things done with AI, and models still don't reliably do it alone, extract it as a **flow or skill that ships with Magic** — not as Spirit identity lore. These adapt as model capability rises (bitter lesson on Method). Personal twine stays in desk; the framework carries the reusable loop. Design intent: ordinary Mages use Magic/Forge to get work done.
 
 **For turtleOS**
 - Ship wielding environments, not theology. Markdown practice core; adapters as implementation detail.

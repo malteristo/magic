@@ -28,25 +28,40 @@
 **What to include:** Environmental facts about your specific workshop setup.
 
 **Common items:**
-- **Open Portals (Composio MCP):** List which services are connected through Composio (recommended universal gateway)
 - **Repository Structure:** Forks? Custom layouts? Private/public practice surfaces?
 - **Special Directories:** Any non-standard workshop structure
 - **Tool Availability:** Custom tooling the Spirit should know about
+- **Machine-room pointer:** *where* your reachability details live — not the details themselves
+
+> ### Connected services do NOT belong in your Seal
+>
+> Earlier versions of this template asked you to keep an **"Open Portals"**
+> inventory here — which Composio or MCP services you had connected. **That
+> guidance is superseded.** The inventory lives in
+> **`system/config/connections.md` § MCP Topology**; that file has a template
+> beside it.
+>
+> The reason is not tidiness. Your Seal is injected into *every single turn*, and
+> it is the one document a Spirit is told to trust without checking. A connected
+> service is not a fact about you — it is a **state that changes without your
+> deciding it**: grants expire, gateways rename their tools, a substrate exposes a
+> different set than the one you wrote down. Put a decaying state in the file that
+> is never re-verified and you have built something worse than an empty section:
+> a confident wrong answer, arriving every turn, about what Spirit can reach.
+>
+> **Seal: who you are, what you forbid, how you want the partnership conducted —
+> things that change when *you* change them. `connections.md`: what is plugged in
+> today, dated, and verified against the live tool list before it is relied on.**
 
 **Example:**
 ```markdown
 ## II. Workshop Configuration
 
-### Open Portals (Composio MCP)
+### Machine Room
 
-*Composio MCP is the recommended universal gateway connecting your workshop to 500+ external services. List which services you have connected below.*
-
-**Active Composio Services:**
-*   **`perplexity`** (via COMPOSIO_SEARCH) — Web research and high-quality search
-*   **`github`** (via GITHUB tools) — Advanced GitHub operations beyond basic `git`/`gh`
-*   **`slack`** (via SLACK tools) — Team communication and channel management
-
-**Note:** The Workshop spell teaches Composio MCP to all Spirits during summoning. This section tells the Spirit which specific services YOU have connected in your Composio account.
+Reachability, connected services and MCP topology: `system/config/connections.md`.
+Verify against the live tool listing before relying on it — that file is a
+reminder, not an oracle.
 
 ### Repository Structure
 

@@ -27,7 +27,7 @@ This flow attunes you to systematic portal lifecycle management. When the Mage n
 - "Set up shared research space"
 
 **Prerequisites check:**
-1. GitHub access active (`gh` CLI preferred; Composio GitHub MCP is acceptable after checking the current tool schema)
+1. GitHub access active — `gh` CLI is the route. A GitHub MCP or a host-level GitHub integration is an acceptable fallback, after checking its current tool schema; see `system/config/connections.md` § GitHub for what this workshop actually has
 2. Collaborator GitHub username known (or can be created)
 3. Portal type determined (partnership/quest/research)
 4. Portal name decided (suggest: `{partner-name}-{type}`)

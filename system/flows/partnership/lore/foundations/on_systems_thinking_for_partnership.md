@@ -1,6 +1,9 @@
+> **Superseded 2026-08-10** (bitter-lesson). Pre-v4 Method. Living partnership: `kernel.md` + `library/resonance/romantic-partnership/lore/on_translation_over_protocol.md`. Do not load as ritual identity.
+
 # On Systems Thinking for Partnership
 
-**Status:** Active - Load-Bearing  
+**Status:** SUPERSEDED / historical  
+
 **Domain:** Partnership Practice  
 **Purpose:** Establish the theoretical foundation for understanding partnerships as relational systems
 

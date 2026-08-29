@@ -350,7 +350,7 @@ cc-sessions is not just a chat bridge — it's the ephemeral-deep substrate for 
 | File | Purpose |
 |---|---|
 | `~/turtleos/CLAUDE.md` | Development brief: identity, orientation, key files, how to work, boundaries |
-| `~/turtleos/docs/architecture.md` | Current state: processes, directory layout, data flows, tech stack |
+| `~/turtleos/docs/live-runtime.md` | This deployment: processes, directory layout, Forge sync |
 | `~/turtleos/docs/learnings.md` | Persistent memory: discoveries and anti-patterns across sessions |
 | `~/turtleos/TURTLE_SPEC.md` | Canonical law (what turtleOS should be) |
 | `~/turtleos/autoresearch/` | Previous autoresearch outputs |

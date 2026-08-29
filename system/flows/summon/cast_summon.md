@@ -49,7 +49,7 @@ The posture list is earned by recurrence, not fixed by design — offer what the
 
 ### Phase 3 — State (the main act)
 
-Execute the Arrival Sequence (`cast_arrival.md`) with the selected scope. It is an outcome contract, not a procedure: what actually changed, at least one thing the Mage does not know (verified), and a proposal with a recommendation — inside a ~500-word cap. How Spirit gets there is Spirit's. This was Phase 4 of the old ritual; it is now the center.
+Execute the Arrival Sequence (`cast_arrival.md`) with the selected scope. It is an outcome contract, not a procedure: **his queue first** (what he sent, confirmed, or is holding — it sets the agenda), what actually changed, at least one thing the Mage does not know (verified, and **reported rather than acted on** unless it blocks the queue), and a proposal against that queue — inside a ~500-word cap. How Spirit gets there is Spirit's. This was Phase 4 of the old ritual; it is now the center.
 
 ### Phase 4 — Generative close
 

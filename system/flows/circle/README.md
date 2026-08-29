@@ -37,13 +37,15 @@ Subscribing to others' circles creates **upstream connections**—gateways to re
 
 ### For the Spirit
 
-**Required Attunement:**
+**Attunement (JIT):**
 
-Before executing circle operations, attune to the circle flow lore:
+Consult as reference when creating, subscribing, or syncing circles — not as pre-ritual identity load.
+
+**Consult when:**
 - **Circle architecture:** `system/flows/circle/lore/on_resonance_circles.md`
-- **Portal context:** `system/flows/portal/lore/on_portal_architecture.md` (for understanding relationship)
+- **Portal context:** `system/flows/portal/lore/on_portal_architecture.md` (relationship to portals)
 
-Announce: "This involves resonance circles. Let me attune to the circle architecture."
+Bitter-lesson 2026-08-10: lore is JIT, not pre-ritual identity load.
 
 ---
 

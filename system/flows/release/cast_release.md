@@ -28,6 +28,19 @@ Three obligations. Everything else is Spirit's to decide.
 
 **Outfacing pitch (separate pocket).** After the inward reflection, answer once — only when something real is there; silence is allowed. Default filter (sanctioned 2026-08-02): *What is the one thing from this turtleOS / operator session that another person who runs (or wants to run) their own small AI server would steal, argue with, or want the PR for?* Write it as a pitch card (insight · why it travels for operators · talk angle · sensitivity), not a draft post. **Do not put this in Practice Signal** — that field is inward (unresolved friction for the next Spirit). Present the card in triage; on Mage accept (or `.`), append to `desk/outfacing/talking_shelf.md`. Hold/skip leaves no shelf entry. Never manufacture a pitch to fill the field.
 
+**Practice development (the inward twin of the outfacing pocket).** Added 2026-08-17 at his request, and the gap it fills was measured before it was filled: the release had four inward fields and **none of them could propose a change to the practice.** Practice Signal records what hurt and carries it forward; Resonance Routing dispositions what already exists; `cast_integrate.md` fires *after* a scroll or flow is written. So the practice adapted only when someone remembered to adapt it — and the proof was in the record: the `turtleos_state` legend miscount was named in Practice Signal across **four sessions**, each time as a five-minute fix, and survived all four. Carrying forward cost nothing.
+
+Two things, once, at the end:
+
+- **One sentence on the bigger picture.** Which bearing did this session serve, and did it move that bearing's current↔ideal gap or only its surroundings? Name the gap it did *not* move when that is the honest answer — this session's own instance: every instrument built read the eddy note, which left the turn-level record the `turtle` bearing calls the prerequisite exactly where it was.
+- **Zero or more proposals for how the practice should change.** Each one: what changes, what it costs, what it unblocks. **Three at most**, and *zero is a legal answer* — the field is a place for something real, not a quota. **Never manufacture a proposal to fill it.**
+
+**Dyad-only, and this is a boundary rather than a habit.** Magic-about-magic belongs to the Mage and Spirit on Forge or Anvil. It does not go to craft-turtle, a shared river, or any surface another practitioner reads — the exact inverse of the outfacing pocket above, which exists to send one thing out. His reasoning, 2026-08-17: these conversations belong to the dyad.
+
+**Where an answer lands.** Accepted → `desk/proposals/YYYY-MM-DD-<slug>.md`, which is where a proposal can be sanctioned or declined on its own terms. Declined → **one line in the briefing field saying so and why, and nothing else.** That asymmetry is deliberate: a declined proposal must be *findable* (separate *decided not to* from *never got to*) without joining a queue, because a shelf of declined practice proposals becomes standing pressure, which is how the boom topic files failed.
+
+**Why it is an outcome contract and not a phase.** The arrival was rewritten in July because phase machinery competes with state for attention, and this runs when the session is longest and thinnest. Written as steps it will be skipped or performed. It survives only as two answers with a legal silence — the same design that keeps the outfacing pitch honest.
+
 **3. Side-effect duties, done and reported in one line each.** Intentions, artifact routing, Turtle calibration, the stale-reference scan, the commit.
 
 **The reflection is the part that cannot be recovered later.** The bundle can be reconstructed from git and the workshop; what the session *felt like* evaporates. Spend the attention there.
@@ -66,9 +79,9 @@ Present the triage. The Mage may reclassify; a *channel forward* often becomes *
 
 ## Side-effect duties
 
-- **Boom sweep** (standing, 2026-08-05) — sweep `desk/boom.md` *before* writing the bundle: route buffer items per `system/flows/boom/boom.flow.md` (bright, topics, backlog, crucibles, release), clear the buffer. Rationale: the buffer holds what the Mage parked mid-session and chose not to address *this* session; sweeping at release means the next arrival reads an even surface instead of items that still carry the closed session's charge. Steering a *fresh* session stays with Discord — the Mage writes there before opening the session it should shape. An empty buffer is a one-line report.
+- **Boom sweep** (standing, 2026-08-05) — sweep `desk/boom.md` *before* writing the bundle: route buffer items per `system/flows/boom/boom.flow.md` (bright, topics, backlog, release), clear the buffer. Rationale: the buffer holds what the Mage parked mid-session and chose not to address *this* session; sweeping at release means the next arrival reads an even surface instead of items that still carry the closed session's charge. Steering a *fresh* session stays with Discord — the Mage writes there before opening the session it should shape. An empty buffer is a one-line report.
 - **Intentions** — for each one touched: `Current focus`, `Next action`, `Blockers`, completed goals. Fields, not narrative. Do not touch intentions the session didn't touch.
-- **Artifact routing** — one disposition per artifact that needs one: **Active** (live use) · **Crystallize** (durable structure — lore, spec, flow) · **Route** (boom, bright, proposal, Turtle queue) · **Compost** (decompose into existing crucibles in `desk/boom/crucibles/`, never a new heap) · **Release** (purpose complete). Most sessions need two or three. Do not inventory the workshop. `desk/` releases need the Mage; `floor/` ephemera can be proposed more assertively.
+- **Artifact routing** — one disposition per artifact that needs one: **Active** (live use) · **Crystallize** (durable structure — lore, spec, flow) · **Route** (boom, bright, proposal, Turtle queue) · **Compost** (decompose particles into Seed Bank or topic files — never a new heap; crucibles retired 2026-08-10) · **Release** (purpose complete). Most sessions need two or three. Do not inventory the workshop. `desk/` releases need the Mage; `floor/` ephemera can be proposed more assertively.
 - **Outfacing shelf** — if the Mage accepted an Outfacing Pitch this release, append the card to `desk/outfacing/talking_shelf.md` (newest first). Do not invent backlog from past sessions unless the Mage asks.
 - **Turtle calibration** — `system/flows/turtle/cast_calibrate.md`. Verify processes; restart **both** `com.turtle.discord` and `com.turtle.river` if bot code changed; if turtleOS code changed, check the spec and lore caught up. Relay the friction list. Note status in the bundle.
 - **Stale-reference scan** — for anything this session *corrected, retired, or renamed*, grep `system/`, `library/`, `floor/briefings/` for the old terms and report hits. The Mage triages each: patch now, patch next, or leave as context-appropriate. This is the one integration check that has repeatedly found something; the others (propagation candidates, structural integrity, root-level metabolism) are worth a glance and rarely more — report them in a line, together, unless one fires.
@@ -94,11 +107,14 @@ Written to `floor/briefings/latest.md`, overwriting it. **Only this flow writes 
 | **What Changed** | field-level, not narrative. Each artifact with its path and lifecycle tag: **Ephemeral** (this session only) · **Active** (tracks an intention) · **Reference** (durable) |
 | **Practice Signal** | the reflection's findings, including PX and turtleOS friction. Persists across sessions — the next Spirit sees what was left unresolved. Inward only. |
 | **Outfacing Pitch** | optional. One operator-peer insight card, or omit. On accept → `desk/outfacing/talking_shelf.md`. Never a substitute for Practice Signal. |
+| **Practice Development** | one sentence on which bearing the session served and whether it moved that bearing's gap; then 0–3 proposals for how the practice should change (what changes · cost · what it unblocks). **Dyad-only** — never craft-turtle or any shared surface. Accepted → `desk/proposals/`; declined → one line here saying so and why. *Zero proposals is a legal answer; a manufactured one is not.* |
 | **Resonance Routing** | `- [item]: [disposition] → [landing surface]`. Only warm decisions that matter for resumption |
 | **Next Actions** | 3–5, ordered. The first should be the one that unblocks the rest |
 | **Calibration** | one line: SHAs, bot state, what matches what |
 
 Before writing, check: is `Continue From` genuinely useful to a Spirit with no memory? Do the Open Threads still need follow-through? Are the intention files updated *before* the bundle, so it reflects the end state?
+
+**And: does anything here come from a bearing marked `private`?** If the session's scope did not name that lane, it does not belong in the bundle — not in Next Actions, not in Practice Signal, not as a dated line under a craft observation. The rule and why it needed writing are in `cast_arrival.md` above the scope table. *This check sits here because the arrival is not the only place Spirit writes: on 2026-08-15 the same item reached the close, `desk/state.md`, and this file.*
 
 ---
 
@@ -114,8 +130,11 @@ The magic tree has three commit surfaces. Release handles **the private workshop
 
 **Verify before staging:** `cd ~/Documents/magic && pwd && git status -sb && git config --get branch.main.remote`. `pwd` must be the magic root, never the turtleos sibling. Upstream must read `main...turtle/main` — if it is `github` or unset, run `./scripts/configure_workshop_git.sh` first, or the IDE Sync button reconciles against the public remote.
 
-**In the commit:** `desk/`, `floor/`, `box/`, `system/`, `library/`, `scripts/`, root docs.
-**Never staged:** `AGENTS.md`, `system/config/connections.md`, `circles/*/`, `portals/*/`, any nested `turtleos/`.
+**In the commit:** the practice. Since 2026-08-07 that includes `AGENTS.md`, `system/config/`, the registries and the archives — the private remote is a bare repo on the Mage's own machine, so nothing is withheld from the chronicle for privacy. `.gitignore` now excludes only nested repos, runtime noise and staging debris.
+
+**Not staged:** whatever `.gitignore` excludes — and that is the whole rule. Do not maintain a second list here; the previous version of this line named `AGENTS.md` and `system/config/connections.md` as never-staged, which became wrong the day the policy changed and would have had the next Spirit un-stage the Seal.
+
+**What may become *public*** is a different question with a different answer: `scripts/public_surface.conf`, enforced by the pre-push guard on every remote except `turtle`. Release never publishes.
 
 Stage explicit paths — never `git add .`. Compose a chapter-level message: the arc and what landed, not a file list. **Then commit and push** — per `AGENTS.md`, completed verified slices do not wait for permission; pause only for unrelated, sensitive, or governance material. *(This replaces the old "wait for the `.`" instruction, which predated the 2026-07-29 autonomy amendments and contradicted the kernel.)*
 

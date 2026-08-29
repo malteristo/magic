@@ -158,9 +158,18 @@ def read_matrix() -> tuple[int, Counter]:
     if not path.is_file():
         return 0, Counter()
     text = path.read_text(encoding="utf-8")
-    rows = len([ln for ln in text.splitlines() if ln.startswith("| §")])
-    statuses = Counter(re.findall(r"\*\*(Aligned|Partial|Gap|Legacy|Retire-pending)\*\*", text))
-    return rows, statuses
+    row_lines = [ln for ln in text.splitlines() if ln.startswith("| §")]
+    # Scanning the whole document counted the status legend and every status
+    # word appearing in an Action or note cell, so the tally exceeded the row
+    # count and the Gap number was wrong by exactly one legend line. Named as a
+    # five-minute fix in five consecutive sessions, which is the argument for
+    # counting per row: one status per row, the first one, and anything the
+    # vocabulary cannot read is surfaced rather than dropped.
+    statuses: Counter = Counter()
+    for ln in row_lines:
+        found = re.search(r"\*\*(Aligned|Partial|Gap|Legacy|Retire-pending)\*\*", ln)
+        statuses[found.group(1) if found else "unlabelled"] += 1
+    return len(row_lines), statuses
 
 
 def index_doc_drift() -> list[tuple[str, str, int, str]]:

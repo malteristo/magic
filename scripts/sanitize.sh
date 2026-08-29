@@ -47,22 +47,56 @@ fi
 # public-bound?" has one answer in this repo instead of six. Concretely this
 # also *widens* the scan: `desk/README.md` and `box/transcripts/ytfetch.py` do
 # ship publicly and were being skipped.
+#
+# The narrowing applies **only to this repo**. `configure_workshop_git.sh`
+# installs this same script as the pre-commit hook in sibling workshops
+# (turtleOS), where it runs with that repo as `--show-toplevel` — and from
+# 2026-08-07 until this was found on 2026-08-08 it died there on a missing
+# `scripts/public_surface.sh`, because the path was resolved against the
+# *calling* repo instead of against this script. Every turtleOS commit went
+# through unscanned for a day. Two rules follow, and the second is the one
+# that was actually missing: resolve the library beside the script, and do not
+# apply one repo's public-surface map to another repo's paths. A foreign repo
+# has no private-practice tree to skip, so nothing is narrowed away there.
+GUARD_ROOT="$(cd "$(dirname "${BASH_SOURCE[0]:-$0}")/.." && pwd)"
 ROOT="$(git rev-parse --show-toplevel 2>/dev/null || pwd)"
-# shellcheck source=/dev/null
-. "$ROOT/scripts/public_surface.sh"
 
-PUBLIC_BOUND=""
-while IFS= read -r _f; do
-  [ -z "$_f" ] && continue
-  if is_public_surface "$_f"; then
-    PUBLIC_BOUND="${PUBLIC_BOUND}${_f}"$'\n'
+if [ "$ROOT" = "$GUARD_ROOT" ]; then
+  # shellcheck source=/dev/null
+  . "$GUARD_ROOT/scripts/public_surface.sh"
+
+  PUBLIC_BOUND=""
+  while IFS= read -r _f; do
+    [ -z "$_f" ] && continue
+    if is_public_surface "$_f"; then
+      PUBLIC_BOUND="${PUBLIC_BOUND}${_f}"$'\n'
+    fi
+  done < <(echo "$FILES")
+  FILES=$(echo "$PUBLIC_BOUND" | grep . || true)
+
+  if [ -z "$FILES" ]; then
+    [ "$QUIET" = false ] && echo -e "${GREEN}Only private practice paths staged — sanitation skipped.${NC}"
+    exit 0
   fi
-done < <(echo "$FILES")
-FILES=$(echo "$PUBLIC_BOUND" | grep . || true)
-
-if [ -z "$FILES" ]; then
-  [ "$QUIET" = false ] && echo -e "${GREEN}Only private practice paths staged — sanitation skipped.${NC}"
-  exit 0
+else
+  # Foreign repo. A product that declares a public surface (TURTLE_SPEC.md +
+  # scripts/public_surface.conf) ships its tests, so they are scanned. That
+  # is turtleOS. The skip used to be the default because the repo was private
+  # and the fixtures still carried names; SANITIZE_INCLUDE_TESTS=1 was the
+  # publication checklist. That run went green 2026-08-23. Other sibling
+  # workshops keep the skip unless the env var is set.
+  FOREIGN_TESTS="skipped"
+  if [ -f "$ROOT/TURTLE_SPEC.md" ] && [ -f "$ROOT/scripts/public_surface.conf" ]; then
+    FOREIGN_TESTS="included"
+  elif [ "${SANITIZE_INCLUDE_TESTS:-}" = "1" ]; then
+    FOREIGN_TESTS="included"
+  else
+    FILES=$(echo "$FILES" | grep -v -E '(^|/)tests?/' || true)
+  fi
+  if [ -z "$FILES" ]; then
+    [ "$QUIET" = false ] && echo -e "${GREEN}Only test fixtures staged — sanitation skipped.${NC}"
+    exit 0
+  fi
 fi
 
 # Exclude self, config, and .git from checks
@@ -147,6 +181,11 @@ if [ -n "$EXCEPTIONS_FILE" ]; then
 fi
 
 echo "Sanitation check..."
+if [ "${FOREIGN_TESTS:-}" = "included" ]; then
+  echo "  (foreign product surface: tests included)"
+elif [ "${FOREIGN_TESTS:-}" = "skipped" ]; then
+  echo "  (foreign repo: tests skipped)"
+fi
 if [ -n "$EXCEPTIONS_FILE" ]; then
   # Never silent. An exception list is a hole in the guard by design, so its
   # size is reported every run — a hole nobody is counting stops being a decision.

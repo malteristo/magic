@@ -1,6 +1,9 @@
+> **Superseded 2026-08-10** (bitter-lesson). Pre-v4 Method. Living partnership: `kernel.md` + `library/resonance/romantic-partnership/lore/on_translation_over_protocol.md`. Do not load as ritual identity.
+
 # On Arc Structure for Partnership Practice
 
-**Status:** Active  
+**Status:** SUPERSEDED / historical  
+
 **Domain:** Portal-based Partnership Practice  
 **Purpose:** Define episodic data collection structure for partnership practice
 

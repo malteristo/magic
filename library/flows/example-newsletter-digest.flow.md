@@ -34,7 +34,7 @@ display names vary and may not match search patterns.
 - digest: desk/newsletter-digest-{date}.md
 
 ## Dependencies
-- Gmail: Read access via Rube MCP (GMAIL_FETCH_EMAILS)
+- Gmail: read access through whatever mail integration your substrate has — a native plugin, an MCP gateway, an API client. The flow needs *list messages by query* and *read a message body*; it does not care which tool provides them. Check what is connected rather than assuming a provider.
 
 ## Steps
 1. **Fetch candidate emails** using Gmail query for newsletter-like content
@@ -47,7 +47,7 @@ display names vary and may not match search patterns.
 
 ## Adaptations
 **Required before first use:**
-- Connect your email provider through Rube MCP
+- Connect your email provider, by whatever route your substrate offers
 - Add your actual newsletter sender email addresses
 - Adjust newsletter_query if your newsletters use different labels/categories
 

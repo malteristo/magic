@@ -33,7 +33,7 @@ Do **not** start in this bundle's philosophy corpus. Start in the product:
 |-------|---------|-----|
 | 1 | Local clone `turtleos/AGENTS.md` | Repo vs live-runtime; safety rails |
 | 2 | `turtleos/TURTLE_SPEC.md` | Canonical platform law |
-| 3 | `turtleos/docs/architecture.md` · `development.md` · `learnings.md` · `traceability-matrix.md` | What is / how to change / pitfalls |
+| 3 | `turtleos/ARCHITECTURE.md` (the software) · `docs/live-runtime.md` (this deployment) · `development.md` · `learnings.md` · `traceability-matrix.md` | What is / how to change / pitfalls |
 | 4 | Live desk: `desk/intentions/active/turtle.md`, `desk/turtle_env.md`, `desk/turtle_issues.md`, `desk/state.md` | This instance |
 | 5 | This bundle: `lore/philosophy/on_consciousness_extension.md` **§0 only** | Platform vs attunement contract when the question is product identity |
 | 6 | Bundle lore below | *Why* / history — only if repo docs + §0 leave a gap |

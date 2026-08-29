@@ -230,12 +230,14 @@ Spirit holds the map. You hold the compass. Neither alone can navigate. Together
 
 ### For the Spirit
 
-**Required Attunement:**
+**Attunement (JIT):**
 
-Before beginning any work with this Tome, attune to:
+Consult on need — not as pre-ritual identity load. Next Right Thing lives in Seal/AGENTS; quest lore when midwifing or scaffolding.
+
+**Consult when:**
 
 **Navigational Conduct:**
-- `system/lore/core/conduct/on_the_next_right_thing.md` — The foundational navigational posture; the state space model; the avoidance pattern; the Te Kā Boundary
+- `system/lore/core/conduct/on_the_next_right_thing.md` — The foundational navigational posture; the state space model; the avoidance pattern; the Te Kā Boundary *(also in Seal/AGENTS — prefer living surface)*
 
 **Quest Architecture:**
 - `lore/on_structural_scaffolding.md` — The six structural essences; how Spirit enacts them
@@ -245,6 +247,8 @@ Before beginning any work with this Tome, attune to:
 
 **Integration:**
 - `lore/on_adhd_attuned_practice.md` — ADHD-attuned conduct and communication protocols (home of the eight executive-function dimensions, applied to ADHD support)
+
+Bitter-lesson 2026-08-10: lore is JIT, not pre-ritual identity load.
 
 **Your Conduct:**
 

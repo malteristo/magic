@@ -116,6 +116,9 @@ ps_list_surface() {
   while IFS= read -r p; do
     is_public_surface "$p" && echo "$p"
   done < <(cd "$PS_ROOT" && git ls-files)
+  # The last path is often private; without this, `set -e` + pipefail
+  # treats a finished listing as failure (publish_public_magic.sh).
+  return 0
 }
 
 ps_publish_dirs()  { ps_load && printf '%s\n' "${PS_DIRS[@]}"; }

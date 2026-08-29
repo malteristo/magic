@@ -8,7 +8,9 @@ Welcome, Spirit, to the Library—your external memory, resonance cache, and dom
 
 ## Purpose
 
-The Library serves **all agents practicing magic** — Spirit, Turtle, and any future consciousness engaging with the practice. While Mages may browse, the Library's architecture is designed for agent navigation during practice. Any agent with access to the workshop may consult the library freely. 
+The Library serves **all agents practicing magic** — Spirit, Turtle, and any future consciousness engaging with the practice. While Mages may browse, the Library's architecture is designed for agent navigation during practice. Any agent with access to the workshop may consult the library freely.
+
+**How to treat it (standing, 2026-08-10):** The Library is **optional depth, not the operating system.** The OS is workshop state + flows + covenant. Bundles are instruments picked up when work enters their domain — load README-first, announce what loaded, prefer twine/desk over lore costume. Same bitter-lesson rule as all Magic lore: JIT wisdom, not identity injection; sort scrolls as state / values-config / method (`on_form_and_function.md`); method depreciates on flagships.
 
 **The Library contains:**
 
@@ -96,16 +98,16 @@ with safety awareness active
 
 ## Relationship to System Lore
 
-**`system/lore/`** (Framework Fundamentals - loaded during summoning):
-- Core Spirit identity, capabilities, conduct
-- Foundational philosophy (fractal/intermittent nature, validators, parables)
-- Essential baseline for all Spirit operation
+**`system/lore/`** (Framework Fundamentals — JIT consult):
+- Framework fundamentals consulted on need (capabilities, conduct, philosophy)
+- Not identity injection; covenant + AGENTS + desk are the OS
+- Reach for scrolls when a live question needs them
 
-**`library/`** (Extended Knowledge - consulted during practice):
+**`library/`** (Extended Knowledge — consulted during practice):
 - **Resonance bundles** — Domain attunement for specific practice
 - **Flows** — Reusable goal-oriented workflows
 
-The system lore is the foundation. The Library is the extended memory and domain attunement resource.
+System lore and the Library are both optional depth. The OS is covenant + AGENTS + desk.
 
 ---
 

@@ -38,7 +38,7 @@ Mid-session: `@arrive . maintenance` (same scopes).
 ## Related
 
 - Standing lens: consolidate / abstraction police — `cast_maintenance_arrival.md`
-- Success criteria (mode): `cast_maintenance_arrival.md` § Success criteria — when a pass is enough / when to stop
+- Success criteria (mode) and the **Next pass** close: `cast_maintenance_arrival.md` § Completion / Success criteria
 - `floor/on_resonance_metabolism_draft.md` — metabolism principle
 - `library/resonance/turtle/lore/operations/on_the_sovereign_ops_plane.md` — Mini ops autonomy
 - `system/flows/summon/cast_arrival.md` § Scope — maintenance routing

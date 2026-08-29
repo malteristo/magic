@@ -153,30 +153,30 @@ def parse_backlog(text: str) -> tuple[list[Item], list[str]]:
 HEADER = """# turtleOS — Development Digest
 
 > Projected from the workshop backlog on {today}. **Read-only here**: editing
-> this file changes nothing, because the worked copy lives in Magic. What you
-> write instead is a *move* (below), and moves travel back.
+> this file changes nothing, because the worked copy lives in Magic. To change
+> something, say so in an eddy — that is what travels back.
 
 This is what is open and what has shipped on turtleOS, so a conversation about
 what to build next can start from the real state rather than from memory.
 
-## What a move is
+## Moving an item
 
-A move is one backlog item changing state, recorded so the practice can see it
-without a Forge or Anvil session. Pushing something forward, refining what it
-should be, deciding it is not worth doing, or splitting it — all moves.
+Say it in a craft-turtle eddy. The intake path carries it to the workshop with
+the surrounding conversation attached, which is more context than a form would
+have captured. *(A file-based `craft/moves/` channel existed from 2026-08-06 to
+2026-08-12 and recorded nothing in six days, while the same span produced five
+intakes — the traffic was never missing, it was in the eddies all along.)*
 
-Write one to `craft/moves/<date>-<short-slug>.md` with:
+What is worth saying, whether or not you say it in this order:
 
-- **item** — the id from below, or `new` if this is not on the list yet
-- **move** — forward / refine / retire / split
+- **item** — the id from below, or that it is not on the list yet
+- **move** — push it forward, refine what it should be, retire it, or split it
 - **what should exist** — in terms of what a member would experience
 - **why** — what it is for
 - **how we would know it worked** — the observable difference
 
-That is the whole shape. It is deliberately the shape of a specification
-someone else can build from, because that is usually who builds it.
-
-Moves are never offered — they are written when the Mage says so.
+That is deliberately the shape of a specification someone else can build from,
+because that is usually who builds it.
 """
 
 
@@ -249,7 +249,7 @@ def main() -> int:
     tmp.write_text(digest, encoding="utf-8")
     try:
         subprocess.run(
-            ["ssh", remote, f"mkdir -p {practice_root()}/craft {practice_root()}/craft/moves"],
+            ["ssh", remote, f"mkdir -p {practice_root()}/craft"],
             check=True,
         )
         subprocess.run(

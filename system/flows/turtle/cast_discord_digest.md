@@ -4,7 +4,8 @@
 **Invocation:** `@discord-digest`  
 **Frequency:** Post-summoning re-entry (before boom sweep), or on-demand  
 **Duration:** 5–10 minutes  
-**Output:** Boom entries appended to `desk/boom.md`, proposals to `desk/proposals/`, digest summary presented to Mage
+**Output:** Boom entries appended to `desk/boom.md`, proposals to `desk/proposals/`, digest summary presented to Mage  
+**Scope (2026-08-10):** Arrival selects habitats from the active intention(s) — do not default to a single dialogue channel. `. craft` → craft-turtle; `. mirror` / relational → family + partner rivers (+ personal river as contemplation); `.` holistic → all, labeled by mode. See `cast_arrival.md` § Scope.
 
 ---
 

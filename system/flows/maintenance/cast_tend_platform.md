@@ -13,10 +13,10 @@ One dot-protocol proposal at a time. Skip what's green.
 
 ### 1. Ops report (read before re-run)
 
-- `./scripts/sync_practice_root.sh pull` if Forge harvest may be stale
-- Read `desk/craft/automation-reports/latest.md`
+- `./scripts/sync_practice_root.sh pull` **first** if Forge harvest may be stale
+- Then read `desk/craft/automation-reports/latest.md` — the file on disk after pull, never the one opened beside it. Occasion: 2026-08-15, parallel gather nearly reported yesterday's PASS over a Mini FAIL.
 - If **pass** and no deploy since report → skip re-running full suite; note verdict
-- If **fail** or stale deploy → triage FAIL lines; run targeted fixes on Forge/Mini
+- If **fail** or stale deploy → triage from the **Suite step failures** block (exit code, test name, stderr). The qwen "Local diagnosis" is narrative only; scripts set pass/fail. Reproduce before treating the summary as the defect. Occasion: 2026-08-15, the diagnosis named the 403 correctly about the handler while stderr was a threading traceback.
 
 ### 2. Mini checkout hygiene
 
@@ -92,7 +92,7 @@ Retired infrastructure leaves listeners, env keys, disabled plists, and canary h
 
 **Pass (smallest responsible prune):**
 
-1. Confirm retirement in law — `TURTLE_SPEC` / `docs/architecture.md` / learnings. If not retired, stop and open a chapter.
+1. Confirm retirement in law — `TURTLE_SPEC` / `ARCHITECTURE.md` / learnings. If not retired, stop and open a chapter.
 2. Kill live exposure first — public Funnel/Serve paths, Caddy reverse proxies, listening ports.
 3. Remove operator config — `.env` keys; **`launchctl bootout` + delete** any live retired LaunchAgents; then disabled plists that will never reload. Do not trust `*.disabled` alone — a still-loaded label can point at a tree you already deleted.
 4. Remove code that only served the fossil — unused canary checks, self-heal restart paths, stale matrix "optional" rows.

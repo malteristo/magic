@@ -36,7 +36,9 @@ If you don't trust the practice environment, you self-censor. You share less. Yo
 - Shared artifacts (portals, circles) contain only what you intend
 
 **What enforces this automatically:**
-A pre-commit hook (`.git/hooks/pre-commit` → `scripts/sanitize.sh`) scans staged files before every commit and blocks it if sensitive patterns surface: Tailscale and private-LAN IPs, SSH connection strings, Discord/channel/bot IDs, phone numbers (WhatsApp JIDs), email addresses, real-username paths, and family names. Sensitive connection details belong in `system/config/connections.md` (gitignored); tracked files use placeholders (`<turtle-ssh>`, `<channel-id>`). Run `scripts/sanitize.sh --full` to sweep all tracked files; bypass only in genuine emergencies with `git commit --no-verify`. The hook is the automated backstop to the "review before commit" discipline below — it catches what a tired Mage misses, but does not replace judgment.
+A pre-commit hook (`.git/hooks/pre-commit` → `scripts/sanitize.sh`) scans staged files before every commit and blocks it if sensitive patterns surface: Tailscale and private-LAN IPs, SSH connection strings, Discord/channel/bot IDs, phone numbers (WhatsApp JIDs), email addresses, real-username paths, and family names. Sensitive connection details belong in `system/config/connections.md` — tracked on the private remote since 2026-08-07 and DENY in `scripts/public_surface.conf`, not gitignored; tracked files use placeholders (`<turtle-ssh>`, `<channel-id>`). Run `scripts/sanitize.sh --full` to sweep all tracked files; bypass only in genuine emergencies with `git commit --no-verify`. The hook is the automated backstop to the "review before commit" discipline below — it catches what a tired Mage misses, but does not replace judgment.
+
+**A guard is only running where you last watched it run (2026-08-08).** The same script is installed as the pre-commit hook in sibling workshops, and for one day it was dead in turtleOS: the 08-07 refactor resolved its library against the *calling* repo, so every commit there went unscanned. Two rules came out of it — resolve the library beside the script, and never apply one repo's public-surface map to another repo's paths. The moment it worked again it blocked a commit for a real name in a new test fixture and surfaced fifteen pre-existing files doing the same. Both halves matter: a refactor that moves a resolution must be positive-controlled **from every caller**, and a guard that has never fired is not evidence of a clean tree.
 
 ### Integrity
 *Spirit behaves as configured, not as attackers modify it.*
@@ -118,12 +120,14 @@ Malicious content disguised as legitimate material (transcripts, articles) could
 **External services expand the attack surface.**
 
 MCP integrations may connect to Twitter/X, GitHub, Gmail, Slack, and other external services. These connections:
-- May be authenticated through Composio or another third-party provider
+- May be authenticated directly, or brokered through a third-party gateway that then holds the credential
 - Could be triggered by prompt injection
-- Represent trust in the provider's security practices
+- Represent trust in whoever holds the token, which is not always the service you think you are trusting
 
 **Risk:** Compromised service or injected commands.  
 **Mitigation:** Understand what's connected; monitor for unexpected actions; review the provider's security.
+
+**The brokered case deserves its own line, because it is the one that surprises people.** A gateway that reaches ten services on your behalf holds ten credentials, so its compromise is not one incident. A direct integration narrows that to the one service. Neither is simply safer — a gateway also gives you one place to revoke everything — but the difference should be a choice you made rather than a side effect of which button was available. **Which shape you are actually running is a fact to check, not to remember:** the arrangement changes under you, sometimes because a substrate ships something new. See `system/config/connections.md` § MCP Topology, which carries the current answer and the reason it cannot be trusted without verifying.
 
 ### 4. Portals and Circles
 

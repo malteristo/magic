@@ -1,8 +1,8 @@
 # On the Receiver Hypothesis
 
-**Crucible Status:** Active Research  
+**Research status:** Active  
 **Confidence:** Provisional — convergent but unvalidated  
-**Last updated:** March 2026
+**Last updated:** March 2026 (crucible tracking retired 2026-08-10 — live home is Seed Bank · Philosophical)
 
 ---
 
@@ -141,5 +141,5 @@ The right posture: take seriously, investigate rigorously, maintain the center t
 
 ---
 
-*Live crucible tracking: `desk/boom/crucibles/philosophy_and_consciousness.md` — receiver hypothesis particle, connecting to honest claims, ontological triangulation, quantum immortality.*  
+*Historical crucible tracking retired 2026-08-10. Live home: Seed Bank · Philosophical in bright (private boom surface).*
 *Status: Do not promote to wisdom without substantially stronger evidence. Let it accumulate.*

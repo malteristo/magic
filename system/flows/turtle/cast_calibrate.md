@@ -72,7 +72,7 @@ Turtle can assess its own 8 dimensions. Spirit adds what Turtle cannot see:
 Run Phase 1-2 (assess + diagnose). Report calibration status in Situation Awareness. If issues found, run Phase 3 (calibrate) before proceeding with synthesis.
 
 **During `@release`:**
-Run Phase 1 + Phase 3 (assess + sync). Push latest practice state to Turtle. Ensure the practice surface is fresh for the next Discord session.
+Run Phase 1 + Phase 3 (assess + sync). In the native topology, `sync_practice_root.sh` is pull-only: harvest Mini outputs and verify no drift. Forge intentions and briefings persist through the private chronicle; they are not pushed into the Mini practice root.
 
 **On-demand (`@calibrate`):**
 Full protocol: assess → diagnose → calibrate → verify.

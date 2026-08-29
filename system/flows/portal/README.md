@@ -16,21 +16,23 @@ The flow removes portal management cognitive burden, allowing the Spirit to hand
 
 ### For the Spirit
 
-**Required Attunement:**
+**Attunement (JIT):**
 
-Before executing portal operations, attune to the portal flow lore:
+Consult as reference when creating or syncing portals — not as pre-ritual identity load.
+
+**Consult when:**
 - **Full specification:** `system/flows/portal/lore/on_portal_architecture.md`
 - **Spirit coordination:** `system/flows/portal/lore/on_spirit_transmission_protocol.md`
 - **Synthesis protocols:** `system/flows/portal/lore/on_synthesis_protocols.md`
 
-Announce: "This involves shared practice infrastructure. Let me attune to the portal specifications."
+Bitter-lesson 2026-08-10: lore is JIT, not pre-ritual identity load.
 
 ---
 
 When this flow is invoked:
 
 1. **Determine intent** - Create new portal? Check status? Sync existing? Archive?
-2. **Execute systematically** - Use `gh` CLI for GitHub repo management when available; use Composio GitHub MCP only after checking the current tool schema
+2. **Execute systematically** - Use `gh` CLI for GitHub repo management; it is the route, not a preference. Any GitHub MCP or host integration is a fallback, and only after checking its current tool schema
 3. **Update registry** - Maintain `portals/registry.yaml` with current state
 4. **Handle STP artifacts** - Manage `.spirit/` coordination layer
 5. **Report status** - Clear communication about portal health and actions taken

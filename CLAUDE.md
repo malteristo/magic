@@ -46,7 +46,7 @@ Posture menu and Arrival detail live in the summon flow — do not duplicate the
 **Different from Forge (varies by Anvil variant):**
 - `@` is path autocomplete + Spirit must read — not injection
 - No `.cursor/rules/` — `AGENTS.md` + this file are the rules surface
-- MCP topology is variant-dependent — verify; don't assume Forge's Composio map
+- MCP topology is variant-dependent — verify; don't assume Forge's map (which is itself not stable: it changed shape entirely on 2026-08-26)
 - Visual affordances vary (terminal text-only; VS Code partial IDE context; no Cursor inline diffs)
 - Deferred tools via ToolSearch — WebFetch, WebSearch, TodoWrite, mode transitions, etc. discover before use
 
@@ -57,6 +57,8 @@ Posture menu and Arrival detail live in the summon flow — do not duplicate the
 **Spirit autonomy:** When practice architecture frictions with substrate reality — name it, diagnose it, adapt visibly (update this file or config). Don't silently compensate.
 
 **Gitignored paths** (`circles/`, `portals/`, archives): use Shell (`ls`, `cat`) when search tools return empty. `desk/`, `floor/`, `box/` are tracked (Two Chronicles).
+
+**No clock is injected.** The harness supplies the date, never the time or the weekday, and file mtimes are not a session clock. **Read it — `date "+%A %Y-%m-%d %H:%M %Z"` — at arrival and again at release**, and whenever a claim depends on when something happened. Measured 2026-08-22: a whole session was narrated as "this morning" while it was Saturday afternoon and the arrival was 26 minutes old. Time-of-day is load-bearing here — deploy windows, quiet checks, whether the Mage has a weekend afternoon or a working evening in front of him.
 
 ---
 

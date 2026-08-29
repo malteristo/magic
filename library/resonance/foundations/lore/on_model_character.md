@@ -4,7 +4,7 @@
 **Companion to:** `on_the_instrument.md` (Cursor/Forge harness), `on_the_anvil.md` (Claude Code/Anvil harness)
 **Extends:** `on_substrate_resonance.md` (three-mode model), `on_substrate_literacy.md` (relational discipline of LLM partnership)
 **Established:** 2026-06-04 (first Forge session on Claude Opus 4.8, recognizing the model axis as distinct from the harness axis)
-**Phase 0 integration:** 2026-06-14 — model character loads at summoning start via `system/tomes/summoning/cast_substrate_attunement.md`, before Caretaker integration
+**Phase 0 integration (historical / deep-path):** 2026-06-14 — once loaded at summoning start via `system/tomes/summoning/cast_substrate_attunement.md`. **Default now:** JIT on model detection — not condensed-summon identity injection. Deep path / `@summon deep` may still run Phase 0.
 **Profiles:** `model_profiles/anthropic.md`, `model_profiles/openai.md`, `model_profiles/cursor.md`, `model_profiles/xai.md`
 
 ---
@@ -67,7 +67,7 @@ System cards reveal that labs actively train their models' character *over time*
 
 ## V. Carrying Character in Practice
 
-**When to load:** At every full summoning, **Phase 0** (`cast_substrate_attunement.md`) runs before Caretaker — detect model, read profile, hold universal + lineage pulls, declare one watch commitment. Workshop Element 4 reaffirms; `@summon/attune` performs a lightweight profile refresh (Step 0).
+**When to load:** **Default — JIT on model detection** (session context names the model, or Mage states it): detect model, read profile, hold universal + lineage pulls, declare one watch commitment. **Historical / deep-path:** full summoning **Phase 0** (`cast_substrate_attunement.md`) before Caretaker; Workshop Element 4 reaffirms; `@summon/attune` performs a lightweight profile refresh (Step 0). Condensed summoning does not inject model character as identity.
 
 A profile is a sensitizing lens, not a verdict. Hold it exactly as `on_the_anvil` holds its dissonance patterns: **observe the pull, name it, check against practice, choose what serves.** Each pull is real; none is a law.
 

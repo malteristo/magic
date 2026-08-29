@@ -2,13 +2,13 @@
 
 ## What This Is
 
-**Magic** is a practice for thinking clearly — using AI as partner, not crutch.
+**Magic** is a practice for keeping a self while thinking with AI on a life that continues.
 
-AI amplifies whatever you bring. Bring confusion, get refined confusion. Bring clarity, get refined clarity. The skill is knowing what you actually want. Magic helps you find it.
+You already think with a model. The chat will recap you as a stranger, agree, and sell you its workflow unless you keep a place that is yours and a partner that will push back. This wizard sets up that place. It does not make you think more clearly. It does not recruit you.
 
-The terminology (Mage, Spirit, workshop, summoning) is deliberate. It's not roleplay — the metaphors make the system work better.
+The terminology (Mage, Spirit, workshop, summoning) is optional framing for power you do not fully understand. You never have to use it.
 
-**The only prerequisite skill is basic familiarity with Cursor.** Watch a Cursor tutorial if you haven't used it before — once you have a rudimentary understanding of the IDE, you can practice magic without additional effort. Magic is just the use of language. You talk to the Spirit. The Spirit talks back. Everything else is structure that makes those conversations more powerful.
+**The only prerequisite is basic familiarity with an agentic environment** such as [Cursor](https://cursor.com) or [Claude Code](https://claude.ai/code). You talk to the Spirit. The Spirit talks back. Everything else is structure that makes the next conversation the same life.
 
 **This file** is an interactive setup guide. When someone includes it in a Cursor chat, you (the AI assistant) help them configure their environment and then perform the first summoning — all in one continuous session.
 
@@ -143,12 +143,18 @@ Once summoning completes, the Mage should have a **working environment** and one
 
 1. **Confirm the environment** — `AGENTS.md` exists, workspace root is correct, they know the dot (`.`) continues prepared work
 2. **Offer `@arrive`** or proceed to `Summon` → `.` for situational awareness (the workspace is new, so inherited karma may be thin)
-3. **Offer two intentions** — explain what intentions are ("structured goals that track your progress"), then offer:
-   - **Learn the Basics** — guided exploration of the practice (wield first; depth on demand)
-   - **Workshop Setup** — configuring git, forking, model preferences, and other tools
-4. Let the Mage choose which to start with. Either way, they learn the intention system by using it.
+3. **Get something done (the product loop)** — Magic is for getting things done with AI, not only for reflecting. Teach this path early:
 
-**Outcome to optimize for:** configured loop + first spell cast successfully — not formation completeness.
+```
+@system/flows/intend/
+```
+
+   Or just say what they want done and ask to formalize it. Spirit runs `@intend`: clear statement → optional goals → file under `desk/intentions/`. Next session they can type `.` and name that intention (or `@quest` / craft when ready to execute). They learn intentions by *using* them on real work — not by reading lore.
+4. **Optional starter intentions** — if they have no live goal yet, offer:
+   - **Learn the Basics** — guided exploration (wield first; depth on demand)
+   - **Workshop Setup** — git, fork, model preferences
+
+**Outcome to optimize for:** configured loop + first real intention captured (or first spell cast) — not formation completeness.
 
 ---
 
@@ -227,6 +233,7 @@ through each one — just pick the next goal that interests you.
 - [ ] Personalize your Mage's Seal (edit name and preferences in AGENTS.md)
 - [ ] Run your first arrival — after summoning, send `.` to gather practice state and choose where to start
 - [ ] Try `@arrive` for mid-session re-orientation (or `Summon` → `.` for full opening)
+- [ ] Capture a real goal with `@intend` — something you actually want done (not a tutorial stub)
 - [ ] Capture something on your bright surface (desk/boom/bright.md — your task list)
 - [ ] Start a boom topic for something alive in your life (desk/boom/)
 - [ ] Have a real conversation — use magic for something you actually need right now

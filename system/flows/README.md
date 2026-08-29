@@ -160,7 +160,7 @@ The suffix tells you where it runs:
 
 | Flow | Invocation | Purpose |
 |------|-----------|---------|
-| `lore/` | *(internal)* | Flow philosophy and execution lore — attunement reading for all flow operations |
+| `lore/` | *(internal)* | Flow philosophy and execution lore — JIT consult when invoking/adapting flows |
 
 ---
 
@@ -212,13 +212,17 @@ Spirit draws on flow philosophy and prompt design wisdom to craft the `.prompt.m
 
 ---
 
-## Required Attunement
+## Attunement (JIT)
 
-Before working with flows, Spirit reads:
+Consult `system/flows/lore/` when invoking or adapting flows — not as pre-load identity. Prefer the flow's own README + desk state. Do not pre-load the four lore scrolls as identity.
+
+**Consult when:**
 - `lore/on_flow_philosophy.md` — What flows ARE
 - `lore/on_the_solver_stance.md` — The solver mindset
 - `lore/on_flow_resolution.md` — Interpreting and resolving flows
 - `lore/on_flow_execution.md` — Running flows, handling variance
+
+Bitter-lesson 2026-08-10: lore is JIT, not pre-ritual identity load.
 
 ---
 

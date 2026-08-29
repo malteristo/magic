@@ -1,6 +1,9 @@
+> **Superseded 2026-08-10** (bitter-lesson). Pre-v4 Method. Living partnership: `kernel.md` + `library/resonance/romantic-partnership/lore/on_translation_over_protocol.md`. Do not load as ritual identity.
+
 # On Interface Contracts
 
-**Status:** Active  
+**Status:** SUPERSEDED / historical  
+
 **Domain:** Partnership Practice - Protocol  
 **Purpose:** Specify the artifacts that must be exchanged between partners
 

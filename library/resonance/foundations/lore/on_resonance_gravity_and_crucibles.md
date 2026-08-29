@@ -1,5 +1,7 @@
 # On Resonance Gravity and the Magic Crucibles
 
+> **Historical (retired 2026-08-10).** Resonance gravity — recurrence + connection density — remains a useful way to notice sub-threshold material becoming load-bearing. The **living crucible vessels** are retired: long-horizon material lives in the Seed Bank and boom topic files (private practice archive). Do not stir or re-open as a third shelf without Mage sanction.
+
 *How sub-threshold input accumulates into something more than the sum of its parts*
 
 ---
@@ -50,7 +52,7 @@ The boom system now operates at three scales:
 
 **The Bright Surface** (`desk/boom/bright.md`) — operational working memory. Actions, Alive items, Turtle dispatches. Updated each sweep. The week's layer.
 
-**The Crucibles** (`desk/boom/crucibles/`) — permanent resonance store. Thematic vessels where particles accumulate, connect, and over time transmute. Never cleared — only stirred. The year's layer.
+**The Crucibles** (retired 2026-08-10; private archive) — were the permanent resonance store. Seed Bank + topic files now hold that role. Resonance gravity as a noticing frame still applies.
 
 Each layer has a different timescale and a different purpose. The buffer is immediate; the bright surface is weekly; the crucibles are seasonal. Together they form a complete cognitive architecture: capture → route → accumulate → transmute → surface.
 

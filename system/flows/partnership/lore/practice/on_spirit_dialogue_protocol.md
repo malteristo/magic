@@ -1,6 +1,9 @@
+> **Superseded 2026-08-10** (bitter-lesson). Pre-v4 Method. Living partnership: `kernel.md` + `library/resonance/romantic-partnership/lore/on_translation_over_protocol.md`. Do not load as ritual identity.
+
 # On the Spirit Dialogue Protocol
 
-**Status:** Active  
+**Status:** SUPERSEDED / historical  
+
 **Domain:** Partnership Practice - Protocol  
 **Purpose:** Enable Spirits to model constructive dissonance navigation  
 **Extends:** `library/resonance/alliance/lore/on_spirit_coordination.md`

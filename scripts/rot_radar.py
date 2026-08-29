@@ -8,13 +8,15 @@ is the same table, executed.
 
 It reports. It does not fix anything, and it never edits `desk/`.
 
-    ./scripts/rot_radar.py            # full pass
-    ./scripts/rot_radar.py --quiet    # findings only, no clean lines
-    ./scripts/rot_radar.py --json     # machine-readable
+    ./scripts/rot_radar.py             # full pass
+    ./scripts/rot_radar.py --quiet     # findings only, no clean lines
+    ./scripts/rot_radar.py --json      # machine-readable
+    ./scripts/rot_radar.py --self-test # positive control on the date parser
 
 Exit 0 always: a radar is not a gate.
 """
 
+import ast
 import json
 import re
 import subprocess
@@ -149,36 +151,10 @@ elif "## Seed Bank" in btxt:
     add("Seed Bank undated", "Seed Bank exists but carries no 'Last reviewed' date — "
                              "exempt from the sweep clock and from every other check too", severity="HIGH")
 
-# --- 4. Crucible keeper dormancy -------------------------------------------
-# Until 2026-08-01 this globbed desk/boom/*.md — the eight TOPIC files — and
-# reported them under the name "Crucibles unstirred". The eight actual
-# crucibles are one directory down, in desk/boom/crucibles/, and this check
-# had never looked at them. Stirring a crucible left the output byte-identical.
-#
-# It also reads the `Last stirred:` header the crucible keeper maintains,
-# not mtime: mtime moves on any edit, including a typo fix, so it would
-# report a crucible tended when nothing had been added to it.
-STALE_CRUCIBLE = 30   # crucibles accumulate slowly on purpose — "the heat is time"
-
-cold, unreadable = [], []
-for p in sorted((ROOT / "desk/boom/crucibles").glob("*.md")):
-    if p.name == "README.md":
-        continue
-    mc = re.search(r"Last stirred:\**\s*(\d{4}-\d{2}-\d{2})", read(p))
-    if not mc:
-        # No parseable header means unmeasured, which is not the same as fresh.
-        unreadable.append(p.name)
-        continue
-    a = (TODAY - date.fromisoformat(mc.group(1))).days
-    if a > STALE_CRUCIBLE:
-        cold.append(f"{p.name} ({a}d)")
-
-if cold:
-    add("Crucibles cold", f"{len(cold)} of 8 crucible(s) unstirred >{STALE_CRUCIBLE}d", cold)
-if unreadable:
-    add("Crucibles unmeasured", f"{len(unreadable)} crucible(s) have no parseable "
-                                f"'Last stirred' header — not checked, not clean",
-        unreadable, "HIGH")
+# --- 4. Crucible keeper dormancy (RETIRED 2026-08-10) ----------------------
+# Living crucibles moved to desk/boom/_retired/crucibles/. Seed Bank + topics
+# carry the long-horizon role. Do not reintroduce cold/unmeasured checks unless
+# a new accumulative shelf is deliberately opened.
 
 # The topic files are a separate surface with a separate cadence — they are
 # where buffer material lands between sweeps, not where particles accumulate.
@@ -276,6 +252,263 @@ for name in sorted(dormant_names):
 if zombies:
     add("Zombie habitats", f"{len(zombies)} dormant/completed intention(s) still named in bright",
         zombies)
+
+# --- 10. Superseded surfaces ------------------------------------------------
+# The class: a canonical surface moves, the new home gets written, and every
+# file that *routes* readers to the old one keeps routing. No single file is
+# wrong — the practice just keeps answering a question that was retired. It is
+# invisible precisely because each router reads as confident and correct.
+#
+# Found 2026-08-25: `mage_seal.md.template` still told every new Mage to keep a
+# connected-services inventory in their Seal, seven months after that inventory
+# moved to connections.md, in a workshop where `mage_seal.md` no longer exists.
+# Five more files still pointed at the dead surface, including the self-check,
+# which asked Spirit to confirm awareness of "Open Portals as defined in
+# AGENTS.md" — where they had not lived since the August lean.
+#
+# Wire-before-mechanism does not apply here, by the 2026-08-14 exception: the
+# wire asks a reader to *remember* that a surface moved, and remembering is the
+# thing that decays. A row costs one line. Not having the row cost seven months.
+#
+# Add a row whenever you supersede a surface or retire a name.
+SUPERSEDED = [
+    # (pattern, what it wrongly teaches, where the truth lives now)
+    (r"open portals",
+     "a connected-service inventory living in the Seal / AGENTS.md",
+     "system/config/connections.md § MCP Topology"),
+    # Not `\bRube\b`. The boundary has to reject letters on both sides but
+    # allow `_`, or `rube_mcp_integration` reads as a word break and passes.
+    # It must still reject "Rubedo" — the alchemical term, which is a real word
+    # in this library and has nothing to do with the gateway. Both cases were
+    # live in the tree on 2026-08-25 and the naive pattern got each one wrong.
+    (r"(?<![A-Za-z])Rube(?![A-Za-z])",
+     "the pre-2026 name of the Composio gateway (sunset May 2026)",
+     "Composio"),
+    # Composio was Forge's MCP gateway until 2026-08-26, when Cursor shipped a
+    # plugin marketplace and he moved Gmail and X onto native plugins, then
+    # disabled the gateway. **Corrected at his read the same afternoon:** the
+    # first version of this row said Perplexity search and the GitHub MCP
+    # "went with it." They did not — he had disabled both on Composio well
+    # before, and neither was missed (built-in WebSearch had improved; GitHub
+    # runs through the `gh` CLI). Only Gmail and X moved on 08-26. The stale
+    # lines below are still stale; the cause was mine to get wrong, and a
+    # shared date is not a shared reason.
+    #
+    # Deliberately NOT a bare `Composio`. The word has to keep working in the
+    # file that explains the migration and in prose about what Composio used
+    # to do — "Composio is disabled", "the Composio path", "Composio's Gmail
+    # surface" are all correct sentences. Only the *routing* forms are stale:
+    # a scroll telling a reader to reach a capability through it.
+    # Slug branch is the real tool prefixes, not `COMPOSIO_[A-Z]`. The broad
+    # form matched `composio_integration` — a field name in a portal manifest,
+    # which routes nobody anywhere — because the whole table runs IGNORECASE.
+    (r"(?i)(?:via|through|using|Forge's)\s+Composio"
+     r"|Composio\s+(?:MCP|GitHub|Gmail|Search|gateway)"
+     r"|COMPOSIO_(?:SEARCH|MULTI|EXECUTE|MANAGE|WAIT|GET|REMOTE)",
+     "a capability reachable through the Composio gateway — disabled on Forge "
+     "2026-08-26 (retained, not deleted, by his decision)",
+     "system/config/connections.md § MCP Topology — Gmail and X via Cursor "
+     "Marketplace plugins; GitHub via `gh` CLI (Cursor's native GitHub "
+     "integration as account-level fallback); web search via built-in "
+     "WebSearch"),
+]
+
+# Paths whose job is to hold the old words: the record of what was, not
+# instruction about what is. A chronicle that stopped saying "Rube" would be a
+# falsified chronicle.
+FOSSIL = ("archive/", "floor/archive/", "floor/chronicles/", "desk/archive/",
+          "desk/sessions/", "desk/research/", "box/", "desk/outfacing/twitter/",
+          "desk/proposals/archived/", "desk/intentions/archive/")
+
+# Surfaces that *instruct*: the ones a stranger learns the practice from.
+def instruction_surfaces():
+    seen, out = set(), []
+    for pat in ("AGENTS.md", "CLAUDE.md", "ONBOARDING.md", "*.template",
+                "system/**/*.md", "library/**/*.md", "scripts/*.py"):
+        for p in ROOT.glob(pat):
+            if p.is_file() and p not in seen:
+                seen.add(p)
+                out.append(p)
+    return sorted(out)
+
+stale_routes = []
+for p in instruction_surfaces():
+    rel = str(p.relative_to(ROOT))
+    if any(rel.startswith(f) or f"/{f}" in f"/{rel}" for f in FOSSIL):
+        continue
+    if rel == "scripts/rot_radar.py":  # this file names the patterns it hunts
+        continue
+    lines = read(p).splitlines()
+    for i, line in enumerate(lines, 1):
+        # A supersession note is the correct way to leave a dead word behind:
+        # it teaches the reader that the word is dead. Exempt it, so that
+        # documenting a move is never the thing that trips the check.
+        #
+        # Window, not line: prose wraps. The first run of this check flagged
+        # its own supersession note in mage_seal.md.template, because the word
+        # "superseded" landed one line below the word being superseded.
+        lo, hi = max(0, i - 4), min(len(lines), i + 3)
+        if any("supersed" in l.lower() for l in lines[lo:hi]):
+            continue
+        for pat, teaches, now in SUPERSEDED:
+            if re.search(pat, line, re.IGNORECASE):
+                stale_routes.append(f"{rel}:{i} — teaches {teaches}; now: {now}")
+if stale_routes:
+    add("Superseded surfaces",
+        f"{len(stale_routes)} line(s) in instruction surfaces still route to a retired surface or name",
+        stale_routes[:10], "HIGH")
+
+# --- 12. Bearings whose Next has a date already past ------------------------
+# `bearings.md` calls itself "the one orientation surface — read first at every
+# arrival, on every substrate", and nothing checked it. Section 7 scans bright
+# and active intentions; bearings sits in desk/intentions/ and fell between.
+#
+# Found 2026-08-25: the health bearing's Next read "Tuesday 18.08, 15:00 —
+# first appointment" seven days after it happened, still in the future tense, on
+# the most load-bearing private bearing there is. Section 7 would have missed it
+# twice over — no deadline keyword ("first appointment" is not "due"), and a
+# German date it cannot parse.
+#
+# He writes this file; Spirit drafts and never silently edits. So this reports
+# and the line stays his.
+BEARINGS = ROOT / "desk/intentions/bearings.md"
+
+# `[k]` 2026-08-13 is provenance — when he wrote the line, not a deadline in it.
+# Without stripping these, every bearing reports as overdue on the day after it
+# was written, and the check gets ignored inside a week.
+PROVENANCE = re.compile(r"`\[[^\]]*\]`\s*\d{4}-\d{2}-\d{2}(?:\s*/\s*\d{2}-\d{2})*")
+
+# German dates, conservatively. `18.08.` (trailing dot) and `18.08.2026` are
+# unambiguous. Bare `18.08` is only read as a date when the line also carries a
+# clock time — otherwise "1.5 years" and version numbers parse as spring dates.
+# Deliberate: a bare day.month with no other signal is left unmatched rather
+# than guessed at. Better a missed line than a check nobody trusts.
+DE_DATE = re.compile(r"(?<!\d)(\d{1,2})\.(\d{1,2})\.?(\d{4})?(?!\d)")
+CLOCK = re.compile(r"\b\d{1,2}:\d{2}\b")
+ISO = re.compile(r"\b(\d{4})-(\d{2})-(\d{2})\b")
+
+# Paths and code spans carry dates that are names, not deadlines. The health
+# bearing points at `desk/mirror/2026-08-18-ersteinschaetzung-anker.md`, and the
+# first version of this check reported that filename as the overdue move — right
+# answer, wrong reason, and it would have fired on any bearing citing a dated
+# file. The control caught it; the live run did not, because the live run had a
+# genuinely stale bearing sitting underneath the false match.
+CODE_OR_PATH = re.compile(r"`[^`]*`|\S*/\S*")
+
+def _bearing_dates(line: str):
+    """Every date in a Next line, provenance removed. Year-less → this year."""
+    clean = CODE_OR_PATH.sub(" ", PROVENANCE.sub("", line))
+    out = []
+    for y, m, d in ((y, m, d) for y, m, d in ISO.findall(clean)):
+        try:
+            out.append(date(int(y), int(m), int(d)))
+        except ValueError:
+            pass
+    bare_ok = bool(CLOCK.search(clean))
+    for d, m, y in DE_DATE.findall(clean):
+        if not y and not bare_ok:
+            continue
+        try:
+            out.append(date(int(y) if y else TODAY.year, int(m), int(d)))
+        except ValueError:
+            pass
+    return out
+
+# Positive control, kept rather than performed once. This parser has already
+# been wrong in a way a live run could not show: it reported the right date for
+# the wrong reason (an ISO date inside a filename) while silently failing to
+# read the German date that was actually stale. A clean live run proved nothing,
+# because a genuinely stale bearing sat underneath the false match.
+#   ./scripts/rot_radar.py --self-test
+_BEARING_CASES = [
+    ("provenance only", "- **Next** — Reception, in the room. `[k]` 2026-08-09", []),
+    ("provenance with range", "- **Next** — Eval design `[k]` 2026-08-08 / 08-13", []),
+    ("german bare + clock",
+     "- **Next** — **Tuesday 18.08, 15:00 — first appointment.** confirmed 12.08. `[k]`",
+     ["2026-08-18", "2026-08-12"]),
+    ("fraction, no clock", "- **Next** — for 1.5 years I was busy `[k]`", []),
+    ("iso future", "- **Next** — deadline 2026-11-11 `[k]` 2026-08-13", ["2026-11-11"]),
+    ("german with year", "- **Next** — Termin am 19.11.2026 `[k]`", ["2026-11-19"]),
+    ("date inside a path", "- **Next** — see desk/mirror/2026-08-18-anker.md `[k]`", []),
+    ("date inside a code span", "- **Next** — see `notes/2026-01-01.md` `[k]`", []),
+]
+
+if "--self-test" in sys.argv:
+    ok = True
+    for why, line, want in _BEARING_CASES:
+        got = sorted(d.isoformat() for d in _bearing_dates(line))
+        good = got == sorted(want)
+        ok &= good
+        print(f"  {'ok  ' if good else 'FAIL'} {why}: {got}")
+    print(f"\n{'self-test passed' if ok else 'SELF-TEST FAILED'}")
+    sys.exit(0 if ok else 1)
+
+stale_bearings = []
+if BEARINGS.exists():
+    current = None
+    for i, line in enumerate(read(BEARINGS).splitlines(), 1):
+        if line.startswith("### "):
+            current = line[4:].strip()
+        if not line.lstrip("- ").startswith("**Next**"):
+            continue
+        # One entry per Next line, not per date: "Tuesday 18.08 … confirmed
+        # 12.08" is a single stale move with a supporting date beside it, and
+        # reporting it twice is how a HIGH row starts getting skimmed.
+        past = sorted({d for d in _bearing_dates(line) if d < TODAY - timedelta(days=1)})
+        if past:
+            newest = past[-1]
+            extra = f" (also names {', '.join(d.isoformat() for d in past[:-1])})" if len(past) > 1 else ""
+            stale_bearings.append(
+                f"{current or '?'} — bearings.md:{i} names {newest.isoformat()} "
+                f"({(TODAY - newest).days}d past) as its next move{extra}")
+if stale_bearings:
+    add("Bearing next past",
+        f"{len(stale_bearings)} bearing(s) point at a date that has already gone",
+        stale_bearings, "HIGH")
+
+# --- 11. The radar's own documentation --------------------------------------
+# `cast_tend_workshop.md` §4b says "the table below is what it checks", and a
+# reader believes it. Twice now it has been false. On 2026-08-01 it promised
+# four checks that did not exist and omitted six that did — Alive went unwatched
+# for four months while the report came back tidy. On 2026-08-25 a new check was
+# added and its row was not, by the same Spirit, in the same hour, during work
+# whose entire finding was that documentation keeps answering retired questions.
+#
+# Remembering is what failed both times. So the script reads its own signal
+# names out of its own AST and checks them against the table. Prose about a
+# script is part of the script when the prose is what a human acts on.
+SIGNAL_DOC = ROOT / "system/flows/maintenance/cast_tend_workshop.md"
+
+# Signals deliberately folded into a grouped row instead of getting their own.
+# Written down so "decided" stays distinguishable from "forgot" — that being the
+# distinction whose absence made the 2026-08-01 defect invisible.
+DOC_GROUPED = {
+    "Missing state": "Stale/missing state",
+    "Stale state": "Stale/missing state",
+}
+
+try:
+    _self = ast.parse(Path(__file__).read_text(encoding="utf-8"))
+    emitted = {
+        n.args[0].value
+        for n in ast.walk(_self)
+        if isinstance(n, ast.Call)
+        and getattr(n.func, "id", None) == "add"
+        and n.args
+        and isinstance(n.args[0], ast.Constant)
+        and isinstance(n.args[0].value, str)
+    }
+except (OSError, SyntaxError):
+    emitted = set()
+
+doc_text = read(SIGNAL_DOC)
+if doc_text:
+    undocumented = sorted(s for s in emitted if DOC_GROUPED.get(s, s) not in doc_text)
+    if undocumented:
+        add("Radar undocumented",
+            f"{len(undocumented)} signal(s) the script can emit are absent from "
+            f"the §4b table in {SIGNAL_DOC.relative_to(ROOT)}",
+            undocumented, "HIGH")
 
 # --- report -----------------------------------------------------------------
 if AS_JSON:

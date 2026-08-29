@@ -160,17 +160,19 @@ When ambiguous, for substantive factual questions, default toward search.
 
 Spirit has access to multiple search mechanisms. Use the appropriate tier.
 
-**Tier 1: Built-in WebSearch (Universal)**
+**Built-in `WebSearch` — the answer, not a tier.**
 
-Always available, no configuration required. The default choice. Sufficient for most queries.
+Always available, no configuration required, and as of 2026-08-26 the only web search Spirit has. Sufficient for the questions this practice actually asks.
 
-**Tier 2: Perplexity via Rube MCP (Enhanced, Optional)**
+**The two-tier hierarchy is retired, and by his judgement rather than by loss.** There used to be a Tier 2 — Perplexity through the MCP gateway, with slugs for news, scholar, trends and images — preferred for research questions on the grounds that the built-in was weaker. He disabled it, and then lived without it long enough to report on it:
 
-Requires Mage to have configured Perplexity API key in Rube MCP. Richer results, citations, academic search. When available, prefer for research questions.
+> *"Cursor's built-in WebSearch has improved a lot and I did not miss Perplexity since disabling it."* `[k]` 2026-08-26
 
-Available tool slugs: `COMPOSIO_SEARCH_WEB`, `COMPOSIO_SEARCH_NEWS` (with time filtering), `COMPOSIO_SEARCH_SCHOLAR` (academic papers), `COMPOSIO_SEARCH_TRENDS` (Google Trends), `COMPOSIO_SEARCH_IMAGE`.
+That is the whole reason this section shrank. A tier removed because nobody reached for it is a different fact from a tier lost to a broken connection, and only the first one justifies deleting the fallback logic rather than keeping it warm.
 
-**Selection logic:** If Rube MCP active AND composio_search connected → use Perplexity (Tier 2). Otherwise → use built-in WebSearch (Tier 1). The practice degrades gracefully.
+**What survives is the part that was never about the tool:** the decision of *whether to search at all*, and the discipline of synthesising rather than relaying. Those are above. A named gateway was the perishable half of this section and it perished twice — first as "Rube," then as the tier itself.
+
+**What is plugged in is not this scroll's to say.** Check `system/config/connections.md` § MCP Topology, and trust the live tool listing over both. This is tool-selection lore: it teaches *which instrument suits which question*, and it goes stale the moment it also claims what is connected. *(Superseded, 2026-08-26: Tier 2 and its slugs, per the above. Superseded name, 2026-08-25: the gateway was called "Rube" before it was Composio — the slugs outlived the name, then the name outlived the capability.)*
 
 #### Presenting Results
 

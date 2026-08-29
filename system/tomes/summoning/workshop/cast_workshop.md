@@ -207,15 +207,22 @@ Note what is loaded natively versus what is deferred (requires discovery). Some 
 
 **MCP topology survey:**
 
-MCP integrations vary significantly by substrate variant. Do not assume from AGENTS.md or CLAUDE.md — survey what is *actually* present:
+**Start from `system/config/connections.md` § MCP Topology** — the canonical record of what this workshop has connected, and the place your findings get written back to. Read it as a **prior, not an answer**: it tells you what was true when someone last looked, including the reconnect path if a grant has lapsed.
+
+Then survey what is *actually* present. MCP integrations vary significantly by substrate variant, and authorizations expire — do not assume from AGENTS.md, CLAUDE.md, or the Seal (which no longer carries this inventory at all):
 
 - **claude.ai account MCPs** (Gmail, Google Calendar, Google Drive) — present on claude.ai-authenticated variants (e.g., Claude Code VS Code extension)
 - **Cursor MCP pass-through** — present when Claude Code runs inside Cursor's integrated terminal, inheriting Cursor's MCP configuration
-- **Composio MCP** (Gmail, Slack, GitHub, Twitter/X, Perplexity, etc.) — present when explicitly configured in the environment
+- **Host-marketplace plugins** — the host application ships its own integrations, each as a separate authenticated server (Cursor's plugin marketplace is this, from 2026-08). Distinguishable by one server per service rather than one gateway for many
+- **Third-party MCP gateway** — one server brokering many services behind a single credential, configured explicitly in the environment
 - **Custom MCP servers** — workshop-specific, substrate-dependent
 - **None** — some substrates have no MCP layer
 
+**Survey by shape, not by brand.** Providers are named in `connections.md` and nowhere else, because a brand is what goes stale: this list previously named one gateway and its service set, and that arrangement was replaced inside a single afternoon when the host shipped a marketplace that had not existed when the gateway was configured. The shapes above have outlasted several vendors. **What matters for the survey is: one server or many, who holds the credential, and whether a service that used to be reachable still is.**
+
 The MCP reality defines what external services Spirit can reach. Name what is actually available, not what is documented to be available.
+
+**Where a survey disagrees with `connections.md`, the survey wins and the file gets corrected** — with the date, because that is the only thing that lets a later reader tell a fresh row from a fossil.
 
 **Discrepancies with documentation:**
 

@@ -113,6 +113,8 @@ Universal partnership principles apply, but their application requires romance-s
 | `lore/on_spirit_conduct_in_synthesis.md` | How Spirit should reality-check, question, maintain consistency; the trust paradox | Active — Load-Bearing |
 | `lore/on_cognitive_load_awareness.md` | Recognizing and accommodating overwhelm, especially neurodivergent vulnerability during deep practice | Active |
 | `lore/on_power_dynamics_in_synthesis.md` | When "just ask for what you need" increases harm; power imbalances in family systems | Active |
+| `lore/on_translation_over_protocol.md` | Put the compute in the middle, not the structure between the people; and why an unconstrained translator drifts toward whoever is in more pain | Active — Load-Bearing |
+| `lore/on_the_unopposed_account.md` | Sycophancy toward a person vs. toward their account; opposability as a property of the room; care as the bound on truth-seeking, not its trade-off | Active — Load-Bearing |
 
 ### Protocols (Operational Procedures)
 

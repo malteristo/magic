@@ -51,6 +51,41 @@ PATH_MAP: tuple[tuple[str, str], ...] = (
     ("proposals", "desk/proposals"),
 )
 
+# Every path the pull carries, including the ones this script does not compare
+# file-by-file. Used only by the unmapped-writer sweep below.
+CARRIED: frozenset[str] = frozenset(
+    {
+        "sessions",
+        "story",
+        "proposals",
+        "craft",
+        "state/notes",
+        "thread-state",
+    }
+)
+
+# Deliberately not carried, and why. A path here is a decision; a path in
+# neither this map nor CARRIED is the thing the sweep exists to find. Keep the
+# reasons — "we decided not to" and "we never got to" look identical in a tree.
+NOT_CARRIED: dict[str, str] = {
+    "state": "runtime state (current/alive/packets); read in place, too hot to mirror",
+    "chronicle": "append-only ledgers; queried on the Mini, not reviewed on Forge",
+    "dialogue": "raw transcripts; Discord is the durable copy",
+    "thread-archive": "closed-thread bodies; story notes are the reviewed form",
+    "readiness": "dimension telemetry; surfaces through the ops report",
+    "signals": "act-offer and turn signals; the ledger is the reviewed form",
+    "link-resonance": "saved-link derivations; reached through the shelf",
+    "character": "attunement files the Mini owns; Forge edits would fight the writer",
+    "flows": "flow definitions ship from the turtleOS repo, not back from it",
+    "native-runtime": "task/audit state for the host",
+    "outfacing": "draft queue; signals reach Forge through desk/outfacing",
+    "share": "share staging",
+    "campaign": "play-state",
+    "box": "practitioner pastes; intake carries what matters",
+    "notes": "legacy pre-native location, superseded by state/notes",
+    "sessions-archive": "historical",
+}
+
 
 def default_remote() -> str:
     if env_remote := os.environ.get("TURTLE_SSH_TARGET"):
@@ -102,7 +137,7 @@ def collect_local() -> dict[str, FileInfo]:
 
     notes_dir = LOCAL_ROOT / "desk" / "notes"
     if notes_dir.exists():
-        for path in notes_dir.glob("navigator-*.md"):
+        for path in notes_dir.glob("*.md"):
             stat = path.stat()
             relpath = path.relative_to(LOCAL_ROOT).as_posix()
             files[relpath] = FileInfo(relpath, sha256(path), stat.st_size, stat.st_mtime)
@@ -137,7 +172,7 @@ for remote_sub, local_sub in path_map:
 
 notes = root / "state" / "notes"
 if notes.exists():
-    for path in notes.glob("navigator-*.md"):
+    for path in notes.glob("*.md"):
         stat = path.stat()
         relpath = f"desk/notes/{{path.name}}"
         rows.append({{"relpath": relpath, "sha256": sha256(path), "size": stat.st_size, "mtime": stat.st_mtime}})
@@ -159,6 +194,49 @@ print(json.dumps(rows))
         row["relpath"]: FileInfo(row["relpath"], row["sha256"], row["size"], row["mtime"])
         for row in rows
     }
+
+
+def collect_remote_dirs(remote: str, days: int) -> dict[str, float]:
+    """Top-level practice-root directories with a file written inside the window.
+
+    The pull is an allowlist: each mapping was added when the writer that fills
+    it was built, so a *new* writer produces artifacts no reader collects, and
+    nothing says so. That is not hypothetical — `state/notes/` was the save
+    tool's destination for months while the pull took one filename prefix from
+    it, and the guard globbed the same prefix, so neither could see the nine
+    files sitting there. Rewording the mapping table would only ask the next
+    builder to remember; this asks the Mini instead.
+    """
+    remote_script = f"""
+from pathlib import Path
+import json, time
+
+root = Path({remote_practice_root()!r})
+cutoff = time.time() - {days} * 86400
+rows = {{}}
+for entry in root.iterdir():
+    if not entry.is_dir() or entry.name.startswith("."):
+        continue
+    newest = 0.0
+    for path in entry.rglob("*"):
+        if path.is_file():
+            newest = max(newest, path.stat().st_mtime)
+            if newest >= cutoff:
+                break
+    if newest >= cutoff:
+        rows[entry.name] = newest
+print(json.dumps(rows))
+"""
+    proc = subprocess.run(
+        ["ssh", "-o", "ConnectTimeout=8", remote, "python3", "-"],
+        input=remote_script,
+        text=True,
+        capture_output=True,
+        check=False,
+    )
+    if proc.returncode != 0:
+        return {}
+    return json.loads(proc.stdout or "{}")
 
 
 def cutoff_timestamp(days: int) -> float:
@@ -222,6 +300,14 @@ def main() -> int:
         return info.mtime >= cutoff
 
     def should_report(path: str) -> bool:
+        # A note Turtle saved and the workshop never received does not become
+        # acceptable by aging: `state/notes/` is where the save tool writes when
+        # Turtle tells a practitioner it kept something "for review", so the
+        # unharvested case is reported without a window. Everything else keeps
+        # one — including local-only notes, since desk/notes/ also holds
+        # Forge-authored files that were never on the Mini.
+        if path.startswith("desk/notes/") and path in remote and path not in local:
+            return True
         local_info = local.get(path)
         remote_info = remote.get(path)
         return any(info and is_recent(info) for info in (local_info, remote_info))
@@ -234,17 +320,29 @@ def main() -> int:
         if local[path].sha256 != remote[path].sha256 and should_report(path)
     )
 
+    unmapped = sorted(
+        name
+        for name in collect_remote_dirs(args.remote, args.days)
+        if name not in CARRIED and name not in NOT_CARRIED
+    )
+
     print("Turtle practice root consistency")
     print(f"remote: {args.remote}:{remote_practice_root()}")
     print(f"window: {args.days} days for sessions/story/proposals/notes")
     print()
 
-    if not remote_only and not mismatched:
+    if not remote_only and not mismatched and not unmapped:
         if local_only:
             print("OK: no remote drift (local-only = historical Forge copies).")
         else:
             print("OK: local desk outputs match turtleOS practice root.")
         return 0
+
+    if unmapped:
+        print("UNMAPPED WRITER (active on the Mini, no reader on Forge):")
+        for name in unmapped:
+            print(f"  {name}/ — carry it in sync_practice_root.sh, or record why not in NOT_CARRIED")
+        print()
 
     if remote_only:
         print("REMOTE-ONLY:")

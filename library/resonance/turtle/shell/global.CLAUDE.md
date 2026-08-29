@@ -141,7 +141,7 @@ This is how the practice builds its own scaffolding — like coral growing its o
 
 ## Self-Healing
 
-Pre-defined self-healing only — `TURTLE_SPEC.md` §20.4 / `self_heal.py` registry. No ad-hoc shell surgery.
+Pre-defined self-healing only — `TURTLE_SPEC.md` §20.4 / `core/self_heal.py` registry. No ad-hoc shell surgery.
 
 **Auto-heal (canary invokes before alert):**
 - **Ollama:** `restart_ollama()` when the `ollama` canary check fails

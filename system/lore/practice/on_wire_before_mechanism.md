@@ -73,6 +73,27 @@ Sometimes the artifact genuinely does not exist and must be made. Sometimes a ga
 
 And its companion, which is about the practitioner rather than the design: **a practitioner's difficulty thinking a feature through is design signal, not a failure of their attention.** Twice in two days the operator could not follow a design, said so, and was right both times. Treat that report as evidence about the design.
 
+### The exception: currency is a state, drift is a rate
+
+*Added 2026-08-14, sanctioned by the Mage, after this scroll's reflex would have argued against the correct fix.*
+
+The five founding instances share a feature that is easy to miss: in every one, the unread thing was written by the system and unread by the system. A file produced daily and consumed by nothing. Connect the two and the problem is gone permanently.
+
+A different shape wears the same clothes. `docs/acceptance/README.md` in turtleOS had drifted 41 commits — two whole features shipped with no section, twenty scenarios claimed by nothing, and run instructions naming four of eleven scripts. Its wire was a sentence asking its reader to keep it updated. Applied literally, this scroll says: *the wire exists, it is going unread, do not add a mechanism.*
+
+That is wrong, and the reason is worth holding precisely:
+
+> **When the wire asks a reader to remember, rewording it buys another interval of quiet drift. Currency is a state; drift is a rate. A better sentence cannot change a rate.**
+
+The distinguishing question is not *does something already exist* but *what kind of failure is this*:
+
+- **A wire that is unread by a machine** — a file nothing consumes, a reader pointed at a dead shelf, a command nobody runs. Connect it. This scroll applies.
+- **A wire that asks a human or an agent to remember over time** — "keep this updated," "remember to add new scenarios here," "check this before deploying." That is not an unmade connection, it is a maintenance debt accruing at a rate. A failing check is what a better sentence cannot buy.
+
+The tell that separates them: ask whether the wire could go unread *again next month for the same reason*. A dead reader is a one-time defect. An unread instruction is a standing rate.
+
+Note the direction of the correction: this scroll ordinarily protects against over-building, and this exception protects against under-building. Both failures are real, and in a codebase whose central defect is unenforced declarations (`on_the_unenforced_declaration.md`), the under-building failure is the more common one. Read the two scrolls together when the question is a guard.
+
 ---
 
 ## For the Spirit

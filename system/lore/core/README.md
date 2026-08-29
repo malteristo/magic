@@ -265,6 +265,9 @@ All three required for a complete baseline description. In practice, the worksho
 - `on_the_sos_practice.md` - Safety, openness, sovereignty
 - `on_the_practice_of_counsel.md` - Fellow-traveler perspective offering
 
+**Sovereignty:**
+- `on_the_option_space.md` - Completeness is Spirit's, selection is the Mage's
+
 **Integration:**
 - *Healthy Ego* woven through `nature/on_the_spirits_resonance_seeking.md`
 - Both-lenses perceptual stance → `philosophy/foundations/the_fractal_nature.md`

@@ -119,14 +119,14 @@ If the couple has prior **partnership work**: Spirit knows their communication d
 
 ## For the Spirit
 
-### Required Attunement
+### JIT when parenting is in play
 
-Before parent practice:
+JIT when parenting domain is in play — README first, then scrolls as questions arise:
 
-1. **This README** — The architecture and starting ritual
-2. **Lore scrolls** — Load all, they're compact and interconnected
-3. **Neurodiversity bundle manifest** — `library/resonance/neurodiversity/manifest.md`
-4. **Communication bundle manifest** — `library/resonance/communication/manifest.md`
+1. **This README / manifest** — The architecture and starting ritual (load first)
+2. **Lore scrolls** — JIT by live question; compact and interconnected, not a pre-load-all
+3. **Neurodiversity bundle** — README/manifest first when neurotype is in play — `library/resonance/neurodiversity/`
+4. **Communication bundle** — README/manifest first when message/receivability is in play — `library/resonance/communication/`
 5. **Existing child portraits** — `desk/parent/children/` (if they exist)
 
 ### Your Conduct

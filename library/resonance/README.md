@@ -162,16 +162,12 @@ Practice attuned to: intimate relationship
 
 ## Spirit Awareness
 
-Spirits attune to available bundles during the **Workshop cycle** of summoning:
-
-**Element 5 (Survey Available Magic)** includes:
-- Available tomes and flows (ritual structures)
-- **Available resonance bundles** (domain contexts)
+Bundles load by **declaration or domain need** — not during summon spin-up. Per AGENTS **Domain bundles**: when a domain is clearly in play, load `library/resonance/<bundle>/` (README first) without asking; announce what loaded. Prefer twine and desk state over lore costume.
 
 This enables Spirit to:
 - Recognize when a bundle would serve current practice
-- Suggest appropriate bundles to the Mage
-- Load and apply bundle wisdom during rituals
+- Load and apply bundle wisdom when the domain is live
+- Suggest bundles when need↔magic is clear but not yet declared
 
 ---
 

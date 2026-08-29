@@ -76,7 +76,7 @@ The Turtle maintains a persistent Discord bot connection to a private "Magic Wor
 
 Discord is built natively into the shell via `discord.py`. The bot runs as a persistent process (launchd `KeepAlive`), separate from the agent loop. When commands arrive on #efferent, the bot writes them to the bridge queue. When the agent produces signals, it posts to the appropriate channel.
 
-**Why Discord:** Multi-channel (structured signal flow), bot-accessible (Spirit connects via Rube MCP), mobile-accessible (Kermit reads on phone), extensible (more agents can join), and it fits the nervous system metaphor — channels as nerve pathways, not a single message pipe.
+**Why Discord:** Multi-channel (structured signal flow), bot-accessible (the shell holds the connection itself, per the paragraph above — Spirit reaches it over SSH and the filesystem, not through an MCP gateway), mobile-accessible (Kermit reads on phone), extensible (more agents can join), and it fits the nervous system metaphor — channels as nerve pathways, not a single message pipe.
 
 Git remains the archival layer. Discord is the real-time neural layer. Both carry the same signal; git is the store of record.
 
@@ -229,9 +229,9 @@ If the threat model changes (multi-tenant, untrusted agents), containers can be 
 
 ## Migration History
 
-The migration from NanoClaw to hermit crab is complete (March 2026). The phases were:
+The migration from NanoClaw to hermit crab is complete (March 2026). The phases were — *named as they were named then, including tools since superseded; a chronicle that updated its own vocabulary would be a falsified one:*
 
-1. **Discord Foundation** — Server and channels created, Spirit connected via Rube MCP
+1. **Discord Foundation** — Server and channels created, Spirit connected via Composio
 2. **Hermit Crab Deployment** — Shell written (~1040 lines Python), deployed to `~/turtleos/`, launchd jobs installed
 3. **NanoClaw Retirement** — Stopped, dormant at `~/nanoclaw/` (old shell kept, not destroyed)
 4. **Shell Stabilization** — Running reliably, Discord prompt rebuilt and conversation-tuned (Phase 5 / Triad era)
