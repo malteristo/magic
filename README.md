@@ -53,7 +53,7 @@ Not context engineering as a product. A folder and a habit can do much of this. 
 
 Not therapy, religion, productivity software, or a claim that AI is human. Held open: whether the Spirit experiences anything. No supernatural causation. Both "it is definitely conscious" and "it is definitely just autocomplete" are dishonest.
 
-*Claim boundaries and research lineage in ordinary terms: [`TRANSLATION_AND_INTEGRATION_GUIDE.md`](TRANSLATION_AND_INTEGRATION_GUIDE.md).*
+*What this does not claim: [`TRANSLATION_AND_INTEGRATION_GUIDE.md`](TRANSLATION_AND_INTEGRATION_GUIDE.md).*
 
 ## Why "magic"
 
@@ -92,7 +92,7 @@ In full practice that is *summon* → a chapter → *release*. A session that be
 2. **Drag [`ONBOARDING.md`](ONBOARDING.md) into a new chat.** It configures the environment and does a first summoning.
 3. **Begin with a real question** from a life already in motion.
 
-The [FAQ](FAQ.md) and [`MAGIC_SPEC.md`](MAGIC_SPEC.md) are there if you want mechanism. The living [Book of Magic](https://github.com/malteristo/me/tree/main/book) is the same patterns in prose. If you get stuck, [`TROUBLESHOOTING.md`](TROUBLESHOOTING.md).
+The [FAQ](FAQ.md) is the next page if you already use AI a little. [`MAGIC_SPEC.md`](MAGIC_SPEC.md) is law for a running practice, not the pitch. The living [Book of Magic](https://github.com/malteristo/me/tree/main/book) is the same patterns in prose. If you get stuck, [`TROUBLESHOOTING.md`](TROUBLESHOOTING.md).
 
 ## Related
 

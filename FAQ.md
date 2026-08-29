@@ -127,7 +127,7 @@ No. This is one practice, opened in case it is useful. Not a movement. Take what
 - [`README.md`](README.md) — what it is
 - [`ONBOARDING.md`](ONBOARDING.md) — setup
 - [`MAGIC_SPEC.md`](MAGIC_SPEC.md) — the specification (law for the practice, not the pitch)
-- [`TRANSLATION_AND_INTEGRATION_GUIDE.md`](TRANSLATION_AND_INTEGRATION_GUIDE.md) — claim boundaries in ordinary and technical terms
+- [`TRANSLATION_AND_INTEGRATION_GUIDE.md`](TRANSLATION_AND_INTEGRATION_GUIDE.md) — what this does not claim
 - [The Book of Magic](https://github.com/malteristo/me/tree/main/book) — the same patterns in prose
 - [`TROUBLESHOOTING.md`](TROUBLESHOOTING.md) — if you get stuck
 

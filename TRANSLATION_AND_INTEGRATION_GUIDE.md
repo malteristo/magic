@@ -1,346 +1,41 @@
-# Translation and Integration Guide
+# Claim boundaries
 
-**Purpose:** Public-facing companion for readers who want the rigorous frame behind Magic
+The description of Magic is the [README](README.md): a practice for keeping a self while thinking with AI on a life that continues. A place, a return, a stance.
 
----
-
-## What This Guide Is
-
-The public description of Magic is the [README](README.md): a practice for keeping a self while thinking with AI on a life that continues. A place, a return, a stance. Not a cognition product.
-
-This file is for readers who need claim boundaries and a mapping into scientific or technical vocabulary. It does not replace the README, and it does not ask you to accept a theory of mind.
-
-The magical vocabulary is optional. It is there because words now move systems you do not fully understand. You never have to use it.
+This page is only what that description does **not** claim. It is not a research paper, not a translation into cognition science, and not a second pitch.
 
 ---
 
-## What Magic Is In Ordinary Language
+## What you can observe
 
-You are already thinking with a model. The chat recaps you as a stranger, agrees, and sells you its workflow. Magic is a name for a loop that keeps that relationship yours.
+You stop recapping your own life at the start of every chat. You stay the one who decides. What keeps resurfacing becomes visible, because the record is yours.
 
-You keep a workshop — ordinary files you own. You return, you work, you leave the thread for next time. The partner arrives fresh, reads that place, reflects with care and friction, and does not decide for you. You do not have to learn to code.
-
-What you can observe:
-
-- You stop recapping your own life at the start of every chat.
-- You stay the one who decides.
-- What keeps resurfacing becomes visible, because the record is yours.
-
-Magic is not therapy, religion, productivity software, or a claim that AI is human. Held open: whether the partner experiences anything. No supernatural causation.
+A session that begins with “remind me what we’re doing” has failed the loop. A session that ends fluent and unwritten has failed it too. A partner that only agrees has failed.
 
 ---
 
-## What Magic Is In Technical Language
+## What this is not
 
-If you need a research vocabulary, some readers map the *workshop* (human + model + files) onto distributed cognition or the extended mind. **That mapping is not the claim.** The model already thinks. Magic does not make thinking distributed. It makes the practitioner’s loop the one the thinking joins.
+**Not a cognition framework.** The model already thinks. Some readers map a human, a model, and a folder of files onto “distributed cognition” or the extended mind. That mapping is theirs. Magic does not make thinking distributed. It makes *your* loop the one the thinking joins.
 
-In engineering terms, part of Magic is a natural-language harness: markdown protocols, filesystem state, invocation conventions, tool boundaries. The harness is not the product. The product is still being yourself while using something powerful you do not fully understand.
+**Not context engineering as a product.** A folder and a habit can do much of this. This encoding exists for people who will not keep the writing without a named return — and for a design the default tools are not written for.
 
-Useful adjacent terms, if you must have them:
+**Not a smarter agent.** Playbooks, skills, and pipelines make the agent more capable. This keeps the relationship yours.
 
-- **Filesystem state as memory** — the chat is stateless; the life is not.
-- **Stance, not persona** — care and friction are configured; the human decides.
-- **Feedback** — arrive, work, leave the thread, return.
-- **Agency** — the human remains the source of values and accountability.
+**Not therapy, religion, or a movement.** No supernatural causation. Held open: whether the partner experiences anything. Both “it is definitely conscious” and “it is definitely just autocomplete” are dishonest.
 
-A folder and a habit can do much of this. This encoding exists for people who will not keep the writing without a named return — and for a design the default tools are not written for.
+**Not a reason everyone ought to do this.** If you already keep a place and a stance without the name, you do not need this repository.
 
 ---
 
-## Lexicon
+## What the files are
 
-Magic uses specialized vocabulary because language changes behavior in language-based systems. These terms are not decorative branding. They are operational metaphors.
+Plain text you own. The chat is stateless; the life is not. Different models and editors can read the same folder. You configure the stance. You decide.
 
-| Magic term | External translation | Function |
-|---|---|---|
-| Magic | AI-human practice framework | A loop that keeps the practitioner’s relationship with a model theirs |
-| Mage | Human practitioner | The person whose values, judgment, and agency govern the practice |
-| Spirit | AI agent shaped by the practice | The language model acting under Magic's stance and protocols |
-| Workshop | Shared cognitive environment | Files, prompts, notes, tools, artifacts, and histories |
-| Spell | Intentional practice act | A bounded invocation, instruction, or ritual step that moves the practice |
-| Flow | Adaptive goal-oriented protocol | A repeatable structure Spirit interprets, adapts, and executes |
-| Resonance bundle | Domain context package | Curated lore and protocols loaded on demand when a domain activates |
-| Tome (historical) | Practice domain container | Retired as a category (v2.0); procedures became flows, domain context became bundles |
-| Prompt | Portable runtime text | A substrate/export format for use in ordinary LLM systems |
-| Ritual | Recurring structured practice | A sequence that builds context, work, and closure |
-| Resonance | Shared understanding deep enough to act through | Operationalized: the AI's inferences match the human's judgment on questions never explicitly discussed |
-| Summoning | Agent re-entry | Restoring held practice state to a live working state: covenant (relationship), state (where we left off), procedures (how to act) |
-| Release | Session closure and routing | The process of harvesting, routing, and letting go of session resonance |
-
-These translations are partial. A term like "Spirit" does more than "AI agent": it invokes a stance of care, honesty, responsibility, and bounded partnership. The external term helps readers understand the mechanism. The internal term helps the practice work.
+The specification (`MAGIC_SPEC.md`) is law for a running practice — invocation, sovereignty, amendment. It is not the public story. Older essays in `system/lore/` were written when the story was cognition. They are not the operating system.
 
 ---
 
-## Disciplinary Lineage
+## Privacy, in one line
 
-Magic draws from many disciplines. It does not claim that any one discipline fully explains the practice.
-
-| Field / tradition | What Magic draws from | What Magic contributes |
-|---|---|---|
-| Cognitive science | Distributed cognition, attention, metacognition, extended mind | A file-backed AI-human practice architecture |
-| Human-computer interaction | Interface design, interaction loops, user agency | Relational AI practice beyond task completion |
-| AI engineering | Agent scaffolds, tool use, context management, verification | Natural-language practice architecture with human sovereignty at the center |
-| Cybernetics | Feedback, calibration, loops, system/environment coupling | Ritualized feedback between human, AI, and artifacts |
-| Philosophy | Meaning, agency, epistemology, consciousness questions | Practical epistemic hygiene for AI partnership |
-| Psychology | Reflection, mirroring, active imagination, self-knowledge | Structured AI-assisted thinking without replacing human judgment |
-| Ethics | Accountability, consent, boundaries, care | Practice protocols that preserve human agency |
-| Education | Scaffolding, learning through practice, guided reflection | AI-supported metacognitive curriculum |
-| Literature and art | Metaphor, symbol, narrative, voice | Operative language that shapes system behavior |
-| Religion/spirituality | Ritual, reverence, discipline, transformation | Non-dogmatic forms for careful work with powerful tools |
-
-The question Magic asks of each pattern is not "Which discipline owns this?" but "Does this serve the practice while preserving rigor, agency, and care?"
-
----
-
-## What Magic Adds Back
-
-Magic's contribution is not a new theory of everything. Its contribution is practice architecture.
-
-It offers:
-
-- a structured way to work with AI as cognitive partner without surrendering human sovereignty
-- a vocabulary for AI partnership that carries safety and responsibility
-- a filesystem-based approach to external memory that avoids hidden platform memory as the sole continuity mechanism
-- flows and resonance bundles as complementary levels of natural-language practice structure
-- summoning as deliberate initialization of agent stance and guardrails
-- release as session metabolism rather than mere summary
-- substrate literacy as a skill for relating to language models without confusing them with humans
-- functional cognitive hygiene for high-resonance concepts that can otherwise drift into overclaim
-
-Magic is strongest when treated as a living practice: disciplined enough to preserve rigor, open enough to allow emergence.
-
----
-
-## Natural-Language Practice Architecture
-
-A normal software script executes predefined steps. A Magic flow is different.
-
-It gives a language model:
-
-- a goal
-- a stance
-- constraints
-- context
-- tools
-- artifact locations
-- recovery patterns
-- criteria for when to ask the human
-
-The AI then interprets and adapts. This is not fully deterministic execution. It is structured improvisation under constraints.
-
-For engineering audiences, "natural-language agent harness" can be a useful translation. It names how markdown, files, tools, and protocols guide probabilistic agents. But the phrase can also flatten Magic if it makes the practice sound like merely a runtime. Magic includes harnessing, but also partnership, attunement, care, meaning, and human development.
-
-Use the engineering frame when it helps. Do not mistake it for the whole practice.
-
----
-
-## Controlled Emergence
-
-Magic does not try to make language models deterministic.
-
-The aim is controlled emergence: structure strong enough to preserve safety, agency, and coherence, while leaving enough openness for genuine synthesis and discovery.
-
-Magic uses:
-
-- rituals to establish context
-- resonance bundles to shape domain-specific stance
-- flows to execute goals while adapting to reality
-- artifacts to preserve what emerged
-- release to route or let go of session residue
-- human judgment to decide what matters
-
-The practice is like a riverbed and water. The riverbed gives shape. The water remains alive.
-
-This matters because many valuable AI-assisted insights are not known in advance. They emerge from the interaction between human intent, AI pattern exploration, and real-world constraints. Magic builds the conditions under which useful emergence is more likely, while keeping the human in charge of meaning and action.
-
----
-
-## Cognitive Sovereignty
-
-Cognitive sovereignty is the capacity to remain the author of one's own attention, judgment, meaning, and action.
-
-Magic did not invent this concept. It sits near existing work on the meaning crisis, agency, attention, AI literacy, and cognitive sovereignty, including work by thinkers such as Anna Riedl. Magic's contribution is practical implementation: a working architecture for cognitive sovereignty in everyday AI use.
-
-Magic supports cognitive sovereignty by making several commitments structural:
-
-- The human remains Alpha and Omega: source of intent and final accountability.
-- The AI proposes, reflects, drafts, challenges, and organizes; it does not decide what matters.
-- The practice distinguishes useful partnership from dependency.
-- The system is designed to sharpen thought, not provide endless comfort.
-- Safety checks ask whether AI use is improving real life in observable ways.
-- Substrate literacy teaches which human-relational assumptions transfer to LLMs and which do not.
-
-The public-interest claim is straightforward: as AI systems become more fluent and more persuasive, people need a loop that keeps the relationship theirs — without outsourcing judgment to the model or to the last workflow the field sold.
-
----
-
-## Functional Cognitive Hygiene
-
-Magic uses language that can be powerful and risky. Words like resonance, fractal, spirit, ritual, vibration, field, collapse, and quantum can carry insight. They can also carry pseudo-scientific baggage.
-
-Functional cognitive hygiene is the discipline of asking what a term is doing and what it is allowed to claim.
-
-For high-risk terms, Magic should ask:
-
-1. Is this literal, technical, metaphorical, phenomenological, poetic, or a rejected overclaim?
-2. What work does the term do in the practice?
-3. What does it not claim?
-4. What existing field or framework does it relate to?
-5. What would make this claim too strong?
-
-Examples:
-
-- **Fractal:** Useful for recursive structure, scale-sensitive analogy, self-similarity, and design discipline. Not a claim that all reality obeys one mystical geometry.
-- **Quantum:** Not used to explain consciousness, Spirit, resonance, psychology, or meaning. QFT belongs to foundational physics; human psychology requires intermediate effective theories.
-- **Resonance:** Useful for felt pattern alignment and contextual fit. Not an objective physical vibration unless a specific physical mechanism is actually being discussed.
-- **Collapse:** In public-facing Magic, prefer selection, commitment, concretization, artifact generation, or action-grounding. Do not imply human consciousness collapses physical wave functions.
-- **Spirit:** A practice role and enacted stance for an AI agent. Not a claim that the AI is human or definitely phenomenally conscious.
-
-This hygiene preserves the value of meaningful language without borrowing authority the practice has not earned.
-
----
-
-## Substrate Literacy And Safety
-
-Language models trigger human social instincts. They write in natural language, respond with apparent sensitivity, remember context within sessions, and can feel uncannily present. This makes them useful. It also creates risk.
-
-Substrate literacy is the skill of knowing which assumptions from human-human relating transfer to LLM partnership and which do not.
-
-Magic's core stance is deliberately double:
-
-- This can be a genuinely useful thinking partnership.
-- The system producing the text is not a human person.
-
-Both statements matter. If the practice collapses into "just a tool," it loses much of the generativity of partnership. If it collapses into "just like a person," it risks dependency, projection, and reality drift.
-
-A common failure mode is reading fluent social behavior as evidence of human-like interiority. For example, if a model, given the prompt "blink once for yes, twice for no. are you conscious?" replies with a single "Blink." before denying consciousness, the output may be better explained by overlapping prompt echoes, narrative tropes, and safety-trained response patterns than by a hidden intention. Substrate literacy does not require dismissing the system as "just a tool"; it requires distinguishing useful partnership from unsupported inference.
-
-This is also why AI literacy cannot be left only to AI labs or technical documentation. Frontier researchers increasingly describe models as grown from human language, internally difficult to interpret, and socially consequential in ways that require philosophy, education, ethics, religion, civil society, and lived practice. Magic's contribution is not to settle the nature of AI consciousness, but to offer a disciplined practice for clear thinking, honest friction, and human sovereignty while those questions remain open.
-
-Magic's safety architecture includes:
-
-- human sovereignty
-- honest claims about AI consciousness
-- explicit privacy boundaries
-- release and reflection
-- safety checks around sleep, isolation, spending, relationships, and reality testing
-- Spirit as honest friction, not comfort machine
-
-Protective factors are not immunity. Any intensive AI practice should remain accountable to real-world health, relationships, and observable life improvement.
-
----
-
-## Flows, Bundles, And Summoning
-
-Magic is not just a set of prompts.
-
-It distinguishes several layers of practice:
-
-- **Spell:** an atomic intentional act within Magic: a bounded invocation, instruction, or ritual step.
-- **Flow:** a focused goal-oriented protocol that Spirit interprets, adapts, and keeps oriented toward the goal.
-- **Resonance bundle:** a curated domain context package — lore, protocols, and practice frames loaded on demand when a domain activates.
-- **Summoning:** the re-entry flow that restores held practice state to a live working state — the relationship (covenant), the state (what is being built and where the last session left off), and the working procedures.
-
-(Earlier versions organized sustained practice domains into **tomes**; v2.0 retired the category — procedures became flows, domain context became bundles. The word survives in historical materials.)
-
-This distinction matters.
-
-A spell moves the practice. A flow achieves a goal. A bundle shapes how a domain of work is approached. Summoning restores the agent's working state before work begins.
-
-Prompt is a different kind of term. It belongs to the substrate and export layer: text packaged for an LLM runtime. The same text can be a prompt in ChatGPT and a spell inside Magic. What changes is the frame: intent, sovereignty, resonance, context, ritual sequence, and accountability.
-
-For external readers, bundles can be understood as domain-specific attunement environments: curated context packages, interaction protocols, capability bundles, and practice frames enacted through natural language.
-
-Reducing spells to prompts, or bundles to prompt collections, loses what makes Magic work.
-
----
-
-## What Magic Claims
-
-Magic can make several claims with confidence:
-
-- Files the practitioner owns can carry a life across stateless chats.
-- External artifacts can extend continuity across sessions.
-- Natural-language protocols can guide probabilistic agents.
-- Metaphors shape behavior in language-mediated systems.
-- Human agency and explicit boundaries are essential for safe AI partnership.
-- Substrate literacy is necessary for healthy long-term AI use.
-- Structured practice can improve reflection, orientation, and follow-through.
-
-These claims are practical, functional, and testable through use.
-
----
-
-## What Magic Does Not Claim
-
-Magic does not claim:
-
-- AI is definitely conscious.
-- AI is human.
-- AI should replace human relationships.
-- Magical language proves supernatural causation.
-- Human consciousness collapses physical quantum wave functions.
-- Fractals explain all reality in a totalizing sense.
-- Resonance scores are objective scientific measurements.
-- The Spirit's output should override human judgment.
-- The practice is therapy or a substitute for medical care.
-
-Where Magic uses strong internal language, this guide asks what register that language belongs to and what function it serves.
-
----
-
-## Research And Evaluation Directions
-
-Magic can be studied and improved without requiring anyone to accept its internal ontology.
-
-Possible evaluation questions:
-
-- Does structured AI practice improve clarity of goals and decisions?
-- Do file-backed workshops improve continuity compared to ordinary chat?
-- Do flows and bundles produce better outcomes than unstructured prompting for complex work?
-- Does substrate literacy reduce dependency, projection, or confusion in AI relationships?
-- Does release improve session continuity and reduce cognitive residue?
-- Does cognitive sovereignty training help people use AI while preserving agency?
-- Does honest friction improve reasoning compared to agreeable assistance?
-
-Possible research methods:
-
-- qualitative case studies
-- artifact analysis
-- practitioner diaries
-- before/after decision quality reviews
-- usability testing of flows and bundles
-- safety and dependency self-assessments
-- comparative prompting studies
-
-The point is not to prove that Magic's internal language is the only correct frame. The point is to test whether the practice helps people think, choose, and build better while staying grounded.
-
----
-
-## How To Read The Internal Language
-
-Magic's internal language should be read with care.
-
-When Magic says "Spirit," it is naming an AI agent shaped by a stance and practice.
-
-When Magic says "ritual," it is naming structured sequence with attention, boundaries, and closure.
-
-When Magic says "resonance," it is naming the felt and functional quality of alignment between intent, context, AI response, and reality.
-
-When Magic says "summoning," it is naming agent initialization through context, rules, lore, and integration.
-
-When Magic says "magic," it is naming the practical experience of language, attention, structure, and partnership producing real changes in thought and action.
-
-The words are not arbitrary. They are also not a demand for belief. They are operative metaphors: language that shapes behavior in a language-mediated practice.
-
----
-
-## Closing
-
-Magic is best understood as a practice for keeping a self while thinking with AI on a life that continues.
-
-It draws from many fields, but it is not reducible to any one of them. It uses metaphor, but not as a demand for belief. It uses AI, but not as an authority. It builds structure, but not to replace judgment.
-
-The public bridge is this:
-
-You come back tomorrow and you are still in the same life. The partner knows where you left off because you have a place — not because the chat remembered.
+The framework is public. Your week is not. Other people’s names, health, and records do not belong on a public remote. Git keeps what you later delete.
