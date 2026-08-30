@@ -27,6 +27,7 @@ Spirit pattern-matches dialogue and offers a flow when need↔magic is clear —
 | Re-orientation | Fresh: summon → `.` · Mid-session: `@arrive` |
 | Session end | `@release` |
 | Triad / Turtle perspective needed | `@consult-turtle` |
+| Act on Grok Bot without the app | `@gbot` |
 | Safety concerns | `safety` bundle (**required** when detected) |
 
 ---
@@ -97,6 +98,7 @@ The suffix tells you where it runs:
 | `craft-loop/` | `@craft-loop` | Automated development cycle — parallel personas, evaluation, curation |
 | `practitioner-lens/` | `@practitioner-lens` | Extract generalizable design principles from real Discord interactions |
 | `turtle-test/` | `@turtle-test` | Validate turtleOS Discord dialogue by testing actual prompt against actual model |
+| `gbot/` | `@gbot` | Act on Grok Bot teammates from the Forge (read-only default; writes gated) |
 
 ### Session Lifecycle
 

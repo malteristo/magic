@@ -100,7 +100,7 @@ The [FAQ](FAQ.md) is the next page if you already use AI a little. [`MAGIC_SPEC.
 
 ## Related
 
-- **[turtleOS](https://github.com/malteristo/turtleos)** — a local-first personal AI on Discord that grew out of this practice. It runs without Magic. Not "Magic, packaged."
+- **[turtleOS](https://github.com/malteristo/turtleos)** — a place for practices: rooms with a Turtle and a River, on a machine you own. It runs without Magic. Not "Magic, packaged."
 - **[About the author](https://github.com/malteristo/me)** — the practitioner behind the framework.
 
 ## The stance

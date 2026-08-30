@@ -149,16 +149,23 @@ check_pattern() {
   fi
 }
 
-GUARD_ROOT="$(git rev-parse --show-toplevel 2>/dev/null || echo .)"
+# Calling repo (may be turtleOS). Do not reuse GUARD_ROOT — that name is the
+# script's workshop above, and overwriting it made Magic's decided turtleOS
+# ID exceptions invisible to every turtleOS commit (found 2026-08-30 when
+# discord_bot.py could not be committed for a line excepted 2026-08-02).
+CALLING_ROOT="$(git rev-parse --show-toplevel 2>/dev/null || echo .)"
 
 # Same resolution chain as the name list — one set of decisions serves every repo.
+# Calling repo first; then the workshop that owns this script (Magic desk).
 EXCEPTIONS_FILE=""
 for candidate in \
   "${MAGIC_SANITIZE_EXCEPTIONS:-}" \
   "$(git config --get magic.sanitizeExceptions 2>/dev/null || true)" \
+  "$CALLING_ROOT/desk/config/sanitize_exceptions.txt" \
+  "$CALLING_ROOT/system/config/sanitize_exceptions.txt" \
+  "$CALLING_ROOT/.sanitize_exceptions.txt" \
   "$GUARD_ROOT/desk/config/sanitize_exceptions.txt" \
-  "$GUARD_ROOT/system/config/sanitize_exceptions.txt" \
-  "$GUARD_ROOT/.sanitize_exceptions.txt"
+  "$GUARD_ROOT/system/config/sanitize_exceptions.txt"
 do
   if [ -n "$candidate" ] && [ -f "$candidate" ] && grep -qvE '^\s*(#|$)' "$candidate" 2>/dev/null; then
     EXCEPTIONS_FILE="$candidate"; break
