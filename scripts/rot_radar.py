@@ -275,7 +275,7 @@ SUPERSEDED = [
     # (pattern, what it wrongly teaches, where the truth lives now)
     (r"open portals",
      "a connected-service inventory living in the Seal / AGENTS.md",
-     "system/config/connections.md § MCP Topology"),
+     "desk/config/connections.md § MCP Topology"),
     # Not `\bRube\b`. The boundary has to reject letters on both sides but
     # allow `_`, or `rube_mcp_integration` reads as a word break and passes.
     # It must still reject "Rubedo" — the alchemical term, which is a real word
@@ -307,7 +307,7 @@ SUPERSEDED = [
      r"|COMPOSIO_(?:SEARCH|MULTI|EXECUTE|MANAGE|WAIT|GET|REMOTE)",
      "a capability reachable through the Composio gateway — disabled on Forge "
      "2026-08-26 (retained, not deleted, by his decision)",
-     "system/config/connections.md § MCP Topology — Gmail and X via Cursor "
+     "desk/config/connections.md § MCP Topology — Gmail and X via Cursor "
      "Marketplace plugins; GitHub via `gh` CLI (Cursor's native GitHub "
      "integration as account-level fallback); web search via built-in "
      "WebSearch"),

@@ -23,11 +23,11 @@
 
 ### Phase 1: Pull Messages from Practice Channels + Threads
 
-Fetch from the current practice channel and active threads. Channel IDs are stored in `~/turtleos/.env` on the Mac Mini and in `system/config/connections.md` in the local workshop. Prefer the current practice river (`#dialogue` at the time of this writing) and its active threads.
+Fetch from the current practice channel and active threads. Channel IDs are stored in `~/turtleos/.env` on the Mac Mini and in `desk/config/connections.md` in the local workshop. Prefer the current practice river (`#dialogue` at the time of this writing) and its active threads.
 
 Do not treat `#system` as a current practice source. If it exists in configuration or history, read it only as deprecated lineage during archaeology or migration work.
 
-**Primary practice channel** (`DISCORD_CHANNEL_DIALOGUE`, or the current channel named in `system/config/connections.md`) — the conversational surface:
+**Primary practice channel** (`DISCORD_CHANNEL_DIALOGUE`, or the current channel named in `desk/config/connections.md`) — the conversational surface:
 
 ```bash
 ssh turtle@<turtle-ssh> 'TOKEN=$(grep DISCORD_BOT_TOKEN ~/turtleos/.env | cut -d= -f2); CHANNEL=$(grep DISCORD_CHANNEL_DIALOGUE ~/turtleos/.env | cut -d= -f2); curl -s -H "Authorization: Bot $TOKEN" "https://discord.com/api/v10/channels/$CHANNEL/messages?limit=100" | python3 -c "

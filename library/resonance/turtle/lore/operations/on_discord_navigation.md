@@ -2,7 +2,7 @@
 
 *How Spirit accesses Discord content when working alongside Turtle.*
 
-**Status:** Keep (2026-07-18) — `discord_ops.py` / `spirit_ops.py` CLI. Live IDs in `system/config/connections.md`.
+**Status:** Keep (2026-07-18) — `discord_ops.py` / `spirit_ops.py` CLI. Live IDs in `desk/config/connections.md`.
 
 ## The Instrument
 
@@ -20,7 +20,7 @@ ssh turtle@<turtle-ssh> "cd ~/turtleos && ./venv/bin/python3 discord_ops.py <op>
 
 ## Channel IDs
 
-The source of truth is `~/turtleos/mage_registry.yaml` (and Forge `system/config/connections.md`). Key channels:
+The source of truth is `~/turtleos/mage_registry.yaml` (and Forge `desk/config/connections.md`). Key channels:
 
 | Channel | ID | Practice root |
 |---|---|---|

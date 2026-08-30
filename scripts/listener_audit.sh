@@ -13,8 +13,8 @@
 #   ./scripts/listener_audit.sh mini <ssh-target>    # scope 'mini', over SSH (read-only)
 #   ./scripts/listener_audit.sh --self-test          # positive control
 #
-# Allowlist: system/config/declared_listeners.txt
-# Addresses belong in system/config/connections.md, never here.
+# Allowlist: desk/config/declared_listeners.txt
+# Addresses belong in desk/config/connections.md, never here.
 
 set -uo pipefail
 
@@ -32,12 +32,13 @@ ALLOWLIST=""
 for candidate in \
   "${MAGIC_LISTENER_ALLOWLIST:-}" \
   "$(git config --get magic.declaredListeners 2>/dev/null || true)" \
+  "$ROOT/desk/config/declared_listeners.txt" \
   "$ROOT/system/config/declared_listeners.txt" \
   "$ROOT/.declared_listeners.txt"
 do
   if [ -n "$candidate" ] && [ -f "$candidate" ]; then ALLOWLIST="$candidate"; break; fi
 done
-: "${ALLOWLIST:=$ROOT/system/config/declared_listeners.txt}"   # for the error message
+: "${ALLOWLIST:=$ROOT/desk/config/declared_listeners.txt}"   # for the error message
 
 # Apple services whose ports are ephemeral and change every boot — matched by
 # process name because there is no stable number to declare.

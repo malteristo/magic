@@ -61,7 +61,9 @@ def remote_host() -> str:
     override = os.environ.get("REMOTE")
     if override:
         return override
-    conf = ROOT / "system" / "config" / "connections.md"
+    from workshop_paths import config_file
+
+    conf = config_file("connections.md", ROOT)
     if conf.is_file():
         found = re.search(r"turtle@[^\s`]+", conf.read_text(encoding="utf-8"))
         if found:
@@ -73,7 +75,7 @@ def remote_host() -> str:
     # other practitioner at a machine they do not own. Fail loudly instead.
     raise SystemExit(
         "No Turtle remote configured. Put a `turtle@<host>` line in "
-        "system/config/connections.md (gitignored), or pass --remote."
+        "desk/config/connections.md, or pass --remote."
     )
 
 

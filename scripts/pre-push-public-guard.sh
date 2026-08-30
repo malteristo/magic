@@ -15,7 +15,7 @@
 # everything else sensitive from being tracked at all, so the ignore file was
 # silently acting as the other half of this guard. The moment tracking widens —
 # which is exactly the change being considered — `AGENTS.md`, `mage_seal.md`,
-# the live registries, `system/config/private_names.txt` and the archives all
+# the live registries, `desk/config/private_names.txt` and the archives all
 # sail straight past, because none of them starts with desk/, floor/ or box/.
 #
 # So the path test is now an allowlist too, derived from

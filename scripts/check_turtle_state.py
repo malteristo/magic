@@ -20,8 +20,10 @@ import sys
 from dataclasses import dataclass
 from pathlib import Path
 
+from workshop_paths import config_file
+
 LOCAL_ROOT = Path(__file__).resolve().parents[1]
-CONNECTIONS_PATH = LOCAL_ROOT / "system" / "config" / "connections.md"
+CONNECTIONS_PATH = config_file("connections.md", LOCAL_ROOT)
 
 
 def remote_practice_root() -> str:
@@ -40,7 +42,7 @@ def remote_practice_root() -> str:
     raise SystemExit(
         "No Turtle practice root configured. Put the Mini-side "
         "`/Users/<account>/workshops/<key>` path in "
-        "system/config/connections.md (gitignored)."
+        "desk/config/connections.md."
     )
 
 # Remote path → local path
@@ -104,7 +106,7 @@ def default_remote() -> str:
     # other practitioner at a machine they do not own. Fail loudly instead.
     raise SystemExit(
         "No Turtle remote configured. Put a `turtle@<host>` line in "
-        "system/config/connections.md (gitignored), or pass --remote."
+        "desk/config/connections.md, or pass --remote."
     )
 
 

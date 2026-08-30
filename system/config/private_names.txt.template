@@ -1,6 +1,7 @@
 # private_names.txt — names that must never reach a public-bound file.
 #
-#   cp system/config/private_names.txt.template system/config/private_names.txt
+#   mkdir -p desk/config
+#   cp system/config/private_names.txt.template desk/config/private_names.txt
 #
 # One name per line. Blank lines and # comments ignored. Matched case-INsensitively
 # on word boundaries by scripts/sanitize.sh, which runs as your pre-commit hook.

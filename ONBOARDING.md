@@ -73,10 +73,10 @@ This is the Mage's personal configuration. Tell them what it does (briefly or th
 If the Mage wants Discord/Turtle/SSH integration, create the local connection file:
 
 ```bash
-cp system/config/connections.md.template system/config/connections.md
+mkdir -p desk/config && cp system/config/connections.md.template desk/config/connections.md
 ```
 
-Then fill in local values. This file is gitignored and is not needed for the core Magic framework or first summoning.
+Then fill in local values. This file is instance config (private chronicle, not published) and is not needed for the core Magic framework or first summoning.
 
 ### 2b. Privacy guards — do not skip this one
 
@@ -84,9 +84,9 @@ Then fill in local values. This file is gitignored and is not needed for the cor
 ./scripts/configure_workshop_git.sh
 ```
 
-This sets `core.hooksPath` to the tracked `.githooks/` directory and creates `system/config/private_names.txt` from its template. Run it even if they never intend to publish anything — git does not install hooks from a clone, so until this runs there are no guards at all.
+This sets `core.hooksPath` to the tracked `.githooks/` directory and creates `desk/config/private_names.txt` from its template. Run it even if they never intend to publish anything — git does not install hooks from a clone, so until this runs there are no guards at all.
 
-Then ask them to fill in `system/config/private_names.txt`: the first names, surnames and handles of real people who will appear in their practice — partner, children, family, friends, colleagues. That file is gitignored and never leaves their machine. What it buys them is a pre-commit check that refuses to let those names reach a public-bound file.
+Then ask them to fill in `desk/config/private_names.txt`: the first names, surnames and handles of real people who will appear in their practice — partner, children, family, friends, colleagues. That file is instance config and never published. What it buys them is a pre-commit check that refuses to let those names reach a public-bound file.
 
 Say why, briefly, because the reason is the point:
 

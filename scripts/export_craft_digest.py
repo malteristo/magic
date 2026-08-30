@@ -40,7 +40,9 @@ ROOT = Path(__file__).resolve().parents[1]
 BACKLOG = ROOT / "desk" / "craft" / "backlog.md"
 
 REMOTE_DEFAULT = None  # resolved from connections.md; no tracked instance
-CONNECTIONS_PATH = ROOT / "system" / "config" / "connections.md"
+from workshop_paths import config_file
+
+CONNECTIONS_PATH = config_file("connections.md", ROOT)
 
 
 def practice_root() -> str:
@@ -61,7 +63,7 @@ def practice_root() -> str:
     raise SystemExit(
         "No Turtle practice root configured. Put the Mini-side "
         "`/Users/<account>/workshops/<key>` path in "
-        "system/config/connections.md (gitignored)."
+        "desk/config/connections.md."
     )
 # `craft/backlog.md` on the Mini is the *intake* backlog the reconciler owns.
 # This is a different file on purpose — overwriting that one would destroy the
@@ -264,7 +266,7 @@ def main() -> int:
 
 
 def _remote_from_connections() -> str | None:
-    cfg = ROOT / "system" / "config" / "connections.md"
+    cfg = config_file("connections.md", ROOT)
     if not cfg.is_file():
         return None
     m = re.search(r"turtle@[^\s`]+", cfg.read_text(encoding="utf-8"))

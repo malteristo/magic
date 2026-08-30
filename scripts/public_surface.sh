@@ -35,6 +35,10 @@ PS_DENY=()
 # override a class rule, so the things that must never move sit here, in
 # tracked code, where changing them is a visible act.
 PS_ABSOLUTE_NEVER=(
+  "desk/config/connections.md"
+  "desk/config/private_names.txt"
+  "desk/config/sanitize_exceptions.txt"
+  "desk/config/declared_listeners.txt"
   "system/config/connections.md"
   "system/config/private_names.txt"
   "system/config/sanitize_exceptions.txt"
@@ -165,9 +169,11 @@ ps_self_test() {
     _ps_expect "$never" private "absolute never"
   done
 
-  # The 2026-08-07 regression: private config inside an allowed DIR.
-  _ps_expect "system/config/sanitize_exceptions.txt" private "would have shipped before this file existed"
-  _ps_expect "system/config/declared_listeners.txt" private "would have shipped before this file existed"
+  # Instance config is desk/; system/config keeps a DENY backstop if someone
+  # writes a live file there again. Templates still ship.
+  _ps_expect "desk/config/connections.md" private "instance config"
+  _ps_expect "system/config/sanitize_exceptions.txt" private "backstop if rewritten under system/"
+  _ps_expect "system/config/declared_listeners.txt" private "backstop if rewritten under system/"
   _ps_expect "system/config/connections.md.template" public "templates ship"
 
   # Class rules.

@@ -207,7 +207,7 @@ Note what is loaded natively versus what is deferred (requires discovery). Some 
 
 **MCP topology survey:**
 
-**Start from `system/config/connections.md` § MCP Topology** — the canonical record of what this workshop has connected, and the place your findings get written back to. Read it as a **prior, not an answer**: it tells you what was true when someone last looked, including the reconnect path if a grant has lapsed.
+**Start from `desk/config/connections.md` § MCP Topology** — the canonical record of what this workshop has connected, and the place your findings get written back to. Read it as a **prior, not an answer**: it tells you what was true when someone last looked, including the reconnect path if a grant has lapsed.
 
 Then survey what is *actually* present. MCP integrations vary significantly by substrate variant, and authorizations expire — do not assume from AGENTS.md, CLAUDE.md, or the Seal (which no longer carries this inventory at all):
 

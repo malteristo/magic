@@ -130,7 +130,7 @@ The magic tree has three commit surfaces. Release handles **the private workshop
 
 **Verify before staging:** `cd ~/Documents/magic && pwd && git status -sb && git config --get branch.main.remote`. `pwd` must be the magic root, never the turtleos sibling. Upstream must read `main...turtle/main` — if it is `github` or unset, run `./scripts/configure_workshop_git.sh` first, or the IDE Sync button reconciles against the public remote.
 
-**In the commit:** the practice. Since 2026-08-07 that includes `AGENTS.md`, `system/config/`, the registries and the archives — the private remote is a bare repo on the Mage's own machine, so nothing is withheld from the chronicle for privacy. `.gitignore` now excludes only nested repos, runtime noise and staging debris.
+**In the commit:** the practice. Since 2026-08-07 that includes `AGENTS.md`, instance config (`desk/config/`), the registries and the archives — the private remote is a bare repo on the Mage's own machine, so nothing is withheld from the chronicle for privacy. `.gitignore` now excludes only nested repos, runtime noise and staging debris.
 
 **Not staged:** whatever `.gitignore` excludes — and that is the whole rule. Do not maintain a second list here; the previous version of this line named `AGENTS.md` and `system/config/connections.md` as never-staged, which became wrong the day the policy changed and would have had the next Spirit un-stage the Seal.
 

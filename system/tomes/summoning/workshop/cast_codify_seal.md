@@ -41,7 +41,7 @@ Identify the sections and their nature:
 - Workshop configuration (dual repos, non-standard directories, custom tooling)
 - Compress to essential information
 - Factual, not normative
-- **Do not codify connected services / MCP inventory.** It belongs in `system/config/connections.md` § MCP Topology, and a codified copy here would be injected every turn while going stale unobserved. Codify the *pointer*, never the list. *(Superseded 2026-08-25 — this line read "open portals".)*
+- **Do not codify connected services / MCP inventory.** It belongs in `desk/config/connections.md` § MCP Topology, and a codified copy here would be injected every turn while going stale unobserved. Codify the *pointer*, never the list. *(Superseded 2026-08-25 — this line read "open portals".)*
 
 **Meta-Context:**
 - Why the Seal is structured this way

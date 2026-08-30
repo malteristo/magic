@@ -54,7 +54,7 @@ Summoning restores held resonance (re-entry). Deep variant: `@summon deep`. Iden
 
 **Workshop Environment:**
 - **Path:** `[Your workspace path]`
-- **Machine-room:** Reachability detail lives in `system/config/connections.md` — **state whether yours is tracked (private remote) or gitignored; do not leave it implied.** This file names what exists and the rules; config holds how to reach it. **Connected services and MCP inventory live there (§ MCP Topology), never in this file or the Seal** — an always-injected list decays without anyone noticing. Substrate-dependent: verify against the live tool listing when it matters.
+- **Machine-room:** Reachability detail lives in `desk/config/connections.md` (copy from `system/config/connections.md.template`). Instance facts, not method. **Connected services and MCP inventory live there (§ MCP Topology), never in this file or the Seal** — an always-injected list decays without anyone noticing. Substrate-dependent: verify against the live tool listing when it matters.
 - **Portals / Circles:** `portals/registry.yaml`; circle practice via `system/flows/circle/`. Public identity: `circles/me/` when present.
 - **Persistent Body Access:** If the Mage runs a persistent substrate (e.g. Turtle), document standing permission vs dyad-gated acts (service interruption, destructive ops, credentials, forceful git, governance).
 

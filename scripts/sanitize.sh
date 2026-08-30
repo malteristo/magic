@@ -156,6 +156,7 @@ EXCEPTIONS_FILE=""
 for candidate in \
   "${MAGIC_SANITIZE_EXCEPTIONS:-}" \
   "$(git config --get magic.sanitizeExceptions 2>/dev/null || true)" \
+  "$GUARD_ROOT/desk/config/sanitize_exceptions.txt" \
   "$GUARD_ROOT/system/config/sanitize_exceptions.txt" \
   "$GUARD_ROOT/.sanitize_exceptions.txt"
 do
@@ -262,19 +263,18 @@ check_pattern '/(Users|home)/[a-z][a-z0-9_.-]*/' "Absolute path with a real acco
 # This rule used to hardcode one real first name. A framework that ships a name
 # in order to protect it has published the thing it was guarding, and it
 # protects exactly one household — the author's. The names now live in
-# system/config/private_names.txt (gitignored, per-practitioner); this file
+# desk/config/private_names.txt (instance config, per-practitioner); this file
 # ships only the mechanism. See system/config/private_names.txt.template.
 #
 # Resolution is a chain, not a path. The list used to be looked up at exactly
-# one location — <repo>/system/config/private_names.txt — which is the magic
-# workshop's layout and no other repository's. Every satellite repo a
-# practitioner also keeps (turtleos here) therefore ran with name checking
-# silently off while reporting "clean". One list, many repos: point them at it
-# with `git config magic.privateNames <path>`.
+# one location under system/config/, which is the old magic-workshop layout.
+# Live names now live in desk/config/. Every satellite repo a practitioner
+# also keeps therefore still needs `git config magic.privateNames <path>`.
 NAMES_FILE=""
 for candidate in \
   "${MAGIC_PRIVATE_NAMES:-}" \
   "$(git config --get magic.privateNames 2>/dev/null || true)" \
+  "$GUARD_ROOT/desk/config/private_names.txt" \
   "$GUARD_ROOT/system/config/private_names.txt" \
   "$GUARD_ROOT/.private_names.txt"
 do
@@ -298,7 +298,7 @@ else
   # in which this script reports clean while checking nothing — the one result
   # that must never look like a pass.
   echo -e "${YELLOW}[NOTE] No private name list found — name checking is OFF for this repo.${NC}"
-  echo "      In the magic workshop:  cp system/config/private_names.txt.template system/config/private_names.txt"
+  echo "      In the magic workshop:  cp system/config/private_names.txt.template desk/config/private_names.txt"
   echo "      In any other repo:      git config magic.privateNames /path/to/private_names.txt"
   echo ""
 fi
@@ -308,7 +308,7 @@ if [ "$FOUND" -gt 0 ]; then
   echo -e "${RED}Found ${FOUND} pattern(s) that may contain sensitive data.${NC}"
   echo "Review findings above. To bypass (emergency only): git commit --no-verify"
   echo ""
-  echo "Sensitive connection details belong in system/config/connections.md (gitignored)."
+  echo "Sensitive connection details belong in desk/config/connections.md."
   echo "Tracked files should use placeholders: <turtle-ssh>, <channel-id>, etc."
   exit 1
 else

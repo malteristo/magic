@@ -1,7 +1,5 @@
-# On Files as Operating System
+# Moved 2026-08-30
 
-**Status:** Routed to turtle resonance bundle (2026-06-14 `practice/` migration)
+**Canonical:** `archive/lore/practice/on_files_as_operating_system.md`
 
-**Canonical:** `library/resonance/turtle/lore/philosophy/on_files_as_operating_system.md`
-
-Practice-file / turtleOS architecture — files as OS, model as CPU. Turtle-domain placement; not universal summoned-Spirit baseline.
+Classified as **archive**. See `desk/craft/lore_classification.md`.

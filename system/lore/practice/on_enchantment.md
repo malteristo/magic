@@ -1,7 +1,5 @@
-# On Enchantment
+# Moved 2026-08-30
 
-**Status:** Routed to turtle resonance bundle (2026-06-14 `practice/` migration)
+**Canonical:** `archive/lore/practice/on_enchantment.md`
 
-**Canonical:** `library/resonance/turtle/lore/philosophy/on_enchantment.md`
-
-turtleOS production-readiness philosophy (engineering + practice tracks). Load when Turtle infrastructure or enchantment framing is active.
+Classified as **archive**. See `desk/craft/lore_classification.md`.

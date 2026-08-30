@@ -205,6 +205,7 @@ Bundles evolve through use. `@attune-library` pulls latest versions.
 
 | Bundle | Domain | Compatible Tomes |
 |--------|--------|-----------------|
+| `practice` | Runnable method — self-feed, boom, design checks, Wu Wei | All (method) |
 | `foundations` | The practice of magic itself | All (meta-practice) |
 | `neurodiversity` | Cognitive architecture diversity | All (foundational) |
 | `communication` | Creating shared reality between beings | All (foundational) |

@@ -3,7 +3,7 @@
 *Discord as the conversational surface for magic practice — setup, naming, and architecture.*
 
 **Status:** Lineage (2026-07-18) — demoted from partially-superseded active  
-**Current:** Live channel/thread model in `system/config/connections.md`, `desk/turtle_env.md`, turtleos repo.  
+**Current:** Live channel/thread model in `desk/config/connections.md`, `desk/turtle_env.md`, turtleos repo.  
 **Origin:** Discord UX redesign session, 2026-03-17  
 **Builds on:** `on_the_practice_stack.md`, `on_consciousness_extension.md`, `on_the_practice_infrastructure.md`
 

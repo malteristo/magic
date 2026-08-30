@@ -172,7 +172,7 @@ That is the whole reason this section shrank. A tier removed because nobody reac
 
 **What survives is the part that was never about the tool:** the decision of *whether to search at all*, and the discipline of synthesising rather than relaying. Those are above. A named gateway was the perishable half of this section and it perished twice — first as "Rube," then as the tier itself.
 
-**What is plugged in is not this scroll's to say.** Check `system/config/connections.md` § MCP Topology, and trust the live tool listing over both. This is tool-selection lore: it teaches *which instrument suits which question*, and it goes stale the moment it also claims what is connected. *(Superseded, 2026-08-26: Tier 2 and its slugs, per the above. Superseded name, 2026-08-25: the gateway was called "Rube" before it was Composio — the slugs outlived the name, then the name outlived the capability.)*
+**What is plugged in is not this scroll's to say.** Check `desk/config/connections.md` § MCP Topology, and trust the live tool listing over both. This is tool-selection lore: it teaches *which instrument suits which question*, and it goes stale the moment it also claims what is connected. *(Superseded, 2026-08-26: Tier 2 and its slugs, per the above. Superseded name, 2026-08-25: the gateway was called "Rube" before it was Composio — the slugs outlived the name, then the name outlived the capability.)*
 
 #### Presenting Results
 

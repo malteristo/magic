@@ -7,7 +7,7 @@ When the Turtle's "code" is a system prompt assembled at runtime from identity, 
 
 The Turtle Test has two layers that complement each other:
 
-**Layer 1 (Ground Truth):** Send test messages directly to the Ollama API on the Mac Mini, using the exact prompt the Discord bot builds, against the actual deployed model (current inventory: `system/config/connections.md` §Ollama). This tests what the Mage actually experiences.
+**Layer 1 (Ground Truth):** Send test messages directly to the Ollama API on the Mac Mini, using the exact prompt the Discord bot builds, against the actual deployed model (current inventory: `desk/config/connections.md` §Ollama). This tests what the Mage actually experiences.
 
 **Layer 2 (Forge Test):** Use Cursor subagents to simulate Turtle behavior from the prompt. Tests prompt architecture across capability tiers — does the prompt carry the practice regardless of substrate?
 

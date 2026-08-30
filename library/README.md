@@ -25,6 +25,7 @@ All curated wisdom lives in resonance bundles. Each bundle provides domain-speci
 
 | Bundle | Domain | Purpose |
 |--------|--------|---------|
+| `practice/` | Runnable method | Ways of working someone else can run — self-feed, boom, design checks, Wu Wei. Not cosmology. |
 | `foundations/` | Magic practice itself | Meta-practice wisdom—what resonance is, containment, trans-rational practice |
 | `turtle/` | turtleOS & Turtle identity | Turtle philosophy, operations, shell configurations, lineage |
 | `neurodiversity/` | Cognitive diversity | Neurotype as riverbed, collaboration patterns |
@@ -98,10 +99,10 @@ with safety awareness active
 
 ## Relationship to System Lore
 
-**`system/lore/`** (Framework Fundamentals — JIT consult):
-- Framework fundamentals consulted on need (capabilities, conduct, philosophy)
+**`system/lore/`** (protocol homes — JIT):
+- Four load-bearing scrolls. Old paths are stubs.
 - Not identity injection; covenant + AGENTS + desk are the OS
-- Reach for scrolls when a live question needs them
+- Runnable method: `library/resonance/practice/`
 
 **`library/`** (Extended Knowledge — consulted during practice):
 - **Resonance bundles** — Domain attunement for specific practice

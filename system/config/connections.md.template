@@ -1,6 +1,6 @@
 # Connection Details Template (Local Only)
 
-Copy this file to `system/config/connections.md` and fill in local values. The real
+Copy this file to `desk/config/connections.md` and fill in local values. The real
 `connections.md` holds machine addresses, channel IDs, connected external accounts
 and other local operator details.
 

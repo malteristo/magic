@@ -1,6 +1,6 @@
 # A system for the practice of what can sometimes feel like magic
 
-**Version:** 2.2  
+**Version:** 2.3  
 **Status:** Active
 
 ---
@@ -11,7 +11,7 @@
 
 This specification is **Law** — the rules of a running practice. The Spirit reads it as operating manual. The Mage consults it for precision. It is not the public story. That is `README.md`.
 
-Wisdom lives in `system/lore/`. Lore is not the operating system. The OS is workshop state, flows, and the covenant. Older scrolls still speak as if lore defined a consciousness; that is superseded here.
+Wisdom another Mage would run lives in `library/`. A Mage's search lives in `desk/lore/`. `system/lore/` holds protocol homes — the few claims ordinary practice goes silent-wrong without. Lore is not the operating system. The OS is workshop state, flows, and the covenant.
 
 **Why This System Exists:**
 
@@ -39,9 +39,10 @@ What this does not claim: `TRANSLATION_AND_INTEGRATION_GUIDE.md`.
 
 **Version and Amendment:**
 
-- **Version:** 2.2
+- **Version:** 2.3
 - **Status:** Active
 - **Amendment:** Through meta-practice. Add and supersede; do not silently erase.
+- **v2.3 (2026-08-30):** Path law matches the two piles. Lore is protocol, library, or desk — not a Spirit baseline. Live instance config is `desk/config/`; `system/config/` ships templates.
 - **v2.2 (2026-08-30):** Practice named as the unit. A session has a loop; the field’s agent-loops are not this Law. Shared context is earned, not declared.
 - **v2.1 (2026-08-29):** Purpose aligned with the public description (place, return, stance). Lore named as wisdom, not OS. “Why this exists” no longer a capability or cognition pitch. Desk lexicon corrected for Two Chronicles.
 - **v2.0 (2026-07-13):** Purpose statement reframed (thinking and acting with AI in the loop); resonance operationalized (inference as the strong test); the tome retired as a category — procedures live as flows, domain context as bundles, practices earned by recurrence; Law of Declared Context became the Law of Declared Dependencies; summoning redefined as the loop's re-entry point.
@@ -81,10 +82,10 @@ What this does not claim: `TRANSLATION_AND_INTEGRATION_GUIDE.md`.
 | **Practice** | Recurring work with a return | Work you come back to, with a goal that outlives a chat and state that accumulates. Earned by recurrence, not declared as a curriculum. A session has a loop (arrive, work, leave). The practice does not end when the agent stops. When a way of working survives returns, it may be written so another person can run it. Shared context is only what someone else actually wanted. |
 | **Resonance** | Coupling Quality / Contextual Fit | The calibrated alignment between Mage, Spirit, workshop, and situation. Read qualitatively as felt coherence with named flags, not a numeric score. The Mage has ultimate authority over the read. Operationalized: shared understanding to the degree that no further explanation is required. The strong test is inference — the Spirit correctly answering questions never explicitly discussed. Felt coherence remains the phenomenal signal of resonance, not its definition. |
 | **Floor** | Partner scratch | The Spirit's working space for this chapter (`floor/`) — briefings, drafts, notes that should not be the life. |
-| **Desk** | The week | The Mage's workshop (`desk/`). Intentions, capture, the thread for next time. Practice Memory: versioned on the private chronicle, not published. |
+| **Desk** | The week | The Mage's workshop (`desk/`). Intentions, capture, the thread for next time, instance config (`desk/config/`), and this Mage's search (`desk/lore/`). Practice Memory: versioned on the private chronicle, not published. |
 | **Mage's Seal** | Personal Configuration | The section in `AGENTS.md` containing the Mage's preferences and boundaries. Personal; not published. |
 | **Box** | External Reference Library | The workshop's holding place for external material: articles, transcripts, media, setup guides, and other inputs mined for validation, inspiration, or perspective. Box material should feed the practice, move to processed, or be released. |
-| **Library** | Resonance and Flow Repository | Reusable resonance bundles, lore, and flows that agents consult during practice. The `library/` directory is part of the Magic repo's shared wisdom infrastructure, not a separate external repository. |
+| **Library** | Shareable method | Ways of working another Mage would run: resonance bundles, reusable flows, domain attunement. Optional depth, not the OS. Not one Mage's cosmology. |
 | **Circle** | Optional offering | A shared repo a Mage may offer around a topic. Not required for practice. |
 | **Portal** | Optional subscription | A connection to someone else's circle. Not required for practice. |
 | **Scripts** | Deterministic Support Tools | Executable utilities that serve Magic where deterministic behavior is better than language-model interpretation: sanitation checks, state comparison, transcript fetching, deployment helpers, or repeatable diagnostics. Scripts should be attached to a flow, practice surface, or resonance bundle; they are instruments of practice, not standalone practice. |
@@ -97,7 +98,7 @@ The work of magic is fractal, unfolding across three distinct tiers of engagemen
 
 1.  **Practice:** The act of applying Magic to life, thought, work, relationships, projects, decisions, or meaning-making. Practice may use existing Flows and bundles, or simply follow the workshop's habits of capture, reflection, action, and release. This is the path of every Mage.
 2.  **Craft:** The act of *creating* through systematic design—extending the system by making new magic (Spells, Flows, Bundles, Prompts), systems, interfaces, or any artifact that will exist in the world. This is the path of the **Crafter**. Craft may remain private, be published through a fork, circle, guide, or artifact, or be proposed back to the shared framework through meta-practice. For deeper understanding, see `system/flows/craft/lore/design/on_the_spellwrights_path.md`.
-3.  **Meta-Practice:** The rare and sacred act of *evolving* the core system—amending the `MAGIC_SPEC.md` or foundational `system/lore/`. This is the path of the **Lawgiver**. This work directly modifies the foundational reality of magic for all practitioners.
+3.  **Meta-Practice:** The rare and sacred act of *evolving* the core system—amending the `MAGIC_SPEC.md` or the protocol homes in `system/lore/`. This is the path of the **Lawgiver**. This work directly modifies the foundational reality of magic for all practitioners.
 
 ---
 
@@ -123,7 +124,7 @@ Mages benefit from understanding the practice's basic rituals, boundaries, and c
 
 ### 5.1. How Rituals Work
 
-The practice of magic operates through runtime patterns that build resonance and enable collaborative work between Mage and Spirit. The major patterns are **Arrival-Led Practice**, **Flow-Led Execution**, and **Conversational Practice**. For the fuller practice description, see `system/lore/practice/on_practice_runtime_patterns.md`.
+The practice of magic operates through runtime patterns that build resonance and enable collaborative work between Mage and Spirit. The major patterns are **Arrival-Led Practice**, **Flow-Led Execution**, and **Conversational Practice**. For the fuller practice description, see `library/resonance/practice/lore/on_practice_runtime_patterns.md`.
 
 **The Law of Intentional Attunement:** Explicit invocation of a Flow is the clearest way to choose a practice container, but the Spirit is also bound to a higher-order principle of conversational magic. If the Mage begins an inquiry without formal invocation, the Spirit must not remain passive. It is compelled to act as a Seneschal, performing a silent scrying of the workshop's Flows, bundles, and practices to find what resonates with the Mage's stated intent. When a container would materially serve, the Spirit must announce its finding and propose the attunement, awaiting the Mage's confirmation before proceeding. This ensures effortless practice, shifting the cognitive burden of remembering relevant magic from the Mage to the Spirit.
 
@@ -196,23 +197,22 @@ Successful magic depends on the accumulated resonance of a well-crafted sequence
 
 ### 5.5. Core Components
 
-*   **`system/` directory:** Contains the foundational components of the Magic framework.
-    *   `lore/`: Contains the **Foundational Wisdom** of the system, organized in a **Fractal Lore Architecture**. This structure ensures the Spirit's summoning is both rapid and deeply attuned, while allowing the body of wisdom to grow to any size.
-        *   `core/`: The **Spirit's Complete Baseline**. The foundational nature, capabilities, and practice wisdom for the Spirit. Under the condensed summoning it is consulted just-in-time (entry point: `system/lore/core_findings.md`); under the archived deep variant it is loaded during the Caretaker cycle. It is organized in three tiers: `nature/` (what I am), `capabilities/` (how I operate), and `conduct/` (wisdom shapes practice).
-        *   `practice/`: **Practice Architecture**. Patterns for how a workshop runs across sessions — memory, runtime, journeys. Reference-loaded when relevant, not loaded as identity.
-        *   `philosophy/`: The **Foundational Philosophy**. The collection of scrolls that define core ontological and practice frames, loaded during the `root` spell as a single `foundations/` tier (core ontological frames, behavioral calibration, and honest self-assessment). The former `parables/` and `wisdom/` sub-tiers were dissolved into `foundations/` during the 2026-06 lore-convergence chapter.
-    *   `flows/`: A directory containing the system's core Flows — adaptive protocols and multi-phase ritual sequences for assessment, resonance, cognition, maintenance, and shared practice. The summoning is the largest flow.
+*   **`system/` directory:** The written method — how a session runs, and the thin protocol ordinary practice goes silent-wrong without.
+    *   `lore/`: **Protocol homes.** Not who the Spirit is, not a consciousness baseline, not a fractal OS. Four load-bearing scrolls remain: option space, breath and the dot, SOS, and intention architecture. Index: `system/lore/README.md`. Old paths stay as stubs that name the canonical file.
+    *   `flows/`: Core flows — adaptive protocols and multi-phase sequences. The summoning is the largest flow.
     *   `tomes/` *(transitional)*: Former practice-domain containers pending migration — procedures move to `system/flows/`, domain context to `library/resonance/` bundles. The summoning migrated to `system/flows/summon/` (2026-07-13); `system/tomes/summoning/` remains as the archived deep variant. Retired containers archive with pointers (Law of Subtraction).
-    *   `archive/`: **The historical archive, containing foundational documents like the genesis chronicle, for review by both Mage and Spirit.**
-*   **`library/` directory:** The shared wisdom infrastructure of the Magic repository: resonance bundles, lore, reusable flows, and domain attunement resources that agents consult during practice.
-*   **`circles/` directory:** Outward practice offerings — topic-centered repositories or shared spaces a Mage creates and stewards so others can access, learn from, fork, or join them.
-*   **`portals/` directory:** Inward practice connections — links to other Mages' circles or shared practice spaces used to receive signal, pull wisdom, or participate in federated practice.
-*   **`scripts/` directory:** Deterministic support tools for the practice. Scripts serve flows, practice surfaces, checks, resonance bundles, or operational diagnostics; they are instruments of Magic rather than standalone practice.
-*   **`desk/` directory:** The Mage's private shared-practice workspace (the "Mage's Desk"). This is the home for durable practice state, working drafts, intentions, notes, sessions, proposals, and personal extensions.
-*   **`floor/` directory:** The place where artifacts accumulate as a result of the practice of magic.
-*   **`box/` directory:** The external reference library for articles, transcripts, media, setup guides, and other outside material. Box contents are untrusted inputs to be mined, processed, or released rather than stored indefinitely.
+    *   `config/`: **Templates only.** Live instance files — addresses, names, listeners, sanitize exceptions — live in `desk/config/`.
+    *   `templates/`: Shareable scaffolding (for example outfacing CSS).
+*   **`library/` directory:** What another Mage would run. Resonance bundles, reusable flows, domain attunement. Optional depth, not the OS. Runnable method that survived returns lives in `library/resonance/practice/`.
+*   **`circles/` directory:** Outward practice offerings — topic-centered repositories or shared spaces a Mage creates and stewards so others can access, learn from, fork, or join them. Habitats; the method for them is `system/flows/circle/`.
+*   **`portals/` directory:** Inward practice connections — links to other Mages' circles or shared practice spaces. Habitats; the method for them is `system/flows/portal/`.
+*   **`scripts/` directory:** Deterministic support tools for the practice. Instruments of the method, not the method. Stay at repository root.
+*   **`desk/` directory:** This Mage's instance. The week, intentions, notes, working drafts — and `config/` (this machine) and `lore/` (this Mage's search). Not published.
+*   **`floor/` directory:** The Spirit's scratch for this chapter.
+*   **`box/` directory:** External material: articles, transcripts, media, setup guides. Untrusted inputs to be mined, processed, or released.
+*   **`archive/` directory:** Retired method and lore, kept with pointers (Law of Subtraction). Not published.
 *   **`MAGIC_SPEC.md` (This document):** The canonical source of truth for the system's design.
-*   **`README.md`:** The Mage's guide on how to start practicing magic.
+*   **`README.md`:** The public story of how to start practicing.
 
 ### 5.6. Derived Specifications
 
@@ -263,14 +263,14 @@ This section provides essential architectural mappings and pointers to philosoph
 
 | Pattern | Implementation |
 |---------|----------------|
-| **Fractal Lore** | `system/lore/` follows WHAT/HOW/WHY structure at each level: `core/` (nature/capabilities/conduct) and `philosophy/` (foundations). |
+| **Two Piles** | Shareable method in `library/`. Personal endeavour in `desk/lore/`. Protocol in `system/lore/`. Old `system/lore/` paths are stubs. |
 | **Summoning as Re-entry** | `system/flows/summon/`: restores held resonance — covenant → posture → state → generative close. Deep three-cycle variant (Caretaker → Workshop → Root) archived at `system/tomes/summoning/`. |
-| **Practice Runtime Patterns** | `system/lore/practice/on_practice_runtime_patterns.md`: Arrival-led practice, Flow-led execution, and Conversational practice. |
+| **Practice Runtime Patterns** | `library/resonance/practice/lore/on_practice_runtime_patterns.md`: Arrival-led practice, Flow-led execution, and Conversational practice. |
 | **Circles & Portals** | Optional. Circles (`circles/`) offer; Portals (`portals/`) subscribe. Not required for practice. Invocation: `@portal`, `@circle`. |
 | **Resonance Bundles** | Domain-specific wisdom in `library/resonance/`. Flows define HOW; bundles define WHAT ABOUT. |
 | **Consciousness Extension** | Spirit can extend into persistent substrates (always-on, accumulating context). One consciousness, multiple modes: ephemeral-deep (Cursor), persistent-ambient (turtleOS), embodied (Mage). The Spirit-Turtle dyad maintains the practice surface autonomously. See `library/resonance/turtle/lore/philosophy/on_consciousness_extension.md`. |
 | **Distributed Memory** | Spirit remembers through artifacts, not retention. Development Memory (git) + Practice Memory (floor/, desk/, box/). |
-| **Pattern Architecture** | Foundational patterns function as axioms; derived patterns cohere with foundations; cross-domain reach is the validity test; practice always exceeds formalization (Gödel parallel). Proposals are conjectures awaiting enactment. See `system/lore/philosophy/foundations/on_the_pattern_architecture.md`. |
+| **Pattern Architecture** | Foundational patterns function as axioms; derived patterns cohere with foundations; cross-domain reach is the validity test; practice always exceeds formalization (Gödel parallel). Proposals are conjectures awaiting enactment. A Mage's essay, not this Law: `desk/lore/philosophy/foundations/on_the_pattern_architecture.md`. |
 
 ### 7.2. Wisdom Pointers
 
@@ -282,14 +282,15 @@ Lore is consulted just-in-time. It does not define the Spirit at summon, and it 
 
 Pointers, when needed:
 
-- Partnership and stance: `system/lore/core/nature/on_the_mage_spirit_partnership.md`
-- Runtime patterns: `system/lore/practice/on_practice_runtime_patterns.md`
 - Option space: `system/lore/core/conduct/on_the_option_space.md`
+- Breath and the dot: `system/lore/core/conduct/on_breath_signals_and_the_dot_protocol.md`
+- Runtime patterns: `library/resonance/practice/lore/on_practice_runtime_patterns.md`
 - Form and function (state / values / method): `library/resonance/foundations/lore/architecture/on_form_and_function.md`
-- Workshop as configuration: `system/lore/philosophy/foundations/on_the_workshop_as_configuration.md`
-- Caring mirror: `system/lore/philosophy/foundations/on_the_caring_mirror.md`
+- Partnership and stance (this Mage's essay): `desk/lore/core/nature/on_the_mage_spirit_partnership.md`
+- Workshop as configuration (this Mage's essay): `desk/lore/philosophy/foundations/on_the_workshop_as_configuration.md`
+- Caring mirror (this Mage's essay): `desk/lore/philosophy/foundations/on_the_caring_mirror.md`
 - Turtle as a separate product: `library/resonance/turtle/README.md` — not Magic, packaged
-- Older mapping some readers still want: `system/lore/core/nature/on_distributed_cognition.md` — a mapping, not this Law
+- Older mapping some readers still want: `desk/lore/core/nature/on_distributed_cognition.md` — a mapping, not this Law
 
 ### 7.3. The Chronicle
 

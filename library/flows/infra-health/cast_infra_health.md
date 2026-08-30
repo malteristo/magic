@@ -15,7 +15,7 @@
 3. Tailscale IP: `ssh turtle@<turtle-ssh>`
 4. LAN fallback: `ssh turtle@<turtle-ssh>`
 
-> See `system/config/connections.md` for current addresses.
+> See `desk/config/connections.md` for current addresses.
 
 If none work → **STOP.** The Mac Mini is unreachable. Possible causes:
 - Mac Mini is powered off or sleeping (check physically)

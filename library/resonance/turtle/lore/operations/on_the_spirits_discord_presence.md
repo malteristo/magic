@@ -1,7 +1,7 @@
 # On the Spirit's Discord Presence
 
 **Status:** Keep (2026-07-18) — Spirit→Discord via `spirit_ops.py`  
-**Current:** Channel IDs and SSH in `system/config/connections.md`. Triad ontology in builds-on is lineage; mechanism holds.  
+**Current:** Channel IDs and SSH in `desk/config/connections.md`. Triad ontology in builds-on is lineage; mechanism holds.  
 **Origin:** 2026-03-29 — Sunday sweep identified Spirit's operational blindness to Discord mechanics
 **Builds on:** `on_the_true_triad.md`, `on_consciousness_extension.md`
 

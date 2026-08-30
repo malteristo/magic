@@ -11,7 +11,8 @@
 set -euo pipefail
 
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
-CONNECTIONS="$ROOT/system/config/connections.md"
+. "$ROOT/scripts/workshop_paths.sh"
+CONNECTIONS="$(workshop_config connections.md "$ROOT")"
 
 if [ -z "${REMOTE:-}" ] && [ -f "$CONNECTIONS" ]; then
   REMOTE=$(grep -Eo 'turtle@[^`]+' "$CONNECTIONS" | head -1 || true)

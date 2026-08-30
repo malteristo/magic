@@ -11,6 +11,8 @@ The public clone ships this folder empty on purpose. In a live practice it is yo
 - **`state.md`** — a short picture of now, when someone writes one.
 - **`notes/`** — things about *how* you practice that keep being true.
 - **`drafts/`** — letters and other writing in progress.
+- **`config/`** — this machine’s addresses and name list. Templates live in `system/config/`.
+- **`lore/`** — my search. Not the library.
 
 Add whatever your life needs. The names above are a pattern, not a curriculum.
 

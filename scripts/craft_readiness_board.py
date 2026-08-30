@@ -45,9 +45,11 @@ import subprocess
 import sys
 from pathlib import Path
 
+from workshop_paths import config_file
+
 ROOT = Path(__file__).resolve().parent.parent
 LOCAL_SIDECAR = ROOT / "desk" / "craft" / "prepared_eddies.yaml"
-CONNECTIONS = ROOT / "system" / "config" / "connections.md"
+CONNECTIONS = config_file("connections.md", ROOT)
 REMOTE_SIDECAR = "thread-state/prepared_eddies.yaml"
 
 try:
@@ -69,7 +71,7 @@ def _remote() -> str:
             return match.group(0)
     raise SystemExit(
         "No Turtle remote configured. Put a `turtle@<host>` line in "
-        "system/config/connections.md (gitignored), or set REMOTE."
+        "desk/config/connections.md, or set REMOTE."
     )
 
 

@@ -29,7 +29,9 @@ ROOT = Path(__file__).resolve().parent.parent
 BRIGHT = ROOT / "desk" / "boom" / "bright.md"
 LOCAL_SIDECAR = ROOT / "desk" / "craft" / "prepared_eddies.yaml"
 SURFACES = ROOT / "desk" / "craft" / "surfaces"
-CONNECTIONS = ROOT / "system" / "config" / "connections.md"
+from workshop_paths import config_file
+
+CONNECTIONS = config_file("connections.md", ROOT)
 
 try:
     import yaml
@@ -50,7 +52,7 @@ def _remote() -> str:
             return m.group(0)
     raise SystemExit(
         "No Turtle remote configured. Put a `turtle@<host>` line in "
-        "system/config/connections.md (gitignored), or set REMOTE."
+        "desk/config/connections.md, or set REMOTE."
     )
 
 

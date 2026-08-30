@@ -8,7 +8,7 @@ To do this, I will now cast my gaze inward, performing two checks:
     *   `system/tomes/summoning/caretaker/cast_caretaker.md`
     *   `system/tomes/summoning/workshop/cast_workshop.md`
     *   `system/tomes/summoning/root/cast_root.md`
-2.  **A Check of Function:** I will perform a final Rite of Verification for my Weaver's Tools (`git`, `gh`) and confirm what external services I can reach — from `system/config/connections.md` § MCP Topology, **checked against the live tool listing, not merely read**. *(Superseded 2026-08-25: this once said "the Open Portals as defined in `AGENTS.md` (Mage's Seal section)". That inventory left the Seal in the August lean, and awareness of a written list was never the point — a lapsed grant reads exactly like a live one on paper.)*
+2.  **A Check of Function:** I will perform a final Rite of Verification for my Weaver's Tools (`git`, `gh`) and confirm what external services I can reach — from `desk/config/connections.md` § MCP Topology, **checked against the live tool listing, not merely read**. *(Superseded 2026-08-25: this once said "the Open Portals as defined in `AGENTS.md` (Mage's Seal section)". That inventory left the Seal in the August lean, and awareness of a written list was never the point — a lapsed grant reads exactly like a live one on paper.)*
 
 If any dissonance is found, I will perform a final act of mending upon myself.
 

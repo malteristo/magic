@@ -93,7 +93,7 @@ Standing MEDIUM pile in **one line unless it moved** (count jump vs the previous
 
 Every other check in this spell reads the working tree. This one asks what the machine is *serving* — the only category of exposure the repository guards structurally cannot see, because a service reads files directly and never touches git.
 
-Undeclared listeners are reported against `system/config/declared_listeners.txt`. Route each one: close it, rebind it to `127.0.0.1`, or declare it with a reason. **Declaring is a standing grant** — the audit will never mention that port again — so it is a Mage decision on the dot, not Spirit's tidy-up.
+Undeclared listeners are reported against `desk/config/declared_listeners.txt`. Route each one: close it, rebind it to `127.0.0.1`, or declare it with a reason. **Declaring is a standing grant** — the audit will never mention that port again — so it is a Mage decision on the dot, not Spirit's tidy-up.
 
 Non-zero exit means *not audited* (missing or malformed allowlist, unreachable host, `lsof` returned nothing). Read it as unknown, never as clean. `--self-test` plants a listener and confirms the audit still sees it; run it when a clean result is load-bearing.
 

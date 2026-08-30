@@ -22,7 +22,8 @@ RED='\033[0;31m'; YEL='\033[0;33m'; GRN='\033[0;32m'; DIM='\033[2m'; NC='\033[0m
 
 TARGET="${1:-github}"
 ROOT="$(git rev-parse --show-toplevel 2>/dev/null || true)"
-NAMES_FILE="${ROOT:-.}/system/config/private_names.txt"
+. "$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)/workshop_paths.sh"
+NAMES_FILE="$(workshop_config private_names.txt "${ROOT:-.}")"
 FOUND=0
 
 if [ -z "$ROOT" ]; then echo "Not inside a git repository." >&2; exit 2; fi
@@ -129,7 +130,7 @@ if [ -f "$NAMES_FILE" ]; then
   ALT=$(grep -vE '^\s*(#|$)' "$NAMES_FILE" | sed 's/[[:space:]]*$//' | paste -sd'|' -)
   [ -n "$ALT" ] && scan "\\b(${ALT})\\b" "Private name" MEDIUM
 else
-  echo -e "${DIM}(no system/config/private_names.txt — name scan skipped)${NC}"
+  echo -e "${DIM}(no desk/config/private_names.txt — name scan skipped)${NC}"
 fi
 echo ""
 

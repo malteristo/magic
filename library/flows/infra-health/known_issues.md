@@ -20,7 +20,7 @@
 **Detection:**
 ```bash
 CURRENT_IP=$(/Applications/Tailscale.app/Contents/MacOS/Tailscale ip -4 2>/dev/null)
-DOCUMENTED_IP="<turtle-ssh>"  # from system/config/connections.md
+DOCUMENTED_IP="<turtle-ssh>"  # from desk/config/connections.md
 [ "$CURRENT_IP" != "$DOCUMENTED_IP" ] && echo "⚠️ Tailscale IP changed: $DOCUMENTED_IP → $CURRENT_IP"
 ```
 

@@ -37,7 +37,10 @@ echo "Configuring: $ROOT"
 # tracked guard there would fail open for everyone but its author. These hooks
 # are yours, on this machine, and do NOT survive a clone.
 if [ "$ROOT" != "$GUARD_ROOT" ]; then
-  NAMES="$GUARD_ROOT/system/config/private_names.txt"
+  NAMES="$GUARD_ROOT/desk/config/private_names.txt"
+  if [ ! -f "$NAMES" ]; then
+    NAMES="$GUARD_ROOT/system/config/private_names.txt"
+  fi
   if [ -f "$NAMES" ]; then
     git config magic.privateNames "$NAMES"
     echo "magic.privateNames -> $NAMES (shared with the workshop)"
@@ -45,7 +48,10 @@ if [ "$ROOT" != "$GUARD_ROOT" ]; then
     echo "  warning: $NAMES does not exist yet — name checking stays off here." >&2
   fi
 
-  EXC="$GUARD_ROOT/system/config/sanitize_exceptions.txt"
+  EXC="$GUARD_ROOT/desk/config/sanitize_exceptions.txt"
+  if [ ! -f "$EXC" ]; then
+    EXC="$GUARD_ROOT/system/config/sanitize_exceptions.txt"
+  fi
   if [ -f "$EXC" ]; then
     git config magic.sanitizeExceptions "$EXC"
     echo "magic.sanitizeExceptions -> $EXC"
@@ -76,10 +82,12 @@ if [ -d "$ROOT/.git/hooks" ] && ls "$ROOT"/.git/hooks/pre-* >/dev/null 2>&1; the
   echo "  note: legacy hooks in .git/hooks are now inert; .githooks/ is authoritative"
 fi
 
-NAMES="$ROOT/system/config/private_names.txt"
-if [ ! -f "$NAMES" ] && [ -f "$NAMES.template" ]; then
-  cp "$NAMES.template" "$NAMES"
-  echo "Created system/config/private_names.txt (gitignored) — add the names of"
+NAMES="$ROOT/desk/config/private_names.txt"
+TEMPLATE="$ROOT/system/config/private_names.txt.template"
+if [ ! -f "$NAMES" ] && [ -f "$TEMPLATE" ]; then
+  mkdir -p "$ROOT/desk/config"
+  cp "$TEMPLATE" "$NAMES"
+  echo "Created desk/config/private_names.txt — add the names of"
   echo "  real people in your practice, or the pre-commit name check stays empty."
 fi
 
