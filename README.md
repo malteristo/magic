@@ -6,17 +6,21 @@
 
 **A practice for keeping a self while thinking with AI on a life that continues.** Not the supernatural kind.
 
-Most people should not take this up. If you already keep a workshop and a stance without the name, you do not need this repository. If you want a smarter agent, a religion, or a community, this is the wrong door.
-
----
-
 You are already thinking with a model — on work, a craft, a family, a thing you are building. The chat is not a lookup. It is becoming how you see. Left on default, that relationship has a grain: it recaps you as a stranger, it agrees, it sells you its workflow. Words now move real systems. You do not fully understand the engine.
 
-Magic is a name for a loop that keeps that relationship yours.
+Magic is a name for a **practice** that keeps that relationship yours.
 
 You keep a **workshop** — ordinary files you own. You return, you work, you leave the thread for next time. The partner (the Spirit) arrives fresh, reads that place, reflects with care and friction, and does not decide for you. You do not have to learn to code. You do not have to become the person the tools were built for.
 
-This repository is one encoding of that loop. The important object is the life written down, and the rule that you stay the one who decides — not the word Magic, and not a theory of mind.
+This repository is one encoding of that practice. The important object is the life written down, and the rule that you stay the one who decides — not the word Magic, and not a theory of mind.
+
+## What a practice is
+
+A practice is work you return to. It has a goal that outlives a chat, a place that holds the week, and a way of working that gets better because you did it again.
+
+You stay the one who decides. When a way of working survives a few returns, it can become a file someone else can run. That is how two people, a team, or a shop adopt something — not this brand, a practice mapped to *their* goal. Shared context is only what someone else actually wanted.
+
+Efficiency can follow. It is not the pitch.
 
 ## Who it is for
 
@@ -28,7 +32,7 @@ The ordinary practitioner is the design. The code-adjacent person who ships by d
 
 - Anyone looking for a reason everyone ought to do this
 - Anyone who wants the model to think for them, or to become a different kind of developer
-- Anyone who already keeps the loop without the name
+- Anyone who already keeps the practice without the name
 - Anyone looking for therapy, a movement, or a claim that the AI is conscious — or that it is "just autocomplete"
 
 ## What it is
@@ -47,7 +51,7 @@ Over time, what keeps resurfacing becomes visible — because the record is your
 
 ## What it isn't
 
-Not a cognition framework. The model already thinks. Magic does not make thinking distributed; it makes *your* loop the one the thinking joins.
+Not a cognition framework. The model already thinks. Magic does not make thinking distributed; it makes *your* practice the one the thinking joins.
 
 Not context engineering as a product. A folder and a habit can do much of this. This encoding exists for people who will not keep the writing without a named return — and for a design intent the default tools are not written for.
 

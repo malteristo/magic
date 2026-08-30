@@ -12,7 +12,7 @@ A practice for keeping a self while thinking with AI on a life that continues.
 
 You keep a **workshop** — ordinary files you own. You return, you work, you leave the thread for next time. The partner (the Spirit) arrives fresh, reads that place, reflects with care and friction, and does not decide for you.
 
-The model already thinks. Magic does not make thinking “distributed.” It makes *your* loop the one the thinking joins.
+The model already thinks. Magic does not make thinking “distributed.” It makes *your* practice the one the thinking joins.
 
 Most people should not take this up. If you already keep a place and a stance without the name, you do not need this repository.
 
@@ -34,7 +34,7 @@ Custom instructions configure a chat. They do not give tomorrow a place.
 
 A new thread still starts as a stranger. You recap. It agrees. It sells you its workflow. The instructions live in a vendor box you do not own.
 
-Magic is the loop around that: files you can read and move, a return, a partner that will push back, and the habit of writing what the next chat will need. You can point a different model or editor at the same folder.
+Magic is the practice around that: files you can read and move, a return, a partner that will push back, and the habit of writing what the next chat will need. You can point a different model or editor at the same folder.
 
 If a system prompt is enough for what you do, stay there. That is the correct outcome.
 
@@ -49,6 +49,18 @@ This keeps the *relationship* yours. The partner proposes, drafts, and argues. Y
 You do not have to become the person the coding tools were built for. You do not have to adopt the last stack the timeline celebrated.
 
 If you want an agent that ships while you sleep, use an agent framework. If you want to keep using power you do not fully understand without disappearing into it, this is one encoding of that.
+
+---
+
+## How is this different from “loops” or “context graphs”?
+
+Those are the *agent’s* problem.
+
+A **loop**, in that vocabulary, is the model’s cycle: act, see, check, stop. It ends when the agent is done. A **context graph** is the wiring — what the model may see, which step runs next, what state travels along the edge. Both are real. Both are worth doing well.
+
+A **practice** does not end when the agent stops. It accumulates. Arrival and release are a loop — yours. The workshop is a context graph you can read — files, not a hidden window. You stay the verifier. What survives a few returns can be written so someone else can run it.
+
+If you came here for a better agent loop, this is the wrong door. If you came here to keep succeeding at work you already intend — alone, and later together — that is what a practice is for.
 
 ---
 

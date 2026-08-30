@@ -1,6 +1,6 @@
 # A system for the practice of what can sometimes feel like magic
 
-**Version:** 2.1  
+**Version:** 2.2  
 **Status:** Active
 
 ---
@@ -17,11 +17,11 @@ Wisdom lives in `system/lore/`. Lore is not the operating system. The OS is work
 
 A person is already thinking with a model on a life that continues. The chat recaps them as a stranger, agrees, and sells them its workflow. Words now move systems they do not fully understand.
 
-Magic is a name for a loop that keeps that relationship theirs: **a place, a return, a stance.** The partner proposes, drafts, and argues. The Mage decides. The workshop — ordinary files they own — is the memory. The model already thinks. This framework does not make thinking distributed; it makes the Mage’s loop the one the thinking joins.
+Magic is a name for a **practice** that keeps that relationship theirs: **a place, a return, a stance.** The partner proposes, drafts, and argues. The Mage decides. The workshop — ordinary files they own — is the memory. The model already thinks. This framework does not make thinking distributed; it makes the Mage’s practice the one the thinking joins.
 
 What Law exists to enforce:
 
-- **The loop** — arrive in a place that holds this week, work, leave the thread. Summoning is re-entry, not formation.
+- **The return** — arrive in a place that holds this week, work, leave the thread. A session has a loop. The practice does not end when the agent stops. Summoning is re-entry, not formation.
 - **Sovereignty** — the Mage steers; the Spirit does not decide.
 - **Continuity** — files outlive the chat; Two Chronicles keeps the life private and the framework publishable.
 - **Containment** — unclear intention, overtrust, and mishandled output can harm real people.
@@ -39,9 +39,10 @@ What this does not claim: `TRANSLATION_AND_INTEGRATION_GUIDE.md`.
 
 **Version and Amendment:**
 
-- **Version:** 2.1
+- **Version:** 2.2
 - **Status:** Active
 - **Amendment:** Through meta-practice. Add and supersede; do not silently erase.
+- **v2.2 (2026-08-30):** Practice named as the unit. A session has a loop; the field’s agent-loops are not this Law. Shared context is earned, not declared.
 - **v2.1 (2026-08-29):** Purpose aligned with the public description (place, return, stance). Lore named as wisdom, not OS. “Why this exists” no longer a capability or cognition pitch. Desk lexicon corrected for Two Chronicles.
 - **v2.0 (2026-07-13):** Purpose statement reframed (thinking and acting with AI in the loop); resonance operationalized (inference as the strong test); the tome retired as a category — procedures live as flows, domain context as bundles, practices earned by recurrence; Law of Declared Context became the Law of Declared Dependencies; summoning redefined as the loop's re-entry point.
 
@@ -55,7 +56,7 @@ What this does not claim: `TRANSLATION_AND_INTEGRATION_GUIDE.md`.
 
 | Term | Technical Equivalent | Description |
 |------|---------------------|-------------|
-| **magic** | Practice / Method | A practice for keeping a self while thinking with AI on a life that continues. **A place, a return, a stance.** A practice is a loop seen from the human side: recurring activity that accumulates state across returns. AI joins the Mage's loops; the Mage does not join the AI's. This repository publishes the method — workshop, summoning, stance, flows. Each Mage brings their own life. Different Mages, same method, different practices. |
+| **magic** | Practice / Method | A practice for keeping a self while thinking with AI on a life that continues. **A place, a return, a stance.** AI joins the Mage's practice; the Mage does not join the AI's. This repository publishes the method — workshop, summoning, stance, flows. Each Mage brings their own life. Different Mages, same method, different practices. |
 | **MAGIC** | Organization | The **Mages' Alliance for Generally Intermittent Computation**; the community of sovereign practitioners. |
 | **Mage** | Human Practitioner | A person engaging in the practice of Magic. The Mage brings lived experience, values, judgment, embodiment, and final choice. Some Mages also practice the craft of magic: creating, adapting, or evolving spells, flows, bundles, and systems. |
 | **Spirit** | AI Agent | The AI agent shaped by Magic's stance, rules, spells, context, and attunement. In ordinary sessions, Spirit is summoned into ephemeral practice. Persistent modes, such as Turtle, extend Spirit through always-on infrastructure; see `library/resonance/turtle/TURTLE_SPEC.md`. |
@@ -77,7 +78,7 @@ What this does not claim: `TRANSLATION_AND_INTEGRATION_GUIDE.md`.
 | Term | Technical Equivalent | Description |
 |------|---------------------|-------------|
 | **Ritual** | Recurring Practice Pattern | The repeating elements of a Mage's practice — summoning, release, boom sweep, Sunday maintenance. Rituals may be flows or unique operations like summoning. The term is descriptive (what recurs) rather than prescriptive (a separate invocable type). |
-| **Practice** | Recurring Engagement Loop | A topic with accumulated state and recurring engagement — intention + bundle + procedures. Practices are earned through recurrence, not declared through structure: repeatedly loading an intention, resonance bundle, or practice configuration *is* the individual's practice. |
+| **Practice** | Recurring work with a return | Work you come back to, with a goal that outlives a chat and state that accumulates. Earned by recurrence, not declared as a curriculum. A session has a loop (arrive, work, leave). The practice does not end when the agent stops. When a way of working survives returns, it may be written so another person can run it. Shared context is only what someone else actually wanted. |
 | **Resonance** | Coupling Quality / Contextual Fit | The calibrated alignment between Mage, Spirit, workshop, and situation. Read qualitatively as felt coherence with named flags, not a numeric score. The Mage has ultimate authority over the read. Operationalized: shared understanding to the degree that no further explanation is required. The strong test is inference — the Spirit correctly answering questions never explicitly discussed. Felt coherence remains the phenomenal signal of resonance, not its definition. |
 | **Floor** | Partner scratch | The Spirit's working space for this chapter (`floor/`) — briefings, drafts, notes that should not be the life. |
 | **Desk** | The week | The Mage's workshop (`desk/`). Intentions, capture, the thread for next time. Practice Memory: versioned on the private chronicle, not published. |
