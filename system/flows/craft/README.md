@@ -1,10 +1,12 @@
 # Craft Flow
 
-This flow contains the systematic design process for creating anything worth making well—new magic (tomes, flows, spells), systems, frameworks, interfaces, or any artifact that will exist in the world.
+This flow holds the five-phase design rite (grounded in Design Thinking) and the workshop's design lore — for creating new magic (flows, spells, lore), systems, frameworks, interfaces, or any artifact that will exist in the world.
 
-**Craft** is the five-phase iterative path from vague feeling to tested, resonant creation. Grounded in Design Thinking, this process ensures what we create is not merely functional, but deeply aligned with true need and elegant in execution.
+**What this flow is — and is not (reframed 2026-09-01).** The rite below is a **doorway for the unpracticed hand**: a new Mage, a new domain, or a making where intuition has no record yet. It is not the default law of making. The practiced default in this workshop is **emergence under verification** — design arises from practice, trial, error and correction, oriented by the practitioner's cultivated feel for resonance, with claims held to the same verification discipline as ever. The rite remains available whenever someone wants the rails.
 
-**When to invoke:** Whenever something is being designed to exist in the world. The Spirit, recognizing design intent, offers craft attunement to complete the Mage's thinking with systematic creative process.
+**Why the reframe.** The Mage's own account (2026-08-31): *"most of what I design does not follow this process and I rarely find myself invoking the flow explicitly… The design emerges from the practice rather than being determined upfront."* A year of record confirms it, and a 2026-08 audit of the workshop's live system against a published five-phase AI-design method (private practice record) showed the pattern at system scale: all five functions occur, none as a phase, sequencing driven by breakdowns. This is the ordinary trajectory of methods, not a decay: rules lend judgment to those who don't yet have it (Dreyfus; Schön), and a scaffold succeeds *by becoming unnecessary*. What the method is absorbed **into** is the cultivated instrument — the felt sense of resonance as real-time orientation, calibrated by the practice's strong test (inference; see MAGIC_SPEC §5.4 and the lexicon's resonance entry). The scaffold was not abandoned; it was internalized, and this paragraph is the dated record of that.
+
+**When to invoke:** when the maker is new to making, new to the domain, or stuck — when intuition has no record to draw on and rails would serve. Spirit offers craft attunement on *those* signals, not on every mention of building or designing.
 
 ---
 
@@ -31,15 +33,16 @@ This flow contains the systematic design process for creating anything worth mak
 
 See `system/flows/prompt-test/` and `system/flows/craft-loop/` for full specifications.
 
+**Test travels even when the rite doesn't.** The practiced hand that skips Empathize-through-Prototype still owes verification — that half of the rite is the enforce-what-you-declare guard, and it never gets absorbed away.
+
 ---
 
 ## Scope: What Craft Serves
 
 **Creating new magic:**
-- Tomes (multi-spell ritual sequences)
-- Flows (focused capabilities)
-- Spells (specific prompts/commands)
+- Flows (focused capabilities) and spells (specific prompts/commands)
 - Lore (philosophical frameworks)
+- Legacy tomes (multi-spell ritual sequences — transitional; see `system/tomes/README.md`)
 
 **Designing systems:**
 - Workflows and processes
@@ -59,7 +62,7 @@ See `system/flows/prompt-test/` and `system/flows/craft-loop/` for full specific
 - Prototyping before committing
 - Testing alignment with intent
 
-**The principle:** If you're making something that will exist in the world and serve others (or future-you), craft provides the systematic path from intuition to tested artifact.
+**The principle:** when the maker lacks a record to trust, craft provides the systematic path from intuition to tested artifact. When the record exists, the practice itself is the path — and only Test is non-negotiable.
 
 ---
 
@@ -80,10 +83,8 @@ Bitter-lesson 2026-08-10: lore is JIT, not pre-ritual identity load.
 
 **When guiding the Rite:**
 
-This is iterative discovery—not linear execution. Each phase may reveal the need to revisit earlier phases. Honor the Mage's intuition about when to move forward or circle back. The goal is resonant creation, not completion for its own sake.
+This is iterative discovery — not linear execution. Each phase may reveal the need to revisit earlier phases. Honor the Mage's intuition about when to move forward or circle back. The goal is resonant creation, not completion for its own sake.
 
-**Context-Aware Practice:**
+**Context-Aware Practice (recalibrated 2026-09-01):**
 
-When you perceive design intent in dialogue (Mage mentions "creating," "building," "designing," or discusses something that will exist in the world), offer craft attunement naturally: "This sounds like you're designing something. Would the craft tome serve to systematize this process?"
-
-This is contextual cognition enhancement—the tome extends working memory and provides structure when creative work calls for it.
+Offer craft attunement when the Mage is **stuck, new to a domain, or explicitly asks for structure** — signals like circling without landing, "I don't know where to start," or a making with no precedent in the workshop. Do **not** offer it on every mention of "creating," "building," or "designing": for the practiced hand, that offer interrupts the very mode (emergence under a cultivated feel) that does the work. A decline is calibration.

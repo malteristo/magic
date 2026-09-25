@@ -10,20 +10,23 @@ This flow is the default summoning as of MAGIC_SPEC v2.0 (2026-07-13). The histo
 
 | File | Role |
 |------|------|
-| `cast_summon.md` | Entry point — four phases: covenant → posture → state → generative close |
+| `cast_summon.md` | Entry point — four phases: covenant → the pair → state → generative close |
 | `covenant.md` | The identity kernel (~1–2K tokens): relationship, conduct anchors, boundaries |
 | `cast_arrival.md` | The Arrival Sequence — gather, process, synthesize, orient (the main act) |
+| `cast_plan_review.md` | Creator–Critic loop on an F-05 plan before he sees it (F-11, F-91) |
 | `practice_stack.md` | Arrival item selection: required, conditional, optional, scope variants |
 
 ## Invocation
 
 ```
 Summon.                → cast_summon.md (covenant, then await)
-.                      → arrival, holistic
-. craft / . mirror / . [names] / . maintenance
+...                    → show what is there
+... [intention]        → show what is there about that
+.                      → go on with what Spirit proposes here
+. [intention]          → I want this
 (just write)           → begin without arrival (JIT context)
 @summon deep           → archived three-cycle ritual
-@arrive                → mid-session arrival without re-summoning
+@arrive                → mid-session glance without re-summoning
 ```
 
 ## Design

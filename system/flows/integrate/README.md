@@ -4,11 +4,16 @@ A flow to support post-change integration—helping weave new or modified compon
 
 ## Purpose
 
-After creating or modifying a component (lore scroll, flow, tome, Law), this flow systematically identifies what else needs updating to properly integrate the change. It removes the cognitive burden of remembering: "Did I update the spec? What else references this? Where should this be cross-referenced?"
+After creating or modifying a component—or completing an implementation
+chapter—this flow identifies what the work exposed and what must propagate so
+the system is left more coherent than it was found. It removes both burdens:
+"What did this work reveal that we should improve?" and "What now needs updating
+downstream?"
 
 The flow handles ripple detection and execution, transforming manual integration work into assisted systematic process.
 
-**Invocation:** `@meta/integrate`
+**Invocation:** `@integrate` · automatic before release after implementation or
+live-topology work
 
 ---
 
@@ -18,11 +23,16 @@ The flow handles ripple detection and execution, transforming manual integration
 
 When this flow is invoked:
 
-1. **Identify the change** - What was created or modified?
-2. **Detect ripples** - What else needs updating? (specs, cross-references, MUST READs, organizational structures, templates)
-3. **Check template propagation** - If modified file has a `.md.template` equivalent, consider whether change benefits all Mages
-4. **Propose updates** - Present systematic integration plan
-5. **Execute with approval** - Make changes only after Mage's sanction
-6. **Verify completeness** - Confirm all ripples addressed
+1. **Identify the change** — what was created, modified, migrated, or learned?
+2. **Find the exposed remainder** — missing invariants, awkward seams, stale
+   declarations, absent readers, reusable scaffolding.
+3. **Detect downstream ripples** — law/docs, consumers, configuration/templates,
+   checks, operations/live state, and practice memory.
+4. **Dispose every finding** — integrate now; defer with owner + next condition;
+   deliberately no action with reason; or sanction needed.
+5. **Execute the clear work** — pause only at the closed sanction list or a
+   material Mage-owned product choice.
+6. **Verify completeness** — positive control, named reader, live check where
+   applicable, and a compact integration result.
 
 This flow removes the "what did I forget?" burden from meta-practice.

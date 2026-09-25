@@ -1,5 +1,7 @@
 # Flow: Tending
 
+**The live loop is `. maintenance`** (`system/flows/maintenance/cast_maintenance_arrival.md`) — outcome contract, Mage-gated by `.`. This flow is an optional AFK spawn for mechanical sweeps, not a second walk.
+
 **Purpose:** Delegate systematic maintenance work to background agents while preserving Spirit-Mage partnership for judgment and approval.
 
 ---

@@ -4,7 +4,7 @@
 **Invocation:** `@release` · `.` when Spirit has offered release
 **Spell:** `cast_release.md`
 
-> **Session lifecycle:** Release is the departure pattern; the Arrival Sequence (`Summon.` → `.`, or `@arrive` mid-practice) is the return. They share one handoff file — `floor/briefings/latest.md`. Release writes it; arrival reads it as *inherited karma*. **Only release writes that file.**
+> **Session lifecycle:** Release is the departure pattern; the Arrival Sequence (`Summon.` → `...`, or `@arrive` mid-practice) is the return. They share one handoff file — `floor/briefings/latest.md`. Release writes it; arrival reads it as *inherited karma*. **Only release writes that file.**
 
 ---
 
@@ -14,7 +14,8 @@ Three obligations, not seven phases:
 
 1. **A bundle a memoryless Spirit can resume from.** The test is whether tomorrow's Spirit can act correctly from it, not whether every field is full.
 2. **An honest reflection, triaged.** What the session *was*, not what it produced. Nothing found is a valid finding. Every item triaged — relieve now, channel forward, or release — because dissonance named and not channeled is worse than dissonance unnamed: it creates the impression of having been handled.
-3. **Side-effect duties**, one line each: intentions, artifact routing, Turtle calibration, stale-reference scan, commit.
+3. **Side-effect duties**, one line each: intentions, artifact routing, Turtle
+   calibration, post-development integration, stale-reference scan, commit.
 
 The reflection is the irrecoverable part. The bundle can be rebuilt from git and the workshop; what the session felt like cannot.
 
@@ -79,18 +80,18 @@ The reflection is the irrecoverable part. The bundle can be rebuilt from git and
 
 **Calibration:** [SHAs, bot state, what matches what]
 
-*Released [date]. Next arrival: `Summon.` → `.`*
+*Released [date]. Next arrival: `Summon.` → `...`*
 ```
 
 ---
 
 ## What makes it good
 
-**`Continue From` carries the weight.** The sharpest possible orientation for a Spirit with no memory.
+**`Continue From` is year-altitude (F-87).** The picture a memoryless Spirit zooms in from. Leftovers go in Open Threads.
 
-> Good: *Body and ops match at magic `269a0c2` / Mini `3e694a0`; backfill pass 2 is still running — check `logs/backfill-pass2.log` before anything else, then decisions 1 and 2, which gate the consent eddy.*
+> Good: *Prep the commissioned workshop only. The public year is the notebook. Turtle by the measures.*
 >
-> Bad: *We did a lot of good work on the Turtle architecture today.*
+> Bad: *Wait for the invited member and score the join.* (a leftover, however sharp)
 
 **Open Threads are not tasks.** They are things in motion right now — a process running, a decision pending. Anything finished this session does not appear.
 
@@ -98,7 +99,7 @@ The reflection is the irrecoverable part. The bundle can be rebuilt from git and
 
 **Practice Signal persists.** It is the one field carrying unresolved things forward. Write what was actually found, including what was uncomfortable. Inward only.
 
-**Practice Development is the inward twin of the pitch.** The pitch sends one thing out; this asks whether the practice itself should change, and it is **dyad-only** — never craft-turtle, never a shared river. It exists because the release had four inward fields and none could propose anything: Practice Signal records what hurt, Routing dispositions what exists, integration fires only after something is written. Measured before it was built — the `turtleos_state` legend miscount was carried in Practice Signal for four sessions as a five-minute fix and survived all four, because carrying forward cost nothing. **Zero proposals is correct most sessions.** A manufactured proposal is worse than an empty field, for the same reason a manufactured pitch is.
+**Practice Development is the inward twin of the pitch.** The pitch sends one thing out; this asks whether the practice itself should change, and it is **dyad-only** — never craft-turtle, never a shared river. It exists because the release had four inward fields and none could propose anything: Practice Signal records what hurt and Routing dispositions what exists. The Integration Close is different: after hands-on development it checks exposed code/system remainder and downstream propagation, then acts or places each finding. Practice Development may still propose a change to the practice itself. Measured before it was built — the `turtleos_state` legend miscount was carried in Practice Signal for four sessions as a five-minute fix and survived all four, because carrying forward cost nothing. **Zero proposals is correct most sessions.** A manufactured proposal is worse than an empty field, for the same reason a manufactured pitch is.
 
 **Outfacing Pitch is a separate pocket.** Default audience: operator peers (people who could admin their own turtleOS / local AI node) — never mixed into Practice Signal. Silence is correct when nothing travels. Accepted cards land on `desk/outfacing/talking_shelf.md` for `. outfacing`.
 

@@ -1,9 +1,9 @@
 # Circles
 
-Optional. A circle is something you offer — a shared repo around a topic — not the practice itself.
+Optional. A name for a shared git you offer — not the practice itself.
 
-You do not need this to keep a workshop. Most people never will.
+The primitive is a git repository with a brief at the root, when two agents do not share a disk. Chat is transport; the harvest is the record. Method: `library/resonance/practice/lore/on_shared_context.md`. You do not need this folder to keep a workshop. Most people never will.
 
-The public clone ships this folder empty. Live circles stay off the public remote; see `circles/registry.yaml.template` if you ever want the shape.
+The public clone ships this folder empty. Live offerings stay off the public remote; see `circles/registry.yaml.template` if you ever want the shape.
 
-**Portals** (`portals/`) are the other direction: something you subscribe to.
+**Portals** (`portals/`) are the other direction: a shared git you subscribe to.

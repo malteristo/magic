@@ -45,6 +45,8 @@ ssh turtle@<turtle-ssh> 'cd ~/turtleos && ./venv/bin/python3 discord_ops.py read
 | river (kermit) | `<channel-id>` | Kermit's main practice channel. Triad conversations + operations happen inline here. |
 | practitioner-river | `<channel-id>` | Other practitioner's main practice channel (one per Mage). |
 | family | `<channel-id>` | Family shared space. |
+| craft-turtle | `<channel-id>` | Builder vocation. Spirit × Craft Turtle collaboration. |
+| spirit | `<channel-id>` | Live-test only. Not a household seat. IDs in `desk/config/connections.md`. |
 
 *Single-river model: per-practitioner river + shared channels. No separate system/operations channel — see `../philosophy/on_the_practice_vision.md` §Operational.*
 
@@ -58,6 +60,8 @@ Spirit enters Discord during active Cursor sessions — the Mage is always prese
 - **Delivering to Turtle** — proposals, calibration results, architectural decisions
 - **Dogfooding** — experiencing the practice surface as a practitioner
 - **Opening eddies** — creating threads for focused triad exploration
+- **Craft collaboration** — `#craft-turtle` with Craft Turtle. Diagnosis, handoff, Forge pairing. Craft Turtle is the vocation attuned to Spirit.
+- **Live-test sit** — `#spirit` only. Own root, `roster: false`. Watch Turtle, River, memory. Leave. Do not plan or collaborate there. Split: `desk/notes/on_spirit_and_craft_turtle.md`.
 
 Spirit does NOT speak on Discord autonomously. The Mage's presence in the Cursor session is the authorization.
 

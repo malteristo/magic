@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """rot_radar.py — mechanical pass over the workshop's decay signals.
 
-`cast_tend_workshop.md` §4b describes a rot radar as a table of signals to scan
+`cast_tend_workshop.md` describes a rot radar as a table of signals to scan
 by hand. Scanning it by hand is how a signal gets missed on a tired evening, and
 how an action item with a deadline three months past keeps reading as live. This
 is the same table, executed.
@@ -11,7 +11,7 @@ It reports. It does not fix anything, and it never edits `desk/`.
     ./scripts/rot_radar.py             # full pass
     ./scripts/rot_radar.py --quiet     # findings only, no clean lines
     ./scripts/rot_radar.py --json      # machine-readable
-    ./scripts/rot_radar.py --self-test # positive control on the date parser
+    ./scripts/rot_radar.py --self-test # positive control: dates + duty artifacts
 
 Exit 0 always: a radar is not a gate.
 """
@@ -64,6 +64,74 @@ def read(p: Path):
         return ""
 
 
+# Evaluation F: arrival/release duties with an artifact get an age check.
+# Reads (Red, mail, discord digest, readiness, signals) are deliberately
+# unchecked — a stamp file for a read is a second write path.
+CHECKED_DUTIES = (
+    ("ops report", "desk/craft/automation-reports/latest.md", 2, "mtime"),
+    ("practice ledger", "desk/practice_ledger.tsv", 14, "mtime"),
+    ("briefing", "floor/briefings/latest.md", 7, "mtime"),
+    ("meta-plan", "desk/intentions/meta_plan.md", 7, "mtime"),
+    ("boom buffer", "desk/boom.md", None, "empty"),
+)
+
+
+def boom_is_clear(text: str) -> bool:
+    """True when the buffer holds only a header / sweep receipt, no captures."""
+    for line in text.splitlines():
+        s = line.strip()
+        if not s or s.startswith("#") or s.startswith("*") or s.startswith(">"):
+            continue
+        return False
+    return True
+
+
+def duty_findings(root: Path, today: date):
+    """Return (signal, detail, items, severity) tuples for skipped duties."""
+    skipped = []
+    for name, rel, max_age, kind in CHECKED_DUTIES:
+        p = root / rel
+        if kind == "empty":
+            if not p.is_file() or boom_is_clear(read(p)):
+                continue
+            skipped.append(f"{name} — {rel} still holds unrouted lines")
+            continue
+        if not p.is_file():
+            skipped.append(f"{name} — {rel} missing")
+            continue
+        age = (today - date.fromtimestamp(p.stat().st_mtime)).days
+        if max_age is not None and age > max_age:
+            skipped.append(f"{name} — {rel} is {age}d old (>{max_age}d)")
+    if skipped:
+        return [("Duty skipped", f"{len(skipped)} arrival/release duty artifact(s) stale or dirty",
+                 skipped, "MEDIUM")]
+    return []
+
+
+def backlog_aging_finding(root: Path, today: date):
+    """Open turtleOS ids older than 14d — pressure, not a walk (F-76)."""
+    here = Path(__file__).resolve().parent
+    if str(here) not in sys.path:
+        sys.path.insert(0, str(here))
+    from craft_open import _is_queue_item, is_aging  # noqa: E402
+    from export_craft_digest import parse_backlog  # noqa: E402
+
+    path = root / "desk" / "craft" / "backlog.md"
+    if not path.is_file():
+        return []
+    items, _ = parse_backlog(path.read_text(encoding="utf-8"))
+    aged = [i for i in items if _is_queue_item(i) and is_aging(i, today)]
+    if not aged:
+        return []
+    aged.sort(key=lambda i: i.id)
+    return [(
+        "Backlog aging",
+        f"{len(aged)} open id(s) older than 14d — pressure for a drop/keep board, not a walk",
+        [i.id for i in aged],
+        "HIGH",
+    )]
+
+
 # --- 1. Chronicle -----------------------------------------------------------
 out = subprocess.run(["git", "status", "--porcelain"], cwd=ROOT,
                      capture_output=True, text=True).stdout.strip()
@@ -80,6 +148,21 @@ if a is None:
 elif a > STALE_STATE:
     add("Stale state", f"desk/state.md is {a}d old (arrival is its primary writer)",
         severity="LOW")
+
+for sig, detail, items, sev in duty_findings(ROOT, TODAY):
+    add(sig, detail, items, sev)
+
+try:
+    from check_meta_plan import check as _meta_check
+    _meta_errs = _meta_check(
+        read(ROOT / "desk/intentions/bearings.md"),
+        read(ROOT / "desk/intentions/meta_plan.md"),
+    )
+    if _meta_errs:
+        add("Meta-plan gap", f"{len(_meta_errs)} live bearing(s) unaccounted",
+            _meta_errs, "MEDIUM")
+except Exception as exc:
+    add("Meta-plan gap", f"check failed: {exc}", severity="LOW")
 
 # --- 3. Bright sweep age ----------------------------------------------------
 bright = ROOT / "desk/boom/bright.md"
@@ -241,7 +324,7 @@ dormant_names |= {p.stem for p in (ROOT / "desk/intentions/completed").glob("*.m
 # every correct retirement into a permanent hit. A check that fires at the act
 # of tidying teaches you to stop recording destinations, or to stop reading the
 # check. Line numbers stay true because this is a prefix, not a filter.
-active_region = btxt.split("\n## Resolved", 1)[0]
+active_region = btxt.split("\n## Archive", 1)[0]
 
 zombies = []
 for name in sorted(dormant_names):
@@ -440,6 +523,51 @@ if "--self-test" in sys.argv:
         good = got == sorted(want)
         ok &= good
         print(f"  {'ok  ' if good else 'FAIL'} {why}: {got}")
+
+    import os
+    import tempfile
+    with tempfile.TemporaryDirectory() as tmp:
+        root = Path(tmp)
+        (root / "desk/craft/automation-reports").mkdir(parents=True)
+        (root / "desk").mkdir(exist_ok=True)
+        (root / "floor/briefings").mkdir(parents=True)
+        (root / "desk/craft/automation-reports/latest.md").write_text("ok\n")
+        (root / "desk/practice_ledger.tsv").write_text("date\n")
+        (root / "floor/briefings/latest.md").write_text("bundle\n")
+        (root / "desk/intentions").mkdir(parents=True)
+        (root / "desk/intentions/meta_plan.md").write_text("# meta\n")
+        (root / "desk/boom.md").write_text("# Boom Buffer\n\n*swept — clean.*\n")
+        clean = duty_findings(root, TODAY)
+        good = clean == []
+        ok &= good
+        print(f"  {'ok  ' if good else 'FAIL'} duties clean: {clean}")
+
+        (root / "desk/boom.md").write_text("# Boom Buffer\n\n- capture this\n")
+        dirty = duty_findings(root, TODAY)
+        hit = any("boom buffer" in i for _, _, items, _ in dirty for i in items)
+        ok &= hit
+        print(f"  {'ok  ' if hit else 'FAIL'} dirty boom named: {dirty}")
+
+        old = TODAY - timedelta(days=30)
+        os.utime(root / "desk/craft/automation-reports/latest.md",
+                 (datetime.combine(old, datetime.min.time()).timestamp(),) * 2)
+        stale = duty_findings(root, TODAY)
+        hit = any("ops report" in i for _, _, items, _ in stale for i in items)
+        ok &= hit
+        print(f"  {'ok  ' if hit else 'FAIL'} stale ops named: {stale}")
+
+        (root / "desk/craft/backlog.md").write_text(
+            "# Craft Backlog\n## Open\n"
+            "- [ ] [2026-08-01-aged] **Aged.**\n"
+            "- [ ] [2026-09-04-fresh] **Fresh.**\n",
+            encoding="utf-8",
+        )
+        aging = backlog_aging_finding(root, date(2026, 9, 4))
+        hit = bool(aging) and any("2026-08-01-aged" in i for i in aging[0][2])
+        miss = bool(aging) and all("2026-09-04-fresh" not in i for i in aging[0][2])
+        ok &= hit and miss
+        print(f"  {'ok  ' if hit and miss else 'FAIL'} backlog aging: {aging}")
+
     print(f"\n{'self-test passed' if ok else 'SELF-TEST FAILED'}")
     sys.exit(0 if ok else 1)
 
@@ -466,8 +594,11 @@ if stale_bearings:
         f"{len(stale_bearings)} bearing(s) point at a date that has already gone",
         stale_bearings, "HIGH")
 
+for sig, detail, items, sev in backlog_aging_finding(ROOT, TODAY):
+    add(sig, detail, items, sev)
+
 # --- 11. The radar's own documentation --------------------------------------
-# `cast_tend_workshop.md` §4b says "the table below is what it checks", and a
+# `cast_tend_workshop.md` says "the table is the script's contents", and a
 # reader believes it. Twice now it has been false. On 2026-08-01 it promised
 # four checks that did not exist and omitted six that did — Alive went unwatched
 # for four months while the report came back tidy. On 2026-08-25 a new check was
@@ -507,7 +638,7 @@ if doc_text:
     if undocumented:
         add("Radar undocumented",
             f"{len(undocumented)} signal(s) the script can emit are absent from "
-            f"the §4b table in {SIGNAL_DOC.relative_to(ROOT)}",
+            f"the rot table in {SIGNAL_DOC.relative_to(ROOT)}",
             undocumented, "HIGH")
 
 # --- report -----------------------------------------------------------------

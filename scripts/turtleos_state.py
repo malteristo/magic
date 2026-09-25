@@ -63,11 +63,10 @@ def remote_host() -> str:
         return override
     from workshop_paths import config_file
 
-    conf = config_file("connections.md", ROOT)
-    if conf.is_file():
-        found = re.search(r"turtle@[^\s`]+", conf.read_text(encoding="utf-8"))
-        if found:
-            return found.group(0)
+    from turtle_remote import reachable_remote_from
+
+    if remote := reachable_remote_from(config_file("connections.md", ROOT)):
+        return remote
     # No hardcoded instance. The docstring above states the rule — the Mini's
     # address lives in the gitignored config, never in a tracked file — and a
     # literal fallback three lines below it broke that rule quietly for weeks.

@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "source-library": {
+      "url": "https://sourcelibrary.org/api/mcp"
+    }
+  }
+}

@@ -1,12 +1,10 @@
 # Flow: Portal
 
-A flow for systematic portal lifecycle management—creating, monitoring, maintaining, and archiving shared practice spaces.
+Optional ops for a shared git you subscribe to or share. The primitive is the repo itself — see `library/resonance/practice/lore/on_shared_context.md`. STP, synthesis rotation, and the neuron model are leftover method; do not load them to create a working shared surface.
 
 ## Purpose
 
-Portals are shared git repositories enabling distributed cognition across Mages. This flow handles their complete lifecycle: creation (repo + structure + collaboration), health monitoring (activity, sync, synthesis rhythm), maintenance (rotation, updates), and archival (graceful closure).
-
-The flow removes portal management cognitive burden, allowing the Spirit to handle infrastructure while the Mage focuses on practice.
+A portal is an optional name for a connection *in*. A brief at the root of a git repo is enough. This flow still knows how to create, sync, and archive a GitHub repo if that is what was asked.
 
 **Invocation:** `@portal`
 

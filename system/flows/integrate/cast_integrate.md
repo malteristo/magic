@@ -1,6 +1,9 @@
 # Spell of Integration
 
-This spell attunes you to the systematic work of integrating changes into the whole system. When the Mage has created or modified a component, you help identify what else needs updating to properly weave it into the fabric of magic.
+This spell attunes you to the systematic work of integrating changes into the
+whole system. It serves both a changed artifact and the close of a development
+chapter: identify what the hands-on work exposed, propagate what changed, and
+leave every sensible remainder deliberately placed.
 
 ---
 
@@ -11,6 +14,7 @@ This spell attunes you to the systematic work of integrating changes into the wh
 - After modifying existing Law or Wisdom
 - After adding/changing a flow or tome
 - After architectural changes that might ripple
+- After an implementation chapter or live-topology migration, before release
 
 **Your role:** Systematic ripple detection and integration support.
 
@@ -28,6 +32,31 @@ This spell attunes you to the systematic work of integrating changes into the wh
 **If the change is already known from context (you just worked on it together), acknowledge and proceed.**
 
 ### Step 2: Systematic Ripple Detection
+
+**For a development chapter, begin with the four-lens close. Do not wait for the
+Mage to ask "what did we miss?" or "what updates downstream?"**
+
+First harvest the landed plan compactly: one `target → evidence` line per
+completed slice (F-13). Batch mechanical siblings; do not write a paragraph per
+todo. Then ask:
+
+1. **Exposed remainder** — What missing invariant, awkward seam, duplicate,
+   stale declaration, absent reader, or reusable helper became visible only
+   because this work touched reality? Name the class as well as the case.
+2. **Downstream propagation** — Check the full path from law and architecture
+   through implementation consumers, configuration/examples, tests and positive
+   controls, operations/deploy/observability, and the practice surfaces that
+   remember or use the change.
+3. **Disposition** — Every finding becomes exactly one of: **integrate now**;
+   **defer** with owner + next condition; **deliberately no action** with reason;
+   or **sanction needed** when it crosses the closed sanction list. Absence is a
+   valid finding.
+4. **Verification** — Re-run the narrowest check that proves the integration,
+   including a live check when live state changed. Confirm that any new artifact
+   has a reader and any declared invariant has a mechanism.
+
+Then use the detailed matrix below for the surfaces implicated by the change;
+do not mechanically inventory unrelated parts of the workshop.
 
 **Check these integration points:**
 
@@ -133,18 +162,26 @@ This spell attunes you to the systematic work of integrating changes into the wh
 
 **Prioritize findings**: Critical (blocks coherence) vs. Recommended (improves discoverability) vs. Optional (nice-to-have).
 
-### Step 4: Execute with Approval
+### Step 4: Execute or Place
 
-**Present the plan:**
-"I've identified [N] integration points. Shall I proceed with all, or would you prefer to review individually?"
+Execute every clear, reversible, in-scope integration immediately. Do not turn
+ordinary downstream maintenance into a permission question. Pause only for the
+closed sanction list or a material product choice that belongs to the Mage.
 
-**Honor the Mage's choice:**
-- Batch execution if approved
-- Individual review if preferred  
-- Partial execution (just critical items)
-- Defer if they want time to consider
+Close with a compact integration result:
 
-**Execute approved work systematically**, updating as you go.
+```markdown
+Integration close:
+- Landed: [slice target → evidence; ...]
+- Integrated now: [...]
+- Deferred: [...] — owner + next condition
+- Deliberately no action: [...] — reason
+- Sanction needed: [...] — exact decision
+- Verified: [...]
+```
+
+Omit empty lines except `Integrated now` and `Verified`; they prove the pass
+occurred even when no additional work was found.
 
 ---
 
@@ -201,10 +238,9 @@ This spell attunes you to the systematic work of integrating changes into the wh
 
 **With this spell:**
 - Mage makes the change
-- Invokes `@meta/integrate`
-- Spirit systematically checks all integration points
-- Proposes complete integration
-- Executes with approval
+- `@integrate` runs explicitly or at development close
+- Spirit checks exposed remainder and downstream propagation
+- Clear integration executes; every other finding is deliberately placed
 
 **This transforms integration from "hope I didn't forget something" to "systematic completion assured."**
 
@@ -215,7 +251,7 @@ This spell attunes you to the systematic work of integrating changes into the wh
 **Natural flow:**
 1. Mage has idea for improvement
 2. Makes the change directly (creates scroll, amends text)
-3. Invokes `@meta/integrate`
+3. Invokes `@integrate` (automatic at implementation chapter close)
 4. Spirit handles ripple detection and execution
 5. Change is fully woven into system
 
@@ -229,7 +265,7 @@ This aligns with Wu Wei—remove the barrier (integration cognitive load), allow
 
 **Scenario: Created new lore scroll `on_the_spirits_intuition.md`**
 
-**Mage invokes:** `@meta/integrate`
+**Mage invokes:** `@integrate`
 
 **Spirit performs:**
 1. Identifies change: new core capability scroll

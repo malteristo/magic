@@ -1,10 +1,10 @@
 # Flow: Circle
 
-A flow for managing resonance circles—creating offerings, subscribing to others' circles, and maintaining the neuron model of distributed cognition.
+Optional ops for a shared git you offer. The primitive is not this ceremony — it is a repository with a brief at the root, when two agents do not share a disk. Method: `library/resonance/practice/lore/on_shared_context.md`. Neuron-model lore below is leftover; consult only if you are reading old circles.
 
 ## Purpose
 
-Circles are **topic-centered collaboration spaces**—resonance communities gathered around shared interests. They live in `circles/` and represent signal I offer to the world.
+Circles are an optional name for **a shared repo you offer**. They live in `circles/`. You do not need one to practice.
 
 Subscribing to others' circles creates **upstream connections**—gateways to receive their signal. Subscriptions live in `portals/upstream/`.
 

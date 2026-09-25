@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Which craft eddies have become work — read at `. craft`, before the backlog.
+"""Which craft eddies have become work — read at `. turtle`, before the backlog.
 
 The craft backlog is Spirit's record of what Spirit did. The readiness board is
 what the Mage confirmed in a conversation, and it is the surface the arrival
@@ -65,10 +65,10 @@ def _remote() -> str:
     override = os.environ.get("REMOTE")
     if override:
         return override
-    if CONNECTIONS.is_file():
-        match = re.search(r"turtle@[^\s`]+", CONNECTIONS.read_text(encoding="utf-8"))
-        if match:
-            return match.group(0)
+    from turtle_remote import reachable_remote_from
+
+    if remote := reachable_remote_from(CONNECTIONS):
+        return remote
     raise SystemExit(
         "No Turtle remote configured. Put a `turtle@<host>` line in "
         "desk/config/connections.md, or set REMOTE."

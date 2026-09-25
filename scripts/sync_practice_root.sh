@@ -14,8 +14,10 @@ ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 . "$ROOT/scripts/workshop_paths.sh"
 CONNECTIONS="$(workshop_config connections.md "$ROOT")"
 
+# Every turtle@ address in connections.md, first reachable wins (scripts/turtle_remote.py).
+# Taking only the first one left this pull dead for five days when Tailscale logged out.
 if [ -z "${REMOTE:-}" ] && [ -f "$CONNECTIONS" ]; then
-  REMOTE=$(grep -Eo 'turtle@[^`]+' "$CONNECTIONS" | head -1 || true)
+  REMOTE=$(python3 "$ROOT/scripts/turtle_remote.py" 2>/dev/null || true)
 fi
 REMOTE="${REMOTE:-turtle@turtles-mac-mini}"
 PRACTICE_ROOT="${TURTLE_PRACTICE_ROOT:-/Users/turtle/workshops/kermit}"
@@ -24,7 +26,7 @@ usage() {
   cat <<'EOF'
 Usage: sync_practice_root.sh pull [--backfill]
 
-  pull         Copy Mini practice outputs into local desk/ (never overwrites existing files)
+  pull         Copy Mini practice outputs into local desk/ (notes: shorter Mini files do not replace longer workshop ones)
   --backfill   Alias for pull (same behavior)
 
 Maps:
@@ -126,14 +128,15 @@ pull() {
   # either: both were written from the same assumption on the same day.
   # Top-level only; `automation-reports/` has its own mapping below.
   mkdir -p "$ROOT/desk/notes"
-  # Unlike the sets above, a *new* file here is the event worth printing: the
-  # other pulls suppress it because a new eddy arrives every day, but a note
-  # crossing for the first time is the whole point of this block.
-  rsync -azi --exclude='*/' --include='*.md' --exclude='*' \
+  # Two writers (Turtle on Mini, Spirit on Forge). rsync-to-tmp then merge:
+  # harvest new files; do not replace a longer workshop note with a shorter
+  # Mini stub (agent-as-memory.md clobbered twice 2026-09-04).
+  notes_tmp="$tmp/notes"
+  mkdir -p "$notes_tmp"
+  rsync -az --exclude='*/' --include='*.md' --exclude='*' \
     "${REMOTE}:${PRACTICE_ROOT}/state/notes/" \
-    "$ROOT/desk/notes/" 2>/dev/null \
-    | awk '/^>f/ {print ($1 ~ /^>f\+*$/ ? "  harvested: " : "  updated: ") "desk/notes/" $2}' \
-    || true
+    "$notes_tmp/" 2>/dev/null || true
+  "$(pick_python)" "$ROOT/scripts/merge_notes_pull.py" "$notes_tmp" "$ROOT/desk/notes"
 
   mkdir -p "$ROOT/desk/craft/automation-reports"
   rsync -az \
@@ -143,7 +146,7 @@ pull() {
   echo "Done. Run: python3 scripts/check_turtle_state.py"
   run_harvest "Craft intake reconciliation" "harvest_craft_intake.py" ${APPLY:+--apply}
   run_harvest "Prepared eddies" "harvest_prepared_eddies.py"
-  # Read before the backlog at `. craft`: the backlog is what Spirit did, this
+  # Read before the backlog at `. turtle`: the backlog is what Spirit did, this
   # is what the Mage confirmed in a conversation.
   run_harvest "Craft readiness" "craft_readiness_board.py"
 }

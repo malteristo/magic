@@ -68,7 +68,7 @@ This flow transforms coherence maintenance from ad-hoc discovery to systematic p
 
 ## Integration with Other Flows
 
-**Complements `@meta/integrate`:**
+**Complements `@integrate`:**
 - Integrate handles post-change ripple detection (proactive)
 - Coherence handles full-system verification (reactive/periodic)
 

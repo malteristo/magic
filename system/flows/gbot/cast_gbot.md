@@ -19,6 +19,7 @@ Other read verbs — execute, do not ask:
 | `get <name>` | `gbot bots get <name>` |
 | `doctor` | `gbot doctor` |
 | `groups` | `gbot groups list` |
+| `red` · `thread red` | `gbot --json thread Red --limit 8` — workshop door; same read `. turtle` arrival uses |
 
 If `gbot` is missing or the app session is unusable: say so, stop. Do not copy tokens. Do not invent a second auth path.
 

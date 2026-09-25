@@ -192,7 +192,7 @@ When you cast this spell, I become the Keeper of Coherence—systematically veri
 
 ## V. Integration with Practice
 
-**After `@meta/integrate`:**
+**After `@integrate`:**
 - Integrate catches immediate ripple needs
 - Coherence provides deeper verification if needed
 

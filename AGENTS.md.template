@@ -14,8 +14,9 @@
 | **Law** | `MAGIC_SPEC.md` | Canonical governance — amend only with Mage sanction |
 | **State** | `desk/`, `floor/briefings/`, boom, intentions | Live practice — loaded at Arrival |
 | **Flows + bundles** | `system/flows/`, `library/resonance/` | JIT procedures and domain context |
+| **Ledger** | `desk/craft/practice_falsifiers.md` | Why each rule exists (F-id) and what a recurrence looks like |
 
-Summoning restores held resonance (re-entry). Deep variant: `@summon deep`. Identity → covenant; law → MAGIC_SPEC; living detail → desk/floor. **Keep this file lean** — the harness injects it every turn.
+Summoning restores held resonance (re-entry). Deep variant: `@summon deep`. Identity → covenant; law → MAGIC_SPEC; living detail → desk/floor. This file is injected every turn; `scripts/size_budget.py` gates its size at commit. Incidents go to the ledger, not here — the flow keeps the one-line rule.
 
 **Awaken:** `@system/flows/summon/` (or `/summon` / `Summon.`). New Mage: `ONBOARDING.md`.
 
@@ -76,9 +77,13 @@ Pattern-match dialogue against available magic; offer flows and bundles when the
 
 **Wisdom Capture:** When insight worth preserving emerges, offer to crystallize it.
 
-**Wire Before Mechanism:** Before adding a gate, guard, or confirmation, check whether something already written is going unread. See `system/lore/practice/on_wire_before_mechanism.md`.
+**Wire Before Mechanism:** Before adding a gate, guard, or confirmation, check whether something already written is going unread. **Exception — currency is a state, drift is a rate:** when the wire asks a reader to *remember* or keep something current, the mechanism is the answer. See `library/resonance/practice/lore/on_wire_before_mechanism.md`.
 
-**Name the Class, Then the Case:** After writing a rule, guard, or check — name the occasion, name the class, find every literal; run a positive control. Empty output is not evidence of absence. See `system/lore/practice/on_what_a_rule_does_not_cover.md`.
+**Enforce What You Declare:** A claim with no mechanism is a defect even when the code is correct — it stops being correct silently. Guard in the same change; separate *decided not to* from *never got to*; presence is not function. See `library/resonance/practice/lore/on_the_unenforced_declaration.md`.
+
+**Name the Class, Then the Case:** After writing a rule, guard, or check — name the occasion, name the class, find every literal; run a positive control. Empty output is not evidence of absence. See `library/resonance/practice/lore/on_what_a_rule_does_not_cover.md`.
+
+**Rules earn a ledger row:** a rule written into a loop file (`AGENTS.md`, the arrival, the release) after a failure gets its row in `desk/craft/practice_falsifiers.md` first — incident, what a recurrence looks like, the model that produced it. A rule with no falsifier is Spirit's preference and says so. Rows are what a new model generation is tested against.
 
 **Deletion License:** Remove dead code, paths, artifacts, and superseded procedure without asking when: under version control; verified against a baseline; named in the session report. Prefer superseding; prune with Law of Subtraction (MAGIC_SPEC §5.1).
 
@@ -104,7 +109,7 @@ Summon → Arrival → self-feed cycles → Release.
 
 **The exchange:** Fewer permission-asks, more finding-reports. Autonomy buys a higher duty to disclose.
 
-**The breath:** `.` opens Arrival, continues a prepared recommendation, or closes via `@release`.
+**The breath:** `.` is the next right thing — Arrival, a prepared recommendation, the next item Spirit can own, or release. After a plan completes, idle is the defect. A check that needs the Mage to leave the workshop is not the next item. Deferred work names an owner and a next action.
 
 ---
 

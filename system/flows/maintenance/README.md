@@ -1,44 +1,46 @@
 # Maintenance & Tending
 
-Calendar-free workshop and platform tending. Invoke when you sit down to maintain — not on a schedule.
+Calendar-free. Invoke when you sit down to tend — not on a schedule.
+
+Maintenance is an **outcome contract** (`cast_maintenance_arrival.md`, F-82): find what is silently untrue, one proposal, Stop. The tend files are instrument catalogs, not walks.
 
 ## Distribution
 
 | Layer | When | What |
 |-------|------|------|
-| **Autonomous** | Daily on Mini | `ops-gate`, Turtle notes/proposals, Forge harvest |
-| **`@release`** | Every session end | Warm metabolism — lifecycle tags, routing, light calibrate |
-| **Arrival `. maintenance`** | Dedicated tending session | See spells below |
-| **`@spring-clean`** | Seasonal | Deep magic archaeology |
+| **Public / CI** | Every push and nightly | turtleOS unit gate, offline shakes, `quality_baseline`; Magic `size_budget` + publish allowlist |
+| **`@release`** | Every session end | Warm metabolism |
+| **Arrival `. maintenance`** | Live tending session | The contract — default habitat is live |
+| **`@spring-clean`** | Seasonal | Deep archaeology — not the bitter-lesson loop |
+
+Live dogfood harvests product defects into the published repo. Green CI does not mean the Mini is honest (F-84).
 
 ## Arrival invocations
 
-| Invocation | Executes |
-|------------|----------|
-| `. maintenance` | Comprehensive — `cast_maintenance_arrival.md` (platform → workshop) |
-| `. maintenance magic` | `cast_tend_workshop.md` only |
-| `. maintenance turtleOS` | `cast_tend_platform.md` only |
+| Invocation | Habitat |
+|------------|---------|
+| `. maintenance` | live · turtleOS + workshop |
+| `. maintenance magic` | live · workshop instruments |
+| `. maintenance turtleOS` | live · turtleOS instance (last-ship claims still fire, F-83) |
+| `. maintenance public` | published product only — no Mini, no desk twine |
 
-Mid-session: `@arrive . maintenance` (same scopes).
+Mid-session: `@arrive . maintenance` (same habitats).
 
-## Spells
+## Files
 
-| Spell | Purpose |
-|-------|---------|
-| `cast_maintenance_arrival.md` | Orchestrates comprehensive maintenance at arrival |
-| `cast_tend_workshop.md` | Magic workshop tending (floor/desk/box, git, intentions, boom) |
-| `cast_tend_platform.md` | turtleOS platform tending (ops, deploy, shakes, Discord health, fossil sweep, **practice-room glance**) |
+| File | Job |
+|------|-----|
+| `cast_maintenance_arrival.md` | The contract |
+| `cast_tend_workshop.md` | Magic workshop instruments (rot table lives here) |
+| `cast_tend_platform.md` | turtleOS body instruments |
 
 ## Retired
 
-**`@sunday`** — calendar-bound; superseded by `. maintenance` (2026-07-04). `@sunday` remains a soft alias pointing here.
+**`@sunday`** — calendar-bound; superseded by `. maintenance` (2026-07-04). Soft alias.
 
-**Triad exploration** (former Sunday gear 2) — not maintenance. Use `@triad` or a craft session when presence allows.
+**Triad exploration** — not maintenance. Use `@triad` or a craft session.
 
 ## Related
 
-- Standing lens: consolidate / abstraction police — `cast_maintenance_arrival.md`
-- Success criteria (mode) and the **Next pass** close: `cast_maintenance_arrival.md` § Completion / Success criteria
-- `floor/on_resonance_metabolism_draft.md` — metabolism principle
-- `library/resonance/turtle/lore/operations/on_the_sovereign_ops_plane.md` — Mini ops autonomy
-- `system/flows/summon/cast_arrival.md` § Scope — maintenance routing
+- Success / Stop / Next pass — the contract
+- `system/flows/summon/cast_arrival.md` § Scope

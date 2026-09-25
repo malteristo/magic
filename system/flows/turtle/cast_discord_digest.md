@@ -5,7 +5,7 @@
 **Frequency:** Post-summoning re-entry (before boom sweep), or on-demand  
 **Duration:** 5–10 minutes  
 **Output:** Boom entries appended to `desk/boom.md`, proposals to `desk/proposals/`, digest summary presented to Mage  
-**Scope (2026-08-10):** Arrival selects habitats from the active intention(s) — do not default to a single dialogue channel. `. craft` → craft-turtle; `. mirror` / relational → family + partner rivers (+ personal river as contemplation); `.` holistic → all, labeled by mode. See `cast_arrival.md` § Scope.
+**Scope (2026-09-13):** Arrival selects habitats from the active intention(s) — do not default to a single dialogue channel. `.` / `. craft` → professional habitats (craft-turtle and the named craft-lanes), labeled by bearing. `. turtle` → craft-turtle. `. [lane]` → that intention's habitats. `. mirror` → family + partner rivers. Not the full life on a professional arrival (F-88). See `cast_arrival.md` § Scope.
 
 ---
 

@@ -7,8 +7,8 @@ Sunday practice is now **calendar-free maintenance**. Use arrival scopes instead
 | Was | Now |
 |-----|-----|
 | `@sunday` weekly sweep | `. maintenance` at arrival (comprehensive) |
-| Workshop-only tending | `. maintenance magic` → `maintenance/cast_tend_workshop.md` |
-| Turtle platform tend | `. maintenance turtleOS` → `cast_tend_platform.md` |
+| Workshop-only tending | `. maintenance magic` |
+| Turtle platform tend | `. maintenance turtleOS` |
 | Triad exploration (gear 2) | `@triad` or craft session when you have presence |
 
 **Read:** `system/flows/maintenance/README.md`

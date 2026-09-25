@@ -45,11 +45,10 @@ def _remote() -> str:
     override = os.environ.get("REMOTE")
     if override:
         return override
-    if CONNECTIONS.is_file():
-        text = CONNECTIONS.read_text(encoding="utf-8")
-        m = re.search(r"turtle@[^\s`]+", text)
-        if m:
-            return m.group(0)
+    from turtle_remote import reachable_remote_from
+
+    if remote := reachable_remote_from(CONNECTIONS):
+        return remote
     raise SystemExit(
         "No Turtle remote configured. Put a `turtle@<host>` line in "
         "desk/config/connections.md, or set REMOTE."

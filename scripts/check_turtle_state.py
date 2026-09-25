@@ -20,7 +20,10 @@ import sys
 from dataclasses import dataclass
 from pathlib import Path
 
-from workshop_paths import config_file
+try:
+    from workshop_paths import config_file
+except ImportError:  # imported as scripts.check_turtle_state
+    from scripts.workshop_paths import config_file
 
 LOCAL_ROOT = Path(__file__).resolve().parents[1]
 CONNECTIONS_PATH = config_file("connections.md", LOCAL_ROOT)
@@ -73,11 +76,17 @@ NOT_CARRIED: dict[str, str] = {
     "state": "runtime state (current/alive/packets); read in place, too hot to mirror",
     "chronicle": "append-only ledgers; queried on the Mini, not reviewed on Forge",
     "dialogue": "raw transcripts; Discord is the durable copy",
+    "memory": "derived topic memory; rebuilt on the Mini from notes, read in place",
+    "context": "Mini-owned attunement overlays; Forge would fight the writer",
     "thread-archive": "closed-thread bodies; story notes are the reviewed form",
     "readiness": "dimension telemetry; surfaces through the ops report",
     "signals": "act-offer and turn signals; the ledger is the reviewed form",
     "link-resonance": "saved-link derivations; reached through the shelf",
     "character": "attunement files the Mini owns; Forge edits would fight the writer",
+    "readings": (
+        "Mini-owned practice keys; hand-seeded 2026-09-10; rewrite job not built; "
+        "choose pull direction with that job"
+    ),
     "flows": "flow definitions ship from the turtleOS repo, not back from it",
     "native-runtime": "task/audit state for the host",
     "outfacing": "draft queue; signals reach Forge through desk/outfacing",
@@ -93,11 +102,10 @@ def default_remote() -> str:
     if env_remote := os.environ.get("TURTLE_SSH_TARGET"):
         return env_remote
 
-    if CONNECTIONS_PATH.exists():
-        text = CONNECTIONS_PATH.read_text(errors="ignore")
-        match = re.search(r"`(turtle@[^`]+)`", text)
-        if match:
-            return match.group(1)
+    from turtle_remote import reachable_remote_from
+
+    if remote := reachable_remote_from(CONNECTIONS_PATH):
+        return remote
 
     # No hardcoded instance. The docstring above states the rule — the Mini's
     # address lives in the gitignored config, never in a tracked file — and a
@@ -110,12 +118,54 @@ def default_remote() -> str:
     )
 
 
+NOTES_PREFIX = "desk/notes/"
+
+
 @dataclass(frozen=True)
 class FileInfo:
     relpath: str
     sha256: str
     size: int
     mtime: float
+
+
+def is_kept_richer(path: str, local_info: FileInfo, remote_info: FileInfo) -> bool:
+    """Forge kept a longer note on purpose — same rule as merge_notes_pull.
+
+    Only ``desk/notes/*.md``. Sessions, story, and proposals stay mismatched.
+    Remote-longer or same-size SHA diffs stay mismatched.
+    """
+    if not path.startswith(NOTES_PREFIX):
+        return False
+    return (
+        local_info.size > remote_info.size
+        and local_info.sha256 != remote_info.sha256
+    )
+
+
+def partition_mismatches(
+    local: dict[str, FileInfo],
+    remote: dict[str, FileInfo],
+    mismatched: list[str],
+) -> tuple[list[str], list[str]]:
+    kept: list[str] = []
+    real: list[str] = []
+    for path in mismatched:
+        if is_kept_richer(path, local[path], remote[path]):
+            kept.append(path)
+        else:
+            real.append(path)
+    return kept, real
+
+
+def drift_exit_code(
+    remote_only: list[str],
+    real_mismatch: list[str],
+    unmapped: list[str],
+) -> int:
+    if remote_only or real_mismatch or unmapped:
+        return 1
+    return 0
 
 
 def sha256(path: Path) -> str:
@@ -321,6 +371,7 @@ def main() -> int:
         for path in set(local) & set(remote)
         if local[path].sha256 != remote[path].sha256 and should_report(path)
     )
+    kept_richer, real_mismatch = partition_mismatches(local, remote, mismatched)
 
     unmapped = sorted(
         name
@@ -333,9 +384,19 @@ def main() -> int:
     print(f"window: {args.days} days for sessions/story/proposals/notes")
     print()
 
-    if not remote_only and not mismatched and not unmapped:
+    if drift_exit_code(remote_only, real_mismatch, unmapped) == 0:
+        if kept_richer:
+            print("KEPT_RICHER:")
+            for path in kept_richer:
+                print(
+                    f"  {path} local={local[path].size} > "
+                    f"remote={remote[path].size}"
+                )
+            print()
         if local_only:
             print("OK: no remote drift (local-only = historical Forge copies).")
+        elif kept_richer:
+            print("OK: richer Forge notes, expected.")
         else:
             print("OK: local desk outputs match turtleOS practice root.")
         return 0
@@ -360,9 +421,17 @@ def main() -> int:
         if len(local_only) > 8:
             print(f"  ... and {len(local_only) - 8} more")
 
-    if mismatched:
+    if kept_richer:
+        print("KEPT_RICHER:")
+        for path in kept_richer:
+            print(
+                f"  {path} local={local[path].size} > "
+                f"remote={remote[path].size}"
+            )
+
+    if real_mismatch:
         print("MISMATCHED:")
-        for path in mismatched:
+        for path in real_mismatch:
             print(f"  {path} local={local[path].sha256[:16]} remote={remote[path].sha256[:16]}")
 
     if args.backfill_missing and remote_only:

@@ -28,9 +28,9 @@ Index always available; depth on demand. Compass informs practice — not the re
 
 ## Runtime
 
-- **Arrival** — `. X` resolves to an intention (or posture selecting intentions). Read `## Eval`; load habitats it names.
-- **Cycles** — the active intention shapes next-right-thing proposals.
-- **Release** — write phase/status back; otherwise the intention silently rots.
+- **Arrival** — `. X` resolves to an intention (or posture selecting intentions). Read `## Eval`; load habitats it names. After bearings, read `desk/intentions/meta_plan.md` — the working sequence across the whole practice (F-74).
+- **Cycles** — the active intention shapes next-right-thing proposals. A craft plan names serve / wait / defer for every craft bearing.
+- **Release** — write phase/status back; rewrite the meta-plan from the bearings. Otherwise the sequence silently rots into `chains.md`.
 
 ## Thin eval surface (`## Eval`)
 

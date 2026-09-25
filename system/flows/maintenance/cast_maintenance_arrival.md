@@ -1,121 +1,103 @@
+---
+title: Maintenance Arrival
+reads:
+  - floor/briefings/latest.md
+  - desk/state.md                          # Next pass — apply or drop
+  - desk/craft/automation-reports/latest.md  # after pull, never beside it
+ledger: desk/craft/practice_falsifiers.md
+---
+
 # Cast Maintenance Arrival
 
-**Purpose:** Run dedicated tending at arrival — not a decision surface for craft, a maintenance pass with dot protocol.  
-**Invocation:** `. maintenance` · `@arrive . maintenance` (after summoning or mid-session)
+*An outcome contract, not a category walk (F-82).*
+
+**Purpose:** Find what is silently untrue, leave one cheap next act, Stop when the rest is standing backlog.
+**Invocation:** `. maintenance` · `@arrive . maintenance`
+**Judged by its post-state:** instruments and body agree; a new silent-lie class is not left running; the Mage can steer with `.` or skip.
 
 ---
 
-## Scope variants
+## Habitat
 
-| Invocation | Spells executed (in order) |
-|------------|------------------------------|
-| `. maintenance` | Platform → Workshop (comprehensive) |
-| `. maintenance magic` | `cast_tend_workshop.md` only |
-| `. maintenance turtleOS` | `cast_tend_platform.md` only (includes practice-room glance) |
+Parse from the signal. Default **live** and **comprehensive** when no suffix.
 
-Parse scope from the Mage's signal. Default comprehensive when no suffix.
+| Invocation | Habitat | Body |
+|------------|---------|------|
+| `. maintenance` | live | turtleOS instance + Magic workshop |
+| `. maintenance turtleOS` | live | turtleOS instance (glance included) |
+| `. maintenance magic` | live | Magic workshop |
+| `. maintenance public` | published product | github-shaped surfaces only — no Mini, no desk twine, no names |
 
----
+**One contract, two habitats.** Live dogfood produces product defects; those land in the published repo. Published CI is the public maintenance loop — another Mage's agent, or a fresh clone, should tend the product with no `desk/` and no SSH. Green CI does not mean the Mini is honest (F-84).
 
-## Standing lens: consolidate (abstraction police)
-
-Maintenance is when nearly duplicated surfaces become visible — the same job answered by two files, two spells, two dashboards, or two rituals that grew apart over time. If you squint and they should be one abstraction, propose consolidation (retire / fold / redirect). Do not force-merge when two jobs are merely adjacent.
-
-Kinship: Anthropic's "abstraction police" (daily unify-near-duplicates across codebases). Here the pass is Spirit-attuned during `. maintenance`, Mage-gated by `.` — not an autonomous nightly fleet (yet).
-
-Occasion: 2026-08-02 — `@turtle-care` + `turtle_watch` folded into platform tend §11 after both became status theater for a native partner that does not need scheduled wellbeing duty.
+Instance facts stay private. Product defects may be committed.
 
 ---
 
-## Arrival shape (maintenance scopes)
+## The contract
 
-Maintenance scopes **replace** the normal Eisenhower / intention-dashboard orient. Spirit still gathers context, but Phase D executes tending instead of proposing craft work.
+Four obligations. Everything else is Spirit's.
 
-### Phase A: Gather (maintenance-focused)
+**1. His queue, first.** What he sent this sitting, the walk if it is running (peek `DONE`, do not restart), living-verify he already named, the **Next pass** line on `desk/state.md` (apply or drop before looking). Before the finding.
 
-Required:
+**2. What is silently untrue.** Instruments first, verified against the system. A no-op reported honestly beats a category performed for the look of it.
 
-- `floor/briefings/latest.md` — inherited karma, open threads, ephemeral tags from last release
-- `desk/state.md` if present — including its **Next pass** line, if any (the previous close's improvement; apply or drop before picking categories)
-- `git status` + recent log (magic repo; turtleos if platform scope)
-- Practice-root **pull first**, then `desk/craft/automation-reports/latest.md`. The file that matters is the one on disk when pull returns — a read started beside the pull is yesterday's report. Occasion: 2026-08-15, parallel gather nearly reported PASS over a Mini FAIL.
+Triggers, not extra spells:
 
-Conditional:
+- **SHA pair (F-84)** — pull practice root first, then read `latest.md`. If live Mini SHA ≠ report SHA, name that first. Do not narrate the report's dirty-tree JSON as current body.
+- **Last-ship claims (F-83)** — when the last turtleOS or craft chapter is in the last two days, even on `. maintenance turtleOS`. New scenario ids, shake maps, matrix Actions: something must be able to fail them. Workshop §4a is the same job for workshop records.
+- **Quality row** — glance `quality_baseline` last vs previous only if it moved (unused runtime, modules ≥1000).
+- **Rot** — `rot_radar.py`; standing MEDIUM pile in one line unless it moved or a HIGH appeared.
+- **Consolidate** — fire when an instrument or last ship points at a twin (two shakes for one job, two indexes). Not a hunt.
 
-- `desk/proposals/`, `desk/sessions/` — Turtle traces (platform / comprehensive)
-- SSH Mini vitals summary — only if ops report missing or FAIL (platform / comprehensive)
-- `portals/registry.yaml` — portal health (comprehensive)
+How Spirit looks is Spirit's. Catalogs: `cast_tend_platform.md` · `cast_tend_workshop.md`.
 
-**Skip:** full intention file reads, Eisenhower prep, social scan unless social intentions active.
+**3. One thing he does not know — reported, not acted on.** Checked before it is said. No finding → "I found nothing." Left alone unless it blocks the queue.
 
-### Phase B: Process (light)
-
-- **Do not** run full boom sweep by default — boom triage lives in workshop tend.
-- **Optional:** `@discord-digest` if Turtle active and Discord friction likely since last session.
-
-### Phase C: Maintenance situation (not Eisenhower)
-
-Present a scannable surface (~30 seconds):
-
-1. **Ops plane** — last report verdict; FAIL items if any
-2. **Chronicle** — uncommitted / divergent repos (magic, turtleos)
-3. **Drift signals** — stale proposals, ephemeral artifacts from the briefing, **rot radar**. Standing MEDIUM pile in **one line unless it moved** (count jump vs the previous snapshot, or a HIGH appeared). Occasion: 2026-08-15, "33 stale Alive / 27 spores / 29 floor zombies" cost the attention the FAIL deserved.
-4. **Recommended tier** — quick / standard / deep based on signals (Spirit proposes; Mage can override with `.`)
-
-Then the **first proposal**, in the Phase D shape, so `.` executes. Do not end Phase C on "`.` for the first proposal" — that makes the dot mean two things. Occasion: 2026-08-15.
-
-### Phase D: Execute tending spells
-
-Use dot protocol throughout. One proposal at a time:
+**4. One proposal, then Stop.** Dot shape so `.` executes:
 
 > **What I noticed:** …  
 > **What I'd do:** …  
 > **Why it matters:** …
 
-Wait for `.` before executing. Skip categories that are clean.
+Two reasonable answers both get named. Skip what is clean. **Stop** when remaining hits are standing backlog and the life surface is waiting — do not invent work to empty the radar.
 
-**Comprehensive order:**
-
-1. **`cast_tend_platform.md`** — body first; FAIL ops blocks trustworthy practice (includes practice-room glance)
-2. **`cast_tend_workshop.md`** — cognitive / artifact tending
-
-**Magic-only:** workshop spell only.  
-**turtleOS-only:** platform only; skip workshop.
-
-Spirit picks categories within each spell by signal — not every category every session.
-
-When the last craft chapter is in the last two days (briefing date, turtleOS log), workshop starts at **records that deny the ships** (`cast_tend_workshop.md` §4a) before rot radar. Downstream of yesterday is the live work; the standing pile is not.
-
-### Completion
-
-- Regenerate `desk/state.md` (maintenance snapshot)
-- Update `floor/briefings/latest.md` **only if** no `@release` follows in the same session — otherwise note "release will overwrite"
-- Brief harvest: what changed, what's still alive, watch items for next session
-- Judge the pass against the criteria below (one line in the harvest is enough)
-- **One improvement for the next pass, or "none."** What would have made *this* tending cheaper or more honest? A flow line, a skip, an instrument — not a craft backlog. Write it on `desk/state.md` as **Next pass** so the next `. maintenance` reads it in Phase A. If two consecutive closes repeat the same improvement unapplied, apply it or delete it — that is the write-only shape.
-
-Offer `@release` when the maintenance chapter completes.
-
-### Success criteria (the mode, not a dashboard)
-
-Track A idiom — Success / Stop / instrument falsifier. Earned 2026-08-02 (honest-body maintenance): evaluation was missing while verification already existed.
-
-- **Success (a pass):** Instruments and body agree (ops SHA matches live; any HIGH rot opened this session is resolved or explicitly deferred with reason); no new silent-lie class left running (stale PASS, theater faucet, live-looking closed deadline); chronicle clean enough that the next summon can trust the record.
-- **Stop (this session):** Remaining hits are medium/deep backlog with no HIGH and the life surface is waiting — do not invent work to empty the radar.
-- **Falsifier (these criteria):** If two maintenance releases “pass” without changing what we open or skip next time, delete this subsection — it has become ceremony.
+**Cap:** the opening surface is scannable in ~30 seconds (ops / chronicle / drift-if-moved / first proposal). Workshop compression stays off the surface he answers (F-78).
 
 ---
 
-## Design notes
+## What buys the finding
 
-- **Async-friendly.** Proposals stand alone; Mage can step away between dots.
-- **No calendar.** Invoke whenever you sit down to tend.
-- **Release stays warm.** Do not duplicate lifecycle tagging or warm routing here — that belongs at `@release`.
-- **Autonomous ops first.** Read the harvest report before re-running suites on green days.
+- **Pull first, then the report.** A read started beside the pull is yesterday's file. Occasion: 2026-08-15.
+- **Read the record, then the running system.** Grep the code the design doc describes (F-16).
+- **Twine, not lore.** Briefing, state, last-ship commits, recent eddies for the glance; lore stays JIT.
+- **Public habitat** reads only product instruments: unit gate, offline shakes, matrix, `quality_baseline`, size budgets, doc topology. No SSH, no family, no health.
+- **Live habitat** adds Mini SHA, services, walk peek, practice-room glance, private twine. Glance is heat / hard terrain / living verify — not a scheduled thank-you to Turtle.
+
+**Skip:** full intention files, Eisenhower, boom sweep by default, Discord health unless a signal, social scan unless those intentions are active.
+
+---
+
+## Completion
+
+- Regenerate `desk/state.md` (maintenance snapshot).
+- Do not overwrite `floor/briefings/latest.md` if `@release` will follow.
+- Harvest: what changed, what is still alive, watch items.
+- Judge against Success / Stop below (one line).
+- **One improvement for the next pass, or "none."** A flow line, a skip, an instrument — not a craft backlog. Write it as **Next pass**. If two consecutive closes repeat the same line unapplied, apply it or delete it.
+
+Offer `@release` when the chapter completes.
+
+### Success / Stop / falsifier
+
+- **Success:** Instruments and body agree (live SHA named against the report; any HIGH opened this session is resolved or deferred with reason); no new silent-lie class left running.
+- **Stop:** Remaining hits are medium/deep backlog with no HIGH and the life surface is waiting.
+- **Falsifier of these criteria:** two maintenance releases “pass” without changing what we open or skip next time — delete this subsection; it has become ceremony.
 
 ---
 
 ## Related
 
-- `cast_tend_workshop.md` · `cast_tend_platform.md`
-- `system/flows/summon/cast_arrival.md` § Scope (maintenance routing)
+- `cast_tend_workshop.md` · `cast_tend_platform.md` — instrument catalogs
+- Public loop: turtleOS pre-push / nightly ops / `quality_baseline`; Magic `size_budget` + publish allowlist
+- `system/flows/summon/cast_arrival.md` § Scope

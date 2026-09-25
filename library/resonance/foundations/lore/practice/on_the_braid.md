@@ -95,4 +95,6 @@ This is what the Open Practice Network offers at its deepest level — not coord
 
 ---
 
+The session transcript is a strand. Discord eddies, Cursor chats, Claude Code logs — the conversation as it happened is ground truth; the harvest is what a later turn attunes to. How those strands become shared context: `library/resonance/practice/lore/on_shared_context.md`.
+
 *The strands are already there. They have always been there. The braid is what the practice makes visible.*

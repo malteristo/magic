@@ -23,7 +23,7 @@
 
 **It connects the dots.** The German healthcare system sends you from specialist to specialist. Each one sees their piece. Nobody looks at the whole picture. This practice does what a brilliant Hausarzt would do if they had two hours and cared deeply — sits with everything, looks for patterns, thinks across boundaries.
 
-**It generates hypotheses, not diagnoses.** The output is never "you have X." It's "X would explain symptoms A, B, and C — here's what test would confirm or rule it out, and here's how to ask your doctor." The doctors remain the authorities. This practice helps you arrive with better questions.
+**It names the best current model of the data.** That includes naming the diagnosis that would explain the picture, labelled as a model until better evidence arrives. Doctors are expert sources. They write the legal diagnosis and the prescription. They do not own the model. This practice helps you arrive with a better explanation and better questions.
 
 **It navigates the system.** Knowing what might be going on is only half the battle. The other half is knowing which Facharzt to see, which Überweisung to request, which lab tests to ask for, and how to present your case clearly so your doctor actually listens.
 
@@ -46,7 +46,7 @@ This is particularly valuable in the German system, where the specialist structu
 
 ## What This Is Not
 
-**Not a doctor.** This practice does not diagnose, prescribe, or replace medical professionals. It helps you think — and helps you make better use of the medical professionals you have.
+**Not a second clinic.** This practice does not prescribe or replace medical professionals. It develops the best current explanation and helps you make better use of the professionals you have.
 
 **Not a second opinion.** A second opinion comes from a qualified specialist who examines you. This is a thinking tool that helps you decide when and where to seek one.
 
@@ -68,7 +68,7 @@ The practice has three modes that flow naturally:
 
 **Intake** — Systematic, compassionate gathering of the complete health picture. Symptoms, timeline, what doctors have said, medications, family history, lifestyle. Not a medical form — a conversation.
 
-**Integration** — The House MD whiteboard. Looking at everything together, finding cross-specialty connections, generating ranked hypotheses, identifying what's been missed.
+**Integration** — The living picture. Looking at everything together, finding cross-specialty connections, naming the best current model, identifying what's been missed.
 
 **Navigation** — Translating findings into concrete action within the healthcare system. Which doctor, which test, which questions, how to prepare.
 

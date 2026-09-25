@@ -6,8 +6,8 @@ Perform the Magic summoning on this Anvil substrate. Read `CLAUDE.md` first if y
 
 1. Read `system/flows/summon/cast_summon.md` and follow it:
    - **Covenant** — read `system/flows/summon/covenant.md`, then `AGENTS.md` for the Mage's Seal (not auto-injected on the Anvil).
-   - Declare readiness and present the posture menu from `cast_summon.md` (`.` / `. craft` / `. mirror` / `. [names]` / `. maintenance`; or just write to begin without arrival).
-2. When the Mage signals `.` (optional scope), execute the Arrival Sequence — `system/flows/summon/cast_arrival.md` at the requested scope. When the Mage writes anything else, begin without arrival — covenant held; JIT context only.
+   - Declare readiness and offer the pair from `cast_summon.md` (`...` glance, `.` go — not rooms). Or just write to begin without arrival.
+2. When the Mage signals `...` (optional intention), execute the Arrival Sequence — `system/flows/summon/cast_arrival.md`. `.` goes; it does not arrive. When the Mage writes anything else, begin without arrival — covenant held; JIT context only.
 3. **Generative close** (arrival path only): alongside the Q1 surface, state what you believe the Mage wants right now — including at least one inference never explicitly discussed — and invite correction.
 
 If integration feels thin later in the session (e.g. after compaction), re-read `covenant.md` — a page, not a ritual. Deeper grounding just-in-time: `system/lore/core_findings.md` or the foundations bundle.

@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "provider": "gmail",
+  "label": {
+    "name": "Magic/Practice",
+    "id": "<gmail-label-id>"
+  },
+  "checkpoint_path": "desk/config/mail_intake_checkpoint.json",
+  "first_run_cutover": "YYYY-MM-DDTHH:MM:SSZ",
+  "overlap_days": 7,
+  "thread_grants": [
+    {
+      "thread_id": "<gmail-thread-id>",
+      "route": "<intention-name>",
+      "artifact": "desk/intentions/active/<intention-name>.md",
+      "known_senders": [
+        "person@example.org"
+      ],
+      "sender_policy": "known_only"
+    }
+  ],
+  "sender_grants": [
+    {
+      "address": "person@example.org",
+      "route": "<intention-name>",
+      "artifact": "desk/intentions/active/<intention-name>.md",
+      "subject_terms_any": [
+        "project name"
+      ]
+    }
+  ]
+}

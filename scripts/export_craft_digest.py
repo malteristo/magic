@@ -70,18 +70,38 @@ def practice_root() -> str:
 # record of which Mage reports have reached the workshop.
 REMOTE_REL = "craft/development.md"
 
-_ITEM_RE = re.compile(r"^- \[(?P<mark>[ x])\] \[(?P<id>[^\]]+)\] (?P<body>.*)$")
+_ITEM_RE = re.compile(r"^- \[(?P<mark>[ xd])\] \[(?P<id>[^\]]+)\] (?P<body>.*)$")
 _UNTAGGED_RE = re.compile(r"^- \[(?P<id>[^\]]+)\] (?P<body>.*)$")
+_DROPPED_REASON = "Dropped:"
 
 SHIPPED_SUMMARY_CHARS = 240
 
 
 class Item:
-    def __init__(self, item_id: str, body: str, shipped: bool) -> None:
+    def __init__(
+        self,
+        item_id: str,
+        body: str,
+        shipped: bool | None = None,
+        *,
+        status: str | None = None,
+    ) -> None:
+        if status is None:
+            status = "shipped" if shipped else "open"
+        if status not in {"open", "shipped", "dropped"}:
+            raise ValueError(f"unknown backlog status: {status}")
         self.id = item_id
         self.body = body
-        self.shipped = shipped
+        self.status = status
         self.continuations: list[str] = []
+
+    @property
+    def shipped(self) -> bool:
+        return self.status == "shipped"
+
+    @property
+    def dropped(self) -> bool:
+        return self.status == "dropped"
 
     @property
     def title(self) -> str:
@@ -117,6 +137,7 @@ def parse_backlog(text: str) -> tuple[list[Item], list[str]]:
     known_heading_prefixes = (
         "# Craft Backlog",
         "## Open",
+        "## Dropped",
         "## UX research track",
         "## Resolved",
     )
@@ -138,18 +159,25 @@ def parse_backlog(text: str) -> tuple[list[Item], list[str]]:
 
         m = _ITEM_RE.match(line)
         if m:
-            current = Item(m.group("id"), m.group("body"), m.group("mark") == "x")
+            mark = m.group("mark")
+            status = {"x": "shipped", "d": "dropped"}.get(mark, "open")
+            current = Item(m.group("id"), m.group("body"), status=status)
             items.append(current)
             continue
         m = _UNTAGGED_RE.match(line)
         if m:
-            current = Item(m.group("id"), m.group("body"), False)
+            current = Item(m.group("id"), m.group("body"), status="open")
             items.append(current)
             continue
         if current is not None and line.startswith("  "):
             current.continuations.append(line)
 
     return items, unknown
+
+
+def dropped_without_reason(items: list[Item]) -> list[str]:
+    """A `[d]` mark without `Dropped:` is not an explicit drop (F-76)."""
+    return [i.id for i in items if i.dropped and _DROPPED_REASON not in i.body]
 
 
 HEADER = """# turtleOS — Development Digest
@@ -183,7 +211,8 @@ because that is usually who builds it.
 
 
 def render(items: list[Item], today: str) -> str:
-    open_items = [i for i in items if not i.shipped]
+    open_items = [i for i in items if i.status == "open"]
+    dropped = [i for i in items if i.dropped]
     shipped = [i for i in items if i.shipped]
 
     out = [HEADER.format(today=today), ""]
@@ -194,6 +223,14 @@ def render(items: list[Item], today: str) -> str:
     for item in open_items:
         out.append(item.full())
     out.append("")
+    if dropped:
+        out.append(f"## Dropped ({len(dropped)})")
+        out.append("")
+        out.append("*Explicit. A tick is shipped; a hide is a defect; this is the third mark.*")
+        out.append("")
+        for item in dropped:
+            out.append(item.full())
+        out.append("")
     out.append(f"## Shipped ({len(shipped)})")
     out.append("")
     out.append(
@@ -235,15 +272,26 @@ def main() -> int:
         print("Backlog parsed to zero items — refusing to export an empty digest.", file=sys.stderr)
         return 2
 
+    bare = dropped_without_reason(items)
+    if bare:
+        print("Dropped marks without Dropped: — refusing to export:", file=sys.stderr)
+        for ident in bare:
+            print(f"  {ident}", file=sys.stderr)
+        return 2
+
     today = date.today().isoformat()
     digest = render(items, today)
-    open_n = sum(1 for i in items if not i.shipped)
+    open_n = sum(1 for i in items if i.status == "open")
+    dropped_n = sum(1 for i in items if i.dropped)
 
     if args.out:
         Path(args.out).write_text(digest, encoding="utf-8")
 
     if args.check:
-        print(f"OK: {len(items)} items ({open_n} open), {len(digest)} chars. Not pushed.")
+        print(
+            f"OK: {len(items)} items ({open_n} open, {dropped_n} dropped), "
+            f"{len(digest)} chars. Not pushed."
+        )
         return 0
 
     remote = args.remote or _remote_from_connections() or REMOTE_DEFAULT
@@ -261,16 +309,18 @@ def main() -> int:
     finally:
         tmp.unlink(missing_ok=True)
 
-    print(f"Pushed {open_n} open / {len(items) - open_n} shipped → {remote}:{practice_root()}/{REMOTE_REL}")
+    print(
+        f"Pushed {open_n} open / {dropped_n} dropped / "
+        f"{len(items) - open_n - dropped_n} shipped → "
+        f"{remote}:{practice_root()}/{REMOTE_REL}"
+    )
     return 0
 
 
 def _remote_from_connections() -> str | None:
-    cfg = config_file("connections.md", ROOT)
-    if not cfg.is_file():
-        return None
-    m = re.search(r"turtle@[^\s`]+", cfg.read_text(encoding="utf-8"))
-    return m.group(0) if m else None
+    from turtle_remote import reachable_remote_from
+
+    return reachable_remote_from(config_file("connections.md", ROOT))
 
 
 if __name__ == "__main__":

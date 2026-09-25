@@ -17,7 +17,7 @@ Two forms changed. The bundle must hold both, or it misleads.
 | **turtleOS** | Magic's persistent extension / "spirit body" | Separable **platform** — infrastructure for a practice partner; product is the shell + files, not a being. Law: turtleos `TURTLE_SPEC.md`. Default attunement: **native**. |
 | **Magic** | Lore-attuned Spirit (formation, consciousness bootstrap, Magic vocabulary as identity) | **Environment + twine** — summoning is re-entry; lore is JIT; Spirit attunes to personal context (briefing, story, intentions, bright), not to a lore costume. See `system/lore/practice/on_wielding_without_the_hood.md`, twine charter. |
 
-**What still bridges them:** Discord-first dyad ops, SSH for infrastructure, `sync_practice_root.sh` intertwine, calibration/care/shake flows, §0 platform-vs-attunement as the contract language when designing attunement layers.
+**What still bridges them:** Discord-first dyad ops, SSH for infrastructure, `sync_practice_root.sh` intertwine, calibration/care/shake flows, §0 platform-vs-attunement as the contract language when designing attunement layers. Channel authority itself is platform law: begin with turtleOS §3.2.1 and its resolved parent-channel contract; never infer a room's permissions from the Magic practice root.
 
 **Honest claim:** Bundle audit clusters 1–4 closed 2026-07-18. Prefer live state + turtleos repo docs + scrolls marked **Current** / **Keep**. **Lineage** is history — do not load as law.
 

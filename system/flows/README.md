@@ -12,7 +12,7 @@ Spirit pattern-matches dialogue and offers a flow when need↔magic is clear —
 
 | Signal | Offer |
 |--------|--------|
-| Design / build / craft | `@craft/` |
+| Stuck in a making / new domain / asks for design structure | `@craft/` (novice doorway — not offered on every build/design mention; recalibrated 2026-09-01) |
 | Executive overwhelm / quest shape | `@quest/` |
 | Partnership / shared-reality work | `@partnership/` · romantic-partnership bundle when intimate |
 | Mirror / reflection / Mage-carried action | `@mirror/` or `. mirror` at arrival |
@@ -23,7 +23,7 @@ Spirit pattern-matches dialogue and offers a flow when need↔magic is clear —
 | Unformed intention | `@intend` (only when signal strong) |
 | Signal curation / resonance drops | `@resonate` / `@outfacing` |
 | Portable prompt for someone else | `@flow/create prompt` |
-| Sunday / tending energy | `. maintenance` (optional: `magic` / `turtleOS`); legacy `@sunday` → comprehensive |
+| Named stance / effort-as-misalignment / “what prevents this” | load the `practice` scroll (`on_wu_wei`, `on_the_next_right_thing`) — not a flow |
 | Re-orientation | Fresh: summon → `.` · Mid-session: `@arrive` |
 | Session end | `@release` |
 | Triad / Turtle perspective needed | `@consult-turtle` |
@@ -89,6 +89,7 @@ The suffix tells you where it runs:
 | `intend/` | `@intend` | Formalize vague desire into clear intention |
 | `intention-audit/` | `@intention-audit` · `@audit` | Review the whole intention landscape efficiently — Spirit reads + does archaeology, Mage gives felt-sense verdicts (stands/revise/dormant/release/merge) |
 | `meaning-crisis/` | `@thread` | Surface your primary question, answer it genuinely, chronicle the decision |
+| `mail-intake/` | `@mail-intake` | Read-only, grant-bounded practice deltas from email; automatic on configured craft arrivals |
 
 ### Development
 
@@ -108,8 +109,9 @@ The suffix tells you where it runs:
 | `release/` | `@release` | Close a session — reflect, update intentions, crystallize threads, enable resumption |
 | `arrive/` | `@arrive` | Mid-session Arrival — inherited karma + decision surface without summoning |
 | `recenter/` | `@recenter` | The breath between cycles — return to center |
-| `maintenance/` | `. maintenance` · `@sunday` | Calendar-free workshop + platform tending at arrival |
+| `maintenance/` | `. maintenance` · `@sunday` | Outcome contract (F-82) — live instance or published product |
 | `sunday/` | `@sunday` | Alias → comprehensive `. maintenance` |
+| `model/` | `. model` · `@model` | The occasion of a new model — cold probes against the record, falsifier run, re-ablation; the practice measures the substrate instead of guessing |
 
 ### Workshop Maintenance
 
@@ -141,7 +143,7 @@ The suffix tells you where it runs:
 
 | Flow | Invocation | Purpose |
 |------|-----------|---------|
-| `craft/` | `@craft` | Design-thinking ritual sequence — empathize → define → ideate → prototype → test, plus design lore |
+| `craft/` | `@craft` | Design rite for the unpracticed hand (empathize → define → ideate → prototype → test) plus design lore; practiced default is emergence under verification — see the flow README |
 | `mirror/` | `@mirror` | Reflection procedures — reflect, capture, interview, excavation suite (the mirror posture's toolkit) |
 | `partnership/` | `@partnership` | Shared-reality-model practice for human partnerships — arc procedures, templates, partnership lore |
 | `quest/` | `@quest` | Intention execution support — structural scaffolding, navigation, ADHD-attuned design |
@@ -152,7 +154,7 @@ The suffix tells you where it runs:
 
 | Flow | Invocation | Purpose |
 |------|-----------|---------|
-| `integrate/` | `@integrate` | After changes: systematically identify what else needs updating |
+| `integrate/` | `@integrate` | After changes or development: repair exposed remainder, propagate downstream, dispose every finding |
 | `coherence/` | `@coherence` | Fractal coherence check across Law, Wisdom, and Practice |
 | `sanitize/` | `@sanitize` | Privacy scan of public artifacts before sharing |
 | `tend/` | `@tend` | Delegate maintenance sweeps to background agents |

@@ -30,7 +30,8 @@ Arrival-led practice is the default rhythm after summoning when the Mage wants t
 - `desk/notes/`
 - recent workshop state
 - Turtle sessions, proposals, Discord activity, and health when Turtle is in play
-- portals or circles when relevant
+- a shared git when a second disk is in play (`on_shared_context.md`)
+- Forge/Anvil session transcripts as ground truth (Mini personal archive; not arrival load)
 
 **Pattern:**
 

@@ -70,6 +70,8 @@ This is the Mage's personal configuration. Tell them what it does (briefly or th
 
 ### 2a. Optional Turtle/triad configuration
 
+This is for the Mage who **hosts** a Turtle. A Mage who practises with a Turtle someone else hosts needs only 2c.
+
 If the Mage wants Discord/Turtle/SSH integration, create the local connection file:
 
 ```bash
@@ -100,6 +102,22 @@ If they already have a public repo with history behind it:
 
 That reports what is actually retrievable from it today — private paths, credentials, addresses, names — rather than what the working tree suggests.
 
+### 2c. Their Turtle, if they have one
+
+Some Mages already practise with a Turtle on turtleOS — on Discord, often hosted on someone else's machine. That Turtle holds context they have accumulated there, and turtleOS exposes it over MCP. The server explains itself; no setup file is needed beyond the connection.
+
+**Check first.** Is a `turtleos` MCP server connected in this client? If yes, read `turtleos://brief` and tell them, in a sentence, what it reaches. Done.
+
+**If they have a Turtle but no connection**, offer to set it up — it takes about ten minutes, and it is optional. Ask before installing anything.
+
+1. **Tailscale** — the private network the Turtle lives on. With their permission, install it (macOS: `brew install --cask tailscale`, or the App Store; otherwise tailscale.com/download). *They* sign in, with their own account; never ask for, see, or type their password.
+2. **The host shares the machine** with their Tailscale account (Tailscale admin → Machines → Share). They accept the share link. They keep their own tailnet; nobody joins anyone else's.
+3. **The host offers the connection.** It appears in their own river on Discord with a **Connect** button. They press it **on this computer** — the key appears there, only to them.
+4. **They paste the key themselves**: Cursor → Settings → MCP → New MCP Server, into the file that opens. **Not into this chat.** Chats are stored, and a key in a transcript is a key someone else can read. Do not offer to do this step for them, and if they paste the key into chat anyway, the key is spent: the host revokes it and offers a new connection.
+5. **Reload the MCP server**, then read `turtleos://brief` and report what the connection reaches — or what is wrong, in plain words.
+
+The connection is read-only, works only from this computer, and expires after 30 days; renewal is another Connect in their river.
+
 ### 3. Running in Agent mode
 
 The chat must be in Agent mode (not Chat or Edit mode). New users may need help finding this. Experienced users probably already have it set.
@@ -129,11 +147,11 @@ This is deliberate. Don't perform the summoning autonomously — teach the Mage 
 > @system/flows/summon/
 > ```
 >
-> This begins the summoning — I'll read the covenant (who we are to each other) and declare readiness. Then you type `.` and I'll perform the Arrival Sequence: gathering your practice state and preparing a surface for where to start. The whole thing takes a few minutes."
+> This begins the summoning — I'll read the covenant (who we are to each other) and declare readiness. Then you type `...` for a glance at where you are and a plan. Type `.` when that plan landed — that is go, not arrival."
 
 Adapt the framing to their level — a new user needs more context about what's about to happen; an experienced user just needs the invocation.
 
-**What happens next:** When the Mage sends the invocation, execute the summoning as described in `system/flows/summon/cast_summon.md` (covenant → posture menu → `.` runs Arrival, or any other first message begins without arrival). During the covenant phase, explicitly read `AGENTS.md` for the Mage's Seal — it was created earlier in this chat and won't be auto-loaded as workspace rules. A deep three-cycle variant exists at `system/tomes/summoning/` (`@summon deep`) for occasions that warrant it; the flow is the default.
+**What happens next:** When the Mage sends the invocation, execute the summoning as described in `system/flows/summon/cast_summon.md` (covenant → the pair → `...` is arrival, `.` is go, or any other first message begins without arrival). During the covenant phase, explicitly read `AGENTS.md` for the Mage's Seal — it was created earlier in this chat and won't be auto-loaded as workspace rules. A deep three-cycle variant exists at `system/tomes/summoning/` (`@summon deep`) for occasions that warrant it; the flow is the default.
 
 ---
 
@@ -141,15 +159,15 @@ Adapt the framing to their level — a new user needs more context about what's 
 
 Once summoning completes, the Mage should have a **working environment** and one successful interaction — not a Spirit that has read the entire lore corpus.
 
-1. **Confirm the environment** — `AGENTS.md` exists, workspace root is correct, they know the dot (`.`) continues prepared work
-2. **Offer `@arrive`** or proceed to `Summon` → `.` for situational awareness (the workspace is new, so inherited karma may be thin)
+1. **Confirm the environment** — `AGENTS.md` exists, workspace root is correct, they know the pair: `...` glances, `.` goes, and Spirit names it when that plan is finished
+2. **Offer `@arrive`** or `...` for situational awareness (the workspace is new, so inherited karma may be thin). `.` sanctions a glance; it does not arrive.
 3. **Get something done (the product loop)** — Magic is for getting things done with AI, not only for reflecting. Teach this path early:
 
 ```
 @system/flows/intend/
 ```
 
-   Or just say what they want done and ask to formalize it. Spirit runs `@intend`: clear statement → optional goals → file under `desk/intentions/`. Next session they can type `.` and name that intention (or `@quest` / craft when ready to execute). They learn intentions by *using* them on real work — not by reading lore.
+   Or just say what they want done and ask to formalize it. Spirit runs `@intend`: clear statement → optional goals → file under `desk/intentions/`. Next session they can type `... [intention]` for a plan, or `. [intention]` to drive on it. They learn intentions by *using* them on real work — not by reading lore.
 4. **Optional starter intentions** — if they have no live goal yet, offer:
    - **Learn the Basics** — guided exploration (wield first; depth on demand)
    - **Workshop Setup** — git, fork, model preferences

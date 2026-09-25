@@ -21,5 +21,5 @@ The 2025 “operating system for consciousness” README is at `archive/system/R
 | `library/` | What another Mage would run. |
 | `desk/` | This Mage’s instance — the week, `config/`, `lore/`. |
 | `archive/` | Retired method and lore. |
-| `scripts/` | Instruments. Stay at root. |
+| `scripts/` | The Spirit's toolbox — deterministic tools for guards, measures, transforms. Index: `scripts/README.md`. Stay at root. |
 | `circles/` · `portals/` | Habitats. Method: `flows/circle/`, `flows/portal/`. |
