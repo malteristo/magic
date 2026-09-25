@@ -111,12 +111,12 @@ Some Mages already practise with a Turtle on turtleOS — on Discord, often host
 **If they have a Turtle but no connection**, offer to set it up — it takes about ten minutes, and it is optional. Ask before installing anything.
 
 1. **Tailscale** — the private network the Turtle lives on. With their permission, install it (macOS: `brew install --cask tailscale`, or the App Store; otherwise tailscale.com/download). *They* sign in, with their own account; never ask for, see, or type their password.
-2. **The host shares the machine** with their Tailscale account (Tailscale admin → Machines → Share). They accept the share link. They keep their own tailnet; nobody joins anyone else's.
-3. **The host offers the connection.** It appears in their own river on Discord with a **Connect** button. They press it **on this computer** — the key appears there, only to them.
-4. **They paste the key themselves**: Cursor → Settings → MCP → New MCP Server, into the file that opens. **Not into this chat.** Chats are stored, and a key in a transcript is a key someone else can read. Do not offer to do this step for them, and if they paste the key into chat anyway, the key is spent: the host revokes it and offers a new connection.
-5. **Reload the MCP server**, then read `turtleos://brief` and report what the connection reaches — or what is wrong, in plain words.
+2. **The host lets this computer reach the Turtle** — shares the machine with their Tailscale account, unless they are already in the host's network — and records which Tailscale account is theirs.
+3. **The host offers the connection.** A **Connect** button appears in their own private channel on Discord. They press it; the reply says what to tell you, for example *"Connect me to turtleOS: https://… — with scripts/turtleos_connect.py"*.
+4. **Run the tool with that address**: `python3 scripts/turtleos_connect.py <address>`. turtleOS hands the key only to their own Tailscale account, within 15 minutes of the press, and the tool writes it straight into Cursor's MCP settings. Nobody sees the key — not them, not you. **Never fetch the address any other way** (no `curl`, no browser): the answer contains the key, and a key in a chat is a key in a stored transcript. If the tool says there is nothing to pick up, they press Connect again.
+5. **Switch it on**: Cursor → Settings → MCP → `turtleos`. Then read `turtleos://brief` and report what the connection reaches — or what is wrong, in plain words.
 
-The connection is read-only, works only from this computer, and expires after 30 days; renewal is another Connect in their river.
+The connection is read-only, works only from this computer, and expires after 30 days; renewal is another Connect in their private channel.
 
 ### 3. Running in Agent mode
 

@@ -55,6 +55,7 @@ Everything else is `.md`. When a rule could be a sentence, it is a sentence. Whe
 |------|-------------------|
 | `backup_magic_snapshot.sh` | Weekly tending: a comfort snapshot of the workshop. |
 | `disable_obsidian_livesync.sh` | Obsidian LiveSync is fighting git; turn it off without opening Obsidian. |
+| `turtleos_connect.py` | The Mage pressed Connect in their private channel and says *connect me to turtleOS: <address>* — writes the key straight into Cursor's MCP settings. Never prints it. |
 
 **Parts** (called by tools, not reached for directly): `workshop_paths.py`, `workshop_paths.sh`.
 
