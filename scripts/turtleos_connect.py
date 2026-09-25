@@ -21,6 +21,8 @@ import tempfile
 from pathlib import Path
 
 DEFAULT_CONFIG = Path.home() / ".cursor" / "mcp.json"
+# turtleOS hands the key only to a request naming this tool, so a hand-made one cannot print it.
+CLIENT = "connect-tool"
 
 NOTHING = (
     "Nothing to pick up. Press Connect (Verbinden) in your private channel, "
@@ -34,7 +36,8 @@ NO_IDENTITY = (
 
 def fetch(base: str) -> tuple[int, str]:
     r = subprocess.run(
-        ["curl", "-sS", "-m", "20", "-X", "POST", "-o", "-", "-w", "\n%{http_code}", f"{base}/connect"],
+        ["curl", "-sS", "-m", "20", "-X", "POST", "-H", f"X-Turtleos-Client: {CLIENT}",
+         "-o", "-", "-w", "\n%{http_code}", f"{base}/connect"],
         capture_output=True,
         text=True,
     )
@@ -90,6 +93,9 @@ def main(argv: list[str] | None = None) -> int:
         return 1
     if code == 403:
         print(NO_IDENTITY)
+        return 1
+    if code == 400:
+        print("turtleOS did not recognise this tool; update the workshop (renewal) and try again. Nothing was spent.")
         return 1
     if code != 200:
         print(f"turtleOS answered {code}; nothing was written.")
