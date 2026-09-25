@@ -94,6 +94,10 @@ def main(argv: list[str] | None = None) -> int:
     if code == 403:
         print(NO_IDENTITY)
         return 1
+    if code == 409:
+        print("Your Tailscale account is not linked to your turtleOS yet. Ask whoever hosts your Turtle "
+              "to link it; pressing Connect again will not help until then.")
+        return 1
     if code == 400:
         print("turtleOS did not recognise this tool; update the workshop (renewal) and try again. Nothing was spent.")
         return 1
